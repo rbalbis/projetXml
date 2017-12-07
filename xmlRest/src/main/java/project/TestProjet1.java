@@ -10,7 +10,7 @@ public class TestProjet1 {
 	@GET
 	@Produces("text/plain")
 	public String getXml() {
-		return "boujour";
+		return "bonjour Robin";
 	}
 
 }
