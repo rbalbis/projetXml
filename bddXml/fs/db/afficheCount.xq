@@ -1,6 +1,6 @@
 xquery version "3.1";
 
-import module namespace proj = "http://raweb.inria.fr/" at "file:///Users/balbis/PROJETS/projetXml/projetXml/fs/db/countperso.xq"; 
+import module namespace proj = "http://raweb.inria.fr/" at "file:///Users/balbis/PROJETS/projetXml/bddXml/fs/db/countperso.xq"; 
  
 import module namespace rqt = "http://exist-db.org/xquery/request";
 
