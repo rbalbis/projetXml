@@ -66,11 +66,35 @@
 				<version>0.13.1</version>
 				<executions>
 					<execution>
-						<goals>
-							<goal>generate</goal>
-						</goals>
+						
+			<id>a</id>
+			<phase>generate-sources</phase>
+			<goals>
+				<goal>generate</goal>
+			</goals>
+			<configuration>
+				<schemaDirectory>src/main/resources/sr</schemaDirectory>						
+				<generatePackage>org.inria.fr.ns.sr</generatePackage>
+				<generateDirectory>src/main/java</generateDirectory>
+			</configuration>
+		
+					</execution>
+					<execution>
+						
+			<id>b</id>
+			<phase>generate-sources</phase>
+			<goals>
+				<goal>generate</goal>
+			</goals>
+			<configuration>
+				<schemaDirectory>src/main/resources/cr</schemaDirectory>						
+				<generatePackage>org.inria.fr.ns.cr</generatePackage>
+				<generateDirectory>src/main/java</generateDirectory>
+			</configuration>
+		
 					</execution>
 				</executions>
+				
 				 
 			</plugin>
 		</plugins>
