@@ -37,7 +37,7 @@ public class HUCManager {
 
 	public String getMessage() throws IOException {
 		
-		System.out.println();
+		
 	
 	BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 	String line;

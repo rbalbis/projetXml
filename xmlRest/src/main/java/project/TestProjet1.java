@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -31,20 +33,21 @@ public class TestProjet1 {
 	 */
 	@Path("afficheCount-{projet}")
 	@GET
-	@Produces(MediaType.TEXT_HTML)
+	@Produces(MediaType.APPLICATION_XML)
 	public String getXml(@PathParam("projet") String projet) {
 			try {
-				HttpURLConnection conn = GetRequest.request("http://localhost:8088/exist/rest/afficheCount.xq?proj="+projet);
+				
+				HttpURLConnection conn = GetRequest.request("http://localhost:8088/exist/rest/afficheCount.xq?proj=ACACIA");
 				HUCManager huc = new HUCManager(conn);
-				return huc.getMessage();
+				String res = huc.getMessage();
+				System.out.println(res);
+				return res;
 			} catch (IOException e) {
 				System.err.println("Probleme connection base de donnee, tentative de connection a : \" http://localhost:8088/exist/rest/afficheCount.xq?proj="+ projet + "\"");
 				e.printStackTrace();
 			}
-			return "FAILED";
-			
-			
+			return projet;
+				
 	}
 			
-
 }

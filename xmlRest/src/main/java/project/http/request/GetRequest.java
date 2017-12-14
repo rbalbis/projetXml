@@ -3,6 +3,8 @@ package project.http.request;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 
 public class GetRequest {
 
@@ -21,11 +23,12 @@ public class GetRequest {
 
 		URL url = new URL(urlString);
 		System.out.println(url);
+		
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		String encoded = Base64.getEncoder().encodeToString(("javarest"+":"+"1234").getBytes(StandardCharsets.UTF_8));  //Java 8
+		conn.setRequestProperty("Authorization", "Basic "+encoded);
 		conn.setRequestMethod("GET");
 		return conn;
 
 	}
-
-
 }
