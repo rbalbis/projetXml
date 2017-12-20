@@ -1,9 +1,6 @@
 package project.dataflow;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.HttpURLConnection;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -13,8 +10,6 @@ import org.inria.fr.ns.sr.Entite;
 import org.inria.fr.ns.sr.StructureInrias;
 import org.inria.fr.ns.sr.Structureinria;
 
-import project.http.request.GetRequest;
-import project.http.request.HUCManager;
 import utils.ScheduleUpdate;
 
 

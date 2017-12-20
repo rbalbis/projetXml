@@ -1,11 +1,7 @@
 package project;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.nio.charset.StandardCharsets;
-import java.util.Base64;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -15,6 +11,7 @@ import javax.ws.rs.core.MediaType;
 
 import project.http.request.GetRequest;
 import project.http.request.HUCManager;
+
 
 @Path("xquery")
 public class TestProjet1 {
