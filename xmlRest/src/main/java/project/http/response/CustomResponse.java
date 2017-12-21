@@ -5,7 +5,7 @@ import javax.ws.rs.core.Response.Status;
 
 public class CustomResponse {
 
-	public static Response xml(Object objectARetourner){
+	public static Response xml(String objectARetourner){
 		
 		return Response
 			 .status(Status.OK)
