@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projet XML</title>
+
+        <!-- jquery -->  
+        <script src="assets/bootstrap/js/jquery.min.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css"/>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- leaflet -->
+        <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+        <script src="assets/leaflet/leaflet.js"></script>
+
+        <!-- Style personnalisé -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <!-- DataTest -->
+        <script src="test/DataTest.js"></script>
+
+        <!-- Utilitaire JSON -->
+        <script src="utils/Json.js"></script>
+
+        <!-- Utilitaire Regex -->
+        <script src="utils/Regex.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Projet XML</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Accueil</a></li>
+              <li><a href="#">Statistiques</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+        <div id="map"></div>
+        
+        <div class="container">
+            <br>
+            <div class="form-group">
+                <label for="cr"><h3>Les centres de recherche :</h3></label>
+                <select class="form-control" id="cr" onchange="generateTableCR(value)";>
+                    <option disabled selected value> -- Selectionnez un centre -- </option>
+                </select>
+            </div>
+
+            <h3 id="titreResponsableTab"></h3>     
+            <table class="table" id="responsableTab"></table>
+
+            <br>
+            <h2>Statistiques</h2>
+            <h4>Nombre de projets par centre</h4>
+            <table class="table" id="projetsCr">
+                <thead>
+                    <tr>
+                        <th>Siid</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <script>
+
+            /* Génération de la map leaflet (positionné sur la France) */
+            var map = L.map('map').setView(new L.LatLng(46.85, 2.3518),6);
+            mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+            L.tileLayer(
+                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; ' + mapLink + ' Contributors',
+                maxZoom: 18,
+            }).addTo(map);
+
+            /* Recupération des centres de recherches*/
+            var CRs = DataTest.getCR();
+            var projets = DataTest.getNbrProjetParCentre();
+            console.log(projets);
+            console.log(CRs);
+
+            for (var i in CRs.cr) {
+                /* Ajout de points centre de recherche sur la map */
+                var longitude = CRs.cr[i].adressegeographique.longitude;
+                var latitude = CRs.cr[i].adressegeographique.latitude;
+                var adresseComplete = CRs.cr[i].libelle + " || " + CRs.cr[i].adressegeographique.cp + " || " + CRs.cr[i].adressegeographique.adresse;
+                var adressePopup = replaceAll(adresseComplete, "||", "</br>");
+
+                /* Ajout dans la combobox des centres de recherche */
+                var comboBoxCR = document.getElementById("cr");
+                var option = document.createElement("option");
+                option.text = adresseComplete;
+                option.value = i;
+                comboBoxCR.add(option);
+
+                if (longitude !== 0 && latitude !== 0)  {
+
+                    marker = new L.marker([latitude,longitude])
+                    .bindPopup(adressePopup)
+                    .addTo(map);
+
+                }else{
+                    /* Si la position du centre de recherche est inconnu, on utilise l'API google */
+                    /* On garde en mémoire l'adresse du popup dans une variable (probleme de scope) */
+                    var p = adressePopup;
+                    getJsonFromURL('http://maps.googleapis.com/maps/api/geocode/json?address='+CRs.cr[i].adressegeographique.adresse+'&sensor=false',
+                    function(err, data) {
+                      if (err == null) {
+                        longitude = data.results[0].geometry.location.lng;
+                        latitude = data.results[0].geometry.location.lat;
+                        marker = new L.marker([latitude,longitude])
+                        .bindPopup(p)
+                        .addTo(map);
+                      }
+                    });
+
+                }
+                
+            }
+
+            generateTableProjets();
+
+            function generateTableCR(idOption)
+            {
+                /* Vide le tableau */
+                document.getElementById("responsableTab").innerHTML = "";
+
+                //Maj du titre du tableau
+                document.getElementById("titreResponsableTab").innerHTML = "Responsables du centre (siid : " + CRs.cr[idOption].siid + ")";
+
+                /*Generation du thead du tableau*/
+                var table = document.getElementById("responsableTab");
+
+                var tHead = document.createElement("thead");
+                table.appendChild(tHead);
+
+                var tr = document.createElement("tr");
+                tHead.appendChild(tr);
+
+                /*Les nom des colonnes sont en dur, a modifier*/
+                var th1 = document.createElement("th");
+                th1.innerHTML = "IdGef";
+
+                var th2 = document.createElement("th");
+                th2.innerHTML = "Nom";
+
+                var th3 = document.createElement("th");
+                th3.innerHTML = "Prenom";
+
+                var th4 = document.createElement("th");
+                th4.innerHTML = "Fonction";
+
+                tr.appendChild(th1);
+                tr.appendChild(th2);
+                tr.appendChild(th3);
+                tr.appendChild(th4);
+
+
+                /* Génération du tbody du tableau */
+                var tBody = document.createElement("tbody");
+                table.appendChild(tBody);
+
+                for (var i in CRs.cr[idOption].responsable) 
+                {
+                    tBody.appendChild(document.createElement("tr"));
+                    var tr = tBody.getElementsByTagName("tr")[i];
+
+                    var id = document.createElement("td");
+                    id.innerHTML = CRs.cr[idOption].responsable[i].personne.gefid;
+
+                    var nom = document.createElement("td");
+                    nom.innerHTML = CRs.cr[idOption].responsable[i].personne.nom;
+
+                    var prenom = document.createElement("td");
+                    prenom.innerHTML = CRs.cr[idOption].responsable[i].personne.prenom;
+
+                    var fonction = document.createElement("td");
+                    fonction.innerHTML = CRs.cr[idOption].responsable[i].fonction;
+
+                    tr.appendChild(id);
+                    tr.appendChild(nom);
+                    tr.appendChild(prenom);
+                    tr.appendChild(fonction);
+                }
+            }
+
+            function generateTableProjets()
+            {
+                var table = document.getElementById("projetsCr");
+                var tBody = document.createElement("tbody");
+                table.appendChild(tBody);
+                for (var i = 0; i < Object.keys(projets).length; i++)
+                {
+
+                    var tr = document.createElement("tr");
+                    tBody.appendChild(tr);
+
+                    var siid = document.createElement("td");
+                    siid.innerHTML = Object.keys(projets)[i];
+
+                    var nbProject = document.createElement("td");
+                    nbProject.innerHTML = projets[Object.keys(projets)[i]];
+
+                    tr.appendChild(siid);
+                    tr.appendChild(nbProject);
+                }
+            }
+        </script>    
+    </body>
+</html>
