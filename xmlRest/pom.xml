@@ -79,7 +79,14 @@
 				<goal>generate</goal>
 			</goals>
 			<configuration>
-				<schemaDirectory>src/main/resources/sr</schemaDirectory>						
+				<schemaDirectory>src/main/resources/sr</schemaDirectory>
+				<schemaIncludes>
+                    <include>bastri.xsd</include>
+                </schemaIncludes>
+				<bindingDirectory>src/main/resources/sr</bindingDirectory>
+                <bindingIncludes>
+                    <include>bastri.xjb</include>
+                </bindingIncludes>						
 				<generatePackage>org.inria.fr.ns.sr</generatePackage>
 				<generateDirectory>src/main/java</generateDirectory>
 			</configuration>
@@ -93,7 +100,14 @@
 				<goal>generate</goal>
 			</goals>
 			<configuration>
-				<schemaDirectory>src/main/resources/cr</schemaDirectory>						
+				<schemaDirectory>src/main/resources/cr</schemaDirectory>
+				<schemaIncludes>
+                    <include>bastriCris.xsd</include>
+                </schemaIncludes>
+				<bindingDirectory>src/main/resources/cr</bindingDirectory>
+                <bindingIncludes>
+                    <include>bastriCris.xjb</include>
+                </bindingIncludes>						
 				<generatePackage>org.inria.fr.ns.cr</generatePackage>
 				<generateDirectory>src/main/java</generateDirectory>
 			</configuration>
