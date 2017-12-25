@@ -20,8 +20,6 @@ import org.inria.fr.ns.cr.Crs.Cr.Adressegeographique;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import project.http.response.CustomResponse;
-import utils.MakeXml;
 
 @Path("cr")
 public class CentreRechercheManager {
