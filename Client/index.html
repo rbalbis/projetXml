@@ -66,6 +66,10 @@
                     </tr>
                 </thead>
             </table>
+
+            <svg width="200" height="200">
+                <circle cx="100" cy="100" r="50">
+            </svg>
         </div>
 
         <script>
@@ -82,14 +86,22 @@
             /* Recupération des centres de recherches*/
             var CRs = DataTest.getCR();
             var projets = DataTest.getNbrProjetParCentre();
+            
             console.log(projets);
             console.log(CRs);
 
-            for (var i in CRs.cr) {
+            /* Fonction permettant de recuperer l'id du popup et d'afficher les réponsables */
+            var onMarkerClick = function(e){
+                $("#cr").val(this.options.idMarker);
+                generateTableCR(this.options.idMarker);
+            }
+
+            for (var i in CRs) {
+
                 /* Ajout de points centre de recherche sur la map */
-                var longitude = CRs.cr[i].adressegeographique.longitude;
-                var latitude = CRs.cr[i].adressegeographique.latitude;
-                var adresseComplete = CRs.cr[i].libelle + " || " + CRs.cr[i].adressegeographique.cp + " || " + CRs.cr[i].adressegeographique.adresse;
+                var longitude = CRs[i].adressegeographique.longitude;
+                var latitude = CRs[i].adressegeographique.latitude;
+                var adresseComplete = CRs[i].libelle + " || " + CRs[i].adressegeographique.cp + " || " + CRs[i].adressegeographique.adresse;
                 var adressePopup = replaceAll(adresseComplete, "||", "</br>");
 
                 /* Ajout dans la combobox des centres de recherche */
@@ -101,22 +113,22 @@
 
                 if (longitude !== 0 && latitude !== 0)  {
 
-                    marker = new L.marker([latitude,longitude])
-                    .bindPopup(adressePopup)
-                    .addTo(map);
+                    marker = new L.marker([latitude,longitude], {idMarker: CRs[i].siid})
+                    .bindPopup(adressePopup).on('click', onMarkerClick).addTo(map); 
 
                 }else{
                     /* Si la position du centre de recherche est inconnu, on utilise l'API google */
                     /* On garde en mémoire l'adresse du popup dans une variable (probleme de scope) */
                     var p = adressePopup;
-                    getJsonFromURL('http://maps.googleapis.com/maps/api/geocode/json?address='+CRs.cr[i].adressegeographique.adresse+'&sensor=false',
+                    var siid = CRs[i].siid;
+                    getJsonFromURL('http://maps.googleapis.com/maps/api/geocode/json?address='+CRs[i].adressegeographique.adresse+'&sensor=false',
                     function(err, data) {
                       if (err == null) {
                         longitude = data.results[0].geometry.location.lng;
                         latitude = data.results[0].geometry.location.lat;
-                        marker = new L.marker([latitude,longitude])
+                        marker = new L.marker([latitude,longitude], {idMarker: siid})
                         .bindPopup(p)
-                        .addTo(map);
+                        .addTo(map).on('click', onMarkerClick); 
                       }
                     });
 
@@ -132,7 +144,7 @@
                 document.getElementById("responsableTab").innerHTML = "";
 
                 //Maj du titre du tableau
-                document.getElementById("titreResponsableTab").innerHTML = "Responsables du centre (siid : " + CRs.cr[idOption].siid + ")";
+                document.getElementById("titreResponsableTab").innerHTML = "Responsables du centre (siid : " + CRs[idOption].siid + ")";
 
                 /*Generation du thead du tableau*/
                 var table = document.getElementById("responsableTab");
@@ -166,28 +178,34 @@
                 var tBody = document.createElement("tbody");
                 table.appendChild(tBody);
 
-                for (var i in CRs.cr[idOption].responsable) 
+                for (var i in CRs[idOption].responsable) 
                 {
                     tBody.appendChild(document.createElement("tr"));
                     var tr = tBody.getElementsByTagName("tr")[i];
 
                     var id = document.createElement("td");
-                    id.innerHTML = CRs.cr[idOption].responsable[i].personne.gefid;
+                    id.innerHTML = CRs[idOption].responsable[i].personne.gefid;
 
                     var nom = document.createElement("td");
-                    nom.innerHTML = CRs.cr[idOption].responsable[i].personne.nom;
+                    nom.innerHTML = CRs[idOption].responsable[i].personne.nom;
 
                     var prenom = document.createElement("td");
-                    prenom.innerHTML = CRs.cr[idOption].responsable[i].personne.prenom;
+                    prenom.innerHTML = CRs[idOption].responsable[i].personne.prenom;
 
                     var fonction = document.createElement("td");
-                    fonction.innerHTML = CRs.cr[idOption].responsable[i].fonction;
+                    fonction.innerHTML = CRs[idOption].responsable[i].fonction;
 
                     tr.appendChild(id);
                     tr.appendChild(nom);
                     tr.appendChild(prenom);
                     tr.appendChild(fonction);
                 }
+            }
+
+            function linkSiid(siid)
+            {
+                $("#cr").val(siid);
+                generateTableCR(siid);
             }
 
             function generateTableProjets()
@@ -201,16 +219,24 @@
                     var tr = document.createElement("tr");
                     tBody.appendChild(tr);
 
+
+                    var a = document.createElement("a");
+                    a.setAttribute('href', 'javascript:linkSiid("'+Object.keys(projets)[i]+'")');
+
                     var siid = document.createElement("td");
                     siid.innerHTML = Object.keys(projets)[i];
 
                     var nbProject = document.createElement("td");
                     nbProject.innerHTML = projets[Object.keys(projets)[i]];
 
-                    tr.appendChild(siid);
+                    a.appendChild(siid);
+                    tr.appendChild(a);
                     tr.appendChild(nbProject);
                 }
             }
+
+
+            
         </script>    
     </body>
 </html>
