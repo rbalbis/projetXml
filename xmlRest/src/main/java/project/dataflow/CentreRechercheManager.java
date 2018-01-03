@@ -1,6 +1,7 @@
 package project.dataflow;
 
 import java.io.File;
+import java.util.HashMap;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -42,8 +43,11 @@ public class CentreRechercheManager {
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
 
 			Crs centreRecherche = (Crs) unmarshaller.unmarshal(new File("./src/main/resources/cr/bastriCris.xml"));
-
-			res += gson.toJson(centreRecherche);
+HashMap<String, Cr> hashcentre = new HashMap<String, Cr>();
+			for( Cr centre : centreRecherche.getCr()) {
+				hashcentre.put(centre.getAdressegeographique().getCri().getSiid(), centre);
+			}
+			res += gson.toJson(hashcentre);
 
 			// System.out.println("resultat ="+ res);
 			return res += "";

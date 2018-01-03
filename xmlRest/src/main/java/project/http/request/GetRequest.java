@@ -25,7 +25,7 @@ public class GetRequest {
 		System.out.println(url);
 		
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-		String encoded = Base64.getEncoder().encodeToString(("javarest"+":"+"1234").getBytes(StandardCharsets.UTF_8));  //Java 8
+		String encoded = Base64.getEncoder().encodeToString(("admin"+":"+"").getBytes(StandardCharsets.UTF_8));  //Java 8
 		conn.setRequestProperty("Authorization", "Basic "+encoded);
 		conn.setRequestMethod("GET");
 		return conn;
