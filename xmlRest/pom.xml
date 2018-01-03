@@ -76,9 +76,7 @@
 				
 				<configuration>
 					<webAppSourceDirectory>${project.build.directory}/${project.build.finalName}</webAppSourceDirectory>
-					<httpConnector>
-						<port>8088</port>
-					</httpConnector>
+					
 				</configuration>
 			</plugin>
 			<plugin>
@@ -128,6 +126,21 @@
 			</configuration>
 		
 					</execution>
+				<execution>
+						
+			<id>generationxquery</id>
+			<phase>generate-sources</phase>
+			<goals>
+				<goal>generate</goal>
+			</goals>
+			<configuration>
+				<schemaDirectory>src/main/resources/xquery</schemaDirectory>						
+				<generatePackage>jaxb.xquery</generatePackage>
+				<generateDirectory>src/main/java</generateDirectory>
+			</configuration>
+		
+					</execution>
+
 				</executions>
 				
 				 
