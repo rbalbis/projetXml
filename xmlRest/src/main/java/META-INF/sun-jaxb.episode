@@ -5,15 +5,18 @@
 Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
 Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-Généré le : 2018.01.03 à 05:40:56 PM CET 
+Généré le : 2018.01.04 à 07:35:36 PM CET 
 
   -->
   <jaxb:bindings if-exists="true" scd="x-schema::">
     <jaxb:schemaBindings map="false">
-      <jaxb:package name="org.inria.fr.ns.cr"/>
+      <jaxb:package name="jaxb.xquery"/>
     </jaxb:schemaBindings>
-    <jaxb:bindings if-exists="true" scd="crs">
-      <jaxb:class ref="org.inria.fr.ns.cr.Crs"/>
+    <jaxb:bindings if-exists="true" scd="AllMembers">
+      <jaxb:class ref="jaxb.xquery.AllMembers"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="projets">
+      <jaxb:class ref="jaxb.xquery.Projets"/>
     </jaxb:bindings>
   </jaxb:bindings>
 </jaxb:bindings>
