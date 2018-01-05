@@ -74,6 +74,7 @@ HashMap<String, Cr> hashcentre = new HashMap<String, Cr>();
 		Unmarshaller unmarshaller = jc.createUnmarshaller();
 
 		Crs centreRecherche = (Crs) unmarshaller.unmarshal(new File("./src/main/resources/cr/bastriCris.xml"));
+		
 		for (Cr cr : centreRecherche.getCr()) {
 			if (cr.getSiid().compareToIgnoreCase(siid) == 0) {
 				return cr;
@@ -111,4 +112,6 @@ HashMap<String, Cr> hashcentre = new HashMap<String, Cr>();
 		return "fail";
 
 	}
+	
+	
 }

@@ -26,99 +26,88 @@ import utils.ScheduleUpdate;
 @Path("xquery")
 public class RawebManager {
 
-		@Path("projectName")
-		@GET
-		@Produces(MediaType.APPLICATION_JSON)
-		public String listProject() {
-			JAXBContext jc;
-			final GsonBuilder builder = new GsonBuilder();
-		    final Gson gson = builder.create();
-			try {
-				HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/projects-name.xq");
-				HUCManager conn = new HUCManager(projectName);
-				jc = JAXBContext.newInstance("jaxb.xquery.projectsname");
-				String res = "";
-				Unmarshaller unmarshaller = jc.createUnmarshaller();
-				Projets sis = (Projets) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}
-				
-		
-					res += gson.toJson(sis);
-					
-				
-				
-				System.out.println("resultat ="+ res);
-				return res;
+	@Path("projectName")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String listProject() {
+		JAXBContext jc;
+		final GsonBuilder builder = new GsonBuilder();
+		final Gson gson = builder.create();
+		try {
+			HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/projects-name.xq");
+			HUCManager conn = new HUCManager(projectName);
+			jc = JAXBContext.newInstance("jaxb.xquery.projectsname");
+			String res = "";
+			Unmarshaller unmarshaller = jc.createUnmarshaller();
+			Projets sis = (Projets) unmarshaller.unmarshal(conn.getInputStream()); // retourne seulement
+																					// {"projet":"ZENITH"}
 
-			} catch (JAXBException | IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return "fail";
+			res += gson.toJson(sis);
 
+			return res;
+
+		} catch (JAXBException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
-		@Path("getMembers")
-		@GET
-		@Produces(MediaType.APPLICATION_JSON)
-		public String getMembers() {
-			JAXBContext jc;
-			final GsonBuilder builder = new GsonBuilder();
-		    final Gson gson = builder.create();
-			try {
-				HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/list-ALLmembers.xq");
-				HUCManager conn = new HUCManager(projectName);
-				jc = JAXBContext.newInstance("jaxb.xquery.members");
-				String res = "";
-				Unmarshaller unmarshaller = jc.createUnmarshaller();
-				AllMembers  sis = (AllMembers) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}
-				
-		
-					res += gson.toJson(sis);
-					
-				
-				
-				System.out.println("resultat ="+ res);
-				return res;
+		return "fail";
 
-			} catch (JAXBException | IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return "fail";
+	}
 
+	@Path("getMembers")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getMembers() {
+		JAXBContext jc;
+		final GsonBuilder builder = new GsonBuilder();
+		final Gson gson = builder.create();
+		try {
+			HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/list-ALLmembers.xq");
+			HUCManager conn = new HUCManager(projectName);
+			jc = JAXBContext.newInstance("jaxb.xquery.members");
+			String res = "";
+			Unmarshaller unmarshaller = jc.createUnmarshaller();
+			AllMembers sis = (AllMembers) unmarshaller.unmarshal(conn.getInputStream()); // retourne seulement
+																							// {"projet":"ZENITH"}
+
+			res += gson.toJson(sis);
+
+			return res;
+
+		} catch (JAXBException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
-		
-		/*@Path("getProject")
-		@GET
-		@Produces(MediaType.APPLICATION_JSON)
-		public String getProject() {
-			JAXBContext jc;
-			final GsonBuilder builder = new GsonBuilder();
-		    final Gson gson = builder.create();
-			try {
-				HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/db/raweb/abs.xml");
-				HUCManager conn = new HUCManager(projectName);
-				jc = JAXBContext.newInstance("jaxb.xquery");
-				String res = "";
-				Unmarshaller unmarshaller = jc.createUnmarshaller();
-				jaxb.xquery.Math sis = (jaxb.xquery.Math) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}
-				
-		
-					res += gson.toJson(sis);
-					
-				
-				
-				System.out.println("resultat ="+ res);
-				return res;
+		return "fail";
 
-			} catch (JAXBException | IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return "fail";
+	}
 
-		}
-		*/
-		
+	/*
+	 * @Path("getProject")
+	 * 
+	 * @GET
+	 * 
+	 * @Produces(MediaType.APPLICATION_JSON) public String getProject() {
+	 * JAXBContext jc; final GsonBuilder builder = new GsonBuilder(); final Gson
+	 * gson = builder.create(); try { HttpURLConnection projectName =
+	 * GetRequest.request("http://localhost:8088/exist/rest/db/raweb/abs.xml");
+	 * HUCManager conn = new HUCManager(projectName); jc =
+	 * JAXBContext.newInstance("jaxb.xquery"); String res = ""; Unmarshaller
+	 * unmarshaller = jc.createUnmarshaller(); jaxb.xquery.Math sis =
+	 * (jaxb.xquery.Math) unmarshaller.unmarshal(conn.getInputStream()); // retourne
+	 * seulement {"projet":"ZENITH"}
+	 * 
+	 * 
+	 * res += gson.toJson(sis);
+	 * 
+	 * 
+	 * 
+	 * System.out.println("resultat ="+ res); return res;
+	 * 
+	 * } catch (JAXBException | IOException e) { // TODO Auto-generated catch block
+	 * e.printStackTrace(); } return "fail";
+	 * 
+	 * }
+	 */
+
 }

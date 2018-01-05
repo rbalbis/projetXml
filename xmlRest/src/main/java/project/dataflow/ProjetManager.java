@@ -102,6 +102,48 @@ public class ProjetManager {
 		return "fail";
 	}
 	
+	
+
+	@Path("getProjectFromCr-{siidCr}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getProjectFromCrRest(@PathParam("siidCr") String siid) {
+
+		final GsonBuilder builder = new GsonBuilder();
+		final Gson gson = builder.create();
+		Cr cr;
+		JAXBContext jc;
+		HashMap<String, Structureinria> hash = new HashMap<>();
+		try {
+			jc = JAXBContext.newInstance("org.inria.fr.ns.sr");
+			String res = "";
+			Unmarshaller unmarshaller = jc.createUnmarshaller();
+			StructureInrias sis = (StructureInrias) unmarshaller.unmarshal(new File("./src/main/resources/sr/bastri.xml"));
+			List<Structureinria> listsis = sis.getStructureinria();
+			for (Structureinria structureinria : listsis) {
+				for(Entite entt : structureinria.getEntite()) {
+					if(entt.getAdressegeographique().getCri().getSiid().compareToIgnoreCase(siid) == 0) {
+						System.out.println(entt.getSigle());
+						hash.put(entt.getSigle(), structureinria);
+					}
+				}
+			}
+			
+			
+			
+			
+			res += gson.toJson(hash);
+
+			// System.out.println("resultat ="+ res);
+			return res;
+
+		} catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "fail";
+
+	}
 
 
 }
