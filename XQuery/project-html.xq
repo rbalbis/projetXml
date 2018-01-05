@@ -20,8 +20,8 @@ return element {QName("http://www.w3.org/1999/xhtml", "html")} {
                     return <tr>
                         { if ($i=1) then
                             (<td valign="top" rowspan="{ $persons }">{ string($project/shortname) }</td>,
-                            <td valign="top" rowspan="{ $persons }">{ $persons }</td>)
-                            else ()
+                            <td valign="top" rowspan="{ $persons }">{ count( $project/../team/person ) }</td>)
+                            else (<td>{string ("")}</td>,<td>{string ("")}</td>)
                         }
                         <td>{ string($p/firstname) }</td><td>{ string($p/lastname) }</td>
                     </tr>
