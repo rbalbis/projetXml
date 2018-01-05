@@ -18,7 +18,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import jaxb.xquery.members.AllMembers;
-import jaxb.xquery.projects.Projets;
+import jaxb.xquery.projectsname.Projets;
 import project.http.request.GetRequest;
 import project.http.request.HUCManager;
 import utils.ScheduleUpdate;
@@ -36,10 +36,10 @@ public class RawebManager {
 			try {
 				HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/projects-name.xq");
 				HUCManager conn = new HUCManager(projectName);
-				jc = JAXBContext.newInstance("jaxb.xquery");
+				jc = JAXBContext.newInstance("jaxb.xquery.projectsname");
 				String res = "";
 				Unmarshaller unmarshaller = jc.createUnmarshaller();
-				 Projets sis = (Projets) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}
+				Projets sis = (Projets) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}
 				
 		
 					res += gson.toJson(sis);
@@ -67,7 +67,7 @@ public class RawebManager {
 			try {
 				HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/list-ALLmembers.xq");
 				HUCManager conn = new HUCManager(projectName);
-				jc = JAXBContext.newInstance("jaxb.xquery");
+				jc = JAXBContext.newInstance("jaxb.xquery.members");
 				String res = "";
 				Unmarshaller unmarshaller = jc.createUnmarshaller();
 				AllMembers  sis = (AllMembers) unmarshaller.unmarshal(conn.getInputStream());  // retourne seulement {"projet":"ZENITH"}

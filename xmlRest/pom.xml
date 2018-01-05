@@ -13,15 +13,15 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
-	
-	
+
+
 	<repositories>
-  <repository>
-    <id>basex</id>
-    <name>BaseX Maven Repository</name>
-    <url>http://files.basex.org/maven</url>
-  </repository>
-</repositories>
+		<repository>
+			<id>basex</id>
+			<name>BaseX Maven Repository</name>
+			<url>http://files.basex.org/maven</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -38,18 +38,18 @@
 
 		</dependency>
 
-		<dependency>		
-		   <groupId>org.apache.fop.apps</groupId>
-		   <artifactId>fop</artifactId>
-		   <version>1.0</version>
-		    <scope>system</scope>
-		    <systemPath>${project.basedir}/src/main/resources/fop/fop.jar</systemPath>
+		<dependency>
+			<groupId>org.apache.fop.apps</groupId>
+			<artifactId>fop</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/fop/fop.jar</systemPath>
 		</dependency>
 
 		<dependency>
-    		<groupId>com.google.code.gson</groupId>
-    		<artifactId>gson</artifactId>
-    		<version>2.2.4</version>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.4</version>
 		</dependency>
 
 		<dependency>
@@ -58,33 +58,23 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!--  
-		<dependency> 
-			<groupId>log4j</groupId> 
-			<artifactId>log4j</artifactId> 
-			<version>1.2.17</version> 
-			<exclusions> 
-				<exclusion> 
-					<groupId>org.slf4j</groupId> 
-					<artifactId>slf4j-log4j12</artifactId> 
-				</exclusion> 
-			</exclusions> 
-		</dependency>
-		-->
-		
+		<!-- <dependency> <groupId>log4j</groupId> <artifactId>log4j</artifactId> 
+			<version>1.2.17</version> <exclusions> <exclusion> <groupId>org.slf4j</groupId> 
+			<artifactId>slf4j-log4j12</artifactId> </exclusion> </exclusions> </dependency> -->
+
 	</dependencies>
-	
+
 	<build>
-	<defaultGoal>jetty:run</defaultGoal>
+		<defaultGoal>jetty:run</defaultGoal>
 		<finalName>xml.rest</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
-				
+
 				<configuration>
 					<webAppSourceDirectory>${project.build.directory}/${project.build.finalName}</webAppSourceDirectory>
-					
+
 				</configuration>
 			</plugin>
 			<plugin>
@@ -93,65 +83,79 @@
 				<version>0.13.2</version>
 				<executions>
 					<execution>
-						
-			<id>a</id>
-			<phase>generate-sources</phase>
-			<goals>
-				<goal>generate</goal>
-			</goals>
-			<configuration>
-				<schemaDirectory>src/main/resources/sr</schemaDirectory>
-				<schemaIncludes>
-                    <include>bastri.xsd</include>
-                </schemaIncludes>
-				<bindingDirectory>src/main/resources/sr</bindingDirectory>
-                <bindingIncludes>
-                    <include>bastri.xjb</include>
-                </bindingIncludes>						
-				<generatePackage>org.inria.fr.ns.sr</generatePackage>
-				<generateDirectory>src/main/java</generateDirectory>
-			</configuration>
-		
+
+						<id>a</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<schemaDirectory>src/main/resources/sr</schemaDirectory>
+							<schemaIncludes>
+								<include>bastri.xsd</include>
+							</schemaIncludes>
+							<bindingDirectory>src/main/resources/sr</bindingDirectory>
+							<bindingIncludes>
+								<include>bastri.xjb</include>
+							</bindingIncludes>
+							<generatePackage>org.inria.fr.ns.sr</generatePackage>
+							<generateDirectory>src/main/java</generateDirectory>
+						</configuration>
+
 					</execution>
 					<execution>
-						
-			<id>b</id>
-			<phase>generate-sources</phase>
-			<goals>
-				<goal>generate</goal>
-			</goals>
-			<configuration>
-				<schemaDirectory>src/main/resources/cr</schemaDirectory>
-				<schemaIncludes>
-                    <include>bastriCris.xsd</include>
-                </schemaIncludes>
-				<bindingDirectory>src/main/resources/cr</bindingDirectory>
-                <bindingIncludes>
-                    <include>bastriCris.xjb</include>
-                </bindingIncludes>						
-				<generatePackage>org.inria.fr.ns.cr</generatePackage>
-				<generateDirectory>src/main/java</generateDirectory>
-			</configuration>
-		
+
+						<id>b</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<schemaDirectory>src/main/resources/cr</schemaDirectory>
+							<schemaIncludes>
+								<include>bastriCris.xsd</include>
+							</schemaIncludes>
+							<bindingDirectory>src/main/resources/cr</bindingDirectory>
+							<bindingIncludes>
+								<include>bastriCris.xjb</include>
+							</bindingIncludes>
+							<generatePackage>org.inria.fr.ns.cr</generatePackage>
+							<generateDirectory>src/main/java</generateDirectory>
+						</configuration>
+
 					</execution>
-				<execution>
-						
-			<id>generationxquery</id>
-			<phase>generate-sources</phase>
-			<goals>
-				<goal>generate</goal>
-			</goals>
-			<configuration>
-				<schemaDirectory>src/main/resources/xquery</schemaDirectory>						
-				<generatePackage>jaxb.xquery</generatePackage>
-				<generateDirectory>src/main/java</generateDirectory>
-			</configuration>
-		
+					<execution>
+
+						<id>generationxquerymember</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<schemaDirectory>src/main/resources/xquery/members</schemaDirectory>
+							<generatePackage>jaxb.xquery.members</generatePackage>
+							<generateDirectory>src/main/java</generateDirectory>
+						</configuration>
+
+					</execution>
+					<execution>
+
+						<id>generationxqueryprojectname</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<schemaDirectory>src/main/resources/xquery/projectname</schemaDirectory>
+							<generatePackage>jaxb.xquery.projectsname</generatePackage>
+							<generateDirectory>src/main/java</generateDirectory>
+						</configuration>
+
 					</execution>
 
 				</executions>
-				
-				 
+
+
 			</plugin>
 		</plugins>
 
