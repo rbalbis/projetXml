@@ -2,7 +2,7 @@
   <xs:element name="AllMembers">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="member">
+        <xs:element name="member" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="firstname"/>
