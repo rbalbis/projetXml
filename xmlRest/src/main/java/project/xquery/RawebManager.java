@@ -89,7 +89,7 @@ public class RawebManager {
 		}
 		
 		
-		@Path("getProject")
+		/*@Path("getProject")
 		@GET
 		@Produces(MediaType.APPLICATION_JSON)
 		public String getProject() {
@@ -119,6 +119,6 @@ public class RawebManager {
 			return "fail";
 
 		}
-		
+		*/
 		
 }
