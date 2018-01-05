@@ -38,6 +38,14 @@
 
 		</dependency>
 
+		<dependency>		
+		   <groupId>org.apache.fop.apps</groupId>
+		   <artifactId>fop</artifactId>
+		   <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>${project.basedir}/src/main/resources/fop/fop.jar</systemPath>
+		</dependency>
+
 		<dependency>
     		<groupId>com.google.code.gson</groupId>
     		<artifactId>gson</artifactId>
