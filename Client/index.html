@@ -29,7 +29,14 @@
         <script src="utils/FillSelectBox.js"></script>
 
     </head>
-    <body>
+    <body onload="getJsonFromURL('http://localhost:8080/xml.rest/cr/listcr', function(err, data) {
+      if (err !== null) {
+        alert('Something went wrong: ' + err);
+      } else {
+        alert('Your query count: ' + data.query.count);
+      }
+    } )";>
+
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -62,18 +69,17 @@
             <h4>Nombre de projets par centre</h4>
             <table class="table" id="projetsCr">
             </table>
-
             <br>
             <div class="form-group">
                 <label id="titleProjects"><h3></h3></label>
-                <select class="form-control" style="display:none;" id="projects" onchange="generateTableProject('titleProjsByCR', 'tableProjsByCR', projectsCR[value])";>
+                <select class="form-control" style="display:none;" id="projects" onchange="generateTableProject('titleProjByCR', 'tableProjByCR',/* en vrai c'est projectsCR[value]' */ projectsCR[value])";> 
                     <option disabled selected value> -- Aucun centre selectionnée -- </option>
                 </select>
             </div>
 
             <br>
-            <h4 id="titleProjsByCR"></h4>
-            <table id="tableProjsByCR" class="table">  
+            <h4 id="titleProjByCR"></h4>
+            <table id="tableProjByCR" class="table">  
             </table>
         </div>
 
@@ -114,6 +120,7 @@
                 generateTableRespoCR("responsableTab", "titreResponsableTab", CRs[siid]);
                 generateSelectBoxAllProjetsByCR("titleProjects", "projects", projectsCR , siid);
             }
+            console.log(projectsCR["ABS"]);
             </script>    
     </body>
 </html>
