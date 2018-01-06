@@ -1,22 +1,20 @@
 package project.dataflow;
 
 import java.io.File;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
 
-import javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener;
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import org.inria.fr.ns.cr.Crs;
 import org.inria.fr.ns.cr.Crs.Cr;
 import org.inria.fr.ns.sr.Entite;
 import org.inria.fr.ns.sr.StructureInrias;
@@ -27,10 +25,20 @@ import com.google.gson.GsonBuilder;
 
 @Path("sr")
 public class ProjetManager {
+	
+	 @Context
+	    private HttpServletResponse servletResponse;
+
+	    private void allowCrossDomainAccess() {
+	        if (servletResponse != null){
+	            servletResponse.setHeader("Access-Control-Allow-Origin", "*");
+	        }
+	    }
 	@Path("listProject")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String listProject() {
+		 allowCrossDomainAccess();
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
 	    final Gson gson = builder.create();
@@ -86,6 +94,7 @@ public class ProjetManager {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String teamParCentre() {
+		 allowCrossDomainAccess();
 		final GsonBuilder builder = new GsonBuilder();
 	    final Gson gson = builder.create();
 		try {
@@ -108,7 +117,7 @@ public class ProjetManager {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getProjectFromCrRest(@PathParam("siidCr") String siid) {
-
+		 allowCrossDomainAccess();
 		final GsonBuilder builder = new GsonBuilder();
 		final Gson gson = builder.create();
 		Cr cr;

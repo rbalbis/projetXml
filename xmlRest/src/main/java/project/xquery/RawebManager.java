@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -25,11 +27,22 @@ import utils.ScheduleUpdate;
 
 @Path("xquery")
 public class RawebManager {
+	
+	 @Context
+	    private HttpServletResponse servletResponse;
+
+	    private void allowCrossDomainAccess() {
+	        if (servletResponse != null){
+	            servletResponse.setHeader("Access-Control-Allow-Origin", "*");
+	        }
+	    }
 
 	@Path("projectName")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String listProject() {
+		 allowCrossDomainAccess();
+
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
 		final Gson gson = builder.create();
@@ -58,6 +71,8 @@ public class RawebManager {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getMembers() {
+		 allowCrossDomainAccess();
+
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
 		final Gson gson = builder.create();
@@ -88,6 +103,8 @@ public class RawebManager {
 	 * @GET
 	 * 
 	 * @Produces(MediaType.APPLICATION_JSON) public String getProject() {
+	 * 		 allowCrossDomainAccess();
+
 	 * JAXBContext jc; final GsonBuilder builder = new GsonBuilder(); final Gson
 	 * gson = builder.create(); try { HttpURLConnection projectName =
 	 * GetRequest.request("http://localhost:8088/exist/rest/db/raweb/abs.xml");

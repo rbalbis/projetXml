@@ -3,10 +3,12 @@ package project.dataflow;
 import java.io.File;
 import java.util.HashMap;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.xml.bind.JAXBContext;
@@ -24,6 +26,15 @@ import com.google.gson.GsonBuilder;
 
 @Path("cr")
 public class CentreRechercheManager {
+	
+	 @Context
+	    private HttpServletResponse servletResponse;
+
+	    private void allowCrossDomainAccess() {
+	        if (servletResponse != null){
+	            servletResponse.setHeader("Access-Control-Allow-Origin", "*");
+	        }
+	    }
 
 	/**
 	 * Liste les centres de recheches
@@ -34,6 +45,7 @@ public class CentreRechercheManager {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String listCentreRecherche() {
+		 allowCrossDomainAccess();
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
 		final Gson gson = builder.create();
@@ -93,6 +105,7 @@ HashMap<String, Cr> hashcentre = new HashMap<String, Cr>();
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getCrRest(@PathParam("siidCr") String siid) {
+		 allowCrossDomainAccess();
 
 		final GsonBuilder builder = new GsonBuilder();
 		final Gson gson = builder.create();
