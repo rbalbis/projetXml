@@ -32,6 +32,9 @@
     <bindings node="//xs:element[attribute::name='structureInrias']">
                 <xjc:javaType name="org.inria.fr.ns.sr.StructureInrias" adapter="jaxb.StructureInriasAdapter" />
     </bindings>
+    <bindings node="//structureInrias/structureinria/entite/@principal">
+                <xjc:javaType name="org.inria.fr.ns.sr.Entite" adapter="jaxb.EntitePrincipalAdapter" />
+    </bindings>
      
      
     <!--  
