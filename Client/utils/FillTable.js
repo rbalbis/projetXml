@@ -133,5 +133,50 @@ Return : table HTML
 */
 function generateTableProject(idTitleTable, idTable, dataProject)
 {
-	/* todo */
+	/* Récupère et vide le tableau */  
+    var table = document.getElementById(idTable);
+    table.innerHTML = "";
+
+    //Maj du titre du tableau
+    document.getElementById(idTitleTable).innerHTML = "Projet " + dataProject.sigle + " (Siid :" + dataProject.siid + ")";
+
+    /* Génération du tbody du tableau */
+    var tBody = document.createElement("tbody");
+    table.appendChild(tBody);
+
+    //Libelle
+    addRowTbody(tBody, "Libelle", dataProject.libellefr);
+
+    //Type structure
+    addRowTbody(tBody, "Type structure", dataProject.typestructure);
+
+    //Domaine
+    addRowTbody(tBody, "Domaine", dataProject.domaine[0].value + "<br> classification : " + dataProject.domaine[0].classification + "<br> siid : " + dataProject.domaine[0].siid );
+
+    //Date fermeture
+    addRowTbody(tBody, "Date fermeture", dataProject.dateFermeture);
+    
+    //Theme
+    addRowTbody(tBody, "Theme", dataProject.theme[0].value);
+
+    //Resume
+    addRowTbody(tBody, "Résume", dataProject.resume[0].value);
+
+    //Url
+    addRowTbody(tBody, "URL", "<a href="+dataProject.urlTeam[1].value+">" +dataProject.urlTeam[1].value+ "</a>");
+
+    return table;
+}
+
+function addRowTbody(tbody, nameRow, dataRow)
+{
+
+    var tr = document.createElement("tr");
+    tbody.appendChild(tr);
+    var tdName = document.createElement("td");
+    tdName.innerHTML = nameRow;
+    tr.appendChild(tdName);
+    var td = document.createElement("td");
+    td.innerHTML = dataRow;
+    tr.appendChild(td);
 }

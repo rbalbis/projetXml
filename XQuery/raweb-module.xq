@@ -6,9 +6,9 @@ declare function raweb:count-projects() as xs:integer {
 
 declare function raweb:list-members($proj as xs:string) as element()* {
 
- for $project1 in /raweb/identification
+ for $project1 in /raweb
                 let $m := $project1/team
-                where string($project1/shortname)=$proj
-                return $m/participants/person
+                where string($project1/identification/shortname)=$proj
+                return $m/person
 
 };
