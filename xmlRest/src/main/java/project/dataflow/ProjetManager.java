@@ -77,7 +77,6 @@ public class ProjetManager {
 		for (Structureinria structureinria : si) {
 			for(Entite entite :structureinria.getEntite()){
 				String siid = entite.getAdressegeographique().getCri().getSiid();
-				System.out.println(siid);
 				if(hashCR.containsKey(siid)){hashCR.put(siid, hashCR.get(siid)+1);}
 				else{
 					hashCR.put(siid, 1);
@@ -132,7 +131,6 @@ public class ProjetManager {
 			for (Structureinria structureinria : listsis) {
 				for(Entite entt : structureinria.getEntite()) {
 					if(entt.getAdressegeographique().getCri().getSiid().compareToIgnoreCase(siid) == 0) {
-						System.out.println(entt.getSigle());
 						hash.put(entt.getSigle(), structureinria);
 					}
 				}

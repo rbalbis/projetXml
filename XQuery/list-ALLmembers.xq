@@ -20,7 +20,7 @@
         </categoryPro>
         <research-centre>
         {
-        string( $members/research-centre )
+        string( $members/../../identification/shortname )
         }
         </research-centre>
         </member>

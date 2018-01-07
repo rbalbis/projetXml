@@ -4,10 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -20,6 +22,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import jaxb.xquery.members.AllMembers;
+import jaxb.xquery.members.AllMembers.Member;
 import jaxb.xquery.projectsname.Projets;
 import project.http.request.GetRequest;
 import project.http.request.HUCManager;
@@ -97,34 +100,41 @@ public class RawebManager {
 
 	}
 
-	/*
-	 * @Path("getProject")
-	 * 
-	 * @GET
-	 * 
-	 * @Produces(MediaType.APPLICATION_JSON) public String getProject() {
-	 * 		 allowCrossDomainAccess();
+	@Path("getMembers-{firstName}/{lastName}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getMembers(@PathParam("firstName") String firstName,@PathParam("lastName") String lastName) {
+		 allowCrossDomainAccess();
 
-	 * JAXBContext jc; final GsonBuilder builder = new GsonBuilder(); final Gson
-	 * gson = builder.create(); try { HttpURLConnection projectName =
-	 * GetRequest.request("http://localhost:8088/exist/rest/db/raweb/abs.xml");
-	 * HUCManager conn = new HUCManager(projectName); jc =
-	 * JAXBContext.newInstance("jaxb.xquery"); String res = ""; Unmarshaller
-	 * unmarshaller = jc.createUnmarshaller(); jaxb.xquery.Math sis =
-	 * (jaxb.xquery.Math) unmarshaller.unmarshal(conn.getInputStream()); // retourne
-	 * seulement {"projet":"ZENITH"}
-	 * 
-	 * 
-	 * res += gson.toJson(sis);
-	 * 
-	 * 
-	 * 
-	 * System.out.println("resultat ="+ res); return res;
-	 * 
-	 * } catch (JAXBException | IOException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); } return "fail";
-	 * 
-	 * }
-	 */
+		JAXBContext jc;
+		final GsonBuilder builder = new GsonBuilder();
+		final Gson gson = builder.create();
+		try {
+			HttpURLConnection projectName = GetRequest.request("http://localhost:8088/exist/rest/list-ALLmembers.xq");
+			HUCManager conn = new HUCManager(projectName);
+			jc = JAXBContext.newInstance("jaxb.xquery.members");
+			String res = "";
+			Unmarshaller unmarshaller = jc.createUnmarshaller();
+			AllMembers membre = (AllMembers) unmarshaller.unmarshal(conn.getInputStream());
+			List<Member> listmembre = membre.getMember();
+			for (Member member : listmembre) {
+				if((member.getFirstname().compareToIgnoreCase(firstName) == 0 )&& (member.getLastname().compareToIgnoreCase(lastName) == 0)) {
+					res += gson.toJson(member);
+
+					return res;
+				}
+				
+			}
+
+			
+
+		} catch (JAXBException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "fail";
+
+	}
+	
 
 }

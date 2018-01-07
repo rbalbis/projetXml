@@ -1,6 +1,8 @@
 package project.http.request;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -56,6 +58,20 @@ public class HUCManager {
 		return conn.getInputStream();
 		
 	}
+	
+	public String toFileResponse(File f) throws IOException {
+		
+		
+		
+		
+		FileWriter fw = new FileWriter(f);
+		String msg = this.getMessage();
+		System.out.println(msg);
+		fw.write(msg);
+		fw.close();
+		return f.getName();
+	
+}
 	
 
 }
