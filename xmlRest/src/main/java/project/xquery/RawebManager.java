@@ -17,7 +17,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import org.apache.fop.fo.XMLObj;
 import org.inria.fr.ns.sr.StructureInrias;
+import org.json.XML;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -30,21 +33,21 @@ import utils.ScheduleUpdate;
 
 @Path("xquery")
 public class RawebManager {
-	
-	 @Context
-	    private HttpServletResponse servletResponse;
 
-	    private void allowCrossDomainAccess() {
-	        if (servletResponse != null){
-	            servletResponse.setHeader("Access-Control-Allow-Origin", "*");
-	        }
-	    }
+	@Context
+	private HttpServletResponse servletResponse;
+
+	private void allowCrossDomainAccess() {
+		if (servletResponse != null) {
+			servletResponse.setHeader("Access-Control-Allow-Origin", "*");
+		}
+	}
 
 	@Path("projectName")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String listProject() {
-		 allowCrossDomainAccess();
+		allowCrossDomainAccess();
 
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
@@ -74,7 +77,7 @@ public class RawebManager {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getMembers() {
-		 allowCrossDomainAccess();
+		allowCrossDomainAccess();
 
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
@@ -103,8 +106,8 @@ public class RawebManager {
 	@Path("getMembers-{firstName}/{lastName}")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public String getMembers(@PathParam("firstName") String firstName,@PathParam("lastName") String lastName) {
-		 allowCrossDomainAccess();
+	public String getMembers(@PathParam("firstName") String firstName, @PathParam("lastName") String lastName) {
+		allowCrossDomainAccess();
 
 		JAXBContext jc;
 		final GsonBuilder builder = new GsonBuilder();
@@ -118,15 +121,14 @@ public class RawebManager {
 			AllMembers membre = (AllMembers) unmarshaller.unmarshal(conn.getInputStream());
 			List<Member> listmembre = membre.getMember();
 			for (Member member : listmembre) {
-				if((member.getFirstname().compareToIgnoreCase(firstName) == 0 )&& (member.getLastname().compareToIgnoreCase(lastName) == 0)) {
+				if ((member.getFirstname().compareToIgnoreCase(firstName) == 0)
+						&& (member.getLastname().compareToIgnoreCase(lastName) == 0)) {
 					res += gson.toJson(member);
 
 					return res;
 				}
-				
-			}
 
-			
+			}
 
 		} catch (JAXBException | IOException e) {
 			// TODO Auto-generated catch block
@@ -135,6 +137,29 @@ public class RawebManager {
 		return "fail";
 
 	}
-	
+
+	@Path("getProject-{project}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getProject(@PathParam("project") String project) {
+		allowCrossDomainAccess();
+		final GsonBuilder builder = new GsonBuilder();
+		final Gson gson = builder.create();
+
+		HttpURLConnection projectName;
+		try {
+			projectName = GetRequest.request("http://localhost:8088/exist/rest/raweb/" + project.toLowerCase() + ".xml");
+
+			HUCManager conn = new HUCManager(projectName);
+return XML.toJSONObject(conn.getMessage()).toString();
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "fail";
+		}
+
+	}
 
 }
