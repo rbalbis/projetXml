@@ -128,7 +128,7 @@ function generateTableRespoCR(idTable, idTitleTable, dataSiidCR)
 Params : 
 	idTable => id du tableau html à remplir
 	idTitleTable => id du titre du tableau html
-	dataProject => Données json contenant les informations ---------------- du projet
+	dataProject => Données json contenant les informations du projet
 Return : table HTML
 */
 function generateTableProject(idTitleTable, idTable, dataProject)
