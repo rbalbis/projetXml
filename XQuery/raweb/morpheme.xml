@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="morpheme" isproject="true">
+    <shortname>MORPHEME</shortname>
+    <projectName>Morphologie et Images</projectName>
+    <theme-de-recherche>Computational Biology</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>http://www-sop.inria.fr/morpheme/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Institut de Biologie de Valrose</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire informatique, signaux systèmes de Sophia Antipolis (I3S)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Nice - Sophia Antipolis</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2011 September 01, updated into Project-Team: 2013 July 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.4. - Machine learning and statistics</term>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>3.4.4. - Optimization and learning</term>
+      <term>3.4.6. - Neural networks</term>
+      <term>3.4.7. - Kernel methods</term>
+      <term>3.4.8. - Deep learning</term>
+      <term>5.3. - Image processing and analysis</term>
+      <term>5.3.2. - Sparse modeling and image representation</term>
+      <term>5.3.4. - Registration</term>
+      <term>5.4.1. - Object recognition</term>
+      <term>5.4.3. - Content retrieval</term>
+      <term>5.4.4. - 3D and spatio-temporal reconstruction</term>
+      <term>5.4.5. - Object tracking and motion analysis</term>
+      <term>5.4.6. - Object localization</term>
+      <term>5.9. - Signal processing</term>
+      <term>5.9.3. - Reconstruction, enhancement</term>
+      <term>5.9.5. - Sparsity-aware processing</term>
+      <term>5.9.6. - Optimization tools</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.2. - Stochastic Modeling (SPDE, SDE)</term>
+      <term>6.3.1. - Inverse problems</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1. - Biology</term>
+      <term>1.1.3. - Cellular biology</term>
+      <term>1.1.4. - Developmental biology</term>
+      <term>2.6. - Biological and medical imaging</term>
+    </keywordsSecteurs>
+    <UR name="Sophia"/>
+  </identification>
+  <team id="uid1">
+    <person key="morpheme-2014-idp68008">
+      <firstname>Xavier</firstname>
+      <lastname>Descombes</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheme-2014-idp65120">
+      <firstname>Laure</firstname>
+      <lastname>Blanc-Féraud</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheme-2014-idp66576">
+      <firstname>Eric</firstname>
+      <lastname>Debreuve</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheme-2014-idp69464">
+      <firstname>Grégoire</firstname>
+      <lastname>Malandain</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheme-2014-idp63872">
+      <firstname>Florence</firstname>
+      <lastname>Besse</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Researcher, 50%</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp70912">
+      <firstname>Caroline</firstname>
+      <lastname>Medioni</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Researcher, 20%</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp73392">
+      <firstname>Sébastien</firstname>
+      <lastname>Schaub</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, IR, 20%</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp129968">
+      <firstname>Cedric</firstname>
+      <lastname>Richard</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Professor, from Mar 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp132464">
+      <firstname>Djampa</firstname>
+      <lastname>Kozlowski</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, from Sep. 2016</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp84680">
+      <firstname>Gaël</firstname>
+      <lastname>Michelin</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, from Nov. 2016</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp84680">
+      <firstname>Gaël</firstname>
+      <lastname>Michelin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, until Oct. 2016</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp82216">
+      <firstname>Lola-Xiomara</firstname>
+      <lastname>Bautista Rozo</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp142304">
+      <firstname>Anca-Ioana</firstname>
+      <lastname>Grapa</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, from Sep 2016</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp92072">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Poulain</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>GEMS, Cifre</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp87128">
+      <firstname>Agustina</firstname>
+      <lastname>Razetti</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp88360">
+      <firstname>Emmanuel</firstname>
+      <lastname>Soubies</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, until Oct 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp152080">
+      <firstname>Mohammed Lamine</firstname>
+      <lastname>Benomar</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Laboratoire Génie Biomédical (G.B.M) Université Abou Bekr Belkaid Tlemcen / Algérie, from Sep 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp154736">
+      <firstname>Hibetallah</firstname>
+      <lastname>Ouazaa</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>National Engineering School of
+Tunis, from May 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="stars-2014-idp97320">
+      <firstname>Jane</firstname>
+      <lastname>Desplanques</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, 40%</moreinfo>
+    </person>
+    <person key="morpheme-2015-idp83728">
+      <firstname>Frédéric</firstname>
+      <lastname>Fontaine</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Assistant of pole SIS
+at I3S</moreinfo>
+    </person>
+    <person key="morpheme-2014-idp62408">
+      <firstname>Gilles</firstname>
+      <lastname>Aubert</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Faculty Member</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheme-2014-idp74648">
+      <firstname>Marine</firstname>
+      <lastname>Breuilly</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, until Feb 2016</moreinfo>
+    </person>
+    <person key="morpheme-2015-idp85016">
+      <firstname>Nicolas</firstname>
+      <lastname>Cedilnik</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria,Intern, until Jun 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp170016">
+      <firstname>Simon</firstname>
+      <lastname>Gazagnes</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Intern, from Mar 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp132464">
+      <firstname>Djampa</firstname>
+      <lastname>Kozlowski</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Intern, from Jan 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="morpheme-2016-idp175008">
+      <firstname>Raphael</firstname>
+      <lastname>Meunier</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Intern, from Jun 2016 until Sep 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Morpheme is a joint project between Inria, CNRS and the University of Nice-Sophia Antipolis, involving the Computer Science, Signals and Systems Laboratory (I3S) (UMR 6070) and the Institute for Biology of Valrose (iBV) (CNRS/INSERM).</p>
+      <p>The scientific objectives of MORPHEME are to characterize and model the development and the morphological properties of biological structures from the cell to the supra-cellular scale. Being at the interface between computational science and biology, we plan to understand the morphological changes that occur during development combining in vivo imaging, image processing and computational modeling.</p>
+      <p>The morphology and topology of mesoscopic structures, indeed, do have a key influence on the functional behavior of organs. Our goal is to characterize different populations or development conditions based on the shape of cellular and supra-cellular structures, including micro-vascular networks and dendrite/axon networks. Using microscopy or tomography images, we plan to extract quantitative parameters to characterize morphometry over time and in different samples. We will then statistically analyze shapes and complex structures to identify relevant markers and define classification tools. Finally, we will propose models explaining the temporal evolution of the observed samples. With this, we hope to better understand the development of normal tissues, but also characterize at the supra-cellular level different pathologies such as the Fragile X Syndrome, Alzheimer or diabetes.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Research Program</bodyTitle>
+      <p>The recent advent of an increasing number of new microscopy techniques giving
+access to high throughput screenings and micro or nano-metric resolutions provides a means for quantitative imaging of biological structures and phenomena.
+To conduct quantitative biological studies based on these new data, it is necessary
+to develop non-standard specific tools. This requires using a multi-disciplinary
+approach. We need biologists to define experiment protocols and interpret the results, but also physicists to model the sensors, computer
+scientists to develop algorithms and mathematicians to model the resulting information. These different expertises are combined within the Morpheme
+team. This generates a fecund frame for exchanging expertise, knowledge,
+leading to an optimal framework for the different tasks (imaging, image analysis, classification, modeling). We thus aim at providing adapted and robust tools
+required to describe, explain and model fundamental phenomena underlying the
+morphogenesis of cellular and supra-cellular biological structures. Combining experimental manipulations, in vivo imaging, image processing and computational
+modeling, we plan to provide methods for the quantitative analysis of the morphological changes that occur during development. This is of key importance as the
+morphology and topology of mesoscopic structures govern organ and cell function.
+Alterations in the genetic programs underlying cellular morphogenesis have been
+linked to a range of pathologies.</p>
+      <p noindent="true">Biological questions we will focus on include:</p>
+      <orderedlist>
+        <li id="uid6">
+          <p noindent="true">
+what are the parameters and the factors controlling the establishment of ramified structures? (Are they really organize to ensure maximal coverage? How are
+genetic and physical constraints limiting their morphology?),</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true"> how are newly
+generated cells incorporated into reorganizing tissues during development? (is the
+relative position of cells governed by the lineage they belong to?)</p>
+        </li>
+      </orderedlist>
+      <p>Our goal is to characterize different populations or development conditions
+based on the shape of cellular and supra-cellular structures, e.g. micro-vascular
+networks, dendrite/axon networks, tissues from 2D, 2D+t, 3D or 3D+t images (obtained with confocal microscopy, video-microscopy, photon-microscopy or micro-tomography). We plan to extract shapes or quantitative parameters to characterize the morphometric properties of different samples. On the one hand, we will
+propose numerical and biological models explaining the temporal evolution of the
+sample, and on the other hand, we will statistically analyze shapes and complex
+structures to identify relevant markers for classification purposes. This should
+contribute to a better understanding of the development of normal tissues but
+also to a characterization at the supra-cellular scale of different pathologies such
+as Alzheimer, cancer, diabetes, or the Fragile X Syndrome.
+In this multidisciplinary context, several challenges have to be faced. The
+expertise of biologists concerning sample generation, as well as optimization of
+experimental protocols and imaging conditions, is of course crucial. However,
+the imaging protocols optimized for a qualitative analysis may be sub-optimal
+for quantitative biology. Second, sample imaging is only a first step, as we need
+to extract quantitative information. Achieving quantitative imaging remains an
+open issue in biology, and requires close interactions between biologists, computer
+scientists and applied mathematicians. On the one hand, experimental and imaging protocols should integrate constraints from the downstream computer-assisted
+analysis, yielding to a trade-off between qualitative optimized and quantitative optimized protocols. On the other hand, computer analysis should integrate constraints specific to the biological problem, from acquisition to quantitative information extraction. There is therefore a need of specificity for embedding precise
+biological information for a given task. Besides, a level of generality is also desirable for addressing data from different teams acquired with different protocols
+and/or sensors.
+The mathematical modeling of the physics of the acquisition system will yield
+higher performance reconstruction/restoration algorithms in terms of accuracy.
+Therefore, physicists and computer scientists have to work together. Quantitative
+information extraction also has to deal with both the complexity of the structures of interest (e.g., very dense network, small structure detection in a volume,
+multiscale behavior, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>...</mo></math></formula>) and the unavoidable defects of in vivo imaging (artifacts,
+missing data, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>...</mo></math></formula>). Incorporating biological expertise in model-based segmentation
+methods provides the required specificity while robustness gained from a methodological analysis increases the generality. Finally, beyond image processing, we
+aim at quantifying and then statistically analyzing shapes and complex structures
+(e.g., neuronal or vascular networks), static or in evolution, taking into account
+variability. In this context, learning methods will be developed for determining
+(dis)similarity measures between two samples or for determining directly a classification rule using discriminative models, generative models, or hybrid models.
+Besides, some metrics for comparing, classifying and characterizing objects under
+study are necessary. We will construct such metrics for biological structures such
+as neuronal or vascular networks. Attention will be paid to computational cost
+and scalability of the developed algorithms: biological experimentations generally
+yield huge data sets resulting from high throughput screenings.
+The research of Morpheme will be developed along the following axes:</p>
+      <simplelist>
+        <li id="uid8">
+          <p noindent="true"><b>Imaging:</b> this includes i) definition of the studied populations (experimental
+conditions) and preparation of samples, ii) definition of relevant quantitative
+characteristics and optimized acquisition protocol (staining, imaging, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>...</mo></math></formula>) for
+the specific biological question, and iii) reconstruction/restoration of native
+data to improve the image readability and interpretation.</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true"><b>Feature extraction:</b> this consists in detecting and delineating the biological
+structures of interest from images. Embedding biological properties in the
+algorithms and models is a key issue. Two main challenges are the variability,
+both in shape and scale, of biological structures and the huge size of data
+sets. Following features along time will allow to address morphogenesis and
+structure development.</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true"><b>Classification/Interpretation:</b> considering a database of images containing
+different populations, we can infer the parameters associated with a given
+model on each dataset from which the biological structure under study has
+been extracted. We plan to define classification schemes for characterizing
+the different populations based either on the model parameters, or on some
+specific metric between the extracted structures.</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true"><b>Modeling:</b> two aspects will be considered. This first one consists in modeling
+biological phenomena such as axon growing or network topology in different contexts. One main advantage of our team is the possibility to use the
+image information for calibrating and/or validating the biological models.
+Calibration induces parameter inference as a main challenge. The second
+aspect consists in using a prior based on biological properties for extracting relevant information from images. Here again, combining biology and
+computer science expertise is a key point.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </fondements>
+  <logiciels id="uid12">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>SPADE: Small PArticle DEtection</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description</span>
+SPADE is an algorithm primarily designed to detect objects whose size
+is smaller than a few pixels (particles) on fluorescence microscopy images.
+It is a simplified version of a marked point process based on a shape
+dictionnary.</p>
+      <simplelist>
+        <li id="uid14">
+          <p noindent="true">Participants: N. Cedilnik, E. Debreuve, and X. Descombes</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">Contact: Xavier Descombes</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid16">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Multi-Angle TIRF reconstruction for studying the cell adhesion phenomenon</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp88360">
+          <firstname>Emmanuel</firstname>
+          <lastname>Soubies</lastname>
+        </person>
+        <person key="morpheme-2014-idp65120">
+          <firstname>Laure</firstname>
+          <lastname>Blanc-Féraud</lastname>
+        </person>
+        <person key="morpheme-2014-idp73392">
+          <firstname>Sébastien</firstname>
+          <lastname>Schaub</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Agata Radwanska and Ellen Van Obberghen-Schilling from Institut de Biologie Valrose (iBV) at Nice.</i>
+      </p>
+      <p>Understanding cell adhesion mechanism is of a major importance in
+biology for example in the context of tumoral
+angiogenesis <footnote id="uid18" id-text="1">Process of blood vessels creation from existing
+ones.</footnote>. However, this process occurs at the vicinity of the cell
+membrane within a layer of a few hundred nanometer making classical
+microscopy devices unable to image such biological structures due to
+their lack of resolution in the axial direction. An interesting
+alternative would be to use a multi-angle total internal reflection
+illumination together with numerical reconstruction algorithms in
+order to reach a nanoscale precision in the axial direction.</p>
+      <p>Following this idea, we made use of our previous work on MA-TIRF
+reconstruction to produce color-coded maps (see the example on
+Figure <ref xlink:href="#uid19" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), with an axial resolution of 20 nm, of
+biological samples provided by Agata Radwanska and Ellen Van
+Obberghen-Schilling from the Institut de Biologie Valrose. The
+information obtained from the study of the reconstructed images have
+confirmed known behaviors of some proteins involved in the cell
+adhesion process allowing us, by this way, to complete the validation
+of our reconstruction method. Moreover, the 3D reconstructions have
+provided new information concerning the axial position of the observed
+biological proteins, information which was unavailable for previous
+studies conducted with other microscopy systems.</p>
+      <object id="uid19">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/soubies_tirf.png" type="float" width="405.6487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Example of color-coded representations for the reconstructed samples. The colors correspond to the depth (in the axial direction) of the biological structures (in the colorbar on the right: red = 0 nm and dark blue = 400 nm).</caption>
+      </object>
+    </subsection>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Exact continuous penalties for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>2</mn></msub></math></formula>-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula> minimization: Application to Photo Activated Localization Microscopy (PALM)</bodyTitle>
+      <participants>
+        <person key="morpheme-2016-idp170016">
+          <firstname>Simon</firstname>
+          <lastname>Gazagnes</lastname>
+        </person>
+        <person key="morpheme-2014-idp88360">
+          <firstname>Emmanuel</firstname>
+          <lastname>Soubies</lastname>
+        </person>
+        <person key="morpheme-2014-idp65120">
+          <firstname>Laure</firstname>
+          <lastname>Blanc-Féraud</lastname>
+        </person>
+      </participants>
+      <p>In conventional microscopy techniques, the spatial resolution of an
+image is limited by the diffraction phenomena. Recent methods like
+photo-activated localization microscopy (PALM) allow high-precision
+molecule localization by sequentially activating and imaging a small
+random set of fluorescent molecules in the sample. However, the
+quality of this super-resolved image is related to the density of
+emitters activated at each acquisition and the numerical method used
+to locate molecules.</p>
+      <p>Applications for these microscopy techniques are then mainly
+restricted by the number of acquisitions required to obtain the
+superresolved image. One way to overcome
+this limitation is to increase the density of emitters activated at
+each acquisition. Nevertheless, it will cause overlapping for a
+certain number of spots on the acquired image which makes the
+localization of the underlying molecules a harder task. Considering
+such a high density setting, we have proposed to perform the molecules
+localization by solving a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula>-penalized least squares criteria
+through the minimization of the Continuous Exact <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula> (CEL0) relaxation that we have previously proposed. The method has provided interesting results, competing with state of the art methods, as shown on Figure <ref xlink:href="#uid21" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This work has been submitted for the conference ISBI 2017.</p>
+      <object id="uid21">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/PALM_Results.png" type="float" width="405.6487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>From left to right: Conventional Wide Field image, PALM with DAOSTORM (state of the art algorithm) reconstruction, PALM with the proposed reconstruction.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Exact continuous penalties for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>2</mn></msub></math></formula>-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula> minimization: Application to Channel and Direction Of Arrival (DOA) estimation problems</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp88360">
+          <firstname>Emmanuel</firstname>
+          <lastname>Soubies</lastname>
+        </person>
+        <person key="morpheme-2014-idp65120">
+          <firstname>Laure</firstname>
+          <lastname>Blanc-Féraud</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Adilson Chinatto, Cynthia Junqueira, João M. T. Romano (University of Campinas, Brazil) and Pascal Larzabal, Jean-Pierre Barbot (ENS Cachan, SATIE Lab).</i>
+      </p>
+      <p>In this work, we have proposed to extend the Continuous Exact <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula>
+(CEL0) penalty, which we initially introduced for the real single
+measurement vector (SMV) case, to complex SMV and complex multiple
+measurement vector (MMV) situations involving structured
+sparsity. Such an extension is necessary to address sparse signal
+processing estimation problems like augmented resolution channel
+estimation and direction of arrival (DOA) estimation for which the
+mixture matrix do not verify restrict isometry property (RIP) and incoherence conditions. We thereby have derived a row-structured version of the CEL0 penalty and showed that the relations between minimizers of the resulting relaxation and those of the initial <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula>-penalised least squares criteria, that we previously showed in the real SMV case, are still valid for complex SMV and MMV situations using the proposed row-structured CEL0 penalty. Finally, we have employed state of the art nonsmooth nonconvex algorithms to minimize the proposed relaxation and we have compared the results obtained by our method with those provided by the well known iterative hard thresholding (IHT) algorithm as well as some classical algorithms for the studied problems. We have shown that minimizing the row-structured CEL0 relaxation provides better estimation results than IHT, which minimizes directly with the initial <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula>-penalized least-squares criteria, and than classical algorithms used for such problems where the mixture matrix is highly correlated. Moreover, the proposed method is able to reach the oracle RMSE in some cases. This work has been submitted to the IEEE Transaction on Signal Processing journal.</p>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Phase estimation in
+Differential Interference Contrast (DIC) microscopy</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp82216">
+          <firstname>Lola-Xiomara</firstname>
+          <lastname>Bautista Rozo</lastname>
+        </person>
+        <person key="morpheme-2014-idp65120">
+          <firstname>Laure</firstname>
+          <lastname>Blanc-Féraud</lastname>
+        </person>
+      </participants>
+      <p>We address the problem of estimating the phase from color images
+acquired with differential-interference-contrast microscopy. In
+particular, we consider the nonlinear and nonconvex optimization
+problem obtained by regularizing a least-squares-like discrepancy term
+with a total variation functional, possibly smoothed with the
+introduction of a positive constant. We deeply investigate the
+analytic properties of the resulting objective function, proving the
+existence of minimum points, and several optimization methods able to
+address the minimization problem. Besides revisiting the conjugate
+gradient method proposed in the literature for this problem and
+comparing it with standard conjugate gradient approaches, we introduce
+more recent effective optimization tools able to obtain both in the
+smooth and in the non smooth case accurate reconstructions with a reduced computational demand.</p>
+      <object id="uid24">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/lola_dic_1.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Data and results for the cone (top row) and cross
+(bottom row) objects. From left to right: true object, noisy
+DIC color image taken at shear angle <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mspace width="4pt"/><mi> rad </mi></mrow></math></formula> and corrupted with white Gaussian noise at SNR
+= 4.5 dB, and reconstructed phase with the LMSD method from
+observations at shear angles equal to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mi>π</mi><mo>/</mo><mn>4</mn><mspace width="4pt"/><mi> rad </mi></mrow></math></formula> and
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>π</mi><mo>/</mo><mn>4</mn><mspace width="4pt"/><mi> rad </mi></mrow></math></formula>.</caption>
+      </object>
+      <object id="uid25">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/lola_dic_2.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Error versus computational time plots for the cone (top row) and cross (bottom row) objects. From left to right: noise-free data, SNR = 9 dB and SNR = 4.5 dB.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>White Blood Cells Segmentation and Classification in Bone Marrow Images</bodyTitle>
+      <participants>
+        <person key="morpheme-2016-idp152080">
+          <firstname>Mohammed Lamine</firstname>
+          <lastname>Benomar</lastname>
+        </person>
+        <person key="morpheme-2014-idp68008">
+          <firstname>Xavier</firstname>
+          <lastname>Descombes</lastname>
+        </person>
+      </participants>
+      <p><i>This work is made in collaboration with Chikh Amine and
+Mourtada Benazzouz from GBM Lab. (Tlemcen University). Our experiments were performed on an image database acquired in the Hemobiology service of the Tlemcen Hospital (Algeria)</i>.</p>
+      <p>The differential count of white blood cells (WBC) for medical
+diagnosis requires a careful observation in peripheral blood and bone
+marrow microscopic images in order to detect abnormal or suspicious
+cells. However, this process (screening) is time consuming, requiring
+concentration, experience and competence of the expert. The diagnosis
+depends on the correct recognition of cells. For that, computer
+analysis image system is required to automate the process in order to
+help experts, reduce the time and increase the accuracy. The main important steps in such systems are segmentation and classification of white blood cells.</p>
+      <p>The proposed approach to locate WBC in bone marrow microscopic smear could be divided into three main steps: pre-processing, segmentation and classification. The main concept of the segmentation and classification algorithm employed uses WBCs color, texture and morphological properties.</p>
+      <p>The first step is to reveal chromatic characteristics of the WBC by
+applying decorrelation stretch to multichannel RGB image, simple color transformation and Otsu thresholding to suppress background and most of the red blood cells. In the segmentation step, two techniques have been used which are Marker Controlled Watershed followed by MLE (Maximum Likelihood Estimator) to differentiate between WBC, the grouped red blood cells and artifacts using shape, color and texture features. Then Otsu thresholding based on HSL color space to separate WBC nucleus and cytoplasm (see Figure <ref xlink:href="#uid27" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Finally, white blood cells were classified into two categories related to the type of Myeloma, this step is based on features extraction and then applying a classifier.</p>
+      <object id="uid27">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/amine_exemple.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Image segmentation step: (a) Input image, (b) RGB Decorrelation stretch, (c) Binary mask,
+(d) Distance transform, (e) Watershed, (f) Segmented cell, (g) Ground truth.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Classification of the extracellular matrix</bodyTitle>
+      <participants>
+        <person key="morpheme-2016-idp175008">
+          <firstname>Raphael</firstname>
+          <lastname>Meunier</lastname>
+        </person>
+        <person key="morpheme-2016-idp142304">
+          <firstname>Anca-Ioana</firstname>
+          <lastname>Grapa</lastname>
+        </person>
+        <person key="morpheme-2014-idp65120">
+          <firstname>Laure</firstname>
+          <lastname>Blanc-Féraud</lastname>
+        </person>
+        <person key="morpheme-2014-idp68008">
+          <firstname>Xavier</firstname>
+          <lastname>Descombes</lastname>
+        </person>
+        <person key="morpheme-2014-idp73392">
+          <firstname>Sébastien</firstname>
+          <lastname>Schaub</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Ellen Van Obberghen eand Georgios Efthymiou (iBV).</i>
+      </p>
+      <p>Cells of multicellular organisms interact continually with their local
+environment which is largely determined by the extracellular matrix
+(ECM). The biochemical, topological and physical properties
+(stiffness, elasticity) of the ECM regulate many physiological
+processes (embryonic development and tissue repair) and their
+dysregulation plays a key role in the evolution of inflammatory,
+fibrotic and tumoral diseases. Fibronectin (FN) is a major component
+of the ECM. The biologists at iBV have identified certain molecular
+mechanisms involved in the assembly of FN into fibrillar arrays (FN
+fibrillogenesis) on the cell surface. The resulting fibrillar networks
+display variable densities and organizations that convey specific
+biological signals to the cells that encounter them (see figure <ref xlink:href="#uid29" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>We have developed a classification scheme that consists in clustering
+features extracted from the images to define a texture dictionary. The
+extracellular matrix are then classified with respect to their
+signature on this dictionary. We have compared two sets of features
+that are SIFT histograms and the curvelet coefficients. The SIFT
+approach appears to be more discriminant for classification purposes
+but the curvelet approach is better suited for modeling the
+texture. Next step will consists in modeling the extracellular matrix.</p>
+      <object id="uid29">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/anca_extracellular.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Two examples of extracellular matrices.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid30" level="1">
+      <bodyTitle>CNuclei/cytoplasm detection and classification in genome-wide RNAi screens</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp66576">
+          <firstname>Eric</firstname>
+          <lastname>Debreuve</lastname>
+        </person>
+        <person key="morpheme-2016-idp132464">
+          <firstname>Djampa</firstname>
+          <lastname>Kozlowski</lastname>
+        </person>
+        <person key="morpheme-2014-idp63872">
+          <firstname>Florence</firstname>
+          <lastname>Besse</lastname>
+        </person>
+        <person key="morpheme-2014-idp68008">
+          <firstname>Xavier</firstname>
+          <lastname>Descombes</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Fabienne De Graeve (iBV).</i>
+      </p>
+      <p>The work described hereafter is part of the RNAGRIMP ANR project which
+started in January 2016 and lasts 48 months (see
+Section <ref xlink:href="#uid56" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). A pilot genome-wide RNAi (Ribonucleic Acid interference) screen on Drosophila cultured cells has been performed with different mutant conditions. The purpose is to study the density and repartition of cytoplasmic RNP (RiboNucleoprotein Particles) granules containing the IMP protein (IGF-II mRNA-binding protein where IGF stands for Insulin-like Growth Factor).</p>
+      <p>Two series of images have been acquired using fluorescence microscopy: one where the cell cytoplasm has been stained with GFP (Green Fluorescent Protein), the second where the nuclei have been stained with DAPI (4',6-diamidino-2-phenylindole). A first task that must be accomplished is to detect the nuclei on the DAPI images, and to learn a classification procedure into <i>living cell</i> or <i>dead cell</i> based on morphologic and radiometric nuclei properties. A CellProfiler <footnote id="uid31" id-text="2"><ref xlink:href="http://cellprofiler.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cellprofiler.<allowbreak/>org</ref></footnote> pipeline has been developed to automatically detect the nuclei and compute some properties on them. The detection was based on the following main steps: intensity re-scaling, Kapur-based thresholding, and small object discarding. For each detected nucleus, the computed properties were (non-exhaustive list) average intensity, area, granularity, circularity ...</p>
+      <p>Then, a learning set has been built where a significant number of
+nuclei were manually assigned their correct (<i>living</i> or <i>dead</i>)
+class by a biologist of the team. This learning set was fed to
+CellProfiler
+Analyst <footnote id="uid32" id-text="3"><ref xlink:href="http://cellprofiler.org/cp-analyst" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cellprofiler.<allowbreak/>org/<allowbreak/>cp-analyst</ref></footnote> in order to
+learn a decision tree for automatic nuclei (hence, cell)
+classification (see Fig <ref xlink:href="#uid33" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, left).</p>
+      <object id="uid33">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/eric_classif.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Left: automatic classification of the
+detected nuclei into <i>living</i> (encircled in green) or <i>dead</i> (with a red cross); objects encircled in yellow are
+cropped by the field of view, and objects encircled in purple
+are too small ; they are all discarded. Right: active contour segmentation of the cytoplasm of a cell (previously classified as a living cell); red contour: cytoplasm external boundary; green, dashed contour: nucleus boundary (also cytoplasm internal boundary).</caption>
+      </object>
+      <p>Once the living cell nuclei have been identified on the DAPI images,
+the next step is to segment (<i>i.e.</i>, extract automatically the
+region of) their cytoplasm on the GFP images. Indeed, the target
+RNP-IMP granules appear in that compartment of the cell and are
+visible through their GFP response. We are developing an active
+contour-based segmentation method relying on local image contrast. The
+current version still has to be robustified in order to be applicable
+batchwise (see Fig <ref xlink:href="#uid33" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, right).</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Small Particle Detection</bodyTitle>
+      <participants>
+        <person key="morpheme-2015-idp85016">
+          <firstname>Nicolas</firstname>
+          <lastname>Cedilnik</lastname>
+        </person>
+        <person key="morpheme-2014-idp68008">
+          <firstname>Xavier</firstname>
+          <lastname>Descombes</lastname>
+        </person>
+        <person key="morpheme-2014-idp66576">
+          <firstname>Eric</firstname>
+          <lastname>Debreuve</lastname>
+        </person>
+        <person key="morpheme-2014-idp63872">
+          <firstname>Florence</firstname>
+          <lastname>Besse</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Fabienne De Graeve (iBV).</i>
+      </p>
+      <p>One task of the RNAGRIMP project is to detect RNA granules from
+fluorescent images. These granules have their size close to the image
+resolution, they typically represent very few pixels. At this scale,
+shape parametric models are only crude approximations of the object
+geometry and not adapted for a detection task. To overcome this
+difficulty we have defined a shape dictionary consisting of all the
+shapes included in a five by five tile and satisfying some properties
+of regularity and convexity. Then we are mimicking the marked point
+process framework by defining an energy function on the finite sets of
+shapes as the sum of a data term, applied on each object, and a non
+overlapping constraint between neighboring objects. The solution
+minimizing the energy is approximated by a greedy algorithm. We have
+compared different data terms and shown better performances than the
+traditional threshold approaches and the wavelet based approach as
+provided by the software Icy.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Inter-individual spatio-temporal registration strategies applied to 3D microscopy image sequences of Arabidopsis floral meristems</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp84680">
+          <firstname>Gaël</firstname>
+          <lastname>Michelin</lastname>
+        </person>
+        <person key="morpheme-2014-idp69464">
+          <firstname>Grégoire</firstname>
+          <lastname>Malandain</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Yassin Refahi (Sainsbury Lab., University of Cambridge), Jan Traas (ENS Lyon) and Christophe Godin (Inria Virtual Plants team, Montpellier).</i>
+      </p>
+      <p>In developmental biology, the study of model organisms such as the plant <i>Arabidopsis thaliana</i> aims at understanding genetic mechanisms responsible of morphogenesis. Today, fluorescent confocal microscopy is a means for <i>in vivo</i> imaging of organs of interest such as Arabidopsis floral meristems at cell level with a high spatio-temporal resolution. To handle such 3D+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula> image sequences, adapted computer-assisted methods are highly desirable. Moreover, the inter-individual development variability quantification requires the ability to register spatio-temporal image sequences from a population of individuals.</p>
+      <p>In the related work, we propose a dedicated tool for the inter-individual spatio-temporal sequence-to-sequence registration applied to developing Arabidopsis flower meristems. We also discuss the different strategies that may be adopted by the user for the method application in order to assist the choice of parameters for the registration method such as:</p>
+      <simplelist>
+        <li id="uid36">
+          <p noindent="true">the image primitives to be registered;</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">the initialization of the image-to-sequence registration optimization process;</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">the initialization "propagation" strategy for sequence-to-sequence registration;</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">the parameters selection for the optimization step.</p>
+        </li>
+      </simplelist>
+      <p>Figure <ref xlink:href="#uid40" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows the result of the temporal registration between three interpolated image sequences of developing Arabidopsis floral meristems. Figure <ref xlink:href="#uid41" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows an example of spatial registration between two images from different floral meristems at the same developing stage.</p>
+      <object id="uid40">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/temporalRegistrations_01_TO_03_TO_04_TO_03_AND_01_paint.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Inter-individual temporal registration result between three floral meristem 3D+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula> interpolated image sequences. Blue arrows correspond to border registrations.</caption>
+      </object>
+      <object id="uid41">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/spatial_reg.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3D views of the spatial registration of images from two flower meristems (in red and green) at the same developing stage.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Coherent temporal extrapolation of labeled images</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp84680">
+          <firstname>Gaël</firstname>
+          <lastname>Michelin</lastname>
+        </person>
+        <person key="morpheme-2014-idp69464">
+          <firstname>Grégoire</firstname>
+          <lastname>Malandain</lastname>
+        </person>
+      </participants>
+      <p>In developmental imaging, 3D+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula> series of microscopic images
+allows to follow the organism development at the cell level and has become the standard way of imaging the development of
+living organs. Dedicated tools for cell segmentation in 3D images as
+well as cell lineage calculation from 3D+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula> sequences have been proposed
+to analyze these data. For some applications (such as section <ref xlink:href="#uid35" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), it may
+be desirable to interpolate images at intermediary time-points. However,
+the known methods do not allow to locally handle the topological
+changes (ie cell. division).</p>
+      <p>In the present work, we propose
+an extrapolation method that coherently deformed the images to be
+interpolated so that to guarantee a topological continuity of borders (see figure <ref xlink:href="#uid43" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <object id="uid43">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/interpolation_labels.png" type="float" width="298.8987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Images compounded of labeled regions at increasing time. (a) and (d) are the original sequences. One can see that the region borders of the corresponding groups of regions of these sequences do not superimpose perfectly. (b) and (c) are the images of transformed regions respectively from the sequences (a) and (d) so that the corresponding region borders superimpose perfectly with the constraint that the image of (a) at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>t</mi><mn>0</mn></msub></math></formula> and the image of (d) at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>t</mi><mn>1</mn></msub></math></formula> are not modified.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>3D/2D Coronary Arteries dynamic registration</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp92072">
+          <firstname>Emmanuelle</firstname>
+          <lastname>Poulain</lastname>
+        </person>
+        <person key="morpheme-2014-idp69464">
+          <firstname>Grégoire</firstname>
+          <lastname>Malandain</lastname>
+        </person>
+      </participants>
+      <p>
+        <i>This work is made in collaboration with Régis Vaillant
+(GE-Healthcare, Buc, France) and Nicholas Ayache (Inria Asclepios team).</i>
+      </p>
+      <p>Integrating vessel information, extracted from pre-operative
+3D CT angiography images, into a live fluoroscopic 2D sequence can
+greatly improve the guidance of percutaneous coronary
+interventions. We are developing a framework aiming at deformed a
+vessel 3D from the CT so that it moves along the cardiac cycle
+observed through the 2D angiographic sequence.</p>
+      <p>The vessel is approximated by a spline which will be deformed thanks to a gradient descent with a length constraint.
+The length preservation of the vessel allows us to provide a realistic
+movement, i.e any point will keep its curvilinear abscissa along the
+spline. This is exemplified by figure <ref xlink:href="#uid45" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> where the
+vessel projection and a remarkable point is tracked at 3 different
+cardiac phases.</p>
+      <object id="uid45">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/emma.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>The 3 images show the projection of a 3D vessel in yellow and a remarkable point on the vessel (bifurcation) in blue at 3 different phases of the cardiac cycle.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Modelling axon growth from in vivo data</bodyTitle>
+      <participants>
+        <person key="morpheme-2014-idp87128">
+          <firstname>Agustina</firstname>
+          <lastname>Razetti</lastname>
+        </person>
+        <person key="morpheme-2014-idp68008">
+          <firstname>Xavier</firstname>
+          <lastname>Descombes</lastname>
+        </person>
+        <person key="morpheme-2014-idp70912">
+          <firstname>Caroline</firstname>
+          <lastname>Medioni</lastname>
+        </person>
+        <person key="morpheme-2014-idp63872">
+          <firstname>Florence</firstname>
+          <lastname>Besse</lastname>
+        </person>
+      </participants>
+      <p>During the first part of this work, we focused at identifying the main morphological features that allow to describe and discriminate genetically different Drosophila Gamma neurons, as well as to automatically assess a quantification of the overall morphological distance between them <ref xlink:href="#morpheme-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The second part, developed this year, approaches the process of neuron
+growth and morphogenesis in pupal stage. Important advances have
+already been achieved in identifying the main factors involved in
+neuron development. The next step that has to be done is concerning
+how we approach the question.</p>
+      <p>In this work we intend to close the gap
+between classic in vitro experimental assumptions and real in vivo
+situations, where the final neuronal morphology is acquired through a
+dynamic and environmental-dependent process. In particular, the branch
+formation process - how or why branches are created - has been
+belittled or over-simplified by neuron development models. In our
+opinion, this represents a constraint in the general understanding of
+neuron development, hierarchy of the neuronal tree and adult
+functionality.</p>
+      <p>Our goal is to bring light to the mechanisms of branch
+formation during development in realistic conditions. We study the
+particular case of Drosophila Gamma neuron remodeling and analyze, for
+the first time to our knowledge, the mechanical situation of a whole
+population of Gamma neurons (650 individuals) growing together in a
+constraint space (i.e. medial lobe of the Mushroom Body). We
+hypothesize that one kind of branches are born when the growing tip
+encounters a mechanical obstacle (i.e. other neurons or the lobe
+limits), enhancing the probability that at least one neurite reaches
+the end of the lobe. We model the neurites growth by a Gaussian Markov
+chain, and the parameters of the model –which account for axon
+elasticity and guiding cues attractiveness- are estimated from
+data.</p>
+      <p>Our database is composed by different sets –wild type and
+mutations- of confocal images of a single neuron that we treated,
+segmented and normalized. We show that the proposed mechanistic branch
+generation process is plausible, and explore unsolved problems
+concerning the understanding of some particular Gamma neuron mutation
+phenotypes. This approach allows us also to analyze dynamic aspects of
+the Gamma neuron collective growth process such as speed and density
+in function of space and time, which help to explain several
+characteristics of the Gamma neuron morphology and behavior during
+development. Figure <ref xlink:href="#uid47" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows examples of wild type as
+well as imp mutant neurons of our database and contrasts them with
+neurons from simulations that are morphologically close.</p>
+      <object id="uid47">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/agustina.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Wild type and imp mutant neurons from the database, contrasted to very similar neurons from our simulations.</caption>
+      </object>
+    </subsection>
+  </resultats>
+  <contrats id="uid48">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <sanspuceslist>
+        <li id="uid50">
+          <p noindent="true">General Electric Healthcare: a 36 months (from feb. 2016 to
+jan. 2019) companion contract for the Cifre thesis of E. Poulain.</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">Bayer, Lyon. In December, we signed a collaboration contract
+with Bayer, Lyon, to fund a Master 2 internship with some overhead
+on the topic of automatic cell classification. The intern will start
+working on the subject in January 2017.</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid52">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid53" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid54" level="2">
+        <bodyTitle>LABEX SIGNALIFE</bodyTitle>
+        <p>The MORPHEME team is member of the SIGNALIFE Laboratory of Excellence.</p>
+        <p>Florence Besse and Xavier Descombes are members of the Scientific Committee.</p>
+        <p>Florence Besse and Xavier Descombes participated in the selection
+committee for LabeX PhD program students.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid56" level="2">
+        <bodyTitle>ANR RNAGRIMP</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp63872">
+            <firstname>Florence</firstname>
+            <lastname>Besse</lastname>
+            <moreinfo>PI</moreinfo>
+          </person>
+          <person key="morpheme-2014-idp68008">
+            <firstname>Xavier</firstname>
+            <lastname>Descombes</lastname>
+          </person>
+          <person key="morpheme-2014-idp66576">
+            <firstname>Eric</firstname>
+            <lastname>Debreuve</lastname>
+          </person>
+          <person key="morpheme-2016-idp132464">
+            <firstname>Djampa</firstname>
+            <lastname>Kozlowski</lastname>
+          </person>
+          <person key="morpheme-2015-idp85016">
+            <firstname>Nicolas</firstname>
+            <lastname>Cedilnik</lastname>
+          </person>
+        </participants>
+        <p>Here, we propose to study the molecular bases underlying the assembly
+and regulation of RNA granules, using the highly conserved
+IMP-containing granules as a paradigm. Specifically, we propose to
+perform an unbiased genome-wide RNAi screen on Drosophila cultured
+cells to identify mutant conditions in which the organization and/or
+distribution of IMP-containing granules is altered. To quantitatively
+and statistically analyze mutant conditions, and to define precise and
+coherent classes of mutants, we will combine high throughput
+microscopy with the development of a computational pipeline optimized
+for automatic analysis and classification of images. The function of
+positive hits isolated in the screen will then be validated in vivo in
+Drosophila neurons using fly genetics and imaging techniques, and
+characterized at the molecular and cellular levels using biochemical
+assays, in vitro phase transition experiments and
+live-imaging. Finally, the functional conservation of identified
+regulators will be tested in zebrafish embryos combining gene
+inactivation and live-imaging techniques. This integrative study will
+provide the first comprehensive analysis of the functional network
+that regulates the properties of the conserved IMP RNA granules. Our
+characterization of the identified regulators in vivo in neuronal
+cells will be of particular significance in the light of recent
+evidence linking the progression of several degenerative human
+diseases to the accumulation of non-functional RNA/protein aggregates.</p>
+        <p>This 4-years project started january, 2016 and is leaded by
+F. Besse (iBV, Nice). Participants are iBV, institut de biologie Paris
+Seine (IBPS, Paris), and Morpheme.</p>
+      </subsection>
+      <subsection id="uid57" level="2">
+        <bodyTitle>ANR HMOVE</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp68008">
+            <firstname>Xavier</firstname>
+            <lastname>Descombes</lastname>
+          </person>
+          <person key="morpheme-2014-idp66576">
+            <firstname>Eric</firstname>
+            <lastname>Debreuve</lastname>
+          </person>
+        </participants>
+        <p>Among the signaling molecules involved in animal morphogenesis are the
+Hedgehog (Hh) family proteins which act at distance to direct cell
+fate decisions in invertebrate and vertebrate tissues. To study the
+underlying process we will develop accurate tracking algorithm to
+compare trajectories of different Hh pools transportation in live
+animals. This will allow us to analyze the contribution of the
+different carriers in the establishment of the Hh gradient. Moreover,
+we will develop new methods to modify the spatio-temporal and
+dynamical properties of the extra-cellular Hh gradient and separate
+the contribution of the apical versus basal Hh pools. We will complete
+this study with a genome-wide screen to identify genes and related
+cellular processes responsible for Hh release. The particular interest
+of this collaboration lies in the combination of development of
+tracking algorithm to analyze Hh distribution and trajectories with
+extremely powerful genetics, ease of in vivo manipulation and lack of
+genetic redundancy of Drosophila.</p>
+        <p>This 4-years project started january, 2016 and is leaded by
+P. Thérond (iBV, Nice). Participants are iBV and Morpheme.</p>
+      </subsection>
+      <subsection id="uid58" level="2">
+        <bodyTitle>ANR DIG-EM</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp69464">
+            <firstname>Grégoire</firstname>
+            <lastname>Malandain</lastname>
+          </person>
+          <person key="morpheme-2014-idp68008">
+            <firstname>Xavier</firstname>
+            <lastname>Descombes</lastname>
+          </person>
+          <person key="morpheme-2014-idp84680">
+            <firstname>Gaël</firstname>
+            <lastname>Michelin</lastname>
+          </person>
+        </participants>
+        <p>Morphogenesis controls the proper spatial organization of the various
+cell types. While the comparatively simple process of patterning and
+cell differentiation has received considerable attention, the genetic
+and evolutionary drivers of morphogenesis are much less understood. In
+particular, we very poorly understand why some morphogenetic processes
+evolve very rapidly, while others show remarkable evolutionary
+stability.</p>
+        <p>This research program aims at developing a high-throughput computational framework to analyze
+and formalize high-throughput 4D imaging data, in order to quantify
+and formally represent with cellular resolution the average
+development of an organism and its variations within and between
+species. In addition to its biological interest, a major output of the
+project will thus be the development of robust general computational
+methods for the analysis, visualization and representation of massive
+high-throughput light-sheet data sets.</p>
+        <p>This 4-years project started october the 1st, 2014 and is leaded by
+P. Lemaire (CRBM, Montpellier). Participants are the CRBM, and two
+Inria project-team, Morpheme and Virtual Plants.</p>
+      </subsection>
+      <subsection id="uid59" level="2">
+        <bodyTitle>ANR PhaseQuant</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp69464">
+            <firstname>Grégoire</firstname>
+            <lastname>Malandain</lastname>
+          </person>
+          <person key="morpheme-2014-idp66576">
+            <firstname>Eric</firstname>
+            <lastname>Debreuve</lastname>
+          </person>
+        </participants>
+        <p>The PhaseQuantHD project aims at developing a high-content imaging system using quadriwave
+lateral shearing interferometry as a quantitative phase imaging modality. Automated analysis
+methods will be developed and optimized for this modality. Finally an open biological study question
+will be treated with the system.</p>
+        <p>This 3-years project started october the 1st, 2014 and is leaded by
+B. Wattelier (Phasics, Palaiseau). Participants are Phasics, and three
+academic teams TIRO (UNS/CEA/CAL), Nice, Mediacoding (I3S,
+Sophia-Antipolis), and Morpheme.</p>
+      </subsection>
+      <subsection id="uid60" level="2">
+        <bodyTitle>Inria Large-scale initiative Morphogenetics</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp69464">
+            <firstname>Grégoire</firstname>
+            <lastname>Malandain</lastname>
+          </person>
+          <person key="morpheme-2014-idp68008">
+            <firstname>Xavier</firstname>
+            <lastname>Descombes</lastname>
+          </person>
+          <person key="morpheme-2014-idp84680">
+            <firstname>Gaël</firstname>
+            <lastname>Michelin</lastname>
+          </person>
+        </participants>
+        <p>This action gathers the expertise of three Inria research teams (Virtual Plants, Morpheme, and Evasion) and other groups (RDP (ENS-CNRS–INRA, Lyon), RFD (CEA-INRA-CNRS, Grenoble)) and aimed at understanding how shape and architecture in plants are controlled by genes during development.
+To do so, we will study the spatio-temporal relationship between genetic regulation and plant shape utilizing recently developed imaging techniques together with molecular genetics and computational modeling. Rather than concentrating on the molecular networks, the project will study plant development across scales. In this context we will focus on the Arabidopsis flower, currently one of the best-characterized plant systems.</p>
+      </subsection>
+      <subsection id="uid61" level="2">
+        <bodyTitle>Octopus Project</bodyTitle>
+        <participants>
+          <person key="morpheme-2014-idp66576">
+            <firstname>Eric</firstname>
+            <lastname>Debreuve</lastname>
+          </person>
+        </participants>
+        <p>The Octopus project deals with automatic classification of
+images of zooplankton. It is conducted in collaboration with
+the Laboratoire d'Océanographie de Villefranche-sur-mer
+(LOV) et l'ENSTA Paris. The kickoff meeting took place in May
+2015 and a 3-day <i>brainstorming</i> meeting on Deep
+Learning took place in December 2015.
+Participants are I3S (Frédéric Precioso and Mélanie Ducoffe),
+LOV (Marc Picheral and Jean-Olivier Irisson), and ENSTA Paris (Antoine Manzanera).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <simplelist>
+          <li id="uid64">
+            <p noindent="true">COST Action (The COST Program is supported by the EU Framework Program H2020). We are part of a consortium of teams which submitted in December a COST Action proposal on machine learning and intelligent systems for the marine and aquatic sciences.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid65" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid66" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <subsection id="uid67" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <sanspuceslist>
+            <li id="uid68">
+              <p noindent="true">Mohammed Lamine Benomar, PhD, Université Abou Bekr Belkaid
+Tlemcen, Algérie, from October 2016 until April 2017.</p>
+            </li>
+            <li id="uid69">
+              <p noindent="true">Hibetallah Ouazaa, PhD, National Engineering School of Tunis, from May 2016 until Jun 2016</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid70">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid71" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid72" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid73" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <sanspuceslist>
+            <li id="uid74">
+              <p noindent="true">Florence Besse was a co-organizer of the SIgnalife Maths-Bio workshop (Sophia, Nov 2016)</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid75" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid76" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <sanspuceslist>
+            <li id="uid77">
+              <p noindent="true">Laure Blanc-Féraud was associate editor of the workshops: New
+Computational Methods in Inverse Problems - NCMIP 2016 (NCMIP ) in
+ENS Cachan, and Optimization Techniques for Inverse Problems III, Modena Italy 1-21 September 2016</p>
+            </li>
+            <li id="uid78">
+              <p noindent="true">Eric Debreuve: Advanced Concepts for Intelligent Vision Systems
+(ACIVS) and Reconnaissance des Formes et l'Intelligence Artificielle
+(RFIA)</p>
+            </li>
+            <li id="uid79">
+              <p noindent="true">Grégoire Malandain was in charge of a special session "Approches RF et vision en imagerie biologique et médicale" at RFIA.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid80" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <sanspuceslist>
+            <li id="uid81">
+              <p noindent="true">Laure Blanc-Féraud was a reviewer for the conference ICIP.</p>
+            </li>
+            <li id="uid82">
+              <p noindent="true">Eric Debreuve was a reviewer for the conferences IEEE International Conference on Image Processing (ICIP) and International Symposium on Biomedical Imaging (ISBI)</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Xavier Descombes was reviewer for the conferences ISBI, ICASSP and ICIP.</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Grégoire Malandain was reviewer for the conferences EMBC, ISBI, ICPR, MICCAI, and the Second Workshop on BioImage Computing at ECCV 2016.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid85" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid86" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <sanspuceslist>
+            <li id="uid87">
+              <p noindent="true">Laure Blanc-Féraud is Associate Editor of SIAM Journal Imaging Sciences and Traitement du Signal
+Journal.</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Xavier Descombes is associated editor of DSP (Digital Signal Processing).</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid89" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <sanspuceslist>
+            <li id="uid90">
+              <p noindent="true">Laure Blanc-Féraud was reviewer for the Journal Signal Processing.</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">Eric Debreuve was reviewer for the journals IEEE Transactions on Medical Imaging, Signal Processing: Image Communication (Elsevier), and Digital Signal Processing (Elsevier).</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Xavier Descombes was reviewer for the journals IEEE on IP, Pattern Recognition and DSP.</p>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Grégoire Malandain was reviewer for the journals CVIU NeuroImage and MedIA.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <sanspuceslist>
+          <li id="uid95">
+            <p noindent="true">Laure Blanc-Féraud was invited to give a talk at the workshops:
+NCMIP'16 in Cachan in May,
+ATLAS Workshop organized by the GdR MaDICS in Grenoble in May, and
+Optimization Techniques for Inverses Problems III in Modena Italy in
+September.</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">Xavier Descombes was invited to give a talk at the workshop
+“Mathématiques et Biologie” organized within the labex Signalife programm.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <sanspuceslist>
+          <li id="uid98">
+            <p noindent="true">Florence Besse is a member of the scientific council (CAC) of the University Cote d’Azur (UCA), a member of the scientific council of the IDEX JEDI Academy 2, and a member of the scientific council of the LabeX Signalife program.</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">Laure Blanc-Féraud is director of GdR 720 ISIS of CNRS, a group for the animation of research
+at national french level on the thematics Signal Image and Vision. This group includes around 160
+academic laboratories and twenty industrial partners totaling almost 3,000 members.
+She heads the scientific committee of academy 1 of UCA (COMUE université Côte d'Azur) and Idex UCA JEDI.</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Xavier Descombes is member of the Scientific Committee of
+the competitivness pole Optitech, member of IEEE BISP (Biomedical Imaging Signal Processing) Technical Committee and member of the Scientific Committee of Labex SIGNALIFE.</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Grégoire Malandain is member of the IEEE/EMB Technical Committee on
+Biomedical Imaging and Image Processing (BIIP).
+He is an member of the Scientific Committee of the MIA department
+of INRA.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <sanspuceslist>
+          <li id="uid103">
+            <p noindent="true">Laure Blanc-Féraud is part of the scientific committee of the Institut des Technologies Avancées en sciences du Vivant" (ITAV, USR CNRS 3505). She headed the HCERES expert committee (18 members) of LabSTICC Lab in Brest and headed the recruitment panel "Comité de sélection" of a
+MCF at University Paris Descartes in section 26. Sha was member of the scientific committee of the "rencontres du numériques" of ANR.
+She is expert member of the MIUR: Italian Ministry for Education, University and Research (Italy) and expert for the Fund for Scientific Research - FNRS (Belgium). She was expert for an application at a director of research position in ONERA DTIM.</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">Xavier Descombes is an expert for the DRRT within the CIR (”Crédit Impot Recherche”) and JEI (”Jeunes Entreprise Innovantes”) programs.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <sanspuceslist>
+          <li id="uid106">
+            <p noindent="true">Laure Blanc-Féraud was member of the steering committee of the "défi 7" of the ANR. She was member of the CNRS admission for chargé de recherche at INS2I of CNRS. She is member of the academic council of UCA (COMUE université Côte d'Azur).</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">Xavier Descombes is member of the "comité des projets" and the "comité de centre" of Inria CRI-SAM.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Grégoire Malandain is the head of the committee "Comité de
+suivi doctoral” of the Inria CRI-SAM.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid109" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid110" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid111">
+            <p noindent="true">Master: Florence Besse, Genetic control of neuronal branching, 2h, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Master: Florence Besse, Dissection of neuronal circuits, 4h, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">Master: Florence Besse, Post-transcriptional regulation of neuronal development and maturation, 2h, Nancy, France.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Master : Laure Blanc-Féraud, Fluorescence image restoration, 18h Eq. TD, M2 Computational
+Biology , University Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Master : Laure Blanc-Féraud, Traitement numérique des images, 12h Eq. TD, M2 VIM , EPU
+University Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Master/Engineer:
+Eric Debreuve,
+Data Mining, 27.5h équivalent TD, M2/Engineer 5th year,
+Université Côte d'Azur, France</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Master:
+Eric Debreuve,
+Introduction to Inverse Problems in Image Processing, 28.5h équivalent TD, International M2,
+Université Côte d'Azur, France</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Master: Xavier Descombes, Traitement d’images, Analyse de données, Techniques avancées de
+traitement d’images, 10h Eq. TD, Niveau M2, ISAE, France.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Master: Xavier Descombes, Traitement d’images, master VIM, 12h
+Eq. TD, Niveau M2, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Master: Xavier Descombes, Bio-imagerie, master IRIV, 6h Eq. TD, Niveau M2, Université de
+Strasbourg, France</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Master: Xavier Descombes, Analyse d'images, master GBM, 9h Eq. TD, Niveau M2, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Master: Gaël Michelin, Traitement Numérique des Images, 8h Eq. TD, Niveau M2, EPU, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">IUT : A. Razetti, initiation à la mesure du signal, 30h Eq. TD, IUT Nice Côte d’Azur, Université Côte d'Azur, France.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Licence : Emmanuel Soubies, Images et Filtres, 54h Eq.TD, Niveau L3 , EPU, Université Côte d'Azur, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid125" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid126">
+            <p noindent="true">PhD: Emmanuel Soubies, Sur quelques problèmes de reconstruction en imagerie MA-TIRF et en optimisation parcimonieuse par relaxations continue exacte de critères pénalisés en norme <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℓ</mi><mn>0</mn></msub></math></formula>, Université Côte d'Azur, 14 october 2016.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">PhD: Gaël Michelin, Outils d'analyse d'images et recalage d'individus pour l'étude de la morphogénèse animale et végétale, 28 october 2016.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">PhD in progress: Lola Baustista, DIC microscopy image reconstruction, 1st november
+2013, Laure Blanc-Féraud.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">PhD in progress: Agustina Razetti, Modelling and characterizing
+axon growth from in vivo data, 1st
+november 2014, Xavier Descombes (advisor), Florence Besse (co-supervisor).</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">PhD in progress: Emmanuelle Poulain, Fluoroscopy/CTA dynamic registration, 1st february
+2016, Grégoire Malandain.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">PhD in progress: Anca-Ioana Grapa, Characterization of the
+organization of the Extracellular Matrix (ECM) by Image Processing ,
+19 September 2016, Laure Blanc-Féraud, Xavier Descombes.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid132" level="2">
+        <bodyTitle>Internships</bodyTitle>
+        <sanspuceslist>
+          <li id="uid133">
+            <p noindent="true">Nicolas Cedilnik: M1 BIM, UNS, Small particle detection. Supervisors: X. Descombes.</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">Simon Gazagnes: M2 INSA Lyon. Sparse 3D reconstruction for
+TIRF-PALM Imaging. Supervisors: L. Blanc-Féraud, E. Soubies.</p>
+          </li>
+          <li id="uid135">
+            <p noindent="true">Djampa Kozlowski: M2 BIM, UNS, Nuclei detection and classification in
+genome-wide RNAi screens. Supervisors: X. Descombes, F. Besse, F. de Graeve (iBV).</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">Raphaël Meunier: M1 INSA Toulouse. Classification of the
+extracellular matrix. Supervisors: X. Descombes, L. Blanc-Féraud.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid137" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid138">
+            <p noindent="true">Laure Blanc-Féraud participated to the PhD thesis committee of Sébastien Combrexelles (IRIT Toulouse), as reviewer of the HDR of Gabriele Facciolo (ENS Cachan) and reviewer of the 2 PhD thesis: Fred NGole MBoula (CEA Saclay), Meriem Ben Abdallah (CRAN Nancy).</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">Xavier Descombes participated to the PhD thesis committee of A. Sarr (Univ. de Bretagne)</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">Grégoire Malandain participated
+as chair to the PhD thesis committee of
+D. Chen (Paris Dauphine univ.),
+G. Michelin (Côte d'Azur univ.)
+as reviewer to the PhD thesis committee of
+O. Merveille (Paris Est univ.),
+A. Sironi (EPFL),
+and as committee head to the PhD thesis committee of
+P. Samarakoon (Grenoble Alpes univ.).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid141" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <sanspuceslist>
+        <li id="uid142">
+          <p noindent="true">Xavier Descombes was invited to give a talk at "La fête de la
+science" in Juan Les Pins.</p>
+        </li>
+        <li id="uid143">
+          <p noindent="true">The Morpheme team has animated a stand during the "fête de la
+science" in Juan Les Pins.</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="morpheme-2016-bid13" type="article" rend="year" n="cite:descombes:hal-01383165">
+      <identifiant type="doi" value="10.1016/j.ymeth.2016.09.009"/>
+      <identifiant type="hal" value="hal-01383165"/>
+      <analytic>
+        <title level="a">Multiple objects detection in biological images using a marked point process framework</title>
+        <author>
+          <persName key="morpheme-2014-idp68008">
+            <foreName>Xavier</foreName>
+            <surname>Descombes</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03148">
+        <idno type="issn">1046-2023</idno>
+        <title level="j">Methods</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01383165" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01383165</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid10" type="article" rend="year" n="cite:halimi:hal-01325467">
+      <identifiant type="doi" value="10.1109/TGRS.2016.2528298"/>
+      <identifiant type="hal" value="hal-01325467"/>
+      <analytic>
+        <title level="a">Estimating the Intrinsic Dimension of Hyperspectral Images Using a Noise-Whitened Eigengap Approach</title>
+        <author>
+          <persName>
+            <foreName>Abderrahim</foreName>
+            <surname>Halimi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Honeine</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Malika</foreName>
+            <surname>Kharouf</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="morpheme-2016-idp129968">
+            <foreName>Cédric</foreName>
+            <surname>Richard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Yves</foreName>
+            <surname>Tourneret</surname>
+            <initial>J.-Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00727">
+        <idno type="issn">0196-2892</idno>
+        <title level="j">IEEE Transactions on Geoscience and Remote Sensing</title>
+        <imprint>
+          <biblScope type="volume">vol. 54</biblScope>
+          <biblScope type="number">n° 7</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3811-3821</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01325467" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01325467</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid7" type="article" rend="year" n="cite:soubies:hal-01267679">
+      <identifiant type="doi" value="10.1137/15M1038384"/>
+      <identifiant type="hal" value="hal-01267679"/>
+      <analytic>
+        <title level="a">ERRATUM: A Continuous Exact l0 penalty (CEL0) for least squares regularized problem</title>
+        <author>
+          <persName key="morpheme-2014-idp88360">
+            <foreName>Emmanuel</foreName>
+            <surname>Soubies</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp62408">
+            <foreName>Gilles</foreName>
+            <surname>Aubert</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01734">
+        <idno type="issn">1936-4954</idno>
+        <title level="j">SIAM J. on Imaging Science (SIIMS)</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">490–494.</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01267679" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01267679</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid9" type="inproceedings" rend="year" n="cite:bautista:hal-01255004">
+      <identifiant type="hal" value="hal-01255004"/>
+      <analytic>
+        <title level="a">Phase Estimation in Differential-Interference-Contrast (DIC) Microscopy</title>
+        <author>
+          <persName>
+            <foreName>Lola</foreName>
+            <surname>Bautista</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2015-idp78664">
+            <foreName>Simone</foreName>
+            <surname>Rebegoldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Marco</foreName>
+            <surname>Prato</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Zanni</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Arturo</foreName>
+            <surname>Plata</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Symposium on Biomedical Imaging (ISBI)</title>
+        <loc>Prague, Czech Republic</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">136-139</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01255004" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01255004</ref>
+        </imprint>
+        <meeting id="cid88475">
+          <title>IEEE International Symposium on Biomedical Imaging : From Nano to Macro</title>
+          <num>7</num>
+          <abbr type="sigle">ISBI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid11" type="inproceedings" rend="year" n="cite:blancferaud:hal-01349670">
+      <identifiant type="hal" value="hal-01349670"/>
+      <analytic>
+        <title level="a">Some results on sparse L2-L0 reconstruction: Continuous Exact L0 penalties</title>
+        <author>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp88360">
+            <foreName>Emmanuel</foreName>
+            <surname>Soubies</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp62408">
+            <foreName>Gilles</foreName>
+            <surname>Aubert</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">NCMIP 2016 - New Computational Methods for Inverse Problem</title>
+        <loc>Cachan, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">ENS Cachan</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349670" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349670</ref>
+        </imprint>
+        <meeting id="cid364763">
+          <title>International ICST Workshop on New Computational Methods for Inverse Problems</title>
+          <num>6</num>
+          <abbr type="sigle">NCMIP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid12" type="inproceedings" rend="year" n="cite:blancferaud:hal-01358112">
+      <identifiant type="hal" value="hal-01358112"/>
+      <analytic>
+        <title level="a">Some results on sparse L2-L0 reconstruction: Continuous Exact L0 penalties</title>
+        <author>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp88360">
+            <foreName>Emmanuel</foreName>
+            <surname>Soubies</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp62408">
+            <foreName>Gilles</foreName>
+            <surname>Aubert</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">Workshop ATLAS on mathematical and algorithmimcal approaches for high dimensional problems in data sciences</title>
+        <loc>Grenoble, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">GdR MaDICS</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01358112" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01358112</ref>
+        </imprint>
+        <meeting id="cid625405">
+          <title>Workshop ATLAS on mathematical and algorithmical approaches for high dimensional problems in data sciences</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid2" type="inproceedings" rend="year" n="cite:michelin:hal-01251151">
+      <identifiant type="doi" value="10.1109/ISBI.2015.7163872"/>
+      <identifiant type="hal" value="hal-01251151"/>
+      <analytic>
+        <title level="a">Spatio-temporal registration of 3D microscopy image sequences of Arabidopsis floral meristems</title>
+        <author>
+          <persName key="morpheme-2014-idp84680">
+            <foreName>Gaël</foreName>
+            <surname>Michelin</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="virtual_plants-2014-idp130000">
+            <foreName>Yassin</foreName>
+            <surname>Refahi</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Raymond</foreName>
+            <surname>Wightman</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Henrik</foreName>
+            <surname>Jönsson</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Jan J.</foreName>
+            <surname>Traas</surname>
+            <initial>J. J.</initial>
+          </persName>
+          <persName key="virtual_plants-2014-idp14624">
+            <foreName>Christophe</foreName>
+            <surname>Godin</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp69464">
+            <foreName>Grégoire</foreName>
+            <surname>Malandain</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISBI - International Symposium on Biomedical Imaging</title>
+        <loc>Prague, Czech Republic</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01251151" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01251151</ref>
+        </imprint>
+        <meeting id="cid88475">
+          <title>IEEE International Symposium on Biomedical Imaging : From Nano to Macro</title>
+          <num>10</num>
+          <abbr type="sigle">ISBI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid0" type="inproceedings" rend="year" n="cite:razetti:hal-01290499">
+      <identifiant type="hal" value="hal-01290499"/>
+      <analytic>
+        <title level="a">Statistical Characterization, Modelling and Classification of Morphological Changes in imp Mutant Drosophila Gamma Neurons</title>
+        <author>
+          <persName key="morpheme-2014-idp87128">
+            <foreName>Agustina</foreName>
+            <surname>Razetti</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp68008">
+            <foreName>Xavier</foreName>
+            <surname>Descombes</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp70912">
+            <foreName>Caroline</foreName>
+            <surname>Medioni</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp63872">
+            <foreName>Florence</foreName>
+            <surname>Besse</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">BIOSTEC 2016 - The 9h International Joint Conference on Biomedical Engineering Systems and Technologies</title>
+        <loc>Rome, Italy</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01290499" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01290499</ref>
+        </imprint>
+        <meeting id="cid533434">
+          <title>International Joint Conference on Biomedical Engineering Systems and Technologies</title>
+          <num>9</num>
+          <abbr type="sigle">BIOSTEC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid4" type="inproceedings" rend="year" n="cite:rebegoldi:hal-01426330">
+      <identifiant type="hal" value="hal-01426330"/>
+      <analytic>
+        <title level="a">Accelerated gradient-based methods for phase estimation in differential-interference-contrast microscopy</title>
+        <author>
+          <persName key="morpheme-2015-idp78664">
+            <foreName>Simone</foreName>
+            <surname>Rebegoldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Lola</foreName>
+            <surname>Bautista</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Marco</foreName>
+            <surname>Prato</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Zanni</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Arturo</foreName>
+            <surname>Plata</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">SIMAI 2016: Società Italiana di Matematica Aplicata e Industriale</title>
+        <loc>Milan, Italy</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426330" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426330</ref>
+        </imprint>
+        <meeting id="cid53840">
+          <title>Congress of SIMAI</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid3" type="inproceedings" rend="year" n="cite:rebegoldi:hal-01426337">
+      <identifiant type="hal" value="hal-01426337"/>
+      <analytic>
+        <title level="a">An efficient gradient-based method for differential-interference-contrast microscopy</title>
+        <author>
+          <persName key="morpheme-2015-idp78664">
+            <foreName>Simone</foreName>
+            <surname>Rebegoldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Lola</foreName>
+            <surname>Bautista</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Marco</foreName>
+            <surname>Prato</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Zanni</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Arturo</foreName>
+            <surname>Plata</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">NUMTA 2016: Numerical Computations: Theory and Algorithms</title>
+        <loc>Calabria, Italy</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426337" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426337</ref>
+        </imprint>
+        <meeting id="cid625404">
+          <title>International Conference on Numerical Computations: Theory and Algorithms</title>
+          <num>2016</num>
+          <abbr type="sigle">NUMTA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid1" type="inproceedings" rend="year" n="cite:soubies:hal-01257736">
+      <identifiant type="doi" value="10.1109/ISBI.2016.7493355"/>
+      <identifiant type="hal" value="hal-01257736"/>
+      <analytic>
+        <title level="a">A Framework for Multi-angle Tirf Microscope Calibration</title>
+        <author>
+          <persName key="morpheme-2014-idp88360">
+            <foreName>Emmanuel</foreName>
+            <surname>Soubies</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp73392">
+            <foreName>Sébastien</foreName>
+            <surname>Schaub</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Agata</foreName>
+            <surname>Radwanska</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ellen</foreName>
+            <surname>Van Obberghen-Schilling</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp62408">
+            <foreName>Gilles</foreName>
+            <surname>Aubert</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISBI - International Symposium on Biomedical Imaging</title>
+        <loc>Prague, Czech Republic</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">4</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01257736" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01257736</ref>
+        </imprint>
+        <meeting id="cid88475">
+          <title>IEEE International Symposium on Biomedical Imaging : From Nano to Macro</title>
+          <num>10</num>
+          <abbr type="sigle">ISBI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid8" type="inproceedings" rend="year" n="cite:zubiolo:hal-01344247">
+      <identifiant type="doi" value="10.1109/CBMI.2016.7500255"/>
+      <identifiant type="hal" value="hal-01344247"/>
+      <analytic>
+        <title level="a">Is the Vascular Network Discriminant Enough to Classify Renal Cell Carcinoma?</title>
+        <author>
+          <persName key="morpheme-2014-idp89576">
+            <foreName>Alexis</foreName>
+            <surname>Zubiolo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp66576">
+            <foreName>Eric</foreName>
+            <surname>Debreuve</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Damien</foreName>
+            <surname>Ambrosetti</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Pognonec</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp68008">
+            <foreName>Xavier</foreName>
+            <surname>Descombes</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Workshop on Content-based Multimedia Indexing (CBMI)</title>
+        <loc>Bucarest, Romania</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01344247" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01344247</ref>
+        </imprint>
+        <meeting id="cid323788">
+          <title>International Workshop on Content-Based Multimedia Indexing</title>
+          <num>2016</num>
+          <abbr type="sigle">CBMI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid14" type="unpublished" rend="year" n="cite:queau:hal-01334657">
+      <identifiant type="doi" value="10.1016/j.imavis.2016.11.006"/>
+      <identifiant type="hal" value="hal-01334657"/>
+      <monogr>
+        <title level="m">Photometric Stereo with Only Two Images: A Theoretical Study and Numerical Resolution</title>
+        <author>
+          <persName>
+            <foreName>Yvain</foreName>
+            <surname>Quéau</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Mecca</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Denis</foreName>
+            <surname>Durou</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp68008">
+            <foreName>Xavier</foreName>
+            <surname>Descombes</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01334657" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01334657</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid5" type="misc" rend="year" n="cite:rebegoldi:hal-01426317">
+      <identifiant type="hal" value="hal-01426317"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Optimization methods for phase estimation in differential-interference-contrast (DIC) microscopy</title>
+        <author>
+          <persName key="morpheme-2015-idp78664">
+            <foreName>Simone</foreName>
+            <surname>Rebegoldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Lola</foreName>
+            <surname>Bautista</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Marco</foreName>
+            <surname>Prato</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Zanni</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Arturo</foreName>
+            <surname>Plata</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426317" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426317</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">Workshop on Optimization Techniques for Inverse Problems III</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="morpheme-2016-bid6" type="unpublished" rend="year" n="cite:soubies:hal-01267701">
+      <identifiant type="hal" value="hal-01267701"/>
+      <monogr>
+        <title level="m">A unified view of exact continuous penalties for l2-l0 minimization</title>
+        <author>
+          <persName key="morpheme-2014-idp88360">
+            <foreName>Emmanuel</foreName>
+            <surname>Soubies</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp65120">
+            <foreName>Laure</foreName>
+            <surname>Blanc-Féraud</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheme-2014-idp62408">
+            <foreName>Gilles</foreName>
+            <surname>Aubert</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01267701" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01267701</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

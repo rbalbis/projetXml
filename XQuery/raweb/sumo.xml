@@ -1,0 +1,3175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="sumo" isproject="true">
+    <shortname>SUMO</shortname>
+    <projectName>SUpervision of large MOdular and distributed systems</projectName>
+    <theme-de-recherche>Proofs and Verification</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <structure_exterieure type="Labs">
+      <libelle>Institut de recherche en informatique et systèmes aléatoires (IRISA)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Rennes 1</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2013 January 01, updated into Project-Team: 2015 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.2.2. - Supervision</term>
+      <term>1.3. - Distributed Systems</term>
+      <term>2.3.2. - Cyber-physical systems</term>
+      <term>2.4.2. - Model-checking</term>
+      <term>4.5. - Formal methods for security</term>
+      <term>6.4. - Automatic control</term>
+      <term>7.1. - Parallel and distributed algorithms</term>
+      <term>7.3. - Optimization</term>
+      <term>7.4. - Logic in Computer Science</term>
+      <term>7.8. - Information theory</term>
+      <term>7.14. - Game Theory</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.3. - Cellular biology</term>
+      <term>1.1.9. - Bioinformatics</term>
+      <term>5.2.2. - Railway</term>
+      <term>6.2. - Network technologies</term>
+      <term>6.3.3. - Network Management</term>
+    </keywordsSecteurs>
+    <UR name="Rennes"/>
+  </identification>
+  <team id="uid1">
+    <person key="sumo-2014-idp100144">
+      <firstname>Éric</firstname>
+      <lastname>Fabre</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Team leader, Researcher, Inria</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp101624">
+      <firstname>Éric</firstname>
+      <lastname>Badouel</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp103056">
+      <firstname>Nathalie</firstname>
+      <lastname>Bertrand</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp104296">
+      <firstname>Blaise</firstname>
+      <lastname>Genest</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp105536">
+      <firstname>Loïc</firstname>
+      <lastname>Hélouët</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp106976">
+      <firstname>Thierry</firstname>
+      <lastname>Jéron</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2014-idp108424">
+      <firstname>Hervé</firstname>
+      <lastname>Marchand</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="sumo-2016-idp127168">
+      <firstname>Nicolas</firstname>
+      <lastname>Markey</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="sumo-2015-idp71288">
+      <firstname>Ocan</firstname>
+      <lastname>Sankur</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="sumo-2016-idp132480">
+      <firstname>Hugo</firstname>
+      <lastname>Bazille</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="sumo-2016-idp134912">
+      <firstname>Sihem</firstname>
+      <lastname>Cherrared</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Orange Labs, from Sep 2016, granted by CIFRE</moreinfo>
+    </person>
+    <person key="sumo-2014-idp117648">
+      <firstname>Paulin</firstname>
+      <lastname>Fournier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes I, until Aug 2016</moreinfo>
+    </person>
+    <person key="sumo-2014-idp121320">
+      <firstname>Abd El Karim</firstname>
+      <lastname>Kecir</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Alstom, granted by CIFRE</moreinfo>
+    </person>
+    <person key="sumo-2014-idp131536">
+      <firstname>Engel</firstname>
+      <lastname>Lefaucheux</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes I</moreinfo>
+    </person>
+    <person key="sumo-2014-idp118872">
+      <firstname>Matthieu</firstname>
+      <lastname>Pichené</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="sumo-2015-idp80104">
+      <firstname>Sucheendra</firstname>
+      <lastname>Palaniappan</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="sumo-2014-idp125088">
+      <firstname>Robert</firstname>
+      <lastname>Nsaibirni</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>University of Yaoundé I, from September 2016</moreinfo>
+    </person>
+    <person key="sumo-2014-idp127688">
+      <firstname>Shauna Laurene</firstname>
+      <lastname>Ricker</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Prof. Mount Allison Univ., Canada, until Jul 2016</moreinfo>
+    </person>
+    <person key="sumo-2014-idp109672">
+      <firstname>Laurence</firstname>
+      <lastname>Dinh</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="sumo-2016-idp157232">
+      <firstname>Vincent</firstname>
+      <lastname>Aubry</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>ENS Paris, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="sumo-2016-idp159712">
+      <firstname>Olivier</firstname>
+      <lastname>Bache</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, from April to September 2016</moreinfo>
+    </person>
+    <person key="sumo-2014-idp110904">
+      <firstname>Christophe</firstname>
+      <lastname>Morvan</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Ass. Prof., Univ. Paris Est Marne La Vallée</moreinfo>
+    </person>
+    <person key="sumo-2016-idp164752">
+      <firstname>Arthur</firstname>
+      <lastname>Queffelec</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, from May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="sumo-2016-idp167232">
+      <firstname>Jérémy</firstname>
+      <lastname>Thibault</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, from May 2016 until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall objectives</bodyTitle>
+      <p>Most software driven systems we commonly use in our daily life are
+huge hierarchical assemblings of components. This observation runs
+from the micro-scale (multi-core chips) to the macro-scale (data
+centers), and from hardware systems (telecommunication networks) to
+software systems (choreographies of web services). The main characteristics
+of these pervasive applications are size, complexity, heterogeneity,
+and modularity (or concurrency). Besides, several such systems are
+actively used before they are fully mastered, or they have grown so
+much that they now raise new problems that are hardly manageable by
+human operators. While these systems and applications are becoming more
+essential, or even critical, the need for their <i>reliability,
+efficiency</i> and <i>manageability</i> becomes a central concern in
+computer science. The main objective of SUMO is to develop
+theoretical tools to address such challenges, according to the following
+axes.</p>
+      <subsection id="uid4" level="2">
+        <bodyTitle>
+          <b>Necessity of quantitative models.</b>
+        </bodyTitle>
+        <p>Several disciplines in computer science have of course addressed some
+of the issues raised by large systems. For example, formal methods
+(essentially for verification purposes), discrete event systems
+(diagnosis, control, planning, and their distributed versions), but
+also concurrency theory (modelling and analysis of large concurrent
+systems). Practical needs have oriented these methods towards the
+introduction of quantitative aspects, such as time, probabilities, costs,
+and their combinations. This approach drastically changes the nature of
+questions that are raised. For example, verification questions
+become the reachability of a state in a limited time, the average
+sojourn duration in a state, the probability that a run of the system
+satisfies some property, the existence of control strategies with a
+given winning probability, etc. In this setting, exact computations
+are not always appropriate as they may end up with unaffordable
+complexities, or even with undecidability. Approximation strategies
+then offer a promising way around, and are certainly also a key to
+handling large systems. Discrete event systems approaches follow the
+same trend towards quantitative models. For diagnosis aspects, one is
+interested in the most likely explanations to observed malfunctions, in
+the identification of the most informative tests to perform, or in the
+optimal placement of sensors. For control problems, one is of
+course interested in optimal control, in minimizing communications, in
+the robustness of the proposed controllers, in the online optimization
+of QoS (Quality of Service) indicators, etc.</p>
+      </subsection>
+      <subsection id="uid5" level="2">
+        <bodyTitle>
+          <b>Specificities of distributed systems.</b>
+        </bodyTitle>
+        <p>While the above questions have already received partial answers, they
+remain largely unexplored in a distributed setting. We focus on
+structured systems, typically a network of dynamic systems with known
+interaction topology, the latter being either static or
+dynamic. Interactions can be synchronous or asynchronous. The state
+space explosion raised by such systems has been addressed through two
+techniques. The first one consists in adopting true concurrency
+models, which take advantage of the parallelism to reduce the size of
+the trajectory sets. The second one looks for modular or distributed
+“supervision" methods, taking the shape of a network of local
+supervisors, one per component. While these approaches are relatively
+well understood, their mixing with quantitative models remains a
+challenge (as an example, there exists no proper setting assembling
+concurrency theory with stochastic systems). This field is largely open
+both for modeling, analysis and verification purposes, and for
+distributed supervision techniques. The difficulties combine with the
+emergence of data driven distributed systems (as web services or data
+centric systems), where the data exchanged by the various components
+influence both the behaviors of these components and the quantitative
+aspects of their reactions (e.g. QoS). Such systems call for symbolic
+or parametric approaches for which a theory is still missing.</p>
+      </subsection>
+      <subsection id="uid6" level="2">
+        <bodyTitle>
+          <b>New issues raised by large systems.</b>
+        </bodyTitle>
+        <p>Some existing distributed systems like telecommunication networks, data centers, or large scale web applications have reached sizes and complexities that reveal new management problems. One can no longer assume that the model of the managed systems is static and fully known at any time and any scale. To scale up the management methods to such applications, one needs to be able to design reliable abstractions of parts of the systems, or to build dynamically a part of their model, following the needs of the management functions to realize. Besides, one does not wish to define management objectives at the scale of each single component, but rather to pilot these systems through high-level policies (maximizing throughput, minimizing energy consumption, etc.). These distributed systems and management problems have connections with other approaches for the management of large structured stochastic systems, such as Bayesian networks (BN) and their variants. The similarity can actually be made more formal: inference techniques for BN rely on the concept of conditional independence, which has a counterpart for networks of <i>dynamic</i> systems and is at the core of techniques like distributed diagnosis, distributed optimal planning, or the synthesis of distributed controllers. The potential of this connection is largely unexplored, but it suggests that one could derive from it good approximate management methods for large distributed dynamic systems.</p>
+      </subsection>
+    </subsection>
+  </presentation>
+  <fondements id="uid7">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Analysis and verification of quantitative systems</bodyTitle>
+      <p>The overall objective of this axis is to develop the quantitative aspects of formal methods while maintaining the tractability of verification objectives and progressing toward the management of large systems. This covers the development of relevant modeling formalims, to nicely weave time, costs and probabilities with existing models for concurrency. We plan to further study time(d) Petri nets, networks of timed automata (with synchronous or asynchronous communications), stochastic automata, partially observed Markov decision processes, etc. A second objective is to develop verification methods for such quantitative systems. This covers several aspects: quantitative verification questions (compute an optimal scheduling policy), boolean questions on quantitative features (deciding whether some probability is greater than a threshold), robustness issues (will a system have the same behaviors if some parameter is slightly altered), etc. Our goal is to explore the frontier between decidable and undecidable problems, or more pragmatically tractable and untractable problems. Of course, there is a tradeoff between the expressivity and the tractability of a model. Models that incorporate distributed aspects, probabilities, time, etc, are typically untractable. In such a case, abstraction or approximation techniques are a work around that we will explore.</p>
+      <p>Here are some more detailed topics that we place in our agenda</p>
+      <simplelist>
+        <li id="uid9">
+          <p noindent="true">analysis of diagnosability and opacity properties for stochastic
+systems</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true">verification of time(d) Petri nets</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">robustness analysis for timed or/and stochastic systems</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true">abstraction techniques for quantitative systems</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Control of quantitative systems</bodyTitle>
+      <p>The main objective of this research axis is to explore the quantitative and/or distributed extensions of classical control problems. We envision control in its widest meaning of driving a system in order to guarantee or enforce some extra property (i.e. not guaranteed by the system alone), in a partially or totally observed setting. This property can either be logical (e.g. reachability or safety) or quantitative (e.g. reach some performance level). These problems have of course an offline facet (e.g. controller design, existence of a policy/strategy) and an online facet (e.g. algorithm to select some optimal action at runtime).</p>
+      <p>Our objectives comprise classical controler synthesis for discrete event systems, with extensions to temporal/stochastic/reward settings. They also cover maintaining or maximizing extra properties as diagnosability or opacity, for example in stochastic systems. We also target further analysis of POMDPs (partially observed Markov decision processes), and multi-agent versions of policy synthesis relying on tools from game theory. We aim at adressing some control problems motivated by industrial applications, that raise issues like the optimal control of timed and stochastic discrete event systems, with concerns like robustness to perturbations and multicriteria optimization. Finally, we also plan to work on modular testing, and on runtime enforcement techniques, in order to garantee extra logical and temporal properties to event flows.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Management of large or distributed systems</bodyTitle>
+      <p>The generic terms of “supervision” or “management” of distributed systems cover problems like control, diagnosis, sensor placement, planning, optimization, (state) estimation, parameter identification, testing, etc. This research axis examines how classical settings for such problems can scale up to large or distributed systems. Our work will be driven by considerations like : how to take advantage of modularity, how to design approximate management algorithms, how to design relevant abstractions to make large systems more tractable, how to deal with models of unknown size, how to design mechanisms to obtain relevant models, etc.</p>
+      <p>As more specific objectives, let us mention:</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">Parametric systems. How to verify properties of distributed
+systems with an unknown number of components.</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">Approximate management methods. We will explore the extension of ideas developed for Bayesian inference in large scale stochastic systems (such as turbo-algorithms for example) to the field of modular dynamic systems. When component interactions are sparse, even if exact management methods are unaccessible (for diagnosis, planning, control, etc.), good approximations based on local computations may be accessible.</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Model abstraction. We will explore techniques to design more tractable abstractions of stochastic dynamic systems defined on large sets of variables.</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">Self-modeling, which consists in managing large scale systems that are known by their building rules, but which specific managed instance is only discovered at runtime, and on the fly. The model of the managed system is built on-line, following the needs of the management algorithms.</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Distributed control. We will tackle issues related to asynchronous communications between local controllers, and to abstraction techniques allowing to address large systems.</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">Test and enforcement. We will tackle coverage issues for the test of large systems, and the test and enforcement of properties for timed models, or for systems handling data.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Data driven systems</bodyTitle>
+      <p>Data-driven systems are systems whose behavior depends both on explicit workflows (scheduling and durations of tasks, calls to possibly distant services,...) and on the data processed by the system (stored data, parameters of a request, results of a request,...). This family of systems covers workflows that convey data (business processes or information systems), transactional systems (web stores), large databases managed with rules (banking systems), collaborative environments (crowds, health systems), etc. These systems are distributed, modular, and open: they integrate components and sub-services distributed over the web and accept requests from clients. Our objective is to provide validation and supervision tools for such systems. To achieve this goal, we have to solve several challenging tasks:</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">provide realistic models, and sound automated abstraction techniques, to reason on models that are reasonable abstractions of real systems. These models should be able to encompass modularity, distribution, in a context where workflows and data aspects are tightly connected.</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">address design of data driven systems in a declarative way: declarative models are another way to handle data-driven systems. Rather than defining the explicit workflows and their effects on data, rule-based models state how actions are enacted in terms of the shape (pattern matching) or value of the current data. We think that distributed rewriting rules or attributed grammars can provide a practical yet formal framework for maintenance, by providing a solution to update mandatory documentation during the lifetime of an artifact.</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">provide tractable solutions for validation of models. Frequent issues are safety questions (can a system reach some bad configuration?), but also liveness (workflows progess), ... These questions should not only remain decidable on our models, but also with efficient computational methods.</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">address QoS management in large reconfigurable systems: Data driven distributed systems often have
+constraints in terms of QoS. This QoS questions adresse performance issues, but also data quality. This calls for an analysis of quantitative features and for reconfiguration techniques to meet desired QoS.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </fondements>
+  <domaine id="uid26">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Smart transportation systems</bodyTitle>
+      <p>The smart cities trend aims at optimizing all functions of future cities
+with the help of digital technologies. We focus on the segment of urban
+trains, which will evolve from static and scheduled offers to reactive
+and eventually on demand transportation offers. We address two
+challenges in this field. The first one concerns the optimal design of
+robust subway lines. The idea is to be able to evaluate, at design time,
+the performance of time tables and of different regulations policies. In
+particular, we focus on robustness issues: how small perturbations and
+incidents can be accomodated by the system, and how fast return to
+normality occurs, when does the system become unstable. The second
+challenge concerns the design of new robust regulation strategies to
+optimize delays, recovery times, and energy consumption at the scale of
+a full subway line. These problems involve large scale discrete event
+systems, with temporal and stochastic features, and translate into
+robustness assessment, stability analysis and joint
+numerical/combinatorial optimization problems on the trajectories of
+these systems.
+</p>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Management of telecommunication networks
+and of data centers</bodyTitle>
+      <p>Telecommunication network management is a rich provider of research
+topics for the team, and some members of Sumo have a long background of
+contacts and transfer with industry in this domain. Networks are typical
+examples of large distributed dynamic systems, and their management
+raises numerous problems ranging from diagnosis (or root cause
+analysis), to optimization, reconfiguration, provisioning, planning,
+verification, etc. They also bring new challenges to the community. For
+example on the modeling side, building or learning a network model is a
+complex task, specifically because these models should reflect features
+like the layering, the multi-resolution view of components, the
+description of both functions, protocols and configuration, and they
+should reflect as well dynamically changing architectures. Besides
+modeling, management algorithms are also challenged by features like the
+size of systems, the need to work on abstractions, on partially known models, on
+open (multi-tenant) systems, on dynamically changing systems, etc. The networking
+technology is now evolving toward software defined networks, virtualized
+network functions, which reinforces the need
+for more automation in the management of such systems.</p>
+      <p>Data centers are another example of large scale modular dynamic and
+reconfigurable systems: they are composed of thousands of servers, on
+which virtual machines are activated, migrated, resized, etc. Their
+management covers issues like trouble shooting, reconfiguration, optimal
+control, in a setting where failures are frequent and mitigated by the
+performance of the management plane. We have a solid background in the
+coordination of the various autonomic managers that supervise the
+different functions/layers of such systems (hardware, middleware, web
+services,...) . Virtualization technologies now reach the domain of
+networking, and telecommunication operators/vendors evolve towards
+providers of distributed open clouds. This convergence of IT and
+networking strongly calls for new management paradigms, which is an
+opportunity for the team.</p>
+      <p>This application domain will be revived in the team by a collaboration
+with Orange Labs (1 CIFRE PhD in the common lab Orange/Inria) and a
+collaboration with Nokia Bell Labs (1 CIFRE PhD, and participation to
+the joint research team “Softwarization of Everything” of the common
+lab Nokia Bell Labs/Inria).
+</p>
+    </subsection>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Collaborative workflows</bodyTitle>
+      <p>A current trend is to involve end-users in collection and analysis of data. Exemples of this trend are contributive science, crisis management systems, and crowds. All these applications are data-centric and user-driven. They are often distributed and involve complex and sometimes dynamic workflows. In many cases, there are strong interactions between data and control flows: indeed, decisons taken to decide of the next tasks to be launched highly depend on collected data. For instance, in an epidemic surveillance system, the aggregation of various reported disease cases may trigger alerts. Another example is crowds where user skills are used to complete tasks that are better performed by humans than computers. In return, this needs to address imprecise and sometimes unreliable answers. We address several issues related to complex workflows and data. We study declarative and dynamic models that can handle workflows, data, uncertainty, and competences management.
+Once these models are mature enough, we plan to experiment them on real use cases from contributive science, health management systems, and crowd platforms using prototypes. We also plan to define abstaction schemes allowing formal reasonning on these systems.
+</p>
+    </subsection>
+    <subsection id="uid30" level="1">
+      <bodyTitle>Systems Biology</bodyTitle>
+      <p>A quite new topic in SUMO is about Systems Biology. In systems biology, many continuous variables interact together. Biological systems are thus good representatives for large complex quantitative systems, for which we are developing analysis and management methods. For instance, the biological pathway of apoptosis explain how many molecules interact inside a cell, triggered by some outside signal (drug, etc.), eventually leading to the death of the cell through apoptosis. While intrinsically quantitative in nature, data are usually noisy and problems need not be answered with ultimate precision. It thus seems reasonable to resort to approximations in order to handle the state space explosion resulting from the high dimensionality of biological systems.</p>
+      <p>We are developing models and abstraction tools for system biology. Studying these models suggests new reduction methods, such as considering populations instead of explicitly representing every single element into play (be it cells, molecules, etc): we thus develop algorithm handling population symbolically, either in a continuous (distributions) or a discrete (parametric) way. An intermediate goal is to speed-up analysis of such systems using abstractions, and a long term goal is to develop top down model-checking methods that can be run on these abstractions.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid31">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p><b>Start-up creation</b>. Christophe Morvan (Ass. Prof. Univ. Paris Est
+Marne la Vallée) has been hosted by Sumo for several years for his
+research activities. In 2016, he created Open Agora with two other
+computer scientists. The company develops a software suite to help the
+decision process in large structures. It offers tools to structure
+discussions, voting mechanisms, and automated argument summaries. The
+company will maintain connections with the team for the development of
+GAGs (Guarded Attributed Grammars)
+that are instrumental in the automated summary tools.</p>
+      <p><b>New team member</b>. Nicolas Markey (DR CNRS) recently joined the team,
+after several years in LSV (<i>Laboratoire Spécification et Vérification</i>), Cachan.
+Nicolas will reinforce the
+activities of the team in the modeling and analysis of timed systems,
+abstraction techniques and game theory.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid33">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Active Workspaces</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Guarded attribute grammar - Active workspace - Artifact centric workflow system</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Tool for computer supported cooperative work where a user's workspace is given by an active structured repository containing the pending tasks together with information needed to perform the tasks. Communication between active workspaces is asynchronous using message passing. The tool is based on the model of guarded attribute grammars <ref xlink:href="#sumo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Late in 2015 Éric Badouel produced in Haskell a software prototype implementing
+active workspaces based on Guarded Attribute Grammars (GAGs).</p>
+      <p>Concurrently, Christophe Morvan was beginning a startup project
+consisting in making on-line collective decision making tools: <i>Open Agora</i>. This project included collaboration workspaces for people participating in constructing possible decisions.
+There was a natural connection between the prototype, and the startup project.</p>
+      <p>In order to make industrial use of the GAG prototype, Olivier Bache (already involved in the Open agora project) applied to a 6 month InriaHub program (between April and September 2016). During these 6 months he bundeled the prototype into an API (also programmed in Haskell) and developped a web infrastructure, based on the PHP framework, to allow the interaction with Active Workspaces in a browser.
+This developpement will be licenced to Open Agora SAS after its
+creation expected in January 2017.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Prototype in Haskell of user's active workspaces based on Guarded Attribute Grammars.</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">Author: Eric Badouel</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">Contact: Eric Badouel</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">URL: <ref xlink:href="http://people.rennes.inria.fr/Eric.Badouel/Research/ActiveWorkspaces.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>people.<allowbreak/>rennes.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>Eric.<allowbreak/>Badouel/<allowbreak/>Research/<allowbreak/>ActiveWorkspaces.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>SIMSTORS</bodyTitle>
+      <p>SIMSTORS is a simulator for regulated stochastic timed Petri
+nets. These Petri nets are a variant of stochastic and timed nets,
+whose execution is controlled by a regulation policy an a
+predetermined theoretical schedule. The role of the regulation
+policy is to control the system to realize the schedule with the
+best possible precision. This software allows not only for step by step
+simulation, but also for performance analysis of systems such as
+production cells or train systems.</p>
+      <p>SIMSTORS was used successfully during a collaboration with Alstom
+transport to model existing urban railway systems and their
+regulation schemes. Alstom transport is willing to transfer this
+software and use it during early design phase of regulation
+algorithms in their metro lines. This year, the software has been extended to consider
+headway management.</p>
+      <simplelist>
+        <li id="uid39">
+          <p noindent="true">Participants: Loïc Hélouët and Karim Kecir</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">Contact: Loïc Hélouët</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">URL: <ref xlink:href="http://www.irisa.fr/sumo/Software/SIMSTORS/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>irisa.<allowbreak/>fr/<allowbreak/>sumo/<allowbreak/>Software/<allowbreak/>SIMSTORS/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid42">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Analysis and verification of quantitative systems</bodyTitle>
+      <subsection id="uid44" level="2">
+        <bodyTitle>Quantitative verification of distributions of stochastic models</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp104296">
+            <firstname>Blaise</firstname>
+            <lastname>Genest</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#sumo-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+we obtained conditions under which quantitative verification of distributions of stochastic systems is decidable. This is a challenging question as for general Markov Chains, verification of distribution is Skolem-complete,
+a problem on linear recurrence sequences whose decidability is a long-standing problem open for 40 years.
+In this paper, we approach this problem by studying the languages generated by Markov Chains, whose regularity would entail the decidability of quantitative verification.
+Given an initial distribution, we represent the trajectory of
+Markov Chain over time as an infinite word over a finite alphabet, where the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>n</mi><mrow><mi>t</mi><mi>h</mi></mrow></msup></math></formula> letter represents a probability range after <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> steps. We extend this to a language of trajectories (a set of words), one trajectory for each initial distribution from a (possibly infinite) set. We show that if the eigenvalues of the transition matrix associated with the Markov Chain are all distinct positive real numbers, then the language is <i>effectively regular</i>. Further, we show that this result is at the boundary of regularity, as non-regular languages can be generated when the restrictions are even slightly relaxed. The regular representation of the language allows us to reason about more general properties, e.g., robustness of a regular property in a neighbourhood around a given distribution.</p>
+      </subsection>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Diagnosability of repairable faults</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp100144">
+            <firstname>Éric</firstname>
+            <lastname>Fabre</lastname>
+          </person>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+          <person key="sumo-2014-idp108424">
+            <firstname>Hervé</firstname>
+            <lastname>Marchand</lastname>
+          </person>
+          <person key="sumo-2014-idp131536">
+            <firstname>Engel</firstname>
+            <lastname>Lefaucheux</lastname>
+          </person>
+        </participants>
+        <p>For (partially observable) discrete event systems, diagnosability characterizes the ability to detect the occurrence of a permanent fault in bounded time after it occurs, given the observations available on that system. Diagnosability can be decided in polynomial time, relying on the so-called twin-machine construction. We have examined the case of repairable faults, and a notion of diagnosability that requires the detection of the fault before it is repaired. It was proved in <ref xlink:href="#sumo-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>that diagnosability is a PSpace complete problem.</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Diagnosability of stochastic systems</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp100144">
+            <firstname>Éric</firstname>
+            <lastname>Fabre</lastname>
+          </person>
+          <person key="sumo-2014-idp104296">
+            <firstname>Blaise</firstname>
+            <lastname>Genest</lastname>
+          </person>
+          <person key="sumo-2016-idp132480">
+            <firstname>Hugo</firstname>
+            <lastname>Bazille</lastname>
+          </person>
+          <person key="sumo-2015-idp71288">
+            <firstname>Ocan</firstname>
+            <lastname>Sankur</lastname>
+          </person>
+        </participants>
+        <p>Diagnosis of partially observable stochastic systems prone to faults was introduced in the late nineties. Diagnosability, i.e. the existence of a diagnoser, may be specified in different ways: (1) exact diagnosability (called A-diagnosability) requires that almost surely a fault is detected and that no fault is erroneously claimed while (2) approximate diagnosability (called ε-diagnosability) allows a small probability of error when claiming a fault and (3) accurate approximate diagnosability (called AA-diagnosability) requires that this error threshold may be chosen arbitrarily small.
+In a recent work <ref xlink:href="#sumo-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we focused on approximate diagnoses. We first refined the almost sure requirement about finite delay introducing a uniform version and showing that while it does not discriminate between the two versions of exact diagnosability this is no more the case in approximate diagnosis. We then gave a complete picture of relations between the different diagnosability specifications for probabilistic systems and establish characterisations for most of them in the finite-state case. Based on these characterisations, we developped decision procedures, studied their complexity and proved their optimality. We also designed synthesis algorithms to construct diagnosers and we analysed their memory requirements. Finally we established undecidability of the diagnosability problems for which we provided no characterisation. Notably, we proved the AA-diagnosability problem to be undecidable, answering a longstanding open question.</p>
+        <p>In another work <ref xlink:href="#sumo-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we investigated semantical and computational issues for exact notions of diagnosability in the context of infinite-state probabilistic systems. We first showed established a characterisation of the so-called FF-diagnosability using a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>G</mi><mi>δ</mi></mrow></math></formula> set (instead of an open set for finite-state systems) and also for two other notions, IF- and IA-diagnosability, when models are finitely branching. We also proved that surprisingly the last notion, FA-diagnosability, cannot be characterised in this way even in the finitely branching case. Then we applied our characterisations for a partially observable probabilistic extension of visibly pushdown automata, yielding EXPSPACE procedures for solving diagnosability problems. In addition, we establish some computational lower bounds and show that slight extensions of these probabilistic visibly pushdown automata lead to undecidability.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Analysing decisive stochastic processes</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp103056">
+            <firstname>Nathalie</firstname>
+            <lastname>Bertrand</lastname>
+          </person>
+        </participants>
+        <p>In 2007, Abdulla et al. introduced the elegant concept of decisive Markov chain. Intuitively, decisiveness allows one to lift the good properties of finite Markov chains to infinite Markov chains. For instance, the approximate quantitative reachability problem can be solved for decisive Markov chains (enjoying reasonable effectiveness assumptions) including probabilistic lossy channel systems and probabilistic vector addition systems with states. In a recent work <ref xlink:href="#sumo-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we extended the concept of decisiveness to more general stochastic processes. This extension is non trivial as we consider stochastic processes with a potentially continuous set of states and uncountable branching (common features of real-time stochastic processes). This allowed us to obtain decidability results for both qualitative and quantitative verification problems on some classes of real-time stochastic processes, including generalized semi-Markov processes and stochastic timed automata.</p>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Concurrent timed systems</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+          <person key="sumo-2014-idp104296">
+            <firstname>Blaise</firstname>
+            <lastname>Genest</lastname>
+          </person>
+          <p>joint work with S. Akshay (IIT Bombay)</p>
+        </participants>
+        <p>Adding real time information to Petri net models often leads to undecidability of classical verification problems such as reachability and boundedness. For instance, models such as Timed-Transition Petri nets (TPNs)  <ref xlink:href="#sumo-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> are intractable except in a bounded setting. On the other hand, the model of Timed-Arc Petri nets  <ref xlink:href="#sumo-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> enjoys decidability results for boundedness and control-state reachability problems at the cost of disallowing urgency (the ability to enforce actions within a time delay).</p>
+        <p>We have addressed semantics variants of time and timed Petri nets to
+obtain concurrent models with interesting expressive power, but yet allowing decidability of verification and robustness questions. Robustness of timed systems aims at studying whether infinitesimal perturbations in clock values can result in new discrete behaviors. A model is robust if the set of discrete behaviors is preserved under arbitrarily small (but positive) perturbations.</p>
+        <p>In <ref xlink:href="#sumo-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we have considered time in Petri nets under a strong semantics with multiple
+enabling of transitions. We focus on a structural subclass of unbounded TPNs, where the underlying untimed net is free-choice, and show that it enjoys nice properties under a multi-server semantics. In particular, we showed that the questions of fireability (whether a chosen transition can fire), and termination
+(whether the net has a non-terminating run) are decidable for this
+class. We then consider the problem of robustness under guard
+enlargement  <ref xlink:href="#sumo-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, i.e., whether a given property is
+preserved even if the system is implemented on an architecture
+with imprecise time measurement. Unlike in <ref xlink:href="#sumo-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, where decidability of several
+problems is obtained for bounded classes of nets, we showed
+that robustness of fireability is decidable for unbounded free
+choice TPNs with a multi-server semantics.</p>
+        <p>The robustness of time Petri nets was addressed in <ref xlink:href="#sumo-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> by considering the model of parametric guard enlargement which allows time-intervals constraining the firing of transitions in TPNs to be enlarged by a (positive) parameter.
+We show that TPNs are not robust in general and checking if they are robust with respect to standard properties (such as boundedness, safety) is undecidable. We then extend the marking class timed automaton construction for TPNs to a parametric setting, and prove that it is compatible with guard enlargements.
+We apply this result to the (undecidable) class of TPNs which are robustly bounded (i.e., whose finite set of reachable markings remains finite under infinitesimal perturbations): we provide two decidable robustly bounded subclasses, and show that one can effectively build a timed automaton which is timed bisimilar even in presence of perturbations. This allows us to apply existing results for timed automata to these TPNs and show further robustness properties.</p>
+        <p>The goal of <ref xlink:href="#sumo-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is to investigate decidable classes of Petri nets with time that capture some urgency and still allow unbounded behaviors, which go beyond finite state systems.
+We have shown, up to our knowledge, the first decidability results on reachability and boundedness for Petri net variants that combine unbounded places, time, and urgency. For this, we have introduced the class of Timed-Arc Petri nets with restricted Urgency, where urgency can be used only on transitions consuming tokens from bounded places.
+We showed that control-state reachability and boundedness are decidable for this new class, by extending results from Timed-Arc Petri nets (without urgency) <ref xlink:href="#sumo-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Our main result concerns (marking) reachability, which is undecidable for both TPNs (because of unrestricted urgency)  <ref xlink:href="#sumo-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and Timed-Arc Petri Nets (because of infinite number of “clocks”)  <ref xlink:href="#sumo-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We obtained decidability of reachability for unbounded TPNs with restricted urgency under a new, yet natural, timed-arc semantics presenting them as Timed-Arc Petri Nets with restricted urgency. Decidability of reachability under the intermediate marking semantics is also obtained for a restricted subclass.</p>
+      </subsection>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Petri nets realizability</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+          <person key="sumo-2014-idp121320">
+            <firstname>Abd El Karim</firstname>
+            <lastname>Kecir</lastname>
+          </person>
+        </participants>
+        <p>We considered in <ref xlink:href="#sumo-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> the realizability of urban train schedules by stochastic concurrent timed systems.
+Schedules are high level views of desired timetables that a metro system should implement. They are represented as partial orders decorated with timing constraints. Train systems are represented as elementary stochastic time Petri nets.
+We have first considered logical realizability:
+a schedule is realizable by a net <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒩</mi></math></formula> if it embeds in a time process of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒩</mi></math></formula> that satisfies all its constraints. However, with continuous time domains, the probability of a time process that realizes a schedule is null.
+We have extended the former notion of realizability to consider probabilistic realizability of schedules up to some imprecision <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>α</mi></math></formula>. This probabilistic realizability holds if the probability that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒩</mi></math></formula> logically realizes <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>S</mi></math></formula> with
+constraints enlarged by <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>α</mi></math></formula> time units is strictly positive.
+We have shown that upon a sensible restriction guaranteeing time progress (systems can not perform an arbitrary number of actions within a single time unit),
+logical and probabilistic realizability of a schedule
+can be checked on the finite set of symbolic prefixes extracted from a bounded unfolding of the net.
+We have provided a construction technique for these prefixes and
+shown that they represent all time processes of a net occurring up to a given maximal date.
+We have then shown how to verify existence of an embedding and compute the probability of its realization.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Control of quantitative systems</bodyTitle>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Smart regulation for urban trains</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp100144">
+            <firstname>Éric</firstname>
+            <lastname>Fabre</lastname>
+          </person>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+          <person key="sumo-2014-idp108424">
+            <firstname>Hervé</firstname>
+            <lastname>Marchand</lastname>
+          </person>
+          <person key="sumo-2014-idp121320">
+            <firstname>Abd El Karim</firstname>
+            <lastname>Kecir</lastname>
+          </person>
+        </participants>
+        <p>The regulation of subway lines consists in accomodating small random perturbations in transit times as well as more impacting incidents, by playing on continuous commands (transit times and dwell times) and by making more complex decisions (insertions or extractions of trains, changes of missions, overpassing, shorter returns, etc.). The objectives are multiple : ensuring the regularity and punctuality of trains, adapting to transportation demand, minimizing energy consumption, etc. We have developed an event-based control strategy that aims at equalizing headways on a line. This distributed control strategy is remarquably robust to perturbations and reactive enough to accomodate train insertions/extractions. We have also developed another approach based on event graphs in order to optimally interleave trains at a junction.</p>
+      </subsection>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Games and reactive synthesis</bodyTitle>
+        <participants>
+          <person key="sumo-2015-idp71288">
+            <firstname>Ocan</firstname>
+            <lastname>Sankur</lastname>
+          </person>
+        </participants>
+        <p>In game theory, a strategy is <i>dominated</i> by another one if the latter systematically yields a payoff as good as the former,
+while also yielding a better payoff in some cases. A strategy is <i>admissible</i> if it is not dominated.
+This notion is well studied in game theory and is useful to describe the set of strategies that are “reasonable” whose choice can be justified.
+Recent works studied this notion in graph games with omega-regular objectives and investigated its applications in controller synthesis.
+For multi-agent controller synthesis, admissibility can be used as a hypothesis on the behaviors of each agent, thus enabling a compositional
+reasoning framework for controller synthesis. In <ref xlink:href="#sumo-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we investigate this framework for quantitative graph games.
+We characterize admissible strategies, study their existence, and give an effective characterization of the set of paths that are compatible with
+admissible payoffs. This is then used to derive algorithms for model checking under admissibility, but also assume-admissible synthesis.</p>
+        <p>In <ref xlink:href="#sumo-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we present the reactive synthesis competition (SYNTCOMP), a long-term effort intended to stimulate and guide advances in the design and application of synthesis procedures for reactive systems. The first iteration of SYNTCOMP is based on the controller synthesis problem for finite-state systems and safety specifications. We provide an overview of this problem and existing approaches to solve it, and report on the design and results of the first SYNTCOMP. This includes the definition of the benchmark format, the collection of benchmarks, the rules of the competition, and the five synthesis tools that participated. We present and analyze the results of the competition and draw conclusions on the state of the art. Finally, we give an outlook on future directions of SYNTCOMP.</p>
+        <p>In the invited <ref xlink:href="#sumo-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we summarize new solution concepts useful for the synthesis of reactive systems that we have introduced in several recent publications.
+These solution concepts are developed in the context of non-zero sum games played on graphs. They include the assume-admissible synthesis on Boolean games, synthesis under multiple environments for
+Markov decision processes, and multi-objective synthesis with probability thresholds for Markov decision processes with multi-dimensional weights.
+They are part of the contributions obtained in the inVEST project funded by the European Research Council.</p>
+      </subsection>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Runtime enforcement</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp108424">
+            <firstname>Hervé</firstname>
+            <lastname>Marchand</lastname>
+          </person>
+          <person key="sumo-2014-idp106976">
+            <firstname>Thierry</firstname>
+            <lastname>Jéron</lastname>
+          </person>
+        </participants>
+        <p>In the <ref xlink:href="#sumo-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we generalize our line of work on runtime enforcement for timed properties. Runtime enforcement is a verification/validation technique aiming at correcting possibly incorrect executions of a system of interest. In this work we consider enforcement monitoring for systems where the physical time elapsing between actions matters. Executions are thus modelled as timed words (i.e., sequences of actions with dates). We consider runtime enforcement for timed specifications modelled as timed automata. Our enforcement mechanisms have the power of both delaying events to match timing constraints, and suppressing events when no delaying is appropriate, thus possibly allowing for longer executions. To ease their design and their correctness-proof, enforcement mechanisms are described at several levels: enforcement functions that specify the input-output behaviour in terms of transformations of timed words, constraints that should be satisfied by such functions, enforcement monitors that describe the operational behaviour of enforcement functions, and enforcement algorithms that describe the implementation of enforcement monitors.</p>
+        <p>This year we went one step ahead <ref xlink:href="#sumo-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and consider predictive runtime enforcement, where the system is not entirely black-box, but we know something about its behavior. This <i>a priori</i> knowledge about the system allows to output some events immediately, instead of delaying them until more events are observed, or even blocking them permanently. This in turn results in better enforcement policies. We also show that if we have no knowledge about the system, then the proposed enforcement mechanism reduces to a classical non-predictive runtime enforcement framework. All our results are formalized and proved in the Isabelle theorem prover.</p>
+      </subsection>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Decentralized control</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp108424">
+            <firstname>Hervé</firstname>
+            <lastname>Marchand</lastname>
+          </person>
+          <p>joint work with Laurie Ricker</p>
+        </participants>
+        <p>In collaboration with Laurie Ricker, we have been interested in decentralized control of discrete event systems. In decentralized discrete-event system (DES) architectures, agents fuse their local decisions to arrive at the global decision. The contribution of each agent to the final decision is never assessed; however, it may be the case that only a subset of agents, i.e., a (static) coalition, perpetually contribute towards the correct final decisions. In casting the decentralized DES control (with and without communication) problem as a cooperative game, it is possible to quantify the average contribution that each agent makes towards synthesizing the overall correct control strategy. Specifically, we explore allocations that assess contributions of non-communicating and communicating controllers for this class of problems. This allows a quantification of the contribution that each agent makes to the coalition with respect to decisions made solely based on its partial observations and decisions made based on messages sent to another agent(s) to facilitate a correct control decision <ref xlink:href="#sumo-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>Management of large distributed systems</bodyTitle>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Non-interference in partial order models</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+        </participants>
+        <p>We obtained new results on security issues such as non-interference <ref xlink:href="#sumo-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Noninterference (NI) is a property of systems stating that confidential actions should not cause effects observable by unauthorized users. Several variants of NI have been studied for many types of models but rarely for true concurrency or unbounded models. In  <ref xlink:href="#sumo-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we had already demonstrated the discriminating power of partial orders, and investigated NI for High-level Message Sequence Charts (HMSCs), a partial order language for the description of distributed systems. We had proposed a general definition of security properties in terms of equivalence among observations of behaviors, and showed that equivalence, inclusion, and NI properties were undecidable for HMSCs. We defined a new formalism called <i>partial order automata</i>, that captures natural observations of distributed systems, and in particular observations of HMSCs. It generalizes HMSCs and permits assembling partial orders. We have then considered subclasses of partial order automata and HMSCs for which Non-Interference is decidable. This allowed us to exhibit more classes of HMSCs for which NI is decidable. Finally, we have defined weaker local Non-interfernce properties, describing situations where a system is attacked by a single agent, and shown that local NI is decidable. We have then refined local NI to a finer notion of causal NI that emphasizes causal dependencies between confidential actions and observations and extended it to causal NI with (selective) declassification of confidential events, which allows to consider that confidential actions need can be kept secret for a limited duration and can then be declassified. Checking whether a system satisfies local and causal NI and their declassified variants are PSPACE-complete problems.</p>
+      </subsection>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Simulations for stochastic abstractions of large systems</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp100144">
+            <firstname>Éric</firstname>
+            <lastname>Fabre</lastname>
+          </person>
+          <person key="sumo-2014-idp104296">
+            <firstname>Blaise</firstname>
+            <lastname>Genest</lastname>
+          </person>
+          <person key="sumo-2014-idp118872">
+            <firstname>Matthieu</firstname>
+            <lastname>Pichené</lastname>
+          </person>
+          <p>joint work with Sucheendra Palaniappan</p>
+        </participants>
+        <p>In <ref xlink:href="#sumo-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we developped a new simulation strategy to accurately simulate DBNs (Dynamic Bayesian Networks) obtained as stochastic abstractions of large systems. The DBN abstractions are given under the form of probability tables, describing the probability for a variable to take a given value given the values of some variables at the previous time point. To be able to handle large systems with many variables, there is a table for each variable (coupling between variable is not explicitely represented). This creates discrepencies when simulating variables independently. Our new algorithm simulates tuples of variables together by looking ahead for such discrepencies in order to avoid them. Such simulations are still efficient, and match more faithfully the original systems.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid58" level="1">
+      <bodyTitle>Data driven systems</bodyTitle>
+      <subsection id="uid59" level="2">
+        <bodyTitle>Structured data nets</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp101624">
+            <firstname>Éric</firstname>
+            <lastname>Badouel</lastname>
+          </person>
+          <person key="sumo-2014-idp105536">
+            <firstname>Loïc</firstname>
+            <lastname>Hélouët</lastname>
+          </person>
+          <person key="sumo-2014-idp110904">
+            <firstname>Christophe</firstname>
+            <lastname>Morvan</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#sumo-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we proposed a Petri net extension, called Structured Data Nets (SDN),
+that describes transactional systems with data. In these nets, tokens are semi-structured documents.
+Each transition is attached to a query, guarded by patterns, (logical assertions on the contents of its preset) and transforms tokens.</p>
+        <p>We define SDNs and their semantics and consider their formal properties: coverability of a marking,
+termination and soundness of transactions.</p>
+        <p>Unrestricted SDNs are Turing complete, so these properties are undecidable. We thus used an order on documents, and showed that under reasonable restrictions on documents and on the expressiveness of patterns and queries, SDNs are well-structured transition systems, for which coverability, termination and
+soundness are decidable.</p>
+      </subsection>
+      <subsection id="uid60" level="2">
+        <bodyTitle>An active workspace model for disease surveillance</bodyTitle>
+        <participants>
+          <person key="sumo-2014-idp101624">
+            <firstname>Éric</firstname>
+            <lastname>Badouel</lastname>
+          </person>
+          <p>Robert Nsaibirni</p>
+        </participants>
+        <p>Flexibility and change at both design- and run-time are fast becoming the Rule rather than the Exception in Business Process Models. This is attributed to the continuous advances in domain knowledge, the increase in expert knowledge, and the diverse and heterogeneous nature of contextual variables. Such processes are characterized by collaborative work and decision making between users with heterogeneous profiles on a processes designed on-the-fly. A model for such processes should thus natively support human interactions. We showed in <ref xlink:href="#sumo-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> how the Active Workspaces model proposed <ref xlink:href="#sumo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for distributed collaborative systems supports these interactions.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid61">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <p><b>Joint Alstom-Inria research lab:</b> Several researchers of SUMO are
+involved in the joint research lab of Alstom and Inria, in a common
+research team called P22. On Alstom side, this joint research team
+involves researchers of the ATS division (Automatic Train
+Supervision). The objective of this joint team is to evaluate
+regulation policies of urban train systems, to assess their robustness
+to perturbations and failures, to design more efficient regulation
+policies and finally to provide decision support for human
+regulators. The project started in march 2014. A second phase of the project
+started in 2016, for a duration of three
+years. This covers in particular the CIFRE PhD of Karim Kecir.</p>
+      <p><b>Joint Nokia Bell Labs - Inria research lab:</b> Several members of the
+team are involved in the joint research lab of Nokia Bell Labs and
+Inria. This lab is co-directed by Éric Fabre (Inria) and Olivier Audouin (Bell
+Labs), and funds joint research teams over a period of 4 years. The 3rd
+phase of the lab is in preparation, and 6 new joint teams will be
+launched in the first quarter of 2017. Sumo is involved in the proposal
+<i>Softwarization of Everything</i> that aims at developing techniques for
+the programmability, the verification and the management of
+software-defined networks (SDN). This covers in particular the CIFRE PhD
+of Arij El Majed, to start in January 2017, on the topic of Root cause
+analysis in reconfigurable dynamic systems.</p>
+      <p><b>Joint Orange Labs - Inria research lab:</b>
+Éric Fabre takes part to the joint research lab of Orange Labs and Inria. This lab funds around 5 new PhD grants every year. This covers in particular the CIFRE PhD of Sihem Cherrared on the topic of Fault management in multi-tenant programmable networks.</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid63">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid64" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid65" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p><b>ANR STOCH-MC</b>: Model-Checking of Stochastic Systems using
+approximated
+algorithms, 2014-2018,
+<ref xlink:href="http://perso.crans.org/~genest/stoch.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>perso.<allowbreak/>crans.<allowbreak/>org/<allowbreak/>~genest/<allowbreak/>stoch.<allowbreak/>html</ref>web site.</p>
+        <p noindent="true">Led
+by SUMO.</p>
+        <p noindent="true">Partners: Inria Project Team CONTRAINTES
+(Rocquencourt), LaBRI (Bordeaux), and LIAFA (Paris).</p>
+        <p noindent="true">The aim of STOCH-MC is to perform model-checking of large stochastic
+systems, using controlled approximations. Two formalisms will be
+considered: Dynamic Bayesian Networks, which represent compactly large
+Markov Chains; and Markov Decision Processes, allowing non deterministic
+choices on top of probabilities.</p>
+        <p><b>ANR HeadWorks</b>: Human-Centric Data-oriented WORKflows , 2016-2020</p>
+        <p noindent="true">Led by Université Rennes 1.</p>
+        <p noindent="true">Partners: Inria Project Team VALDA (LSV and ENS-ULM), Univestité Rennes 1 (DRUID),
+Inria SUMO, Inria Lille (LINKs), MNHN, Foule Factory.</p>
+        <p noindent="true">Headwork was accepted in 2016.
+Participants : Loïc Hélouët, Éric Badouel.</p>
+        <p>Partners: IRISA (DRUID), ENS ULM (VALDA), Inria SUMO, Inria Lille (LINKs), MNHN, Foule Factory.</p>
+        <p>The objective of this project is to develop techniques to facilite development, deployment, and monitring of crowd-based participative applications. This requires handling complex workflows with multiple participants, incertainty in data collections, incentives, skills of contributors, ... To overcome these challenges, Headwork will define rich workflows with multiple participants, data and knowledge models to capture various kind of crowd applications with complex data acquisition tasks and human specificities. We will also address methods for deploying, verifying, optimizing, but also monitoring and adapting crowd- based workflow executions at run time.</p>
+      </subsection>
+      <subsection id="uid66" level="2">
+        <bodyTitle>IPL HAC SPECIS</bodyTitle>
+        <p>The Inria Project Lab HAC SPECIS (High-performance Application and Computers, Studying PErformance and Correctness In Simulation, 2016-2020: <ref xlink:href="http://hacspecis.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hacspecis.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>) is a transversal project internal to Inria.
+The goal of the HAC SPECIS project is to answer the methodological needs raised by the recent evolution of HPC architectures by allowing application and runtime developers to study such systems both from the correctness and performance point of view.
+Inside this project, we collaborate with Martin Quinson (Myriads team) on the dynamic formal verification of high performance runtimes and applications. The PhD of The Anh Pham is granted by this project.</p>
+        <p>Partners: Inria teams AVALON (Lyon), POLARIS (Grenoble), HIEPACS, STORM (Bordeaux), MEXICO (Paris), MYRIADS, SUMO (Rennes), VERIDIS (Nancy).</p>
+        <p>Participants: Thierry Jéron, The Anh Pham.</p>
+      </subsection>
+      <subsection id="uid67" level="2">
+        <bodyTitle>National informal collaborations</bodyTitle>
+        <p>The team collaborates with the following researchers:</p>
+        <simplelist>
+          <li id="uid68">
+            <p noindent="true">Yliès Falcone (CORSE LIG/Inria team in Grenoble) and Antoine Rollet (Labri Bordeaux) on the enforcement of timed properties,</p>
+          </li>
+          <li id="uid69">
+            <p noindent="true">Arnaud Sangnier (IRIF) on the parameterized verification of probabilistic systems,</p>
+          </li>
+          <li id="uid70">
+            <p noindent="true">Béatrice Bérard (LIP6) and Serge Haddad (LSV) on problems of opacity and diagnosis.</p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">Thomas Chatain, on problems related to concurrency and time,</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Eric Rutten and Gwenael delaval on the control of
+reconfigurable systems as well as making the ling between Reax and
+Heptagon / BZR (<ref xlink:href="http://bzr.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>bzr.<allowbreak/>inria.<allowbreak/>fr/</ref>),</p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">Patricia Bouyer (LSV, ENS Cachan) on the analysis of probabilistic timed systems and quantitative aspects of verification,</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">François Laroussinie (IRIF, UP7-Diderot) on
+logics for multi-agent systems.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid76" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <p>Nicolas Markey is a member of Project ERC EQualIS whose principal investigator is Patricia Bouyer from LSV.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Inria Associate Teams Not Involved in an Inria International Labs</bodyTitle>
+        <subsection id="uid79" level="3">
+          <bodyTitle>
+            <ref xlink:href="http://www.irisa.fr/sumo/QuantProb/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">QuantProb </ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid80">
+              <p noindent="true">Title: Quantitative analysis of non-standard properties in probabilistic models</p>
+            </li>
+            <li id="uid81">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid82">
+                  <p noindent="true">Technical University of Dresde (Germany)
+- Saxe - Christel Baier</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Start year: 2016</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">See also: <ref xlink:href="http://www.irisa.fr/sumo/QuantProb/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>irisa.<allowbreak/>fr/<allowbreak/>sumo/<allowbreak/>QuantProb/</ref></p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Quantitative information flow and fault diagnosis share two important characteristics: quantities (in the description of the system as well as in the properties of interest), and users partial knowledge. Yet, in spite of their similar nature, different formalisms have been proposed. Beyond these two motivating examples, defining a unified framework can be addressed by formal methods. Formal methods have proved to be effective to verify, diagnose, optimize and control qualitative properties of dynamic systems. However, they fall short of modelling and mastering quantitative features such as costs, energy, time, probabilities, and robustness, in a partial observation setting.
+This project proposal aims at developing theoretical foundations of formal methods for the quantitative analysis of partially observable systems.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid86" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid87" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>The team collaborates on runtime enforcement with the group of Prof. Stavros Tripakis (<ref xlink:href="http://users.ics.aalto.fi/stavros/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>users.<allowbreak/>ics.<allowbreak/>aalto.<allowbreak/>fi/<allowbreak/>stavros/</ref>) at Aalto University (Finland), where our former PhD student Srinivas Pinisetty is doing a Post-doc and with Thomas Brihaye (University of Mons) on the analysis of probabilistic timed systems.</p>
+          <p>The team has well-established collaborations with several institutes in India. CMI (Chennai Mathematical Institute, M. Mukund and N.K. Kumar), IIT Bombay (S. Akshay).</p>
+          <p>The team is building a new collaboration with Ecole Polytechnique Montreal (J. Mullins).</p>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid88" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>L. Ricker visited the SUMO team for 2 months in May-June 2016.</p>
+        <subsection id="uid90" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <p>Robert Nsaibirni from the University of Yaoundé I joined the team from Sept. 2016 in the context of an Eiffel grant.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <subsection id="uid92" level="3">
+          <bodyTitle>Research Stays Abroad</bodyTitle>
+          <p>Nathalie Bertrand spent a month at the Simons Institute for the theory of computing, UC Berkeley, California. She participated to the program Logical Structure in Computation (<ref xlink:href="https://simons.berkeley.edu/programs/logic2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>simons.<allowbreak/>berkeley.<allowbreak/>edu/<allowbreak/>programs/<allowbreak/>logic2016</ref>).</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid93">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid94" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid95" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid96" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p>Hervé Marchand is member of the IFAC Technical Committees (TC 1.3 on Discrete Event and Hybrid
+Systems) since 2005. He is member of the steering committee of MSR (Modélisation de systèmes réactifs).</p>
+          <p>Thierry Jéron and Nicolas Markey are members of the steering committee of the european summer school MOVEP (Modélisation et Vérification des Systèmes Parallèles).
+Nicolas Markey was co-chair of the edition that took place in Genova in July 2016.</p>
+          <p>Thierry Jéron is member of the steering committee of FMF 2017 (Formal Methods Forum) held in Toulouse in January 2017.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid98" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <p>Éric Badouel was Chair of conference program committee of CARI 2016.</p>
+        </subsection>
+        <subsection id="uid99" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Éric Badouel was a member of the programme committee of ATAED 2016.</p>
+          <p>Nathalie Bertrand served on the Program Committees of the international conferences STACS’16, TACAS’16, Concur’16 and QEST’16.</p>
+          <p>Loïc Hélouët was member of the program committees of ACSD 2016 (Approaches of Concurrency for Systems Design) and SAM 2016 (System Analysis and Modeling).</p>
+          <p>Thierry Jéron served on the Program Committees of the following international conferences: ICTSS'16, RV'16, SAC-SVT 2017.</p>
+        </subsection>
+        <subsection id="uid100" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>Nicolas Markey was reviewer for STACS 2017 and AAAI 2017.</p>
+          <p>Éric Badouel was reviewer for LICS 2016, VeCos 2016, CARI 2016, TACAS 2016, and ATAED 2016.</p>
+          <p>Loïc Hélouët was reviewer for SAM'2016, ACSD'2016, DNS'2016, STACS'2016, and ICTAC'2016</p>
+          <p>Thierry Jéron was reviewer for IEEE CASE &amp; ISAM, CONCUR'16.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid101" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid102" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Éric Badouel is co-Editor-in-Chief of ARIMA Journal (<ref xlink:href="https://arima.episciences.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>arima.<allowbreak/>episciences.<allowbreak/>org/</ref>).</p>
+        </subsection>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>Éric Fabre was reviewer for IEEE TAC, Automatica, JDEDS, CDC, and JONS.</p>
+          <p>Hervé Marchand was reviewer for JDEDS and Automatica.</p>
+          <p>Nathalie Bertrand was reviewer for JACM and JCSS.</p>
+          <p>Nicolas Markey was reviewer for FMSD and TCS.</p>
+          <p>Éric Badouel was reviewer for Fundamenta Informaticae and Mathematical review-AMS (MathSciNet).</p>
+          <p>Loïc Hélouët was reviewer for FAOC, TCS, TECS and Fundamenta Informaticae. He also served as reviewer for Mathematical review-AMS (MathSciNet).</p>
+          <p>Thierry Jéron was reviewer for FAOC and TECS.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid104" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Nathalie Bertrand was invited speaker at MFPS international conference, and gave a lecture at MOVEP summer school.</p>
+        <p>Éric Badouel was invited speaker at VeCos 2016.</p>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Thierry Jéron served for the expertise of ANR and ASTRID (ANR/DGA) projects.</p>
+      </subsection>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Éric Fabre is co-director, with Olivier Audouin, of the joint research lab of Nokia Bel Labs and Inria.
+He is member of the scientific board of the joint lab of Alstom Transport and Inria and
+member of the Bureau of the Scientific Board of Inria Rennes Bretagne Atlantique.</p>
+        <p>Hervé Marchand is chairman of the CUMI in Rennes.</p>
+        <p>Nathalie Bertrand is a nominated member of CNU27 (Conseil National des Universités, section 27).</p>
+        <p>Éric Badouel is co-director with Moussa Lo (UGB, Saint-Louis du Sénégal) of LIRIMA, the Inria International Lab for Africa. He is scientific officer for the African and Middle-East region at Inria European and International Partnerships Department and member of the executive board of GIS SARIMA.</p>
+        <p>Loïc Hélouët, Nathalie Bertrand and Ocan Sankur organize the weekly seminar 68NQRT at IRISA (40 talks each year).</p>
+        <p>Loïc Hélouët was elected representant of rank B researchers in the <i>Comité de Centre</i> of Inria Rennes. He is also part of the bureau of the <i>Comité de Centre</i>.
+He leads the P22 projects with Alstom transports
+and is responsible for Workpackage 2 of the Headwork ANR.</p>
+        <p>Thierry Jéron is Member Committee Substitute for COST IC1402 ARVI (Runtime
+Verification beyond Monitoring).
+He is member of the IFIP Working Group 10.2 on Embedded Systems.
+He is member of the COS Prospective of Irisa Rennes and member of the
+<i>Comité de Centre</i> of Inria Rennes.
+Since 2016 he is <i>référent chercheur</i> for the Inria Rennes research
+center.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid107" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid108" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>
+          <b>Éric Fabre</b>
+        </p>
+        <sanspuceslist>
+          <li id="uid109">
+            <p noindent="true">Master: "ASR: introduction to distributed systems and algorithms," 12h (eq. TD), M2, Univ. Rennes 1, France.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">Master: "Information theory", 30h (eq. TD), M1, Ecole Normale Superieure de Rennes, France.</p>
+          </li>
+        </sanspuceslist>
+        <p>
+          <b>Nathalie Bertrand</b>
+        </p>
+        <sanspuceslist>
+          <li id="uid111">
+            <p noindent="true">Licence: "Algorithmics", 18h (eq. TD), L3, Univ. Rennes 1, France.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Master: "Prépa. Agreg.", 40h (eq. TD), Ecole Normale Superieure de Rennes, France.</p>
+          </li>
+        </sanspuceslist>
+        <p>
+          <b>Loïc Hélouët</b>
+        </p>
+        <sanspuceslist>
+          <li id="uid113">
+            <p noindent="true">Licence: JAVA and algorithmics, L2, 40h, INSA de Renne, France.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Licence : practical studies (development of a small project), 8h, INSA de Renne, France.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Master: "Prépa. Agreg.", 8h (eq. TD)+ mock exams, Ecole Normale Superieure de Rennes, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid116" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid117">
+            <p noindent="true">PhD in progress: Engel Lefaucheux, <i>Controlling information in Probabilistic Systems, Sept. 2015, Nathalie Bertrand, Serge Haddad (LSV, Cachan).</i></p>
+          </li>
+          <li id="uid118">
+            <p noindent="true"><i>PhD in progress: Karim Kecir, </i>Régulation et robustesse des systèmes ferroviaires urbains, May 2018, Loïc Hélouët and Pierre Dersin (Alstom).</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">PhD in progress: The Anh Pham, <i>Dynamic Formal Verification of High Performance Runtimes and Applications, Nov. 2016, Thierry Jéron, Martin Quinson (Myriads, Inria Rennes).</i></p>
+          </li>
+          <li id="uid120">
+            <p noindent="true"><i>PhD in progress: Hugo Bazille, </i>Diagnosability and opacity analysis of large scale systems, Oct. 2016, Blaise Genest, Éric Fabre.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">PhD in progress: Sihem Cherrared, <i>Fault management in multi-tenant programmable networks, Oct. 2016, Éric Fabre, Gregor Goessler (Inria Grenoble), Sofiane Imadali (Orange Labs).</i></p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid122" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Éric Fabre was reviewer in the PhD defense committee of Yoann Geoffroy, <i>A general framework for causality analysis based on traces, for composite systems</i>, Dec. 2016, Univ. Grenoble Alpes. He was also jury member for the Habilitation defense of Blaise Genest, <i>Taming Concurrency Using Representatives, March 2016, Univ. Rennes 1.</i></p>
+        <p><i>Hervé Marchand was member of the PhD defences of Hassan Ibrahim, </i>Analyse à base de SAT de la diagnosticabilité et de la prédictabilité des systèmes à événements discrets centralisés et distribués (Université Paris-Sud, Gif-sur-Yvette), December 2016 and of Toussaint Tigori, <i>Méthodes de génération d'exécutifs temps réel (Ecole centrale de Nantes, Nantes), in November 2016.</i></p>
+        <p>
+          <i>Nicolas Markey was reviewer in the PhD defense committee of Thanh-Tung Tran (LaBRI; supervised by Igor
+Walukiewicz and Frédéric Herbreteau).</i>
+        </p>
+      </subsection>
+    </subsection>
+    <subsection id="uid123" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Nathalie Bertrand gave an introductory talk on graph theory and its use to solve practical problems, to grad school students following the ISN (Introduction aux Sciences du Numérique) courses.</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="sumo-2016-bid39" type="article" rend="refer" n="refercite:akshay:hal-00879825">
+      <identifiant type="hal" value="hal-00879825"/>
+      <analytic>
+        <title level="a">Regular Set of Representatives for Time-Constrained MSC Graphs</title>
+        <author>
+          <persName>
+            <foreName>Sundararaman</foreName>
+            <surname>Akshay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Shaofa</foreName>
+            <surname>Yang</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Information Processing Letters</title>
+        <imprint>
+          <biblScope type="volume">112</biblScope>
+          <biblScope type="number">14-15</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">592-598</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00879825" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00879825</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid40" type="article" rend="refer" n="refercite:BadouelBBCD07">
+      <analytic>
+        <title level="a">Concurrent Secrets</title>
+        <author>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Marek A.</foreName>
+            <surname>Bednarczyk</surname>
+            <initial>M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej M.</foreName>
+            <surname>Borzyszkowski</surname>
+            <initial>A. M.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Darondeau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Discrete Event Dynamic Systems</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">425-446</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid36" type="book" rend="refer" n="refercite:PNS">
+      <identifiant type="doi" value="10.1007/978-3-662-47967-4"/>
+      <monogr>
+        <title level="m">Petri Net Synthesis</title>
+        <author>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Bernardinello</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Darondeau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-3-662-47967-4" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-3-662-47967-4</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid43" type="article" rend="refer" n="refercite:benveniste:inria-00638224">
+      <identifiant type="doi" value="10.1109/TAC.2003.811249"/>
+      <identifiant type="hal" value="inria-00638224"/>
+      <analytic>
+        <title level="a">Diagnosis of Asynchronous Discrete Event Systems: A Net Unfolding Approach</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="mexico-2014-idm27712">
+            <foreName>Stefan</foreName>
+            <surname>Haar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Jard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Automatic Control</title>
+        <imprint>
+          <biblScope type="volume">48</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">714-727</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00638224" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00638224</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">RNRT project MAGDA</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid42" type="inproceedings" rend="refer" n="refercite:bertrand:hal-00356566">
+      <identifiant type="hal" value="hal-00356566"/>
+      <analytic>
+        <title level="a">Qualitative Determinacy and Decidability of Stochastic Games with Signals</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Hugo</foreName>
+            <surname>Gimbert</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of LICS'09</title>
+        <loc>Los Angeles, États-Unis</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2009</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.archives-ouvertes.fr/hal-00356566" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00356566</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid49" type="article" rend="refer" n="refercite:bertrand:hal-00744074">
+      <identifiant type="hal" value="hal-00744074"/>
+      <analytic>
+        <title level="a">Off-line Test Selection with Test Purposes for Non-Deterministic Timed Automata</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="sumo-2014-idp106976">
+            <foreName>Thierry</foreName>
+            <surname>Jéron</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Amélie</foreName>
+            <surname>Stainer</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Moez</foreName>
+            <surname>Krichen</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Logical Methods in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">4:8</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">1-33</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00744074" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00744074</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid48" type="article" rend="refer" n="refercite:dubreil10">
+      <identifiant type="doi" value="10.1109/TAC.2010.2042008"/>
+      <analytic>
+        <title level="a">Supervisory Control for Opacity</title>
+        <author>
+          <persName>
+            <foreName>Jeremy</foreName>
+            <surname>Dubreil</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Darondeau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">IEEE Transactions on Automatic Control</title>
+        <imprint>
+          <biblScope type="volume">55</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">1089-1100</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid38" type="article" rend="refer" n="refercite:jdeds07">
+      <analytic>
+        <title level="a">Partial Order Techniques for Distributed Discrete Event Systems: why you can't avoid using them</title>
+        <author>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Discrete Events Dynamical Systems</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">357-403</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid37" type="article" rend="refer" n="refercite:Fabre07a">
+      <analytic>
+        <title level="a">Trellis Processes: a Compact Representation for Runs of Concurrent Systems</title>
+        <author>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Discrete Event Dynamical Systems</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">267-306</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid41" type="inproceedings" rend="refer" n="refercite:Fabre09">
+      <analytic>
+        <title level="a">Distributed optimal planning: an approach by weighted automata calculus</title>
+        <author>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="mexico-2014-idp73776">
+            <foreName>Loïg</foreName>
+            <surname>Jezequel</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">CDC</title>
+        <imprint>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">211-216</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid45" type="article" rend="refer" n="refercite:deds-gaudin-marchand-07">
+      <analytic>
+        <title level="a">An Efficient Modular Method for the Control of Concurrent Discrete Event Systems: A Language-Based Approach</title>
+        <author>
+          <persName>
+            <foreName>Benoit</foreName>
+            <surname>Gaudin</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Discrete Event Dynamic System</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">179-209</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid44" type="article" rend="refer" n="refercite:gazagnaire:inria-00429538">
+      <identifiant type="hal" value="inria-00429538"/>
+      <analytic>
+        <title level="a">Causal Message Sequence Charts</title>
+        <author>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Gazagnaire</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>P.S.</foreName>
+            <surname>Thiagarajan</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Shaofa</foreName>
+            <surname>Yang</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Theoretical Computer Science</title>
+        <imprint>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">38</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00429538" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00429538</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">EA DST</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid47" type="article" rend="refer" n="refercite:DBLP:journals/sttt/JardJ05">
+      <analytic>
+        <title level="a">TGV: theory, principles and algorithms</title>
+        <author>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Jard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="sumo-2014-idp106976">
+            <foreName>Thierry</foreName>
+            <surname>Jéron</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">STTT</title>
+        <imprint>
+          <biblScope type="volume">7</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">297-315</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid46" type="inproceedings" rend="refer" n="refercite:jeannet:inria-00564617">
+      <identifiant type="hal" value="inria-00564617"/>
+      <analytic>
+        <title level="a">Symbolic Test Selection Based on Approximate Analysis</title>
+        <author>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Jeannet</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp106976">
+            <foreName>Thierry</foreName>
+            <surname>Jéron</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Elena</foreName>
+            <surname>Zinovieva</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">TACAS</title>
+        <loc>Edinburgh, Royaume-Uni</loc>
+        <imprint>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00564617" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00564617</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid33" type="proceedings" rend="year" n="cite:lo:hal-01350039">
+      <identifiant type="hal" value="hal-01350039"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Proceedings of CARI 2016</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Moussa</foreName>
+            <surname>LO</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="poems-2015-idp88952">
+            <foreName>Nabil</foreName>
+            <surname>Gmati</surname>
+            <initial>N.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">513</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01350039" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01350039</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid10" type="article" rend="year" n="cite:akshay:hal-01379431">
+      <identifiant type="hal" value="hal-01379431"/>
+      <analytic>
+        <title level="a">Robustness of Time Petri Nets under Guard Enlargement</title>
+        <author>
+          <persName>
+            <foreName>Sundararaman</foreName>
+            <surname>Akshay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Jard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre-Alain</foreName>
+            <surname>Reyniers</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00618">
+        <idno type="issn">0169-2968</idno>
+        <title level="j">Fundamenta Informaticae</title>
+        <imprint>
+          <biblScope type="volume">143</biblScope>
+          <biblScope type="number">3-4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01379431" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379431</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid25" type="article" rend="year" n="cite:badouel:hal-01379245">
+      <identifiant type="hal" value="hal-01379245"/>
+      <analytic>
+        <title level="a">Petri Nets with Structured Data</title>
+        <author>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="sumo-2014-idp110904">
+            <foreName>Christophe</foreName>
+            <surname>Morvan</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00618">
+        <idno type="issn">0169-2968</idno>
+        <title level="j">Fundamenta Informaticae</title>
+        <imprint>
+          <biblScope type="volume">146</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">119</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01379245" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379245</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid30" type="article" rend="year" n="cite:berthier:hal-01242853">
+      <identifiant type="hal" value="hal-01242853"/>
+      <analytic>
+        <title level="a">Designing Autonomic Management Systems by using Reactive Control Techniques</title>
+        <author>
+          <persName key="sumo-2014-idp113864">
+            <foreName>Nicolas</foreName>
+            <surname>Berthier</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="ctrl-a-2014-idp60384">
+            <foreName>Éric</foreName>
+            <surname>Rutten</surname>
+            <initial>É.</initial>
+          </persName>
+          <persName>
+            <foreName>Noël</foreName>
+            <surname>De Palma</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="ctrl-a-2014-idp74512">
+            <foreName>Soguy Mak-Karé</foreName>
+            <surname>Gueye</surname>
+            <initial>S. M.-K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00752">
+        <idno type="issn">0098-5589</idno>
+        <title level="j">IEEE Transactions on Software Engineering</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">18</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01242853" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01242853</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid35" type="article" rend="year" n="cite:brenguier:hal-01373538">
+      <identifiant type="doi" value="10.1007/s00236-016-0273-2"/>
+      <identifiant type="hal" value="hal-01373538"/>
+      <analytic>
+        <title level="a">Assume-admissible synthesis</title>
+        <author>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>Brenguier</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Raskin</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="sumo-2015-idp71288">
+            <foreName>Ocan</foreName>
+            <surname>Sankur</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00058">
+        <idno type="issn">0001-5903</idno>
+        <title level="j">Acta Informatica</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373538" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373538</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid34" type="article" rend="year" n="cite:berard:hal-01379451">
+      <identifiant type="hal" value="hal-01379451"/>
+      <analytic>
+        <title level="a">Non-interference in partial order models</title>
+        <author>
+          <persName key="mexico-2016-idp124560">
+            <foreName>Béatrice</foreName>
+            <surname>Bérard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Mullins</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00023">
+        <idno type="issn">1539-9087</idno>
+        <title level="j">ACM Transactions on Embedded Computing Systems (TECS)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01379451" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379451</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid19" type="article" rend="year" n="cite:falcone:hal-01281727">
+      <identifiant type="doi" value="10.1016/j.scico.2016.02.008"/>
+      <identifiant type="hal" value="hal-01281727"/>
+      <analytic>
+        <title level="a">Runtime Enforcement of Regular Timed Properties by Suppressing and Delaying Events</title>
+        <author>
+          <persName key="corse-2015-idp86000">
+            <foreName>Yliès</foreName>
+            <surname>Falcone</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="sumo-2014-idp106976">
+            <foreName>Thierry</foreName>
+            <surname>Jéron</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="sumo-2014-idp120104">
+            <foreName>Srinivas</foreName>
+            <surname>Pinisetty</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01754">
+        <idno type="issn">0167-6423</idno>
+        <title level="j">Science of Computer Programming</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01281727" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01281727</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid17" type="article" rend="year" n="cite:jacobs:hal-01373547">
+      <identifiant type="doi" value="10.1007/s10009-016-0416-3"/>
+      <identifiant type="hal" value="hal-01373547"/>
+      <analytic>
+        <title level="a">The first reactive synthesis competition (SYNTCOMP 2014)</title>
+        <author>
+          <persName>
+            <foreName>Swen</foreName>
+            <surname>Jacobs</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Roderick</foreName>
+            <surname>Bloem</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>Brenguier</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Rüdiger</foreName>
+            <surname>Ehlers</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Timotheus</foreName>
+            <surname>Hell</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Könighofer</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo A.</foreName>
+            <surname>Pérez</surname>
+            <initial>G. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Raskin</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Leonid</foreName>
+            <surname>Ryzhyk</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="sumo-2015-idp71288">
+            <foreName>Ocan</foreName>
+            <surname>Sankur</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Martina</foreName>
+            <surname>Seidl</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Leander</foreName>
+            <surname>Tentrup</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Adam</foreName>
+            <surname>Walker</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01005">
+        <idno type="issn">1433-2779</idno>
+        <title level="j">International Journal on Software Tools for Technology Transfer</title>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373547" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373547</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid11" type="inproceedings" rend="year" n="cite:akshay:hal-01379414">
+      <identifiant type="doi" value="10.1007/978-3-319-39086-4_18"/>
+      <identifiant type="hal" value="hal-01379414"/>
+      <analytic>
+        <title level="a">Decidable Classes of Unbounded Petri Nets with Time and Urgency</title>
+        <author>
+          <persName>
+            <foreName>Sundararaman</foreName>
+            <surname>Akshay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Kordon</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Moldt</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <title level="m">Application and Theory of Petri Nets and Concurrency - 37th International Conference, PETRI NETS, 2016</title>
+        <loc>Torun, Poland</loc>
+        <title level="s">Application and Theory of Petri Nets and Concurrency - 37th International Conference, PETRI NETS, 2016</title>
+        <imprint>
+          <biblScope type="number">9698</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">Torun University</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">301 - 322</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01379414" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379414</ref>
+        </imprint>
+        <meeting id="cid110904">
+          <title>International Conference on Application and Theory of Petri Nets and Other Models</title>
+          <num>37</num>
+          <abbr type="sigle">Petri Nets</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid1" type="inproceedings" rend="year" n="cite:akshay:hal-01245037">
+      <identifiant type="hal" value="hal-01245037"/>
+      <analytic>
+        <title level="a">On Regularity of unary Probabilistic Automata</title>
+        <author>
+          <persName>
+            <foreName>Sundararaman</foreName>
+            <surname>Akshay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Karelovic</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Nikhil</foreName>
+            <surname>Vyas</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">STACS 2016</title>
+        <loc>Orléans, France</loc>
+        <title level="s">STACS 2016</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01245037" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01245037</ref>
+        </imprint>
+        <meeting id="cid318933">
+          <title>International Symposium on Theoretical Aspects of Computer Science</title>
+          <num>33</num>
+          <abbr type="sigle">STACS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid8" type="inproceedings" rend="year" n="cite:akshay:hal-01379440">
+      <identifiant type="hal" value="hal-01379440"/>
+      <analytic>
+        <title level="a">Combining Free Choice and Time in Petri Nets</title>
+        <author>
+          <persName>
+            <foreName>Sundararaman</foreName>
+            <surname>Akshay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Ramchandra</foreName>
+            <surname>Phawade</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName/>
+            <surname>IEEE</surname>
+            <initial/>
+          </persName>
+        </editor>
+        <title level="m">23rd International Symposium on Temporal Representation and Reasoning</title>
+        <loc>Lyngby, Denmark</loc>
+        <title level="s">23rd International Symposium on Temporal Representation and Reasoning</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Technical University of Denmark </orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01379440" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379440</ref>
+        </imprint>
+        <meeting id="cid90740">
+          <title>IEEE International Symposium on Temporal Representation and Reasoning</title>
+          <num>23</num>
+          <abbr type="sigle">TIME</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid5" type="inproceedings" rend="year" n="cite:bertrand:hal-01397794">
+      <identifiant type="doi" value="10.4230/LIPIcs.ICALP.2016.101"/>
+      <identifiant type="hal" value="hal-01397794"/>
+      <analytic>
+        <title level="a">Analysing Decisive Stochastic Processes</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Patricia</foreName>
+            <surname>Bouyer</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Brihaye</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Carlier</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">43rd International Colloquium on Automata, Languages, and Programming (ICALP 2016)</title>
+        <loc>Rome, Italy</loc>
+        <title level="s">LiPICS</title>
+        <imprint>
+          <biblScope type="volume">55</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01397794" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397794</ref>
+        </imprint>
+        <meeting id="cid106057">
+          <title>International Colloquium on Automata, Languages and Programming</title>
+          <num>43</num>
+          <abbr type="sigle">ICALP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid3" type="inproceedings" rend="year" n="cite:bertrand:hal-01220954">
+      <identifiant type="hal" value="hal-01220954"/>
+      <analytic>
+        <title level="a">Accurate approximate diagnosability of stochastic systems</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="mexico-2014-idp66944">
+            <foreName>Serge</foreName>
+            <surname>Haddad</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp131536">
+            <foreName>Engel</foreName>
+            <surname>Lefaucheux</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">10th International Conference on Language and Automata Theory and Applications</title>
+        <loc>Prague, Czech Republic</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01220954" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01220954</ref>
+        </imprint>
+        <meeting id="cid289532">
+          <title>International Conference on Language and Automata Theory and Applications</title>
+          <num>10</num>
+          <abbr type="sigle">LATA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid4" type="inproceedings" rend="year" n="cite:bertrand:hal-01373354">
+      <identifiant type="doi" value="10.4230/LIPIcs.CONCUR.2016.37"/>
+      <identifiant type="hal" value="hal-01373354"/>
+      <analytic>
+        <title level="a">Diagnosis in Infinite-State Probabilistic Systems </title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="mexico-2014-idp66944">
+            <foreName>Serge</foreName>
+            <surname>Haddad</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp131536">
+            <foreName>Engel</foreName>
+            <surname>Lefaucheux</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">27th International Conference on Concurrency Theory (Concur 2016)</title>
+        <loc>Québec city, Canada</loc>
+        <title level="s">27th International Conference on Concurrency Theory (Concur 2016)</title>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373354" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373354</ref>
+        </imprint>
+        <meeting id="cid118281">
+          <title>International Conference on Concurrency Theory</title>
+          <num>27</num>
+          <abbr type="sigle">CONCUR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid18" type="inproceedings" rend="year" n="cite:brenguier:hal-01373546">
+      <identifiant type="doi" value="10.1007/978-3-319-30000-9_1"/>
+      <identifiant type="hal" value="hal-01373546"/>
+      <analytic>
+        <title level="a">Non-Zero Sum Games for Reactive Synthesis</title>
+        <author>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>Brenguier</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Lorenzo</foreName>
+            <surname>Clemente</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Hunter</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo A.</foreName>
+            <surname>Pérez</surname>
+            <initial>G. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mickaël</foreName>
+            <surname>Randour</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Raskin</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="sumo-2015-idp71288">
+            <foreName>Ocan</foreName>
+            <surname>Sankur</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Mathieu</foreName>
+            <surname>Sassolas</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Adrian-Horia</foreName>
+            <surname>Dediu</surname>
+            <initial>A.-H.</initial>
+          </persName>
+          <persName>
+            <foreName>Jan</foreName>
+            <surname>Janoušek</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Carlos</foreName>
+            <surname>Martín-Vide</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Bianca</foreName>
+            <surname>Truthe</surname>
+            <initial>B.</initial>
+          </persName>
+        </editor>
+        <title level="m">LATA 2016 : 10th International Conference on Language and Automata Theory and Applications</title>
+        <loc>Prague, Czech Republic</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">9618</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3-23</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01373546" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373546</ref>
+        </imprint>
+        <meeting id="cid289532">
+          <title>International Conference on Language and Automata Theory and Applications</title>
+          <num>10</num>
+          <abbr type="sigle">LATA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid16" type="inproceedings" rend="year" n="cite:brenguier:hal-01373542">
+      <identifiant type="hal" value="hal-01373542"/>
+      <analytic>
+        <title level="a">Admissibility in Quantitative Graph Games</title>
+        <author>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>Brenguier</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo A.</foreName>
+            <surname>Pérez</surname>
+            <initial>G. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Raskin</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="sumo-2015-idp71288">
+            <foreName>Ocan</foreName>
+            <surname>Sankur</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">36th IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science</title>
+        <loc>Chennai, India</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373542" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373542</ref>
+        </imprint>
+        <meeting id="cid47524">
+          <title>Conference on Foundations of Software Technology and Theoretical Computer Science</title>
+          <num>36</num>
+          <abbr type="sigle">FSTTCS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid2" type="inproceedings" rend="year" n="cite:fabre:hal-01302562">
+      <identifiant type="hal" value="hal-01302562"/>
+      <analytic>
+        <title level="a">Diagnosability of Repairable Faults</title>
+        <author>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="sumo-2014-idp131536">
+            <foreName>Engel</foreName>
+            <surname>Lefaucheux</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">13th International Workshop on Discrete Event Systems</title>
+        <loc>Xi'an, China</loc>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">256-262</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01302562" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01302562</ref>
+        </imprint>
+        <meeting id="cid324717">
+          <title>International Workshop on Discrete Event Systems</title>
+          <num>13</num>
+          <abbr type="sigle">WODES</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">(Version Longue)</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid15" type="inproceedings" rend="year" n="cite:helouet:hal-01379424">
+      <identifiant type="doi" value="10.1007/978-3-319-39086-4_11"/>
+      <identifiant type="hal" value="hal-01379424"/>
+      <analytic>
+        <title level="a">Realizability of Schedules by Stochastic Time Petri Nets with Blocking Semantics</title>
+        <author>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="sumo-2015-idp75048">
+            <foreName>Karim</foreName>
+            <surname>Kecir</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Kordon</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Moldt</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <title level="m">37th International Conference, PETRI NETS 2016</title>
+        <loc>Torun, Poland</loc>
+        <title level="s">Application and Theory of Petri Nets and Concurrency</title>
+        <imprint>
+          <biblScope type="number">9698</biblScope>
+          <publisher>
+            <orgName type="organisation">Fabrice Kordon and Daniel Moldt</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">155-175</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01379424" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379424</ref>
+        </imprint>
+        <meeting id="cid110904">
+          <title>International Conference on Application and Theory of Petri Nets and Other Models</title>
+          <num>37</num>
+          <abbr type="sigle">Petri Nets</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid26" type="inproceedings" rend="year" n="cite:nsaibirni:hal-01323561">
+      <identifiant type="hal" value="hal-01323561"/>
+      <analytic>
+        <title level="a">Active-Workspaces: A Dynamic Collaborative Business Process Model for Disease Surveillance Systems</title>
+        <author>
+          <persName key="sumo-2014-idp125088">
+            <foreName>Robert Fondze Jr</foreName>
+            <surname>Nsaibirni</surname>
+            <initial>R. F. J.</initial>
+          </persName>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Gaëtan</foreName>
+            <surname>Texier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Georges-Edouard</foreName>
+            <surname>Kouamou</surname>
+            <initial>G.-E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Worldcomp'16- The 2nd International Conference on Health Informatics and Medical Systems</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01323561" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01323561</ref>
+        </imprint>
+        <meeting id="cid625488">
+          <title>International Conference on Health Informatics and Medical Systems</title>
+          <num>2</num>
+          <abbr type="sigle">Worldcomp</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid24" type="inproceedings" rend="year" n="cite:palaniappan:hal-01406115">
+      <identifiant type="doi" value="10.1007/978-3-319-47151-8_1"/>
+      <identifiant type="hal" value="hal-01406115"/>
+      <analytic>
+        <title level="a">A Look-Ahead Simulation Algorithm for DBN Models of Biochemical Pathways</title>
+        <author>
+          <persName key="sumo-2015-idp80104">
+            <foreName>Sucheendra K.</foreName>
+            <surname>Palaniappan</surname>
+            <initial>S. K.</initial>
+          </persName>
+          <persName key="sumo-2014-idp118872">
+            <foreName>Matthieu</foreName>
+            <surname>Pichené</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="lifeware-2014-idm27960">
+            <foreName>Grégory</foreName>
+            <surname>Batt</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="sumo-2014-idp100144">
+            <foreName>Eric</foreName>
+            <surname>Fabre</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="sumo-2014-idp104296">
+            <foreName>Blaise</foreName>
+            <surname>Genest</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName key="ibis-2014-idp99736">
+            <foreName>Eugenio</foreName>
+            <surname>Cinquemani</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexandre</foreName>
+            <surname>Donzé</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">Hybrid Systems Biology, 5th International Workshop, HSB 2016</title>
+        <loc>Grenoble, France</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">9957</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3-15</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01406115" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01406115</ref>
+        </imprint>
+        <meeting id="cid624903">
+          <title>International Workshop on Hybrid Systems Biology</title>
+          <num>5</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid20" type="inproceedings" rend="year" n="cite:pinisetty:hal-01244369">
+      <identifiant type="doi" value="10.1145/2851613.2851827"/>
+      <identifiant type="hal" value="hal-01244369"/>
+      <analytic>
+        <title level="a">Predictive Runtime Enforcement *</title>
+        <author>
+          <persName key="sumo-2014-idp120104">
+            <foreName>Srinivas</foreName>
+            <surname>Pinisetty</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Viorel</foreName>
+            <surname>Preoteasa</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Stavros</foreName>
+            <surname>Tripakis</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp106976">
+            <foreName>Thierry</foreName>
+            <surname>Jéron</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="corse-2015-idp86000">
+            <foreName>Yliès</foreName>
+            <surname>Falcone</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">SAC 2016 31st ACM Symposium on Applied Computing</title>
+        <loc>Pisa, Italy</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">6</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01244369" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01244369</ref>
+        </imprint>
+        <meeting id="cid23923">
+          <title>ACM Symposium on Applied Computing</title>
+          <num>31</num>
+          <abbr type="sigle">SAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid21" type="inproceedings" rend="year" n="cite:ricker:hal-01373709">
+      <identifiant type="hal" value="hal-01373709"/>
+      <analytic>
+        <title level="a">Finding the weakest link(s): Coalition games for decentralized discrete-event control</title>
+        <author>
+          <persName>
+            <foreName>Laurie S. L.</foreName>
+            <surname>Ricker</surname>
+            <initial>L. S. L.</initial>
+          </persName>
+          <persName key="sumo-2014-idp108424">
+            <foreName>Hervé</foreName>
+            <surname>Marchand</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">55th IEEE Conference on Decision and Control</title>
+        <loc>Las-Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373709" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373709</ref>
+        </imprint>
+        <meeting id="cid78271">
+          <title>IEEE Conference on Decision and Control</title>
+          <num>55</num>
+          <abbr type="sigle">CDC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid27" type="inproceedings" rend="year" n="cite:sankur:hal-01431472">
+      <identifiant type="hal" value="hal-01431472"/>
+      <analytic>
+        <title level="a">An Abstraction Technique For Parameterized Model Checking of Leader Election Protocols: Application to FTSP</title>
+        <author>
+          <persName key="sumo-2015-idp71288">
+            <foreName>Ocan</foreName>
+            <surname>Sankur</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="tea-2014-idm28088">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Talpin</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</title>
+        <loc>Uppsala, Sweden</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01431472" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01431472</ref>
+        </imprint>
+        <meeting id="cid302988">
+          <title>International Conference on Tools and Algorithms for the Construction and Analysis of Systems</title>
+          <num>23</num>
+          <abbr type="sigle">TACAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid31" type="techreport" rend="year" n="cite:bertrand:hal-01334218">
+      <identifiant type="hal" value="hal-01334218"/>
+      <monogr>
+        <title level="m">Diagnosis in Infinite-State Probabilistic Systems (long version)</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="mexico-2014-idp66944">
+            <foreName>Serge</foreName>
+            <surname>Haddad</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sumo-2014-idp131536">
+            <foreName>Engel</foreName>
+            <surname>Lefaucheux</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Rennes ; LSV, ENS Cachan</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01334218" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01334218</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid29" type="techreport" rend="year" n="cite:bouyer:hal-01410144">
+      <identifiant type="hal" value="hal-01410144"/>
+      <monogr>
+        <title level="m">Bounding Average-energy Games</title>
+        <author>
+          <persName>
+            <foreName>Patricia</foreName>
+            <surname>Bouyer</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Piotr</foreName>
+            <surname>Hofman</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sumo-2016-idp127168">
+            <foreName>Nicolas</foreName>
+            <surname>Markey</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Mickaël</foreName>
+            <surname>Randour</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Zimmermann</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">1610.07858</biblScope>
+          <publisher>
+            <orgName type="institution">ArXiv</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01410144" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01410144</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid28" type="techreport" rend="year" n="cite:bouyer:hal-01410169">
+      <identifiant type="hal" value="hal-01410169"/>
+      <monogr>
+        <title level="m">Dynamic Complexity of Parity Games with Bounded Tree-Width</title>
+        <author>
+          <persName>
+            <foreName>Patricia</foreName>
+            <surname>Bouyer</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Vincent</foreName>
+            <surname>Jugé</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="sumo-2016-idp127168">
+            <foreName>Nicolas</foreName>
+            <surname>Markey</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">ArXiv</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01410169" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01410169</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid22" type="unpublished" rend="year" n="cite:berard:hal-01280043">
+      <identifiant type="hal" value="hal-01280043"/>
+      <monogr>
+        <title level="m">Non-interference in partial order models</title>
+        <author>
+          <persName key="mexico-2016-idp124560">
+            <foreName>Béatrice</foreName>
+            <surname>Bérard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Mullins</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01280043" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01280043</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid32" type="unpublished" rend="year" n="cite:helouet:hal-01284682">
+      <identifiant type="hal" value="hal-01284682"/>
+      <monogr>
+        <title level="m">Realizability of Schedules by Stochastic Time Petri Nets with Blocking Semantics (regular paper)</title>
+        <author>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="sumo-2015-idp75048">
+            <foreName>Karim</foreName>
+            <surname>Kecir</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01284682" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01284682</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid12" type="inproceedings" rend="foot" n="footcite:AN01">
+      <analytic>
+        <title level="a">Timed Petri Nets and BQOs</title>
+        <author>
+          <persName>
+            <foreName>P. A.</foreName>
+            <surname>Abdulla</surname>
+            <initial>P. A.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Nylén</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ICATPN</title>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">2075</biblScope>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">53-70</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid0" type="article" rend="foot" n="footcite:GAG">
+      <analytic>
+        <title level="a">Active Workspace: Distributed Collaborative Systems based on Guarded Attribute Grammars</title>
+        <author>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="sumo-2014-idp110904">
+            <foreName>Christophe</foreName>
+            <surname>Morvan</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="sumo-2014-idp125088">
+            <foreName>Robert Fondze Jr.</foreName>
+            <surname>Nsaibirni</surname>
+            <initial>R. F. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM SIGAPP Applied Computing Review</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <biblScope type="number">33</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">6–33</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid23" type="inproceedings" rend="foot" n="footcite:BHM15b">
+      <analytic>
+        <title level="a">Non-interference in Partial Order Models</title>
+        <author>
+          <persName key="mexico-2016-idp124560">
+            <foreName>Béatrice</foreName>
+            <surname>Bérard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp105536">
+            <foreName>Loïc</foreName>
+            <surname>Hélouët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Mullins</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of 15th Int. Conf. on Application of Concurrency to System Design, ACSD 2015</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">80–89</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid13" type="article" rend="foot" n="footcite:Jone77">
+      <analytic>
+        <title level="a">Complexity of Some Problems in Petri Nets</title>
+        <author>
+          <persName>
+            <foreName>N. D.</foreName>
+            <surname>Jones</surname>
+            <initial>N. D.</initial>
+          </persName>
+          <persName>
+            <foreName>L. H.</foreName>
+            <surname>Landweber</surname>
+            <initial>L. H.</initial>
+          </persName>
+          <persName>
+            <foreName>Y. E.</foreName>
+            <surname>Lien</surname>
+            <initial>Y. E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Theor. Comput. Sci.</title>
+        <imprint>
+          <biblScope type="volume">4</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>1977</year>
+          </dateStruct>
+          <biblScope type="pages">277–299</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid6" type="phdthesis" rend="foot" n="footcite:merlin74">
+      <monogr>
+        <title level="m">A Study of the Recoverability of Computing Systems</title>
+        <author>
+          <persName>
+            <foreName>Philip M.</foreName>
+            <surname>Merlin</surname>
+            <initial>P. M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">University of California</orgName>
+            <address>
+              <addrLine>Irvine, CA, USA</addrLine>
+            </address>
+          </publisher>
+          <dateStruct>
+            <year>1974</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid9" type="article" rend="foot" n="footcite:Puri00">
+      <analytic>
+        <title level="a">Dynamical Properties of Timed Automata</title>
+        <author>
+          <persName key="myriads-2015-idp120616">
+            <foreName>A.</foreName>
+            <surname>Puri</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">In DEDS</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">1-2</biblScope>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">87–113</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid14" type="inproceedings" rend="foot" n="footcite:Ruiz99">
+      <analytic>
+        <title level="a">On Non-Decidability of Reachability for Timed-Arc Petri Nets</title>
+        <author>
+          <persName>
+            <foreName>V. V.</foreName>
+            <surname>Ruiz</surname>
+            <initial>V. V.</initial>
+          </persName>
+          <persName>
+            <foreName>F. C.</foreName>
+            <surname>Gomez</surname>
+            <initial>F. C.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>de Frutos-Escrig</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">PNPM</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">188–</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="sumo-2016-bid7" type="inproceedings" rend="foot" n="footcite:Wal83">
+      <analytic>
+        <title level="a">Timed Petri-Nets for Modelling and Analysing Protocols with Real-Time Characteristics</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Walter</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of PSTV</title>
+        <imprint>
+          <dateStruct>
+            <year>1983</year>
+          </dateStruct>
+          <biblScope type="pages">149-159</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

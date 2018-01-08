@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="tadaam" isproject="true">
+    <shortname>TADAAM</shortname>
+    <projectName>Topology-Aware System-Scale Data Management for High-Performance Computing</projectName>
+    <theme-de-recherche>Distributed and High Performance Computing</theme-de-recherche>
+    <domaine-de-recherche>Networks, Systems and Services, Distributed Computing</domaine-de-recherche>
+    <header_dates_team>Creation of the Team: 2015 January 01</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.1. - Multicore</term>
+      <term>1.1.2. - Hardware accelerators (GPGPU, FPGA, etc.)</term>
+      <term>1.1.3. - Memory models</term>
+      <term>1.1.4. - High performance computing</term>
+      <term>1.1.5. - Exascale</term>
+      <term>1.2. - Networks</term>
+      <term>2.1.7. - Distributed programming</term>
+      <term>2.2.2. - Memory models</term>
+      <term>2.2.3. - Run-time systems</term>
+      <term>2.6.1. - Operating systems</term>
+      <term>2.6.2. - Middleware</term>
+      <term>3.1.3. - Distributed data</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>7.1. - Parallel and distributed algorithms</term>
+      <term>7.3. - Optimization</term>
+      <term>7.9. - Graph theory</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>6.3.2. - Network protocols</term>
+      <term>6.5. - Information systems</term>
+      <term>9.4.1. - Computer science</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Bordeaux"/>
+  </identification>
+  <team id="uid1">
+    <person key="runtime-2014-idp84448">
+      <firstname>Emmanuel</firstname>
+      <lastname>Jeannot</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="roma-2014-idp84472">
+      <firstname>Guillaume</firstname>
+      <lastname>Aupy</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher, from Dec. 2016</moreinfo>
+    </person>
+    <person key="runtime-2014-idp81776">
+      <firstname>Alexandre</firstname>
+      <lastname>Denis</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="runtime-2014-idp83016">
+      <firstname>Brice</firstname>
+      <lastname>Goglin</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="runtime-2014-idp88616">
+      <firstname>Guillaume</firstname>
+      <lastname>Mercier</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>INP Bordeaux, Associate Professor</moreinfo>
+    </person>
+    <person key="bacchus-2014-idp70640">
+      <firstname>François</firstname>
+      <lastname>Pellegrini</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="tadaam-2016-idp160960">
+      <firstname>Clément</firstname>
+      <lastname>Foyer</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, from Feb. 2016</moreinfo>
+    </person>
+    <person key="bacchus-2014-idp72088">
+      <firstname>Cedric</firstname>
+      <lastname>Lachat</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp79688">
+      <firstname>Farouk</firstname>
+      <lastname>Mansouri</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="runtime-2014-idp96184">
+      <firstname>François</firstname>
+      <lastname>Tessier</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, until Jan. 2016</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp69880">
+      <firstname>Remi</firstname>
+      <lastname>Barat</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA</moreinfo>
+    </person>
+    <person key="bacchus-2014-idp88144">
+      <firstname>Raphaël</firstname>
+      <lastname>Blanchard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>ONERA, until Oct. 2016</moreinfo>
+    </person>
+    <person key="runtime-2014-idp92408">
+      <firstname>Nicolas</firstname>
+      <lastname>Denoyelle</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Bull, granted by CIFRE</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp73536">
+      <firstname>Benjamin</firstname>
+      <lastname>Lorendeau</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>EDF, granted by CIFRE</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp74768">
+      <firstname>Romain</firstname>
+      <lastname>Prou</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, until Oct. 2016</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp76000">
+      <firstname>Hugo</firstname>
+      <lastname>Taboada</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA</moreinfo>
+    </person>
+    <person key="runtime-2014-idp134960">
+      <firstname>Adèle</firstname>
+      <lastname>Villiermet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="tadaam-2015-idp78440">
+      <firstname>Cyril</firstname>
+      <lastname>Bordage</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="tadaam-2016-idp190432">
+      <firstname>Juan Luis</firstname>
+      <lastname>Garcìa Zapata</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>University of Extremadura, from Sep. 2016 to Nov. 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp180592">
+      <firstname>Cecile</firstname>
+      <lastname>Boutros</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="cagire-2014-idp69224">
+      <firstname>Sylvie</firstname>
+      <lastname>Embolla</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="tadaam-2016-idp197904">
+      <firstname>Arnaud</firstname>
+      <lastname>Bardoux</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Intern from University of Strasbourg, from Apr. 2016 to Sep. 2016</moreinfo>
+    </person>
+    <person key="tadaam-2016-idp200416">
+      <firstname>Ahmad Boissetri</firstname>
+      <lastname>Binzagr</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Intern from University of Bordeaux, from May 2016 to Jul. 2016</moreinfo>
+    </person>
+    <person key="tadaam-2016-idp202928">
+      <firstname>Francois</firstname>
+      <lastname>Candela</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern from University of Bordeaux, from May 2016 to Jul. 2016</moreinfo>
+    </person>
+    <person key="tadaam-2016-idp205440">
+      <firstname>Paul</firstname>
+      <lastname>Jeanmaire</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Intern from ENS Cachan, from Jun. 2016 to Jul. 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>In <span class="smallcap" align="left">TADaaM</span>, we propose a new approach where we allow the
+application to explicitly express its resource needs about its execution. The
+application needs to express its behavior, but in a different way from
+the compute-centric approach, as the additional information is not necessarily
+focused on computation and on instructions execution, but follows a high-level
+semantics (needs of large memory for some processes, start of a
+communication phase, need to refine the granularity, beginning of a
+storage access phase, description of data affinity, etc.). These needs will be
+expressed to a service layer though an API. The service layer will be
+system-wide (able to gather a global knowledge) and stateful
+(able to take decision based on the current request but also on previous
+ones). The API shall enable the application to access this service layer through
+a well-defined set of functions, based on carefully designed abstractions.</p>
+      <p>Hence, <b>the goal of </b><span class="smallcap" align="left">TADaaM</span><b> is to design a stateful
+system-wide service layer for HPC systems, in order to optimize
+applications execution according to their needs</b>.</p>
+      <p>This layer will abstract low-level details of the architecture and the
+software stack, and will allow applications to register their needs.
+Then, according to these requests and to the environment
+characteristics, this layer will feature an engine to optimize the
+execution of the applications at system-scale, taking into account the
+gathered global knowledge and previous requests.</p>
+      <p>This approach exhibits several key characteristics:</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true">It is independent from the application parallelization, the
+programming model, the numerical scheme and, largely, from the data
+layout. Indeed, high-level semantic requests can easily be added to
+the application code after the problem has been modeled,
+parallelized, and most of the time after the data layout has been
+designed and optimized. Therefore, this approach is – to a large
+extent – orthogonal to other optimization mechanisms and does not require
+application developers to rewrite their code.</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">Application developers are the persons who know best their code
+and therefore the needs of their application. They can easily (if
+the interface is well designed and the abstractions are correctly
+exposed), express the application needs in terms of
+resource usage and interaction with the whole environment.</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Being stateful and shared by all the applications in the parallel
+environment, the proposed layer will therefore enable optimizations
+that:</p>
+          <simplelist>
+            <li id="uid7">
+              <p noindent="true">cannot be performed statically but require information only
+known at launch- or run-time,</p>
+            </li>
+            <li id="uid8">
+              <p noindent="true">are incremental and require minimal changes to the application
+execution scheme,</p>
+            </li>
+            <li id="uid9">
+              <p noindent="true">deal with several parts of the environment at the same time
+(e.g., batch scheduler, I/O, process manager and storage),</p>
+            </li>
+            <li id="uid10">
+              <p noindent="true">take into account the needs of several applications at the same
+time and deal with their interaction. This will be useful, for
+instance, to handle network contention, storage access or any other
+shared resources.</p>
+            </li>
+          </simplelist>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid11">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Need for System-Scale Optimization</bodyTitle>
+      <p>Firstly, in order for applications to make the best possible use of the available
+resources, it is impossible to expose all the low-level details of the hardware
+to the program, as it would make impossible to achieve portability. Hence, the
+standard approach is to add intermediate layers (programming models, libraries,
+compilers, runtime systems, etc.) to the software stack so as to bridge the gap
+between the application and the hardware. With this approach, optimizing the
+application requires to express its parallelism (within the imposed programming
+model), organize the code, schedule and load-balance the computations, etc. In
+other words, in this approach, the way the code is written and the way it is
+executed and interpreted by the lower layers drives the optimization. In any
+case, this approach is centered on how computations are performed. Such
+an approach is therefore no longer sufficient, as the way an application is
+executing does depend less and less on the organization of computation and more
+and more on the way its data is managed.</p>
+      <p>Secondly, modern large-scale parallel platforms comprise tens to hundreds of
+thousand nodes <footnote id="uid13" id-text="1">More than 22,500 XE6 compute node for the BlueWaters
+system; 5040 B510 Bullx Nodes for the Curie machine; more than 49,000
+BGQ nodes for the MIRA machine.</footnote>. However, very few applications use
+the whole machine. In general, an application runs only on a subset of
+the nodes <footnote id="uid14" id-text="2">In 2014, the median case was 2048 nodes for the
+BlueWaters system and, for the first year of the Curie machine, the
+median case was 256 nodes</footnote>. Therefore, most of the time, an
+application shares the network, the storage and other resources with other
+applications running concurrently during its execution. Depending on
+the allocated resources, it is not uncommon that the execution of one
+application interferes with the execution of a neighboring one.</p>
+      <p>Lastly, even if an application is running alone, each element of
+the software stack often performs its own optimization
+independently. For instance, when considering an hybrid MPI/OpenMP
+application, one may realize that threads are concurrently used within the
+OpenMP runtime system, within the MPI library for communication
+progression, and possibly within the computation library (BLAS) and
+even within the application itself (pthreads). However, none of these
+different classes of threads are aware of the existence of the others.
+Consequently, the way they are executed, scheduled, prioritized does
+not depend on their relative roles, their locations in the software
+stack nor on the state of the application.</p>
+      <p>The above remarks show that in order to go beyond the
+state-of-the-art, it is necessary to design a new set of mechanisms
+allowing cross-layer and system-wide optimizations so as to optimize
+the way data is allocated, accessed and transferred by the application.
+</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Scientific Challenges and Research Issues</bodyTitle>
+      <p>In <span class="smallcap" align="left">TADaaM</span>, we will tackle the problem of efficiently
+executing an application, at system-scale, on an HPC machine. We
+assume that the application is already optimized (efficient data
+layout, use of effective libraries, usage of state-of-the-art
+compilation techniques, etc.). Nevertheless, even a statically
+optimized application will not be able to be executed at scale without
+considering the following dynamic constraints: machine
+topology, allocated resources, data movement and contention, other
+running applications, access to storage, etc. Thanks to the proposed
+layer, we will provide a simple and efficient way for already existing
+applications, as well as new ones, to express their needs in terms of
+resource usage, locality and topology, using a high-level semantic.</p>
+      <p>It is important to note that we target the optimization of each
+application independently but also several applications at the same
+time and at system-scale, taking into account their resource
+requirement, their network usage or their storage access. Furthermore,
+dealing with code-coupling application is an intermediate use-case
+that will also be considered.</p>
+      <p spacebefore="3.0pt">Several issues have to be considered. The first one consists in providing
+relevant <b>abstractions and models to describe the topology</b> of the
+available resources <b>and the application behavior</b>.</p>
+      <p>Therefore, the first question we want to answer is: <b>“How to build
+scalable models and efficient abstractions enabling to
+understand the impact of data movement, topology and locality
+on performance?”</b>
+These models must be sufficiently precise to grasp the reality, tractable enough
+to enable efficient solutions and algorithms, and simple enough to remain
+usable by non-hardware experts. We will work on
+(1) better describing the memory hierarchy, considering new memory
+technologies;
+(2) providing an integrated view of the nodes, the network and the storage;
+(3) exhibiting qualitative knowledge;
+(4) providing ways to express the multi-scale properties of the machine.
+Concerning abstractions, we will work on providing general concepts to
+be integrated at the application or programming model layers.
+The goal is to offer means, for the application, to
+express its high-level requirements in terms of data access, locality and
+communication, by providing abstractions on the notion of hierarchy, mesh,
+affinity, traffic metrics, etc.</p>
+      <p spacebefore="3.0pt">In addition to the abstractions and the aforementioned models we need
+to <b>define a clean and expressive API in a scalable way</b>, in
+order for applications to express their needs (memory usage, affinity,
+network, storage access, model refinement, etc.).</p>
+      <p>Therefore, the second question we need to answer is: “<b>how to
+build a system-scale, stateful, shared layer that can gather
+applications needs expressed with a high-level semantic?</b>”. This work
+will require not only to define a clean API where applications will
+express their needs, but also to define how such a layer will be
+shared across applications and will scale on future systems. The
+API will provide a simple yet effective way to express different needs
+such as: memory usage of a given portion of the code; start of a
+compute intensive part; phase where the network is accessed
+intensively; topology-aware affinity management; usage of storage
+(in read and/or write mode); change of the data layout after mesh
+refinement, etc. From an engineering point of view, the layer will
+have a hierarchical design matching the hardware hierarchy, so as to
+achieve scalability.</p>
+      <p spacebefore="3.0pt">Once this has been done, the service layer, will have all the
+information about the environment characteristics and application
+requirements. We therefore need to design a set of <b>mechanisms to
+optimize applications execution</b>: communication, mapping, thread
+scheduling, data partitioning/mapping/movement, etc.</p>
+      <p>Hence, the last scientific question we will address is: “<b>How to design
+fast and efficient algorithms, mechanisms and tools to enable
+execution of applications at system-scale, in full a HPC ecosystem,
+taking into account topology and locality?</b>”
+A first set of research is related to thread and process placement according to
+the topology and the affinity. Another large field of study is related to data
+placement, allocation and partitioning: optimizing the way data is accessed and
+processed especially for mesh-based applications. The issues of transferring
+data across the network will also be tackled, thanks to the global knowledge we
+have on the application behavior and the data layout. Concerning the interaction
+with other applications, several directions will be tackled. Among these
+directions we will deal with matching process placement with resource
+allocation given by the batch scheduler or with the storage
+management: switching from a best-effort application centric strategy
+to global optimization scheme.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid16">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Mesh-based applications</bodyTitle>
+      <p><span class="smallcap" align="left">TADaaM</span> targets scientific simulation applications on large-scale
+systems, as these applications present huge challenges in terms of
+performance, locality, scalability, parallelism and data management.
+Many of these HPC applications use meshes as the basic model for their
+computation. For instance, PDE-based simulations using finite
+differences, finite volumes, or finite elements methods operate on meshes
+that describe the geometry and the physical properties of the
+simulated objects. This is the case for at least two thirds of the
+applications selected in the 9<sup>th</sup> PRACE.
+call <footnote id="uid18" id-text="3"><ref xlink:href="http://www.prace-ri.eu/prace-9th-regular-call/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>prace-ri.<allowbreak/>eu/<allowbreak/>prace-9th-regular-call/</ref></footnote>,
+which concern quantum mechanics, fluid mechanics, climate, material
+physic, electromagnetism, etc.</p>
+      <p>Mesh-based applications not only represent the majority of
+HPC applications running on existing supercomputing systems, yet
+also feature properties that should be taken into account to
+achieve scalability and performance on future large-scale systems.
+These properties are the following:</p>
+      <descriptionlist>
+        <label>Size</label>
+        <li id="uid19">
+          <p noindent="true">Datasets are large: some meshes comprise hundreds of
+millions of elements, or even billions.</p>
+        </li>
+        <label>Dynamicity</label>
+        <li id="uid20">
+          <p noindent="true">In many simulations, meshes are refined or coarsened
+at each time step, so as to account for the evolution of the
+physical simulation (moving parts, shockwaves, structural changes in
+the model resulting from collisions between mesh parts, etc.).</p>
+        </li>
+        <label>Structure</label>
+        <li id="uid21">
+          <p noindent="true">Many meshes are unstructured, and require advanced data
+structures so as to manage irregularity in data storage.</p>
+        </li>
+        <label>Topology</label>
+        <li id="uid22">
+          <p noindent="true">Due to their rooting in the physical world, meshes exhibit
+interesting topological properties (low dimensionality embedding,
+small maximum degree, large diameter, etc.). It is very important to
+take advantage of these properties when laying out mesh data on
+systems where communication locality matters.</p>
+        </li>
+      </descriptionlist>
+      <p>All these features make mesh-based applications a very interesting
+and challenging use-case for the research we want to carry out in this
+project. Moreover, we believe that our proposed approach and solutions
+will contribute to enhance these applications and allow them to
+achieve the best possible usage of the available resources of future
+high-end systems.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid23">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>The <span class="smallcap" align="left">netloc</span> (See Section <ref xlink:href="#uid26" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+tools have been run on one of the largest European supercomputers
+(the TGCC/Genci CURIE machine) and successfully modeled its 5200 nodes
+and its interconnection network (more than 800 switches).
+This is a joint work with CEA and the COLOC European project.
+</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid25">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>NetLoc</bodyTitle>
+      <p>Network Locality</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p><span class="smallcap" align="left">netloc</span> (Network Locality) is a library that extends <span class="smallcap" align="left">hwloc</span> to network
+topology information by assembling <span class="smallcap" align="left">hwloc</span> knowledge of server
+internals within graphs of inter-node fabrics such as Infiniband,
+Intel OmniPath or Cray networks. <span class="smallcap" align="left">netloc</span> builds a software
+representation of the entire cluster so as to help application
+properly place their tasks on the nodes. It may also help
+communication libraries optimize their strategies according to the
+wires and switches. <span class="smallcap" align="left">netloc</span> targets the same challenges as <span class="smallcap" align="left">hwloc</span> but
+focuses on a wider spectrum by enabling cluster-wide solutions such as
+process placement. <span class="smallcap" align="left">netloc</span> is distributed within <span class="smallcap" align="left">hwloc</span> releases
+starting with <span class="smallcap" align="left">hwloc</span> 2.0.</p>
+      <simplelist>
+        <li id="uid27">
+          <p noindent="true">Participants: Cyril Bordage and Brice Goglin</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">Contact: Brice Goglin</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">URL: <ref xlink:href="http://www.open-mpi.org/projects/netloc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>open-mpi.<allowbreak/>org/<allowbreak/>projects/<allowbreak/>netloc/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid30" level="1">
+      <bodyTitle>NewMadeleine</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> High-performance calculation - MPI communication</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>NewMadeleine is the fourth incarnation of the Madeleine communication library. The new architecture aims at enabling the use of a much wider range of communication flow optimization techniques. Its design is entirely modular: drivers and optimization strategies are dynamically loadable software components, allowing experimentations with multiple approaches or on multiple issues with regard to processing communication flows.</p>
+      <p>The optimizing scheduler SchedOpt targets applications with irregular, multi-flow communication schemes such as found in the increasingly common application conglomerates made of multiple programming environments and coupled pieces of code, for instance. SchedOpt itself is easily extensible through the concepts of optimization strategies (what to optimize for, what the optimization goal is) expressed in terms of tactics (how to optimize to reach the optimization goal). Tactics themselves are made of basic communication flows operations such as packet merging or reordering.</p>
+      <p>The communication library is fully multi-threaded through its close integration with PIOMan. It manages concurrent communication operations from multiple libraries and from multiple threads. Its MPI implementation Mad-MPI fully supports the <tt>MPI_THREAD_MULTIPLE</tt> multi-threading level.</p>
+      <simplelist>
+        <li id="uid31">
+          <p noindent="true">Participants: Alexandre Denis, Nathalie Furmento, Raymond Namyst and Clement Foyer</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">Contact: Alexandre Denis</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">URL: <ref xlink:href="http://pm2.gforge.inria.fr/newmadeleine/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>pm2.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>newmadeleine/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>PaMPA</bodyTitle>
+      <p>Parallel Mesh Partitioning and Adaptation</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Dynamic load balancing - Unstructured heterogeneous meshes - Parallel remeshing - Subdomain decomposition - Parallel numerical solvers</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p><span class="smallcap" align="left">PaMPA</span> is a parallel library for handling, redistributing and remeshing
+unstructured meshes on distributed-memory architectures. <span class="smallcap" align="left">PaMPA</span> dramatically eases and speeds-up the development of parallel numerical
+solvers for compact schemes. It provides solver writers with a
+distributed mesh abstraction and an API to:</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">describe unstructured and possibly heterogeneous meshes, on the form
+of a graph of interconnected entities of different kinds
+(e.g. elements, faces, edges, nodes);</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">attach values to the mesh entities;</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">distribute such meshes across processing elements, with an overlap of
+variable width;</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">perform synchronous or asynchronous data exchanges of values across
+processing elements;</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">describe numerical schemes by means of iterators over mesh entities
+and their connected neighbors of a given kind;</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">redistribute meshes so as to balance computational load;</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">perform parallel dynamic remeshing, by applying adequately a
+user-provided sequential remesher to relevant areas of the distributed
+mesh.</p>
+        </li>
+      </simplelist>
+      <p><span class="smallcap" align="left">PaMPA</span> runs concurrently multiple sequential remeshing tasks to perform
+dynamic parallel remeshing and redistribution of very large
+unstructured meshes. E.g., it can remesh a tetrahedral mesh from
+43 millio elements to more than 1 billion elements on 280 Broadwell
+processors in 20 minutes.</p>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Parallel library for handling, redistributing and remeshing unstructured, heterogeneous meshes on distributed-memory architectures.
+<span class="smallcap" align="left">PaMPA</span> dramatically eases and speeds-up the development of parallel numerical solvers for compact schemes.</p>
+      <simplelist>
+        <li id="uid42">
+          <p noindent="true">Participants: Cedric Lachat, François Pellegrini and Cécile Dobrzynski</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">Partners: CNRS - IPB - Université de Bordeaux</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">Contact: Cedric Lachat</p>
+        </li>
+        <li id="uid45">
+          <p noindent="true">URL: <ref xlink:href="http://project.inria.fr/pampa/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>pampa/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>SCOTCH</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> High-performance computing - Graph algorithms -
+Domain decomposition - Static mapping - Mesh partitioning - Sparse matrix ordering</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p><span class="smallcap" align="left">Scotch</span> is a software package and libraries for sequential and
+parallel graph partitioning, static mapping and clustering; sequential
+mesh and hypergraph partitioning; and sequential and parallel sparse
+matrix block ordering.</p>
+      <p>Its main use is to subdivise a scientific problem, expressed as a
+graph, into a set of subproblems as independent as possible from each
+other (in terms of connecting edges).</p>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p><span class="smallcap" align="left">Scotch</span> takes the form of a set of libraries, plus additional
+standalone programs. The sequential and parallel libraries provide a
+set of interfaces to describe centralized and distributed graphs to
+partition, the target architectures to map onto, the resulting
+centralized and distributed mapping and ordering structures,
+etc. <span class="smallcap" align="left">Scotch</span> takes advantage of Posix threads, and its parallel
+version, <span class="smallcap" align="left">PT-Scotch</span>, uses the MPI interface.</p>
+      <simplelist>
+        <li id="uid47">
+          <p noindent="true">Participants: François Pellegrini, Cédric Lachat, Rémi Barat and Cédric Chevalier</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">Partners: CNRS - IPB - Region Aquitaine</p>
+        </li>
+        <li id="uid49">
+          <p noindent="true">Contact: François Pellegrini</p>
+        </li>
+        <li id="uid50">
+          <p noindent="true">URL: <ref xlink:href="http://www.labri.fr/~pelegrin/scotch/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>labri.<allowbreak/>fr/<allowbreak/>~pelegrin/<allowbreak/>scotch/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>TreeMatch</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Intensive parallel computing - High-Performance Computing - Hierarchical architecture - Placement</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>TreeMatch provides a permutation of the processes to the processors/cores in order to minimize the communication cost of the application.</p>
+      <p>Important features are : the number of processors can be greater than the number of applications processes , it assumes that the topology is a tree and does not require valuation of the topology (e.g. communication speeds) , it implements different placement algorithms that are switched according to the input size.</p>
+      <p>Some core algorithms are parallel to speed-up the execution.</p>
+      <p>TreeMatch is integrated into various software such as the Charm++ programming environment as well as in both major open-source MPI implementations: Open MPI and MPICH2.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>TreeMatch is a library for performing process placement based on the topology of the machine and the communication pattern of the application.</p>
+      <simplelist>
+        <li id="uid52">
+          <p noindent="true">Participants: Emmanuel Jeannot, François Tessier, Adele Villiermet, Guillaume Mercier and Pierre Celor</p>
+        </li>
+        <li id="uid53">
+          <p noindent="true">Partners: CNRS - IPB - Université de Bordeaux</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">Contact: Emmanuel Jeannot</p>
+        </li>
+        <li id="uid55">
+          <p noindent="true">URL: <ref xlink:href="http://treematch.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>treematch.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>hwloc</bodyTitle>
+      <p>Hardware Locality</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> HPC - Topology - Open MPI - Affinities - GPU - Multicore - NUMA - Locality</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Hardware Locality (<span class="smallcap" align="left">hwloc</span>) is a library and set of tools aiming at
+discovering and exposing the topology of machines, including
+processors, cores, threads, shared caches, NUMA memory nodes and I/O
+devices. It builds a widely-portable abstraction of these resources
+and exposes it to applications so as to help them adapt their behavior
+to the hardware characteristics. They may consult the hierarchy of
+resources, their attributes, and bind task or memory on them.</p>
+      <p><span class="smallcap" align="left">hwloc</span> targets many types of high-performance computing applications,
+from thread scheduling to placement of MPI processes. Most existing
+MPI implementations, several resource managers and task schedulers,
+and multiple other parallel libraries already use <span class="smallcap" align="left">hwloc</span>.</p>
+      <simplelist>
+        <li id="uid57">
+          <p noindent="true">Participants: Brice Goglin and Samuel Thibault</p>
+        </li>
+        <li id="uid58">
+          <p noindent="true">Partners: AMD - Intel - Open MPI consortium</p>
+        </li>
+        <li id="uid59">
+          <p noindent="true">Contact: Brice Goglin</p>
+        </li>
+        <li id="uid60">
+          <p noindent="true">URL: <ref xlink:href="http://www.open-mpi.org/projects/hwloc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>open-mpi.<allowbreak/>org/<allowbreak/>projects/<allowbreak/>hwloc/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid61">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Network Modeling</bodyTitle>
+      <p><span class="smallcap" align="left">netloc</span> (see Section <ref xlink:href="#uid26" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+is a tool in <span class="smallcap" align="left">hwloc</span> to discover the network topology. Our first
+work with <span class="smallcap" align="left">netloc</span> was to redesign it to be more efficient and more
+adapted to the needs. The code was cleaned and some dependencies were
+removed. We have added a display tool, that is able to show a network
+topology in a web browser where a user can interact with.
+It ran on one of the largest European supercomputer
+(the TGCC/Genci CURIE machine)
+and successfully modeled its 5200 nodes and its interconnection
+network (more than 800 switches).</p>
+      <p>Moreover, it is now possible to interact with Scotch from netloc. The
+first feature is to export a network topology, or even the current
+available topology given by the resource manager, into a <span class="smallcap" align="left">Scotch</span> architecture. Conversely, we can use <span class="smallcap" align="left">Scotch</span> tools in <span class="smallcap" align="left">netloc</span> for building
+a process mapping based on resources found by <span class="smallcap" align="left">netloc</span> and a process graph
+describing communications between processes. Tests conducted on a
+stencil mini-app have shown that the benefits are real and still needs
+more work.
+</p>
+    </subsection>
+    <subsection id="uid63" level="1">
+      <bodyTitle>Communication and computation overlap</bodyTitle>
+      <p>To amortize the cost of communication in HPC application, programmers
+want to overlap communications with computation. To do so, they
+assume non-blocking MPI communications will progress in background.
+NewMadeleine, our communication library, is actually able to make
+communication progress in background so as to actually have overlap
+happen. However, not all MPI implementations are able to overlap
+communication and computation.</p>
+      <p>We have proposed <ref xlink:href="#tadaam-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> a benchmark to measure
+what really happens when trying to overlap non-blocking
+point-to-point communications with computation. The benchmark
+measures how much overlap happen in various cases: sender-side,
+receiver-side, datatypes likely to be offloaded onto NIC or not,
+multi-threaded computation, multi-threaded communication or not. We
+have benchmarked a wide panel of MPI libraries and hardware
+platforms, and thanks to low-level traces, explained the results.
+</p>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>Topology Aware Performance Monitoring</bodyTitle>
+      <p>A tool has been developed to abstract performance
+metrics and map them onto the <span class="smallcap" align="left">hwloc</span> (see Section <ref xlink:href="#uid56" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) topology model of the system.
+During the year 2016, the tool has been entirely rewritten to
+release a more meaningful and stable programming abstraction, with
+off the shelf performance abstraction plugins and raw performance
+acquisition plugin <ref xlink:href="#tadaam-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A special effort has been carried out on
+output presentation by extending lstopo tool from hwloc into a
+library embedded in the monitoring tool to display performance
+metrics on the system topology. Another backend using R has also
+been developed for the purpose of post-mortem analysis and model
+extraction from abstract metrics of the topology.
+</p>
+    </subsection>
+    <subsection id="uid65" level="1">
+      <bodyTitle>Locality Aware Roofline Model</bodyTitle>
+      <p>The years 2016 marked the achievement of our extension of the
+famous Cache Aware Roofline Model(CARM) and the associate tool.
+The latter model targets deep plateform and application analysis on
+multicore processors. Its model consist into a two-dimensions
+plane bound by several machine ceils and representative of
+scientific application workloads. Our extension validate the use
+of the CARM on emerging processors with heterogeneous memory
+subsystem, and extend the CARM methodology to encompass
+interconnection network, thus, enabling full modeling of shared
+memory systems <ref xlink:href="#tadaam-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This work is a collaboration with the INESC-ID
+research center under the NESUS project.
+</p>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Performance Analysis of Electromagnetic Field Application on Large SMP Node</bodyTitle>
+      <p>In the scope of the COLOC project we worked on understanding
+scalability issues of the efield application on a large shared
+memory system. Our analysis with above mentionned tools
+highlighted a potential bandwidth bottleneck. This problem can
+usually be tackled by the mean of threads and data mapping on
+respectively the machine cores and the memories. Unfortunately,
+those techniques can't be applied with this (closed source)
+application since the system does not allow to monitor memory
+accesses and traffic on the system.
+</p>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>Structural Modeling of
+Heterogeneous Memory Architectures</bodyTitle>
+      <p><span class="smallcap" align="left">hwloc</span> (see Section <ref xlink:href="#uid56" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+is the de facto standard tool for gathering information of
+parallel platform topologies.
+The advent of new memory architecture, with high-bandwidth and/or
+non-volatile memories cause the memory management subsytem
+complexity to increase.
+Indeed, besides taking care of allocating data buffers locally,
+developers also have to choose between different local memories
+with different performance and persistence characteristics.
+Moreover, the operating systems still cannot expose the full
+details about these technologies to applications.
+We modified the <span class="smallcap" align="left">hwloc</span> tool to cope with these new needs in
+collaboration with Intel.
+This work led to the design a new structural model for platforms
+with heteregeneous memories <ref xlink:href="#tadaam-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>Scalable Management of Platform
+Topologies</bodyTitle>
+      <p><span class="smallcap" align="left">hwloc</span> (see Section <ref xlink:href="#uid56" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+is used for gathering the topology of thousands of nodes in large clusters.
+Those nodes are now growing to hundreds of cores, making the
+overall amount of topology information non-negligible.
+We designed new ways to compress topologies, either lossless or
+lossy, for easier transfer between compute nodes and front nodes
+and more compact storage and
+manipulation <ref xlink:href="#tadaam-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We also studied the overhead of topology discovery on the overall
+execution time and showed that the Linux kernel is bottleneck on
+large nodes.
+It raised the need to use exported and/or abstracted topologies to
+factorize this overhead <ref xlink:href="#tadaam-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>MPI One-side operations</bodyTitle>
+      <p>MPI one-sided operations, aka Remote Memory Access (RMA), are
+direct read/write memory access to a remote node. Only one node
+(the origin) explicitely calls MPI operations, while communication
+progression is implicit for the other node (the target). These
+operations assume that the communication library is able to make
+communication progress in background.</p>
+      <p>Since MadMPI, the MPI implementation of NewMadeleine (see
+Section <ref xlink:href="#uid30" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), extensively
+uses event-driven mechanism to reach asynchronous progression, we
+have <ref xlink:href="#tadaam-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> taken advantage of this property to
+implement MPI RMA operations in the library. This implementation
+keeps the overlap properties by asynchronously handle the messages
+exchanged by the applications. The addition also supports
+MPI_THREAD_MULTIPLE, for both shared and distributed memory
+contexts.
+</p>
+    </subsection>
+    <subsection id="uid70" level="1">
+      <bodyTitle>Topology and affinity aware hierarchical and distributed load-balancing</bodyTitle>
+      <p>The evolution of massively parallel supercomputers make palpable two issues in
+particular: the load imbalance and the poor management of data locality in
+applications. Thus, with the increase of the number of cores and the drastic
+decrease of amount of memory per core, the large performance needs imply to
+particularly take care of the load-balancing and as much as possible of the
+locality of data. One mean to take into account this locality issue relies on
+the placement of the processing entities and load balancing techniques are
+relevant in order to improve application performance. With large-scale
+platforms in mind, we developed a hierarchical and distributed algorithm which
+aim is to perform a topology-aware load balancing tailored for Charm++
+applications. This algorithm is based on both LibTopoMap for the network
+awareness aspects and on Treematch to determine a relevant placement of the
+processing entities. We show that the proposed algorithm improves the overall
+execution time in both the cases of real applications and a synthetic benchmark
+as well. For this last experiment, we show a scalability up to one millions
+processing entities <ref xlink:href="#tadaam-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid71" level="1">
+      <bodyTitle>Topology-Aware Data Aggregation for Intensive I/O on Large-Scale Supercomputers</bodyTitle>
+      <p>Reading and writing data efficiently from storage systems is critical for high
+performance data-centric applications. These I/O systems are being
+increasingly characterized by complex topologies and deeper memory
+hierarchies. Effective parallel I/O solutions are needed to scale
+applications on current and future supercomputers. Data aggregation is an
+efficient approach consisting of electing some processes in charge of
+aggregating data from a set of neighbors and writing the aggregated data into
+storage. Thus, the bandwidth use can be optimized while the contention is
+reduced. In <ref xlink:href="#tadaam-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we have taken into account the network topology for mapping
+aggregators and we propose an optimized buffering system in order to reduce
+the aggregation cost. We have validated our approach using micro-benchmarks and the
+I/O kernel of a large-scale cosmology simulation. We have showed improvements up to
+15× faster for I/O operations compared to a standard implementation of MPI
+I/O.
+</p>
+    </subsection>
+    <subsection id="uid72" level="1">
+      <bodyTitle>Communication monitoring in OpenMPI</bodyTitle>
+      <p>Monitoring data exchanges is critical when it comes to optimize process
+placement in a large scale environment. We participated in adding in
+Open-MPI, which is one of the major MPI implementation, a fine grain,
+point-to-point monitoring component that keeps track of message
+exchanges. Unlike implementations using PMPI operations, the layer in which
+this monitoring acts allow us to record at a lower level the effective data
+communications, for example, after the covering tree has been calculated.
+This component has been enriched with a complete coverage of collectives,
+point-to-point and one-sided communications. This component also reports
+informations about message sizes distribution. Monitored informations can be
+accessed by using MPI_Tools interface, or by dumping data in files.
+</p>
+    </subsection>
+    <subsection id="uid73" level="1">
+      <bodyTitle>Process Placement with TreeMatch</bodyTitle>
+      <p>We released TreeMatch ver 0.4 in August. The new feature are: a new API, the
+handling oversubscribing (being able to map more processes that computing
+resources), fast exhaustive search (for small cases), K-partitioning in case of
+large arity of the tree, and a set of extensive tests.
+</p>
+    </subsection>
+    <subsection id="uid74" level="1">
+      <bodyTitle>Topology Aware Resource Management</bodyTitle>
+      <p>SLURM is a Resource and Job Management System, a middleware in
+charge of delivering computing power to applications in HPC systems.
+Our goal is to take in account in SLURM placement process hardware
+topology but application communication pattern too. We have a new <ref xlink:href="#tadaam-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#tadaam-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+selection option for the cons_res plugin in SLURM. In this case the
+usually best_fit algorithm used to choose nodes is replaced by
+TreeMatch, an algorithm to find the best placement among the free
+nodes list in light of a given application communication matrix. We
+plan to release this work in the next release SLURM 17.02.</p>
+      <p>Fragmentation in cluster is one of the criteria important for
+administrator. Indeed, the way jobs are allocated impacts the global
+resource usage. Usually it is observed throught utilization of a
+cluster for a fixed load rate, but no metrics dedicated to
+fragmentation exist in litterature. Hence we construct several
+metrics to measure it. Our goal is to study the impact of our
+selection algorithm on fragmentation in comparison with other.</p>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>Impact of progress threads placement for MPI Non-Blocking Collectives</bodyTitle>
+      <p>MPI Non-Blocking Collectives (NBC) allow communication overlap with
+computation. A good overlapping ratio is obtained when computation
+and communication are running in parallel. To achieve this, some
+implementations use progress threads to manage communication
+tasks. These threads should be bound on different cores to maximize
+the overlap. Thus, we elaborate several threads placement
+algorithms. These algorithms have been implemented within the MPC
+framework, using the <span class="smallcap" align="left">hwloc</span> software to get a global view of the
+machine topology. We propose <ref xlink:href="#tadaam-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> a thread
+placement algorithm taking into account the NUMA topology of the
+machine in order to improve the overlapping ratio of non-blocking
+collective communications.</p>
+    </subsection>
+    <subsection id="uid76" level="1">
+      <bodyTitle>Hierarchical Communication Management in MPI</bodyTitle>
+      <p>MPI, in its current state provides only a very limited set of
+functionnalities so as to allow the programmer to effectively leverage
+the physical characteristics of the underlying hardaware, such as the
+potentially complex memory hierarchy. The MPI philosophy being to be
+a hardware-agnostic interface, the challenge is therefore to propose
+an interface extension that offers the programmer significant control
+over the hardawre without dwelving too much into hardware details.
+We seek the right level of abstraction for this interface and the goal
+is push this proposal to the MPI Forum. This new interface is based
+on the concept of communicators, expands an already existing function
+available in the standard and also introduces a couple of helper
+functions. We have prototyped and drafted our proposal for the 2017
+meetings of the forum.</p>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Fully-abstracted approach for efficient thread binding in task-based model of programming</bodyTitle>
+      <p>Task-based models and runtimes are quite popular in the HPC
+community. They help to implement applications with a high level of
+abstraction while still applying different types of optimizations.
+An important optimization target is hardware affinity, which
+concerns to match application behavior (thread, communication, data)
+to the architecture topology (cores, caches, memory). In fact,
+realizing a well adapted placement of threads is a key to achieve
+performance and scalability, especially on NUMA-SMP
+machines. However, this type of optimization is difficult:
+architectures become increasingly complex and application behavior
+changes with implementations and input parameters, <i>e.g</i>
+problem size and number of thread. Thus, by themselves task based
+runtimes often deal badly with this optimization and leave a lot of
+fine-tuning to the user. In this
+work <ref xlink:href="#tadaam-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#tadaam-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#tadaam-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+we propose a fully automatic,
+abstracted and portable affinity module. It produces and implements
+an optimized affinity strategy that combines knowledge about
+application characteristics and the architecture's
+topology. Implemented in the backend of our task-based runtime ORWL,
+our approach was used to enhance the performance and the scalability
+of several unmodified ORWL-coded applications: matrix
+multiplication, a 2D stencil (Livermore Kernel 23), and a video
+tracking real world application. On two SGI SMP machines with quite
+different hardware characteristics, our tests show spectacular
+performance improvements for this unmodified application code due to
+a dramatic decrease of cache misses. A comparison to reference
+implementations using OpenMP confirms this performance gain of
+almost one order of magnitude.
+</p>
+    </subsection>
+    <subsection id="uid78" level="1">
+      <bodyTitle>Multi-criteria graph partitioning for
+multi-physics simulations load balancing</bodyTitle>
+      <p>A new set of algorithms has been designed to compute multi-criteria
+static mappings for the load balancing of multi-phisics simulations.
+The multi-criteria graph partitioning is known to be NP-hard, and
+there exist very few multi-criteria graph partitioners. Moreover,
+they focus on the edge-cut minimization instead of enforcing
+load balance. In practice, this strategy often leads to very
+unbalanced partitions, which are not useful for multi-physics
+simulations.</p>
+      <p>We have designed algorithms that focus on balancing several criteria
+at the same time to ensure that our results always match all balance
+criteria. We have implemented a prototype in Python to test these
+different heuristics. One of them, called PIERE, obtained good
+results <ref xlink:href="#tadaam-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, in term of balance as well as
+communication costs. PIERE uses the classic multilevel framework,
+but implements a new initial partitioning algorithm, which allows to
+find a balanced partition of the graph. The partition is then
+refined by local optimization heuristics that ensure the balance is
+kept for all criteria. This allow us to return a partition
+respecting the balance constraints. In <ref xlink:href="#tadaam-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+compare against well-known partitioners that are <span class="smallcap" align="left">Scotch</span> and <span class="smallcap" align="left">METIS</span>,
+and highlight that, for a small mesh, the results exhibit a high
+discrepancy: each tool lacks of robustness.</p>
+      <p>PIERE outperformed the existing software <span class="smallcap" align="left">METIS</span> in our test cases,
+but there is room for improvement. We also verified the superiority
+of the hypergraph model over the graph model used by most
+partitioners. Meanwhile, we studied the source code of well known
+partitioners, namely <span class="smallcap" align="left">METIS</span> and <span class="smallcap" align="left">Scotch</span>, and we have identified a
+lot of algorithmic choices and internal parameters that are not
+described in their documentations. Carefully analyzing them helps us
+to clearly understand the differences of the different algorithms.
+</p>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>Scotch</bodyTitle>
+      <p>In order to prepare for the inclusion of multi-criteria graph
+partitioning algorithms in <span class="smallcap" align="left">Scotch</span>, in the context of the PhD thesis
+of Rémi Barat, a new branch has been created in the <span class="smallcap" align="left">Scotch</span> repository. This new branch, labeled as <span class="smallcap" align="left">6.1</span>, is the basis
+for the next main release of <span class="smallcap" align="left">Scotch</span>. The sequential graph
+structure has been adapted to handle graphs with multiple loads per
+vertex, and all the related algorithms have been adapted to take
+into account multiple vertex loads. This resulted in minimal updates
+in the interface of Scotch, with ful ascending compatibility. All of
+these modifications have been performed so as not to slow down
+significantly the algorithms in the most common case of graphs with
+single vertex loads.
+</p>
+    </subsection>
+    <subsection id="uid80" level="1">
+      <bodyTitle>PaMPA</bodyTitle>
+      <p>Parallel remeshing has been improved. PaMPA coupled with Mmg (v5)
+remeshed a tetrahedral mesh from 43Melements to more than 1Belements
+on 280 Broadwell processors in 20 minutes. The resulted mesh, used
+by CERFACS, permitted one of the most finest simulation computed
+with LES (Large Eddy Simulation) on combustion.</p>
+      <p>The scalability of <span class="smallcap" align="left">PT-Scotch</span> scalability has been tested on the
+Curie cluster and compared to that of <span class="smallcap" align="left">ParMETIS</span>. These tests used
+DARI resources.
+</p>
+    </subsection>
+    <subsection id="uid81" level="1">
+      <bodyTitle>Originality of software works</bodyTitle>
+      <p>Most judges have very little, if not none, knowledge on software
+developement. This results in misconceptions and mistakes regarding
+the application of copyright/author right (<i>droit d'auteur</i>)
+in court cases related to software. More generally, the concept of
+originality is misunderstood. While this criterion is meant in
+theory to separate works of the mind that are personal to an author
+(e.g., literary works), from creations of form that cannot, by
+nature, reflect the personality of their creator (e.g. mathematical
+tables), it is often used to qualify the degree of similarity
+between two different works, in the context of plagiarism. Also, the
+distinction between the realm of programs, that is, works of the
+mind, and that of algorithms, is not mastered. Algorithms belong to
+the <i>fonds commun</i>, a French term that has no equivalent in
+English and might be translated as “common pool”.
+In order to help judges and lawmakers in understanding these
+notions, and articulate them, we have proposed a methodology for
+ruling software disputes. This methodology is solely based on the
+study of similarities in software code, since author right
+exclusively pertains to the level of the
+form <ref xlink:href="#tadaam-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid82">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid83" level="1">
+      <bodyTitle>Bilateral Contract with CEA</bodyTitle>
+      <p>CEA is granting the PhD thesis of Hugo Taboada on specialized thread
+management in the context of multi programming models, and the PhD
+thesis of Rémi Barat on multi-criteria graph partitioning.
+</p>
+    </subsection>
+    <subsection id="uid84" level="1">
+      <bodyTitle>Bilateral Grant with Bull/Atos</bodyTitle>
+      <p>Bull/ATOS is granting the CIFRE PhD thesis on Nicolas Denoyelle on
+advanced memory hierarchies and new topologies.
+</p>
+    </subsection>
+    <subsection id="uid85" level="1">
+      <bodyTitle>Bilateral Grant with Onera</bodyTitle>
+      <p>Onera is granting the PhD thesis of Raphaël Blanchard on
+the parallelization and data distribution of discontinuous Galerkin
+methods for complex flow simulations.
+</p>
+    </subsection>
+    <subsection id="uid86" level="1">
+      <bodyTitle>Bilateral Grant with EDF</bodyTitle>
+      <p>EDF is granting the CIFRE PhD thesis of Benjamin Lorendeau on new
+programming models and optimization of Code Saturn.
+</p>
+    </subsection>
+    <subsection id="uid87" level="1">
+      <bodyTitle>Bilateral Grant with Intel</bodyTitle>
+      <p>Intel is granting $30k and providing information about future many-core
+platforms and memory architectures to ease the design and development
+of the <span class="smallcap" align="left">hwloc</span> software with early support for next generation hardware.
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid88">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid89" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid90" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p><i>ANR MOEBUS</i> Scheduling in HPC
+(<ref xlink:href="http://moebus.gforge.inria.fr/doku.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>moebus.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>doku.<allowbreak/>php</ref>).</p>
+        <sanspuceslist>
+          <li id="uid91">
+            <p noindent="true">ANR INFRA 2013, 10/2013 - 9/2017 (48 months)</p>
+          </li>
+          <li id="uid92">
+            <p noindent="true">Coordinator: Denis Trystram (Inria Rhône-Alpes)</p>
+          </li>
+          <li id="uid93">
+            <p noindent="true">Other partners: Inria Bordeaux Sud-Ouest, Bull/ATOS</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">Abstract: This project focuses on the efficient execution of parallel
+applications submitted by various users and sharing resources in large-scale
+high-performance computing environments</p>
+          </li>
+        </sanspuceslist>
+        <p><i>ANR SATAS</i> SAT as a Service.</p>
+        <sanspuceslist>
+          <li id="uid95">
+            <p noindent="true">AP générique 2015, 01/2016 - 12-2019 (48 months)</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">Coordinator: Laurent Simon (LaBRI)</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Other partners: CRIL (Univ. Artois), Inria Lille (Spirals)</p>
+          </li>
+          <li id="uid98">
+            <p noindent="true">Abstract:
+The SATAS project aims to advance the state of the art in massively
+parallel SAT solving. The final goal of the project is to provide a
+“pay as you go” interface to SAT solving services and will extend
+the reach of SAT solving technologies, daily used in many critical and
+industrial applications, to new application areas, which were
+previously considered too hard, and lower the cost of deploying
+massively parallel SAT solvers on the cloud.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid99" level="2">
+        <bodyTitle>IPL - Inria Project Lab</bodyTitle>
+        <p>MULTICORE - Large scale multicore virtualization for performance scaling and
+portability</p>
+        <sanspuceslist>
+          <li id="uid100">
+            <p noindent="true"><b>Participants:</b> Emmanuel Jeannot and Farouk Mansouri.</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Multicore processors are becoming the norm in most computing systems. However supporting them in an efficient way is still a scientific challenge. This large-scale initiative introduces a novel approach based on virtualization and dynamicity, in order to mask hardware heterogeneity, and to let performance scale with the number and nature of cores. It aims to build collaborative virtualization mechanisms that achieve essential tasks related to parallel execution and data management. We want to unify the analysis and transformation processes of programs and accompanying data into one unique virtual machine. We hope delivering a solution for compute-intensive applications running on general-purpose standard computers.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid102" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid103" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <p>COLOC: the Concurrency and Locality Challenge (<ref xlink:href="http://www.coloc-itea.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>coloc-itea.<allowbreak/>org</ref>).</p>
+        <sanspuceslist>
+          <li id="uid104">
+            <p noindent="true">Program: ITEA2</p>
+          </li>
+          <li id="uid105">
+            <p noindent="true">Project acronym: COLOC</p>
+          </li>
+          <li id="uid106">
+            <p noindent="true">Project title: The Concurrency and Locality Challenge</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">Duration: November 2014 - November 2017</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Coordinator: BULL/ATOS</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">Other partners: BULL/ATOS (France); Dassault Aviation (France) ;
+Enfeild AB (Sweden); Scilab entreprise (France); Teratec (France);
+Inria (France); Swedish Defebnse Research Agency - FOI (France); UVSQ
+(France).</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">Abstract: The COLOC project aims at providing new models,
+mechanisms and tools for improving applications performance and
+supercomputer resources usage taking into account data locality and
+concurrency.</p>
+          </li>
+        </sanspuceslist>
+        <p>NESUS: Network for Ultrascale Computing (<ref xlink:href="http://www.nesus.eu" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>nesus.<allowbreak/>eu</ref>)</p>
+        <sanspuceslist>
+          <li id="uid111">
+            <p noindent="true">Program: COST</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Project acronym: NESUS</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">Project title: Network for Ultrascale Computing</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Duration: April 2014 - April 2018</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Coordinator: University Carlos III de Madrid</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Other partners: more than 35 countries</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Abstract: Ultrascale systems are envisioned as large-scale complex
+systems joining parallel and distributed computing systems that will
+be two to three orders of magnitude larger that today’s systems. The
+EU is already funding large scale computing systems research, but it
+is not coordinated across researchers, leading to duplications and
+inefficiencies. The goal of the NESUS Action is to establish an open
+European research network targeting sustainable solutions for
+ultrascale computing aiming at cross fertilization among HPC, large
+scale distributed systems, and big data management. The network will
+contribute to glue disparate researchers working across different
+areas and provide a meeting ground for researchers in these separate
+areas to exchange ideas, to identify synergies, and to pursue common
+activities in research topics such as sustainable software solutions
+(applications and system software stack), data management, energy
+efficiency, and resilience. Some of the most active research groups of
+the world in this area are members of this proposal. This Action will
+increase the value of these groups at the European-level by reducing
+duplication of efforts and providing a more holistic view to all
+researchers, it will promote the leadership of Europe, and it will
+increase their impact on science, economy, and society.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid118" level="2">
+        <bodyTitle>Collaborations with Major European Organizations</bodyTitle>
+        <sanspuceslist>
+          <li id="uid119">
+            <p noindent="true">Partner 1: INESC-ID, Lisbon, (Portugal)</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Subject 1: Application modeling for for hierarchical memory system</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid121">
+            <p noindent="true">Partner 2: Argonne National Lab</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Subject 2: Topology-aware data aggregation for I/O intensive application</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid123">
+            <p noindent="true">Partner 3: BSC, Barcelona (Spain)</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Subject 3: High-performance communication on new
+architectures; load-balancing and meshing: improve the
+distribution of data accross the processors for a flow and
+particle simulation in the human nasal cavity.</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid125">
+            <p noindent="true">Partner 4: University of Liege (Belgium), Université Catholique
+de Louvain (Belgium), Weierstrass Institute for Applied
+Analysis and Stochastics (WIAS) (Germany)</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">Subject 4: Coupling sequential remeshers with PaMPA
+began in 2016. The work <ref xlink:href="#tadaam-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is in
+progress and it concerns Tetgen developped by Hang Si, and
+Gmsh by Christophe Geuzaine and Jean-François Remacle.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid127" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid128" level="2">
+        <bodyTitle>Inria International Labs</bodyTitle>
+        <p>Joint-Lab on Extreme Scale Computing (JLESC):</p>
+        <sanspuceslist>
+          <li id="uid129">
+            <p noindent="true">Coordinators: Franck Cappello and Marc Snir.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">Other partners: Argonne National Lab, University of Urbanna Champaign, Tokyo Riken, Jülich Supercomputing Center, Barcelona Supercomputing Center.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">Abstract: The Joint Laboratory is based at Illinois and includes researchers from Inria, and the National Center for Supercomputing Applications, ANL, Riken, Jülich, and BSC. It focuses on software challenges found in extreme scale high-performance computers.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid132" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid133" level="3">
+          <bodyTitle>Declared Inria International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid134">
+              <p noindent="true">Partner 1: AMD Research</p>
+            </li>
+            <li id="uid135">
+              <p noindent="true">Subject 1: Managing locality in the Heterogeneous
+System Architecture.</p>
+            </li>
+            <li id="uid136">
+              <p noindent="true">AMD provided hardware and details about its future architectures and
+programming models (HSA) to improve locality support for its products
+in the <span class="smallcap" align="left">hwloc</span> software.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid137" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid138">
+              <p noindent="true">Partner 1: ICL at University of Tennessee</p>
+            </li>
+            <li id="uid139">
+              <p noindent="true">Subject 1: on instrumenting MPI applications and modeling platforms (works on HWLOC take place in the context of the OPEN MPI consortium) and MPI and process placement</p>
+            </li>
+          </sanspuceslist>
+          <sanspuceslist>
+            <li id="uid140">
+              <p noindent="true">Partner 2: Cisco Systems</p>
+            </li>
+            <li id="uid141">
+              <p noindent="true">Subject 2: network topologies and platform models</p>
+            </li>
+          </sanspuceslist>
+          <sanspuceslist>
+            <li id="uid142">
+              <p noindent="true">Partner 3: University of Tokyo and RIKEN</p>
+            </li>
+            <li id="uid143">
+              <p noindent="true">Subject 3: Adaptation of MPI and runtime systems to
+lightweight kernels used on clusters of manycores.
+This action has been submitted as a JLESC project proposal,
+currently beeing evaluated.</p>
+            </li>
+          </sanspuceslist>
+          <sanspuceslist>
+            <li id="uid144">
+              <p noindent="true">Partner 4: Lawrence Livermore National Laboratory</p>
+            </li>
+            <li id="uid145">
+              <p noindent="true">Subject 4: Testing of the mapping features of <span class="smallcap" align="left">Scotch</span> on
+very large process graphs (more than two billion
+vertices) and very large target architectures (more than
+200,000 parts).</p>
+            </li>
+          </sanspuceslist>
+          <sanspuceslist>
+            <li id="uid146">
+              <p noindent="true">Partner 5: Sandia National Lab</p>
+            </li>
+            <li id="uid147">
+              <p noindent="true">Subject 5: Topology-aware management and allocation of
+computing resources in runtime systems.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid148" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid149" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid150">
+            <p noindent="true">Balazs Gerofi from RIKEN visited us to present his work on
+micro-kernels for HPC. His visit led to a project proposal for
+JLESC.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">Jose-Luiz Garcìa Zapata, stayed for three months in
+the team to work on spectral partitioning and mapping. He
+implemented a spectral bipartitioning method in <span class="smallcap" align="left">Scotch</span>.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid152">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid153" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid154" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid155" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <p>Guillaume <span class="smallcap" align="left">Aupy</span> was the Technical Program vice-chair of SC'17.</p>
+        </subsection>
+        <subsection id="uid156" level="3">
+          <bodyTitle>Member of the steering committee</bodyTitle>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> is member of the steering committee of
+Euro-Par and the Cluster international conference.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid157" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid158" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <p>Guillaume <span class="smallcap" align="left">Aupy</span> was the co-chair of the Parallel and Distributed
+Algorithms track of ICA3PP'17.</p>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was the Program chair of the Heterogeneity in
+Computing Workshop (HCW'17).</p>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was the Program chair of the track parallelism of
+COMPAS 2016.</p>
+        </subsection>
+        <subsection id="uid159" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Alexandre <span class="smallcap" align="left">Denis</span> was a member of the program committee of
+Compas'16 and CCGrid 2017.</p>
+          <p>Brice <span class="smallcap" align="left">Goglin</span> was a member of the program committee of
+CCGrid 2016, Cluster 2016, EuroMPI 2017, HotInterconnect 24 and of the Exacomm workshop.</p>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was a member of the program committee of IPDPS
+2017, CCGRID 2017,</p>
+          <p>Guillaume <span class="smallcap" align="left">Mercier</span> was a member of the program committee of
+EuroMPI 2016 and EuroMPI 2017.</p>
+        </subsection>
+        <subsection id="uid160" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>Cyril <span class="smallcap" align="left">Bordage</span> was reviewer for Cluster 2016.</p>
+          <p>Alexandre <span class="smallcap" align="left">Denis</span> was a reviewer for Cluster 2016.</p>
+          <p>Brice <span class="smallcap" align="left">Goglin</span> was a reviewer for IEEE Micro.</p>
+          <p>Farouk <span class="smallcap" align="left">Mansouri</span> was a reviewer for Cluster 2016.</p>
+          <p>Guillaume <span class="smallcap" align="left">Mercier</span> was a reviewer for IPDPS 2017.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid161" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid162" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> is associate editor of the International Journal
+of Parallel, Emergent &amp; Distibuted Systems (IJPEDS).</p>
+          <p>Guillaume <span class="smallcap" align="left">Mercier</span> is editor of the EuroMPI 2016 Special issue of
+the Journal of High Performance Computing Applications (IJHPCA).</p>
+        </subsection>
+        <subsection id="uid163" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>Guillaume <span class="smallcap" align="left">Aupy</span> was a reviewer for EURASIP Journal of Embedded Systems, Cluster Computing and Transactions on Parallel and Distributed Systems (TPDS).</p>
+          <p>Alexandre <span class="smallcap" align="left">Denis</span> was a reviewer for the Journal of Parallel and Distributed Computing (JPDC).</p>
+          <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was reviewer of IEEE TPDS.</p>
+          <p>Guillaume <span class="smallcap" align="left">Mercier</span> was a reviewer for the EuroMPI 2016 Special Issue of the Parallel Computing journal.</p>
+          <p>François <span class="smallcap" align="left">Pellegrini</span> was a reviewer for SIAM Journal on
+Scientific Computing (SISC).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid164" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Brice <span class="smallcap" align="left">Goglin</span> gave a talk about managing hardware locality
+in HPC during an AMD Tech Talk at AMD Research (Austin, TX).</p>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> gave a talk about topology-aware data management
+at the Workshop on Clusters, Clouds, and Data for Scientific Computing (CCDSC 2016).</p>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> gave a talk about metrics and models for process
+placement at the Third Workshop on Programming Abstractions for Data Locality (PADAL'16).</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a keynote speech on freedom
+in the digital age, during the annual congress of <i>Société
+informatique de France</i>, Strasbourg.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> gave a talk on software law at
+Université de Nice Sophia-Antipolis.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> participated in a round-table on
+<i>Big data, compliance and personal data</i> during the JInov
+meeting, Paris.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> gave a talk on <i>Free
+software, a tool for sustainable development in countries of the
+Souths</i> law at the <i>Colloque international sur le logiciel
+libre dans les pays du Sud</i>, organized by Université Moulay Ismaïl
+&amp; École nationale supérieure d'arts et métiers de Meknès.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a talk on freedom
+in the digital age, during the Defense Security Cyber summer
+school organized by Université de Bordeaux.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a talk on freedom and
+the ethics of informatics during the summer school for young
+researchers on the ethics of informatics, organized by CERNA and
+Allistene in Arcachon.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> participated in a round-table on
+the legal crtieria for software originality in the colloquium on
+protection and infringement of software : the notion of digital
+common pool, organized by AFDIT at Conseil national des barreaux,
+Paris.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a talk on the issues of
+rights on immaterial goods for digital development, during the
+international seminal of training for trainers on internet and
+information systems governance, organised by ITICC with the
+support of Organisation Internationale de la Francophonie and
+ARCEP-BF, in Ouagadougou.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered the opening conference
+on the legal and economic bases the digital economy, for a
+training seminar for Members of the Parliament of Benin on the
+issues of laws on digital matters, organized by Organisation
+Internationale de la Francophonie at Grand-Popo.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> gave a talk on the operational
+solutions to digital security issues, during the 4th NGO forum
+organized by the French embassy in Moscow.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a keynote speech on
+the governance of open and free innovation, at the invitation of
+the French ministry of Foreign affairs, during the workshop on
+open innovation which took place within the French-German
+inter-governmental conference on digital issues, in Berlin.</p>
+        <p>Adèle <span class="smallcap" align="left">Villiermet</span> has been invited to give a talk at the
+summer school of GDR RO.</p>
+      </subsection>
+      <subsection id="uid165" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was member of the hiring committee for an
+assistant professor position in informatics at Université de
+Bordeaux.</p>
+        <p>Brice <span class="smallcap" align="left">Goglin</span> was also a member of the hiring committee for
+Inria Bordeaux - Sud-Ouest research scientists.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> was a member of the hiring committee for
+a full professor position in informatics at Université de Nice
+Sophia-Antipolis (PR27-327). He also reviewed a PR1 promotion file at
+Université de Bordeaux.</p>
+      </subsection>
+      <subsection id="uid166" level="2">
+        <bodyTitle>Standardization Activities</bodyTitle>
+        <p><span class="smallcap" align="left">TADaaM</span> attends the MPI Forum meetings on behalf of Inria
+(where the <span class="smallcap" align="left">MPI</span> standard for communication in parallel applications is developed and maintained).</p>
+        <p>A proposal in currently under early discussion for submission to the forum <ref xlink:href="#uid76" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid167" level="2">
+        <bodyTitle>Tutorials</bodyTitle>
+        <p>Brice <span class="smallcap" align="left">Goglin</span> gave a tutorial about managing hardware
+affinities on hierarchical platforms with <span class="smallcap" align="left">hwloc</span> during a PRACE
+Advanced Training Center session.</p>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> gave a “hands-on” tutorial on <span class="smallcap" align="left">Scotch</span> during a meeting of the European projet COLOC.</p>
+      </subsection>
+      <subsection id="uid168" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> is member of the scientific committee of the Labex
+IRMIA (Université de Strasbourg).</p>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> is the head of the young researcher commission of
+Inria Bordeaux Sud-Ouest in charge of supervising the hiring of the PhDs and
+post-doc of the center.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid169" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid170" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>Members of the <span class="smallcap" align="left">TADaaM</span> project gave hundreds of hours of teaching at
+Université de Bordeaux and the Bordeaux INP engineering school,
+covering a wide range of topics from basic use of computers and C programming
+to advanced topics such as computer architecture, operating systems,
+parallel programming and high-performance runtime systems, as well as
+software law.</p>
+      </subsection>
+      <subsection id="uid171" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid172">
+            <p noindent="true">PhD in progress: Remi Barat, multi-criteria graph
+partitioning, started in 2014. Advisor: François Pellegrini.</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">PhD in progress: Raphaël Blanchard, parallelization
+and data distribution of discontinuous Galerkin methods for complex
+flow simulations, started in 2013. Advisor: François Pellegrini.</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">PhD in progress: Nicolas Denoyelle, advanced memory hierarchies
+and new topologies, started in 2015. Advisor: Brice Goglin and Emmanuel Jeannot.</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">PhD in progress: Benjamin Lorendeau, new programming models and
+optimization of Code Saturn, started in 2015. Advisor: Yvan Fournier and Emmanuel Jeannot.</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">PhD in progress: Hugo Taboada, communication progression in
+runtime systems, started in 2015. Advisor: Alexandre Denis and Emmanuel Jeannot.</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">PhD in progress: Adèle Villiermet, topology-aware resource
+management, started in 2014. Advisor: Emmanuel Jeannot and
+Guillaume Mercier.</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">PhD stopped: Romain Prou, communication management based on
+remote memory access, student resigned in october 2016. Advisor:
+Alexandre Denis and Emmanuel Jeannot.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid179" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Brice <span class="smallcap" align="left">Goglin</span> was member of the PhD defense committee of:</p>
+        <simplelist>
+          <li id="uid180">
+            <p noindent="true">Mohamed Lamine Karaoui (Université Pierre et Marie Curie, Reviewer).</p>
+          </li>
+        </simplelist>
+        <p>Emmanuel <span class="smallcap" align="left">Jeannot</span> was member of the PhD defense committee of:</p>
+        <simplelist>
+          <li id="uid181">
+            <p noindent="true">Loïc Thiébault (Université de Versailles Saint-Quentin, Reviewer).</p>
+          </li>
+        </simplelist>
+        <p>François <span class="smallcap" align="left">Pellegrini</span> was member of the PhD defense committee of:</p>
+        <simplelist>
+          <li id="uid182">
+            <p noindent="true">Karl-Eduard Berger (Université de Versailles Saint-Quentin);</p>
+          </li>
+          <li id="uid183">
+            <p noindent="true">Alessandro Fanfarillo (Università degli Studi di Roma Tor
+Vergata, Reviewer);</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">Thomas Hume, Université de Bordeaux;</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">Sébastien Morais (Université Évry Val d'Essonne, Reviewer).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid186" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Brice <span class="smallcap" align="left">Goglin</span> is in charge of the diffusion of the scientific culture
+for the Inria Research Center of Bordeaux.
+He organized several popularization activities in the center.
+He also gave several talks about computer architecture, high performance
+computing, and research careers to general public audience, school
+students, teachers, or even to non-expert Inria colleagues.</p>
+      <p>Brice <span class="smallcap" align="left">Goglin</span> was involved in the design of the section about
+fondamentals of computer science in the 2017 massive open online course
+that will help teachers of the new ICN section in schools
+(<i>Informatique et Création Numérique</i>).
+It was filmed for 10 video sequences (about an hour in total).</p>
+      <p>François <span class="smallcap" align="left">Pellegrini</span> was filmed during a 3-hour conference
+on author's rights, in the context of the MAPI'Days, to serve as an
+on-line training for personnel and students of Université de Bordeaux
+(<ref xlink:href="https://fad.u-bordeaux.fr/course/view.php?id=740" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>fad.<allowbreak/>u-bordeaux.<allowbreak/>fr/<allowbreak/>course/<allowbreak/>view.<allowbreak/>php?id=740</ref>).</p>
+      <p>François <span class="smallcap" align="left">Pellegrini</span> is the author of an opinion piece
+on digital sovereignty in newspaper Le Monde
+(<ref xlink:href="http://www.lemonde.fr/idees/article/2016/06/24/la-souverainete-numerique-passe-par-le-logiciel-libre_4957781_3232.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lemonde.<allowbreak/>fr/<allowbreak/>idees/<allowbreak/>article/<allowbreak/>2016/<allowbreak/>06/<allowbreak/>24/<allowbreak/>la-souverainete-numerique-passe-par-le-logiciel-libre_4957781_3232.<allowbreak/>html</ref>).</p>
+      <p>François <span class="smallcap" align="left">Pellegrini</span> is the co-author of a booklet on
+free/libre software licenses edited by Pôle Systematic Paris Région &amp;
+Pôle Aquinetic, which is now in its second edition (<ref xlink:href="http://systematic-paris-region.org/sites/default/files/content/page/attachments/LivretBleu_Juridique_GT-LogicielLibre_Systematic_Mai2016_web.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>systematic-paris-region.<allowbreak/>org/<allowbreak/>sites/<allowbreak/>default/<allowbreak/>files/<allowbreak/>content/<allowbreak/>page/<allowbreak/>attachments/<allowbreak/>LivretBleu_Juridique_GT-LogicielLibre_Systematic_Mai2016_web.<allowbreak/>pdf</ref>).</p>
+      <p>In the context of the decree authorizing the TES (<i>Titres
+Électroniques Sécurisés</i>) file, François <span class="smallcap" align="left">Pellegrini</span>
+published a set of three blog posts (starting with
+<ref xlink:href="http://www.pellegrini.cc/2016/11/la-biometrie-des-honnetes-gens/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>pellegrini.<allowbreak/>cc/<allowbreak/>2016/<allowbreak/>11/<allowbreak/>la-biometrie-des-honnetes-gens/</ref>),
+which have been cited and linked by several French newspapers
+(Libération, Mediapart, NextInpact). He also participated in a debate
+on the same subject, organised by the Ligue des droits de l'Homme de
+Gironde (<ref xlink:href="http://ldh-gironde.org/jeudi-15-decembre-2016-a-18h30-rencontre-debat-autour-du-mega-fichier-tes/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>ldh-gironde.<allowbreak/>org/<allowbreak/>jeudi-15-decembre-2016-a-18h30-rencontre-debat-autour-du-mega-fichier-tes/</ref>).</p>
+      <p>François <span class="smallcap" align="left">Pellegrini</span> delivered a talk on <i>Freedom
+and the ethics of informatics</i> during a seminar on
+<i>Technologies, ethics and cognition</i> organized by the bouddhist
+group Dhagpo Bordeaux, in partnership with Cap Sciences and Université
+de Bordeaux
+(<ref xlink:href="http://www.dhagpo-bordeaux.org/seminaire-technologies-ethique-cognition/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>dhagpo-bordeaux.<allowbreak/>org/<allowbreak/>seminaire-technologies-ethique-cognition/</ref>).</p>
+      <p>François <span class="smallcap" align="left">Pellegrini</span> was filmed, during an interview on
+<i>Innovation and free/libre licenses</i>, for the <i>ULab
+Innov+</i> MOOC.</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="tadaam-2016-bid24" type="article" rend="year" n="cite:canon:hal-01412922">
+      <identifiant type="hal" value="hal-01412922"/>
+      <analytic>
+        <title level="a">Correlation-Aware Heuristics for Evaluating the Distribution of the Longest Path Length of a DAG with Random Weights</title>
+        <author>
+          <persName key="roma-2016-idp158016">
+            <foreName>Louis-Claude</foreName>
+            <surname>Canon</surname>
+            <initial>L.-C.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00746">
+        <idno type="issn">1045-9219</idno>
+        <title level="j">IEEE Transactions on Parallel and Distributed Systems</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01412922" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412922</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid18" type="article" rend="year" n="cite:carretero:hal-01253278">
+      <identifiant type="hal" value="hal-01253278"/>
+      <analytic>
+        <title level="a">HeteroPar 2014, APCIE 2014, and TASUS 2014 Special Issue</title>
+        <author>
+          <persName>
+            <foreName>Jésus</foreName>
+            <surname>Carretero</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Raimondas</foreName>
+            <surname>Čiegis</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="avalon-2014-idp66288">
+            <foreName>Laurent</foreName>
+            <surname>Lefèvre</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Gudula</foreName>
+            <surname>Rünger</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Domenico</foreName>
+            <surname>Talia</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Žilinskas</foreName>
+            <surname>Julius</surname>
+            <initial>Ž.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="no" x-international-audience="yes" id="rid00435">
+        <idno type="issn">1532-0626</idno>
+        <title level="j">Concurrency and Computation: Practice and Experience</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01253278" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01253278</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid23" type="inproceedings" rend="year" n="cite:arras:hal-01234333">
+      <identifiant type="hal" value="hal-01234333"/>
+      <analytic>
+        <title level="a">DKPN: A Composite Dataflow/Kahn Process Networks Execution Model</title>
+        <author>
+          <persName key="runtime-2014-idp98680">
+            <foreName>Paul-Antoine</foreName>
+            <surname>Arras</surname>
+            <initial>P.-A.</initial>
+          </persName>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Fuin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">24th Euromicro International Conference on Parallel, Distributed and Network-based processing</title>
+        <loc>Heraklion Crete, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01234333" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01234333</ref>
+        </imprint>
+        <meeting id="cid64853">
+          <title>Euromicro International Conference on Parallel, Distributed and Network-Based Processing</title>
+          <num>24</num>
+          <abbr type="sigle">PDP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid15" type="inproceedings" rend="year" n="cite:barat:hal-01417532">
+      <identifiant type="hal" value="hal-01417532"/>
+      <analytic>
+        <title level="a">Multi-constraints graph partitioning for load balancing of multi-physics simulations</title>
+        <author>
+          <persName key="tadaam-2015-idp69880">
+            <foreName>Rémi</foreName>
+            <surname>Barat</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Cédric</foreName>
+            <surname>Chevalier</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="bacchus-2014-idp70640">
+            <foreName>François</foreName>
+            <surname>Pellegrini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Conférence d’informatique en Parallélisme, Architecture et Système (COMPAS)</title>
+        <loc>Lorient, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01417532" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01417532</ref>
+        </imprint>
+        <meeting id="cid623688">
+          <title>Conférence d'informatique en Parallélisme, Architecture et Système</title>
+          <num>2014</num>
+          <abbr type="sigle">ComPAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid19" type="inproceedings" rend="year" n="cite:cores:hal-01424263">
+      <identifiant type="hal" value="hal-01424263"/>
+      <analytic>
+        <title level="a">An application-level solution for the dynamic reconfiguration of MPI applications</title>
+        <author>
+          <persName key="tadaam-2015-idp80936">
+            <foreName>Iván</foreName>
+            <surname>Cores</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Patricia</foreName>
+            <surname>González</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel J</foreName>
+            <surname>Jeannot</surname>
+            <initial>E. J.</initial>
+          </persName>
+          <persName key="mc2-2014-idp77128">
+            <foreName>María J</foreName>
+            <surname>Martín</surname>
+            <initial>M. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Gabriel</foreName>
+            <surname>Rodríguez</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">12th International Meeting on High Performance Computing for Computational Science</title>
+        <loc>Porto, Portugal</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01424263" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01424263</ref>
+        </imprint>
+        <meeting id="cid309027">
+          <title>International Meeting on High Performance Computing for Computational Science</title>
+          <num>2016</num>
+          <abbr type="sigle">VECPAR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid0" type="inproceedings" rend="year" n="cite:denis:hal-01324179">
+      <identifiant type="hal" value="hal-01324179"/>
+      <analytic>
+        <title level="a">MPI Overlap: Benchmark and Analysis</title>
+        <author>
+          <persName key="runtime-2014-idp81776">
+            <foreName>Alexandre</foreName>
+            <surname>Denis</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>François</foreName>
+            <surname>Trahay</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Parallel Processing</title>
+        <loc>Philadelphia, United States</loc>
+        <title level="s">45th International Conference on Parallel Processing</title>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01324179" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01324179</ref>
+        </imprint>
+        <meeting id="cid295154">
+          <title>International Conference on Parallel Processing</title>
+          <num>45</num>
+          <abbr type="sigle">ICPP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid1" type="inproceedings" rend="year" n="cite:denoyelle:hal-01343152">
+      <identifiant type="hal" value="hal-01343152"/>
+      <analytic>
+        <title level="a">Moniteurs hiérarchiques de performance, pour gérer l’utilisation des ressources partagées de la topologie</title>
+        <author>
+          <persName key="runtime-2014-idp92408">
+            <foreName>Nicolas</foreName>
+            <surname>Denoyelle</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Compas</title>
+        <loc>Lorient, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01343152" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01343152</ref>
+        </imprint>
+        <meeting id="cid623688">
+          <title>Conférence d'informatique en Parallélisme, Architecture et Système</title>
+          <num>2013</num>
+          <abbr type="sigle">ComPAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid2" type="inproceedings" rend="year" n="cite:denoyelle:hal-01381982">
+      <identifiant type="hal" value="hal-01381982"/>
+      <analytic>
+        <title level="a">Automatic Cache Aware Roofline Model Building and Validation Using Topology Detection</title>
+        <author>
+          <persName key="runtime-2014-idp92408">
+            <foreName>Nicolas</foreName>
+            <surname>Denoyelle</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Aleksandar</foreName>
+            <surname>Ilic</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="runtime-2014-idp83016">
+            <foreName>Brice</foreName>
+            <surname>Goglin</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Leonel</foreName>
+            <surname>Sousa</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">NESUS Third Action Workshop and Sixth Management Committee Meeting</title>
+        <loc>Sofia, Bulgaria</loc>
+        <imprint>
+          <biblScope type="volume">I</biblScope>
+          <publisher>
+            <orgName type="organisation">Jesus Carretero</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01381982" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01381982</ref>
+        </imprint>
+        <meeting id="cid625313">
+          <title>NESUS Third Action Workshop and Sixth Management Committee Meeting</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid9" type="inproceedings" rend="year" n="cite:georgiou:hal-01414196">
+      <identifiant type="doi" value="10.1145/3007748.3007768"/>
+      <identifiant type="hal" value="hal-01414196"/>
+      <analytic>
+        <title level="a">Topology-aware resource management for HPC applications</title>
+        <author>
+          <persName>
+            <foreName>Yiannis</foreName>
+            <surname>Georgiou</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp88616">
+            <foreName>Guillaume</foreName>
+            <surname>Mercier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="runtime-2014-idp134960">
+            <foreName>Adèle</foreName>
+            <surname>Villiermet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICDCN 2017</title>
+        <loc>Hyderabad, India</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01414196" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01414196</ref>
+        </imprint>
+        <meeting id="cid120908">
+          <title>International Conference on Distributed Computing and Networking</title>
+          <num>2017</num>
+          <abbr type="sigle">ICDCN</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid3" type="inproceedings" rend="year" n="cite:goglin:hal-01330194">
+      <identifiant type="doi" value="10.1145/2989081.2989115"/>
+      <identifiant type="hal" value="hal-01330194"/>
+      <analytic>
+        <title level="a">Exposing the Locality of Heterogeneous Memory Architectures to HPC Applications</title>
+        <author>
+          <persName key="runtime-2014-idp83016">
+            <foreName>Brice</foreName>
+            <surname>Goglin</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">1st ACM International Symposium on Memory Systems (MEMSYS16)</title>
+        <loc>Washington, DC, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01330194" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01330194</ref>
+        </imprint>
+        <meeting id="cid625308">
+          <title>ACM International Symposium on Memory Systems</title>
+          <num>1</num>
+          <abbr type="sigle">MEMSYS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid5" type="inproceedings" rend="year" n="cite:goglin:hal-01402755">
+      <identifiant type="hal" value="hal-01402755"/>
+      <analytic>
+        <title level="a">On the Overhead of Topology Discovery for Locality-aware Scheduling in HPC</title>
+        <author>
+          <persName key="runtime-2014-idp83016">
+            <foreName>Brice</foreName>
+            <surname>Goglin</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP2017)</title>
+        <loc>St Petersburg, Russia</loc>
+        <title level="s">Proceedings of the 25th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP2017)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">9</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01402755" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01402755</ref>
+        </imprint>
+        <meeting id="cid64853">
+          <title>Euromicro International Conference on Parallel, Distributed and Network-Based Processing</title>
+          <num>25</num>
+          <abbr type="sigle">PDP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid7" type="inproceedings" rend="year" n="cite:jeannot:hal-01394748">
+      <identifiant type="hal" value="hal-01394748"/>
+      <analytic>
+        <title level="a">Topology and affinity aware hierarchical and distributed load-balancing in Charm++</title>
+        <author>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp88616">
+            <foreName>Guillaume</foreName>
+            <surname>Mercier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="runtime-2014-idp96184">
+            <foreName>François</foreName>
+            <surname>Tessier</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">1st Workshop on Optimization of Communication in HPC runtime systems (IEEE COM-HPC16)</title>
+        <loc>Salt-Lake City, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01394748" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01394748</ref>
+        </imprint>
+        <meeting id="cid625309">
+          <title>Workshop on Optimization of Communication in HPC runtime systems</title>
+          <num>1</num>
+          <abbr type="sigle">IEEE COM-HPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid14" subtype="nonparu-n" type="inproceedings" rend="year" n="cite:mansouri:hal-01325850">
+      <identifiant type="hal" value="hal-01325850"/>
+      <analytic>
+        <title level="a">Le modèle de programmation ORWL pour la parallélisation d'une application de suivi vidéo HD sur architecture multi-coeurs</title>
+        <author>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Conférence d'informatique en Parallélisme, Architecture et Système (COMPAS)</title>
+        <loc>Lorient, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01325850" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01325850</ref>
+        </imprint>
+        <meeting id="cid623688">
+          <title>Conférence d'informatique en Parallélisme, Architecture et Système</title>
+          <num>2014</num>
+          <abbr type="sigle">ComPAS</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">accepted for publication in Compas'16</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid21" type="inproceedings" rend="year" n="cite:pellegrini:hal-01418990">
+      <identifiant type="hal" value="hal-01418990"/>
+      <analytic>
+        <title level="a">L'enjeu du big data pour la gouvernance</title>
+        <author>
+          <persName key="bacchus-2014-idp70640">
+            <foreName>Francois</foreName>
+            <surname>Pellegrini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">Journée d’Etude : Transition numérique et action publique : focus sur la loi pour une République numérique</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Centre d’études et de Recherches de sciences administratives et politiques de l’Université Paris II and Chaire Mutations de l’Action Publique et du Droit Public</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418990" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418990</ref>
+        </imprint>
+        <meeting id="cid625311">
+          <title>Journée d’Etude : Transition numérique et action publique : focus sur la loi pour une République numérique</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid20" type="inproceedings" rend="year" n="cite:pellegrini:hal-01418989">
+      <identifiant type="hal" value="hal-01418989"/>
+      <analytic>
+        <title level="a">La production d'un intérêt général dans la gouvernance polycentrique de l'Internet</title>
+        <author>
+          <persName key="bacchus-2014-idp70640">
+            <foreName>François</foreName>
+            <surname>Pellegrini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">3è Colloque international du Centre de Droit Public Comparé de l'Université Panthéon-Assas Paris-II</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Centre de Droit Public Comparé de l'Université Panthéon-Assas Paris-II</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418989" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418989</ref>
+        </imprint>
+        <meeting id="cid625310">
+          <title>Colloque international du Centre de Droit Public Comparé de l'Université Panthéon-Assas Paris-II</title>
+          <num>3</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid22" type="inproceedings" rend="year" n="cite:pellegrini:hal-01418991">
+      <identifiant type="hal" value="hal-01418991"/>
+      <analytic>
+        <title level="a">Liberté à l'ère numérique</title>
+        <author>
+          <persName key="bacchus-2014-idp70640">
+            <foreName>François</foreName>
+            <surname>Pellegrini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">Les métamorphoses des droits fondamentaux à l'ère du numérique</title>
+        <loc>Bordeaux, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Forum Montesquieu, université de Bordeaux and CERCCLE and CRDEI and Institut Léon Duguit</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418991" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418991</ref>
+        </imprint>
+        <meeting id="cid625312">
+          <title>Les métamorphoses des droits fondamentaux à l'ère du numérique</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid11" type="inproceedings" rend="year" n="cite:taboada:hal-01355140">
+      <identifiant type="hal" value="hal-01355140"/>
+      <analytic>
+        <title level="a">Impact du placement des threads de progression pour les collectives MPI non-bloquantes</title>
+        <author>
+          <persName key="tadaam-2015-idp76000">
+            <foreName>Hugo</foreName>
+            <surname>Taboada</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Compas 2016: conférence d'informatique en Parallélisme, Architecture et Système</title>
+        <loc>Lorient, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01355140" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01355140</ref>
+        </imprint>
+        <meeting id="cid623688">
+          <title>Conférence d'informatique en Parallélisme, Architecture et Système</title>
+          <num>2016</num>
+          <abbr type="sigle">ComPAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid8" type="inproceedings" rend="year" n="cite:tessier:hal-01394741">
+      <identifiant type="hal" value="hal-01394741"/>
+      <analytic>
+        <title level="a">Topology-Aware Data Aggregation for Intensive I/O on Large-Scale Supercomputers</title>
+        <author>
+          <persName key="runtime-2014-idp96184">
+            <foreName>François</foreName>
+            <surname>Tessier</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Preeti</foreName>
+            <surname>Malakar</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Venkatram</foreName>
+            <surname>Vishwanath</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Florin</foreName>
+            <surname>Isaila</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">1st Workshop on Optimization of Communication in HPC runtime systems (IEEE COM-HPC16)</title>
+        <loc>Salt-Lake City, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">9</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01394741" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01394741</ref>
+        </imprint>
+        <meeting id="cid625309">
+          <title>Workshop on Optimization of Communication in HPC runtime systems</title>
+          <num>1</num>
+          <abbr type="sigle">IEEE COM-HPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid10" type="techreport" rend="year" n="cite:georgiou:hal-01275270">
+      <identifiant type="hal" value="hal-01275270"/>
+      <monogr>
+        <title level="m">Topology-aware resource management for HPC applications</title>
+        <author>
+          <persName>
+            <foreName>Yiannis</foreName>
+            <surname>Georgiou</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp88616">
+            <foreName>Guillaume</foreName>
+            <surname>Mercier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="runtime-2014-idp134960">
+            <foreName>Adèle</foreName>
+            <surname>Villiermet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8859</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest ; Bordeaux INP ; LaBRI - Laboratoire Bordelais de Recherche en Informatique</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">17</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01275270" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01275270</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid4" type="techreport" rend="year" n="cite:goglin:hal-01400264">
+      <identifiant type="hal" value="hal-01400264"/>
+      <monogr>
+        <title level="m">Towards the Structural Modeling of the Topology of next-generation heterogeneous cluster Nodes with hwloc</title>
+        <author>
+          <persName key="runtime-2014-idp83016">
+            <foreName>Brice</foreName>
+            <surname>Goglin</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01400264" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01400264</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid12" type="techreport" rend="year" n="cite:gustedt:hal-01409101">
+      <identifiant type="hal" value="hal-01409101"/>
+      <monogr>
+        <title level="m">Fully-abstracted affinity optimization for task-based models</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8993</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Nancy</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01409101" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01409101</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid16" type="techreport" rend="year" n="cite:pellegrini:hal-01352700">
+      <identifiant type="hal" value="hal-01352700"/>
+      <monogr>
+        <title level="m">The originality of software works</title>
+        <author>
+          <persName key="bacchus-2014-idp70640">
+            <foreName>François</foreName>
+            <surname>Pellegrini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8945</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest ; Université de bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">13</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01352700" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01352700</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid17" type="mastersthesis" rend="year" n="cite:bardoux:hal-01417406">
+      <identifiant type="hal" value="hal-01417406"/>
+      <monogr x-international-audience="no">
+        <title level="m">Remaillage parallèle pour le calcul haute performance</title>
+        <author>
+          <persName key="tadaam-2016-idp197904">
+            <foreName>Arnaud</foreName>
+            <surname>Bardoux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de strasbourg</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01417406" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01417406</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid6" type="mastersthesis" rend="year" n="cite:foyer:hal-01395299">
+      <identifiant type="hal" value="hal-01395299"/>
+      <monogr x-international-audience="yes">
+        <title level="m">Updating MadMPI to MPI-3: Remote Memory Access</title>
+        <author>
+          <persName>
+            <foreName>Clément</foreName>
+            <surname>FOYER</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Inria Bordeaux, équipe TADAAM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01395299" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01395299</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="tadaam-2016-bid13" type="misc" rend="year" n="cite:gustedt:hal-01416284">
+      <identifiant type="doi" value="10.1109/CLUSTER.2016.87"/>
+      <identifiant type="hal" value="hal-01416284"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">Optimizing Locality by Topology-aware Placement for a Task Based Programming Model</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">164 - 165</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01416284" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01416284</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">IEEE Cluster 2016 Conference</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

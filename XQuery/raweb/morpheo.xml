@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="morpheo" isproject="true">
+    <shortname>MORPHEO</shortname>
+    <projectName>Capture and Analysis of Shapes in Motion</projectName>
+    <theme-de-recherche>Vision, perception and multimedia interpretation</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://morpheo.inrialpes.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire Jean Kuntzmann (LJK)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Institut polytechnique de Grenoble</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2011 March 01, updated into Project-Team: 2014 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>5.1.8. - 3D User Interfaces</term>
+      <term>5.4. - Computer vision</term>
+      <term>5.4.4. - 3D and spatio-temporal reconstruction</term>
+      <term>5.4.5. - Object tracking and motion analysis</term>
+      <term>5.5.1. - Geometrical modeling</term>
+      <term>5.5.4. - Animation</term>
+      <term>5.6. - Virtual reality, augmented reality</term>
+      <term>6.2.8. - Computational geometry and meshes</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>2.6.3. - Biological Imaging</term>
+      <term>2.8. - Sports, performance, motor skills</term>
+      <term>9.2.2. - Cinema, Television</term>
+      <term>9.2.3. - Video games</term>
+      <term>9.3. - Sports</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="morpheo-2014-idp13752">
+      <firstname>Edmond</firstname>
+      <lastname>Boyer</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheo-2014-idp112352">
+      <firstname>Julien</firstname>
+      <lastname>Pansiot</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp15232">
+      <firstname>Lionel</firstname>
+      <lastname>Reveret</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher, until Jun 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheo-2015-idp65888">
+      <firstname>Stefanie</firstname>
+      <lastname>Wuhrer</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="morpheo-2015-idp67128">
+      <firstname>Jean Sébastien</firstname>
+      <lastname>Franco</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INP Grenoble, Associate Professor</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp108568">
+      <firstname>Franck</firstname>
+      <lastname>Hétroy-Wheeler</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INP Grenoble, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="morpheo-2014-idp111088">
+      <firstname>Mickaël</firstname>
+      <lastname>Heudre</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp118600">
+      <firstname>Benjamin</firstname>
+      <lastname>Allain</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Jun 2016</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp121080">
+      <firstname>Adnane</firstname>
+      <lastname>Boukhayma</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by Conseil Régional Rhône-Alpes</moreinfo>
+    </person>
+    <person key="morpheo-2015-idp74888">
+      <firstname>Vincent</firstname>
+      <lastname>Leroy</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="morpheo-2015-idp76120">
+      <firstname>Romain</firstname>
+      <lastname>Rombourg</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes</moreinfo>
+    </person>
+    <person key="morpheo-2015-idp77360">
+      <firstname>Aurela</firstname>
+      <lastname>Shehu</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>UNIV étrangère</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp122320">
+      <firstname>Vagia</firstname>
+      <lastname>Tsiminaki</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes, until April 2016</moreinfo>
+    </person>
+    <person key="morpheo-2014-idp123560">
+      <firstname>Li</firstname>
+      <lastname>Wang</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes</moreinfo>
+    </person>
+    <person key="morpheo-2015-idp81104">
+      <firstname>Jinlong</firstname>
+      <lastname>Yang</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="morpheo-2016-idp146816">
+      <firstname>Victoria</firstname>
+      <lastname>Fernandez Abrevaya</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes, from Oct 2016</moreinfo>
+    </person>
+    <person key="corse-2015-idp113920">
+      <firstname>Julie</firstname>
+      <lastname>Bourget</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Jul 2016</moreinfo>
+    </person>
+    <person key="perception-2014-idp76800">
+      <firstname>Nathalie</firstname>
+      <lastname>Gillot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Sep 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Morpheo's main objective is the ability to perceive and to interpret moving shapes using systems of multiple cameras for the analysis of animal motion, animation synthesis and immersive and interactive environments. Multiple camera systems allow dense information on both shapes and their motion to be recovered from visual cues. Such ability to perceive shapes in motion brings a rich domain for research investigations on how to model, understand and animate real dynamic shapes. In order to reach this objective, several scientific and technological challenges must be faced:</p>
+      <p>A first challenge is to be able to recover shape information from videos. Multiple camera setups allow to acquire shapes as well as their appearances with a reasonable level of precision. However most effective current approaches estimate static 3D shapes and the recovery of temporal information, such as motion, remains a challenging task. Another challenge in the acquisition process is the ability to handle heterogeneous sensors with different modalities as available nowadays: color cameras, time of flight cameras, stereo cameras and structured light scanners, etc.</p>
+      <p>A second challenge is the analysis of shapes. Few tools have been proposed for that purpose and recovering the intrinsic nature of shapes is an actual and active research domain. Of particular interest is the study of animal shapes and of their associated articulated structures. An important task is to automatically infer such properties from temporal sequences of 3D models as obtained with the previously mentioned acquisition systems.
+Another task is to build models for classes of shapes, such as animal species, that allow for both shape and pose variations.</p>
+      <p>A third challenge concerns the analysis of the motion of shapes that move and evolve, typically humans. This has been an area of interest for decades and the challenging innovation is to consider for this purpose dense motion fields, obtained from temporally consistent 3D models, instead of traditional sparse point trajectories obtained by tracking particular features on shapes, e.g. motion capture systems. The interest is to provide full information on both motions and shapes and the ability to correlate these information.The main tasks that arise in this context are first to find relevant indices to describe the dynamic evolutions of shapes and second to build compact representations for classes of movements.</p>
+      <p>A fourth challenge tackled by Morpheo is immersive and interactive systems. Such systems rely on real time modeling, either for shapes, motion or actions. Most methods of shape and motion retrieval turn out to be fairly complex, and quickly topple hardware processing or bandwidth limitations, even with a limited number of cameras. Achieving interactivity thus calls for scalable methods and research of specific distribution and parallelization strategies.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Shape Acquisition</bodyTitle>
+      <p>Multiple camera setups allow to acquire shapes, i.e. geometry, as well as their appearances,
+i.e. photometry, with a reasonable level of precision. However fundamental limitations
+still exist, in particular today's state-of-the-art approaches do not fully exploit
+the redundancy of information over temporal sequences of visual observations. Despite
+an increasing interest of the computer vision communities in the past years, the problem
+is still far from solved other than in specific situations with restrictive assumptions and
+configurations. Our goal in this research axis is to fully leverage
+temporal aspects of the acquisition process and to open the acquisition process to different modalities, in particular Xrays.
+</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Generative / discriminative inference</bodyTitle>
+      <p>Acquisition of 4D Models can often be conveniently formulated as an estimation or learning problem. Various generative models can be proposed for the problems of shape and appearance modeling over time sequences, and motion
+segmentation. The idea of these generative models is to predict the
+noisy measurements (e.g. pixel values, measured 3D points or speed
+quantities) from a set of parameters describing the unobserved scene
+state (e.g. shape and appearance), which in turn can be inverted with various inference algorithms. The advantages of this type of modeling are
+numerous to deal with noisy measurements, explicitly model dependencies between model parameters, hidden variables and observed quantities, and relevant priors over parameters; sensor models for different modalities can also easily be seamlessly integrated and
+jointly used, which remains central to our goals. A limitation of such algorithms is that classical algorithms to solve them rely on local iterative convergence schemes subject to local minima, or global restart schemes which avert this problem but with a significant computational penalty. This is why we also consider discriminative and deep learning approaches, which allow to formulate the parameter estimation as a direct regression from input quantities or pixel values, whose parameters are learned given a training set. This has the advantage of directly computing a solution from inputs, with robustness and speed benefits, as a standalone estimation algorithm or to initialize local convergence schemes based on generative modeling. A number of the approaches we propose thus leverage the advantages of both generative and such discriminative approaches.
+</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Shape Analysis</bodyTitle>
+      <p>Shape analysis has received much attention from the scientific community and recovering
+the intrinsic nature of shapes is currently an active research domain. Of particular interest
+is the study of human and animal shapes and their associated articulated underlying
+structures, i.e. skeletons, since applications are numerous, either in the entertainment industry
+or for medical applications, among others. Our main goals in this research axis are : the understanding of a shape's global structure, and a pose-independent classification of
+shapes.
+</p>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Shape Tracking</bodyTitle>
+      <p>Recovering the temporal evolution of a deformable surface is a fundamental task in computer vision, with a large variety of applications ranging from the motion capture of articulated shapes, such as human bodies, to the deformation of complex surfaces such as clothes. Methods that solve for this problem usually infer surface evolutions from motion or geometric cues. This information can be provided by motion capture systems or one of the numerous available static 3D acquisition modalities. In this inference, methods are faced with the challenging estimation of the time-consistent deformation of a surface from cues that can be sparse and noisy. Such an estimation is an ill posed problem that requires prior knowledge on the deformation to be introduced in order to limit the range of possible solutions. Our goal is to devise robust and accurate solutions based on new deformation models that fully exploit the geometric and photometric information available.
+</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Dynamic Motion Modeling</bodyTitle>
+      <p>Multiple views systems can significantly change the paradigm of motion capture. Traditional
+motion capture systems provide 3D trajectories of a sparse set of markers fixed on
+the subject. These trajectories can be transformed into motion parameters on articulated
+limbs with the help of prior models of the skeletal structure. However, such skeletal models
+are mainly robotical abstractions that do not describe the true morphology and anatomical
+motions of humans and animals. On the other hand, 4D models (temporally consistent
+mesh sequences) provide dense motion information on body's shape while requiring less
+prior assumption. They represent therefore a new rich source of information on human
+and animal shape movements. The analysis of such data has already received some
+attention but most existing works model motion through static poses and do not
+consider yet dynamic information. Such information (e.g. trajectories and speed) is anyway
+required to analyse walking or running sequences. We will investigate this research direction with
+the aim to propose and study new dynamic models.
+</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Shape Animation</bodyTitle>
+      <p>3D animation is a crucial part of digital media production with numerous applications, in particular in the game and motion picture industry.
+Recent evolutions in computer animation consider real videos for both the creation and the animation of characters. The advantage of this strategy is twofold: it reduces the creation cost and increases realism by considering only real data. Furthermore, it allows to create new motions, for real characters, by recombining recorded elementary movements. In addition to enable new media contents to be produced, it also allows to automatically extend moving shape datasets with fully controllable new motions. This ability appears to be of great importance with the recent advent of deep learning techniques and the associated need for large learning datasets. In this research direction, we will investigate how to create new dynamic scenes using recorded events.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid11">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>4D modeling</bodyTitle>
+      <p>Modeling shapes that evolve over time, analyzing and interpreting their motion has been a subject of increasing interest of many research communities including the computer vision, the computer graphics and the medical imaging communities. Recent evolutions in acquisition technologies including 3D depth cameras (Time-of-Flight and Kinect), multi-camera systems, marker based motion capture systems, ultrasound and CT scans have made those communities consider capturing the real scene and their dynamics, create 4D spatio-temporal models, analyze and interpret them. A number of applications including dense motion capture, dynamic shape modeling and animation, temporally consistent 3D reconstruction, motion analyzes and interpretation have therefore emerged.
+</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Shape Analysis</bodyTitle>
+      <p>Most existing shape analysis tools are local, in the sense that they give local insight about an object's geometry or purpose. The use of both geometry and motion cues makes it possible to recover more global information, in order to get extensive knowledge about a shape. For instance, motion can help to decompose a 3D model of a character into semantically significant parts, such as legs, arms, torso and head. Possible applications of such high-level shape understanding include accurate feature computation, comparison between models to detect defects or medical pathologies, and the design of new biometric models or new anthropometric datasets.
+</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Human Motion Analysis</bodyTitle>
+      <p>The recovery of dense motion information enables the combined analyses of shapes and their motions. Typical examples include the estimation of mean shapes given a set of 3D models or the identification of abnormal deformations of a shape given its typical evolutions. The interest arises in several application domains where temporal surface deformations need to be captured and analysed. It includes human body analyses for which potential applications are anyway numerous and important, from the identification of pathologies to the design of new prostheses.
+</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Interaction</bodyTitle>
+      <p>The ability to build models of humans in real time allows to develop interactive applications where users interact with virtual worlds. The recent evolutions of HMDs, e.g. Oculus Rift, HTC Vibe and Microsoft Hololens, offer now efficient solutions to visualize virtual worlds, which dramatically increases the need for new contents as well as new interactive and immersive solutions. Challenging issues in this domain include the development of real time applications for interactivity and the design of new interactive applications such as virtual fitting rooms.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid16">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid18" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>The work on estimating the visual contrast on a 3D mesh <best><ref xlink:href="#morpheo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></best> has been awarded the best paper award at the Pacific Graphics 2016 conference.
+</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid19">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Kinovis: 4D repository</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This website is now part of the Kinovis platform webiste. It hosts dynamic mesh sequences reconstructed from images captured using a multi-camera set up. Such mesh-sequences offer a new promising vision of virtual reality, by capturing real actors and their interactions. The texture information is trivially mapped to the reconstructed geometry, by back-projecting from the images. These sequences can be seen from arbitrary viewing angles as the user navigates in 4D (3D geometry + time) . Different sequences of human / non-human interaction can be browsed and downloaded from the data section.</p>
+      <simplelist>
+        <li id="uid21">
+          <p noindent="true">Contact: Edmond Boyer</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="http://kinovis.inrialpes.fr/4d-repository/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kinovis.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>4d-repository/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Lucy Viewer</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Data visualization - 4D - Multi-Cameras</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Lucy Viewer is an interactive viewing software for 4D models, i.e, dynamic three-dimensional scenes that evolve over time. Each 4D model is a sequence of meshes with associated texture information from the original real images.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Mickaël Heudre, Jean-Sébastien Franco and Edmond Boyer</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Edmond Boyer</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="http://kinovis.inrialpes.fr/lucyviewer/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kinovis.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>lucyviewer/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>QuickCSG</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> 3D modeling - CAD - 3D reconstruction - Geometric algorithms</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+QuickCSG is a library and command-line application that computes
+boolean operations between polyhedra. It is able to directly compute
+resulting solids from an arbitrary number of inputs and for an arbitrary boolean
+combination function, with state of the art execution times.</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participants: Matthijs Douze, Jean-Sébastien Franco and Bruno Raffin</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Partner: INP Grenoble</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">Contact: Matthijs Douze</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">URL: <ref xlink:href="http://kinovis.inrialpes.fr/quickcsg/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kinovis.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>quickcsg/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Shape Tracking</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>We are developing a software suite to track shapes over temporal sequences. The motivation is to provide temporally coherent 4D Models, i.e. 3D models and their evolutions over time , as required by motion related applications such as motion analysis. This software takes as input a temporal sequence of 3D models in addition to a template and estimate the template deformations over the sequence that fit the observed 3D models.</p>
+      <simplelist>
+        <li id="uid33">
+          <p noindent="true">Contact: Edmond Boyer</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>3DtLaplace</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Laplace operator - Mesh sequence</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+This software computes a discrete 3D+t Laplace operator for temporally mesh sequences.</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">Participants: Victoria Fernández-Abrevaya, Franck Hétroy-Wheeler and Stefanie Wuhrer</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">Partner: INP Grenoble</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">Contact: Victoria Fernández-Abrevaya</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">URL: <ref xlink:href="http://3dtlaplace.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>3dtlaplace.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>CVTGenerator</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Mesh - Centroidal Voronoi tessellation - Implicit surface</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+CVTGenerator is a program that builds Centroidal Voronoi Tessellations of any 3D meshes and implicit surfaces.</p>
+      <simplelist>
+        <li id="uid40">
+          <p noindent="true">Participants: Edmond Boyer, Franck Hétroy-Wheeler and Li Wang</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">Partner: INP Grenoble</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">Contact: Li Wang</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">URL: <ref xlink:href="http://cvt.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cvt.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Platforms</bodyTitle>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Platform Kinovis</bodyTitle>
+        <p>Kinovis (<ref xlink:href="http://kinovis.inrialpes.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kinovis.<allowbreak/>inrialpes.<allowbreak/>fr/</ref>) is a multi-camera acquisition project that was was selected within the call for proposals ”Equipements d’Excellence” of the program “Investissement d’Avenir″ funded by the French government. The project involves 2 institutes: the Inria Grenoble Rhône-Alpes, the université Joseph Fourier and 4 laboratories: the LJK (laboratoire Jean Kuntzmann - applied mathematics), the LIG (laboratoire d'informatique de Grenoble - Computer Science), the Gipsa lab (Signal, Speech and Image processing) and the LADAF (Grenoble Hospitals - Anatomy). The Kinovis environment is composed of 2 complementary platforms. A first platform located at Inria Grenoble with a 10mx10m acquisition surface is equipped with 68 color cameras and 20 IR motion capture (mocap) cameras. It is the evolution of the Grimage platform towards the production of better models of more complex dynamic scenes. A second platform located at Grenoble Hospitals, within the LADAF anatomy laboratory, is equipped with 10 color and 2 X-ray cameras to enable combined analysis of internal and external shape structures, typically skeleton and bodies of animals.
+Installation works of both platforms started in 2013 and are now finished. Both platforms have already demonstrated their potential through a range of projects lead by the team and externally. Members of Morpheo are highly involved in this project. Edmond Boyer is coordinating this project and Lionel Reveret is in charge of the LADAF platform. Mickaël Heudre and Julien Pansiot were managing the technical resources of both platforms.</p>
+        <object id="uid46">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/kinovis1.png" type="inline" width="170.71652pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+              <td>
+                <ressource xlink:href="IMG/kinovis2.png" type="inline" width="170.71652pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Kinovis platforms: on the left the Inria platform; on the right Grenoble Hospital platform.</caption>
+        </object>
+      </subsection>
+    </subsection>
+  </logiciels>
+  <resultats id="uid47">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Cotemporal Multi-View Video Segmentation</bodyTitle>
+      <p>We address the problem of multi-view video segmentation of dynamic scenes in general and outdoor environments with possibly moving cameras. Multi-view methods for dynamic scenes usually rely on geometric calibration to impose spatial shape constraints between viewpoints. In this paper, we show that the calibration constraint can be relaxed while still getting competitive segmentation results using multi-view constraints. We introduce new multi-view cotemporality constraints through motion correlation cues, in addition to common appearance features used by co-segmentation methods to identify co-instances of objects. We also take advantage of learning based segmentation strategies by casting the problem as the selection of monocular proposals that satisfy multi-view constraints. This yields a fully automated method that can segment subjects of interest without any particular pre-processing stage, as depicted in Figure <ref xlink:href="#uid49" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Results on several challenging outdoor datasets demonstrate the feasibility and robustness of our approach.</p>
+      <p>This work has been presented at the International Conference on 3D Vision (3DV) 2016 <ref xlink:href="#morpheo-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid49">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/overviewAziz.png" type="float" width="398.33858pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Overview of multiview segmentation pipeline</caption>
+      </object>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Volumetric Shape Reconstruction from Implicit Forms</bodyTitle>
+      <p>In this work we evaluate volumetric shape reconstruction methods that consider as input implicit forms in 3D. Many visual applications build implicit representations of shapes that are converted into explicit shape representations using geometric tools such as the Marching Cubes algorithm. This is the case with image based reconstructions that produce point clouds from which implicit functions are computed, with for instance a Poisson reconstruction approach. While the Marching Cubes method is a versatile solution with proven efficiency, alternative solutions exist with different and complementary properties that are of interest for shape modeling. In this paper, we propose a novel strategy that builds on Centroidal Voronoi Tessellations (CVTs). These tessellations provide volumetric and surface representations with strong regularities in addition to provably more accurate approximations of the implicit forms considered. In order to compare the existing strategies, we present an extensive evaluation that analyzes various properties of the main strategies for implicit to explicit volumetric conversions: Marching cubes, Delaunay refinement and CVTs, including accuracy and shape quality of the resulting shape mesh.</p>
+      <object id="uid51">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/li-eccv2016.png" type="float" width="312.9803pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Poisson volumetric reconstructions from a Gargoyle point cloud with Marching Cubes (left) and CVT (right) <ref xlink:href="#morpheo-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Distances to the implicit form are color encoded on the right, from low (blue) to high (red).</caption>
+      </object>
+      <p>This work has been presented at the ECCV 2016 conference <ref xlink:href="#morpheo-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Bayesian 3D imaging from X-rays and video</bodyTitle>
+      <p>A new method for estimating 3D dense attenuation of moving samples such as body parts from multiple video and a single planar X-ray device has been devised <ref xlink:href="#morpheo-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Most dense modeling methods consider samples observed with a moving X-ray device and cannot easily handle moving samples. We proposed a novel method that uses a surface motion capture system associated to a single low-cost/low-dose planar X-ray imaging device for dense in-depth attenuation information. Our key contribution is to rely on Bayesian inference to solve for a dense attenuation volume given planar radioscopic images of a moving sample. The approach enables multiple sources of noise to be considered and takes advantage of limited prior information to solve an otherwise ill-posed problem. Results show that the proposed strategy is able to reconstruct dense volumetric attenuation models from a very limited number of radiographic views over time on simulated and in-vivo data, as illustrated in Figure <ref xlink:href="#uid53" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid53">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/slices-phantom_one.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Results of the proposed method on a forearm phantom (2 selected slices). Left-to-right: ground-truth CT scan, proposed method, without optical flow, without TVL<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mrow/><mn>1</mn></msub></math></formula>prior, ART. Without optical flow, artefacts are visible, for example in the bone cavities. The ART method produces much noisier results.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Robust Multilinear Model Learning Framework for 3D Faces</bodyTitle>
+      <p>Statistical models are widely used to represent the variations of 3D human faces. Multilinear models in particular are common as they decouple shape changes due to identity and expression. Existing methods to learn a multilinear face model degrade if not every person is captured in every expression, if face scans are noisy or partially occluded, if expressions are erroneously labeled, or if the vertex correspondence is inaccurate. These limitations impose requirements on the training data that disqualify large amounts of available 3D face data from being usable to learn a multilinear model. To overcome this, we have developed an effective framework to robustly learn a multilinear model from 3D face databases with missing data, corrupt data, wrong semantic correspondence, and inaccurate vertex correspondence. To achieve this robustness to erroneous training data, our framework jointly learns a multilinear model and fixes the data. This framework is significantly more efficient than prior methods based on linear statistical models. This work was presented at CVPR 2016 <ref xlink:href="#morpheo-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid55">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/overview.png" type="float" width="298.8987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Overview of our robust multilinear model (RMM) learning framework that is robust to missing data (purple), corrupt data (brown), wrong semantic correspondence (green), and inaccurate vertex correspondence (gray).</caption>
+      </object>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Segmentation of Tree Seedling Point Clouds into Elementary Units</bodyTitle>
+      <p>We propose a new semi-automatic method to cluster TLS data into meaningful sets of points to extract plant components. The approach is designed for small plants with distinguishable branches and leaves, such as tree seedlings. It first creates a graph by connecting each point to its most relevant neighbours, then embeds the graph into a spectral space, and finally segments the embedding into clusters of points. The process can then be iterated on each cluster separately. The main idea underlying the approach is that the spectral embedding of the graph aligns the points along the shape's principal directions. A quantitative evaluation of the segmentation accuracy, as well as of leaf area estimates, is provided on a poplar seedling mock-up. It shows that the segmentation is robust with false positive and false negative rates around <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>%</mo></mrow></math></formula>. Qualitative results on four contrasting plant species with three different scan resolution levels each are also shown in the paper, which has been published in the International Journal of Remote Sensing <ref xlink:href="#morpheo-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Estimation of Human Body Shape in Motion with Wide Clothing</bodyTitle>
+      <p>Estimating 3D human body shape in motion from a sequence of unstructured oriented 3D point clouds is important for many applications. We propose the first automatic method to solve this problem that works in the presence of loose clothing. The problem is formulated as an optimization problem that solves for identity and posture parameters in a shape space capturing likely body shape variations. The automation is achieved by leveraging a recent robust pose detection method Stitched Puppet. To account for clothing, we take advantage of motion cues by encouraging the estimated body shape to be inside the observations. The method is evaluated on a new benchmark containing different subjects, motions, and clothing styles that allows to quantitatively measure the accuracy of body shape estimates. Furthermore, we compare our results to existing methods that require manual input and demonstrate that results of similar visual quality can be obtained.</p>
+      <object id="uid58">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/jinlong-eccv2016.png" type="float" width="170.71652pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Two frames of an input point cloud sequence (in gray) with the estimated body shape shown in blue <ref xlink:href="#morpheo-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</caption>
+      </object>
+      <p>This work has been presented at the ECCV 2016 conference <ref xlink:href="#morpheo-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Computing Temporal Alignments of Human Motion Sequences in Wide Clothing using Geodesic Patches</bodyTitle>
+      <p>In this work, we address the problem of temporal alignment of surfaces for subjects dressed in wide clothing, as acquired by calibrated multi-camera systems. Most existing methods solve the alignment by fitting a single surface template to each instant's 3D observations, relying on a dense point-to-point correspondence scheme, e.g. by matching individual surface points based on local geometric features or proximity. The wide clothing situation yields more geometric and topological difficulties in observed sequences, such as apparent merging of surface components, misreconstructions, and partial surface observation, resulting in overly sparse, erroneous point-to-point correspondences, and thus alignment failures. To resolve these issues, we propose an alignment framework where point-to-point correspondences are obtained by growing isometric patches from a set of reliably obtained body landmarks. This correspondence decreases the reliance on local geometric features subject to instability, instead emphasizing the surface neighborhood coherence of matches, while improving density given sufficient landmark coverage. We validate and verify the resulting improved alignment performance in our experiments.</p>
+      <p noindent="true">This work has been presented at the International Conference on 3D Vision (3DV) 2016 <ref xlink:href="#morpheo-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>A 3D+t Laplace Operator for Temporal Mesh Sequences</bodyTitle>
+      <p>The Laplace operator plays a fundamental role in geometry processing. Several discrete versions have been proposed for 3D meshes and point clouds, among others. We have defined a discrete Laplace operator for temporally coherent mesh sequences, which allows to process mesh animations in a simple yet efficient way. This operator is a discretization of the Laplace-Beltrami operator using Discrete Exterior Calculus on CW complexes embedded in a four-dimensional space. A parameter is introduced to tune the influence of the motion with respect to the geometry. This enables straightforward generalization of existing Laplacian static mesh processing works to mesh sequences. An application to spacetime editing has been provided as example.</p>
+      <object id="uid61">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/smi2016.png" type="float" width="455.24408pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Spacetime editing of a temporal mesh sequence using the proposed 3D+t Laplace operator <ref xlink:href="#morpheo-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</caption>
+      </object>
+      <p>This work has been published in Computer &amp; Graphics <ref xlink:href="#morpheo-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and presented at the Shape Modeling International (SMI) 2016 conference.
+</p>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Volumetric 3D Tracking by Detection</bodyTitle>
+      <p>In this collaboration with TU Munich, we investigated a new solutions for 3D tracking by detection based on fully volumetric representations. On one hand, 3D tracking by detection has shown robust use in the context of interaction (Kinect) and surface tracking. On the other hand, volumetric representations have recently been proven efficient both for building 3D features and for addressing the 3D tracking problem. We leveraged these benefits by unifying both families of approaches into a single, fully volumetric tracking-by-detection framework. We used a centroidal Voronoi tessellation (CVT) representation to compactly tessellate shapes with optimal discretization, construct a feature space, and perform the tracking according to the correspondences provided by trained random forests (see figure <ref xlink:href="#uid63" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our results show improved tracking and training computational efficiency and improved memory performance. This in turn enables the use of larger training databases than state of the art approaches, which we leveraged by proposing a cross-tracking subject training scheme to benefit from all subject sequences for all tracking situations, thus yielding better detection and less overfitting. The approach has been presented at CVPR 2016 <ref xlink:href="#morpheo-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid63">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/PaulCVPR16.png" type="float" width="284.52756pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3D shapes are represented using centroidal Voronoi tessellations. The volumetric cells of the observations are matched to cells of the template.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>Eigen Appearance Maps of Dynamic Shapes</bodyTitle>
+      <p>In this work, we considered the problem of building efficient appearance rep- resentations of shapes observed from multiple viewpoints and in several movements. Multi-view systems now allow the acquisition of spatio- temporal models of such moving objects. While efficient geometric representations for these models have been widely studied, appearance information, as provided by the observed images, is mainly considered on a per frame basis, and no global strategy yet addresses the case where several temporal sequences of a shape are available. We proposed a per subject representation that builds on PCA to identify the underlying manifold structure of the appearance information relative to a shape. The resulting eigen representation encodes shape appearance variabilities due to viewpoint and motion, with Eigen textures, and due to local inaccuracies in the geometric model, with Eigen warps. In addition to providing compact representations, such decompositions also allow for appearance interpolation and appearance completion. We evaluated their performances over different characters and with respect to their ability to reproduce compelling appearances in a compact way. This work was presented at ECCV 2016.</p>
+      <object id="uid65">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/adnaneccv16.png" type="float" width="369.88582pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Given time consistent shape models and their appearance maps, our method exploits the manifold structure of these appearance information through PCA decomposition to generate the Eigen appearance maps relative to a shape.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Visual Contrast Sensitivity and Discrimination for 3D Meshes</bodyTitle>
+      <p>In this work, we first introduce an algorithm for estimating the visual contrast on a 3D mesh. We then perform a series of psychophysical experiments to study the effects of contrast sensitivity and contrast discrimination of the human visual system for the task of differentiating between two contrasts on a 3D mesh. The results of these experiments allow us to propose a perceptual model that is able to predict whether a change in local contrast on 3D mesh, induced by a local geometric distortion, is visible or not. Finally, we illustrate the utility of the proposed perceptual model in a number of applications: we compute the Just Noticeable Distortion (JND) profile for smooth-shaded 3D meshes and use the model to guide mesh processing algorithms.</p>
+      <p noindent="true">This work has been published in Computer Graphics Forum <ref xlink:href="#morpheo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and has received the best paper award at the Pacific Graphics 2016 conference.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid67">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid68" level="1">
+      <bodyTitle>QuickCSG Contract with undisclosed
+industrial partner</bodyTitle>
+      <p>QuickCSG software was licensed in October 2015 to an industrial
+partner whose name is contractually kept undisclosed for a finite
+time period. Integration of QuickCSG into the partner's
+software is continuing and is scheduled to be sold with this industrial partner's products. An additional support contract has
+been signed with this partner for the purpose of the transfer.</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid69">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid70" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid71" level="2">
+        <bodyTitle>ARC6 project PADME – Perceptual quality Assessment of Dynamic MEshes and its applications</bodyTitle>
+        <p>In this project, we propose to use a new and experimental “bottom-up” approach to study an interdisciplinary problem, namely the objective perceptual quality assessment of 3D dynamic meshes (i.e., shapes in motion with temporal coherence). The objectives of the proposed project are threefold:</p>
+        <orderedlist>
+          <li id="uid72">
+            <p noindent="true">to understand the HVS (human visual system) features when observing 3D animated meshes, through a series of psychophysical experiments;</p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">to develop an efficient and open-source objective quality metric for dynamic meshes based on the results of the above experiments;</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">to apply the learned HVS features and the derived metric to the application of compression and/or watermarking of animated meshes.</p>
+          </li>
+        </orderedlist>
+        <p>This work is funded by the Rhône-Alpes région through an ARC6
+grant for the period 2013-2016. The three partners are LIRIS
+(University Lyon 1, Florent Dupont), GIPSA-Lab (CNRS, Kai Wang) and
+LJK (University of Grenoble, Franck Hétroy-Wheeler). A PhD student,
+Georges Nader, is working on this project.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid76" level="2">
+        <bodyTitle>Persyval-Lab exploratory project Carambole</bodyTitle>
+        <p>The Carambole projects initiates a new collaboration between the Morpheo team and biophysicists from University Paris Diderot. The objectives are to develop hardware and software to help tracking feature points on a leaf of Averrhoa Carambola during its growth with a multi-camera system and to measure their 3D motion. Averrhoa carambola is of special interest because of the distinctive nutation balancing motion of a leaf during its growth.</p>
+        <p noindent="true">This exploratory project is funded for 18 months in 2016 and 2017 by the Persyval-Lab LabEx.</p>
+      </subsection>
+      <subsection id="uid77" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <subsection id="uid78" level="3">
+          <bodyTitle>ANR project Achmov – Accurate Human Modeling in Videos</bodyTitle>
+          <p>The technological advancements made over the past decade now allow the
+acquisition of vast amounts of visual information through the use of
+image capturing devices like digital cameras or camcorders. A central
+subject of interest in video are the humans, their motions, actions or
+expressions, the way they collaborate and communicate. The goal of ACHMOV is to extract detailed representations
+of multiple interacting humans in real-world environments in an
+integrated fashion through a synergy between detection, figure-ground
+segmentation and body part labeling, accurate 3D geometric methods for
+kinematic and shape modeling, and large-scale statistical learning
+techniques. By integrating the complementary expertise of two teams
+(one French, MORPHEO and one Romanian, CLVP), with solid prior track
+records in the field, there are considerable opportunities to move
+towards processing complex real world scenes of multiple interacting
+people, and be able to extract rich semantic representations with high
+fidelity. This would enable interpretation, recognition and synthesis
+at unprecedented levels of accuracy and in considerably more realistic
+setups than currently considered. This project is currently ongoing with 2 PhDs on the Inria side: Vincent Leroy and Jinlong Yang.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid79" level="2">
+        <bodyTitle>Competitivity Clusters</bodyTitle>
+        <subsection id="uid80" level="3">
+          <bodyTitle>FUI project Creamove</bodyTitle>
+          <p>Creamove is a collaboration between the Morpheo team of the Inria Grenoble Rhône-Alpes, the 4D View Solution company specialized in multi-camera acquisition systems, the SIP company specialized in multi-media and interactive applications and a choreographer. The objective is to develop new interactive and artistic applications where humans can interact in 3D with virtual characters built from real videos. Dancer performances will be pre-recorded in 3D and used on-line to design new movement sequences based on inputs coming from human bodies captured in real time. Website: <ref xlink:href="http://www.creamove.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>creamove.<allowbreak/>fr</ref>.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid81" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid82" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid83" level="3">
+          <bodyTitle>Declared Inria International Partners</bodyTitle>
+          <subsection id="uid84" level="4">
+            <bodyTitle>Joint projects with the Forestry Commission, UK</bodyTitle>
+            <p>A common project with an ecophysiologist from the British Forestry Commission, Eric
+Casella, is currently carried out. It aims at reconstructing accurate virtual models of forest trees, for biomass measurement purposes.
+This project is called Digitree and is funded by the University of Grenoble Alpes, through the AGIR
+framework. A PhD student, Romain Rombourg, is working on it. Two presentations related to this project have been made this year at the FSPMA conference <ref xlink:href="#morpheo-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#morpheo-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+            <p>The long term collaboration with TU Munich and Slobodan Ilic
+on human motion capture is ongoing with the work of Paul Huang
+<ref xlink:href="#morpheo-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that
+was published at CVPR this year. The work contributes
+with an approach that combines detection by learning with traditional generative tracking approaches.</p>
+          </subsection>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid85">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid86" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid87" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid88" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid89">
+              <p noindent="true">Edmond Boyer was area chair for CVPR 2016 and BMVC 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid90" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid91">
+              <p noindent="true">Franck Hétroy-Wheeler was part of the IPC for Eurographics 2016 (short papers).</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Stefanie Wuhrer was PC member for the Eurographics Workshop 3DOR</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid93" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid94">
+              <p noindent="true">Edmond Boyer has reviewed for: ECCV 2016, SIGGRAPH 2016, 3DV 2016, RFIA 2016, ORASIS 2015.</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">Jean-Sébastien Franco has reviewed for: ECCV 2016, SIGGRAPH 2016, 3DV 2016, RFIA 2016</p>
+            </li>
+            <li id="uid96">
+              <p noindent="true">Franck Hétroy-Wheeler has reviewed for: Eurographics 2016 (short papers), 3DV 2016.</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Stefanie Wuhrer has reviewed for CVPR 2016 and ECCV 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid98" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid99" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid100">
+              <p noindent="true">Edmond Boyer is associate editor of IJCV.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid101" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid102">
+              <p noindent="true">Edmond Boyer has reviewed for: IEEE Transactions on PAMI.</p>
+            </li>
+            <li id="uid103">
+              <p noindent="true">Franck Hétroy-Wheeler has reviewed for: Journal of Mathematical Imaging and Vision, The Visual Computer, Journal of Imaging.</p>
+            </li>
+            <li id="uid104">
+              <p noindent="true">Julien Pansiot has reviewed for: MobiHealth 2016, J. 3D Research 2016, IOP SMS 2016, TPAMI 2016, IJCV 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid106">
+            <p noindent="true">Edmond Boyer gave invited talks at: CVPR area chair meeting and ETH Zurich.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid107" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid108">
+            <p noindent="true">Edmond Boyer evaluated projects for: EPSRC (UK's agency for funding research) and FWF (Austrian Science Fund agency).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid109" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid110" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid111">
+            <p noindent="true">Master: Edmond Boyer, 3D Modeling, 18h, M2R GVR, Université Joseph Fourier Grenoble.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Master: Edmond Boyer, Introduction to Visual Computing, 30h, M1 MoSig, Université Joseph Fourier Grenoble.</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">Master: J.S. Franco, co-responsability of the Graphics, Vision,
+Robotics specialty of the Mosig Masters program, Second year Masters, Grenoble INP,
+Université Joseph Fourier.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Licence: F. Hétroy-Wheeler, Algorithmics and data structures, 59h, Ensimag 1st year, Grenoble INP.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Licence: F. Hétroy-Wheeler, Algorithmics and programming, 45h, Ensimag dual education through apprenticeship 1st year, Grenoble INP.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Master: F. Hétroy-Wheeler, Image projects, 25h, Ensimag 2nd year, Grenoble INP.</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Master: F. Hétroy-Wheeler, Surface modelling, 24h, Ensimag 3rd year, Grenoble INP.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Master: F. Hétroy-Wheeler, 3D graphics, 11h, Master of Science in Informatics, Université Grenoble Alpes.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Master: F. Hétroy-Wheeler, Geometric modelling, 42h, Master of Science in Industrial and Applied Mathematics, Université Grenoble Alpes.</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Master: F. Hétroy-Wheeler, co-responsability of the Mathematical Modeling, Image and Simulation (MMIS) track of Ensimag, Grenoble INP.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Master: J. Pansiot, Introduction to Computer Vision, 27h, Ensimag 3rd year, Grenoble INP.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Master: S. Wuhrer, 3D graphics, 13h, Master of Science in Informatics, Université Grenoble Alpes.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid123" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid124">
+            <p noindent="true">PhD in progress : Benjamin Allain, Geometry and Appearance Analysis of Deformable 3D shapes, Université de Grenoble Alpes, started 01/10/2012, supervised by J.S. Franco and E. Boyer.</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">PhD in progress :Victoria Fernandez Abrevaya, 3D Dynamic Human Motion Representations, Université de Grenoble Alpes, started 01/10/2016, supervised by Stefanie Wuhrer and Edmond Boyer.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">PhD: Timo Bolkart, Statistical analysis of 3D human faces is motion, Saarland University, started 01/01/2012, defended 14/06/2016, supervised by Stefanie Wuhrer.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">PhD in progress: Adnane Boukhayma, 4D model synthesis, Universiteé de Grenoble Alpes, started 01/10/2013, supervised by Edmond Boyer.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">PhD in progress : Vincent Leroy, 4D Multi-View Reconstruction from Photometric Information, Université de Grenoble, started 01/10/2015, supervised by J.S. Franco and E. Boyer.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">PhD: Georges Nader, Calcul du seuil de visibilité d'une distorsion géométrique locale sur un maillage et ses applications, Université Claude Bernard - Lyon 1, defended 22/11/2016, supervised by Florent Dupont, Kai Wang and Franck Hétroy-Wheeler.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">PhD in progress: Romain Rombourg, Digital tree: from the acquisition to a high-level geometric model, Université Grenoble Alpes, started 01/10/2015, supervised by Franck Hétroy-Wheeler and Eric Casella.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">PhD in progress: Aurela Shehu, Geometric processing of near-isometrically deforming surfaces, Saarland University, started 01/04/2012, defended 14/06/2016, supervised by Stefanie Wuhrer.</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">PhD : Vagia Tsiminaki, Appearance Modelling and Time Refinement in 3D Videos, Université de Grenoble Alpes, started 01/10/2012, defended 14/12/2016, supervised by J.S. Franco and E. Boyer.</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">PhD in progress: Li Wang, Transport optimal pour l'analyse de formes en mouvement, Université de Grenoble Alpes, started 01/10/2013, supervised by Edmond Boyer and Franck Hétroy-Wheeler.</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">PhD in progress : Jinlong Yang, Learning shape spaces of dressed 3D human models in motion, Université de Grenoble Alpes, started 01/10/2015, supervised by Franck Hétroy-Wheeler and Stefanie Wuhrer.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid135" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid136">
+            <p noindent="true">Edmond Boyer was reviewer of the PhD thesis of: Ludovic Blache (université de Reims Champagne Ardenne), Timo Bolkart (Saarland University) and Vincent Jantet (ETH Zurich).</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">Franck Hétroy-Wheeler is a member of the PhD monitoring committee of Van Tho Nguyen
+(University of Lorraine, INRA Nancy and Office National des Forêts).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid138" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Morpheo members have demonstrated the Kinovis platform to the general public on numerous occasions, and most notably for the "Fête de la Science".</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="morpheo-2016-bid16" type="incollection" rend="year" n="cite:brunton:hal-01205998">
+      <identifiant type="hal" value="hal-01205998"/>
+      <analytic>
+        <title level="a">Statistical Shape Spaces for 3D Data: A Review</title>
+        <author>
+          <persName>
+            <foreName>Alan</foreName>
+            <surname>Brunton</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Augusto</foreName>
+            <surname>Salazar</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Timo</foreName>
+            <surname>Bolkart</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Chi Hau</foreName>
+            <surname>Chen</surname>
+            <initial>C. H.</initial>
+          </persName>
+        </editor>
+        <title level="m">Handbook of Pattern Recognition and Computer Vision 5th Edition</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01205998" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01205998</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid8" type="article" rend="year" n="cite:fernandezabrevaya:hal-01318763">
+      <identifiant type="doi" value="10.1016/j.cag.2016.05.018"/>
+      <identifiant type="hal" value="hal-01318763"/>
+      <analytic>
+        <title level="a">A 3D+t Laplace operator for temporal mesh sequences</title>
+        <author>
+          <persName key="morpheo-2016-idp146816">
+            <foreName>Victoria</foreName>
+            <surname>Fernández Abrevaya</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="serpico-2016-idp126368">
+            <foreName>Sandeep</foreName>
+            <surname>Manandhar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00410">
+        <idno type="issn">0097-8493</idno>
+        <title level="j">Computers and Graphics</title>
+        <imprint>
+          <biblScope type="volume">58</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">11</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01318763" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01318763</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid5" type="article" rend="year" n="cite:hetroywheeler:hal-01285419">
+      <identifiant type="doi" value="10.1080/01431161.2016.1190988"/>
+      <identifiant type="hal" value="hal-01285419"/>
+      <analytic>
+        <title level="a">Segmentation of tree seedling point clouds into elementary units</title>
+        <author>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Casella</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="alice-2014-idp72888">
+            <foreName>Dobrina</foreName>
+            <surname>Boltcheva</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00961">
+        <idno type="issn">0143-1161</idno>
+        <title level="j">International Journal of Remote Sensing</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">13</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2881-2907</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01285419" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01285419</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid12" type="article" rend="year" n="cite:kamousi:hal-01297624">
+      <identifiant type="doi" value="10.1016/j.comgeo.2016.05.005"/>
+      <identifiant type="hal" value="hal-01297624"/>
+      <analytic>
+        <title level="a">Analysis of Farthest Point Sampling for Approximating Geodesics in a Graph</title>
+        <author>
+          <persName>
+            <foreName>Pegah</foreName>
+            <surname>Kamousi</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="vegas-2014-idm28768">
+            <foreName>Sylvain</foreName>
+            <surname>Lazard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Anil</foreName>
+            <surname>Maheshwari</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00373">
+        <idno type="issn">0925-7721</idno>
+        <title level="j">Computational Geometry</title>
+        <imprint>
+          <biblScope type="volume">57</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-7</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01297624" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01297624</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid18" type="article" rend="year" n="cite:nader:hal-01242271">
+      <identifiant type="doi" value="10.1109/TVCG.2015.2507578"/>
+      <identifiant type="hal" value="hal-01242271"/>
+      <analytic>
+        <title level="a">Just Noticeable Distortion Profile for Flat-Shaded 3D Mesh Surfaces</title>
+        <author>
+          <persName key="manao-2016-idp158016">
+            <foreName>Georges</foreName>
+            <surname>Nader</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Kai</foreName>
+            <surname>Wang</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Florent</foreName>
+            <surname>Dupont</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00761">
+        <idno type="issn">1077-2626</idno>
+        <title level="j">IEEE Transactions on Visualization and Computer Graphics</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2423-2436</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01242271" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01242271</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid0" type="article" rend="best" n="cite:nader:hal-01376275">
+      <identifiant type="doi" value="10.1111/cgf.13046"/>
+      <identifiant type="hal" value="hal-01376275"/>
+      <analytic>
+        <title level="a">Visual Contrast Sensitivity and Discrimination for 3D Meshes and their Applications</title>
+        <author>
+          <persName key="manao-2016-idp158016">
+            <foreName>Georges</foreName>
+            <surname>Nader</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Kai</foreName>
+            <surname>Wang</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Florent</foreName>
+            <surname>Dupont</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00391">
+        <idno type="issn">0167-7055</idno>
+        <title level="j">Computer Graphics Forum</title>
+        <imprint>
+          <biblScope type="volume">35</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">497–506</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01376275" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01376275</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid17" type="incollection" rend="year" n="cite:quaine:hal-01415690">
+      <identifiant type="hal" value="hal-01415690"/>
+      <analytic>
+        <title level="a">Postural regulation and motion simulation in rock climbing</title>
+        <author>
+          <persName>
+            <foreName>Franck</foreName>
+            <surname>Quaine</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp15232">
+            <foreName>Lionel</foreName>
+            <surname>Reveret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp116096">
+            <foreName>Simon</foreName>
+            <surname>Courtemanche</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="imagine-2015-idp116552">
+            <foreName>Paul</foreName>
+            <surname>Kry</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Ludovic</foreName>
+            <surname>Seifert</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Peter</foreName>
+            <surname>Wolf</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Andreas</foreName>
+            <surname>Schweizer</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">The science of climbing and mountaineering</title>
+        <title level="s">Routledge Research in Sport and exercise Science</title>
+        <imprint>
+          <publisher>
+            <orgName>Routledge</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">111-128</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01415690" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01415690</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid21" type="article" rend="year" n="cite:wang:hal-01185210">
+      <identifiant type="doi" value="10.1111/cgf.12716"/>
+      <identifiant type="hal" value="hal-01185210"/>
+      <analytic>
+        <title level="a">A Hierarchical Approach for Regular Centroidal Voronoi Tessellations</title>
+        <author>
+          <persName key="morpheo-2014-idp123560">
+            <foreName>Li</foreName>
+            <surname>Wang</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00391">
+        <idno type="issn">0167-7055</idno>
+        <title level="j">Computer Graphics Forum</title>
+        <imprint>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01185210" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01185210</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid19" type="inproceedings" rend="year" n="cite:bas:hal-01271343">
+      <identifiant type="hal" value="hal-01271343"/>
+      <analytic>
+        <title level="a">Fitting a 3D Morphable Model to Edges: A Comparison Between Hard and Soft Correspondences</title>
+        <author>
+          <persName>
+            <foreName>Anil</foreName>
+            <surname>Bas</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>William A. P.</foreName>
+            <surname>Smith</surname>
+            <initial>W. A. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Timo</foreName>
+            <surname>Bolkart</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ACCV Workshop on Facial Informatics</title>
+        <loc>Taipei, Taiwan</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01271343" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01271343</ref>
+        </imprint>
+        <meeting id="cid625358">
+          <title>ACCV Workshop on Facial Informatics</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid4" type="inproceedings" rend="year" n="cite:bolkart:hal-01290783">
+      <identifiant type="hal" value="hal-01290783"/>
+      <analytic>
+        <title level="a">A Robust Multilinear Model Learning Framework for 3D Faces</title>
+        <author>
+          <persName>
+            <foreName>Timo</foreName>
+            <surname>Bolkart</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01290783" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01290783</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2011</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid15" type="inproceedings" rend="year" n="cite:boukhayma:hal-01348837">
+      <identifiant type="hal" value="hal-01348837"/>
+      <analytic>
+        <title level="a">Eigen Appearance Maps of Dynamic Shapes</title>
+        <author>
+          <persName key="morpheo-2014-idp121080">
+            <foreName>Adnane</foreName>
+            <surname>Boukhayma</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp122320">
+            <foreName>Vagia</foreName>
+            <surname>Tsiminaki</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECCV 2016 - European Conference on Computer Vision</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01348837" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01348837</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid10" type="inproceedings" rend="year" n="cite:casella:hal-01399491">
+      <identifiant type="hal" value="hal-01399491"/>
+      <analytic>
+        <title level="a">A comprehensive sensitivity analysis of forest tree mock-up reconstruction methods from phase-shift based tLiDAR point-cloud data</title>
+        <author>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Casella</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Pasi</foreName>
+            <surname>Raumonen</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp76120">
+            <foreName>Romain</foreName>
+            <surname>Rombourg</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Helen</foreName>
+            <surname>McKay</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Functional-Structural Plant Growth Modeling, Simulation, Visualization and Applications (FSPMA)</title>
+        <loc>Qingdao, China</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Dr Xiujuan Wang</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399491" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399491</ref>
+        </imprint>
+        <meeting id="cid625352">
+          <title>IEEE International Conference on Functional-Structural Plant Growth Modeling, Simulation, Visualization and Applications</title>
+          <num>2016</num>
+          <abbr type="sigle">FSPMA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid1" type="inproceedings" rend="year" n="cite:djelouah:hal-01367430">
+      <identifiant type="hal" value="hal-01367430"/>
+      <analytic>
+        <title level="a">Cotemporal Multi-View Video Segmentation</title>
+        <author>
+          <persName key="morpheo-2014-idp109816">
+            <foreName>Abdelaziz</foreName>
+            <surname>Djelouah</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Patrick</foreName>
+            <surname>Pérez</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="reves-2014-idm29368">
+            <foreName>George</foreName>
+            <surname>Drettakis</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on 3D Vision</title>
+        <loc>Stanford, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01367430" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01367430</ref>
+        </imprint>
+        <meeting id="cid624201">
+          <title>International Conference on 3D Vision</title>
+          <num>2015</num>
+          <abbr type="sigle">3DV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid9" type="inproceedings" rend="year" n="cite:huang:hal-01300191">
+      <identifiant type="hal" value="hal-01300191"/>
+      <analytic>
+        <title level="a">Volumetric 3D Tracking by Detection</title>
+        <author>
+          <persName>
+            <foreName>Chun-Hao</foreName>
+            <surname>Huang</surname>
+            <initial>C.-H.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp118600">
+            <foreName>Benjamin</foreName>
+            <surname>Allain</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName>
+            <foreName>Nassir</foreName>
+            <surname>Navab</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Slobodan</foreName>
+            <surname>Ilic</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName/>
+            <surname>IEEE</surname>
+            <initial/>
+          </persName>
+        </editor>
+        <title level="m">CVPR 2016 - IEEE Conference on Computer Vision and Pattern Recognition</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01300191" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01300191</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid20" type="inproceedings" rend="year" n="cite:james:hal-01377360">
+      <identifiant type="hal" value="hal-01377360"/>
+      <analytic>
+        <title level="a">A real-time framework for visual feedback of articulatory data using statistical shape models</title>
+        <author>
+          <persName>
+            <foreName>Kristy</foreName>
+            <surname>James</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexander</foreName>
+            <surname>Hewer</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ingmar</foreName>
+            <surname>Steiner</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">17th Annual Conference of the International Speech Communication Association (Interspeech)</title>
+        <loc>San Francisco, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377360" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377360</ref>
+        </imprint>
+        <meeting id="cid29182">
+          <title>Annual Conference of the International Speech Communication Association</title>
+          <num>17</num>
+          <abbr type="sigle">INTERSPEECH</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid3" type="inproceedings" rend="year" n="cite:pansiot:hal-01348939">
+      <identifiant type="doi" value="10.1007/978-3-319-46726-9_52"/>
+      <identifiant type="hal" value="hal-01348939"/>
+      <analytic>
+        <title level="a">3D Imaging from Video and Planar Radiography</title>
+        <author>
+          <persName key="morpheo-2014-idp112352">
+            <foreName>Julien</foreName>
+            <surname>Pansiot</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>Ourselin</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Leo</foreName>
+            <surname>Joskowicz</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Mert R.</foreName>
+            <surname>Sabuncu</surname>
+            <initial>M. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Gozde</foreName>
+            <surname>Unal</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>William</foreName>
+            <surname>Wells</surname>
+            <initial>W.</initial>
+          </persName>
+        </editor>
+        <title level="m">MICCAI 2016 - 19th International Conference on Medical Image Computing and Computer Assisted Intervention</title>
+        <loc>Athens, Greece</loc>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">9902</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">450-457</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01348939" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01348939</ref>
+        </imprint>
+        <meeting id="cid291324">
+          <title>International Conference on Medical Image Computing and Computer Assisted Intervention</title>
+          <num>19</num>
+          <abbr type="sigle">MICCAI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid7" type="inproceedings" rend="year" n="cite:shehu:hal-01367791">
+      <identifiant type="hal" value="hal-01367791"/>
+      <analytic>
+        <title level="a">Computing temporal alignments of human motion sequences in wide clothing using geodesic patches</title>
+        <author>
+          <persName key="morpheo-2015-idp77360">
+            <foreName>Aurela</foreName>
+            <surname>Shehu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp81104">
+            <foreName>Jinlong</foreName>
+            <surname>Yang</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">3DV 2016 - International Conference on 3D Vision 2016</title>
+        <loc>Stanford, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01367791" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01367791</ref>
+        </imprint>
+        <meeting id="cid624201">
+          <title>International Conference on 3D Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">3DV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid2" type="inproceedings" rend="year" n="cite:wang:hal-01349059">
+      <identifiant type="hal" value="hal-01349059"/>
+      <analytic>
+        <title level="a">On Volumetric Shape Reconstruction from Implicit Forms</title>
+        <author>
+          <persName key="morpheo-2014-idp123560">
+            <foreName>Li</foreName>
+            <surname>Wang</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECCV 2016 - European Conference on Computer Vision</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349059" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349059</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid6" type="inproceedings" rend="year" n="cite:yang:hal-01344795">
+      <identifiant type="hal" value="hal-01344795"/>
+      <analytic>
+        <title level="a">Estimation of Human Body Shape in Motion with Wide Clothing</title>
+        <author>
+          <persName key="morpheo-2015-idp81104">
+            <foreName>Jinlong</foreName>
+            <surname>Yang</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">European Conference on Computer Vision 2016</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01344795" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01344795</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid13" type="techreport" rend="year" n="cite:allain:hal-01255337">
+      <identifiant type="arXiv" value="1601.01232"/>
+      <identifiant type="hal" value="hal-01255337"/>
+      <monogr>
+        <title level="m">Shape Animation with Combined Captured and Simulated Dynamics</title>
+        <author>
+          <persName key="morpheo-2014-idp118600">
+            <foreName>Benjamin</foreName>
+            <surname>Allain</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp123560">
+            <foreName>Li</foreName>
+            <surname>Wang</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp107336">
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Franco</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hetroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">arXiv:1601.01232</biblScope>
+          <publisher>
+            <orgName type="institution">ArXiv</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">11</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01255337" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01255337</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid14" type="unpublished" rend="year" n="cite:hewer:hal-01418460">
+      <identifiant type="hal" value="hal-01418460"/>
+      <monogr>
+        <title level="m">A Multilinear Tongue Model Derived from Speech Related MRI Data of the Human Vocal Tract</title>
+        <author>
+          <persName>
+            <foreName>Alexander</foreName>
+            <surname>Hewer</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2015-idp65888">
+            <foreName>Stefanie</foreName>
+            <surname>Wuhrer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Ingmar</foreName>
+            <surname>Steiner</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Korin</foreName>
+            <surname>Richmond</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01418460" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01418460</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="morpheo-2016-bid11" type="misc" rend="year" n="cite:rombourg:hal-01399489">
+      <identifiant type="hal" value="hal-01399489"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">A point-cloud classification method to assess biases in tLiDAR-based forest canopy gap fraction estimates</title>
+        <author>
+          <persName key="morpheo-2015-idp76120">
+            <foreName>Romain</foreName>
+            <surname>Rombourg</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Casella</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp108568">
+            <foreName>Franck</foreName>
+            <surname>Hétroy-Wheeler</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Helen</foreName>
+            <surname>McKay</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399489" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399489</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">International Conference on Functional-Structural Plant Growth Modeling, Simulation, Visualization and Applications (FSPMA)</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

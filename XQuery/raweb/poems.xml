@@ -1,0 +1,2971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="poems" isproject="true">
+    <shortname>POEMS</shortname>
+    <projectName>Wave propagation: mathematical analysis and simulation</projectName>
+    <theme-de-recherche>Numerical schemes and simulations</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>http://uma.ensta-paristech.fr/poems/</urlTeam>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole nationale supérieure des techniques avancées</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2005 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6. - Modeling, simulation and control</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.1.5. - Multiphysics modeling</term>
+      <term>6.1.6. - Fractal Modeling</term>
+      <term>6.2. - Scientific Computing, Numerical Analysis &amp; Optimization</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>6.3.1. - Inverse problems</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4.1. - Fossile energy production (oil, gas)</term>
+      <term>5.3. - Nanotechnology</term>
+      <term>5.4. - Microelectronics</term>
+      <term>6. - IT and telecom</term>
+      <term>6.2. - Network technologies</term>
+      <term>6.2.1. - Wired technologies</term>
+      <term>6.2.2. - Radio technology</term>
+      <term>6.2.3. - Satellite technology</term>
+      <term>6.2.4. - Optic technology</term>
+      <term>9.4.2. - Mathematics</term>
+      <term>9.4.3. - Physics</term>
+      <term>9.9.1. - Environmental risks</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="poems-2014-idm26624">
+      <firstname>Eliane</firstname>
+      <lastname>Bécache</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idm30984">
+      <firstname>Anne-Sophie</firstname>
+      <lastname>Bonnet-Ben Dhia</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idm28032">
+      <firstname>Marc</firstname>
+      <lastname>Bonnet</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idp65496">
+      <firstname>Stéphanie</firstname>
+      <lastname>Chaillat</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="poems-2014-idp66720">
+      <firstname>Gary</firstname>
+      <lastname>Cohen</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Senior Researcher, until Mar 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idp68152">
+      <firstname>Christophe</firstname>
+      <lastname>Hazard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idm29496">
+      <firstname>Patrick</firstname>
+      <lastname>Joly</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idp79128">
+      <firstname>Colin</firstname>
+      <lastname>Chambeyron</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="poems-2014-idp76624">
+      <firstname>Nicolas</firstname>
+      <lastname>Kielbasiewicz</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="poems-2014-idp71056">
+      <firstname>Jean-François</firstname>
+      <lastname>Mercier</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2016-idp179760">
+      <firstname>Axel</firstname>
+      <lastname>Modave</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher, from Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp72512">
+      <firstname>Laurent</firstname>
+      <lastname>Bourgeois</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2014-idp73944">
+      <firstname>Patrick</firstname>
+      <lastname>Ciarlet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="poems-2015-idp116712">
+      <firstname>Bérangère</firstname>
+      <lastname>Delourme</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XIII, Associate Professor, until Nov 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp75376">
+      <firstname>Sonia</firstname>
+      <lastname>Fliss</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, Associate Professor</moreinfo>
+    </person>
+    <person key="poems-2014-idp69584">
+      <firstname>Marc</firstname>
+      <lastname>Lenoir</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, Professor</moreinfo>
+    </person>
+    <person key="poems-2014-idp77872">
+      <firstname>Eric</firstname>
+      <lastname>Lunéville</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Associate Professor</moreinfo>
+    </person>
+    <person key="poems-2014-idp80368">
+      <firstname>Christophe</firstname>
+      <lastname>Mathulik</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA</moreinfo>
+    </person>
+    <person key="poems-2016-idp200336">
+      <firstname>Konstantin</firstname>
+      <lastname>Pankrashkin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI, Associate Professor, from Sep 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp93344">
+      <firstname>Zouhair</firstname>
+      <lastname>Adnani</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2014-idp94568">
+      <firstname>Marc</firstname>
+      <lastname>Bakry</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>until Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp95576">
+      <firstname>Geoffrey</firstname>
+      <lastname>Beck</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>until Mar 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp96584">
+      <firstname>Antoine</firstname>
+      <lastname>Bensalah</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2016-idp212592">
+      <firstname>Antoine</firstname>
+      <lastname>Bera</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>from Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp102064">
+      <firstname>Rémi</firstname>
+      <lastname>Cornaggia</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>until Sep 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp103072">
+      <firstname>Luca</firstname>
+      <lastname>Desiderio</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2014-idp104080">
+      <firstname>Léandre</firstname>
+      <lastname>Giret</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2016-idp222352">
+      <firstname>Sandrine</firstname>
+      <lastname>Paolantoni</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>from Sep 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp106104">
+      <firstname>Laure</firstname>
+      <lastname>Pesudo</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2014-idp107328">
+      <firstname>Arnaud</firstname>
+      <lastname>Recoquillay</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="poems-2016-idp229664">
+      <firstname>Yohanes</firstname>
+      <lastname>Tjandrawidjaja</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>from Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp109560">
+      <firstname>Elizaveta</firstname>
+      <lastname>Vasilevskaya</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>until Jul 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp111584">
+      <firstname>Valentin</firstname>
+      <lastname>Vinoles</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>until Aug 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp112592">
+      <firstname>Emmanuel</firstname>
+      <lastname>Zerbib</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+    </person>
+    <person key="reo-2015-idp103240">
+      <firstname>Faisal</firstname>
+      <lastname>Amlani</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, from Nov 2016</moreinfo>
+    </person>
+    <person key="poems-2015-idp86904">
+      <firstname>Samuel</firstname>
+      <lastname>Groth</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, until Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2014-idp83896">
+      <firstname>Maryna</firstname>
+      <lastname>Kachanovska</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA</moreinfo>
+    </person>
+    <person key="apics-2014-idp111904">
+      <firstname>Dmitry</firstname>
+      <lastname>Ponomarev</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, from Oct 2016</moreinfo>
+    </person>
+    <person key="poems-2015-idp87928">
+      <firstname>Nicolas</firstname>
+      <lastname>Salles</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA</moreinfo>
+    </person>
+    <person key="poems-2016-idp251792">
+      <firstname>Corinne</firstname>
+      <lastname>Chen</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA</moreinfo>
+    </person>
+    <person key="aviz-2014-idp86760">
+      <firstname>Katia</firstname>
+      <lastname>Evrat</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="gamma3-2016-idp140704">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Perrot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="poems-2016-idp259184">
+      <firstname>Shashank</firstname>
+      <lastname>Anand</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Internship, from May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="poems-2016-idp261680">
+      <firstname>Omar</firstname>
+      <lastname>Darwiche Domingues</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Internship, from Dec 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>The topic of waves</bodyTitle>
+      <p>The propagation of waves is one of the most common physical phenomena one can
+meet in nature. From the human scale (sounds, vibrations, water waves,
+telecommunications, radar) to the scales of the universe (electromagnetic
+waves, gravity waves) and of the atoms (spontaneous or stimulated
+emission, interferences between particles), the emission and the reception of
+waves are our privileged way to understand the world that surrounds us.</p>
+      <p>The study and the simulation of wave propagation phenomena constitute a very
+broad and active field of research in various domains of physics and
+engineering sciences.</p>
+      <p>The variety and the complexity of the underlying problems, their scientific
+and industrial interest, the existence of a common mathematical structure to
+these problems from different areas justify together a research project in
+Scientific Computing entirely devoted to this theme.</p>
+    </subsection>
+    <subsection id="uid4" level="1">
+      <bodyTitle>POEMS activities</bodyTitle>
+      <p>The project POEMS is an UMR (Unité Mixte de Recherche) between CNRS, ENSTA ParisTech
+and Inria (UMR 7231). The general activity of the project is oriented toward
+the design, the analysis, the numerical approximation and the control of
+mathematical models for the description of wave propagation in mechanics,
+physics and engineering sciences.</p>
+      <p>Beyond the general objective of contributing to the progress of the
+scientific knowledge, four goals can be ascribed to the project:</p>
+      <simplelist>
+        <li id="uid5">
+          <p noindent="true">the development of expertise relative to various types of
+waves (acoustic, elastic, electromagnetic, gravity waves, ...), their modelling and numerical simulation,</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">the treatment of complex problems whose simulation is close enough to
+real life situations and industrial applications,</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">the development of original mathematical and numerical techniques,</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">the development of computational codes, in particular in collaboration
+with external partners (scientists from other disciplines, industry, state
+companies...)</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid9">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>General description</bodyTitle>
+      <p>Our activity relies on the existence of boundary value problems established by
+physicists to model the propagation of waves in various situations. The basic
+ingredient is a partial differential equation of the hyperbolic type, whose
+prototype is the wave equation (or the Helmholtz equation if time-periodic solutions are considered).
+Nowadays, the numerical techniques for solving the basic academic problems are well mastered. However, the solution of complex wave
+propagation problems close to real applications still raises (essentially
+open) problems which constitute a real challenge for applied
+mathematicians. In particular, several difficulties arise when extending the results and the methods from the scalar wave equation to vectorial problems modeling wave propagation in electromagnetism or elastodynamics.</p>
+      <p>A large part of research in mathematics, when applied to wave
+propagation problems, is oriented towards the following goals:</p>
+      <simplelist>
+        <li id="uid11">
+          <p noindent="true">The design of new numerical methods, increasingly accurate
+and efficient.</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true">The development of artificial transparent boundary conditions for handling unbounded propagation domains.</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">The treatment of more and more complex configurations (non local models, non
+linear models, coupled systems, periodic media).</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">The study of specific phenomena such as guided waves
+and resonances, which raise mathematical questions of spectral theory.</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">The development of approximate models via asymptotic analysis with multiple scales (thin layers, boundary layers effects, small heterogeneities, homogenization, ...).</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">The development and the analysis of algorithms for inverse problems (in particular for inverse scattering problems) and imaging techniques, using data from wave phenomena.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid17" level="1">
+      <bodyTitle>New schemes for time-domain simulations</bodyTitle>
+      <p>Problems of wave propagation naturally arise as problems of evolution and it is necessary to have efficient methods for the calculation of their solution, directly in the time domain. The development and analysis of such methods has been in the past an important part of POEMS activity. Nowadays, there exists a large variety of higher order numerical methods that allow us to solve with good accuracy and in short computational time most classical wave propagation problems. However, when on wishes to deal with real life applications, one has to tackle problems which are complex in many ways: they involve multi-physics, non standard (possibly nonlinear) constitutive laws, highly heterogeneous media with high contrasts of coefficients, complex geometries... In many cases, such problems escape to the direct application of the above mentioned methods
+and ad hoc dedicated methods have to be designed. Such methods are most often of hybrid nature, which includes domain decomposition methods and subgridding, mixing of integral equations and PDEs, and artificial
+boundary conditions. In time domain, a particularly challenging issue is the time stability, in particular concerning the coupling of algorithms. To cope with this major difficulty, a key issue (and a kind of graal for numerical analysts) is the development of energy preserving methods which is one of the specificity of the research developed at POEMS in this field.
+</p>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Integral equations</bodyTitle>
+      <p>Our activity in this field aims at developing accurate and fast methods for 3D problems.</p>
+      <p>On one hand, we developed a systematic approach to the analytical evaluation of singular integrals, which arise in the computation of the matrices of integral equations when two elements of the mesh are either touching each other or geometrically close.</p>
+      <p>On the other hand, POEMS is developing Fast Boundary Element Methods for 3D acoustics or elastodynamics, with applications to soil-structure interaction, seismology or seismic imaging.</p>
+      <p>Finally, a posteriori error analysis methodologies and adaptivity for boundary integral equation formulations of acoustic,
+electromagnetic and elastic wave propagation is investigated in the framework of the ANR project RAFFINE.
+</p>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Domain decomposition methods</bodyTitle>
+      <p>This is a come back to a topic in which POEMS contributed in the 1990's. It is motivated by our collaborations with the CEA-CESTA and the CEA-LIST, for the solution of large problems in time-harmonic electromagnetism and elastodynamics.</p>
+      <p>We combine in an original manner classical ideas of Domain Decomposition Methods with the specific formulations that we use for wave problems in unbounded domains, taking benefit of the available analytical representations of the solution (integral representation, modal expansion etc...).</p>
+      <p>One ANR project (NonLocalDD)
+supports this research.
+</p>
+    </subsection>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Wave propagation in complex media</bodyTitle>
+      <p>Our objective is first to develop efficient numerical approaches for
+the propagation of waves in heterogeneous media, taking into account their complex microstructure.</p>
+      <p>We aim on one hand to improve homogenized modeling of periodic media, by deriving enriched boundary conditions (or transmission conditions if the periodic structure is embedded in a homogeneous matrix) which take into account the boundary layer phenomena. On the other hand, we like to develop multi-scale numerical methods when the
+assumption of periodicity on the spatial distribution of the
+heterogeneities is relaxed, or even completely lost.
+The general idea consists in a coupling between a macroscopic solver, based on a coarse mesh, with some microscopic representation of the field. This latter can be obtained by a numerical microscopic
+solver or by an analytical asymptotic expansion. This leads to two very different approaches which may be relevant for very different applications.</p>
+      <p>Extraordinary phenomena regarding the propagation of electromagnetic or acoustic waves
+appear in materials which have non classical properties: materials with a complex periodic
+microstructure that behave as materials with negative physical parameters, metals
+with a negative dielectric permittivity at optical frequencies, magnetized plasmas
+endowed with a strongly anisotropic and sign-indefinite permittivity tensor.
+These non classical materials raise original questions from theoretical and numerical points
+of view.</p>
+      <p>The objective is to study the well-posedness in this unusual context where physical parameters are sign-changing. New functional frameworks must be introduced, due, for instance, to hypersingularities of the electromagnetic field which appear at corners of metamaterials. This has of course numerical counterparts. In particular, classical Perfectly Matched Layers are unstable in these dispersive media, and new approaches must be developed.</p>
+      <p>Two ANR projects (METAMATH and CHROME) are related to this activity.
+</p>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Spectral theory and modal approaches</bodyTitle>
+      <p>The study of waveguides is a longstanding and major topic of the team.
+Concerning the selfadjoint spectral theory for open waveguides, we turned recently to the
+very important case of periodic media. One objective is to design periodic
+structures with localized perturbations to create gaps in the spectrum, containing isolating
+eigenvalues.</p>
+      <p>Then, we would like to go further in proving the absence of localized modes in non uniform
+open waveguides. An original approach has been successfully applied to the
+scalar problem of a waveguides junctions or bent waveguides. The challenge now is to extend these ideas to vectorial problems (for applications to electromagnetism or elastodynamics) and to junctions of periodic waveguides.</p>
+      <p>Besides, we will continue our activity on modal methods for closed waveguides. In particular,
+we aim at extending the enriched modal method to take into account curvature
+and rough boundaries.</p>
+      <p>Finally, we are developing asymptotic models for networks of thin waveguides which arise in several applications (electric networks, simulation of lung, nanophotonics...).</p>
+      <p>The study of waveguides is a longstanding and major topic of the team.</p>
+      <p>On this topic, a workshop entitled « New trends in theoretical and numerical analysis of waveguides » was co-organized by Anne-Sophie Bonnet-Ben Dhia (and Philippe Briet and Eric Soccrosi from CPT, Marseille and Michel Cristofol from I2M, Marseille) at IGESA (Porquerolles) from May 16th to 19th. This workshop is part of series of workshops organised from 2011 (in 2011 at Irmar, Rennes, in 2012 at Marseille, in 2013 at POems, Palaiseau, in 2015 at Napoli). The aim of these workshops is to bring together researchers from Mathematics, mathematical physics, theoretical physics and numerical analysis in order to encourage and stimulate the interactions between the different communities on problems associated to waveguides.</p>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Inverse problems</bodyTitle>
+      <p>Building on the strong expertise of POEMS in the mathematical modeling of waves, most
+of our contributions aim at improving inverse scattering methodologies.</p>
+      <p>We acquired some expertise on the so called Linear Sampling Method, from both the theoretical and the practical points of view. Besides, we are working on topological derivative methods, which exploit small-defect asymptotics of misfit functionals and can thus be
+viewed as an alternative sampling approach, which can take benefit of our expertise
+on asymptotic methods.</p>
+      <p>An originality of our activity is to consider inverse
+scattering in waveguides (the inverse
+scattering community generally considers only free-space configurations). This is motivated at the same time by specific issues
+concerning the ill-posedness of the identification process and by applications to non-destructive techniques, for waveguide configurations (cables, pipes, plates etc...).</p>
+      <p>Lastly, we continue our work on the so-called exterior approach for solving inverse obstacle
+problems, which associates
+quasi-reversibility and level set methods. The objective is now to extend it to evolution problems.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid23">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Acoustics</bodyTitle>
+      <p>Two particular subjects have retained our attention recently.</p>
+      <p>1- Aeroacoustics, or more precisely, acoustic propagation in a moving compressible fluid, has
+been for our team a very challenging topic, which gave rise to a lot of open questions,
+from the modeling until the numerical approximation of existing models. Our works in
+this area are partially supported by EADS and Airbus. The final objective is to reduce the noise radiated by Airbus planes.</p>
+      <p>2- Musical acoustics constitute a particularly attractive application. We are concerned by
+the simulation of musical instruments whose objectives are both a better understanding of
+the behavior of existing instruments and an aid for the manufacturing of new instruments. We have successively considered
+the timpani, the guitar and the piano. This activity is continuing in the framework of the European Project
+BATWOMAN.
+</p>
+    </subsection>
+    <subsection id="uid25" level="1">
+      <bodyTitle>Electromagnetism</bodyTitle>
+      <p>Applied mathematics for electromagnetism during the last ten
+years have mainly concerned stealth technology and electromagnetic compatibility. These
+areas are still motivating research in computational sciences (large scale computation) and
+mathematical modeling (derivation of simplified models for multiscale problems). These
+topics are developed in collaboration with CEA, DGA and ONERA.</p>
+      <p>Electromagnetic propagation in non classical media opens a wide and unexplored field
+of research in applied mathematics. This is the case of wave propagation in photonic crystals,
+metamaterials or magnetized plasmas. Two ANR projects (METAMATH and CHROME)
+support this research.</p>
+      <p>Finally, the simulation electromagnetic (possibly complex, even
+fractal) networks is motivated by destructive testing applications. This topic is
+developed in partnership with CEA-LIST.
+</p>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Elastodynamics</bodyTitle>
+      <p>Wave propagation in solids is with no doubt, among the three fundamental
+domains that are acoustics, electromagnetism and elastodynamics, the one that
+poses the most significant difficulties from mathematical and numerical points of view.
+A major application topic has emerged during the past years : the non destructive testing
+by ultra-sounds which is the main topic of our collaboration with CEA-LIST.
+On the other hand, we are developing efficient integral equation modelling for geophysical
+applications (soil-structure interaction for civil engineering, seismology).
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid27">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>
+        <big>
+          <b>Workshop METAMATH</b>
+        </big>
+      </p>
+      <p>This event marked the end of the project METAMATH,</p>
+      <p>funded by the French National Research Agency (ANR). The METAMATH project, led by Sonia Fliss, involved:</p>
+      <p>- from POEMS, Sonia Fliss, Anne-Sophie Bonnet Ben Dhia, Patrick Ciarlet, Patrick Joly, Camille Carvalho and Valentin Vinoles;</p>
+      <p>- from DEFI, Lucas Chesnel, Houssem Haddar, Mathieu Chamaillard and Thi Phong Nguyen;</p>
+      <p>- from Laboratoire Jacques Louis Lions, Xavier Claeys ;</p>
+      <p>- from IMATH, Université de Toulon, Guy Bouchitté and Christophe Bourel.</p>
+      <p>The motivation of this project was to contribute to the development of mathematical models for the study of periodic media and metamaterials, which are both physically relevant and available for numerical computations.</p>
+      <p>The aim of the workshop was to bring together physicists and mathematicians to make an overview of the recent researches and the new perspectives on the field.</p>
+      <p>The colloquium has taken place at Institut d’études scientifiques de Cargese, near Ajaccio, at Corsica from November 23rd until November 25th.
+There were about 40 participants.</p>
+      <p>
+        <big>
+          <b>Workshop on Mathematical and Numerical Modeling in Optics</b>
+        </big>
+      </p>
+      <p>This workshop, co-organized by Anne-Sophie Bonnet-Ben Dhia, was a part of the yearlong IMA (Institute of Mathematics and Applications) program in Mathematics and Optics, which brings together applied mathematicians, physical scientists and engineers to confront challenging problems arising in optics. It has taken place in Minneapolis from December 12th to December 16th.</p>
+      <p>It concerned more specifically researchers interested in the mathematical and numerical modeling of optical phenomena, especially spectral problems arising in photonics involving dispersion relations and band structures, eigenfunctions, and scattering resonances. Specific areas of focus included: (i) efficient computational methods for scattering and spectral problems and (ii) properties and optimal design of extreme materials and photonic devices. These problems arise in the study of photonic crystals and periodic media, diffraction gratings, metamaterials, graphene and related materials with Dirac points, and cloaking devices.</p>
+      <p>There were about 70 participants.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid29">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid30" level="1">
+      <bodyTitle>COFFEE</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>COFFEE is a 3D solver for linear elastodynamics based on fast BEMs (full implementation in Fortran 90). The 3-D elastodynamic equations are solved with the boundary element method accelerated by the multi-level fast multipole method or H-matrix based solvers. The fundamental solutions for the infinite or half-space are used. A boundary element-boundary element coupling strategy is also implemented so multi-region problems (strata inside a valley for example) can be solved.</p>
+      <simplelist>
+        <li id="uid31">
+          <p noindent="true">Contact: Stéphanie Chaillat</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">URL: <ref xlink:href="http://perso.ensta-paristech.fr/~chaillat/index.php?page=softwares" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>perso.<allowbreak/>ensta-paristech.<allowbreak/>fr/<allowbreak/>~chaillat/<allowbreak/>index.<allowbreak/>php?page=softwares</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid33" level="1">
+      <bodyTitle>XLiFE++</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>XLiFE++ is a Finite Element library written in C++ based on a variational approach and standard finite element methods, boundary element methods, spectral approximations. It allows to mix these different methods in a easy way to deal with complex models. A new version (v1.5) has been released in November 2016. This year, many bugs have been fixed and many improvements have been done. The main new features are: introduction of hierarchical matrix, new development for BEM computation (2D Helmholtz is now available), re-engineering of the automatic installation and compilation and connection to a Jenkins test platform. Two training days gathering thirty people have been organized in June 2016.</p>
+      <simplelist>
+        <li id="uid34">
+          <p noindent="true">Contact: Eric Lunéville and Nicolas Kielbasiewicz</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">URL: <ref xlink:href="http://uma.ensta-paristech.fr/soft/XLiFE++/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>uma.<allowbreak/>ensta-paristech.<allowbreak/>fr/<allowbreak/>soft/<allowbreak/>XLiFE++/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid36">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid37" level="1">
+      <bodyTitle>New schemes for time-domain simulations</bodyTitle>
+      <subsection id="uid38" level="2">
+        <bodyTitle>Solving the Homogeneous Isotropic Linear Elastodynamics Equations Using Potentials</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm29496">
+            <firstname>Patrick</firstname>
+            <lastname>Joly</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Sébastien Impériale (EPI M3DISIM) and Jorge Albella from the University of Santiago de Compostela.
+We consider the numerical solution of 2D elastodynamic equations using the decomposition of
+the displacement fields into potentials. This appears as a challenge for finite element methods.
+We address here the particular question of free
+boundary conditions. A stable (mixed) variational formulation of the evolution problem is
+proposed based on a clever choice of Lagrange
+multipliers. This is expected to
+be efficient when the velocity of shear waves is much smaller than the velocity of pressure waves, since one can adapt
+the discretization to each type of waves.</p>
+      </subsection>
+      <subsection id="uid39" level="2">
+        <bodyTitle>Discontinuous Galerkin method with high-order absorbing boundary conditions</bodyTitle>
+        <participants>
+          <person key="poems-2016-idp179760">
+            <firstname>Axel</firstname>
+            <lastname>Modave</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Andreas Atle from TOTAL, Jesse Chan from Rice University and Tim Warburton from Virginia Tech.</p>
+        <p>Discontinuous Galerkin finite element schemes exhibit attractive features for large-scale time-domain wave-propagation simulations on modern parallel architectures (e.g. GPU clusters). For many applications, these schemes must be coupled with non-reflective boundary treatments to limit the size of the computational domain without losing accuracy or computational efficiency, which remains a challenging task.</p>
+        <p>We propose a combination of a nodal discontinuous Galerkin method with high-order absorbing boundary conditions (HABCs) for cuboidal computational domains. Compatibility conditions are derived for HABCs intersecting at the edges and the corners of a cuboidal domain. We propose a GPU implementation of the computational procedure, which results in a multidimensional solver with equations to be solved on 0D, 1D, 2D and 3D spatial regions. Numerical results demonstrate both the accuracy and the computational efficiency of our approach.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Integral equations</bodyTitle>
+      <subsection id="uid41" level="2">
+        <bodyTitle>Mesh adaptation for the fast multipole method in acoustics</bodyTitle>
+        <participants>
+          <person key="reo-2015-idp103240">
+            <firstname>Faisal</firstname>
+            <lastname>Amlani</lastname>
+          </person>
+          <person key="poems-2014-idp65496">
+            <firstname>Stéphanie</firstname>
+            <lastname>Chaillat</lastname>
+          </person>
+          <person key="poems-2015-idp86904">
+            <firstname>Samuel</firstname>
+            <lastname>Groth</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Adrien Loseille (EPI Gamma3).
+We introduce a metric-based anisotropic mesh
+adaptation strategy for the fast multipole accelerated
+boundary element method (FM-BEM)
+applied to exterior boundary value problems of
+the three-dimensional Helmholtz equation. The
+present methodology is independent of discretization
+technique and iteratively constructs meshes
+refined in size, shape and orientation according
+to an <i>optimal</i> metric reliant on a reconstructed
+Hessian of the boundary solution. The
+resulting adaptation is anisotropic in nature and
+numerical examples demonstrate optimal convergence
+rates for domains that include geometric
+singularities such as corners and ridges.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>Coupling integral equations and high-frequency methods</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm28032">
+            <firstname>Marc</firstname>
+            <lastname>Bonnet</lastname>
+          </person>
+          <person key="poems-2014-idp69584">
+            <firstname>Marc</firstname>
+            <lastname>Lenoir</lastname>
+          </person>
+          <person key="poems-2014-idp77872">
+            <firstname>Eric</firstname>
+            <lastname>Lunéville</lastname>
+          </person>
+          <person key="poems-2014-idp106104">
+            <firstname>Laure</firstname>
+            <lastname>Pesudo</lastname>
+          </person>
+          <person key="poems-2015-idp87928">
+            <firstname>Nicolas</firstname>
+            <lastname>Salles</lastname>
+          </person>
+        </participants>
+        <p>This theme concerns wave propagation phenomena which involve two different space scales, namely, on the one hand, a medium scale associated with lengths of the same order of magnitude as the wavelength (medium-frequency regime) and on the other hand, a long scale related to lengths which are large compared to the wavelength (high-frequency regime). Integral equation methods are known to be well suited for the former, whereas high-frequency methods such as geometric optics are generally used for the latter. Because of the presence of both scales, both kinds of simulation methods are simultaneously needed but these techniques do not lend themselves easily to coupling.</p>
+        <p>A first situation, considered by Marc Lenoir, Eric Lunéville and Nicolas Salles, is the scattering of an acoustic wave by two sound-hard obstacles: a large obstacle subject to high-frequency regime relatively to the wavelength and a small one subject to medium-frequency regime. The technique proposed in this case consists in an iterative method which allows to decouple the two obstacles and to use Geometric Optics for the large obstacle and Boundary Element Method for the small obstacle. The method is implemented on the XLife++ library developed in the lab.</p>
+        <p>The second situation, undertaken in the context of the PhD thesis of Laure Pesudo, is the subject of a partnership with CEA LIST and a collaboration with Francis Collino. Modelling ultrasonic non destructive testing (NDT) experiments simultaneously involves the scattering of waves by defects of moderate size (for which discretization-based methods such as the BEM are appropriate) and propagation over large distances (requiring high-frequency approximations). A new hybrid strategy between the boundary element method (BEM) and ray tracing is proposed in order to allow the accurate and quick simulation of high frequency Non Destructive Testing (NDT) configurations involving diffraction phenomena. Results from its implementation to 2D acoustic NDT-like diffraction configurations have been obtained. The strategy proposed is however generic, and can be extended to three-dimensional configurations and elastodynamic wave propagation.</p>
+      </subsection>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Dynamic soil-structure interaction</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm28032">
+            <firstname>Marc</firstname>
+            <lastname>Bonnet</lastname>
+          </person>
+          <person key="poems-2014-idp65496">
+            <firstname>Stéphanie</firstname>
+            <lastname>Chaillat</lastname>
+          </person>
+          <person key="poems-2014-idp93344">
+            <firstname>Zouhair</firstname>
+            <lastname>Adnani</lastname>
+          </person>
+        </participants>
+        <p>This work, undertaken in the context of the PhD thesis of Zouhair Adnani (CIFRE partnership with EDF), concerns the simulation of dynamic soil-structure interaction (SSI) in connection with seismic assessment of civil engineering structures. Because of the complementary specificities of the finite element method (FEM) and the boundary element method (BEM), it is natural to use the BEM to model the unbounded soil domain, while the FEM is applied for the bounded region comprising the structure undergoing assessment, and possibly its close-range soil environment.</p>
+        <p>The originality of this work is to formulate, implement, and evaluate on realistic test examples, a computational strategy that combines the fast multipole accelerated boundary element method (visco-elastodynamic COFFEE solver), and the EDF in-house FEM code Code_Aster. In a preliminary phase, the evaluation of transient elastodynamic responses via the Fourier synthesis of frequency domain solutions computed using COFFEE (see Section 5.1 ) has been studied on several test problems, achieving substantial improvements of computational efficiency for this component of SSI analysis.</p>
+        <p>The coupling between the two methods is then done in a black-box fashion with the substructuring method by computing the soil impedance (i.e. elastodynamic Poincaré-Steklov) operator relating forces to displacements on the FEM-BEM coupling interface. One of the main challenges is that this operator cannot be assembled due to the iterative nature of the FM-BEM and the potentially large number of degrees of freedom supported by the interface. To reduce the computational costs, we instead compute its projection on a reduced basis of interface modes, which requires to perform as many FM-BEM calculations as interface modes selected. This approach has so far been compared to reference solutions and validated for superficial and buried foundations on homogeneous or heterogeneous soil.</p>
+      </subsection>
+      <subsection id="uid44" level="2">
+        <bodyTitle>Volume Integral Formulations</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm28032">
+            <firstname>Marc</firstname>
+            <lastname>Bonnet</lastname>
+          </person>
+        </participants>
+        <p>Volume integral equations (VIEs), also known as Lippmann-Schwinger integral equations, arise naturally when considering the scattering of waves by penetrable, and possibly heterogeneous, inhomogeneities embedded in a homogeneous background medium (for which a fundamental solution is explicitly known). Their derivation and use in e.g. acoustics, elastodynamics or electromagnetism goes back several decades. Since their geometrical support is confined to the spatial region where material properties differ from the background, VIEs are in particular useful for the derivation and justification of homogenized or asymptotic models (the latter providing our main motivation for this study, in connection with [section gradient topologique]). By directly linking remote measurements to unknown inhomogeneities, VIEs also provide a convenient forward modeling approach for medium imaging inverse problems. However, whereas the theory of boundary integral equations is extensively documented, the mathematical properties of VIEs have undergone a comparatively modest coverage, much of it pertaining to electromagnetic scattering problems.</p>
+        <p>In this work, we investigate the solvability of VIE formulations arising in elastodynamic scattering by penetrable obstacles. The elasticity tensor and mass density are allowed to be smoothly heterogeneous inside the obstacle and may be discontinuous across the background-obstacle interface, the background elastic material being homogeneous. Both materials may be anisotropic, within certain limitations for the background medium.</p>
+        <p>Towards this goal, we have introduced a modified version of the singular volume integral equation (SVIE) governing the corresponding elastostatic (i.e. zero frequency) problem, and shown it to be of second kind involving a contraction operator, i.e. solvable by Neumann series, for any background material and inhomogeneity material and geometry. Then, the solvability of VIEs for frequency-domain elastodynamic scattering problems follows by a compact perturbation argument, assuming uniqueness to be established. In particular, in an earlier work, we have established a uniqueness result for the anisotropic background case (where, to avoid difficulties associated with existing radiation conditions for anisotropic elastic media, we have proposed an alternative definition of the radiating character of solutions, which is equivalent to the classical Sommerfeld-Kupradze conditions for the isotropic background case). This investigation extends work by Potthast (1999) on 2D electromagnetic problems (transverse-electric polarization conditions) involving orthotropic inhomogeneities in a isotropic background, and contains recent results on the solvability of Eshelby's equivalent inclusion problem as special cases. The proposed modified SVIE is also useful for fixed-point iterative solution methods, as Neumannn series then converge (i) unconditionally for static problems and (ii) on some inhomogeneity configurations for which divergence occurs with the usual SVIE for wave scattering problems.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Domain decomposition methods</bodyTitle>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Transparent boundary conditions with overlap in unbounded anisotropic media</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm30984">
+            <firstname>Anne-Sophie</firstname>
+            <lastname>Bonnet-Ben Dhia</lastname>
+          </person>
+          <person key="poems-2014-idp75376">
+            <firstname>Sonia</firstname>
+            <lastname>Fliss</lastname>
+          </person>
+          <person key="poems-2016-idp229664">
+            <firstname>Yohanes</firstname>
+            <lastname>Tjandrawidjaja</lastname>
+          </person>
+        </participants>
+        <p>This work is done in the framework of the PhD of Yohanes Tjandrawidjaja, funded by CEA-LIST, in collaboration with Vahan Baronian form CEA. This follows the PhD of Antoine Tonnoir (now Assistant Professor at Insa of Rouen) who developed a new approach, the Half-Space Matching Method, to solve scattering problems in 2D unbounded anisotropic media. The objective is to extend the method to a 3D plate of finite width.</p>
+        <p>In 2D, our approach consists in coupling several plane-waves representations of the solution in half-spaces surrounding the defect with a FE computation of the solution around the defect. The difficulty is to ensure that all these representations match, in particular in the infinite intersections of the half-spaces. It leads to a Fredholm formulation which couples, via integral operators, the solution in a bounded domain including the defect and some traces of the solution on the edge of the half-planes.</p>
+        <p>The extension to 3D elastic plates requires some generalizations of the formulation which are not obvious. In particular, we have to use Neumann traces of the solution, which raises difficult theoretical questions.</p>
+        <p>As a first step,
+we have considered a scattering problem outside a convex polygonal scatterer for a general class of boundary conditions, using the Half-Space Matching Method. Using the Mellin Transform, we are able to show that this system is coercive + compact in presence of dissipation.</p>
+        <p>Let us mention that the Half-Space Matching Method has been extended successfully by Julian Ott (Karlsruhe Institut für Technologie) to the scattering by junctions of open waveguides in 2D.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Domain Decomposition Methods for the neutron diffusion equation</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp73944">
+            <firstname>Patrick</firstname>
+            <lastname>Ciarlet</lastname>
+          </person>
+          <person key="poems-2014-idp104080">
+            <firstname>Léandre</firstname>
+            <lastname>Giret</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Erell Jamelot (CEA-DEN, Saclay) and Félix Kpadonou (LMV, UVSQ).
+Studying numerically the steady state of a nuclear core reactor is expensive, in terms of memory storage and computational time. In its simplest form, one must solve a neutron diffusion equation with low-regularity solutions, discretized by mixed finite element techniques, within a loop. Iterating in this loop allows to compute the smallest eigenvalue of the system, which determines the critical, or non-critical, state of the core. This problem fits within the framework of high performance computing so, in order both to optimize the memory storage and to reduce the computational time, one can use a domain decomposition method, which is then implemented on a parallel computer: this is the strategy used for the APOLLO3 neutronics code. The development of non-conforming DD methods for the neutron diffusion equation with low-regularity solutions has recently been finalized, cf. [PC,EJ,FK'1x]. The theory for the eigenvalue problem is also understood. The current research now focuses on the numerical analysis of the full suite of algorithms to prove convergence for the complete multigroup SPN model (which involves coupled diffusion equations).
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Wave propagation in complex media</bodyTitle>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Perfectly Matched Layers in plasmas and metamaterials</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm26624">
+            <firstname>Eliane</firstname>
+            <lastname>Bécache</lastname>
+          </person>
+          <person key="poems-2014-idp83896">
+            <firstname>Maryna</firstname>
+            <lastname>Kachanovska</lastname>
+          </person>
+        </participants>
+        <p>In this work we consider the problem of the modelling of 2D anisotropic dispersive wave propagation in unbounded domains with the help of perfectly matched layers (PML). We study the Maxwell equations in passive media with the frequency-dependent diagonal tensor of dielectric permittivity and magnetic permeability. An application of the traditional PMLs to this kind of problems often results in instabilities, due to the presence of so-called backward propagating waves. In previous works, this instability was overcome with the help of the frequency-dependent correction of the PML, for isotropic dispersive models.</p>
+        <p>We show that this idea can be extended to a more general class of models (uniaxial cold plasma, some anisotropic metamaterials). Crucially, we base our considerations on the Laplace-domain techniques. This allows to avoid the analysis of the group and phase velocity (used before) but study (rather formally) coercivity properties of the sesquilinear form corresponding to the PML model in the Laplace domain. The advantage of this method is that it permits to treat problems with dissipation, and provides an intuition on how to obtain explicit energy estimates for the resulting PML models in the time domain. However, such analysis does not allow to obtain easily the necessary stability condition of the PML. We demonstrate that the necessary stability conditions of the PML can be rewritten for a class of models in a form that is easy to verify, and demonstrate that these conditions are sufficient for the stability of the new PMLs with the help of the Laplace-domain techniques. Thanks to the Laplace domain analysis, we are able to rewrite a PML system in the time domain in a form, for which the derivation of energy estimates is simplified (compared to other formulations).</p>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Transparent Boundary Conditions for the
+Wave Propagation in Fractal Trees </bodyTitle>
+        <participants>
+          <person key="poems-2014-idm29496">
+            <firstname>Patrick</firstname>
+            <lastname>Joly</lastname>
+          </person>
+          <person key="poems-2014-idp83896">
+            <firstname>Maryna</firstname>
+            <lastname>Kachanovska</lastname>
+          </person>
+        </participants>
+        <p>This work, done in collaboration with Adrien Semin (Postdoctoral student at the Technische Universität of Berlin), is dedicated to an efficient resolution of the wave equation in self-similar trees (e.g. wave propagation in a human lung). In this case it is possible to avoid computing the solution at deeper levels of the tree by using the transparent boundary conditions. The corresponding DtN operator is defined by a functional equation in the frequency domain. In this work we propose and compare two approaches to the discretization of this operator in the time domain. The first one is based on the multistep convolution quadrature, while the second one stems from the rational approximations.</p>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>High order transmission conditions between homogeneous and homogenized periodic
+half-spaces</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp75376">
+            <firstname>Sonia</firstname>
+            <lastname>Fliss</lastname>
+          </person>
+          <person key="poems-2014-idp111584">
+            <firstname>Valentin</firstname>
+            <lastname>Vinoles</lastname>
+          </person>
+        </participants>
+        <p>This work is a part of the PhD of Valentin Vinoles, and is done in collaboration with Xavier Claeys from Paris 6 University and EPI ALPINE.
+It is motivated by the fact that classical homogenization theory poorly takes
+into account interfaces, which is particularly unfortunate when considering negative materials, because important phenomena arise precisely at their surface (plasmonic waves for instance).
+To overcome this limitation, we want to construct high
+order transmission conditions. For now, we have treated the case of a plane interface between a homogeneous and a periodic half spaces. Using matched asymptotic techniques, we have derived high order transmission conditions. We have then introduced an approximate model associated to this asymptotic expansions which consists in replacing the periodic media by an effective one but the transmission conditions are not classical. The obtained conditions involve Laplace-
+Beltrami operators at the interface and requires
+to solve cell problems in periodicity cell (as in classical homogenisation) and in infinite strips (to take into account the phenomena near the interface). We establish well posedness for the approximate and error estimate which justify that this new model is more accurate near the interface and in the bulk.
+From a numerical point of view, the only difficulty comes from the problems set in infinite strips (one half is homogeneous and the other is periodic). This is overcome using DtN operators corresponding to the homogeneous and the periodic media.The numerical results confirm the theoretical ones.</p>
+      </subsection>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Finite Element Heterogeneous Multiscale Method for Maxwell’s Equations</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp73944">
+            <firstname>Patrick</firstname>
+            <lastname>Ciarlet</lastname>
+          </person>
+          <person key="poems-2014-idp75376">
+            <firstname>Sonia</firstname>
+            <lastname>Fliss</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Christian Stohrer (Karlsruhe Institute of Technology, Allemagne). In recent years, the Finite Element Heterogeneous Multiscale Method (FE-HMM) has been used to approximate the effective behavior of solutions to PDEs in highly oscillatory media. We started on the extension of the FE-HMM to the Helmholtz equation in such media, and recently we solved the time-harmonic Maxwell equations case. Using a combination of results regarding the FE-HMM and the notion of T-coercivity applied to Maxwell's equations, we derive an a priori error bound and the error. Moreover, numerical experiments corroborate the analytical findings, cf. [PC,SF,CS'1x].
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>Spectral theory and modal approaches for waveguides</bodyTitle>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Plasmonic waveguides</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm30984">
+            <firstname>Anne-Sophie</firstname>
+            <lastname>Bonnet-Ben Dhia</lastname>
+          </person>
+          <person key="poems-2014-idp73944">
+            <firstname>Patrick</firstname>
+            <lastname>Ciarlet</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Camille Carvalho (UC Merced, California, USA) and Lucas Chesnel (EPI DEFI). A plasmonic waveguide is a cylindrical structure consisting of metal and dielectric parts. In a certain frequency range, the metal can be seen as a lossless material with a negative dielectric permittivity. The study of the modes of a plasmonic waveguide is then presented as a model eigenvalue problem with a sign-change of coefficients in the main part of the operator. Depending on the values of the contrast of permittivities at the metal/dielectric interface, different situations may occur. We focus on the situation where the interface between metal and dielectric presents corners. For a particular contrast range, the problem is neither self-adjoint nor with compact resolvent, this is the "critical" case. Whereas in the "nice" case, the problem is self-adjoint with compact resolvent and admits two sequences of eigenvalues tending to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mi>∞</mi></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>+</mo><mi>∞</mi></mrow></math></formula>. In the "critical" case, Kondratiev's theory of singularities allows to build extensions of the operator, with compact resolvent. We show that the eigenvalues for one of these extensions can be computed by combining finite elements and Perfectly Matched Layers at the corners. The paradox is that a specific treatment has to be done to capture the corners singularities, even to compute regular eigenmodes. In the "nice" case, we propose and analyze numerical techniques based on the notion of T-coercive meshes that allow to solve the model problem.</p>
+      </subsection>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Modal analysis of electromagnetic dispersive media</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp68152">
+            <firstname>Christophe</firstname>
+            <lastname>Hazard</lastname>
+          </person>
+          <person key="poems-2016-idp222352">
+            <firstname>Sandrine</firstname>
+            <lastname>Paolantoni</lastname>
+          </person>
+        </participants>
+        <p>We investigate the
+spectral effects of an interface between a usual
+dielectric and a negative-index material (NIM),
+that is, a dispersive material whose electric permittivity and magnetic permeability become negative in some frequency range. We consider here
+an elementary situation, namely, 1) the simplest existing model of NIM : the Drude model
+(for which negativity occurs at low frequencies);
+2) a two-dimensional scalar model derived from
+the complete Maxwell's equations; 3) the case
+of a simple bounded cavity: a camembert-like
+domain partially</p>
+        <p>lled with a portion of non
+dissipative Drude material. Because of the frequency dispersion (the permittivity and permeability depend on the frequency), the spectral
+analysis of such a cavity is unusual since it yields
+a nonlinear eigenvalue problem. Thanks to the
+use of an additional unknown, we show how to
+linearize the problem and we present a complete
+description of the spectrum.</p>
+      </subsection>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Formulation of invisibility in waveguides as an eigenvalue problem</bodyTitle>
+        <participants>
+          <person key="poems-2016-idp212592">
+            <firstname>Antoine</firstname>
+            <lastname>Bera</lastname>
+          </person>
+          <person key="poems-2014-idm30984">
+            <firstname>Anne-Sophie</firstname>
+            <lastname>Bonnet-Ben Dhia</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Lucas Chesnel from EPI DEFI, Vincent Pagneux from Laboratoire d'Acoustique de l'Université du Maine and Sergei Nazarov from Russian Academy of Sciences.
+A scatterer placed in an infinite waveguide may be <i>invisible</i> at particular discrete frequencies. We consider two different definitions of invisibility: no reflection (but possible conversion or phase shift in transmission) or perfect invisibility (the scattered field is exponentially decaying at infinity). Our objective is to show that the invisibility frequencies can be characterized as eigenvalues of some spectral problems. Two different approaches will be used for the two different definitions of invisibility, leading to non-selfadjoint eigenvalue problems. Concerning the non-reflection case, our approach based on an original use of PMLs allows to extend to higher dimension and to complex eigenvalues the results obtained by Hernandez-Coronado, Krejcirik and Siegl on a 1D model problem.</p>
+      </subsection>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Transparent boundary conditions for general waveguide problems</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm30984">
+            <firstname>Anne-Sophie</firstname>
+            <lastname>Bonnet-Ben Dhia</lastname>
+          </person>
+          <person key="poems-2014-idp75376">
+            <firstname>Sonia</firstname>
+            <lastname>Fliss</lastname>
+          </person>
+        </participants>
+        <p>In this work, done in collaboration with Antoine Tonnoir from INSA of Rouen, we propose a construction of transparent
+boundary conditions which can be used
+for quite general waveguide problems. Classical
+Dirichlet-to-Neumann maps used for homogeneous
+acoustic waveguides can be constructed
+using separation of variables and the orthogonality
+of the modes on one transverse section.
+These properties are also important for the mathematical
+and numerical analysis of problems involving
+DtN maps. However this framework
+does not extend directly to strati</p>
+        <p>ed, anisotropic
+or periodic waveguides and for Maxwell's or elastic
+equations. The difficulties are that (1) the
+separation of variables is not always possible
+and (2) the modes of the waveguides are not
+necessarily orthogonal on the transverse section.
+We propose an alternative to the DtN maps
+which uses two artificial boundaries and is constructed
+using a more general orthogonality property.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid58" level="1">
+      <bodyTitle>Inverse problems</bodyTitle>
+      <subsection id="uid59" level="2">
+        <bodyTitle>Linear Sampling Method with realistic data in waveguides</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp72512">
+            <firstname>Laurent</firstname>
+            <lastname>Bourgeois</lastname>
+          </person>
+          <person key="poems-2014-idp107328">
+            <firstname>Arnaud</firstname>
+            <lastname>Recoquillay</lastname>
+          </person>
+        </participants>
+        <p>Our activities in the field of inverse scattering in waveguides with the help of sampling methods has now a quite long history.
+We now intend to apply these methods in the case of realistic data, that is surface data in the time domain. This is the subject of the PhD of Arnaud Recoquillay. It is motivated by Non Destructive Testing activities for tubular structures and is the object of a partnership with CEA List (Vahan Baronian).</p>
+        <p>Our strategy consists in transforming the time domain problem into a multi-frequency problem by the Fourier
+transform. This allows us to take full advantage of the established efficiency of
+modal frequency-domain sampling methods.
+We have already proved the feasibility of our approach in the 2D acoustic and 2D elastic case. In particular, we have shown how to optimize the number of sources/receivers and the distance between them in order to obtain the best possible identification result. Experiments are currently carried in CEA.</p>
+      </subsection>
+      <subsection id="uid60" level="2">
+        <bodyTitle>The “exterior approach" to solve inverse obstacle problems</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp72512">
+            <firstname>Laurent</firstname>
+            <lastname>Bourgeois</lastname>
+          </person>
+          <person key="poems-2014-idp107328">
+            <firstname>Arnaud</firstname>
+            <lastname>Recoquillay</lastname>
+          </person>
+        </participants>
+        <p>We consider some inverse obstacle problems in acoustics by using a single incident wave, either in the frequency or in the time domain.
+When so few data are available, a Linear Sampling type method cannot be applied.
+In order to solve those kinds of problem, we propose an “exterior approach", coupling a mixed formulation of quasi-reversibility and a simple level set method.
+In such iterative approach, for a given defect <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula>, we update the solution <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>u</mi></math></formula> with the help of a mixed formulation of quasi-reversibility while for a given solution <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>u</mi></math></formula>, we update the defect <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula> with the help of a level set method based on a Poisson problem.
+The case of data in the frequency domain has been studied for the waveguide geometry. We currently investigate the case of data in a finite time domain.</p>
+      </subsection>
+      <subsection id="uid61" level="2">
+        <bodyTitle>Topological derivatives of leading- and second-order homogenized coefficients.</bodyTitle>
+        <participants>
+          <person key="poems-2014-idm28032">
+            <firstname>Marc</firstname>
+            <lastname>Bonnet</lastname>
+          </person>
+          <person key="poems-2014-idp102064">
+            <firstname>Rémi</firstname>
+            <lastname>Cornaggia</lastname>
+          </person>
+        </participants>
+        <p>This work is done in collaboration with Bojan Guzina from University of Minnesota.
+We derive the topological derivatives of the homogenized coefficients associated to a periodic material, with respect
+of the small size of a penetrable inhomogeneity introduced in the unit cell that defines such material. In the
+context of antiplane elasticity, this work extends existing results to (i) time-harmonic wave equation and (ii)
+second-order homogenized coefficients, whose contribution reflects the dispersive behavior of the material.</p>
+      </subsection>
+      <subsection id="uid62" level="2">
+        <bodyTitle>A continuation method for building large invisible obstacles in waveguides</bodyTitle>
+        <participants>
+          <person key="poems-2016-idp212592">
+            <firstname>Antoine</firstname>
+            <lastname>Bera</lastname>
+          </person>
+          <person key="poems-2014-idm30984">
+            <firstname>Anne-Sophie</firstname>
+            <lastname>Bonnet-Ben Dhia</lastname>
+          </person>
+        </participants>
+        <p>In collaboration with Lucas Chesnel (EPI DEFI) and Sergei Nazarov (Saint-Petersburg University), we consider time harmonic acoustic problems in waveguides. We are interested in finding localized perturbations of a straight waveguide which
+are not detectable in the far field, as they produce neither reflection nor conversion of propagative modes. In other words, such <i>invisible</i> perturbation produces a scattered field which is exponentially decaying at infinity in the two infinite outlets of the waveguide.</p>
+        <p>In our previous contributions, we found a way to build smooth and small perturbations of the boundary which were almost invisible, in the sense that they were producing no reflexions but maybe a phase shift in transmission.</p>
+        <p>The method is constructive and has been validated numerically. But the drawback is that it is limited to small perturbations. In the present work, we show that the previous idea can be combined with a continuation method, in order to get larger invisible perturbations.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid63" level="1">
+      <bodyTitle>Aeroacoustics</bodyTitle>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Time-harmonic acoustic scattering in a vortical flow</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp96584">
+            <firstname>Antoine</firstname>
+            <lastname>Bensalah</lastname>
+          </person>
+          <person key="poems-2014-idm29496">
+            <firstname>Patrick</firstname>
+            <lastname>Joly</lastname>
+          </person>
+          <person key="poems-2014-idp71056">
+            <firstname>Jean-François</firstname>
+            <lastname>Mercier</lastname>
+          </person>
+        </participants>
+        <p>This activity is done in the framework of the PhD of Antoine Bensalah, in partnership with Airbus Group. We study the time-harmonic acoustic radiation in a fluid in a general flow which is not curl free, but has restricted vortical areas. The objective is to take into account the complicated coupling between acoustics and hydrodynamics. The Galbrun approach developed previously in 2D is too expensive in terms of degrees of freedom for 3D simulations. As an alternative, we propose to consider instead the Goldstein equations, which are vectorial only in the vortical areas and remain scalar elsewhere.</p>
+        <p>To begin with, we aim at determining the acoustic field radiated in 2D by a time-harmonic source in a fluid in flow.
+Goldstein's equations are proved to be well-posed outside a spectrum of frequencies corresponding to resonant streamlines. This band spectrum is explicitly determined for two simple geometries (an annular domain and a rectangular one with periodic conditions).
+Then the full model is shown to be well-posed under a coercivity condition, implying a subsonic flow with a small enough vorticity.</p>
+      </subsection>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Propagation of solitons through Helmholtz resonators </bodyTitle>
+        <participants>
+          <person key="poems-2014-idp71056">
+            <firstname>Jean-François</firstname>
+            <lastname>Mercier</lastname>
+          </person>
+        </participants>
+        <p>With Bruno Lombard (Laboratoire de Mécanique et Acoustique of Marseille), we study the propagation of nonlinear solitary acoustic waves in a 1D waveguide connected to a lattice of Helmholtz resonators.
+We start from an homogenized model of the literature, consisting of two coupled equations evolution: a nonlinear PDE describing acoustic waves (similar to the Burgers equation), and a linear ODE describing oscillations in the Helmholtz resonators.
+We have already developed a numerical modeling of this model and we have compared simulations with experimental data.</p>
+        <p>The drawback of the homogenized model is that all the resonators must be the same.
+In particular the reflection of an incident wave by a defect cannot be considered.
+To remedy this limitation, we have proposed an extension of the model, predicting two-way propagation across variable resonators.
+Thanks to a new discrete description of the resonators, the improved model takes into account two important features: resonators of different strengths and back-scattering effects.
+Comparisons with experimental data show that a closer agreement is obtained.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid65">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <sanspuceslist>
+        <li id="uid67">
+          <p noindent="true">Contract POEMS-DGA</p>
+          <participants>
+            <person key="poems-2014-idp77872">
+              <firstname>Eric</firstname>
+              <lastname>Lunéville</lastname>
+            </person>
+            <person key="poems-2014-idp69584">
+              <firstname>Marc</firstname>
+              <lastname>Lenoir</lastname>
+            </person>
+            <person key="poems-2014-idp65496">
+              <firstname>Séphanie</firstname>
+              <lastname>Chaillat</lastname>
+            </person>
+            <person key="poems-2014-idp76624">
+              <firstname>Nicolas</firstname>
+              <lastname>Kielbasiewicz</lastname>
+            </person>
+            <person key="poems-2015-idp87928">
+              <firstname>Nicolas</firstname>
+              <lastname>Salles</lastname>
+            </person>
+          </participants>
+          <p>Start : 2015, End : 2018. Administrator : ENSTA.</p>
+          <p noindent="true">This contract is in partnership with François Alouges and Matthieu Aussal (CMAP, Ecole Polytechnique) and concerns the
+improvement of Boundary Element Methods for wave propagation problems.</p>
+        </li>
+        <li id="uid68">
+          <p noindent="true">Contract POEMS-CEA-LIST</p>
+          <participants>
+            <person key="poems-2014-idm28032">
+              <firstname>Marc</firstname>
+              <lastname>Bonnet</lastname>
+            </person>
+            <person key="poems-2014-idp106104">
+              <firstname>Laure</firstname>
+              <lastname>Pesudo</lastname>
+            </person>
+          </participants>
+          <p>Start : 12/01/2014, End : 11/31/2017. Administrator : CNRS.</p>
+          <p noindent="true">This contract is about the coupling between high frequency methods and integral equations.</p>
+        </li>
+        <li id="uid69">
+          <p noindent="true">Contract POEMS-SHELL</p>
+          <participants>
+            <person key="poems-2014-idp65496">
+              <firstname>Stéphanie</firstname>
+              <lastname>Chaillat</lastname>
+            </person>
+            <person key="poems-2014-idp73944">
+              <firstname>Patrick</firstname>
+              <lastname>Ciarlet</lastname>
+            </person>
+            <person key="poems-2014-idp103072">
+              <firstname>Luca</firstname>
+              <lastname>Desiderio</lastname>
+            </person>
+          </participants>
+          <p>Start : 10/01/2013, End : 09/31/2016. Administrator : CNRS.</p>
+          <p noindent="true">This contract is about fast direct solvers to simulate seismic wave propagation in complex media.</p>
+        </li>
+        <li id="uid70">
+          <p noindent="true">Contract POEMS-EDF</p>
+          <participants>
+            <person key="poems-2014-idp65496">
+              <firstname>Stéphanie</firstname>
+              <lastname>Chaillat</lastname>
+            </person>
+            <person key="poems-2014-idm28032">
+              <firstname>Marc</firstname>
+              <lastname>Bonnet</lastname>
+            </person>
+            <person key="poems-2014-idp93344">
+              <firstname>Zouhair</firstname>
+              <lastname>Adnani</lastname>
+            </person>
+          </participants>
+          <p>Start : 12/01/2014, End : 11/31/2017. Administrator : CNRS.</p>
+          <p noindent="true">This contract is about fast solvers to simulate soil-structure interactions.</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid71">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid72" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <p>The post-doc of Maryna Kachanovska si funded by the Fondation Mathématique Jacques Hadamard (FMJH).
+</p>
+    </subsection>
+    <subsection id="uid73" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid74" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <simplelist>
+          <li id="uid75">
+            <p noindent="true">ANR project <i>METAMATH: modélisation mathématique et numérique pour la propagation des ondes en présence de métamatériaux.</i>
+Partners: EPI DEFI (Inria Saclay), IMATH-Université de Toulon, LJLL-Paris 6 University.</p>
+            <p noindent="true">Start : 12/01/2011, End : 11/30/2016. Administrator : Inria. Coordinator : Sonia Fliss.</p>
+          </li>
+          <li id="uid76">
+            <p noindent="true">ANR project <i>CHROME: Chauffage , réflectométrie et Ondes pour les plasmas magnétiques</i></p>
+            <p noindent="true">Partners: LJLL-Paris 6 University, Université de Lorraine</p>
+            <p noindent="true">Start : 10/01/2012, End : 19/09/2016 Administrator : Inria Coordinator for POEMS: Eliane Bécache</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">ANR project <i>RAFFINE: Robustesse, Automatisation et Fiabilité des Formulations INtégrales en propagation d'ondes : Estimateurs a posteriori et adaptivité</i></p>
+            <p noindent="true">Partners: EADS, IMACS, ONERA, Thales</p>
+            <p noindent="true">Start : January 2013. End : June 2017. Administrator : Inria. Coordinator: Marc Bonnet.</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">ANR project <i> Non-Local Domain Decomposition Methods in Electromagnetism.</i></p>
+            <p noindent="true">Partners: Inria Alpines, Inria POEMS, Inria Magique 3D.</p>
+            <p noindent="true">Start : 2015, End : 2019. Administrator : Inria. Coordinator: Xavier Claeys.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid80" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid81" level="3">
+          <bodyTitle>BATWOMAN</bodyTitle>
+          <sanspuceslist>
+            <li id="uid82">
+              <p noindent="true">Type: FP7 Marie Curie</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Objectif: Basic Acoustics Training - &amp; Workprogram On Methodologies for Acoustics - Network</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Duration: September 2013 - August 2017</p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Coordinator: Martin Wifling, VIRTUAL VEHICLE (AT)</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Inria contact: P. Joly</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Abstract: The BATWOMAN ITN aims at structuring research training in basic and advanced acoustics and setting up a work program on methodologies for acoustics for skills development in a highly diverse research field offering multiple career options.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid88" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid90" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid91">
+              <p noindent="true">Wilkins Aquino (Duke University)</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Eric Chung (Chinese University of Hong Kong)</p>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Bojan Guzina (University of Minnesota)</p>
+            </li>
+            <li id="uid94">
+              <p noindent="true">Sergei Nazarov (Saint-Petersburg University)</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">Jeronimo Rodriguez (University of Santiago de Compostela)</p>
+            </li>
+            <li id="uid96">
+              <p noindent="true">Adrien Semin (Technische Universitat Berlin)</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Julian Ott (Karlsruhe Institut für Technologie)</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid98" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid99" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>Stefan Sauter, University of Zürich, Switzerland (2 months)</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid100">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid101" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Advisory and management activities</bodyTitle>
+        <simplelist>
+          <li id="uid103">
+            <p noindent="true">P. Joly is a member of the scientific committee of CEA-DAM.</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">E. Lunéville is the Head of UMA (Unité de Mathématiques Appliquées) at ENSTA ParisTech.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Scientific events organisation end selection</bodyTitle>
+        <simplelist>
+          <li id="uid106">
+            <p noindent="true">E. Bécache, A. S. Bonnet-Ben Dhia, M. Bonnet, S. Fliss, C. Hazard, P. Joly and E. Lunéville are members of the scientific committee for the 13rd international conference on mathematical and numerical aspects of wave propagation (WAVES 2017), which will take place in Minneapolis in May 2017.</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">A. S. Bonnet-Ben Dhia has been a member of the organizing committee of the workshop <i>NEW TRENDS IN THEORETICAL AND NUMERICAL ANALYSIS OF WAVEGUIDES</i>
+(40 participants) which has been held in Porquerolles in May 2016.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">S. Fliss has been a member of the organizing committee of the workshop <i>METAMATH</i>
+(40 participants) which has been held in Cargese in November 2016.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">A. S. Bonnet-Ben Dhia has been a member of the organizing committee of the workshop on <i>Mathematical and Numerical Modeling in Optics</i>
+(70 participants) which has been held in Minneapolis in December 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid110" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <simplelist>
+          <li id="uid111">
+            <p noindent="true">A. S. Bonnet-Ben Dhia is associate editor of SINUM (SIAM Journal of Numerical Analysis) and SIAP (SIAM Journal of Applied Mathematics).</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">M. Bonnet is associate editor of Engineering Analysis with Boundary Elements</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">M. Bonnet is in the editorial board of Inverse Problems.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">M. Bonnet is in the editorial board of Computational Mechanics.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">M. Bonnet is in the editorial board of Journal of Optimization Theory and Application.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">P. Ciarlet is an editor of CAMWA (Computers &amp; Mathematics with Applications).</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">P. Ciarlet is an editor of ESAIM:M2AN (Mathematical Modeling and Numerical Analysis).</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">P. Joly is an editor of ESAIM:M2AN (Mathematical Modeling and Numerical Analysis).</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">P. Joly is a member of the editorial board of AAMM (Advances in Applied Mathematics and Mechanics).</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">P. Joly is a member of the Book Series Scientific Computing of Springer Verlag.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">The team members regularly review papers for many international journals.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid122" level="1">
+      <bodyTitle>Teaching - Supervision</bodyTitle>
+      <subsection id="uid123" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid124">
+            <p noindent="true">Eliane Bécache</p>
+            <simplelist>
+              <li id="uid125">
+                <p noindent="true"><i>Méthode des éléments finis</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid126">
+                <p noindent="true"><i>Compléments sur la méthode des éléments finis</i>, ENSTA ParisTech, (2nd year)</p>
+              </li>
+              <li id="uid127">
+                <p noindent="true"><i>Fonctions d'une variable complexe</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid128">
+            <p noindent="true">Marc Bonnet</p>
+            <simplelist>
+              <li id="uid129">
+                <p noindent="true"><i>Problèmes inverses</i>, Master MS2SC (Centrale Paris and ENS Cachan)</p>
+              </li>
+              <li id="uid130">
+                <p noindent="true"><i>Méthodes intégrales</i>, Master TACS (ENS Cachan)</p>
+              </li>
+              <li id="uid131">
+                <p noindent="true"><i>Outils élémentaires d'analyse pour les équations aux dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid132">
+            <p noindent="true">Anne-Sophie Bonnet-Ben Dhia</p>
+            <simplelist>
+              <li id="uid133">
+                <p noindent="true"><i>Fonctions d'une variable complexe</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid134">
+                <p noindent="true"><i>Propagation dans les guides d'ondes</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+              <li id="uid135">
+                <p noindent="true"><i>Théorie spectrale des opérateurs autoadjoints et applications aux guides optiques</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid136">
+            <p noindent="true">Laurent Bourgeois</p>
+            <simplelist>
+              <li id="uid137">
+                <p noindent="true"><i>Outils élémentaires pour l'analyse des équations aux dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid138">
+                <p noindent="true"><i>Inverse problems: mathematical analysis and numerical algorithms</i>, (Master AN&amp; EDP, Paris 6 and Ecole Polytechnique)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid139">
+            <p noindent="true">Stéphanie Chaillat</p>
+            <simplelist>
+              <li id="uid140">
+                <p noindent="true"><i>Introduction à la discrétisation des équations aux dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid141">
+                <p noindent="true"><i>Fonctions d'une variable complexe</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid142">
+                <p noindent="true"><i>Equations intégrales et multipôles rapides</i>, Ecole doctorale MODES (Univ. Paris Est, Marne la Vallée)</p>
+              </li>
+              <li id="uid143">
+                <p noindent="true"><i>Résolution des problèmes de diffraction par équations intégrales</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid144">
+            <p noindent="true">Colin Chambeyron</p>
+            <simplelist>
+              <li id="uid145">
+                <p noindent="true"><i>Analyse réelle: optimisation libre et sous contraintes</i>, Dauphine University (1st year)</p>
+              </li>
+              <li id="uid146">
+                <p noindent="true"><i>Outils mathématiques</i>, Dauphine University (1st year)</p>
+              </li>
+              <li id="uid147">
+                <p noindent="true"><i>Algèbre linéaire</i>, Dauphine University (2nd year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Patrick Ciarlet</p>
+            <simplelist>
+              <li id="uid149">
+                <p noindent="true">Advanced Finite Element Methods, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid150">
+                <p noindent="true">Parallel Scientific Computing, ENSTA ParisTech (3rd year), and Master "Analysis, Modelling, Simulation" (M2)</p>
+              </li>
+              <li id="uid151">
+                <p noindent="true">Mathematical Models and their Discretisation in Electromagnetism, ENSTA ParisTech (3rd year), and Master "Analysis, Modelling, Simulation" (M2)</p>
+              </li>
+              <li id="uid152">
+                <p noindent="true">Deputy Head of the Master’s Program Analysis, Modelling, Simulation, Paris-Saclay University</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid153">
+            <p noindent="true">Sonia Fliss</p>
+            <simplelist>
+              <li id="uid154">
+                <p noindent="true"><i>Méthode des éléments finis</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid155">
+                <p noindent="true"><i>Introduction à la discrétisation des équations aux dérivées partielles</i>, ENSTA ParisTech (1st year).</p>
+              </li>
+              <li id="uid156">
+                <p noindent="true"><i>Propagation des ondes dans les milieux périodiques</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+              <li id="uid157">
+                <p noindent="true"><i>Homogeneisation</i>, Master ANEDP Paris 6 and Ecole Polytechnique (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid158">
+            <p noindent="true">Christophe Hazard</p>
+            <simplelist>
+              <li id="uid159">
+                <p noindent="true"><i>Outils élémentaires d'analyse pour les équations aux dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid160">
+                <p noindent="true"><i>Théorie spectrale des opérateurs autoadjoints et applications aux guides optiques</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Patrick Joly</p>
+            <simplelist>
+              <li id="uid162">
+                <p noindent="true"><i>Introduction à la discrétisation des équations aux
+dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid163">
+                <p noindent="true"><i>Propagation des ondes dans les milieux périodiques</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid164">
+            <p noindent="true">Nicolas Kielbasiewicz</p>
+            <simplelist>
+              <li id="uid165">
+                <p noindent="true"><i>Programmation scientifique et simulation numérique</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid166">
+                <p noindent="true"><i>Parallélisme et calcul réparti</i>, ENSTA ParisTech (Master 2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Marc Lenoir</p>
+            <simplelist>
+              <li id="uid168">
+                <p noindent="true"><i>Fonctions d'une variable complexe</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid169">
+                <p noindent="true"><i>Equations intégrales</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+              <li id="uid170">
+                <p noindent="true"><i>Méthodes asymptotiques hautes fréquences pour les équations d'ondes - course notes</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid171">
+            <p noindent="true">Eric Lunéville</p>
+            <simplelist>
+              <li id="uid172">
+                <p noindent="true"><i>Introduction au Calcul Scientifique</i>, ENSTA ParisTech (2nd year).</p>
+              </li>
+              <li id="uid173">
+                <p noindent="true"><i>Programmation scientifique et simulation numérique</i>, ENSTA ParisTech (2nd year).</p>
+              </li>
+              <li id="uid174">
+                <p noindent="true"><i>Propagation dans les guides d'ondes</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Jean-François Mercier</p>
+            <simplelist>
+              <li id="uid176">
+                <p noindent="true"><i>Outils élémentaires d'analyse pour les équations aux dérivées partielles</i>, ENSTA ParisTech (1st year)</p>
+              </li>
+              <li id="uid177">
+                <p noindent="true"><i>Fonctions d'une variable complexe</i>, ENSTA ParisTech, ENSTA ParisTech (2nd year)</p>
+              </li>
+              <li id="uid178">
+                <p noindent="true"><i>Théorie spectrale des opérateurs autoadjoints et application aux guides optiques</i>, ENSTA ParisTech (2nd year)</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid179">
+            <p noindent="true">Axel Modave</p>
+            <simplelist>
+              <li id="uid180">
+                <p noindent="true"><i>Scientific parallel computing</i>, ENSTA ParisTech (3rd year) and Master "Modeling and Simulation" (M2)</p>
+              </li>
+            </simplelist>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid181" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid182">
+            <p noindent="true">PhD: Marc Bakry, "Estimateurs a posteriori pour la résolution des problèmes de diffraction par équations intégrales", October 2016, Patrick Ciarlet and Sébastien Pernet.</p>
+          </li>
+          <li id="uid183">
+            <p noindent="true">PhD: Geoffrey Beck, "Modélisation de la propagation d'ondes électromagnétiques dans des câbles co-axiaux", March 2016, Patrick Joly et Sébastien Impériale</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">PhD: Mathieu Chamaillard, "Conditions aux limites effectives pour des revêtements minces périodiques", October 2011, Patrick Joly and Houssem Haddar</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">PhD: Rémi Cornaggia, "Asymptotique petit-défaut de fonctions-coût et son application en identification: justifications théorique et expérimentale, extensions", September 2016, Marc Bonnet and Bojan Guzina</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">PhD: Elizaveta Vasilevskaia, "Modes localisés dans les guides d'onde quantiques", July 2016, Patrick Joly</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">PhD: Valentin Vinoles, "Analyse asymptotique des équations de Maxwell en présence de métamatériaux", September 2016, Sonia Fliss and Patrick Joly</p>
+            <p spacebefore="14.22636pt"/>
+          </li>
+          <li id="uid188">
+            <p noindent="true">PhD in progress : Zouhair Adnani , "Modélisation numérique tridimensionnelle des effets de site en interaction sol-structure par une méthode adaptée aux problèmes sismiques de très grande taille", October 2014, Marc Bonnet and Stéphanie Chaillat</p>
+          </li>
+          <li id="uid189">
+            <p noindent="true">PhD in progress : Antoine Bensalah, "Une approche nouvelle de la modélisation mathématique et numérique en aéroacoustique par les équations de Goldstein et applications en aéronautique", October 2014, Patrick Joly and Jean-François Mercier</p>
+          </li>
+          <li id="uid190">
+            <p noindent="true">PhD: Antoine Bera, "Conception de perturbations invisibles pour
+les ondes électromagnétiques ou acoustiques", October 2016, Anne-Sophie Bonnet-Ben Dhia and Lucas Chesnel</p>
+          </li>
+          <li id="uid191">
+            <p noindent="true">PhD in progress :Luca Desiderio, "Efficient visco-eleastic wave propagation in 3D for high contrast media", October 2013, Stéphanie Chaillat and Patrick Ciarlet</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">PhD in progress :Léandre Giret, "Development of a domain decomposition method on non-conforming meshes: application to the modeling of a Reactivity-Initiated Accident (RIA) in a Pressurized Water Reactor (PWR)", October 2014, Patrick Ciarlet</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">PhD in progress :Sandrine Paolantoni, "Analyse spectrale et simulation numérique de la diffraction
+électromagnétique par des métamatériaux", October 2016, Christophe Hazard and Boris Gralak</p>
+          </li>
+          <li id="uid194">
+            <p noindent="true">PhD in progress :Laure Pesudo , "Modélisation de la réponse ultrasonore de défauts de type fissure par méthode BEM et couplage à un modèle de propagation - Application à la simulation des contrôle non destructifs", October 2014, Marc Bonnet and Stéphanie Chaillat</p>
+          </li>
+          <li id="uid195">
+            <p noindent="true">PhD in progress : Arnaud Recoquillay, "Identification de défauts dans un guide d'ondes en régime temporel", October 2014, Laurent Bourgeois</p>
+          </li>
+          <li id="uid196">
+            <p noindent="true">PhD in progress : Yohanes Tjandrawidjaja, "Modélisation de la propagation d’ondes guidées et de leur interaction avec des défauts localisés dans une plaque élastique anisotrope pour des applications en SHM", October 2016, Anne-Sophie Bonnet-Ben Dhia and Sonia Fliss</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="poems-2016-bid4" type="book" rend="year" n="cite:cohen:hal-01398287">
+      <identifiant type="doi" value="10.1007/978-94-017-7761-2"/>
+      <identifiant type="hal" value="hal-01398287"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Finite Element and Discontinuous Galerkin Methods for Transient Wave Equations</title>
+        <title level="s">Scientific Computation</title>
+        <editor role="editor">
+          <persName key="poems-2014-idp66720">
+            <foreName>Gary</foreName>
+            <surname>Cohen</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>Pernet</surname>
+            <initial>S.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">381</biblScope>
+          <ref xlink:href="https://hal-ensta.archives-ouvertes.fr/hal-01398287" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-ensta.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01398287</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid20" type="book" rend="year" n="cite:cohen:hal-01253166">
+      <identifiant type="doi" value="10.1007/978-94-017-7761-2"/>
+      <identifiant type="hal" value="hal-01253166"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Finite Element and Discontinuous Galerkin Methods for Transient Wave Equations</title>
+        <author>
+          <persName key="poems-2014-idp66720">
+            <foreName>Gary</foreName>
+            <surname>Cohen</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>Pernet</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01253166" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01253166</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid25" type="phdthesis" rend="year" n="cite:bakry:tel-01422039">
+      <identifiant type="hal" value="tel-01422039"/>
+      <monogr>
+        <title level="m">Reliability and optimization of integral formulation based computations for wave propagation</title>
+        <author>
+          <persName key="poems-2014-idp94568">
+            <foreName>Marc</foreName>
+            <surname>Bakry</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://pastel.archives-ouvertes.fr/tel-01422039" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>pastel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01422039</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid23" type="phdthesis" rend="year" n="cite:beck:tel-01421740">
+      <identifiant type="hal" value="tel-01421740"/>
+      <monogr>
+        <title level="m">Mathematical modeling of electrical networks</title>
+        <author>
+          <persName key="poems-2014-idp95576">
+            <foreName>Geoffrey</foreName>
+            <surname>Beck</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://pastel.archives-ouvertes.fr/tel-01421740" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>pastel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01421740</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid24" type="phdthesis" rend="year" n="cite:chamaillard:tel-01421937">
+      <identifiant type="hal" value="tel-01421937"/>
+      <monogr>
+        <title level="m">Effective boundary conditions for thin periodic coatings</title>
+        <author>
+          <persName key="defi-2014-idp79368">
+            <foreName>Mathieu</foreName>
+            <surname>Chamaillard</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01421937" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01421937</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid2" type="phdthesis" rend="year" n="cite:cornaggia:tel-01395525">
+      <identifiant type="hal" value="tel-01395525"/>
+      <monogr>
+        <title level="m"> Development and use of higher-order asymptotics to solve inverse scattering problems</title>
+        <author>
+          <persName key="poems-2014-idp102064">
+            <foreName>Rémi</foreName>
+            <surname>Cornaggia</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01395525" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01395525</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid14" type="phdthesis" rend="year" n="cite:vasilevskaya:tel-01426166">
+      <identifiant type="hal" value="tel-01426166"/>
+      <monogr>
+        <title level="m">Open periodic waveguides. Theory and computation</title>
+        <author>
+          <persName key="poems-2014-idp109560">
+            <foreName>Elizaveta</foreName>
+            <surname>Vasilevskaya</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris 13</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01426166" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01426166</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid13" type="phdthesis" rend="year" n="cite:vinoles:tel-01426226">
+      <identifiant type="hal" value="tel-01426226"/>
+      <monogr>
+        <title level="m">Interface problems with metamaterials : modelling, analysis and simulations</title>
+        <author>
+          <persName key="poems-2014-idp111584">
+            <foreName>Valentin</foreName>
+            <surname>Vinoles</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://pastel.archives-ouvertes.fr/tel-01426226" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>pastel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01426226</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid1" type="article" rend="year" n="cite:baratchart:hal-01084428">
+      <identifiant type="doi" value="10.1016/j.jfa.2016.01.011"/>
+      <identifiant type="hal" value="hal-01084428"/>
+      <analytic>
+        <title level="a">Uniqueness results for inverse Robin problems with bounded coefficient</title>
+        <author>
+          <persName key="apics-2014-idp98680">
+            <foreName>Laurent</foreName>
+            <surname>Baratchart</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp72512">
+            <foreName>Laurent</foreName>
+            <surname>Bourgeois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="apics-2014-idp101400">
+            <foreName>Juliette</foreName>
+            <surname>Leblond</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01145">
+        <idno type="issn">0022-1236</idno>
+        <title level="j">Journal of Functional Analysis</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01084428" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01084428</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid19" type="article" rend="year" n="cite:baronian:hal-01164794">
+      <identifiant type="hal" value="hal-01164794"/>
+      <analytic>
+        <title level="a">Iterative methods for scattering problems in isotropic or anisotropic elastic waveguides</title>
+        <author>
+          <persName>
+            <foreName>Vahan</foreName>
+            <surname>Baronian</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="poems-2014-idp75376">
+            <foreName>Sonia</foreName>
+            <surname>Fliss</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="poems-2014-idp108552">
+            <foreName>Antoine</foreName>
+            <surname>Tonnoir</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01910">
+        <idno type="issn">0165-2125</idno>
+        <title level="j">Wave Motion</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01164794" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01164794</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid18" type="article" rend="year" n="cite:baronian:hal-01379890">
+      <identifiant type="doi" value="10.1016/j.wavemoti.2016.05.006"/>
+      <identifiant type="hal" value="hal-01379890"/>
+      <analytic>
+        <title level="a">Imaging an acoustic waveguide from surface data in the time domain</title>
+        <author>
+          <persName>
+            <foreName>Vahan</foreName>
+            <surname>Baronian</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="poems-2014-idp72512">
+            <foreName>Laurent</foreName>
+            <surname>Bourgeois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp107328">
+            <foreName>Arnaud</foreName>
+            <surname>Recoquillay</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01910">
+        <idno type="issn">0165-2125</idno>
+        <title level="j">Wave Motion</title>
+        <imprint>
+          <biblScope type="volume">66</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">68 - 87</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01379890" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379890</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid38" type="article" rend="year" n="cite:bonnet:hal-01417944">
+      <identifiant type="hal" value="hal-01417944"/>
+      <analytic>
+        <title level="a">A modified volume integral equation for anisotropic elastic or conducting inhomogeneities. Unconditional solvability by Neumann series</title>
+        <author>
+          <persName key="poems-2014-idm28032">
+            <foreName>Marc</foreName>
+            <surname>Bonnet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01171">
+        <idno type="issn">0897-3962</idno>
+        <title level="j">Journal of Integral Equations and Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01417944" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01417944</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">forthcoming</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid40" type="article" rend="year" n="cite:bonnet:hal-01246135">
+      <identifiant type="hal" value="hal-01246135"/>
+      <analytic>
+        <title level="a">Solvability of a Volume Integral Equation Formulation for Anisotropic Elastodynamic Scattering</title>
+        <author>
+          <persName key="poems-2014-idm28032">
+            <foreName>Marc</foreName>
+            <surname>Bonnet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01171">
+        <idno type="issn">0897-3962</idno>
+        <title level="j">Journal of Integral Equations and Applications</title>
+        <imprint>
+          <biblScope type="volume">28</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">169-203</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01246135" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01246135</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid37" type="article" rend="year" n="cite:bonnet:hal-01144401">
+      <identifiant type="doi" value="10.1051/m2an/2015030"/>
+      <identifiant type="hal" value="hal-01144401"/>
+      <analytic>
+        <title level="a">Effective transmission conditions for thin-layer transmission problems in elastodynamics. The case of a planar layer model</title>
+        <author>
+          <persName key="poems-2014-idm28032">
+            <foreName>Marc</foreName>
+            <surname>Bonnet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="poems-2014-idp97592">
+            <foreName>Aliénor</foreName>
+            <surname>Burel</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="magique-3d-2014-idp69792">
+            <foreName>Marc</foreName>
+            <surname>Duruflé</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00492">
+        <idno type="issn">0764-583X</idno>
+        <title level="j">ESAIM: Mathematical Modelling and Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">50</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">43-75</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01144401" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01144401</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid28" type="article" rend="year" n="cite:bonnetbendhia:hal-01225309">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.06.037"/>
+      <identifiant type="hal" value="hal-01225309"/>
+      <analytic>
+        <title level="a">On the use of Perfectly Matched Layers at corners for scattering problems with sign-changing coefficients</title>
+        <author>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="poems-2014-idp98824">
+            <foreName>Camille</foreName>
+            <surname>Carvalho</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">322</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">224-247</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01225309" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01225309</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid41" type="article" rend="year" n="cite:caldiniqueiros:hal-01114791">
+      <identifiant type="hal" value="hal-01114791"/>
+      <analytic>
+        <title level="a">A numerical study of the solution of x-mode equations around the hybrid resonance </title>
+        <author>
+          <persName>
+            <foreName>Céline</foreName>
+            <surname>Caldini-Queiros</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Després</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Lise-Marie</foreName>
+            <surname>Imbert-Gérard</surname>
+            <initial>L.-M.</initial>
+          </persName>
+          <persName key="poems-2014-idp83896">
+            <foreName>Maryna</foreName>
+            <surname>Kachanovska</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02803">
+        <idno type="issn">2267-3059</idno>
+        <title level="j">ESAIM: Proceedings and Surveys</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-21</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01114791" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01114791</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid36" type="article" rend="year" n="cite:chabassier:hal-01085477">
+      <identifiant type="hal" value="hal-01085477"/>
+      <analytic>
+        <title level="a">Time Domain Simulation of a Piano. Part 2 : Numerical Aspects</title>
+        <author>
+          <persName key="magique-3d-2014-idm26208">
+            <foreName>J</foreName>
+            <surname>Chabassier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="magique-3d-2014-idp69792">
+            <foreName>M</foreName>
+            <surname>Duruflé</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>P</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00492">
+        <idno type="issn">0764-583X</idno>
+        <title level="j">ESAIM: Mathematical Modelling and Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">50</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">93-133</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01085477" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01085477</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">L'article est en cours de revision</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid5" type="article" rend="year" n="cite:ciarlet:hal-01176476">
+      <identifiant type="doi" value="10.1016/j.camwa.2015.10.020"/>
+      <identifiant type="hal" value="hal-01176476"/>
+      <analytic>
+        <title level="a">On the approximation of electromagnetic fields by edge finite elements. Part 1: Sharp interpolation results for low-regularity fields</title>
+        <author>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00411">
+        <idno type="issn">0898-1221</idno>
+        <title level="j">Computers and Mathematics with Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01176476" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01176476</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid16" type="article" rend="year" n="cite:delourme:hal-01412396">
+      <identifiant type="doi" value="10.1016/j.aml.2016.11.017"/>
+      <identifiant type="hal" value="hal-01412396"/>
+      <analytic>
+        <title level="a">Existence of guided waves due to a lineic perturbation of a 3D periodic medium</title>
+        <author>
+          <persName key="poems-2015-idp116712">
+            <foreName>Bérangère</foreName>
+            <surname>Delourme</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp109560">
+            <foreName>Elizaveta</foreName>
+            <surname>Vasilevskaya</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00164">
+        <idno type="issn">0893-9659</idno>
+        <title level="j">Applied Mathematics Letters</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01412396" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01412396</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid29" type="article" rend="year" n="cite:huppe:hal-01363149">
+      <identifiant type="doi" value="10.4208/cicp.250515.161115a"/>
+      <identifiant type="hal" value="hal-01363149"/>
+      <analytic>
+        <title level="a">Construction and analysis of an adapted spectral finite element method to convective acoustic equations</title>
+        <author>
+          <persName>
+            <foreName>Andreas</foreName>
+            <surname>Hüppe</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="poems-2014-idp66720">
+            <foreName>Gary</foreName>
+            <surname>Cohen</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>IMPERIALE</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Manfred</foreName>
+            <surname>Kaltenbacher</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00350">
+        <idno type="issn">1815-2406</idno>
+        <title level="j">Communications in Computational Physics</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01363149" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01363149</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid39" type="article" rend="year" n="cite:joly:hal-01398379">
+      <identifiant type="hal" value="hal-01398379"/>
+      <analytic>
+        <title level="a">Mathematical Aspects of variational boundary integral equations for time dependent wave propagation</title>
+        <author>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Jerónimo</foreName>
+            <surname>Rodríguez</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01171">
+        <idno type="issn">0897-3962</idno>
+        <title level="j">Journal of Integral Equations and Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01398379" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01398379</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid33" type="article" rend="year" n="cite:mercier:hal-01396081">
+      <identifiant type="doi" value="10.1098/rspa.2016.0094"/>
+      <identifiant type="hal" value="hal-01396081"/>
+      <analytic>
+        <title level="a">Improved multimodal method for the acoustic propagation in waveguides with a wall impedance and a uniform flow</title>
+        <author>
+          <persName key="poems-2014-idp71056">
+            <foreName>Jean Francois</foreName>
+            <surname>Mercier</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Agnes</foreName>
+            <surname>Maurel</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01573">
+        <idno type="issn">1364-503X</idno>
+        <title level="j">Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences</title>
+        <imprint>
+          <biblScope type="volume">472</biblScope>
+          <biblScope type="number">2190</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396081" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396081</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid35" type="article" rend="year" n="cite:mezafajardo:hal-01358724">
+      <identifiant type="doi" value="10.1785/0120150159"/>
+      <identifiant type="hal" value="hal-01358724"/>
+      <analytic>
+        <title level="a">Seismic Wave Amplification in 3D Alluvial Basins: 3D/1D Amplification Ratios from Fast Multipole BEM Simulations</title>
+        <author>
+          <persName>
+            <foreName>Kristel C</foreName>
+            <surname>MEZA FAJARDO</surname>
+            <initial>K. C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Semblat</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="poems-2014-idp65496">
+            <foreName>Stéphanie</foreName>
+            <surname>Chaillat</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>Lenti</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00291">
+        <idno type="issn">0037-1106</idno>
+        <title level="j">Bulletin of the Seismological Society of America</title>
+        <imprint>
+          <biblScope type="volume">106</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1267-1281</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01358724" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01358724</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid34" type="article" rend="year" n="cite:modave:hal-01378501">
+      <identifiant type="doi" value="10.1016/j.camwa.2016.12.027"/>
+      <identifiant type="hal" value="hal-01378501"/>
+      <analytic>
+        <title level="a">Perfectly matched layers for convex truncated domains with discontinuous Galerkin time domain simulations</title>
+        <author>
+          <persName key="poems-2016-idp179760">
+            <foreName>Axel</foreName>
+            <surname>Modave</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jonathan</foreName>
+            <surname>Lambrechts</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Geuzaine</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00411">
+        <idno type="issn">0898-1221</idno>
+        <title level="j">Computers &amp; Mathematics with Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01378501" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01378501</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid11" type="article" rend="year" n="cite:tonnoir:hal-01195869">
+      <identifiant type="doi" value="10.1016/j.crma.2015.12.018"/>
+      <identifiant type="hal" value="hal-01195869"/>
+      <analytic>
+        <title level="a">Dirichlet-to-Neumann operator for diffraction problems in stratified anisotropic acoustic waveguides</title>
+        <author>
+          <persName key="poems-2014-idp108552">
+            <foreName>Antoine</foreName>
+            <surname>Tonnoir</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00366">
+        <idno type="issn">1631-073X</idno>
+        <title level="j">Comptes Rendus Mathématique</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01195869" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01195869</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid3" type="article" rend="year" n="cite:vigneron:hal-01336835">
+      <identifiant type="doi" value="10.1109/TMAG.2016.2584018"/>
+      <identifiant type="hal" value="hal-01336835"/>
+      <analytic>
+        <title level="a">A multi-step solution algorithm for Maxwell boundary integral equations applied to low-frequency electromagnetic testing of conductive objects</title>
+        <author>
+          <persName key="poems-2014-idp110576">
+            <foreName>Audrey</foreName>
+            <surname>Vigneron</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Edouard</foreName>
+            <surname>Demaldent</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="poems-2014-idm28032">
+            <foreName>Marc</foreName>
+            <surname>Bonnet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00737">
+        <idno type="issn">0018-9464</idno>
+        <title level="j">IEEE Transactions on Magnetics</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">7005208</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01336835" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01336835</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid31" type="techreport" rend="year" n="cite:delourme:hal-01287023">
+      <identifiant type="hal" value="hal-01287023"/>
+      <monogr>
+        <title level="m">Trapped modes in thin and infinite ladder like domains: existence and asymptotic analysis</title>
+        <author>
+          <persName key="poems-2015-idp116712">
+            <foreName>Bérangère</foreName>
+            <surname>Delourme</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="poems-2014-idp75376">
+            <foreName>Sonia</foreName>
+            <surname>Fliss</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp109560">
+            <foreName>Elizaveta</foreName>
+            <surname>Vasilevskaya</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8882</biblScope>
+          <publisher>
+            <orgName type="institution">(CNRS-ENSTA Paristech-Inria, Université Paris-Saclay) ; LAGA, Université Paris 13</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01287023" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01287023</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid26" type="unpublished" rend="year" n="cite:baratchart:hal-01421157">
+      <identifiant type="hal" value="hal-01421157"/>
+      <monogr>
+        <title level="m">Moments estimation of magnetic source terms from partial data</title>
+        <author>
+          <persName key="apics-2014-idp98680">
+            <foreName>Laurent</foreName>
+            <surname>Baratchart</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="apics-2014-idp100160">
+            <foreName>Sylvain</foreName>
+            <surname>Chevillard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="apics-2014-idp101400">
+            <foreName>Juliette</foreName>
+            <surname>Leblond</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Eduardo Andrade</foreName>
+            <surname>Lima</surname>
+            <initial>E. A.</initial>
+          </persName>
+          <persName key="apics-2014-idp111904">
+            <foreName>Dmitry</foreName>
+            <surname>Ponomarev</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421157" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421157</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid30" type="unpublished" rend="year" n="cite:bonnetbendhia:hal-01335153">
+      <identifiant type="hal" value="hal-01335153"/>
+      <monogr>
+        <title level="m">Mesh requirements for the finite element approximation of problems with sign-changing coefficients</title>
+        <author>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="poems-2014-idp98824">
+            <foreName>Camille</foreName>
+            <surname>Carvalho</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01335153" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01335153</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid27" type="unpublished" rend="year" n="cite:dhia:hal-01371163">
+      <identifiant type="hal" value="hal-01371163"/>
+      <monogr>
+        <title level="m">Perfect transmission invisibility for waveguides with sound hard walls</title>
+        <author>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2015-idp90200">
+            <foreName>Sergei</foreName>
+            <surname>Nazarov</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01371163" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01371163</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid6" type="unpublished" rend="year" n="cite:bourgeois:hal-01366850">
+      <identifiant type="hal" value="hal-01366850"/>
+      <monogr>
+        <title level="m">The "exterior approach" applied to the inverse obstacle problem for the heat equation</title>
+        <author>
+          <persName key="poems-2014-idp72512">
+            <foreName>Laurent</foreName>
+            <surname>Bourgeois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérémi</foreName>
+            <surname>Dardé</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01366850" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01366850</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid12" type="unpublished" rend="year" n="cite:becache:hal-01397581">
+      <identifiant type="hal" value="hal-01397581"/>
+      <monogr>
+        <title level="m">Stable Perfectly Matched Layers for a Cold Plasma in a Strong Background Magnetic Field </title>
+        <author>
+          <persName key="poems-2014-idm26624">
+            <foreName>Eliane</foreName>
+            <surname>Bécache</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp83896">
+            <foreName>Maryna</foreName>
+            <surname>Kachanovska</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01397581" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01397581</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid8" type="unpublished" rend="year" n="cite:becache:hal-01327315">
+      <identifiant type="hal" value="hal-01327315"/>
+      <monogr>
+        <title level="m">On the analysis of perfectly matched layers for a class of dispersive media and application to negative index metamaterials</title>
+        <author>
+          <persName key="poems-2014-idm26624">
+            <foreName>Eliane</foreName>
+            <surname>Bécache</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp111584">
+            <foreName>Valentin</foreName>
+            <surname>Vinoles</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01327315" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01327315</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid7" type="unpublished" rend="year" n="cite:becache:hal-01356811">
+      <identifiant type="hal" value="hal-01356811"/>
+      <monogr>
+        <title level="m">Stable perfectly matched layers for a class of anisotropic dispersive models. PART I: Necessary and sufficient conditions of stability</title>
+        <author>
+          <persName key="poems-2014-idm26624">
+            <foreName>Eliane</foreName>
+            <surname>Bécache</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="poems-2014-idp83896">
+            <foreName>Maryna</foreName>
+            <surname>Kachanovska</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01356811" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01356811</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid9" type="unpublished" rend="year" n="cite:carvalho:hal-01394856">
+      <identifiant type="hal" value="hal-01394856"/>
+      <monogr>
+        <title level="m">Eigenvalue problems with sign-changing coefficients</title>
+        <author>
+          <persName key="poems-2014-idp98824">
+            <foreName>Camille</foreName>
+            <surname>Carvalho</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01394856" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01394856</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid17" type="unpublished" rend="year" n="cite:cassier:hal-01379118">
+      <identifiant type="hal" value="hal-01379118"/>
+      <monogr>
+        <title level="m">Spectral theory for Maxwell's equations at the interface of a metamaterial. Part I: Generalized Fourier transform</title>
+        <author>
+          <persName key="poems-2014-idp99832">
+            <foreName>Maxence</foreName>
+            <surname>Cassier</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>HAZARD</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal-ensta.archives-ouvertes.fr/hal-01379118" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-ensta.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01379118</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">34 pages, 8 figures</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid15" type="unpublished" rend="year" n="cite:ciarlet:hal-01364782">
+      <identifiant type="hal" value="hal-01364782"/>
+      <monogr>
+        <title level="m">On the Approximation of Electromagnetic Fields by Edge Finite Elements. Part 2: A Heterogeneous Multiscale Method for Maxwell's equations</title>
+        <author>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp75376">
+            <foreName>Sonia</foreName>
+            <surname>Fliss</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="poems-2014-idp85136">
+            <foreName>Christian</foreName>
+            <surname>Stohrer</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01364782" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01364782</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid10" type="unpublished" rend="year" n="cite:ciarlet:hal-01349385">
+      <identifiant type="hal" value="hal-01349385"/>
+      <monogr>
+        <title level="m">Domain decomposition methods for the diffusion equation with low-regularity solution</title>
+        <author>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Erell</foreName>
+            <surname>Jamelot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Félix D.</foreName>
+            <surname>Kpadonou</surname>
+            <initial>F. D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349385" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349385</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid32" type="unpublished" rend="year" n="cite:delourme:hal-01287127">
+      <identifiant type="hal" value="hal-01287127"/>
+      <monogr>
+        <title level="m">Trapped modes in thin and infinite ladder like domains: existence and asymptotic analysis</title>
+        <author>
+          <persName key="poems-2015-idp116712">
+            <foreName>Bérangère</foreName>
+            <surname>Delourme</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="poems-2014-idp75376">
+            <foreName>Sonia</foreName>
+            <surname>Fliss</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="poems-2014-idm29496">
+            <foreName>Patrick</foreName>
+            <surname>Joly</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="poems-2014-idp109560">
+            <foreName>Elizaveta</foreName>
+            <surname>Vasilevskaya</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01287127" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01287127</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid22" type="unpublished" rend="year" n="cite:kachanovska:hal-01419682">
+      <identifiant type="hal" value="hal-01419682"/>
+      <monogr>
+        <title level="m">Stable perfectly matched layers for a class of anisotropic dispersive models. part II: stability in corners and energy estimates </title>
+        <author>
+          <persName key="poems-2014-idp83896">
+            <foreName>Maryna</foreName>
+            <surname>Kachanovska</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419682" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419682</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">This work was supported by a public grant as part of the Investissement d'avenir project, reference ANR-11-LABX-0056-LMH, LabEx LMH, as well as a co- financing program PRESTIG</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid0" type="unpublished" rend="year" n="cite:mercier:hal-01312801">
+      <identifiant type="hal" value="hal-01312801"/>
+      <monogr>
+        <title level="m">A two-way model for nonlinear acoustic waves in a non-uniform lattice of Helmholtz resonators</title>
+        <author>
+          <persName key="poems-2014-idp71056">
+            <foreName>Jean-François</foreName>
+            <surname>Mercier</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Lombard</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01312801" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01312801</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="poems-2016-bid21" type="unpublished" rend="year" n="cite:modave:hal-01383074">
+      <identifiant type="hal" value="hal-01383074"/>
+      <monogr>
+        <title level="m">High-order absorbing boundary conditions with corner/edge compatibility for GPU-accelerated discontinuous Galerkin wave simulations</title>
+        <author>
+          <persName key="poems-2016-idp179760">
+            <foreName>Axel</foreName>
+            <surname>Modave</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andreas</foreName>
+            <surname>Atle</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jesse</foreName>
+            <surname>Chan</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Tim</foreName>
+            <surname>Warburton</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01383074" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01383074</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

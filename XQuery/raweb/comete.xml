@@ -1,0 +1,2875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="comete" isproject="true">
+    <shortname>COMETE</shortname>
+    <projectName>Concurrency, Mobility and Transactions</projectName>
+    <theme-de-recherche>Security and Confidentiality</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://www.lix.polytechnique.fr/comete/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire d'informatique de l'école polytechnique (LIX)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole Polytechnique</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2008 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.1.5. - Constraint programming</term>
+      <term>2.1.6. - Concurrent programming</term>
+      <term>2.1.8. - Synchronous languages</term>
+      <term>2.4.1. - Analysis</term>
+      <term>2.4.2. - Model-checking</term>
+      <term>4.5. - Formal methods for security</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>6.1. - Software industry</term>
+      <term>6.6. - Embedded systems</term>
+      <term>9.4.1. - Computer science</term>
+      <term>9.8. - Privacy</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="comete-2014-idp100432">
+      <firstname>Catuscia</firstname>
+      <lastname>Palamidessi</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="comete-2014-idp101696">
+      <firstname>Konstantinos</firstname>
+      <lastname>Chatzikokolakis</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="comete-2014-idp102952">
+      <firstname>Frank</firstname>
+      <lastname>Valencia</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="comete-2016-idp121664">
+      <firstname>Tymofii</firstname>
+      <lastname>Prokopenko</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Sep 2016</moreinfo>
+    </person>
+    <person key="comete-2014-idp105440">
+      <firstname>Michell</firstname>
+      <lastname>Guzman</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="comete-2015-idp100688">
+      <firstname>Joris</firstname>
+      <lastname>Lamare</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="comete-2014-idp107936">
+      <firstname>Yamil Salim</firstname>
+      <lastname>Perchy</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Nov 2016</moreinfo>
+    </person>
+    <person key="comete-2014-idp107936">
+      <firstname>Yamil Salim</firstname>
+      <lastname>Perchy</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, granted by ERC (European Research Council Excecutive Agency)</moreinfo>
+    </person>
+    <person key="comete-2015-idp104296">
+      <firstname>Ehab</firstname>
+      <lastname>Elsalamouny</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Nov 2016</moreinfo>
+    </person>
+    <person key="comete-2015-idp110600">
+      <firstname>Mario</firstname>
+      <lastname>Ferreira Alvim Junior</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Assistant Professor, Federal University of Minas Gerais, Dec 2016</moreinfo>
+    </person>
+    <person key="comete-2015-idp111904">
+      <firstname>Annabelle</firstname>
+      <lastname>Mciver</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Associate Professor, Macquarie University, Dec 2016</moreinfo>
+    </person>
+    <person key="comete-2015-idp113176">
+      <firstname>Charles Carroll</firstname>
+      <lastname>Morgan</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Professor, University of New South Wales, Dec 2016</moreinfo>
+    </person>
+    <person key="comete-2015-idp114456">
+      <firstname>Geoffrey</firstname>
+      <lastname>Smith</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Professor, Florida International University, USA, Dec 2016</moreinfo>
+    </person>
+    <person key="comete-2014-idp112992">
+      <firstname>Yusuke</firstname>
+      <lastname>Kawamoto</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Research Scientist, AIST, Japan, May, Sep, Nov 2016</moreinfo>
+    </person>
+    <person key="comete-2016-idp148832">
+      <firstname>Linda</firstname>
+      <lastname>Brodo</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>University of Sassari, September-October 2016</moreinfo>
+    </person>
+    <person key="comete-2014-idp114296">
+      <firstname>Moreno</firstname>
+      <lastname>Falashi</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>University of Siena, September-October 2016</moreinfo>
+    </person>
+    <person key="comete-2014-idp116888">
+      <firstname>Carlos</firstname>
+      <lastname>Olarte</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Universidade Federal do Rio Grande do Norte, Dec 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp174320">
+      <firstname>Marie</firstname>
+      <lastname>Enee</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Nov 2016</moreinfo>
+    </person>
+    <person key="grace-2014-idp78336">
+      <firstname>Hélèna</firstname>
+      <lastname>Kutniak</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="comete-2016-idp161312">
+      <firstname>Anna</firstname>
+      <lastname>Pazii</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Intern, from Jul 2016</moreinfo>
+    </person>
+    <person key="comete-2016-idp163792">
+      <firstname>Thomas</firstname>
+      <lastname>Ragel</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Intern, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="comete-2016-idp166288">
+      <firstname>Susheel</firstname>
+      <lastname>Suresh</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Intern, from May 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="comete-2016-idp121664">
+      <firstname>Tymofii</firstname>
+      <lastname>Prokopenko</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Intern, from Apr 2016 until Aug 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Our times are characterized by the massive presence of highly
+<i>distributed systems</i> consisting of diverse and specialized devices,
+forming heterogeneous networks, and providing different services and
+applications. Revolutionary phenomena such as <i>social networks</i> and
+<i>cloud computing</i> are examples of such systems.</p>
+      <p>In Comète we study emerging concepts of this new era of computing.
+<i>Security</i> and <i>privacy</i> are some of the fundamental concerns that
+arise in this setting. In particular, in the modern digital world the problem of
+keeping information secret or confidential is exacerbated by orders of
+magnitude: the frequent interaction between users and electronic devices, and
+the continuous connection between these devices and the internet, offer
+malicious agents the opportunity to gather and store huge amount of information,
+often without the individual even being aware of it. Mobility is an additional
+source of vulnerability, since tracing may reveal significant information. To
+avoid these kinds of hazards, <i>security protocols</i> and various techniques
+for privacy protection have been designed. However, the properties that they
+are supposed to ensure are rather subtle, and, furthermore, it is difficult to
+foresee all possible expedients that a potential attacker may use. As a
+consequence, even protocols that seem at first “obviously correct” are later
+(often years later) found to be prone to attacks.</p>
+      <p>In addition to the security problems, the problems of correctness, robustness
+and reliability are made more challenging by the complexity of these systems,
+since they are highly concurrent and distributed. Despite being based on
+impressive engineering technologies, they are still prone to faulty behavior due
+to errors in the software design.</p>
+      <p>To overcome these drawbacks, we need to develop formalisms, reasoning
+techniques, and verification methods, to specify systems and protocols, their
+intended properties, and to guarantee that these intended properties of
+correctness and security are indeed satisfied.</p>
+      <p>In Comète we study formal computational frameworks for specifying these
+systems, theories for defining the desired properties of correctness and
+security and for reasoning about them, and methods and techniques for proving
+that a given system satisfies the intended properties.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Probability and information theory</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp101696">
+          <firstname>Konstantinos</firstname>
+          <lastname>Chatzikokolakis</lastname>
+        </person>
+        <person key="comete-2014-idp100432">
+          <firstname>Catuscia</firstname>
+          <lastname>Palamidessi</lastname>
+        </person>
+        <person key="comete-2015-idp104296">
+          <firstname>Ehab</firstname>
+          <lastname>Elsalamouny</lastname>
+        </person>
+        <person key="comete-2016-idp121664">
+          <firstname>Tymofii</firstname>
+          <lastname>Prokopenko</lastname>
+        </person>
+        <person key="comete-2015-idp100688">
+          <firstname>Joris</firstname>
+          <lastname>Lamare</lastname>
+        </person>
+      </participants>
+      <p>Much of the research of Comète focuses on security and privacy. In
+particular, we are interested in the problem of the leakage of secret
+information through public observables.</p>
+      <p>Ideally we would like systems to be completely secure, but in practice this goal
+is often impossible to achieve. Therefore, we need to reason about the amount of
+information leaked, and the utility that it can have for the adversary, i.e.
+the probability that the adversary is able to exploit such information.</p>
+      <p>The recent tendency is to use an information theoretic approach to model the
+problem and define the leakage in a quantitative way. The idea is to consider
+the system as an information-theoretic <i>channel</i>. The input represents the
+secret, the output represents the observable, and the correlation between the
+input and output (<i>mutual information</i>) represents the information leakage.</p>
+      <p>Information theory depends on the notion of entropy as a measure of uncertainty.
+From the security point of view, this measure corresponds to a particular model
+of attack and a particular way of estimating the security threat (vulnerability
+of the secret). Most of the proposals in the literature use Shannon entropy,
+which is the most established notion of entropy in information theory. We,
+however, consider also other notions, in particular Rényi min-entropy, which
+seems to be more appropriate for security in common scenarios like one-try
+attacks.</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Expressiveness of Concurrent Formalisms</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp100432">
+          <firstname>Catuscia</firstname>
+          <lastname>Palamidessi</lastname>
+        </person>
+        <person key="comete-2014-idp102952">
+          <firstname>Frank</firstname>
+          <lastname>Valencia</lastname>
+        </person>
+      </participants>
+      <p>We study computational models and languages for distributed, probabilistic and mobile systems,
+with a particular attention to expressiveness issues. We aim at developing criteria to
+assess the expressive power of a model or formalism in a distributed
+setting, to compare existing models and formalisms, and to define new
+ones according to an intended level of expressiveness, also taking
+into account the issue of (efficient) implementability.</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Concurrent constraint programming</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp105440">
+          <firstname>Michell</firstname>
+          <lastname>Guzman</lastname>
+        </person>
+        <person key="comete-2014-idp107936">
+          <firstname>Yamil Salim</firstname>
+          <lastname>Perchy</lastname>
+        </person>
+        <person key="comete-2014-idp102952">
+          <firstname>Frank</firstname>
+          <lastname>Valencia</lastname>
+        </person>
+      </participants>
+      <p>Concurrent constraint programming (ccp) is a well established process calculus for modeling systems where agents interact by posting and asking information in a store, much like in users interact in <i>social networks</i>.
+This information is represented as first-order logic formulae, called constraints, on the shared variables of the system (e.g., <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>X</mi><mo>&gt;</mo><mn>42</mn></mrow></math></formula>). The most distinctive and appealing feature of ccp is perhaps that it unifies in a single formalism the operational view of processes based upon process calculi with a declarative one based upon first-order logic. It also has an elegant denotational semantics that interprets processes as closure operators (over the set of constraints ordered by entailment). In other words, any ccp process can be seen as an idempotent, increasing, and monotonic function from stores to stores. Consequently, ccp processes can be viewed
+as: computing agents, formulae in the underlying logic, and closure operators. This allows ccp to benefit from the large body of techniques of process calculi, logic and domain theory.</p>
+      <p>Our research in ccp develops along the following two lines:</p>
+      <orderedlist>
+        <li id="uid8">
+          <p noindent="true"><b>(a)</b>
+The study of a bisimulation semantics for ccp.
+The advantage of bisimulation, over other kinds of semantics, is that it can be efficiently verified.</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true"><b>(b)</b>
+The extension of ccp with constructs to capture emergent systems such as those in social networks and cloud computing.</p>
+        </li>
+      </orderedlist>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Model checking</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp101696">
+          <firstname>Konstantinos</firstname>
+          <lastname>Chatzikokolakis</lastname>
+        </person>
+        <person key="comete-2014-idp100432">
+          <firstname>Catuscia</firstname>
+          <lastname>Palamidessi</lastname>
+        </person>
+      </participants>
+      <p>Model checking addresses the problem of establishing whether a given specification satisfies a certain property.
+We are interested in developing model-checking techniques for verifying concurrent systems of the kind explained above.
+In particular, we focus on security and privacy, i.e., on the problem of proving that a given system satisfies the intended security or privacy properties.
+Since the properties we are interested in have a probabilistic nature, we use probabilistic automata to model the protocols.
+A challenging problem is represented by the fact that the interplay between nondeterminism and probability, which in security presents subtleties
+that cannot be handled with the traditional notion of a scheduler,</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid11">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Security and privacy</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp101696">
+          <firstname>Konstantinos</firstname>
+          <lastname>Chatzikokolakis</lastname>
+        </person>
+        <person key="comete-2014-idp100432">
+          <firstname>Catuscia</firstname>
+          <lastname>Palamidessi</lastname>
+        </person>
+        <person key="comete-2015-idp104296">
+          <firstname>Ehab</firstname>
+          <lastname>Elsalamouny</lastname>
+        </person>
+        <person key="comete-2016-idp121664">
+          <firstname>Tymofii</firstname>
+          <lastname>Prokopenko</lastname>
+        </person>
+        <person key="comete-2015-idp100688">
+          <firstname>Joris</firstname>
+          <lastname>Lamare</lastname>
+        </person>
+      </participants>
+      <p>The aim of our research is the specification and verification
+of protocols used in mobile distributed systems,
+in particular security protocols. We are especially interested in
+protocols for <i>information hiding</i>.</p>
+      <p>Information hiding is a generic term which we use here to refer to
+the problem of preventing the disclosure of information which is supposed to be secret or confidential.
+The most prominent research areas which are concerned with this problem are those of
+<i>secure information flow</i> and of <i>privacy</i>.</p>
+      <p>Secure information flow refers to the problem of avoiding the so-called <i>propagation</i> of secret
+data due to their processing. It was initially considered as related to software, and the research focussed on
+type systems and other kind of static analysis to prevent dangerous operations,
+Nowadays the setting is more general, and a large part of the research effort is directed
+towards the investigation of probabilistic scenarios and treaths.</p>
+      <p>Privacy denotes the issue
+of preventing certain information to become publicly known. It may refer to the protection of <i>private data</i>
+(credit card number, personal info etc.), of the
+agent's identity (<i>anonymity</i>), of the link between information and user
+(<i>unlinkability</i>), of its activities (<i>unobservability</i>),
+and of its <i>mobility</i> (<i>untraceability)</i>.</p>
+      <p>The common denominator of this class of problems is that an adversary
+can try to infer the private information (<i>secrets</i>) from the
+information that he can access (<i>observables</i>).
+The solution is then to obfuscate the link between
+secrets and observables as much as possible,
+and often the use randomization, i.e. the introduction of <i>noise</i>,
+can help to achieve this purpose. The system can then
+be seen as a <i>noisy channel</i>, in the information-theoretic sense,
+between the secrets and the observables.</p>
+      <p>We intend to explore the rich set of concepts and techniques in the fields of
+information theory and hypothesis testing
+to establish the foundations of quantitive information flow and of privacy, and to develop heuristics and methods
+to improve mechanisms for the protection of secret information. Our approach will be based on the specification of protocols
+in the probabilistic asynchronous <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>π</mi></math></formula>-calculus, and the application of model-checking
+to compute the matrices associated to
+the corresponding channels.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid13">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid15" level="2">
+        <bodyTitle>Notable New Projects and Contracts</bodyTitle>
+        <simplelist>
+          <li id="uid16">
+            <p noindent="true">New ANR project REPAS: Reliable and Privacy-Aware Software Systems
+via Bisimulation Metrics</p>
+            <p noindent="true">(Section <ref xlink:href="#uid115" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)</p>
+          </li>
+          <li id="uid17">
+            <p noindent="true">New industrial contract with Renault: Protection techniques for location data</p>
+            <p noindent="true">(Section <ref xlink:href="#uid54" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid18">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid19" level="1">
+      <bodyTitle>libqif - A Quantitative Information Flow C++ Toolkit Library</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp101696">
+          <firstname>Konstantinos</firstname>
+          <lastname>Chatzikokolakis</lastname>
+          <moreinfo>correspondant</moreinfo>
+        </person>
+        <person key="comete-2016-idp166288">
+          <firstname>Susheel</firstname>
+          <lastname>Suresh</lastname>
+        </person>
+        <person key="comete-2016-idp121664">
+          <firstname>Tymofii</firstname>
+          <lastname>Prokopenko</lastname>
+        </person>
+      </participants>
+      <p>
+        <ref xlink:href="https://github.com/chatziko/libqif" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>github.<allowbreak/>com/<allowbreak/>chatziko/<allowbreak/>libqif</ref>
+      </p>
+      <p>The goal of libqif is to provide an efficient C++ toolkit implementing a variety of
+techniques and algorithms from the area of quantitative information flow and
+differential privacy. We plan to implement all techniques produced by Comète
+in recent years, as well as several ones produced outside the group, giving the
+ability to privacy researchers to reproduce our results and compare different
+techniques in a uniform and efficient framework.</p>
+      <p>Some of these techniques were previously implemented in an ad-hoc fashion, in
+small, incompatible with each-other, non-maintained and usually inefficient
+tools, used only for the purposes of a single paper and then abandoned. We aim
+at reimplementing those – as well as adding several new ones not previously
+implemented – in a structured, efficient and maintainable manner, providing a
+tool of great value for future research. Of particular interest is the ability
+to easily re-run evaluations, experiments and case-studies from all our papers,
+which will be of great value for comparing new research results in the future.</p>
+      <p>The library was under constant development in 2016 with several new features
+added this year. The project's git repository shows for this year 77 commits by 2 contributors,
+containing 5697 line additions and 4067 line removals.
+Some of the techniques already implemented are:</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Standard leakage measures: Shannon, min-entropy, guessing entropy</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Measures from the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-leakage framework <ref xlink:href="#comete-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">Channel factorization</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Hyper distribution produced by a channel run under a prior</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">Standard differential privacy mechanisms from the literature</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">The planar Laplace mechanism of <ref xlink:href="#comete-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">The planar Geometric mechanism</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">The tight-constraints mechanism of <ref xlink:href="#comete-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+(also with equality constraints)</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">Optimal mechanism construction under DP</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">The standard Kantorovich metric as well as the multiplicative variant
+from <ref xlink:href="#comete-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">Additive capacity for specific prior over all gain functions <ref xlink:href="#comete-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">All operations are supported for both doubles (for precision) and
+floats (for memory efficiency)</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">All operations involving only rational quantities are supported using
+arbitrary precision rational arithmetic, allowing to obtain exact
+results</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">Native linear programing for rationals</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">Simple installation in OSX via Homebrew</p>
+        </li>
+      </simplelist>
+      <p>Many more are scheduled to be added in the near future.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>D-SPACES - constraint systems with space and extrusion operators</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp102952">
+          <firstname>Frank</firstname>
+          <lastname>Valencia</lastname>
+        </person>
+        <person key="comete-2014-idp107936">
+          <firstname>Yamil Salim</firstname>
+          <lastname>Perchy</lastname>
+        </person>
+      </participants>
+      <p>
+        <ref xlink:href="http://www.lix.polytechnique.fr/~perchy/d-spaces/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lix.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~perchy/<allowbreak/>d-spaces/</ref>
+      </p>
+      <p>D-SPACES is an implementation of constraint systems with space and extrusion
+operators. Constraint systems are algebraic models that allow for a semantic
+language-like representation of information in systems where the concept of
+space is a primary structural feature. We give this information mainly an
+epistemic interpretation and consider various agents as entities acting upon it.
+D-SPACES is coded as a c++11 library providing implementations for constraint
+systems, space functions and extrusion functions. The interfaces to access each
+implementation are minimal and thoroughly documented. D-SPACES also provides
+property-checking methods as well as an implementation of a specific type of
+constraint systems (a boolean algebra). This last implementation serves as an
+entry point for quick access and proof of concept when using these models. In
+<ref xlink:href="#comete-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> an illustrative example of using the library is given,
+in the form of a small social network where users post their beliefs and utter
+their opinions.</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Trace Slicer for Timed Concurrent Constraint Programming</bodyTitle>
+      <participants>
+        <person key="comete-2014-idp100432">
+          <firstname>Catuscia</firstname>
+          <lastname>Palamidessi</lastname>
+        </person>
+        <person key="comete-2014-idp116888">
+          <firstname>Carlos</firstname>
+          <lastname>Olarte</lastname>
+        </person>
+      </participants>
+      <p>
+        <ref xlink:href="http://subsell.logic.at/slicer/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>subsell.<allowbreak/>logic.<allowbreak/>at/<allowbreak/>slicer/</ref>
+      </p>
+      <p>Concurrent Constraint Programming (CCP) is a declarative model for concurrency
+aimed at specifying reactive systems, i.e. systems that continuously interact
+with the environment. Some previous works have developed (approximated)
+declarative debuggers for CCP languages. However, the task of debugging
+concurrent programs remains difficult. This tool is a companion for the existing
+debugging techniques. Slicing in our proposal consists of considering partial
+computations, which show the presence of bugs. Often, the quantity of
+information in a trace is overwhelming, and the user gets easily lost, since she
+cannot focus on the sources of the bugs. Our slicer allows for marking part of
+the state of the computation and assists the user to eliminate most of the
+redundant information in order to highlight the errors. See
+<ref xlink:href="#comete-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for further details.</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid37">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Foundations of information hiding </bodyTitle>
+      <p>Information hiding refers to the problem of protecting private information
+while performing certain tasks or interactions, and trying to avoid that an
+adversary can infer such information. This is one of the main areas of
+research in Comète; we are exploring several topics, described below.</p>
+      <subsection id="uid39" level="2">
+        <bodyTitle>Axioms for Information Leakage</bodyTitle>
+        <p>Quantitative information flow aims to assess and control the leakage of
+sensitive information by computer systems. A key insight in this area is that no
+single leakage measure is appropriate in all operational scenarios; as a result,
+many leakage measures have been proposed, with many different properties. To
+clarify this complex situation, we studied in <ref xlink:href="#comete-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+information leakage axiomatically, showing important dependencies among
+different axioms. We also established a completeness result about the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-leakage
+family, showing that any leakage measure satisfying certain
+intuitively-reasonable properties can be expressed as a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-leakage.</p>
+      </subsection>
+      <subsection id="uid40" level="2">
+        <bodyTitle>Up-To Techniques for Generalized Bisimulation Metrics</bodyTitle>
+        <p>Bisimulation metrics allow us to compute distances between the behaviors of
+probabilistic systems. In <ref xlink:href="#comete-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we presented
+enhancements of the proof method based on bisimulation metrics, by extending the
+theory of up-to techniques to (pre)metrics on discrete probabilistic concurrent
+processes.</p>
+        <p>Up-to techniques have proved to be a powerful proof method for showing that two
+systems are bisimilar, since they make it possible to build (and thereby check)
+smaller relations in bisimulation proofs. We defined soundness conditions for
+up-to techniques on metrics, and studied compatibility properties that allow us
+to safely compose up-to techniques with each other. As an example, we derived
+the soundness of the up-to-bisimilarity-metric-and-context technique.</p>
+        <p>The study was carried out for a generalized version of the bisimulation metrics,
+in which the Kantorovich lifting is parametrized with respect to a distance
+function. The standard bisimulation metrics, as well as metrics aimed at
+capturing multiplicative properties such as differential privacy, are specific
+instances of this general definition.</p>
+      </subsection>
+      <subsection id="uid41" level="2">
+        <bodyTitle>Compositional methods for information-hiding</bodyTitle>
+        <p>Systems concerned with information hiding often use randomization to obfuscate
+the link between the observables and the information to be protected. The degree
+of protection provided by a system can be expressed in terms of the probability
+of error associated with the inference of the secret information. In
+<ref xlink:href="#comete-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we considered a probabilistic process
+calculus to specify such systems, and we studied how the operators aﬀect the
+probability of error. In particular, we characterized constructs that have the
+property of not decreasing the degree of protection, and that can therefore be
+considered safe in the modular construction of these systems. As a case study,
+we applied these techniques to the Dining Cryptographers, and we derive a
+generalization of Chaum's strong anonymity result.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>Differential Privacy Models for Location-Based Services</bodyTitle>
+        <p>In <ref xlink:href="#comete-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we considered the adaptation of differential
+privacy to the context of location-based services (LBSs), which personalize the
+information provided to a user based on his current position. Assuming that the
+LBS provider is queried with a perturbed version of the position of the user
+instead of his exact one, we relied on differential privacy to quantify the
+level of indistinguishability (i.e., privacy) provided by this perturbation with
+respect to the user's position. In this setting, the adaptation of differential
+privacy can lead to various models depending on the precise form of
+indistinguishability required. We discussed the set of properties that hold for
+these models in terms of privacy, utility and also implementation issues. More
+precisely, we first introduced and analyzed one of these models, the
+(D,eps)-location privacy, which is directly inspired from the standard
+differential privacy model. In this context, we described a general
+probabilistic model for obfuscation mechanisms for the locations whose output
+domain is the Euclidean space <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>E</mi><mn>2</mn></msup></math></formula>. In this model, we characterized the
+satisfiability conditions of (D,eps)-location privacy for a particular mechanism
+and also measured its utility with respect to an arbitrary loss function.
+Afterwards, we presented and analyzed symmetric mechanisms in which all
+locations are perturbed in a unified manner through a noise function, focusing
+in particular on circular noise functions. We proved that, under certain
+assumptions, the circular functions are rich enough to provide the same privacy
+and utility levels as other more complex (i.e., non-circular) noise functions,
+while being easier to implement. Finally, we extended our results to a
+generalized notion for location privacy, called `l-privacy' capturing both
+(D,eps)-location privacy and also the notion of geo-indistinguishability
+recently introduced by Andrès, Bordenabe, Chatzikokolakis and Palamidessi.</p>
+      </subsection>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Practical Mechanisms for Location Privacy</bodyTitle>
+        <p>The continuously increasing use of location-based services poses an important
+threat to the privacy of users. A natural defense is to employ an obfuscation
+mechanism, such as those providing geo-indistinguishability, a framework for
+obtaining formal privacy guarantees that has become popular in recent years.</p>
+        <p>Ideally, one would like to employ an optimal obfuscation mechanism, providing
+the best utility among those satisfying the required privacy level. In theory
+optimal mechanisms can be constructed via linear programming. In practice,
+however, this is only feasible for a radically small number of locations. As a
+consequence, all known applications of geo-indistinguishability simply use noise
+drawn from a planar Laplace distribution.</p>
+        <p>In <ref xlink:href="#comete-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we studied methods for substantially
+improving the utility of location obfuscation, while having practical
+applicability as a central constraint. We provided such solutions for both
+infinite (continuous or discrete) as well as large but finite domains of
+locations, using a Bayesian remapping procedure as a key ingredient. We
+evaluated
+our techniques in two real world complete datasets, without any restriction on
+the evaluation area, and showed important utility improvements wrt the standard
+planar Laplace approach.</p>
+      </subsection>
+      <subsection id="uid44" level="2">
+        <bodyTitle>Preserving differential privacy under finite-precision semantics</bodyTitle>
+        <p>The approximation introduced by finite-precision representation of continuous
+data can induce arbitrarily large information leaks even when the computation
+using exact semantics is secure. Such leakage can thus undermine design efforts
+aimed at protecting sensitive information. In <ref xlink:href="#comete-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we
+focussed on differential privacy, an approach to privacy that emerged from the
+area of statistical databases and is now widely applied also in other domains.
+In this approach, privacy is protected by adding noise to the values correlated
+to the private data. The typical mechanisms used to achieve differential privacy
+have been proved correct in the ideal case in which computations are made using
+infinite-precision semantics. We analyzed the situation at the implementation
+level, where the semantics is necessarily limited by finite precision, i.e., the
+representation of real numbers and the operations on them are rounded according
+to some level of precision. We showed that in general there are violations of
+the differential privacy property, and we studied the conditions under which we
+can still guarantee a limited (but, arguably, acceptable) variant of the
+property, under only a minor degradation of the privacy level. Finally, we
+illustrated our results on two examples: the standard Laplacian mechanism
+commonly used in differential privacy, and a bivariate version of it recently
+introduced in the setting of privacy-aware geolocation.</p>
+      </subsection>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Quantifying Leakage in the Presence of Unreliable Sources of Information</bodyTitle>
+        <p>Belief and min-entropy leakage are two well-known approaches to quantify
+information flow in security systems. Both concepts stand as alternatives to the
+traditional approaches founded on Shannon entropy and mutual information , which
+were shown to provide inadequate security guarantees. In
+<ref xlink:href="#comete-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we unified the two concepts in one model so as to
+cope with the frequent (potentially inaccurate, misleading or outdated)
+attackers' side information about individuals on social networks, online forums,
+blogs and other forms of online communication and information sharing. To this
+end we proposed a new metric based on min-entropy that takes into account the
+adversary's beliefs.</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>On the Compositionality of Quantitative Information Flow</bodyTitle>
+        <p>In the min-entropy approach to quantitative information flow, the leakage is
+defined in terms of a minimization problem, which, in the case of large systems,
+can be computationally rather heavy. The same happens for the recently proposed
+generalization called <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-vulnerability. In <ref xlink:href="#comete-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we
+studied the case in which the channel associated to the system can be decomposed
+into simpler channels, which typically happens when the observables consist of
+several components. Our main contribution is the derivation of bounds on the
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-leakage of the whole system in terms of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula>-leakages of its components.
+We also considered the particular cases of min-entropy leakage and of parallel
+channels, generalizing and systematizing results from the literature. We
+demonstrated the effectiveness of our method and evaluate the precision of our
+bounds using examples.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>Foundations of Concurrency</bodyTitle>
+      <p>Distributed systems have changed substantially in the recent past with the
+advent of phenomena like social networks and cloud computing. In the previous
+incarnation of distributed computing the emphasis was on consistency, fault
+tolerance, resource management and related topics; these were all characterized
+by <i>interaction between processes</i>. Research proceeded along two lines: the
+algorithmic side which dominated the Principles Of Distributed Computing
+conferences and the more process algebraic approach epitomized by CONCUR where
+the emphasis was on developing compositional reasoning principles. What marks
+the new era of distributed systems is an emphasis on managing access to
+information to a much greater degree than before.</p>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Belief, Knowledge, Lies and Other Utterances in an Algebra for Space
+and Extrusion</bodyTitle>
+        <p>Spatial constraint systems are algebraic structures from concurrent constraint
+programming to specify spatial and epistemic behavior in multi-agent system. In
+<ref xlink:href="#comete-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#comete-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we developed the theory of
+spatial constraint systems with operators to specify information and processes
+moving from a space to another. We investigated the properties of this new
+family of constraint systems and illustrated their applications. From a
+computational point of view the new operators provide for process/information
+extrusion, a central concept in formalisms for mobile communication. From an
+epistemic point of view extrusion corresponds to a notion we called utterance; a
+piece of information that an agent communicates to others but that may be
+inconsistent with the agent's beliefs. Utterances can then be used to express
+instances of epistemic notions such as hoaxes or intentional lies. Spatial
+constraint system can express the epistemic notion of belief by means of space
+functions that specify local information. We showed that spatial constraint can
+also express the epistemic notion of knowledge by means of a derived spatial
+operator that specifies global information. In <ref xlink:href="#comete-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we
+reported on our progress using spatial constraint system as an abstract
+representation of modal and epistemic behaviour.</p>
+      </subsection>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Deriving Inverse Operators for Modal Logic</bodyTitle>
+        <p>In <ref xlink:href="#comete-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we used spatial constraint systems to give an
+abstract characterization of the notion of normality in modal logic and to
+derive right inverse/reverse operators for modal languages. In particular, we
+identified the weakest condition for the existence of right inverses and showed
+that the abstract notion of normality corresponds to the preservation of finite
+suprema. We applied our results to existing modal languages such as the weakest
+normal modal logic, Hennessy-Milner logic, and linear-time temporal logic. We
+also discussed our results in the context of modal concepts such as
+bisimilarity and inconsistency invariance.</p>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>D-SPACES: Implementing Declarative Semantics for Spatially
+Structured Information</bodyTitle>
+        <p>In <ref xlink:href="#comete-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we introduced D-SPACES, an implementation of
+constraint systems with space and extrusion operators. D-SPACES is coded as a
+c++11 library providing implementations for constraint systems, space functions
+and extrusion functions. D-SPACES provides property-checking methods as well
+as an implementation of a specific type of constraint systems (boolean
+algebras). We illustrated the implementation with a small social network where
+users post their beliefs and utter their opinions.</p>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Slicing Concurrent Constraint Programs</bodyTitle>
+        <p>Concurrent Constraint Programming (CCP) is a declarative model for concurrency
+where agents interact by telling and asking constraints (pieces of information)
+in a shared store. Some previous works have developed (approximated) declarative
+debuggers for CCP languages. However, the task of debugging concurrent programs
+remains difficult. In <ref xlink:href="#comete-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we defined a dynamic slicer
+for CCP and we showed it to be a useful companion tool for the existing debugging
+techniques. Our technique starts by considering a partial computation (a trace)
+that shows the presence of bugs. Often, the quantity of information in such a
+trace is overwhelming, and the user gets easily lost, since she cannot focus on
+the sources of the bugs. Our slicer allows for marking part of the state of the
+computation and assists the user to eliminate most of the redundant information
+in order to highlight the errors. We showed that this technique can be tailored to
+timed variants of CCP. We also developed a prototypical implementation freely
+available for making experiments.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid52">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid53" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Contract with Renault</bodyTitle>
+        <sanspuceslist>
+          <li id="uid55">
+            <p noindent="true">Project title: Protection techniques for location data</p>
+          </li>
+          <li id="uid56">
+            <p noindent="true">Duration: July 2016 - December 2016</p>
+          </li>
+          <li id="uid57">
+            <p noindent="true">Budget: 38K euros, financed by Renault</p>
+          </li>
+          <li id="uid58">
+            <p noindent="true">Coordinator: Catuscia Palamidessi, Inria Saclay, EPI Comète</p>
+          </li>
+          <li id="uid59">
+            <p noindent="true">Abstract:
+The goal of this project is to produce a survey of the state of
+the art methods for protecting location data,
+as well as a protytype showing the application of some of these
+methods in the context of a “connected car”.</p>
+          </li>
+          <li id="uid60">
+            <p noindent="true">Stage: A six month intern (Anna Pazii) was funded by this project.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid61">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Projects funded by Digiteo-DigiCosme</bodyTitle>
+        <subsection id="uid63" level="3">
+          <bodyTitle>OPTIMEC</bodyTitle>
+          <sanspuceslist>
+            <li id="uid64">
+              <p noindent="true">Project title: Optimal Mechanisms for Privacy Protection</p>
+            </li>
+            <li id="uid65">
+              <p noindent="true">Duration: September 2016 - August 2019</p>
+            </li>
+            <li id="uid66">
+              <p noindent="true">Coordinator: Catuscia Palamidessi, Inria Saclay, EPI Comète</p>
+            </li>
+            <li id="uid67">
+              <p noindent="true">Other PI's: Serge Haddadm ENS Cachan.</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Abstract: In this project we plan to investigate classes of utility and privacy measures, and to devise methods to obtain optimal mechanisms with respect to the trade-off between utility and privacy. In order to represent the probabilistic knowledge of the adversary and of the user, and the fact that mechanisms themselves can be randomized, we will consider a probabilistic setting. We will focus, in particular, on measures that are expressible as linear functions of the probabilities.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid69" level="3">
+          <bodyTitle>D-SPACES</bodyTitle>
+          <sanspuceslist>
+            <li id="uid70">
+              <p noindent="true">Project title: D-spaces : Distributed Spaces in Concurrent Epistemic Systems</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Duration: Nov 2013 - Oct 2016</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">Coordinator: Frank Valencia, CNRS-LIX and Inria Saclay, EPI Comète</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Other PI's: Stefan Haar ENS Cachan.</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Abstract: In this project we developed an innovative and expressive computational model for these systems that coherently combines techniques for the analysis of concurrent systems such as process calculi with epistemic and spatial formalisms.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="cid2" level="2">
+        <bodyTitle>Large-scale initiatives</bodyTitle>
+        <sanspuceslist>
+          <li id="uid76">
+            <p noindent="true">Project acronym: CAPPRIS</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">Project title: Collaborative Action on the Protection of Privacy Rights in the Information Society</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">Duration: September 2013 - December 2016</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">URL: <ref xlink:href="https://cappris.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>cappris.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Coordinator: Daniel Le Metayer, Inria Grenoble</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">Other partner institutions:
+The project involves four Inria research centers (Saclay, Saphia-Antipolis, Rennes and Grenoble), CNRS-LAAS, Eurecom and the university of Namur. Besides computer scientists, the consortium also includes experts in sociology and in law, thus covering the complementary areas of expertise required to reach the objectives.</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">Abstract: The goal of this project is to study the challenges related to privacy in the modern information society, trying to consider not only the technical, but also the social and legal ones, and to develop methods to enhance the privacy protection.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid83" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Inria-MSR joint lab</bodyTitle>
+        <subsection id="uid85" level="3">
+          <bodyTitle>
+            <ref xlink:href="http://www.msr-inria.fr/projects/privacy-friendly-services-and-apps/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Privacy-Friendly Services and Apps</ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid86">
+              <p noindent="true">Title: Privacy-Friendly Services and Applications</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Inria principal investigator: Catuscia Palamidessi</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">International Partners:</p>
+              <sanspuceslist>
+                <li id="uid89">
+                  <p noindent="true">Cedric Fournet, Microsoft Research Lab, Cambridge, UK</p>
+                </li>
+                <li id="uid90">
+                  <p noindent="true">Andy Gordon, Microsoft Research Lab, Cambridge, UK</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid91">
+              <p noindent="true">Duration: 2014 - 2016</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">URL: <ref xlink:href="http://www.msr-inria.fr/projects/privacy-friendly-services-and-apps/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>msr-inria.<allowbreak/>fr/<allowbreak/>projects/<allowbreak/>privacy-friendly-services-and-apps/</ref></p>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Abstract:
+This is a project sponsored by Microsoft Research Lab, on methods to preserve privacy in web services and location-based services.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Inria Associate Teams</bodyTitle>
+        <subsection id="uid95" level="3">
+          <bodyTitle>
+            <ref xlink:href="http://www.lix.polytechnique.fr/~kostas/projects/logis/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LOGIS </ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid96">
+              <p noindent="true">Title: Logical and Formal Methods for Information Security</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Inria principal investigator: Konstantinos Chatzikokolakis</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">International Partners:</p>
+              <sanspuceslist>
+                <li id="uid99">
+                  <p noindent="true">Mitsuhiro Okada, Keio University (Japan)</p>
+                </li>
+                <li id="uid100">
+                  <p noindent="true">Yusuke Kawamoto, AIST (Japan)</p>
+                </li>
+                <li id="uid101">
+                  <p noindent="true">Tachio Terauchi, JAIST (Japan)</p>
+                </li>
+                <li id="uid102">
+                  <p noindent="true">Masami Hagiya, University of Tokyo (Japan)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid103">
+              <p noindent="true">Start year: 2016</p>
+            </li>
+            <li id="uid104">
+              <p noindent="true">URL: <ref xlink:href="http://www.lix.polytechnique.fr/~kostas/projects/logis/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lix.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~kostas/<allowbreak/>projects/<allowbreak/>logis/</ref></p>
+            </li>
+            <li id="uid105">
+              <p noindent="true">Abstract: The project aims at integrating the logical / formal approaches to verify security protocols with (A) complexity theory and (B) information theory. The first direction aims at establishing the foundations of logical verification for security in the computational sense, with the ultimate goal of automatically finding attacks that probabilistic polynomial-time adversaries can carry out on protocols. The second direction aims at developing frameworks and techniques for evaluating and reducing information leakage caused by adaptive attackers.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid107" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid108">
+              <p noindent="true">Geoffrey Smith, Florida International University (United States)</p>
+            </li>
+            <li id="uid109">
+              <p noindent="true">Carroll Morgan, NICTA (Australia)</p>
+            </li>
+            <li id="uid110">
+              <p noindent="true">Annabelle McIver, Maquarie University (Australia)</p>
+            </li>
+            <li id="uid111">
+              <p noindent="true">Moreno Falaschi, Professor, University of Siena, Italy</p>
+            </li>
+            <li id="uid112">
+              <p noindent="true">Mario Ferreira Alvim Junior, Assistant Professor, Federal University of Minas Gerais, Brazil</p>
+            </li>
+            <li id="uid113">
+              <p noindent="true">Camilo Rueda, Professor, Universidad Javeriana Cali, Colombia</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Participation in Other International Programs</bodyTitle>
+        <subsection id="uid115" level="3">
+          <bodyTitle>REPAS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid116">
+              <p noindent="true">Program: ANR Blanc</p>
+            </li>
+            <li id="uid117">
+              <p noindent="true">Project title: Reliable and Privacy-Aware Software Systems via Bisimulation Metrics</p>
+            </li>
+            <li id="uid118">
+              <p noindent="true">Duration: October 2016 - September 2021</p>
+            </li>
+            <li id="uid119">
+              <p noindent="true">Coordinator: Catuscia Palamidessi, Inria Saclay, EPI Comète</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">Other PI's and partner institutions: Ugo del Lago, Inria Sophia Antipolis (EPI Focus) and University of Bologna (Italy).
+Vincent Danos, ENS Paris. Filippo Bonchi, ENS Lyon.</p>
+            </li>
+            <li id="uid121">
+              <p noindent="true">Abstract: In this project, we aim at investigating quantitative notions and tools for proving program correctness and protecting privacy. In particular, we will focus on bisimulation metrics, which are the natural extension of bisimulation on quantitative systems. As a key application, we will develop a mechanism to protect the privacy of users when their location traces are collected.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid122" level="3">
+          <bodyTitle>PACE</bodyTitle>
+          <sanspuceslist>
+            <li id="uid123">
+              <p noindent="true">Program: ANR Blanc International</p>
+            </li>
+            <li id="uid124">
+              <p noindent="true">Project title: Beyond plain Processes: Analysis techniques, Coinduction and Expressiveness</p>
+            </li>
+            <li id="uid125">
+              <p noindent="true">Duration: January 2013 - December 2016</p>
+            </li>
+            <li id="uid126">
+              <p noindent="true">URL: <ref xlink:href="http://perso.ens-lyon.fr/daniel.hirschkoff/pace/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>perso.<allowbreak/>ens-lyon.<allowbreak/>fr/<allowbreak/>daniel.<allowbreak/>hirschkoff/<allowbreak/>pace/</ref></p>
+            </li>
+            <li id="uid127">
+              <p noindent="true">Coordinator: Daniel Hirschkoff, Ecole Normale Supérieure de Lyon</p>
+            </li>
+            <li id="uid128">
+              <p noindent="true">Other PI's and partner institutions: Catuscia Palamidessi, Inria Saclay, Frank Valencia, CNRS-LIX and Inria Saclay (France).
+Davide Sangiorgi, University of Bologna (Italy). Yuxi Fu, Shanghai Jiao Tong University (China).</p>
+            </li>
+            <li id="uid129">
+              <p noindent="true">Abstract: This project objective is to enrich and adapt these methods, techniques, and tools to much broader
+forms of interactive models, well beyond the realm of "traditional" processes.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid130" level="3">
+          <bodyTitle>LOCALI</bodyTitle>
+          <sanspuceslist>
+            <li id="uid131">
+              <p noindent="true">Program: ANR Blanc International</p>
+            </li>
+            <li id="uid132">
+              <p noindent="true">Project title: Logical Approach to Novel Computational Paradigms</p>
+            </li>
+            <li id="uid133">
+              <p noindent="true">Duration: January 2012 - December 2016</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">URL: <ref xlink:href="http://www.agence-nationale-recherche.fr/?Project=ANR-11-IS02-0002" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>agence-nationale-recherche.<allowbreak/>fr/<allowbreak/>?Project=ANR-11-IS02-0002</ref></p>
+            </li>
+            <li id="uid135">
+              <p noindent="true">Coordinator: Gilles Dowek, Inria Rocquencourt</p>
+            </li>
+            <li id="uid136">
+              <p noindent="true">Other PI's and partner institutions: Catuscia Palamidessi, Inria Saclay.
+Thomas Erhard, Paris VII. Ying Jiang , Chinese Academy of Science in Beijin (China).</p>
+            </li>
+            <li id="uid137">
+              <p noindent="true">Abstract: This project aims at exploring the interplays between logic and sequential/distributed computation in formalisms like the lambda calculus and the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>π</mi></math></formula> calculus. Going back to the fundamentals of the definitions of these calculi, the project plans to design new programming languages and proof systems via a logical approach.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid138" level="3">
+          <bodyTitle>MUSICAL</bodyTitle>
+          <sanspuceslist>
+            <li id="uid139">
+              <p noindent="true">Program: CNPq Science Without Borders.</p>
+            </li>
+            <li id="uid140">
+              <p noindent="true">Project title: Music and Spatial Interaction with Constraints, Algebra and Logic: Foundations and Applications.</p>
+            </li>
+            <li id="uid141">
+              <p noindent="true">Duration: Oct 2014 - Oct 2016</p>
+            </li>
+            <li id="uid142">
+              <p noindent="true">URL: <ref xlink:href="http://cic.puj.edu.co/~caolarte/musical/Musical/Welcome.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cic.<allowbreak/>puj.<allowbreak/>edu.<allowbreak/>co/<allowbreak/>~caolarte/<allowbreak/>musical/<allowbreak/>Musical/<allowbreak/>Welcome.<allowbreak/>html</ref></p>
+            </li>
+            <li id="uid143">
+              <p noindent="true">Coordinator: Elaine Pimentel, Universidade Federal do Rio Grande do Norte (Brazil),</p>
+            </li>
+            <li id="uid144">
+              <p noindent="true">Other PI's and partner institutions: Camilo Rueda, PUJ Cali (Colombia). Carlos Olarte, Universidade Federal do Rio Grande do Norte (Brazil). Frank Valencia, CNRS-LIX and Inria Saclay (France). Gerard Assayag, IRCAM (France).</p>
+            </li>
+            <li id="uid145">
+              <p noindent="true">Abstract: This multi-disciplinary project aims to develop and integrate tools from logic and concurrency theory for the design and analysis of reactive systems and to their application to musical processes and multimedia systems.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid146" level="3">
+          <bodyTitle>CLASSIC</bodyTitle>
+          <sanspuceslist>
+            <li id="uid147">
+              <p noindent="true">Program: Colciencias - Conv. 712.</p>
+            </li>
+            <li id="uid148">
+              <p noindent="true">Project title: Concurrency, Logic and Algebra for Social and Spatial Interactive Computation.</p>
+            </li>
+            <li id="uid149">
+              <p noindent="true">Duration: Oct 2016 - Oct 2019</p>
+            </li>
+            <li id="uid150">
+              <p noindent="true">URL: <ref xlink:href="http://goo.gl/Gv6Lij" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>goo.<allowbreak/>gl/<allowbreak/>Gv6Lij</ref></p>
+            </li>
+            <li id="uid151">
+              <p noindent="true">Coordinator: Camilo Rueda PUJ Cali (Colombia).</p>
+            </li>
+            <li id="uid152">
+              <p noindent="true">Other PI's and partner institutions: Carlos Olarte, Universidade Federal do Rio Grande do Norte (Brazil). Frank Valencia, CNRS-LIX and Inria Saclay (France).</p>
+            </li>
+            <li id="uid153">
+              <p noindent="true">Abstract:This project will advance the state of the art of domains such as mathematical logic, order theory and concurrency for reasoning about spatial and epistemic behaviour in multi-agent systems..</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid154" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid155" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <sanspuceslist>
+          <li id="uid156">
+            <p noindent="true">Mario Ferreira Alvim Junior, Assistant Professor, Federal University of Minas Gerais, Brazil, Dec 2016</p>
+          </li>
+          <li id="uid157">
+            <p noindent="true">Annabelle McIver, Associate Professor, Macquarie University, Australia, Dec 2016</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true">Carroll Morgan, Professor, University of New South Wales and NICTA, Australia, Dec 2016</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">Geoffrey Smith, Professor, Florida International University, USA, Dec 2016</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">Camilo Rueda, Professor, PUJ Cali, Colombia, May 2016 and Nov 2016.</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Camilo Rocha, Professor, PUJ Cali, Colombia, Oct 2016.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid162" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <sanspuceslist>
+          <li id="uid163">
+            <p noindent="true">Catuscia Palamidessi visited the Computer Security team of Roberto Focardi at the University of Venice, Italy, from 4 April to 30 April, 2016.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid164">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid165" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <p>Note: In this section we include only the activities of the
+permanent internal members of Comète.</p>
+      <subsection id="uid166" level="2">
+        <bodyTitle>Scientific events organisation</bodyTitle>
+        <subsection id="uid167" level="3">
+          <bodyTitle>Member of the organizing committee</bodyTitle>
+          <p>Catuscia Palamidessi is member of:</p>
+          <sanspuceslist>
+            <li id="uid168">
+              <p noindent="true">The Executive Committee of <ref xlink:href="http://siglog.hosting.acm.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">SIGLOG</ref>, the ACM Special Interest Group on Logic and Computation. Since 2014.</p>
+            </li>
+            <li id="uid169">
+              <p noindent="true">The Organizing Committee of <ref xlink:href="http://lics.rwth-aachen.de/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LICS</ref>, the ACM/IEEE Symposium on Logic in Computer Science. Since 2010.</p>
+            </li>
+            <li id="uid170">
+              <p noindent="true">The Council of <ref xlink:href="http://www.eatcs.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EATCS</ref>, the European Association for Theoretical
+Computer Science. Since 2005.</p>
+            </li>
+            <li id="uid171">
+              <p noindent="true">The Steering Committee of <ref xlink:href="http://www.etaps.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ETAPS</ref>, the European Joint Conferences on Theory and Practice of Software. Since 2006.</p>
+            </li>
+            <li id="uid172">
+              <p noindent="true">The Steering Committee of <ref xlink:href="http://www.eacsl.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EACSL</ref>, the European Association for Computer Science Logics. Since 2015.</p>
+            </li>
+            <li id="uid173">
+              <p noindent="true">The Steering Committee of CONCUR, the International Conference in Concurrency Theory. Since 2016.</p>
+            </li>
+            <li id="uid174">
+              <p noindent="true">The Steering Committee of FORTE, the International Conference on Formal Techniques for Distributed Objects, Components, and Systems. Since 2014.</p>
+            </li>
+            <li id="uid175">
+              <p noindent="true"><ref xlink:href="http://www.kb.ecei.tohoku.ac.jp/IFIP-TC1/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">The IFIP Technical Committee 1</ref> – Foundations of
+Computer Science. Since 2007.</p>
+            </li>
+            <li id="uid176">
+              <p noindent="true"><ref xlink:href="http://wg22.labri.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">The IFIP Working Group 2.2</ref> – Formal Description of Programming Concepts. Since 2001.</p>
+            </li>
+            <li id="uid177">
+              <p noindent="true"><ref xlink:href="http://www.dsi.unive.it/IFIPWG1_7/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">The IFIP Working Group 1.7</ref> – Theoretical Foundations of Security Analysis and Design. Since 2010.</p>
+            </li>
+          </sanspuceslist>
+          <p>Frank D. Valencia is member of:</p>
+          <sanspuceslist>
+            <li id="uid178">
+              <p noindent="true">The steering committee of the International Workshop in Concurrency EXPRESS. Since 2010.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid179" level="2">
+        <bodyTitle>Scientific events selection</bodyTitle>
+        <subsection id="uid180" level="3">
+          <bodyTitle>Member of conference program committees</bodyTitle>
+          <p>Catuscia Palamidessi is/has been a member of the program committees
+of the following conferences and workshops:</p>
+          <sanspuceslist>
+            <li id="uid181">
+              <p noindent="true"><ref xlink:href="http://fit.uet.vnu.edu.vn/ictac2017/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICTAC 2017</ref>. The 14th International Colloquium on Theoretical Aspects of Computing.
+Hanoi, Vietnam, 23-27 October 2017.</p>
+            </li>
+            <li id="uid182">
+              <p noindent="true"><ref xlink:href="http://tase2017.unice.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">TASE 2017</ref>. The 11th International Symposium on Theoretical Aspects of Software Engineering.
+Nice, France, 13-15 September 2017.</p>
+            </li>
+            <li id="uid183">
+              <p noindent="true"><ref xlink:href="https://www.concur2017.tu-berlin.de/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CONCUR 2017</ref>. The 28th International Conference on Concurrency Theory. Berlin, Germany, 5-8 September 2017.</p>
+            </li>
+            <li id="uid184">
+              <p noindent="true"><ref xlink:href="http://www.icsoft-pt.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CSL 2017</ref>. The 26th EACSL Annual Conference on Computer Science Logic. Stockholm, Sweden, 20-25 August 2017.</p>
+            </li>
+            <li id="uid185">
+              <p noindent="true"><ref xlink:href="http://www.icsoft-pt.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICSOFT-PT 2017</ref>. The 12th International Conference on Software Paradigm Trends. Lisbon, Portugal, 24-26 July 2017.</p>
+            </li>
+            <li id="uid186">
+              <p noindent="true"><ref xlink:href="http://icalp17.mimuw.edu.pl/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICALP 2017</ref> (Track B). The 44th International Colloquium on Automata, Languages, and Programming. Warsaw, Poland, 10–14 July 2017.</p>
+            </li>
+            <li id="uid187">
+              <p noindent="true"><ref xlink:href="http://2017.discotec.org/calls/forte-2017" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">FORTE 2017</ref>. The 37th IFIP International Conference on Formal Techniques for Distributed Objects, Components, and Systems. Neuchâtel, Switzerland, 19-22 June 2017.</p>
+            </li>
+            <li id="uid188">
+              <p noindent="true"><ref xlink:href="http://logic.pdmi.ras.ru/csr2017/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CSR 2017</ref>. The 12th International Computer Science Symposium in Russia. Kazan, Russia, 8–12 June 2017.</p>
+            </li>
+            <li id="uid189">
+              <p noindent="true"><ref xlink:href="http://cc.ee.ntu.edu.tw/~ictac2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICTAC 2016</ref>. The 13th International Colloquium on Theoretical Aspects of Computing.
+Taipei, Taiwan, 24-31 October 2016.</p>
+            </li>
+            <li id="uid190">
+              <p noindent="true"><ref xlink:href="http://www.cliplab.org/Conferences/LOPSTR16/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LOPSTR 2016</ref>. The 26th International Symposium on Logic-Based Program Synthesis and Transformation, 6-8 September 2016.</p>
+            </li>
+            <li id="uid191">
+              <p noindent="true"><ref xlink:href="http://www.concur2016.ulaval.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CONCUR 2016</ref>. The 27th International Conference on Concurrency Theory. Québec City, Canada, 23-26 August 2016.</p>
+            </li>
+            <li id="uid192">
+              <p noindent="true"><ref xlink:href="http://tase2016.ecnu.edu.cn/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">TASE 2016</ref>. The 10th International Symposium on Theoretical Aspects of Software Engineering.
+Shanghai, China, 17-19 July 2016.</p>
+            </li>
+            <li id="uid193">
+              <p noindent="true"><ref xlink:href="http://www.mpi-sws.org/~dg/events/fcs2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">FCS 2016</ref>. The Workshop on Foundations of Computer Security. Lisbon, Portugal, 27 June 2016.</p>
+            </li>
+            <li id="uid194">
+              <p noindent="true"><ref xlink:href="http://conferences.au.dk/mfps-2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">MFPS XXXII</ref>. The Thirty-second Conference on the Mathematical Foundations of Programming Semantics. Carnegie Mellon University, Pittsburgh, USA, 23-26 May 2016.</p>
+              <p><ref xlink:href="http://www.mathematik.tu-darmstadt.de/fbereiche/logik/phdsinlogic2016/?site=home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">PhDs in Logic VIII</ref>. Darmstadt, Germany, 9-11 May 2016.</p>
+            </li>
+            <li id="uid195">
+              <p noindent="true"><ref xlink:href="http://sps.cs.uni-saarland.de/ueop/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">UEOP 2016</ref>. The 1st Workshop on Understanding and Enhancing Online Privacy. San Diego, USA, 21 February 2016.</p>
+            </li>
+          </sanspuceslist>
+          <p>Konstantinos Chatzikokolakis is/has been a member of the program committees
+of the following conferences and workshops:</p>
+          <sanspuceslist>
+            <li id="uid196">
+              <p noindent="true"><ref xlink:href="http://icde2017.sdsc.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICDE 2017</ref>: IEEE International Conference on Data Engineering</p>
+            </li>
+            <li id="uid197">
+              <p noindent="true"><ref xlink:href="http://csf2017.tecnico.ulisboa.pt/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CSF 2017</ref>: 30th IEEE Computer Security Foundations Symposium</p>
+            </li>
+            <li id="uid198">
+              <p noindent="true"><ref xlink:href="http://www.etaps.org/index.php/2017/post" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">POST 2017</ref>: 6th International Conference on Principles of Security and Trust</p>
+            </li>
+            <li id="uid199">
+              <p noindent="true"><ref xlink:href="http://www-etis.ensea.fr/BigGeoQ-UP/bigqp2017/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">BIGQP 2017</ref>: International Workshop on Big Geo Data Quality and Privacy</p>
+            </li>
+            <li id="uid200">
+              <p noindent="true"><ref xlink:href="http://petsymposium.org/2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">PETS 2016</ref>: The 16th Privacy Enhancing Technologies Symposium</p>
+            </li>
+            <li id="uid201">
+              <p noindent="true"><ref xlink:href="http://www2016.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">WWW 2016</ref>: 25th World Wide Web conference</p>
+            </li>
+            <li id="uid202">
+              <p noindent="true"><ref xlink:href="http://petsymposium.org/2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">APVP 2016</ref>: 7ème Atelier sur la Protection de la Vie Privée</p>
+            </li>
+          </sanspuceslist>
+          <p>Frank D. Valencia is/has been a member of the program committees of the following conferences and workshops:</p>
+          <sanspuceslist>
+            <li id="uid203">
+              <p noindent="true"><ref xlink:href="http://ppdp16.webs.upv.es" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">PPDP 2016</ref>. The 18th International Symposium on Principles and Practice of Declarative Programming (PPDP 2016).</p>
+            </li>
+            <li id="uid204">
+              <p noindent="true"><ref xlink:href="http://cc.ee.ntu.edu.tw/~ictac2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICTAC 2016</ref>. The 13th International Colloquium on Theoretical Aspects of Computing (ICTAC 2016).</p>
+            </li>
+            <li id="uid205">
+              <p noindent="true"><ref xlink:href="http://dc-iclp15.cs.bath.ac.uk" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ICLP DC 2016</ref>. 12th ICLP Doctoral Consortium.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid206" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>The members of the team reviewed several papers for international conferences and workshops.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid207" level="2">
+        <bodyTitle>Journals</bodyTitle>
+        <subsection id="uid208" level="3">
+          <bodyTitle>Member of the editorial board</bodyTitle>
+          <p>Catuscia Palamidessi is:</p>
+          <sanspuceslist>
+            <li id="uid209">
+              <p noindent="true">Member of the Editorial Board of
+<ref xlink:href="http://journals.cambridge.org/action/displayJournal?jid=MSC" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Mathematical Structures in Computer Science</ref>, published by the Cambridge University Press.</p>
+            </li>
+            <li id="uid210">
+              <p noindent="true">Member of the Editorial Board of
+<ref xlink:href="http://link.springer.com/journal/236" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Acta Informatica</ref>, published by Springer.</p>
+            </li>
+            <li id="uid211">
+              <p noindent="true">Member of the Editorial Board of the
+<ref xlink:href="http://www.elsevier.com/journals/electronic-notes-in-theoretical-computer-science/1571-0661" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Electronic Notes of Theoretical Computer Science</ref>,
+published by Elsevier Science.</p>
+            </li>
+            <li id="uid212">
+              <p noindent="true">Member of the Editorial Board of <ref xlink:href="http://www.dagstuhl.de/en/publications/lipics" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LIPIcs: Leibniz International Proceedings in Informatics</ref>, Schloss Dagstuhl –Leibniz Center for Informatics.</p>
+            </li>
+          </sanspuceslist>
+          <p>Konstantinos Chatzikokolakis is:</p>
+          <sanspuceslist>
+            <li id="uid213">
+              <p noindent="true">Editorial board member of the newly established
+<ref xlink:href="https://www.petsymposium.org/2015/faq.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Proceedings on Privacy Enhancing Technologies</ref> (PoPETs),
+a scholarly journal for timely research papers on privacy.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid214" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>The members of the team reviewed several papers for international journals.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid215" level="2">
+        <bodyTitle>Other Editorial Activities</bodyTitle>
+        <p>Frank D. Valencia has been:</p>
+        <sanspuceslist>
+          <li id="uid216">
+            <p noindent="true">Co-editor of the special issue on <ref xlink:href="http://journals.cambridge.org/action/displayJournal?jid=MSC" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Mathematical Structures in Computer Science</ref> dedicated to the best papers from the 12th International Colloquium on Theoretical Aspects of Computing.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid217" level="2">
+        <bodyTitle>Other Activities</bodyTitle>
+        <subsection id="uid218" level="3">
+          <bodyTitle>Invited talks</bodyTitle>
+          <p>Catuscia Palamidessi has given invited talks at the following conferences and workshops:</p>
+          <sanspuceslist>
+            <li id="uid219">
+              <p noindent="true"><ref xlink:href="http://2016.discotec.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">DISCOTEC 2016</ref> (Keynote speaker). The 11th International Federated Conference on Distributed Computing Techniques.
+Crete, Greece, 6-9 June 2016.</p>
+            </li>
+            <li id="uid220">
+              <p noindent="true">Journée sur la Securité, la Sureté et la Confidentialité. Organized by Paris VII, Paris XIII and Systematic. Paris, France, 10 May 2016.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid221" level="3">
+          <bodyTitle>Participation in other committees</bodyTitle>
+          <p>Catuscia Palamidessi has been serving in the following committees:</p>
+          <sanspuceslist>
+            <li id="uid222">
+              <p noindent="true">Member of the <ref xlink:href="http://siglog.hosting.acm.org/the-alonzo-church-award-for-outstanding-contributions-to-logic-and-computation/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Alonzo Church Award</ref> Committee. Since 2015. This award is for an outstanding contribution to Logic and Computation within the past 25 years.</p>
+            </li>
+            <li id="uid223">
+              <p noindent="true">President of the selection committee for the <ref xlink:href="http://www.eatcs.org/index.php/best-etaps-paper" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EATCS Best Paper Award</ref> at the ETAPS conferences. Since 2006.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid224" level="3">
+          <bodyTitle>Service</bodyTitle>
+          <p>Catuscia Palamidessi has served as:</p>
+          <sanspuceslist>
+            <li id="uid225">
+              <p noindent="true">Reviewer for the projects proposal for the program PRIN, sponsored by the Italian MIUR (“Ministero dell'Istruzione, dell'Università e della Ricerca”). Since 2004.</p>
+            </li>
+            <li id="uid226">
+              <p noindent="true">Member of the comité de selection for a position for Maitre de Conferences at l'Université de Paris VII (Paris Diderot). Spring 2016.</p>
+            </li>
+          </sanspuceslist>
+          <p>Frank Valencia has served as:</p>
+          <sanspuceslist>
+            <li id="uid227">
+              <p noindent="true">Directeur adjoint de l'UMR 7161, le Laboratoire d'Informatique de l'Ecole Polytechnique (LIX). May 2016 - .</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid228" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid229" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid230">
+            <p noindent="true">PhD : Catuscia Palamidessi has been teaching a course for PhD students, on Protection of sensitive information, at the University of Venice, Italy. April 2016. Total 30 hours.</p>
+          </li>
+          <li id="uid231">
+            <p noindent="true">Master : Frank D. Valencia has been teaching the undergraduate course "Computability", 45 hours, at the Pontificia Universidad Javeriana de Cali, Colombia. July 27 - Nov 1, 2016.</p>
+          </li>
+          <li id="uid232">
+            <p noindent="true">Master : Frank D. Valencia has been teaching the masters course "Foundations of Computer Science", 45 hours, at the Pontificia Universidad Javeriana de Cali, Colombia. Jan 27 - Jun 1, 2016.</p>
+          </li>
+          <li id="uid233">
+            <p noindent="true">Master: Konstantinos Chatzikokolakis and Catuscia Palamidessi have been teaching a course on the Foundations of Privacy at the
+<ref xlink:href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">MPRI</ref>, the Master Parisien pour la Recherche en Informatique. University of Paris VII. A.Y. 2016-17. Total: 24 hours plus 6 hours for the exam and the exercise session is preparation to the exam.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid234" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid235">
+            <p noindent="true">PhD in progress (2016-) <ref xlink:href="http://www.lix.polytechnique.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Tymofii Prokopenko</ref>. Ecole Polytechnique and ENS Cachan. Grant Digiteo-Digicosme. Co-supervised by Konstantinos Chatzikokolakis, Catuscia Palamidessi, and Serge Haddad.</p>
+          </li>
+          <li id="uid236">
+            <p noindent="true">PhD in progress (2015-) <ref xlink:href="http://www.lix.polytechnique.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Joris Lamare</ref>. Ecole Polytechnique. Grant MSR Center. Co-supervised by Catuscia Palamidessi and Konstantinos Chatzikokolakis.</p>
+          </li>
+          <li id="uid237">
+            <p noindent="true">PhD in progress (2014-) <ref xlink:href="http://www.lix.polytechnique.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Michel Guzman</ref>. Ecole Polytechnique. Grant Inria CORDI-S. Co-supervised by Catuscia Palamidessi and Frank D. Valencia.</p>
+          </li>
+          <li id="uid238">
+            <p noindent="true">PhD completed (2013-16) <ref xlink:href="http://www.lix.polytechnique.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Salim Percy</ref>. Ecole Polytechnique. Grant Digiteo-Digicosme. Co-supervised by Frank D. Valencia and Stefan Haar.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid239" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Catuscia Palamidessi has been reviewer and member of the board at the PhD defense for the thesis of the following PhD student:</p>
+        <sanspuceslist>
+          <li id="uid240">
+            <p noindent="true">Huu-Hiep Nguyen, PhD student supervised by Abdessamad Imine, University of Lorraine, France. November 2016. Title of the thesis: Social Graph Anonymization.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid241" level="2">
+        <bodyTitle>Other didactical duties</bodyTitle>
+        <p>Catuscia Palamidessi is:</p>
+        <sanspuceslist>
+          <li id="uid242">
+            <p noindent="true">External member of the scientific council for the PhD in Computer Science at the University of Pisa, Italy. Since 2012.</p>
+          </li>
+          <li id="uid243">
+            <p noindent="true">Member of the Committee d'Encadrement de Thèse of Jun Wang (PhD student supervised by Qiang Tang and Peter Ryan), University of Luxembourg. Since December 2014.</p>
+          </li>
+          <li id="uid244">
+            <p noindent="true">Member of the advising committee for the PhD of Andrea Margheri (PhD student supervised by Rosario Pugliese), University of Florence, Italy. 2014-16.</p>
+          </li>
+        </sanspuceslist>
+        <p>Konstantinos Chatzikokolakis and Catuscia Palamidessi have designed, and coordinate, a course on the Foundations of Privacy at the
+<ref xlink:href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">MPRI</ref>, the Master Parisien pour la Recherche en Informatique. University of Paris VII. A.Y. 2016-17.</p>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="comete-2016-bid25" type="article" rend="refer" n="refercite:alvim:hal-00940425">
+      <identifiant type="doi" value="10.3233/JCS-150528"/>
+      <identifiant type="hal" value="hal-00940425"/>
+      <analytic>
+        <title level="a">On the information leakage of differentially-private mechanisms</title>
+        <author>
+          <persName>
+            <foreName>Mário Sérgio</foreName>
+            <surname>Alvim</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Miguel E.</foreName>
+            <surname>Andrés</surname>
+            <initial>M. E.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierpaolo</foreName>
+            <surname>Degano</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computer Security</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">427-469</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00940425" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00940425</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid4" type="inproceedings" rend="refer" n="refercite:alvim:hal-00989462">
+      <identifiant type="doi" value="10.1109/CSF.2014.29"/>
+      <identifiant type="hal" value="hal-00989462"/>
+      <analytic>
+        <title level="a">Additive and multiplicative notions of leakage, and their capacities</title>
+        <author>
+          <persName>
+            <foreName>Mário S.</foreName>
+            <surname>Alvim</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2015-idp111904">
+            <foreName>Annabelle</foreName>
+            <surname>Mciver</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Carroll</foreName>
+            <surname>Morgan</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2015-idp114456">
+            <foreName>Geoffrey</foreName>
+            <surname>Smith</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">27th Computer Security Foundations Symposium (CSF 2014)</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">308–322</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00989462" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00989462</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid22" type="inproceedings" rend="refer" n="refercite:alvim:hal-00734044">
+      <identifiant type="doi" value="10.1109/CSF.2012.26"/>
+      <identifiant type="hal" value="hal-00734044"/>
+      <analytic>
+        <title level="a">Measuring Information Leakage using Generalized Gain Functions</title>
+        <author>
+          <persName>
+            <foreName>Mário</foreName>
+            <surname>Alvim</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2015-idp114456">
+            <foreName>Geoffrey</foreName>
+            <surname>Smith</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Computer Security Foundations</title>
+        <loc>Cambridge MA, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">265-279</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00734044" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00734044</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid23" type="inproceedings" rend="refer" n="refercite:andres:hal-00766821">
+      <identifiant type="doi" value="10.1145/2508859.2516735"/>
+      <identifiant type="hal" value="hal-00766821"/>
+      <analytic>
+        <title level="a">Geo-Indistinguishability: Differential Privacy for Location-Based Systems</title>
+        <author>
+          <persName>
+            <foreName>Miguel</foreName>
+            <surname>Andrés</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp104192">
+            <foreName>Nicolás</foreName>
+            <surname>Bordenabe</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">20th ACM Conference on Computer and Communications Security</title>
+        <loc>Berlin, Allemagne</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">901-914</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00766821" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00766821</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">DGA, Inria large scale initiative CAPPRIS</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid27" type="inproceedings" rend="refer" n="refercite:aristizabal:hal-00546722">
+      <identifiant type="doi" value="10.1007/ISBN 978-3-642-19804-5"/>
+      <identifiant type="hal" value="hal-00546722"/>
+      <analytic>
+        <title level="a">Deriving Labels and Bisimilarity for Concurrent Constraint Programming</title>
+        <author>
+          <persName>
+            <foreName>Andrés</foreName>
+            <surname>Aristizábal</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Filippo</foreName>
+            <surname>Bonchi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp106688">
+            <foreName>Luis</foreName>
+            <surname>Pino</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Valencia</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Hofmann</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">FOSSACS 2011 : 14th International Conference on Foundations of Software Science and Computational Structures</title>
+        <loc>Saarbrücken, Germany</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">6604</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">138-152</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00546722" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00546722</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid21" type="inproceedings" rend="refer" n="refercite:Bordenabe:14:CCS">
+      <identifiant type="doi" value="10.1145/2660267.2660345"/>
+      <identifiant type="hal" value="hal-00950479"/>
+      <analytic>
+        <title level="a">Optimal Geo-Indistinguishable Mechanisms for Location Privacy</title>
+        <author>
+          <persName key="comete-2014-idp104192">
+            <foreName>Nicolás E.</foreName>
+            <surname>Bordenabe</surname>
+            <initial>N. E.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Gail-Joon</foreName>
+            <surname>Ahn</surname>
+            <initial>G.-J.</initial>
+          </persName>
+          <persName>
+            <foreName>Moti</foreName>
+            <surname>Yung</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Ninghui</foreName>
+            <surname>Li</surname>
+            <initial>N.</initial>
+          </persName>
+        </editor>
+        <title level="m">CCS - 21st ACM Conference on Computer and Communications Security</title>
+        <loc>Scottsdale, Arizona, United States</loc>
+        <title level="s">Proceedings of the 21st ACM Conference on Computer and Communications Security</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">Gail-Joon Ahn</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">251-262</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00950479" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00950479</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid24" type="inproceedings" rend="refer" n="refercite:chatzikokolakis:hal-00767210">
+      <identifiant type="doi" value="10.1007/978-3-642-39077-7"/>
+      <identifiant type="hal" value="hal-00767210"/>
+      <analytic>
+        <title level="a">Broadening the Scope of Differential Privacy Using Metrics</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Miguel</foreName>
+            <surname>Andrés</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp104192">
+            <foreName>Nicolás</foreName>
+            <surname>Bordenabe</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Emiliano</foreName>
+            <surname>De Cristofaro</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Matthew</foreName>
+            <surname>Wright</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">The 13th Privacy Enhancing Technologies Symposium</title>
+        <loc>Bloomington, Indiana, États-Unis</loc>
+        <imprint>
+          <biblScope type="volume">7981</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">82-102</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00767210" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00767210</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">DGA, Inria large scale initiative CAPPRIS</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid20" type="article" rend="refer" n="refercite:chatzikokolakis:hal-01270197">
+      <identifiant type="doi" value="10.1515/popets-2015-0023"/>
+      <identifiant type="hal" value="hal-01270197"/>
+      <analytic>
+        <title level="a">Constructing elastic distinguishability metrics for location privacy</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp109176">
+            <foreName>Marco</foreName>
+            <surname>Stronati</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proceedings on Privacy Enhancing Technologies</title>
+        <imprint>
+          <biblScope type="volume">2015</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">156-170</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01270197" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01270197</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid28" type="article" rend="refer" n="refercite:guzman:hal-01257113">
+      <identifiant type="doi" value="10.1016/j.jlamp.2016.09.001"/>
+      <identifiant type="hal" value="hal-01257113"/>
+      <analytic>
+        <title level="a">Belief, Knowledge, Lies and Other Utterances in an Algebra for Space and Extrusion</title>
+        <author>
+          <persName key="comete-2014-idp105440">
+            <foreName>Michell</foreName>
+            <surname>Guzman</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mexico-2014-idm27712">
+            <foreName>Stefan</foreName>
+            <surname>Haar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Salim</foreName>
+            <surname>Perchy</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Camilo</foreName>
+            <surname>Rueda</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank</foreName>
+            <surname>Valencia</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Logical and Algebraic Methods in Programming</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01257113" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01257113</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid26" type="inproceedings" rend="refer" n="refercite:knight:hal-00761116">
+      <identifiant type="doi" value="10.1007/978-3-642-32940-1"/>
+      <identifiant type="hal" value="hal-00761116"/>
+      <analytic>
+        <title level="a">Spatial and Epistemic Modalities in Constraint-Based Process Calculi</title>
+        <author>
+          <persName>
+            <foreName>Sophia</foreName>
+            <surname>Knight</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Prakash</foreName>
+            <surname>Panangaden</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank D.</foreName>
+            <surname>Valencia</surname>
+            <initial>F. D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">CONCUR 2012 - Concurrency Theory - 23rd International Conference, CONCUR 2012</title>
+        <loc>Newcastle upon Tyne, United Kingdom</loc>
+        <imprint>
+          <biblScope type="volume">7454</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">317-332</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00761116" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00761116</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid16" type="phdthesis" rend="year" n="cite:perchy:tel-01413970">
+      <identifiant type="hal" value="tel-01413970"/>
+      <monogr>
+        <title level="m">Opinions, Lies and Knowledge. An Algebraic Approach to Mobility of Information and Processes</title>
+        <author>
+          <persName>
+            <foreName>Salim</foreName>
+            <surname>Perchy</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01413970" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01413970</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid9" type="article" rend="year" n="cite:chatzikokolakis:hal-01006384">
+      <identifiant type="doi" value="10.1017/S0960129514000292"/>
+      <identifiant type="hal" value="hal-01006384"/>
+      <analytic>
+        <title level="a">Compositional methods for information-hiding</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Christelle</foreName>
+            <surname>Braun</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01396">
+        <idno type="issn">0960-1295</idno>
+        <title level="j">Mathematical Structures in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">908-932</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01006384" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01006384</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid10" type="article" rend="year" n="cite:elsalamouny:hal-01418136">
+      <identifiant type="hal" value="hal-01418136"/>
+      <analytic>
+        <title level="a">Differential Privacy Models for Location- Based Services</title>
+        <author>
+          <persName key="comete-2015-idp104296">
+            <foreName>Ehab</foreName>
+            <surname>Elsalamouny</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="cidre-2014-idp65904">
+            <foreName>Sébastien</foreName>
+            <surname>Gambs</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02005">
+        <idno type="issn">1888-5063</idno>
+        <title level="j">Transactions on Data Privacy</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">15 - 48</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418136" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418136</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid12" type="article" rend="year" n="cite:gazeau:hal-01390927">
+      <identifiant type="hal" value="hal-01390927"/>
+      <analytic>
+        <title level="a">Preserving differential privacy under finite-precision semantics</title>
+        <author>
+          <persName key="pesto-2016-idp157712">
+            <foreName>Ivan</foreName>
+            <surname>Gazeau</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="parsifal-2014-idp61224">
+            <foreName>Dale</foreName>
+            <surname>Miller</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01855">
+        <idno type="issn">0304-3975</idno>
+        <title level="j">Journal of Theoretical Computer Science (TCS)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01390927" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01390927</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid15" type="article" rend="year" n="cite:guzman:hal-01257113">
+      <identifiant type="doi" value="10.1016/j.jlamp.2016.09.001"/>
+      <identifiant type="hal" value="hal-01257113"/>
+      <analytic>
+        <title level="a">Belief, Knowledge, Lies and Other Utterances in an Algebra for Space and Extrusion</title>
+        <author>
+          <persName key="comete-2014-idp105440">
+            <foreName>Michell</foreName>
+            <surname>Guzman</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mexico-2014-idm27712">
+            <foreName>Stefan</foreName>
+            <surname>Haar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Salim</foreName>
+            <surname>Perchy</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Camilo</foreName>
+            <surname>Rueda</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank</foreName>
+            <surname>Valencia</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02911">
+        <idno type="issn">2352-2208</idno>
+        <title level="j">Journal of Logical and Algebraic Methods in Programming</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01257113" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01257113</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid13" type="article" rend="year" n="cite:hamadou:hal-01421417">
+      <identifiant type="hal" value="hal-01421417"/>
+      <analytic>
+        <title level="a">Quantifying Leakage in the Presence of Unreliable Sources of Information</title>
+        <author>
+          <persName>
+            <foreName>Sardaouna</foreName>
+            <surname>Hamadou</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Vladimiro</foreName>
+            <surname>Sassone</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01107">
+        <idno type="issn">0022-0000</idno>
+        <title level="j">Journal of Computer and System Sciences</title>
+        <imprint>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421417" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421417</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">forthcoming</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid7" type="inproceedings" rend="year" n="cite:alvim:hal-01330414">
+      <identifiant type="hal" value="hal-01330414"/>
+      <analytic>
+        <title level="a">Axioms for Information Leakage</title>
+        <author>
+          <persName>
+            <foreName>Mário S.</foreName>
+            <surname>Alvim</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Annabelle</foreName>
+            <surname>McIver</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Carroll</foreName>
+            <surname>Morgan</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2015-idp114456">
+            <foreName>Geoffrey</foreName>
+            <surname>Smith</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">29th Computer Security Foundations Symposium (CSF 2016)</title>
+        <loc>Lisbon, Portugal</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">16</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01330414" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01330414</ref>
+        </imprint>
+        <meeting id="cid77878">
+          <title>IEEE Computer Security Foundation Symposium</title>
+          <num>29</num>
+          <abbr type="sigle">CSF</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid8" type="inproceedings" rend="year" n="cite:chatzikokolakis:hal-01335234">
+      <identifiant type="doi" value="10.4230/LIPIcs.CONCUR.2016.35"/>
+      <identifiant type="hal" value="hal-01335234"/>
+      <analytic>
+        <title level="a">Up-To Techniques for Generalized Bisimulation Metrics</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="focus-2014-idp104728">
+            <foreName>Valeria</foreName>
+            <surname>Vignudelli</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">27th International Conference on Concurrency Theory (CONCUR 2016)</title>
+        <loc>Québec City, Canada</loc>
+        <title level="s">Leibniz International Proceedings in Informatics (LIPIcs)</title>
+        <imprint>
+          <biblScope type="volume">59</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">35:1–35:14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01335234" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01335234</ref>
+        </imprint>
+        <meeting id="cid118281">
+          <title>International Conference on Concurrency Theory</title>
+          <num>27</num>
+          <abbr type="sigle">CONCUR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid6" type="inproceedings" rend="year" n="cite:falaschi:hal-01421407">
+      <identifiant type="hal" value="hal-01421407"/>
+      <analytic>
+        <title level="a">Slicing Concurrent Constraint Programs</title>
+        <author>
+          <persName>
+            <foreName>Moreno</foreName>
+            <surname>Falaschi</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp115592">
+            <foreName>Maurizio</foreName>
+            <surname>Gabbrielli</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp116888">
+            <foreName>Carlos</foreName>
+            <surname>Olarte</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Manuel V.</foreName>
+            <surname>Hermenegildo</surname>
+            <initial>M. V.</initial>
+          </persName>
+          <persName>
+            <foreName>Pedro</foreName>
+            <surname>Lopez-Garcia</surname>
+            <initial>P.</initial>
+          </persName>
+        </editor>
+        <title level="m">Pre-proceedings of the 26th International Symposium on Logic-Based Program Synthesis and Transformation (LOPSTR 2016)</title>
+        <loc>Edinburgh, United Kingdom</loc>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421407" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421407</ref>
+        </imprint>
+        <meeting id="cid316131">
+          <title>International Symposium on Logic-based Program Synthesis and Transformation</title>
+          <num>26</num>
+          <abbr type="sigle">LOPSTR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid18" type="inproceedings" rend="year" n="cite:guzman:hal-01328188">
+      <identifiant type="doi" value="10.1007/978-3-319-46750-4_13"/>
+      <identifiant type="hal" value="hal-01328188"/>
+      <analytic>
+        <title level="a">Deriving Inverse Operators for Modal Logic</title>
+        <author>
+          <persName key="comete-2014-idp105440">
+            <foreName>Michell</foreName>
+            <surname>Guzman</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Salim</foreName>
+            <surname>Perchy</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Camilo</foreName>
+            <surname>Rueda</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank</foreName>
+            <surname>Valencia</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Augusto</foreName>
+            <surname>Sampaio</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Farn</foreName>
+            <surname>Wang</surname>
+            <initial>F.</initial>
+          </persName>
+        </editor>
+        <title level="m">Theoretical Aspects of Computing – ICTAC 2016</title>
+        <loc>Taipei, Taiwan</loc>
+        <title level="s">Theoretical Aspects of Computing – ICTAC 2016</title>
+        <imprint>
+          <biblScope type="volume">9965</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">214-232</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01328188" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01328188</ref>
+        </imprint>
+        <meeting id="cid106673">
+          <title>International Colloquium on Theoretical Aspects of Computing</title>
+          <num>13</num>
+          <abbr type="sigle">ICTAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid17" type="inproceedings" rend="year" n="cite:guzman:hal-01418166">
+      <identifiant type="doi" value="10.4230/OASIcs.ICLP.2016.16"/>
+      <identifiant type="hal" value="hal-01418166"/>
+      <analytic>
+        <title level="a">On the Expressiveness of Spatial Constraint Systems </title>
+        <author>
+          <persName key="comete-2014-idp105440">
+            <foreName>Michell</foreName>
+            <surname>Guzmán</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank D</foreName>
+            <surname>Valencia</surname>
+            <initial>F. D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Carro</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Andy</foreName>
+            <surname>King</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Neda</foreName>
+            <surname>Saeedloei</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Marina De</foreName>
+            <surname>Vos</surname>
+            <initial>M. D.</initial>
+          </persName>
+        </editor>
+        <title level="m">ICLP 2016 - Proceedings of the Technical Communications of the 32nd International Conference on Logic Programming</title>
+        <loc>New York, United States</loc>
+        <title level="s">Technical Communications of the 32nd International Conference on Logic Programming (ICLP 2016)</title>
+        <imprint>
+          <biblScope type="volume">OASICS Vol. 52</biblScope>
+          <publisher>
+            <orgName type="organisation">John Gallagher and Germán Vidal</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">16:1 - 16:12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418166" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418166</ref>
+        </imprint>
+        <meeting id="cid289922">
+          <title>International Conference on Logic Programming</title>
+          <num>32</num>
+          <abbr type="sigle">ICLP</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">Appears as a Technical Communications of the 32nd International Conference on Logic Programming (ICLP 2016)</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid5" type="inproceedings" rend="year" n="cite:haar:hal-01328189">
+      <identifiant type="hal" value="hal-01328189"/>
+      <analytic>
+        <title level="a">D-SPACES: Implementing Declarative Semantics for Spatially Structured Information</title>
+        <author>
+          <persName key="mexico-2014-idm27712">
+            <foreName>Stefan</foreName>
+            <surname>Haar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Salim</foreName>
+            <surname>Perchy</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="comete-2014-idp102952">
+            <foreName>Frank</foreName>
+            <surname>Valencia</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">11th International Conference on Semantic Computing</title>
+        <loc>San Diego, California, United States</loc>
+        <title level="s">IEEE ICSC 2017</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <publisher>
+            <orgName type="organisation">IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01328189" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01328189</ref>
+        </imprint>
+        <meeting id="cid498482">
+          <title>IEEE International Conference on Semantic Computing</title>
+          <num>11</num>
+          <abbr type="sigle">ICSC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid11" type="unpublished" rend="year" n="cite:chatzikokolakis:hal-01422842">
+      <identifiant type="hal" value="hal-01422842"/>
+      <monogr>
+        <title level="m">Practical Mechanisms for Location Privacy</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2015-idp104296">
+            <foreName>Ehab</foreName>
+            <surname>Elsalamouny</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01422842" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01422842</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid19" subtype="nonparu-n" type="unpublished" rend="year" n="cite:chatzikokolakis:hal-01421457">
+      <identifiant type="hal" value="hal-01421457"/>
+      <monogr>
+        <title level="m">Methods for Location Privacy: A comparative overview</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2016-idp161312">
+            <foreName>Anna</foreName>
+            <surname>Pazii</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421457" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421457</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Submitted for publication</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid14" subtype="nonparu-n" type="unpublished" rend="year" n="cite:kawamoto:hal-01421424">
+      <identifiant type="hal" value="hal-01421424"/>
+      <monogr>
+        <title level="m">On the Compositionality of Quantitative Information Flow</title>
+        <author>
+          <persName key="comete-2014-idp112992">
+            <foreName>Yusuke</foreName>
+            <surname>Kawamoto</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421424" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421424</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Submitted for publication to Logical Methods in Computer Science</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid0" type="inproceedings" rend="foot" n="footcite:alvim:hal-00734044">
+      <identifiant type="doi" value="10.1109/CSF.2012.26"/>
+      <identifiant type="hal" value="hal-00734044"/>
+      <analytic>
+        <title level="a">Measuring Information Leakage using Generalized Gain Functions</title>
+        <author>
+          <persName>
+            <foreName>Mário</foreName>
+            <surname>Alvim</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2015-idp114456">
+            <foreName>Geoffrey</foreName>
+            <surname>Smith</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Computer Security Foundations</title>
+        <loc>Cambridge MA, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">265-279</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00734044" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00734044</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid1" type="inproceedings" rend="foot" n="footcite:andres:hal-00766821">
+      <identifiant type="doi" value="10.1145/2508859.2516735"/>
+      <identifiant type="hal" value="hal-00766821"/>
+      <analytic>
+        <title level="a">Geo-Indistinguishability: Differential Privacy for Location-Based Systems</title>
+        <author>
+          <persName>
+            <foreName>Miguel</foreName>
+            <surname>Andrés</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="comete-2014-idp104192">
+            <foreName>Nicolás</foreName>
+            <surname>Bordenabe</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">20th ACM Conference on Computer and Communications Security</title>
+        <loc>Berlin, Allemagne</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">901-914</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00766821" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00766821</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">DGA, Inria large scale initiative CAPPRIS</note>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid3" type="inproceedings" rend="foot" n="footcite:chatzikokolakis:hal-01011471">
+      <identifiant type="doi" value="10.1007/978-3-662-44584-6_4"/>
+      <identifiant type="hal" value="hal-01011471"/>
+      <analytic>
+        <title level="a">Generalized bisimulation metrics</title>
+        <author>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Gebler</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="comete-2014-idp110416">
+            <foreName>Lili</foreName>
+            <surname>Xu</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Paolo</foreName>
+            <surname>Baldan</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniele</foreName>
+            <surname>Gorla</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <title level="m">CONCUR - 25th Conference on Concurrency Theory</title>
+        <loc>Rome, Italy</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">8704</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">32-46</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01011471" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01011471</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="comete-2016-bid2" type="incollection" rend="foot" n="footcite:elsalamouny:hal-01006380">
+      <identifiant type="doi" value="10.1007/978-3-319-06880-0_16"/>
+      <identifiant type="hal" value="hal-01006380"/>
+      <analytic>
+        <title level="a">Generalized differential privacy: regions of priors that admit robust optimal mechanisms</title>
+        <author>
+          <persName key="comete-2015-idp104296">
+            <foreName>Ehab</foreName>
+            <surname>Elsalamouny</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="comete-2014-idp101696">
+            <foreName>Konstantinos</foreName>
+            <surname>Chatzikokolakis</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Franck</foreName>
+            <surname>van Breugel</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Elham</foreName>
+            <surname>Kashefi</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="comete-2014-idp100432">
+            <foreName>Catuscia</foreName>
+            <surname>Palamidessi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="beagle-2015-idp100064">
+            <foreName>Jan</foreName>
+            <surname>Rutten</surname>
+            <initial>J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Horizons of the Mind. A Tribute to Prakash Panangaden</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">8464</biblScope>
+          <publisher>
+            <orgName>Springer International Publishing</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">292-318</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01006380" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01006380</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

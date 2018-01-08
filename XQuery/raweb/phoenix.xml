@@ -1,0 +1,2449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="phoenix" isproject="true">
+    <shortname>PHOENIX</shortname>
+    <projectName>Programming Language Technology For Communication Services</projectName>
+    <theme-de-recherche>Distributed programming and Software engineering</theme-de-recherche>
+    <domaine-de-recherche>Networks, Systems and Services, Distributed Computing</domaine-de-recherche>
+    <urlTeam>http://phoenix.inria.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire Bordelais de Recherche en Informatique (LaBRI)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université de Bordeaux</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2005 September 08</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.2.5. - Internet of things</term>
+      <term>1.4. - Ubiquitous Systems</term>
+      <term>2.1. - Programming Languages</term>
+      <term>2.4.2. - Model-checking</term>
+      <term>2.5. - Software engineering</term>
+      <term>2.6.2. - Middleware</term>
+      <term>5.1. - Human-Computer Interaction</term>
+      <term>5.11. - Smart spaces</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.3.2. - Cognitive science</term>
+      <term>2.1. - Well being</term>
+      <term>2.5.2. - Cognitive disabilities</term>
+      <term>2.5.3. - Assistance for elderly</term>
+      <term>4.5. - Energy consumption</term>
+      <term>8. - Smart Cities and Territories</term>
+    </keywordsSecteurs>
+    <UR name="Bordeaux"/>
+    <moreinfo/>
+  </identification>
+  <team id="uid1">
+    <person key="phoenix-2014-idp100688">
+      <firstname>Charles</firstname>
+      <lastname>Consel</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Team leader, Bordeaux INP, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="phoenix-2014-idp107216">
+      <firstname>Eugene</firstname>
+      <lastname>Volanschi</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Advanced Research position</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp103448">
+      <firstname>Helene</firstname>
+      <lastname>Sauzeon</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="phoenix-2016-idp148352">
+      <firstname>Quentin</firstname>
+      <lastname>Barlas</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineers, from Feb 2016</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp65496">
+      <firstname>Benjamin</firstname>
+      <lastname>Bertran</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineers, until Feb 2016</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp66680">
+      <firstname>Julien</firstname>
+      <lastname>Durand</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineers</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp155776">
+      <firstname>Ludovic</firstname>
+      <lastname>Fornasari</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineers</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp158240">
+      <firstname>Rafik</firstname>
+      <lastname>Belloum</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, pre-PhD Student, from Nov 2016</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp118448">
+      <firstname>Adrien</firstname>
+      <lastname>Carteron</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, PhD Student, granted by Conseil Régional d'Aquitaine</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp119696">
+      <firstname>Quentin</firstname>
+      <lastname>Chisin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, PhD Student, until Sep 2016</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp123480">
+      <firstname>Lucile</firstname>
+      <lastname>Dupuy</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, PhD Student, until Oct 2016, granted by Conseil Régional d'Aquitaine</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp141416">
+      <firstname>Audrey</firstname>
+      <lastname>Landuran</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, PhD Student</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp170736">
+      <firstname>Cécile</firstname>
+      <lastname>Mazon</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, PhD Student</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp173168">
+      <firstname>Antoine</firstname>
+      <lastname>Riche</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, PhD Student, from Oct 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp175616">
+      <firstname>Charlotte</firstname>
+      <lastname>Froger</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Post-Doctoral Fellow</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp81680">
+      <firstname>Maxime</firstname>
+      <lastname>Lussier</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Post-Doctoral Fellow, until Jan 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp180592">
+      <firstname>Cecile</firstname>
+      <lastname>Boutros</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Assistant</moreinfo>
+    </person>
+    <person key="potioc-2014-idp77944">
+      <firstname>Catherine</firstname>
+      <lastname>Cattaert Megrat</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Assistant</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp91968">
+      <firstname>Amandine</firstname>
+      <lastname>Delage</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>RPDAD, Research technician</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp188000">
+      <firstname>Amandine</firstname>
+      <lastname>Desrozier</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Research technician, from Feb 2016</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp93224">
+      <firstname>Pauline</firstname>
+      <lastname>Fontagne</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Research technician</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp192976">
+      <firstname>Flora</firstname>
+      <lastname>Gallet</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Research technician, from Aug 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp195472">
+      <firstname>Maelle</firstname>
+      <lastname>Joulin</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria,Research technician, from Apr 2016</moreinfo>
+    </person>
+    <person key="phoenix-2014-idp120960">
+      <firstname>Milan</firstname>
+      <lastname>Kabac</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineer, until Aug 2016</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp88064">
+      <firstname>Sebastien</firstname>
+      <lastname>Marot</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CNAM, Intern, until Feb 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp202928">
+      <firstname>Anthony</firstname>
+      <lastname>Miramont</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Research technician, from Aug 2016 until Oct 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp205440">
+      <firstname>Bernard</firstname>
+      <lastname>N Kaoua</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Professor, External collaborator</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="phoenix-2016-idp208320">
+      <firstname>Edwin</firstname>
+      <lastname>Poumarat</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp210816">
+      <firstname>Clelia</firstname>
+      <lastname>Raynaud</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Intern, from Apr 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp213312">
+      <firstname>Joan</firstname>
+      <lastname>Rieu</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Mar 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="phoenix-2015-idp95936">
+      <firstname>Corinne</firstname>
+      <lastname>Toupin</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>RPDAD, Research technician, until Jan 2016</moreinfo>
+    </person>
+    <person key="phoenix-2016-idp218304">
+      <firstname>Flavie</firstname>
+      <lastname>Valriviere</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>RPDAD, Research technician, from Mar 2016 until Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Context</bodyTitle>
+      <p>A host of networked entities (devices and services) are populating smart spaces that become prevalent (<i>e.g.,</i>, building management, personal assistance, avionics) and large scale (<i>e.g.,</i>, train station, city, highway network). These smart spaces are becoming intimately intertwined with our daily life and professional activities, raising scientific challenges that go beyond the boundaries of single field of expertise.</p>
+    </subsection>
+    <subsection id="uid4" level="1">
+      <bodyTitle>A Multi-Disciplinary Approach</bodyTitle>
+      <p>We focus our attention on the domain of applications that orchestrate networked objects, whether populating smart spaces or worn by individuals on-the-go. Because such applications are intimately intertwined with the users' daily life and professional activities, they can improve users' efficiency in performing tasks or compensate for the users' deficiencies and disabilities, promoting autonomy. However, this emerging domain of <i>assistive computing</i> raises scientific challenges that go beyond the boundaries of Computer Science. To address these challenges, the Phoenix group has been conducting interdisciplinary research that combines</p>
+      <simplelist>
+        <li id="uid5">
+          <p noindent="true">Cognitive Science to study user needs and make a rigorous assessment of the services provided to users;</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Sensing and actuating expertise to support users, based on accurate and rich interactions with their environment;</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">Design-driven software engineering to support and guide all the development process of the services provided to users.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Research Avenues</bodyTitle>
+      <p>The activities of the Phoenix group revolve around three main avenues of research.</p>
+      <descriptionlist>
+        <label>Design-driven software development.</label>
+        <li id="uid9">
+          <p noindent="true">We further the study of design-driven software development, exploring the integration of both functional and non-functional concerns in the design phase, as well as the human-computer interaction dimension. We also expand the scope of our approach by scaling it up to the orchestration of masses of sensors and actuators.</p>
+        </li>
+        <label>Assistive computing in the home.</label>
+        <li id="uid10">
+          <p noindent="true">This line of work leverages DiaSuite to develop an assisted living platform, named HomeAssist, which exploits the capabilities of smart spaces to provide services that compensate or remediate cognitive difficulties of users, drawn from needs analyses. This work is validated in the context of two research projects: HomeAssist for older adults, and ANDDI for adults with Intellectual Disabilities (ID). This platform is currently deployed in the homes of older adults where a variety of applications assist them with their daily activities.</p>
+        </li>
+        <label>Assistive computing on-the-go.</label>
+        <li id="uid11">
+          <p noindent="true">We develop mobile assistive computing support based on tablets. In particular, we have developed a cognitive assistive technology for the inclusion of children with Autism in mainstreamed environments, named School+.</p>
+        </li>
+      </descriptionlist>
+    </subsection>
+  </presentation>
+  <fondements id="uid12">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Design-Driven Software Development</bodyTitle>
+      <p>Raising the level of abstraction beyond programming is a very active
+research topic involving a range of areas, including software
+engineering, programming languages and formal verification. The
+challenge is to allow design dimensions of a software system, both
+functional and non-functional, to be expressed in a high-level way,
+instead of being encoded with a programming language. Such design
+dimensions can then be leveraged to verify conformance properties and
+to generate programming support.</p>
+      <p>Our research on this topic is to take up this challenge with an
+approach inspired by programming languages, introducing a full-fledged
+language for designing software systems and processing design
+descriptions both for verification and code generation purposes. Our
+approach is also DSL-inspired in that it defines a conceptual
+framework to guide software development. Lastly, to make our approach
+practical to software developers, we introduce a methodology and a
+suite of tools covering the development life-cycle.</p>
+      <p>To raise the level of abstraction beyond programming, the key
+approaches are model-driven engineering and architecture description
+languages. A number of <i>architecture description languages</i> have
+been proposed; they are either (1) coupled with a programming language
+(<i>e.g.,</i>  <ref xlink:href="#phoenix-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), providing some level of abstraction
+above programming, or (2) integrated into a programming language (<i>e.g.,</i>  <ref xlink:href="#phoenix-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#phoenix-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), mixing levels of abstraction.
+Furthermore, these approaches poorly leverage architecture
+descriptions to support programming, they are crudely integrated into
+existing development environments, or they are solely used for
+verification purposes. <i>Model-driven software development</i> is
+another actively researched area. This approach often lacks code
+generation and verification support. Finally, most (if not all)
+approaches related to our research goal are <i>general purpose</i>;
+their universal nature provides little, if any, guidance to design a
+software system. This situation is a major impediment to both
+reasoning about a design artifact and generating programming support.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Integrating Non-Functional Concerns into Software Design</bodyTitle>
+      <p>Most existing design approaches do not address non-functional
+concerns. When they do, they do not provide an approach to
+non-functional concerns that covers the entire development life-cycle.
+Furthermore, they usually are general purpose, impeding the use of
+non-functional declarations for verification and code generation. For
+example, the Architecture Analysis &amp; Design Language (AADL) is a
+standard dedicated to real-time embedded systems  <ref xlink:href="#phoenix-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. AADL
+provides language constructs for the specification of software systems
+(<i>e.g.,</i> component, port) and their deployment on execution platforms
+(<i>e.g.,</i> thread, process, memory). Using AADL, designers specify
+non-functional aspects by adding properties on language constructs
+(<i>e.g.,</i> the period of a thread) or using language extensions such as
+the Error Model Annex. <footnote id="uid15" id-text="1">The Error Model Annex is a
+standardized AADL extension for the description of
+errors  <ref xlink:href="#phoenix-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</footnote> The software design concepts of AADL are
+still rather general purpose and give little guidance to the designer.</p>
+      <p>Beyond offering a conceptual framework, our language-based approach
+provides an ideal setting to address non-functional properties (<i>e.g.,</i>
+performance, reliability, security, ...). Specifically, a design
+language can be enriched with non-functional declarations to pursue
+three goals: (1) expanding further the type of conformance that can be
+checked between the design of a software system and its
+implementation or execution infrastructure,
+(2) enabling additional programming support and guidance, and
+(3) leveraging the design declarations to optimize the generated
+implementation.</p>
+      <p>We are investigating this idea by extending our design language with
+non-functional declarations. For example, we have addressed error
+handling <ref xlink:href="#phoenix-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, access conflicts to
+resources  <ref xlink:href="#phoenix-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, quality of service
+constraints  <ref xlink:href="#phoenix-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and more recently,
+data delivery models and parallel computation models for masses
+of sensors citekaba:hal-01319730.</p>
+      <p>Following our approach to paradigm-oriented software development,
+non-functional declarations are verified at design time, they
+generate support that guides and constrains programming, they produce
+a runtime system that preserves invariants and performs efficiently.</p>
+    </subsection>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Human-Driven Software Design</bodyTitle>
+      <p>Knowledge of the human characteristics (individual, social and organizational) allow the design of complex system and artifacts for increasing their efficacy.
+In our approach of assistive computing, a main challenge is the integration of facets of Human Factors in order to design technology support adapted to user needs in term of ergonomic properties (acceptability, usability, utility etc) and delivered functionalities (oriented task under user abilities contraints).</p>
+      <p>We adapt this approach to improve the independent living and self-determination of users with cognitive impairments by developing a variety of orchestration scenarios of networked objects (hardware/software) to provide a pervasive support to their activities. Human factors methodologies are adopted in our approach with the direct purpose the reliability and efficiency of the performance of digital support systems in respect of objectives of health and well-being of the person (monitoring, evaluation, and rehabilitation).</p>
+      <p>Precisely, our methodologies are based on a closed iterative loop, as described in the figure below :</p>
+      <simplelist>
+        <li id="uid17">
+          <p noindent="true">Identifying the person needs in a natural situation (<i>i.e.,</i> desired but problematic activities) according to Human Factors Models of activity (<i>i.e.,</i> environmental constraints; social support networks - caregivers and family; person’s abilities)</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">Designing environmental support that will assist the users to bypass their cognitive impairment (according to environmental models of cognitive compensatory mechanisms); and then implement this support in terms of technological solutions (scenarios of networked objects, hardware interface, software interface, interaction style, <i>etc</i>)</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Empirically evaluating the assistive solution based on human experimentations that includes ergonomic assessments (acceptability, usability, usefulness, <i>etc</i>) as well as longitudinal evaluations of use’s efficacy in terms of activities performed by the individual, of satisfaction and well-being provided to the individual but also to his/her entourage (family and caregivers).</p>
+        </li>
+      </simplelist>
+      <object id="uid20">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/UserCentredApproach.png" type="float" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>User-Centered Approach</caption>
+      </object>
+    </subsection>
+  </fondements>
+  <domaine id="uid21">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Internet of Things</bodyTitle>
+      <p>The Internet of Things (IoT) has become a reality with the emergence of Smart Cities, populated with large amounts of smart objects which are used to deliver a range of citizen services (e.g., security, well being, etc.) The IoT paradigm relies on the pervasive presence of smart objects or “things”, which raises a number of new challenges in the software engineering domain.</p>
+      <p>We introduce a design-driven development approach that is dedicated to the domain of orchestration of masses of sensors. The developer declares what an application does using a domain-specific language (DSL), named DiaSwarm. Our compiler processes domain-specific declarations to generate a customized programming framework that guides and supports the programming phase.</p>
+      <p>DiaSwarm addresses the main phases of an application orchestrating masses of sensors.</p>
+      <descriptionlist>
+        <label>Service discovery</label>
+        <li id="uid23">
+          <p noindent="true">Standard service discovery at the individual object level does not address the needs of applications orchestrating large numbers of smart objects. Instead, a high-level approach which provides constructs to specifying subsets of interest is needed. Our approach allows developers to introduce application-specific concepts (e.g., regrouping parking spaces into lots or districts) at the design time and then these can be used to express discovery operations. Following our design-driven development approach, these concepts are used to generate code to support and guide the programming phase.</p>
+        </li>
+        <label>Data gathering</label>
+        <li id="uid24">
+          <p noindent="true">Applications need to acquire data from a large number of objects through a variety of delivery models. For instance, air pollution sensors across a city may only push data to the relevant applications when pollution levels exceed tolerated levels. Tracking sensors, however, might determine the location of vehicles and send the acquired measurements to applications periodically (e.g., 10 min. intervals). Data delivery models need to be introduced at design time since they have a direct impact on the application’s program structure. In doing so, the delivery models used by an application can be checked against sensor features early in the development process.</p>
+        </li>
+        <label>Data processing</label>
+        <li id="uid25">
+          <p noindent="true">Data that is generated from hundreds of thousands of objects and accumulated over a period of time calls for efficient processing strategies to ensure the required performance is attained. Our approach allows for an efficient implementation of the data processing stage by providing the developer with a framework based on the MapReduce [34] programming model which is intended for the processing of large data sets.</p>
+        </li>
+      </descriptionlist>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Assistive computing in the home</bodyTitle>
+      <p>In this avenue of research, we have been developing a systemic approach to introducing an assisted living platform for the home of older adults. To do so, we formed an interdisciplinary team that allows (1) to identify the user needs from a gerontological and psychological viewpoint; (2) to propose assistive applications designed by human factors and HCI experts, in collaboration with caregivers and users; (3) to develop and test applications designed and developed by software engineers; (4) to conduct a field study to assess the benefits of the platform and assistive applications, in collaboration with caregivers, by deploying the system at the actual homes.</p>
+      <p>Our research activities for assistive computing in the home are conducted under the <i>HomeAssist</i> project. This work takes the form of a platform offering an online catalog of assistive applications that orchestrate an open-ended set of networked objects. Our platform leverages DiaSuite to quickly and safely develop applications at a high level.</p>
+      <p>Our scientific achievements include the design principles of our platform, its key features to effectively assist individuals in their home, field studies to validate HomeAssist, the expansion of HomeAssist to serve individuals with ID, and the technology transfer of HomeAssist.
+Note that a complete presentation of this work, from a Cognitive Science perspective, is given in the doctoral thesis of Lucile Dupuy published this year.</p>
+      <subsection id="idp3958624" level="2">
+        <bodyTitle>Project-team positioning</bodyTitle>
+        <p>There is a range of platforms for assisted living aimed at older adults that have been developed for more than a decade. Most of these platforms are used in a setting where participants come to a research apartment to perform certain tasks. This setting makes it difficult to assess user acceptance and satisfaction of the proposed approaches because the user does not interact with the technology on a daily basis, over a period of time. Furthermore, older adults adopt routines to optimize their daily functioning at home. This situation calls for field studies in a naturalistic setting to strengthen the evaluation of assisted living platforms.</p>
+        <p>HomeAssist innovates in that it supports independent living across the activities of daily living and is validated by field studies in naturalistic setting.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Assistive computing on-the-go</bodyTitle>
+      <p>We conduct research on assistive computing supported by mobile devices such as smart phones and tablets. Both research projects presented in this section are supported by tablets and leverage their functionalities to guide users with cognitive challenges performing activities and tasks, whether in mainstream schools to support inclusion or in residential settings to support their autonomy. The mobile nature of tablets allows to envision such devices as supporting users with cognitive challenges across a range of environments.</p>
+      <p>Many research projects bring cognitive-support applications to users based on tablets and smartphones. However, few projects equip users with such devices in actual mainstream environments, including stakeholders in the design process and targeting an autonomous usage of assistive applications. An additional originality of our approach is our interdisciplinary approach that allows us to integrate key psychological dimensions in our design, such as self-determination.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid28">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid30" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <simplelist>
+          <li id="uid31">
+            <p noindent="true">The paper “Designing Parallel Data Processing for Large-Scale Sensor Orchestration” by Milan Kabac and Charles Consel <best><ref xlink:href="#phoenix-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></best> received a Best Paper award at UIC 2016, the 13th IEEE International Conference on Ubiquitous Intelligence and Computing, held in July 2016 in Toulouse, France.</p>
+          </li>
+          <li id="uid32">
+            <p noindent="true">The web application “It's my life. I choose it!”, developed by the Phoenix team in collaboration with the University of Bordeaux (Laboratoire handicap action cognition santé), the University of Mons (Service d’ortho-pédagogie clinique), and the association Trisomie 21 France, received the Universal Accessibility Prize at APAJH 2016, held on November 14th, 2016, in Paris. The web application is available at <ref xlink:href="http://www.monprojetdevie.trisomie21-france.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>monprojetdevie.<allowbreak/>trisomie21-france.<allowbreak/>org/</ref>.</p>
+          </li>
+          <li id="uid33">
+            <p noindent="true">The pitch for a startup based on technology from the HomeAssist project received a prize at the “Journée Horizon Startup”, held on December, 1st, 2016, in Paris.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid34">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid35" level="1">
+      <bodyTitle>College +</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Neurosciences - Health - Autism - Mobile application</p>
+      <p noindent="true">School+ (or College+ in french) is a package of 7 applications. Three applications are assistive applications, guiding the child doing specific tasks. Three others are training applications made as serious games, addressing specific skills. The last application is a meta-application, comprising a link to the three training applications, with an access to statistics of their usage. For each application, data are separated from the design, meaning that every element of each application (pictures, texts, settings, etc.) can be changed at any time. Each application records a log file containing all the interactions performed by the child.</p>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Assistive applications</bodyTitle>
+        <object id="uid37">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/assistivesapplications.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Assistive applications</caption>
+        </object>
+        <subsection id="uid38" level="3">
+          <bodyTitle>Routines application</bodyTitle>
+          <p>This application shows a list of tasks, with a short description. After clicking the starting button, a specific slideshow is shown; it decomposes a task into steps. For each step, a text and a picture can be displayed. Thumbnail of previous and next steps are also displayed. This application guides the child through classroom situations: entering classroom, taking school materials out of a backpack, writing notes, handling agenda, leaving the classroom.</p>
+        </subsection>
+        <subsection id="uid39" level="3">
+          <bodyTitle>Communication application</bodyTitle>
+          <p>With the same design, the assistance provided by this application targets to communicating situations inside the classroom. The application covers four scenarios addressing two interaction situations (initiating and answering the interaction) and two types of interlocutors (professor and classmate). For each scenario, different slideshows guide the child, depending on the goal of the interaction.</p>
+        </subsection>
+        <subsection id="uid40" level="3">
+          <bodyTitle>Emotion Regulation application</bodyTitle>
+          <p>This application aims to assist the child to self-regulate his/her emotions. Four simplified emoticons are proposed to the child to choose from: anger, sadness, joy and fear. Then, (s)he selects a level of intensity via a thermometer with a scale from 1 to 4. In response, the application delivers different multimedia contents according to the level selected to help the child regulate his/her emotions. Typically, a text (breathing instructions) are shown at level 1, pictures at level 2, a video at level 3 and another text at level 4.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid41" level="2">
+        <bodyTitle>Training applications</bodyTitle>
+        <p>These three applications are serious games with increasing levels of difficulties, reachable after a ratio of good answers has been attained.</p>
+        <object id="uid42">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/trainingapplications.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Training applications</caption>
+        </object>
+        <subsection id="uid43" level="3">
+          <bodyTitle>Emotion Recognition application with pictures</bodyTitle>
+          <p>In this application, the child is instructed to identify a specific emotion among 4 pictures showing different people exhibiting an emotion. Seven emotions are involved in this application: joy, sadness, fear, anger, surprise, disgust and neutral. The emotion to be recognized is displayed together with its simplified emoticon. The type of pictures changes with the difficulty level: level 1 contains pictures of unfamiliar people and level 2 contains pictures of friends and relatives of the child.</p>
+        </subsection>
+        <subsection id="uid44" level="3">
+          <bodyTitle>Emotion Recognition application with videos</bodyTitle>
+          <p>In this application, the child is presented with a fragment of an animated cartoon. At some point, the video stops and the child is asked to identify the emotion of the character. Four emotions are involved in this application: joy, sadness, fear and anger. Videos are slowed down, with a speed percentage that can be changed at each level. Videos change with difficulty level: level 1 contains videos of a very basic cartoon (only one cartoon character drawn by basic form un-textured), level 2 contains a video of more sophisticated cartoons and level 3 contains movies with actors.</p>
+        </subsection>
+        <subsection id="uid45" level="3">
+          <bodyTitle>Attention Training</bodyTitle>
+          <p>In this application, the child is presented a picture of a face and asked to make eye contact with it. Second, a symbol appears briefly in the eyes of the character. Third, the child is asked to identify the symbol shown in the previously displayed picture, to make sure he kept eye contact. The speed at which the symbol appears and disappears is changed according to the difficulty level. Types of pictures also change with the level : level 1 contains pictures of faces and level 2 contains pictures of classroom situations.</p>
+          <simplelist>
+            <li id="uid46">
+              <p noindent="true">Participants: Damien Martin Guillerez, Charles Fage, Helene Sauzeon and Alexandre Spriet</p>
+            </li>
+            <li id="uid47">
+              <p noindent="true">Contact: Charles Consel</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>DiaSuite</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>DiaSuite is a suite of tools covering the development life-cycle of a pervasive computing application:</p>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Defining an application area</bodyTitle>
+        <p>First, an expert defines a catalog of entities, whether hardware or software, that are specific to a target area. These entities serve as building blocks to develop applications in this area. They are gathered in a taxonomy definition, written in the taxonomy layer of the DiaSpec language.</p>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Designing an application</bodyTitle>
+        <p>Given a taxonomy, the architect can design and structure applications. To do so, the DiaSpec language provides an application design layer. This layer is dedicated to an architectural pattern commonly used in the pervasive computing domain. Describing the architecture application allows to further model a pervasive computing system, making explicit its functional decomposition.</p>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Implementing an application</bodyTitle>
+        <p>We leverage the taxonomy definition and the architecture description to provide dedicated support to both the entity and the application developers. This support takes the form of a Java programming framework, generated by the DiaGen compiler. The generated programming framework precisely guides the developer with respect to the taxonomy definition and the architecture description. It consists of high-level operations to discover entities and interact with both entities and application components. In doing so, it abstracts away from the underlying distributed technologies, providing further separation of concerns.</p>
+      </subsection>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Testing an application</bodyTitle>
+        <p>DiaGen generates a simulation support to test pervasive computing applications before their actual deployment. An application is simulated in the DiaSim tool, without requiring any code modification. DiaSim provides an editor to define simulation scenarios and a 2D-renderer to monitor the simulated application. Furthermore, simulated and actual entities can be mixed. This hybrid simulation enables an application to migrate incrementally to an actual environment.</p>
+      </subsection>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Deploying a system</bodyTitle>
+        <p>Finally, the system administrator deploys the pervasive computing system. To this end, a distributed systems technology is selected. We have developed a back-end that currently targets the following technologies: Web Services, RMI, SIP and OSGI. This targeting is transparent for the application code. The variety of these target technologies demonstrates that our development approach separates concerns into well-defined layers.</p>
+        <p noindent="true">This development cycle is summarized in the Figure 2 .</p>
+        <object id="uid54">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/DevCycle.png" type="float" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>DiaSuite Development Cycle</caption>
+        </object>
+        <p>
+          <span class="smallcap" align="left">Functional Description</span>
+        </p>
+        <p>DiaSuite is developed as a research project by the Inria/LaBRI Phoenix research group. The DiaSuite approach covers the development life-cycle of a pervasive computing application. It takes the form of a methodology, supported by (1) a high-level design language and (2) a suite of tools covering the development life-cycle of a pervasive computing application. Specifically, we have developed a design language dedicated to describing pervasive computing systems and a suite of tools providing customized support for each development stage of a pervasive computing system, namely, implementation (e.g., programming support), testing (e.g., unit test, 2D simulator), and deployment (e.g., distribution platforms like SIP and Web Services).</p>
+        <simplelist>
+          <li id="uid55">
+            <p noindent="true">Participants: Charles Consel, Milan Kabac, Paul Van Der Walt, Adrien Carteron and Alexandre Spriet</p>
+          </li>
+          <li id="uid56">
+            <p noindent="true">Contact: Charles Consel</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>DiaSuiteBOX</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Health - Smart home - Open application store - Development tool suite - Application certification - Home care</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>DiaSuiteBOX proposes an application store that gathers the devices deployed at home. This store is open and available online such as an application store for Smartphone.</p>
+      <simplelist>
+        <li id="uid58">
+          <p noindent="true">Participants: Bertran Benjamin, Bruneau Julien, Consel Charles, Quentin Enard, Milan Kabac, Damien Martin Guillerez, Emilie Balland, Damien Cassou, Amelie Marzin, Julien Durand, Quentin Barlas, Ludovic Fornasari, Joan Rieu, Adrien Carteron, Eugene Volanschi and Helene Sauzeon</p>
+        </li>
+        <li id="uid59">
+          <p noindent="true">Partners: CNRS - IPB - Université de Bordeaux</p>
+        </li>
+        <li id="uid60">
+          <p noindent="true">Contact: Charles Consel</p>
+        </li>
+        <li id="uid61">
+          <p noindent="true">URL: <ref xlink:href="https://diasuitebox.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>diasuitebox.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>DomAssist</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Health - Mobile application - Persons attendant - Home care</p>
+      <p noindent="true">The HomeAssist platform (or DomAssist in french) proposes a systemic approach to introducing an assistive technological platform for older people. To do so, we formed a trans-disciplinary team that allows (1) to identify the user needs from a gerontological and psychological viewpoint; (2) to propose assistive applications designed by human factors and HCI experts, in collaboration with caregivers and users; (3) to develop and test applications by software engineers; (4) to conduct a field study for assessing the benefits of the platform and assistive applications, in collaboration with caregivers, by deploying the system at the actual home of older adults.</p>
+      <p>The HomeAssist platform is implemented on top of the DiaSuiteBox platform, using a suite of tools, namely DiaSuite, that have been designed, developed and tested by our research group at Inria. The DiaSuite tools include a dedicated integrated development environment that enables applications to be developed quickly and safely. This technology has been successfully applied to a variety of domains where environments consist of networked objects that need to be orchestrated.</p>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Applications</bodyTitle>
+        <p>HomeAssist offers an online catalog of applications. Using this catalog, the user and the caregiver determine what and how activities should be assisted by selecting the appropriate assistive applications and configuring them with respect to the user’s requirements and preferences. The resulting set of applications forms a personalized assistive support. Additionally, to respond to evolving needs, our platform allows to stop/remove applications easily and to install new ones from the online catalog.</p>
+        <p>This platform proposes many applications in three domains of everyday life.</p>
+        <descriptionlist>
+          <label>Daily activities:</label>
+          <li id="uid64">
+            <p noindent="true">including activity monitoring, light path, and a reminder.</p>
+          </li>
+          <label>Home or personal safety:</label>
+          <li id="uid65">
+            <p noindent="true">including entrance monitoring, stove monitoring, and warning if no movements are detected after a certain amount of time.</p>
+          </li>
+          <label>Communications and social activities:</label>
+          <li id="uid66">
+            <p noindent="true">including collaborative games, videoconference, information about local events, TV programming, etc.</p>
+          </li>
+        </descriptionlist>
+        <object id="uid67">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/application-homeassist.png" type="float" scale="1" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The HomeAssist platform and applications</caption>
+        </object>
+        <p>For video presentations of HomeAssist, see the following:</p>
+        <simplelist>
+          <li id="uid68">
+            <p noindent="true"><ref xlink:href="http://videotheque.inria.fr/videotheque/media/23705" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>videotheque.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>videotheque/<allowbreak/>media/<allowbreak/>23705</ref>. Title: “DiaSuiteBox”, 2013.</p>
+          </li>
+          <li id="uid69">
+            <p noindent="true"><ref xlink:href="http://videotheque.inria.fr/videotheque/media/29998" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>videotheque.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>videotheque/<allowbreak/>media/<allowbreak/>29998</ref>. Title: “DomAssist : L’assistance numérique à la personne”, 2014.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid70" level="2">
+        <bodyTitle>Devices</bodyTitle>
+        <p>Several entities have been identified to deliver an assistive support. These entities include (1) technological devices: wireless sensors (motion detectors, contact sensors and smart electric switches), and two tablets, and (2) software services (agenda, address book, mail agent, and photo agent) to monitor everyday activities and propose assistive applications. Sensors are placed in relevant rooms in the house: kitchen, bedroom, bathroom, and around the entrance.</p>
+        <object id="uid71">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/kit.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>HomeAssist devices</caption>
+        </object>
+        <p>
+          <span class="smallcap" align="left">Functional Description</span>
+        </p>
+        <p>3 mobile applications for assistive living :
+(1) DiAndroid : Interface for the main tablet with the DiaSuiteBox applications including those for the daily activities, the meetings scheduling, etc. and for home and personal safety;
+(2) Accueil : home screen restraining the use of a secondary tablet and offering communications and social activities applications with simplified communication means (ie. eMail), collaborative games, etc.;
+(3) eMail : mail client made for older people.</p>
+        <simplelist>
+          <li id="uid72">
+            <p noindent="true">Participants: Alexandre Spriet, Charles Consel, Helene Sauzeon and Julien Durand</p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">Partners: CNRS - IPB - Université de Bordeaux</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">Contact: Charles Consel</p>
+          </li>
+          <li id="uid75">
+            <p noindent="true">URL: <ref xlink:href="http://phoenix.inria.fr/research-projects/homeassist" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>phoenix.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>research-projects/<allowbreak/>homeassist</ref></p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </logiciels>
+  <resultats id="uid76">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Tablet-Based Activity Schedule in Mainstream Environment for Children with Autism and Children with ID</bodyTitle>
+      <p>Including children with autism spectrum disorders (ASD) in mainstream environments creates a need for new interventions whose efficacy must be assessed in situ. This article presents a tablet-based application for activity schedules that has been designed following a participatory design approach involving mainstream teachers, special education teachers, and school aides. This application addresses two domains of activities: classroom routines and verbal communications. We assessed the efficiency of our application with two overlapping user studies in mainstream inclusion, sharing a group of children with ASD. The first experiment involved 10 children with ASD, where five children were equipped with our tabled-based application and five were not equipped. We show that (1) the use of the application is rapidly self-initiated (after 2 months for almost all the participants) and (2) the tablet-supported routines are better performed after 3 months of intervention. The second experiment involved 10 children equipped with our application; it shared the data collected for the five children with ASD and compared them with data collected for five children with intellectual disability (ID). We show that (1) children with ID are not autonomous in the use of the application at the end of the intervention, (2) both groups exhibited the same benefits on classroom routines, and (3) children with ID improve significantly less their performance on verbal communication routines. These results are discussed in relation with our design principles. Importantly, the inclusion of a group with another neurodevelopmental condition provided insights about the applicability of these principles beyond the target population of children with ASD.
+</p>
+    </subsection>
+    <subsection id="uid78" level="1">
+      <bodyTitle>Self Determination-Based Design To Achieve Acceptance of Assisted Living Technologies For Older Adults</bodyTitle>
+      <p>Providing technological support to assist older adults in their daily activities is a promising approach to aging in place. However, acceptance is critical when technologies are embedded in the user's life. Recently, Lee et al. established a connection between acceptance and motivation. They approached motivation via the Self-Determination Theory (SDT): the capacity to make choices and to take decisions. This paper leverages SDT to promote a new design style for gerontechnologies that consists of principles and requirements. We applied our approach to develop an assisted living platform, which was used to conduct a six-month field study with 34 older adults. We show that self-determination is a determining factor of technology acceptance. Furthermore, our platform improved the self-determination of equipped participants, compared to the control group, suggesting that our approach is effective. As such, SDT opens up new opportunities for improving the design process of gerontechnologies.
+</p>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>Frameworks compiled from declarations: a language-independent approach</bodyTitle>
+      <p>Programming frameworks are an accepted fixture in the object-oriented world, motivated by the need for code reuse, developer guidance, and restriction. A new trend is emerging where frameworks require domain experts to provide declarations using a domain-specific language (DSL), influencing the structure and behaviour of the resulting application. These mechanisms address concerns such as user privacy. Although many popular open platforms such as Android are based on declaration-driven frameworks, current implementations provide ad hoc and narrow solutions to concerns raised by their openness to non-certified developers. Most widely used frameworks fail to address serious privacy leaks, and provide the user with little insight into application behaviour. To address these shortcomings, we show that declaration-driven frameworks can limit privacy leaks, as well as guide developers, independently from the underlying programming paradigm. To do so, we identify concepts that underlie declaration-driven frameworks, and apply them systematically to both an object-oriented language, Java, and a dynamic functional language, Racket. The resulting programming framework generators are used to develop a prototype mobile application, illustrating how we mitigate a common class of privacy leaks. Finally, we explore the possible design choices and propose development principles for developing domain-specific language compilers to produce frameworks, applicable across a spectrum of programming paradigms.
+</p>
+    </subsection>
+    <subsection id="uid80" level="1">
+      <bodyTitle>Analysis of How People with Intellectual Disabilities Organize Information Using Computerized Guidance</bodyTitle>
+      <p>Access to residential settings for people with intellectual disabilities (ID) contributes to their social participation, but presents particular challenges. Assistive technologies can help people perform activities of daily living. However, the majority of the computerized solutions offered use guidance modes with a fixed, unchanging sequencing that leaves little room for self-determination to emerge. The objective of the project was to develop a flexible guidance mode and to test it with participants, to describe their information organization methods. This research used a descriptive exploratory design and conducted a comparison between five participants with ID and five participants with no ID. The results showed a difference in the information organization methods for both categories of participants. The people with ID used more diversified organization methods (categorical, schematic, action-directed) than the neurotypical participants (visual, action-directed). These organization methods varied depending on the people, but also on the characteristics of the requested task. Furthermore, several people with ID presented difficulties when switching from virtual to real mode. These results demonstrate the importance of developing flexible guidance modes adapted to the users’ cognitive strategies, to maximize their benefits. Studies using experimental designs will have to be conducted to determine the impacts of more-flexible guidance modes.
+</p>
+    </subsection>
+    <subsection id="uid81" level="1">
+      <bodyTitle>Leveraging Declarations over the Lifecycle of Large-Scale Sensor Applications</bodyTitle>
+      <p>Masses of sensors and actuators are being deployed in our daily environments to provide innovative services for such spaces as parking lots, buildings, and railway networks. Yet, to realize the full potentials of these sensor network infrastructures, services need to be developed. Service development raises a number of challenges due to existing approaches that are often low level and network/hardware-centric. This paper proposes a high-level approach to the development of large-scale orchestrating applications. It revolves around a declaration language that allows to express the sensor-network dimensions of an application (sensor discovery, delivery models, actuation process). These declarations define the behavior of an application with respect to the sensor network infrastructure. We demonstrate the key relevance of these declarations at every stage of an application lifecycle, from design to runtime. In doing so, declarations allow to match the sensor-network behavior of an application to the target infrastructure. Our approach summarizes and puts in perspective our development of industrial case studies and our experience in using a commercially-operated sensor infrastructure.
+</p>
+    </subsection>
+    <subsection id="uid82" level="1">
+      <bodyTitle>Improving the Reliability of Pervasive Computing Applications By Continuous Checking of Sensor Readings</bodyTitle>
+      <p>This paper shows that context-aware applications commonly make implicit assumptions about a sensor infrastructure. Because context-awareness critically relies on these assumptions, the developer typically need to ensure their validity by encoding them in the application code, polluting it with non-functional concerns. This defensive programming approach can be avoided by formulating these assumptions aside from the application, thus factorizing them as an explicit model of the sensor infrastructure. This model can be expressed as a set of rules and can be checked automatically and continuously to ensure the reliability of a sensor infrastructure, both at installation time and during normal functioning. The usefulness of our approach is demonstrated in the domain of assisted living for seniors. We applied it to sensor data collected in the context of a 9-month field study of an assisted living platform, deployed at the home of 24 seniors. We show that several kinds of sensor malfunctions could have been identified upon their occurrence, thanks for our continuous checking, and resolved.
+</p>
+    </subsection>
+    <subsection id="uid83" level="1">
+      <bodyTitle>Designing Parallel Data Processing for Large-Scale Sensor Orchestration</bodyTitle>
+      <p>Masses of sensors are being deployed at the scale of cities to manage parking spaces, transportation infrastructures to monitor traffic, and campuses of buildings to reduce energy consumption. These large-scale infrastructures become a reality for citizens via applications that orchestrate sensors to deliver high-value, innovative services. These applications critically rely on the processing of large amounts of data to analyze situations, inform users, and control devices. This paper proposes a design-driven approach to developing orchestrating applications for masses of sensors that integrates parallel processing of large amounts of data. Specifically, an application design exposes declarations that are used to generate a programming framework based on the MapReduce programming model. We have developed a prototype of our approach, using Apache Hadoop. We applied it to a case study and obtained significant speedups by parallelizing computations over twelve nodes. In doing so, we demonstrate that our design-driven approach allows to abstract over implementation details, while exposing architectural properties used to generate high-performance code for processing large datasets.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid84">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid85" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <p>Funding for the DomAssist500 project was obtained from the following industrial partner: AG2R La Mondiale.</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid86">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid87" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid88" level="2">
+        <bodyTitle>Independent living with intellectual disabilities – ANDDI – 2014 - 2017</bodyTitle>
+        <p>ANDDI leverages the abilities of individuals with ID and the recent technological advances to develop a variety of assistive services addressing their daily needs. These services draw on our expertise in cognitive science and computer science, dedicated to assisting users with technologies. In particular, we use our platform, named HomeAssist, dedicated to the independently living of older adults. This project is funded by the Region of Aquitaine.</p>
+      </subsection>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Platform for Assisted Living – HomeAssist 24 – 2013 – 2016</bodyTitle>
+        <p>The objective of this project is to provide an open platform of digital assistance dedicated to aging in place. This project is in collaboration with researchers in Cognitive Science (University of Bordeaux) and the UDCCAS Gironde (Union Départementale des Centres Communaux d’Action Sociale) managing elderly care. This project includes a need analysis, the development of assistive applications and their experimental validation. To validate HomeAssist 24 homes of older adults are equipped during 9 months, and matched with 24 control, non-equipped participants. This work is funded by CARSAT, the Region of Aquitaine, and the District of Gironde.</p>
+      </subsection>
+      <subsection id="uid90" level="2">
+        <bodyTitle>Populational Study of HomeAssist – HomeAssist 500 – 2015 - 2017</bodyTitle>
+        <p>We conduct a Randomized Controlled Trial (RCT) of HomeAssist with older adults, ranging from autonomous to mildly cognitively impaired (e.g., Alzheimer disease (AD) in its early stage). The RCT is considered as the gold standard of a true experimental design. Furthermore, it provides strong evidence for causal relationships, as well as the ability to generalize the results to people outside the study’s sample. The study design will thus be a single-blinded RCT. It will include up to 500 participants, matched with non-equipped participants. The HomeAssist intervention will involve monitoring as well as compensation services to support independent living in place. The duration of the HomeAssist intervention is of 12 months. This project is funded by the Region of Aquitaine, the Districts of Gironde and Pyrénées Atlantique, CARSAT Aquitaine, UDCCAS, and CNSA.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid91" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid92" level="2">
+        <bodyTitle>School Inclusion for Children with Autism</bodyTitle>
+        <p>The objective of this project is to provide children with assistive
+technologies dedicated to the school routines. This project is in
+collaboration with the “Handicap et Système Nerveux” research group
+(EA 4136, Bordeaux University), the PsyCLÉ research center (EA 3273,
+Provence Aix-Marseille University) and the “Parole et Langage”
+research laboratory (CNRS, Provence Aix-Marseille University).</p>
+        <p>This work is funded by the French Ministry of National Education and Orange Foundation.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid93" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Participation in Other International Programs</bodyTitle>
+        <simplelist>
+          <li id="uid95">
+            <p noindent="true">Cooperation program with UB-University of Waterloo-Canada — Aging (2015-16), Coordinated by M. Fernandes and H. Sauzéon.</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">International exchange program Idex (2016-17) — Pr. Luc Noreau, Centre Interdisciplinaire de Recherche en réadaptation et intégration sociale-University of Laval, Canada. Coordinated by P. Dehail.</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Mobility program Idex UB-University of Waterloo, Canada — Aging (2016-17), Coordinated by M. Fernandes and H. Sauzéon.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid98">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid99" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid100" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid101" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p>Hélène Sauzéon was member of the organizing committee of the workshop “Journées d’étude du vieillissement cognitif”, Bordeaux, 2016.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Charles Consel was member in the PC of the IEEE 2nd International Conference on Collaboration and Internet Computing (CIC 2016).</p>
+          <p>Hélène Sauzéon was member in the PC of the workshop “Journées d’étude du vieillissement cognitif”, Bordeaux, 2016.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid104" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid105" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>Hélène Sauzéon was solicited as a reviewer for the Journal of Cognitive Psychology and the British Journal of Psychology.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Charles Consel gave the following invited talks:</p>
+        <simplelist>
+          <li id="uid107">
+            <p noindent="true">Invited talk on HomeAssist at ORCATECH, Oregon Health and Science University, Portland, USA. August 2016.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Invited talk on “DiaSwarm – Orchestration of Masses of Sensors at the International Conference on Software &amp; Systems Engineering and their Applications”, Paris, France. May 2016.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">Invited talk on “DiaSwarm – Orchestration of Masses of Sensors” at Northeastern University, Boston, USA. May 2016.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">Invited talk on “DiaSwarm – Orchestration of Masses of Sensors” at Galois Inc., Portland, USA. August 2016.</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">Invited talk on HomeAssist at “Journées Inria Industries” entitled “Interaction avec les objets et services numériques”, Tourcoing, France. Nov 2016.</p>
+          </li>
+        </simplelist>
+        <p>Hélène Sauzéon gave the following invited talks:</p>
+        <simplelist>
+          <li id="uid112">
+            <p noindent="true">“Assistance numérique pour la cognition sociale pour favoriser l'inclusion scolaire d'enfants avec troubles du développement” at 43èmes Entretiens de Médecine Physique et de Réadaptation (EMPR), held on March 25th 2015 in Montpellier, France.</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">“La cognition sociale au-delà du cerveau : une cognition inclusive” at 43èmes Entretiens de Médecine Physique et de Réadaptation (EMPR), held on March 25th 2015 in Montpellier, France.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">“HomeAssist : An Assisted Living Platform for Aging in Place Based on an Interdisciplinary Approach”, at WORRKSHOP ACCEPT16- Deuxièmes rencontres interdisciplinaires autour des aides techniques, du handicap cognitif et de la perte d'autonomie, held on October 6-7, in Nîmes, France.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">“Everyday cognition, Aging and Cognitive disorders: insights and opportunities provided by Information and Communication Technologies”, at Scientific seminar of Dpt. of Psychology, University of Waterloo, on 18th Jul., 2016, Waterloo, Canada.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid116" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Hélène Sauzéon is associate director of the lab “Activité, handicap, cognition et système nerveux”, since 2015, where
+she leads the Cognitive Handicap research axis.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid117" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid118" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid119">
+            <p noindent="true">Licence: Hélène Sauzéon, “General Cognitive Psychology”, 18h, L2/L3, University of Bordeaux, France</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Licence: Hélène Sauzéon, “Cognitive Neuropsychology”, 7h, DU, University of Bordeaux, France</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Master: Hélène Sauzéon, “Cognitive Fonctions in Context”, “Technologies for Handicap and Autonomy”, “Virtual Reality and Health Applications”, 60h, M1/M2, University of Bordeaux, France</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Master: Charles Consel, “Telephony Over IP”, 43h, M2, Bordeaux INP, France.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Master: Charles Consel, “Software Engineering for Smart Spaces”, 10h, M2, Bordeaux INP, France.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Master: Charles Consel, “Ubiquitous Computing”, 10h, M2, Bordeaux INP, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid125" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid126">
+            <p noindent="true">Charles FAGES, “Design and Experimental Validation of a Technological Assistant for School Inclusion of Children with Autism Spectrum Disorders in Mainstream Classrooms”, University of Bordeaux, defended on May 30th 2016, co-directed by Hélène Sauzéon and Charles Consel.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">Lucile DUPUY, “Design and validation of a home-based digital assistant for seniors with slight autonomy decline” , University of Bordeaux, defended on November 30th 2016, co-directed by Hélène Sauzéon and Charles Consel.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">Cécile MAZON, “Personalization and evaluation of a digital assistant for school inclusion of college students with autism and/or intellectual disability”, University of Bordeaux, started in September 2016, co-directed by Hélène Sauzéon and Charles Consel.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">P.A. CINQUIN, “Design and validation of a reader accessible to persons with cognitive troubles for a e-learning system”, University of Bordeaux, started in September 2016, co-directed by Hélène Sauzéon and Pascal Guitton.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid130" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Hélène Sauzéon was member of the thesis committee for:</p>
+        <simplelist>
+          <li id="uid131">
+            <p noindent="true">Lucile Burger, for her thesis in Psychology called “Effect of training executive functions on appropriate usage of memory strategies during ageing : a behavioural and electrophysiological study”, University of Tours, on December 9 2016.</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">Caroline Pigeon, for her thesis in Neuropsychology called “Mobilisation attentionnelle des piétons aveugles : Effets de l’âge, de l’antériorité de la cécité et de l’aide à la mobilité utilisée”, University of Lyon 2, on December 6th 2016.</p>
+          </li>
+        </simplelist>
+        <p>Nic Volanschi was member of the thesis committee for Milan Kabac for his thesis in Computer Science called “A Design-Driven Methodology for the Development of Large-Scale Orchestrating Applications”, University of Bordeaux, on September 26th 2016.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid133" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Hélène Sauzéon gave talks to the following events for professional or general audiences:</p>
+      <simplelist>
+        <li id="uid134">
+          <p noindent="true">“Handicaps et technologies d’assistance pour les personnes avec déficiences cognitives” at “Les outils numériques au service des personnes avec autisme”, on October 7th, at Hôpital de Niort, France.</p>
+        </li>
+        <li id="uid135">
+          <p noindent="true">“Présentation de la solution DomAssist et ses effets sur le fonctionnement quotidien de la personne et ses aidant professionnel” at “Territoire et solidarité entre les âges : accompagnement du bien vieillir”, organised by Union Régionale des Fédérations des Centres Sociaux d’Aquitaine, on November 14th, in Lormont, France.</p>
+        </li>
+        <li id="uid136">
+          <p noindent="true">“Collège + : un nouvel outil d’apprentissage”, at Semaine de la mémoire, organised by Observatoire B2V, on September 21st, at Musée CapScience, Bordeaux, France.</p>
+        </li>
+      </simplelist>
+      <p>Nic Volanschi participated on October 13th to the “Science fest” at Inria Bordeaux, where he gave 4 workshop sessions on
+“Manual digital sciences” for children aged 11 to 15. These workshop sessions are aimed to communicate basic notions
+of computer science to young students by using manual games.</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="phoenix-2016-bid38" type="inproceedings" rend="refer" n="refercite:balland:hal-00814296">
+      <identifiant type="hal" value="hal-00814296"/>
+      <analytic>
+        <title level="a">A Case for Human-Driven Software Development</title>
+        <author>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ICSE'13: Proceedings of the 35th International Conference on Software Engineering (NIER track)</title>
+        <loc>San Francisco, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/hal-00814296" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00814296</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid33" type="article" rend="refer" n="refercite:bertran:hal-00702909">
+      <identifiant type="doi" value="10.1016/j.scico.2012.04.001"/>
+      <identifiant type="hal" value="hal-00702909"/>
+      <analytic>
+        <title level="a">DiaSuite: a Tool Suite To Develop Sense/Compute/Control Applications</title>
+        <author>
+          <persName key="phoenix-2015-idp65496">
+            <foreName>Benjamin</foreName>
+            <surname>Bertran</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp112224">
+            <foreName>Julien</foreName>
+            <surname>Bruneau</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="rmod-2014-idp67144">
+            <foreName>Damien</foreName>
+            <surname>Cassou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Loriant</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Science of Computer Programming, Fourth special issue on Experimental Software and Toolkits</title>
+        <imprint>
+          <biblScope type="volume">79</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00702909" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00702909</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid36" type="inproceedings" rend="refer" n="refercite:cassou:2011:inria-00537789:2">
+      <identifiant type="hal" value="inria-00537789"/>
+      <analytic>
+        <title level="a">Leveraging Software Architectures to Guide and Verify the Development of Sense/Compute/Control Applications</title>
+        <author>
+          <persName key="rmod-2014-idp67144">
+            <foreName>Damien</foreName>
+            <surname>Cassou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="whisper-2014-idm26816">
+            <foreName>Julia</foreName>
+            <surname>Lawall</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">ICSE'11: Proceedings of the 33rd International Conference on Software Engineering</title>
+        <loc>Honolulu, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">431-440</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00537789/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00537789/<allowbreak/>en</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid35" type="article" rend="refer" n="refercite:cassou:2012:inria-00631477:1">
+      <identifiant type="hal" value="hal-00683210"/>
+      <analytic>
+        <title level="a">Towards a Tool-based Development Methodology for Pervasive Computing Applications</title>
+        <author>
+          <persName key="rmod-2014-idp67144">
+            <foreName>Damien</foreName>
+            <surname>Cassou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp112224">
+            <foreName>Julien</foreName>
+            <surname>Bruneau</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">IEEE TSE: Transactions on Software Engineering</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">1445-1463</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00683210" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00683210</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid34" type="inproceedings" rend="refer" n="refercite:consel:hal-01225637">
+      <identifiant type="hal" value="hal-01225637"/>
+      <analytic>
+        <title level="a">A Unifying Notification System To Scale Up Assistive Services</title>
+        <author>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ASSETS - The 17th International ACM SIGACCESS Conference on Computers and Accessibility</title>
+        <loc>Lisbon, Portugal</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01225637" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01225637</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid31" type="article" rend="refer" n="refercite:dupuy:hal-01351332">
+      <identifiant type="doi" value="10.1016/j.chb.2016.07.042"/>
+      <identifiant type="hal" value="hal-01351332"/>
+      <analytic>
+        <title level="a">Self Determination-Based Design To Achieve Acceptance of Assisted Living Technologies For Older Adults</title>
+        <author>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computers in Human Behavior</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01351332" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01351332</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted for publication in the journal Computers In Human Behavior</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid32" type="article" rend="refer" n="refercite:fage:hal-01330442">
+      <identifiant type="doi" value="10.1145/2854156"/>
+      <identifiant type="hal" value="hal-01330442"/>
+      <analytic>
+        <title level="a">Tablet-Based Activity Schedule in Mainstream Environment for Children with Autism and Children with ID</title>
+        <author>
+          <persName key="phoenix-2014-idp124728">
+            <foreName>Charles</foreName>
+            <surname>Fage</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp140104">
+            <foreName>Léonard</foreName>
+            <surname>Pommereau</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Transactions on Accessible Computing </title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01330442" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01330442</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid29" type="inproceedings" rend="refer" n="refercite:kaba:hal-01319730">
+      <identifiant type="hal" value="hal-01319730"/>
+      <analytic>
+        <title level="a">Designing Parallel Data Processing for Large-Scale Sensor Orchestration</title>
+        <author>
+          <persName key="phoenix-2014-idp120960">
+            <foreName>Milan</foreName>
+            <surname>Kabáč</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">13th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2016)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319730" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319730</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Best Paper Award</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid5" type="inproceedings" rend="refer" n="refercite:mercadal:2010:inria-00486930:1">
+      <analytic>
+        <title level="a">A Domain-Specific Approach to Architecturing Error Handling in Pervasive Computing</title>
+        <author>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Mercadal</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp113472">
+            <foreName>Quentin</foreName>
+            <surname>Enard</surname>
+            <initial>Q.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Loriant</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">OOPSLA'10: Proceedings of the 25th Annual ACM SIGPLAN Conference on Object Oriented Programming Systems Languages and Applications</title>
+        <loc>États-Unis Reno</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2010</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid37" type="article" rend="refer" n="refercite:taillade:hal-00906837">
+      <identifiant type="doi" value="10.1371/journal.pone.0067193"/>
+      <identifiant type="hal" value="hal-00906837"/>
+      <analytic>
+        <title level="a">Age-related wayfinding differences in real large-scale environments: detrimental motor control effects during spatial learning are mediated by executive decline?</title>
+        <author>
+          <persName key="phoenix-2014-idp131016">
+            <foreName>Mathieu</foreName>
+            <surname>Taillade</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Prashant</foreName>
+            <surname>Arvind Pala</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Marie</foreName>
+            <surname>Déjos</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Florian</foreName>
+            <surname>Larrue</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Gross</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">PLoS ONE</title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/hal-00906837" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00906837</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid30" type="article" rend="refer" n="refercite:vanderwalt:hal-01236352">
+      <identifiant type="doi" value="10.1002/spe.2417"/>
+      <identifiant type="hal" value="hal-01236352"/>
+      <analytic>
+        <title level="a">Frameworks compiled from declarations: a language-independent approach</title>
+        <author>
+          <persName key="phoenix-2014-idp125992">
+            <foreName>Paul</foreName>
+            <surname>Van Der Walt</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Software: Practice and Experience</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01236352" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01236352</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid28" type="phdthesis" rend="year" n="cite:dupuy:tel-01412745">
+      <identifiant type="hal" value="tel-01412745"/>
+      <monogr>
+        <title level="m">Design and Validation of an Assited living platform for aging in place</title>
+        <author>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01412745" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01412745</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid25" type="phdthesis" rend="year" n="cite:fage:tel-01384613">
+      <identifiant type="hal" value="tel-01384613"/>
+      <monogr>
+        <title level="m">Design and Experimental Validation of a Technological Assistant for School Inclusion of Children with Autism Spectrum Disorders in Mainstream Classrooms</title>
+        <author>
+          <persName key="phoenix-2014-idp124728">
+            <foreName>Charles</foreName>
+            <surname>Fage</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01384613" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01384613</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid27" type="phdthesis" rend="year" n="cite:kabac:tel-01412705">
+      <identifiant type="hal" value="tel-01412705"/>
+      <monogr>
+        <title level="m">A Design-Driven Methodology for the Development of Large-Scale Orchestrating Applications</title>
+        <author>
+          <persName key="phoenix-2014-idp120960">
+            <foreName>Milan</foreName>
+            <surname>Kabáč</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01412705" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01412705</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid9" type="article" rend="year" n="cite:cogne:hal-01354011">
+      <identifiant type="doi" value="10.1016/j.rehab.2015.12.004"/>
+      <identifiant type="hal" value="hal-01354011"/>
+      <analytic>
+        <title level="a">The contribution of virtual reality to the diagnosis of spatial navigation disorders and to the study of the role of navigational aids: A systematic literature review.</title>
+        <author>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Cogné</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp131016">
+            <foreName>Mathieu</foreName>
+            <surname>Taillade</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Annabelle</foreName>
+            <surname>Tarruella</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Evelyne</foreName>
+            <surname>KLINGER</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Florian</foreName>
+            <surname>Larrue</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre-Alain</foreName>
+            <surname>Joseph</surname>
+            <initial>P.-A.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Sorita</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00121">
+        <idno type="issn">0168-6054</idno>
+        <title level="j">Annals of Physical and Rehabilitation Medicine</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01354011" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01354011</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid23" subtype="nonparu-n" type="article" rend="year" n="cite:dupuy:hal-01351332">
+      <identifiant type="doi" value="10.1016/j.chb.2016.07.042"/>
+      <identifiant type="hal" value="hal-01351332"/>
+      <analytic>
+        <title level="a">Self Determination-Based Design To Achieve Acceptance of Assisted Living Technologies For Older Adults</title>
+        <author>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02767">
+        <idno type="issn">0747-5632</idno>
+        <title level="j">Computers in Human Behavior</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01351332" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01351332</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted for publication in the journal Computers In Human Behavior</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid24" type="article" rend="year" n="cite:dupuy:hal-01350467">
+      <identifiant type="hal" value="hal-01350467"/>
+      <analytic>
+        <title level="a">Une assistance numérique pour les personnes âgées : le projet DomAssist</title>
+        <author>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="yes" x-international-audience="yes" id="rid01010">
+        <title level="j">Interstices</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01350467" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01350467</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid22" type="incollection" rend="year" n="cite:fage:hal-01354195">
+      <identifiant type="hal" value="hal-01354195"/>
+      <analytic>
+        <title level="a">France</title>
+        <author>
+          <persName key="phoenix-2014-idp124728">
+            <foreName>Charles</foreName>
+            <surname>Fage</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>P</foreName>
+            <surname>Moullet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Michael L.</foreName>
+            <surname>Wehmeyer</surname>
+            <initial>M. L.</initial>
+          </persName>
+          <persName>
+            <foreName>James R.</foreName>
+            <surname>Patton</surname>
+            <initial>J. R.</initial>
+          </persName>
+        </editor>
+        <title level="m">The Praeger International Handbook of Special Education</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <publisher>
+            <orgName> ABC-CLIO Corporate ABC-CLIO</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">26</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01354195" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01354195</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid16" type="article" rend="year" n="cite:fage:hal-01330442">
+      <identifiant type="doi" value="10.1145/2854156"/>
+      <identifiant type="hal" value="hal-01330442"/>
+      <analytic>
+        <title level="a">Tablet-Based Activity Schedule in Mainstream Environment for Children with Autism and Children with ID</title>
+        <author>
+          <persName key="phoenix-2014-idp124728">
+            <foreName>Charles</foreName>
+            <surname>Fage</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp140104">
+            <foreName>Léonard</foreName>
+            <surname>Pommereau</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02952">
+        <idno type="issn">1936-7228</idno>
+        <title level="j">ACM Transactions on Accessible Computing </title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01330442" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01330442</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid26" type="incollection" rend="year" n="cite:jeunet:hal-01414106">
+      <identifiant type="hal" value="hal-01414106"/>
+      <analytic>
+        <title level="a">Apprentissage humain pour les interfaces cerveau-ordinateur</title>
+        <author>
+          <persName key="potioc-2014-idp94448">
+            <foreName>Camille</foreName>
+            <surname>Jeunet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="potioc-2014-idp65160">
+            <foreName>Fabien</foreName>
+            <surname>Lotte</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Les Interfaces Cerveau-Ordinateur</title>
+        <title level="s">Fondements &amp; Méthodes</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01414106" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01414106</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid15" type="article" rend="year" n="cite:jeunet:hal-01302138">
+      <identifiant type="hal" value="hal-01302138"/>
+      <analytic>
+        <title level="a">Advances in User-Training for Mental-Imagery Based BCI Control: Psychological and Cognitive Factors and their Neural Correlates</title>
+        <author>
+          <persName key="potioc-2014-idp94448">
+            <foreName>Camille</foreName>
+            <surname>Jeunet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="potioc-2014-idp65160">
+            <foreName>Fabien</foreName>
+            <surname>Lotte</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03031">
+        <idno type="issn">0079-6123</idno>
+        <title level="j">Progress in brain research</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01302138" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01302138</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid13" subtype="nonparu-s" type="article" rend="year" n="cite:lussierdesrochers:hal-01251888">
+      <identifiant type="doi" value="10.3109/17483107.2015.1136000"/>
+      <identifiant type="hal" value="hal-01251888"/>
+      <analytic>
+        <title level="a">Analysis of How People with Intellectual Disabilities Organize Information Using Computerized Guidance</title>
+        <author>
+          <persName>
+            <foreName>Dany</foreName>
+            <surname>Lussier-Desrochers</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jennie</foreName>
+            <surname>Roux</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Valérie</foreName>
+            <surname>Godin-Tremblay</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Yves</foreName>
+            <surname>Lachapelle</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02653">
+        <idno type="issn">1748-3107</idno>
+        <title level="j">Disability and Rehabilitation: Assistive Technology</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01251888" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01251888</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid11" type="article" rend="year" n="cite:taillade:hal-01261875">
+      <identifiant type="doi" value="10.3389/fpsyg.2015.02034"/>
+      <identifiant type="hal" value="hal-01261875"/>
+      <analytic>
+        <title level="a">Age-Related Differences and Cognitive Correlates of Self-Reported and Direct Navigation Performance: The Effect of Real and Virtual Test Conditions Manipulation</title>
+        <author>
+          <persName key="phoenix-2014-idp131016">
+            <foreName>Mathieu</foreName>
+            <surname>Taillade</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02626">
+        <idno type="issn">1664-1078</idno>
+        <title level="j">Frontiers in Psychology</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01261875" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01261875</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid14" type="article" rend="year" n="cite:vanderwalt:hal-01236352">
+      <identifiant type="doi" value="10.1002/spe.2417"/>
+      <identifiant type="hal" value="hal-01236352"/>
+      <analytic>
+        <title level="a">Frameworks compiled from declarations: a language-independent approach</title>
+        <author>
+          <persName key="phoenix-2014-idp125992">
+            <foreName>Paul</foreName>
+            <surname>Van Der Walt</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01780">
+        <idno type="issn">0038-0644</idno>
+        <title level="j">Software: Practice and Experience</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01236352" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01236352</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid19" type="inproceedings" rend="year" n="cite:carteron:hal-01319059">
+      <identifiant type="hal" value="hal-01319059"/>
+      <analytic>
+        <title level="a">Improving the Reliability of Pervasive Computing Applications By Continuous Checking of Sensor Readings</title>
+        <author>
+          <persName key="phoenix-2014-idp118448">
+            <foreName>Adrien</foreName>
+            <surname>Carteron</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Nic</foreName>
+            <surname>Volanschi</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Ubiquitous Intelligence and Computing</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319059" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319059</ref>
+        </imprint>
+        <meeting id="cid623852">
+          <title>IEEE International Conference on Ubiquitous Intelligence and Computing</title>
+          <num>13</num>
+          <abbr type="sigle">UIC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid21" type="inproceedings" rend="year" n="cite:jeunet:hal-01285369">
+      <identifiant type="hal" value="hal-01285369"/>
+      <analytic>
+        <title level="a">Spatial Abilities Play a Major Role in BCI Performance</title>
+        <author>
+          <persName key="potioc-2014-idp94448">
+            <foreName>Camille</foreName>
+            <surname>Jeunet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="potioc-2014-idp65160">
+            <foreName>Fabien</foreName>
+            <surname>Lotte</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="potioc-2014-idp62512">
+            <foreName>M</foreName>
+            <surname>Hachet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>S</foreName>
+            <surname>Subramanian</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6th International BCI Meeting</title>
+        <loc>Asilomar, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01285369" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01285369</ref>
+        </imprint>
+        <meeting id="cid105860">
+          <title>International Brain-Computer Interface Workshop</title>
+          <num>2016</num>
+          <abbr type="sigle">BCI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid20" type="inproceedings" rend="year" n="cite:jeunet:hal-01285365">
+      <identifiant type="hal" value="hal-01285365"/>
+      <analytic>
+        <title level="a">Why and How to Use Intelligent Tutoring Systems to Adapt MI-BCI Training to Each User</title>
+        <author>
+          <persName key="potioc-2014-idp94448">
+            <foreName>Camille</foreName>
+            <surname>Jeunet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>R</foreName>
+            <surname>N'kambou</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="potioc-2014-idp65160">
+            <foreName>Fabien</foreName>
+            <surname>Lotte</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6th International BCI Meeting</title>
+        <loc>Asilomar, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01285365" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01285365</ref>
+        </imprint>
+        <meeting id="cid105860">
+          <title>International Brain-Computer Interface Workshop</title>
+          <num>2016</num>
+          <abbr type="sigle">BCI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid8" type="inproceedings" rend="best" n="cite:kaba:hal-01319730">
+      <identifiant type="hal" value="hal-01319730"/>
+      <analytic>
+        <title level="a">Designing Parallel Data Processing for Large-Scale Sensor Orchestration</title>
+        <author>
+          <persName key="phoenix-2014-idp120960">
+            <foreName>Milan</foreName>
+            <surname>Kabáč</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">13th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2016)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319730" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319730</ref>
+        </imprint>
+        <meeting id="cid623852">
+          <title>IEEE International Conference on Ubiquitous Intelligence and Computing</title>
+          <num>13</num>
+          <abbr type="sigle">UIC</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">Best Paper Award</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid10" type="inproceedings" rend="year" n="cite:kaba:hal-01319731">
+      <identifiant type="hal" value="hal-01319731"/>
+      <analytic>
+        <title level="a">Leveraging Declarations over the Lifecycle of Large-Scale Sensor Applications</title>
+        <author>
+          <persName key="phoenix-2014-idp120960">
+            <foreName>Milan</foreName>
+            <surname>Kabáč</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Nic</foreName>
+            <surname>Volanschi</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">13th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2016)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319731" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319731</ref>
+        </imprint>
+        <meeting id="cid623852">
+          <title>IEEE International Conference on Ubiquitous Intelligence and Computing</title>
+          <num>13</num>
+          <abbr type="sigle">UIC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid18" type="inproceedings" rend="year" n="cite:teillet:hal-01341042">
+      <identifiant type="hal" value="hal-01341042"/>
+      <analytic>
+        <title level="a">Towards a Spatial Ability Training to Improve Mental Imagery based Brain-Computer Interface (MI-BCI) Performance: a Pilot Study</title>
+        <author>
+          <persName key="potioc-2016-idp159232">
+            <foreName>Suzy</foreName>
+            <surname>Teillet</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="potioc-2014-idp65160">
+            <foreName>Fabien</foreName>
+            <surname>Lotte</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp102184">
+            <foreName>Bernard</foreName>
+            <surname>N'Kaoua</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="potioc-2014-idp94448">
+            <foreName>Camille</foreName>
+            <surname>Jeunet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Systems, Man, and Cybernetics (SMC 2016)</title>
+        <loc>Budapest, Hungary</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">6</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01341042" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01341042</ref>
+        </imprint>
+        <meeting id="cid623918">
+          <title>IEEE international conference on systems, man, and cybernetics</title>
+          <num>2016</num>
+          <abbr type="sigle">SMC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid12" type="inproceedings" rend="year" n="cite:volanschi:hal-01318341">
+      <identifiant type="hal" value="hal-01318341"/>
+      <analytic>
+        <title level="a">Towards Smart and Sustainable Multimodal Public Transports Based on a Participatory Ecosystem</title>
+        <author>
+          <persName>
+            <foreName>Nic</foreName>
+            <surname>Volanschi</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Workshop on Smart and Sustainable City (WSSC'16)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01318341" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01318341</ref>
+        </imprint>
+        <meeting id="cid625253">
+          <title>Workshop on Smart and Sustainable City</title>
+          <num>2016</num>
+          <abbr type="sigle">WSSC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid17" type="misc" rend="year" n="cite:dupuy:hal-01278203">
+      <identifiant type="hal" value="hal-01278203"/>
+      <monogr x-scientific-popularization="yes">
+        <title level="m">Une assistance numérique pour les personnes âgées: le projet DomAssist</title>
+        <author>
+          <persName key="phoenix-2014-idp123480">
+            <foreName>Lucile</foreName>
+            <surname>Dupuy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp103448">
+            <foreName>Hélène</foreName>
+            <surname>Sauzéon</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01278203" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01278203</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Publié dans Interstices, revue de culture scientifique en ligne</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid1" type="inproceedings" rend="foot" n="footcite:Aldr02b">
+      <analytic>
+        <title level="a">Alias Annotations for Program Understanding</title>
+        <author>
+          <persName>
+            <foreName>Jonathan</foreName>
+            <surname>Aldrich</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Valentin</foreName>
+            <surname>Kostadinov</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Craig</foreName>
+            <surname>Chambers</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">OOPSLA'02: Proceedings of the 17th International Conference on Object-Oriented Programming, Systems, Languages, and Applications</title>
+        <loc>New York, NY, USA</loc>
+        <imprint>
+          <biblScope type="volume">37(11)</biblScope>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">311–330</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid3" type="techreport" rend="foot" n="footcite:Feiler06">
+      <monogr>
+        <title level="m">The Architecture Analysis &amp; Design Language (AADL): An Introduction</title>
+        <author>
+          <persName>
+            <foreName>P.H.</foreName>
+            <surname>Feiler</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">DTIC Document</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Technical report</note>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid7" type="inproceedings" rend="foot" n="footcite:gatti:inria-00561619">
+      <identifiant type="hal" value="inria-00561619"/>
+      <analytic>
+        <title level="a">A Step-wise Approach for Integrating QoS throughout Software Development</title>
+        <author>
+          <persName key="phoenix-2014-idp128504">
+            <foreName>Stéphanie</foreName>
+            <surname>Gatti</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Emilie</foreName>
+            <surname>Balland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">FASE'11: Proceedings of the 14th European Conference on Fundamental Approaches to Software Engineering</title>
+        <loc>Sarrebruck, Germany</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">6603</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">217-231</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00561619" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00561619</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid6" type="inproceedings" rend="foot" n="footcite:jakob:inria-00581604">
+      <identifiant type="hal" value="inria-00581604"/>
+      <analytic>
+        <title level="a">Architecturing Conflict Handling of Pervasive Computing Resources</title>
+        <author>
+          <persName>
+            <foreName>Henner</foreName>
+            <surname>Jakob</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="phoenix-2014-idp100688">
+            <foreName>Charles</foreName>
+            <surname>Consel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Loriant</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">11th IFIP International Conference on Distributed Applications and Interoperable Systems (DAIS'11)</title>
+        <loc>Reykjavik, Iceland</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2011</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00581604" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00581604</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid0" type="book" rend="foot" n="footcite:Tayl09a">
+      <monogr>
+        <title level="m">Software Architecture: Foundations, Theory, and Practice</title>
+        <author>
+          <persName>
+            <foreName>Richard N.</foreName>
+            <surname>Taylor</surname>
+            <initial>R. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Nenad</foreName>
+            <surname>Medvidovic</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric M.</foreName>
+            <surname>Dashofy</surname>
+            <initial>E. M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Wiley</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid2" type="inproceedings" rend="foot" n="footcite:Ubay10a">
+      <analytic>
+        <title level="a">Archface: A Contract Place Where Architectural Design and Code Meet Together</title>
+        <author>
+          <persName>
+            <foreName>Naoyasu</foreName>
+            <surname>Ubayashi</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Jun</foreName>
+            <surname>Nomura</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Tetsuo</foreName>
+            <surname>Tamai</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ICSE'10: Proceedings of the 32nd International Conference on Software Engineering</title>
+        <loc>New York, NY, USA</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">75–84</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="phoenix-2016-bid4" type="inproceedings" rend="foot" n="footcite:Vestal2005">
+      <analytic>
+        <title level="a">An Overview of the Architecture Analysis &amp; Design Language (AADL) Error Model Annex</title>
+        <author>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Vestal</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">AADL Workshop</title>
+        <imprint>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

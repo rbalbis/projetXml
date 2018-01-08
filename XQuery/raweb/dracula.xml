@@ -1,0 +1,2696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="dracula" isproject="true">
+    <shortname>DRACULA</shortname>
+    <projectName>Multi-scale modelling of cell dynamics : application to hematopoiesis</projectName>
+    <theme-de-recherche>Modeling and Control for Life Sciences</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>http://dracula.univ-lyon1.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Institut Camille Jordan</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Claude Bernard (Lyon 1)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2010 January 01, updated into Project-Team: 2011 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.2. - Stochastic Modeling (SPDE, SDE)</term>
+      <term>6.1.3. - Discrete Modeling (multi-agent, people centered)</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.3. - Probabilistic methods</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.3.1. - Inverse problems</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.2. - Molecular biology</term>
+      <term>1.1.3. - Cellular biology</term>
+      <term>1.1.7. - Immunology</term>
+      <term>1.1.9. - Bioinformatics</term>
+      <term>1.1.10. - Mathematical biology</term>
+      <term>1.1.11. - Systems biology</term>
+      <term>1.4. - Pathologies</term>
+      <term>2.2.1. - Cardiovascular and respiratory diseases</term>
+      <term>2.2.3. - Cancer</term>
+      <term>2.2.5. - Immune system diseases</term>
+      <term>2.2.6. - Neurodegenerative diseases</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="dracula-2014-idp17776">
+      <firstname>Mostafa</firstname>
+      <lastname>Adimy</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dracula-2014-idp19256">
+      <firstname>Samuel</firstname>
+      <lastname>Bernard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="dracula-2014-idp112512">
+      <firstname>Fabien</firstname>
+      <lastname>Crauste</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dracula-2014-idp113944">
+      <firstname>Olivier</firstname>
+      <lastname>Gandrillon</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dracula-2014-idp115384">
+      <firstname>Thomas</firstname>
+      <lastname>Lepoutre</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="dracula-2014-idp116624">
+      <firstname>Vitaly</firstname>
+      <lastname>Volpert</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dracula-2014-idp118064">
+      <firstname>Philippe</firstname>
+      <lastname>Michel</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Ecole Centrale de Lyon, Associate Professor</moreinfo>
+    </person>
+    <person key="dracula-2015-idp113360">
+      <firstname>Laurent</firstname>
+      <lastname>Pujo Menjouet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, Associate Professor</moreinfo>
+    </person>
+    <person key="dracula-2014-idp120592">
+      <firstname>Léon</firstname>
+      <lastname>Tine</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, Associate Professor</moreinfo>
+    </person>
+    <person key="dracula-2015-idp115880">
+      <firstname>Celine</firstname>
+      <lastname>Vial</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, Associate Professor, started September 2015</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dracula-2014-idp111232">
+      <firstname>Loïc</firstname>
+      <lastname>Barbarroux</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Ecole Centrale de Lyon, French ministry scholarship, started October 2013</moreinfo>
+    </person>
+    <person key="dracula-2014-idp133304">
+      <firstname>Apollos</firstname>
+      <lastname>Besse</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, French ministry scholarship, started October 2014</moreinfo>
+    </person>
+    <person key="dracula-2015-idp119904">
+      <firstname>Arnaud</firstname>
+      <lastname>Bonnaffoux</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>ENS Lyon, granted by CIFRE, started November 2015</moreinfo>
+    </person>
+    <person key="dracula-2014-idp128192">
+      <firstname>Anass</firstname>
+      <lastname>Bouchnita</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, French ministry scholarship, started October 2014</moreinfo>
+    </person>
+    <person key="dracula-2014-idp135848">
+      <firstname>Loïs</firstname>
+      <lastname>Boullu</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, Canadian scholarship, started October 2014</moreinfo>
+    </person>
+    <person key="dracula-2015-idp136600">
+      <firstname>Aurélien</firstname>
+      <lastname>Canet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, granted by Labex Milyon and the start up Neolys Diagnostics, started January 2016</moreinfo>
+    </person>
+    <person key="dracula-2014-idp138384">
+      <firstname>Abdennasser</firstname>
+      <lastname>Chekroun</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, Algerian government scholarship, started October 2012 until March 2016</moreinfo>
+    </person>
+    <person key="dracula-2014-idp139656">
+      <firstname>Flavien</firstname>
+      <lastname>Duparc</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, French ministry scholarship, started October 2014</moreinfo>
+    </person>
+    <person key="dracula-2016-idp194288">
+      <firstname>Ronan</firstname>
+      <lastname>Duchesne</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>ENS Lyon, started February 2016</moreinfo>
+    </person>
+    <person key="dracula-2015-idp127488">
+      <firstname>Tatiana</firstname>
+      <lastname>Galochkina</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I and Moscow, French-Russian scholarship, started October 2014</moreinfo>
+    </person>
+    <person key="dracula-2015-idp128768">
+      <firstname>Simon</firstname>
+      <lastname>Girel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, granted by Labex Milyon, started September 2015</moreinfo>
+    </person>
+    <person key="dracula-2015-idp130040">
+      <firstname>Ulysse</firstname>
+      <lastname>Herbach</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, French ministry scholarship, started October 2015</moreinfo>
+    </person>
+    <person key="dracula-2014-idp142200">
+      <firstname>Marine</firstname>
+      <lastname>Jacquier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, French ministry scholarship, started October 2012 until February 2016</moreinfo>
+    </person>
+    <person key="numed-2014-idp115424">
+      <firstname>Pauline</firstname>
+      <lastname>Mazzocco</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, until September 2016</moreinfo>
+    </person>
+    <person key="dracula-2015-idp133840">
+      <firstname>Abdelkader</firstname>
+      <lastname>Lakmeche</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Sidi Bel Abbés, Algeria, until August 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="kaliffe-2014-idp70312">
+      <firstname>Caroline</firstname>
+      <lastname>Lothe</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="beagle-2015-idp88560">
+      <firstname>Raphael</firstname>
+      <lastname>Bournhonesque</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, M2 student, until May 2016</moreinfo>
+    </person>
+    <person key="dracula-2016-idp217152">
+      <firstname>Nicolas</firstname>
+      <lastname>Corthorn Errazuriz</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, M2 student, until Mar 2016</moreinfo>
+    </person>
+    <person key="dracula-2014-idp121848">
+      <firstname>Xuefeng</firstname>
+      <lastname>Gao</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until October 2016</moreinfo>
+    </person>
+    <person key="dracula-2016-idp222080">
+      <firstname>Manon</firstname>
+      <lastname>Muntaner</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, M1 student, started April 2016 until July 2016</moreinfo>
+    </person>
+    <person key="dracula-2016-idp224592">
+      <firstname>Angélique</firstname>
+      <lastname>Perrillat</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lyon I, M2 student, started March 2016 until August 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Presentation</bodyTitle>
+      <p>Dracula is a joint research team between Inria, University of Lyon
+1 (UCBL) and CNRS (ICJ, UMR 5208 and CGMC UMR 5534). It was
+created in January 2011.</p>
+      <p>The Dracula project is devoted to multi-scale modeling in biology with applications to normal and pathological hematopoiesis (blood cell production). Multi-scale modeling implies simultaneous modeling of intra-cellular networks (molecular level), of cell behavior (cellular level), of the dynamics of cell populations (organ or tissue) with the control by other organs (organism) (see Figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Such modeling represents one of the major challenges in modern science due to its importance and because of the complexity of biological phenomena and of the presence of very different scales.</p>
+      <object id="uid4">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/CellDynamics.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Schema of multi-scale models of cell dynamics: DPD-PDE-ODE models.</caption>
+      </object>
+      <p>Hematopoiesis is a complex process that begins with primitive hematopoietic stem cells and results in formation of mature cells: red blood cells, white cells and platelets. Blood cells are produced in the bone marrow, from where mature cells are released into the blood stream. Hematopoiesis is based on a balance between cell proliferation (including self-renewal), differentiation and apoptosis (programmed cell death). The choice between these three possibilities is determined by intra-cellular regulatory networks and by numerous control mechanisms in the bone marrow (see Figure <ref xlink:href="#uid5" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) or carried out by other organs. Intra-cellular regulatory networks are complex biochemical reactions involving proteins, enzymes and signalling molecules. Thus, hematopoiesis is a complex process which has a vital importance for the organism. Its malfunctioning can result in numerous blood diseases including leukemia.</p>
+      <object id="uid5">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/Intracellular.jpg" type="float" width="284.52756pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>A schematic description of the intra-cellular molecular events that are relevant for decision making in an erythroid progenitor. The non active form of the protein is labeled i, the active form a. Blue lines indicate transcriptional regulation, red lines indicate biochemical regulation.</caption>
+      </object>
+      <p>Multi-scale modeling in hematopoiesis holds a great potential. A variety of techniques exists to deal with this problem. However, the complexity of the system poses new difficulties and leads to the development of new tools. The expected results of this study are numerous. On one hand, it will shed new light on the different physiological mechanisms that converge toward the continuous regeneration of blood cells, for example: the behavior of hematopoietic stem cells under stress conditions, the understanding of deregulation of erythropoiesis (the process of red blood cell production) under drag treatments (this can lead to lack of red blood cells (anemia), or a surplus of red blood cells), the understanding of immune response process under the control of T-cell activation and memory cell generation, in order to adapt infection prevention strategies.</p>
+      <p>On the other hand, the modeling methods developed here for hematopoiesis are relevant to study other complex biological systems. We pay a special attention on developing methods that are not restricted to hematopoiesis. In parallel with hematopoiesis modeling, most of members of Dracula keep on working on modeling of other biological phenomena, for example: tumor cells, prion disease, adaptive dynamics, atherosclerosis, and so on. Approaches developed in the present project are very likely relevant in these fields too.</p>
+      <p>An important part of our researches is in close collaboration with biologists and physicians in order to stay in close contact with the biological and medical goals. The presence, within the project, of a biologist (Olivier Gandrillon) that has acquired over the years the know-how required for interacting with mathematicians is probably one of the main asset of the project. He participates actively in many tasks of our program, especially involving description of biological process, and he is "consultant" for other biological aspects, in the other parts of the project.</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Keywords</bodyTitle>
+      <p>Multi-scale modeling; Mathematical Biology; Computational Biology; Hematopoiesis modeling; Erythropoiesis modeling; Leukemia modeling; Immune response modeling; Regulatory networks; Partial differential equations; Delay differential equations; Agent-based modeling; Dynamical systems.</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Objectives</bodyTitle>
+      <p>Our aim in this project is the development of modern tools of multi-scale modeling in biological phenomena (and in particular, for hematopoiesis). For the last four years, we have fixed the following objectives:</p>
+      <simplelist>
+        <li id="uid8">
+          <p noindent="true">Multi-scale modeling will be carried out on the basis of coupled DPD-PDE-ODE models, where dissipative particle dynamics (DPD) will be used in order to describe individual cells and relatively small cell populations, partial differential equations (PDE) will be used to describe concentrations of bio-chemical substances in the extra-cellular matrix, and ordinary differential equations (ODE, deterministic or stochastic) for intra-cellular regulatory networks (Figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">A new software "Cell dynamics" will be created in order to study these models numerically.</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true">Partial differential equations (PDE) will also be used to describe cell populations considered as continuous medium. We will study reaction-diffusion-convection equations with or without hydrodynamics, transport equations (hyperbolic PDEs) in which the structure can be age, size, maturity, protein concentration, etc. In some particular cases, transport equations will be reduced to delay differential equations (DDE) which are less difficult to investigate analytically.</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">Numerical simulations will be compared with analytical studies of simplified test cases and model examples.</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true">Numerical simulations will also be compared to the "Cell dynamics" approach.</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">Multi-scale models of hematopoiesis will be used to study normal situation or homeostasis where different cell types are in equilibrium with each other. This equilibrium is determined by intra-cellular regulatory networks and by numerous feedbacks by cell populations and other organs.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">Development and dynamics of blood diseases will be modeled taking into account disequilibrium of regulatory networks or feedbacks. On the other hand, we will model various approaches to treatment of these diseases (chemotherapy, chronotherapy). We will compare then the results with available biological and clinical information.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid15">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Cell dynamics</bodyTitle>
+      <p>We model dynamics of cell populations with two approaches, dissipative particle dynamics (DPD) and partial differential equations (PDE) of continuum mechanics. DPD is a relatively new method developed from molecular dynamics approach largely used in statistical physics. Particles in DPD do not necessarily correspond to atoms or molecules as in molecular dynamics. These can be mesoscopic particles. Thus, we describe in this approach a system of particles. In the simplest case where each particle is a sphere, they are characterized by their positions and velocities. The motion of particles is determined by Newton's second law (see Figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>In our case, particles correspond to biological cells. The specific feature of this case in comparison with the conventional DPD is that cells can divide (proliferation), change their type (differentiation) and die by apoptosis or necrosis. Moreover, they interact with each other and with the extra-cellular matrix not only mechanically but also chemically. They can exchange signals, they can be influenced by various substances (growth factors, hormones, nutrients) coming from the extra-cellular matrix and, eventually, from other organs.</p>
+      <p>Distribution of the concentrations of bio-chemical substances in the extra-cellular matrix will be described by the diffusion equation with or without convective terms and with source and/or sink terms describing their production or consumption by cells. Thus we arrive to a coupled DPD-PDE model.</p>
+      <p>Cell behaviour (proliferation, differentiation, apoptosis) is determined by intra-cellular regulatory networks, which can be influenced by external signals. Intra-cellular regulatory networks (proteins controlling the cell cycle) can be described by systems of ordinary differential equations (ODE). Hence we obtain DPD-PDE-ODE models describing different levels of cell dynamics (see Figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). It is important to emphasize that the ODE systems are associated to each cell and they can depend on the cell environment (extra-cellular matrix and surrounding cells).</p>
+    </subsection>
+    <subsection id="uid17" level="1">
+      <bodyTitle>From particle dynamics to continuum mechanics</bodyTitle>
+      <p>DPD is well adapted to describe biological cells. However, it is a very time consuming method which becomes difficult to use if the number of particles exceeds the order of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>5</mn></msup></math></formula>-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>6</mn></msup></math></formula> (unless distributed computing is used). On the other hand, PDEs of continuum mechanics are essentially more efficient for numerical simulations. Moreover, they can be studied by analytical methods which have a crucial importance for the understanding of relatively simple test cases. Thus we need to address the question about the relation between DPD and PDE. The difficulty follows already from the fact that molecular dynamics with the Lennard-Jones potential can describe very different media, including fluids (compressible, incompressible, non-Newtonian, and so on) and solids (elastic, elasto-plastic, and so on). Introduction of dissipative terms in the DPD models can help to justify the transition to a continuous medium because each medium has a specific to it law of dissipation. Our first results <ref xlink:href="#dracula-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> show the correspondence between a DPD model and Darcy's law describing fluid motion in a porous medium. However, we cannot expect a rigorous justification in the general case and we will have to carry out numerical comparison of the two approaches.</p>
+      <p>An interesting approach is related to hybrid models where PDEs of continuum mechanics are considered in the most part of the domain, where we do not need a microscopical description, while DPD in some particular regions are required to consider individual cells.</p>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>PDE models</bodyTitle>
+      <p>If we consider cell populations as a continuous medium, then cell concentrations can be described by reaction-diffusion systems of equations with convective terms. The diffusion terms correspond to a random cell motion and the reaction terms to cell proliferation, differentiation and death. These are more traditional models <ref xlink:href="#dracula-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> with properties that depend on the particular problem under consideration and with many open questions, both from the point of view of their mathematical properties and for applications. In particular we are interested in the spreading of cell populations which describes the development of leukemia in the bone marrow and many other biological phenomena (solid tumors, morphogenesis, atherosclerosis, and so on). From the mathematical point of view, these are reaction-diffusion waves, intensively studied in relation with various biological problems. We will continue our studies of wave speed, stability, nonlinear dynamics and pattern formation. From the mathematical point of view, these are elliptic and parabolic problems in bounded or unbounded domains, and integro-differential equations. We will investigate the properties of the corresponding linear and nonlinear operators (Fredholm property, solvability conditions, spectrum, and so on). Theoretical investigations of reaction-diffusion-convection models will be accompanied by numerical simulations and will be applied to study hematopoiesis.</p>
+      <p>Hyperbolic problems are also of importance when describing cell population dynamics ( <ref xlink:href="#dracula-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#dracula-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), and they proved effective in hematopoiesis modelling ( <ref xlink:href="#dracula-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#dracula-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#dracula-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). They are structured transport partial differential equations, in which the structure is a characteristic of the considered population, for instance age, size, maturity, protein concentration, etc. The transport, or movement in the structure space, simulates the progression of the structure variable, growth, maturation, protein synthesis, etc. Several questions are still open in the study of transport PDE, yet we will continue our analysis of these equations by focusing in particular on the asymptotic behaviour of the system (stability, bifurcation, oscillations) and numerical simulations of nonlocal transport PDE.</p>
+      <p>The use of age structure often leads to a reduction (by integration over the age variable) to nonlocal problems <ref xlink:href="#dracula-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The nonlocality can be either in the structure variable or in the time variable <ref xlink:href="#dracula-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In particular, when coefficients of an age-structured PDE are not supposed to depend on the age variable, this reduction leads to delay differential equations.</p>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Delay differential Equations</bodyTitle>
+      <p>Delay differential equations (DDEs) are particularly useful for situations where the processes are controlled through feedback loops acting after a certain time. For example, in the evolution of cell populations the transmission of control signals can be related to some processes as division, differentiation, maturation, apoptosis, etc. Because these processes can take a certain time, the system depends on an essential way of its past state, and can be modelled by DDEs.</p>
+      <p>We explain hereafter how delays can appear in hematopoietic models. Based on biological aspects, we can divide hematopoietic cell populations into many compartments. We basically consider two different cell populations, one composed with immature cells, and the other one made of mature cells. Immature cells are separated in many stages (primitive stem cells, progenitors and precursors, for example) and each stage is composed with two sub-populations, resting (G0) and proliferating cells. On the opposite, mature cells are known to proliferate without going into the resting compartment. Usually, to describe the dynamic of these multi-compartment cell populations, transport equations (hyperbolic PDEs) are used. Structure variables are age and discrete maturity. In each proliferating compartment, cell count is controlled by apoptosis (programmed cell death), and in the other compartments, cells can be eliminated only by necrosis (accidental cell death). Transitions between the compartments are modelled through boundary conditions. In order to reduce the complexity of the system and due to some lack of information, no dependence of the coefficients on cell age is assumed. Hence, the system can be integrated over the age variable and thus, by using the method of characteristics and the boundary conditions, the model reduces to a system of DDEs, with several delays.</p>
+      <p>Leaving all continuous structures, DDEs appear well adapted to us to describe the dynamics of cell populations. They offer good tools to study the behaviour of the systems. The main investigation of DDEs are the effect of perturbations of the parameters, as cell cycle duration, apoptosis, differentiation, self-renewal, and re-introduction from quiescent to proliferating phase, on the behaviour of the system, in relation for instance with some hematological disorders <ref xlink:href="#dracula-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid20">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Normal hematopoiesis</bodyTitle>
+      <subsection id="uid22" level="2">
+        <bodyTitle>Introduction</bodyTitle>
+        <p>Modelling normal hematopoiesis will allow us to explore the dynamical appearance of the various cell types, originating from the stem cell compartment, through the bone marrow development up to the blood stream. The differentiated cell types will both fulfill physiological functions, and play a key role on the feedback control on homeostasis (balance of the system) in their own lineages. We will describe the hematopoiesis from three different points of view:</p>
+        <simplelist>
+          <li id="uid23">
+            <p noindent="true">The initial cell type, the hematopoietic stem cell (HSC);</p>
+          </li>
+          <li id="uid24">
+            <p noindent="true">The lineage choice question;</p>
+          </li>
+          <li id="uid25">
+            <p noindent="true">Three differentiated lineages that are responsible for specific function, namely oxygen transport, immune response and coagulation.</p>
+          </li>
+        </simplelist>
+        <p>The basic mechanisms of our modelling approach are as follows:</p>
+        <simplelist>
+          <li id="uid26">
+            <p noindent="true">Any cell type can have two possibilities at each time step: to divide or to die.</p>
+          </li>
+          <li id="uid27">
+            <p noindent="true">At any division step, the cell can either give rise to two daughter cells which are identical to the mother cell (self-renewal) or that are more advanced in their
+differentiation.</p>
+          </li>
+        </simplelist>
+        <p>All these processes will be first modelled at the cellular level. In parallel, we will develop models of intra-cellular molecular networks (as some proteins controlling the cell cycle) influencing this decision making process, so as to be able to describe both micro-to-macro effects (molecules influencing the global cell behaviour) as well as macro-to-micro effects (like the global state of the cell population influencing the molecular behaviour).</p>
+      </subsection>
+      <subsection id="uid28" level="2">
+        <bodyTitle>Hematopoietic stem cells (HSC)</bodyTitle>
+        <p>Although widely studied by biologists, HSC are still poorly understood and many questions remain open: How fast and how frequently do they divide? How many of them are in the bone marrow and where? How is their behaviour modified under stress conditions such as blood loss or transfusion?</p>
+        <p>Our modelling approach will be based on two methods: deterministic and stochastic differential equations with delays (discrete and distributed), on one hand, and the DPD method using the individual based modelling on the other hand. The differential equation models based on the work initiated by Mackey <ref xlink:href="#dracula-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> will describe the HSC compartment in normal conditions and the behaviour of these cells under some stress. The DPD method, as a complementary approach, will emphasize the spatial regulation of stem cell behaviour, and we will focus our attention to give a possible answer regarding their location in the bone marrow and the roles of the niche, their number in the system, their possible role under stress (that is their reaction under the different feedback controls).</p>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Blood cell functions</bodyTitle>
+        <p>
+          <b>(i) O2 transport: red lineage</b>
+        </p>
+        <p><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>O</mi><mn>2</mn></msub></math></formula> transport is provided by red blood cells (RBC) also called erythrocytes. Many different stages of maturity (including progenitors, precursors, reticulocytes and erythrocytes) are necessary to achieve the complete formation of RBC. These latter are then released in the blood stream where they transport oxygen. The whole process is tightly dependent on a robust well-balanced equilibrium called homeostasis.</p>
+        <p>It has been shown in the 1990's that apoptosis is regulated by EPO, a growth factor released by the kidneys under hypoxia. But also, under severe stress (like an important blood loss) some other molecules known as glucocorticoids can be released leading to an increase of the self-renewing rate for each generation. This led to the formulation of a first model, demonstrating the role of self-renewal.</p>
+        <p>The study of the red blood cell lineage will involve different scale levels, from the molecular one, with the effects of the hormones on the surface and internal parts of the cell, the cell contacts in each stage of RBC formation, and the red branch population in its whole with all the interactions taken into account (see Figure <ref xlink:href="#uid30" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) in normal and stress conditions.</p>
+        <object id="uid30">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/Erythropoiesis.jpg" type="float" width="398.33858pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Scheme of Erythropoiesis Modelling ( <ref xlink:href="#dracula-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Without considering explicitly growth factor mediated regulation, all controls (proliferation, self-renewal, differentiation, apoptosis) are mediated by cell populations (dashed arrows). Mature cells can either regulate immature (HSC, progenitors) or almost mature (precursors) cells, precursors may act on progenitor dynamics, etc..</caption>
+        </object>
+        <p>In order to couple the cellular behaviour to explicit molecular events, we will describe the events through a molecular network that is based upon the work of <ref xlink:href="#dracula-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A first version of this model is shown in Figure <ref xlink:href="#uid5" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>
+          <b>(ii) Immune response</b>
+        </p>
+        <p>We will focus on the production of T-cells during an immune response. This represents an important activity of the lymphoid branch, part of leucopoiesis (white blood cell production). Several models of the myeloid branch of leucopoiesis have been investigated in the frame of specific diseases (for instance cyclical neutropenia ( <ref xlink:href="#dracula-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#dracula-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), chronic myelogenous leukemia <ref xlink:href="#dracula-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+        <p>Time evolution of T-cell counts during an infection is well known: following the antigen presentation, the number of cells quickly increases (expansion), then decreases more slowly (contraction) and stabilizes around a value higher than the initial value. Memory cells have been produced, and will allow a faster response when encountering the antigen for a second time. Mechanisms that regulate this behaviour are however not well known.</p>
+        <p>A recent collaboration just started with immunologists (J. Marvel, Ch. Arpin) from the INSERM U851 in Lyon, who provide experimental data that are essential to assess the significance of models, based on strongly nonlinear ordinary differential equations, that can be proposed for T-cell production (Figure <ref xlink:href="#uid31" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). By considering molecular events leading to cell activation when encountering a virus, we will propose a multi-scale model of the immune response.</p>
+        <object id="uid31">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/Immune.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Model of the immune response resulting in the generation of CD8 memory T cells. The response starts with a viral infection resulting in the presentation of viral antigens through antigen presenting cells (APC) to naive T-cells. These latter, once activated, differentiate into activated cells which, under specific feedback loops will either die, differentiate into effector cells or self-renew. Differentiation of effector cells (killer cells) will result in the production of memory cells.</caption>
+        </object>
+        <p>
+          <b>(iii) Coagulation: platelet lineage</b>
+        </p>
+        <p>Thrombopoiesis, the process of production and regulation of platelets, is similar to erythropoiesis although important differences are observed. These two processes have an immature progenitor (MEP) in common. Platelets are involved in blood coagulation, and can be the source of blood diseases (thrombopenia, thrombocytosis). Their production is mainly regulated by thrombopoietin (TPO), a growth factor similar to EPO.</p>
+        <p>It is important to mention that very few experimental data exist in the literature, and mathematical modelling of thrombopoiesis did not attract so much attention in the past 20 years. However, collaboration with some leading hematologists in this domain will allow us to get updated and new data regarding this process.</p>
+        <p>Deterministic models, in the form of structured transport partial differential equations, will be proposed to describe platelet dynamics, through the description of HSC, megakaryocytic progenitor and megacaryocyte (platelet precursor) compartments. Circulating TPO, regulated by platelets, will induce feedback loops in thrombopoiesis, and we will investigate the dynamics of platelet production and emergence of platelet-related diseases.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Pathological hematopoiesis</bodyTitle>
+      <p>The knowledge of hematopoiesis and related diseases has evolved to become a great deal in the past years, and Mackey's previous models (ref. <ref xlink:href="#dracula-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) do not allow us to correctly answer current questions that are clearly oriented toward the investigation of cell signalling pathways. These models nevertheless bring relevant ideas about the essential features of such modelling. It is also noteworthy that even though models of hematopoiesis have existed for quite a long time, their application to questions of explanation and prediction of hematopoiesis dynamics that are encountered in the clinic is still not sufficiently frequent, even though much progress has been achieved in the cooperation between hematologists and mathematicians <ref xlink:href="#dracula-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This is in the optic of testable experimental predictions that the multi-scale model for pathological hematopoiesis will be developed. For instance, we will concentrate on myeloid leukemias (CML and AML) and their treatment.</p>
+      <subsection id="uid33" level="2">
+        <bodyTitle>Leukemia Modelling</bodyTitle>
+        <p>
+          <b>(i) Chronic Myeloid Leukemia</b>
+        </p>
+        <p>The strong tyrosine kinase activity of the BCR-ABL protein is the basis for the main cell effects that are observed in CML: significant proliferation, anti-apoptotic effect, disruption of stroma adhesion properties, genomic instability. This explains the presence in CML blood of a very important number of cells belonging to the myeloid lineage, at all stages of maturation.</p>
+        <p>We will consider models based on ordinary differential equations for the action of the main intra- and extra-cellular proteins involved in CML (as BCR-ABL protein), and of transport equations (with or without delay, physiologically structured or not to represent healthy and leukemic cell populations, take into account many interactions between proteins (especially BCR-ABL), cells (anti-apoptotic effect, etc.), and their environment (disruption of stroma adhesion properties, for example). Transport pertains thus to cells from one compartment (or a group of compartments) to another compartment, with a determined speed of aging or maturation. These compartments may be detailed or not: the less mature are stem cells, then progenitor cells, etc.</p>
+        <p>
+          <b>(ii) Acute Myeloid Leukemia</b>
+        </p>
+        <p>The natural history of CML leads to its transformation ("blast crisis") in acute myeloid leukemia (AML), following supplementary genetic alterations that produce a maturation arrest (myeloid in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>3</mn><mo>/</mo><mn>4</mn></mrow></math></formula> of cases, lymphoid in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>/</mo><mn>4</mn></mrow></math></formula> of cases, confirming the insult to pluripotent stem cells), leading to an accumulation of immature cells in the bone marrow and in the general circulation, resulting in deep medullary impairment and fast fatal outcome, in spite of chemotherapy. This phenomenon is the same as the one observed in de novo AML, i.e., AML without a previous chronic phase.</p>
+        <p>The different modelling methods of AML will be similar to the ones described for CML, with some exceptions: the appearance of BCR-ABL mutations, which are not relevant in the case of AML, the appearance of a gene (spi-1) involved in the differentiation arrest, and constitutive activation of EPO receptor or Kit activating mutations promote proliferation and survival. This explains the accumulation of immature cells in the bone marrow and in the blood stream.</p>
+      </subsection>
+      <subsection id="uid34" level="2">
+        <bodyTitle>Treatment</bodyTitle>
+        <p>As far as treatment of pathological hematopoiesis is concerned, two main strategies currently exist that aim at slowing down or eliminating damaged cell proliferation. The first of these strategies consists in launching the apoptotic process during the cell division cycle. This process is activated, for example when the cell is unable to repair damages, e.g., after exposure to cytostatic drugs. A typical example is apoptosis induced by chemotherapy-induced DNA damage: The damage is recognised by the cell, which then activates the sentinel protein p53 ("guardian of the genome") that arrests the cell cycle to allow, if possible, damage repair. If the latter is unrecoverable, then p53 activates the endogenous apoptotic processes.</p>
+        <p>The second strategy aims at pushing damaged cells toward the differentiation that has been stopped in the course of their genetic mutation. Since a few years back, a new approach has been developed around the strategy of differentiation therapy. This therapy relies on molecules (growth factors and specific cytokines) that are able to re-initialise the cell differentiation programs that have been modified during malignant transformation. The cancer that is most concerned by the development of this differentiation therapy is AML whose malignant cells present highly undifferentiated features and the ones that present a translocation responsible for the differentiation (PML/RAR of the promyelocytic form, AML1/ETO and CBFbeta/MyH11, involving Core Binding Factors alpha and beta).</p>
+        <p>Mathematical models based on ordinary differential equations will be developed to describe the action of drugs (in the two cases mentioned above). They will take into account interactions between drugs and their environment. Our goal will be the optimization of possible synergies between drugs acting on distinct cellular targets, and the control of resistances to these treatments as well as their toxicities.</p>
+        <p>Curative and palliative strategies must take into account the dynamics of healthy and leukemic hematopoietic cells at multiple scales. In time, from optimal scheduling of combination therapy (hours) to avoiding the development of resistances and relapse (months to years). In space, from the stem cell niche to circulating blood. In organization, from gene and signalling networks (JAK/STAT, BCR-ABL) to cell populations and cytokine regulation (EPO, CSFs). Several recent qualitative models have provided insight in the complex dynamics of the disease and the response to treatments. Many of these models focus on the control or regulation processes that promote homeostasis or oscillatory behavior in cell number. However, as A. Morley points out, "once the control-systems features of hematopoiesis are accepted, the ability to construct a model that shows oscillatory behavior, even if the model incorporates the latest advances in hematopoietic cell biology, really adds little new knowledge. Rather, the challenge to modellers would seem to be to provide detailed predictions for the input-output characteristics of the different parts of the various control systems so that these predictions can be tested by experimental hematologists and a truly quantitative description of hematopoiesis can emerge".</p>
+        <p>We propose for instance, to use models in the form of structured transport partial differential equations (with or without delay, physiologically structured or not) to represent the competition between target, resistant and healthy cell populations. The resulting models to describe the dynamic of these cell populations under the action of drugs are multi-scale systems of the form (Hyperbolic PDE)-ODE or DDE-ODE. For instance, we will develop mathematical models of chronotherapy and pharmacotherapy for CML and AML.</p>
+      </subsection>
+    </subsection>
+  </domaine>
+  <logiciels id="uid35">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid36" level="1">
+      <bodyTitle>CelDyn</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Modeling - Bioinformatics - Biology</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Software "Celdyn" is developed in order to model cell population dynamics for biological applications. Cells are represented either as soft spheres or they can have more complex structure. Cells can divide, move, interact with each other or with the surrounding medium. Different cell types can be introduced. When cells divide, the types of daughter cells are specified. A user interface is developed.</p>
+      <simplelist>
+        <li id="uid37">
+          <p noindent="true">Participants: Nikolai Bessonov, Vitaly Volpert, Alen Tosenberger and Laurent Pujo-Menjouet</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Contact: Vitaly Volpert</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid39">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Mathematical modeling of memory CD8 T cell ontogeny and quantitative predictions</bodyTitle>
+      <p>Primary immune responses generate both short-term effector and long-term protective memory cells from naive CD8 T cells. The delineation of the genealogy linking those cell types has been complicated by the lack of molecular markers allowing to discriminate effector from memory cells at the peak of the response. Coupling transcriptomics and phenotypic analyses, and in collaboration with immunologists from Lyon (Jacqueline Marvel's team, Centre International de Recherche en Infectiologie), we identified a novel marker combination that allows to track nascent memory cells within the effector phase <ref xlink:href="#dracula-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We then used mathematical models based upon our previous description of the dynamics of T cell immune response ( <ref xlink:href="#dracula-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#dracula-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) to investigate potential differentiation pathways. We thereby could describe the dynamics of population-size evolutions to test potential progeny links and we could demonstrate that most cells follow a linear naive-early effector-late effector-memory pathway. Of interest for vaccine design, our mathematical model also allows long-term prediction of memory cell numbers from early experimental measurements. Alltogether, our work thus provides a phenotypic means to identify effector and memory cells, as well as a mathematical framework to investigate the ontology of their generation and to predict the outcome of immunization regimens (vaccines) in terms of memory cell numbers generated.
+</p>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Multiscale model of the CD8 T cell immune response</bodyTitle>
+      <p>We presented in <ref xlink:href="#dracula-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> the first multiscale model of CD8 T cell activation in a lymph node. We now described in <ref xlink:href="#dracula-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> an update of this modeling approach. CD8 T cell dynamics are described using a cellular Potts model (hence cells are discrete interacting objects), whereas intracellular regulation is associated with a continuous system of nonlinear ordinary differential equations. We focused our study on describing the role of Interleukin 2 (IL2) secretion. One major result was the demonstration of the full relevance of a bona fide multiscale description of the process: the observed (all or none) emergent behavior at the cell population scale could not have been straightforwardly deduced from the simple examination of (seemingly tenuous) differences in the cellular or molecular levels in separation.
+</p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Moving the Boundaries of Granulopoiesis Modelling</bodyTitle>
+      <p>The human blood cell production system usually remains extremely robust, in terms of cell number or function, with little signs of decline in old age. To achieve robustness, circulating blood cells rely on a formidable production machinery, the hematopoietic system, located in the bone marrow. All circulating blood cells-red blood cells, white blood cells and platelets-are renewed on a daily basis. The hematopoietic system produces an estimated <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mi>e</mi><mn>12</mn></mrow></math></formula> cells per day. This is a significant fraction of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>3</mn><mo>.</mo><mn>7</mn><mi>e</mi><mn>13</mn></mrow></math></formula> cells in an adult. Robustness is partly due to the short time scales at which cell populations are able to return to equilibrium, combined with large cell numbers and renewal rates. White blood cells (WBCs), among which neutrophils are most prevalent, are the body's first line, innate immune system. Upon infection, WBCs are mobilized from the bone marrow, to increase their number in circulation and fight off pathogen within hours. The 26 billion circulating neutrophils in human have a mean residence time of only 11h in the blood. After their release from the bone marrow, they quickly disappear in the peripheral tissues and are destroyed in the spleen, liver and bone marrow. In addition to the high renewal rate of circulating blood cells, a large number of mature neutrophils, ten times or more the circulating number, is kept in a bone marrow reserve, ready for entering circulation. This high renewal rate and mobilization capability, however, come at a cost. The blood system is an easy target for chemotherapeutic drugs, whose main way of acting is by killing proliferating cells. White blood cells and end especially neutrophils, with their fast turnover, are particularly vulnerable to chemotherapy. Chemotherapy can induce neutropenia-a state of low absolute neutrophil count (ANC)-in cancer patients, which puts them at risk of infection. Homeostatic regulation of white blood cells is mainly controlled by the cytokine Granulocye-Colony Stimulating Factor (G-CSF). G-CSF promotes survival of white blood cell precursors and their differentiation into mature cells. The identification of this protein in the 1980's, and the subsequent development of human recombinant forms of G-CSF paved the way to the treatment of chemotherapy-induced neutropenia. G-CSF therapy as also been successful at treating congenital and other forms of neutropenia. Today, G-CSF is used as an adjuvant in several anti-cancer treatment protocols. The aim of the adjuvant therapy is to minimize the length of the neutropenic episodes. However, exogenous G-CSF administration interferes with white blood cell production regulation. What should be a straightforward effect–administer G-CSF to cause the ANC to increase–turns to be more complicated than that. For instance, it was observed that early timing of G-CSF administration could lead to prolonged neutropenic phase. Thus, in order to take advantage of the full potential of G-CSF, a detailed understanding of the physiological interaction between neutrophils and exogenous G-CSF is necessary. In this issue of the Bulletin (see <ref xlink:href="#dracula-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), Craig and colleagues present a physiological model of neutrophil production that includes a detailed modelling of the kinetics of G-CSF.
+</p>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Bone marrow infiltration by multiple myeloma causes anemia by reversible disruption of erythropoiesis</bodyTitle>
+      <p>Multiple myeloma (MM) infiltrates bone marrow and causes anemia by disrupting erythropoiesis, but the effects of marrow infiltration on anemia are difficult to quantify. Marrow biopsies of newly diagnosed MM patients were analyzed before and after four 28-day cycles of nonerythrotoxic remission induction chemotherapy. Complete blood cell counts and serum paraprotein concentrations were measured at diagnosis and before each chemotherapy cycle. At diagnosis, marrow area infiltrated by myeloma correlated negatively with hemoglobin, erythrocytes, and marrow erythroid cells. After successful chemotherapy, patients with less than <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>30</mn><mo>%</mo></mrow></math></formula> myeloma infiltration at diagnosis had no change in these parameters, whereas patients with more than <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>30</mn><mo>%</mo></mrow></math></formula> myeloma infiltration at diagnosis increased all three parameters. Clinical data were used to develop mathematical models of the effects of myeloma infiltration on the marrow niches of terminal erythropoiesis, the erythroblastic islands (EBIs) (see <ref xlink:href="#dracula-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). A hybrid discrete-continuous model of erythropoiesis based on EBI structure/function was extended to sections of marrow containing multiple EBIs. In the model, myeloma cells can kill erythroid cells by physically destroying EBIs and by producing proapoptotic cytokines. Following chemotherapy, changes in serum paraproteins as measures of myeloma cells and changes in erythrocyte numbers as measures of marrow erythroid cells allowed modeling of myeloma cell death and erythroid cell recovery, respectively. Simulations of marrow infiltration by myeloma and treatment with nonerythrotoxic chemotherapy demonstrate that myeloma-mediated destruction and subsequent reestablishment of EBIs and expansion of erythroid cell populations in EBIs following chemotherapy provide explanations for anemia development and its therapy-mediated recovery in MM patients.
+</p>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Mathematical modelling of hematopoiesis dynamics with growth factor-dependent coefficients</bodyTitle>
+      <p>In <ref xlink:href="#dracula-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#dracula-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose and analyze an age-structured partial differential model for hematopoietic stem cell dynamics, in which proliferation, differentiation and apoptosis are regulated by growth factor concentrations. By integrating the age-structured system over the age and using the characteristics method, we reduce it to a delay differential system (with discret delay <ref xlink:href="#dracula-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and distribute delay <ref xlink:href="#dracula-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We investigate the existence and stability of the steady states of the reduced delay differential system. By constructing a Lyapunov function, the trivial steady state, describing cell's dying out, is proven to be globally asymptotically stable when it is the only equilibrium of the system. The asymptotic stability of the positive steady state, the most biologically meaningful one, is analyzed using the characteristic equation. This study may be helpful in understanding the uncontrolled proliferation of blood cells in some hematological disorders. This study may be helpful in understanding the behavior of hematopoietic cells in some hematological disorders.
+</p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Mathematical modelling of Chronic Myleoid Leukemia (CML)</bodyTitle>
+      <p>Firstly, an analysis of a reduced version of our model has been performed by A. Besse et al. (manuscript in revision). It allows to analyze the structure of the steady states and their stability. Typically, the situation is as follows. There are 4 steady states: 0 (unstable) a low one (stable) an intermediate (unstable) and a high (stable).</p>
+      <p>Secondly, considering another framework of modelling <ref xlink:href="#dracula-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, it was observed by A. Besse et al. (see also the thesis of A. Besse) that, under the assumptions of the models, the long term response might be non monotonous with respect to the dose. In words, when the disease load has been reduced enough, it might be more efficient (it is not a question of toxicity) to reduce the dose. This comes from a balance between quiescence induction and apoptosis effects of the drug.
+</p>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Hybrid Modelling in Biology</bodyTitle>
+      <p>The paper <ref xlink:href="#dracula-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> presents a general review on hybrid modelling which is about to become ubiquitous in biological and medical modelling. Hybrid modelling is classically defined as the coupling of a continuous approach with a discrete one, in order to model a complex phenomenon that cannot be described in a standard homogeneous way mainly due to its inherent multiscale nature. In fact, hybrid modelling can be more than that since any types of coupled formalisms qualify as being hybrid. The paper <ref xlink:href="#dracula-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, first presents the evolution and current context of this modelling approach. It then proposes a classification of the models through three different types that relate to the nature and level of coupling of the formalisms used.
+</p>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>Design and study of a new model describing the effect of radiotherapy on healthy cells</bodyTitle>
+      <p>This new project started in January 2016 between a start up Neolys Diagnostics, an Inserm team from Lyon and some members of the Dracula team (Léon Matar Tine and Laurent Pujo-Menjouet) (see <ref xlink:href="#dracula-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We recruited a student to start a PhD (Aurélien Canet) paid for one half by Neolys and the other half by the labex Milyon. The objective of this collaboration is to use deterministic models (as a first step) to describe the dynamics of ATM proteins in the cytoplasm moving to the nucleus. Once there, they recognize and repair damaged DNA (due to nuclear radiations) and to give solid mechanistic explanations of the phenomenological linear quadratic model used until now by biologists and clinicians. Next step is then to use data provided by the Inserm team to calibrate our model and use it for clinical tests by Neolys (to detect radiosensitive persons (3 different groups) and prevent individual from creating cancer induced by nuclear radiations).
+</p>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Contribution to the interaction between Alzheimer’s disease and prion with the analysis of a mathematical model arising from in vitro experiments</bodyTitle>
+      <p>Alzheimer’s disease (AD) is a fatal incurable disease leading to progressive neuron destruction. AD is caused in part by the accumulation of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>β</mi></mrow></math></formula> monomers inside the brain, which have the faculty to aggregate into oligomers and fibrils. Oligomers are the most toxic structures as they can interact with neurons via membrane receptors, including PrPc proteins. This interaction leads to the misconformation of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>P</mi><mi>r</mi><mi>P</mi><mi>c</mi></mrow></math></formula> into pathogenic oligomeric prions, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>P</mi><mi>r</mi><mi>P</mi><mi>o</mi><mi>l</mi></mrow></math></formula>. The objective of our collaboration with the Inra team lead by Human Rezaei (Jouy en Josas), is to design and study a brand new model describing in vitro <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>β</mi></mrow></math></formula> polymerization process (see <ref xlink:href="#dracula-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We include interactions between oligomers and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>P</mi><mi>r</mi><mi>P</mi><mi>c</mi></mrow></math></formula> that induces the misconformation of PrPc into PrPol. The model consists of nine equations, including size structured transport equations, ordinary differential equations and delayed differential equations. Our collaboration is only at its beginning and we applied for an ANR grant highlighting this interdisciplinary work.
+</p>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Methods of Blood Flow Modelling</bodyTitle>
+      <p>The paper <ref xlink:href="#dracula-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is devoted to recent developments in blood flow modelling. It begins with the discussion of blood rheology and its non-Newtonian properties. After that it presents some modelling methods where blood is considered as a heterogeneous fluid composed of plasma and blood cells. Namely, it describes the method of Dissipative Particle Dynamics and presents some results of blood flow modelling. The last part of this paper deals with one-dimensional global models of blood circulation. It explains the main ideas of this approach and presents some examples of its application.
+</p>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Anomalous diffusion as an age-structured renewal process</bodyTitle>
+      <p>Continuous-time random walks (CTRW) are one of the main mechanisms that are recurrently evoked to explain the emergence of subdiffusion in cells. CTRW were introduced fifty years ago as a generalisation of random walks, where the residence time (the time between two consecutive jumps) is a random variable. If the expectation of the residence time is defined, for instance when it is dirac-distributed or decays exponentially fast, one recovers “normal” Brownian motion. However, when the residence time expectation diverges, the CTRW describes a subdiffusive behavior. The classical approach to CTRW yields a non-Markovian (mean-field) transport equation, which is a serious obstacle when one wants to couple subdiffusion with (bio)chemical reaction. In <ref xlink:href="#dracula-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we took an alternative approach to CTRW that maintains the Markovian property of the transport equation at the price of a supplementary independent variable. We associate each random walker with an age a, that is the time elapsed since its last jump and describe the subdiffusive CTRW using an age-structured partial differential equations with age renewal upon each walker jump. In the spatially-homogeneous (zero-dimensional) case, we follow the evolution in time of the age distribution. An approach inspired by relative entropy techniques allows us to obtain quantitative explicit rates for the convergence of the age distribution to a self-similar profile, which corresponds to convergence to a stationary profile for the rescaled variables. An important difficulty arises from the fact that the equation in self-similar variables is not autonomous and we do not have a specific analytical solution. Therefore, in order to quantify the latter convergence, we estimate attraction to a time-dependent “pseudo-equilibrium”, which in turn converges to the stationary profile.
+</p>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>Doubly nonlocal reaction-diffusion equations and the emergence of species</bodyTitle>
+      <p>The paper <ref xlink:href="#dracula-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is devoted to a reaction-diffusion equation with doubly nonlocal nonlinearity arising in various applications in population dynamics. One of the integral terms corresponds to the nonlocal consumption of resources while another one describes reproduction with different phenotypes. Linear stability analysis of the homogeneous in space stationary solution is carried out. Existence of travelling waves is proved in the case of narrow kernels of the integrals. Periodic travelling waves are observed in numerical simulations. Existence of stationary solutions in the form of pulses is shown, and transition from periodic waves to pulses is studied. In the applications to the speciation theory, the results of this work signify that new species can emerge only if they do not have common offsprings. Thus, it is shown how Darwin's definition of species as groups of morphologically similar individuals is related to Mayr's definition as groups of individuals that can breed only among themselves.
+</p>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Existence of very weak global solutions to cross diffusion models</bodyTitle>
+      <p>The entropy structure has been used in <ref xlink:href="#dracula-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> to derived a very general theorem for existence for cross diffusion models. The theory is based on the interplay between the entropy structure which gives some compactness in space (gradient control) and the duality strucutre identified by Michel Pierre for general parabolic systems, which gives integrability. We derive a very general results under very general structural hypothesis (exsitence of an entropy which is compatible with reaction terms and relevance of the duality strucutre). The key is the construction of implicit solutions of the semi discete version (time is discretized) which happens to verify all the strucutres and are very regular. Moreover, we give a simple condition for mutliple case (more than 3 species) for building examples with an entropy structure based on the detailed balance structure proposed in <ref xlink:href="#dracula-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid53">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <p>The industrial connections of the Dracula team have been made through the "Modeling of the immune response" project. Contacts have been established with both large pharmaceutical companies (Sanofi-Pasteur and Merial) and SMEs (AltraBio and The Cosmo Company). The now finished ANR PrediVac project included the two aforementioned SMEs and therefore strengthened the ties between Dracula and its industrial local ecosystem. The same consortium applied to ANR grants on close research topics in 2016. Furthermore, the ties with The Cosmo Company have been strenghened through a joint CIFRE PhD (see below).
+</p>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <p>A recent cooperation has been initiated with the start up “Neolys Diagnostics” about radiotherapy effects on healthy cells and tumor cells. A PhD student, Aurélien Canet, has started his doctorate studies in January 2016 paid for one half by the start up and for the other half by the labex Milyon. Aurélien Canet is co-supervized by Larry Bodgi (from Neolys), Nicolas Foray (from Inserm) and Laurent Pujo-Menjouet.
+</p>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <p>Celine Vial is scientific responsible of a contract with the European Consortium Eurokin and in collaboration with IFP “Energies nouvelles” on the topic: “Design experiments, sensibility and uncertainty analysis and kriging”. The delivrable: “How accurate is my model?” Report by Celine Vial (80 pages).
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid57">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid58" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <p>In the context of the chair of applied mathematics “OQUAIDO”, driven by Olivier Roustand (Mines de St Etienne), Celine Vial is the scientific responsible of a contract with the BRGM (Orléans) 2016-2018: “Study of a submergence problem: identify the critical offshore conditions for coastal flooding”.
+</p>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid60" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p>
+          <b>Collaboration in other projects</b>
+        </p>
+        <simplelist>
+          <li id="uid61">
+            <p noindent="true">ANR RPIB PrediVac "Innovative modeling tools for the prediction of CD8 T cell based vaccine efficacy", 2013-2016 (jeune): <ref xlink:href="http://www.agence-nationale-recherche.fr/?Projet=ANR-12-RPIB-0011" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>agence-nationale-recherche.<allowbreak/>fr/<allowbreak/>?Projet=ANR-12-RPIB-0011</ref>.
+Partners: U1111 Inserm (J. Marvel, coordinator), Dracula, Altrabio (small company), The Cosmo Company (small company). Members are Fabien Crauste and Olivier Gandrillon.</p>
+          </li>
+          <li id="uid62">
+            <p noindent="true">Thomas Lepoutre is a member of the ANR KIBORD (head L. Desvillettes) dedicated to “kinetic and related models in biology". 2014-2017: <ref xlink:href="https://www.ljll.math.upmc.fr/kibord/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>ljll.<allowbreak/>math.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>kibord/</ref>.</p>
+          </li>
+          <li id="uid63">
+            <p noindent="true">Thomas Lepoutre is a member of the ERC MESOPROBIO (head V. Calvez) dedicated to "Mesoscopic models for propagation in biology". 2015-2020: <ref xlink:href="https://erc.europa.eu/projects-and-results/erc-funded-projects/mesoprobio" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>erc.<allowbreak/>europa.<allowbreak/>eu/<allowbreak/>projects-and-results/<allowbreak/>erc-funded-projects/<allowbreak/>mesoprobio</ref>.</p>
+          </li>
+          <li id="uid64">
+            <p noindent="true">Olivier Gandrillon participates in the ANR (Investissement d'Avenir) Iceberg (head Gregory Batt (Inria)) "From population models to model populations: single cell observation, modeling, and control of gene expression". 2011-2017: <ref xlink:href="https://contraintes.inria.fr/~batt/iceberg/home.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>contraintes.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>~batt/<allowbreak/>iceberg/<allowbreak/>home.<allowbreak/>html</ref>.</p>
+          </li>
+          <li id="uid65">
+            <p noindent="true">Celine Vial participates in the ANR PEPITO (head M. Henner) dedicated to “Design of Experiment for the Industry of transportation and Optimization”. 2014-2018: <ref xlink:href="http://www.agence-nationale-recherche.fr/?Project=ANR-14-CE23-0011" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>agence-nationale-recherche.<allowbreak/>fr/<allowbreak/>?Project=ANR-14-CE23-0011</ref>.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid66" level="2">
+        <bodyTitle>Other projects</bodyTitle>
+        <simplelist>
+          <li id="uid67">
+            <p noindent="true">Inria ADT : SiMuScale "Simulations Multi-Échelles de Populations Cellulaires", 2014-2016.</p>
+            <participants>
+              <person key="dracula-2014-idp19256">
+                <firstname>Samuel</firstname>
+                <lastname>Bernard</lastname>
+                <moreinfo>Coordinator</moreinfo>
+              </person>
+              <person key="dracula-2014-idp112512">
+                <firstname>Fabien</firstname>
+                <lastname>Crauste</lastname>
+              </person>
+              <person key="dracula-2014-idp113944">
+                <firstname>Olivier</firstname>
+                <lastname>Gandrillon</lastname>
+              </person>
+              <person key="PASUSERID">
+                <firstname>David</firstname>
+                <lastname>Parsons</lastname>
+              </person>
+              <p>.</p>
+            </participants>
+          </li>
+          <li id="uid68">
+            <p noindent="true">Association France Alzheimer Sciences Médicales 2014-2015 : PAMELA "Prion et Alzheimer : Modélisation et Expérimentation d’une Liaison Agressive", 2014-2015.
+Partners: UR0892 VIM (Virologie et Immunologie Moléculaires), INRA Domaine de Vilvert, Jouy-en-Josas.</p>
+            <participants>
+              <person key="dracula-2014-idp17776">
+                <firstname>Mostafa</firstname>
+                <lastname>Adimy</lastname>
+              </person>
+              <person key="dracula-2014-idp19256">
+                <firstname>Samuel</firstname>
+                <lastname>Bernard</lastname>
+              </person>
+              <person key="dracula-2014-idp115384">
+                <firstname>Thomas</firstname>
+                <lastname>Lepoutre</lastname>
+              </person>
+              <person key="PASUSERID">
+                <firstname>Laurent</firstname>
+                <lastname>Pujo-Menjouet</lastname>
+                <moreinfo>Coordinator</moreinfo>
+              </person>
+              <person key="dracula-2014-idp120592">
+                <firstname>Léon</firstname>
+                <lastname>Tine</lastname>
+              </person>
+              <p>.</p>
+            </participants>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid70" level="2">
+        <bodyTitle>Inria Associate Teams Not Involved in an Inria International Labs</bodyTitle>
+        <subsection id="uid71" level="3">
+          <bodyTitle>
+            <ref xlink:href="http://dracula.univ-lyon1.fr/modelling_leukemia.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Modelling leukemia</ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid72">
+              <p noindent="true">Title: Modeling quiescence and drug resistance in Chronic Myeloid Leukemia</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid74">
+                  <p noindent="true">University of Maryland (United States) - Center for Scientific Computation and Mathematical Modeling (CSCAMM) - Levy Doron</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Start year: 2013</p>
+            </li>
+            <li id="uid76">
+              <p noindent="true">See also: <ref xlink:href="http://dracula.univ-lyon1.fr/modelling_leukemia.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dracula.<allowbreak/>univ-lyon1.<allowbreak/>fr/<allowbreak/>modelling_leukemia.<allowbreak/>php</ref></p>
+            </li>
+            <li id="uid77">
+</li>
+            <li id="uid78">
+              <p noindent="true">Leukemia is the most famous disease of the blood cell formation process (hematopoiesis). Chronic myeloid leukemia results in a uncontrolled proliferation of abnormal blood cells. As the hematopoiesis involves stem cells (not accessible to observations), mathematical modeling is here a great tool to test hypothesis. We will join the expertise of Inria team DRACULA specialized on the modeling of blood cell formation and the Center for Scientific Computation and Applied Mathematical Modeling (CSCAMM, University of Maryland, College Park). The theoretical and modeling experience of team DRACULA and the numerical expertise combined with the links with experimentalists of members of CSCAMM will allow us to study deeply evolution of leukemia. We will especially focus on the behavior of leukemic stem cells and their possibility of becoming quiescent (dormant). Then we will study (using the knowledge obtained on leukemic stem cells) the phenomenon of drug resistance and its propagation over time and finally the mechanisms of multidrug resistance.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid80" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <subsection id="uid81" level="3">
+          <bodyTitle>Research Stays Abroad</bodyTitle>
+          <p>Mostafa Adimy has been invited for three months (September-December) to “Fundação Getulio Vargas (FGV)” of Rio de Janeiro. He gave a course of 45 hours to students of Master of the School of Applied Mathematics (EMAp): “Reaction-diffusion and age-structured equations with application to biological populations”. A collaboration has been started with FGV on mathematical modeling of human transmissible diseases.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid82">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid83" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid85" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid86">
+              <p noindent="true">International conference “LyonSysBio” (Lyon Systems Biology), Lyon (France), 17 - 18 November 2016 (<ref xlink:href="http://lyonsysbio2016.sciencesconf.org/?lang=en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lyonsysbio2016.<allowbreak/>sciencesconf.<allowbreak/>org/<allowbreak/>?lang=en</ref>). Co-organizers: Fabien Crauste and Olivier Gandrillon.</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Regular SeMoVi Rhone-Alpes seminar in biological modeling (<ref xlink:href="http://www.biosyl.org/news/semovi" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>biosyl.<allowbreak/>org/<allowbreak/>news/<allowbreak/>semovi</ref>), 5 seminars organized in 2016, with one international lecturer each time. Co-organizer : Olivier Grandrillon and Fabien Crauste.</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Minisymposium: “Polymer dynamics models and applications to neurodegenerative disease”, the 11th AIMS Conference on Dynamical Systems, Differential Equations and Applications, 01 - 05 July 2016, Orlando, Florida, USA (<ref xlink:href="http://www.aimsciences.org/conferences/2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>aimsciences.<allowbreak/>org/<allowbreak/>conferences/<allowbreak/>2016/</ref>). Co-organizers: Laurent Pujo-Menjouet and Leon Tine.</p>
+            </li>
+            <li id="uid89">
+              <p noindent="true">Summer School in Probability and PDE for Biology, July 2016 (held at the CIRM) <ref xlink:href="http://scientific-events.weebly.com/1426.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>scientific-events.<allowbreak/>weebly.<allowbreak/>com/<allowbreak/>1426.<allowbreak/>html</ref>. Co-organizers: Thomas Lepoutre.</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Workshop on complex systems of reaction-diffusion (<ref xlink:href="https://www.ljll.math.upmc.fr/kibord/workshop_march_2016.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>ljll.<allowbreak/>math.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>kibord/<allowbreak/>workshop_march_2016.<allowbreak/>html</ref>). Co-organizers: Thomas Lepoutre.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid92" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid93">
+              <p noindent="true">International conference "LyonSysBio" (Lyon Systems Biology), Lyon (France), 17 - 18 November 2016 (<ref xlink:href="http://lyonsysbio2016.sciencesconf.org/?lang=en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lyonsysbio2016.<allowbreak/>sciencesconf.<allowbreak/>org/<allowbreak/>?lang=en</ref>). Co-organizers : Fabien Crauste and Olivier Gandrillon.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid95" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid96">
+              <p noindent="true">Fabien Crauste: Computational and Mathematical Methods in Medicine (HPG).</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Laurent Pujo-Menjouet: Journal for theoretical Biology; Mathematical Modelling of Natural Phenomena.</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">Mostafa Adimy: Journal of Nonlinear Systems and Applications; Chinese Journal of Mathematics.</p>
+            </li>
+            <li id="uid99">
+              <p noindent="true">Olivier Gandrillon: BMC research Notes.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid100" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid101">
+              <p noindent="true">Fabien Crauste: Bulletin of Mathematical Biology; Discrete and Continuous Dynamical Systems Series B; Funkcialaj Ekvacioj (Functional Equations); Journal of Mathematical Biology; Journal of Biological Systems; Systems and Control Letters.</p>
+            </li>
+            <li id="uid102">
+              <p noindent="true">Laurent Pujo-Menjeout: Journal of Mathematical Biology.</p>
+            </li>
+            <li id="uid103">
+              <p noindent="true">Celine Vial: Comptes Rendus Mathematique (CRAS).</p>
+            </li>
+            <li id="uid104">
+              <p noindent="true">Mostafa Adimy: Mathematical Methods in the Applied Sciences; Zeitschrift fuer Angewandte Mathematik und Physik (ZAMP)</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid106">
+            <p noindent="true">Fabien Crauste: Workshop “French-Spanish Workshop on Evolution Problems”, Valladolid (Spain), May 16-17.</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">Laurant Pujo-Menjouet: Marseille Monthly seminar Aix-Marseille Université, Institut de Mathématiques de Marseille (I2M).</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Mostafa Adimy: Workshop “French-Spanish Workshop on Evolution Problems”, Valladolid (Spain), May 16-17.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">Mostafa Adimy: Workshop “Modelling the Dissemination and Control of Arboviroses”, Polytechnic School, San Lorenzo (Paraguay), October 5-8.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid110" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid111">
+            <p noindent="true">Celine Vial: Member of CNU 26; Member of a comity for “Maître de conférences” Pierre et Marie Curie university.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Celine Vial: Member of the jury of the agregation of mathematic in Tunisia.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid113" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <simplelist>
+          <li id="uid115">
+            <p noindent="true">Master: Fabien Crauste, Population Dynamics, 15h ETD, M2, UCBL, Lyon.
+Laurent:</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Bio-mathématiques et Modélisation, 10h ETD, L3, UCBL, Lyon.</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Analyse numérique, 72h ETD, L3, UCBL, Lyon.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Equations différentielles et aux dérivées partielles, 72h ETD, L3, UCBL, Lyon.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Analyse I : les réels et les fonctions, 72h ETD, L1, UCBL, Lyon.</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Mathématiques Appliquées - Equations Différentielles, 18h ETD, L2, UCBL, Lyon.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Licence: Laurent Pujo-Menjout, Equations Différentielles ordinanires and Modélisation, 54h ETD, L3, INSA, Lyon.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Master: Laurent Pujo-Menjout, Modélisation en biologie et médecine, 7.5h ETD, M1, UCBL, Lyon.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Master: Laurent Pujo-Menjout, Systèmes dynamiques, 78h ETD, M1, UCBL, Lyon.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Master: Laurent Pujo-Menjout, Gestion de projet en ingénierie mathématique, 3h ETD, M1, UCBL, Lyon.</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">Master: Laurent Pujo-Menjout, Equations aux Différences, 29h ETD, M1, INSA, Lyon.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">Master: Mostafa Adimy, Reaction-diffusion and age-structured equations with application to biological populations, 45h ETD, M2, School of Applied Mathematics (EMAp), FGV, Rio de Janeiro, Brazil.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid127" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid128">
+            <p noindent="true">PhD: Abdennasser Chekroun, “Équations différentielles et aux différences à retard pour des modèles de dynamique des cellules souches hématopoïétiques”, Université Lyon, until March 2016, encadrant: Mostafa Adimy.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">PhD: Marine Jacquier, “Mathematical modeling of the hormonal regulation of food intake and body weight : applications to caloric restriction and leptin resistance”, Université de Lyon, until February 2016, encadrants: Fabien Crauste, Mostafa Adimy and Hedi Soula.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">PhD in progress: Simon Girel, “Multiscale modelling of the immune response”, Université Lyon, since September 2015, encadrant: Fabien Crauste.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">PhD in progress: Aurélien Canet, “Contribution à l’étude de la quantification de la réponse d’une tumeur solide après un traitement par radiothérapie”, Université Lyon, since January 2016, encadrants: Larry Bodgi, Nicolas Foray and Laurent Pujo-Menjouet.</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">PhD in progress : Loïs Boullu, Modélisation de la mégacaryopoïèse et applications aux maladies liées â la production des plaquettes, Université Lyon 1, October 2014, Laurent Pujo-Menjouet and Jacques Bélair (co-tutelle avec l'Université de Montréal).</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">PhD in progress: Manaf Ahmed, “Probabilistic and statistical study of the spatiotemporal dependence; application to environment”, since october 2013, encadrants: C. Vial, V. Maume-Deschamps and P. Ribereau.</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">PhD in progress: Mélina Ribaud, “Robustness in multi-objective optimization for the design of rotating machine”, since september 2015, encadrants: C. Vial, C. Helbert and F. Gillot.</p>
+          </li>
+          <li id="uid135">
+            <p noindent="true">PhD in progress : Loïc Barbarroux, modélisation mathématique de la réponse immunitaire chez un individu en vue d’optimiser des stratégies de vaccination, Université de Lyon 1, since October 2013, Mostafa Adimy and Phillipe Michel.</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">PhD in progress : Apollos Besse, The role of tumor-immune interaction in combined treatments for chronic myeloid leukemia, Université Lyon 1, since October 2014, Samuel Bernard and Thomas Lepoutre.</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">PhD in progress : Alvaro Mateso Gonzales, Models for anomalous diffusion, ENS Lyon, since October 2014, Thomas Lepoutre, Hugues Berry and Vincent Calvez (Alvaro is not member of Dracula team).</p>
+          </li>
+          <li id="uid138">
+            <p noindent="true">PhD in progress : Flavien Duparc, Etude d’un modèle mathématiques de régulation de l’hémoglobine chez les patients dialysés, Université Lyon 1, since October 2014, Mostafa Adimy and Laurent Pujo-Menjouet.</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">PhD in progress : Ulysse Herbach, Modèles graphiques probabilistes pour l’inférence de réseaux de gènes, Université Lyon 1, since October 2015, Olivier Gandrillon, Thibault Espinasse (ICJ) and Anne-Laure Fougères (ICJ).</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">PhD in progress : Arnaud Bonnafoux, Vers une inférence automatique de réseaux de gènes dynamiques à partir de « mégadonnées » temporelles discrètes acquises sur cellules uniques, Université Lyon 1, since November 2015, Olivier Gandrillon (CIFRE with the COSMO company).</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">HDR: Laurent Pujo-Menjouet, “Étude de modèles mathématiques issus de la biologie du cycle cellulaire et de la dynamique des protéines”, Université Lyon, Decembre 2016.
+ </p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid142" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid143">
+            <p noindent="true">Mostafa Adimy was reviewer and member of the PhD of Benjamin Conti (Université d'Aix Marseille), “Équations de réaction-diffusion dans un environnement périodique en temps
+Applications en médecine”.</p>
+          </li>
+          <li id="uid144">
+            <p noindent="true">Mostafa Adimy was member of the PhD of Abdennasser Chekroun (Université de Lyon 1), “Contribution à l’analyse mathématique d’équations aux dérivées partielles structurées en âge et en espace modélisant une dynamique de population cellulaire”.</p>
+          </li>
+          <li id="uid145">
+            <p noindent="true">Mostafa Adimy was member of the PhD of Youssef Bourfia (Université de Marrakech and Université Pierre et Marie-Curie), “Modélisation et Analyse de Modèles en Dynamique Cellulaire avec Applications à des Problèmes Liés aux Cancers”.</p>
+          </li>
+          <li id="uid146">
+            <p noindent="true">Mostafa Adimy was member of the HDR of Laurent Pujo-Menjouet (Université de Lyon 1), “Etude de modèles mathématiques issus de la biologie du cycle cellulaire et de
+la dynamique des protéines”.</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">Fabien Craute was reviewer and member of the PhD of Ana Jarne Munoz (Université de Bordeaux), “Modeling the effect of exogenous Interleukin 7 in HIV patients under
+antiretroviral therapy with low immune reconstitution”.</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Fabien Craute was reviewer and member of the PhD of David Granjon (Université Pierre et Marie Curie et Université de Lausanne), “Modeling of Calcium Homeostasis in the Rat and its perturbations”.</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">Celine Vial was member of the PhD of Zahraa Salloum (Université de Lyon 1), “Maximum de vraisemblance empirique pour la détection de changements dans un modèle avec un nombre faible ou très grand de variables”.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid150" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid151">
+          <p noindent="true">Fabien Crauste : Conference “Grippe saisonnière, épidémie, pandémie : quel apport des mathématiques ?” Université Ouverte, Bibliothèque de Lyon, March 30, 2016.</p>
+        </li>
+        <li id="uid152">
+          <p noindent="true">Laurent Pujo-Menjouet : Conference “Mathématiques et relations amoureuses : les jeux de l'amour et sans le hasard ?” Université Ouverte, Bibliothèque de Lyon, February 3, 2016.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="dracula-2016-bid34" type="proceedings" rend="year" n="cite:tine:hal-01253536">
+      <identifiant type="doi" value="10.1051/itmconf/20150401003"/>
+      <identifiant type="hal" value="hal-01253536"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Inverse problem for cell division rate in population dynamics</title>
+        <title level="s">ITM Web of Conferences</title>
+        <editor role="editor">
+          <persName>
+            <foreName>EDP</foreName>
+            <surname>Sciences</surname>
+            <initial>E.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <biblScope type="volume">Volume 4</biblScope>
+          <biblScope type="number">01003</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">10</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01253536" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01253536</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid40" type="phdthesis" rend="year" n="cite:chekroun:tel-01313670">
+      <identifiant type="hal" value="tel-01313670"/>
+      <monogr>
+        <title level="m">Contribution to the mathematical analysis of age and space structured partial differential equations describing a cell population dynamics model</title>
+        <author>
+          <persName key="dracula-2014-idp138384">
+            <foreName>Abdennasser</foreName>
+            <surname>Chekroun</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Claude Bernard Lyon 1</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01313670" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01313670</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid39" type="phdthesis" rend="year" n="cite:jacquier:tel-01273347">
+      <identifiant type="hal" value="tel-01273347"/>
+      <monogr>
+        <title level="m">Mathematical modeling of the hormonal regulation of food intake and body weight : applications to caloric restriction and leptin resistance</title>
+        <author>
+          <persName key="dracula-2014-idp142200">
+            <foreName>Marine</foreName>
+            <surname>Jacquier</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Lyon</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01273347" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01273347</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid35" type="hdrthesis" rend="year" n="cite:pujomenjouet:tel-01411371">
+      <identifiant type="hal" value="tel-01411371"/>
+      <monogr>
+        <title level="m">Study of mathematical models arising from the biology of the cell cycle and the protein dynamics</title>
+        <author>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Claude Bernard Lyon 1 - Institut Camille Jordan</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01411371" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01411371</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Habilitation à diriger des recherches</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid22" type="article" rend="year" n="cite:adimy:hal-01344118">
+      <identifiant type="hal" value="hal-01344118"/>
+      <analytic>
+        <title level="a">Age-structured model of hematopoiesis dynamics with growth factor-dependent coefficients</title>
+        <author>
+          <persName key="dracula-2014-idp17776">
+            <foreName>Mostafa</foreName>
+            <surname>Adimy</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp125672">
+            <foreName>Youssef</foreName>
+            <surname>Bourfia</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>My</foreName>
+            <surname>Lhassan Hbid</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Catherine</foreName>
+            <surname>Marquet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00515">
+        <idno type="issn">1072-6691</idno>
+        <title level="j">Electronic Journal of Differential Equations</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">140</biblScope>
+          <ref xlink:href="http://hal.upmc.fr/hal-01344118" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01344118</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid23" type="article" rend="year" n="cite:adimy:hal-01396691">
+      <identifiant type="doi" value="10.1080/00036811.2016.1139698"/>
+      <identifiant type="hal" value="hal-01396691"/>
+      <analytic>
+        <title level="a">Global asymptotic stability for an age-structured model of hematopoietic stem cell dynamics</title>
+        <author>
+          <persName key="dracula-2014-idp17776">
+            <foreName>Mostafa</foreName>
+            <surname>Adimy</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp138384">
+            <foreName>Abdennasser</foreName>
+            <surname>Chekroun</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Tarik-Mohamed</foreName>
+            <surname>Touaoula</surname>
+            <initial>T.-M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00154">
+        <idno type="issn">0003-6811</idno>
+        <title level="j">Applicable Analysis</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1 - 12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01396691" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396691</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid30" type="article" rend="year" n="cite:banerjee:hal-01399589">
+      <identifiant type="doi" value="10.1016/j.apm.2016.10.041"/>
+      <identifiant type="hal" value="hal-01399589"/>
+      <analytic>
+        <title level="a">Doubly nonlocal reaction-diffusion equations and the emergence of species</title>
+        <author>
+          <persName>
+            <foreName>Malay</foreName>
+            <surname>Banerjee</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Vitali</foreName>
+            <surname>Vougalter</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00161">
+        <idno type="issn">0307-904X</idno>
+        <title level="j">Applied Mathematical Modelling</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">591–599</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01399589" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399589</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid20" type="article" rend="year" n="cite:bernard:hal-01391393">
+      <identifiant type="doi" value="10.1007/s11538-016-0215-8"/>
+      <identifiant type="hal" value="hal-01391393"/>
+      <analytic>
+        <title level="a">Moving the Boundaries of Granulopoiesis Modelling</title>
+        <author>
+          <persName key="dracula-2014-idp19256">
+            <foreName>Samuel</foreName>
+            <surname>Bernard</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00284">
+        <idno type="issn">0092-8240</idno>
+        <title level="j">Bulletin of Mathematical Biology</title>
+        <imprint>
+          <biblScope type="volume">78</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2358 - 2363</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01391393" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391393</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="dracula-2016-bid29" type="article" rend="year" n="cite:berry:hal-01136667">
+      <identifiant type="hal" value="hal-01136667"/>
+      <analytic>
+        <title level="a">Quantitative convergence towards a self similar profile in an age-structured renewal equation for subdiffusion</title>
+        <author>
+          <persName key="beagle-2014-idp66048">
+            <foreName>Hugues</foreName>
+            <surname>Berry</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="dracula-2014-idp115384">
+            <foreName>Thomas</foreName>
+            <surname>Lepoutre</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="numed-2014-idp114200">
+            <foreName>Álvaro</foreName>
+            <surname>Mateos González</surname>
+            <initial>Á.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00052">
+        <idno type="issn">0167-8019</idno>
+        <title level="j">Acta Applicandae Mathematicae</title>
+        <imprint>
+          <biblScope type="number">145</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">15-45</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01136667" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01136667</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">in press</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid28" type="article" rend="year" n="cite:bessonov:hal-01397437">
+      <identifiant type="doi" value="10.1051/mmnp/201611101"/>
+      <identifiant type="hal" value="hal-01397437"/>
+      <analytic>
+        <title level="a">Methods of Blood Flow Modelling</title>
+        <author>
+          <persName>
+            <foreName>Nikolay</foreName>
+            <surname>Bessonov</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Adélia</foreName>
+            <surname>Sequeira</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Sergey</foreName>
+            <surname>Simakov</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuri</foreName>
+            <surname>Vassilevski</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01388">
+        <idno type="issn">0973-5348</idno>
+        <title level="j">Mathematical Modelling of Natural Phenomena</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1 - 25</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01397437" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397437</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid36" type="article" rend="year" n="cite:bocharov:hal-01413795">
+      <identifiant type="hal" value="hal-01413795"/>
+      <analytic>
+        <title level="a">Mathematics of Pharmacokinetics and Pharmacodynamics: Diversity of Topics, Models and Methods</title>
+        <author>
+          <persName>
+            <foreName>Gennady</foreName>
+            <surname>Bocharov</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="dracula-2014-idp128192">
+            <foreName>Anas</foreName>
+            <surname>Bouchnita</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mamba-2014-idp104064">
+            <foreName>Jean</foreName>
+            <surname>Clairambault</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01388">
+        <idno type="issn">0973-5348</idno>
+        <title level="j">Mathematical Modelling of Natural Phenomena</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413795" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413795</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid26" type="article" rend="year" n="cite:bodgi:hal-01382777">
+      <identifiant type="doi" value="10.1016/j.jtbi.2016.01.018"/>
+      <identifiant type="hal" value="hal-01382777"/>
+      <analytic>
+        <title level="a">Mathematical models of radiation action on living cells: From the target theory to the modern approaches. A historical and critical review</title>
+        <author>
+          <persName>
+            <foreName>Larry</foreName>
+            <surname>Bodgi</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="dracula-2015-idp136600">
+            <foreName>Aurélien</foreName>
+            <surname>Canet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Annick</foreName>
+            <surname>Lesne</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Victor</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Foray</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01283">
+        <idno type="issn">0022-5193</idno>
+        <title level="j">Journal of Theoretical Biology</title>
+        <imprint>
+          <biblScope type="volume">394</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">93 - 101</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382777" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382777</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid21" type="article" rend="year" n="cite:bouchnita:hal-01395624">
+      <identifiant type="doi" value="10.1002/ajh.24291"/>
+      <identifiant type="hal" value="hal-01395624"/>
+      <analytic>
+        <title level="a">Bone marrow infiltration by multiple myeloma causes anemia by reversible disruption of erythropoiesis</title>
+        <author>
+          <persName key="dracula-2014-idp128192">
+            <foreName>Anass</foreName>
+            <surname>Bouchnita</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Eymard</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Tamara K</foreName>
+            <surname>Moyo</surname>
+            <initial>T. K.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark J</foreName>
+            <surname>Koury</surname>
+            <initial>M. J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03072">
+        <idno type="issn">0361-8609</idno>
+        <title level="j">American Journal of Hematology</title>
+        <imprint>
+          <biblScope type="volume">91</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">371 - 378</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01395624" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01395624</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid15" subtype="nonparu-n" type="article" rend="year" n="cite:crauste:hal-01409637">
+      <identifiant type="hal" value="hal-01409637"/>
+      <analytic>
+        <title level="a">Identification of nascent Memory CD8 T cells and modeling of their ontogeny</title>
+        <author>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Mafille</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Lilia</foreName>
+            <surname>Boucinha</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Sophia</foreName>
+            <surname>Djebali</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="dracula-2014-idp113944">
+            <foreName>Olivier</foreName>
+            <surname>Gandrillon</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacqueline</foreName>
+            <surname>Marvel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Arpin</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03073">
+        <idno type="issn">2405-4712</idno>
+        <title level="j">Cell Systems</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01409637" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01409637</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">manuscript accepted</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid19" type="article" rend="year" n="cite:gao:inserm-01354185">
+      <identifiant type="doi" value="10.1186/s12918-016-0323-y"/>
+      <analytic>
+        <title level="a">IL-2 sensitivity and exogenous IL-2 concentration gradient tune the productive contact duration of CD8+ T cell-APC: a multiscale modeling study</title>
+        <author>
+          <persName key="dracula-2014-idp121848">
+            <foreName>Xuefeng</foreName>
+            <surname>Gao</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Arpin</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacqueline</foreName>
+            <surname>Marvel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp124392">
+            <foreName>Sotiris A.</foreName>
+            <surname>Prokopiou</surname>
+            <initial>S. A.</initial>
+          </persName>
+          <persName key="dracula-2014-idp113944">
+            <foreName>Olivier</foreName>
+            <surname>Gandrillon</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00223">
+        <idno type="issn">1752-0509</idno>
+        <title level="j">BMC Systems Biology</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">77</biblScope>
+          <ref xlink:href="http://www.hal.inserm.fr/inserm-01354185" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>hal.<allowbreak/>inserm.<allowbreak/>fr/<allowbreak/>inserm-01354185</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid42" type="article" rend="year" n="cite:f:hal-01395845">
+      <identifiant type="hal" value="hal-01395845"/>
+      <analytic>
+        <title level="a">Wound Healing and Scale Modelling in Zebrafish</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Garaguel</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nikolai</foreName>
+            <surname>Bessonov</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacques</foreName>
+            <surname>Demongeot</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Danielle</foreName>
+            <surname>Dhouailly</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00054">
+        <idno type="issn">0001-5342</idno>
+        <title level="j">Acta Biotheoretica</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01395845" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01395845</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid43" type="article" rend="year" n="cite:marion:hal-01396839">
+      <identifiant type="hal" value="hal-01396839"/>
+      <analytic>
+        <title level="a">Existence of pulses for a monotone reaction-diffusion system</title>
+        <author>
+          <persName>
+            <foreName>Martine</foreName>
+            <surname>Marion</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03075">
+        <idno type="issn">2189-3756</idno>
+        <title level="j">Pure and Applied Functional Analysis</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396839" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396839</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid37" type="article" rend="year" n="cite:panasenko:hal-01397565">
+      <identifiant type="doi" value="10.1080/00036811.2016.1179288"/>
+      <identifiant type="hal" value="hal-01397565"/>
+      <analytic>
+        <title level="a">Homogenization of a one-dimensional diffusion - discrete absorption equation with feedback</title>
+        <author>
+          <persName>
+            <foreName>Grigory</foreName>
+            <surname>Panasenko</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00154">
+        <idno type="issn">0003-6811</idno>
+        <title level="j">Applicable Analysis</title>
+        <imprint>
+          <biblScope type="volume">95</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1507 - 1516</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01397565" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397565</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid41" type="article" rend="year" n="cite:pujomenjouet:hal-01382783">
+      <identifiant type="doi" value="10.1051/mmnp/201611106"/>
+      <identifiant type="hal" value="hal-01382783"/>
+      <analytic>
+        <title level="a">Blood Cell Dynamics: Half of a Century of Modelling</title>
+        <author>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01388">
+        <idno type="issn">0973-5348</idno>
+        <title level="j">Mathematical Modelling of Natural Phenomena</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">92 - 115</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382783" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382783</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid25" type="article" rend="year" n="cite:stephanou:hal-01397430">
+      <identifiant type="doi" value="10.1051/mmnp/201611103"/>
+      <identifiant type="hal" value="hal-01397430"/>
+      <analytic>
+        <title level="a">Hybrid Modelling in Biology: a Classification Review</title>
+        <author>
+          <persName>
+            <foreName>A</foreName>
+            <surname>Stéphanou</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01388">
+        <idno type="issn">0973-5348</idno>
+        <title level="j">Mathematical Modelling of Natural Phenomena</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">37 - 48</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01397430" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397430</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid33" type="article" rend="year" n="cite:tine:hal-01421825">
+      <identifiant type="doi" value="10.1002/num.22134"/>
+      <identifiant type="hal" value="hal-01421825"/>
+      <analytic>
+        <title level="a">A hybrid finite volume method for advection equations and its applications in population dynamics</title>
+        <author>
+          <persName key="dracula-2014-idp120592">
+            <foreName>Léon Matar</foreName>
+            <surname>Tine</surname>
+            <initial>L. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Chang</foreName>
+            <surname>Yang</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01528">
+        <idno type="issn">0749-159X</idno>
+        <title level="j">Numerical Methods for Partial Differential Equations</title>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421825" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421825</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid44" type="article" rend="year" n="cite:vougalter:hal-01397555">
+      <identifiant type="doi" value="10.1007/s11868-016-0173-9"/>
+      <identifiant type="hal" value="hal-01397555"/>
+      <analytic>
+        <title level="a">Existence of stationary solutions for some non-Fredholm integro-differential equations with superdiffusion</title>
+        <author>
+          <persName>
+            <foreName>Vitali</foreName>
+            <surname>Vougalter</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03074">
+        <idno type="issn">1662-9981</idno>
+        <title level="j">Journal of Pseudo-Differential Operators and Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01397555" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397555</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid38" type="article" rend="year" n="cite:yvinec:hal-01353266">
+      <identifiant type="doi" value="10.1063/1.4940033"/>
+      <identifiant type="hal" value="hal-01353266"/>
+      <analytic>
+        <title level="a">First passage times in homogeneous nucleation: Dependence on the total number of particles</title>
+        <author>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>YVINEC</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="dracula-2014-idp19256">
+            <foreName>Samuel</foreName>
+            <surname>Bernard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Erwan</foreName>
+            <surname>Hingant</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01071">
+        <idno type="issn">0021-9606</idno>
+        <title level="j">Journal of Chemical Physics</title>
+        <imprint>
+          <biblScope type="volume">144</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-17</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01353266" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01353266</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid45" type="unpublished" rend="year" n="cite:ahmed:hal-01421078">
+      <identifiant type="hal" value="hal-01421078"/>
+      <monogr>
+        <title level="m">Spatial risk measure for Gaussian processes</title>
+        <author>
+          <persName>
+            <foreName>M</foreName>
+            <surname>Ahmed</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>V</foreName>
+            <surname>Maume-Deschamps</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>P</foreName>
+            <surname>Ribereau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="dracula-2015-idp115880">
+            <foreName>Céline</foreName>
+            <surname>Vial</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01421078" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01421078</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid27" type="unpublished" rend="year" n="cite:ciuperca:hal-01368862">
+      <identifiant type="hal" value="hal-01368862"/>
+      <monogr>
+        <title level="m">Alzheimer's disease and prion: analysis of an in vitro mathematical model</title>
+        <author>
+          <persName>
+            <foreName>Ionel Sorin</foreName>
+            <surname>Ciuperca</surname>
+            <initial>I. S.</initial>
+          </persName>
+          <persName key="dracula-2015-idp137888">
+            <foreName>Matthieu</foreName>
+            <surname>Dumont</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2015-idp133840">
+            <foreName>Abdelkader</foreName>
+            <surname>Lakmeche</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="numed-2014-idp115424">
+            <foreName>Pauline</foreName>
+            <surname>Mazzocco</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Human</foreName>
+            <surname>Rezaei</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="dracula-2014-idp120592">
+            <foreName>Léon M</foreName>
+            <surname>Tine</surname>
+            <initial>L. M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01368862" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01368862</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid31" type="unpublished" rend="year" n="cite:lepoutre:hal-01373172">
+      <identifiant type="hal" value="hal-01373172"/>
+      <monogr>
+        <title level="m">Entropic structure and duality for multiple species cross-diffusion systems</title>
+        <author>
+          <persName key="dracula-2014-idp115384">
+            <foreName>Thomas</foreName>
+            <surname>Lepoutre</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="reo-2014-idp97272">
+            <foreName>Ayman</foreName>
+            <surname>Moussa</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373172" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373172</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid9" type="article" rend="foot" n="footcite:Hemato">
+      <identifiant type="hal" value="hal-00750278"/>
+      <analytic>
+        <title level="a">Modélisation de la dynamique de l'hématopoïèse normale et pathologique</title>
+        <author>
+          <persName key="dracula-2014-idp17776">
+            <foreName>Mostafa</foreName>
+            <surname>Adimy</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp19256">
+            <foreName>Samuel</foreName>
+            <surname>Bernard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="mamba-2014-idp104064">
+            <foreName>Jean</foreName>
+            <surname>Clairambault</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphane</foreName>
+            <surname>Génieys</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Hématologie</title>
+        <imprint>
+          <biblScope type="volume">14</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">339-350</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00750278" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00750278</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid4" type="article" rend="foot" n="footcite:22">
+      <analytic>
+        <title level="a">Global stability of a partial differential equation with distributed delay due to cellular replication</title>
+        <author>
+          <persName key="dracula-2014-idp17776">
+            <foreName>Mostafa</foreName>
+            <surname>Adimy</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Nonlinear Analysis</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">1469-1491</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid5" type="article" rend="foot" n="footcite:23">
+      <analytic>
+        <title level="a">On the stability of a maturity structured model of cellular proliferation</title>
+        <author>
+          <persName key="dracula-2014-idp17776">
+            <foreName>Mostafa</foreName>
+            <surname>Adimy</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Discrete Contin. Dyn. Syst. Ser. A</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">501-522</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid13" type="article" rend="foot" n="footcite:75">
+      <analytic>
+        <title level="a">Understanding cyclical thrombocytopenia: A mathematical modelling approach</title>
+        <author>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Apostu</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Theoretical Biology</title>
+        <imprint>
+          <biblScope type="volume">251</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">297-316</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid6" type="article" rend="foot" n="footcite:30">
+      <analytic>
+        <title level="a">Age-structured and two-delay models for erythropoiesis</title>
+        <author>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Belair</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+          <persName>
+            <foreName>J.M.</foreName>
+            <surname>Mahaffy</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematical Biosciences</title>
+        <imprint>
+          <biblScope type="volume">128</biblScope>
+          <biblScope type="number">1-2</biblScope>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+          <biblScope type="pages">317-346</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid11" type="article" rend="foot" n="footcite:73">
+      <analytic>
+        <title level="a">Oscillations in cyclical neutropenia: new evidence based on mathematical modelling</title>
+        <author>
+          <persName key="dracula-2014-idp19256">
+            <foreName>Samuel</foreName>
+            <surname>Bernard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Belair</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Theor. Biol.</title>
+        <imprint>
+          <biblScope type="volume">223</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">283-298</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid0" type="article" rend="foot" n="footcite:46">
+      <analytic>
+        <title level="a">Cell modelling of hematopoiesis</title>
+        <author>
+          <persName>
+            <foreName>Nikolai</foreName>
+            <surname>Bessonov</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Model. Nat. Phenomena</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">81-103</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid16" type="article" rend="foot" n="footcite:Crauste201566">
+      <identifiant type="doi" value="10.1016/j.jtbi.2015.03.033"/>
+      <analytic>
+        <title level="a">Predicting pathogen-specific {CD8} T cell immune responses from a modeling approach</title>
+        <author>
+          <persName key="dracula-2014-idp112512">
+            <foreName>F.</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Terry</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>I. Le</foreName>
+            <surname>Mercier</surname>
+            <initial>I. L.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Mafille</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Djebali</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Andrieu</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Mercier</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Kaneko</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Arpin</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Marvel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp113944">
+            <foreName>O.</foreName>
+            <surname>Gandrillon</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Theoretical Biology</title>
+        <imprint>
+          <biblScope type="volume">374</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">66 - 82</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0022519315001484" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0022519315001484</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid1" type="article" rend="foot" n="footcite:50">
+      <analytic>
+        <title level="a">On a model of leukemia development with a spatial cell distribution</title>
+        <author>
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Ducrot</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="dracula-2014-idp116624">
+            <foreName>Vitaly</foreName>
+            <surname>Volpert</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Model. Nat. Phenomena</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">101-120</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid24" type="article" rend="foot" n="footcite:Glauche2012">
+      <identifiant type="doi" value="10.1038/bjc.2012.142"/>
+      <analytic>
+        <title level="a">Therapy of chronic myeloid leukaemia can benefit from the activation of stem cells: simulation studies of different treatment combinations</title>
+        <author>
+          <persName>
+            <foreName>I</foreName>
+            <surname>Glauche</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>K</foreName>
+            <surname>Horn</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>M</foreName>
+            <surname>Horn</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>L</foreName>
+            <surname>Thielecke</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>M AG</foreName>
+            <surname>Essers</surname>
+            <initial>M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>A</foreName>
+            <surname>Trumpp</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>I</foreName>
+            <surname>Roeder</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">British Journal of Cancer</title>
+        <imprint>
+          <biblScope type="volume">106</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>apr</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">1742–1752</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1038/bjc.2012.142" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1038/<allowbreak/>bjc.<allowbreak/>2012.<allowbreak/>142</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid7" type="article" rend="foot" n="footcite:6">
+      <analytic>
+        <title level="a">Cyclical Neutropenia and Other Periodic Hematological Disorders: A Review of Mechanisms and Mathematical Models</title>
+        <author>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Haurie</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>D.C.</foreName>
+            <surname>Dale</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Blood</title>
+        <imprint>
+          <biblScope type="volume">92</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>1998</year>
+          </dateStruct>
+          <biblScope type="pages">2629-2640</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid8" type="article" rend="foot" n="footcite:9">
+      <analytic>
+        <title level="a">Unified hypothesis for the origin of aplastic anemia and periodic hematopoiesis</title>
+        <author>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Blood</title>
+        <imprint>
+          <biblScope type="volume">51</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>1978</year>
+          </dateStruct>
+          <biblScope type="pages">941-956</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid12" type="article" rend="foot" n="footcite:74">
+      <analytic>
+        <title level="a">Periodic Oscillations of Blood Cell Populations in Chronic Myelogenous Leukemia</title>
+        <author>
+          <persName>
+            <foreName>Michael C.</foreName>
+            <surname>Mackey</surname>
+            <initial>M. C.</initial>
+          </persName>
+          <persName>
+            <foreName>Chunhua</foreName>
+            <surname>Ou</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="dracula-2014-idp119328">
+            <foreName>Laurent</foreName>
+            <surname>Pujo-Menjouet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jianhong</foreName>
+            <surname>Wu</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Journal on Mathematical Analysis</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">166-187</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid14" type="article" rend="foot" n="footcite:79">
+      <analytic>
+        <title level="a">Dynamics of chronic myeloid leukaemia</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Michor</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>T.P.</foreName>
+            <surname>Hughes</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Y.</foreName>
+            <surname>Iwasa</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Branford</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>N.P.</foreName>
+            <surname>Shah</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>C.L.</foreName>
+            <surname>Sawyers</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Nature</title>
+        <imprint>
+          <biblScope type="volume">435</biblScope>
+          <biblScope type="number">7046</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">1267-1270</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid2" type="book" rend="foot" n="footcite:55">
+      <monogr>
+        <title level="m">Transport Equations in Biology</title>
+        <author>
+          <persName key="mamba-2014-idp109672">
+            <foreName>Benoît</foreName>
+            <surname>Perthame</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Birkhauser Basel</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid18" type="article" rend="foot" n="footcite:computation2040159">
+      <identifiant type="doi" value="10.3390/computation2040159"/>
+      <analytic>
+        <title level="a">Multiscale Modeling of the Early CD8 T-Cell Immune Response in Lymph Nodes: An Integrative Study</title>
+        <author>
+          <persName key="dracula-2014-idp124392">
+            <foreName>Sotiris A.</foreName>
+            <surname>Prokopiou</surname>
+            <initial>S. A.</initial>
+          </persName>
+          <persName key="dracula-2014-idp111232">
+            <foreName>Loic</foreName>
+            <surname>Barbarroux</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="dracula-2014-idp19256">
+            <foreName>Samuel</foreName>
+            <surname>Bernard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Mafille</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Yann</foreName>
+            <surname>Leverrier</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Arpin</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacqueline</foreName>
+            <surname>Marvel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dracula-2014-idp113944">
+            <foreName>Olivier</foreName>
+            <surname>Gandrillon</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computation</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">159</biblScope>
+          <ref xlink:href="http://www.mdpi.com/2079-3197/2/4/159" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>mdpi.<allowbreak/>com/<allowbreak/>2079-3197/<allowbreak/>2/<allowbreak/>4/<allowbreak/>159</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid10" type="article" rend="foot" n="footcite:70">
+      <analytic>
+        <title level="a">A balance between Raf-1 and Fas expression sets the pace of erythroid differentiation</title>
+        <author>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Rubiolo</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Piazzolla</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Meissl</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Beug</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>J.C.</foreName>
+            <surname>Huber</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Kolbus</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Blood</title>
+        <imprint>
+          <biblScope type="volume">108</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">152-159</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid17" type="article" rend="foot" n="footcite:Terry2012">
+      <identifiant type="doi" value="10.1007/s00285-011-0459-8"/>
+      <analytic>
+        <title level="a">Mathematical model of the primary CD8 T cell immune response: stability analysis of a nonlinear age-structured system</title>
+        <author>
+          <persName>
+            <foreName>Emmanuelle</foreName>
+            <surname>Terry</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacqueline</foreName>
+            <surname>Marvel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Arpin</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="dracula-2014-idp113944">
+            <foreName>Olivier</foreName>
+            <surname>Gandrillon</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="dracula-2014-idp112512">
+            <foreName>Fabien</foreName>
+            <surname>Crauste</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Mathematical Biology</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">263–291</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s00285-011-0459-8" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s00285-011-0459-8</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid3" type="book" rend="foot" n="footcite:56">
+      <monogr>
+        <title level="m">Theory of Nonlinear Age-Dependent Population Dynamics</title>
+        <author>
+          <persName>
+            <foreName>G.F.</foreName>
+            <surname>Webb</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Marcel Dekker</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1985</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dracula-2016-bid32" type="article" rend="foot" n="footcite:2016arXiv160803696C">
+      <analytic>
+        <title level="a">Global existence analysis of cross-diffusion population systems for multiple species</title>
+        <author>
+          <persName>
+            <foreName>X.</foreName>
+            <surname>Chen</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>E. S.</foreName>
+            <surname>Daus</surname>
+            <initial>E. S.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Jüngel</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ArXiv e-prints</title>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

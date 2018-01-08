@@ -1,0 +1,2918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="magnet" isproject="true">
+    <shortname>MAGNET</shortname>
+    <projectName>Machine Learning in Information Networks</projectName>
+    <theme-de-recherche>Data and Knowledge Representation and Processing</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/magnet/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Centre de Recherche en Informatique, Signal et Automatique de Lille</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Charles de Gaulle (Lille 3)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2013 January 01, updated into Project-Team: 2016 May 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.2.9. - Social Networks</term>
+      <term>3. - Data and knowledge</term>
+      <term>3.1. - Data</term>
+      <term>3.1.3. - Distributed data</term>
+      <term>3.1.4. - Uncertain data</term>
+      <term>3.2.3. - Inference</term>
+      <term>3.2.4. - Semantic Web</term>
+      <term>3.3. - Data and knowledge analysis</term>
+      <term>3.3.1. - On-line analytical processing</term>
+      <term>3.3.3. - Big data analysis</term>
+      <term>3.4. - Machine learning and statistics</term>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>3.4.4. - Optimization and learning</term>
+      <term>3.5. - Social networks</term>
+      <term>3.5.1. - Analysis of large graphs</term>
+      <term>3.5.2. - Recommendation systems</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+      <term>5.8. - Natural language processing</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>7. - Fundamental Algorithmics</term>
+      <term>7.2. - Discrete mathematics, combinatorics</term>
+      <term>7.8. - Information theory</term>
+      <term>7.9. - Graph theory</term>
+      <term>7.10. - Network science</term>
+      <term>7.11. - Performance evaluation</term>
+      <term>8.1. - Knowledge</term>
+      <term>8.2. - Machine learning</term>
+      <term>8.4. - Natural language processing</term>
+      <term>8.6. - Decision support</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1. - Life sciences</term>
+      <term>1.1.11. - Systems biology</term>
+      <term>2. - Health</term>
+      <term>2.2.4. - Infectious diseases, Virology</term>
+      <term>2.3. - Epidemiology</term>
+      <term>2.4.1. - Pharmaco kinetics and dynamics</term>
+      <term>2.4.2. - Drug resistance</term>
+      <term>5.8. - Learning and training</term>
+      <term>5.10. - Biotechnology</term>
+      <term>6.3. - Network functions</term>
+      <term>7.1.2. - Road traffic</term>
+      <term>8.3. - Urbanism and urban planning</term>
+      <term>9.4.1. - Computer science</term>
+      <term>9.4.4. - Chemistry</term>
+      <term>9.5.8. - Linguistics</term>
+      <term>9.5.10. - Digital humanities</term>
+      <term>9.8. - Privacy</term>
+    </keywordsSecteurs>
+    <UR name="Lille"/>
+  </identification>
+  <team id="uid1">
+    <person key="magnet-2014-idm10112">
+      <firstname>Marc</firstname>
+      <lastname>Tommasi</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Team leader, Univ. Lille III, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="magnet-2015-idp100064">
+      <firstname>Aurelien</firstname>
+      <lastname>Bellet</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="magnet-2014-idm8680">
+      <firstname>Pascal</firstname>
+      <lastname>Denis</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="magnet-2015-idp102568">
+      <firstname>Jan</firstname>
+      <lastname>Ramon</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="magnet-2014-idm7440">
+      <firstname>Remi</firstname>
+      <lastname>Gilleron</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="magnet-2014-idm6032">
+      <firstname>Mikaela</firstname>
+      <lastname>Keller</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, Associate Professor</moreinfo>
+    </person>
+    <person key="magnet-2014-idp85888">
+      <firstname>Fabien</firstname>
+      <lastname>Torre</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, Associate Professor</moreinfo>
+    </person>
+    <person key="magnet-2014-idp87088">
+      <firstname>Fabio</firstname>
+      <lastname>Vitale</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, Associate Professor</moreinfo>
+    </person>
+    <person key="magnet-2014-idp92072">
+      <firstname>David</firstname>
+      <lastname>Chatel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I</moreinfo>
+    </person>
+    <person key="magnet-2015-idp110352">
+      <firstname>Mathieu</firstname>
+      <lastname>Dehouck</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I</moreinfo>
+    </person>
+    <person key="magnet-2014-idp94552">
+      <firstname>Geraud</firstname>
+      <lastname>Le Falher</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="magnet-2016-idp138752">
+      <firstname>Thibault</firstname>
+      <lastname>Lietard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Normale Sup Rennes, from Feb 2016</moreinfo>
+    </person>
+    <person key="magnet-2014-idp95792">
+      <firstname>Pauline</firstname>
+      <lastname>Wauquier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Clic and Walk</moreinfo>
+    </person>
+    <person key="magnet-2016-idp143664">
+      <firstname>Soravit</firstname>
+      <lastname>Changpinyo</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>USC, Oct 2016</moreinfo>
+    </person>
+    <person key="magnet-2016-idp146144">
+      <firstname>Wilhelmiina</firstname>
+      <lastname>Hamalainen</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>University of Helsinki, Nov 2016</moreinfo>
+    </person>
+    <person key="magnet-2014-idp90840">
+      <firstname>Julie</firstname>
+      <lastname>Jonas</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="magnet-2016-idp151104">
+      <firstname>Pierre</firstname>
+      <lastname>Dellenbach</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, student intern, from Mar 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="magnet-2016-idp153616">
+      <firstname>Paul</firstname>
+      <lastname>Vanhaesebrouck</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille III, student intern, from Mar 2016 until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Presentation</bodyTitle>
+      <p><span class="smallcap" align="left">Magnet</span> is a research group that aims to design new machine
+learning based methods geared towards mining information
+networks. Information networks are large collections of interconnected
+data and documents like citation networks and blog networks among
+others. Our goal is to propose new prediction methods for texts and
+networks of texts based on machine learning algorithms in graphs. Such
+algorithms include node and link classification, link prediction,
+clustering and probabilistic modeling of graphs. We aim to tackle real-world problems such as browsing, monitoring and recommender systems, and
+more broadly information extraction in information
+networks. Application domains cover natural language processing, social networks for cultural data
+and e-commerce, and biomedical informatics.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>The main objective of <span class="smallcap" align="left">Magnet</span> is to develop original machine learning
+methods for networked data in order to build applications like browsing, monitoring and
+recommender systems, and more broadly information extraction in
+information networks. We consider information networks in which
+the data consist of both feature vectors and texts. We model such networks as (multiple) (hyper)graphs wherein nodes correspond to
+entities (documents, spans of text, users, ...) and edges correspond
+to relations between entities (similarity, answer, co-authoring,
+friendship, ...). Our main research goal is to propose new on-line and batch learning
+algorithms for various problems (node classification / clustering, link
+classification / prediction) which exploit the
+relationships between data entities and, overall, the graph
+topology. We are also interested in searching for the best
+hidden graph structure to be generated for solving a given learning
+task. Our research will be based on generative models for graphs, on
+machine learning for graphs and on machine learning for texts.
+The
+challenges are the dimensionality of the input space, possibly the
+dimensionality of the output space, the high level of dependencies
+between the data, the inherent ambiguity of textual data and the
+limited amount of human labeling. An additional challenge will be to
+design scalable methods for large information networks. Hence, we will
+explore how sampling, randomization and active learning can be leveraged to improve the scalability of the proposed algorithms.</p>
+      <p>Our research
+program is organized according to the following questions:</p>
+      <orderedlist>
+        <li id="uid6">
+          <p noindent="true">How to go beyond vectorial classification models in Natural
+Language Processing (NLP) tasks?</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">How to adaptively build graphs with respect to the given tasks?
+How to create networks from observations of information diffusion
+processes?</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">How to design methods able to achieve a good trade-off between predictive
+accuracy and computational complexity?</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">How to go beyond strict node homophilic/similarity assumptions
+in graph-based learning methods?</p>
+        </li>
+      </orderedlist>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Beyond Vectorial Models for NLP</bodyTitle>
+      <p>One of our overall research objectives is to derive graph-based
+machine learning algorithms for natural language and text information
+extraction tasks. This section discusses the motivations behind the
+use of graph-based ML approaches for these tasks, the main challenges
+associated with it, as well as some concrete projects. Some of the
+challenges go beyond NLP problems and will be further developed in the
+next sections. An interesting aspect of the project is that we
+anticipate some important cross-fertilizations between NLP and ML
+graph-based techniques, with NLP not only benefiting from but also
+pushing ML graph-based approaches into new directions.</p>
+      <p>Motivations for resorting to graph-based algorithms for texts are at
+least threefold. First, online texts are organized in networks. With
+the advent of the web, and the development of forums, blogs, and
+micro-blogging, and other forms of social media, text productions have
+become strongly connected.
+Interestingly, NLP research has been rather slow in coming to
+terms with this situation, and most of the literature still focus on document-based
+or sentence-based predictions (wherein inter-document or
+inter-sentence structure is not exploited). Furthermore, several
+multi-document tasks exist in NLP (such as multi-document
+summarization and cross-document coreference resolution), but most
+existing work typically ignore document boundaries and simply apply a
+document-based approach, therefore failing to take advantage of the
+multi-document dimension <ref xlink:href="#magnet-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>A second motivation comes from the fact that most (if not all) NLP
+problems can be naturally conceived as graph problems. Thus, NLP tasks
+often involve discovering a relational structure over a set of text
+spans (words, phrases, clauses, sentences, etc.). Furthermore, the
+<i>input</i> of numerous NLP tasks is also a graph; indeed, most
+end-to-end NLP systems are conceived as pipelines wherein the output
+of one processor is in the input of the next. For instance, several
+tasks take POS tagged sequences or dependency trees as input. But this
+structured input is often converted to a vectorial form, which
+inevitably involves a loss of information.</p>
+      <p>Finally, graph-based representations and learning methods
+appear to address some core problems faced by NLP, such as the fact
+that textual data are typically not independent and identically
+distributed, they often live on a manifold, they involve very high
+dimensionality, and their annotations is costly and scarce. As such,
+graph-based methods represent an interesting alternative to, or at least
+complement, structured prediction methods (such as CRFs or
+structured SVMs) commonly used within NLP.
+Graph-based methods, like label propagation,
+have also been shown to be very effective in semi-supervised settings,
+and have already given some positive results on a few NLP tasks
+<ref xlink:href="#magnet-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Given the above motivations, our first line of research will be to
+investigate how one can leverage an underlying network structure
+(e.g., hyperlinks, user links) between documents, or text spans in
+general, to enhance prediction performance for several NLP tasks. We
+think that a “network effect”, similar to the one that took place in
+Information Retrieval (with the Page Rank algorithm), could also
+positively impact NLP research. A few recent papers have already
+opened the way, for instance in attempting to exploit Twitter follower
+graph to improve sentiment classification  <ref xlink:href="#magnet-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Part of the challenge here will be to investigate how
+adequately and efficiently one can model these problems as instances
+of more general graph-based problems, such as node
+clustering/classification or link prediction discussed in the next
+sections. In a few
+cases, like text classification or sentiment analysis, graph modeling
+appears to be straightforward: nodes correspond to texts (and
+potentially users), and edges are given by relationships like
+hyperlinks, co-authorship, friendship, or thread
+membership. Unfortunately, modeling NLP problems as networks is not
+always that obvious. From the one hand, the right level of
+representation will probably vary depending on the task at hand: the
+nodes will be sentences, phrases, words, etc. From the other hand, the
+underlying graph will typically not be given a priori, which in turn
+raises the question of how we construct it.
+A preliminary discussion of the issue of optimal graph
+construction for semi-supervised learning in NLP is given in
+<ref xlink:href="#magnet-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We identify the
+issue of adaptive graph construction as an important scientific
+challenge for machine learning on graphs in general, and we will
+discuss it further in Section <ref xlink:href="#uid11" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>As noted above, many NLP tasks have been recast as structured
+prediction problems, allowing to capture (some of the) output
+dependencies.
+How to best combine structured output and graph-based ML
+approaches is another challenge that we intend to address. We will
+initially investigate this question within a semi-supervised context,
+concentrating on graph regularization and graph propagation
+methods. Within such approaches, labels are typically binary or in a
+small finite set. Our objective is to explore how one
+propagates an exponential number of <i>structured labels</i> (like a
+sequence of tags or a dependency tree) through graphs. Recent attempts
+at blending structured output models with graph-based models are
+investigated in <ref xlink:href="#magnet-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Another
+related question that we will address in this context is how does one
+learn with <i>partial labels</i> (like partially specified tag
+sequence or tree) and use the graph structure to complete the output
+structure. This last question is very relevant to NLP problems where
+human annotations are costly; being able to learn from partial
+annotations could therefore allow for more targeted annotations and in
+turn reduced costs <ref xlink:href="#magnet-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The NLP tasks we will mostly focus on are coreference resolution and
+entity linking, temporal structure prediction, and discourse
+parsing. These tasks will be envisioned in both document and
+cross-document settings, although we expect to exploit inter-document
+links either way. Choices for these particular tasks is guided by the
+fact that they are still open problems for the NLP community, they
+potentially have a high impact for industrial applications (like
+information retrieval, question answering, etc.), and we already have
+some expertise on these tasks in the team (see for instance <ref xlink:href="#magnet-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). As a midterm goal, we also
+plan to work on tasks more directly relating to micro-blogging, such
+sentiment analysis and the automatic thread structuring of technical
+forums; the latter task is in fact an instance of rhetorical structure
+prediction <ref xlink:href="#magnet-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We have already initiated some work on the coreference resolution with graph-based learning, by casting the problem as an instance of spectral clustering <ref xlink:href="#magnet-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Adaptive Graph Construction</bodyTitle>
+      <p>In most applications, edge weights are computed through a complex
+data modeling process and convey crucially important information for
+classifying nodes, making it possible to infer information
+related to each data sample even exploiting the graph topology solely.
+In fact, a widespread approach to several
+classification problems is to represent the data through an undirected
+weighted graph in which edge weights quantify the similarity between
+data points. This technique for coding input data has been applied to
+several domains, including classification of genomic data <ref xlink:href="#magnet-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, face recognition <ref xlink:href="#magnet-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and text categorization <ref xlink:href="#magnet-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In some cases, the full adjacency matrix is generated by employing
+suitable similarity functions chosen through a deep understanding of
+the problem structure. For example for the TF-IDF representation of documents,
+the affinity between pairs of samples is often estimated through the
+cosine measure or the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>χ</mi><mn>2</mn></msup></math></formula> distance. After the generation of the
+full adjacency matrix, the second phase for obtaining the final graph
+consists in an edge sparsification/reweighting operation. Some of the
+edges of the clique obtained in the first step are pruned and the
+remaining ones can be reweighted to meet the specific requirements of
+the given classification problem. Constructing a graph with these
+methods obviously entails various kinds of loss of
+information. However, in problems like node classification, the use of
+graphs generated from several datasets can lead to an improvement in
+accuracy ( <ref xlink:href="#magnet-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+Hence, the transformation of a dataset into a graph may, at least in
+some cases, partially remove various kinds of irregularities present
+in the original datasets, while keeping some of the most useful
+information for classifying the data samples. Moreover, it is often
+possible to accomplish classification tasks on the obtained graph
+using a running time remarkably lower than is needed by algorithms
+exploiting the initial datasets, and a suitable sparse graph
+representation can be seen as a compressed version of the original
+data. This holds even when input data are provided in a online/stream
+fashion, so that the resulting graph evolves over time.</p>
+      <p>In this project we will address the problem of adaptive graph
+construction towards several directions. The first one is about how to choose the best similarity measure given the objective learning
+task. This question is related to the question of metric and similarity learning
+( <ref xlink:href="#magnet-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) which has not been considered in the
+context of graph-based learning. In the context of structured
+prediction, we will develop approaches where output structures are
+organized in graphs whose similarity is given by top-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> outcomes of
+greedy algorithms.</p>
+      <p>A different way we envision adaptive graph construction is in the
+context of semi-supervised learning. Partial supervision can take
+various forms and an interesting and original setting is governed by
+two currently studied applications: detection of brain anomaly from
+connectome data and polls recommendation in marketing. Indeed, for
+these two applications, a partial knowledge of the information
+diffusion process can be observed while the network is unknown or only
+partially known. An objective is to construct (or complete) the
+network structure from some local diffusion information. The problem
+can be formalized as a graph construction problem from partially
+observed diffusion processes. It has been studied very recently in
+<ref xlink:href="#magnet-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In our case, the originality comes
+either from the existence of different sources of observations or from
+the large impact of node contents in the network.</p>
+      <p>We will study how to combine graphs defined by networked data and
+graphs built from flat data to solve a given task. This is of major
+importance for information networks because, as said above, we will
+have to deal with multiple relations between entities (texts, spans of
+texts, ...) and also use textual data and vectorial data.</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Prediction on Graphs and Scalability</bodyTitle>
+      <p>As stated in the previous sections, graphs as complex objects provide
+a rich representation of data. Often enough the data is only partially
+available and the graph representation is very helpful in predicting
+the unobserved elements. We are interested in problems where the
+complete structure of the graph needs to be recovered and only a
+fraction of the links is observed. The link prediction problem falls
+into this category. We are also interested in the recommendation and
+link classification problems which can be seen as graphs where the
+structure is complete but some labels on the links (weights or signs)
+are missing. Finally we are also interested in labeling the nodes of
+the graph, with class or cluster memberships or with a real value,
+provided that we have (some information about) the labels for some of
+the nodes.</p>
+      <p>The semi-supervised framework will be also considered. A midterm
+research plan is to study how graph regularization models help
+for structured prediction problems. This question will be studied in
+the context of NLP tasks, as noted in
+Section <ref xlink:href="#uid10" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, but we also plan to develop
+original machine learning algorithms that have a more general
+applicability. Inputs are networks whose nodes (texts) have to be
+labeled by structures. We assume that structures lie in some manifold
+and we want to study how labels can propagate in the network. One
+approach is to find a smooth labeling function corresponding to an
+harmonic function on both manifolds in input and output.</p>
+      <p>Scalability is one of the main issues in the design of new prediction
+algorithms working on networked data. It has gained more and more
+importance in recent years, because of the growing size of the most
+popular networked data that are now used by millions of people. In such contexts, learning algorithms whose computational complexity scales
+quadratically, or slower, in the number of considered data objects
+(usually nodes or edges, depending on the task) should be
+considered impractical.</p>
+      <p>These observations lead to the idea of using graph sparsification
+techniques in order to work on a part of the original network for getting
+results that can be easily extended and used for the whole original
+input. A sparsified version of the original graph can often be seen as a
+subset of the initial input, i.e. a suitably selected input subgraph which
+forms the training set (or, more in general, it is included in the training
+set). This holds even for the active setting.
+A simple example could be to find a spanning tree of the input graph,
+possibly using randomization techniques, with properties such that we
+are allowed to obtain interesting results for the initial graph
+dataset. We have started to explore this research direction for
+instance in <ref xlink:href="#magnet-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p spacebefore="3.0pt">At the level of mathematical foundations, the key issue to be
+addressed in the study of (large-scale) random networks also concerns
+the segmentation of network data into sets of independent and
+identically distributed observations. If we identify the data sample
+with the whole network, as it has been done in previous approaches
+<ref xlink:href="#magnet-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we typically end up with a set of
+observations (such as nodes or edges) which are highly interdependent
+and hence overly violate the classic i.i.d. assumption. In this case,
+the data scale can be so large and the range of correlations can be so
+wide, that the cost of taking into account the whole data and their
+dependencies is typically prohibitive. On the contrary, if we focus
+instead on a set of subgraphs independently drawn from a (virtually
+infinite) target network, we come up with a set of independent and
+identically distributed observations—namely the subgraphs
+themselves, where subgraph sampling is the underlying ergodic process
+<ref xlink:href="#magnet-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Such an approach is one principled direction
+for giving novel statistical foundations to random network
+modeling. At the same time, because one shifts the focus from the
+whole network to a set of subgraphs, complexity issues can be
+restricted to the number of subgraphs and their size. The latter
+quantities can be controlled much more easily than the overall network
+size and dependence relationships, thus allowing to tackle scalability
+challenges through a radically redesigned approach.</p>
+      <p>Another way to tackle scalability problems is to exploit the inherent decentralized nature of very large graphs. Indeed, in many situations very large graphs are the abstract view of the digital activities of a very large set of users equipped with their own device. Nowadays, smartphones, tablets and even sensors have storage and computation power and gather a lot of data that serve to analytics, prediction, suggestion and personalized recommendation. Gathering all user data in large data centers is costly because it requires oversized infrastructures with huge energy consumption and large bandwith networks. Even though cloud architectures can optimize such infrastructures, data concentration is also prone to security leaks, lost of privacy and data governance for end users.
+The alternative we have started to develop in Magnet is to devise decentralized, private and personalized machine learning algorithms so that they can be deployed in the personal devices. The key challenges are therefore to learn in a collaborative way in a network of learners and to preserve privacy and control on personal data.</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Beyond Homophilic Relationships</bodyTitle>
+      <p>In many cases, algorithms for solving node classification
+problems are driven by the following assumption: linked entities tend
+to be assigned to the same class. This assumption, in the context of
+social networks, is known as homophily
+( <ref xlink:href="#magnet-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#magnet-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) and involves ties of every
+type, including friendship, work, marriage, age, gender, and so on. In
+social networks, homophily naturally implies that a set of individuals
+can be parted into subpopulations that are more cohesive. In fact, the
+presence of homogeneous groups sharing common interests is a key reason for affinity among interconnected individuals,
+which suggests that, in spite of its simplicity, this principle turns
+out to be very powerful for node classification problems in general
+networks.</p>
+      <p>Recently, however, researchers have started to consider networked data
+where connections may also carry a negative meaning. For instance,
+disapproval or distrust in social networks, negative endorsements on the
+Web.
+Although the introduction of signs on graph edges appears like a small
+change from standard weighted graphs, the resulting mathematical model,
+called signed graphs, has an unexpectedly rich additional complexity. For
+example, their spectral properties, which essentially all
+sophisticated node classification algorithms rely on, are different and
+less known than those of graphs. Signed graphs
+naturally lead to a specific inference problem that we have discussed in
+previous sections: link classification. This is the problem of predicting
+signs of links in a given graph. In online social networks, this may be
+viewed as a form of sentiment analysis, since we would like to semantically
+categorize the relationships between individuals.</p>
+      <p spacebefore="3.0pt">Another way to go
+beyond homophily between entities will be studied using our recent
+model of hypergraphs with bipartite hyperedges
+<ref xlink:href="#magnet-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A bipartite hyperedge
+connects two ends which are disjoint subsets of nodes. Bipartite
+hyperedges is a way to relate two collections of (possibly
+heterogeneous) entities represented by nodes. In the NLP setting,
+while hyperedges can be used to model bags of words, bipartite
+hyperedges are associated with relationships between bags of
+words. But each end of bipartite hyperedges is also a way to represent
+complex entities, gathering several attribute values (nodes) into
+hyperedges viewed as records. Our hypergraph notion naturally extends
+directed and undirected weighted graph. We have defined a spectral
+theory for this new class of hypergraphs and opened a way to smooth
+labeling on sets of nodes. The weighting scheme allows to weigh the
+participation of each node to the relationship modeled by bipartite
+hyperedges accordingly to an equilibrium condition. This condition provides a competition between nodes
+in hyperedges and allows interesting modeling properties that go
+beyond homophily and similarity over nodes (the theoretical analysis of
+our hypergraphs exhibits tight relationships with signed
+graphs). Following this competition idea, bipartite hyperedges are
+like matches between two teams and examples of applications are team
+creation. The basic tasks we are interested in are hyperedge
+classification, hyperedge prediction, node weight prediction. Finally,
+hypergraphs also represent a way to summarize or compress large graphs
+in which there exists highly connected couples of (large) subsets of
+nodes.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid14">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Targeted Applications</bodyTitle>
+      <p>Our main targeted applications are browsing, monitoring, recommending and mining in information networks. The learning tasks considered in the project such as node clustering, node and link
+classification and link prediction are likely to yield important improvements in these applications. Application
+domains cover social networks for cultural data and e-commerce, and biomedical informatics.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid16">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <simplelist>
+        <li id="uid18">
+          <p noindent="true">We have been successful in many calls: ERC PoC project SOM (<span class="smallcap" align="left">Jan Ramon</span> leader), ANR project GRASP (<span class="smallcap" align="left">Pascal Denis</span> leader), ANR project PAMELA (<span class="smallcap" align="left">Marc Tommasi</span> is the scientific coordinator), ANR project REM (<span class="smallcap" align="left">Pascal Denis</span> local leader), ADEME project MUST (<span class="smallcap" align="left">Jan Ramon</span> leader), Inria Associate Team LEGO (<span class="smallcap" align="left">Aurélien Bellet</span> local leader).</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Scientific advances have been recognized by the community, in top ranked conferences and journals such as ICML, NIPS, JMLR, EMNLP, EACL and IJCAI.</p>
+        </li>
+      </simplelist>
+      <subsection id="uid20" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <simplelist>
+          <li id="uid21">
+            <p noindent="true"><span class="smallcap" align="left">Chloé Braud</span>, who was supervised by <span class="smallcap" align="left">Pascal Denis</span> from 2012 to 2015, received the 2016 PhD Award from ATALA, the French NLP association.</p>
+          </li>
+          <li id="uid22">
+            <p noindent="true"><span class="smallcap" align="left">Paul Vanaesebrouck</span>, who was supervised par <span class="smallcap" align="left">Aurélien Bellet</span> and <span class="smallcap" align="left">Marc Tommasi</span>, has reveived the “Grand Prix du stage de Recherche” from École Polytechnique Paris for his internship in <span class="smallcap" align="left">Magnet</span> (see Section <ref xlink:href="#uid33" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid23">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>CoRTex</bodyTitle>
+      <p>Python library for noun phrase COreference Resolution in natural language TEXts</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>CoRTex is a LGPL-licensed Python library for Noun Phrase coreference resolution in natural language texts. This library contains implementations of various state-of-the-art coreference resolution algorithms, including those developed in our research. In addition, it provides a set of APIs and utilities for text pre-processing, reading the main annotation formats (ACE, CoNLL and MUC), and performing evaluation based on the main evaluation metrics (MUC, B-CUBED, and CEAF). As such, CoRTex provides benchmarks for researchers working on coreference resolution, but it is also of interest for developers who want to integrate a coreference resolution within a larger platform.</p>
+      <simplelist>
+        <li id="uid25">
+          <p noindent="true">Participants: Pascal Denis and David Chatel</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">Contact: Pascal Denis</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/magnet/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>magnet/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Magneto</bodyTitle>
+      <p>Python toolbox for generating and evaluating vector space representations for Natural Language Processing</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Version 1.0 of Magneto contains preprocessing methods for texts in french and english. It includes classical methods for generating vector space representations: count based models, dimensionality reduction based methods and predictive methods (word2vec and Glove). For version 1.0, vector space representations can be evaluated on dedicated evaluation tasks such as similarity and analogy.</p>
+      <simplelist>
+        <li id="uid29">
+          <p noindent="true">Participants: Pascal Denis, Rémi Gilleron, Mikaela Keller, François Noyer and Nathalie Vauquier</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">Contact: Pascal Denis</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/magnet/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>magnet/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid32">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid33" level="1">
+      <bodyTitle>Decentralized and Private Learning</bodyTitle>
+      <p>In <ref xlink:href="#magnet-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of decentralized minimization of pairwise functions of the data points, where these points are distributed over the nodes of a graph defining the communication topology of the network. This general problem finds applications in ranking, distance metric learning and graph inference, among others. We propose new gossip algorithms based on dual averaging which aims at solving such problems both in synchronous and asynchronous settings. The proposed framework is flexible enough to deal with constrained and regularized variants of the optimization problem. Our theoretical analysis reveals that the proposed algorithms preserve the convergence rate of centralized dual averaging up to an additive bias term. We present numerical simulations on Area Under the ROC Curve (AUC) maximization and metric learning problems which illustrate the practical interest of our approach.</p>
+      <p>In <ref xlink:href="#magnet-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we consider a set of learning agents in a collaborative peer-to-peer
+network, where each agent learns a <i>personalized model</i>
+according to its own learning objective. The question addressed in
+this paper is: how can agents improve upon their locally trained
+model by communicating with other agents that have similar
+objectives? We introduce and analyze two asynchronous gossip
+algorithms running in a fully decentralized manner. Our first
+approach, inspired from label propagation, aims to smooth pre-trained local models over the network while accounting for the confidence that each agent has in its initial model. In our second
+approach, agents jointly learn and propagate their
+model by making iterative updates based on both their local dataset
+and the behavior of their neighbors. Our algorithm for solving this challenging optimization problem relies on the Alternating Direction Method for Multipliers (ADMM).</p>
+      <p>In <ref xlink:href="#magnet-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose a decentralized protocol for a large set of users to privately compute averages over their joint data, which can later be used to learn more complex models. Our protocol can find a solution of arbitrary accuracy, does not rely on a trusted third party and preserves the privacy of users throughout the execution in both the honest-but-curious and malicious adversary models. Furthermore, we design a verification procedure which offers protection against malicious users joining the service with the goal of manipulating the outcome of the algorithm.</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Natural Language Processing</bodyTitle>
+      <p>In <ref xlink:href="#magnet-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we introduce a simple semi-supervised approach to improve implicit discourse relation identification. This approach harnesses large amounts of automatically extracted discourse connectives along with their arguments to construct new distributional word representations. Specifically, we represent words in the space of discourse connectives as a way to directly encode their rhetorical function. Experiments on the Penn Discourse Treebank demonstrate the effectiveness of these task-tailored representations in predicting implicit discourse relations. Our results indeed show that, despite their simplicity, these connective-based representations outperform various off-the-shelf word embeddings, and achieve state-of-the-art performance on this problem.</p>
+      <p>Along the PhD thesis of <span class="smallcap" align="left">Thibault Liétard</span>, we are working on learning a similarity between text entities for the task of coreference resolution. Unlike indirect classification criteria often used in the literature, the similarity function naturally operates on pairs of mentions and several relevant objectives can be considered. For instance, we can learn the parameters of the similarity function such that the similarity of a given mention to its closest antecedent coreferent mention is larger than to any closer non-coreferential antecedent candidate. The resulting similarity scores can then be plugged into a greedy clustering procedure, or used to build a weighted graph of mentions to be clustered by spectral algorithms. For the representations of (pairs of) mentions on which the similarity function is learned, we consider both traditional linguistic features as well as external information about the general context of occurrence of the mentions using word embeddings.</p>
+      <p>Along the PhD thesis of <span class="smallcap" align="left">Mathieu Dehouck</span>, we study the problem of cross-lingual dependency parsing, aiming at leveraging training data from different source languages to learn a parser in a target language. Specifically, this approach first constructs word vector representations that exploit structural (i.e., dependency-based) contexts but only considering the morpho-syntactic information associated with each word and its contexts. These delexicalized word embeddings, which can be trained on any set of languages and capture features shared accross languages are then used in combination with standard language-specific features to train a lexicalized parser in
+the target language. We evaluate our approach through experiments on a set of eight different languages that are part the Universal Dependencies Project. Our main results show that using such embeddings
+(monolingual or multilingual) achieves significant improvements over monolingual baselines. The work is submitted.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Edge Prediction in Networks</bodyTitle>
+      <p>In <ref xlink:href="#magnet-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we address the problem of classifying the links of signed social networks given their full structural topology.
+In the problem of edge sign prediction, we are given a directed graph (representing a social network), and our task is to predict the binary labels of the edges (i.e., the positive or negative nature of the social relationships). Many successful heuristics for this problem are based on the troll-trust features, estimating at each node the fraction of outgoing and incoming positive/negative edges. We show that these heuristics can be understood, and rigorously analyzed, as approximators to the Bayes optimal classifier for a simple probabilistic model of the edge labels. We then show that the maximum likelihood estimator for this model approximately corresponds to the predictions of a label propagation algorithm run on a transformed version of the original social graph. Extensive experiments on a number of real-world datasets show that this algorithm is competitive against state-of-the-art classifiers in terms of both accuracy and scalability. Finally, we show that troll-trust features can also be used to derive online learning algorithms which have theoretical guarantees even when edges are adversarially labeled.</p>
+      <p>In <ref xlink:href="#magnet-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of predicting connections between a set of data points. We focus on the <i>graph reconstruction</i> problem, where the prediction rule is obtained by minimizing the average error over all <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>/</mo><mn>2</mn></mrow></math></formula> possible pairs of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> nodes of a training graph. Our first contribution is to derive learning rates of order <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><mo form="prefix">log</mo><mi>n</mi><mo>/</mo><mi>n</mi><mo>)</mo></mrow></math></formula> for this problem, significantly improving upon the slow rates of order <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><mn>1</mn><mo>/</mo><msqrt><mi>n</mi></msqrt><mo>)</mo></mrow></math></formula> established in the seminal work of <ref xlink:href="#magnet-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Strikingly, these fast rates are universal, in contrast to similar results known for other statistical learning problems (e.g., classification, density level set estimation, ranking, clustering) which require strong assumptions on the distribution of the data. Motivated by applications to large graphs, our second contribution deals with the computational complexity of graph reconstruction. Specifically, we investigate to which extent the learning rates can be preserved when replacing the empirical reconstruction risk by a computationally cheaper Monte-Carlo version, obtained by sampling with replacement <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>B</mi><mo>≪</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></math></formula> pairs of nodes. Finally, we illustrate our theoretical results by numerical experiments on synthetic and real graphs.</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Mining Geotagged Social Data</bodyTitle>
+      <p>Data generated on location-based social networks provide rich information on the whereabouts of urban dwellers. Specifically, such data reveal who spends time where, when, and on what type of activity (e.g., shopping at a mall, or dining at a restaurant). That information can, in turn, be used to describe city regions in terms of activity that takes place therein. For example, the data might reveal that citizens visit one region mainly for shopping in the morning, while another for dining in the evening. Furthermore, once such a description is available, one can ask more elaborate questions. For example, one might ask what features distinguish one region from another – some regions might be different in terms of the type of venues they host and others in terms of the visitors they attract. As another example, one might ask which regions are similar across cities.
+In <ref xlink:href="#magnet-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we present a method to answer such questions using publicly shared Foursquare data. Our analysis makes use of a probabilistic model, the features of which include the exact location of activity, the users who participate in the activity, as well as the time of the day and day of week the activity takes place. Compared to previous approaches to similar tasks, our probabilistic modeling approach allows us to make minimal assumptions about the data – which relieves us from having to set arbitrary parameters in our analysis (e.g., regarding the granularity of discovered regions or the importance of different features). We demonstrate how the model learned with our method can be used to identify the most likely and distinctive features of a geographical area, quantify the importance features used in the model, and discover similar regions across different cities. Finally, we perform an empirical comparison with previous work and discuss insights obtained through our findings. Our results were also presented through an interactive demo at the 25th World Wide Web Conference <ref xlink:href="#magnet-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>Learning from Non-iid Data</bodyTitle>
+      <p>In <ref xlink:href="#magnet-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we deal with the generalization ability of classifiers trained from non-iid evolutionary-related data in which all training and testing examples correspond to leaves of a phylogenetic tree. For the realizable case, we prove PAC-type upper and lower bounds based on symmetries and matchings in such trees.</p>
+      <p>In <ref xlink:href="#magnet-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we studied learning problems where the performance criterion consists of an average over tuples (e.g., pairs or triplets) of observations rather than over individual observations, as in many learning problems involving networked data (e.g., link prediction), but also in metric learning and ranking. In this setting, the empirical risk to be optimized takes the form of a U-statistic, and its terms are highly dependent and thus violate the classic i.i.d. assumption. From a computational perspective, the calculation of such statistics is highly expensive even for a moderate sample size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>, as it requires averaging <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mi>d</mi></msup><mo>)</mo></mrow></math></formula> terms. We show that, strikingly, such empirical risks can be replaced by drastically computationally simpler Monte-Carlo estimates based on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mo>)</mo></mrow></math></formula> terms only, usually referred to as incomplete U-statistics, without damaging the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><mn>1</mn><mo>/</mo><msqrt><mi>n</mi></msqrt><mo>)</mo></mrow></math></formula> learning rate of Empirical Risk Minimization (ERM) procedures. For this purpose, we establish uniform deviation results describing the error made when approximating a U-process by its incomplete version under appropriate complexity assumptions. Extensions to model selection, fast rate situations and various sampling techniques are also considered , as well as an application to stochastic gradient descent for ERM. Finally, numerical examples are displayed in order to provide strong empirical evidence that the approach we promote largely surpasses more naive subsampling techniques.</p>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Adaptive Graph Construction</bodyTitle>
+      <p>The efficiency of graph-based semi-supervised algorithms depends on the graph of instances on which they are applied.
+The instances are often in a vectorial form before a graph linking them is built.
+The construction of the graph relies on a metric over the vectorial space that help define the weight of the connection between entities.
+The classic choice for this metric is usually a distance measure or a similarity measure based on the euclidean norm.
+We claim that in some cases the euclidean norm on the initial vectorial space might not be the more appropriate to solve the task efficiently.
+In the work <ref xlink:href="#magnet-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose an algorithm that aims at learning the most appropriate vectorial representation for building a graph on which the task at hand is solved efficiently.
+In addition to experimental results showing the interest of such an approach, we define initial conditions under which the graph-based classification is ensured to perform optimally.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid39">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid41" level="2">
+        <bodyTitle>Cifre Clic and Walk (2013-2016)</bodyTitle>
+        <p><b>Participants</b>: <span class="smallcap" align="left">Mikaela Keller</span> [correspondent], <span class="smallcap" align="left">Pauline Wauquier</span>, <span class="smallcap" align="left">Marc Tommasi</span>.</p>
+        <p>We have a one to one cooperation with the <span class="smallcap" align="left">Clic and Walk</span> company that makes marketing surveys by
+consumers (called clicwalkers). The goal of the company is to understand the community of clicwalkers (40
+thousands in one year) and its evolution with two objectives: the first one is to optimize the attribution of
+surveys to clicwalkers, and the second is to expand company’s market to foreign countries. Social data can be
+obtained from social networks (G+, Facebook, ...) but there is no explicit network to describe the clicwalkers
+community. But users activity in answering surveys as well as server logs can provide traces of information
+diffusion, geolocalisation data, temporal data, sponsorship, etc. We study the problem of adaptive graph
+construction from the clicwalkers network. Node (users) classification and clustering algorithms are
+applied. For the problem of survey recommendations, the problem of teams constitution in a bipartite graph
+of users and surveys is studied. Random graph modeling and generative models of random graphs will
+be one step towards the prediction of the evolution of clicwalkers community.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>ADEME</bodyTitle>
+        <p>ADEME project MUST: Méthodologie d'exploitation des donnees d'usage des vehicules et d'identification de nouveaux Services pour les usagers et les territoires. <span class="smallcap" align="left">Jan Ramon</span> is the local PI at Inria of this project.
+</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid43">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <p>Participation to the <i>Data Advanced data science and technologies</i> project (CPER Data). This project, leaded by <span class="smallcap" align="left">David Simplot-Ryl</span>, is organized following three axes: internet of things, data science, high performance computing. <span class="smallcap" align="left">Magnet</span> is involved in the data science axis to develop machine learning algorithms for big data, structured data and heterogeneous data.
+</p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid46" level="2">
+        <bodyTitle>ANR Pamela (2016-2020)</bodyTitle>
+        <p><b>Participants</b>: <span class="smallcap" align="left">Marc Tommasi</span> [correspondent], <span class="smallcap" align="left">Aurélien Bellet</span>, <span class="smallcap" align="left">Rémi Gilleron</span>, <span class="smallcap" align="left">Fabio Vitale</span></p>
+        <p>The Pamela project aims at developing machine learning theories and algorithms in order to learn local and personalized models from data distributed over networked infrastructures. Our project seeks to provide first answers to modern information systems built by interconnecting many personal devices holding private user data in the search of personalized suggestions and recommendations. More precisely, we will focus on learning in a collaborative way with the help of neighbors in a network. We aim to lay the first blocks of a scientific foundation for these new types of systems, in effect moving from graphs of data to graphs of data and learned models. We argue that this shift is necessary in order to address the new constraints arising from the decentralization of information that is inherent to the emergence of big data. We will in particular focus on the question of learning under communication and privacy constraints. A significant asset of the project is the quality of its industrial partners, Snips and Mediego, who bring in their expertise in privacy protection and distributed computing as well as use cases and datasets. They will contribute to translate this fundamental research effort into concrete outcomes by developing personalized and privacy-aware assistants able to provide contextualized recommendations on small devices and smartphones.
+<ref xlink:href="https://project.inria.fr/pamela/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>pamela/</ref>.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>ANR JCJC GRASP (2016-2020)</bodyTitle>
+        <p><b>Participants</b>: <span class="smallcap" align="left">Pascal Denis</span> [correspondent], <span class="smallcap" align="left">Aurélien Bellet</span>, <span class="smallcap" align="left">Rémi Gilleron</span>, <span class="smallcap" align="left">Mikaela Keller</span>, <span class="smallcap" align="left">Marc Tommasi</span></p>
+        <p>The GRASP project aims at designing new graph-based Machine Learning algorithms that are better tailored to Natural Language Processing structured output problems. Focusing on semi-supervised learning scenarios, we will extend current graph-based learning approaches along two main directions: (i) the use of structured outputs during inference, and (ii) a graph construction mechanism that is more dependent on the task objective and more closely related to label inference. Combined, these two research strands will provide an important step towards delivering more adaptive (to new domains and languages), more accurate, and ultimately more useful language technologies. We will target semantic and pragmatic tasks such as coreference resolution, temporal chronology prediction, and discourse parsing for which proper Machine Learning solutions are still lacking.
+<ref xlink:href="https://project.inria.fr/grasp/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>grasp/</ref>.</p>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>ANR-NFS REM (2016-2020)</bodyTitle>
+        <p>With colleagues from the linguistics departments at Lille 3 and Neuchâtel (Switzerland), <span class="smallcap" align="left">Pascal Denis</span> is a member of another ANR project (REM), funded through the bilateral ANR-NFS Scheme. This project, co-headed by I. Depreatere (Lille 3) and M. Hilpert (Neufchâtel), proposes to reconsider the analysis of English modal constructions from a multidisciplinary perspective, combining insights from theoretical, psycho-linguistic, and computational approaches.</p>
+      </subsection>
+      <subsection id="uid49" level="2">
+        <bodyTitle>EFL (2010-2020)</bodyTitle>
+        <p><span class="smallcap" align="left">Pascal Denis</span> is an associate member of the Laboratoire d'Excellence <i>Empirical Foundations of Linguistics</i> (EFL), <ref xlink:href="http://www.labex-efl.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>labex-efl.<allowbreak/>org/</ref>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid51" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <p>ERC-PoC 713626 SOM “Statistical modeling for Optimization Mobility”: This project aims at bringing to practice results from the project ERC-StG 240186 MiGraNT in the domain of mobility and mobile devices. In particular, a proof of concept will be made of graph mining approaches to learn predictive models and/or recommendation systems from collections of data distributed over a large number of devices (cars, smartphones, ...) while caring about privacy-friendliness.</p>
+      </subsection>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <subsection id="uid53" level="3">
+          <bodyTitle>Sci-GENERATION (2013-2017)</bodyTitle>
+          <sanspuceslist>
+            <li id="uid54">
+              <p noindent="true">Program: COST</p>
+            </li>
+            <li id="uid55">
+              <p noindent="true">Project acronym: Sci-GENERATION</p>
+            </li>
+            <li id="uid56">
+              <p noindent="true">Project title: Next Generation of Young Scientist: Towards a Contemporary Spirit of R&amp;I.</p>
+            </li>
+            <li id="uid57">
+              <p noindent="true">Duration: 2013-2017</p>
+            </li>
+            <li id="uid58">
+              <p noindent="true">Coordinator: <span class="smallcap" align="left">Jan Ramon</span> is an MC member for belgium and a core group member</p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">Other partners: More information on <ref xlink:href="http://scigeneration.eu/en/participants.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>scigeneration.<allowbreak/>eu/<allowbreak/>en/<allowbreak/>participants.<allowbreak/>html</ref></p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Abstract: Sci-Generation is a COST targeted network that addresses the challenges faced by next generation of researchers in Europe. We aim to improve the visibility, inclusion and success of excellent young researchers and research teams in European science and policy-making. We study and deliberate how changes in research funding opportunities and career perspectives can facilitate these improvements. We wish to promote new and emergent research topics, methods and management organisations. We are developing recommendations for EU science policy that will foster transformations at national and regional levels to promote scientific excellence and to establish a true European research area. (See <ref xlink:href="http://scigeneration.eu" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>scigeneration.<allowbreak/>eu</ref>).</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid61" level="3">
+          <bodyTitle>TextLink (2014-2018)</bodyTitle>
+          <sanspuceslist>
+            <li id="uid62">
+              <p noindent="true">Program: COST Action</p>
+            </li>
+            <li id="uid63">
+              <p noindent="true">Project acronym: TextLink</p>
+            </li>
+            <li id="uid64">
+              <p noindent="true">Project title: Structuring Discourse in Multilingual Europe</p>
+            </li>
+            <li id="uid65">
+              <p noindent="true">Duration: Apr. 2014 - Apr. 2018</p>
+            </li>
+            <li id="uid66">
+              <p noindent="true">Coordinator: Prof. Liesbeth Degand, Université Catholique de Louvain, Belgium. <span class="smallcap" align="left">Pascal Denis</span> is member of the Tools group.</p>
+            </li>
+            <li id="uid67">
+              <p noindent="true">Other partners: 26 EU countries and 3 international partner countries (Argentina, Brazil, Canada)</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Abstract: Effective discourse in any language is characterized by clear relations between sentences and coherent structure. But languages vary in how relations and structure are signaled. While monolingual dictionaries and grammars can characterize the words and sentences of a language and bilingual dictionaries can do the same between languages, there is nothing similar for discourse. For discourse, however, discourse-annotated corpora are becoming available in individual languages. The Action will facilitate European multilingualism by (1) identifying and creating a portal into such resources within Europe - including annotation tools, search tools, and discourse-annotated corpora; (2) delineating the dimensions and properties of discourse annotation across corpora; (3) organizing these properties into a sharable taxonomy; (4) encouraging the use of this taxonomy in subsequent discourse annotation and in cross-lingual search and studies of devices that relate and structure discourse; and (5) promoting use of the portal, its resources and sharable taxonomy. With partners from across Europe, TextLink will unify numerous but scattered linguistic resources on discourse structure. With its resources searchable by form and/or meaning and a source of valuable correspondences, TextLink will enhance the experience and performance of human translators, lexicographers, language technology and language learners alike.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid69" level="3">
+          <bodyTitle>STAC (2011-2016)</bodyTitle>
+          <sanspuceslist>
+            <li id="uid70">
+              <p noindent="true">Program: ERC Advanced Grant</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Project acronym: STAC</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">Project title: Strategic conversation</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Duration: Sep. 2011 - Aug. 2016</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Coordinator: Nicholas Asher, CNRS, Université Paul Sabatier, IRIT (France)</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Other partners: School of Informatics, Edinburgh University; Heriot Watt University, Edinburgh; Inria (<span class="smallcap" align="left">Pascal Denis</span>)</p>
+            </li>
+            <li id="uid76">
+              <p noindent="true">Abstract: STAC is a five year interdisciplinary project that aims to develop a new, formal and robust model of conversation, drawing from ideas in linguistics, philosophy, computer science and economics. The project brings a state of the art, linguistic theory of discourse interpretation together with a sophisticated view of agent interaction and strategic decision making, taking advantage of work on game theory.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Inria Associate Teams Not Involved in an Inria International Labs</bodyTitle>
+        <subsection id="uid79" level="3">
+          <bodyTitle>RSS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid80">
+              <p noindent="true">Program: Inria North-European Labs</p>
+            </li>
+            <li id="uid81">
+              <p noindent="true">Project title: Rankings and Similarities in Signed graphs</p>
+            </li>
+            <li id="uid82">
+              <p noindent="true">Duration: late 2015 to late 2017</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Partners: Aristides Gionis (Data Mining Group, Aalto University, Finland) and Mark Herbster
+(Centre for Computational Statistics and Machine Learning, University College London, UK)</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Abstract: The project focuses on predictive analysis of networked data represented as signed graphs,
+where connections can carry either a positive or a negative semantic. The goal of this associate team
+is to devise novel formal methods and machine learning algorithms towards link classification and
+link ranking in signed graphs and assess their performance in both theoretical and practical terms.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid85" level="3">
+          <bodyTitle>
+            <ref xlink:href="https://team.inria.fr/lego/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LEGO</ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid86">
+              <p noindent="true">Title: LEarning GOod representations for natural language processing</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher): University of California, Los Angeles (United States)
+- TEDS: Research group Theoretical and Empirical Data Science - Fei Sha</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Start year: 2016</p>
+            </li>
+            <li id="uid89">
+              <p noindent="true">See also: <ref xlink:href="https://team.inria.fr/lego/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>lego/</ref></p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Abstract: LEGO lies in the intersection of Machine Learning and Natural Language Processing (NLP). Its goal is to address the following challenges: what are the right representations for structured data and how to learn them automatically, and how to apply such representations to complex and structured prediction tasks in NLP? In recent years, continuous vectorial embeddings learned from massive unannotated corpora have been increasingly popular, but they remain far too limited to capture the complexity of text data as they are task-agnostic and fall short of modeling complex structures in languages. LEGO strongly relies on the complementary expertise of the two partners in areas such as representation/similarity learning, structured prediction, graph-based learning, and statistical NLP to offer a novel alternative to existing techniques. Specifically, we will investigate the following three research directions: (a) optimize the embeddings based on annotations so as to minimize structured prediction errors, (b) generate embeddings from rich language contexts represented as graphs, and (c) automatically adapt the context graph to the task/dataset of interest by learning a similarity between nodes to appropriately weigh the edges of the graph. By exploring these complementary research strands, we intend to push the state-of-the-art in several core NLP problems, such as dependency parsing, coreference resolution and discourse parsing.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid91" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>We invited Soravit Changpinyo (University of Southern California) in October, collaborating with <span class="smallcap" align="left">Mathieu Dehouck</span>, <span class="smallcap" align="left">Pascal Denis</span> and <span class="smallcap" align="left">Aurélien Bellet</span> on multi-task learning and transfer of word embeddings.</p>
+        <p><span class="smallcap" align="left">Jan Ramon</span> collaborated with <span class="smallcap" align="left">Wilhelmiina Hamalainen</span>, who visited the magnet lab for 2 weeks. In particular, they worked on multiple hypothesis tests for regression and discretization problems.</p>
+        <p><span class="smallcap" align="left">Mark Herbster</span> from University College London was invited for one week in January and collaborated with <span class="smallcap" align="left">Fabio Vitale</span> and <span class="smallcap" align="left">Marc Tommasi</span> on machine learning and similarity prediction in graphs.</p>
+        <p>Several international researchers have also been invited to give a talk at the <span class="smallcap" align="left">Magnet</span> seminar:</p>
+        <simplelist>
+          <li id="uid93">
+            <p noindent="true"><span class="smallcap" align="left">Tim Vandercruys</span> (Toulouse): “Modeling Meaning with Latent Factorization Models” (April)</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true"><span class="smallcap" align="left">Soravit Changpinyo</span> (University of Southern California): “Synthesized Classifiers for Zero-Shot Learning” (October)</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true"><span class="smallcap" align="left">Thomas Kipf</span> (University of Amsterdam): “Deep Learning on Graphs with Graph Convolutional Networks” (December)</p>
+          </li>
+        </simplelist>
+        <subsection id="uid96" level="3">
+          <bodyTitle>Local Workshops</bodyTitle>
+          <simplelist>
+            <li id="uid97">
+              <p noindent="true"><span class="smallcap" align="left">Fabio Vitale</span> organized the workshop <ref xlink:href="https://www.inria.fr/en/centre/lille/calendar/graph-based-learning-and-graph-mining" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Graph-based Learning and Graph Mining</ref>.</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true"><span class="smallcap" align="left">Pascal Denis</span> organized the <ref xlink:href="https://www.meshs.fr/approches151106165557___1920x1080x1x1849x985x1_fr____rwr__________..php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Workshop on Argumentation Mining</ref>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid99" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <p>In March, April and May <span class="smallcap" align="left">Fabio Vitale</span> visited the Department of Computer Science of the University of Milan,
+collaborating with Prof. <span class="smallcap" align="left">Nicolò Cesa-Bianchi</span> and Prof. <span class="smallcap" align="left">Claudio Gentile</span>.</p>
+        <p>In July, <span class="smallcap" align="left">Aurélien Bellet</span> and <span class="smallcap" align="left">Pascal Denis</span> visited the Department of Computer Science of the University of California (Los Angeles), collaborating with Prof <span class="smallcap" align="left">Fei Sha</span>.</p>
+        <p>In September, <span class="smallcap" align="left">Mathieu Dehouck</span> visited the Department of Computer Science of the University of California (Los Angeles), collaborating with Prof <span class="smallcap" align="left">Fei Sha</span>.</p>
+        <p>Since September, <span class="smallcap" align="left">Fabio Vitale</span> is working at the department of computer science of Aalto University, Helsinki (Finland),
+in the DMG group (<ref xlink:href="http://research.ics.aalto.fi/dmg/index.shtml" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>research.<allowbreak/>ics.<allowbreak/>aalto.<allowbreak/>fi/<allowbreak/>dmg/<allowbreak/>index.<allowbreak/>shtml</ref>) led by Prof. <span class="smallcap" align="left">Aristides Gionis</span>.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid100">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid101" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p><span class="smallcap" align="left">Aurélien Bellet</span> co-organized the workshop Private Multi-Party Machine Learning @ NIPS 2016. <footnote id="uid104" id-text="1"><ref xlink:href="https://pmpml.github.io/PMPML16/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>pmpml.<allowbreak/>github.<allowbreak/>io/<allowbreak/>PMPML16/</ref></footnote></p>
+        </subsection>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid106" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <p><span class="smallcap" align="left">Pascal Denis</span> served as co-chair of the Polaris Colloquium, a monthly Guest Lecture series in Computer Science and Signal Processing, co-sponsored by Inria Lille–Nord Europe and University of Lille CRIStAL Lab.</p>
+        </subsection>
+        <subsection id="uid107" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p><span class="smallcap" align="left">Aurélien Bellet</span> served as PC member for IJCAI 2016, ICML 2016, NIPS 2016 and AISTATS 2017.</p>
+          <p><span class="smallcap" align="left">Pascal Denis</span> served as Senior PC member for IJCAI 2016. He was PC member for ACL 2016, AAAI 2016, CAp 2016, EMNLP 2016, and NAACL 2016.</p>
+          <p><span class="smallcap" align="left">Rémi Gilleron</span> served as PC member for NIPS 2016 and AISTATS 2017.</p>
+          <p><span class="smallcap" align="left">Jan Ramon</span> served as PC member for AISTATS 2016 and 2017, BAI workshop @ IJCAI 2017, ieee big data 2016, BNAIC 2016, DS 2016, ECAI 2016, ECML-PKDD 2016, IEEE ICDM 2016, ICHI 2016, IJCAI 2016, ILP 2016, ISMIS 2017, KDD 2016, MLG 2016, NIPS 2016, PMPML workshop @ NIPS 2016, SSDM workshop @ ECML-PKDD 2016.</p>
+          <p><span class="smallcap" align="left">Marc Tommasi</span> served as PC member for NIPS 2016, ICML 2016, IJCAI 2016, EGC 2017.</p>
+          <p><span class="smallcap" align="left">Fabien Torre</span> served as PC member for EGC 2017, workshop CluCo 2017, AAFD &amp; SFC 2016, CNIA 2016</p>
+          <p><span class="smallcap" align="left">Fabio Vitale</span> served as PC member for AISTATS 2017 and ECMLPKDD 2016, NIPS 2016.</p>
+        </subsection>
+        <subsection id="uid108" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p><span class="smallcap" align="left">Géraud Le Falher</span> was reviewer for ECMLPKDD 2016, NIPS 2016 and IJCAI 2016.
+<span class="smallcap" align="left">Mikaela Keller</span> was a reviewer for ICLR 2016 and ICML 2016.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid110" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p><span class="smallcap" align="left">Jan Ramon</span> is member of the editorial boards of data mining and knowledge discovery, machine learning and guest editorial board of ECML-PKDD 2016.</p>
+        </subsection>
+        <subsection id="uid111" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p><span class="smallcap" align="left">Aurélien Bellet</span> was reviewer for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and IEEE Transactions on Cybernetics (TCYB).</p>
+          <p><span class="smallcap" align="left">Jan Ramon</span>: data mining and knowledge discovery (dami) 5; knowledge and information systems (kais): 4; machine learning :3; neurocomputing: 2; artificial intelligence: 2; plos one : 1</p>
+          <p><span class="smallcap" align="left">Fabio Vitale</span> was reviewer for the journal EJOR (European Journal of Operational Research - Elsevier), and the journal Internet Mathematics.</p>
+          <p><span class="smallcap" align="left">Géraud Le Falher</span> was reviewer for the International Journal of E-Planning Research.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid112" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p><span class="smallcap" align="left">Aurélien Bellet</span> was invited the Learning, Privacy, and Mobile Data Workshop at Google Research Seattle, <footnote id="uid113" id-text="2"><ref xlink:href="https://sites.google.com/site/learningprivacymobiledata/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>sites.<allowbreak/>google.<allowbreak/>com/<allowbreak/>site/<allowbreak/>learningprivacymobiledata/</ref></footnote> the Statistical Machine Learning (SMILE) seminar in Paris, <footnote id="uid114" id-text="3"><ref xlink:href="https://sites.google.com/site/smileinparis/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>sites.<allowbreak/>google.<allowbreak/>com/<allowbreak/>site/<allowbreak/>smileinparis/</ref></footnote> the Workshop on Distributed Machine Learning (Télécom ParisTech), <footnote id="uid115" id-text="4"><ref xlink:href="http://machinelearningforbigdata.telecom-paristech.fr/fr/article/workshop-friday-novembre-25-distributed-machine-learning" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>machinelearningforbigdata.<allowbreak/>telecom-paristech.<allowbreak/>fr/<allowbreak/>fr/<allowbreak/>article/<allowbreak/>workshop-friday-novembre-25-distributed-machine-learning</ref></footnote> and at the company EURA NOVA. <footnote id="uid116" id-text="5"><ref xlink:href="http://euranova.eu" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>euranova.<allowbreak/>eu</ref></footnote></p>
+        <p><span class="smallcap" align="left">Pascal Denis</span> was invited to the STL seminar, Université Lille 3 (February 2016).</p>
+      </subsection>
+      <subsection id="uid117" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p><span class="smallcap" align="left">Pascal Denis</span> was reviewer for Flanders Research Foundation (FWO, Belgium) and the Brussels Institute for Research and Innovation (Innoviris).</p>
+        <p><span class="smallcap" align="left">Jan Ramon</span> was reviewer of H2020 projects.</p>
+      </subsection>
+      <subsection id="uid118" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p><span class="smallcap" align="left">Fabien Torre</span> is in the board of the national evaluation committee for teaching and research in computer science (CNU 27)</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid119" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid120" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid121">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Fabio Vitale</span>, Introduction à l'algorithmique, 66h, L2, Université Lille 3.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Marc Tommasi</span>, Réseaux, 28h, L1, Université Lille 3.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Rémi Gilleron</span>, Traitement de données, 24h, L1, Université Lille 3.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Géraud Le Falher</span>, Traitement de données, 36h, L1, Université Lille 3.</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Mathieu Dehouck</span> et <span class="smallcap" align="left">Thibault Liétard</span>, Projet informatique de traitement de données en SHS, 20h, L2, Université Lille 3.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">Licence MIASHS: <span class="smallcap" align="left">Mikaela Keller</span>, Codage et représentation de l'information, 24h, L1, Université Lille 3.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">Licence SoQ (SHS): <span class="smallcap" align="left">Fabien Torre</span>, Traitement de contenus textuels, 24h, L3, Université Lille 3.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">Licence SoQ (SHS): <span class="smallcap" align="left">Rémi Gilleron</span>, Algorithmique de graphes, 24h, L3, Université Lille 3.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">Licence SHS: <span class="smallcap" align="left">Mikaela Keller</span>, Langages du Web, 24h, L3, Université Lille 3.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">Licence SHS: <span class="smallcap" align="left">Mikaela Keller</span>, Représentation numérique de l'information, 24h, L3, Université Lille 3.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">Licence économie gestion: <span class="smallcap" align="left">Rémi Gilleron</span>, Traitement de données et documents, 24h, L1, Université Lille 3.</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">Licence <span class="smallcap" align="left">Marc Tommasi</span>, <span class="smallcap" align="left">Mikaela Keller</span> C2i, université Lille 3.</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">Master MOCAD: <span class="smallcap" align="left">Pascal Denis</span> co-taught the Machine Learning and Decision under Uncertainty class, 37,5h, Université Lille 1.</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">Master MIASHS: <span class="smallcap" align="left">Rémi Gilleron</span> et <span class="smallcap" align="left">Fabien Torre</span>, Web et référencement, 24h, M1, Université Lille 3.</p>
+          </li>
+          <li id="uid135">
+            <p noindent="true">Master MIASHS: <span class="smallcap" align="left">Géraud Le Falher</span>, Web et réseaux, 24h, M1, Université Lille 3.</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">Master MIASHS: <span class="smallcap" align="left">Mikaela Keller</span>, Programmation et bases de données, 24h, M1, Université Lille 3.</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">Master LTTAC: <span class="smallcap" align="left">Fabien Torre</span>, Algorithmique des textes – Javascript, 36h, M1, Université Lille 3.</p>
+          </li>
+          <li id="uid138">
+            <p noindent="true">Master ID: <span class="smallcap" align="left">Fabien Torre</span>, information structurée, 20h, M2, Université Lille 3.</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">Master ID: <span class="smallcap" align="left">Fabien Torre</span>, programmation Web, 20h, M2, Université Lille 3.</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">Master / Master Spécialisé Big Data: <span class="smallcap" align="left">Aurélien Bellet</span>, Advanced Machine Learning, 25.5h, Télécom ParisTech.</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">Formation continue (Certificat d’Études Spécialisées Data Scientist): <span class="smallcap" align="left">Aurélien Bellet</span>, Supervised Learning and Support Vector Machines, 10h, Télécom ParisTech.</p>
+          </li>
+          <li id="uid142">
+            <p noindent="true">Formation continue: <span class="smallcap" align="left">Aurélien Bellet</span>, Graph Mining, 3h, Télécom ParisTech pour Allianz.</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid143">
+            <p noindent="true">
+              <b>E-learning</b>
+            </p>
+            <sanspuceslist>
+              <li id="uid144">
+                <p noindent="true">SPOC: <span class="smallcap" align="left">Marc Tommasi</span>, <span class="smallcap" align="left">Rémi Gilleron</span> and <span class="smallcap" align="left">Alain Preux</span>: Culture numérique, 5 semesters at the bachelor level, Moodle, Lille 3 university, more than 7000 students.</p>
+              </li>
+              <li id="uid145">
+                <p noindent="true">Pedagogical resources: texts, videos, quizz and exercices available on <ref xlink:href="http://culturenumerique.univ-lille3.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>culturenumerique.<allowbreak/>univ-lille3.<allowbreak/>fr/</ref>, creative commons.</p>
+              </li>
+            </sanspuceslist>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid146" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid147">
+            <p noindent="true">PhD in progress: <span class="smallcap" align="left">Géraud Le Falher</span>, Machine Learning in Signed Graphs, Inria Lille – Nord Europe, since Oct. 2014, <span class="smallcap" align="left">Marc Tommasi</span>, <span class="smallcap" align="left">Fabio Vitale</span> and <span class="smallcap" align="left">Claudio Gentile</span> (University of Insubria, Italy).</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Phd in progress: <span class="smallcap" align="left">David Chatel</span>, Semi-supervised spectral clustering since Sep 2012, <span class="smallcap" align="left">Marc Tommasi</span> and <span class="smallcap" align="left">Pascal Denis</span>.</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">Phd in progress: <span class="smallcap" align="left">Mathieu Dehouck</span>, Graph-based Learning for Multi-lingual and Multi-domain Dependency Parsing, since Oct 2015, <span class="smallcap" align="left">Pascal Denis</span> and <span class="smallcap" align="left">Marc Tommasi</span>.</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">Phd in progress: <span class="smallcap" align="left">Pauline Wauquier</span>, Recommendation in Information Networks, since Dec 2013, <span class="smallcap" align="left">Mikaela Keller</span> and <span class="smallcap" align="left">Marc Tommasi</span>.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">Phd in progress: <span class="smallcap" align="left">Thibault Liétard</span>, Adaptive Graph Learning with Applications to Natural Language Processing, <span class="smallcap" align="left">Aurélien Bellet</span>, <span class="smallcap" align="left">Pascal Denis</span> and <span class="smallcap" align="left">Rémi Gilleron</span>.</p>
+          </li>
+          <li id="uid152">
+            <p noindent="true">Master: <span class="smallcap" align="left">Thibault Liétard</span>, Metric learning for Graph-based coreference resolution, ENS Rennes, co-supervised by <span class="smallcap" align="left">Aurélien Bellet</span> and <span class="smallcap" align="left">Pascal Denis</span>.</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">Master: <span class="smallcap" align="left">Paul Vanaesebrouck</span>, Decentralized Machine Learning on Graphs, Ecole Polytechnique, co-supervised by <span class="smallcap" align="left">Aurélien Bellet</span> and <span class="smallcap" align="left">Marc Tommasi</span>.</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">Master: <span class="smallcap" align="left">Pierre Dellenbach</span>, Private learning of heavily distributed data, Ecole Polytechnique, co-supervised by <span class="smallcap" align="left">Aurélien Bellet</span> and <span class="smallcap" align="left">Jan Ramon</span>.</p>
+          </li>
+          <li id="uid155">
+            <p noindent="true">Master: <span class="smallcap" align="left">Robin Vogel</span>, Learning to Rank Rare Instances, ENSAE, co-supervised by <span class="smallcap" align="left">Aurélien Bellet</span>, <span class="smallcap" align="left">Stéphan Clémençon</span> et <span class="smallcap" align="left">Anne Sabourin</span> (Télécom ParisTech), et <span class="smallcap" align="left">Stéphane Gentric</span> (Morpho).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid156" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid157">
+            <p noindent="true"><span class="smallcap" align="left">Aurélien Bellet</span> was member of the recruitment committee for MdC in Computer Science at Télécom Saint-Etienne.</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true"><span class="smallcap" align="left">Pascal Denis</span> et <span class="smallcap" align="left">Marc Tommasi</span> were members of the recruitment committee for MdC in Computer Science at Université Lille 3.</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true"><span class="smallcap" align="left">Pascal Denis</span> was member of the Commission Emploi Rechercher (CER) at Inria Lille – Nord Europe.</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true"><span class="smallcap" align="left">Rémi Gilleron</span> was member of the PhD committees of <span class="smallcap" align="left">Hugo Louche</span> (Examinateur) and <span class="smallcap" align="left">Tom Sebastian</span> (Président).</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true"><span class="smallcap" align="left">Marc Tommasi</span> was member of the habilitation committee of <span class="smallcap" align="left">Albert Biffet</span> (Rapporteur).</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true"><span class="smallcap" align="left">Marc Tommasi</span> was member of the PhD committees of <span class="smallcap" align="left">Guillaume Rabusseau</span> (Rapporteur), <span class="smallcap" align="left">Raphaël Puget</span> (Rapporteur), <span class="smallcap" align="left">Michaël Perrot</span> (Examinateur), <span class="smallcap" align="left">Hadrien Glaude</span> (Examinateur).</p>
+          </li>
+          <li id="uid163">
+            <p noindent="true"><span class="smallcap" align="left">Marc Tommasi</span> was head of the jury for the recruitment committee of Junior Research Scientists (CR1/CR2) at Inria Lille.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid164" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p><span class="smallcap" align="left">Marc Tommasi</span> presented the <span class="smallcap" align="left">Magnet</span> team at the EuraTechnologies ICT innovation ecosystem (<ref xlink:href="https://www.inria.fr/centre/lille/agenda/r-dv-du-plateau-inria-apprentissage-automatique-et-reseaux-d-information" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>lille/<allowbreak/>agenda/<allowbreak/>r-dv-du-plateau-inria-apprentissage-automatique-et-reseaux-d-information</ref>).</p>
+      <p><span class="smallcap" align="left">Aurélien Bellet</span> presented some of his work at the popularization seminar “30 minutes de sciences” and at an Assemblée Générale of Inria Lille - Nord Europe.</p>
+      <p><span class="smallcap" align="left">Thibault Liétard</span> has participated to the “chercheur itinérant” initiative (<ref xlink:href="https://www.inria.fr/centre/lille/recherche/sciences-pour-tous2/mediation/chercheurs-itinerants-au-lycee-2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>lille/<allowbreak/>recherche/<allowbreak/>sciences-pour-tous2/<allowbreak/>mediation/<allowbreak/>chercheurs-itinerants-au-lycee-2016</ref>).</p>
+      <p><span class="smallcap" align="left">Rémi Gilleron</span> has participated at the forum “F O O R &lt;: Forum Ouvert Oeuvres et Recherches” where he presented the research work done with <span class="smallcap" align="left">Pascal Denis</span> for the artwork “This is Major Tom to Ground Control”</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="magnet-2016-bid48" type="inproceedings" rend="refer" n="refercite:freno:hal-00750345">
+      <identifiant type="hal" value="hal-00750345"/>
+      <analytic>
+        <title level="a">Fiedler Random Fields: A Large-Scale Spectral Approach to Statistical Network Modeling</title>
+        <author>
+          <persName>
+            <foreName>Antonino</foreName>
+            <surname>Freno</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="magnet-2014-idm6032">
+            <foreName>Mikaela</foreName>
+            <surname>Keller</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="magnet-2014-idm10112">
+            <foreName>Marc</foreName>
+            <surname>Tommasi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Neural Information Processing Systems (NIPS)</title>
+        <loc>Lake Tahoe, United States</loc>
+        <title level="s">Advances in Neural Information Processing Systems</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <publisher>
+            <orgName>MIT Press</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2012</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00750345" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00750345</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid44" type="inproceedings" rend="refer" n="refercite:kuelka:hal-01422033">
+      <identifiant type="hal" value="hal-01422033"/>
+      <analytic>
+        <title level="a">Bounds for Learning from Evolutionary-Related Data in the Realizable Case</title>
+        <author>
+          <persName>
+            <foreName>Ondřej</foreName>
+            <surname>Kuželka</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuyi</foreName>
+            <surname>Wang</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="magnet-2015-idp102568">
+            <foreName>Jan</foreName>
+            <surname>Ramon</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">International Joint Conference on Artificial Intelligence (IJCAI)</title>
+        <loc>New York, United States</loc>
+        <title level="s">Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2016</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01422033" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01422033</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid47" type="inproceedings" rend="refer" n="refercite:lassalle:hal-00838192">
+      <identifiant type="hal" value="hal-00838192"/>
+      <analytic>
+        <title level="a">Improving pairwise coreference models through feature space hierarchy learning</title>
+        <author>
+          <persName key="alpage-2014-idp98488">
+            <foreName>Emmanuel</foreName>
+            <surname>Lassalle</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ACL 2013 - Annual meeting of the Association for Computational Linguistics</title>
+        <loc>Sofia, Bulgaria</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Association for Computational Linguistics</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00838192" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00838192</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid45" type="inproceedings" rend="refer" n="refercite:lassalle:hal-01205189">
+      <identifiant type="hal" value="hal-01205189"/>
+      <analytic>
+        <title level="a">Joint Anaphoricity Detection and Coreference Resolution with Constrained Latent Structures</title>
+        <author>
+          <persName key="alpage-2014-idp98488">
+            <foreName>Emmanuel</foreName>
+            <surname>Lassalle</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">AAAI Conference on Artificial Intelligence (AAAI 2015)</title>
+        <loc>Austin, Texas, United States</loc>
+        <title level="s">Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI 2015)</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01205189" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01205189</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid42" type="inproceedings" rend="refer" n="refercite:papa:hal-01367546">
+      <identifiant type="hal" value="hal-01367546"/>
+      <analytic>
+        <title level="a">On Graph Reconstruction via Empirical Risk Minimization: Fast Learning Rates and Scalability</title>
+        <author>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Papa</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphan</foreName>
+            <surname>Clémençon</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Annual Conference on Neural Information Processing Systems (NIPS 2016)</title>
+        <loc>Barcelone, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01367546" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01367546</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid43" type="article" rend="refer" n="refercite:Pelekis2016">
+      <analytic>
+        <title level="a">Hölder-type inequalities and their applications to concentration and correlation bounds</title>
+        <author>
+          <persName>
+            <foreName>Christos</foreName>
+            <surname>Pelekis</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="magnet-2015-idp102568">
+            <foreName>Jan</foreName>
+            <surname>Ramon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuyi</foreName>
+            <surname>Wang</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Indagationes Mathematicae</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid46" type="inproceedings" rend="refer" n="refercite:ricatte:hal-01017025">
+      <identifiant type="hal" value="hal-01017025"/>
+      <analytic>
+        <title level="a">Hypernode Graphs for Spectral Learning on Binary Relations over Sets</title>
+        <author>
+          <persName key="magnet-2014-idp88320">
+            <foreName>Thomas</foreName>
+            <surname>Ricatte</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="magnet-2014-idm7440">
+            <foreName>Rémi</foreName>
+            <surname>Gilleron</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="magnet-2014-idm10112">
+            <foreName>Marc</foreName>
+            <surname>Tommasi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ECML/PKDD - 7th European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</title>
+        <loc>Nancy, France</loc>
+        <title level="s">Machine Learning and Knowledge Discovery in Databases</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01017025" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01017025</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Paper accepted for publication at ECML/PKDD 2014</note>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid40" type="article" rend="year" n="cite:bellet:hal-01330492">
+      <identifiant type="doi" value="10.1016/j.neucom.2016.06.006"/>
+      <identifiant type="hal" value="hal-01330492"/>
+      <analytic>
+        <title level="a">Learning Discriminative Tree Edit Similarities for Linear Classification - Application to Melody Recognition</title>
+        <author>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>José F.</foreName>
+            <surname>Bernabeu</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Amaury</foreName>
+            <surname>Habrard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Sebban</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01491">
+        <idno type="issn">0925-2312</idno>
+        <title level="j">Neurocomputing</title>
+        <imprint>
+          <biblScope type="volume">214</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">155-161</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01330492" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01330492</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid37" type="article" rend="year" n="cite:clemencon:hal-01327662">
+      <identifiant type="hal" value="hal-01327662"/>
+      <analytic>
+        <title level="a">Scaling-up Empirical Risk Minimization: Optimization of Incomplete U-statistics</title>
+        <author>
+          <persName>
+            <foreName>Stéphan</foreName>
+            <surname>Clémençon</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Igor</foreName>
+            <surname>Colin</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01187">
+        <idno type="issn">1532-4435</idno>
+        <title level="j">Journal of Machine Learning Research (JMLR)</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">76</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-36</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01327662" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01327662</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid41" type="article" rend="year" n="cite:maes:hal-01431414">
+      <identifiant type="doi" value="10.1586/14789450.2016.1172967"/>
+      <identifiant type="hal" value="hal-01431414"/>
+      <analytic>
+        <title level="a">Designing biomedical proteomics experiments: state-of-the-art and future perspectives</title>
+        <author>
+          <persName>
+            <foreName>Evelyne</foreName>
+            <surname>Maes</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Pieter</foreName>
+            <surname>Kelchtermans</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Wout</foreName>
+            <surname>Bittremieux</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Kurt</foreName>
+            <surname>De Grave</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Sven</foreName>
+            <surname>Degroeve</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jef</foreName>
+            <surname>Hooyberghs</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Inge</foreName>
+            <surname>Mertens</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Geert</foreName>
+            <surname>Baggerman</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="magnet-2015-idp102568">
+            <foreName>Jan</foreName>
+            <surname>Ramon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Kris</foreName>
+            <surname>Laukens</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Lennart</foreName>
+            <surname>Martens</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Dirk</foreName>
+            <surname>Valkenborg</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03061">
+        <idno type="issn">1478-9450</idno>
+        <title level="j">Expert Review of Proteomics</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01431414" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01431414</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid34" type="article" rend="year" n="cite:celikten:hal-01406676">
+      <identifiant type="doi" value="10.1109/TBDATA.2016.2628398"/>
+      <identifiant type="hal" value="hal-01406676"/>
+      <analytic>
+        <title level="a">Modeling Urban Behavior by Mining Geotagged Social Data</title>
+        <author>
+          <persName>
+            <foreName>Emre</foreName>
+            <surname>Çelikten</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="magnet-2014-idp94552">
+            <foreName>Géraud C</foreName>
+            <surname>Le Falher</surname>
+            <initial>G. C.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael C</foreName>
+            <surname>Mathioudakis</surname>
+            <initial>M. C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03062">
+        <idno type="issn">2332-7790</idno>
+        <title level="j">IEEE Transactions on Big Data</title>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01406676" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01406676</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid30" type="inproceedings" rend="year" n="cite:braud:hal-01397318">
+      <identifiant type="hal" value="hal-01397318"/>
+      <analytic>
+        <title level="a">Learning Connective-based Word Representations for Implicit Discourse Relation Identification</title>
+        <author>
+          <persName key="alpage-2014-idp93392">
+            <foreName>Chloé</foreName>
+            <surname>Braud</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Empirical Methods on Natural Language Processing</title>
+        <loc>Austin, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01397318" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397318</ref>
+        </imprint>
+        <meeting id="cid47305">
+          <title>Conference on Empirical Methods in Natural Language Processing</title>
+          <num>2016</num>
+          <abbr type="sigle">EMNLP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid27" type="inproceedings" rend="year" n="cite:colin:hal-01329315">
+      <identifiant type="hal" value="hal-01329315"/>
+      <analytic>
+        <title level="a">Gossip Dual Averaging for Decentralized Optimization of Pairwise Functions</title>
+        <author>
+          <persName>
+            <foreName>Igor</foreName>
+            <surname>Colin</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Joseph</foreName>
+            <surname>Salmon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphan</foreName>
+            <surname>Clémençon</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Machine Learning (ICML 2016)</title>
+        <loc>New York, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01329315" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01329315</ref>
+        </imprint>
+        <meeting id="cid32516">
+          <title>International Conference on Machine Learning</title>
+          <num>33</num>
+          <abbr type="sigle">ICML</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid36" type="inproceedings" rend="year" n="cite:kuelka:hal-01422033">
+      <identifiant type="hal" value="hal-01422033"/>
+      <analytic>
+        <title level="a">Bounds for Learning from Evolutionary-Related Data in the Realizable Case</title>
+        <author>
+          <persName>
+            <foreName>Ondřej</foreName>
+            <surname>Kuželka</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuyi</foreName>
+            <surname>Wang</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="magnet-2015-idp102568">
+            <foreName>Jan</foreName>
+            <surname>Ramon</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Joint Conference on Artificial Intelligence (IJCAI)</title>
+        <loc>New York, United States</loc>
+        <title level="s">Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2016</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01422033" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01422033</ref>
+        </imprint>
+        <meeting id="cid307932">
+          <title>International Joint Conference on Artificial Intelligence</title>
+          <num>22</num>
+          <abbr type="sigle">IJCAI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid39" type="inproceedings" rend="year" n="cite:lu:hal-01329772">
+      <identifiant type="hal" value="hal-01329772"/>
+      <analytic>
+        <title level="a">A Comparison Between Deep Neural Nets and Kernel Acoustic Models for Speech Recognition</title>
+        <author>
+          <persName>
+            <foreName>Zhiyun</foreName>
+            <surname>Lu</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName>
+            <foreName>Dong</foreName>
+            <surname>Guo</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Alireza Bagheri</foreName>
+            <surname>Garakani</surname>
+            <initial>A. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Kuan</foreName>
+            <surname>Liu</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Avner</foreName>
+            <surname>May</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Linxi</foreName>
+            <surname>Fan</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Collins</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Brian</foreName>
+            <surname>Kingsbury</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Picheny</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Fei</foreName>
+            <surname>Sha</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2016)</title>
+        <loc>Shanghai, China</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01329772" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01329772</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>41</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid32" type="inproceedings" rend="year" n="cite:papa:hal-01367546">
+      <identifiant type="hal" value="hal-01367546"/>
+      <analytic>
+        <title level="a">On Graph Reconstruction via Empirical Risk Minimization: Fast Learning Rates and Scalability</title>
+        <author>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Papa</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphan</foreName>
+            <surname>Clémençon</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Annual Conference on Neural Information Processing Systems (NIPS 2016)</title>
+        <loc>Barcelone, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01367546" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01367546</ref>
+        </imprint>
+        <meeting id="cid29560">
+          <title>Annual Conference on Neural Information Processing Systems</title>
+          <num>30</num>
+          <abbr type="sigle">NIPS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid38" type="inproceedings" rend="year" n="cite:wauquier:hal-01427287">
+      <identifiant type="hal" value="hal-01427287"/>
+      <analytic>
+        <title level="a">A Metric Learning Approach for Graph-Based Label Propagation</title>
+        <author>
+          <persName key="magnet-2014-idp95792">
+            <foreName>Pauline</foreName>
+            <surname>Wauquier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="magnet-2014-idm6032">
+            <foreName>Mikaela</foreName>
+            <surname>Keller</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Workshop track of ICLR 2016</title>
+        <loc>San Juan, Puerto Rico</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01427287" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01427287</ref>
+        </imprint>
+        <meeting id="cid624026">
+          <title>International Conference on Learning Representations</title>
+          <num>2016</num>
+          <abbr type="sigle">ICLR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid31" type="techreport" rend="year" n="cite:lefalher:hal-01425137">
+      <identifiant type="hal" value="hal-01425137"/>
+      <monogr>
+        <title level="m">On the Troll-Trust Model for Edge Sign Prediction in Social Networks</title>
+        <author>
+          <persName key="magnet-2014-idp94552">
+            <foreName>Géraud</foreName>
+            <surname>Le Falher</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolò</foreName>
+            <surname>Cesa-Bianchi</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="magnet-2015-idp114040">
+            <foreName>Claudio</foreName>
+            <surname>Gentile</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="magnet-2014-idp87088">
+            <foreName>Fabio</foreName>
+            <surname>Vitale</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Lille</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01425137" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425137</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid28" type="techreport" rend="year" n="cite:vanhaesebrouck:hal-01383544">
+      <identifiant type="hal" value="hal-01383544"/>
+      <monogr>
+        <title level="m">Decentralized Collaborative Learning of Personalized Models over Networks</title>
+        <author>
+          <persName key="magnet-2016-idp153616">
+            <foreName>Paul</foreName>
+            <surname>Vanhaesebrouck</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="magnet-2014-idm10112">
+            <foreName>Marc</foreName>
+            <surname>Tommasi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Lille</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01383544" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01383544</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid29" type="misc" rend="year" n="cite:dellenbach:hal-01384148">
+      <identifiant type="hal" value="hal-01384148"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">A Decentralized and Robust Protocol for Private Averaging over Highly Distributed Data</title>
+        <author>
+          <persName key="magnet-2016-idp151104">
+            <foreName>Pierre</foreName>
+            <surname>Dellenbach</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="magnet-2015-idp102568">
+            <foreName>Jan</foreName>
+            <surname>Ramon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01384148" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01384148</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">NIPS 2016 workshop on Private Multi-Party Machine Learning</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid35" type="misc" rend="year" n="cite:celikten:hal-01295344">
+      <identifiant type="doi" value="10.1145/2872518.2901922"/>
+      <identifiant type="hal" value="hal-01295344"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">"What Is the City but the People?" Exploring Urban Activity Using Social Web Traces</title>
+        <title level="s">25th World Wide Web Conference, Demo Track</title>
+        <author>
+          <persName>
+            <foreName>Emre</foreName>
+            <surname>Çelikten</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="magnet-2014-idp94552">
+            <foreName>Géraud</foreName>
+            <surname>Le Falher</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Mathioudakis</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01295344" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01295344</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">25th World Wide Web Conference, Demo Track</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid2" type="inproceedings" rend="foot" n="footcite:AlexandrescuKirchhof2007">
+      <analytic>
+        <title level="a">Graph-based learning for phonetic classification</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Alexandrescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Katrin</foreName>
+            <surname>Kirchhoff</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">IEEE Workshop on Automatic Speech Recognition &amp; Understanding, ASRU 2007, Kyoto, Japan, December 9-13, 2007</title>
+        <imprint>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">359-364</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid16" type="inproceedings" rend="foot" n="footcite:BalcanEtAl2005">
+      <analytic>
+        <title level="a">Person Identification in Webcam Images: An Application of Semi-Supervised Learning</title>
+        <author>
+          <persName>
+            <foreName>Maria-Florina</foreName>
+            <surname>Balcan</surname>
+            <initial>M.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Avrim</foreName>
+            <surname>Blum</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Patrick Pakyan</foreName>
+            <surname>Choi</surname>
+            <initial>P. P.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Lafferty</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Brian</foreName>
+            <surname>Pantano</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Mugizi R.</foreName>
+            <surname>Rwebangira</surname>
+            <initial>M. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Xiaojin</foreName>
+            <surname>Zhu</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ICML2005 Workshop on Learning with Partially Classified Training Data</title>
+        <imprint>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid17" type="article" rend="foot" n="footcite:BelkinNiyogi2008">
+      <analytic>
+        <title level="a">Towards a Theoretical Foundation for Laplacian-Based Manifold Methods</title>
+        <author>
+          <persName>
+            <foreName>Mikhail</foreName>
+            <surname>Belkin</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Partha</foreName>
+            <surname>Niyogi</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computer and System Sciences</title>
+        <imprint>
+          <biblScope type="volume">74</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">1289-1308</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid18" type="article" rend="foot" n="footcite:BelletHabrardSebban2013">
+      <analytic>
+        <title level="a">A Survey on Metric Learning for Feature Vectors and Structured Data</title>
+        <author>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Amaury</foreName>
+            <surname>Habrard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Sebban</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">CoRR</title>
+        <imprint>
+          <biblScope type="volume">abs/1306.6709</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid19" type="book" rend="foot" n="footcite:Bellet2015c">
+      <monogr>
+        <title level="m">Metric Learning</title>
+        <author>
+          <persName key="magnet-2015-idp100064">
+            <foreName>Aurélien</foreName>
+            <surname>Bellet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Amaury</foreName>
+            <surname>Habrard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Sebban</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Morgan &amp; Claypool Publishers</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid33" type="article" rend="foot" n="footcite:Biau2006a">
+      <analytic>
+        <title level="a">Statistical Inference on Graphs</title>
+        <author>
+          <persName key="classic-2014-idp103000">
+            <foreName>Gérard</foreName>
+            <surname>Biau</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="popix-2014-idm8712">
+            <foreName>Kevin</foreName>
+            <surname>Bleakley</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Statistics &amp; Decisions</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">209–232</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid23" type="article" rend="foot" n="footcite:BickelAndChen09">
+      <analytic>
+        <title level="a">A nonparametric view of network models and Newman–Girvan and other modularities</title>
+        <author>
+          <persName>
+            <foreName>Peter J.</foreName>
+            <surname>Bickel</surname>
+            <initial>P. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Aiyou</foreName>
+            <surname>Chen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proceedings of the National Academy of Sciences</title>
+        <imprint>
+          <biblScope type="volume">106</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">21068–21073</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid24" type="book" rend="foot" n="footcite:blau1977inequality">
+      <monogr>
+        <title level="m">Inequality and Heterogeneity: A Primitive Theory of Social Structure</title>
+        <author>
+          <persName>
+            <foreName>P.M.</foreName>
+            <surname>Blau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>MACMILLAN Company</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1977</year>
+          </dateStruct>
+          <ref xlink:href="http://books.google.fr/books?id=jvq2AAAAIAAJ" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>books.<allowbreak/>google.<allowbreak/>fr/<allowbreak/>books?id=jvq2AAAAIAAJ</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid9" type="inproceedings" rend="foot" n="footcite:braud:hal-01017151">
+      <identifiant type="hal" value="hal-01017151"/>
+      <analytic>
+        <title level="a">Combining Natural and Artificial Examples to Improve Implicit Discourse Relation Identification</title>
+        <author>
+          <persName key="alpage-2014-idp93392">
+            <foreName>Chloé</foreName>
+            <surname>Braud</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">coling</title>
+        <loc>Dublin, Ireland</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01017151" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01017151</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid13" type="inproceedings" rend="foot" n="footcite:ChangYeung2006">
+      <identifiant type="doi" value="10.1109/CVPR.2006.128"/>
+      <analytic>
+        <title level="a">Graph Laplacian Kernels for Object Classification from a Single Example</title>
+        <author>
+          <persName>
+            <foreName>Hong</foreName>
+            <surname>Chang</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Dit-Yan</foreName>
+            <surname>Yeung</surname>
+            <initial>D.-Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition - Volume 2</title>
+        <loc>Washington, DC, USA</loc>
+        <title level="s">CVPR '06</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">2011–2016</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/CVPR.2006.128" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>CVPR.<allowbreak/>2006.<allowbreak/>128</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid10" type="inproceedings" rend="foot" n="footcite:chatel:hal-01017269">
+      <identifiant type="doi" value="10.1007/978-3-662-44848-9_16"/>
+      <identifiant type="hal" value="hal-01017269"/>
+      <analytic>
+        <title level="a">Fast Gaussian Pairwise Constrained Spectral Clustering</title>
+        <author>
+          <persName key="magnet-2014-idp92072">
+            <foreName>David</foreName>
+            <surname>Chatel</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="magnet-2014-idm10112">
+            <foreName>Marc</foreName>
+            <surname>Tommasi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ECML/PKDD - 7th European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</title>
+        <loc>Nancy, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">242 - 257</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01017269" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01017269</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid6" type="inproceedings" rend="foot" n="footcite:DasPetrov2011">
+      <analytic>
+        <title level="a">Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections</title>
+        <author>
+          <persName>
+            <foreName>Dipanjan</foreName>
+            <surname>Das</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Slav</foreName>
+            <surname>Petrov</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ACL</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">600-609</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid8" type="inproceedings" rend="foot" n="footcite:denis:muller:2011">
+      <identifiant type="hal" value="inria-00614765"/>
+      <analytic>
+        <title level="a">Predicting globally-coherent temporal structures from texts via endpoint inference and graph decomposition</title>
+        <author>
+          <persName key="magnet-2014-idm8680">
+            <foreName>Pascal</foreName>
+            <surname>Denis</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Muller</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">IJCAI-11 - International Joint Conference on Artificial Intelligence</title>
+        <loc>Barcelone, Espagne</loc>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00614765" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00614765</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid7" type="inproceedings" rend="foot" n="footcite:FernandesBrefeld2011">
+      <analytic>
+        <title level="a">Learning from Partially Annotated Sequences</title>
+        <author>
+          <persName>
+            <foreName>Eraldo R.</foreName>
+            <surname>Fernandes</surname>
+            <initial>E. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulf</foreName>
+            <surname>Brefeld</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ECML/PKDD</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">407-422</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid14" type="inproceedings" rend="foot" n="footcite:GoldbergZhu2006">
+      <analytic>
+        <title level="a">Seeing stars when there aren't many stars: graph-based semi-supervised learning for sentiment categorization</title>
+        <author>
+          <persName>
+            <foreName>Andrew B.</foreName>
+            <surname>Goldberg</surname>
+            <initial>A. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Xiaojin</foreName>
+            <surname>Zhu</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the First Workshop on Graph Based Methods for Natural Language Processing</title>
+        <loc>Stroudsburg, PA, USA</loc>
+        <title level="s">TextGraphs-1</title>
+        <imprint>
+          <publisher>
+            <orgName>Association for Computational Linguistics</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">45–52</biblScope>
+          <ref xlink:href="http://dl.acm.org/citation.cfm?id=1654758.1654769" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dl.<allowbreak/>acm.<allowbreak/>org/<allowbreak/>citation.<allowbreak/>cfm?id=1654758.<allowbreak/>1654769</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid22" type="book" rend="foot" n="footcite:Goldenberg2010survey">
+      <monogr>
+        <title level="m">A Survey of Statistical Network Models</title>
+        <title level="s">Foundations and trends in machine learning</title>
+        <author>
+          <persName>
+            <foreName>A</foreName>
+            <surname>Goldenberg</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>A X</foreName>
+            <surname>Zheng</surname>
+            <initial>A. X.</initial>
+          </persName>
+          <persName>
+            <foreName>S E</foreName>
+            <surname>Fienberg</surname>
+            <initial>S. E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Now Publishers</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <ref xlink:href="http://books.google.fr/books?id=gPGgcOf95moC" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>books.<allowbreak/>google.<allowbreak/>fr/<allowbreak/>books?id=gPGgcOf95moC</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid20" type="inproceedings" rend="foot" n="footcite:GomezLeskovecKrause2010">
+      <analytic>
+        <title level="a">Inferring networks of diffusion and influence</title>
+        <author>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Gomez-Rodriguez</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Jure</foreName>
+            <surname>Leskovec</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Andreas</foreName>
+            <surname>Krause</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of KDD</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">1019-1028</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid25" type="article" rend="foot" n="footcite:mcpherson2001">
+      <identifiant type="doi" value="10.1146/annurev.soc.27.1.415"/>
+      <analytic>
+        <title level="a">Birds of a Feather: Homophily in Social Networks</title>
+        <author>
+          <persName>
+            <foreName>Miller</foreName>
+            <surname>McPherson</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Lynn S</foreName>
+            <surname>Lovin</surname>
+            <initial>L. S.</initial>
+          </persName>
+          <persName>
+            <foreName>James M</foreName>
+            <surname>Cook</surname>
+            <initial>J. M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Annual Review of Sociology</title>
+        <imprint>
+          <biblScope type="volume">27</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">415–444</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1146/annurev.soc.27.1.415" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1146/<allowbreak/>annurev.<allowbreak/>soc.<allowbreak/>27.<allowbreak/>1.<allowbreak/>415</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid0" type="incollection" rend="foot" n="footcite:NenkovaMcKeown2012">
+      <analytic>
+        <title level="a">A Survey of Text Summarization Techniques</title>
+        <author>
+          <persName>
+            <foreName>Ani</foreName>
+            <surname>Nenkova</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Kathleen</foreName>
+            <surname>McKeown</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Mining Text Data</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">43-76</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid26" type="inproceedings" rend="foot" n="footcite:ricatte:hal-01017025">
+      <identifiant type="hal" value="hal-01017025"/>
+      <analytic>
+        <title level="a">Hypernode Graphs for Spectral Learning on Binary Relations over Sets</title>
+        <author>
+          <persName key="magnet-2014-idp88320">
+            <foreName>Thomas</foreName>
+            <surname>Ricatte</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="magnet-2014-idm7440">
+            <foreName>Rémi</foreName>
+            <surname>Gilleron</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="magnet-2014-idm10112">
+            <foreName>Marc</foreName>
+            <surname>Tommasi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ECML/PKDD - 7th European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</title>
+        <loc>Nancy, France</loc>
+        <title level="s">Machine Learning and Knowledge Discovery in Databases</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01017025" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01017025</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid12" type="article" rend="foot" n="footcite:ShinTsudaScholkopf2009">
+      <identifiant type="doi" value="10.1016/j.eswa.2008.01.006"/>
+      <analytic>
+        <title level="a">Protein functional class prediction with a combined graph</title>
+        <author>
+          <persName>
+            <foreName>Hyunjung</foreName>
+            <surname>Shin</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Koji</foreName>
+            <surname>Tsuda</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernhard</foreName>
+            <surname>Schölkopf</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Expert Syst. Appl.</title>
+        <imprint>
+          <biblScope type="volume">36</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">3284–3292</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.eswa.2008.01.006" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>eswa.<allowbreak/>2008.<allowbreak/>01.<allowbreak/>006</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid1" type="inproceedings" rend="foot" n="footcite:SinghEtAl2011">
+      <analytic>
+        <title level="a">Large-Scale Cross-Document Coreference Using Distributed Inference and Hierarchical Models</title>
+        <author>
+          <persName>
+            <foreName>Sameer</foreName>
+            <surname>Singh</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Amarnag</foreName>
+            <surname>Subramanya</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Fernando C. N.</foreName>
+            <surname>Pereira</surname>
+            <initial>F. C. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>McCallum</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ACL</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">793-803</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid4" type="inproceedings" rend="foot" n="footcite:SperiosuEtAl2011">
+      <analytic>
+        <title level="a">Twitter Polarity Classification with Label Propagation over Lexical Links and the Follower Graph</title>
+        <author>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Speriosu</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Nikita</foreName>
+            <surname>Sudan</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Sid</foreName>
+            <surname>Upadhyay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jason</foreName>
+            <surname>Baldridge</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the First Workshop on Unsupervised Methods in NLP</title>
+        <loc>Edinburgh, Scotland</loc>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid3" type="inproceedings" rend="foot" n="footcite:SubramanyaEtAl2010">
+      <analytic>
+        <title level="a">Efficient Graph-Based Semi-Supervised Learning of Structured Tagging Models</title>
+        <author>
+          <persName>
+            <foreName>Amarnag</foreName>
+            <surname>Subramanya</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Slav</foreName>
+            <surname>Petrov</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Fernando C. N.</foreName>
+            <surname>Pereira</surname>
+            <initial>F. C. N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">EMNLP</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">167-176</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid21" type="inproceedings" rend="foot" n="footcite:VitaleCesa-BianchiGentileZapellaNIPS2011">
+      <analytic>
+        <title level="a">See the Tree Through the Lines: The Shazoo Algorithm</title>
+        <author>
+          <persName key="magnet-2014-idp87088">
+            <foreName>Fabio</foreName>
+            <surname>Vitale</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolò</foreName>
+            <surname>Cesa-Bianchi</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="magnet-2015-idp114040">
+            <foreName>Claudio</foreName>
+            <surname>Gentile</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Giovanni</foreName>
+            <surname>Zappella</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc of NIPS</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">1584-1592</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid11" type="inproceedings" rend="foot" n="footcite:WangEtAl2011">
+      <analytic>
+        <title level="a">The Utility of Discourse Structure in Identifying Resolved Threads in Technical User Forums</title>
+        <author>
+          <persName key="morpheo-2014-idp123560">
+            <foreName>Li</foreName>
+            <surname>Wang</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Su Nam</foreName>
+            <surname>Kim</surname>
+            <initial>S. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Timothy</foreName>
+            <surname>Baldwin</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">COLING</title>
+        <imprint>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">2739-2756</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid5" type="inproceedings" rend="foot" n="footcite:LiuKirchhoff2013">
+      <analytic>
+        <title level="a">Graph-Based Semi-Supervised Learning for Phone and Segment Classification</title>
+        <author>
+          <persName>
+            <foreName>Katrin Kirchhoff</foreName>
+            <surname>Yuzong Liu</surname>
+            <initial>K. K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of Interspeech</title>
+        <loc>Lyon, France</loc>
+        <imprint>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="magnet-2016-bid15" type="inproceedings" rend="foot" n="footcite:ZhuEtAl2003">
+      <analytic>
+        <title level="a">Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions</title>
+        <author>
+          <persName>
+            <foreName>Xiaojin</foreName>
+            <surname>Zhu</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Zoubin</foreName>
+            <surname>Ghahramani</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Lafferty</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of ICML</title>
+        <imprint>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">912-919</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

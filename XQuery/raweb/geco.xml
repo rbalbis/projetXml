@@ -1,0 +1,3680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="geco" isproject="true">
+    <shortname>GECO</shortname>
+    <projectName>Geometric Control Design</projectName>
+    <theme-de-recherche>Optimization and control of dynamic systems</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>http://www.cmap.polytechnique.fr/~sigalotti/geco/geco.html</urlTeam>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole Polytechnique</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2011 May 01, updated into Project-Team: 2013 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.5. - Complex systems</term>
+      <term>5.3. - Image processing and analysis</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.4.1. - Deterministic control</term>
+      <term>6.4.3. - Observability and Controlability</term>
+      <term>6.4.4. - Stability and Stabilization</term>
+      <term>7.13. - Quantum algorithms</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.3.1. - Understanding and simulation of the brain and the nervous system</term>
+      <term>2.6. - Biological and medical imaging</term>
+      <term>9.4.2. - Mathematics</term>
+      <term>9.4.3. - Physics</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="geco-2014-idm29032">
+      <firstname>Mario</firstname>
+      <lastname>Sigalotti</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="geco-2014-idm27560">
+      <firstname>Ugo</firstname>
+      <lastname>Boscain</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="geco-2016-idp156256">
+      <firstname>Nicolas</firstname>
+      <lastname>Augier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Sep 2016</moreinfo>
+    </person>
+    <person key="geco-2016-idp158720">
+      <firstname>Mathieu</firstname>
+      <lastname>Kohli</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Sep 2016</moreinfo>
+    </person>
+    <person key="geco-2014-idp66640">
+      <firstname>Guilherme</firstname>
+      <lastname>Mazanti</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, until Aug 2016</moreinfo>
+    </person>
+    <person key="geco-2016-idp163648">
+      <firstname>Jakub</firstname>
+      <lastname>Orlowski</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Université Paris Sud, from Oct 2016</moreinfo>
+    </person>
+    <person key="geco-2015-idm6376">
+      <firstname>Ludovic</firstname>
+      <lastname>Sacchelli</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="geco-2015-idm5136">
+      <firstname>Leonardo</firstname>
+      <lastname>Suriano</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, until Mar 2016</moreinfo>
+    </person>
+    <person key="geco-2016-idp171072">
+      <firstname>Valentina</firstname>
+      <lastname>Franceschi</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Nov 2016</moreinfo>
+    </person>
+    <person key="geco-2014-idp69048">
+      <firstname>Luca</firstname>
+      <lastname>Rizzi</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from May 2016 until Sep 2016</moreinfo>
+    </person>
+    <person key="geco-2015-idp89288">
+      <firstname>Thi</firstname>
+      <lastname>Bui</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Apr 2016</moreinfo>
+    </person>
+    <person key="geco-2016-idp178496">
+      <firstname>Tiffany</firstname>
+      <lastname>Caristan</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Jun 2016</moreinfo>
+    </person>
+    <person key="commands-2014-idp73120">
+      <firstname>Jessica</firstname>
+      <lastname>Gameiro</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Motion planning is not only a crucial issue in control theory, but also a widespread task of all sort of human activities.
+The aim of the project-team is to study the various aspects preceding and framing <i>motion planning</i>: accessibility analysis (determining which configurations are attainable), criteria to make choice among possible trajectories, trajectory tracking (fixing a possibly unfeasible trajectory and following it as closely as required), performance analysis (determining the cost of a tracking strategy), design of implementable algorithms,
+robustness of a control strategy with respect to computationally motivated discretizations, etc.
+The viewpoint that we adopt comes from geometric control:
+our main interest is in
+qualitative and intrinsic properties and our focus is on trajectories (either individual ones or families of them).</p>
+      <p>The main application domain of GECO
+is <i>quantum control</i>.
+The importance of designing efficient transfers between
+different
+atomic or molecular levels in atomic and molecular physics
+is due to its applications to
+photochemistry (control by laser pulses of chemical reactions), nuclear magnetic resonance (control by a magnetic field of spin dynamics)
+and, on a more distant time horizon,
+the strategic
+domain of
+quantum computing.</p>
+      <p>A second application area
+concerns the control interpretation of phenomena appearing in <i>neurophysiology</i>.
+It studies
+the modeling of the mechanisms supervising
+some biomechanics actions or sensorial reactions such as image reconstruction by the primary visual cortex, eyes movement and body
+motion.
+All these problems can be seen as motion planning
+tasks accomplished by the brain.</p>
+      <p>As a third applicative domain we propose
+a system dynamics approach to <i>switched systems</i>.
+Switched systems are characterized by
+the interaction of continuous dynamics (physical system) and
+discrete/logical components.
+They provide a popular modeling framework for
+heterogeneous aspects
+issuing from
+automotive and transportation industry, energy
+management and factory automation.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Geometric control theory</bodyTitle>
+      <p>The main research topic of the project-team is
+<b>geometric control</b>, with a special focus on <b>control design</b>.
+The application areas that we target are control of
+quantum mechanical systems,
+neurogeometry and
+switched
+systems.</p>
+      <p>Geometric control theory provides a viewpoint and several tools, issued in particular from
+differential geometry, to tackle
+typical questions arising in the control framework:
+controllability, observability, stabilization, optimal control... <ref xlink:href="#geco-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> The geometric control approach is particularly well suited
+for systems involving
+nonlinear and nonholonomic
+phenomena.
+We recall that nonholonomicity
+refers to the property of
+a velocity constraint that is not equivalent to a state constraint.</p>
+      <p>The expression <b>control design</b> refers here to all phases of the
+construction of a control law, in a mainly open-loop perspective:
+modeling, controllability analysis, output tracking, motion planning, simultaneous control algorithms, tracking algorithms,
+performance comparisons for control and tracking algorithms, simulation and implementation.</p>
+      <p>We recall that</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true"><b>controllability</b> denotes the property of a system for which any two states can be connected by a trajectory corresponding to an admissible control law ;</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true"><b>output tracking</b> refers to a control strategy aiming at keeping the value of some functions of the state arbitrarily close to a prescribed time-dependent profile. A typical example is <b>configuration tracking</b> for a mechanical system, in which the controls act as forces and
+one prescribes the position variables along the trajectory, while the evolution of the momenta is free. One can think for instance at the lateral movement of a car-like vehicle: even if such a movement is unfeasible, it can be tracked with arbitrary precision by applying a suitable control strategy;</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true"><b>motion planning</b> is the expression usually denoting the algorithmic strategy for selecting one control law steering the system from a given initial state to an attainable final one;</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true"><b>simultaneous control</b> concerns algorithms that aim at driving the system from two different initial conditions, with the same control law and over the same time interval, towards two given final states (one can think, for instance, at some control action on a fluid whose goal is to steer simultaneously two floating bodies.)
+Clearly, the study of which pairs (or <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>-uples) of states can be simultaneously connected thanks to an admissible control requires an additional controllability analysis with respect to the plain controllability mentioned above.</p>
+        </li>
+      </simplelist>
+      <p>At the core of control design is then the notion of motion planning.
+Among the motion planning methods,
+a preeminent role is played by
+those based on the Lie algebra associated with the control system
+( <ref xlink:href="#geco-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), those exploiting the possible flatness of the system ( <ref xlink:href="#geco-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) and those based on the continuation method ( <ref xlink:href="#geco-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+Optimal control is clearly another method for choosing a control law connecting two states, although it generally introduces new computational and theoretical difficulties.</p>
+      <p>Control systems with special structure, which are very important for applications
+are those for which the controls appear linearly. When the controls are not bounded, this means that the admissible velocities form a distribution in the tangent bundle to the state manifold. If the distribution is equipped with a smoothly varying norm (representing a cost of the control), the resulting geometrical structure is called
+<i>sub-Riemannian</i>.
+Sub-Riemannian geometry thus appears as the underlying geometry of the nonholonomic control systems, playing the same role as Euclidean geometry for linear systems. As such, its study is fundamental for control design. Moreover its importance goes far beyond control theory and is an active field of research both in differential geometry ( <ref xlink:href="#geco-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), geometric measure theory ( <ref xlink:href="#geco-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) and hypoelliptic operator theory ( <ref xlink:href="#geco-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>Other important classes of control systems are those
+modeling mechanical systems.
+The dynamics are naturally defined on the tangent or cotangent bundle of the configuration manifold, they have Lagrangian or Hamiltonian structure, and the controls act as forces. When the controls appear linearly, the resulting model can be seen somehow as a second-order sub-Riemannian structure (see <ref xlink:href="#geco-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>The control design topics presented above naturally extend to the case of distributed parameter control systems. The geometric approach to control systems governed by
+partial differential equations is a novel subject with great potential. It could
+complement purely analytical and numerical approaches, thanks to its more dynamical, qualitative and intrinsic point of view.
+An interesting example of this approach is the paper <ref xlink:href="#geco-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> about the controllability of Navier–Stokes equation by low forcing modes.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid10">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Quantum control</bodyTitle>
+      <p>The issue of designing efficient transfers between
+different
+atomic or molecular levels is crucial in atomic and molecular physics,
+in particular because of its importance in those fields such as
+photochemistry (control by laser pulses of chemical reactions), nuclear magnetic resonance (NMR, control by a magnetic field of spin dynamics)
+and, on a more distant time horizon,
+the strategic
+domain of
+quantum computing.
+This last application
+explicitly relies on the design
+of quantum gates, each of them being, in essence,
+an open loop
+control law devoted to a prescribed
+simultaneous control action. NMR is one of the most promising techniques for the implementation of a quantum computer.</p>
+      <p>Physically, the control action
+is realized by
+exciting the quantum system
+by means of one or several external fields, being them magnetic or electric fields.
+The resulting control problem has attracted increasing attention,
+especially among quantum physicists and chemists (see, for instance, <ref xlink:href="#geco-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+The rapid evolution of the domain is driven by
+a multitude of
+experiments getting more and more precise and complex (see the recent review <ref xlink:href="#geco-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Control strategies have been proposed and implemented, both on numerical simulations and on physical systems,
+but there is still a large gap to fill before
+getting a complete picture of the control properties of quantum systems. Control techniques should necessarily be
+innovative, in order to take into account the physical peculiarities of the model and the specific experimental constraints.</p>
+      <p>The area where the picture got clearer
+is given by finite dimensional linear closed models.</p>
+      <simplelist>
+        <li id="uid12">
+          <p noindent="true"><b>Finite dimensional</b> refers to the dimension of the space of wave functions, and, accordingly, to the finite number of energy levels.</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true"><b>Linear</b> means that the evolution of the system for a fixed (constant in time) value of the control is determined by a linear vector field.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true"><b>Closed</b> refers to the fact that the systems are assumed to be totally disconnected from
+the environment, resulting in the conservation of
+the norm of the wave function.</p>
+        </li>
+      </simplelist>
+      <p>The resulting
+model
+is well suited for describing spin systems and also arises naturally when infinite dimensional quantum systems of the type discussed below are replaced
+by their finite dimensional Galerkin approximations.
+Without seeking exhaustiveness, let us mention some
+of the issues that have been tackled for finite dimensional linear closed quantum systems:</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">controllability <ref xlink:href="#geco-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">bounds on the controllability time <ref xlink:href="#geco-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">STIRAP processes <ref xlink:href="#geco-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">simultaneous control <ref xlink:href="#geco-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">optimal control ( <ref xlink:href="#geco-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>),</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">numerical simulations <ref xlink:href="#geco-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+      </simplelist>
+      <p>Several of these results use suitable transformations or approximations (for instance the so-called rotating wave) to reformulate the finite-dimensional Schrödinger equation as a sub-Riemannian system.
+Open systems have also been the object of an intensive
+research activity (see, for instance, <ref xlink:href="#geco-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>In the case where the state space is infinite dimensional,
+some optimal control results are known (see, for instance, <ref xlink:href="#geco-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+The controllability issue is less understood than in the finite dimensional setting, but
+several advances should be mentioned.
+First of all, it is known
+that one cannot expect exact controllability on the whole Hilbert sphere <ref xlink:href="#geco-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Moreover, it has been shown that a relevant model, the quantum oscillator, is not even approximately controllable <ref xlink:href="#geco-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+These negative results have been more recently completed by positive ones.
+In <ref xlink:href="#geco-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+Beauchard and Coron obtained the first positive controllability result for a quantum particle in a 1D potential well.
+The result is highly nontrivial and is based on Coron's return method (see <ref xlink:href="#geco-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+Exact controllability is proven to hold among regular enough wave functions. In particular, exact controllability among eigenfunctions of the uncontrolled Schrödinger operator can be achieved. Other important approximate controllability results have then been proved using Lyapunov methods <ref xlink:href="#geco-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. While <ref xlink:href="#geco-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> studies a controlled Schrödinger equation in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ℝ</mi></math></formula> for which the uncontrolled Schrödinger operator has mixed spectrum, <ref xlink:href="#geco-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> deal mainly with general discrete-spectrum Schrödinger operators.</p>
+      <p>In all the positive results recalled in the previous paragraph, the quantum system is steered by a single external field.
+Different techniques can be applied in the case of two or more external fields, leading to additional controllability results
+<ref xlink:href="#geco-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid42" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The picture is even
+less clear for
+nonlinear models, such as Gross–Pitaevski and Hartree–Fock
+equations. The obstructions to exact controllability, similar to the ones mentioned in the linear case, have been discussed in <ref xlink:href="#geco-2016-bid43" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Optimal control approaches have also been considered <ref xlink:href="#geco-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid45" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A comprehensive controllability analysis of such models is probably
+a long way away.</p>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Neurophysiology</bodyTitle>
+      <p>At the interface between
+neurosciences, mathematics, automatics and humanoid robotics,
+an entire new approach to neurophysiology is emerging.
+It arouses a strong interest in the four communities and its development requires
+a joint effort and the sharing of complementary tools.</p>
+      <p>A family of extremely interesting problems concerns
+the understanding of the mechanisms supervising
+some sensorial reactions or biomechanics actions such as image reconstruction by the primary visual cortex, eyes movement and body
+motion.</p>
+      <p>In order to study these phenomena, a promising approach consists in
+identifying the motion planning
+problems undertaken by the brain, through the analysis of the
+strategies that it applies when
+challenged by external inputs. The role of control is that of a
+language allowing to read and model neurological phenomena.
+The control algorithms would shed new light on the brain's geometric perception (the
+so-called neurogeometry <ref xlink:href="#geco-2016-bid46" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+and on the functional organization
+of the motor pathways.</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">A challenging problem is that of the understanding of
+the mechanisms which are responsible for the process of image reconstruction
+in the primary visual cortex V1.</p>
+          <p>The visual cortex areas composing V1 are notable for their complex
+spatial organization and their functional
+diversity.
+Understanding and describing their architecture requires sophisticated
+modeling
+tools.
+At the same time, the structure of the natural and
+artificial images used in visual psychophysics can be fully
+disclosed only using rather deep geometric concepts. The word
+“geometry" refers here to the internal geometry of the
+functional architecture of visual cortex areas (not to the geometry of
+the Euclidean external space). Differential geometry and analysis
+both play a fundamental role in the description of the structural
+characteristics of visual perception.</p>
+          <p>A model of human perception based on a simplified description of the
+visual cortex V1, involving geometric objects typical of control theory
+and sub-Riemannian geometry, has been first proposed
+by Petitot ( <ref xlink:href="#geco-2016-bid47" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) and then modified by
+Citti and Sarti ( <ref xlink:href="#geco-2016-bid48" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The model is based on
+experimental observations, and in particular on the fundamental work
+by Hubel and Wiesel <ref xlink:href="#geco-2016-bid49" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> who received the Nobel prize in 1981.</p>
+          <p>In this model, neurons of V1 are grouped into orientation columns,
+each of them being sensitive to visual stimuli arriving at a given point of the
+retina and oriented along a given direction. The retina is modeled by the real
+plane, while the directions at a given point are modeled by the
+projective line. The fiber bundle having as base the real plane and
+as fiber the projective line is called the <i>bundle of directions of
+the plane</i>.</p>
+          <p>From the neurological point of view, orientation columns are in turn
+grouped into hypercolumns, each of them sensitive to stimuli arriving at a
+given point, oriented along any direction. In the same hypercolumn, relative to a
+point of the plane, we also find neurons that are sensitive to other
+stimuli properties, such as colors.
+Therefore, in this model the visual cortex treats an image not as a
+planar object, but as a set of points in the bundle of directions of the
+plane.
+The reconstruction is then realized by minimizing the energy necessary
+to activate orientation columns among those which are not activated directly by
+the image.
+This gives rise to a sub-Riemannian problem on the bundle of directions
+of the plane.</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Another class of challenging problems
+concern the
+functional organization
+of the motor pathways.</p>
+          <p>The interest in establishing a model of the motor pathways, at the
+same time mathematically rigorous and biologically plausible,
+comes from the possible spillovers in robotics and neurophysiology.
+It could help
+to
+design better control strategies for robots and artificial limbs, yielding smoother and more progressive
+movements.
+Another underlying relevant societal goal (clearly beyond our domain of expertise)
+is to clarify the mechanisms of
+certain debilitating troubles
+such as cerebellar disease, chorea and Parkinson's disease.</p>
+          <p>A key issue in order to
+establish a model of the motor pathways is to
+determine the criteria underlying the brain's choices.
+For instance, for the problem of
+human locomotion (see <ref xlink:href="#geco-2016-bid50" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), identifying such criteria would be crucial to understand the neural
+pathways implicated in the generation of locomotion
+trajectories.</p>
+          <p>A nowadays widely accepted paradigm is
+that, among all possible movements, the
+accomplished ones satisfy suitable optimality criteria
+(see <ref xlink:href="#geco-2016-bid51" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for a review). One is then led to study an
+inverse optimal control problem: starting from a database of
+experimentally recorded movements, identify a cost function such that
+the corresponding optimal solutions are compatible with the observed
+behaviors.</p>
+          <p>Different methods have been taken into account in the
+literature to tackle this kind of problems, for instance in the linear
+quadratic case <ref xlink:href="#geco-2016-bid52" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> or for Markov processes <ref xlink:href="#geco-2016-bid53" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+However all these methods
+have been conceived for very specific systems and they are not
+suitable in the general case.
+Two approaches are possible to overcome this difficulty. The direct approach consists in choosing
+a cost function among a class of functions naturally adapted to the
+dynamics (such as energy functions) and to compare the solutions of
+the corresponding optimal control problem to the experimental data. In
+particular one needs to compute, numerically or analytically, the
+optimal trajectories and to choose suitable criteria (quantitative
+and qualitative) for the comparison with observed trajectories.
+The inverse approach consists in deriving the cost function from the
+qualitative analysis of the data.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Switched systems</bodyTitle>
+      <p>Switched systems form a subclass of hybrid systems, which themselves constitute a key growth area in automation and communication technologies with a broad
+range of applications. Existing and emerging areas include automotive and transportation industry, energy
+management and factory automation.
+The notion of hybrid systems
+provides a framework adapted to the description
+of the heterogeneous aspects related to the interaction of continuous dynamics (physical system) and
+discrete/logical components.</p>
+      <p>The characterizing feature of switched systems is
+the collective aspect of the dynamics.
+A typical question is that of
+stability, in which one wants to determine whether a dynamical system whose evolution is
+influenced by a time-dependent signal is uniformly stable
+with respect to all signals in a fixed class ( <ref xlink:href="#geco-2016-bid54" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>The theory of finite-dimensional hybrid and switched systems has been the subject of
+intensive research in the last decade and a large number of diverse and challenging problems such as stabilizability, observability, optimal control and synchronization have been
+investigated (see for instance <ref xlink:href="#geco-2016-bid55" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid56" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>The question of stability, in particular, because of its
+relevance for applications, has spurred a rich literature. Important contributions
+concern the notion of common Lyapunov function: when there exists a Lyapunov function that decays along all possible modes of the system (that is, for every possible constant value of the signal), then the system is uniformly asymptotically stable. Conversely, if the system is stable uniformly with respect to all signals switching in an arbitrary way, then a common Lyapunov function exists <ref xlink:href="#geco-2016-bid57" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+In the <i>linear</i> finite-dimensional case,
+the existence of a common Lyapunov function
+is actually equivalent to the
+global uniform exponential
+stability of the system <ref xlink:href="#geco-2016-bid58" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and, provided that the admissible modes are finitely many,
+the Lyapunov function can be taken polyhedral or polynomial
+<ref xlink:href="#geco-2016-bid59" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid60" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid61" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A special role in the switched control literature has been played by common
+quadratic Lyapunov functions, since their existence can be tested rather efficiently (see <ref xlink:href="#geco-2016-bid62" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and references therein).
+Algebraic approaches to prove the stability of switched systems under arbitrary switching, not relying on Lyapunov techniques, have been proposed in <ref xlink:href="#geco-2016-bid63" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid64" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Other interesting issues concerning the stability of switched systems arise when, instead of considering arbitrary switching, one restricts the class of admissible signals, by imposing, for instance, a dwell time constraint <ref xlink:href="#geco-2016-bid65" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Another rich area of research concerns discrete-time switched systems, where new intriguing phenomena
+appear, preventing the algebraic characterization of stability even for small dimensions of the state space <ref xlink:href="#geco-2016-bid66" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It is known that, in this context, stability cannot be tested on periodic signals alone
+<ref xlink:href="#geco-2016-bid67" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Finally, let us mention
+that little is known about
+infinite-dimensional switched system, with the exception of
+some results on uniform asymptotic stability
+( <ref xlink:href="#geco-2016-bid68" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid69" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid70" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+and some recent papers on optimal control ( <ref xlink:href="#geco-2016-bid71" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#geco-2016-bid72" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid25">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>The European Research Council (ERC) has awarded
+Ugo Boscain with a “Proof of concept grant" for his project
+<i>An Artificial Visual Cortex for Image Processing</i>.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid27">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid28" level="1">
+      <bodyTitle>ARTIV1 INPAINTING</bodyTitle>
+      <p>ARTIV1 INPAINTING</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p><i>ARTIV1 INPAINTING</i> is a software for reconstruction of corrupted and damaged images. One of the main features of the algorithm on which the software is based is that it does not require any information about the location and character of the corrupted places. Another important advantage is that this method is massively parallelizable, this allows to work with sufficiently large images. Theoretical background of the presented method is based on the model of geometry of vision due to Petitot, Citti and Sarti. The main step is numerical solution of the equation of 3D hypoelliptic diffusion.
+A new version of the software has just be submitted for protection at APP (Agence pour la protection des programmes).</p>
+      <simplelist>
+        <li id="uid29">
+          <p noindent="true">Contact: Ugo Boscain</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid30">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid31" level="1">
+      <bodyTitle>New results: geometric control</bodyTitle>
+      <p>Let us list some new results in sub-Riemannian geometry and hypoelliptic diffusion obtained by GECO's
+members.</p>
+      <simplelist>
+        <li id="uid32">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid73" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we compare different notions of curvature on contact sub-Riemannian manifolds. In particular we introduce canonical curvatures as the coefficients of the sub-Riemannian Jacobi equation. The main result is that all these coefficients are encoded in the asymptotic expansion of the horizontal derivatives of the sub-Riemannian distance. We explicitly compute their expressions in terms of the standard tensors of contact geometry. As an application of these results, we obtain a sub-Riemannian version of the Bonnet-Myers theorem that applies to any contact manifold.</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid74" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we provide the small-time heat kernel asymptotics at the cut locus in three relevant cases: generic low-dimensional Riemannian manifolds, generic 3D contact sub-Riemannian manifolds (close to the starting point) and generic 4D quasi-contact sub-Riemannian manifolds (close to a generic starting point). As a byproduct, we show that, for generic low-dimensional Riemannian manifolds, the only singularities of the exponential map, as a Lagragian map, that can arise along a minimizing geodesic are <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>A</mi><mn>3</mn></msub></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>A</mi><mn>5</mn></msub></math></formula>
+(in Arnol'd's classification). We show that in the non-generic case, a cornucopia of asymptotics can occur, even for Riemannian surfaces.</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid75" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we study the evolution of the heat and of a free quantum particle (described by the Schrödinger equation) on two-dimensional manifolds endowed with the degenerate Riemannian metric <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>x</mi><mo>|</mo></mrow><mrow><mo>-</mo><mn>2</mn><mi>α</mi></mrow></msup><mi>d</mi><msup><mi>θ</mi><mn>2</mn></msup></mrow></math></formula>, where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>x</mi><mo>∈</mo><mi>ℝ</mi></mrow></math></formula>, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>θ</mi><mo>∈</mo><msup><mi>S</mi><mn>1</mn></msup></mrow></math></formula> and the parameter <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>∈</mo><mi>ℝ</mi></mrow></math></formula>. For <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>≤</mo><mo>-</mo><mn>1</mn></mrow></math></formula> this metric describes cone-like manifolds (for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>=</mo><mo>-</mo><mn>1</mn></mrow></math></formula> it is a flat cone). For <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math></formula> it is a cylinder. For <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>≥</mo><mn>1</mn></mrow></math></formula> it is a Grushin-like metric. We show that the Laplace-Beltrami operator <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>Δ</mi></math></formula> is essentially self-adjoint if and only if <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>∉</mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math></formula>. In this case the only self-adjoint extension is the Friedrichs extension <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>F</mi></msub></math></formula>, that does not allow communication through the singular set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>{</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>}</mo></mrow></math></formula> both for the heat and for a quantum particle. For <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>∈</mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>]</mo></mrow></math></formula> we show that for the Schrödinger equation only the average on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>θ</mi></math></formula> of the wave function can cross the singular set, while the solutions of the only Markovian extension of the heat equation (which indeed is <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>F</mi></msub></math></formula>) cannot. For <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>∈</mo><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math></formula> we prove that there exists a canonical self-adjoint extension <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>N</mi></msub></math></formula>, called bridging extension, which is Markovian and allows the complete communication through the singularity (both of the heat and of a quantum particle). Also, we study the stochastic completeness (i.e., conservation of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>L</mi><mn>1</mn></msup></math></formula> norm for the heat equation) of the Markovian extensions <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>F</mi></msub></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>B</mi></msub></math></formula>, proving that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>F</mi></msub></math></formula> is stochastically complete at the singularity if and only if <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>≤</mo><mo>-</mo><mn>1</mn></mrow></math></formula>, while <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Δ</mi><mi>B</mi></msub></math></formula> is always stochastically complete at the singularity.</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid76" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we study spectral properties of the Laplace–Beltrami operator on two relevant almost-Riemannian manifolds, namely the Grushin structures on the cylinder and on the sphere. As for general almost-Riemannian structures (under certain technical hypothesis), the singular set acts as a barrier for the evolution of the heat and of a quantum particle, although geodesics can cross it. This is a consequence of the self-adjointness of the Laplace–Beltrami operator on each connected component of the manifolds without the singular set. We get explicit descriptions of the spectrum, of the eigenfunctions and their properties. In particular in both cases we get a Weyl law with dominant term <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>E</mi><mo form="prefix">log</mo><mi>E</mi></mrow></math></formula>. We then study the effect of an Aharonov-Bohm non-apophantic magnetic potential that has a drastic effect on the spectral properties. Other generalized Riemannian structures including conic and anti-conic type manifolds are also studied. In this case, the Aharonov-Bohm magnetic potential may affect the self-adjointness of the Laplace-Beltrami operator.</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">Generic singularities of line fields have been studied for lines of principal curvature of embedded surfaces. In <ref xlink:href="#geco-2016-bid77" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we propose an approach to classify generic singularities of general line fields on 2D manifolds. The idea is to identify line fields as bisectors of pairs of vector fields on the manifold, with respect to a given conformal structure. The singularities correspond to the zeros of the vector fields and the genericity is considered with respect to a natural topology in the space of pairs of vector fields. Line fields at generic singularities turn out to be topologically equivalent to the Lemon, Star and Monstar singularities that one finds at umbilical points.</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid78" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we prove that any corank 1 Carnot group of dimension <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math></formula> equipped with a left-invariant measure satisfies the measure contraction property <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi> MCP </mi><mo>(</mo><mi>K</mi><mo>,</mo><mi>N</mi><mo>)</mo></mrow></math></formula> if and only if <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>K</mi><mo>≤</mo><mn>0</mn></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>≥</mo><mi>k</mi><mo>+</mo><mn>3</mn></mrow></math></formula>. This generalizes the well known result by Juillet for the Heisenberg group <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>H</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msup></math></formula> to a larger class of structures, which admit non-trivial abnormal minimizing curves. The number <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>+</mo><mn>3</mn></mrow></math></formula> coincides with the geodesic dimension of the Carnot group, which we define here for a general metric space. We discuss some of its properties, and its relation with the curvature exponent (the least <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> such that the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi> MCP </mi><mo>(</mo><mn>0</mn><mo>,</mo><mi>N</mi><mo>)</mo></mrow></math></formula> is satisfied). We prove that, on a metric measure space, the curvature exponent is always larger than the geodesic dimension which, in turn, is larger than the Hausdorff one. When applied to Carnot groups, our results improve a previous lower bound due to Rifford. As a byproduct, we prove that a Carnot group is ideal if and only if it is fat.</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid79" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we relate some basic constructions of stochastic analysis to differential geometry, via random walk approximations. We consider walks on both Riemannian and sub-Riemannian manifolds in which the steps consist of travel along either geodesics or integral curves associated to orthonormal frames, and we give particular attention to walks where the choice of step is influenced by a volume on the manifold. A primary motivation is to explore how one can pass, in the parabolic scaling limit, from geodesics, orthonormal frames, and/or volumes to diffusions, and hence their infinitesimal generators, on sub-Riemannian manifolds, which is interesting in light of the fact that there is no completely canonical notion of sub-Laplacian on a general sub-Riemannian manifold. However, even in the Riemannian case, this random walk approach illuminates the geometric significance of Ito and Stratonovich stochastic differential equations as well as the role played by the volume.</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">By adapting a technique of Molchanov, we obtain in <ref xlink:href="#geco-2016-bid80" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> the heat kernel asymptotics at the sub-Riemannian cut locus, when the cut points are reached by a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula>-dimensional parametric family of optimal geodesics. We apply these results to the bi-Heisenberg group, that is, a nilpotent left-invariant sub-Riemannian structure on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>ℝ</mi><mn>5</mn></msup></math></formula> depending on two real parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>α</mi><mn>1</mn></msub></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>α</mi><mn>2</mn></msub></math></formula>. We develop some results about its geodesics and heat kernel associated to its sub-Laplacian and we point out some interesting geometric and analytic features appearing when one compares the isotropic (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>α</mi><mn>1</mn></msub><mo>=</mo><msub><mi>α</mi><mn>2</mn></msub></mrow></math></formula>) and the non-isotropic cases (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>α</mi><mn>1</mn></msub><mo>≠</mo><msub><mi>α</mi><mn>2</mn></msub></mrow></math></formula>). In particular, we give the exact structure of the cut locus, and we get the complete small-time asymptotics for its heat kernel.</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">The Whitney extension theorem is a classical result in analysis giving a necessary and sufficient condition for a function defined on a closed set to be extendable to the whole space with a given class of regularity. It has been adapted to several settings, among which the one of Carnot groups. However, the target space has generally been assumed to be equal to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>ℝ</mi><mi>d</mi></msup></math></formula> for some <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>d</mi><mo>≥</mo><mn>1</mn></mrow></math></formula>. We focus in <ref xlink:href="#geco-2016-bid81" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> on the extendability problem for general ordered pairs <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><msub><mi>G</mi><mn>1</mn></msub><mo>,</mo><msub><mi>G</mi><mn>2</mn></msub><mo>)</mo></mrow></math></formula> (with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>G</mi><mn>2</mn></msub></math></formula> non-Abelian). We analyze in particular the case <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>=</mo><mi>ℝ</mi></mrow></math></formula> and characterize the groups <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>G</mi><mn>2</mn></msub></math></formula> for which the Whitney extension property holds, in terms of a newly introduced notion that we call pliability. Pliability happens to be related to rigidity as defined by Bryant an Hsu. We exploit this relation in order to provide examples of non-pliable Carnot groups, that is, Carnot groups so that the Whitney extension property does not hold. We use geometric control theory results on the accessibility of control affine systems in order to test the pliability of a Carnot group.</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid82" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we study the cut locus of the free, step two Carnot groups <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>G</mi><mi>k</mi></msup></math></formula> with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> generators, equipped with their left-invariant Carnot–Carathéodory metric. In particular, we disprove the conjectures on the shape of the cut loci proposed in the literature, by exhibiting sets of cut points <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>C</mi><mo>⊂</mo><msup><mi>G</mi><mi>k</mi></msup></mrow></math></formula> which, for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>≥</mo><mn>4</mn></mrow></math></formula>, are strictly larger than conjectured ones. Furthermore, we study the relation of the cut locus with the so-called abnormal set. For each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>≥</mo><mn>4</mn></mrow></math></formula>, we show that, contrarily to the case <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math></formula>, the cut locus always intersects the abnormal set, and there are plenty of abnormal geodesics with finite cut time. Finally, and as a straightforward consequence of our results, we derive an explicit lower bound for the small time heat kernel asymptotics at the points of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula>. The question whether <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> coincides with the cut locus for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>≥</mo><mn>4</mn></mrow></math></formula> remains open.</p>
+        </li>
+      </simplelist>
+      <p>We also edited the two volumes <ref xlink:href="#geco-2016-bid83" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#geco-2016-bid84" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, containing some of the lecture notes of the courses given during the IHP triemster on “Geometry, Analysis and Dynamics on sub-Riemannian Manifolds” which we organized in Fall 2014. The second volume also contains a chapter
+<ref xlink:href="#geco-2016-bid85" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> co-authored by members of the team.</p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>New results: quantum control</bodyTitle>
+      <simplelist>
+        <li id="uid43">
+          <p noindent="true">In recent years, several sufficient conditions for the controllability of the Schrödinger equation have been proposed. In <ref xlink:href="#geco-2016-bid86" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we discuss the genericity of these conditions with respect to the variation of the controlled or the uncontrolled potential. In the case where the Schrödinger equation is set on a domain of dimension one, we improve the results in the literature, removing from the previously known genericity results some unnecessary technical assumptions on the regularity of the potentials.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>New results: neurophysiology</bodyTitle>
+      <p>In <ref xlink:href="#geco-2016-bid87" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we propose a supervised object recognition method using new global features and inspired by the model of the human primary visual cortex V1 as the semidiscrete roto-translation group <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mtext>SE</mtext><mrow><mo>(</mo><mn>2</mn><mo>,</mo><mi>N</mi><mo>)</mo></mrow><mo>=</mo><msub><mi>ℤ</mi><mi>N</mi></msub><mo>⋊</mo><msup><mi>ℝ</mi><mn>2</mn></msup></mrow></math></formula>. The proposed technique is based on generalized Fourier descriptors on the latter group, which are invariant to natural geometric transformations (rotations, translations). These descriptors are then used to feed an SVM classifier. We have tested our method against the COIL-100 image database and the ORL face database, and compared it with other techniques based on traditional descriptors, global and local. The obtained results have shown that our approach looks extremely efficient and stable to noise, in presence of which it outperforms the other techniques it has been compared with.</p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>New results: switched systems</bodyTitle>
+      <simplelist>
+        <li id="uid46">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid88" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we address the exponential stability of a system of transport equations with intermittent damping on a network of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>≥</mo><mn>2</mn></mrow></math></formula> circles intersecting at a single point <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>O</mi></math></formula>. The <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> equations are coupled through a linear mixing of their values at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>O</mi></math></formula>, described by a matrix <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>M</mi></math></formula>. The activity of the intermittent damping is determined by persistently exciting signals, all belonging to a fixed class. The main result is that, under suitable hypotheses on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>M</mi></math></formula> and on the rationality of the ratios between the lengths of the circles, such a system is exponentially stable, uniformly with respect to the persistently exciting signals. The proof relies on a representation formula for the solutions of this system, which allows one to track down the effects of the intermittent damping.
+A similar representation formula is used in <ref xlink:href="#geco-2016-bid89" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> to study the relative controllability of linear difference equations with multiple delays in the state. Thanks to such formula, we characterize relative controllability in time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula> in terms of an algebraic property of the matrix-valued coefficients, which reduces to the usual Kalman controllability criterion in the case of a single delay. Relative controllability is studied for solutions in the set of all functions and in the function spaces <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>L</mi><mi>p</mi></msup></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>C</mi><mi>k</mi></msup></math></formula>. We also compare the relative controllability of the system for different delays in terms of their rational dependence structure, proving that relative controllability for some delays implies relative controllability for all delays that are “less rationally dependent" than the original ones. Finally, we provide an upper bound on the minimal controllability time for a system depending only on its dimension and on its largest delay.</p>
+        </li>
+        <li id="uid47">
+          <p noindent="true">In <ref xlink:href="#geco-2016-bid90" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we address the stability of transport systems and wave propagation on general networks with time-varying parameters. We do so by reformulating these systems as non-autonomous difference equations and by providing a suitable representation of their solutions in terms of their initial conditions and some time-dependent matrix coefficients. This enables us to characterize the asymptotic behavior of solutions in terms of such coefficients. In the case of difference equations with arbitrary switching, we obtain a delay-independent generalization of the well-known criterion for autonomous systems due to Hale and Silkowski. As a consequence, we show that exponential stability of transport systems and wave propagation on networks is robust with respect to variations of the lengths of the edges of the network preserving their rational dependence structure. This leads to our main result: the wave equation on a network with arbitrarily switching damping at external vertices is exponentially stable if and only if the network is a tree and the damping is bounded away from zero at all external vertices but at most one.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </resultats>
+  <partenariat id="uid48">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <simplelist>
+        <li id="uid50">
+          <p noindent="true">Project <i>Stabilité des systèmes à excitation persistante</i>, Program MathIng, Labex LMH, 2013-2016.
+This project is about different stability properties for systems whose damping is intermittently activated.
+The coordinator is Mario Sigalotti. The other members are Yacine Chitour and Guilherme Mazanti.</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">iCODE is the Institute for Control and Decision of the Idex Paris Saclay.
+It was launched in March 2014 for two years until June 2016.
+We have been involved in three actions funded by iCODE:</p>
+          <simplelist>
+            <li id="uid52">
+              <p noindent="true">one action on control of quantum systems, in collaboration with Nicoals Boulant of Neurospin. The action was coordinated by Ugo Boscain;</p>
+            </li>
+            <li id="uid53">
+              <p noindent="true">one action on control of wave propagation on networks. The action was coordinated by Mario Sigalotti;</p>
+            </li>
+            <li id="uid54">
+              <p noindent="true">one action on switched system. The action was coordinated by Marianne Akian (and handled by MAXPLUS).</p>
+            </li>
+          </simplelist>
+          <p>Starting from November 2016, iCODE has been renewed for three years as a IRS (<i>Institut de Recherche Strategique</i>) by the Idex Paris Saclay. The funded actions have still not been identified.</p>
+        </li>
+        <li id="uid55">
+          <p noindent="true">Starting from the end of 2015, we obtained a grant by PGMO (Gaspard Monge Program for Optimisation and operational research) on Geometric Optimal Control. The grant duration is one year, has been renewed in 2016 and is still renewable for a third year. The grant is coordinated by Mario Sigalotti (up to August, it was co-coordinated by Luca Rizzi as well).</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid57" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p>The ANR SRGI starts at the end of 2015, for a duration of four years. GECO is one of one of the partners of the ANR. The national coordinator is Emmanuel Trélat (UPMC) and the local one Ugo Boscain.</p>
+        <p>SRGI deals with sub-Riemannian geometry, hypoelliptic diffusion and geometric control.</p>
+      </subsection>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Other initiatives</bodyTitle>
+        <p>Ugo Boscain and Mario Sigalotti are members of the project DISQUO of the program Inphyniti of the CNRS (duration: one year renewable). Coordinator: Thomas Chambrion (Nancy).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid60" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <sanspuceslist>
+          <li id="uid61">
+            <p noindent="true">Program: ERC Starting Grant</p>
+          </li>
+          <li id="uid62">
+            <p noindent="true">Project acronym: GeCoMethods</p>
+          </li>
+          <li id="uid63">
+            <p noindent="true">Project title: Geometric Control Methods for the Heat and Schroedinger Equations</p>
+          </li>
+          <li id="uid64">
+            <p noindent="true">Duration: Initially accepted from 1/5/2010 to 1/5/2015, the project has been extended for one additional year, up to 1/5/2016.</p>
+          </li>
+          <li id="uid65">
+            <p noindent="true">Coordinator: Ugo Boscain</p>
+          </li>
+          <li id="uid66">
+            <p noindent="true">Abstract: The aim of this project is to study certain PDEs for which geometric control techniques open new horizons. More precisely we plan to exploit the relation between the sub-Riemannian distance and the properties of the kernel of the corresponding hypoelliptic heat equation and to study controllability properties of the Schroedinger equation.</p>
+            <p>All subjects studied in this project are applications-driven: the problem of controllability of the Schroedinger equation has direct applications in Laser spectroscopy and in Nuclear Magnetic Resonance; the problem of nonisotropic diffusion has applications in cognitive neuroscience (in particular for models of human vision).</p>
+            <p>Participants. Main collaborator: Mario Sigalotti. Other members of the team: Andrei Agrachev, Riccardo Adami, Thomas Chambrion, Grégoire Charlot, Yacine Chitour, Jean-Paul Gauthier, Frédéric Jean.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid69" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid70">
+              <p noindent="true">SISSA (Scuola Internazionale Superiore di Studi Avanzati), Trieste, Italy.</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Sector of Functional Analysis and Applications, Geometric Control group. Coordinator: Andrei A. Agrachev.</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">We collaborate with the Geometric Control group at SISSA mainly on subjects related with sub-Riemannian geometry. Thanks partly to our collaboration, SISSA has established an official research partnership with École Polytechnique.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid73" level="2">
+        <bodyTitle>Participation in Other International Programs</bodyTitle>
+        <simplelist>
+          <li id="uid74">
+            <p noindent="true">Laboratoire Euro Maghrébin de Mathématiques et de leurs Interactions
+(LEM2I)</p>
+            <p noindent="true">
+              <ref xlink:href="http://lem2i.math.cnrs.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lem2i.<allowbreak/>math.<allowbreak/>cnrs.<allowbreak/>fr/</ref>
+            </p>
+          </li>
+          <li id="uid75">
+            <p noindent="true">GDRE
+Control of Partial Differential Equations (CONEDP)</p>
+            <p noindent="true">
+              <ref xlink:href="http://www.ceremade.dauphine.fr/~glass/GDRE/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ceremade.<allowbreak/>dauphine.<allowbreak/>fr/<allowbreak/>~glass/<allowbreak/>GDRE/</ref>
+            </p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid76" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid77" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid78">
+            <p noindent="true">Andrei Agrachev (SISSA, Italy) is visiting the GECO team for one year, starting in September 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid79">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid80" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid81" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid82" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid83">
+              <p noindent="true">Mario Sigalotti was member of the organizing committee of the <i>Workshop on switching dynamics &amp; verification</i>, IHP, Paris, January 28-29, 2016.</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Ugo Boscain and Mario Sigalotti were member of the organizing committee of the <i>Workshop on quantum dynamics &amp; control</i>, IHP, Paris, May 23-24, 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid85" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid86" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid87">
+              <p noindent="true">Ugo Boscain is Associate Editor of SIAM Journal of Control and Optimization</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Ugo Boscain is Managing Editor of Journal of Dynamical and Control Systems</p>
+            </li>
+            <li id="uid89">
+              <p noindent="true">Mario Sigalotti is Associate Editor of Journal of Dynamical and Control Systems</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Ugo Boscain is Associate Editor of ESAIM Control, Optimisation and Calculus of Variations</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">Ugo Boscain is Associate Editor of Mathematical Control and Related Fields</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Ugo Boscain is Associate editor of Analysis and Geometry in Metric Spaces</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid93" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid94">
+            <p noindent="true">Mario Sigalotti gave an invited talk at the “ExQM Miniworkshop: Mathematics of Quantum Control”, Munich, Germany, February 2016.</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true">Ugo Boscain gave an invited talk at the conference “Geometric Analysis in Control and Vision Theory", Voss, Norway, May 2016.</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">Ugo Boscain gave an invited talk at the seminar of the <i>Departement de Mathématiques d'Orsay</i>, May 2016.</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Ugo Boscain gave an invited talk at the conference “Recent Trends in Differential equations”, Aveiro, Portugal, June 2016.</p>
+          </li>
+          <li id="uid98">
+            <p noindent="true">Mario Sigalotti gave an invited talk at the <i>Séminaire de géométrie sous-riemannienne</i>, IHP, Paris, June 2016.</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">Ugo Boscain gave the opening talk at the conference “Geometry, PDE's and Lie Groups in Image Analysis", Eindhoven, The Netherlands, August 2016.</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Mario Sigalotti gave an invited talk at the seminar of the <i>Dipartimento di Matematica - Università degli Studi di Trento</i>, Italy, September 2016.</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Ugo Boscain gave an invited talk at the conference “Nouvelles directions en analyse semiclassique", Chalès, France, December 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid103">
+            <p noindent="true">Mario Sigalotti is member of the IFAC technical committee “Distributed Parameter Systems”.</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">Mario Sigalotti is member of the
+steering committee of the <i>Institut pour le Contrôle et la Décision</i> of the Idex Paris-Saclay.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid105" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid107">
+            <p noindent="true">PhD (concluded): Guiherme Mazanti, “Stabilité et taux de convergence pour les systèmes à excitation persistante" <ref xlink:href="#geco-2016-bid91" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, supervisors: Yacine Chitour, Mario Sigalotti. Discussed on September 2016.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">PhD in progress: Ludovic Sacchelli, “Sub-Riemannian geometry, hypoelliptic operators,
+geometry of vision", started in September 2015, supervisors: Ugo Boscain, Mario Sigalotti.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">PhD in progress: Nicolas Augier, “Contrôle adiabatique des systèmes quantiques", started in September 2016, supervisors: Ugo Boscain, Mario Sigalotti.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">PhD in progress: Mathieu Kohli, “Volume and curvature in sub-Riemannian geometry", started in September 2016, supervisors: Davide Barilari, Ugo Boscain.</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">PhD in progress: Jakub Orłowski, “Modeling and steering brain oscillations based on in vivo optogenetics data", started in September 2016, supervisors: Antoine Chaillet, Alain Destexhe, and Mario Sigalotti.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid112" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid113">
+            <p noindent="true">Ugo Boscain was
+member of the commission for the PhD defense of
+Valentina Franceschi, Padue, March 2016.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Mario Sigalotti was
+member of the commission for the PhD defense of
+Francesco Boarotto, SISSA, Trieste, September 2016.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Ugo Boscain was reviewer and
+member of the commission for the PhD defense of Jérémy
+Rouot, Nice, November 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid116" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Ugo Boscain gave a concert-seminar
+at the event “Musique &amp; Mathématiques 2016”, Besano̧n, November 2016.</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="geco-2016-bid84" type="book" rend="year" n="cite:barilari:hal-01390381">
+      <identifiant type="doi" value="10.4171/162"/>
+      <identifiant type="hal" value="hal-01390381"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Geometry, Analysis and Dynamics on sub-Riemannian Manifolds - Volume I</title>
+        <title level="s">EMS Series of Lectures in Mathematics</title>
+        <author>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>European Mathematical Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01390381" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01390381</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid83" type="book" rend="year" n="cite:barilari:hal-01390382">
+      <identifiant type="doi" value="10.4171/163"/>
+      <identifiant type="hal" value="hal-01390382"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Geometry, Analysis and Dynamics on sub-Riemannian Manifolds - Volume II</title>
+        <title level="s">EMS Series of Lectures in Mathematics</title>
+        <author>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>European Mathematical Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01390382" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01390382</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid91" type="phdthesis" rend="year" n="cite:mazanti:tel-01427215">
+      <identifiant type="hal" value="tel-01427215"/>
+      <monogr>
+        <title level="m">Stability and stabilization of linear switched systems in finite and infinite dimensions</title>
+        <author>
+          <persName key="geco-2014-idp66640">
+            <foreName>Guilherme</foreName>
+            <surname>Mazanti</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay, École Polytechnique</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01427215" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01427215</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid85" type="incollection" rend="year" n="cite:agrachev:hal-01392516">
+      <identifiant type="hal" value="hal-01392516"/>
+      <analytic>
+        <title level="a">Introduction to geodesics in sub-Riemannian geometry</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Agrachev</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Geometry, Analysis and Dynamics on Sub-Riemannian Manifolds - Volume II</title>
+        <title level="s">EMS Series of Lectures in Mathematics</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01392516" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01392516</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid73" type="article" rend="year" n="cite:agrachev:hal-01160901">
+      <identifiant type="doi" value="10.1007/s12220-016-9684-0"/>
+      <identifiant type="hal" value="hal-01160901"/>
+      <analytic>
+        <title level="a">Sub-Riemannian curvature in contact geometry</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Agrachev</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idp69048">
+            <foreName>Luca</foreName>
+            <surname>Rizzi</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01147">
+        <idno type="issn">1050-6926</idno>
+        <title level="j">Journal of Geometric Analysis</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01160901" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01160901</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid74" type="article" rend="year" n="cite:barilari:hal-00879444">
+      <identifiant type="hal" value="hal-00879444"/>
+      <analytic>
+        <title level="a">On the heat diffusion for generic Riemannian and sub-Riemannian structures</title>
+        <author>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Grégoire</foreName>
+            <surname>Charlot</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert W.</foreName>
+            <surname>Neel</surname>
+            <initial>R. W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01974">
+        <idno type="issn">1073-7928</idno>
+        <title level="j">International Mathematics Research Notices</title>
+        <imprint>
+          <biblScope type="volume">2016</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-34</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00879444" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00879444</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">26 pages, 1 figure</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid87" type="article" rend="year" n="cite:bohi:hal-01383846">
+      <identifiant type="doi" value="10.1007/s10851-016-0669-1"/>
+      <identifiant type="hal" value="hal-01383846"/>
+      <analytic>
+        <title level="a">Fourier Descriptors Based on the Structure of the Human Primary Visual Cortex with Applications to Object Recognition</title>
+        <author>
+          <persName>
+            <foreName>Amine</foreName>
+            <surname>Bohi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mokaplan-2015-idp119368">
+            <foreName>Dario</foreName>
+            <surname>Prandi</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Vincente</foreName>
+            <surname>Guis</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>Bouchara</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="geco-2014-idm26144">
+            <foreName>Jean-Paul</foreName>
+            <surname>Gauthier</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01196">
+        <idno type="issn">0924-9907</idno>
+        <title level="j">Journal of Mathematical Imaging and Vision</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-17</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01383846" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01383846</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid75" type="article" rend="year" n="cite:boscain:hal-00848792">
+      <identifiant type="doi" value="10.1016/j.jde.2015.10.011"/>
+      <identifiant type="hal" value="hal-00848792"/>
+      <analytic>
+        <title level="a">Self-adjoint extensions and stochastic completeness of the Laplace–Beltrami operator on conic and anticonic surfaces</title>
+        <author>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="mokaplan-2015-idp119368">
+            <foreName>Dario</foreName>
+            <surname>Prandi</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01118">
+        <idno type="issn">0022-0396</idno>
+        <title level="j">Journal of Differential Equations</title>
+        <imprint>
+          <biblScope type="volume">260</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3234–3269</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00848792" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00848792</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">28 pages, 2 figures</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid76" type="article" rend="year" n="cite:boscain:hal-01019955">
+      <identifiant type="doi" value="10.1080/03605302.2015.1095766"/>
+      <identifiant type="hal" value="hal-01019955"/>
+      <analytic>
+        <title level="a">Spectral analysis and the Aharonov-Bohm effect on certain almost-Riemannian manifolds</title>
+        <author>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="mokaplan-2015-idp119368">
+            <foreName>Dario</foreName>
+            <surname>Prandi</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Marcello</foreName>
+            <surname>Seri</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00356">
+        <idno type="issn">0360-5302</idno>
+        <title level="j">Communications in Partial Differential Equations</title>
+        <imprint>
+          <biblScope type="volume">41</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32–50</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01019955" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01019955</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">28 pages, 6 figures</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid77" type="article" rend="year" n="cite:boscain:hal-01318515">
+      <identifiant type="hal" value="hal-01318515"/>
+      <analytic>
+        <title level="a">Generic singularities of line fields on 2D manifolds</title>
+        <author>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="geco-2015-idm6376">
+            <foreName>Ludovic</foreName>
+            <surname>Sacchelli</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02108">
+        <idno type="issn">0926-2245</idno>
+        <title level="j">Differential Geometry and its Applications</title>
+        <imprint>
+          <biblScope type="volume">Volume 49</biblScope>
+          <biblScope type="number">December 2016</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">326–350</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01318515" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01318515</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid88" type="article" rend="year" n="cite:chitour:hal-00999743">
+      <identifiant type="doi" value="10.1090/tran/6778"/>
+      <identifiant type="hal" value="hal-00999743"/>
+      <analytic>
+        <title level="a">Persistently damped transport on a network of circles</title>
+        <author>
+          <persName>
+            <foreName>Yacine</foreName>
+            <surname>Chitour</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="geco-2014-idp66640">
+            <foreName>Guilherme</foreName>
+            <surname>Mazanti</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01868">
+        <idno type="issn">0002-9947</idno>
+        <title level="j">Transactions of the American Mathematical Society</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00999743" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00999743</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid90" type="article" rend="year" n="cite:chitour:hal-01139814">
+      <identifiant type="doi" value="10.3934/nhm.2016010"/>
+      <identifiant type="hal" value="hal-01139814"/>
+      <analytic>
+        <title level="a">Stability of non-autonomous difference equations with applications to transport and wave propagation on networks</title>
+        <author>
+          <persName>
+            <foreName>Yacine</foreName>
+            <surname>Chitour</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="geco-2014-idp66640">
+            <foreName>Guilherme</foreName>
+            <surname>Mazanti</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01480">
+        <idno type="issn">1556-1801</idno>
+        <title level="j">Networks and Heterogeneous Media</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">563-601</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01139814" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01139814</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid78" type="article" rend="year" n="cite:rizzi:hal-01218376">
+      <identifiant type="doi" value="10.1007/s00526-016-1002-y"/>
+      <identifiant type="hal" value="hal-01218376"/>
+      <analytic>
+        <title level="a">Measure contraction properties of Carnot groups</title>
+        <author>
+          <persName key="geco-2014-idp69048">
+            <foreName>Luca</foreName>
+            <surname>Rizzi</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00307">
+        <idno type="issn">0944-2669</idno>
+        <title level="j">Calculus of Variations and Partial Differential Equations</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01218376" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01218376</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid79" type="unpublished" rend="year" n="cite:agrachev:hal-01259762">
+      <identifiant type="hal" value="hal-01259762"/>
+      <monogr>
+        <title level="m">Intrinsic random walks in Riemannian and sub-Riemannian geometry via volume sampling</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Agrachev</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Neel</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="geco-2014-idp69048">
+            <foreName>Luca</foreName>
+            <surname>Rizzi</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01259762" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01259762</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid80" type="unpublished" rend="year" n="cite:barilari:hal-01327103">
+      <identifiant type="hal" value="hal-01327103"/>
+      <monogr>
+        <title level="m">Heat kernel asymptotics on sub-Riemannian manifolds with symmetries and applications to the bi-Heisenberg group</title>
+        <author>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Barilari</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="geco-2014-idm27560">
+            <foreName>Ugo</foreName>
+            <surname>Boscain</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert W.</foreName>
+            <surname>Neel</surname>
+            <initial>R. W.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01327103" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01327103</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid86" type="unpublished" rend="year" n="cite:chitour:hal-01292270">
+      <identifiant type="hal" value="hal-01292270"/>
+      <monogr>
+        <title level="m">Generic controllability of the bilinear Schrödinger equation on 1-D domains: the case of measurable potentials</title>
+        <author>
+          <persName>
+            <foreName>Yacine</foreName>
+            <surname>Chitour</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01292270" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01292270</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid81" type="unpublished" rend="year" n="cite:juillet:hal-01285215">
+      <identifiant type="hal" value="hal-01285215"/>
+      <monogr>
+        <title level="m">Pliability, or the whitney extension theorem for curves in carnot groups</title>
+        <author>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Juillet</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="geco-2014-idm29032">
+            <foreName>Mario</foreName>
+            <surname>Sigalotti</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01285215" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01285215</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid89" type="unpublished" rend="year" n="cite:mazanti:hal-01309166">
+      <identifiant type="hal" value="hal-01309166"/>
+      <monogr>
+        <title level="m">Relative controllability of linear difference equations</title>
+        <author>
+          <persName key="geco-2014-idp66640">
+            <foreName>Guilherme</foreName>
+            <surname>Mazanti</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01309166" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01309166</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="geco-2016-bid82" type="unpublished" rend="year" n="cite:rizzi:hal-01377408">
+      <identifiant type="hal" value="hal-01377408"/>
+      <monogr>
+        <title level="m">On the cut locus of free, step two Carnot groups</title>
+        <author>
+          <persName key="geco-2014-idp69048">
+            <foreName>Luca</foreName>
+            <surname>Rizzi</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulysse</foreName>
+            <surname>Serres</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377408" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377408</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">13 pages. To appear on Proceedings of the AMS</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid17" type="article" rend="foot" n="footcite:agrachev-chambrion">
+      <analytic>
+        <title level="a">An estimation of the controllability time for single-input systems on compact Lie groups</title>
+        <author>
+          <persName>
+            <foreName>Andrei A.</foreName>
+            <surname>Agrachev</surname>
+            <initial>A. A.</initial>
+          </persName>
+          <persName key="corida-2014-idp74120">
+            <foreName>Thomas</foreName>
+            <surname>Chambrion</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM Control Optim. Calc. Var.</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">409–441</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid64" type="article" rend="foot" n="footcite:agrachev-liberzon">
+      <identifiant type="doi" value="10.1137/S0363012999365704"/>
+      <analytic>
+        <title level="a">Lie-algebraic stability criteria for switched systems</title>
+        <author>
+          <persName>
+            <foreName>Andrei A.</foreName>
+            <surname>Agrachev</surname>
+            <initial>A. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Liberzon</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">40</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">253–269</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/S0363012999365704" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>S0363012999365704</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid0" type="book" rend="foot" n="footcite:agrabook">
+      <monogr>
+        <title level="m">Control theory from the geometric viewpoint</title>
+        <title level="s">Encyclopaedia of Mathematical Sciences</title>
+        <author>
+          <persName>
+            <foreName>Andrei A.</foreName>
+            <surname>Agrachev</surname>
+            <initial>A. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuri L.</foreName>
+            <surname>Sachkov</surname>
+            <initial>Y. L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">87</biblScope>
+          <publisher>
+            <orgName>Springer-Verlag<address><addrLine>Berlin</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">xiv+412</biblScope>
+        </imprint>
+      </monogr>
+      <note type="bnote">Control Theory and Optimization, II</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid12" type="article" rend="foot" n="footcite:navier-stokes">
+      <identifiant type="doi" value="10.1007/s00021-004-0110-1"/>
+      <analytic>
+        <title level="a">Navier-Stokes equations: controllability by means of low modes forcing</title>
+        <author>
+          <persName>
+            <foreName>Andrei A.</foreName>
+            <surname>Agrachev</surname>
+            <initial>A. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrey V.</foreName>
+            <surname>Sarychev</surname>
+            <initial>A. V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Math. Fluid Mech.</title>
+        <imprint>
+          <biblScope type="volume">7</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">108–152</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s00021-004-0110-1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s00021-004-0110-1</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid16" type="article" rend="foot" n="footcite:albertini_dalessandro">
+      <analytic>
+        <title level="a">Notions of controllability for bilinear multilevel quantum systems</title>
+        <author>
+          <persName>
+            <foreName>Francesca</foreName>
+            <surname>Albertini</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Domenico</foreName>
+            <surname>D'Alessandro</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">48</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">1399–1403</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid24" type="article" rend="foot" n="footcite:altafini">
+      <analytic>
+        <title level="a">Controllability properties for finite dimensional quantum Markovian master equations</title>
+        <author>
+          <persName>
+            <foreName>Claudio</foreName>
+            <surname>Altafini</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Math. Phys.</title>
+        <imprint>
+          <biblScope type="volume">44</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">2357–2372</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid9" type="book" rend="foot" n="footcite:ambrosio">
+      <monogr>
+        <title level="m">Topics on analysis in metric spaces</title>
+        <title level="s">Oxford Lecture Series in Mathematics and its Applications</title>
+        <author>
+          <persName>
+            <foreName>Luigi</foreName>
+            <surname>Ambrosio</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Paolo</foreName>
+            <surname>Tilli</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <publisher>
+            <orgName>Oxford University Press<address><addrLine>Oxford</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">viii+133</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid50" type="article" rend="foot" n="footcite:laumond">
+      <analytic>
+        <title level="a">An optimality principle governing human locomotion</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Arechavaleta</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>J.-P.</foreName>
+            <surname>Laumond</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Hicheur</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Berthoz</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. on Robotics</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid44" type="article" rend="foot" n="footcite:baudouin">
+      <analytic>
+        <title level="a">A bilinear optimal control problem applied to a time dependent Hartree-Fock equation coupled with classical nuclear dynamics</title>
+        <author>
+          <persName>
+            <foreName>Lucie</foreName>
+            <surname>Baudouin</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Port. Math. (N.S.)</title>
+        <imprint>
+          <biblScope type="volume">63</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">293–325</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid28" type="article" rend="foot" n="footcite:bkp">
+      <analytic>
+        <title level="a">Regularity for a Schrödinger equation with singular potentials and application to bilinear optimal control</title>
+        <author>
+          <persName>
+            <foreName>Lucie</foreName>
+            <surname>Baudouin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Otared</foreName>
+            <surname>Kavian</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Pierre</foreName>
+            <surname>Puel</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Differential Equations</title>
+        <imprint>
+          <biblScope type="volume">216</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">188–222</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid31" type="article" rend="foot" n="footcite:Baudouin-Salomon">
+      <identifiant type="doi" value="10.1016/j.sysconle.2007.11.002"/>
+      <analytic>
+        <title level="a">Constructive solution of a bilinear optimal control problem for a Schrödinger equation</title>
+        <author>
+          <persName>
+            <foreName>Lucie</foreName>
+            <surname>Baudouin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="ange-2014-idp88976">
+            <foreName>Julien</foreName>
+            <surname>Salomon</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Systems Control Lett.</title>
+        <imprint>
+          <biblScope type="volume">57</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">453–464</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.sysconle.2007.11.002" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>sysconle.<allowbreak/>2007.<allowbreak/>11.<allowbreak/>002</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid35" type="article" rend="foot" n="footcite:Beauchard1">
+      <analytic>
+        <title level="a">Local controllability of a 1-D Schrödinger equation</title>
+        <author>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Beauchard</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Math. Pures Appl. (9)</title>
+        <imprint>
+          <biblScope type="volume">84</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">851–956</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid36" type="article" rend="foot" n="footcite:beauchard-coron">
+      <analytic>
+        <title level="a">Controllability of a quantum particle in a moving potential well</title>
+        <author>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Beauchard</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Michel</foreName>
+            <surname>Coron</surname>
+            <initial>J.-M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Funct. Anal.</title>
+        <imprint>
+          <biblScope type="volume">232</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">328–389</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid21" type="article" rend="foot" n="footcite:turinici-toolkit">
+      <identifiant type="doi" value="10.1088/1751-8113/41/36/362001"/>
+      <analytic>
+        <title level="a">A stable toolkit method in quantum control</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Belhadj</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="ange-2014-idp88976">
+            <foreName>J.</foreName>
+            <surname>Salomon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Turinici</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Phys. A</title>
+        <imprint>
+          <biblScope type="volume">41</biblScope>
+          <biblScope type="number">36</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">362001, 10</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1088/1751-8113/41/36/362001" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1088/<allowbreak/>1751-8113/<allowbreak/>41/<allowbreak/>36/<allowbreak/>362001</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid59" type="article" rend="foot" n="footcite:Blanchini1994">
+      <identifiant type="doi" value="10.1016/0005-1098(94)00133-4"/>
+      <analytic>
+        <title level="a">Nonquadratic Lyapunov functions for robust control</title>
+        <author>
+          <persName>
+            <foreName>Franco</foreName>
+            <surname>Blanchini</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Automatica J. IFAC</title>
+        <imprint>
+          <biblScope type="volume">31</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+          <biblScope type="pages">451–461</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/0005-1098(94)00133-4" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>0005-1098(94)00133-4</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid60" type="article" rend="foot" n="footcite:BlanchiniMiani1999">
+      <identifiant type="doi" value="10.1109/9.751368"/>
+      <analytic>
+        <title level="a">A new class of universal Lyapunov functions for the control of uncertain linear systems</title>
+        <author>
+          <persName>
+            <foreName>Franco</foreName>
+            <surname>Blanchini</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Miani</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">44</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">641–647</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/9.751368" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>9.<allowbreak/>751368</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid42" type="article" rend="foot" n="footcite:rangan">
+      <analytic>
+        <title level="a">Finite Controllability of Infinite-Dimensional Quantum Systems</title>
+        <author>
+          <persName>
+            <foreName>Anthony M.</foreName>
+            <surname>Bloch</surname>
+            <initial>A. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Roger W.</foreName>
+            <surname>Brockett</surname>
+            <initial>R. W.</initial>
+          </persName>
+          <persName>
+            <foreName>Chitra</foreName>
+            <surname>Rangan</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid67" type="article" rend="foot" n="footcite:BTV">
+      <identifiant type="doi" value="10.1137/S0895479801397846"/>
+      <analytic>
+        <title level="a">An elementary counterexample to the finiteness conjecture</title>
+        <author>
+          <persName>
+            <foreName>Vincent D.</foreName>
+            <surname>Blondel</surname>
+            <initial>V. D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacques</foreName>
+            <surname>Theys</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dyogene-2014-idp88608">
+            <foreName>Alexander A.</foreName>
+            <surname>Vladimirov</surname>
+            <initial>A. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Matrix Anal. Appl.</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">963–970</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/S0895479801397846" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>S0895479801397846</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid10" type="book" rend="foot" n="footcite:lanconelli-book">
+      <monogr>
+        <title level="m">Stratified Lie groups and potential theory for their sub-Laplacians</title>
+        <title level="s">Springer Monographs in Mathematics</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Bonfiglioli</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Lanconelli</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Uguzzoni</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer<address><addrLine>Berlin</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">xxvi+800</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid27" type="article" rend="foot" n="footcite:bonnard_sugny">
+      <identifiant type="doi" value="10.1137/080717043"/>
+      <analytic>
+        <title level="a">Time-minimal control of dissipative two-level quantum systems: the integrable case</title>
+        <author>
+          <persName key="mctao-2014-idp60264">
+            <foreName>Bernard</foreName>
+            <surname>Bonnard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Dominique</foreName>
+            <surname>Sugny</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">48</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">1289–1308</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/080717043" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>080717043</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid29" type="article" rend="foot" n="footcite:borzi">
+      <analytic>
+        <title level="a">Analysis of a leap-frog pseudospectral scheme for the Schrödinger equation</title>
+        <author>
+          <persName key="acumes-2016-idp173488">
+            <foreName>A.</foreName>
+            <surname>Borzì</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Decker</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Appl. Math.</title>
+        <imprint>
+          <biblScope type="volume">193</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">65–88</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid45" type="article" rend="foot" n="footcite:bose-einstein">
+      <identifiant type="doi" value="10.1137/070686135"/>
+      <analytic>
+        <title level="a">Multigrid optimization schemes for solving Bose-Einstein condensate control problems</title>
+        <author>
+          <persName key="acumes-2016-idp173488">
+            <foreName>A.</foreName>
+            <surname>Borzì</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Hohenester</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Sci. Comput.</title>
+        <imprint>
+          <biblScope type="volume">30</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">441–462</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/070686135" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>070686135</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid15" type="inbook" rend="foot" n="footcite:rabitz-review">
+      <analytic>
+        <author>
+          <persName>
+            <foreName>Constantin</foreName>
+            <surname>Brif</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Raj</foreName>
+            <surname>Chakrabarti</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Herschel</foreName>
+            <surname>Rabitz</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Control of quantum phenomena: Past, present, and future</title>
+        <imprint>
+          <publisher>
+            <orgName>Advances in Chemical Physics, S. A. Rice (ed), Wiley, New York</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid11" type="book" rend="foot" n="footcite:bullo-lewis">
+      <monogr>
+        <title level="m">Geometric control of mechanical systems</title>
+        <title level="s">Texts in Applied Mathematics</title>
+        <author>
+          <persName>
+            <foreName>Francesco</foreName>
+            <surname>Bullo</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew D.</foreName>
+            <surname>Lewis</surname>
+            <initial>A. D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">49</biblScope>
+          <publisher>
+            <orgName>Springer-Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">xxiv+726</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid22" type="article" rend="foot" n="footcite:rabitz-landscape">
+      <identifiant type="doi" value="10.1088/1751-8113/42/27/275303"/>
+      <analytic>
+        <title level="a">The landscape of quantum transitions driven by single-qubit unitary transformations with implications for entanglement</title>
+        <author>
+          <persName>
+            <foreName>Renan</foreName>
+            <surname>Cabrera</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Herschel</foreName>
+            <surname>Rabitz</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Phys. A</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">27</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">275303, 9</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1088/1751-8113/42/27/275303" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1088/<allowbreak/>1751-8113/<allowbreak/>42/<allowbreak/>27/<allowbreak/>275303</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid48" type="article" rend="foot" n="footcite:citti-sarti">
+      <identifiant type="doi" value="10.1007/s10851-005-3630-2"/>
+      <analytic>
+        <title level="a">A cortical based model of perceptual completion in the roto-translation space</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Citti</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Sarti</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Math. Imaging Vision</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">307–326</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s10851-005-3630-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s10851-005-3630-2</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid37" type="book" rend="foot" n="footcite:coron-libro">
+      <monogr>
+        <title level="m">Control and nonlinearity</title>
+        <title level="s">Mathematical Surveys and Monographs</title>
+        <author>
+          <persName>
+            <foreName>Jean-Michel</foreName>
+            <surname>Coron</surname>
+            <initial>J.-M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">136</biblScope>
+          <publisher>
+            <orgName>American Mathematical Society<address><addrLine>Providence, RI</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">xiv+426</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid61" type="article" rend="foot" n="footcite:DayawansaMartin1999">
+      <identifiant type="doi" value="10.1109/9.754812"/>
+      <analytic>
+        <title level="a">A converse Lyapunov theorem for a class of dynamical systems which undergo switching</title>
+        <author>
+          <persName>
+            <foreName>Wijesuriya P.</foreName>
+            <surname>Dayawansa</surname>
+            <initial>W. P.</initial>
+          </persName>
+          <persName>
+            <foreName>C. F.</foreName>
+            <surname>Martin</surname>
+            <initial>C. F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">44</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">751–760</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/9.754812" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>9.<allowbreak/>754812</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid62" type="incollection" rend="foot" n="footcite:Niculescu">
+      <analytic>
+        <title level="a">Robust decision problems in engineering: a linear matrix inequality approach</title>
+        <author>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>El Ghaoui</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>S.-I.</foreName>
+            <surname>Niculescu</surname>
+            <initial>S.-I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Advances in linear matrix inequality methods in control</title>
+        <loc>Philadelphia, PA</loc>
+        <title level="s">Adv. Des. Control</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <publisher>
+            <orgName>SIAM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">3–37</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid41" type="article" rend="foot" n="footcite:ervedoza_puel">
+      <analytic>
+        <title level="a">Approximate controllability for a system of Schrödinger equations modeling a single trapped ion</title>
+        <author>
+          <persName>
+            <foreName>Sylvain</foreName>
+            <surname>Ervedoza</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Pierre</foreName>
+            <surname>Puel</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Ann. Inst. H. Poincaré Anal. Non Linéaire</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">2111–2136</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid5" type="article" rend="foot" n="footcite:flat">
+      <identifiant type="doi" value="10.1080/00207179508921959"/>
+      <analytic>
+        <title level="a">Flatness and defect of non-linear systems: introductory theory and examples</title>
+        <author>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Fliess</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Lévine</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Martin</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="quantic-2014-idp107304">
+            <foreName>Pierre</foreName>
+            <surname>Rouchon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Internat. J. Control</title>
+        <imprint>
+          <biblScope type="volume">61</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+          <biblScope type="pages">1327–1361</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1080/00207179508921959" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1080/<allowbreak/>00207179508921959</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid8" type="article" rend="foot" n="footcite:franchi">
+      <analytic>
+        <title level="a">Regular hypersurfaces, intrinsic perimeter and implicit function theorem in Carnot groups</title>
+        <author>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Franchi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Raul</foreName>
+            <surname>Serapioni</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Francesco</foreName>
+            <surname>Serra Cassano</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Comm. Anal. Geom.</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">909–944</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid71" type="article" rend="foot" n="footcite:gugat">
+      <analytic>
+        <title level="a">Optimal switching boundary control of a string to rest in finite time</title>
+        <author>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Gugat</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ZAMM Z. Angew. Math. Mech.</title>
+        <imprint>
+          <biblScope type="volume">88</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">283–305</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid65" type="inproceedings" rend="foot" n="footcite:hespana-morse">
+      <analytic>
+        <title level="a">Stability of switched systems with average dwell-time</title>
+        <author>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Hespanha</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Morse</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 38th IEEE Conference on Decision and Control, CDC 1999, Phoenix, AZ, USA</title>
+        <imprint>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">2655–2660</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid49" type="book" rend="foot" n="footcite:HW">
+      <monogr>
+        <title level="m">Brain and Visual Perception: The Story of a 25-Year Collaboration</title>
+        <author>
+          <persName>
+            <foreName>D.H.</foreName>
+            <surname>Hubel</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>T.N.</foreName>
+            <surname>Wiesel</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Oxford University Press<address><addrLine>Oxford</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid43" type="article" rend="foot" n="footcite:teismann_lange">
+      <identifiant type="doi" value="10.1051/cocv:2006014"/>
+      <analytic>
+        <title level="a">Limitations on the control of Schrödinger equations</title>
+        <author>
+          <persName>
+            <foreName>Reinhard</foreName>
+            <surname>Illner</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Horst</foreName>
+            <surname>Lange</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Holger</foreName>
+            <surname>Teismann</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM Control Optim. Calc. Var.</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">615–635</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1051/cocv:2006014" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1051/<allowbreak/>cocv:2006014</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid1" type="book" rend="foot" n="footcite:isidori">
+      <monogr>
+        <title level="m">Nonlinear control systems</title>
+        <title level="s">Communications and Control Engineering Series</title>
+        <author>
+          <persName>
+            <foreName>Alberto</foreName>
+            <surname>Isidori</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <edition>Second</edition>
+        <imprint>
+          <publisher>
+            <orgName>Springer-Verlag<address><addrLine>Berlin</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+          <biblScope type="pages">xii+479</biblScope>
+        </imprint>
+      </monogr>
+      <note type="bnote">An introduction</note>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid30" type="article" rend="foot" n="footcite:ito">
+      <analytic>
+        <title level="a">Optimal bilinear control of an abstract Schrödinger equation</title>
+        <author>
+          <persName>
+            <foreName>Kazufumi</foreName>
+            <surname>Ito</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Karl</foreName>
+            <surname>Kunisch</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">46</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">274–287</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid40" type="article" rend="foot" n="footcite:ito-kunish">
+      <identifiant type="doi" value="10.1137/080720784"/>
+      <analytic>
+        <title level="a">Asymptotic properties of feedback solutions for a class of quantum control problems</title>
+        <author>
+          <persName>
+            <foreName>Kazufumi</foreName>
+            <surname>Ito</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Karl</foreName>
+            <surname>Kunisch</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">48</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">2323–2343</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/080720784" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>080720784</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid52" type="article" rend="foot" n="footcite:Kalman1964">
+      <analytic>
+        <title level="a">When is a linear control system optimal?</title>
+        <author>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Kalman</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ASME Transactions, Journal of Basic Engineering</title>
+        <imprint>
+          <biblScope type="volume">86</biblScope>
+          <dateStruct>
+            <year>1964</year>
+          </dateStruct>
+          <biblScope type="pages">51–60</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid20" type="article" rend="foot" n="footcite:Brockett">
+      <analytic>
+        <title level="a">Sub-Riemannian geometry and time optimal control of three spin systems: quantum gates and coherence transfer</title>
+        <author>
+          <persName>
+            <foreName>Navin</foreName>
+            <surname>Khaneja</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="eva-2016-idp198160">
+            <foreName>Steffen J.</foreName>
+            <surname>Glaser</surname>
+            <initial>S. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Roger W.</foreName>
+            <surname>Brockett</surname>
+            <initial>R. W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Phys. Rev. A (3)</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <biblScope type="number">3, part A</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">032301, 11</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid25" type="article" rend="foot" n="footcite:decoherence">
+      <identifiant type="doi" value="10.1073/pnas.2134111100"/>
+      <analytic>
+        <title level="a">Boundary of quantum evolution under decoherence</title>
+        <author>
+          <persName>
+            <foreName>Navin</foreName>
+            <surname>Khaneja</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Burkhard</foreName>
+            <surname>Luy</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="eva-2016-idp198160">
+            <foreName>Steffen J.</foreName>
+            <surname>Glaser</surname>
+            <initial>S. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proc. Natl. Acad. Sci. USA</title>
+        <imprint>
+          <biblScope type="volume">100</biblScope>
+          <biblScope type="number">23</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">13162–13166</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1073/pnas.2134111100" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1073/<allowbreak/>pnas.<allowbreak/>2134111100</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid66" type="article" rend="foot" n="footcite:Kozyakin">
+      <analytic>
+        <title level="a">Algebraic unsolvability of a problem on the absolute stability of desynchronized systems</title>
+        <author>
+          <persName>
+            <foreName>V. S.</foreName>
+            <surname>Kozyakin</surname>
+            <initial>V. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Avtomat. i Telemekh.</title>
+        <imprint>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+          <biblScope type="pages">41–47</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid3" type="incollection" rend="foot" n="footcite:Lafferriere-Sussmann">
+      <analytic>
+        <title level="a">A differential geometry approach to motion planning</title>
+        <author>
+          <persName>
+            <foreName>Gerardo</foreName>
+            <surname>Lafferriere</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Héctor J.</foreName>
+            <surname>Sussmann</surname>
+            <initial>H. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Nonholonomic Motion Planning (Z. Li and J. F. Canny, editors)</title>
+        <imprint>
+          <publisher>
+            <orgName>Kluwer Academic Publishers</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1993</year>
+          </dateStruct>
+          <biblScope type="pages">235-270</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid19" type="article" rend="foot" n="footcite:Khaneja">
+      <identifiant type="doi" value="10.1109/TAC.2009.2012983"/>
+      <analytic>
+        <title level="a">Ensemble control of Bloch equations</title>
+        <author>
+          <persName>
+            <foreName>Jr-Shin</foreName>
+            <surname>Li</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName>
+            <foreName>Navin</foreName>
+            <surname>Khaneja</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">528–536</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TAC.2009.2012983" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TAC.<allowbreak/>2009.<allowbreak/>2012983</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid63" type="article" rend="foot" n="footcite:liberzon-hespana-morse">
+      <identifiant type="doi" value="10.1016/S0167-6911(99)00012-2"/>
+      <analytic>
+        <title level="a">Stability of switched systems: a Lie-algebraic condition</title>
+        <author>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Liberzon</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>João P.</foreName>
+            <surname>Hespanha</surname>
+            <initial>J. P.</initial>
+          </persName>
+          <persName>
+            <foreName>A. Stephen</foreName>
+            <surname>Morse</surname>
+            <initial>A. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Systems Control Lett.</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">117–122</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/S0167-6911(99)00012-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>S0167-6911(99)00012-2</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid54" type="book" rend="foot" n="footcite:liberzon-book">
+      <monogr>
+        <title level="m">Switching in systems and control</title>
+        <title level="s">Systems &amp; Control: Foundations &amp; Applications</title>
+        <author>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Liberzon</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Birkhäuser Boston Inc.<address><addrLine>Boston, MA</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">xiv+233</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid56" type="article" rend="foot" n="footcite:review_LA">
+      <identifiant type="doi" value="10.1109/TAC.2008.2012009"/>
+      <analytic>
+        <title level="a">Stability and stabilizability of switched linear systems: a survey of recent results</title>
+        <author>
+          <persName key="lear-2014-idp88176">
+            <foreName>Hai</foreName>
+            <surname>Lin</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Panos J.</foreName>
+            <surname>Antsaklis</surname>
+            <initial>P. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">308–322</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TAC.2008.2012009" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TAC.<allowbreak/>2008.<allowbreak/>2012009</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid57" type="article" rend="foot" n="footcite:LinSontagWang1996">
+      <identifiant type="doi" value="10.1137/S0363012993259981"/>
+      <analytic>
+        <title level="a">A smooth converse Lyapunov theorem for robust stability</title>
+        <author>
+          <persName>
+            <foreName>Yuandan</foreName>
+            <surname>Lin</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Eduardo D.</foreName>
+            <surname>Sontag</surname>
+            <initial>E. D.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuan</foreName>
+            <surname>Wang</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <biblScope type="pages">124–160</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/S0363012993259981" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>S0363012993259981</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid4" type="article" rend="foot" n="footcite:liu">
+      <identifiant type="doi" value="10.1137/S0363012994268667"/>
+      <analytic>
+        <title level="a">Averaging theorems for highly oscillatory differential equations and iterated Lie brackets</title>
+        <author>
+          <persName>
+            <foreName>Wensheng</foreName>
+            <surname>Liu</surname>
+            <initial>W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optim.</title>
+        <imprint>
+          <biblScope type="volume">35</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+          <biblScope type="pages">1989–2020</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/S0363012994268667" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>S0363012994268667</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid23" type="article" rend="foot" n="footcite:maday-turinici">
+      <identifiant type="doi" value="10.1137/050647086"/>
+      <analytic>
+        <title level="a">Monotonic parareal control for quantum systems</title>
+        <author>
+          <persName>
+            <foreName>Yvon</foreName>
+            <surname>Maday</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="ange-2014-idp88976">
+            <foreName>Julien</foreName>
+            <surname>Salomon</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Gabriel</foreName>
+            <surname>Turinici</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numer. Anal.</title>
+        <imprint>
+          <biblScope type="volume">45</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">2468–2482</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/050647086" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>050647086</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid68" type="article" rend="foot" n="footcite:Michel2005">
+      <identifiant type="doi" value="10.1109/TAC.2005.854582"/>
+      <analytic>
+        <title level="a">Stability analysis of discountinuous dynamical systems determined by semigroups</title>
+        <author>
+          <persName>
+            <foreName>Anthony N.</foreName>
+            <surname>Michel</surname>
+            <initial>A. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Ye</foreName>
+            <surname>Sun</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexander P.</foreName>
+            <surname>Molchanov</surname>
+            <initial>A. P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">50</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">1277–1290</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TAC.2005.854582" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TAC.<allowbreak/>2005.<allowbreak/>854582</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid38" type="inproceedings" rend="foot" n="footcite:mirra-solo">
+      <analytic>
+        <title level="a">Lyapunov control of a particle in a finite quantum potential well</title>
+        <author>
+          <persName key="quantic-2014-idp100816">
+            <foreName>Mazyar</foreName>
+            <surname>Mirrahimi</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 45th IEEE Conference on Decision and Control</title>
+        <imprint>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid34" type="article" rend="foot" n="footcite:mira_rouch">
+      <analytic>
+        <title level="a">Controllability of quantum harmonic oscillators</title>
+        <author>
+          <persName key="quantic-2014-idp100816">
+            <foreName>Mazyar</foreName>
+            <surname>Mirrahimi</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="quantic-2014-idp107304">
+            <foreName>Pierre</foreName>
+            <surname>Rouchon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">49</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">745–747</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid58" type="article" rend="foot" n="footcite:Molchanov1989">
+      <identifiant type="doi" value="10.1016/0167-6911(89)90021-2"/>
+      <analytic>
+        <title level="a">Criteria of asymptotic stability of differential and difference inclusions encountered in control theory</title>
+        <author>
+          <persName>
+            <foreName>A. P.</foreName>
+            <surname>Molchanov</surname>
+            <initial>A. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Ye. S.</foreName>
+            <surname>Pyatnitskiy</surname>
+            <initial>Y. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Systems Control Lett.</title>
+        <imprint>
+          <biblScope type="volume">13</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+          <biblScope type="pages">59–64</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/0167-6911(89)90021-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>0167-6911(89)90021-2</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid7" type="book" rend="foot" n="footcite:Montgomery">
+      <monogr>
+        <title level="m">A tour of subriemannian geometries, their geodesics and applications</title>
+        <title level="s">Mathematical Surveys and Monographs</title>
+        <author>
+          <persName>
+            <foreName>Richard</foreName>
+            <surname>Montgomery</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">91</biblScope>
+          <publisher>
+            <orgName>American Mathematical Society<address><addrLine>Providence, RI</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">xx+259</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid2" type="article" rend="foot" n="footcite:murray-sastry">
+      <identifiant type="doi" value="10.1109/9.277235"/>
+      <analytic>
+        <title level="a">Nonholonomic motion planning: steering using sinusoids</title>
+        <author>
+          <persName>
+            <foreName>Richard M.</foreName>
+            <surname>Murray</surname>
+            <initial>R. M.</initial>
+          </persName>
+          <persName>
+            <foreName>S. Shankar</foreName>
+            <surname>Sastry</surname>
+            <initial>S. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Automat. Control</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>1993</year>
+          </dateStruct>
+          <biblScope type="pages">700–716</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/9.277235" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>9.<allowbreak/>277235</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid39" type="article" rend="foot" n="footcite:nersesyan">
+      <analytic>
+        <title level="a">Growth of Sobolev norms and controllability of the Schrödinger equation</title>
+        <author>
+          <persName>
+            <foreName>Vahagn</foreName>
+            <surname>Nersesyan</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Comm. Math. Phys.</title>
+        <imprint>
+          <biblScope type="volume">290</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">371–387</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid53" type="inproceedings" rend="foot" n="footcite:Ng2000">
+      <analytic>
+        <title level="a">Algorithms for Inverse Reinforcement Learning</title>
+        <author>
+          <persName>
+            <foreName>A. Y.</foreName>
+            <surname>Ng</surname>
+            <initial>A. Y.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Russell</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 17th International Conf. on Machine Learning</title>
+        <imprint>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">663–670</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid46" type="book" rend="foot" n="footcite:petitot-libro">
+      <monogr>
+        <title level="m">Neurogéomètrie de la vision. Modèles mathématiques et physiques des architectures fonctionnelles</title>
+        <author>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Petitot</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Les Éditions de l'École Polythechnique</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid47" type="article" rend="foot" n="footcite:petitot-tondut">
+      <analytic>
+        <title level="a">Vers une neurogéométrie. Fibrations corticales, structures de contact et contours subjectifs modaux</title>
+        <author>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Petitot</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Tondut</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Inform. Sci. Humaines</title>
+        <imprint>
+          <biblScope type="number">145</biblScope>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">5–101</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid13" type="article" rend="foot" n="footcite:rabitz">
+      <analytic>
+        <title level="a">Wither the future of controlling quantum phenomena?</title>
+        <author>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Rabitz</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>de Vivie-Riedle</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Motzkus</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Kompa</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SCIENCE</title>
+        <imprint>
+          <biblScope type="volume">288</biblScope>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">824–828</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid26" type="article" rend="foot" n="footcite:calarco">
+      <identifiant type="doi" value="10.1088/1751-8113/40/28/S12"/>
+      <analytic>
+        <title level="a">Decoherence by engineered quantum baths</title>
+        <author>
+          <persName>
+            <foreName>Davide</foreName>
+            <surname>Rossini</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Tommaso</foreName>
+            <surname>Calarco</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Vittorio</foreName>
+            <surname>Giovannetti</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Simone</foreName>
+            <surname>Montangero</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Rosario</foreName>
+            <surname>Fazio</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Phys. A</title>
+        <imprint>
+          <biblScope type="volume">40</biblScope>
+          <biblScope type="number">28</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">8033–8040</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1088/1751-8113/40/28/S12" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1088/<allowbreak/>1751-8113/<allowbreak/>40/<allowbreak/>28/<allowbreak/>S12</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid33" type="incollection" rend="foot" n="footcite:roucho2">
+      <analytic>
+        <title level="a">Control of a quantum particle in a moving potential well</title>
+        <author>
+          <persName key="quantic-2014-idp107304">
+            <foreName>Pierre</foreName>
+            <surname>Rouchon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Lagrangian and Hamiltonian methods for nonlinear control 2003</title>
+        <loc>Laxenburg</loc>
+        <imprint>
+          <publisher>
+            <orgName>IFAC</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">287–290</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid69" type="article" rend="foot" n="footcite:Sasane2005">
+      <identifiant type="doi" value="10.1016/j.automatica.2004.07.013"/>
+      <analytic>
+        <title level="a">Stability of switching infinite-dimensional systems</title>
+        <author>
+          <persName>
+            <foreName>Amol</foreName>
+            <surname>Sasane</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Automatica J. IFAC</title>
+        <imprint>
+          <biblScope type="volume">41</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">75–78</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.automatica.2004.07.013" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>automatica.<allowbreak/>2004.<allowbreak/>07.<allowbreak/>013</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid70" type="inproceedings" rend="foot" n="footcite:AHB2008">
+      <analytic>
+        <title level="a">Stability analysis of linear hyperbolic systems with switching parameters and boundary conditions</title>
+        <author>
+          <persName>
+            <foreName>Amin</foreName>
+            <surname>Saurabh</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>M. Hante</foreName>
+            <surname>Falk</surname>
+            <initial>M. H.</initial>
+          </persName>
+          <persName>
+            <foreName>M. Bayen</foreName>
+            <surname>Alexandre</surname>
+            <initial>M. B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 47th IEEE Conference on Decision and Control, CDC 2008, December 9-11, 2008, Cancún, Mexico</title>
+        <imprint>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">2081–2086</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid55" type="article" rend="foot" n="footcite:ShortenEtAl2007">
+      <identifiant type="doi" value="10.1137/05063516X"/>
+      <analytic>
+        <title level="a">Stability criteria for switched and hybrid systems</title>
+        <author>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Shorten</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabian</foreName>
+            <surname>Wirth</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Oliver</foreName>
+            <surname>Mason</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Kai</foreName>
+            <surname>Wulff</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Christopher</foreName>
+            <surname>King</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Rev.</title>
+        <imprint>
+          <biblScope type="volume">49</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">545–592</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/05063516X" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>05063516X</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid6" type="inproceedings" rend="foot" n="footcite:continuation">
+      <analytic>
+        <title level="a">A continuation method for nonholonomic path finding</title>
+        <author>
+          <persName>
+            <foreName>Héctor J.</foreName>
+            <surname>Sussmann</surname>
+            <initial>H. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 32th IEEE Conference on Decision and Control, CDC 1993, Piscataway, NJ, USA</title>
+        <imprint>
+          <dateStruct>
+            <year>1993</year>
+          </dateStruct>
+          <biblScope type="pages">2718–2723</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid51" type="inbook" rend="foot" n="footcite:Todorov2006">
+      <analytic>
+        <author>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Todorov</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <title level="a">12</title>
+      </analytic>
+      <monogr>
+        <title level="m">Optimal control theory</title>
+        <imprint>
+          <publisher>
+            <orgName>Bayesian Brain: Probabilistic Approaches to Neural Coding, Doya K (ed)</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">269–298</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid32" type="inproceedings" rend="foot" n="footcite:turinici">
+      <analytic>
+        <title level="a">On the controllability of bilinear quantum systems</title>
+        <author>
+          <persName>
+            <foreName>Gabriel</foreName>
+            <surname>Turinici</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Defranceschi</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="matherials-2014-idp61056">
+            <foreName>C.</foreName>
+            <surname>Le Bris</surname>
+            <initial>C.</initial>
+          </persName>
+        </editor>
+        <title level="m">Mathematical models and methods for ab initio Quantum Chemistry</title>
+        <title level="s">Lecture Notes in Chemistry</title>
+        <imprint>
+          <biblScope type="volume">74</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid18" type="article" rend="foot" n="footcite:STIRAP">
+      <analytic>
+        <title level="a">Topology of adiabatic passage</title>
+        <author>
+          <persName>
+            <foreName>L.P.</foreName>
+            <surname>Yatsenko</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Guérin</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>H.R.</foreName>
+            <surname>Jauslin</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Phys. Rev. A</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">043407, 7</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid72" type="article" rend="foot" n="footcite:zu:switc">
+      <analytic>
+        <title level="a">Switching controls</title>
+        <author>
+          <persName>
+            <foreName>Enrique</foreName>
+            <surname>Zuazua</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of the European Mathematical Society</title>
+        <imprint>
+          <biblScope type="volume">13</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">85–117</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="geco-2016-bid14" type="book" rend="foot" n="footcite:shapiro">
+      <monogr>
+        <title level="m">Principles of the Quantum Control of Molecular Processes</title>
+        <author>
+          <persName key="regal-2014-idm26336">
+            <foreName>M.</foreName>
+            <surname>Shapiro</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Brumer</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Principles of the Quantum Control of Molecular Processes, pp. 250. Wiley-VCH</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2003</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

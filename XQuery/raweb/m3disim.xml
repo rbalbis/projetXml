@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="m3disim" isproject="true">
+    <shortname>M3DISIM</shortname>
+    <projectName>Mathematical and Mechanical Modeling with Data Interaction in Simulations for Medicine</projectName>
+    <theme-de-recherche>Modeling and Control for Life Sciences</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>https://m3disim.saclay.inria.fr</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire de Mécanique des Solides</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole Polytechnique</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2013 January 01, updated into Project-Team: 2016 June 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.2. - Stochastic Modeling (SPDE, SDE)</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.1.5. - Multiphysics modeling</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>6.3.2. - Data assimilation</term>
+      <term>6.3.4. - Model reduction</term>
+      <term>6.4. - Automatic control</term>
+      <term>6.4.1. - Deterministic control</term>
+      <term>6.4.2. - Stochastic control</term>
+      <term>6.4.3. - Observability and Controlability</term>
+      <term>6.4.4. - Stability and Stabilization</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.10. - Mathematical biology</term>
+      <term>2.2.1. - Cardiovascular and respiratory diseases</term>
+      <term>2.6.2. - Cardiac imaging</term>
+      <term>2.6.3. - Biological Imaging</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="m3disim-2014-idm29800">
+      <firstname>Dominique</firstname>
+      <lastname>Chapelle</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="m3disim-2015-idm13632">
+      <firstname>Radomir</firstname>
+      <lastname>Chabiniok</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="m3disim-2014-idm28320">
+      <firstname>Sébastien</firstname>
+      <lastname>Imperiale</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="m3disim-2014-idm27064">
+      <firstname>Philippe</firstname>
+      <lastname>Moireau</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="m3disim-2015-idm9888">
+      <firstname>Fabrice</firstname>
+      <lastname>Vallée</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>AP/HP, Researcher</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp120400">
+      <firstname>Jean-Marc</firstname>
+      <lastname>Allain</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Associate Professor</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp122896">
+      <firstname>Martin</firstname>
+      <lastname>Genet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Associate Professor</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp125392">
+      <firstname>Patrick</firstname>
+      <lastname>Le Tallec</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Professor, Part-time 50%</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="m3disim-2015-idp82840">
+      <firstname>Gautier</firstname>
+      <lastname>Bureau</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="m3disim-2014-idm25792">
+      <firstname>Sébastien</firstname>
+      <lastname>Gilles</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp133200">
+      <firstname>Jorge</firstname>
+      <lastname>Albella Martinez</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Santiago de Compostella, from Aug 2016</moreinfo>
+    </person>
+    <person key="m3disim-2014-idp69920">
+      <firstname>Bruno</firstname>
+      <lastname>Burtschell</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="m3disim-2015-idp86568">
+      <firstname>Federica</firstname>
+      <lastname>Caforio</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp140560">
+      <firstname>Ustim</firstname>
+      <lastname>Khristenko</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp143008">
+      <firstname>François</firstname>
+      <lastname>Kimmig</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Sep 2016</moreinfo>
+    </person>
+    <person key="m3disim-2015-idp95368">
+      <firstname>Arthur</firstname>
+      <lastname>Le Gall</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>AP/HP</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp147904">
+      <firstname>Florent</firstname>
+      <lastname>Wijanto</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp150352">
+      <firstname>Jean-Sébastien</firstname>
+      <lastname>Affagard</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="poems-2014-idp108552">
+      <firstname>Antoine</firstname>
+      <lastname>Tonnoir</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria until Aug 2016</moreinfo>
+    </person>
+    <person key="grace-2014-idp78336">
+      <firstname>Hélèna</firstname>
+      <lastname>Kutniak</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="m3disim-2015-idp87800">
+      <firstname>Atte</firstname>
+      <lastname>Aalto</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Post-Doctoral Fellow and Research scientist visitor, until Nov 2016</moreinfo>
+    </person>
+    <person key="m3disim-2014-idp66128">
+      <firstname>Matthieu</firstname>
+      <lastname>Caruel</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XII, Research Scientist</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp162816">
+      <firstname>Jona</firstname>
+      <lastname>Joachim</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris V, Intern, from Feb 2016 until Sep 2016</moreinfo>
+    </person>
+    <person key="m3disim-2014-idp71168">
+      <firstname>Alexandre</firstname>
+      <lastname>Laurin</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Post-Doctoral Fellow and Engineers</moreinfo>
+    </person>
+    <person key="m3disim-2016-idp167808">
+      <firstname>Maeva</firstname>
+      <lastname>Lopez Poncelas</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Intern, from Feb 2016 until Sep 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The research carried out in the M3DISIM team has a rather global methodological perspective oriented towards biomechanics, encompassing mathematical modeling and analysis, inverse problems arising from model-data coupling, and the formulation and analysis of effective and reliable numerical procedures adapted to this overall program. We are also very keen on demonstrating the effectiveness and relevance of these methods in actual applications, usually by proof-of-concept studies carried out within various collaborations.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Multi-scale modeling and coupling mechanisms for biomechanical systems, with mathematical and numerical analysis</bodyTitle>
+      <p>Over the past decade, we have laid out the foundations of a multi-scale 3D model of the cardiac mechanical contraction responding to electrical activation. Several collaborations have been crucial in this enterprise, see below references. By integrating this formulation with adapted numerical methods, we are now able to represent the whole organ behavior in interaction with the blood during complete heart beats. This subject was our first achievement to combine a deep understanding of the underlying physics and physiology and our constant concern of proposing well-posed mathematical formulations and adequate numerical discretizations. In fact, we have shown that our model satisfies the essential thermo-mechanical laws, and in particular the energy balance, and proposed compatible numerical schemes that – in consequence – can be rigorously analyzed, see <ref xlink:href="#m3disim-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In the same spirit, we have recently formulated a poromechanical model adapted to the blood perfusion in the heart, hence precisely taking into account the large deformation of the mechanical medium, the fluid inertia and moving domain, and so that the energy balance between fluid and solid is fulfilled from the model construction to its discretization, see <ref xlink:href="#m3disim-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Inverse problems with actual data – Fundamental formulation, mathematical analysis and applications</bodyTitle>
+      <p>A major challenge in the context of biomechanical modeling – and more generally in modeling for life sciences – lies in using the large amount of data available on the system to circumvent the lack of absolute modeling ground truth, since every system considered is in fact patient-specific, with possibly non-standard conditions associated with a disease. We have already developed original strategies for solving this particular type of inverse problems by adopting the observer stand-point. The idea we proposed consists in incorporating to the classical discretization of the mechanical system an estimator filter that can use the data to improve the quality of the global approximation, and concurrently identify some uncertain parameters possibly related to a diseased state of the patient, see <ref xlink:href="#m3disim-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#m3disim-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#m3disim-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Therefore, our strategy leads to a coupled model-data system solved similarly to a usual PDE-based model, with a computational cost directly comparable to classical Galerkin approximations. We have already worked on the formulation, the mathematical and numerical analysis of the resulting system – see <ref xlink:href="#m3disim-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> – and the demonstration of the capabilities of this approach in the context of identification of constitutive parameters for a heart model with real data, including medical imaging, see <ref xlink:href="#m3disim-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid7">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Clinical applications</bodyTitle>
+      <p>After several validation steps – based on clinical and experimental data – we have reached the point of having validated the heart model in a pre-clinical context where we have combined direct and inverse modeling in order to bring predictive answers on specific patient states. For example, we have demonstrated the predictive ability of our model to set up pacemaker devices for a specific patient in cardiac resynchronization therapies, see <ref xlink:href="#m3disim-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We have also used our parametric estimation procedure to provide a quantitative characterization of an infarct in a clinical experiment performed with pigs, see <ref xlink:href="#m3disim-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid9">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <simplelist>
+        <li id="uid11">
+          <p noindent="true">Official launch of M3DISIM as an Inria project-team (joint with Ecole Polytechnique / LMS) on June 1st</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true">Habilitation (HDR) of Philippe Moireau on November 28th</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </highlights>
+  <logiciels id="uid13">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid14" level="1">
+      <bodyTitle>FELiScE-branch HappyHeart</bodyTitle>
+      <p>Finite Elements for Life SCiences and Engineering problems</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Finite element modelling - Cardiac Electrophysiology - Cardiovascular and respiratory systems</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>FELISCE – standing for “Finite Elements for LIfe SCiences and Engineering” – is a new finite element code. One specific objective of this code is to provide in a unified software environment all the state-of-the-art tools needed to perform simulations of the complex cardiovascular models considered in the teams M3DISIM and REO – namely, involving fluid and solid mechanics, electrophysiology, and the various associated coupling phenomena.</p>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>In FELISCE we have prepared a branch called HappyHeart, which aims at providing a user-friendly interface able to deal efficiently with complex cardiovascular simulations. Started in 2013, the code is already quite large (about 55,000 lines of code in almost 700 different files) and its core is about to be complete. It includes among others full HPC functionalities, high-order finite elements, physics coupling and topology capabilities. Our purpose will then be to use the library to implement the sophisticated cardiovascular models of the team and couple them with Verdandi (data assimilation library) to provide patient-specific simulations.</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">Participants: Gautier Bureau, Federica Caforio, Dominique Chapelle, Sébastien Gilles, Sébastien Imperiale, Philippe Moireau,</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">Contact: Sébastien Gilles</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">URL: <ref xlink:href="http://felisce.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>felisce.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>HeartLab</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Simulation - Health - Cardiac - Image analysis - Computational geometry</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>The heartLab software is a library designed to perform both simulation and estimation of the heart mechanical behavior (based on various types of measurements, e.g. images).</p>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The heartLab software is a library designed to perform both simulation and estimation of the heart mechanical behavior (based on various types of measurements, e.g. images).</p>
+      <p>Also included are geometric data and tools in the code to define cardiac anatomical models compatible with the simulation requirements in terms of mesh quality, fiber direction data defined within each element, and the referencing necessary for handling boundary conditions and estimation, in particular. These geometries are analytical or come from computerized tomography (CT) or magnetic resonance (MR) image data of humans or animals.</p>
+      <simplelist>
+        <li id="uid19">
+          <p noindent="true">Participants: Gautier Bureau, Radomir Chabiniok, Dominique Chapelle and Philippe Moireau</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">Contact: Philippe Moireau</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">URL: <ref xlink:href="https://raweb.inria.fr/rapportsactivite/RA2013/m3disim/uid14.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>raweb.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>rapportsactivite/<allowbreak/>RA2013/<allowbreak/>m3disim/<allowbreak/>uid14.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Verdandi</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> HPC - Model - Software Components - Partial differential equation</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Verdandi is a free and open-source (LGPL) library for data assimilation. It includes various such methods for coupling one or several numerical models and observational data. Mainly targeted at large systems arising from the discretization of partial differential equations, the library is devised as generic, which allows for applications in a wide range of problems (biology and medicine, environment, image processing, etc.). Verdandi also includes tools to ease the application of data assimilation, in particular in the management of observations or for a priori uncertainty quantification. Implemented in C++, the library may be used with models implemented in Fortran, C, C++ or Python.</p>
+      <simplelist>
+        <li id="uid23">
+          <p noindent="true">Participants: Gautier Bureau, Dominique Chapelle, Philippe Moireau</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">Contact: Philippe Moireau</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">URL: <ref xlink:href="http://verdandi.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>verdandi.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid26">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Mathematical and Mechanical modeling</bodyTitle>
+      <subsection id="uid28" level="2">
+        <bodyTitle>A 3D contact-mechanics model of the heart and thorax for seismocardiography</bodyTitle>
+        <participants>
+          <person key="m3disim-2014-idp71168">
+            <firstname>Alexandre</firstname>
+            <lastname>Laurin</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm28320">
+            <firstname>Sébastien</firstname>
+            <lastname>Imperiale</lastname>
+          </person>
+          <person key="m3disim-2014-idm29800">
+            <firstname>Dominique</firstname>
+            <lastname>Chapelle</lastname>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+          </person>
+        </participants>
+        <p>The current interpretation of seismocardiogram fiducial points depends on their phenomenological association with the timing of events on simultaneous echocardiograms. Signal processing methods can be devised to acquire these timings automatically (see <ref xlink:href="#m3disim-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#m3disim-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). So far, no causal framework has been tested to explain this timing, nor their direction and amplitude. This work attempted to adapt a comprehensive 3D cardiac model to interact through contact with a model of the thoracic cage. The heart model was designed to represent multi-scale, multi-physics physiological processes such as the electrical activation, the mechanical contraction, as well as the system circulation. The objective is to link observed acceleration of the sternum to the underlying physiology, and offer a potential mechanical explanation for them. The modelling chain necessary to go from the heart model to a simulated SCG has been successfully implemented (see Figure <ref xlink:href="#uid29" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Furthermore, the complexity of the thoracic model has been substantially reduced, without deteriorating results, to improve the portability of the entire process. Once the relevant parameters of in-vivo thoraces will have been precisely identified, it will be possible to compute heart forces and the various cardiac events that cause them directly from SCG measurements. The subsequent aim is to apply the model to ageing and pathological physiologies.</p>
+        <object id="uid29">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/SCG.png" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Simulation of the thorax deformation due to a heart beat and of the corresponding seismocardiogram</caption>
+        </object>
+      </subsection>
+      <subsection id="uid30" level="2">
+        <bodyTitle>Multi-scale modeling of muscle contraction</bodyTitle>
+        <participants>
+          <person key="m3disim-2016-idp143008">
+            <firstname>François</firstname>
+            <lastname>Kimmig</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm29800">
+            <firstname>Dominique</firstname>
+            <lastname>Chapelle</lastname>
+          </person>
+          <person key="m3disim-2014-idp66128">
+            <firstname>Matthieu</firstname>
+            <lastname>Caruel</lastname>
+          </person>
+        </participants>
+        <p>This works aims at proposing a multi-scale model of the muscular contraction that can be used in the context of cardiac simulation. The modeling will be based on the stochastic equations that describe muscular contraction at the molecular level. Asymptotic counterparts of the stochastic model will be considered in order to provide pertinent simplified models. The modeling elements will be confronted with experiments that will be performed on cardiac muscle cells by collaborators in the team of Professor Vincenzo Lombardi at the University of Florence.</p>
+        <p>In the framework of this collaboration, a chemicomechanical model is being implemented into CardiacLab, a simulation environment developed by the team. It will enrich the range of modeling tools of the team for the active contribution of muscle cells to the cardiac behavior.</p>
+      </subsection>
+      <subsection id="uid31" level="2">
+        <bodyTitle>Multiphysics and multiscale modelling, data-model fusion and integration of organ physiology in the clinic: ventricular cardiac mechanics</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idm13632">
+            <firstname>Radomir</firstname>
+            <lastname>Chabiniok</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+          </person>
+          <person key="m3disim-2014-idm29800">
+            <firstname>Dominique</firstname>
+            <lastname>Chapelle</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Maxime</firstname>
+            <lastname>Sermesant</lastname>
+            <moreinfo>Team Asclepios</moreinfo>
+          </person>
+        </participants>
+        <p>With heart and cardiovascular diseases continually challenging healthcare systems worldwide, translating basic research on cardiac (patho)physiology into clinical care is essential. Exacerbating this already extensive challenge is the complexity of the heart, relying on its hierarchical structure and function to maintain cardiovascular flow. Computational modelling has been proposed and actively pursued as a tool for accelerating research and translation. Allowing exploration of the relationships between physics, multiscale mechanisms and function, computational modelling provides a platform for improving our understanding of the heart. Further integration of experimental and clinical data through data assimilation and parameter estimation techniques is bringing computational models closer to use in routine clinical practice. This work published in <ref xlink:href="#m3disim-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> reviews developments in computational cardiac modelling and how their integration with medical imaging data is providing new pathways for translational cardiac modelling.</p>
+      </subsection>
+      <subsection id="uid32" level="2">
+        <bodyTitle>Eidolon: visualization and computational framework for multi-modal biomedical data analysis</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idm13632">
+            <firstname>Radomir</firstname>
+            <lastname>Chabiniok</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>Biomedical research, combining multi-modal image and geometry data, presents unique challenges for data visualization, processing, and quantitative analysis. Medical imaging provides rich information, from anatomical to deformation, but extracting this to a coherent picture across image modalities with preserved quality is not trivial. Addressing these challenges and integrating visualization with image and quantitative analysis results in Eidolon, a platform which can adapt to rapidly changing research workflows. In the paper <ref xlink:href="#m3disim-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we outline Eidolon, a software environment aimed at addressing these challenges, and discuss the novel integration of visualization and analysis components. These capabilities are demonstrated through the example of cardiac strain analysis, showing the Eidolon supports and enhances the workflow.</p>
+      </subsection>
+      <subsection id="uid33" level="2">
+        <bodyTitle>Mathematical and numerical modeling of elastic waves propagation in the heart</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idp86568">
+            <firstname>Federica</firstname>
+            <lastname>Caforio</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm29800">
+            <firstname>Dominique</firstname>
+            <lastname>Chapelle</lastname>
+          </person>
+          <person key="m3disim-2014-idm28320">
+            <firstname>Sébastien</firstname>
+            <lastname>Imperiale</lastname>
+          </person>
+        </participants>
+        <p>The objective of this work is to develop a rigorous mathematical and numerical background for the extension and dissemination of elastography imaging modalities, applied to the cardiac setting. The problems treated concern the topics of mathematical modelling, numerical analysis and scientific computing. More precisely, the plan is to define a linearised model for the propagation of elastic waves in the heart, to study approximations of these models and define adapted numerical methods for the discretisation of the resulting partial differential equations.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Numerical Methods</bodyTitle>
+      <subsection id="uid35" level="2">
+        <bodyTitle>Effective and energy-preserving time discretization for a general nonlinear poromechanical formulation</bodyTitle>
+        <participants>
+          <person key="m3disim-2014-idp69920">
+            <firstname>Bruno</firstname>
+            <lastname>Burtschell</lastname>
+          </person>
+          <person key="m3disim-2014-idm29800">
+            <firstname>Dominique</firstname>
+            <lastname>Chapelle</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+          </person>
+        </participants>
+        <p>In this work, we consider a general nonlinear poromechanical model, formulated based on fundamental thermodynamics principle, suitable for representing the coupling of rapid internal fluid flows with large deformations of the solid, and compatible with a wide class of constitutive behavior. The objective of the present work is to propose for this model a time discretization scheme of the partitioned type, to allow the use of existing time schemes - and possibly separate solvers - for each component of the model, i.e. for the fluid and the solid. To that purpose, we adapt and extend an earlier proposed approach devised for fluid-structure interaction in an Arbitrary Lagrangian-Eulerian framework. We then establish an energy estimate for the resulting time scheme, in a form that is consistent with the underlying energy principle in the poromechanical formulation, up to some numerical dissipation effects and some perturbations that we have carefully identified and assessed. In addition, we provide some numerical illustrations of our numerical strategy with test problems that present typical features of large strains and rapid fluid flows, and also a case of singular transition related to total drainage. An example of challenging application envisioned for this model and associated numerical coupling scheme concerns the perfusion of the heart. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Delayed feedback control method for calculating space-time periodic solutions of viscoelastic problems</bodyTitle>
+        <participants>
+          <person key="m3disim-2016-idp140560">
+            <firstname>Ustim</firstname>
+            <lastname>Khristenko</lastname>
+          </person>
+          <person key="m3disim-2016-idp125392">
+            <firstname>Patrick</firstname>
+            <lastname>Le Tallec</lastname>
+          </person>
+        </participants>
+        <p>We are interested in fast techniques for calculating a periodic solution to viscoelastic evolution problems with a space-time periodic condition. In order to avoid the invertion of very large matrices, such a solution is often computed as an asymptotic limit of the initial value problem with arbitrary initial data. We have developed a control method, accelerating the convergence to the periodic state. The main idea is to modify our problem by introducing a feedback control term, based on a periodicity error.</p>
+        <p>First, an abstract evolution problem has been studied. From the analytic solution of the modified (controlled) problem, an efficient control has been constructed, optimizing the spectrum of the problem. The proposed control term can be mechanically interpreted, and its efficiency increases with the relaxation time.</p>
+        <p>In order to confirm numerically the theoretical results, a finite element simulation has been carried out on a full 3D model for a steady rolling of a viscoelastic tyre with periodic sculpture. It has demonstrated that the controlled solution converges indeed faster than the non-controlled one, and that the efficiency of the method increases with the problem's relaxation time, that is when the memory of the underlying problem is large.</p>
+      </subsection>
+      <subsection id="uid37" level="2">
+        <bodyTitle>Construction and analysis of an adapted spectral finite element method to convective acoustic equations</bodyTitle>
+        <participants>
+          <person key="m3disim-2014-idm28320">
+            <firstname>Sébastien</firstname>
+            <lastname>Imperiale</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>This work addresses the construction of a non spurious mixed spectral finite element (FE) method to problems in the field of computational aeroacous-tics. Based on a computational scheme for the conservation equations of linear acoustics, the extension towards convected wave propagation is investigated. In aeroacoustic applications, the mean flow effects can have a significant impact on the generated sound field even for smaller Mach numbers. For those convective terms, the initial spectral FE discretization leads to non-physical, spurious solutions. Therefore, a regularization procedure is proposed and qualitatively investigated by means of discrete eigenvalues analysis of the discrete operator in space. A study of convergence and an application of the proposed scheme to simulate the flow induced sound generation in the process of human phonation underlines stability and validity. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid38" level="2">
+        <bodyTitle>Space/time convergence analysis of a class of conservative schemes for linear wave equations</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Juliette</firstname>
+            <lastname>Chabassier</lastname>
+            <moreinfo>MAGIQUE 3D team</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm28320">
+            <firstname>Sébastien</firstname>
+            <lastname>Imperiale</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>This work concerns the space/time convergence analysis of conservative two-steps time discretizations for linear wave equations. Explicit and implicit, second and fourth order schemes are considered, while the space discretization is given and satisfies minimal hypotheses. The convergence analysis is done using energy techniques and holds if the time step is upper-bounded by a quantity depending on space discretization parameters. In addition to showing the convergence for recently introduced fourth order schemes, the novelty of this work consists in the independency of the convergence estimates with respect to the difference between the time step and its greatest admissible value. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>Inverse Problems</bodyTitle>
+      <subsection id="uid40" level="2">
+        <bodyTitle>Front observer for data assimilation of electroanatomical mapping data for a numerical atrial model</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Antoine</firstname>
+            <lastname>Gérard</lastname>
+            <moreinfo>Carmen team</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Annabelle</firstname>
+            <lastname>Collin</lastname>
+            <moreinfo>Monc team</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Jason</firstname>
+            <lastname>Bayer</lastname>
+            <moreinfo>Carmen team</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Yves</firstname>
+            <lastname>Coudière</lastname>
+            <moreinfo>Carmen team</moreinfo>
+          </person>
+        </participants>
+        <p>The purpose of our work is to personalize an atrial model of the propagation of the action potential, based on electrical catheter data with the help of the data assimilation approach introduced in [Collin &amp; Al, Journal of Computational Physics 2015]. The originality of the approach is to indroduce a Luenberger observer of a surface atrial model of the propagation which can pursue - like in classical Kalman filtering approach - the actual activation front reconstructed from catheter data. Moreover, this approach may account for the breakthrough of new activation fronts at anytime with an additional topological gradient term. In the present work, we adapt this approach to the bilayer surface atrial model of th propagation of action potentials [Labarthe &amp; Al, Europace 2014], and evaluated for the first time on a real patient's dataset. First, the model was geometrically fit to the patient's data. A fiber architecture was added to the geometry. Then an initial electrophysiological state was guessed, and the model was run with the Luenberger filter for some catheter data acquired during a CARTO procedure. All along the simulation, the filter corrects the action potential so as to track CARTO local activation times, while preserving a biophysical behavior. With this technique, we are able to reconstruct smooth activation maps over the whole atrial surfaces. This promising technique may also allow to reconstruct velocity fields and directions, phase map and possibly give information on repolarization. This work results from a collaborative project carried out during a training session at CEMRACS 2016 in Marseille, Luminy. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid41" level="2">
+        <bodyTitle>Iterative observer-based state and parameter estimation for linear systems</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idp87800">
+            <firstname>Atte</firstname>
+            <lastname>Aalto</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>In this work we propose an iterative method for joint state and parameter estimation using measurements on a finite time interval for systems that are backward output stabilizable. Since this time interval is fixed, errors in initial state may have a big impact on the parameter estimate. We propose to use the back and forth nudging (BFN) method for estimating the system's initial state and a Gauss–Newton step between BFN iterations for estimating the system parameters. Taking advantage of results on the optimality of the BFN method, we show that for systems with skew-adjoint generators, the initial state and parameter estimate minimizing an output error cost functional is an attractive fixed point for the proposed method. We treat both linear source estimation and bilinear parameter estimation problems.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>Estimation from moments measurements for amyloid depolymerisation</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Aurora</firstname>
+            <lastname>Armiento</lastname>
+            <moreinfo>Mamba team</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Marie</firstname>
+            <lastname>Doumic</lastname>
+            <moreinfo>Mamba team</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>Estimating reaction rates and size distributions of protein polymers is an important step for understanding the mechanisms of protein misfolding and aggregation, a key feature for amyloid diseases. This study aims at setting this framework problem when the experimental measurements consist in the time-dynamics of a moment of the population (<i>i.e.</i> for instance the total polymerised mass, as in Thioflavine T measurements, or the second moment measured by Static Light Scattering). We propose a general methodology, and we solve the problem theoretically and numerically in the case of a depolymerising system. We then apply our method to experimental data of degrading oligomers, and conclude that smaller aggregates of ovPrP protein should be more stable than larger ones. This has an important biological implication, since it is commonly admitted that small oligomers constitute the most cytotoxic species during prion misfolding process. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Analysis of an observers strategy for initial state reconstruction in unbounded domains</bodyTitle>
+        <participants>
+          <person key="poems-2014-idp108552">
+            <firstname>Antoine</firstname>
+            <lastname>Tonnoir</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Sonia</firstname>
+            <lastname>Fliss</lastname>
+            <moreinfo>Poems team</moreinfo>
+          </person>
+          <person key="m3disim-2014-idm28320">
+            <firstname>Sébastien</firstname>
+            <lastname>Imperiale</lastname>
+          </person>
+          <person key="m3disim-2014-idm27064">
+            <firstname>Philippe</firstname>
+            <lastname>Moireau</lastname>
+          </person>
+        </participants>
+        <p>In this work, we are interested in the problem of recovering a compactly supported initial state of the wave equation in unbounded domain (such as the whole plane, a waveguide...). To this purpose, we assume that the velocity is known in a bounded observation region surrounding the support of the initial state. We consider an iterative algorithm of reconstruction based on back and forth nudging and prove the exponential convergence of this algorithm and its robustness with respect to noisy measures, at the continuous level. We also study the effect of the discretization process on the convergence of the algorithm.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Experiments and Clinical applications</bodyTitle>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Characterization of mechanical properties of soft tissues</bodyTitle>
+        <participants>
+          <person key="m3disim-2016-idp120400">
+            <firstname>Jean-Marc</firstname>
+            <lastname>Allain</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+          <person key="m3disim-2016-idp150352">
+            <firstname>Jean-Sebastien</firstname>
+            <lastname>Affagard</lastname>
+          </person>
+          <person key="m3disim-2016-idp167808">
+            <firstname>Maeva</firstname>
+            <lastname>Lopez Poncelas</lastname>
+          </person>
+        </participants>
+        <p>Soft tissues - such as skin - have complex mechanical properties: large strains, anisotropy, etc.. Identifying constitutive properties incorporating microstructure effects is very important for applications in medicine (surgery and other therapies) and industry (anti-ageing cosmetics, etc.). This characterization, however, requires complex experiments. We have developed a novel biaxial traction experimental method for mice skin, relying on a sensitivity analysis for determining optimal experimental parameters, including in particular sample size and most informative loading paths. This protocol has already been used on multiple samples, and 3 distinct constitutive laws of increasing complexity have been characterized (Master’s internship of Maeva Lopez).</p>
+        <p>Another originality in our approach is to place our setup under a microscope to monitor the microstructure evolution during the test. These rich measurements allow detailed comparisons of classical models (such as Holzapfel’s) with our data.</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Non-invasive model-based assessment of passive left-ventricular myocardial stiffness in healthy subjects and in patients with non-ischemic dilated cardiomyopathy</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idm13632">
+            <firstname>Radomir</firstname>
+            <lastname>Chabiniok</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>Patient-specific modelling has emerged as a tool for studying heart function, demonstrating the potential to provide non-invasive estimates of tissue passive stiffness. However, reliable use of model-derived stiffness requires sufficient model accuracy and unique estimation of model parameters. In this work we present personalised models of cardiac mechanics, focusing on improving model accuracy, while ensuring unique parametrisation. The influence of principal model uncertainties on accuracy and parameter identifiability was systematically assessed in a group of patients with dilated cardiomyopathy and healthy volunteers. For all cases, we examined three circumferentially symmetric fibre distributions and two epicardial boundary conditions. Our results demonstrated the ability of data-derived boundary conditions to improve model accuracy and highlighted the influence of the assumed fibre distribution on both model fidelity and stiffness estimates. The model personalisation pipeline – based strictly on non-invasive data – produced unique parameter estimates and satisfactory model errors for all cases, supporting the selected model assumptions. The thorough analysis performed enabled the comparison of passive parameters between volunteers and dilated cardiomyopathy patients, illustrating elevated stiffness in diseased hearts.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Age-related changes in intraventricular kinetic energy: a physiological or pathological adaptation</bodyTitle>
+        <participants>
+          <person key="m3disim-2015-idm13632">
+            <firstname>Radomir</firstname>
+            <lastname>Chabiniok</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>Aging has important deleterious effects on the cardiovascular system. In this work we sought to compare intraventricular kinetic energy (KE) in healthy subjects of varying ages with subjects with ventricular dysfunction to understand if changes in energetic momentum may predispose individuals to heart failure. Four-dimensional flow MRI was acquired in 35 healthy subjects (age: 1 -67 yr) and 10 patients with left ventricular (LV) dysfunction (age: 28-79 yr). Healthy subjects were divided into age quartiles (1st quartile: 16 yr, 2nd quartile: 17-32 yr, 3rd quartile: 33-48 yr, and 4th quartile: 49 - 64 yr). KE was measured in the LV throughout the cardiac cycle and indexed to ventricular volume. In healthy subjects, two large peaks corresponding to systole and early diastole occurred during the cardiac cycle. A third smaller peak was seen during late diastole in eight adults. Systolic KE (P 0.182) and ejection fraction (P 0.921) were preserved through all age groups. Older adults showed a lower early peak diastolic KE compared with children (P 0.0001) and young adults (P 0.025). Subjects with LV dysfunction had reduced ejection fraction (P 0.001) and compared with older healthy adults exhibited a similar early peak diastolic KE (P 0.142) but with the addition of an elevated KE in diastasis (P 0.029). In healthy individuals, peak diastolic KE progressively decreases with age, whereas systolic peaks remain constant. Peak diastolic KE in the oldest subjects is comparable to those with LV dysfunction. Unique age-related changes in ventricular diastolic energetics might be physiological or herald subclinical pathology. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Patient-specific computational analysis of ventricular mechanics in pulmonary arterial hypertension</bodyTitle>
+        <participants>
+          <person key="m3disim-2016-idp122896">
+            <firstname>Martin</firstname>
+            <lastname>Genet</lastname>
+            <moreinfo>correspondant</moreinfo>
+          </person>
+        </participants>
+        <p>Patient-specific biventricular computational models associated with a normal subject and a pulmonary arterial hypertension (PAH) patient were developed to investigate the disease effects on ventricular mechanics. These models were developed using geometry reconstructed from magnetic resonance (MR) images, and constitutive descriptors of passive and active mechanics in cardiac tissues. Model parameter values associated with ventricular mechanical properties and myofiber architecture were obtained by fitting the models with measured pressure–volume loops and circumferential strain calculated from MR images using a hyperelastic warping method. Results show that the peak right ventricle (RV) pressure was substantially higher in the PAH patient (65 mmHg versus 20 mmHg), who also has a significantly reduced ejection fraction (EF) in both ventricles (left ventricle (LV): 39% versus 66% and RV: 18% versus 64%). Peak systolic circumferential strain was comparatively lower in both the left ventricle (LV) and RV free wall (RVFW) of the PAH patient (LV: −6.8% versus −13.2% and RVFW: −2.1% versus −9.4%). Passive stiffness, contractility, and myofiber stress in the PAH patient were all found to be substantially increased in both ventricles, whereas septum wall in the PAH patient possessed a smaller curvature than that in the LV free wall. Simulations using the PAH model revealed an approximately linear relationship between the septum curvature and the transseptal pressure gradient at both early-diastole and end-systole. These findings suggest that PAH can induce LV remodeling, and septum curvature measurements may be useful in quantifying transseptal pressure gradient in PAH patients. This work has resulted in the publication <ref xlink:href="#m3disim-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <partenariat id="uid49">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid50" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid51" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid52" level="3">
+          <bodyTitle>VP2HF</bodyTitle>
+          <sanspuceslist>
+            <li id="uid53">
+              <p noindent="true">Title: Computer model derived indices for optimal patient-specific treatment selection and planning in Heart Failure</p>
+            </li>
+            <li id="uid54">
+              <p noindent="true">Programm: FP7</p>
+            </li>
+            <li id="uid55">
+              <p noindent="true">Duration: October 2013 - March 2017</p>
+            </li>
+            <li id="uid56">
+              <p noindent="true">Coordinator: King's College London (UK)</p>
+            </li>
+            <li id="uid57">
+              <p noindent="true">See also: <ref xlink:href=" http://vp2hf.eu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"> http://<allowbreak/>vp2hf.<allowbreak/>eu/</ref></p>
+            </li>
+            <li id="uid58">
+              <p noindent="true">Inria contact: Dominique Chapelle</p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">Abstract: Heart failure (HF) is one of the major health issues in Europe affecting 6 million patients and growing substantially because of the ageing population and improving survival following myocardial infarction. The poor short to medium term prognosis of these patients means that treatments such as cardiac re-synchronisation therapy and mitral valve repair can have substantial impact. However, these therapies are ineffective in up to 50% of the treated patients and involve significant morbidity and substantial cost. The primary aim of VP2HF is to bring together image and data processing tools with statistical and integrated biophysical models mainly developed in previous VPH projects, into a single clinical workflow to improve therapy selection and treatment optimisation in HF.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid60">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid62" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid63" level="3">
+          <bodyTitle>Member of the organizing committees</bodyTitle>
+          <p noindent="true">Philippe Moireau</p>
+          <sanspuceslist>
+            <li id="uid64">
+              <p noindent="true">P. Moireau, Member of the CEMRACS-2016 organizing committee</p>
+            </li>
+            <li id="uid65">
+              <p noindent="true">M. Genet, Member of the GIENS-2017 organizing committee</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid66" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid67" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <sanspuceslist>
+            <li id="uid68">
+              <p noindent="true">D. Chapelle, Member of the editorial board of journal <i>Computers &amp; Structures</i></p>
+            </li>
+            <li id="uid69">
+              <p noindent="true">D. Chapelle, Member of the editorial board of journal <i>ESAIM: M2AN</i></p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid70" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <sanspuceslist>
+            <li id="uid71">
+              <p noindent="true">J-M. Allain, Reviewer for “Journal of the Royal Society Interface”, “Physica D” and “Journal of the Mechanical Behavior of Biomedical Materials”.</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">R. Chabiniok, reviewer for “Journal of Biomechanical Engineering and Computational” and “Mathematical Methods in Medicine”.</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">M. Genet, reviewer for “Journal of Elasticity”.</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">S. Imperiale, reviewer for “Journal of Computational Physics” and “Journal of Differential Equations”.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid75" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <sanspuceslist>
+          <li id="uid76">
+            <p noindent="true">J.-M. Allain, “Caractérisation in vitro de tissus mous à l’échelle microscopique”, Colloque Mecamat, Aussois.</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">J.-M. Allain, “Multiscale characterization of skin biomechanics”, Workshop constitutive behaviour of soft tissue, Manchester, UK.</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">R. Chabiniok, “Biophysical modeling of cardiac function for clinical applications” at University Southwestern, Dallas, Texas (Seminar series of Biomedical Engineering Department, and at regular clinical echocardiography meeting of Dept. of Pediatrics, UT Southwestern Medical Center).</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">D. Chapelle, seminar at CEMRACS-16.</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">M. Genet, “Modélisation et simulation en biomécanique cardiaque”, Département de Génie Mécanique, École Normale Supérieure de Cachan.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid81" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <sanspuceslist>
+          <li id="uid82">
+            <p noindent="true">J.-M. Allain, Member of Society of Experimental Mechanics and of Biophysical Society</p>
+          </li>
+          <li id="uid83">
+            <p noindent="true">J.-M. Allain, Member of the Academic Council of Université Paris-Sacaly, France</p>
+          </li>
+          <li id="uid84">
+            <p noindent="true">D. Chapelle, Member of the board of directors of the VPH Institute</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid85" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <sanspuceslist>
+          <li id="uid86">
+            <p noindent="true">J.-M. Allain, Responsability of the teaching experimental center (mechanics), 32h, Ecole Polytechnique, France</p>
+          </li>
+          <li id="uid87">
+            <p noindent="true">J.-M. Allain, Scientific Advisory Board, chair BioMecAM, ENSAM, Paris, France</p>
+          </li>
+          <li id="uid88">
+            <p noindent="true">D. Chapelle, VP research of Inria Saclay-Ile-de-France</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid89" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid90" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid91">
+            <p noindent="true">Bachelor: J.-M. Allain, co-supervision of the new program for the Polytechnique Bachelor, 15h, Ecole Polytechnique, France</p>
+          </li>
+          <li id="uid92">
+            <p noindent="true">Bachelor: F. Caforio, “Math 255 – Differential calculus for physics (mathematical analysis in two and three dimensions)”, 42h, (L2), Université d'Orsay, France</p>
+          </li>
+          <li id="uid93">
+            <p noindent="true">Bachelor: M. Genet, “MEC431 – Modélisation et Simulation en Mécanique Industrielle”, 32h, (L3), École Polytechnique, France</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">Bachelor: M. Genet, “MEC431 – Mécanique des Milieux Continus”, 16h, (L3), École Polytechnique, France</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true">Bachelor: S. Imperiale, “MA102 – Analyse pour les EDP”, 24h, (L3), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">Bachelor: S. Imperiale, “MA104 – Analyse complexe”, 12h, (L3), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Bachelor: P. Moireau, “MA103 – Introduction aux EDP et à leur approximation numérique”, 14h, (L3), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid98">
+            <p noindent="true">Master : J.-M. Allain, “Computational fluid dynamics”, 36h, (M1), Ecole Polytechnique, France</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">Master : J.-M. Allain, “Cellular Motility”, 32h, (M2), Ecole Polytechnique, France</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Master: D. Chapelle, “Biomechanical Modeling of Active Tissues”, 23h, (M2), Université Paris-Saclay, France</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Master : M. Genet, “MEC551 – Plasticité &amp; Rupture”, 18h, (M1), École Polytechnique, France</p>
+          </li>
+          <li id="uid102">
+            <p noindent="true">Master: S. Imperiale, “MA2610 Calcul Scientifique – Mécanique des solides”, 6h, (M1), Central/Supelec, France</p>
+          </li>
+          <li id="uid103">
+            <p noindent="true">Master: S. Imperiale, “Simnum – Programmation C++”, 18h, (M1), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">Master: S. Imperiale, “MAP-Ann1 – La méthode des éléments finis”, 12h, (M1), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid105">
+            <p noindent="true">Master: P. Moireau, “MAP-Ann1 – La méthode des éléments finis”, 21h, (M1), ENSTA ParisTech, France</p>
+          </li>
+          <li id="uid106">
+            <p noindent="true">Master: P. Moireau, “MAP 431 – Analyse variationnelle des équations aux dérivées partielles”, (M1), Ecole Polytechnique, France</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">Master: P. Moireau, “Biomechanical Modeling of Active Tissues”, 12h, (M2), Université Paris-Saclay, France</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Master: P. Moireau, “Méthodes et problèmes inverses en dynamique des populations”, 24h, (M2), UPMC, France</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid110">
+            <p noindent="true">HdR : Philippe Moireau, Observers for data assimilation – Applications to cardiac modeling, Université Paris-Saclay, November 28th</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">PhD : Bruno Burtschell, Mechanical modeling and numerical methods for poromechanics – Application to myocardium perfusion, Université Paris-Saclay, September 30th, supervisors: D. Chapelle and P. Moireau</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">PhD in progress : Aurora Armiento, Inverse problems and data assimilation methods applied to protein depolymerisation, started: Nov 2013, supervisors: M. Doumic and P. Moireau</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">PhD in progress : Federica Caforio, “Modélisation mathématique et numérique de la propagation d'ondes élastique dans le coeur”, started: Nov 2015, supervisors: D. Chapelle and S. Imperiale</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">PhD in progress : Florent Wijanto, Modélisation multi-échelle des fibres de collagènes, started: Sept 2015, supervisors:, Jean-Marc Allain and Mathieu Carruel</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">PhD in progress : Arthur Le Gall, “Application of biomechanical heart modeling in hemodynamic monitoring of increased risk patients during aneshesia using clinical data”, started: Nov 2016, supervisors: Dominique Chapelle, Etienne Gayat, Radomir Chabiniok</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">PhD in progress : François Kimmig, “Multi-scale modeling of muscle contraction”, started: Sept 2016, supervisors: Dominique Chapelle, Matthieu Caruel</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid117" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid118">
+            <p noindent="true">J.-M. Allain, Reviewer for Laure Laforgue's PhD Thesis, LiPhy Grenoble.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">P. Moireau, Reviewer for Stefano Pagani's PhD Thesis, Politecnico di Milano.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid120" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <sanspuceslist>
+        <li id="uid121">
+          <p noindent="true">D. Chapelle, Debate on “Data sciences and personalized medicine” at Cité des Sciences (also on web-TV), Oct 9th</p>
+        </li>
+        <li id="uid122">
+          <p noindent="true">D. Chapelle, Roundtable in workshop “Mathématiques Oxygène du Numérique" (UPMC, Oct 21st)</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="m3disim-2016-bid6" type="article" rend="refer" n="refercite:chabiniok:hal-00654541">
+      <identifiant type="doi" value="10.1007/s10237-011-0337-8"/>
+      <identifiant type="hal" value="hal-00654541"/>
+      <analytic>
+        <title level="a">Estimation of tissue contractility from cardiac cine-MRI using a biomechanical heart model</title>
+        <author>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre-François</foreName>
+            <surname>Lesault</surname>
+            <initial>P.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Alain</foreName>
+            <surname>Rahmouni</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Francois</foreName>
+            <surname>Deux</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Biomechanics and Modeling in Mechanobiology</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">609-630</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00654541" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00654541</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid27" type="book" rend="refer" n="refercite:chapelle:hal-00654533">
+      <identifiant type="doi" value="10.1007/978-3-642-16408-8"/>
+      <identifiant type="hal" value="hal-00654533"/>
+      <monogr>
+        <title level="m">The Finite Element Analysis of Shells - Fundamentals - Second Edition</title>
+        <title level="s">Computational Fluid and Solid Mechanics</title>
+        <author>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>K.J.</foreName>
+            <surname>Bathe</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">410</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00654533" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00654533</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid5" type="article" rend="refer" n="refercite:chapelle:inria-00621052">
+      <identifiant type="doi" value="10.1142/S0218202512500406"/>
+      <identifiant type="hal" value="inria-00621052"/>
+      <analytic>
+        <title level="a">Improving convergence in numerical analysis using observers - The wave-like equation case</title>
+        <author>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolae</foreName>
+            <surname>Cîndea</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematical Models and Methods in Applied Sciences</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00621052" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00621052</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid26" type="article" rend="refer" n="refercite:chapelle:hal-00760887">
+      <identifiant type="doi" value="10.1007/s11517-012-0969-6"/>
+      <identifiant type="hal" value="hal-00760887"/>
+      <analytic>
+        <title level="a">Fundamental principles of data assimilation underlying the Verdandi library: applications to biophysical model personalization within euHeart</title>
+        <author>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Fragu</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="clime-2014-idp101416">
+            <foreName>Vivien</foreName>
+            <surname>Mallet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Medical &amp; Biological Engineering &amp; Computing</title>
+        <imprint>
+          <biblScope type="volume">51</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">1221–1233</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00760887" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00760887</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid0" type="article" rend="refer" n="refercite:chapelle:hal-00678772">
+      <identifiant type="doi" value="10.1615/IntJMultCompEng.2011002360"/>
+      <identifiant type="hal" value="hal-00678772"/>
+      <analytic>
+        <title level="a">An energy-preserving muscle tissue model: formulation and compatible discretizations</title>
+        <author>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="m3disim-2016-idp125392">
+            <foreName>Patrick</foreName>
+            <surname>Le Tallec</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sisyphe-2014-idm29648">
+            <foreName>Michel</foreName>
+            <surname>Sorine</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal for Multiscale Computational Engineering</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">189-211</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00678772" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00678772</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid1" type="article" rend="refer" n="refercite:chapelle:inria-00520612">
+      <identifiant type="doi" value="10.1016/j.euromechflu.2014.02.009"/>
+      <identifiant type="hal" value="inria-00520612"/>
+      <analytic>
+        <title level="a">General coupling of porous flows and hyperelastic formulations – From thermodynamics principles to energy balance and compatible time schemes</title>
+        <author>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">European Journal of Mechanics - B/Fluids</title>
+        <imprint>
+          <biblScope type="volume">46</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">82-96</biblScope>
+          <ref xlink:href="https://hal.inria.fr/inria-00520612" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00520612</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Updated version of previously published research report</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid2" type="article" rend="refer" n="refercite:moireau:hal-00175623">
+      <identifiant type="doi" value="10.1016/j.cma.2007.08.021"/>
+      <identifiant type="hal" value="hal-00175623"/>
+      <analytic>
+        <title level="a">Joint state and parameter estimation for distributed mechanical systems</title>
+        <author>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="m3disim-2016-idp125392">
+            <foreName>Patrick</foreName>
+            <surname>Le Tallec</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computer Methods in Applied Mechanics and Engineering</title>
+        <imprint>
+          <biblScope type="volume">197</biblScope>
+          <biblScope type="number">6-8</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">659-677</biblScope>
+          <ref xlink:href="http://hal.archives-ouvertes.fr/hal-00175623" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00175623</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid3" type="article" rend="refer" n="refercite:moireau:hal-00358914">
+      <identifiant type="doi" value="10.1088/0266-5611/25/3/035010"/>
+      <identifiant type="hal" value="hal-00358914"/>
+      <analytic>
+        <title level="a">Filtering for distributed mechanical systems using position measurements: perspectives in medical imaging</title>
+        <author>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="m3disim-2016-idp125392">
+            <foreName>Patrick</foreName>
+            <surname>Le Tallec</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Inverse Problems</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.archives-ouvertes.fr/hal-00358914" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00358914</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">035010</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid4" type="article" rend="refer" n="refercite:moireau:inria-00550104">
+      <identifiant type="doi" value="10.1051/cocv/2010006"/>
+      <identifiant type="hal" value="inria-00550104"/>
+      <analytic>
+        <title level="a">Reduced-order Unscented Kalman Filtering with application to parameter identification in large-dimensional systems</title>
+        <author>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM - Control Optimisation and Calculus of Variations</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00550104" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00550104</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Published online - See also erratum DOI:10.1051/cocv/2011001</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid7" type="article" rend="refer" n="refercite:sermesant:inria-00616191">
+      <identifiant type="doi" value="10.1016/j.media.2011.07.003"/>
+      <identifiant type="hal" value="inria-00616191"/>
+      <analytic>
+        <title level="a">Patient-Specific Electromechanical Models of the Heart for Prediction of the Acute Effects of Pacing in CRT: a First Validation</title>
+        <author>
+          <persName key="asclepios-2014-idp65024">
+            <foreName>Maxime</foreName>
+            <surname>Sermesant</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Phani</foreName>
+            <surname>Chinchapatnam</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Tommaso</foreName>
+            <surname>Mansi</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Florence</foreName>
+            <surname>Billet</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Peyrat</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Ken C.L.</foreName>
+            <surname>Wong</surname>
+            <initial>K. C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jatin</foreName>
+            <surname>Relan</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Kawal S.</foreName>
+            <surname>Rhode</surname>
+            <initial>K. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Matt</foreName>
+            <surname>Ginks</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Pier</foreName>
+            <surname>Lambiase</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="asclepios-2014-idp62136">
+            <foreName>Hervé</foreName>
+            <surname>Delingette</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="sisyphe-2014-idm29648">
+            <foreName>Michel</foreName>
+            <surname>Sorine</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>C. Aldo</foreName>
+            <surname>Rinaldi</surname>
+            <initial>C. A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Reza</foreName>
+            <surname>Razavi</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="asclepios-2014-idp60656">
+            <foreName>Nicholas</foreName>
+            <surname>Ayache</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Medical Image Analysis</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">201-215</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00616191" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00616191</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid21" type="phdthesis" rend="year" n="cite:burtschell:tel-01396502">
+      <identifiant type="hal" value="tel-01396502"/>
+      <monogr>
+        <title level="m">Mechanical modeling and numerical methods for poromechanics - Application to myocardium perfusion</title>
+        <author>
+          <persName key="m3disim-2014-idp69920">
+            <foreName>Bruno</foreName>
+            <surname>Burtschell</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole Polytechnique (EDX)</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01396502" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01396502</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid20" type="hdrthesis" rend="year" n="cite:moireau:tel-01404866">
+      <identifiant type="hal" value="tel-01404866"/>
+      <monogr>
+        <title level="m">Observers for data assimilation - Applications to cardiac modeling</title>
+        <author>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay ; Université Paris Sud - Paris XI</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01404866" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01404866</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Habilitation à diriger des recherches</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid22" type="article" rend="year" n="cite:aalto:hal-01216075">
+      <identifiant type="doi" value="10.1016/j.sysconle.2016.06.002"/>
+      <identifiant type="hal" value="hal-01216075"/>
+      <analytic>
+        <title level="a">Output error minimizing back and forth nudging method for initial state recovery</title>
+        <author>
+          <persName key="m3disim-2015-idp87800">
+            <foreName>Atte</foreName>
+            <surname>Aalto</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01830">
+        <idno type="issn">0167-6911</idno>
+        <title level="j">Systems and Control Letters</title>
+        <imprint>
+          <biblScope type="volume">94</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">111-117</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01216075" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01216075</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">This is the preprint version of the article. The final, published version is available on the journal's website</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid16" type="article" rend="year" n="cite:armiento:hal-01248255">
+      <identifiant type="doi" value="10.1016/j.jtbi.2016.02.037"/>
+      <identifiant type="hal" value="hal-01248255"/>
+      <analytic>
+        <title level="a">Estimation from Moments Measurements for Amyloid Depolymerisation</title>
+        <author>
+          <persName key="mamba-2014-idp125072">
+            <foreName>Aurora</foreName>
+            <surname>Armiento</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mamba-2015-idm27488">
+            <foreName>Marie</foreName>
+            <surname>Doumic</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Human</foreName>
+            <surname>Rezaei</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01283">
+        <idno type="issn">0022-5193</idno>
+        <title level="j">Journal of Theoretical Biology</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01248255" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01248255</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid12" type="article" rend="year" n="cite:burtschell:hal-01395508">
+      <identifiant type="doi" value="10.1016/j.compstruc.2016.10.022"/>
+      <identifiant type="hal" value="hal-01395508"/>
+      <analytic>
+        <title level="a">Effective and energy-preserving time discretization for a general nonlinear poromechanical formulation</title>
+        <author>
+          <persName key="m3disim-2014-idp69920">
+            <foreName>Bruno</foreName>
+            <surname>Burtschell</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00424">
+        <idno type="issn">0045-7949</idno>
+        <title level="j">Computers and Structures</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01395508" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01395508</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid14" type="article" rend="year" n="cite:chabassier:hal-01421882">
+      <identifiant type="hal" value="hal-01421882"/>
+      <analytic>
+        <title level="a">Space/Time convergence analysis of a class of conservative schemes for linear wave equations</title>
+        <author>
+          <persName key="magique-3d-2014-idm26208">
+            <foreName>Juliette</foreName>
+            <surname>Chabassier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>IMPERIALE</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00366">
+        <idno type="issn">1631-073X</idno>
+        <title level="j">Comptes Rendus Mathématique</title>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421882" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421882</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid10" type="article" rend="year" n="cite:chabiniok:hal-01277684">
+      <identifiant type="doi" value="10.1098/rsfs.2015.0083"/>
+      <identifiant type="hal" value="hal-01277684"/>
+      <analytic>
+        <title level="a">Multiphysics and multiscale modelling, data-model fusion and integration of organ physiology in the clinic: ventricular cardiac mechanics</title>
+        <author>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Vicky Y.</foreName>
+            <surname>Wang</surname>
+            <initial>V. Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Myrianthi</foreName>
+            <surname>Hadjicharalambous</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Liya</foreName>
+            <surname>Asner</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jack</foreName>
+            <surname>Lee</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="asclepios-2014-idp65024">
+            <foreName>Maxime</foreName>
+            <surname>Sermesant</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Ellen</foreName>
+            <surname>Kuhl</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Alistair A.</foreName>
+            <surname>Young</surname>
+            <initial>A. A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>Philippe</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Martyn P.</foreName>
+            <surname>Nash</surname>
+            <initial>M. P.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Nordsletten</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01282">
+        <idno type="issn">1742-5689</idno>
+        <title level="j">Interface Focus</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01277684" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01277684</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid23" type="article" rend="year" n="cite:hadjicharalambous:hal-01419936">
+      <identifiant type="hal" value="hal-01419936"/>
+      <analytic>
+        <title level="a">Non-invasive Model-Based Assessment of Passive Left-Ventricular Myocardial Stiffness in Healthy Subjects and in Patients with Non-ischemic Dilated Cardiomyopathy</title>
+        <author>
+          <persName>
+            <foreName>Myrianthi</foreName>
+            <surname>Hadjicharalambous</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Liya</foreName>
+            <surname>Asner</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Eva</foreName>
+            <surname>Sammut</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>James</foreName>
+            <surname>Wong</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Devis</foreName>
+            <surname>Peressutti</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Kerfoot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew D.</foreName>
+            <surname>King</surname>
+            <initial>A. D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jack</foreName>
+            <surname>Lee</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Reza</foreName>
+            <surname>Razavi</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Smith</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Gerald</foreName>
+            <surname>Carr-White</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Nordsletten</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00135">
+        <idno type="issn">0090-6964</idno>
+        <title level="j">Annals of Biomedical Engineering</title>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419936" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419936</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid13" type="article" rend="year" n="cite:huppe:hal-01363149">
+      <identifiant type="doi" value="10.4208/cicp.250515.161115a"/>
+      <identifiant type="hal" value="hal-01363149"/>
+      <analytic>
+        <title level="a">Construction and analysis of an adapted spectral finite element method to convective acoustic equations</title>
+        <author>
+          <persName>
+            <foreName>Andreas</foreName>
+            <surname>Hüppe</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="poems-2014-idp66720">
+            <foreName>Gary</foreName>
+            <surname>Cohen</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastien</foreName>
+            <surname>IMPERIALE</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Manfred</foreName>
+            <surname>Kaltenbacher</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00350">
+        <idno type="issn">1815-2406</idno>
+        <title level="j">Communications in Computational Physics</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01363149" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01363149</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid25" type="article" rend="year" n="cite:landajuela:hal-01239931">
+      <identifiant type="doi" value="10.1002/cnm.2813"/>
+      <identifiant type="hal" value="hal-01239931"/>
+      <analytic>
+        <title level="a">Coupling schemes for the FSI forward prediction challenge: comparative study and validation</title>
+        <author>
+          <persName>
+            <foreName>Mikel</foreName>
+            <surname>Landajuela</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="reo-2014-idp92224">
+            <foreName>Marina</foreName>
+            <surname>Vidrascu</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm29800">
+            <foreName>Dominique</foreName>
+            <surname>Chapelle</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Miguel Angel</foreName>
+            <surname>Fernández</surname>
+            <initial>M. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02114">
+        <idno type="issn">2040-7939</idno>
+        <title level="j">International Journal for Numerical Methods in Biomedical Engineering</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01239931" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01239931</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid8" type="article" rend="year" n="cite:laurin:hal-01356419">
+      <identifiant type="doi" value="10.1088/0967-3334/37/9/1588"/>
+      <identifiant type="hal" value="hal-01356419"/>
+      <analytic>
+        <title level="a">Accurate and consistent automatic seismocardiogram annotation without concurrent ECG</title>
+        <author>
+          <persName key="m3disim-2014-idp71168">
+            <foreName>Alexandre</foreName>
+            <surname>Laurin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Farzad</foreName>
+            <surname>Khorsow</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>Blaber</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Kouhyar</foreName>
+            <surname>Tavakolian</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02694">
+        <idno type="issn">0967-3334</idno>
+        <title level="j">Physiological Measurement</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01356419" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01356419</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid9" type="article" rend="year" n="cite:mitrou:hal-01380875">
+      <identifiant type="doi" value="10.1016/j.bspc.2016.07.001"/>
+      <identifiant type="hal" value="hal-01380875"/>
+      <analytic>
+        <title level="a">A peak detection method for identifying phase in physiological signals</title>
+        <author>
+          <persName>
+            <foreName>Nicholas</foreName>
+            <surname>Mitrou</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="m3disim-2014-idp71168">
+            <foreName>Alexandre</foreName>
+            <surname>Laurin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Taylor</foreName>
+            <surname>Dick</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Jessica</foreName>
+            <surname>Inskip</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00250">
+        <idno type="issn">1746-8094</idno>
+        <title level="j">Biomedical Signal Processing and Control</title>
+        <imprint>
+          <biblScope type="volume">31</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">452 - 462</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01380875" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380875</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid19" subtype="nonparu-n" type="article" rend="year" n="cite:schenone:hal-01184744">
+      <identifiant type="doi" value="10.1002/cnm.2744"/>
+      <identifiant type="hal" value="hal-01184744"/>
+      <analytic>
+        <title level="a">Numerical simulation of electrocardiograms for full cardiac cycles in healthy and pathological conditions</title>
+        <author>
+          <persName key="reo-2014-idp122792">
+            <foreName>Elisa</foreName>
+            <surname>Schenone</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="m3disim-2014-idp68688">
+            <foreName>Annabelle</foreName>
+            <surname>Collin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="reo-2014-idm8128">
+            <foreName>Jean-Frédéric</foreName>
+            <surname>Gerbeau</surname>
+            <initial>J.-F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02114">
+        <idno type="issn">2040-7939</idno>
+        <title level="j">International Journal for Numerical Methods in Biomedical Engineering</title>
+        <imprint>
+          <biblScope type="volume">32</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01184744" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01184744</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">In press (in International Journal for Numerical Methods in Biomedical Engineering)</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid17" type="article" rend="year" n="cite:wong:hal-01386703">
+      <identifiant type="doi" value="10.1152/ajpheart.00075.2015"/>
+      <identifiant type="hal" value="hal-01386703"/>
+      <analytic>
+        <title level="a">Age-related changes in intraventricular kinetic energy: a physiological or pathological adaptation?</title>
+        <author>
+          <persName>
+            <foreName>James</foreName>
+            <surname>Wong</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Adelaide</foreName>
+            <surname>Devecchi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Dedieu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Eva</foreName>
+            <surname>Sammut</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Tobias</foreName>
+            <surname>Schaeffter</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Reza</foreName>
+            <surname>Razavi</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00109">
+        <idno type="issn">0363-6135</idno>
+        <title level="j">AJP - Heart and Circulatory Physiology</title>
+        <imprint>
+          <biblScope type="volume">310</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">747 - 755</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01386703" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01386703</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid18" type="article" rend="year" n="cite:xi:hal-01427545">
+      <identifiant type="doi" value="10.1115/1.4034559"/>
+      <identifiant type="hal" value="hal-01427545"/>
+      <analytic>
+        <title level="a">Patient-Specific Computational Analysis of Ventricular Mechanics in Pulmonary Arterial Hypertension</title>
+        <author>
+          <persName>
+            <foreName>Ce</foreName>
+            <surname>Xi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Candace</foreName>
+            <surname>Latnie</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Ju Le</foreName>
+            <surname>Tan</surname>
+            <initial>J. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Samuel T.</foreName>
+            <surname>Wall</surname>
+            <initial>S. T.</initial>
+          </persName>
+          <persName key="m3disim-2016-idp122896">
+            <foreName>Martin</foreName>
+            <surname>Genet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Liang</foreName>
+            <surname>Zhong</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Lik Chuan</foreName>
+            <surname>Lee</surname>
+            <initial>L. C.</initial>
+          </persName>
+          <persName key="ipso-2016-idp143392">
+            <foreName>Xiaodan</foreName>
+            <surname>Zhao</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02161">
+        <idno type="issn">0148-0731</idno>
+        <title level="j">Journal of Biomechanical Engineering</title>
+        <imprint>
+          <biblScope type="volume">138</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01427545" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01427545</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid11" type="inproceedings" rend="year" n="cite:kerfoot:hal-01346357">
+      <identifiant type="hal" value="hal-01346357"/>
+      <analytic>
+        <title level="a">Eidolon: Visualization and Computational Framework for Multi-Modal Biomedical Data Analysis</title>
+        <author>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Kerfoot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Lauren</foreName>
+            <surname>Fovargue</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Simone</foreName>
+            <surname>Rivolo</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Wenzhe</foreName>
+            <surname>Shi</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Rueckert</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Nordsletten</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jack</foreName>
+            <surname>Lee</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="m3disim-2015-idm13632">
+            <foreName>Radomir</foreName>
+            <surname>Chabiniok</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Reza</foreName>
+            <surname>Razavi</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">7th International Conference on Medical Imaging and Augmented Reality (MIAR 2016)</title>
+        <loc>Berne, Switzerland</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01346357" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01346357</ref>
+        </imprint>
+        <meeting id="cid391286">
+          <title>Miccai workshop in Medical Imaging and Augmented Reality, MICCAI MIAR</title>
+          <num>7</num>
+          <abbr type="sigle">MIAR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="m3disim-2016-bid24" type="unpublished" rend="year" n="cite:aalto:hal-01370430">
+      <identifiant type="hal" value="hal-01370430"/>
+      <monogr>
+        <title level="m">Iterative observer-based state and parameter estimation for linear systems</title>
+        <author>
+          <persName key="m3disim-2015-idp87800">
+            <foreName>Atte</foreName>
+            <surname>Aalto</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01370430" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01370430</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Manuscript submitted for publication</note>
+    </biblStruct>
+    
+    <biblStruct id="m3disim-2016-bid15" type="misc" rend="year" n="cite:gerard:hal-01400776">
+      <identifiant type="hal" value="hal-01400776"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Front observer for data assimilation of electroanatomical mapping data for a numerical atrial model</title>
+        <author>
+          <persName key="carmen-2015-idp86152">
+            <foreName>A</foreName>
+            <surname>Gérard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idp68688">
+            <foreName>A</foreName>
+            <surname>Collin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="carmen-2014-idp72312">
+            <foreName>J</foreName>
+            <surname>Bayer</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>A</foreName>
+            <surname>Frontera</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>P</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="carmen-2014-idp59504">
+            <foreName>Yves</foreName>
+            <surname>Coudière</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01400776" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01400776</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">Liryc Workshop</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

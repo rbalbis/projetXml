@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="tapdance" isproject="true">
+    <shortname>TAPDANCE</shortname>
+    <projectName>Theory and Practice of Nanoscale Computing Engines</projectName>
+    <theme-de-recherche>Computational Biology</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <header_dates_team>Creation of the Team: 2016 June 03</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.12. - Non-conventional architectures</term>
+      <term>1.3. - Distributed Systems</term>
+      <term>2.2. - Compilation</term>
+      <term>7.2. - Discrete mathematics, combinatorics</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>5.3. - Nanotechnology</term>
+      <term>5.6. - Robotic systems</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Paris"/>
+  </identification>
+  <team id="uid1">
+    <person key="tapdance-2016-idp104752">
+      <firstname>Damien</firstname>
+      <lastname>Woods</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader, Inria, Advanced Research position, from Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>In biological systems we see extraordinarily sophisticated growth processes, where molecular self-assembly is combined with active molecular components. Indeed, biological systems consume energy (e.g. ATP) and exhibit phenomena such as rapid growth in cell size and numbers, reconfiguration of internal components, molecular motors that push and pull large structures around, as well as molecular complexes, cells and whole organs that actively respond to the environment. Computer science gives us tools and methodologies to think about and design systems with large number of interacting components.
+Our goal is to bring these ideas together to design computational molecular systems.</p>
+      <p>The work of the newly-created TAPDANCE team will be concerned with the theory and practice of active DNA nanostructures that build structures and compute, all at the nanoscale.</p>
+      <p>We will focus on:</p>
+      <orderedlist>
+        <li id="uid4">
+          <p noindent="true">Proposing and analysing models of computation for nanoscale bimolecular systems. This includes finding new models for the systems we wish to build, proving theorems (e.g. about their computational power), as well as developing the theory of existing models.</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">Implementing these models in the wet-lab, primarily using DNA.</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Software to design these kinds of systems (e.g. DNA sequence design) as well as coarse-grained molecular models for system analysis. Software tools are one of the main ways we bridge the gap between theory and experiments.</p>
+        </li>
+      </orderedlist>
+    </subsection>
+  </presentation>
+  <fondements id="uid7">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Ongoing work</bodyTitle>
+      <p>Recent theoretical work (Meunier, Woods “The non-cooperative tile assembly model is not intrinsically universal or capable of bounded Turing machine simulation”) to be published in 2017 by has centered on the power of a model of self-assembly. In this model, called the noncooperative (or temperature 1) abstract Tile Assembly Model, square tiles assemble structures, called assemblies, in the discrete plane where each tile binds to a growing structure if one of its 4 coloured edges matches the colour of some available site on a growing assembly. It has been conjectured since 2000 that this model is not capable of computation or other sophisticated forms of growth. We show two results. One of our results states that time-bounded Turing machine computation is impossible in this model if we require the simulation to occur in a bounded rectangle in the plane. This result has a short proof that essentially follows from our other main result which states that this model is not “intrinsically universal”. This latter result means that there is no single tileset in this model that can simulate any instance of the model, answering a question from  and contrasting a result  for the more general cooperative (temperature 2) model.</p>
+      <p>Other work by Woods has focused on experimentally implementing a wide class of Boolean circuits of a certain form. Experiments were mostly carried out at Caltech, and the work is in collaboration with colleagues at Caltech, UC Davis, Harvard and Cambridge and a publication is in preparation with [Woods, Doty, Myhrvold, Hui, Zhou, Yin, Winfree]. Details will be described in a future report subsequent to publication.</p>
+      <p>Work published earlier in 2016 (Erik D Demaine, Matthew J Patitz, Trent A Rogers, Robert T Schweller Scott M Summers and Damien Woods, “The two-handed tile assembly model is not intrinsically universal”, Algorithmica 74:2, pages 812–850 (2016). not on HAL) shows results on a hierarchal model of algorithmic self-assembly called the two-handed self-assembly model (2HAM). Specifically, that the model is not intrinsically universal. In fact, we show that for all <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>τ</mi><mo>'</mo></msup><mo>&lt;</mo><mi>τ</mi></mrow></math></formula>, each temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>τ</mi><mo>'</mo></msup></math></formula> 2HAM tile system does not simulate at least one temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> 2HAM tile system. This impossibility result proves that the 2HAM is not intrinsically universal and stands in contrast to the fact that the (single-tile addition) abstract Tile Assembly Model is intrinsically universal. On the positive side, we prove that, for every fixed temperature <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>τ</mi><mo>≥</mo><mn>2</mn></mrow></math></formula> , temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> 2HAM tile systems are indeed intrinsically universal. In other words, for each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> there is a single intrinsically universal 2HAM tile set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>U</mi><mi>τ</mi></msub></math></formula> that, when appropriately initialized, is capable of simulating the behavior of any temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> 2HAM tile system. As a corollary, we find an infinite set of infinite hierarchies of 2HAM systems with strictly increasing simulation power within each hierarchy. Finally, we show that for each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> , there is a temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> 2HAM system that simultaneously simulates all temperature-<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> 2HAM systems.</p>
+      <p>There are a number of projects being designed along the lines of topics above in Overall Objectives.</p>
+    </subsection>
+  </fondements>
+  <highlights id="uid9">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>TAPDANCE Team created in June 2016.</p>
+      <p>A Starting Research Fellow, Pierre-Étiene Meunier, was hired by Inria to begin work with TAPDANCE in January 2017.</p>
+    </subsection>
+  </highlights>
+  <partenariat id="uid11">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid13" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>Prof. David Doty from UC Davis, California, was hosted for 1 week in 2016.</p>
+      </subsection>
+      <subsection id="uid14" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <p noindent="true">Woods visited Caltech for several weeks in 2016.</p>
+        <p noindent="true">Woods visited Dagstuhl 3-8 July 2016 for Caltech for several weeks in 2016. Dagstuhl Seminar 16271
+Algorithmic Foundations of Programmable Matter. Collaborative work with workshop attendees. Invited talk.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid15">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid17" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid18" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <p noindent="true">Woods. Program committee (PC) co-chair for DNA22: The 22nd International Conference on DNA Computing and Molecular Programming, 2016. Munich, Germany (co-chairing with Yannick Rondelez, CNRS, ESPCI)</p>
+        </subsection>
+        <subsection id="uid19" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p noindent="true">Woods. AUTOMATA 2016. 22nd International Workshop on Cellular Automata &amp; Discrete Complex Systems, ETH Zürich, Switzerland</p>
+        </subsection>
+        <subsection id="uid20" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p noindent="true">Woods was reviewer for several conferences and journals (not listed for confidentiality reasons).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid21" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid22">
+            <p noindent="true">Woods. Transversal aspects of tilings, month-long workshop/course, Oléron, France. Week 1 lectures on Theory and Experiments with Algorithmic Self-Assembly. Invited lecture series.</p>
+          </li>
+          <li id="uid23">
+            <p noindent="true">Woods. Dagstuhl Seminar 16271 on Algorithmic Foundations of Programmable Matter, 3-8 July 2016 (Germinay).</p>
+          </li>
+          <li id="uid24">
+            <p noindent="true">Woods. Oxford University, Department of Computer Science, UK, 2016.</p>
+          </li>
+          <li id="uid25">
+            <p noindent="true">Woods. Journées GT COA, Bordeaux. Evaluating a large class of Boolean circuits via algorithmic self-assembly of DNA strands. 28-29 Nov, 2016.</p>
+          </li>
+          <li id="uid26">
+            <p noindent="true">Woods. 15éme Journées de la Matière Condensée, Bordeaux 22-26 Aug 2016 (JMC15). Evaluating a large class of Boolean circuits via algorithmic self-assembly of DNA strands</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid28" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>Woods made preparations, including visits, to teach a 1-week school at ENS Lyon showing students both theoretical results and wet-lab experimental results. Also, students took part in wet-lab experiments, as well as carrying out projects in teams (involving both theory and experiments). The school occurred in the week of Jan 16-20, 2017.</p>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>In 2016 Woods was PhD examiner for: Frits Dannenberg. Oxford University, 2016 (Supervisors: Marta Kwiatkowska &amp; Andrew Turberfield) Thesis title: Modelling and verification for DNA nanotechnology</p>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="tapdance-2016-bid0" type="article" rend="refer" n="refercite:demaine2016two">
+      <analytic>
+        <title level="a">The two-handed tile assembly model is not intrinsically universal</title>
+        <author>
+          <persName>
+            <foreName>Erik D</foreName>
+            <surname>Demaine</surname>
+            <initial>E. D.</initial>
+          </persName>
+          <persName>
+            <foreName>Matthew J</foreName>
+            <surname>Patitz</surname>
+            <initial>M. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Trent A</foreName>
+            <surname>Rogers</surname>
+            <initial>T. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert T</foreName>
+            <surname>Schweller</surname>
+            <initial>R. T.</initial>
+          </persName>
+          <persName>
+            <foreName>Scott M</foreName>
+            <surname>Summers</surname>
+            <initial>S. M.</initial>
+          </persName>
+          <persName key="tapdance-2016-idp104752">
+            <foreName>Damien</foreName>
+            <surname>Woods</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Algorithmica</title>
+        <imprint>
+          <biblScope type="volume">74</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">812–850</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tapdance-2016-bid1" type="article" rend="refer" n="refercite:MeunierWoodst1notIUInPrep">
+      <analytic>
+        <title level="a">The non-cooperative tile assembly model is not intrinsically universal or capable of bounded Turing machine simulation</title>
+        <author>
+          <persName>
+            <foreName>Pierre-Étienne</foreName>
+            <surname>Meunier</surname>
+            <initial>P.-É.</initial>
+          </persName>
+          <persName key="tapdance-2016-idp104752">
+            <foreName>Damien</foreName>
+            <surname>Woods</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <imprint/>
+      </monogr>
+      <note type="bnote">In preparation</note>
+    </biblStruct>
+  </biblio>
+</raweb>

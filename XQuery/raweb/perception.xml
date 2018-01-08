@@ -1,0 +1,2600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="perception" isproject="true">
+    <shortname>PERCEPTION</shortname>
+    <projectName>Interpretation and Modeling of Images and Sounds</projectName>
+    <theme-de-recherche>Vision, perception and multimedia interpretation</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/perception</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire Jean Kuntzmann (LJK)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2006 September 01, updated into Project-Team: 2008 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.4. - Machine learning and statistics</term>
+      <term>5.1. - Human-Computer Interaction</term>
+      <term>5.3. - Image processing and analysis</term>
+      <term>5.4. - Computer vision</term>
+      <term>5.7. - Audio modeling and processing</term>
+      <term>5.10.2. - Perception</term>
+      <term>5.10.5. - Robot interaction (with the environment, humans, other robots)</term>
+      <term>8.2. - Machine learning</term>
+      <term>8.5. - Robotics</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>5.6. - Robotic systems</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="perception-2014-idm27016">
+      <firstname>Radu</firstname>
+      <lastname>Horaud</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="perception-2014-idp67720">
+      <firstname>Laurent</firstname>
+      <lastname>Girin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Grenoble INP, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="perception-2014-idp72968">
+      <firstname>Xavier</firstname>
+      <lastname>Alameda-Pineda</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher, from Dec 2016</moreinfo>
+    </person>
+    <person key="perception-2014-idp66480">
+      <firstname>Georgios</firstname>
+      <lastname>Evangelidis</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Starting Research Position, until Jun 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2014-idm25536">
+      <firstname>Sileye</firstname>
+      <lastname>Ba</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Starting Research Position, until Jun 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2014-idp71688">
+      <firstname>Xiaofei</firstname>
+      <lastname>Li</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Starting Research Position, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="mistis-2014-idp88768">
+      <firstname>Pablo</firstname>
+      <lastname>Mesejo Santiago</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Starting Research Position, from Sep 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2016-idp127408">
+      <firstname>Bastien</firstname>
+      <lastname>Mourgue</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Dec 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2014-idp70424">
+      <firstname>Quentin</firstname>
+      <lastname>Pelorson</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until May 2016, granted by FP7 EARS</moreinfo>
+    </person>
+    <person key="perception-2016-idp132400">
+      <firstname>Guillaume</firstname>
+      <lastname>Sarrazin</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Jun 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="prima-2014-idp72968">
+      <firstname>Fabien</firstname>
+      <lastname>Badeig</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Oct 2016, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2015-idp70952">
+      <firstname>Yutong</firstname>
+      <lastname>Ban</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2016-idp139808">
+      <firstname>Israel</firstname>
+      <lastname>Dejene Gebru</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by Inria</moreinfo>
+    </person>
+    <person key="perception-2014-idp84424">
+      <firstname>Vincent</firstname>
+      <lastname>Drouard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2016-idp144704">
+      <firstname>Dionyssos</firstname>
+      <lastname>Kounades</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by FP7 EARS</moreinfo>
+    </person>
+    <person key="perception-2014-idp89312">
+      <firstname>Stephane</firstname>
+      <lastname>Lathuiliere</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2014-idp90552">
+      <firstname>Benoit</firstname>
+      <lastname>Masse</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by ERC VHIA</moreinfo>
+    </person>
+    <person key="perception-2016-idp152048">
+      <firstname>Yuval</firstname>
+      <lastname>Dorfan</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="perception-2014-idp74264">
+      <firstname>Sharon</firstname>
+      <lastname>Gannot</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Oct 2016</moreinfo>
+    </person>
+    <person key="perception-2016-idp157040">
+      <firstname>Rafael</firstname>
+      <lastname>Munoz Salinas</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Jun 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="perception-2014-idp76800">
+      <firstname>Nathalie</firstname>
+      <lastname>Gillot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="perception-2016-idp162000">
+      <firstname>Remi</firstname>
+      <lastname>Juge</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern, from Jul 2016</moreinfo>
+    </person>
+    <person key="perception-2016-idp164480">
+      <firstname>Richard Thomas</firstname>
+      <lastname>Marriott</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern, from Feb until Sep 2016</moreinfo>
+    </person>
+    <person key="perception-2016-idp166960">
+      <firstname>Alexander</firstname>
+      <lastname>Pashevich</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <object id="uid4">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/scenevincent.png" type="float" width="384.2974pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>This figure illustrates the audio-visual multi-party human-robot interaction paradigm that the PERCEPTION team has developed in the recent past <ref xlink:href="#perception-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. There are inter-person as well as person-robot interactions that must be properly detected and analyzed over time. This includes multiple-person tracking <ref xlink:href="#perception-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, person detection and head-pose estimation <ref xlink:href="#perception-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, sound-source separation and localization <ref xlink:href="#perception-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and speaker diarization <ref xlink:href="#perception-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. These developments are supported by the European Union via the FP7 STREP project <i>“Embodied Audition for Robots"</i> (EARS) and the ERC advanced grant <i>“Vision and Hearing in Action"</i> (VHIA).</caption>
+      </object>
+      <p>Auditory and visual perception play a complementary role in human interaction. Perception enables people to communicate based on verbal (speech and language) and non-verbal (facial expressions, visual gaze, head movements, hand and body gesturing) communication. These communication modalities have a large degree of overlap, in particular in social contexts. Moreover, the modalities disambiguate each other whenever one of the modalities is weak, ambiguous, or corrupted by various perturbations. Human-computer interaction (HCI) has attempted to address these issues, e.g., using smart &amp; portable devices. In HCI the user is in the loop for decision taking: images and sounds are recorded purposively in order to optimize their quality with respect to the task at hand.</p>
+      <p>However, the robustness of HCI based on speech recognition degrades significantly as the microphones are located a few meters away from the user. Similarly, face detection and recognition work well under limited lighting conditions and if the cameras are properly oriented towards a person. Altogether, the HCI paradigm cannot be easily extended to less constrained interaction scenarios which involve several users and whenever is important to consider the <i>social context</i>.</p>
+      <p>The PERCEPTION team investigates the fundamental role played by audio and visual perception in human-robot interaction (HRI). The main difference between HCI and HRI is that, while the former is user-controlled, the latter is robot-controlled, namely <i>it is implemented with intelligent robots that take decisions and act autonomously</i>. The mid term objective of PERCEPTION is to develop computational models, methods, and applications for enabling non-verbal and verbal interactions between people, analyze their intentions and their dialogue, extract information and synthesize appropriate behaviors, e.g., the robot waves to a person, turns its head towards the dominant speaker, nods, gesticulates, asks questions, gives advices, waits for instructions, etc. The following topics are thoroughly addressed by the team members: audio-visual sound-source separation and localization in natural environments, for example to detect and track moving speakers, inference of temporal models of verbal and non-verbal activities (diarisation), continuous recognition of particular gestures and words, context recognition, and multimodal dialogue.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid5">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Audio-Visual Scene Analysis</bodyTitle>
+      <p>From 2006 to 2009, R. Horaud was the scientific coordinator of the collaborative European project POP (Perception on Purpose), an interdisciplinary effort to understand visual and auditory perception at the crossroads of several disciplines (computational and biological vision, computational auditory analysis, robotics, and psychophysics). This allowed the PERCEPTION team to launch an interdisciplinary research agenda that has been very active for the last five years. There are very few teams in the world that gather scientific competences spanning computer vision, audio signal processing, machine learning and human-robot interaction.
+The fusion of several sensorial modalities resides at the heart of the most recent biological theories of perception. Nevertheless, multi-sensor processing is still poorly understood from a computational point of view. In particular and so far, audio-visual fusion has been investigated in the framework of speech processing using close-distance cameras and microphones. The vast majority of these approaches attempt to model the temporal correlation between the auditory signals and the dynamics of lip and facial movements. Our original contribution has been to consider that audio-visual localization and recognition are equally important. We have proposed to take into account the fact that the audio-visual objects of interest live in a three-dimensional physical space and hence we contributed to the emergence of <i>audio-visual scene analysis</i> as a scientific topic in its own right. We proposed several novel statistical approaches based on supervised and unsupervised mixture models. The <i>conjugate mixture model</i> (CMM) is an unsupervised probabilistic model that allows to cluster observations from different modalities (e.g., vision and audio) living in different mathematical spaces <ref xlink:href="#perception-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We thoroughly investigated CMM, provided practical resolution algorithms and studied their convergence properties. We developed several methods for sound localization using two or more microphones <ref xlink:href="#perception-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The <i>Gaussian locally-linear model</i> (GLLiM) is a partially supervised mixture model that allows to map high-dimensional observations (audio, visual, or concatenations of audio-visual vectors) onto low-dimensional manifolds with a partially known structure <ref xlink:href="#perception-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This model is particularly well suited for perception because it encodes both observable and unobservable phenomena. A variant of this model, namely <i>probabilistic piecewise affine mapping</i> has also been proposed and successfully applied to the problem of sound-source localization and separation <ref xlink:href="#perception-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The European projects HUMAVIPS (2010-2013) coordinated by R. Horaud and EARS (2014-2017), applied audio-visual scene analysis to human-robot interaction.</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Stereoscopic Vision</bodyTitle>
+      <p>Stereoscopy is one of the most studied topics in biological and computer vision. Nevertheless, classical approaches of addressing this problem fail to integrate eye/camera vergence. From a geometric point of view, the integration of vergence is difficult because one has to re-estimate the epipolar geometry at every new eye/camera rotation. From an algorithmic point of view, it is not clear how to combine depth maps obtained with different eyes/cameras relative orientations.
+Therefore, we addressed the more general problem of binocular vision that combines the low-level eye/camera geometry, sensor rotations, and practical algorithms based on global optimization <ref xlink:href="#perception-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We studied the link between mathematical and computational approaches to stereo (global optimization and Markov random fields) and the brain plausibility of some of these approaches: indeed, we proposed an original mathematical model for the complex cells in visual-cortex areas V1 and V2 that is based on steering Gaussian filters and that admits simple solutions <ref xlink:href="#perception-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This addresses the fundamental issue of how local image structure is represented in the brain/computer and how this structure is used for estimating a dense disparity field. Therefore, the main originality of our work is to address both computational and biological issues within a unifying model of binocular vision. Another equally important problem that still remains to be solved is how to integrate binocular depth maps over time. Recently, we have addressed this problem and proposed a semi-global optimization framework that starts with sparse yet reliable matches and proceeds with propagating them over both space and time. The concept of seed-match propagation has then been extended to TOF-stereo fusion <ref xlink:href="#perception-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Audio Signal Processing</bodyTitle>
+      <p>Audio-visual fusion algorithms necessitate that the two modalities are represented in the same mathematical space. Binaural audition allows to extract sound-source localization (SSL) information from the acoustic signals recorded with two microphones. We have developed several methods, that perform sound localization in the temporal and the spectral domains. If a direct path is assumed, one can exploit the <i>time difference of arrival</i> (TDOA) between two microphones to recover the position of the sound source with respect to the position of the two microphones. The solution is not unique in this case, the sound source lies onto a 2D manifold. However, if one further assumes that the sound source lies in a horizontal plane, it is then possible to extract the azimuth. We used this approach to predict possible sound locations in order to estimate the direction of a speaker <ref xlink:href="#perception-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We also developed a geometric formulation and we showed that with four non-coplanar microphones the azimuth and elevation of a single source can be estimated without ambiguity <ref xlink:href="#perception-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We also investigated SSL in the spectral domain. This exploits the filtering effects of the head related transfer function (HRTF): there is a different HRTF for the left and right microphones. The interaural spectral features, namely the ILD (interaural level difference) and IPD (interaural phase difference) can be extracted from the short-time Fourier transforms of the two signals. The sound direction is encoded in these interaural features but it is not clear how to make SSL explicit in this case. We proposed a supervised learning formulation that estimates a mapping from interaural spectral features (ILD and IPD) to source directions using two different setups: audio-motor learning <ref xlink:href="#perception-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and audio-visual learning <ref xlink:href="#perception-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Visual Reconstruction With Multiple Color and Depth Cameras</bodyTitle>
+      <p>For the last decade, one of the most active topics in computer vision has been the visual reconstruction of objects, people, and complex scenes using a multiple-camera setup. The PERCEPTION team has pioneered this field and by 2006 several team members published seminal papers in the field. Recent work has concentrated onto the robustness of the 3D reconstructed data using probabilistic outlier rejection techniques combined with algebraic geometry principles and linear algebra solvers <ref xlink:href="#perception-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Subsequently, we proposed to combine 3D representations of shape (meshes) with photometric data <ref xlink:href="#perception-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The originality of this work was to represent photometric information as a scalar function over a discrete Riemannian manifold, thus <i>generalizing image analysis to mesh and graph analysis</i>. Manifold equivalents of local-structure detectors and descriptors were developed <ref xlink:href="#perception-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The outcome of this pioneering work has been twofold: the formulation of a new research topic now addressed by several teams in the world, and allowed us to start a three year collaboration with Samsung Electronics. We developed the novel concept of <i>mixed camera systems</i> combining high-resolution color cameras with low-resolution depth cameras <ref xlink:href="#perception-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,<ref xlink:href="#perception-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Together with our start-up company 4D Views Solutions and with Samsung, we developed the first practical depth-color multiple-camera multiple-PC system and the first algorithms to reconstruct high-quality 3D content <ref xlink:href="#perception-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Registration, Tracking and Recognition of People and Actions</bodyTitle>
+      <p>The analysis of articulated shapes has challenged standard computer vision algorithms for a long time. There are two difficulties associated with this problem, namely how to represent articulated shapes and how to devise robust registration and tracking methods. We addressed both these difficulties and we proposed a novel kinematic representation that integrates concepts from robotics and from the geometry of vision. In 2008 we proposed a method that parameterizes the occluding contours of a shape with its intrinsic kinematic parameters, such that there is a direct mapping between observed image features and joint parameters <ref xlink:href="#perception-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This deterministic model has been motivated by the use of 3D data gathered with multiple cameras. However, this method was not robust to various data flaws and could not achieve state-of-the-art results on standard dataset.
+Subsequently, we addressed the problem using probabilistic generative models. We formulated the problem of articulated-pose estimation as a maximum-likelihood with missing data and we devised several tractable algorithms <ref xlink:href="#perception-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We proposed several expectation-maximization procedures applied to various articulated shapes: human bodies, hands, etc. In parallel, we proposed to segment and register articulated shapes represented with graphs by embedding these graphs using the spectral properties of graph Laplacians <ref xlink:href="#perception-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This turned out to be a very original approach that has been followed by many other researchers in computer vision and computer graphics.</p>
+    </subsection>
+  </fondements>
+  <highlights id="uid11">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <simplelist>
+        <li id="uid13">
+          <p noindent="true"><b>The three-year FP7 STREP project </b><i><b>Embodied Audition for Robots</b></i><b> successfully terminated in December 2016</b>. The project has addressed the problem of robot hearing, more precisely, the analysis of audio signals in complex environments: reverberant rooms, multiple users, and background noise. In collaboration with the project partners, PERCEPTION contributed to audio-source localization, audio-source separation, audio-visual alignment, and audio-visual disambiguation. The humanoid robot NAO has been used as a robotic platform and a new head (hardware and software) was developed: a stereoscopic camera pair, a spherical microphone array, and the associated synchronization, signal and image processing software modules.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">This year, PERCEPTION started a one year collaboration with the <b>Digital Media and Communications R&amp;D Center, Samsung Electronics</b> (Seoul, Korea). The topic of this collaboration is <i>multi-modal speaker localization and tracking</i> (a central topic of the team) and is part of a strategic partnership between Inria and Samsung Electronics.</p>
+        </li>
+      </simplelist>
+      <subsection id="uid15" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <simplelist>
+          <li id="uid16">
+            <p noindent="true"><b>Antoine Deleforge</b> (former PhD student, PANAMA team), <b>Florence Forbes</b> (MISTIS team) and <b>Radu Horaud</b> received the <b>2016 Award for Outstanding Contributions in Neural Systems</b> for their paper: “Acoustic Space Learning for Sound-source Separation and Localization on Binaural Manifolds," International Journal of Neural Systems, volume 25, number 1, 2015.
+The Award for Outstanding Contributions in Neural Systems established by World Scientific Publishing Co. in 2010, is awarded annually to the most innovative paper published in the previous volume/year of the International Journal of Neural Systems.</p>
+          </li>
+          <li id="uid17">
+            <p noindent="true"><b>Xavier Alameda-Pineda</b> and his co-authors from the University of Trento received the <b>Intel Best Scientific Paper Award</b> (Track: Image, Speech, Signal and Video Processing) for their paper “Multi-Paced Dictionary Learning for Cross-Domain Retrieval and Recognition" presented at the 23rd IEEE International Conference on Pattern Recognition, Cancun, Mexico, December 2016 <best><ref xlink:href="#perception-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></best>.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid18">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid19" level="1">
+      <bodyTitle>ECMPR</bodyTitle>
+      <p>Expectation Conditional Maximization for the Joint Registration of Multiple Point Sets</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Rigid registration of two or several point sets based on probabilistic matching between point pairs and a Gaussian mixture model</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Participants: Florence Forbes, Radu Horaud and Manuel Yguel</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Contact: Patrice Horaud</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/perception/research/jrmpc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>jrmpc/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Mixcam</bodyTitle>
+      <p>Reconstruction using a mixed camera system</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Computer vision - 3D reconstruction</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>We developed a multiple camera platform composed of both high-definition color cameras and low-resolution depth cameras. This platform combines the advantages of the two camera types. On one side, depth (time-of-flight) cameras provide coarse low-resolution 3D scene information. On the other side, depth and color cameras can be combined such as to provide high-resolution 3D scene reconstruction and high-quality rendering of textured surfaces. The software package developed during the period 2011-2014 contains the calibration of TOF cameras, alignment between TOF and color cameras, TOF-stereo fusion, and image-based rendering. These software developments were performed in collaboration with the Samsung Advanced Institute of Technology, Seoul, Korea. The multi-camera platform and the basic software modules are products of 4D Views Solutions SAS, a start-up company issued from the PERCEPTION group.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Patrice Horaud, Pierre Arquier, Quentin Pelorson, Michel Amat, Miles Hansard, Georgios Evangelidis, Soraya Arias, Radu Horaud, Richard Broadbridge and Clement Menier</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Patrice Horaud</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/perception/mixcam-project/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>mixcam-project/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>NaoLab</bodyTitle>
+      <p>Distributed middleware architecture for interacting with NAO</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This software provides a set of librairies and tools to simply the control of NAO robot from a remote machine. The main challenge is to make easy prototuping applications for NAO ising C++ and Matlab programming environments. Thus NaoLab provides a prototyping-friendly interface to retrieve sensor date (video and sound streams, odometric data...) and to control the robot actuators (head, arms, legs...) from a remote machine.This interface is available on Naoqi SDK, developed by Aldebarab company, Naoqi SDK is needed as it provides the tools to acess the embedded NAO services (low-level motor command, sensor data access...)</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Authors: Quentin Pelorson, Fabien Badeig and Patrice Horaud</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Patrice Horaud</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/perception/research/naolab/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>naolab/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Stereo matching and recognition library</bodyTitle>
+      <p><span class="smallcap" align="left">Keyword:</span> Computer vision</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Library providing stereo matching components to rectify stereo images, to retrieve faces from left and right images, to track faces and method to recognise simple gestures</p>
+      <simplelist>
+        <li id="uid32">
+          <p noindent="true">Participants: Jordi Sanchez-Riera, Soraya Arias, Jan Cech and Radu Horaud</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">Contact: Soraya Arias</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">URL: <ref xlink:href="https://code.humavips.eu/projects/stereomatch" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>code.<allowbreak/>humavips.<allowbreak/>eu/<allowbreak/>projects/<allowbreak/>stereomatch</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Platforms</bodyTitle>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Audio-Visual Head Popeye+</bodyTitle>
+        <p>In 2016 we upgraded our audio-visual platform, from Popeye to Popeye+. Popeye+ has two high-definitions cameras with a wide field of view. We also upgraded the software libraries that perform synchronized acquisition of audio signals and color images. Popeye+ has been used for several datasets.</p>
+        <p noindent="true">Website:</p>
+        <p noindent="true">
+          <ref xlink:href="https://team.inria.fr/perception/projects/popeye/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>projects/<allowbreak/>popeye/</ref>
+        </p>
+        <p noindent="true">
+          <ref xlink:href="https://team.inria.fr/perception/projects/popeye-plus/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>projects/<allowbreak/>popeye-plus/</ref>
+        </p>
+        <p noindent="true"><ref xlink:href="https://team.inria.fr/perception/avtrack1/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>avtrack1/</ref>.</p>
+      </subsection>
+      <subsection id="uid37" level="2">
+        <bodyTitle>NAO Robots</bodyTitle>
+        <p>The PERCEPTION team selected the companion robot NAO for experimenting and demonstrating various audio-visual skills as well as for developing the concept of a social robot that is able to recognize human presence, to understand human gestures and voice, and to communicate by synthesizing appropriate behavior. The main challenge of our team is to enable human-robot interaction in the real world.</p>
+        <object id="uid38">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/DSC03568.jpg" type="inline" height="149.4526pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+              <td>
+                <ressource xlink:href="IMG/DSC03567.jpg" type="inline" height="149.4526pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The Popeye+ audio-visual platform (left) delivers high-quality, high-resolution and wide-angle images at 30FPS. The NAO prototype used by PERCEPTION in the EARS STREP project has a twelve-channel spherical microphone array synchronized with a stereo camera pair.</caption>
+        </object>
+        <p>The humanoid robot NAO is manufactured by Aldebaran Robotics, now SoftBank. Standing, the robot is roughly 60 cm tall, and 35cm when it is sitting. Approximately 30 cm large, NAO includes two CPUs. The first one, placed in the torso, together with the batteries, controls the motors and hence provides kinematic motions with 26 degrees of freedom. The other CPU is placed in the head and is in charge of managing the proprioceptive sensing, the communications, and the audio-visual sensors (two cameras and four microphones, in our case). NAO's on-board computing resources can be accessed either via wired or wireless communication protocols.</p>
+        <p>NAO's commercially available head is equipped with two cameras that are arranged along a vertical axis: these cameras are neither synchronized nor a significant common field of view. Hence, they cannot be used in combination with stereo vision. Within the EU project HUMAVIPS, Aldebaran Robotics developed a binocular camera system that is arranged horizontally. It is therefore possible to implement stereo vision algorithms on NAO. In particular, one can take advantage of both the robot's cameras and microphones. The cameras deliver VGA sequences of image pairs at 12 FPS, while the sound card delivers the audio signals arriving from all four microphones and sampled at 48 kHz. Subsequently, Aldebaran developed a second binocular camera system to go into the head of NAO v5.</p>
+        <p>In order to manage the information flow gathered by all these sensors, we implemented our software on top of the Robotics Services Bus (RSB). RSB is a platform-independent event-driven middleware specifically designed for the needs of distributed robotic applications. Several RSB tools are available, including real-time software execution, as well as tools to record the event/data flow and to replay it later, so that application development can be done off-line. RSB events are automatically equipped with several time stamps for introspection and synchronization purposes. RSB was chosen because it allows our software to be run on a remote PC platform, neither with performance nor deployment restrictions imposed by the robot's CPUs. Moreover, the software packages can be easily reused for other robots.</p>
+        <p>More recently (2015-2016) the PERCEPTION team started the development of NAOLab, a middleware for hosting robotic applications in C, C++, Python and Matlab, using the computing power available with NAO, augmented with a networked PC.</p>
+        <p>Websites:</p>
+        <p noindent="true">
+          <ref xlink:href="https://team.inria.fr/perception/nao/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>nao/</ref>
+        </p>
+        <p noindent="true">
+          <ref xlink:href="https://team.inria.fr/perception/research/naolab/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>naolab/</ref>
+        </p>
+      </subsection>
+    </subsection>
+  </logiciels>
+  <resultats id="uid39">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Audio-Source Localization</bodyTitle>
+      <p>In previous years we have developed several <i>supervised</i> sound-source localization algorithms. The general principle of these algorithms was based on the learning of a mapping (regression) between binaural feature vectors and source locations <ref xlink:href="#perception-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. While fixed-length wide-spectrum sounds (white noise) are used for training to reliably estimate the model parameters, we show that the testing (localization) can be extended to variable-length sparse-spectrum sounds (such as speech), thus enabling a wide range of realistic applications. Indeed, we demonstrate that the method can be used for audio-visual fusion, namely to map speech signals onto images and hence to spatially align the audio and visual modalities, thus enabling to discriminate between speaking and non-speaking faces. We released a novel corpus of real-room recordings that allow quantitative evaluation of the co-localization method in the presence of one or two sound sources. Experiments demonstrate increased accuracy and speed relative to several state-of-the-art methods. During the period 2015-2016 we extended this method to an arbitrary number of microphones based on the <i>relative transfer function – RTF</i> (between any channel and a reference channel). Then we extended this work and developed a novel transfer function that contains the direct path between the source and the microphone array, namely the <i>direct-path relative transfer function</i> <ref xlink:href="#perception-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Websites:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/acoustic-learning/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>acoustic-learning/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/binaural-ssl/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>binaural-ssl/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/ssl-rtf/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>ssl-rtf/</ref>
+      </p>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Audio-Source Separation</bodyTitle>
+      <p>We address the problem of separating audio sources from time-varying convolutive mixtures. We proposed an unsupervised probabilistic
+framework based on the local complex-Gaussian model combined with non-negative matrix factorization <ref xlink:href="#perception-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The time-varying mixing filters are modeled by a continuous temporal stochastic process. This model extends the case of static filters which corresponds to static audio sources. While static filters can be learnt in advance, e.g. <ref xlink:href="#perception-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, time-varying filters cannot and therefore the problem is more complex.
+We present a variational expectation-maximization (VEM) algorithm that employs a Kalman smoother to estimate the time-varying mixing matrix, and that jointly estimates the source parameters.
+The sound sources are then separated by Wiener filters constructed with the estimators provided by the VEM algorithm.
+Extensive experiments on simulated data show that the proposed method outperforms a block-wise version of a state-of-the-art baseline method. This work is part of the PhD topic of Dionyssos Kounades Bastian and is conducted in collaboration with Sharon Gannot (Bar Ilan University) and Xavier Alameda Pineda (University of Trento). Our journal paper <ref xlink:href="#perception-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is an extended version of a paper presented at IEEE WASPAA in 2015 which received the best student paper award.</p>
+      <p>Website:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/vemove/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>vemove/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/nmfig/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>nmfig/</ref>
+      </p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Single-Channel Audio Processing</bodyTitle>
+      <p>While most of our audio scene analysis work involves microphone arrays, it is important to develop single-channel (one microphone) signal processing methods as well. In particular, it is important to detect speech signal (or voice) in the presence of various types of noise (stationary or non-stationary). In this context, we developed the following methods <ref xlink:href="#perception-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>:</p>
+      <simplelist>
+        <li id="uid43">
+          <p noindent="true">Statistical likelihood ratio test is a widely used voice activity detection (VAD) method, in which the likelihood ratio of the current temporal frame is compared with a threshold. A fixed threshold is always used, but this is not suitable for various types of noise. In this work, an adaptive threshold is proposed as a function of the local statistics of the likelihood ratio. This threshold represents the upper bound of the likelihood ratio for the non-speech frames, whereas it remains generally lower than the likelihood ratio for the speech frames. As a result, a high non-speech hit rate can be achieved, while maintaining speech hit rate as large as possible.</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">Estimating the noise power spectral density (PSD) is essential for single channel speech enhancement algorithms. We propose a noise PSD estimation approach based on regional statistics which consist of four features representing the statistics of the past and present periodograms in a short-time period. We show that these features are efficient in characterizing the statistical difference between noise PSD and noisy-speech PSD. We therefore propose to use these features for estimating the speech presence probability (SPP). The noise PSD is recursively estimated by averaging past spectral power values with a time-varying smoothing parameter controlled by the SPP. The proposed method exhibits good tracking capability for non-stationary noise, even for abruptly increasing noise level.</p>
+        </li>
+      </simplelist>
+      <p>Website:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/noise-psd/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>noise-psd/</ref>
+      </p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Tracking Multiple Persons</bodyTitle>
+      <p>Object tracking is an ubiquitous problem in computer vision with many applications in human-machine and human-robot interaction, augmented reality, driving assistance, surveillance, etc. Although thoroughly investigated, tracking multiple persons remains a challenging and an open problem. In this work, an online variational Bayesian model for multiple-person tracking is proposed. This yields a variational expectation-maximization (VEM) algorithm. The computational efficiency of the proposed method is made possible thanks to closed-form expressions for both the posterior distributions of the latent variables and for the estimation of the model parameters. A stochastic process that handles person birth and person death enables the tracker to handle a varying number of persons over long periods of time <ref xlink:href="#perception-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#perception-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Website:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/ovbt/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>ovbt/</ref>
+      </p>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Audio-Visual Speaker Detection, Localization, and Diarization</bodyTitle>
+      <p>Any multi-party conversation system benefits from speaker diarization, that is, the assignment of speech signals among the participants.
+More generally, in HRI and CHI scenarios it is important to recognize the speaker over time. We propose to address speaker detection, localization and diarization using both audio and visual data.
+We cast the diarization problem into a tracking formulation whereby the active speaker is detected and tracked over time. A probabilistic tracker exploits the spatial coincidence of visual and auditory observations and infers a single latent variable which represents the identity of the active speaker. Visual and auditory observations are fused using our recently developed weighted-data mixture model <ref xlink:href="#perception-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, while several options for the speaking turns dynamics are fulfilled by a multi-case transition model. The modules that translate raw audio and visual data into image observations are also described in detail. The performance of the proposed method are tested on challenging data-sets that are available from recent contributions which are used as baselines for comparison <ref xlink:href="#perception-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Websites:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/wdgmm/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>wdgmm/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/speakerloc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>speakerloc/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/speechturndet/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>speechturndet/</ref>
+      </p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/avdiarization/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>avdiarization/</ref>
+      </p>
+      <object id="uid47">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/cpr1.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>This figure illustrates the audiovisual tracking and diarization method that we have recently developed. First row: A number is associated with each tracked person. Second row: diarization result. Third row: the ground truth diarization. Fourth row: acoustic signal recorded by one of the two microphones.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Head Pose Estimation and Tracking</bodyTitle>
+      <p>Head pose estimation is an important task, because it provides information about cognitive interactions that are likely to occur. Estimating the head pose is intimately linked to face detection.
+We addressed the problem of head pose estimation with three degrees of freedom (pitch, yaw, roll) from a single image and in the presence of face detection errors. Pose estimation is formulated as a high-dimensional to low-dimensional mixture of linear regression problem <ref xlink:href="#perception-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We propose a method that maps HOG-based descriptors, extracted from face bounding boxes, to corresponding head poses. To account for errors in the observed bounding-box position, we learn regression parameters such that a HOG descriptor is mapped onto the union of a head pose and an offset, such that the latter optimally shifts the bounding box towards the actual position of the face in the image. The performance of the
+proposed method is assessed on publicly available datasets. The experiments that we carried out show that a relatively small number of locally-linear regression functions is sufficient to deal with the non-linear mapping problem at hand. Comparisons with state-of-the-art methods show that our method outperforms several other techniques <ref xlink:href="#perception-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This work is part of the PhD of Vincent Drouard and it received the best student paper award (second place) at the IEEE ICIP'15. Currently we investigate a temporal extension of this model.</p>
+      <p>Website:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/head-pose/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>head-pose/</ref>
+      </p>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Estimation of Eye Gaze and of Visual Focus of Attention</bodyTitle>
+      <p>We address the problem of estimating the visual focus of attention (VFOA), e.g. who is looking at whom? This is of particular interest in human-robot interactive scenarios, e.g. when the task requires to identify targets of interest and to track them over time. We make the following contributions. We propose a Bayesian temporal model that links VFOA to eye-gaze direction and to head orientation. Model inference is cast into a switching Kalman filter formulation, which makes it tractable. The model parameters are estimated via training based on manual annotations. The method is tested and benchmarked using a publicly available dataset. We show that both eye-gaze and VFOA of several persons can be reliably and simultaneously estimated and tracked over time from observed head poses as well as from people and object locations <ref xlink:href="#perception-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Website:</p>
+      <p noindent="true"><ref xlink:href="https://team.inria.fr/perception/research/eye-gaze/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>eye-gaze/</ref>.</p>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>High-Resolution Scene Reconstruction</bodyTitle>
+      <p>We addressed the problem of range-stereo fusion for the construction of high-resolution depth maps. In particular, we combine time-of-flight (low resolution) depth <ref xlink:href="#perception-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> data with high-resolution stereo data, in a maximum a posteriori (MAP) formulation. Unlike existing schemes that build on MRF optimizers, we infer the disparity map from a series of local energy minimization problems that are solved hierarchically, by growing sparse initial disparities obtained from the depth data. The accuracy of the method is not compromised, owing to three properties of the data-term in the energy function. Firstly, it incorporates a new correlation function that is capable of providing refined correlations and disparities, via sub-pixel correction. Secondly, the correlation scores rely on an adaptive cost aggregation step, based on the depth data. Thirdly, the stereo and depth likelihoods are adaptively fused, based on the scene texture and camera geometry. These properties lead to a more selective growing process which, unlike previous seed-growing methods, avoids the tendency to propagate incorrect disparities. The proposed method gives rise to an intrinsically efficient algorithm, which runs at 3FPS on 2.0MP images on a standard desktop computer. The strong performance of the new method is established both by quantitative comparisons with state-of-the-art methods, and by qualitative comparisons using real depth-stereo data-sets <ref xlink:href="#perception-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This work is funded by the ANR project MIXCAM.</p>
+      <p>Website:</p>
+      <p noindent="true">
+        <ref xlink:href="https://team.inria.fr/perception/research/dsfusion/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>research/<allowbreak/>dsfusion/</ref>
+      </p>
+      <object id="uid51">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/claire1.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+            <td>
+              <ressource xlink:href="IMG/claire2.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/claire3.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+            <td>
+              <ressource xlink:href="IMG/claire4.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Four views of a 3D person reconstructed with our algorithm. In this example we used a large number of high-resolution cameras and the rendering was performed by the software of 4D View Solutions.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Registration of Multiple Point Sets</bodyTitle>
+      <p>We have also addressed the rigid registration problem of multiple 3D point sets. While the vast majority of state-of-the-art techniques build on pairwise registration, we proposed a generative model that explains jointly registered multiple sets: back-transformed points are considered realizations of a single Gaussian mixture model (GMM) whose means play the role of the (unknown) scene points. Under this assumption, the joint registration problem is cast into a probabilistic clustering framework. We formally derive an expectation-maximization procedure that robustly estimates both the GMM parameters and the rigid transformations that map each individual cloud onto an under-construction reference set, that is, the GMM means. GMM variances carry rich information as well, thus leading to a noise- and outlier-free scene model as a by-product. A second version of the algorithm is also proposed whereby newly captured sets can be registered online. A thorough discussion and validation on challenging data-sets against several state-of-the-art methods confirm the potential of the proposed model for jointly registering real depth data <ref xlink:href="#perception-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid53">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid55">
+          <p noindent="true">In December, PERCEPTION started a one year collaboration with the <b>Digital Media and Communications R&amp;D Center, Samsung Electronics</b> (Seoul, Korea). The topic of this collaboration is <i>multi-modal speaker localization and tracking</i> (a central topic of the team) and is part of a strategic partnership between Inria and Samsung Electronics.</p>
+        </li>
+        <li id="uid56">
+          <p noindent="true">Over the past six years we have collaborated with Aldebaran Robotics (now SoftBank). This collaboration was part of two EU STREP projects, HUMAVIPS (2010-2012) and EARS (2014-2016). This enabled our team to establish strong connections with SoftBank, to design a stereoscopic camera head and to jointly develop several demonstrators using three different generations of the NAO robot.</p>
+          <p noindent="true">Website: <ref xlink:href="https://team.inria.fr/perception/nao/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>perception/<allowbreak/>nao/</ref></p>
+        </li>
+        <li id="uid57">
+          <p noindent="true">In 2015 we started a collaboration with Xerox Research Center India (XRCI), Bangalore. This three-year collaboration (2015-2017) is funded by a grant awarded by the
+<b>Xerox Foundation University Affairs Committee (UAC)</b> and the topic of the project is <i>Advanced and Scalable Graph Signal Processing Techniques</i>.
+The work is done in collaboration with EPI MISTIS and our Indian collaborators are
+Arijit Biswas and Anirban Mondal.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid58">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid59" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid60" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <subsection id="uid61" level="3">
+          <bodyTitle>MIXCAM</bodyTitle>
+          <sanspuceslist>
+            <li id="uid62">
+              <p noindent="true">Type: ANR BLANC</p>
+            </li>
+            <li id="uid63">
+              <p noindent="true">Duration: March 2014 - February 2016</p>
+            </li>
+            <li id="uid64">
+              <p noindent="true">Coordinator: Radu Horaud</p>
+            </li>
+            <li id="uid65">
+              <p noindent="true">Partners: 4D View Solutions SAS</p>
+            </li>
+            <li id="uid66">
+              <p noindent="true">Abstract: Humans have an extraordinary ability to see in three dimensions, thanks to their sophisticated binocular vision system. While both biological and computational stereopsis have been thoroughly studied for the last fifty years, the film and TV methodologies and technologies have exclusively used 2D image sequences, including the very recent 3D movie productions that use two image sequences, one for each eye. This state of affairs is due to two fundamental limitations: it is difficult to obtain 3D reconstructions of complex scenes and glass-free multi-view 3D displays, which are likely to need real 3D content, are still under development. The objective of MIXCAM is to develop novel scientific concepts and associated methods and software for producing live 3D content for glass-free multi-view 3D displays. MIXCAM will combine (i) theoretical principles underlying computational stereopsis, (ii) multiple-camera reconstruction methodologies, and (iii) active-light sensor technology in order to develop a complete content-production and -visualization methodological pipeline, as well as an associated proof-of-concept demonstrator implemented on a multiple-sensor/multiple-PC platform supporting real-time distributed processing. MIXCAM plans to develop an original approach based on methods that combine color cameras with time-of-flight (TOF) cameras: TOF-stereo robust matching, accurate and efficient 3D reconstruction, realistic photometric rendering, real-time distributed processing, and the development of an advanced mixed-camera platform. The MIXCAM consortium is composed of two French partners (Inria and 4D View Solutions). The MIXCAM partners will develop scientific software that will be demonstrated using a prototype of a novel platform, developed by 4D Views Solutions, and which will be available at Inria, thus facilitating scientific and industrial exploitation.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid68" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid69" level="3">
+          <bodyTitle>EARS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid70">
+              <p noindent="true">Title: Embodied Audition for RobotS</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Program: FP7</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">Duration: January 2014 - December 2016</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Coordinator: Friedrich Alexander Universität Erlangen-Nünberg</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid75">
+                  <p noindent="true">Aldebaran Robotics (France)</p>
+                </li>
+                <li id="uid76">
+                  <p noindent="true">Ben-Gurion University of the Negev (Israel)</p>
+                </li>
+                <li id="uid77">
+                  <p noindent="true">Friedrich Alexander Universität Erlangen-Nünberg (Germany)</p>
+                </li>
+                <li id="uid78">
+                  <p noindent="true">Imperial College of Science, Technology and Medicine (United Kingdom)</p>
+                </li>
+                <li id="uid79">
+                  <p noindent="true">Humboldt-Universitat Zu Berlin (Germany)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid80">
+              <p noindent="true">Inria contact: Radu Horaud</p>
+            </li>
+            <li id="uid81">
+              <p noindent="true">The success of future natural intuitive human-robot interaction (HRI) will critically depend on how responsive the robot will be to all forms of human expressions and how well it will be aware of its environment. With acoustic signals distinctively characterizing physical environments and speech being the most effective means of communication among humans, truly humanoid robots must be able to fully extract the rich auditory information from their environment and to use voice communication as much as humans do. While vision-based HRI is well developed, current limitations in robot audition do not allow for such an effective, natural acoustic human-robot communication in real-world environments, mainly because of the severe degradation of the desired acoustic signals due to noise, interference and reverberation when captured by the robot's microphones. To overcome these limitations, EARS will provide intelligent 'ears' with close-to-human auditory capabilities and use it for HRI in complex real-world environments. Novel microphone arrays and powerful signal processing algorithms shall be able to localise and track multiple sound sources of interest and to extract and recognize the desired signals. After fusion with robot vision, embodied robot cognition will then derive HRI actions and knowledge on the entire scenario, and feed this back to the acoustic interface for further auditory scene analysis. As a prototypical application, EARS will consider a welcoming robot in a hotel lobby offering all the above challenges. Representing a large class of generic applications, this scenario is of key interest to industry and, thus, a leading European robot manufacturer will integrate EARS's results into a robot platform for the consumer market and validate it. In addition, the provision of open-source software and an advisory board with key players from the relevant robot industry should help to make EARS a turnkey project for promoting audition in the robotics world.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid82" level="3">
+          <bodyTitle>VHIA</bodyTitle>
+          <sanspuceslist>
+            <li id="uid83">
+              <p noindent="true">Title: Vision and Hearing in Action</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Program: FP7</p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Type: ERC</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Duration: February 2014 - January 2019</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Coordinator: Inria</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Inria contact: Radu Horaud</p>
+            </li>
+            <li id="uid89">
+              <p noindent="true">The objective of VHIA is to elaborate a holistic computational paradigm of perception and of perception-action loops. We plan to develop a completely novel twofold approach: (i) learn from mappings between auditory/visual inputs and structured outputs, and from sensorimotor contingencies, and (ii) execute perception-action interaction cycles in the real world with a humanoid robot. VHIA will achieve a unique fine coupling between methodological findings and proof-of-concept implementations using the consumer humanoid NAO manufactured in Europe. The proposed multimodal approach is in strong contrast with current computational paradigms influenced by unimodal biological theories. These theories have hypothesized a modular view, postulating quasi-independent and parallel perceptual pathways in the brain. VHIA will also take a radically different view than today's audiovisual fusion models that rely on clean-speech signals and on accurate frontal-images of faces; These models assume that videos and sounds are recorded with hand-held or head-mounted sensors, and hence there is a human in the loop who intentionally supervises perception and interaction. Our approach deeply contradicts the belief that complex and expensive humanoids (often manufactured in Japan) are required to implement research ideas. VHIA's methodological program addresses extremely difficult issues: how to build a joint audiovisual space from heterogeneous, noisy, ambiguous and physically different visual and auditory stimuli, how to model seamless interaction, how to deal with high-dimensional input data, and how to achieve robust and efficient human-humanoid communication tasks through a well-thought tradeoff between offline training and online execution. VHIA bets on the high-risk idea that in the next decades, social robots will have a considerable economical impact, and there will be millions of humanoids, in our homes, schools and offices, which will be able to naturally communicate with us.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid90" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid92" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <simplelist>
+            <li id="uid93">
+              <p noindent="true">Professor Sharon Gannot, Bar Ilan University, Tel Aviv, Israel,</p>
+            </li>
+            <li id="uid94">
+              <p noindent="true">Dr. Miles Hansard, Queen Mary University London, UK,</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">Professor Nicu Sebe, University of Trento, Trento, Italy,</p>
+            </li>
+            <li id="uid96">
+              <p noindent="true">Professor Adrian Raftery, University of Washington, Seattle, USA,</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Dr. Rafael Munoz-Salinas, University of Cordoba, Spain,</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">Dr. Noam Shabatai, Ben Gourion University of the Negev, Israel.</p>
+            </li>
+            <li id="uid99">
+              <p noindent="true">Dr. Christine Evers, Imperial College of Science and Medecine, UK.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid100" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid101" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid102">
+            <p noindent="true">Professor Sharon Gannot, Bar Ilan University, Tel Aviv, Israel,</p>
+          </li>
+          <li id="uid103">
+            <p noindent="true">Yuval Dorfan, Bar Ilan University, Tel Aviv, Israel,</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">Dr. Rafael Munoz-Salinas, University of Cordoba, Spain,</p>
+          </li>
+          <li id="uid105">
+            <p noindent="true">Dr. Noam Shabatai, Ben Gourion University of the Negev, Israel.</p>
+          </li>
+          <li id="uid106">
+            <p noindent="true">Dr. Christine Evers, Imperial College of Science and Medecine, UK.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid107">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid108" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid110" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Radu Horaud is a member of the following editorial boards:</p>
+          <simplelist>
+            <li id="uid111">
+              <p noindent="true">advisory board member of the <i>International Journal of Robotics Research, Sage</i>,</p>
+            </li>
+            <li id="uid112">
+              <p noindent="true">associate editor of the <i>International Journal of Computer Vision, Kluwer</i>, and</p>
+            </li>
+            <li id="uid113">
+              <p noindent="true">area editor of <i>Computer Vision and Image Understanding, Elsevier</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid115">
+            <p noindent="true">Xavier Alameda-Pineda gave invited talks Polytechnic University of Catalunya (May, Barcelona), Telecom ParisTech (May), Columbia University (June, New York, USA), and Carnegie Mellon University (June, Pittsburgh, USA).</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Radu Horaud gave invited talks at the Working Group on Model Based Clustering (July, Paris), at Google Research (July, Mountain View, USA), SRI International (July, Menlo Park, USA), and Amazon (July, Seattle, USA).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid117" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid118" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid119">
+            <p noindent="true"><b>Tutorial: </b><i>Multimodal Human Behaviour Analysis in the Wild: Recent Advances and Open Problems</i> at the IEEE ICPR'16 Conference, December 2016, 4 hours. Teachers: Xavier Alameda-Pineda, Nicu Sebe and Elisa Ricci (University of Trento).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid120" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid121">
+            <p noindent="true">PhD in progress: Israel Dejene Gebru, October 2013, Radu Horaud and Xavier Alameda-Pineda.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">PhD in progress: Dionyssos Kounades-Bastian, October 2013, Radu Horaud, Laurent Girin, and Xavier Alameda-Pineda.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">PhD in progress: Vincent Drouard, October 2014, Radu Horaud and Sileye Ba.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">PhD in progress: Benoit Massé, October 2014, Radu Horaud and Sileye Ba.</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">PhD in progress: Stéphane Lathuilière, October 2014, Radu Horaud.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">PhD in progress: Yutong Ban, October 2015, Radu Horaud and Laurent Girin</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="perception-2016-bid6" type="article" rend="refer" n="refercite:alamedapineda:hal-00975293">
+      <identifiant type="doi" value="10.1109/TASLP.2014.2317989"/>
+      <identifiant type="hal" value="hal-00975293"/>
+      <analytic>
+        <title level="a">A Geometric Approach to Sound Source Localization from Time-Delay Estimates</title>
+        <author>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Audio, Speech and Language Processing</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">1082-1095</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00975293" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00975293</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid1" type="article" rend="refer" n="refercite:alamedapineda:hal-00990766">
+      <identifiant type="doi" value="10.1177/0278364914548050"/>
+      <identifiant type="hal" value="hal-00990766"/>
+      <analytic>
+        <title level="a">Vision-Guided Robot Hearing</title>
+        <author>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Robotics Research</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">4-5</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">437-456</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00990766" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00990766</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid42" type="article" rend="refer" n="refercite:andreff:hal-00520167">
+      <identifiant type="hal" value="hal-00520167"/>
+      <analytic>
+        <title level="a">Visual Servoing from Lines</title>
+        <author>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Andreff</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernard</foreName>
+            <surname>Espiau</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Robotics Research</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">679–700</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00520167" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00520167</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid26" type="article" rend="refer" n="refercite:cuzzolin:hal-01053737">
+      <identifiant type="doi" value="10.1007/s11263-014-0754-0"/>
+      <identifiant type="hal" value="hal-01053737"/>
+      <analytic>
+        <title level="a">Robust Temporally Coherent Laplacian Protrusion Segmentation of 3D Articulated Bodies</title>
+        <author>
+          <persName>
+            <foreName>Fabio</foreName>
+            <surname>Cuzzolin</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Diana</foreName>
+            <surname>Mateus</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">112</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">43-70</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01053737" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01053737</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid5" type="article" rend="refer" n="refercite:deleforge:hal-00960796">
+      <identifiant type="doi" value="10.1142/S0129065714400036"/>
+      <identifiant type="hal" value="hal-00960796"/>
+      <analytic>
+        <title level="a">Acoustic Space Learning for Sound-Source Separation and Localization on Binaural Manifolds</title>
+        <author>
+          <persName key="panama-2016-idp118224">
+            <foreName>Antoine</foreName>
+            <surname>Deleforge</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mistis-2014-idm27448">
+            <foreName>Florence</foreName>
+            <surname>Forbes</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Neural Systems</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">21p</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00960796" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00960796</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid11" type="article" rend="refer" n="refercite:deleforge:hal-00863468">
+      <identifiant type="doi" value="10.1007/s11222-014-9461-5"/>
+      <identifiant type="hal" value="hal-00863468"/>
+      <analytic>
+        <title level="a">High-Dimensional Regression with Gaussian Mixtures and Partially-Latent Response Variables</title>
+        <author>
+          <persName key="panama-2016-idp118224">
+            <foreName>Antoine</foreName>
+            <surname>Deleforge</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mistis-2014-idm27448">
+            <foreName>Florence</foreName>
+            <surname>Forbes</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Statistics and Computing</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">893-911</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00863468" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00863468</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid16" type="article" rend="refer" n="refercite:deleforge:hal-01112834">
+      <identifiant type="doi" value="10.1109/TASLP.2015.2405475"/>
+      <identifiant type="hal" value="hal-01112834"/>
+      <analytic>
+        <title level="a">Co-Localization of Audio Sources in Images Using Binaural Features and Locally-Linear Regression</title>
+        <author>
+          <persName key="panama-2016-idp118224">
+            <foreName>Antoine</foreName>
+            <surname>Deleforge</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Yoav Y.</foreName>
+            <surname>Schechner</surname>
+            <initial>Y. Y.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Audio, Speech and Language Processing</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">718-731</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01112834" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01112834</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid15" type="article" rend="refer" n="refercite:evangelidis:hal-01110031">
+      <identifiant type="doi" value="10.1109/TPAMI.2015.2400465"/>
+      <identifiant type="hal" value="hal-01110031"/>
+      <analytic>
+        <title level="a">Fusion of Range and Stereo Data for High-Resolution Scene-Modeling</title>
+        <author>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">2178 - 2192</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01110031" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01110031</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid22" type="article" rend="refer" n="refercite:hansard:hal-01059891">
+      <identifiant type="doi" value="10.1016/j.cviu.2014.09.001"/>
+      <identifiant type="hal" value="hal-01059891"/>
+      <analytic>
+        <title level="a">Cross-Calibration of Time-of-flight and Colour Cameras</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="perception-2014-idp70424">
+            <foreName>Quentin</foreName>
+            <surname>Pelorson</surname>
+            <initial>Q.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computer Vision and Image Understanding</title>
+        <imprint>
+          <biblScope type="volume">134</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">105-115</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01059891" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01059891</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid21" type="article" rend="refer" n="refercite:hansard:hal-00936333">
+      <identifiant type="doi" value="10.1016/j.cviu.2014.01.007"/>
+      <identifiant type="hal" value="hal-00936333"/>
+      <analytic>
+        <title level="a">Automatic Detection of Calibration Grids in Time-of-Flight Images</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Amat</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computer Vision and Image Understanding</title>
+        <imprint>
+          <biblScope type="volume">121</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">108-118</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00936333" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00936333</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid41" type="article" rend="refer" n="refercite:hansard:inria-00435548">
+      <identifiant type="doi" value="10.1364/JOSAA.25.002357"/>
+      <identifiant type="hal" value="inria-00435548"/>
+      <analytic>
+        <title level="a">Cyclopean geometry of binocular vision</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of the Optical Society of America A</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">2357-2369</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00435548" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00435548</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid12" type="article" rend="refer" n="refercite:hansard:inria-00435549">
+      <identifiant type="doi" value="10.1109/TSMCB.2009.2024211"/>
+      <identifiant type="hal" value="inria-00435549"/>
+      <analytic>
+        <title level="a">Cyclorotation Models for Eyes and Cameras</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Systems, Man, and Cybernetics, Part B: Cybernetics</title>
+        <imprint>
+          <biblScope type="volume">40</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">151-161</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00435549" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00435549</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid14" type="article" rend="refer" n="refercite:hansard:inria-00590266">
+      <identifiant type="doi" value="10.1162/NECO_a_00163"/>
+      <identifiant type="hal" value="inria-00590266"/>
+      <analytic>
+        <title level="a">A Differential Model of the Complex Cell</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Neural Computation</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">2324-2357</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590266" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590266</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid20" type="book" rend="refer" n="refercite:hansard:hal-00725654">
+      <identifiant type="hal" value="hal-00725654"/>
+      <monogr x-international-audience="yes">
+        <title level="m">Time of Flight Cameras: Principles, Methods, and Applications</title>
+        <title level="s">Springer Briefs in Computer Science</title>
+        <author>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Seungkyu</foreName>
+            <surname>Lee</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Ouk</foreName>
+            <surname>Choi</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">95</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00725654" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00725654</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid43" type="article" rend="refer" n="refercite:horaud:inria-00590127">
+      <identifiant type="doi" value="10.1109/34.895977"/>
+      <identifiant type="hal" value="inria-00590127"/>
+      <analytic>
+        <title level="a">Stereo Calibration from Rigid Motions</title>
+        <author>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Gabriela</foreName>
+            <surname>Csurka</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Demirdjian</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">1446–1452</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590127" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590127</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid25" type="article" rend="refer" n="refercite:horaud:inria-00590265">
+      <identifiant type="doi" value="10.1109/TPAMI.2010.94"/>
+      <identifiant type="hal" value="inria-00590265"/>
+      <analytic>
+        <title level="a">Rigid and Articulated Point Registration with Expectation Conditional Maximization</title>
+        <author>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mistis-2014-idm27448">
+            <foreName>Florence</foreName>
+            <surname>Forbes</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Yguel</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Dewaele</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="galaad2-2015-idp73912">
+            <foreName>Jian</foreName>
+            <surname>Zhang</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">33</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">587-602</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590265" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590265</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid24" type="article" rend="refer" n="refercite:horaud:inria-00446898">
+      <identifiant type="doi" value="10.1109/TPAMI.2008.108"/>
+      <identifiant type="hal" value="inria-00446898"/>
+      <analytic>
+        <title level="a">Human Motion Tracking by Registering an Articulated Surface to 3-D Points and Normals</title>
+        <author>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Matti</foreName>
+            <surname>Niskanen</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Dewaele</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">31</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">158-163</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00446898" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00446898</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid0" type="article" rend="refer" n="refercite:khalidov:inria-00590267">
+      <identifiant type="doi" value="10.1162/NECO_a_00074"/>
+      <identifiant type="hal" value="inria-00590267"/>
+      <analytic>
+        <title level="a">Conjugate Mixture Models for Clustering Multimodal Data</title>
+        <author>
+          <persName>
+            <foreName>Vasil</foreName>
+            <surname>Khalidov</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="mistis-2014-idm27448">
+            <foreName>Florence</foreName>
+            <surname>Forbes</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Neural Computation</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">517-557</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590267" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590267</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid23" type="article" rend="refer" n="refercite:knossow:inria-00590247">
+      <identifiant type="doi" value="10.1007/s11263-007-0116-2"/>
+      <identifiant type="hal" value="inria-00590247"/>
+      <analytic>
+        <title level="a">Human Motion Tracking with a Kinematic Parameterization of Extremal Contours</title>
+        <author>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Knossow</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="imagine-2014-idp103248">
+            <foreName>Remi</foreName>
+            <surname>Ronfard</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">79</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">247-269</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590247" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590247</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid13" type="article" rend="refer" n="refercite:sapienza:hal-00768615">
+      <identifiant type="doi" value="10.1007/s10514-012-9311-2"/>
+      <identifiant type="hal" value="hal-00768615"/>
+      <analytic>
+        <title level="a">Real-time Visuomotor Update of an Active Binocular Head</title>
+        <author>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Sapienza</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Autonomous Robots</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">33-45</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00768615" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00768615</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid18" type="article" rend="refer" n="refercite:zaharescu:inria-00590271">
+      <identifiant type="doi" value="10.1109/TPAMI.2010.116"/>
+      <identifiant type="hal" value="inria-00590271"/>
+      <analytic>
+        <title level="a">Topology-Adaptive Mesh Deformation for Surface Evolution, Morphing, and Multi-View Reconstruction</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Zaharescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">33</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">823-837</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00590271" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00590271</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid19" type="article" rend="refer" n="refercite:zaharescu:hal-00699620">
+      <identifiant type="doi" value="10.1007/s11263-012-0528-5"/>
+      <identifiant type="hal" value="hal-00699620"/>
+      <analytic>
+        <title level="a">Keypoints and Local Descriptors of Scalar Functions on 2D Manifolds</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Zaharescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp13752">
+            <foreName>Edmond</foreName>
+            <surname>Boyer</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">100</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">78-98</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00699620" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00699620</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid17" type="article" rend="refer" n="refercite:zaharescu:inria-00446987">
+      <identifiant type="doi" value="10.1007/s11263-008-0169-x"/>
+      <identifiant type="hal" value="inria-00446987"/>
+      <analytic>
+        <title level="a">Robust Factorization Methods Using A Gaussian/Uniform Mixture Model</title>
+        <author>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Zaharescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">81</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">240-258</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00446987" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00446987</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid3" type="article" rend="year" n="cite:ba:hal-01349763">
+      <identifiant type="doi" value="10.1016/j.cviu.2016.07.006"/>
+      <identifiant type="hal" value="hal-01349763"/>
+      <analytic>
+        <title level="a">An On-line Variational Bayesian Model for Multi-Person Tracking from Cluttered Scenes</title>
+        <author>
+          <persName key="perception-2014-idm25536">
+            <foreName>Sileye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp81912">
+            <foreName>Alessio</foreName>
+            <surname>Xompero</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00409">
+        <idno type="issn">1077-3142</idno>
+        <title level="j">Computer Vision and Image Understanding</title>
+        <imprint>
+          <biblScope type="volume">153</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">64–76</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01349763" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349763</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid2" type="article" rend="year" n="cite:gebru:hal-01261374">
+      <identifiant type="doi" value="10.1109/TPAMI.2016.2522425"/>
+      <identifiant type="hal" value="hal-01261374"/>
+      <analytic>
+        <title level="a">EM Algorithms for Weighted-Data Clustering with Application to Audio-Visual Scene Analysis</title>
+        <author>
+          <persName key="perception-2015-idp73432">
+            <foreName>Israel Dejene</foreName>
+            <surname>Gebru</surname>
+            <initial>I. D.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="mistis-2014-idm27448">
+            <foreName>Florence</foreName>
+            <surname>Forbes</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00747">
+        <idno type="issn">0162-8828</idno>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2402 - 2415</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01261374" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01261374</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid10" type="article" rend="year" n="cite:gebru:hal-01413403">
+      <identifiant type="doi" value="10.1109/TPAMI.2017.2648793"/>
+      <identifiant type="hal" value="hal-01413403"/>
+      <analytic>
+        <title level="a">Audio-Visual Speaker Diarization Based on Spatiotemporal Bayesian Fusion</title>
+        <author>
+          <persName key="perception-2014-idp83200">
+            <foreName>Israel</foreName>
+            <surname>Gebru</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="perception-2014-idm25536">
+            <foreName>Sileye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00747">
+        <idno type="issn">0162-8828</idno>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413403" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413403</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid34" type="article" rend="year" n="cite:horaud:hal-01325045">
+      <identifiant type="doi" value="10.1007/s00138-016-0784-4"/>
+      <identifiant type="hal" value="hal-01325045"/>
+      <analytic>
+        <title level="a">An Overview of Depth Cameras and Range Scanners Based on Time-of-Flight Technologies</title>
+        <author>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Miles</foreName>
+            <surname>Hansard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Menier</foreName>
+            <surname>Clément</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01367">
+        <idno type="issn">0932-8092</idno>
+        <title level="j">Machine Vision and Applications Journal</title>
+        <imprint>
+          <biblScope type="volume">27</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1005–1020</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01325045" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01325045</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid7" type="article" rend="year" n="cite:kounadesbastian:hal-01301762">
+      <identifiant type="doi" value="10.1109/TASLP.2016.2554286"/>
+      <identifiant type="hal" value="hal-01301762"/>
+      <analytic>
+        <title level="a">A Variational EM Algorithm for the Separation of Time-Varying Convolutive Audio Mixtures</title>
+        <author>
+          <persName key="perception-2014-idp86872">
+            <foreName>Dionyssos</foreName>
+            <surname>Kounades-Bastian</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00706">
+        <idno type="issn">1558-7916</idno>
+        <title level="j">IEEE/ACM Transactions on Audio, Speech and Language Processing</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1408-1423</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01301762" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01301762</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid8" type="article" rend="year" n="cite:li:hal-01349691">
+      <identifiant type="doi" value="10.1109/TASLP.2016.2598319"/>
+      <identifiant type="hal" value="hal-01349691"/>
+      <analytic>
+        <title level="a">Estimation of the Direct-Path Relative Transfer Function for Supervised Sound-Source Localization</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00706">
+        <idno type="issn">1558-7916</idno>
+        <title level="j">IEEE/ACM Transactions on Audio, Speech and Language Processing</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2171 - 2186</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01349691" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349691</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid32" type="inproceedings" rend="year" n="cite:ban:hal-01359559">
+      <identifiant type="doi" value="10.1007/978-3-319-48881-3_5"/>
+      <identifiant type="hal" value="hal-01359559"/>
+      <analytic>
+        <title level="a">Tracking Multiple Persons Based on a Variational Bayesian Model</title>
+        <author>
+          <persName key="perception-2015-idp70952">
+            <foreName>Yutong</foreName>
+            <surname>Ban</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="perception-2014-idm25536">
+            <foreName>Sileye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Computer Vision – ECCV 2016 Workshops</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">Volume 9914</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">52-67</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01359559" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01359559</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid38" type="inproceedings" rend="year" n="cite:drouard:hal-01430727">
+      <identifiant type="hal" value="hal-01430727"/>
+      <analytic>
+        <title level="a">Switching Linear Inverse-Regression Model for Tracking Head Pose</title>
+        <author>
+          <persName key="perception-2014-idp84424">
+            <foreName>Vincent</foreName>
+            <surname>Drouard</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="perception-2014-idm25536">
+            <foreName>Sileye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE Winter Conference on Applications of Computer Vision</title>
+        <loc>Santa Rosa, CA, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01430727" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01430727</ref>
+        </imprint>
+        <meeting id="cid95979">
+          <title>IEEE Workshop on Applications of Computer Vision</title>
+          <num>2014</num>
+          <abbr type="sigle">WACV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid36" type="inproceedings" rend="year" n="cite:girin:hal-01400965">
+      <identifiant type="hal" value="hal-01400965"/>
+      <analytic>
+        <title level="a">On the Use of Latent Mixing Filters in Audio Source Separation</title>
+        <author>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Roland</foreName>
+            <surname>Badeau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">13th International Conference on Latent Variable Analysis and Signal Separation (LVA/ICA 2017)</title>
+        <loc>Grenoble, France</loc>
+        <title level="s">Proc. 13th International Conference on Latent Variable Analysis and Signal Separation (LVA/ICA 2017)</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01400965" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01400965</ref>
+        </imprint>
+        <meeting id="cid402484">
+          <title>International Conference on Latent Variable Analysis and Signal Separation</title>
+          <num>13</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid29" type="inproceedings" rend="year" n="cite:kounadesbastian:hal-01253169">
+      <identifiant type="doi" value="10.1109/ICASSP.2016.7471652"/>
+      <identifiant type="hal" value="hal-01253169"/>
+      <analytic>
+        <title level="a">An Inverse-Gamma Source Variance Prior with Factorized Parameterization for Audio Source Separation</title>
+        <author>
+          <persName key="perception-2014-idp86872">
+            <foreName>Dionyssos</foreName>
+            <surname>Kounades-Bastian</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Acoustics, Speech and SIgnal Processing</title>
+        <loc>Shanghai, China</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE Signal Processing Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">136-140</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01253169" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01253169</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>2008</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid40" type="inproceedings" rend="year" n="cite:kounadesbastian:hal-01430761">
+      <identifiant type="hal" value="hal-01430761"/>
+      <analytic>
+        <title level="a">An EM Algorithm for Joint Source Separation and Diarisation of Multichannel Convolutive Speech Mixtures</title>
+        <author>
+          <persName key="perception-2014-idp86872">
+            <foreName>Dionyssos</foreName>
+            <surname>Kounades-Bastian</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+        <loc>New Orleans, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01430761" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01430761</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>2008</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid37" type="inproceedings" rend="year" n="cite:lathuiliere:hal-01430732">
+      <identifiant type="hal" value="hal-01430732"/>
+      <analytic>
+        <title level="a">Recognition of Group Activities in Videos Based on Single- and Two-Person Descriptors</title>
+        <author>
+          <persName key="perception-2014-idp89312">
+            <foreName>Stéphane</foreName>
+            <surname>Lathuilière</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE Winter Conference on Applications of Computer Vision</title>
+        <loc>Santa Rosa, CA, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01430732" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01430732</ref>
+        </imprint>
+        <meeting id="cid95979">
+          <title>IEEE Workshop on Applications of Computer Vision</title>
+          <num>2014</num>
+          <abbr type="sigle">WACV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid28" type="inproceedings" rend="year" n="cite:li:hal-01349771">
+      <identifiant type="doi" value="10.1109/IROS.2016.7759437"/>
+      <identifiant type="hal" value="hal-01349771"/>
+      <analytic>
+        <title level="a">Reverberant Sound Localization with a Robot Head Based on Direct-Path Relative Transfer Function</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="prima-2014-idp72968">
+            <foreName>Fabien</foreName>
+            <surname>Badeig</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
+        <loc>Daejeon, South Korea</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2819-2826</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01349771" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349771</ref>
+        </imprint>
+        <meeting id="cid93437">
+          <title>IEEE RSJ International Conference on Intelligent Robots and Systems</title>
+          <num>2011</num>
+          <abbr type="sigle">IROS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid31" type="inproceedings" rend="year" n="cite:li:hal-01250892">
+      <identifiant type="doi" value="10.1109/ICASSP.2016.7471661"/>
+      <identifiant type="hal" value="hal-01250892"/>
+      <analytic>
+        <title level="a">Non-Stationary Noise Power Spectral Density Estimation Based on Regional Statistics</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Acoustics, Speech and SIgnal Processing</title>
+        <loc>Shanghai, China</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE Signal Processing Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">181-185</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01250892" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01250892</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>2008</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid39" type="inproceedings" rend="year" n="cite:li:hal-01430754">
+      <identifiant type="hal" value="hal-01430754"/>
+      <analytic>
+        <title level="a">Audio Source Separation Based on Convolutive Transfer Function and Frequency-Domain Lasso Optimization</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Acoustics, Speech, and Signal Processing</title>
+        <loc>New Orleans, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01430754" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01430754</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>2008</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid30" type="inproceedings" rend="year" n="cite:li:hal-01349776">
+      <identifiant type="doi" value="10.1109/IWAENC.2016.7602911"/>
+      <identifiant type="hal" value="hal-01349776"/>
+      <analytic>
+        <title level="a">Voice Activity Detection Based on Statistical Likelihood Ratio With Adaptive Thresholding</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Workshop on Acoustic Signal Enhancement</title>
+        <loc>Xi'an, China</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">5</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01349776" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349776</ref>
+        </imprint>
+        <meeting id="cid624771">
+          <title>International Workshop on Acoustic Signal Enhancement</title>
+          <num>2016</num>
+          <abbr type="sigle">IWAENC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid33" type="inproceedings" rend="year" n="cite:masse:hal-01301766">
+      <identifiant type="doi" value="10.1109/ICME.2016.7552986"/>
+      <identifiant type="hal" value="hal-01301766"/>
+      <analytic>
+        <title level="a">Simultaneous Estimation of Gaze Direction and Visual Focus of Attention for Multi-Person-to-Robot Interaction</title>
+        <author>
+          <persName key="perception-2014-idp90552">
+            <foreName>Benoit</foreName>
+            <surname>Massé</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="perception-2014-idm25536">
+            <foreName>Silèye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Multimedia and Expo</title>
+        <loc>Seattle, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE Signal Processing Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-6</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01301766" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01301766</ref>
+        </imprint>
+        <meeting id="cid84585">
+          <title>IEEE International Conference on Multimedia and Expo</title>
+          <num>2011</num>
+          <abbr type="sigle">ICME</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid27" type="inproceedings" rend="best" n="cite:xu:hal-01416419">
+      <identifiant type="hal" value="hal-01416419"/>
+      <analytic>
+        <title level="a">Multi-Paced Dictionary Learning for Cross-Domain Retrieval and Recognition</title>
+        <author>
+          <persName>
+            <foreName>Dan</foreName>
+            <surname>Xu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jingkuan</foreName>
+            <surname>Song</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="perception-2014-idp72968">
+            <foreName>Xavier</foreName>
+            <surname>Alameda-Pineda</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Elisa</foreName>
+            <surname>Ricci</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicu</foreName>
+            <surname>Sebe</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Pattern Recognition</title>
+        <loc>Cancun, Mexico</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01416419" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01416419</ref>
+        </imprint>
+        <meeting id="cid625360">
+          <title>IEEE International Conference on Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid4" type="techreport" rend="year" n="cite:drouard:hal-01413406">
+      <identifiant type="hal" value="hal-01413406"/>
+      <monogr>
+        <title level="m">Robust Head-Pose Estimation Based on Partially-Latent Mixture of Linear Regression</title>
+        <author>
+          <persName key="perception-2014-idp84424">
+            <foreName>Vincent</foreName>
+            <surname>Drouard</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="panama-2016-idp118224">
+            <foreName>Antoine</foreName>
+            <surname>Deleforge</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="perception-2014-idm25536">
+            <foreName>Silèye</foreName>
+            <surname>Ba</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Grenoble - Rhone-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413406" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413406</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">11 pages, 4 figures, 3 tables</note>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid35" type="techreport" rend="year" n="cite:evangelidis:hal-01413414">
+      <identifiant type="hal" value="hal-01413414"/>
+      <monogr>
+        <title level="m">Joint Registration of Multiple Point Sets</title>
+        <author>
+          <persName key="perception-2014-idp66480">
+            <foreName>Georgios</foreName>
+            <surname>Evangelidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Grenoble - Rhone-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413414" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413414</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">14 pages, 10 figures, 4 tables</note>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="perception-2016-bid9" type="techreport" rend="year" n="cite:li:hal-01413417">
+      <identifiant type="hal" value="hal-01413417"/>
+      <monogr>
+        <title level="m">Multiple-Speaker Localization Based on Direct-Path Features and Likelihood Maximization with Spatial Sparsity Regularization</title>
+        <author>
+          <persName key="perception-2014-idp71688">
+            <foreName>Xiaofei</foreName>
+            <surname>Li</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="perception-2014-idp67720">
+            <foreName>Laurent</foreName>
+            <surname>Girin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="perception-2014-idm27016">
+            <foreName>Radu</foreName>
+            <surname>Horaud</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="perception-2014-idp74264">
+            <foreName>Sharon</foreName>
+            <surname>Gannot</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Grenoble - Rhone-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413417" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413417</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">13 pages, 3 figures, 3 tables</note>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+  </biblio>
+</raweb>

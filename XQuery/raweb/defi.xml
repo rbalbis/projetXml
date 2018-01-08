@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="defi" isproject="true">
+    <shortname>DEFI</shortname>
+    <projectName>Shape reconstruction and identification</projectName>
+    <theme-de-recherche>Numerical schemes and simulations</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>http://www.cmap.polytechnique.fr/~defi/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Centre de Mathématiques Appliquées (CMAP)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole Polytechnique</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2009 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6. - Modeling, simulation and control</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.2. - Scientific Computing, Numerical Analysis &amp; Optimization</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.3. - Computation-data interaction</term>
+      <term>6.3.1. - Inverse problems</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.3.1. - Understanding and simulation of the brain and the nervous system</term>
+      <term>2.6.1. - Brain imaging</term>
+      <term>3.3.1. - Earth and subsoil</term>
+      <term>5.3. - Nanotechnology</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="defi-2014-idm29560">
+      <firstname>Houssem</firstname>
+      <lastname>Haddar</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="defi-2014-idp71760">
+      <firstname>Lucas</firstname>
+      <lastname>Chesnel</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="defi-2014-idm28296">
+      <firstname>Jing-Rebecca</firstname>
+      <lastname>Li</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="defi-2014-idm26824">
+      <firstname>Grégoire</firstname>
+      <lastname>Allaire</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="defi-2014-idp78136">
+      <firstname>Lorenzo</firstname>
+      <lastname>Audibert</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>EDF, Associate Member</moreinfo>
+    </person>
+    <person key="defi-2014-idp66744">
+      <firstname>Zixian</firstname>
+      <lastname>Jiang</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Sep 2016, granted by SAXSIE- project</moreinfo>
+    </person>
+    <person key="defi-2014-idp79368">
+      <firstname>Mathieu</firstname>
+      <lastname>Chamaillard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until May 2016</moreinfo>
+    </person>
+    <person key="defi-2015-idp90776">
+      <firstname>Bilel</firstname>
+      <lastname>Charfi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Mar 2016</moreinfo>
+    </person>
+    <person key="defi-2014-idp80600">
+      <firstname>Gabrielle</firstname>
+      <lastname>Fournet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Nov 2016, granted by ANR CIACM project</moreinfo>
+    </person>
+    <person key="defi-2014-idp81832">
+      <firstname>Matteo</firstname>
+      <lastname>Giacomini</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, until Oct 2016</moreinfo>
+    </person>
+    <person key="defi-2014-idp83056">
+      <firstname>Mohamed</firstname>
+      <lastname>Lakhal</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="defi-2014-idp86800">
+      <firstname>Thi Phong</firstname>
+      <lastname>Nguyen</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, granted by ANR METAMATH- project</moreinfo>
+    </person>
+    <person key="defi-2014-idp88032">
+      <firstname>Van Khieu</firstname>
+      <lastname>Nguyen</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="defi-2014-idp91752">
+      <firstname>Simona</firstname>
+      <lastname>Schiavi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="poems-2014-idp94568">
+      <firstname>Marc</firstname>
+      <lastname>Bakry</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="poems-2014-idp98824">
+      <firstname>Camille</firstname>
+      <lastname>Carvalho</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Jun 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp154480">
+      <firstname>Fioralba</firstname>
+      <lastname>Cakoni</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Rutgers University</moreinfo>
+    </person>
+    <person key="defi-2014-idp74256">
+      <firstname>Irene</firstname>
+      <lastname>de Teresa-Trueba</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>University of Delaware</moreinfo>
+    </person>
+    <person key="defi-2015-idp96976">
+      <firstname>Helle</firstname>
+      <lastname>Majander</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Aalto University</moreinfo>
+    </person>
+    <person key="defi-2014-idp75552">
+      <firstname>Jacob</firstname>
+      <lastname>Rezac</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>University of Delaware</moreinfo>
+    </person>
+    <person key="defi-2016-idp164336">
+      <firstname>Semra</firstname>
+      <lastname>Ahmetolan</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Istanbul Technical University, from Feb 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp166832">
+      <firstname>Bumsu</firstname>
+      <lastname>Kim</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Jul 2016 until Nov 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp169344">
+      <firstname>Kevish</firstname>
+      <lastname>Napal</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from May 2016 until Oct 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp171824">
+      <firstname>Hoang An</firstname>
+      <lastname>Tran</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Apr 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="defi-2016-idp174320">
+      <firstname>Marie</firstname>
+      <lastname>Enee</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Nov 2016</moreinfo>
+    </person>
+    <person key="commands-2014-idp73120">
+      <firstname>Jessica</firstname>
+      <lastname>Gameiro</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="disco-2014-idp77048">
+      <firstname>Maeva</firstname>
+      <lastname>Jeannot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The research activity of our team is dedicated to the design, analysis and implementation
+of efficient numerical methods to solve inverse and shape/topological optimization
+problems in connection with acoustics, electromagnetism, elastodynamics, and
+diffusion.</p>
+      <p>Sought practical applications include radar and sonar applications,
+bio-medical imaging techniques, non-destructive testing, structural design,
+composite materials, and diffusion magnetic resonance imaging.</p>
+      <p>Roughly speaking, the model problem consists in determining information on,
+or optimizing the geometry (topology) and the physical properties of unknown targets
+from given constraints or measurements, for instance, measurements of diffracted waves
+or induced magnetic fields.</p>
+      <p>In general this kind of problems is non-linear. The inverse ones are also severely ill-posed
+and therefore require special attention from regularization point of view,
+and non-trivial adaptations of classical optimization methods.</p>
+      <p>Our scientific research interests are the following:</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true">Theoretical understanding and analysis of the forward and inverse mathematical models,
+including in particular the development of simplified models for adequate asymptotic
+configurations.</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">The design of efficient numerical optimization/inversion methods which are quick
+and robust with respect to noise. Special attention will be paid to algorithms capable
+of treating large scale problems (e.g. 3-D problems) and/or suited for real-time imaging.</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Development of prototype softwares for specific applications or tutorial toolboxes.</p>
+        </li>
+      </simplelist>
+      <p>During the last four years we were particularly interested in the development
+of the following themes that will be presented in details later.</p>
+      <simplelist>
+        <li id="uid7">
+          <p noindent="true">Qualitative methods for inverse scattering problems</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">Iterative and Hybrid inversion methods</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">Topological optimization methods</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true">Direct and inverse models for Diffusion MRI</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">Asymptotic models and methods for waves and diffusion.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid12">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Research Program</bodyTitle>
+      <p>The research activity of our team is dedicated to the design,
+analysis and implementation of efficient numerical methods
+to solve inverse and shape/topological optimization problems
+in connection with wave imaging, structural design, non-destructive testing and
+medical imaging modalities. We are particularly interested in the development of fast methods that
+are suited for real-time applications and/or large scale problems. These goals
+require to work on both the physical and the mathematical models involved and
+indeed a solid expertise in related numerical algorithms.</p>
+      <p spacebefore="6.0pt">This section intends to give a general overview of our research interests
+and themes.
+We choose to present them through the specific academic example of
+inverse scattering problems (from inhomogeneities), which is representative of
+foreseen developments on both inversion and (topological) optimization
+methods. The
+practical problem would be to identify an inclusion
+from measurements of diffracted waves that result from the interaction of the
+sought inclusion with some (incident) waves sent into the probed medium. Typical applications
+include biomedical imaging where using micro-waves one would like to probe the
+presence of pathological cells, or
+imaging of urban infrastructures where using ground penetrating radars (GPR)
+one is interested in finding the location of buried facilities such as
+pipelines or waste deposits. This kind of
+applications requires in particular fast and reliable algorithms.</p>
+      <p spacebefore="6.0pt">By “imaging” we shall refer to the inverse problem where the concern is only the location and
+the shape of the inclusion, while “identification” may also indicate getting
+informations on the inclusion physical parameters.</p>
+      <p spacebefore="6.0pt">Both problems (imaging and identification) are non linear and
+ill-posed (lack of stability with respect to measurements errors if some
+careful constrains are not added). Moreover, the unique determination of the
+geometry or the coefficients is not guaranteed in general if sufficient
+measurements are not available. As an example, in the case of
+anisotropic inclusions, one can show that an appropriate set of data uniquely
+determine the geometry but not the material properties.</p>
+      <p spacebefore="6.0pt">These theoretical considerations (uniqueness, stability) are not only important in
+understanding the mathematical properties of the inverse problem, but also
+guide the choice of appropriate numerical strategies (which information can be
+stably reconstructed) and also the design of appropriate regularization
+techniques. Moreover, uniqueness proofs are in general constructive proofs,
+i.e. they implicitly contain a numerical algorithm to solve the inverse problem, hence
+their importance for practical applications. The sampling methods introduced
+below are one example of such algorithms.</p>
+      <p spacebefore="6.0pt">A large part of our research activity is dedicated to numerical methods applied to the first
+type of inverse problems, where only the geometrical information is sought. In
+its general setting the inverse
+problem is very challenging and no method can provide a universal satisfactory
+solution to it (regarding the balance cost-precision-stability). This is why in
+the majority of the practically employed algorithms, some simplification of the underlying mathematical
+model is used, according to the specific configuration of the imaging
+experiment. The most popular ones are geometric optics (the Kirchhoff approximation) for high frequencies
+and weak scattering (the Born
+approximation) for small contrasts or small obstacles. They actually give full satisfaction for a wide range of
+applications as attested by the large success of existing imaging devices (radar, sonar, ultrasound, X-ray
+tomography, etc.), that rely on one of these
+approximations.</p>
+      <p spacebefore="6.0pt">Generally speaking, the used simplifications result in a linearization of
+the inverse problem and therefore are usually valid only if the latter is
+weakly non-linear. The development of these simplified models
+and the improvement of their efficiency is still a very active research
+area. With that perspective we are particularly interested in deriving and
+studying higher order asymptotic models associated with small geometrical
+parameters such as: small obstacles, thin coatings, wires, periodic media,
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>...</mo></math></formula>. Higher order models usually introduce some non linearity in
+the inverse problem, but are in principle easier to handle from the numerical
+point of view than in the case of the exact model.</p>
+      <p spacebefore="6.0pt">A larger part of our research activity is dedicated to algorithms that
+avoid the use of such approximations and that are efficient where classical
+approaches fail: i.e. roughly speaking when the non linearity of the inverse problem is
+sufficiently strong. This type of configuration is motivated by
+the applications mentioned below, and occurs as soon as the geometry of the
+unknown media generates non negligible multiple scattering effects
+(multiply-connected and closely spaces obstacles) or when the used frequency is
+in the so-called resonant region (wave-length comparable to the size of the
+sought medium).
+It is therefore much more
+difficult to deal with and requires new approaches. Our ideas
+to tackle this problem will be motivated and inspired by recent
+advances in shape and topological optimization methods and also the
+introduction of novel classes of imaging algorithms, so-called
+sampling methods.</p>
+      <p>The sampling methods are fast imaging solvers adapted to multi-static data (multiple receiver-transmitter pairs)
+at a fixed frequency. Even if they do not use any linearization
+the forward model, they rely on computing the solutions to a set
+of linear problems of small size, that can be performed in a completely
+parallel procedure. Our team has already a solid expertise in these methods
+applied to electromagnetic 3-D problems. The success of such
+approaches was their ability to provide a relatively quick algorithm for solving 3-D
+problems without any need for a priori knowledge on the physical parameters of
+the targets. These algorithms solve only the imaging problem, in the sense
+that only the geometrical information is provided.</p>
+      <p spacebefore="6.0pt">Despite the large efforts already spent in the development of this type of
+methods, either from the algorithmic point of view or the theoretical one,
+numerous questions are still open. These attractive new algorithms also suffer from the
+lack of experimental validations, due to their relatively recent introduction. We also would like to invest on this side by
+developing collaborations with engineering research groups that have
+experimental facilities. From the practical point of view, the most potential limitation of sampling methods
+would be the need of a large amount of data to achieve a reasonable accuracy. On the
+other hand, optimization methods do not suffer from this constrain but they require good
+initial guess to ensure convergence and reduce the number of iterations. Therefore it seems
+natural to try to combine the two class of methods in order to calibrate the balance between
+cost and precision.</p>
+      <p spacebefore="6.0pt">Among various shape optimization methods, the Level Set method seems to be particularly
+suited for such a coupling. First, because it shares similar mechanism as sampling
+methods: the geometry is captured as a level set of an “indicator function” computed on a
+cartesian grid. Second, because the two methods do not require any a priori knowledge on
+the topology of the sought geometry. Beyond the choice of a particular method, the main
+question would be to define in which way the coupling can be achieved. Obvious strategies
+consist in using one method to pre-process (initialization) or post-process (find the level
+set) the other. But one can also think of more elaborate ones, where for instance a sampling
+method can be used to optimize the choice of the incident wave at each iteration step.The
+latter point is closely related to the design of so called “focusing incident waves” (which
+are for instance the basis of applications of the time-reversal principle). In the frequency
+regime, these incident waves can be constructed from the eigenvalue decomposition of the
+data operator used by sampling methods. The theoretical and numerical investigations
+of these aspects are still not completely understood for electromagnetic or elastodynamic
+problems.</p>
+      <p spacebefore="6.0pt">Other topological optimization methods, like the homogenization method or the
+topological gradient method, can also be used, each one provides particular advantages
+in specific configurations. It is evident that the
+development of these methods is very suited to inverse problems and provide
+substantial advantage compared to classical shape optimization methods based on
+boundary variation. Their applications to inverse
+problems has not been fully investigated. The efficiency of these optimization
+methods can also be increased for adequate asymptotic configurations. For instance small
+amplitude homogenization method can be used as an efficient relaxation method
+for the inverse problem in the presence of small contrasts. On the other hand, the topological gradient method has
+shown to perform well in localizing small inclusions with only one iteration.</p>
+      <p spacebefore="6.0pt">A broader perspective would be the extension of the
+above mentioned techniques to time-dependent cases. Taking into account data in
+time domain is important for many practical applications, such as imaging in cluttered media,
+the design of absorbing coatings or also crash worthiness in the case of
+structural design.</p>
+      <p spacebefore="6.0pt">For the identification problem, one would like to also have information on the physical
+properties of the targets. Of course optimization methods is a tool of choice
+for these problems. However, in some applications only a qualitative information
+is needed and obtaining it in a cheaper way can be performed using
+asymptotic theories combined with sampling methods. We also refer here to the use of
+so called transmission
+eigenvalues as qualitative indicators for non destructive testing of
+dielectrics.</p>
+      <p spacebefore="6.0pt">We are also interested in parameter identification problems arising in
+diffusion-type problems. Our research here is mostly motivated by applications
+to the imaging of biological tissues with the technique of Diffusion
+Magnetic Resonance Imaging (DMRI). Roughly speaking DMRI gives a measure of the average distance travelled by water molecules in a
+certain medium and can give useful information on cellular structure and structural change
+when the medium is biological tissue.
+In particular, we would like to infer from DMRI measurements
+changes in the cellular volume fraction
+occurring upon various physiological or pathological conditions
+as well as the average cell size in the case of tumor imaging. The main
+challenges here are 1) correctly model measured signals using diffusive-type
+time-dependent PDEs 2) numerically handle the complexity of the tissues 3)
+use the first two to identify physically relevant parameters from
+measurements. For the last point we are particularly interested in
+constructing reduced models of the multiple-compartment Bloch-Torrey partial differential
+equation using homogenization methods.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid14">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Radar and GPR applications</bodyTitle>
+      <p>Conventional radar imaging techniques (ISAR, GPR, etc.) use backscattering data to image targets. The commonly used inversion algorithms are mainly based on the use of weak scattering approximations such as the Born or Kirchhoff approximation leading to very simple linear models, but at the expense of ignoring multiple scattering and polarization effects. The success of such an approach is evident in the wide use of synthetic aperture radar techniques.</p>
+      <p>However, the use of backscattering data makes 3-D imaging a very challenging problem (it is not even well understood theoretically) and as pointed out by Brett Borden in the context of airborne radar: “In recent years it has become quite apparent that the problems associated with radar target identification efforts will not vanish with the development of more sensitive radar receivers or increased signal-to-noise levels. In addition it has (slowly) been realized that greater amounts of data - or even additional “kinds” of radar data, such as added polarization or greatly extended bandwidth - will all suffer from the same basic limitations affiliated with incorrect model assumptions. Moreover, in the face of these problems it is important to ask how (and if) the complications associated with radar based automatic target recognition can be surmounted.” This comment also applies to the more complex GPR problem.</p>
+      <p>Our research themes will incorporate the development, analysis and testing of several novel methods, such as sampling methods, level set methods or topological gradient methods, for ground penetrating radar application (imaging of urban infrastructures, landmines detection, underground waste deposits monitoring,
+) using multistatic data.</p>
+    </subsection>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Biomedical imaging</bodyTitle>
+      <p>Among emerging medical imaging techniques we are particularly interested in those using low to moderate frequency regimes. These include Microwave Tomography, Electrical Impedance Tomography and also the closely related Optical Tomography technique. They all have the advantage of being potentially safe and relatively cheap modalities and can also be used in complementarity with well established techniques such as X-ray computed tomography or Magnetic Resonance Imaging.</p>
+      <p>With these modalities tissues are differentiated and, consequentially can be imaged, based on differences in dielectric properties (some recent studies have proved that dielectric properties of biological tissues can be a strong indicator of the tissues functional and pathological conditions, for instance, tissue blood content, ischemia, infarction, hypoxia, malignancies, edema and others). The main challenge for these functionalities is to built a 3-D imaging algorithm capable of treating multi-static measurements to provide real-time images with highest (reasonably) expected resolutions and in a sufficiently robust way.</p>
+      <p>Another important biomedical application is brain imaging. We are for instance interested in the use of EEG and MEG techniques as complementary tools to MRI. They are applied for instance to localize epileptic centers or active zones (functional imaging). Here the problem is different and consists into performing passive imaging: the epileptic centers act as electrical sources and imaging is performed from measurements of induced currents. Incorporating the structure of the skull is primordial in improving the resolution of the imaging procedure. Doing this in a reasonably quick manner is still an active research area, and the use of asymptotic models would offer a promising solution to fix this issue.
+</p>
+    </subsection>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Non destructive testing and parameter identification</bodyTitle>
+      <p>One challenging problem in this vast area is the identification and imaging of defaults in anisotropic media. For instance this problem is of great importance in aeronautic constructions due to the growing use of composite materials. It also arises in applications linked with the evaluation of wood quality, like locating knots in timber in order to optimize timber-cutting in sawmills, or evaluating wood integrity before cutting trees. The anisotropy of the propagative media renders the analysis of diffracted waves more complex since one cannot only relies on the use of backscattered waves. Another difficulty comes from the fact that the micro-structure of the media is generally not well known a priori.</p>
+      <p>Our concern will be focused on the determination of qualitative information on the size of defaults and their physical properties rather than a complete imaging which for anisotropic media is in general impossible. For instance, in the case of homogeneous background, one can link the size of the inclusion and the index of refraction to the first eigenvalue of so-called interior transmission problem. These eigenvalues can be determined form the measured data and a rough localization of the default. Our goal is to extend this kind of idea to the cases where both the propagative media and the inclusion are anisotropic. The generalization to the case of cracks or screens has also to be investigated.</p>
+      <p>In the context of nuclear waste management many studies are conducted on the possibility of storing waste in a deep geological clay layer. To assess the reliability of such a storage without leakage it is necessary to have a precise knowledge of the porous media parameters (porosity, tortuosity, permeability, etc.). The large range of space and time scales involved in this process requires a high degree of precision as well as tight bounds on the uncertainties. Many physical experiments are conducted in situ which are designed for providing data for parameters identification. For example, the determination of the damaged zone (caused by excavation) around the repository area is of paramount importance since microcracks yield drastic changes in the permeability. Level set methods are a tool of choice for characterizing this damaged zone.
+</p>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Diffusion MRI</bodyTitle>
+      <p>In biological tissues, water is abundant and magnetic resonance imaging (MRI) exploits the magnetic property of the nucleus of the water proton. The imaging contrast (the variations in the grayscale in an image) in standard MRI can be from either proton density, T1 (spin-lattice) relaxation, or T2 (spin-spin) relaxation and the contrast in the image gives some information on the physiological properties of the biological tissue at different physical locations of the sample. The resolution of MRI is on the order of millimeters: the greyscale value shown in the imaging pixel represents the volume-averaged value taken over all the physical locations contained that pixel.</p>
+      <p>In diffusion MRI, the image contrast comes from a measure of the average distance the water molecules have moved (diffused) during a certain amount of time. The Pulsed Gradient Spin Echo (PGSE) sequence is a commonly used sequence of applied magnetic fields to encode the diffusion of water protons. The term 'pulsed' means that the magnetic fields are short in duration, an the term gradient means that the magnetic fields vary linearly in space along a particular direction. First, the water protons in tissue are labelled with nuclear spin at a precession frequency that varies as a function of the physical positions of the water molecules via the application of a pulsed (short in duration, lasting on the order of ten milliseconds) magnetic field. Because the precessing frequencies of the water molecules vary, the signal, which measures the aggregate phase of the water molecules, will be reduced due to phase cancellations. Some time (usually tens of milliseconds) after the first pulsed magnetic field, another pulsed magnetic field is applied to reverse the spins of the water molecules. The time between the applications of two pulsed magnetic fields is called the 'diffusion time'. If the water molecules have not moved during the diffusion time, the phase dispersion will be reversed, hence the signal loss will also be reversed, the signal is called refocused. However, if the molecules have moved during the diffusion time, the refocusing will be incomplete and the signal detected by the MRI scanner if weaker than if the water molecules have not moved. This lack of complete refocusing is called the signal attenuation and is the basis of the image contrast in DMRI. the pixels showning more signal attenuation is associated with further water displacement during the diffusion time, which may be linked to physiological factors, such as higher cell membrane permeability, larger cell sizes, higher extra-cellular volume fraction.</p>
+      <p>We model the nuclear magnetization of water protons in a sample due to diffusion-encoding magnetic fields by a multiple compartment Bloch-Torrey partial differential equation, which is a diffusive-type time-dependent PDE. The DMRI signal is the integral of the solution of the Bloch-Torrey PDE. In a homogeneous medium, the intrinsic diffusion coeffcient
+D
+will appear as the slope of the semi-log plot of the signal (in approporiate units). However, because during typical scanning times, 50-100ms, water molecules have had time to travel a diffusion distance which is long compared to the average size of the cells, the slope of the semi-log plot of the signal is in fact a measure of an 'effective' diffusion coefficient. In DMRI applications, this measured quantity is called the 'apparent diffusion coefficient' (ADC) and provides the most commonly used form the image contrast for DMRI. This ADC is closely related to the effective diffusion coefficient obtainable from mathematical homogenization theory.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid19">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <simplelist>
+        <li id="uid21">
+          <p noindent="true">L. Audibert obtained the PhD prize Paul
+CASEAU of EDF.</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">Grégoire Allaire was appointed as president of the scientifique board of IFP Energies Nouvelles.</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Grégoire Allaire broke 15 bones in a climbing accident on the 19th of July, 2016. It takes a long time to fully recover...</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </highlights>
+  <logiciels id="uid24">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid25" level="1">
+      <bodyTitle>FVforBlochTorrey</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>We developed two numerical codes to solve the multiple-compartments Bloch-Torrey
+partial differential equation in 2D and 3D
+to simulate the water proton magnetization of a sample under the influence
+of diffusion-encoding magnetic field gradient pulses.</p>
+      <p>We coupled the spatial discretization with an efficient time discretization
+adapted to diffusive problems called the (explicit) Runge-Kutta-Chebyshev method.</p>
+      <p>The version of the code using Finite Volume discretization on a Cartesian grid is complete
+(written by Jing-Rebecca Li).
+The version of the code using linear Finite Elements discretization is complete
+(written by Dang Van Nguyen and Jing-Rebecca Li).</p>
+      <simplelist>
+        <li id="uid26">
+          <p noindent="true">Contact: Jing Rebecca Li</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">URL: <ref xlink:href="http://www.cmap.polytechnique.fr/~jingrebeccali/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cmap.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~jingrebeccali/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>InvGIBC</bodyTitle>
+      <p>A FreeFem++ routines for solving inverse Maxwell's problem for 3D shape identification using a gradient descent method.</p>
+      <simplelist>
+        <li id="uid29">
+          <p noindent="true">Contact: Houssem Haddar</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">URL: <ref xlink:href="http://www.cmap.polytechnique.fr/~haddar/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cmap.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~haddar/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>RODIN</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>In the framework of the RODIN project we continue to develop with our software partner ESI the codes Topolev and Geolev for topology and geometry shape optimization of mechanical structures using the level set method.</p>
+      <simplelist>
+        <li id="uid32">
+          <p noindent="true">Contact: Grégoire Allaire</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">URL: <ref xlink:href="http://www.cmap.polytechnique.fr/~allaire/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cmap.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~allaire/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Samplings-3d</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This software is written in Fortran 90 and is related to forward and inverse problems for the Helmholtz equation in 3-D. It contains equivalent functionalities to samplings-2d in a 3-D setting.</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">Contact: Houssem Haddar</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">URL: <ref xlink:href="http://www.cmap.polytechnique.fr/~haddar/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cmap.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~haddar/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>samplings-2d</bodyTitle>
+      <p>This software solves forward and inverse problems for the Helmholtz equation in 2-D.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This software is written in Fortran 90 and is related to forward and inverse problems for the Helmholtz equation in 2-D. It includes three independent components. The first one solves to scattering problem using integral equation approach and supports piecewise-constant dielectrics and obstacles with impedance boundary conditions. The second one contains various samplings methods to solve the inverse scattering problem (LSM, RGLSM(s), Factorization, MuSiC) for near-field or far-field setting. The third component is a set of post processing functionalities to visualize the results</p>
+      <simplelist>
+        <li id="uid38">
+          <p noindent="true">Contact: Houssem Haddar</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">URL: <ref xlink:href="http://sourceforge.net/projects/samplings-2d/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sourceforge.<allowbreak/>net/<allowbreak/>projects/<allowbreak/>samplings-2d/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>SAXS-EM</bodyTitle>
+      <p>This software solves the inverse problem of determining nono-paticles size distrubutions from SAXS measurements.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This software is written in matlab and determine size distributions is isotropic samples from measurements of X-ray diffraction at small angles. It treats the case of diluted and dense particle distributions.</p>
+      <simplelist>
+        <li id="uid41">
+          <p noindent="true">Contact: Houssem Haddar, Zixian Jiang</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">URL: <ref xlink:href="http://www.cmap.polytechnique.fr/~haddar/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cmap.<allowbreak/>polytechnique.<allowbreak/>fr/<allowbreak/>~haddar/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid43">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Methods for inverse problems</bodyTitle>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Identifying defects in an unknown background using differential measurements</bodyTitle>
+        <p>L. Audibert and H. Haddar</p>
+        <p>In the framework of the PhD thesis of Lorenzo Audibert we studied non destructive testing of concrete using ultrasonic waves, and more generallly imaging in complex heterogeneous media. We assume that measurements are multistatic, which means that we record the scattered field on different points by using several sources. For this type of data we wish to build methods that are able to image the obstacle that created the scattered field. We use qualitative methods in this work, which only provide the support of the object independently from its physical property. The first part of this thesis consists of a theoretical analysis of the Linear Sampling Method. Such analysis is done in the framework of regularization theory, and our main contribution is to provide and analyze a regularization term that ensures good theoretical properties. Among those properties we were able to demonstrate that when the regularization parameter goes to zero, we actually construct a sequence of functions that strongly converges to the solution of the interior transmission problem. This behavior gives a central place to the interior transmission problem as it allows describing the asymptotic solution of our regularized problem. Using this characterization of our solution, we are able to give the optimal reconstruction we can get from our method. More importantly this description of the solution allows us to compare the solution coming from two different datasets. Based on the result of this comparison, we manage to produce an image of the connected component that contains the defect which appears between two measurement campaigns and this regardless of the medium. This method is well suited for the characteristics of the microstructure of concrete as shown on several numerical examples with realistic concrete-like microstructure. Finally, we extend our theoretical results to the case of limited aperture, anisotropic medium and elastic waves, which correspond to the real physics of the ultrasounds</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Generalized linear sampling method for elastic-wave sensing of heterogeneous fractures</bodyTitle>
+        <p>B. Guzina, H. Haddar and F. Pourahmadian</p>
+        <p>A theoretical foundation is developed for active seismic reconstruction of fractures endowed with spatially-varying interfacial condition (e.g. partially-closed fractures, hydraulic fractures). The proposed indicator functional carries a superior localization property with no significant sensitivity to the fracture's contact condition, measurement errors, and illumination frequency. This is accomplished through the paradigm of the F-factorization technique and the recently developed Generalized Linear Sampling Method (GLSM) applied to elastodynamics. The direct scattering problem is formulated in the frequency domain where the fracture surface is illuminated by a set of incident plane waves, while monitoring the induced scattered field in the form of (elastic) far-field patterns. The analysis of the well-posedness of the forward problem leads to an admissibility condition on the fracture's (linearized) contact parameters. This in turn contributes toward establishing the applicability of the F-factorization method, and consequently aids the formulation of a convex GLSM cost functional whose minimizer can be computed without iterations. Such minimizer is then used to construct a robust fracture indicator function, whose performance is illustrated through a set of numerical experiments. For completeness, the results of the GLSM reconstruction are compared to those obtained by the classical linear sampling method.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Invisibility in scattering theory</bodyTitle>
+        <p>L. Chesnel, A.-S. Bonnet-Ben Dhia and S.A. Nazarov</p>
+        <p>We are interested in a time harmonic acoustic problem in a waveguide with locally perturbed sound hard walls. We consider a setting where an observer generates incident plane waves at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mi>∞</mi></mrow></math></formula> and probes the resulting scattered field at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mi>∞</mi></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>+</mo><mi>∞</mi></mrow></math></formula>. Practically, this is equivalent to measure the reflection and transmission coefficients respectively denoted <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>R</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula>. In a recent work, a technique has been proposed to construct waveguides with smooth walls such that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>R</mi><mo>=</mo><mn>0</mn></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>|</mo><mi>T</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math></formula> (non reflection). However the approach fails to ensure <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>=</mo><mn>1</mn></mrow></math></formula> (perfect transmission without phase shift). First we establish a result explaining this observation. More precisely, we prove that for wavenumbers smaller than a given bound <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>k</mi><mo>☆</mo></msub></math></formula> depending on the geometry, we cannot have <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>=</mo><mn>1</mn></mrow></math></formula> so that the observer can detect the presence of the defect if he/she is able to measure the phase at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>+</mo><mi>∞</mi></mrow></math></formula>. In particular, if the perturbation is smooth and small (in amplitude and in width), <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>k</mi><mo>☆</mo></msub></math></formula> is very close to the threshold wavenumber. Then, in a second step, we change the point of view and, for a given wavenumber, working with singular perturbations of the domain, we show how to obtain <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>=</mo><mn>1</mn></mrow></math></formula>. In this case, the scattered field is exponentially decaying both at <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mi>∞</mi></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>+</mo><mi>∞</mi></mrow></math></formula>. We implement numerically the method to provide examples of such undetectable defects.</p>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Nanoparticles volume determination from SAXS measurements</bodyTitle>
+        <p>H. Haddar and Z. Jiang</p>
+        <p>The aim of this work is to develop a fully automatic method for the reconstruction of the volume distribution of polydisperse non-interacting nanoparticles with identical shapes from Small Angle X-ray Scattering measurements. In the case of diluted systems we proposed a method that solves a maximum likelihood problem with a positivity constraint on the solution by means of an Expectation Maximization iterative scheme coupled with a robust stopping criterion. We prove that the stopping rule provides a regularization method according to an innovative notion of regularization specifically defined for inverse problems with Poisson data. Such a regularization, together with the positivity constraint results in high fidelity quantitative reconstructions of particle volume distributions making the method particularly effective in real applications. We tested the performance of the method on synthetic data in the case of uni- and bi-modal particle volume distributions. We extended the method to the case of dense solutions where the inverse problem becomes non linear. A specific fix-point algorithm has been proposed and convergence has been tested against synthetic data. The developement of this research topic is ongoing under the framework of Saxsize.</p>
+      </subsection>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Identifying defects in unknown periodic layers</bodyTitle>
+        <p>H. Haddar and T.P. Nguyen</p>
+        <p>We investigate the inverse problem where one is interested in reconstructing the support of a perturbation in a periodic media from measurements of scattered waves. We are concerned with the design of a sampling method that would reconstruct the support of inhomogeneities without reconstructing the index of refraction. The development of sampling methods has gained a large interest in recent years and many methods have been introduced in the literature to deal with a variety of problems and we refer to [1] for an account of recent developments of these methods.
+Up to our knowledge, the sampling methods for locally perturbed infinite periodic layers has not been treated in the literature. Even thought this problem is the one that motivates our study, we considered a slightly different problem that will be referred to as the ML−periodic problem: it corresponds with a locally perturbed infinite periodic layer with period L that has been reduced to a domain of size ML (with M a sufficiently large parameter) with periodic boundary conditions. This is mainly for technical reasons since our analysis for the newly introduced differential imaging functional heavily rely on the discrete Floquet-Bloch transform.</p>
+        <p>The main contribution of our work is the design of a new sampling method that enable the imaging of the defect location without reconstructing the L periodic background. This method is in the spirit of the Differential LSM introduced above for the imaging of defects in complex backgrounds using differential measurements. However, in the present case we propose a method that does not require the measurement operator for the background media. We exploit the L periodicity of the background and the Floquet-Bloch transform to design a differential criterion between different periods. This criterion is based on the study of sampling methods for the ML−periodic media where a single Floquet-Bloch mode is used. This study constitutes the main theoretical ingredient for our method. The sampling operator for a single Floquet-Bloch mode somehow plays the role of the measurement operator for the background media. Indeed the main interest for this new sampling method is that it is capable of identifying the defect even thought classical sampling methods fail in obtaining high fidelity reconstructions of the (complex) background media.</p>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Identification of small objects with near-field data in quasi-backscattering configurations</bodyTitle>
+        <p>H. Haddar and M. Lakhal</p>
+        <p>We present a new sampling method for detecting targets (small inclusions or defects) immersed in a homogeneous medium in three-dimensional space, from measurements of acoustic scattered fields created by point source incident waves. We consider the harmonic regime and a data setting that corresponds with quasi-backscattering configuration: the data is collected by a set a receivers that are distributed on a segment centered at the source position and the device is swept along a path orthogonal to the receiver line. We assume that the aperture of the receivers is small compared with the distance to the targets. Considering the asymptotic form of the scattered field as the size of the targets goes to zero and the small aperture approximation, one is able to derive a special expression for the scattered field. In this expression a separation of the dependence of scattered field on the source location and the distance source-target is performed. This allows us to propose a sampling procedure that characterizes the targets location in terms of the range of a near-field operator constructed from available data. Our procedure is similar to the one proposed by Haddar-Rezac for far-field configurations. The reconstruction algorithm is based on the MUSIC (Multiple SIgnal Classification) algorithm.</p>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Nondestructive testing of the delaminated interface between two materials</bodyTitle>
+        <p>F. Cakoni, I. De Teresa, H. Haddar and P. Monk</p>
+        <p>We consider the problem of detecting if two materials that should be in contact have separated or delaminated. The goal is to find an acoustic technique to detect the delamination. We model the delamination as a thin opening between two materials of different acoustic properties, and using asymptotic techniques we derive a asymptotic model where the delaminated region is replaced by jump conditions on the acoustic field and flux. The asymptotic model has potential singularities due to the edges of the delaminated region, and we show that the forward problem is well posed for a large class of possible delaminations. We then design a special Linear Sampling Method (LSM) for detecting the shape of the delamination assuming that the background, undamaged, state is known. Finally we show, by numerical experiments, that our LSM can indeed determine the shape of delaminated regions.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Shape and topology optimization</bodyTitle>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Second-order shape derivatives along normal trajectories, governed by Hamilton-Jacobi equations</bodyTitle>
+        <p>G. Allaire, E. Cancès and J.-L. Vié</p>
+        <p>In this work we introduce a new variant of shape differentiation which is
+adapted to the deformation of shapes along their normal direction. This is
+typically the case in the level-set method for shape optimization where the
+shape evolves with a normal velocity. As all other variants of the orginal
+Hadamard method of shape differentiation, our approach yields the same first
+order derivative. However, the Hessian or second-order derivative is different
+and somehow simpler since only normal movements are allowed. The applications
+of this new Hessian formula are twofold. First, it leads to a novel extension
+method for the normal velocity, used in the Hamilton-Jacobi equation of front
+propagation. Second, as could be expected, it is at the basis of a Newton
+optimization algorithm which is conceptually simpler since no tangential
+displacements have to be considered. Numerical examples are given to illustrate
+the potentiality of these two applications. The key technical tool for our approach
+is the method of bicharacteristics for solving Hamilton-Jacobi equations. Our
+new idea is to differentiate the shape along these bicharacteristics (a system
+of two ordinary differential equations).</p>
+      </subsection>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Introducing a level-set based shape and topology optimization method for the wear of composite materials with geometric constraints</bodyTitle>
+        <p>G. Allaire, F. Feppon, G. Michailidis, M.S. Sidebottom, B.A. Krick and N. Vermaak</p>
+        <p>The wear of materials continues to be a limiting factor in the lifetime and performance of mechanical systems with sliding surfaces. As the demand for low wear materials grows so does the need for models and methods to systematically optimize tribological systems. Elastic foundation models offer a simplified framework to study the wear of multimaterial composites subject to abrasive sliding. Previously, the evolving wear profile has been shown to converge to a steady-state that is characterized by a time-independent elliptic equation. In this article, the steady-state formulation is generalized and integrated with shape optimization to improve the wear performance of bi-material composites. Both macroscopic structures and periodic material microstructures are considered. Several common tribological objectives for systems undergoing wear are identified and mathematically formalized with shape derivatives. These include (i) achieving a planar wear surface from multimaterial composites and (ii) minimizing the run-in volume of material lost before steady-state wear is achieved. A level-set based topology optimization algorithm that incorporates a novel constraint on the level-set function is presented. In particular, a new scheme is developed to update material interfaces; the scheme (i) conveniently enforces volume constraints at each iteration, (ii) controls the complexity of design features using perimeter penalization, and (iii) nucleates holes or inclusions with the topological gradient. The broad applicability of the proposed formulation for problems beyond wear is discussed, especially for problems where convenient control of the complexity of geometric features is desired.</p>
+      </subsection>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Geometric constraints for shape and topology optimization in architectural design</bodyTitle>
+        <p>G. Allaire, C. Dapogny, A. Faure, G. Michailidis, A. Couvelas and R. Estevez</p>
+        <p>This work proposes a shape and topology optimization framework oriented towards conceptual
+architectural design.
+A particular emphasis is put on the possibility for the user to interfere on the optimization process by supplying information about his personal taste.
+More precisely, we formulate three novel constraints on the geometry of shapes; while the first two are mainly related to aesthetics, the third one may also be used to handle several fabrication issues that are of special interest in the device of civil structures.
+The common mathematical ingredient to all three models is the signed distance function to a domain, and its sensitivity analysis with respect to perturbations of this domain; in the present work, this
+material is extended to the case where the ambient space is equipped with an anisotropic metric tensor.
+Numerical examples are discussed in two and three space dimensions.</p>
+      </subsection>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Modal basis approaches in shape and topology optimization of frequency response problems</bodyTitle>
+        <p>G. Allaire and G. Michailidis</p>
+        <p>The optimal design of mechanical structures subject to periodic excitations within
+a large frequency interval is quite challenging. In order to avoid bad performances
+for non-discretized frequencies, it is necessary to finely discretize the frequency
+interval, leading to a very large number of state equations. Then, if a standard
+adjoint-based approach is used for optimization, the computational cost (both in
+terms of CPU and memory storage) may be prohibitive for large problems, especially
+in three space dimensions.
+The goal of the present work is to introduce two new non-adjoint approaches for dealing
+with frequency response problems in shape and topology optimization. In both cases,
+we rely on a classical modal basis approach to compute the states, solutions of the
+direct problems. In the first method, we do not use any adjoint but rather directly
+compute the shape derivatives of the eigenmodes in the modal basis.
+In the second method, we compute the adjoints of the standard approach by using again
+the modal basis. The numerical cost of these two new strategies are much smaller than
+the usual ones if the number of modes in the modal basis is much smaller than the
+number of discretized excitation frequencies.
+We present numerical examples for the minimization of the dynamic compliance in two
+and three space dimensions.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Direct scattering problems</bodyTitle>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Finite element methods for eigenvalue problems with sign-changing coefficients</bodyTitle>
+        <p>C. Carvalho, P. Ciarlet and L. Chesnel</p>
+        <p>We consider a class of eigenvalue problems involving coefficients changing sign on the domain of interest. We analyse the main spectral properties of these problems according to the features of the coefficients. Under some assumptions on the mesh, we study how one can use classical finite element methods to approximate the spectrum as well as the eigenfunctions while avoiding spurious modes. We also prove localisation results of the eigenfunctions for certain
+sets of coefficients.</p>
+      </subsection>
+      <subsection id="uid59" level="2">
+        <bodyTitle>A Volume integral method for solving scattering problems from locally perturbed periodic layers</bodyTitle>
+        <p>H. Haddar and T.P. Nguyen</p>
+        <p>We investigate the scattering problem for the case of locally perturbed periodic layers in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>R</mi><mi>d</mi></msup></math></formula>, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>d</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math></formula>. Using the Floquet-Bloch transform in the periodicity direction we reformulate this scattering problem as an equivalent system of coupled volume integral equations. We then apply a spectral method to discretize the obtained system after periodization in the direction orthogonal to the periodicity directions of the medium. The convergence of this method is established and validating numerical results are provided.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>Asymptotic Analysis</bodyTitle>
+      <subsection id="uid61" level="2">
+        <bodyTitle>Small obstacle asymptotics for a non linear problem</bodyTitle>
+        <p>L. Chesnel, X. Claeys and S.A. Nazarov</p>
+        <p>We study a 2D semi-linear equation in a domain with a small Dirichlet obstacle of size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>δ</mi></math></formula>. Using the method of matched asymptotic expansions, we compute an asymptotic expansion of the solution as <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>δ</mi></math></formula> tends to zero. Its relevance is justified by proving a rigorous error estimate. We also construct an approximate model, based on an equation set in the limit domain without the small obstacle, which provides a good approximation of the far field of the solution of the original problem. The interest of this approximate model lies in the fact that it leads to a variational formulation which is very simple to discretize. We present numerical experiments to illustrate the analysis.</p>
+      </subsection>
+      <subsection id="uid62" level="2">
+        <bodyTitle>Influence of the geometry on plasmonic waves</bodyTitle>
+        <p>L. Chesnel X. Claeys and S.A. Nazarov</p>
+        <p>In the modeling of plasmonic technologies in time harmonic regime, one is led to study the eigenvalue problem <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>-</mo><mo>÷</mo><mo>(</mo><mi>σ</mi><mi>∇</mi><mi>u</mi><mo>)</mo><mo>=</mo><mi>λ</mi><mi>u</mi><mspace width="4pt"/><mo>(</mo><mi>P</mi><mo>)</mo></mrow></math></formula>, where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>σ</mi></math></formula> is a physical coefficient positive in some region <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Ω</mi><mo>+</mo></msub></math></formula> and negative in some other region <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Ω</mi><mo>-</mo></msub></math></formula>. We highlight an unusual instability phenomenon for the source term problem associated with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><mi>P</mi><mo>)</mo></mrow></math></formula>: for certain configurations, when the interface between <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Ω</mi><mo>+</mo></msub></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Ω</mi><mo>-</mo></msub></math></formula> presents a rounded corner, the solution may depend critically on the value of the rounding parameter. We explain this property studying the eigenvalue problem <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><mi>P</mi><mo>)</mo></mrow></math></formula>. We provide an asymptotic expansion of the eigenvalues and prove error estimates. We establish an oscillatory behaviour of the eigenvalues as the rounding parameter of the corner tends to zero. These theoretical results are illustrated by numerical experiments.</p>
+      </subsection>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Instability of dielectrics and conductors in electrostatic fields</bodyTitle>
+        <p>G. Allaire and J. Rauch</p>
+        <p>This work proves most of the assertions in section 116 of Maxwell's
+treatise on electromagnetism. The results go under the name Earnshaw's
+Theorem and assert the absence of stable equilibrium configurations of
+conductors and dielectrics in an external electrostatic field.</p>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Optimization of dispersive coefficients in the homogenization of the wave equation in periodic structures</bodyTitle>
+        <p>G. Allaire and T. Yamada</p>
+        <p>We study dispersive effects of wave propagation in periodic media, which
+can be modelled by adding a fourth-order term in the homogenized equation.
+The corresponding fourth-order dispersive tensor is called Burnett tensor
+and we numerically optimize its values in order to minimize or maximize
+dispersion. More precisely, we consider the case of a two-phase composite
+medium with an 8-fold symmetry assumption of the periodicity cell in two
+space dimensions. We obtain upper and lower bound for the dispersive properties,
+along with optimal microgeometries.</p>
+      </subsection>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Homogenization of Stokes System using Bloch Waves</bodyTitle>
+        <p>G. Allaire, T. Ghosh and M. Vanninathan</p>
+        <p>In this work, we study the Bloch wave homogenization for the Stokes system with periodic viscosity coefficient. In particular, we obtain the spectral interpretation of the homogenized tensor. The presence of the incompressibility constraint in the model raises new issues linking the homogenized tensor and the Bloch spectral data.
+The main difficulty is a lack of smoothness for the bottom of the Bloch spectrum, a phenomenon which is not present in the case of the elasticity system. This issue is solved in the present work,
+completing the homogenization process of the Stokes system via the Bloch wave method.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Diffusion MRI</bodyTitle>
+      <subsection id="uid67" level="2">
+        <bodyTitle>Adapting the Kärger model to account for finite diffusion-encoding pulses in diffusion MRI</bodyTitle>
+        <p>H. Haddar, J.R. Li and S. Schiavi</p>
+        <p>Diffusion magnetic resonance imaging (dMRI) is an imaging modality that probes the diffusion characteristics of a sample via the application of magnetic field gradient pulses. If the imaging voxel can be divided into different Gaussian diffusion compartments with inter-compartment exchange governed by linear kinetics, then the dMRI signal can be described by the Kärger model, which is a well-known model in NMR.
+However, the Kärger model is limited to the case when the duration of the diffusion-encoding gradient pulses is short compared to the time delay between the start of the pulses. Under this assumption, the time at which to evaluate the Kärger model to obtain the dMRI signal is unambiguously the delay between the pulses. Recently, a new model of the dMRI signal, the Finite-Pulse Kärger (FPK) model, was derived for arbitrary diffusion gradient profiles. Relying on the FPK model, we show that when the duration of the gradient pulses is not short, the time at which to evaluate the Kärger model should be the time delay between the start of the pulses, shortened by one third of the pulse duration. With this choice, we show the sixth order convergence of the Kärger model to the FPK model in the non-dimensionalized pulse duration.</p>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>A macroscopic model for the diffusion MRI signal accounting for time-dependent diffusivity</bodyTitle>
+        <p>H. Haddar, J.R. Li and S. Schiavi</p>
+        <p>An important quantity measured in dMRI in each voxel is the Apparent Diffusion Coefficient (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>D</mi><mi>C</mi></mrow></math></formula>) and it is well-established from imaging experiments that, in the brain, <i>in-vivo</i>, the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>D</mi><mi>C</mi></mrow></math></formula> is dependent on the measured diffusion time. To aid in the understanding and interpretation of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>D</mi><mi>C</mi></mrow></math></formula>, using homogenization techniques, we derived a new asymptotic model for the dMRI signal from the Bloch-Torrey equation governing the water proton magnetization under the influence of diffusion-encoding magnetic gradient pulses. Our new model was obtained using a particular choice of scaling for the time, the biological cell membrane permeability, the diffusion-encoding magnetic field gradient strength, and a periodicity length of the cellular geometry. The <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mi>D</mi><mi>C</mi></mrow></math></formula> of the resulting model is dependent on the diffusion time. We numerically validated this model for a wide range of diffusion times for two dimensional geometrical configurations.</p>
+      </subsection>
+      <subsection id="uid69" level="2">
+        <bodyTitle>Quantitative DLA-based Compressed Sensing for MEMRI Acquisitions</bodyTitle>
+        <p>P. Svehla, K.-V. Nguyen, J.-R. Li and L. Ciobanu</p>
+        <p>High resolution Manganese Enhanced Magnetic Resonance Imaging (MEMRI) has great potential for functional imaging of live neuronal tissue at single neuron scale. However, reaching high resolutions often requires long acquisition times which can lead to reduced image quality due to sample deterioration and hardware instability. Compressed Sensing (CS) techniques offer the opportunity to significantly reduce the imaging time. The purpose of this work is to test the feasibility of CS acquisitions based on Diffusion Limited Aggregation (DLA) sampling patterns for high resolution quantitative MEMRI imaging. Fully encoded and DLA-CS MEMRI images of Aplysia californica neural tissue were acquired on a 17.2T MRI system. The MR signal corresponding to single, identified neurons was quantified for both versions of the T1 weighted images.
+Results: For a 50% undersampling, DLA-CS leads to signal intensity differences, measured in individual neurons, of approximately 1.37% when compared to the fully encoded acquisition, with minimal impact on image spatial resolution. At the undersampling ratio of 50%, DLA-CS is capable of accurately quantifying signal intensities in MEMRI acquisitions. Depending on the image signal to noise ratio, higher undersampling ratios can be used to further reduce the acquisition time in MEMRI based functional studies of living tissues.</p>
+      </subsection>
+      <subsection id="uid70" level="2">
+        <bodyTitle>The time-dependent diffusivity in the abdominal ganglion of <i>Aplysia californica</i>, comparing experiments and simulations</bodyTitle>
+        <p>K.-V. Nguyen, D. Le Bihan, L. Ciobanu and J.-R. Li</p>
+        <p>The nerve cells of the <i>Aplysia</i> are much larger than mammalian neurons.
+Using the <i>Aplysia</i> ganglia to study the relationship between the
+cellular structure and the diffusion MRI signal
+can shed light on this relationship for more complex organisms.
+We measured the dMRI signal at several diffusion times in the abdominal ganglion and
+performed simulations of water diffusion in geometries
+obtained after segmenting high resolution T2-weighted images and incorporating
+known information about the cellular structure from the literature.
+By fitting the experimental signal to the simulated signal for several types of
+cells in the abdominal ganglion at a wide range of diffusion times,
+we obtained estimates of the intrinsic diffusion coefficient in the nucleus and
+the cytoplasm. We also evaluated the reliability of using
+an existing formula for the time-dependent diffusion coefficient to
+estimate cell size.</p>
+      </subsection>
+      <subsection id="uid71" level="2">
+        <bodyTitle>A two pool model to describe the IVIM cerebral perfusion</bodyTitle>
+        <p>G. Fournet, J.-R. Li, A.M. Cerjanic, B.P. Sutton, L. Ciobanu and D. Le Bihan</p>
+        <p>IntraVoxel Incoherent Motion (IVIM) is a magnetic resonance imaging (MRI) technique capable of measuring perfusion-related parameters. In this manuscript, we show that the mono-exponential model commonly used to process IVIM data might be challenged, especially at short diffusion times. Eleven rat datasets were acquired at 7T using a diffusion-weighted pulsed gradient spin echo sequence with b-values ranging from 7 to 2500 s/mm² at 3 diffusion times. The IVIM signals, obtained by removing the diffusion component from the raw MR signal, were fitted to the standard mono-exponential model, a bi-exponential model and the Kennan model. The Akaike information criterion used to find the best model to fit the data demonstrates that, at short diffusion times, the bi-exponential IVIM model is most appropriate. The results obtained by comparing the experimental data to a dictionary of numerical simulations of the IVIM signal in microvascular networks support the hypothesis that such a bi-exponential behavior can be explained by considering the contribution of two vascular pools: capillaries and somewhat larger vessels.</p>
+      </subsection>
+      <subsection id="uid72" level="2">
+        <bodyTitle>The influence of acquisition parameters on the metrics of the bi-exponential IVIM model</bodyTitle>
+        <p>G. Fournet, J.-R. Li, D. Le Bihan and L. Ciobanu</p>
+        <p>The IntraVoxel Incoherent Motion (IVIM) MRI signal, typically described as a mono-exponential decay, can sometimes be better modeled as a bi-exponential function accounting for two vascular pools, capillaries and medium-size vessels. The goal of this work is to define precisely in which conditions the IVIM signal shape becomes bi-exponential and to understand the evolution of the IVIM outputs with different acquisition parameters. Rats were scanned at 7T and 11.7T using diffusion-weighted pulsed-gradient spin-echo (SE) and stimulated-echo (STE) sequences with different repetition times (TR) and diffusion encoding times. The obtained IVIM signals were fit to the mono- and bi-exponential models and the output parameters compared.
+The bi-exponential and mono-exponential models converge at long diffusion encoding times and long TRs. The STE is less sensitive to inflow effects present at short TRs, leading to a smaller volume fraction for the fast pool when compared to the SE sequence.
+The two vascular components are more easily separated at short diffusion encoding times, short TRs and when using a SE sequence. The volume fractions of the two blood pools depend on the pulse sequence, TR and diffusion encoding times while the pseudo-diffusion coefficients are only affected by the diffusion encoding time.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid73">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid74" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid75">
+          <p noindent="true">Grant with ART-FI (June 2016- June 2017) on quantification of electromagnetic radiations inside the brain from
+partial measurements</p>
+        </li>
+        <li id="uid76">
+          <p noindent="true">A CIFRE PhD thesis started in January 2015 with Dassault Aviations. The student
+is M. Aloïs Bissuel who is working on "linearized Navier-Stokes equations for
+optimization, fluttering and aeroacoustic".</p>
+        </li>
+        <li id="uid77">
+          <p noindent="true">A CIFRE PhD thesis started in December 2015 with Safran Tech. The student is
+Mrs Perle Geoffroy who is working on "topology optimization by the homogenization
+method in the context of additive manufacturing".</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid78" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid79">
+          <p noindent="true">The SOFIA project (SOlutions pour la Fabrication Industrielle Additive métallique)
+started in the summer of 2016. Its purpose is to make research in the field of
+metallic additive manufacturing. The industrial partners include Michelin, FMAS, ESI, Safran and others.
+The academic partners are different laboratories of CNRS, including CMAP at Ecole Polytechnique.
+The project is funded for 6 years by BPI (Banque Publique d'Investissement).</p>
+        </li>
+        <li id="uid80">
+          <p noindent="true">FUI project Tandem. This three years project started in December 2012 and has been extended to September 2017 involves Bull-Amesys (coordinator), BOWEN (ERTE+SART), Ecole Polytechnique (CMAP), Inria, LEAT et VSM. It aims at constructing a radar system on a flying device capable of real-time imaging mines embedded in dry soils (up to 40 cm deep). We are in charge of numerical validation of the inverse simulator.</p>
+        </li>
+        <li id="uid81">
+          <p noindent="true">FUI project Saxsize. This three years project started in October 2015 and involves Xenocs (coordinator), Inria (DEFI), Pyxalis, LNE, Cordouan and CEA. It is a followup of Nanolytix where a focus is put on SAXS quantifications of dense nanoparticle solutions.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid82">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid83" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid84" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <simplelist>
+          <li id="uid85">
+            <p noindent="true">ANR Metamath: Modelization and numerical simulation of
+wave propagation in metamaterials, program MN, September 2011- November 2016. This is a
+joint ANR with POEMS, Inria Scalay Ile de France project team (Coordinator, S. Fliss), DMIA, Département de Mathématiques de l'ISAE
+and IMATH, Laboratoire de Mathématiques de l'Université de Toulon.
+<ref xlink:href="https://www.rocq.inria.fr/poems/metamath" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>rocq.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>poems/<allowbreak/>metamath</ref></p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">ANR CIACM "Computational Imaging of the Aging Cerebral Microvasculature",
+funded by ANR Program "US-French Collaboration".
+French Partners (Coordinating partner CEA Neurospin): CEA Neurospin (Coordinator Luisa Ciobanu),
+Inria Saclay (Coordinator Jing-Rebecca Li). US Partner:
+Univ of Illinois, bioengineering department (Coordinator Brad Sutton).
+Duration: Sept 2013-Sept 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid87" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid88" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid89" level="3">
+          <bodyTitle>Declared Inria International Partners</bodyTitle>
+          <p>
+            <b>QUASI</b>
+          </p>
+          <sanspuceslist>
+            <li id="uid90">
+              <p noindent="true">Title: Qualitative Approaches to Scattering and Imaging</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid92">
+                  <p noindent="true">University of Rutgers (United States) - Fioralba Cakoni</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Duration: 2013 - 2017</p>
+            </li>
+            <li id="uid94">
+              <p noindent="true">Start year: 2013</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">We concentrate on the use of qualitative methods in acoustic and electromagnetic inverse scattering theory with applications to nondestructive evaluation of materials and medical imaging. In particular, we would like to address theoretical and numerical reconstruction techniques to solve the inverse scattering problems using either time harmonic or time dependent measurements of the scattered field. The main goal of research in this field is to not only detect but also identify geometric and physical properties of unknown objects in real time.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid96" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid98">
+            <p noindent="true">Fioralba Cakoni (4 months)</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">David Colton (1 week)</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Semra Ahmetola (11 months)</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Armin Lechleiter (1 week)</p>
+          </li>
+          <li id="uid102">
+            <p noindent="true">Bojan Guzina (1 week)</p>
+          </li>
+          <li id="uid103">
+            <p noindent="true">Helle Majander (12 months)</p>
+          </li>
+        </simplelist>
+        <subsection id="uid104" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <simplelist>
+            <li id="uid105">
+              <p noindent="true">Irene De Teresa-Trueba (University of Delaware) 3 months</p>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Jacob Rezac (University of Delaware) 3 months</p>
+            </li>
+            <li id="uid107">
+              <p noindent="true">Marwa Kchaou (ENIT) 3 months</p>
+            </li>
+            <li id="uid108">
+              <p noindent="true">BumsuKim (Ecole Polytechnique), from Jul 2016 until Nov 2016</p>
+            </li>
+            <li id="uid109">
+              <p noindent="true">KevishNapal (Inria), from May 2016 until Oct 2016</p>
+            </li>
+            <li id="uid110">
+              <p noindent="true">Hoang An Tran (Ecole Polytechnique), from Apr 2016 until Jun 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid111">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid112" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid113" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid114" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <simplelist>
+            <li id="uid115">
+              <p noindent="true">G. Allaire is scientific chair and one of the main organizers of the CEA/GAMNI seminar on computational fluid mechanics, IHP Paris (January 2016).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid116" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid117">
+              <p noindent="true">L. Chesnel co-organized with Xavier Claeys and Sonia Fliss the workshop “Waves in periodic media and metamaterials” in Cargese
+<ref xlink:href="http://uma.ensta-paristech.fr/conf/metamath/Metamath/Workshop.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>uma.<allowbreak/>ensta-paristech.<allowbreak/>fr/<allowbreak/>conf/<allowbreak/>metamath/<allowbreak/>Metamath/<allowbreak/>Workshop.<allowbreak/>html</ref></p>
+            </li>
+            <li id="uid118">
+              <p noindent="true">L. Chesnel co-organize the seminar of the Centre de Mathématiques Appliquées of École Polytechnique.</p>
+            </li>
+            <li id="uid119">
+              <p noindent="true">G. Allaire co-organized the PGMO conference (8-9 November 2016)</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">J.R. Li is member of Organizing Committee of SIAM Conference on Computational Science and Engineering, 2017</p>
+            </li>
+            <li id="uid121">
+              <p noindent="true">J.R. Li is organizer of Ecole d'ete d'excellence for Chinese Master's students funded by French Embassy in China, 2017.</p>
+            </li>
+            <li id="uid122">
+              <p noindent="true">H. Haddar Co-organized the “International Conference on Computational Mathematics and Inverse Problems”, Michgan, 15-19 August 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid123" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid124" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid125">
+              <p noindent="true">J.R. Li is member of the SIAM Committee on Programs and Conferences 2017-2019</p>
+            </li>
+            <li id="uid126">
+              <p noindent="true">H. Haddar is memeber of the scientific committee of the conference series TAMTAM and Waves</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid127" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid128" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid129">
+              <p noindent="true">G. Allaire is member of the editorial board of</p>
+              <simplelist>
+                <li id="uid130">
+                  <p noindent="true">book series "Mathématiques et Applications" of SMAI and Springer,</p>
+                </li>
+                <li id="uid131">
+                  <p noindent="true">ESAIM/COCV, Structural and Multidisciplinary Optimization,</p>
+                </li>
+                <li id="uid132">
+                  <p noindent="true">Discrete and Continuous Dynamical Systems Series B,</p>
+                </li>
+                <li id="uid133">
+                  <p noindent="true">Computational and Applied Mathematics,</p>
+                </li>
+                <li id="uid134">
+                  <p noindent="true">Mathematical Models and Methods in Applied Sciences (M3AS),</p>
+                </li>
+                <li id="uid135">
+                  <p noindent="true">Annali dell'Universita di Ferrara,</p>
+                </li>
+                <li id="uid136">
+                  <p noindent="true">OGST (Oil and Gas Science and Technology),</p>
+                </li>
+                <li id="uid137">
+                  <p noindent="true">Journal de l'Ecole Polytechnique - Mathématiques,</p>
+                </li>
+                <li id="uid138">
+                  <p noindent="true">Journal of Optimization Theory and Applications.</p>
+                </li>
+              </simplelist>
+            </li>
+            <li id="uid139">
+              <p noindent="true">H. Haddar is</p>
+              <simplelist>
+                <li id="uid140">
+                  <p noindent="true">member the editorial advisory board of Inverse Problems</p>
+                </li>
+                <li id="uid141">
+                  <p noindent="true">Associate Editor of the SIAM Journal on Scientific Computing</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid142" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>The members of the team reviewed numerous papers for numerous international journals. Too
+many to make a list.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid143" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid144">
+            <p noindent="true">G. Allaire</p>
+            <simplelist>
+              <li id="uid145">
+                <p noindent="true">Congrès LEM2I à Hammamet, Tunisie (avril 2016).</p>
+              </li>
+              <li id="uid146">
+                <p noindent="true">Workshop "Variational Models of Fracture" à Calgary, Canada (mai 2016).</p>
+              </li>
+              <li id="uid147">
+                <p noindent="true">Congrès ECCOMAS à Heraklion, Crête (juin 2016).</p>
+              </li>
+              <li id="uid148">
+                <p noindent="true">European forum on additive manufacturing, Chatenay Malabry (juin 2016).</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid149">
+            <p noindent="true">H. Haddar</p>
+            <simplelist>
+              <li id="uid150">
+                <p noindent="true">"ATAVI International Conference on Acoustics and Vibration ICAV'2016" from 21 to 23 March 2016 in Hammamet - Tunisia</p>
+              </li>
+              <li id="uid151">
+                <p noindent="true">Journées des Mathématiciens Tunisiens
+à l’Etranger 20-21 juillet 2016 Cité des Sciences de Tunis</p>
+              </li>
+              <li id="uid152">
+                <p noindent="true">Oberwolfach Workshop Theory and Numerics of Inverse Scattering Problems, 18 Sep - 24 Sep 2016.</p>
+              </li>
+            </simplelist>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid153" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid154" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <simplelist>
+          <li id="uid155">
+            <p noindent="true">Licence : Grégoire Allaire, Approximation Numérique et Optimisation, for students in the second year of Ecole Polytechnique curriculum: 8 lessons of 1h30.</p>
+          </li>
+          <li id="uid156">
+            <p noindent="true">Licence : Houssem Haddar, Approximation Numérique et Optimisation, for students in the second year of Ecole Polytechnique curriculum: 8 TDs of 4h.</p>
+          </li>
+          <li id="uid157">
+            <p noindent="true">Licence : Houssem Haddar, Variational analysis of partial differential equations, for students in the second year of Ecole Polytechnique curriculum: 8 TDs of 4h.</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true">Licence: Lucas Chesnel, “Elementary tools of analysis for partial differential equations”, 29 equivalent TD hours, L3, Ensta ParisTech, Palaiseau, France</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">Master : Grégoire Allaire, Optimal design of structures, for students in the third year of Ecole Polytechnique curriculum. 9 lessons of 1h30.</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">Master : Grégoire Allaire, Transport et Diffusion, for students in the third year of Ecole Polytechnique
+curriculum. With F. Golse, 1/2 of 9 lessons of 1h30.</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Master : Houssem Haddar, Inverse problems, for Master (M2) students of Ecole Polytechnique and Paris 6
+University, 1/2 of 9 lessons of 2h.</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">Master: Lucas Chesnel, “The finite element method”, 6 equivalent TD hours, M1, Ensta ParisTech, Palaiseau, France</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid163" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid164">
+            <p noindent="true">Ph.D. : G. Fournet, Inclusion of blood flow in micro-vessels in a new dMRI signal model, October 2016, J.-R. Li and L. Ciobanu</p>
+          </li>
+          <li id="uid165">
+            <p noindent="true">Ph.D.: S. Schiavi, Homogenized models for Diffusion MRI, December 2016, H. Haddar and J.-R. Li</p>
+          </li>
+          <li id="uid166">
+            <p noindent="true">PhD : M. Giacomini, Shape optimization and Applications to aeronautics, December 2016, O. Pantz and K. Trabelsi</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">PhD : A. Maury, shape optimization for non-linear structures, December 2016, G. Allaire and F. Jouve</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">PhD : C. Patricot, coupling algorithms in neutronic/thermal-hydraulic/mechanics for numerical simulation of nuclear reactors, March 2016, G. Allaire and E. Hourcade</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">PhD in progress : J.-L. Vié, optimization algorithms for topology design of structures, December 2016, G. Allaire and E. Cancès</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">Ph.D. in progress: M. Lakhal, Time domain inverse scattering for buried objects, 2014, H. Haddar</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">Ph.D. in progress: T.P. Nguyen, Direct and Inverse scattering from locally perturbed layers, 2013, H. Haddar</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">Ph.D. in progress: B. Charfi, Identification of the sigular support of a GIBC, 2014, H. Haddar and S. Chaabane</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Ph.D. in progress: K. Van Nguyen, Modeling, simulation and experimental verification of water diffusion in neuronal network of the Aplysia ganglia, 2014, J.-R. Li and L. Ciobanu</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">PhD in progress : A. Talpaert, the direct numerical simulation of vapor bubbles at low Mach number with adaptative mesh refinement, 2013, G. Allaire and S. Dellacherie</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">PhD in progress : A. Bissuel, linearized Navier Stokes equations for optimization, floating and aeroaccoustic, 2014, G. Allaire</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">PhD in progress :P. Geoffroy on topology optimization by the homogenization
+method in the context of additive manufacturing (Safran Tech, to be defended in 2019), G. Allaire.</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">PhD in progress : K. Napal, Transmission eigenvalues and non destructive testing of concrete like materials , 2016, L. Chesnel H. Haddar and L. Audibert</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">PhD in progress : M. Kchaou, Higher order homogenization tensors for DMRI modeling, 2016, H. Haddar, J.R Li and M. Moakher</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="defi-2016-bid21" type="book" rend="year" n="cite:cakoni:hal-01374893">
+      <identifiant type="hal" value="hal-01374893"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Inverse Scattering Theory and Transmission Eigenvalues</title>
+        <title level="s">CBMS Series</title>
+        <author>
+          <persName key="defi-2016-idp154480">
+            <foreName>Fioralba</foreName>
+            <surname>Cakoni</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Colton</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">88</biblScope>
+          <publisher>
+            <orgName>SIAM publications</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01374893" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01374893</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid8" type="phdthesis" rend="year" n="cite:giacomini:tel-01418841">
+      <identifiant type="hal" value="tel-01418841"/>
+      <monogr>
+        <title level="m">Quantitative a posteriori error estimators in Finite Element-based shape optimization</title>
+        <author>
+          <persName key="defi-2014-idp81832">
+            <foreName>Matteo</foreName>
+            <surname>Giacomini</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole polytechnique ; Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01418841" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01418841</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid16" type="phdthesis" rend="year" n="cite:schiavi:tel-01422174">
+      <identifiant type="hal" value="tel-01422174"/>
+      <monogr>
+        <title level="m">Homogenized and analytical models for the diffusion MRI signal</title>
+        <author>
+          <persName key="defi-2014-idp91752">
+            <foreName>Simona</foreName>
+            <surname>Schiavi</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay ; École Polytechnique X</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01422174" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01422174</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid36" type="article" rend="year" n="cite:allaire:hal-01278241">
+      <identifiant type="doi" value="10.1007/s40314-016-0321-0"/>
+      <identifiant type="hal" value="hal-01278241"/>
+      <analytic>
+        <title level="a">Ion transport through deformable porous media:derivation of the macroscopic equations using upscaling</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="biocore-2014-idp102072">
+            <foreName>Olivier</foreName>
+            <surname>Bernard</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Francois</foreName>
+            <surname>Dufreche</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Andro</foreName>
+            <surname>Mikelic</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01099">
+        <idno type="issn">0377-0427</idno>
+        <title level="j">Computational and Applied Mathematics</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01278241" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01278241</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid9" subtype="nonparu-n" type="article" rend="year" n="cite:allaire:hal-01215580">
+      <identifiant type="doi" value="10.1007/s40324-016-0067-z"/>
+      <identifiant type="hal" value="hal-01215580"/>
+      <analytic>
+        <title level="a">A comparison between two-scale asymptotic expansions and Bloch wave expansions for the homogenization of periodic structures</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Briane</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Muthusamy</foreName>
+            <surname>Vanninathan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00262">
+        <idno type="issn">1575-9822</idno>
+        <title level="j">SeMA Journal</title>
+        <imprint>
+          <biblScope type="volume">73</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">237-259</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01215580" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01215580</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid18" type="article" rend="year" n="cite:audibert:hal-01422027">
+      <identifiant type="hal" value="hal-01422027"/>
+      <analytic>
+        <title level="a">The Generalized Linear Sampling Method for limited aperture measurements</title>
+        <author>
+          <persName key="defi-2014-idp78136">
+            <foreName>Lorenzo</foreName>
+            <surname>Audibert</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01734">
+        <idno type="issn">1936-4954</idno>
+        <title level="j">SIAM Journal on Imaging Sciences</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01422027" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01422027</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid32" type="article" rend="year" n="cite:benvenuto:hal-01217540">
+      <identifiant type="doi" value="10.1137/15M1024354"/>
+      <identifiant type="hal" value="hal-01217540"/>
+      <analytic>
+        <title level="a">A robust inversion method according to a new notion of regularization for Poisson data with an application to nanoparticle volume determination</title>
+        <author>
+          <persName key="defi-2014-idp69256">
+            <foreName>Federico</foreName>
+            <surname>Benvenuto</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Lantz</foreName>
+            <surname>Blandine</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01732">
+        <idno type="issn">0036-1399</idno>
+        <title level="j">SIAM Journal on Applied Mathematics</title>
+        <imprint>
+          <biblScope type="volume">76</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">276–292</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01217540" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01217540</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid22" type="article" rend="year" n="cite:bonnetbendhia:hal-01225309">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.06.037"/>
+      <identifiant type="hal" value="hal-01225309"/>
+      <analytic>
+        <title level="a">On the use of Perfectly Matched Layers at corners for scattering problems with sign-changing coefficients</title>
+        <author>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="poems-2014-idp98824">
+            <foreName>Camille</foreName>
+            <surname>Carvalho</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">322</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">224-247</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01225309" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01225309</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid31" type="article" rend="year" n="cite:cakoni:hal-01373251">
+      <identifiant type="hal" value="hal-01373251"/>
+      <analytic>
+        <title level="a">Nondestructive testing of the delaminated interface between two materials</title>
+        <author>
+          <persName key="defi-2016-idp154480">
+            <foreName>Fioralba</foreName>
+            <surname>Cakoni</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Irene</foreName>
+            <surname>De Teresa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Peter</foreName>
+            <surname>Monk</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01732">
+        <idno type="issn">0036-1399</idno>
+        <title level="j">SIAM Journal on Applied Mathematics</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01373251" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01373251</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid15" type="article" rend="year" n="cite:caubet:hal-01110298">
+      <identifiant type="doi" value="10.1051/m2an/2016060"/>
+      <identifiant type="hal" value="hal-01110298"/>
+      <analytic>
+        <title level="a">New Transmission Condition Accounting For Diffusion Anisotropy In Thin Layers Applied To Diffusion MRI</title>
+        <author>
+          <persName>
+            <foreName>Fabien</foreName>
+            <surname>Caubet</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName>
+            <foreName>Dang Van</foreName>
+            <surname>Nguyen</surname>
+            <initial>D. V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00492">
+        <idno type="issn">0764-583X</idno>
+        <title level="j">Modelisation Mathématique et Analyse Numérique</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01110298" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01110298</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid24" type="article" rend="year" n="cite:chaabane:hal-01349696">
+      <identifiant type="doi" value="10.1088/0266-5611/32/10/105004"/>
+      <identifiant type="hal" value="hal-01349696"/>
+      <analytic>
+        <title level="a">Reconstruction of discontinuous parameters in a second order impedance boundary operator</title>
+        <author>
+          <persName>
+            <foreName>Slim</foreName>
+            <surname>Chaabane</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="defi-2015-idp90776">
+            <foreName>Bilel</foreName>
+            <surname>Charfi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01011">
+        <idno type="issn">0266-5611</idno>
+        <title level="j">Inverse Problems</title>
+        <imprint>
+          <biblScope type="volume">32</biblScope>
+          <biblScope type="number">10</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349696" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349696</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid35" type="article" rend="year" n="cite:chesnel:hal-01109552">
+      <identifiant type="hal" value="hal-01109552"/>
+      <analytic>
+        <title level="a">A numerical approach for the Poisson equation in a planar domain with a small inclusion</title>
+        <author>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="alpines-2014-idp66352">
+            <foreName>Xavier</foreName>
+            <surname>Claeys</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00211">
+        <idno type="issn">0006-3835</idno>
+        <title level="j">BIT Numerical Mathematics</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01109552" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01109552</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid29" type="article" rend="year" n="cite:dolle:hal-01258643">
+      <identifiant type="hal" value="hal-01258643"/>
+      <analytic>
+        <title level="a">Mathematical modeling and numerical simulation of a bioreactor landfill using Feel++</title>
+        <author>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Dollé</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>O</foreName>
+            <surname>Duran</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="moise-2014-idp101352">
+            <foreName>Nelson</foreName>
+            <surname>Feyeux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="tonus-2014-idp74816">
+            <foreName>Emmanuel</foreName>
+            <surname>Frénod</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="defi-2014-idp81832">
+            <foreName>Matteo</foreName>
+            <surname>Giacomini</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Prud'Homme</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02803">
+        <idno type="issn">2267-3059</idno>
+        <title level="j">ESAIM: Proceedings and Surveys</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01258643" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01258643</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid23" type="article" rend="year" n="cite:fournet:hal-01429440">
+      <identifiant type="doi" value="10.1177/0271678X16681310"/>
+      <identifiant type="hal" value="hal-01429440"/>
+      <analytic>
+        <title level="a">A two-pool model to describe the IVIM cerebral perfusion</title>
+        <author>
+          <persName key="defi-2014-idp80600">
+            <foreName>Gabrielle</foreName>
+            <surname>Fournet</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName>
+            <foreName>Alex M</foreName>
+            <surname>Cerjanic</surname>
+            <initial>A. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Bradley P</foreName>
+            <surname>Sutton</surname>
+            <initial>B. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Luisa</foreName>
+            <surname>Ciobanu</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Denis</foreName>
+            <surname>Le Bihan</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03155">
+        <idno type="issn">0271-678X</idno>
+        <title level="j">Journal of Cerebral Blood Flow and Metabolism</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01429440" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01429440</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid34" type="article" rend="year" n="cite:giacomini:hal-01201914">
+      <identifiant type="doi" value="10.1051/cocv/2016021"/>
+      <identifiant type="hal" value="hal-01201914"/>
+      <analytic>
+        <title level="a">Certified Descent Algorithm for shape optimization driven by fully-computable a posteriori error estimators</title>
+        <author>
+          <persName key="defi-2014-idp81832">
+            <foreName>Matteo</foreName>
+            <surname>Giacomini</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="defi-2014-idp65344">
+            <foreName>Olivier</foreName>
+            <surname>Pantz</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Karim</foreName>
+            <surname>Trabelsi</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00491">
+        <idno type="issn">1292-8119</idno>
+        <title level="j">ESAIM: Control, Optimisation and Calculus of Variations</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01201914" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01201914</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid25" type="article" rend="year" n="cite:haddar:hal-01110299">
+      <identifiant type="doi" value="10.1007/s10915-016-0241-6"/>
+      <identifiant type="hal" value="hal-01110299"/>
+      <analytic>
+        <title level="a">A robust inversion method for quantitative 3D shape reconstruction from coaxial eddy-current measurements</title>
+        <author>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idp66744">
+            <foreName>Zixian</foreName>
+            <surname>Jiang</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp119016">
+            <foreName>Mohamed-Kamel</foreName>
+            <surname>Riahi</surname>
+            <initial>M.-K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01260">
+        <idno type="issn">0885-7474</idno>
+        <title level="j">Journal of Scientific Computing</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">31</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01110299" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01110299</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid33" type="article" rend="year" n="cite:haddar:hal-01217537">
+      <identifiant type="doi" value="10.1137/15M1019398"/>
+      <identifiant type="hal" value="hal-01217537"/>
+      <analytic>
+        <title level="a">A new macroscopic model for the diffusion MRI accounting for time-dependent diffusivity</title>
+        <author>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName key="defi-2014-idp91752">
+            <foreName>Simona</foreName>
+            <surname>Schiavi</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01732">
+        <idno type="issn">0036-1399</idno>
+        <title level="j">SIAM Journal on Applied Mathematics</title>
+        <imprint>
+          <biblScope type="volume">76</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">930–949</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01217537" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01217537</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid3" type="article" rend="year" n="cite:haddar:hal-01217560">
+      <identifiant type="doi" value="10.1093/imamat/hxw032"/>
+      <identifiant type="hal" value="hal-01217560"/>
+      <analytic>
+        <title level="a">Adapting the Kärger model to account for finite diffusion-encoding pulses in diffusion MRI</title>
+        <author>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName key="defi-2014-idp91752">
+            <foreName>Simona</foreName>
+            <surname>Schiavi</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00781">
+        <idno type="issn">0272-4960</idno>
+        <title level="j">IMA Journal of Applied Mathematics</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01217560" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01217560</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid11" type="article" rend="year" n="cite:haddar:hal-01374892">
+      <identifiant type="doi" value="10.1080/00036811.2016.1221942"/>
+      <identifiant type="hal" value="hal-01374892"/>
+      <analytic>
+        <title level="a">A volume integral method for solving scattering problems from locally perturbed infinite periodic layers</title>
+        <author>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idp86800">
+            <foreName>Thi Phong</foreName>
+            <surname>Nguyen</surname>
+            <initial>T. P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00154">
+        <idno type="issn">0003-6811</idno>
+        <title level="j">Applicable Analysis</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">29</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01374892" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01374892</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid4" type="article" rend="year" n="cite:pourahmadian:hal-01421916">
+      <identifiant type="hal" value="hal-01421916"/>
+      <analytic>
+        <title level="a">Generalized linear sampling method for elastic-wave sensing of heterogeneous fractures</title>
+        <author>
+          <persName>
+            <foreName>Fatemeh</foreName>
+            <surname>Pourahmadian</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bojan B</foreName>
+            <surname>Guzina</surname>
+            <initial>B. B.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01011">
+        <idno type="issn">0266-5611</idno>
+        <title level="j">Inverse Problems</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">28</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421916" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421916</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid12" type="unpublished" rend="year" n="cite:allaire:hal-01326805">
+      <identifiant type="hal" value="hal-01326805"/>
+      <monogr>
+        <title level="m">Second-order shape derivatives along normal trajectories, governed by Hamilton-Jacobi equations</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="matherials-2014-idp63800">
+            <foreName>Eric</foreName>
+            <surname>Cancès</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Léopold</foreName>
+            <surname>Vie</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01326805" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01326805</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid28" type="unpublished" rend="year" n="cite:allaire:hal-01354162">
+      <identifiant type="hal" value="hal-01354162"/>
+      <monogr>
+        <title level="m">Modal basis approaches in shape and topology optimization of frequency response problems</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Georgios</foreName>
+            <surname>Michailidis</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01354162" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01354162</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid10" type="unpublished" rend="year" n="cite:allaire:hal-01258747">
+      <identifiant type="hal" value="hal-01258747"/>
+      <monogr>
+        <title level="m">On the asymptotic behaviour of the kernel of an adjoint convection-diffusion operator in a long cylinder</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrey</foreName>
+            <surname>Piatnitski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01258747" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01258747</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid20" type="unpublished" rend="year" n="cite:allaire:hal-01321566">
+      <identifiant type="hal" value="hal-01321566"/>
+      <monogr>
+        <title level="m">Instability of dielectrics and conductors in electrostatic fields</title>
+        <author>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Jeffrey</foreName>
+            <surname>Rauch</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01321566" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01321566</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid17" type="unpublished" rend="year" n="cite:audibert:hal-01422024">
+      <identifiant type="hal" value="hal-01422024"/>
+      <monogr>
+        <title level="m">Sampling method for sign changing contrast</title>
+        <author>
+          <persName key="defi-2014-idp78136">
+            <foreName>Lorenzo</foreName>
+            <surname>Audibert</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01422024" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01422024</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid19" type="unpublished" rend="year" n="cite:dhia:hal-01371163">
+      <identifiant type="hal" value="hal-01371163"/>
+      <monogr>
+        <title level="m">Perfect transmission invisibility for waveguides with sound hard walls</title>
+        <author>
+          <persName>
+            <foreName>Anne-Sophie</foreName>
+            <surname>Bonnet-BenDhia</surname>
+            <initial>A.-S.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2015-idp90200">
+            <foreName>Sergei</foreName>
+            <surname>Nazarov</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01371163" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01371163</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid5" type="unpublished" rend="year" n="cite:carvalho:hal-01394856">
+      <identifiant type="hal" value="hal-01394856"/>
+      <monogr>
+        <title level="m">Eigenvalue problems with sign-changing coefficients</title>
+        <author>
+          <persName key="poems-2014-idp98824">
+            <foreName>Camille</foreName>
+            <surname>Carvalho</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp73944">
+            <foreName>Patrick</foreName>
+            <surname>Ciarlet</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01394856" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01394856</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid2" type="unpublished" rend="year" n="cite:chesnel:hal-01427617">
+      <identifiant type="hal" value="hal-01427617"/>
+      <monogr>
+        <title level="m">Small obstacle asymptotics for a 2D semi-linear convex problem</title>
+        <author>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas A</foreName>
+            <surname>Chesnel</surname>
+            <initial>L. A.</initial>
+          </persName>
+          <persName key="alpines-2014-idp66352">
+            <foreName>Xavier</foreName>
+            <surname>Claeys</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="poems-2015-idp90200">
+            <foreName>Sergei A</foreName>
+            <surname>Nazarov</surname>
+            <initial>S. A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01427617" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01427617</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid0" type="unpublished" rend="year" n="cite:chesnel:hal-01216135">
+      <identifiant type="hal" value="hal-01216135"/>
+      <monogr>
+        <title level="m">Team organization may help swarms of flies to become invisible in closed waveguides</title>
+        <author>
+          <persName key="defi-2014-idp71760">
+            <foreName>Lucas</foreName>
+            <surname>Chesnel</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2015-idp90200">
+            <foreName>Sergei</foreName>
+            <surname>Nazarov</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01216135" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01216135</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid27" type="unpublished" rend="year" n="cite:feppon:hal-01336301">
+      <identifiant type="hal" value="hal-01336301"/>
+      <monogr>
+        <title level="m">Introducing a level-set based shape and topology optimization method for the wear of composite materials with geometric constraints</title>
+        <author>
+          <persName>
+            <foreName>Florian</foreName>
+            <surname>Feppon</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>G</foreName>
+            <surname>Michailidis</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>M.A.</foreName>
+            <surname>Sidebottom</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>B.A.</foreName>
+            <surname>Krick</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>N</foreName>
+            <surname>Vermaak</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01336301" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01336301</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid6" type="unpublished" rend="year" n="cite:fournet:hal-01429508">
+      <identifiant type="hal" value="hal-01429508"/>
+      <monogr>
+        <title level="m">The influence of acquisition parameters on the metrics of the bi-exponential IVIM model</title>
+        <author>
+          <persName key="defi-2014-idp80600">
+            <foreName>Gabrielle</foreName>
+            <surname>Fournet</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName>
+            <foreName>Denis</foreName>
+            <surname>Le Bihan</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Luisa</foreName>
+            <surname>Ciobanu</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01429508" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01429508</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid1" type="unpublished" rend="year" n="cite:giacomini:hal-01395529">
+      <identifiant type="hal" value="hal-01395529"/>
+      <monogr>
+        <title level="m">An equilibrated fluxes approach to the Certified Descent Algorithm for shape optimization using conforming Finite Element and Discontinuous Galerkin discretizations</title>
+        <author>
+          <persName key="defi-2014-idp81832">
+            <foreName>Matteo</foreName>
+            <surname>Giacomini</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01395529" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01395529</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid26" type="unpublished" rend="year" n="cite:giacomini:hal-01441943">
+      <identifiant type="hal" value="hal-01441943"/>
+      <monogr>
+        <title level="m">Volumetric expressions of the shape gradient of the compliance in structural shape optimization</title>
+        <author>
+          <persName key="defi-2014-idp81832">
+            <foreName>Matteo</foreName>
+            <surname>Giacomini</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="defi-2014-idp65344">
+            <foreName>Olivier</foreName>
+            <surname>Pantz</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Karim</foreName>
+            <surname>Trabelsi</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01441943" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01441943</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid13" type="unpublished" rend="year" n="cite:haddar:hal-01421928">
+      <identifiant type="hal" value="hal-01421928"/>
+      <monogr>
+        <title level="m">Understanding the Time-Dependent Effective Diffusion Coefficient Measured by Diffusion MRI: the Intra-Cellular Case</title>
+        <author>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName key="defi-2014-idp91752">
+            <foreName>Simona</foreName>
+            <surname>Schiavi</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421928" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421928</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid30" type="unpublished" rend="year" n="cite:maury:hal-01435325">
+      <identifiant type="hal" value="hal-01435325"/>
+      <monogr>
+        <title level="m">Shape optimisation with the level set method for contact problems in linearised elasticity</title>
+        <author>
+          <persName>
+            <foreName>Aymeric</foreName>
+            <surname>Maury</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="defi-2014-idm26824">
+            <foreName>Grégoire</foreName>
+            <surname>Allaire</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>François</foreName>
+            <surname>Jouve</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01435325" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01435325</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid14" type="unpublished" rend="year" n="cite:pourahmadian:hal-01422085">
+      <identifiant type="hal" value="hal-01422085"/>
+      <monogr>
+        <title level="m">A synoptic approach to the seismic sensing of heterogeneous fractures: from geometric reconstruction to interfacial characterization</title>
+        <author>
+          <persName>
+            <foreName>Fatemeh</foreName>
+            <surname>Pourahmadian</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bojan B</foreName>
+            <surname>Guzina</surname>
+            <initial>B. B.</initial>
+          </persName>
+          <persName key="defi-2014-idm29560">
+            <foreName>Houssem</foreName>
+            <surname>Haddar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01422085" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01422085</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="defi-2016-bid7" type="unpublished" rend="year" n="cite:svehla:hal-01429506">
+      <identifiant type="hal" value="hal-01429506"/>
+      <monogr>
+        <title level="m">Quantitative DLA-based Compressed Sensing for MEMRI Acquisitions</title>
+        <author>
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Svehla</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Khieu-Van</foreName>
+            <surname>Nguyen</surname>
+            <initial>K.-V.</initial>
+          </persName>
+          <persName key="defi-2014-idm28296">
+            <foreName>Jing-Rebecca</foreName>
+            <surname>Li</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName>
+            <foreName>Luisa</foreName>
+            <surname>Ciobanu</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01429506" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01429506</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

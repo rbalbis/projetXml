@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="privatics" isproject="true">
+    <shortname>PRIVATICS</shortname>
+    <projectName>Privacy Models, Architectures and Tools for the Information Society</projectName>
+    <theme-de-recherche>Security and Confidentiality</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/privatics/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Centre of Innovation in Telecommunications and Integration of services</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Institut national des sciences appliquées de Lyon</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2013 January 01, updated into Project-Team: 2014 July 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1. - Architectures, systems and networks</term>
+      <term>1.1. - Architectures</term>
+      <term>1.2. - Networks</term>
+      <term>1.3. - Distributed Systems</term>
+      <term>1.4. - Ubiquitous Systems</term>
+      <term>3. - Data and knowledge</term>
+      <term>4. - Security and privacy</term>
+      <term>4.1. - Threat analysis</term>
+      <term>4.3. - Cryptography</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>9. - Society and Knowledge</term>
+      <term>9.8. - Privacy</term>
+      <term>9.9. - Risk management</term>
+      <term>9.10. - Ethics</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="privatics-2014-idm28616">
+      <firstname>Claude</firstname>
+      <lastname>Castelluccia</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="privatics-2014-idm25896">
+      <firstname>Cédric</firstname>
+      <lastname>Lauradoux</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="privatics-2014-idp66104">
+      <firstname>Daniel</firstname>
+      <lastname>Le Metayer</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="privatics-2014-idp67496">
+      <firstname>Vincent</firstname>
+      <lastname>Roca</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="privatics-2014-idp68928">
+      <firstname>Mathieu</firstname>
+      <lastname>Cunche</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INSA Lyon, Associate Professor</moreinfo>
+    </person>
+    <person key="privatics-2014-idp70184">
+      <firstname>Marine</firstname>
+      <lastname>Minier</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Lorraine, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="privatics-2015-idp85776">
+      <firstname>Sofiane</firstname>
+      <lastname>Lagraa</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2015-idp72152">
+      <firstname>Belkacem</firstname>
+      <lastname>Teibi</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2014-idp85424">
+      <firstname>Jagdish</firstname>
+      <lastname>Achara</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Nov 2016</moreinfo>
+    </person>
+    <person key="privatics-2014-idp89088">
+      <firstname>Levent</firstname>
+      <lastname>Demir</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INCAS-ITSEC, granted by CIFRE</moreinfo>
+    </person>
+    <person key="privatics-2014-idp90320">
+      <firstname>Jessye</firstname>
+      <lastname>Dos Santos</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CEA</moreinfo>
+    </person>
+    <person key="privatics-2014-idp91520">
+      <firstname>Amrit</firstname>
+      <lastname>Kumar</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I, until Nov 2016</moreinfo>
+    </person>
+    <person key="privatics-2014-idp92744">
+      <firstname>Celestin</firstname>
+      <lastname>Matte</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INSA Lyon</moreinfo>
+    </person>
+    <person key="privatics-2016-idp44832">
+      <firstname>Victor</firstname>
+      <lastname>Morel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Oct 2016</moreinfo>
+    </person>
+    <person key="privatics-2016-idp47280">
+      <firstname>Mohammad</firstname>
+      <lastname>Alaggan</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2015-idp83288">
+      <firstname>Sourya Joyee</firstname>
+      <lastname>de</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2015-idp84528">
+      <firstname>Gabor</firstname>
+      <lastname>Gulyas</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="ascola-2015-idp118568">
+      <firstname>Ali</firstname>
+      <lastname>Kassem</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2015-idp88272">
+      <firstname>Pablo</firstname>
+      <lastname>Rauzy</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Aug 2016</moreinfo>
+    </person>
+    <person key="privatics-2014-idp71632">
+      <firstname>Gergely</firstname>
+      <lastname>Acs</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Budapest University of Technology and Economics</moreinfo>
+    </person>
+    <person key="spades-2015-idp117976">
+      <firstname>Helen</firstname>
+      <lastname>Pouchot-Rouge-Blanc</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="privatics-2016-idp64576">
+      <firstname>Margaux</firstname>
+      <lastname>Canet Sola</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M1, from Feb 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="privatics-2016-idp67072">
+      <firstname>Julie</firstname>
+      <lastname>Catania</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M1, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="privatics-2015-idp92040">
+      <firstname>Jose Paul</firstname>
+      <lastname>Dominguez</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>University of Savoie, Intern M2, until Sep 2016</moreinfo>
+    </person>
+    <person key="privatics-2016-idp72064">
+      <firstname>Zoltan</firstname>
+      <lastname>Kovacs</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M2, from Jul 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="privatics-2015-idp95864">
+      <firstname>Luca</firstname>
+      <lastname>Melis</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>University College London, PhD Student</moreinfo>
+    </person>
+    <person key="privatics-2016-idp77040">
+      <firstname>Aurelien</firstname>
+      <lastname>Monnet Paquet</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M1, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="privatics-2016-idp79536">
+      <firstname>Mary-Andrea</firstname>
+      <lastname>Rakotomanga</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M1, until Jul 2016</moreinfo>
+    </person>
+    <person key="privatics-2016-idp82016">
+      <firstname>Alessandro</firstname>
+      <lastname>Tedesco</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Intern M2, from Feb 2016 until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Context</bodyTitle>
+      <p><b>The promises of new technologies</b>: Many advances in new technologies
+are very beneficial to the society and provide services that can drastically improve life's quality. A good example is the emergence of reality mining. Reality mining is a new discipline that infers human relationships and behaviors from information collected by cell-phones. Collected information include data collected by the sensors, such as location or physical activities, as well as data recorded by the phones themselves, such as call duration and dialed numbers. Reality mining could be used by individuals to get information about themselves, their state or performances (“quantified self”). More importantly, it could help monitoring health. For example, the motions of a mobile phone might reveal changes in gait, which could be an early indicator of ailments or depression. The emergence of location-based or mobile/wireless services is also often very beneficial. These systems provide very useful and appreciated services, and become almost essential and inevitable nowadays. For example, RFID cards allow users to open doors or pay their metro tickets. GPS systems help users to navigate and find their ways. Some services tell users where their friends are or provide services
+personalized to their current location (such as indicating the closest restaurant or hotel). Some wireless parking meters send users a text message when their time is running out. The development of smart grids, smart houses, or more generally smart spaces/environments, can also positively contribute to the well-being of the society. Smart-grids and smart houses attempt to minimize energy consumption by monitoring users' energy consumptions and applying adequate actions. These technologies can help reducing pollution and managing energy resources.</p>
+      <p><b>Privacy threats of new technologies</b>: While the potential benefits provided by these systems are numerous, they also pose considerable privacy threats that can potentially turn new technologies into a nightmare. Most of these systems leave digital traces that can potentially be used to profile or monitor users. Content on the Internet (documents, emails, chats, images, videos etc) is often disseminated and replicated on different peers or servers. As a result, users lose the control of their content as soon as they release it. Furthermore most users are unaware of the information that is collected about them beyond requested data. It was shown that consumption data provided by smart meters to electricity providers is so accurate that it can be used to infer physical activities (e.g. when the house occupant took a shower or switched-on TV). Also, a picture taken by a user may reveal additional contextual information inferred from the background or the style of any associated text. For example, photos and videos taken with smart phones or cameras contain geo-location information. This may be considered as a potential source of information leakage and may lead to a privacy breach if used for location tracking or in conjunction with data retrieved from OSN (Online Social Networks). The risk becomes higher as the border between OSN and LBS (Location Based Services) becomes fuzzier. For instance, OSN such as FourSquare and Gowalla are designed to encourage users to share their geolocated data. Information posted on social applications such as Twitter can be used to infer whether or not an individual is at home. Other applications, such as Google Latitude, allow users to track the movements of their friends' cellphones and display their position on a map. In addition to social applications, there are other public sources of information that can be exploited by potential adversaries, such as the free geographic data provided by Google Maps, Yahoo! Maps and Google Earth. The danger is to move into a surveillance society where all our online and physical activities are recorded and correlated. Some companies already offer various services that gather different types of information from users. The combination and concentration of all these information provide a powerful tool to accurately profile users. For example, Google is one of the main third-party aggregators and tracks users across most web sites [30]. In addition, it also runs the most popular search engine and, as such, stores web histories of most users (i.e. their search requests), their map searches (i.e. their requests to the Google Map service), their images and so on [8]. Web searches have been shown to often be sensitive. Furthermore, Google is also going into the mobile and energy business, which will potentially allow it to correlate online profile with physical profiles.</p>
+      <p>The “Internet of the future” should solve these privacy problems. However, privacy is not something that occurs naturally online, it must be deliberately designed. This architecture of Privacy must be updated and reconsidered as the concept of privacy evolves and new technologies appear.</p>
+    </subsection>
+    <p>Even if our main goal is to develop general techniques with a potentially broad impact, Privatics will consider different and various concrete case studies to ensure the relevance and significance of its results. We plan to work on several case studies related to the Internet, online social networks (OSN), mobile services and smart spaces/environments (such as smart grids, smart houses,..), which correspond to challenging application domains with great impact on society.</p>
+  </presentation>
+  <domaine id="uid4">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Domain 1: Privacy in smart environments.</bodyTitle>
+      <p>Privacy in smart environments. One illustrative example is our
+latest work on privacy-preserving smart-metering [2]. Several countries
+throughout the world are planning to deploy smart meters in house-holds in the very near future. Traditional electrical meters only measure total
+consumption on a given period of time (i.e., one month or one year). As
+such, they do not provide accurate information of when the energy was consumed. Smart meters, instead, monitor and report consumption in intervals of few minutes. They allow the utility provider to monitor, almost in real-time, consumption and possibly adjust generation and prices according to the demand. Billing customers by how much is consumed and at what time of day will probably change consumption habits to help matching energy consumption with production. In the longer term, with the advent of smart appliances, it is expected that the smart grid will remotely control selected appliances to reduce demand. Although smart metering might help improving energy management, it creates many new privacy problems. Smart-meters provide very accurate consumption data to electricity providers. As the interval of data collected by smart meters decreases, the ability to disaggregate low-resolution data increases. Analysing high-resolution consumption data, Non-intrusive Appliance Load Monitoring (NALM) can be used to identify a remarkable number of electric appliances (e.g., water heaters, well pumps, furnace blowers, refrigerators, and air conditioners) employing exhaustive appliance signature libraries. We developed DREAM, DiffeRentially privatE smArt Metering, a scheme that is private under the differential privacy model and therefore provides strong and provable guarantees. With our scheme, an (electricity) supplier can periodically collect data from smart-meters and derive aggregated statistics while learning only limited information about the activities of individual households. For example, a supplier cannot tell from a user's trace when he watched TV or turned on heating.
+</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Domain 2: Big Data and Privacy</bodyTitle>
+      <p>We believe that another important problem will be related to privacy issues in big data. Public datasets are used in a variety of applications spanning from genome and web usage analysis to location-based and recommendation systems. Publishing such datasets is important since they can help us analyzing and understanding interesting patterns. For example, mobility trajectories have become widely collected in recent years and have opened the possibility to improve our understanding of large-scale social networks by investigating how people exchange information, interact, and develop social interactions. With billion of handsets in use worldwide, the quantity of mobility data is gigantic. When aggregated, they can help understand complex processes, such as the spread of viruses, and build better transportation systems. While the benefits provided by these datasets are indisputable, they unfortunately pose a considerable threat to individual privacy. In fact, mobility trajectories might be used by a malicious attacker to discover potential sensitive information about a user, such as his habits, religion or relationships. Because privacy is so important to people, companies and researchers are reluctant to publish datasets by fear of being held responsible for potential privacy breaches. As a result, only very few of them are actually released and available. This limits our ability to analyze such data to derive information that could benefit the general public. It is now an urgent need to develop Privacy-Preserving Data Analytics (PPDA) systems that collect and transform raw data into a version that is immunized against privacy attacks but that still preserves useful information for data analysis. This is one of the objectives of Privatics. There exists two classes of PPDA according to whether the entity that is collecting and anonymizing the data is trusted or not. In the trusted model, that we refer to as Privacy-Preserving Data Publishing (PPDP), individuals trust the publisher to which they disclose their data. In the untrusted model, that we refer to as Privacy-Preserving Data Collection (PPDC), individuals do not trust the data publisher. They may add some noise to their data to protect sensitive information from the data publisher.</p>
+      <p>Privacy-Preserving Data Publishing: In the trusted model, individuals
+trust the data publisher and disclose all their data to it. For example,
+in a medical scenario, patients give their true information to hospitals to receive proper treatment. It is then the responsibility of the
+data publisher to protect privacy of the individuals' personal data. To
+prevent potential data leakage, datasets must be sanitized before possible release. Several proposals have been recently proposed to release
+private data under the Differential Privacy model [25, 56, 26, 57, 50].
+However most of these schemes release a “snapshot” of the datasets at
+a given period of time. This release often consists of histograms. They
+can, for example, show the distributions of some pathologies (such as
+cancer, flu, HIV, hepatitis, etc.) in a given population. For many analytics applications, “snapshots” of data are not enough, and sequential data are required. Furthermore, current work focusses on rather simple data structures, such as numerical data. Release of more complex data, such as graphs, are often also very useful. For example, recommendation systems need the sequences of visited websites or bought
+items. They also need to analyse people connection graphs to identify the best products to recommend. Network trace analytics also rely on sequences of events to detect anomalies or intrusions. Similarly, traffic analytics applications typically need sequences of visited places of each user. In fact, it is often essential for these applications to know that user A moved from position 1 to position 2, or at least to learn the probability of a move from position 1 to position 2. Histograms would typically represent the number of users in position 1 and position 2, but would not provide the number of users that moved from position 1 to position 2. Due to the inherent sequentiality and high-dimensionality of sequential data, one major challenge of applying current data sanitization solutions on sequential data comes from the uniqueness of sequences (e.g., very few sequences are identical). This fact makes existing techniques result in poor utility. Schemes to privately release data with complex data structures, such as sequential, relational and graph data, are required. This is one the goals of Privatics. In our current work, we address this challenge by employing a variable-length n-gram model, which extracts the essential information of a sequential database in terms of a set of variable-length n − grams [15]. We then intend to extend this approach to more complex data structures.</p>
+      <p>Privacy-Preserving Data Collection: In the untrusted model, individuals do not trust their data publisher. For example, websites commonly
+use third party web analytics services, such as Google Analytics to obtain aggregate traffic statistics such as most visited pages, visitors' countries, etc. Similarly, other applications, such as smart metering or targeted advertising applications, are also tracking users in order to derive aggregated information about a particular class of users. Unfortunately, to obtain this aggregate information, services need to track users, resulting in a violation of user privacy. One of our goals is to develop Privacy-Preserving Data Collection solutions. We
+propose to study whether it is possible to provide efficient collection/aggregation solutions without tracking users, i.e. without getting or learning individual contributions.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid7">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>In 2014, Jagdish Prasad Achara, Mathieu Cunche and Vincent Roca published with Aurelien Francillon from Eurecom a study on the Wi-Fi permissions used by mobile applications and their privacy implications. Two years after our research was published, the Federal Trade Commission (FTC) reached a $950,000 settlement with InMobi for tracking millions of consumers’ locations, including children, without their knowledge. The FTC allege that InMobi abused the WiFi State information on the Android system to track the location of people without their consent, which is exactly what we showed in our research. Its policy prevents the FTC of releasing the sources of its investigations, therefore there is no way to affirm that our research triggered this investigation or was used during this investigation. We can only be sure that we identified a privacy issue that was serious enough to justify an investigation of the FTC and a penalty of $950,000. In addition to this, the company is under surveillance for their privacy behaviour for the next 20 years.</p>
+      <subsection id="uid9" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>The software <tt>MyTrackingChoices</tt> designed by Claude Castellucia and Jagdish Prasad Achara from Privatics in collaboration with Javier Parra (former member of Privatics and now at Universitat Politecnica de Catalunya) was awarded 'Data protection by design' award by the Catalan Data Protection Authority.</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid10">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid11" level="1">
+      <bodyTitle>FECFRAME</bodyTitle>
+      <p>FEC Framework following RFC 6363 specifications (<ref xlink:href="https://datatracker.ietf.org/doc/rfc6363/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>datatracker.<allowbreak/>ietf.<allowbreak/>org/<allowbreak/>doc/<allowbreak/>rfc6363/</ref>)</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Error Correction Code - Content delivery protocol - Robust transmission</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This sofware implements the FECFRAME IETF standard (RFC 6363) co-authored by V. ROCA, and is compliant with 3GPP specifications for mobile terminals. It enables the simultaneous transmission of multimedia flows to one or several destinations, while being robust to packet erasures that happen on wireless networks (e.g., 4G or Wifi). This software relies on the OpenFEC library (the open-source <ref xlink:href="http://openfec.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>openfec.<allowbreak/>org</ref> version or the commercial version) that provides the erasure correction codes (or FEC) and thereby offer robustness in front of packet erasures.</p>
+      <simplelist>
+        <li id="uid12">
+          <p noindent="true">Author: Vincent Roca</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">Contact: Vincent Roca</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">URL: <ref xlink:href="http://openfec.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>openfec.<allowbreak/>org/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Mobilitics</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Mobilitics is a joint project, started in 2012 between Inria and CNIL, which targets privacy issues on smartphones. The goal is to analyze the behavior of smartphones applications and their operating system regarding users private data, that is, the time they are accessed or sent to third party companies usually neither with user's awareness nor consent.</p>
+      <p>In the presence of a wide range of different smartphones available in terms of operating systems and hardware architecture, Mobilitics project focuses actually its study on the two mostly used mobile platforms, IOS (Iphone) and Android. Both versions of the Mobilitics software: (1) capture any access to private data, any modification (e.g., ciphering or hashing of private data), or transmission of data to remote locations on the Internet, (2) store these events in a local database on the phone for offline analysis, and (3) provide the ability to perform an in depth database analysis in order to identify personnal information leakage.</p>
+      <simplelist>
+        <li id="uid16">
+          <p noindent="true">Authors: Jagdish Achara, James-Douglass Lefruit, Claude Castelluccia, Vincent Roca, Gwendal Le Grand, Geoffrey Delcroix, Franck Baudot and Stéphane Petitcolas</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Contact: Claude Castelluccia</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/privatics/mobilitics/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>privatics/<allowbreak/>mobilitics/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>MyTrackingChoices</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Privacy - User control</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>This extension lets you control how you are being tracked on the Internet. It allows you to choose the categories (e.g., health, adult) of the websites where you don’t want to be tracked on. When you browse the web, your visited webpages will be categorized on the fly and, depending on your choices, the extension will block the trackers (webpage by webpage) or not.</p>
+      <p>Existing anti-tracking (Ghostery, Disconnect etc.) and ad-blocking (AdBlock Plus etc.) tools block almost ALL trackers and as a result, ads. This has a negative impact on the Internet economy because free services/content on the Internet are fuelled by ads. As a result, websites are starting to block access to their content if they detect use of Ad-blockers or they ask users to move to a subscription-based model (where users have to pay to get access to the website).</p>
+      <p>This extension is testing another approach: It is trying to find a trade-off between privacy and economy, that would allow users to protect their privacy while still accessing to free content.</p>
+      <p>It is based on the assumption that most people are not against advertisements, but want to keep control over their data. We believe that some sites are more sensitive than others. In fact, most people don’t want to be tracked on “sensitive” websites (for example related to religion, health,…), but don’t see any problem to be tracked on less sensitive ones (such as news, sport,…). This extension allows you to take control and specify which on which categories of sites you don’t want to be tracked on! Furthermore, the extension also gives you the option to block the trackers on specific websites.</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Contact: Claude Castelluccia</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">URL: <ref xlink:href="https://addons.mozilla.org/FR/firefox/addon/mytrackingchoices/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>addons.<allowbreak/>mozilla.<allowbreak/>org/<allowbreak/>FR/<allowbreak/>firefox/<allowbreak/>addon/<allowbreak/>mytrackingchoices/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>OMEN+</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Omen+ is a password cracker following our previous work. It is used to guess possible passwords based on specific information about the target. It can also be used to check the strength of user password by effectively looking at the similarity of that password with both usual structures and information relative to the user, such as his name, birth date...</p>
+      <p>It is based on a Markov analysis of known passwords to build guesses. The previous work Omen needs to be cleaned in order to be scaled to real problems and to be distributed or transfered to the security community (maintainability): eventually it will become an open source software. The main challenge of Omen+ is to optimize the memory consumption.</p>
+      <simplelist>
+        <li id="uid23">
+          <p noindent="true">Participants: Pierre Rouveyrol and Claude Castelluccia</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">Contact: Claude Castelluccia</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid25" level="1">
+      <bodyTitle>OPENFEC</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>OpenFEC is an open-source C-language implementation of several Application-Level Forward Erasure Correction (AL-FEC) codecs, namely: 2D-parity, Reed-Solomon (RFC 5510) and LDPC-Staircase (RFC 5170) codes. The OpenFEC project also provides a complete performance evaluation tool-set, capable of automatically assessing the performance of various codecs, both in terms of erasure recovery and encoding/decoding speed or memory consumption.</p>
+      <simplelist>
+        <li id="uid26">
+          <p noindent="true">Participants: Mathieu Cunche, Jonathan Detchart, Julien Laboure, Christophe Neumann, Vincent Roca, Jérome Lacan and Kevin Chaumont</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">Contact: Vincent Roca</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">URL: <ref xlink:href="http://openfec.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>openfec.<allowbreak/>org/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid29">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid30" level="1">
+      <bodyTitle>MobileAppScrutinator: A Simple yet Efficient Dynamic Analysis Approach for Detecting Privacy Leaks across Mobile OSs</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp85424">
+          <firstname>Jagdish</firstname>
+          <lastname>Achara</lastname>
+        </person>
+        <person key="privatics-2014-idp67496">
+          <firstname>Vincent</firstname>
+          <lastname>Roca</lastname>
+        </person>
+        <person key="privatics-2014-idm28616">
+          <firstname>Claude</firstname>
+          <lastname>Castelluccia</lastname>
+        </person>
+      </participants>
+      <p>Smartphones, the devices we carry everywhere with us, are being heavily tracked and have undoubtedly become a major threat to our privacy. As " Tracking the trackers " has become a necessity, various static and dynamic analysis tools have been developed in the past. However, today, we still lack suitable tools to detect, measure and compare the ongoing tracking across mobile OSs. To this end, we propose MobileAppScrutinator <ref xlink:href="#privatics-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, based on a simple yet efficient dynamic analysis approach, that works on both Android and iOS (the two most popular OSs today). To demonstrate the current trend in tracking, we select 140 most representative Apps available on both Android and iOS AppStores and test them with MobileAppScrutinator. In fact, choosing the same set of apps on both Android and iOS also enables us to compare the ongoing tracking on these two OSs. Finally, we also discuss the effectiveness of privacy safeguards available on Android and iOS. We show that neither Android nor iOS privacy safeguards in their present state are completely satisfying.</p>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>MyTrackingChoices: Pacifying the Ad-Block War by Enforcing User Privacy Preferences</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp85424">
+          <firstname>Jagdish</firstname>
+          <lastname>Achara</lastname>
+        </person>
+        <person key="privatics-2014-idm28616">
+          <firstname>Claude</firstname>
+          <lastname>Castelluccia</lastname>
+        </person>
+      </participants>
+      <p>Free content and services on the Web are often supported by ads. However, with the proliferation of intrusive and privacy-invasive ads, a significant proportion of users have started to use ad blockers. As existing ad blockers are radical (they block all ads) and are not designed taking into account their economic impact, ad-based economic model of the Web is in danger today. In this paper, we target privacy-sensitive users and provide them with fine-grained control over tracking. Our working assumption is that some categories of web pages (for example, related to health, religion, etc.) are more privacy-sensitive to users than others (education, science, etc.). Therefore, our proposed approach consists in providing users with an option to specify the categories of web pages that are privacy-sensitive to them and block trackers present on such web pages only. As tracking is prevented by blocking network connections of third-party domains, we avoid not only tracking but also third-party ads. Since users will continue receiving ads on web pages belonging to non-sensitive categories, our approach essentially provides a trade-off between privacy and economy. To test the viability of our solution, we implemented it as a Google Chrome extension, named MyTrackingChoices (available on Chrome Web Store). Our real-world experiments with MyTrackingChoices <ref xlink:href="#privatics-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> show that the economic impact of ad blocking exerted by privacy-sensitive users can be significantly reduced.
+</p>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Security or privacy?</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp91520">
+          <firstname>Amrit</firstname>
+          <lastname>Kumar</lastname>
+        </person>
+        <person key="privatics-2014-idm25896">
+          <firstname>Cédric</firstname>
+          <lastname>Lauradoux</lastname>
+        </person>
+      </participants>
+      <p>Security softwares such as anti-viruses, IDS or filters help Internet users to protect their privacy from hackers. The cost of this protection is that the users privacy is stripped away by the companies providing these security solutions. Currently, Internet users can choose between no security with the risk of being hacked or use security software and lose all personal data to security companies.
+As a example of this dilemma, we analyze the solution proposed by Google and Yandex for Safe Browsing <ref xlink:href="#privatics-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and shows that their privacy policies do not match the reality: Google can perform tracking.</p>
+    </subsection>
+    <subsection id="uid33" level="1">
+      <bodyTitle>Near-Optimal Fingerprinting with Constraints</bodyTitle>
+      <participants>
+        <person key="privatics-2015-idp84528">
+          <firstname>Gabor</firstname>
+          <lastname>Gulyas</lastname>
+        </person>
+        <person key="privatics-2014-idp71632">
+          <firstname>Gergely</firstname>
+          <lastname>Acs</lastname>
+        </person>
+        <person key="privatics-2014-idm28616">
+          <firstname>Claude</firstname>
+          <lastname>Castelluccia</lastname>
+        </person>
+      </participants>
+      <p>Several recent studies have demonstrated that people show large behavioural uniqueness. This has serious privacy implications as most individuals become increasingly re-identifiable in large datasets or can be tracked while they are browsing the web using only a couple of their attributes, called as their fingerprints. Often, the success of these attacks depend on explicit constraints on the number of attributes learnable about individuals, i.e., the size of their fingerprints. These constraints can be budget as well as technical constraints imposed by the data holder. For instance, Apple restricts the number of applications that can be called by another application on iOS in order to mitigate the potential privacy threats of leaking the list of installed applications on a device. In <ref xlink:href="#privatics-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of identifying the attributes (e.g., smartphone applications) that can serve as a fingerprint of users given constraints on the size of the fingerprint. We give the best fingerprinting algorithms in general, and evaluate their effectiveness on several real-world datasets. Our results show that current privacy guards limiting the number of attributes that can be queried about individuals is insufficient to mitigate their potential privacy risks in many practical cases.</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Data anonymization Evaluation</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idm28616">
+          <firstname>Claude</firstname>
+          <lastname>Castelluccia</lastname>
+        </person>
+        <person key="privatics-2014-idp71632">
+          <firstname>Gergely</firstname>
+          <lastname>Acs</lastname>
+        </person>
+        <person key="privatics-2014-idp66104">
+          <firstname>Daniel</firstname>
+          <lastname>Le Metayer</lastname>
+        </person>
+      </participants>
+      <p>Anonymization is a critical issue because data protection regulations such as the European Directive 95/46/EC and the European General Data Protection Regulation (GDPR) explicitly exclude from their scope anonymous information" and personal data rendered anonymous"1. However, turning this general statement into effective criteria is not an easy task. In order to facilitate the implementation of this provision, the Working Party 29 (WP29) has published in April 2014 an Opinion on Anonymization Techniques. This Opinion puts forward three criteria corresponding to three risks called respectively "singling out", "linkability" and "inference". In this work, we first evaluated these criteria and showed that they are neither necessary nor effective to decide upon the robustness of an anonymization algorithm. Then we proposed an alternative approach relying on the notions of acceptable versus unacceptable inferences in <ref xlink:href="#privatics-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and we introduced differential testing, a practical way to implement this approach using machine learning techniques.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Wi-Fi and privacy</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp68928">
+          <firstname>Mathieu</firstname>
+          <lastname>Cunche</lastname>
+        </person>
+        <person key="privatics-2014-idp92744">
+          <firstname>Celestin</firstname>
+          <lastname>Matte</lastname>
+        </person>
+      </participants>
+      <simplelist>
+        <li id="uid36">
+          <p noindent="true"><b>Geolocation spoofing attack</b>
+We present several novel techniques to track (unassociated) mobile devices by abusing features of the Wi-Fi standard. This shows that using random MAC addresses, on its own, does not guarantee privacy.
+First, we show that information elements in probe requests can be used to fingerprint devices. We then combine these fingerprints with incremental sequence numbers, to create a tracking algorithm that does not rely on unique identifiers such as MAC addresses. Based on real-world datasets, we demonstrate that our algorithm can correctly track as much as 50% of devices for at least 20 minutes. We also show that commodity Wi-Fi devices use predictable scrambler seeds. These can be used to improve the performance of our tracking algorithm. Finally, we present two attacks that reveal the real MAC address of a device, even if MAC address randomization is used. In the first one, we create fake hotspots to induce clients to connect using their real MAC address. The second technique relies on the new 802.11u standard, commonly referred to as Hotspot 2.0, where we show that Linux and Windows send Access Network Query Protocol (ANQP) requests using their real MAC address.</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true"><b>Extraction of semantical information from Wi-Fi network identifiers</b>
+MAC address randomization in Wi-Fi-enabled devices has recently been adopted to prevent passive tracking of mobile devices. However, Wi-Fi frames still contain fields that can be used to fingerprint devices and potentially allow tracking. Panoptiphone is a tool inspired by the web browser fingerprinting tool Panopticlick, which aims to show the identifying information that can be found in the frames broadcast by a Wi-Fi-enabled device. Information is passively collected from devices that have their Wi-Fi interface enabled, even if they are not connected to an access point. Panoptiphone uses this information to create a fingerprint of the device and empirically evaluate its uniqueness among a database of fingerprints. The user is then shown how much identifying information its device is leaking through Wi-Fi and how unique it is.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Formal and legal issues of privacy</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp66104">
+          <firstname>Daniel</firstname>
+          <lastname>Le Metayer</lastname>
+        </person>
+      </participants>
+      <simplelist>
+        <li id="uid39">
+          <p noindent="true"><b>Privacy by design</b>
+Based on our previous work on the use of formal methods to reason about privacy properties of system architectures, we have proposed a logic to reason about properties of architectures including group authentication functionalities. By group authentication, we mean that a user can authenticate on behalf of a group of users, thereby keeping a form of anonymity within this set. Then we show that this extended framework can be used to reason about privacy properties of a biometric system in which users are authenticated through the use of group signatures.</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true"><b>Privacy Risk Analysis</b>
+Privacy Impact Assessments (PIA) are recognized as a key step to enhance privacy protection in new IT products and services. They will be required for certain types of products in Europe when the future General Data Protection Regulation becomes effective. From a technical perspective, the core of a PIA is a privacy risk analysis (PRA), which has so far received relatively less attention than organizational and legal aspects of PIAs. We have proposed a rigorous and systematic methodology for conducting a PRA and illustrated it with a quantified-self use-case.</p>
+          <p>The smart grid initiative promises better home energy management. However, there is a growing concern that utility providers collect, through smart meters, highly granular energy consumption data that can reveal a lot about the consumer’s personal life. This exposes consumers to a large number of privacy harms, of various degrees of severity and likelihood: surveillance by the government and law-enforcement bodies, various forms of discrimination etc. A privacy impact assessment is vital for early identification of potential privacy breaches caused by an IT product or service and for choosing the most appropriate protection measures. So, a data protection impact assessment (DPIA) template for smart grids has been developed by the Expert Group 2 (EG2) of the European Commission’s Smart Grid Task Force (SGTF). To carry out a true privacy risk analysis and go beyond a traditional security analysis, it is essential to distinguish the notions of feared events and their impacts, called “privacy harms" here, and to establish a link between them. The Working Party 29 highlights the importance of this link in its feedback on EG2’s DPIA. We have provided in <ref xlink:href="#privatics-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> a clear relationship among harms, feared events, privacy weaknesses and risk sources and described their use in the analysis of smart grid systems.</p>
+          <p>Although both privacy by design and privacy risk analysis have received the attention of researchers and privacy practitioners during the last decade, to the best of our knowledge, no method has been documented yet to establish a clear connection between these two closely related notions. We have proposed a methodology to help designers select suitable architectures based on an incremental privacy risk analysis. The analysis proceeds in three broad phases: 1) a generic privacy risk analysis phase depending only on the specifications of the system and yielding generic harm trees; 2) an architecture-based privacy risk analysis that takes into account the definitions of the possible architectures of the system and yields architecture-specific harm trees by refining the generic harm trees and 3) a context-based privacy risk analysis that takes into account the context of deployment of the system (e.g., a casino, an office cafeteria, a school) and further refines the architecture-specific harm trees to yield context-specific harm trees which can be used to take decisions about the most suitable architectures. To illustrate our approach, we have considered the design of a biometric access control system. Such systems are now used commonly in many contexts such as border security controls, work premises, casinos, airports, chemical plants, hospitals, schools, etc. However, the collection, storage and processing of biometric data raise complex privacy issues. To deal with these privacy problems in biometric access control, a wide array of dedicated techniques (such as secure sketches or fuzzy vaults) as well as adaptations of general privacy preserving techniques (such as encryption, homomorphic encryption, secure multi-party computation) have been proposed. However, each technique solves specific privacy problems and is suitable in specific contexts. Therefore, it is useful to provide guidance to system designers and help them select a solution and justify it with respect to privacy risks. We have used as an illustration of context a deployment in casinos. The verification of the identities of casino customers is required by certain laws (to prevent access by minors or individuals on blacklists) which can justify the implementation of a biometric access control system to speed up the verification process.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Building blocks</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp70184">
+          <firstname>Marine</firstname>
+          <lastname>Minier</lastname>
+        </person>
+        <person key="privatics-2014-idp67496">
+          <firstname>Vincent</firstname>
+          <lastname>Roca</lastname>
+        </person>
+      </participants>
+      <simplelist>
+        <li id="uid42">
+          <p noindent="true">
+            <b>Symmetric cryptography</b>
+          </p>
+          <p>In <ref xlink:href="#privatics-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we introduce Constraint Programming (CP) models to solve a cryptanalytic problem: the chosen key differential attack against the standard block cipher AES. The problem is solved in two steps: In Step 1, bytes are abstracted by binary values; In Step 2, byte values are searched. We introduce two CP models for Step 1: Model 1 is derived from AES rules in a straightforward way; Model 2 contains new constraints that remove invalid solutions filtered out in Step 2. We also introduce a CP model for Step 2. We evaluate scale-up properties of two classical CP solvers (Gecode and Choco) and a hybrid SAT/CP solver (Chuffed). We show that Model 2 is much more efficient than Model 1, and that Chuffed is faster than Choco which is faster than Gecode on the hardest instances of this problem. Furthermore, we prove that a solution claimed to be optimal in two recent cryptanalysis papers is not optimal by providing a better solution.</p>
+          <p>Using dedicated hardware is common practice in order to accelerate cryptographic operations: complex operations are managed by a dedicated co-processor and RAM/crypto-engine data transfers are fully managed by DMA operations. The CPU is therefore free for other tasks, which is vital in embedded environments with limited CPU power. In this work we discuss and benchmark XTS-AES, using either software or mixed approaches, using Linux and dm-crypt, and a low-power At-mel(tm) board. This board featurs an AES crypto-engine that supports ECB-AES but not the XTS-AES mode. We show that the <tt>dm-crypt</tt> module used in Linux for full disk encryption has limitations that can be relaxed when considering larger block sizes. In particular we demonstrate in <ref xlink:href="#privatics-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that performance gains almost by a factor two are possible, which opens new opportunities for future use-cases.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Other results</bodyTitle>
+      <participants>
+        <person key="privatics-2014-idp68928">
+          <firstname>Mathieu</firstname>
+          <lastname>Cunche</lastname>
+        </person>
+        <person key="privatics-2014-idp67496">
+          <firstname>Vincent</firstname>
+          <lastname>Roca</lastname>
+        </person>
+      </participants>
+      <simplelist>
+        <li id="uid44">
+          <p noindent="true">
+            <b>Error-correcting codes</b>
+          </p>
+          <p>Recent work have shown that Reed-Muller (RM) codes achieve the erasure channel capacity. However, this performance is obtained with maximum-likelihood decoding which can be costly for practical applications. In <ref xlink:href="#privatics-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose an encoding/decoding scheme for Reed-Muller codes on the packet erasure channel based on Plotkin construction. We present several improvements over the generic decoding. They allow, for a light cost, to compete with maximum-likelihood decoding performance, especially on high-rate codes, while significantly outperforming it in terms of speed.</p>
+          <p>In <ref xlink:href="#privatics-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we provide fundamentals in the design and analysis of Generalized Low Density Parity Check (GLDPC)-Staircase codes over the erasure channel. These codes are constructed by extending an LDPC-Staircase code (base code) using Reed Solomon (RS) codes (outer codes) in order to benefit from more powerful decoders. The GLDPC-Staircase coding scheme adds, in addition to the LDPC-Staircase repair symbols, extra-repair symbols that can be produced on demand and in large quantities, which provides small rate capabilities. Therefore, these codes are extremely flexible as they can be tuned to behave either like predefined rate LDPC-Staircase codes at one extreme, or like a single RS code at another extreme, or like small rate codes. Concerning the code design, we show that RS codes with " quasi " Hankel matrix-based construction fulfill the desired structure properties, and that a hybrid (IT/RS/ML) decoding is feasible that achieves Maximum Likelihood (ML) correction capabilities at a lower complexity. Concerning performance analysis, we detail an asymptotic analysis method based on Density evolution (DE), EXtrinsic Information Transfer (EXIT) and the area theorem. Based on several asymptotic and finite length results, after selecting the optimal internal parameters, we demonstrate that GLDPC-Staircase codes feature excellent erasure recovery capabilities, close to that of ideal codes, both with large and very small objects. From this point of view they outperform LDPC-Staircase and Raptor codes, and achieve correction capabilities close to those of RaptorQ codes. Therefore all these results make GLDPC-Staircase codes a universal Application-Layer FEC (AL-FEC) solution for many situations that require erasure protection such as media streaming or file multicast transmission.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </resultats>
+  <contrats id="uid45">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid47" level="2">
+        <bodyTitle>IPSec with pre-shared key for MISTIC security</bodyTitle>
+        <sanspuceslist>
+          <li id="uid48">
+            <p noindent="true">Title: IPSec with pre-shared key for MISTIC security.</p>
+          </li>
+          <li id="uid49">
+            <p noindent="true">Type: CIFRE.</p>
+          </li>
+          <li id="uid50">
+            <p noindent="true">Duration: Juillet 2014 - Juillet 2017.</p>
+          </li>
+          <li id="uid51">
+            <p noindent="true">Coordinator: Inria</p>
+          </li>
+          <li id="uid52">
+            <p noindent="true">Others partners: Privatics, Moais and Incas-ITSec.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid53">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid55" level="2">
+        <bodyTitle>FUI</bodyTitle>
+        <subsection id="uid56" level="3">
+          <bodyTitle>HuMa</bodyTitle>
+          <sanspuceslist>
+            <li id="uid57">
+              <p noindent="true">Title: HuMa.</p>
+            </li>
+            <li id="uid58">
+              <p noindent="true">Type: FUI.</p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">Duration: Juin 2015 - Mai 2018.</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Coordinator: INTRINSEC.</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Others partners: Inria, SYDO, Wallix, INSA Lyon, CASSIDIAN Cybersecurity, Oberthur, INTRINSEC.</p>
+            </li>
+            <li id="uid62">
+              <p noindent="true">Abstract:</p>
+              <p>The goal of huMa is to improve the tools used to distinguish legitimate network flows from attacks in complex systems including IoT.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid63" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <subsection id="uid64" level="3">
+          <bodyTitle>BIOPRIV</bodyTitle>
+          <sanspuceslist>
+            <li id="uid65">
+              <p noindent="true">Title: Application of privacy by design to biometric access control.</p>
+            </li>
+            <li id="uid66">
+              <p noindent="true">Type: ANR.</p>
+            </li>
+            <li id="uid67">
+              <p noindent="true">Duration: April 2013 - March 2017.</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Coordinator: Morpho (France).</p>
+            </li>
+            <li id="uid69">
+              <p noindent="true">Others partners: Morpho (France), Inria (France), Trusted Labs (France).</p>
+            </li>
+            <li id="uid70">
+              <p noindent="true">See also: <ref xlink:href="http://planete.inrialpes.fr/biopriv/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>planete.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>biopriv/</ref>.</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Abstract: The objective of BIOPRIV is the definition of a framework for privacy by design suitable for the use of biometric technologies. The case study of the project is biometric access control. The project will follow a multidisciplinary approach considering the theoretical and technical aspects of privacy by design but also the legal framework for the use of biometrics and the evaluation of the privacy of the solutions.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid72" level="2">
+        <bodyTitle>Inria Project Labs</bodyTitle>
+        <subsection id="uid73" level="3">
+          <bodyTitle>CAPPRIS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid74">
+              <p noindent="true">Title: CAPPRIS</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Type: Inria Project Lab</p>
+            </li>
+            <li id="uid76">
+              <p noindent="true">Duration: January 2011 - 2016.</p>
+            </li>
+            <li id="uid77">
+              <p noindent="true">Coordinator: PRIVATICS</p>
+            </li>
+            <li id="uid78">
+              <p noindent="true">Others partners: Inria (CIDRE, Comete, Secsi,Smis), Eurecom, LAAS and CRIDS</p>
+            </li>
+            <li id="uid79">
+              <p noindent="true">Abstract: Cappris (Collaborative Action on the Protection of Privacy Rights in the Information Society) is an Inria Project Lab initiated in 2013. The general goal of Cappris is to foster the collaboration between research groups involved in privacy in France and the interaction between the computer science, law and social sciences communities in this area.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid80" level="2">
+        <bodyTitle>Inria CNIL project</bodyTitle>
+        <subsection id="uid81" level="3">
+          <bodyTitle>MOBILITICS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid82">
+              <p noindent="true">Title: MOBILITICS</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Type: joint project.</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Duration: January 2012 - Ongoing.</p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Coordinator: CNIL.</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Others partners: CNIL.</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Abstract: Platform for mobile devices privacy evaluation. This project strives to deploy an experimental mobile platform for studying and analyzing the weaknesses of current online (smartphone) applications and operating systems and the privacy implications for end-users. For instance, one of the objectives is to understand trends and patterns collected when they are aimed at obtaining general knowledge that does not pertain to any specific individual. Examples of such tasks include learning of commuting patterns, inference of recommendation rules, and creation of advertising segments.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid88" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Collaborations in European Programs, ANR Chistera</bodyTitle>
+        <subsection id="uid90" level="3">
+          <bodyTitle>COPES</bodyTitle>
+          <sanspuceslist>
+            <li id="uid91">
+              <p noindent="true">Title: COnsumer-centric Privacy in smart Energy gridS</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Programm: CHISTERA</p>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Duration: December 2015 - december 2018</p>
+            </li>
+            <li id="uid94">
+              <p noindent="true">Coordinator: KTH Royal Institute of Technology</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">Inria contact: Cédric Lauradoux</p>
+            </li>
+            <li id="uid96">
+              <p noindent="true">Smart meters have the capability to measure and record consumption data at a high time
+resolution and communicate such data to the energy provider. This provides the opportunity
+to better monitor and control the power grid and to enable demand response at the
+residential level. This not only improves the reliability of grid operations but also constitutes a
+key enabler to integrate variable renewable generation, such as wind or solar. However, the
+communication of high resolution consumption data also poses privacy risks as such data
+allows the utility, or a third party, to derive detailed information about consumer behavior.
+Hence, the main research objective of COPES is to develop new technologies to protect
+consumer privacy, while not sacrificing the ”smartness”, i.e., advanced control and
+monitoring functionalities. The core idea is to overlay the original consumption pattern with
+additional physical consumption or generation, thereby hiding the consumer privacy sensitive
+consumption. The means to achieve this include the usage of storage, small scale distributed
+generation and/or elastic energy consumptions. Hence, COPES proposes and develops a
+radically new approach to alter the physical energy flow, instead of purely relying on
+encryption of meter readings, which provides protection against third party intruders but does
+not prevent the use of this data by the energy provider.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid97" level="3">
+          <bodyTitle>UPRISE-IoT</bodyTitle>
+          <sanspuceslist>
+            <li id="uid98">
+              <p noindent="true">Title: User-centric PRIvacy &amp; Security in IoT</p>
+            </li>
+            <li id="uid99">
+              <p noindent="true">Programm: CHISTERA</p>
+            </li>
+            <li id="uid100">
+              <p noindent="true">Duration: December 2016 - december 2019</p>
+            </li>
+            <li id="uid101">
+              <p noindent="true">Coordinator: SUPSI (Suisse)</p>
+            </li>
+            <li id="uid102">
+              <p noindent="true">Inria contact: Claude Castelluccia</p>
+            </li>
+            <li id="uid103">
+              <p noindent="true">The call states that “Traditional protection techniques are insufficient to guarantee users’ security and
+privacy within the future unlimited interconnection”: UPRISE-IoT will firstly identify the threats and
+model the behaviours in IoT world, and further will build new privacy mechanisms centred around the
+user. Further, as identified by the call “all aspects of security and privacy of the user data must be
+under the control of their original owner by means of as simple and efficient technical solutions as
+possible”, UPRISE-IoT will rise the awareness of data privacy to the users. Finally, it will deeply
+develop transparency mechanisms to “guarantee both technically and regulatory the neutrality of the
+future internet.” as requested by the call.
+The U-HIDE solution developed inn UPRISE-IoT will “empower them to understand and make their
+own decisions regarding their data, which is essential in gaining informed consent and in ensuring the
+take-up of IoT technologies”, using a methodology that includes “co-design with users to address the
+key, fundamental, but inter-related and interdisciplinary aspects of privacy, security and trust.”</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid104" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid105" level="2">
+        <bodyTitle>ACDC</bodyTitle>
+        <sanspuceslist>
+          <li id="uid106">
+            <p noindent="true">Title: ACDC</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">Type: AGIR 2016 Pole MSTIC.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Duration: September 2016 - 2017.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">Coordinator: Inria.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">Others partners: UGA.</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">Abstract: The objective of this project is to evaluate the security and privacy impacts of drone. The project targets 2 milestones: the evaluation of the possiblity to tamper with the drone control/command systems and the capacity of drone to collect private information (for instance text recognition).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid112" level="2">
+        <bodyTitle>AMNECYS</bodyTitle>
+        <simplelist>
+          <li id="uid113">
+            <p noindent="true">Title: AMNECYS</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Duration: 2015 - .</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Coordinator: CESICE, UPMF.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Others partners: Inria/Privatics and LIG/Moais, Gipsa-lab, LJK, Institut Fourier, TIMA, Vérimag, LISTIC (Pole MSTIC) .</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Abstract: Privatics participates to the creation of an Alpine Multidisciplinary NEtwork on CYbersecurity Studies (AMNECYS).
+The academic teams and laboratories participating in this project have already developed great expertise on encryption technologies, vulnerabilities analysis, software engineering, protection of privacy and personal data, international &amp; European aspects of cybersecurity.
+The first project proposal (ALPEPIC ALPs-Embedded security: Protecting Iot &amp; Critical infrastructure) focuses on the protection of the Internet of Things (IoT) and Critical Infrastructure (CI).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid118" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid119" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <sanspuceslist>
+          <li id="uid120">
+            <p noindent="true">Lucas Melis</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Gergely Acs</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid122">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid123" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid124" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid125" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <sanspuceslist>
+            <li id="uid126">
+              <p noindent="true">Daniel Le Metayer: CPDP 2016 (panel chairman), Privacy protection, new technical and legal instruments (Colloque Inria CAPPRIS).</p>
+            </li>
+            <li id="uid127">
+              <p noindent="true">Cédric Lauradoux: Nombre et cryptographie, maison pour la science Alpes Dauphiné</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid128" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid129" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <sanspuceslist>
+            <li id="uid130">
+              <p noindent="true">Cédric Lauradoux: RESSI 2016 and ATC 2016.</p>
+            </li>
+            <li id="uid131">
+              <p noindent="true">Daniel Le Metayer: Infer 2016, STM 2016, Annual Privacy Forum 2016, IWPE 2016, CPDP 2016 and WETICE-FISA.</p>
+            </li>
+            <li id="uid132">
+              <p noindent="true">Marine Minier: MyCrypt 2016 and RESSI 2016.</p>
+            </li>
+            <li id="uid133">
+              <p noindent="true">Vincent Roca: GreHack 2016, SPACOMM 2016 and VTC2016-Spring.</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">Mathieu Cunche: APVP 2016, HotPlanet 2016, ICISSP 2017 and IEEE TrustCom 2016.</p>
+            </li>
+            <li id="uid135">
+              <p noindent="true">Claude Casteluccia: Wisec 2016, DTL 2016, AFP 2016, UEOP’16 and DAT’2016.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid136" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <sanspuceslist>
+          <li id="uid137">
+            <p noindent="true">Daniel Le Metayer: IFIP SEC 2016 and France Stratégie, Algorithms: transparency and responsibility panel.</p>
+          </li>
+          <li id="uid138">
+            <p noindent="true">Claude Casteluccia: LIG Keynote.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid139" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <sanspuceslist>
+          <li id="uid140">
+            <p noindent="true">Vincent Roca: co-chair of the research group NWCRG (Network Coding Research Group) of IRTF (Internet Research Task Force)</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">Daniel Le Metayer: member of the scientific committee of the CNIL-Inria Privacy Award</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid142" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid143" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid144">
+            <p noindent="true">Undergraduate course : Vincent Roca, <i>On Wireless Communications</i>, 12h, L1, Polytech’ Grenoble, France.</p>
+          </li>
+          <li id="uid145">
+            <p noindent="true">Undergraduate course : Vincent Roca, <i>On Network Communications</i>, 44h, L1, IUT-2 (UPMF University) Grenoble, France.</p>
+          </li>
+          <li id="uid146">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Probabilities</i>, 80h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Signal Processing</i>, 20h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Analysis</i>, 20h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Introduction to Cryptography</i>, 10h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Information Theory</i>, 10h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Computer Architecture</i>, 20h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid152">
+            <p noindent="true">Undergraduate course : Marine Minier, <i>Computer Security</i>, 20h, L3,IUT-Lyon, France.</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">Undergraduate course : Mathieu Cunche, <i>Introduction to computer science</i>, 120h, L1, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">Master : Mathieu Cunche, <i>Wireless Security</i>, 6h, M2, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid155">
+            <p noindent="true">Undergraduate course : Mathieu Cunche, <i>On Wireless Network Security</i>, 10h, L1, IUT-2 (UPMF - Grenoble University) , France.</p>
+          </li>
+          <li id="uid156">
+            <p noindent="true">Undergraduate course : Mathieu Cunche, <i>Advanced Topics in Security</i>, 20h, L3, ENSIMAG, France.</p>
+          </li>
+          <li id="uid157">
+            <p noindent="true">Undergraduate course : Mathieu Cunche, <i>Security &amp; Privacy</i>, 21h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true">Undergraduate course : Daniel Le Métayer, <i>Security &amp; Privacy</i>, 17h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">Undergraduate course : Daniel Le Métayer, <i>Privacy</i>, 12h, L3, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">Master : Cédric Lauradoux, <i>Introduction to Cryptology</i>, 30h, M1, University of Grenoble Alpes, France.</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Master : Cédric Lauradoux, <i>Internet Security</i>, M2, University of Grenoble Alpes, France.</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">Master : Claude Castelluccia, <i>Advanced Topics in Security</i>, 20h, M2, Ensimag/University of Grenoble Alpes, France.</p>
+          </li>
+          <li id="uid163">
+            <p noindent="true">Master : Claude Castelluccia, <i>Advanced Topics in Security</i>, 15h, M2, Ensimag/INPG, France.</p>
+          </li>
+          <li id="uid164">
+            <p noindent="true">Master : Claude Castelluccia, <i>Security &amp; Privacy</i>, 18h, Master MOSIG, University of Grenoble Alpes, France.</p>
+          </li>
+          <li id="uid165">
+            <p noindent="true">Master : Claude Castelluccia, <i>Privacy</i>, 4h, M2, College de droit University of Grenoble Alpes, France.</p>
+          </li>
+          <li id="uid166">
+            <p noindent="true">Master : Marine Minier, <i>Security for wireless networks</i>, 20h, M2, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Master : Mathieu Cunche, <i>Wireless Security</i>, 6h, M2, INSA-Lyon, France.</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">Master : Daniel Le Métayer, <i>Privacy</i>, 6h, M2 MASH, Université Paris Dauphine, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid169" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid170">
+            <p noindent="true">PhD defended : Jagdish Achara, <i>Unveiling and Controlling Online Tracking</i>, Claude Castelluccia and Vincent Roca.</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">PhD defended : Amrit Kumar, <i>Security and Privacy of Hash-Based Software Applications</i> , Cedric Lauradoux.</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">PhD in progress : Victor Morel, <i>IoT privacy</i> , September 2016, Daniel Le Métayer.</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">PhD in progress : Jessye Dos Santos, <i>Wireless physical tracking</i>, October 2013, Cédric Lauradoux and Claude Castelluccia.</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">PhD in progress : Célestin Matte, <i>Système d'observation des flux humains via Wi-Fi respectueux de la vie privée</i>, October 2014, Marine Minier et Mathieu Cunche.</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Intern (M2): Alessandro Tedesco, <i>The rise of Internet of things made possible the large-scale collection of personal data and metadata</i>, Claude Castelluccia</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">Intern (M2): Jose-Paul Domingez, <i>The geopolitics of Internet protocols</i>, Claude Castelluccia</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">Intern (M2): Zoltan Kovac, <i>MyRealOnlineChoices</i>, Claude Castelluccia</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">Intern (M1): Margaux Canet Sola, <i>decompression bombs</i>, Cédric Lauradoux</p>
+          </li>
+          <li id="uid179">
+            <p noindent="true">Intern (M1): Julie Catania, Fuzzing the <tt>zlib</tt>, Cédric Lauradoux</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">Intern (M1): Aurelien Monnet Paquet, <i>Anti-virus DOS attacks</i>, Amrit Kumar</p>
+          </li>
+          <li id="uid181">
+            <p noindent="true">Intern (M1): Mary-Andrea Rakotomanga, <i>Compression quines</i>, Cédric Lauradoux</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid182" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid183">
+            <p noindent="true">PhD: Yagdish Achara, <i>Unveiling and Controlling Online Tracking</i>, 18/10/2016, Claude Castelluccia and Vincent Roca.</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">PhD: Amrit Kumar, <i>Security and Privacy of Hash-Based Software Applications</i>, Université de Grenoble, Nantes, 18/10/2016, Cédric Lauradoux.</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">PhD : Tarek Sayah, <i>Exposition seélective et probleème de fuite d'inférence dans le Linked Data</i>, Université Claude Bernard Lyon 1, 8/9/2016, Vincent Roca.</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">PhD : Karina Sokolova Perez, <i>Bridging the Gap between Privacy by Design and Mobile Systems by Patterns</i>, UTT Troyes, 27/04/2016, Daniel Le Métayer.</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">PhD: Tania Richmond, <i>Implantation sécurisée de protocoles cryptographiques basés sur les codes correcteurs d'erreurs</i>, Université de Saint-Etienne, 24/10/2016, Marine Minier.</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">PhD: Nora El Amrani, <i>Codes MDS additifs pour la cryptographie</i>, Université de Limoges, 24/02/2016, Marine Minier.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid189" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Interview</bodyTitle>
+        <p>Privatics team has participated to an episode of X:enius entitled: "Données personnelles : à quel point sommes-nous prévisibles ?". It features an interview of Claude Castelluccia, Daniel Le Métayer and Mathieu Cunche. The episode was broadcasted the 12th december 2016 on Arte.</p>
+      </subsection>
+      <subsection id="cid2" level="2">
+        <bodyTitle>Articles</bodyTitle>
+        <sanspuceslist>
+          <li id="uid190">
+            <p noindent="true">D. Le Métayer in <i>France Stratégie, Algorithmes, libertés et responsabilités</i>, 10/03/2016.</p>
+          </li>
+          <li id="uid191">
+            <p noindent="true">C. Castelluccia in Le Monde, <i>Que reproche-t-on au TES, le « mégafichier » des 60 millions de Français</i>, 08/11/2016.</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">M. Cunche and C. Matte in GNU/Linux Magazine HS 84, <i>Traçage Wi-Fi : applications et contre-mesures</i>, 05/2016.</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">M. Cunche in Arte Futuremag, <i>Données personnelles, nos smartphones nous espionnent-ils?</i>, 05/2016.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="cid3" level="2">
+        <bodyTitle>Conferences</bodyTitle>
+        <sanspuceslist>
+          <li id="uid194">
+            <p noindent="true">C. Castelluccia, <i>An Introduction to DataVeillance (Data + Surveillance)</i>, LIG UGA Keynote, 07/04/2016</p>
+          </li>
+          <li id="uid195">
+            <p noindent="true">V. Roca, <i>Vie privé et smartphones font ils bon ménage?</i>, Cours Université Ouverte, Lyon 1, cycle Impact de l’informatique sur la société et sur nos vies, 11/2016.</p>
+          </li>
+          <li id="uid196">
+            <p noindent="true">C. Lauradoux, <i>Email et vie privée: pourquoi utiliser GPG ?</i>, Cours Master 2, 01/12/2016</p>
+          </li>
+          <li id="uid197">
+            <p noindent="true">C. Lauradoux, <i>Cryptographie et grands nombres</i>, Olympiades académiques de Mathématiques, 04/07/2016</p>
+          </li>
+          <li id="uid198">
+            <p noindent="true">C. Lauradoux, <i>Cryptographie visuelle</i>, Collège/Lycée Jean Prévost, 01/06/2016</p>
+          </li>
+          <li id="uid199">
+            <p noindent="true">C. Lauradoux, <i>Cryptanalyse</i>, stage MathC2+, 06/2016</p>
+          </li>
+          <li id="uid200">
+            <p noindent="true">C. Lauradoux, <i>Protéger la confidentialité de ces messages</i>, Collège Paul Fort Is sur Tille, 04/10/2016</p>
+          </li>
+          <li id="uid201">
+            <p noindent="true">C. Lauradoux, <i>Internet et vie privée</i>, Collège Poncet Cluses, 15/12/2016</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="privatics-2016-bid18" type="book" rend="year" n="cite:lemetayer:hal-01420968">
+      <identifiant type="doi" value="10.2200/S00724ED1V01Y201607SPT017"/>
+      <identifiant type="hal" value="hal-01420968"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Privacy Risk Analysis</title>
+        <title level="s">Synthesis Lectures on Information Security, Privacy, and Trust</title>
+        <author>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Sourya Joyee</foreName>
+            <surname>De</surname>
+            <initial>S. J.</initial>
+          </persName>
+        </author>
+        <editor role="editor">
+          <persName>
+            <foreName>Elisa</foreName>
+            <surname>Bertino</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Ravi</foreName>
+            <surname>Sandhu</surname>
+            <initial>R.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">3</biblScope>
+          <publisher>
+            <orgName>Morgan &amp; Claypool Publishers</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">133</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01420968" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01420968</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid23" type="phdthesis" rend="year" n="cite:achara:tel-01386405">
+      <identifiant type="hal" value="tel-01386405"/>
+      <monogr>
+        <title level="m">Unveiling and Controlling Online Tracking</title>
+        <author>
+          <persName key="privatics-2014-idp85424">
+            <foreName>Jagdish Prasad</foreName>
+            <surname>Achara</surname>
+            <initial>J. P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Grenoble-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01386405" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01386405</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid22" type="phdthesis" rend="year" n="cite:kumar:tel-01385488">
+      <identifiant type="hal" value="tel-01385488"/>
+      <monogr>
+        <title level="m">Security and Privacy of Hash-Based Software Applications</title>
+        <author>
+          <persName key="privatics-2014-idp91520">
+            <foreName>Amrit</foreName>
+            <surname>Kumar</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Grenoble Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01385488" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01385488</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid14" type="incollection" rend="year" n="cite:lemetayer:hal-01247114">
+      <identifiant type="hal" value="hal-01247114"/>
+      <analytic>
+        <title level="a">Whom to trust? Using technology to enforce privacy</title>
+        <author>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>David</foreName>
+            <surname>Wright</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul De</foreName>
+            <surname>Hert</surname>
+            <initial>P. D.</initial>
+          </persName>
+        </editor>
+        <title level="m">Enforcing Privacy</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer </orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01247114" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247114</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid20" type="article" rend="year" n="cite:matte:hal-01419943">
+      <identifiant type="hal" value="hal-01419943"/>
+      <analytic>
+        <title level="a">Traçage Wi-Fi : applications et contre-mesures</title>
+        <author>
+          <persName key="privatics-2014-idp92744">
+            <foreName>Célestin</foreName>
+            <surname>Matte</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="privatics-2014-idp68928">
+            <foreName>Mathieu</foreName>
+            <surname>Cunche</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="no" x-international-audience="no" id="rid01358">
+        <idno type="issn">1291-7834</idno>
+        <title level="j">GNU Linux Magasine France</title>
+        <imprint>
+          <biblScope type="volume">HS 84</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419943" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419943</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid9" type="article" rend="year" n="cite:mattoussi:hal-01346126">
+      <identifiant type="hal" value="hal-01346126"/>
+      <analytic>
+        <title level="a">GLDPC-Staircase AL-FEC codes: A Fundamental study and New results</title>
+        <author>
+          <persName key="privatics-2014-idp93992">
+            <foreName>Ferdaouss</foreName>
+            <surname>Mattoussi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Bessam</foreName>
+            <surname>Sayadi</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00502">
+        <idno type="issn">1687-1472</idno>
+        <title level="j">EURASIP Journal on Wireless Communications and Networking</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01346126" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01346126</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid4" type="inproceedings" rend="year" n="cite:acs:hal-01399858">
+      <identifiant type="hal" value="hal-01399858"/>
+      <analytic>
+        <title level="a">Testing the robustness of anonymization techniques: acceptable versus unacceptable inferences</title>
+        <author>
+          <persName key="privatics-2014-idp71632">
+            <foreName>Gergely</foreName>
+            <surname>Acs</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="privatics-2014-idm28616">
+            <foreName>Claude</foreName>
+            <surname>Castelluccia</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The Brussels Privacy Symposium</title>
+        <loc>brussels, Belgium</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399858" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399858</ref>
+        </imprint>
+        <meeting id="cid117773">
+          <title>International Conference on Computers, Privacy and Data Protection</title>
+          <num>2016</num>
+          <abbr type="sigle">CPDP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid25" type="inproceedings" rend="year" n="cite:alaggan:hal-01376798">
+      <identifiant type="hal" value="hal-01376798"/>
+      <analytic>
+        <title level="a">Privacy-Preserving t-Incidence for WiFi-based Mobility Analytics</title>
+        <author>
+          <persName key="privatics-2016-idp47280">
+            <foreName>Mohammad</foreName>
+            <surname>Alaggan</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="privatics-2014-idp68928">
+            <foreName>Mathieu</foreName>
+            <surname>Cunche</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="privatics-2014-idp70184">
+            <foreName>Marine</foreName>
+            <surname>Minier</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">7e Atelier sur la Protection de la Vie Privée (APVP'16)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01376798" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01376798</ref>
+        </imprint>
+        <meeting id="cid404748">
+          <title>Atelier Protection de la Vie Privée</title>
+          <num>7</num>
+          <abbr type="sigle">APVP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid15" type="inproceedings" rend="year" n="cite:bringer:hal-01403885">
+      <identifiant type="doi" value="10.1007/978-3-319-41483-6_22"/>
+      <identifiant type="hal" value="hal-01403885"/>
+      <analytic>
+        <title level="a">Reasoning about privacy properties of architectures supporting group authentication and application to biometric systems</title>
+        <author>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Bringer</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Hervé</foreName>
+            <surname>Chabanne</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Lescuyer</foreName>
+            <surname>Roch</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Silvio</foreName>
+            <surname>Ranise</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Vipin</foreName>
+            <surname>Swarup</surname>
+            <initial>V.</initial>
+          </persName>
+        </editor>
+        <title level="m">30th Annual IFIP WG 11.3 Conference on Data and Applications Information Security and Privacy (DBSec 2016)</title>
+        <loc>Trento, Italy</loc>
+        <title level="s">Data and Applications Security and Privacy XXX</title>
+        <imprint>
+          <biblScope type="volume">9766</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">313-327</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01403885" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01403885</ref>
+        </imprint>
+        <meeting id="cid556440">
+          <title>IFIP WG 11.3 International Conference on Data and Applications Security and Privacy</title>
+          <num>30</num>
+          <abbr type="sigle">DBSec</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid7" type="inproceedings" rend="year" n="cite:demir:hal-01399967">
+      <identifiant type="hal" value="hal-01399967"/>
+      <analytic>
+        <title level="a">Improving dm-crypt performance for XTS-AES mode through extended requests: first results</title>
+        <author>
+          <persName key="privatics-2014-idp89088">
+            <foreName>Levent</foreName>
+            <surname>Demir</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="privatics-2015-idp100968">
+            <foreName>Mathieu</foreName>
+            <surname>Thiery</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="moais-2014-idm6944">
+            <foreName>Jean-Louis</foreName>
+            <surname>Roch</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Michel</foreName>
+            <surname>Tenkes</surname>
+            <initial>J.-M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">GreHack 2016. The 4th International Symposium on Research in Grey-Hat Hacking - aka GreHack</title>
+        <loc>Grenoble, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399967" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399967</ref>
+        </imprint>
+        <meeting id="cid624245">
+          <title>International Symposium on Research in Grey-Hat Hacking</title>
+          <num>2016</num>
+          <abbr type="sigle">GREHACK</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid28" type="inproceedings" rend="year" n="cite:dossantos:hal-01399831">
+      <identifiant type="hal" value="hal-01399831"/>
+      <analytic>
+        <title level="a">Ephemeral: Lightweight Pseudonyms for 6LowPAN Mac Addresses</title>
+        <author>
+          <persName key="privatics-2014-idp90320">
+            <foreName>Jessye</foreName>
+            <surname>Dos Santos</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Christine</foreName>
+            <surname>Hennebert</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="privatics-2014-idm25896">
+            <foreName>Cédric</foreName>
+            <surname>Lauradoux</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Fonbonne</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">27th Annual IEEE International Symposium on Personal, Indoor and Mobile Radio Communications - PIMRC 2016</title>
+        <loc>Valence, Spain</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399831" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399831</ref>
+        </imprint>
+        <meeting id="cid90001">
+          <title>IEEE International Symposium on Personal Indoor and Mobile Radio Communications</title>
+          <num>27</num>
+          <abbr type="sigle">PIMRC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid6" type="inproceedings" rend="year" n="cite:gerault:hal-01331222">
+      <identifiant type="hal" value="hal-01331222"/>
+      <analytic>
+        <title level="a">Constraint Programming Models for Chosen Key Differential Cryptanalysis</title>
+        <author>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Gerault</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="privatics-2014-idp70184">
+            <foreName>Marine</foreName>
+            <surname>Minier</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Christine</foreName>
+            <surname>Solnon</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">22nd International Conference on Principles and Practice of Constraint Programming (CP 2016)</title>
+        <loc>Toulouse, France</loc>
+        <title level="s">22nd International Conference on Principles and Practice of Constraint Programming (CP)</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01331222" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01331222</ref>
+        </imprint>
+        <meeting id="cid297305">
+          <title>International Conference on Principles and Practice of Constraint Programming</title>
+          <num>23</num>
+          <abbr type="sigle">CP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid2" type="inproceedings" rend="year" n="cite:gerbet:hal-01399829">
+      <identifiant type="doi" value="10.1109/DSN.2016.39"/>
+      <identifiant type="hal" value="hal-01399829"/>
+      <analytic>
+        <title level="a">A Privacy Analysis of Google and Yandex Safe Browsing</title>
+        <author>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Gerbet</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="privatics-2014-idp91520">
+            <foreName>Amrit</foreName>
+            <surname>Kumar</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="privatics-2014-idm25896">
+            <foreName>Cédric</foreName>
+            <surname>Lauradoux</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">46th IEEE/IFIP International Conference on Dependable Systems and Networks - DSN 2016</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01399829" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399829</ref>
+        </imprint>
+        <meeting id="cid31444">
+          <title>Annual IEEE/IFIP International Conference on Dependable Systems and Networks</title>
+          <num>46</num>
+          <abbr type="sigle">DSN</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid3" type="inproceedings" rend="year" n="cite:gulyas:hal-01321659">
+      <identifiant type="doi" value="10.1515/popets-2016-0051"/>
+      <identifiant type="hal" value="hal-01321659"/>
+      <analytic>
+        <title level="a">Near-Optimal Fingerprinting with Constraints</title>
+        <author>
+          <persName key="privatics-2015-idp84528">
+            <foreName>Gábor György</foreName>
+            <surname>Gulyás</surname>
+            <initial>G. G.</initial>
+          </persName>
+          <persName key="privatics-2014-idp71632">
+            <foreName>Gergely</foreName>
+            <surname>Acs</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="privatics-2014-idm28616">
+            <foreName>Claude</foreName>
+            <surname>Castelluccia</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">PET Symposium '16</title>
+        <loc>Darmstadt, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01321659" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01321659</ref>
+        </imprint>
+        <meeting id="cid404201">
+          <title>ACM Hot Topics in Privacy Enhancing Technologies</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid24" type="inproceedings" rend="year" n="cite:gulyas:hal-01380768">
+      <identifiant type="doi" value="10.1145/2994620.2994632"/>
+      <identifiant type="hal" value="hal-01380768"/>
+      <analytic>
+        <title level="a">An Efficient and Robust Social Network De-anonymization Attack</title>
+        <author>
+          <persName key="privatics-2015-idp84528">
+            <foreName>Gábor György</foreName>
+            <surname>Gulyás</surname>
+            <initial>G. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Benedek</foreName>
+            <surname>Simon</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Sándor</foreName>
+            <surname>Imre</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Workshop on Privacy in the Electronic Society</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01380768" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380768</ref>
+        </imprint>
+        <meeting id="cid447692">
+          <title>Workshop on Privacy in the Electronic Society</title>
+          <num>2016</num>
+          <abbr type="sigle">WPES</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid19" type="inproceedings" rend="year" n="cite:lemetayer:hal-01420983">
+      <identifiant type="hal" value="hal-01420983"/>
+      <analytic>
+        <title level="a">PRIAM: a Privacy Risk Analysis Methodology</title>
+        <author>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Sourya Joyee</foreName>
+            <surname>De</surname>
+            <initial>S. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Livraga</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>V.</foreName>
+            <surname>Torra</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Aldini</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Martinelli</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Suri</surname>
+            <initial>N.</initial>
+          </persName>
+        </editor>
+        <title level="m">Data Privacy Management and Security Assurance</title>
+        <loc>Heraklion, Greece</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01420983" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01420983</ref>
+        </imprint>
+        <meeting id="cid625366">
+          <title>International Workshop on Data Privacy Management and Security Assurance</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid5" type="inproceedings" rend="year" n="cite:lemetayer:hal-01403889">
+      <identifiant type="hal" value="hal-01403889"/>
+      <analytic>
+        <title level="a">Privacy Harm Analysis: a Case Study on Smart Grids</title>
+        <author>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Sourya Joyee</foreName>
+            <surname>De</surname>
+            <initial>S. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Workshop on Privacy Engineering (IWPE 2016)</title>
+        <loc>San Jose, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01403889" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01403889</ref>
+        </imprint>
+        <meeting id="cid624929">
+          <title>International Workshop on Privacy Engineering</title>
+          <num>2016</num>
+          <abbr type="sigle">IWPE</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid27" type="inproceedings" rend="year" n="cite:matte:hal-01330479">
+      <identifiant type="doi" value="10.1145/2939918.2942417"/>
+      <identifiant type="hal" value="hal-01330479"/>
+      <analytic>
+        <title level="a">DEMO: Panoptiphone: How Unique is Your Wi-Fi Device?</title>
+        <author>
+          <persName key="privatics-2014-idp92744">
+            <foreName>Célestin</foreName>
+            <surname>Matte</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="privatics-2014-idp68928">
+            <foreName>Mathieu</foreName>
+            <surname>Cunche</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ACM WiSec 2016</title>
+        <loc>Darmstadt, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01330479" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01330479</ref>
+        </imprint>
+        <meeting id="cid624243">
+          <title>ACM Conference on Security and Privacy in Wireless and Mobile Networks</title>
+          <num>9</num>
+          <abbr type="sigle">WISEC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid8" type="inproceedings" rend="year" n="cite:soro:hal-01320563">
+      <identifiant type="hal" value="hal-01320563"/>
+      <analytic>
+        <title level="a">Enhanced Recursive Reed-Muller Erasure Decoding</title>
+        <author>
+          <persName>
+            <foreName>Alexandre</foreName>
+            <surname>Soro</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérôme</foreName>
+            <surname>Lacan</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Valentin</foreName>
+            <surname>Savin</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="privatics-2014-idp68928">
+            <foreName>Mathieu</foreName>
+            <surname>Cunche</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName/>
+            <surname>IEEE</surname>
+            <initial/>
+          </persName>
+        </editor>
+        <title level="m">IEEE International Symposium on Information Theory (ISIT)</title>
+        <loc>Barcelona, Spain</loc>
+        <title level="s">IEEE International Symposium on Information Theory (ISIT)</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01320563" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01320563</ref>
+        </imprint>
+        <meeting id="cid89373">
+          <title>IEEE International Symposium on Information Theory</title>
+          <num>2012</num>
+          <abbr type="sigle">ISIT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid21" type="inproceedings" rend="year" n="cite:vanhoef:hal-01282900">
+      <identifiant type="doi" value="10.1145/2897845.2897883"/>
+      <identifiant type="hal" value="hal-01282900"/>
+      <analytic>
+        <title level="a">Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Network Discovery Mechanisms</title>
+        <author>
+          <persName>
+            <foreName>Mathy</foreName>
+            <surname>Vanhoef</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="privatics-2014-idp92744">
+            <foreName>Célestin</foreName>
+            <surname>Matte</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="privatics-2014-idp68928">
+            <foreName>Mathieu</foreName>
+            <surname>Cunche</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Leonardo</foreName>
+            <surname>Cardoso</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Frank</foreName>
+            <surname>Piessens</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ACM AsiaCCS</title>
+        <loc>Xi'an, China</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01282900" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01282900</ref>
+        </imprint>
+        <meeting id="cid24404">
+          <title>ACM Symposium on InformAtion, Computer and Communications Security</title>
+          <num>11</num>
+          <abbr type="sigle">ASIACCS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid17" type="techreport" rend="year" n="cite:de:hal-01420954">
+      <identifiant type="hal" value="hal-01420954"/>
+      <monogr>
+        <title level="m">A Risk-based Approach to Privacy by Design (Extended Version)</title>
+        <author>
+          <persName>
+            <foreName>Sourya Joyee</foreName>
+            <surname>De</surname>
+            <initial>S. J.</initial>
+          </persName>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">9001</biblScope>
+          <publisher>
+            <orgName type="institution">Inria - Research Centre Grenoble – Rhône-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">54</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01420954" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01420954</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid13" type="techreport" rend="year" n="cite:de:hal-01302541">
+      <identifiant type="hal" value="hal-01302541"/>
+      <monogr>
+        <title level="m">PRIAM: A Privacy Risk Analysis Methodology</title>
+        <author>
+          <persName>
+            <foreName>Sourya Joyee</foreName>
+            <surname>De</surname>
+            <initial>S. J.</initial>
+          </persName>
+          <persName key="privatics-2014-idp66104">
+            <foreName>Daniel</foreName>
+            <surname>Le Métayer</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8876</biblScope>
+          <publisher>
+            <orgName type="institution">Inria - Research Centre Grenoble – Rhône-Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01302541" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01302541</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid1" subtype="nonparu-n" type="unpublished" rend="year" n="cite:achara:hal-01302613">
+      <identifiant type="hal" value="hal-01302613"/>
+      <monogr>
+        <title level="m">MyTrackingChoices: Pacifying the Ad-Block War by Enforcing User Privacy Preferences</title>
+        <author>
+          <persName key="privatics-2014-idp85424">
+            <foreName>Jagdish Prasad</foreName>
+            <surname>Achara</surname>
+            <initial>J. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Javier</foreName>
+            <surname>Parra-Arnau</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="privatics-2014-idm28616">
+            <foreName>Claude</foreName>
+            <surname>Castelluccia</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01302613" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01302613</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted at The Workshop on the Economics of Information Security (WEIS), 2016</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid0" type="unpublished" rend="year" n="cite:achara:hal-01322286">
+      <identifiant type="hal" value="hal-01322286"/>
+      <monogr>
+        <title level="m">MobileAppScrutinator: A Simple yet Efficient Dynamic Analysis Approach for Detecting Privacy Leaks across Mobile OSs</title>
+        <author>
+          <persName key="privatics-2014-idp85424">
+            <foreName>Jagdish Prasad</foreName>
+            <surname>Achara</surname>
+            <initial>J. P.</initial>
+          </persName>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="privatics-2014-idm28616">
+            <foreName>Claude</foreName>
+            <surname>Castelluccia</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Aurelien</foreName>
+            <surname>Francillon</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01322286" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01322286</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid10" type="unpublished" rend="year" n="cite:parraarnau:hal-01270186">
+      <identifiant type="hal" value="hal-01270186"/>
+      <monogr>
+        <title level="m">MyAdChoices: Bringing Transparency and Control to Online Advertising</title>
+        <author>
+          <persName>
+            <foreName>Javier</foreName>
+            <surname>Parra-Arnau</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="privatics-2014-idp85424">
+            <foreName>Jagdish Prasad</foreName>
+            <surname>Achara</surname>
+            <initial>J. P.</initial>
+          </persName>
+          <persName key="privatics-2014-idm28616">
+            <foreName>Claude</foreName>
+            <surname>Castelluccia</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01270186" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01270186</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid16" type="misc" rend="year" n="cite:roca:hal-01345125">
+      <identifiant type="hal" value="hal-01345125"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Forward Error Correction (FEC) Framework version 2</title>
+        <author>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Ali</foreName>
+            <surname>Begen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01345125" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01345125</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Working document of the TSVWG (Transport Area Working Group) group of IETF (Internet Engineering Task Force)</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid12" type="misc" rend="year" n="cite:roca:hal-01178390">
+      <identifiant type="hal" value="hal-01178390"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Too Big or Too Small? The PTB-PTS ICMP-based Attack against IPsec Gateways</title>
+        <author>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="privatics-2015-idp93304">
+            <foreName>Saikou</foreName>
+            <surname>Fall</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">16</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01178390" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01178390</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Work in Progress document of the IPSECME (IP Security Maintenance and Extensions) of the IETF (Internet Engineering Task Force)</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid11" type="misc" rend="year" n="cite:roca:hal-01141470">
+      <identifiant type="hal" value="hal-01141470"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">FECFRAMEv2: Adding Sliding Encoding Window Capabilities to the FEC Framework: Problem Position</title>
+        <author>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">18</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01141470" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01141470</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Working document of the NWCRG (Network Coding Research Group) group of IRTF (Internet Research Task Force)</note>
+    </biblStruct>
+    
+    <biblStruct id="privatics-2016-bid26" type="unpublished" rend="year" n="cite:roca:hal-01395937">
+      <identifiant type="hal" value="hal-01395937"/>
+      <monogr>
+        <title level="m">Block or Convolutional AL-FEC Codes? A Performance Comparison for Robust Low-Latency Communications</title>
+        <author>
+          <persName key="privatics-2014-idp67496">
+            <foreName>Vincent</foreName>
+            <surname>Roca</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="privatics-2015-idp72152">
+            <foreName>Belkacem</foreName>
+            <surname>Teibi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Burdinat</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Tuan</foreName>
+            <surname>Tran</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Cédric</foreName>
+            <surname>Thienot</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01395937" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01395937</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

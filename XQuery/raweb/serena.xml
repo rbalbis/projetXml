@@ -1,0 +1,2429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="serena" isproject="true">
+    <shortname>SERENA</shortname>
+    <projectName>Simulation for the Environment: Reliable and Efficient Numerical Algorithms</projectName>
+    <theme-de-recherche>Earth, Environmental and Energy Sciences</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/serena</urlTeam>
+    <header_dates_team>Creation of the Team: 2015 June 01</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.3. - Functional programming</term>
+      <term>2.4.3. - Proofs</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.5. - Multiphysics modeling</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.5. - Numerical Linear Algebra</term>
+      <term>6.2.8. - Computational geometry and meshes</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>6.3.4. - Model reduction</term>
+      <term>6.3.5. - Uncertainty Quantification</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>3.1. - Sustainable development</term>
+      <term>3.3.1. - Earth and subsoil</term>
+      <term>3.4.2. - Industrial risks and waste</term>
+      <term>3.4.3. - Pollution</term>
+      <term>4.2.1. - Fission</term>
+      <term>5.5. - Materials</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Paris"/>
+    <moreinfo>
+      <p>The publications of the two members of SERENA from ENPC are not listed in the bibliography,
+since all administrative points of the creation of the SERENA team are not finalized
+for the moment. Consequently, A. Ern and L. Monasse as well as the Ph.D. students
+and post-docs from ENPC do not have yet the SERENA affiliation registered at the
+HAL preprint server.</p>
+    </moreinfo>
+  </identification>
+  <team id="uid1">
+    <person key="pomdapi-2014-idp107504">
+      <firstname>Martin</firstname>
+      <lastname>Vohralík</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="pomdapi-2014-idp13024">
+      <firstname>François</firstname>
+      <lastname>Clément</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="serena-2015-idp66008">
+      <firstname>Alexandre</firstname>
+      <lastname>Ern</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="pomdapi-2014-idp15520">
+      <firstname>Michel</firstname>
+      <lastname>Kern</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="serena-2015-idp68552">
+      <firstname>Laurent</firstname>
+      <lastname>Monasse</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, Associate Professor</moreinfo>
+    </person>
+    <person key="sage-2014-idp65592">
+      <firstname>Géraldine</firstname>
+      <lastname>Pichot</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="serena-2015-idp79712">
+      <firstname>Iain</firstname>
+      <lastname>Smears</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp108928">
+      <firstname>Pierre</firstname>
+      <lastname>Weis</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp113944">
+      <firstname>Sarah</firstname>
+      <lastname>Ali Hassan</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Contract with <ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref></moreinfo>
+    </person>
+    <person key="serena-2016-idp167056">
+      <firstname>Amina</firstname>
+      <lastname>Benaceur</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Cifre <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref></moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp115168">
+      <firstname>Nabil</firstname>
+      <lastname>Birgle</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until March 24th, 2016, Contract with <ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref></moreinfo>
+    </person>
+    <person key="serena-2016-idp175760">
+      <firstname>Pierre</firstname>
+      <lastname>Cantin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Cifre <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>, until November 14th, 2016</moreinfo>
+    </person>
+    <person key="serena-2016-idp180160">
+      <firstname>Karol</firstname>
+      <lastname>Cascavita</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, <ref xlink:href="http://www.univ-paris-est.fr/fr/labex-mmcd-modelisation-experimentation-pour-la-construction-durable/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Labex MMCD</ref></moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp116392">
+      <firstname>Fatma</firstname>
+      <lastname>Cheikh</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENIT-Lamsin (Tunisia), until October 12th, 2016</moreinfo>
+    </person>
+    <person key="serena-2015-idp73496">
+      <firstname>Jad</firstname>
+      <lastname>Dabaghi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, <ref xlink:href="https://project.inria.fr/gatipor/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ERC GATIPOR</ref></moreinfo>
+    </person>
+    <person key="serena-2015-idp74744">
+      <firstname>Patrik</firstname>
+      <lastname>Daniel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, <ref xlink:href="https://project.inria.fr/gatipor/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ERC GATIPOR</ref></moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp117720">
+      <firstname>Cédric</firstname>
+      <lastname>Josz</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Cifre <ref xlink:href="http://www.rte-france.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">RTE</ref>, until July 13th, 2016</moreinfo>
+    </person>
+    <person key="serena-2016-idp199872">
+      <firstname>Frédéric</firstname>
+      <lastname>Marazzato</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>since October 1st, 2016, Contract with <ref xlink:href="http://www.cea.fr/english-portal" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CEA</ref></moreinfo>
+    </person>
+    <person key="serena-2016-idp204176">
+      <firstname>Yannick</firstname>
+      <lastname>Masson</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, <ref xlink:href="http://www.univ-paris-est.fr/fr/labex-mmcd-modelisation-experimentation-pour-la-construction-durable/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Labex MMCD</ref></moreinfo>
+    </person>
+    <person key="serena-2016-idp208480">
+      <firstname>Nicolas</firstname>
+      <lastname>Pignet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Cifre <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>, since November 1st, 2016</moreinfo>
+    </person>
+    <person key="serena-2015-idp77232">
+      <firstname>Mohamed</firstname>
+      <lastname>Riahi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENIT-Lamsin (Tunisia), until October 12th, 2016</moreinfo>
+    </person>
+    <person key="serena-2016-idp215344">
+      <firstname>Rita</firstname>
+      <lastname>Riedlbeck</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Cifre <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref></moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp112704">
+      <firstname>Elyes</firstname>
+      <lastname>Ahmed</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris XIII, <ref xlink:href="http://dedales.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR DEDALES</ref></moreinfo>
+    </person>
+    <person key="serena-2016-idp224016">
+      <firstname>Thomas</firstname>
+      <lastname>Boiveau</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, since May 1st, 2016</moreinfo>
+    </person>
+    <person key="serena-2016-idp226512">
+      <firstname>Matteo</firstname>
+      <lastname>Cicuttin</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC, since February 1st, 2016</moreinfo>
+    </person>
+    <person key="gallium-2014-idp88312">
+      <firstname>Cindy</firstname>
+      <lastname>Crossouard</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until November 30,
+2016</moreinfo>
+    </person>
+    <person key="lifeware-2014-idp73408">
+      <firstname>Virginie</firstname>
+      <lastname>Collette</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, from December
+1st, 2016</moreinfo>
+    </person>
+    <person key="pomdapi-2014-idp125416">
+      <firstname>Hend</firstname>
+      <lastname>Ben Ameur</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>IPEST and ENIT-Lamsin (Tunisia), Professor, External Collaborator</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="pomdapi-2014-idp126680">
+      <firstname>Guy</firstname>
+      <lastname>Chavent</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris IX (retired), Professor Emeritus, External Collaborator</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="pomdapi-2014-idp11536">
+      <firstname>Jérôme</firstname>
+      <lastname>Jaffré</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria (retired), External Collaborator</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="pomdapi-2014-idp127976">
+      <firstname>Caroline</firstname>
+      <lastname>Japhet</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris XIII, Associate Professor, External Collaborator</moreinfo>
+    </person>
+    <person key="reo-2014-idp106312">
+      <firstname>Vincent</firstname>
+      <lastname>Martin</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UT Compiègne, Associate Professor, External Collaborator</moreinfo>
+    </person>
+    <person key="serena-2016-idp247648">
+      <firstname>Zoubida</firstname>
+      <lastname>Mghazli</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Université Ibn Tofail, Kenitra, Morocco, Professor, External Collaborator</moreinfo>
+    </person>
+    <person key="serena-2015-idp90624">
+      <firstname>Jean-Elizabeth</firstname>
+      <lastname>Roberts</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria (retired), External Collaborator</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="serena-2016-idp253104">
+      <firstname>Markus</firstname>
+      <lastname>Köppel</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>University of Stuttgart, PhD Student, Visiting
+Scientist</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The team SERENA is concerned with <b>numerical methods</b> for <b>environmental problems</b>. The main topics are the conception and analysis of
+<i>models</i> based on <i>partial differential equations</i>, the study of
+their <i>precise and efficient numerical approximation</i>, and implementation
+issues with special concern for <i>reliability and correctness of
+programs</i>. We are in particular interested in <i>guaranteeing</i> the <i>quality</i> of the <i>overall simulation process</i>. SERENA has taken over the
+project-team POMDAPI2 which ended on May 31, 2015. It has been given an
+authorization to become a joint project-team between Inria and ENPC at the
+Committee of Projects, September 1st, 2016.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Multiphysics coupling</bodyTitle>
+      <p>Within our project, we start from the conception and analysis of <i>models</i>
+based on <i>partial differential equations</i> (PDEs). Already at the PDE
+level, we address the question of <i>coupling</i> of different models;
+examples are that of simultaneous fluid flow in a discrete network of
+two-dimensional <i>fractures</i> and in the surrounding three-dimensional
+porous medium, or that of interaction of a compressible flow with the
+surrounding elastic <i>deformable structure</i>. The key physical
+characteristics need to be captured, whereas existence, uniqueness, and
+continuous dependence on the data are minimal analytic requirements that we
+seek to satisfy. At the modeling stage, we also develop model-order reduction
+techniques, such as the use of reduced basis techniques or proper generalized
+decompositions, to tackle evolutive problems, in particular in the nonlinear
+case.
+</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Structure-preserving discretizations and discrete element methods</bodyTitle>
+      <p>We consequently design <i>numerical methods</i> for the devised model.
+Traditionally, we have worked in the context of finite element, finite
+volume, mixed finite element, and discontinuous Galerkin methods. Novel
+classes of schemes enable the use of general <i>polygonal</i> and <i>polyhedral meshes</i> with <i>nonmatching interfaces</i>, and we develop them in
+response to a high demand from our industrial partners (namely <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref> and
+<ref xlink:href="http://www.ifpenergiesnouvelles.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IFP Energies Nouvelles</ref>). Our requirement is to derive <i>structure-preserving</i> methods,
+i.e., methods that mimic at the discrete level fundamental properties of the
+underlying PDEs, such as conservation principles and preservation of
+invariants. Here, the theoretical questions are closely linked to <i>differential geometry</i> for the lowest-order schemes. For the schemes we
+develop, we study existence, uniqueness, and stability questions, and derive
+a priori convergence estimates. Our special interest is in higher-order
+methods like the hybrid high-order method, which have recently begun to
+receive significant attention. Even though their use in practice may not be
+immediate, we believe that they represent the future generation of numerical
+methods for industrial simulations.
+</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Domain decomposition and Newton–Krylov (multigrid) solvers</bodyTitle>
+      <p>We next concentrate an intensive effort on the development and analysis of
+efficient solvers for the systems of nonlinear algebraic equations that
+result from the above discretizations. We have in the past developed <i>Newton–Krylov solvers</i> like the adaptive inexact Newton method, and we place
+a particular emphasis on <i>parallelization</i> achieved via the <i>domain
+decomposition</i> method. Here we traditionally specialize in <i>Robin
+transmission conditions</i>, where an optimized choice of the parameter has
+already shown speed-ups in orders of magnitude in terms of the number of
+domain decomposition iterations in model cases. We concentrate in the SERENA
+project on adaptation of these algorithms to the above novel discretization
+schemes, on the optimization of the free Robin parameter for challenging
+situations, and also on the use of the Ventcell transmission conditions.
+Another feature is the use of such algorithms in time-dependent problems in
+<i>space-time</i> domain decomposition that we have recently pioneered. This
+allows the use of different time steps in different parts of the
+computational domain and turns out to be particularly useful in porous media
+applications, where the amount of diffusion (permeability) varies abruptly,
+so that the evolution speed varies significantly from one part of the
+computational domain to another. Our new theme here are <i>Newton–multigrid solvers</i>, where the geometric multigrid solver is <i>tailored</i> to the specific problem under consideration and to the specific
+numerical method, with problem- and discretization-dependent restriction,
+prolongation, and smoothing. This in particular yields mass balance at each
+iteration step, a highly demanded feature in most of the target applications.
+The solver itself is then <i>adaptively steered</i> at each execution step by
+an a posteriori error estimate.
+</p>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Reliability by a posteriori error control</bodyTitle>
+      <p>The fourth part of our theoretical efforts goes towards guaranteeing the
+results obtained at the end of the numerical simulation. Here a key
+ingredient is the development of rigorous <i>a posteriori estimates</i> that
+make it possible to estimate in a fully computable way the error between the
+unknown exact solution and its numerical approximation. Our estimates also
+allow to distinguish the different <i>components</i> of the overall <i>error</i>, namely the errors coming from modeling, from the discretization
+scheme, from the nonlinear (Newton) solver, and from the linear algebraic
+(Krylov, domain decomposition, multigrid) solver. A new concept here is that
+of <i>local stopping criteria</i>, where all the error components are balanced
+locally within each computational mesh element. This naturally connects all
+parts of the numerical simulation process and gives rise to novel <i>fully
+adaptive algorithms</i>. We shall then address theoretically the question of
+convergence of the new algorithms and prove their numerical quasi-optimality,
+meaning that they need, up to a generic constant, the smallest possible
+number of degrees of freedom to achieve the given accuracy. We in particular
+seek to prove a guaranteed error reduction in terms of the number of degrees
+of freedom.
+</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Safe and correct programming</bodyTitle>
+      <p>Finally, we concentrate on the issue of computer implementation of scientific
+computing programs. Increasing complexity of algorithms for modern scientific
+computing makes it a major challenge to implement them in the traditional
+imperative languages popular in the community. As an alternative, the
+computer science community provides theoretically sound tools for <i>safe</i>
+and <i>correct programming</i>. We explore here the use of these tools to
+design generic solutions for the implementation of the class of scientific
+computing software that we deal with. Our focus ranges from high-level
+programming via <i>functional programming</i> with <ref xlink:href="http://ocaml.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">OCaml</span></ref> through safe and
+easy parallelism via <i>skeleton parallel programming</i> with <ref xlink:href="http://sklml.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">Sklml</span></ref> to
+proofs of correctness of numerical algorithms and programs via <i>mechanical proofs</i> with <ref xlink:href="https://coq.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">Coq</span></ref>.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid10">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Environmental problems</bodyTitle>
+      <p>We pursue <i>applications</i> of our theoretical results to current
+challenging <i>environmental problems</i> with numerous <i>academic
+collaborators</i> and with <i>industrial partners</i> such as <ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref>, <ref xlink:href="http://www.ifpenergiesnouvelles.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IFP Energies Nouvelles</ref>,
+<ref xlink:href="http://www.cea.fr/english-portal" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CEA</ref>, and <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>. We are traditionally interested in <i>porous media</i> for
+multiphase flows and transport of contaminants in the subsurface and
+concentrate on fractures, fracture networks, fractured porous media,
+subsurface depollution after chemical leakage, nuclear waste disposal in deep
+underground repositories, and geological sequestration of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi> CO </mi><mn>2</mn></msub></math></formula>. Among
+our newer themes, we count complex inviscid flows interacting with a
+mechanical deformable structure and Navier–Stokes flows. Such problems are
+encountered in energy production (operation of nuclear reactors) and safety
+assessment (shock waves resulting from an explosion impinging on a
+structure).
+</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid12">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>GEOFRACFLOW</bodyTitle>
+      <p>GEOFRACFLOW</p>
+      <p noindent="true"><span class="smallcap" align="left">Scientific Description</span>
+GEOFRACFLOW is a Matlab software for the simulation of steady state single
+phase flow in Discrete Fracture Networks (DFNs) using the Mixed Hybrid
+Finite Element (MHFEM) method for conforming and non conforming
+discretizations.</p>
+      <simplelist>
+        <li id="uid14">
+          <p noindent="true">Participants:
+Géraldine Pichot, Jocelyne Erhel, and Jean-Raynald De Dreuzy</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">Contact: Géraldine Pichot</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">URL: <ref xlink:href="https://bil.inria.fr/fr/software/view/2653/tab" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>bil.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>fr/<allowbreak/>software/<allowbreak/>view/<allowbreak/>2653/<allowbreak/>tab</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid17" level="1">
+      <bodyTitle>SBM</bodyTitle>
+      <p>Skew Brownian Motion</p>
+      <p noindent="true"><span class="smallcap" align="left">Scientific Description</span>
+SBM is a code allowing exact or approximated simulations of the Skew Brownian
+Motion. This code is used for the simulation, with a Monte-Carlo approach, of
+a 1D diffusion process with a discontinuous diffusion coefficient.
+Several benchmark tests are also implemented.</p>
+      <simplelist>
+        <li id="uid18">
+          <p noindent="true">Participants: Antoine Lejay, Géraldine Pichot</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Contact: Antoine Lejay</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">URL: <ref xlink:href="https://gforge.inria.fr/projects/sbm" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>projects/<allowbreak/>sbm</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Sklml</bodyTitle>
+      <p>The OCaml parallel skeleton system</p>
+      <p noindent="true"><span class="smallcap" align="left">Scientific Description</span>
+Writing parallel programs is not easy, and debugging them is usually a
+nightmare.
+To cope with these difficulties, the skeleton programming approach uses a
+set of predefined patterns for parallel computations.
+The skeletons are higher-order functional templates that describe the
+program underlying parallelism.
+Sklml is a new framework for parallel programming that embeds an innovative
+compositional skeleton algebra into the OCaml language.
+Thanks to its skeleton algebra, Sklml provides two evaluation regimes to
+programs: a regular sequential evaluation (merely used for prototyping and
+debugging) and a parallel evaluation obtained via a recompilation of the
+same source program in parallel mode.
+Sklml was specifically designed to prove that the sequential and parallel
+evaluation regimes coincide.</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+Sklml is a functional parallel skeleton compiler and programming system for
+OCaml programs.
+Slogan is “easy coarse grain parallelization”.</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">Participants: Pierre Weis and François Clément</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Contact: François Clément</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">URL: <ref xlink:href="http://sklml.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sklml.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid25">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Numerical algorithms for simulating diffusion processes in discontinuous media</bodyTitle>
+      <participants>
+        <person key="sage-2014-idp65592">
+          <firstname>Géraldine</firstname>
+          <lastname>Pichot</lastname>
+        </person>
+      </participants>
+      <p>Grants: H2MN04 <ref xlink:href="#uid40" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+      <p>Software: SBM <ref xlink:href="#uid17" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+      <p>Publications: <ref xlink:href="#serena-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+      <p>We present several benchmark tests for Monte Carlo methods simulating diffusion in one-dimensional discontinuous media. These benchmark tests aim at studying the potential bias of the schemes and their impact on the estimation of micro- or macroscopic quantities (repartition of masses, fluxes, mean residence time,...). These benchmark tests are backed by a statistical analysis to filter out the bias from the unavoidable Monte Carlo error. We apply them on four different algorithms. The results of the numerical tests give a valuable insight of the fine behavior of these schemes, as well as rules to choose between them.</p>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Locally space-time efficient estimates for parabolic problems</bodyTitle>
+      <participants>
+        <person key="pomdapi-2014-idp107504">
+          <firstname>Martin</firstname>
+          <lastname>Vohralík</lastname>
+        </person>
+        <person key="serena-2015-idp66008">
+          <firstname>Alexandre</firstname>
+          <lastname>Ern</lastname>
+        </person>
+        <person key="serena-2015-idp79712">
+          <firstname>Iain</firstname>
+          <lastname>Smears</lastname>
+        </person>
+      </participants>
+      <p>Grants: GATIPOR <ref xlink:href="#uid44" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+      <p>Publications: <ref xlink:href="#serena-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+      <p>In <ref xlink:href="#serena-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we derive for the first time a posteriori error
+estimates for parabolic problems which are both globally reliable and locally
+space-time efficient. By this, one means that the error between a known
+approximate numerical solution and the unknown exact solution of a model
+parabolic PDE (the heat equation) is bounded from above on the whole
+space-time domain by a fully computable estimator, while this estimator does not
+overestimate significantly the error and localizes it both in space and in
+time. More precisely, the estimator also gives lower bounds on the error, up to a generic constant,
+and this on each time interval and in a small neighborhood of each space mesh
+element. We consider arbitrarily high-order conforming Galerkin spatial
+discretizations and arbitrarily high-order discontinuous Galerkin temporal
+discretizations, and the error is measured in a norm composed of the
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>L</mi><mn>2</mn></msup><mrow><mo>(</mo><msup><mi>H</mi><mn>1</mn></msup><mo>)</mo></mrow><mo>∩</mo><msup><mi>H</mi><mn>1</mn></msup><mrow><mo>(</mo><msup><mi>H</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>)</mo></mrow></mrow></math></formula>-norm augmented by the temporal jumps of the
+numerical solution. The efficiency constant is robust with respect to
+(independent of) any mesh-size, time-step size, and the spatial and temporal
+polynomial degrees. The proposed estimators also have the practical advantage
+of not imposing any requirement on coarsening between the consecutive
+time steps.</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid28">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid30">
+          <p noindent="true">Three-parts contract Inria–<ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>–<ref xlink:href="http://www.sciworkstech.com/en/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Sciworks Technologies</ref> (November
+2015–April 2016) on “Form-L for the formalization of constraints of
+complex systems”.</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">Contract Inria–<ref xlink:href="http://www.ifpenergiesnouvelles.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IFP Energies Nouvelles</ref> (December 2016–December 2017) on “A posteriori error analysis for porous media flow problems with fractures”.</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">Numerous contracts accompanying Ph.D. theses and post-doc positions,
+see Section  <ref xlink:href="#uid1" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid33">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <descriptionlist>
+        <label><ref xlink:href="http://labex-digicosme.fr/GT+ELFIC" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">GT Elfic</ref> (Labex DigiCosme, 2014–2016):</label>
+        <li id="uid35">
+          <p noindent="true">“Formal proof for finite element programs”,
+with
+<ref xlink:href="http://toccata.lri.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">Toccata</span></ref> (Inria Saclay - Île-de-France),
+<ref xlink:href="http://www-list.cea.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CEA LIST</ref>,
+<ref xlink:href="http://lipn.univ-paris13.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LIPN</ref> (Université de Paris 13),
+and <ref xlink:href="http://www.lmac.utc.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LMAC</ref> (Université de Technologie de Compiègne).</p>
+        </li>
+      </descriptionlist>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid37" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <descriptionlist>
+          <label><ref xlink:href="http://dedales.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR
+DEDALES</ref>:</label>
+          <li id="uid38">
+            <p noindent="true">“Algebraic and geometric domain decomposition for subsurface
+flow”. The project aims at developing high performance software for
+the simulation of two phase flow in porous media. It
+specifically targets parallel computers where each node is itself
+composed of a large number of processing cores, such as are found in
+new generation many-core architectures. The project had its intermediate review in December 2016, and received
+excellent marks from the expert panel.</p>
+            <p>The partners are <ref xlink:href="https://team.inria.fr/hiepacs/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">Hiepacs</span></ref>, <ref xlink:href="https://www.math.univ-paris13.fr/laga/index.php/fr/laboratoire" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Laboratoire Analyse, Géométrie et Application, University Paris 13</ref>, <ref xlink:href="http://www.maisondelasimulation.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Maison de la Simulation</ref>, and <ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref>. SERENA representants are M. Kern (grant
+leader) and M. Vohralík, period 2014–2017.</p>
+          </li>
+          <label><ref xlink:href="https://www.ljll.math.upmc.fr/cances/ANR-GEOPOR/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR
+GEOPOR</ref>:</label>
+          <li id="uid39">
+            <p noindent="true">“Geometrical approach for porous media flows: theory and
+numerics”. A new approach to numerical methods for multiphase
+simulations based on the concept of gradient flows is investigated. With
+<ref xlink:href="https://www.ljll.math.upmc.fr/en/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Laboratoire Jacques-Louis Lions</ref>, University Pierre and Marie Curie. SERENA representant is M.
+Vohralík, period 2013–2017.</p>
+          </li>
+          <label><ref xlink:href="http://h2mno4.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR H2MNO4</ref>:</label>
+          <li id="uid40">
+            <p noindent="true">
+“Original optimized object-oriented numerical model
+for heterogeneous hydrogeology”. The project H2MNO4 develops numerical
+models for reactive transport in heterogeneous media. The objective is to
+design both Eulerian and Lagrangian models. Three applications are
+concerned: freshwater supply, remediation of mine drainage, and waste
+geological disposal. The project relies on a consortium of six partners,
+involving four public research laboratories (<ref xlink:href="http://www.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Inria</ref>, <ref xlink:href="https://geosciences.univ-rennes1.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Geosciences Rennes</ref>, <ref xlink:href="http://www.univ-lyon1.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">University of Lyon 1</ref>,
+<ref xlink:href="https://www.pprime.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">University of Poitiers, Pprime Institute</ref>), one public institution (<ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref>), and one enterprise (<ref xlink:href="http://www.itasca.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ITASCA</ref>).
+International collaborations are pursued with <ref xlink:href="http://www.sandiego.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">University of San Diego (USA)</ref> and <ref xlink:href="http://www.upc.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">UPC (Spain)</ref>.
+SERENA representant is G. Pichot, period
+2012–2016.</p>
+          </li>
+          <label><ref xlink:href="http://www.agence-nationale-recherche.fr/?Project=ANR-15-CE40-0005" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR HHOMM</ref>:</label>
+          <li id="uid41">
+            <p noindent="true">“Hybrid high-order methods on polyhedral meshes”, Theoretical
+foundations and applications (up to software development) for the
+recently-devised Hybrid high-order methods. Coordinated by D. Di Pietro,
+University of Montpellier. SERENA representant is A. Ern, period 2015–2019.</p>
+          </li>
+          <label><ref xlink:href="https://www-sop.inria.fr/c2s_at_exa/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">C2S@Exa</ref>:</label>
+          <li id="uid42">
+            <p noindent="true">“Computer and Computational Sciences at Exascale”. This is an Inria
+Project Lab (IPL). This national initiative aims at the
+development of numerical modeling methodologies that fully
+exploit the processing capabilities of modern massively parallel
+architectures in the context of a number of selected
+applications related to important scientific and
+technological challenges for the quality and the security of
+life in our society. This project supported in particular the
+Ph.D. of N. Birgle in the framework of the <ref xlink:href="http://www.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Inria</ref>–<ref xlink:href="http://www.andra.fr/international/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANDRA</ref> collaboration.</p>
+          </li>
+        </descriptionlist>
+      </subsection>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid44" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <descriptionlist>
+          <label><ref xlink:href="https://project.inria.fr/gatipor/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ERC GATIPOR</ref>:</label>
+          <li id="uid45">
+            <p noindent="true">“Guaranteed fully adaptive algorithms with tailored
+inexact solvers for complex porous media flows”. The subject of this
+project are new approaches to porous media multiphase flows: inexact
+Newton-multigrid solvers, local stopping criteria, adaptivity, and a
+posteriori error control. The goal is to guarantee the overall simulation
+error and to speed-up importantly the present-day simulations. SERENA
+representant is M. Vohralík (grant leader), period 2015–2020.</p>
+          </li>
+          <label><ref xlink:href="http://www.eocoe.eu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EoCoE</ref>:</label>
+          <li id="uid46">
+            <p noindent="true">“Energy Oriented Center of Excellence” This project is
+coordinated by <ref xlink:href="http://www.maisondelasimulation.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Maison de la Simulation</ref>and gathers 23 partners from 13 countries to use
+the tremendous potential offered by the ever-growing computing
+infrastructure to foster and accelerate the European transition to a
+reliable low carbon energy supply using HPC (High Performance Computing).
+SERENA representant M. Kern, period 2015–2018.</p>
+          </li>
+        </descriptionlist>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <subsection id="uid48" level="3">
+          <bodyTitle>ITEA 3</bodyTitle>
+          <sanspuceslist>
+            <li id="uid49">
+              <p noindent="true">Program: ITEA 3</p>
+            </li>
+            <li id="uid50">
+              <p noindent="true">Project acronym: OPENCPS</p>
+            </li>
+            <li id="uid51">
+              <p noindent="true">Project title: Open cyber-physical system model-driven certified
+development</p>
+            </li>
+            <li id="uid52">
+              <p noindent="true">Duration: Dec 2015–Dec 2018</p>
+            </li>
+            <li id="uid53">
+              <p noindent="true">Coordinator: Magnus Eek</p>
+            </li>
+            <li id="uid54">
+              <p noindent="true">Other partners: AB SKF, <ref xlink:href="http://www.cea.fr/english-portal" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CEA</ref>, ELTE-Soft Kft., ESI Group, <ref xlink:href="https://www.edf.fr/en/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>,
+Wqua Simulation AB, Ericsson, IncQuery Labs Kft., KTH, Linköping
+University, <ref xlink:href="http://www.rte-france.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">RTE</ref>, SICS, SIREHNA, Saab AB, Sherpa Engineering, Siemens
+Industrial Torbumachinery AB, VTT Technical Research Center of Finland Ltd.</p>
+            </li>
+            <li id="uid55">
+              <p noindent="true">Abstract: Cyber-physical systems put increasing demands on reliability,
+usability, and flexibility while, at the same time, lead time and cost
+efficiency are essential for industry competitiveness. Tools and environments
+for model-based development of cyber-physical systems are becoming
+increasingly complex and critical for the industry: tool interoperability,
+vendor lock-ins, and tool life-cycle support are some of the challenges. The
+project focuses on interoperability between the standards Modelica/UML/FMI,
+improved execution speed of (co-)simulation, and certified code generation.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid56" level="3">
+          <bodyTitle>ERC CZ</bodyTitle>
+          <sanspuceslist>
+            <li id="uid57">
+              <p noindent="true">Program: Research, Development and Innovation Council
+of the Czech Republic</p>
+            </li>
+            <li id="uid58">
+              <p noindent="true">Project acronym: <ref xlink:href="http://more.karlin.mff.cuni.cz/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">MoRe</ref></p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">Project title: Implicitly constituted material models:
+from theory through model reduction to efficient numerical
+methods</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Duration: September 2012 – September 2017</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Coordinator: Josef <span class="smallcap" align="left">Málek</span>, <ref xlink:href="http://www.cuni.cz/UKENG-1.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Charles University in Prague</ref>. SERENA representant is M. Vohralík.</p>
+            </li>
+            <li id="uid62">
+              <p noindent="true">Other partners: <ref xlink:href="http://www.math.cas.cz/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Institute of Mathematics, Czech Academy of Sciences</ref>; <ref xlink:href="http://www.ox.ac.uk/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">University of Oxford</ref></p>
+            </li>
+            <li id="uid63">
+              <p noindent="true">Abstract: A multidisciplinary project on nonlinear
+Navier–Stokes flows with implicit constitutive laws. It focuses
+on development of accurate, efficient, and robust numerical
+methods for simulations of the new class of implicit models.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>H. Ben Ameur,
+Professor at IPEST and member of ENIT-Lamsin, Tunis, Tunisia,
+November 1–15, 2016.</p>
+        <p>G. Hammond, Applied Systems Analysis and Research
+Sandia National Laboratories, USA, April 18, 2016.</p>
+        <p>M. Köppel, Ph.D. student, University of Stuttgart, Germany, October 1–December 31, 2016.</p>
+        <p>Z. Strakoš, Professor at the Charles University in Prague, April, 17–21, 2016.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid66">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid67" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid69" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <sanspuceslist>
+            <li id="uid70">
+              <p noindent="true">A. Ern co-organized with D. Di Pietro and L. Formaggia the IHP Thematic Quarter on Numerical methods for PDEs from September 5th to December 16th, 2016.</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">M. Vohralík co-organized, together with I. Vignon-Clémentel
+from the project-team <ref xlink:href="https://team.inria.fr/reo/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">REO</span></ref>, the monthly <i>Scientific computing, modeling, and numerical analysis</i>
+seminar (“Rencontres Inria-LJLL en calcul scientifique”),
+see the web page
+<ref xlink:href="https://project.inria.fr/rencontresljll/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>rencontresljll/</ref>, until July, 2016. Since September, 2016, I. Smears co-organizes this seminar together with C. Grandmont from the project-team <ref xlink:href="https://team.inria.fr/reo/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><span class="smallcap" align="left">REO</span></ref>.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid72" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid73" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <sanspuceslist>
+            <li id="uid74">
+              <p noindent="true">A. Ern and M. Vohralík are members of the Scientific Committee of the <ref xlink:href="http://www.uib.no/en/enumath2017" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ENUMATH 2017</ref> conference (Voss, Norway).</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">M. Vohralík is a member of the Scientific Committee of the <ref xlink:href="https://indico.math.cnrs.fr/event/1299/page/8" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Finite Volumes for Complex
+Applications 8</ref> conference (Lille, France).</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid76" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid77" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <sanspuceslist>
+            <li id="uid78">
+              <p noindent="true">A. Ern is a member of the editorial boards of <ref xlink:href="https://www.siam.org/journals/sisc.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">SIAM
+Journal on Scientific Computing</ref>, <ref xlink:href="http://www.esaim-m2an.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ESAIM Mathematical Modelling and Numerical
+Analysis</ref>, <ref xlink:href="http://imajna.oxfordjournals.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IMA Journal of
+Numerical Analysis</ref>, <ref xlink:href="http://www.degruyter.com/view/j/cmam" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Computational Methods in Applied
+Mathematics</ref>, and <ref xlink:href="http://jep.cedram.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Journal de l'Ecole
+polytechnique, Mathématiques</ref>.</p>
+            </li>
+            <li id="uid79">
+              <p noindent="true">M. Vohralík is a member of the editorial boards
+of <ref xlink:href="https://www.siam.org/journals/sinum.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">SIAM Journal on Numerical
+Analysis</ref> and of <ref xlink:href="http://ctn.cvut.cz/ap" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Acta Polytechnica</ref>.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid80" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <sanspuceslist>
+            <li id="uid81">
+              <p noindent="true">M. Kern was a reviewer for the journal Mathematics and Computers in Simulation, Electron. Trans. Numer. Anal., and Oil and Gas
+Science and Technology,</p>
+            </li>
+            <li id="uid82">
+              <p noindent="true">L. Monasse was a reviewer for J. Comput. Phys. and J. Comput. Particle Mech.</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">A. Ern and M. Vohralík served as reviewers for tens of papers in different journals.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <sanspuceslist>
+          <li id="uid85">
+            <p noindent="true">A. Ern, plenary speaker, <ref xlink:href="https://www.eccomas2016.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ECCOMAS 2016</ref>, Crete.</p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">A. Ern, plenary speaker, <ref xlink:href="http://www.ci2ma.udec.cl/wonapde2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">WONAPDE 2016</ref>, Concepción, Chile.</p>
+          </li>
+          <li id="uid87">
+            <p noindent="true">M. Kern, minisymposium speaker at the German Priority
+Programme, Software for Exascale Computing, Germany.</p>
+          </li>
+          <li id="uid88">
+            <p noindent="true">M. Vohralík, invited speaker, <ref xlink:href="http://web.mat.bham.ac.uk/A.Bespalov/adapt16_workshop/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Adaptive
+algorithms for computational PDEs</ref>, Birmingham, Great Britain.</p>
+          </li>
+          <li id="uid89">
+            <p noindent="true">M. Vohralík, plenary speaker, <ref xlink:href="http://www.ci2ma.udec.cl/wonapde2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">WONAPDE 2016</ref>, Concepción, Chile.</p>
+          </li>
+          <li id="uid90">
+            <p noindent="true">M. Vohralík, plenary speaker, <ref xlink:href="http://www.math.sk/alg2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ALGORITMY 2016</ref>, Podbanske, Slovakia.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <sanspuceslist>
+          <li id="uid92">
+            <p noindent="true">M. Kern was a member of the nominating committee for the SIAM Activity
+Group on Geosciences.</p>
+          </li>
+          <li id="uid93">
+            <p noindent="true">M. Kern is a reviewer for the German Supercomputing Center JARA program.</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">M. Kern is a member of the Scientific Committee of
+<ref xlink:href="http://orap.irisa.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Orap</ref>
+(ORganisation Associative du Parallélisme), of the Scientific Board of
+<ref xlink:href="http://calcul.math.cnrs.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">GDR Calcul</ref> and of the jury and
+executive board of <ref xlink:href="http://c3i.genci.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Label C3I</ref>.</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true">M. Vohralík is a member of the steering committee of <ref xlink:href="http://www.geosciences-franciliennes.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">GIS Géosciences franciliennes</ref>.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid96" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <sanspuceslist>
+          <li id="uid97">
+            <p noindent="true">F. Clément is a member of the
+<i>Comité local d'hygiène, de sécurité et des conditions de travail</i>
+of the Inria Research Center of Paris.</p>
+          </li>
+          <li id="uid98">
+            <p noindent="true">F. Clément is the <i>correspondant Inria-entreprise</i> of the Inria
+Research Center of Paris for <ref xlink:href="http://www.agence-maths-entreprises.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">AMIES</ref>.</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">M. Kern is Deputy Director of <ref xlink:href="http://www.maisondelasimulation.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Maison de la Simulation</ref>, a joint project between CEA, CNRS, Inria, Université de Paris 11, and Université de Versailles,
+focused on applications of high end computing.</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">M. Kern is a member of the <i>Comité de site</i> of the Inria center of Paris.</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">G. Pichot is a member of the <i>Comité local d'hygiène, de sécurité et des conditions de travail</i> of the Inria center of Paris.</p>
+          </li>
+          <li id="uid102">
+            <p noindent="true">G. Pichot is member of the Conseil de département MAM of Polytech Lyon.</p>
+          </li>
+          <li id="uid103">
+            <p noindent="true">G. Pichot is member of the Commission de developpement technologique (CDT) of the Inria center of Paris.</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">G. Pichot is a member of the CES commission of the Inria center of Paris.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid105" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid107">
+            <p noindent="true">A. Ern, Analyse numérique et optimisation, 78h, L3, Ecole Polytechnique (professeur chargé de cours), France.</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">A. Ern, Méthodes de Galerkine Discontinu, 20h, M2 Mathématiques de la modélisation, Paris 6, France.</p>
+          </li>
+          <li id="uid109">
+            <p noindent="true">M. Kern, Modélisation et simulation des écoulements de fluides dans la géosphère (with E. Mouche, CEA), 30h, M2
+Mathématiques et Applications (parcours Analyse, Modélisation et Simulation), Université Paris Saclay, France.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">M. Kern, Eléments finis (avec D. Ryckelynck), 30h, 2nd year students, Ecole Mines-ParisTech, France.</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">M. Kern, Problèmes inverses, 24 h, 2nd year students, Ecole Mines-ParisTech, France.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">M. Kern, Analyse numérique avancée, 20h, 3rd year students, MACS, Université Paris Nord, France.</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">L. Monasse, Analyse et Calcul Scientifique, 30h, L3, ENPC, France.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">M. Vohralík, A posteriori error estimates
+for efficiency and error control in numerical simulations, 36h, M2, Charles University in Prague, Czech Republic.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">M. Vohralík, A posteriori error estimates and
+adaptive error components balancing in numerical simulations, summer school “IHP
+quarter on Numerical Methods for PDEs”, Cargèse, Corsica &amp; Paris, France, 15h.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid116" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid117">
+            <p noindent="true">PhD: N. Birgle,
+<i>Underground flow, numerical methods and high performance computing</i>,
+University Paris VI,
+defended on March 24th, 2016,
+advisor J. Jaffré, co-advisor J. E. Roberts.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">PhD: F. Cheikh,
+<i>Identification of fractures in a porous medium by a method of indicators</i>,
+University Paris VI and University of Tunis El Manar,
+defended on October 12th, 2016,
+advisors J. E. Roberts and H. Ben Ameur, co-advisors V. Martin and F. Clément.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">PhD: M. H. Riahi,
+<i>Identification of hydrogeological parameters in a porous medium</i>,
+University Paris VI and University of Tunis El Manar,
+defended on October 12th, 2016,
+advisors J. Jaffré and H. Ben Ameur.</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">PhD in progress: S. Ali Hassan,
+<i>A posteriori error estimates and stopping criteria for domain
+decomposition solvers with local time stepping</i>,
+University Paris VI,
+November 2013,
+advisor M. Vohralík, co-advisors C. Japhet and M. Kern.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">PhD in progress: J. Dabaghi,
+<i>Adaptive modeling via complementarity of phase appearance and
+disappearance in fractured and porous media</i>,
+University Paris VI,
+November 2015,
+advisor M. Vohralík, co-advisor V. Martin.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">PhD in progress: P. Daniel,
+<i>Adaptive multilevel solvers with a posteriori error control for porous media flows</i>
+University Paris VI,
+October 2015,
+advisor M. Vohralík, co-advisor A. Ern.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">PhD students at ENPC are listed in Section  <ref xlink:href="#uid1" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid124" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid125">
+            <p noindent="true">A. Ern, external examiner of the PhD of Z. Dong, University of Leicester, November 24, 2016.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">A. Ern, chair of jury of the PhD of M. Giacomini, Ecole
+Polytechnique, December 9, 2016.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">M. Kern, jury member for the PhD of V. Groza, Identification de paramètres et analyses de sensibilité pour
+un modèle d’usinage par jet d’eau abrasif, Université de Nice, November 9, 2016.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">M. Kern, jury member for the PhD of M. Massaro, Méthodes numériques pour les plasmas sur architectures
+multicoeurs, Université de Strasbourg, December 16, 2016.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">M. Kern, jury member for the Habilitation of Y. Mesri, Méthodes numériques massivement parallèles à base
+de maillages non structurés adaptatifs et anisotropes pour la mécanique numérique, Université de Nice,
+December 19, 2016.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">G. Pichot, jury member of the PhD of A. Botella, Unstructured volumetric meshing of geological models for physical phenomenon simulations, University of Lorraine, April, 1st, 2016.</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">G. Pichot, jury member of the PhD of A. Dartois, Study of the macro-dispersion of inert particles in highly heterogeneous 3D porous media, University of Poitiers, December, 14, 2016.</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">M. Vohralík, reviewer and jury member of the PhD of R. Tittarelli, University Lille 1, September 27, 2016.</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">M. Vohralík, chair of jury of the PhD of M. Groza, Université de Nice, November 10, 2016.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid134" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <sanspuceslist>
+        <li id="uid135">
+          <p noindent="true">F. Clément was member of the Organizing Committee of the
+<i>17e Salon Culture &amp; Jeux Mathématiques</i>, held in Paris, 26–29 May,
+2016.
+He was member of the Editorial Board of the <i>Maths Société Express</i>
+booklet distributed during the exhibition.
+He was also coordinator of the Maths-Enterprises booth for <ref xlink:href="http://www.agence-maths-entreprises.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">AMIES</ref>.</p>
+        </li>
+        <li id="uid136">
+          <p noindent="true">F. Clément realized, with the Communication Department of the Inria
+Research Center of Paris, an exhibition illustrating the results of the
+<i>Etude de l'impact socio-économique des mathématiques en France</i>
+sponsored by <ref xlink:href="http://www.agence-maths-entreprises.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">AMIES</ref>, <ref xlink:href="http://www.sciencesmaths-paris.fr/en/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">FSMP</ref>, and <ref xlink:href="https://www.fondation-hadamard.fr/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">FMJH</ref>.</p>
+        </li>
+        <li id="uid137">
+          <p noindent="true">F. Clément coordinated an article about <ref xlink:href="http://www.agence-maths-entreprises.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">AMIES</ref> in the magazine PLOT
+published by the
+<i>Association des Professeurs de Mathématiques de l'Enseignement Public</i>.</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+    <p>Major publications by the team in recent years: <ref xlink:href="#serena-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#serena-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#serena-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#serena-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#serena-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#serena-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#serena-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#serena-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#serena-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#serena-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="serena-2016-bid2" type="article" rend="refer" n="refercite:bol:wen:13ref">
+      <identifiant type="doi" value="10.1007/s10817-012-9255-4"/>
+      <analytic>
+        <title level="a">Wave equation numerical resolution: a comprehensive mechanized proof of a C program</title>
+        <author>
+          <persName key="toccata-2014-idp66880">
+            <foreName>Sylvie</foreName>
+            <surname>Boldo</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp13024">
+            <foreName>François</foreName>
+            <surname>Clément</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="toccata-2014-idp71016">
+            <foreName>Jean-Christophe</foreName>
+            <surname>Filliâtre</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Micaela</foreName>
+            <surname>Mayero</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="toccata-2014-idp72472">
+            <foreName>Guillaume</foreName>
+            <surname>Melquiond</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp108928">
+            <foreName>Pierre</foreName>
+            <surname>Weis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Automated Reasoning</title>
+        <imprint>
+          <biblScope type="volume">50</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">423–456</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s10817-012-9255-4" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s10817-012-9255-4</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid3" type="article" rend="refer" n="refercite:bol:tcm:14ref">
+      <identifiant type="doi" value="10.1016/j.camwa.2014.06.004"/>
+      <analytic>
+        <title level="a">Trusting computations: A mechanized proof from partial differential equations to actual program</title>
+        <author>
+          <persName key="toccata-2014-idp66880">
+            <foreName>Sylvie</foreName>
+            <surname>Boldo</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp13024">
+            <foreName>François</foreName>
+            <surname>Clément</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="toccata-2014-idp71016">
+            <foreName>Jean-Christophe</foreName>
+            <surname>Filliâtre</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Micaela</foreName>
+            <surname>Mayero</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="toccata-2014-idp72472">
+            <foreName>Guillaume</foreName>
+            <surname>Melquiond</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp108928">
+            <foreName>Pierre</foreName>
+            <surname>Weis</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computers and Mathematics with Applications</title>
+        <imprint>
+          <biblScope type="volume">68</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">325–352</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.camwa.2014.06.004" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>camwa.<allowbreak/>2014.<allowbreak/>06.<allowbreak/>004</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid4" type="article" rend="refer" n="refercite:Ern_Voh_adpt_IN_13">
+      <identifiant type="doi" value="10.1137/120896918"/>
+      <analytic>
+        <title level="a">Adaptive inexact Newton methods with a posteriori stopping criteria for nonlinear diffusion PDEs</title>
+        <author>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Sci. Comput.</title>
+        <imprint>
+          <biblScope type="volume">35</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">A1761–A1791</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/120896918" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>120896918</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid5" type="article" rend="refer" n="refercite:Ern_Voh_p_rob_15">
+      <identifiant type="doi" value="10.1137/130950100"/>
+      <analytic>
+        <title level="a">Polynomial-degree-robust a posteriori estimates in a unified setting for conforming, nonconforming, discontinuous Galerkin, and mixed discretizations</title>
+        <author>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numer. Anal.</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">1058–1081</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/130950100" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>130950100</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid6" type="article" rend="refer" n="refercite:Hoa_Jaff_Japh_Kern_Rob_ST_DD_13">
+      <identifiant type="doi" value="10.1137/130914401"/>
+      <analytic>
+        <title level="a">Space-time domain decomposition methods for diffusion problems in mixed formulations</title>
+        <author>
+          <persName>
+            <foreName>Thi-Thao-Phuong</foreName>
+            <surname>Hoang</surname>
+            <initial>T.-T.-P.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp11536">
+            <foreName>Jérôme</foreName>
+            <surname>Jaffré</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp127976">
+            <foreName>Caroline</foreName>
+            <surname>Japhet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp129304">
+            <foreName>Jean E.</foreName>
+            <surname>Roberts</surname>
+            <initial>J. E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numer. Anal.</title>
+        <imprint>
+          <biblScope type="volume">51</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">3532–3559</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/130914401" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>130914401</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid7" type="article" rend="refer" n="refercite:Hoa_Japh_Kern_Rob_ST_DD_fract_16">
+      <identifiant type="doi" value="10.1137/15M1009651"/>
+      <analytic>
+        <title level="a">Space-time domain decomposition for reduced fracture models in mixed formulation</title>
+        <author>
+          <persName>
+            <foreName>Thi-Thao-Phuong</foreName>
+            <surname>Hoang</surname>
+            <initial>T.-T.-P.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp127976">
+            <foreName>Caroline</foreName>
+            <surname>Japhet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp129304">
+            <foreName>Jean E.</foreName>
+            <surname>Roberts</surname>
+            <initial>J. E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numer. Anal.</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">288–316</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/15M1009651" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>15M1009651</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid8" type="article" rend="refer" n="refercite:lejay:hal-00649170">
+      <identifiant type="doi" value="10.1016/j.jcp.2012.07.011"/>
+      <analytic>
+        <title level="a">Simulating diffusion processes in discontinuous media: a numerical scheme with constant time steps</title>
+        <author>
+          <persName key="tosca-2014-idp69352">
+            <foreName>Antoine</foreName>
+            <surname>Lejay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="sage-2014-idp65592">
+            <foreName>Géraldine</foreName>
+            <surname>Pichot</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <biblScope type="number">21</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">7299–7314</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.jcp.2012.07.011" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>jcp.<allowbreak/>2012.<allowbreak/>07.<allowbreak/>011</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid9" type="article" rend="refer" n="refercite:pichot:insu-00681662">
+      <identifiant type="doi" value="10.1137/100804383"/>
+      <analytic>
+        <title level="a">A generalized mixed hybrid mortar method for solving flow in stochastic discrete fracture networks</title>
+        <author>
+          <persName key="sage-2014-idp65592">
+            <foreName>Géraldine</foreName>
+            <surname>Pichot</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="sage-2014-idp61408">
+            <foreName>Jocelyne</foreName>
+            <surname>Erhel</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Raynald</foreName>
+            <surname>De Dreuzy</surname>
+            <initial>J.-R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Sci. Comput.</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">B86–B105</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/100804383" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>100804383</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid10" type="article" rend="refer" n="refercite:smears:hal-01357497">
+      <identifiant type="doi" value="10.1093/imanum/drw050"/>
+      <identifiant type="hal" value="hal-01357497"/>
+      <analytic>
+        <title level="a">Robust and efficient preconditioners for the discontinuous Galerkin time-stepping method</title>
+        <author>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">IMA Journal of Numerical Analysis</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01357497" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01357497</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid11" type="article" rend="refer" n="refercite:Voh_Wohl_MFE_1_unkn_el_rel_13">
+      <identifiant type="doi" value="10.1142/S0218202512500613"/>
+      <analytic>
+        <title level="a">Mixed finite element methods: implementation with one unknown per element, local flux expressions, positivity, polygonal meshes, and relations to other methods</title>
+        <author>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Barbara I.</foreName>
+            <surname>Wohlmuth</surname>
+            <initial>B. I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Models Methods Appl. Sci.</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">803–838</biblScope>
+          <ref xlink:href="http://www.worldscientific.com/doi/abs/10.1142/S0218202512500613" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>worldscientific.<allowbreak/>com/<allowbreak/>doi/<allowbreak/>abs/<allowbreak/>10.<allowbreak/>1142/<allowbreak/>S0218202512500613</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid30" type="book" rend="year" n="cite:kern:hal-01297083">
+      <identifiant type="hal" value="hal-01297083"/>
+      <monogr x-scientific-popularization="no" x-international-audience="no">
+        <title level="m">Méthodes numériques pour les problèmes inverses</title>
+        <title level="s">Collection Mathématiques et statisitques</title>
+        <author>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>ISTE Éditions</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">222</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01297083" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01297083</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid25" type="phdthesis" rend="year" n="cite:birgle:tel-01366054">
+      <identifiant type="hal" value="tel-01366054"/>
+      <monogr>
+        <title level="m">Underground flow, numerical methods and high performance computing</title>
+        <author>
+          <persName key="pomdapi-2014-idp115168">
+            <foreName>Nabil</foreName>
+            <surname>Birgle</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Pierre et Marie Curie - Paris VI</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01366054" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01366054</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid26" type="phdthesis" rend="year" n="cite:cheikh:tel-01415825">
+      <identifiant type="hal" value="tel-01415825"/>
+      <monogr>
+        <title level="m"> Identification of fractures in porous medium</title>
+        <author>
+          <persName key="pomdapi-2014-idp116392">
+            <foreName>Fatma</foreName>
+            <surname>Cheikh</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">UPMC - Université Paris 6 Pierre et Marie Curie ; ENIT Tunis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01415825" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01415825</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid15" type="phdthesis" rend="year" n="cite:riahi:tel-01423829">
+      <identifiant type="hal" value="tel-01423829"/>
+      <monogr>
+        <title level="m">Identification of hydrogeological parameters in a porous medium</title>
+        <author>
+          <persName key="pomdapi-2014-idp119016">
+            <foreName>Mohamed Hedi</foreName>
+            <surname>Riahi</surname>
+            <initial>M. H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Universite Pierre &amp; Marie Curie</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01423829" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01423829</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid21" type="article" rend="year" n="cite:antonietti:hal-01428749">
+      <identifiant type="hal" value="hal-01428749"/>
+      <analytic>
+        <title level="a">A Note on Optimal spectral bounds for nonoverlapping domain decomposition preconditioners for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>h</mi><mi>p</mi></mrow></math></formula>–Version Discontinuous Galerkin methods</title>
+        <author>
+          <persName>
+            <foreName>Paola F</foreName>
+            <surname>Antonietti</surname>
+            <initial>P. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Houston</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00943">
+        <idno type="issn">1705-5105</idno>
+        <title level="j">International Journal of Numerical Analysis and Modeling</title>
+        <imprint>
+          <biblScope type="volume">13</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">513-524</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01428749" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01428749</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid29" type="article" rend="year" n="cite:cances:hal-01140818">
+      <identifiant type="doi" value="10.1016/j.jcp.2015.12.012"/>
+      <identifiant type="hal" value="hal-01140818"/>
+      <analytic>
+        <title level="a">A perturbation-method-based post-processing for the planewave discretization of Kohn–Sham models</title>
+        <author>
+          <persName key="matherials-2014-idp63800">
+            <foreName>Eric</foreName>
+            <surname>Cancès</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Geneviève</foreName>
+            <surname>Dusson</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Yvon</foreName>
+            <surname>Maday</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Benjamin</foreName>
+            <surname>Stamm</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">307</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">446–459</biblScope>
+          <ref xlink:href="http://hal.upmc.fr/hal-01140818" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01140818</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid18" type="article" rend="year" n="cite:dolejsi:hal-01165187">
+      <identifiant type="hal" value="hal-01165187"/>
+      <analytic>
+        <title level="a">hp-adaptation driven by polynomial-degree-robust a posteriori error estimates for elliptic problems</title>
+        <author>
+          <persName>
+            <foreName>Vít</foreName>
+            <surname>Dolejší</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01739">
+        <idno type="issn">1064-8275</idno>
+        <title level="j">SIAM Journal on Scientific Computing</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">A3220-A3246</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01165187" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01165187</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid34" type="article" rend="year" n="cite:hoang:hal-01113953">
+      <identifiant type="doi" value="10.1137/15M1009651"/>
+      <identifiant type="hal" value="hal-01113953"/>
+      <analytic>
+        <title level="a">Space-time Domain Decomposition and Mixed Formulation for solving reduced fracture models</title>
+        <author>
+          <persName>
+            <foreName>Thi-Thao-Phuong</foreName>
+            <surname>Hoang</surname>
+            <initial>T.-T.-P.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp127976">
+            <foreName>Caroline</foreName>
+            <surname>Japhet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp129304">
+            <foreName>Jean E.</foreName>
+            <surname>Roberts</surname>
+            <initial>J. E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01737">
+        <idno type="issn">0036-1429</idno>
+        <title level="j">SIAM Journal on Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">29</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01113953" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01113953</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid37" type="article" rend="year" n="cite:josz:hal-00997726">
+      <identifiant type="doi" value="10.1007/s11590-015-0868-5"/>
+      <identifiant type="hal" value="hal-00997726"/>
+      <analytic>
+        <title level="a">Strong duality in Lasserre's hierarchy for polynomial optimization</title>
+        <author>
+          <persName key="pomdapi-2014-idp117720">
+            <foreName>Cédric</foreName>
+            <surname>Josz</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Henrion</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02255">
+        <idno type="issn">1862-4472</idno>
+        <title level="j">Optimization Letters</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3-10</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00997726" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00997726</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid0" type="article" rend="year" n="cite:lejay:hal-01003853">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.03.003"/>
+      <identifiant type="hal" value="hal-01003853"/>
+      <analytic>
+        <title level="a">Simulating Diffusion Processes in Discontinuous Media: Benchmark Tests</title>
+        <author>
+          <persName key="tosca-2014-idp69352">
+            <foreName>Antoine</foreName>
+            <surname>Lejay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="sage-2014-idp65592">
+            <foreName>Géraldine</foreName>
+            <surname>Pichot</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">314</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">348-413</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01003853" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01003853</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid19" type="article" rend="year" n="cite:smears:hal-01357497">
+      <identifiant type="doi" value="10.1093/imanum/drw050"/>
+      <identifiant type="hal" value="hal-01357497"/>
+      <analytic>
+        <title level="a">Robust and efficient preconditioners for the discontinuous Galerkin time-stepping method</title>
+        <author>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00783">
+        <idno type="issn">0272-4979</idno>
+        <title level="j">IMA Journal of Numerical Analysis</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01357497" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01357497</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid20" type="article" rend="year" n="cite:smears:hal-01428647">
+      <identifiant type="doi" value="10.1007/s00211-015-0741-6"/>
+      <identifiant type="hal" value="hal-01428647"/>
+      <analytic>
+        <title level="a">Discontinuous Galerkin finite element methods for time-dependent Hamilton-Jacobi-Bellman equations with Cordes coefficients</title>
+        <author>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Endre</foreName>
+            <surname>Süli</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01529">
+        <idno type="issn">0029-599X</idno>
+        <title level="j">Numerische Mathematik</title>
+        <imprint>
+          <biblScope type="volume">133</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">141 - 176</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01428647" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01428647</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid35" type="inproceedings" rend="year" n="cite:boldo:hal-01391578">
+      <identifiant type="hal" value="hal-01391578"/>
+      <analytic>
+        <title level="a">A Coq Formal Proof of the Lax–Milgram theorem</title>
+        <author>
+          <persName key="toccata-2014-idp66880">
+            <foreName>Sylvie</foreName>
+            <surname>Boldo</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp13024">
+            <foreName>François</foreName>
+            <surname>Clément</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="toccata-2016-idp187152">
+            <foreName>Florian</foreName>
+            <surname>Faissole</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="reo-2014-idp106312">
+            <foreName>Vincent</foreName>
+            <surname>Martin</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Micaela</foreName>
+            <surname>Mayero</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6th ACM SIGPLAN Conference on Certified Programs and Proofs</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391578" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391578</ref>
+        </imprint>
+        <meeting id="cid196878">
+          <title>International Conference on Certified Programs and Proofs</title>
+          <num>6</num>
+          <abbr type="sigle">CPP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid23" type="inproceedings" rend="year" n="cite:dedreuzy:hal-01387391">
+      <identifiant type="hal" value="hal-01387391"/>
+      <analytic>
+        <title level="a">Flow simulation in 3D Discrete Fracture Networks</title>
+        <author>
+          <persName>
+            <foreName>Jean-Raynald</foreName>
+            <surname>De Dreuzy</surname>
+            <initial>J.-R.</initial>
+          </persName>
+          <persName key="sage-2014-idp65592">
+            <foreName>Géraldine</foreName>
+            <surname>Pichot</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="gamma3-2014-idp78480">
+            <foreName>Patrick</foreName>
+            <surname>Laug</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sage-2014-idp61408">
+            <foreName>Jocelyne</foreName>
+            <surname>Erhel</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The XXI International Conference Computational Methods in Water Resources</title>
+        <loc>Toronto, ON, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01387391" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01387391</ref>
+        </imprint>
+        <meeting id="cid625392">
+          <title>International Conference Computational Methods in Water Resources</title>
+          <num>21</num>
+          <abbr type="sigle">CMWR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid31" type="techreport" rend="year" n="cite:benameur:hal-01279503">
+      <identifiant type="hal" value="hal-01279503"/>
+      <monogr>
+        <title level="m">First-Order Indicators for the Estimation of Discrete Fractures in Porous Media</title>
+        <author>
+          <persName key="pomdapi-2014-idp125416">
+            <foreName>Hend</foreName>
+            <surname>Ben Ameur</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp126680">
+            <foreName>Guy</foreName>
+            <surname>Chavent</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp116392">
+            <foreName>Fatma</foreName>
+            <surname>Cheikh</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp13024">
+            <foreName>François</foreName>
+            <surname>Clément</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="reo-2014-idp106312">
+            <foreName>Vincent</foreName>
+            <surname>Martin</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp129304">
+            <foreName>Jean E.</foreName>
+            <surname>Roberts</surname>
+            <initial>J. E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8857</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">31</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01279503" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01279503</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid33" type="techreport" rend="year" n="cite:clement:hal-01344090">
+      <identifiant type="hal" value="hal-01344090"/>
+      <monogr>
+        <title level="m">The Lax-Milgram Theorem. A detailed proof to be formalized in Coq</title>
+        <author>
+          <persName key="pomdapi-2014-idp13024">
+            <foreName>François</foreName>
+            <surname>Clément</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="reo-2014-idp106312">
+            <foreName>Vincent</foreName>
+            <surname>Martin</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8934</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01344090" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01344090</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid28" type="techreport" rend="year" n="cite:pichot:hal-01414707">
+      <identifiant type="hal" value="hal-01414707"/>
+      <monogr>
+        <title level="m">TECHNICAL REPORT N° 484 Algorithms for Gaussian random field generation</title>
+        <author>
+          <persName key="sage-2014-idp65592">
+            <foreName>Géraldine</foreName>
+            <surname>Pichot</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RT-0484</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01414707" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01414707</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Technical Report</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid24" type="techreport" rend="year" n="cite:riahi:hal-01285127">
+      <identifiant type="hal" value="hal-01285127"/>
+      <monogr>
+        <title level="m">Refinement indicators for estimating hydrogeologic parameters</title>
+        <author>
+          <persName key="pomdapi-2014-idp119016">
+            <foreName>Mohamed Hedi</foreName>
+            <surname>Riahi</surname>
+            <initial>M. H.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp125416">
+            <foreName>Hend</foreName>
+            <surname>Ben Ameur</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp11536">
+            <foreName>Jérôme</foreName>
+            <surname>Jaffré</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Rachida</foreName>
+            <surname>Bouhlila</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8877</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">25</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01285127" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01285127</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid12" type="unpublished" rend="year" n="cite:amir:hal-01327307">
+      <identifiant type="hal" value="hal-01327307"/>
+      <monogr>
+        <title level="m">Preconditioning a coupled model for reactive transport in porous media</title>
+        <author>
+          <persName>
+            <foreName>Laila</foreName>
+            <surname>Amir</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01327307" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01327307</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid13" type="unpublished" rend="year" n="cite:blechta:hal-01332481">
+      <identifiant type="hal" value="hal-01332481"/>
+      <monogr>
+        <title level="m">Localization of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>W</mi><mrow><mo>-</mo><mn>1</mn><mo>,</mo><mi>q</mi></mrow></msup></math></formula> norm for local a posteriori efficiency</title>
+        <author>
+          <persName>
+            <foreName>Jan</foreName>
+            <surname>Blechta</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Josef</foreName>
+            <surname>Málek</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01332481" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01332481</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid27" type="unpublished" rend="year" n="cite:cances:hal-01194364">
+      <identifiant type="hal" value="hal-01194364"/>
+      <monogr>
+        <title level="m">Guaranteed and robust a posteriori bounds for Laplace eigenvalues and eigenvectors: conforming approximations</title>
+        <author>
+          <persName key="matherials-2014-idp63800">
+            <foreName>Eric</foreName>
+            <surname>Cancès</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Geneviève</foreName>
+            <surname>Dusson</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Yvon</foreName>
+            <surname>Maday</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Benjamin</foreName>
+            <surname>Stamm</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01194364" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01194364</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid32" type="unpublished" rend="year" n="cite:ern:hal-01377007">
+      <identifiant type="hal" value="hal-01377007"/>
+      <monogr>
+        <title level="m">Discrete <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-robust H(div)-liftings and a posteriori estimates for elliptic problems with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>H</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math></formula> source terms</title>
+        <author>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01377007" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377007</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid1" type="unpublished" rend="year" n="cite:ern:hal-01377086">
+      <identifiant type="hal" value="hal-01377086"/>
+      <monogr>
+        <title level="m">Guaranteed, locally space-time efficient, and polynomial-degree robust a posteriori error estimates for high-order discretizations of parabolic problems</title>
+        <author>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="serena-2015-idp79712">
+            <foreName>Iain</foreName>
+            <surname>Smears</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377086" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377086</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid16" type="unpublished" rend="year" n="cite:ern:hal-01422204">
+      <identifiant type="hal" value="hal-01422204"/>
+      <monogr>
+        <title level="m">Stable broken H1 and H(div) polynomial extensions for polynomial-degree-robust potential and flux reconstruction in three space dimensions</title>
+        <author>
+          <persName key="serena-2015-idp66008">
+            <foreName>Alexandre</foreName>
+            <surname>Ern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01422204" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01422204</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid17" type="unpublished" rend="year" n="cite:hoang:hal-01296348">
+      <identifiant type="hal" value="hal-01296348"/>
+      <monogr>
+        <title level="m">Space-time domain decomposition for advection-diffusion problems in mixed formulations</title>
+        <author>
+          <persName>
+            <foreName>Thi-Thao-Phuong</foreName>
+            <surname>Hoang</surname>
+            <initial>T.-T.-P.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp127976">
+            <foreName>Caroline</foreName>
+            <surname>Japhet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp15520">
+            <foreName>Michel</foreName>
+            <surname>Kern</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp129304">
+            <foreName>Jean E.</foreName>
+            <surname>Roberts</surname>
+            <initial>J. E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01296348" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01296348</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid14" type="unpublished" rend="year" n="cite:naitabdallah:hal-01303223">
+      <identifiant type="hal" value="hal-01303223"/>
+      <monogr>
+        <title level="m">On the logic resolution of the wave particle duality paradox in quantum mechanics (Extended abstract)</title>
+        <author>
+          <persName>
+            <foreName>M.A.</foreName>
+            <surname>Nait Abdallah</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01303223" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01303223</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid22" type="unpublished" rend="year" n="cite:pape:hal-01312430">
+      <identifiant type="hal" value="hal-01312430"/>
+      <monogr>
+        <title level="m">Estimating and localizing the algebraic and total numerical errors using flux reconstructions</title>
+        <author>
+          <persName>
+            <foreName>Jan</foreName>
+            <surname>Papež</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Zdeněk</foreName>
+            <surname>Strakoš</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01312430" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01312430</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="serena-2016-bid36" type="unpublished" rend="year" n="cite:ermak:hal-01097662">
+      <identifiant type="hal" value="hal-01097662"/>
+      <monogr>
+        <title level="m">Adaptive inexact iterative algorithms based on polynomial-degree-robust a posteriori estimates for the Stokes problem</title>
+        <author>
+          <persName key="pomdapi-2014-idp120352">
+            <foreName>Martin</foreName>
+            <surname>Čermák</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="alpines-2014-idm26800">
+            <foreName>Frédéric</foreName>
+            <surname>Hecht</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp121664">
+            <foreName>Zuqi</foreName>
+            <surname>Tang</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName key="pomdapi-2014-idp107504">
+            <foreName>Martin</foreName>
+            <surname>Vohralík</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01097662" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01097662</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

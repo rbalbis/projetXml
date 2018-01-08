@@ -1,0 +1,3853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="aspi" isproject="true">
+    <shortname>ASPI</shortname>
+    <projectName>Applications of interacting particle systems to statistics</projectName>
+    <theme-de-recherche>Stochastic approaches</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>http://www.irisa.fr/aspi/index-en.html</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Institut de recherche mathématique de Rennes (IRMAR)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Haute Bretagne (Rennes 2)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Rennes 1</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2005 January 10, updated into Team: 2017 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.4.5. - Bayesian methods</term>
+      <term>3.4.7. - Kernel methods</term>
+      <term>5.4.5. - Object tracking and motion analysis</term>
+      <term>5.4.6. - Object localization</term>
+      <term>5.9.2. - Estimation, modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.2. - Stochastic Modeling (SPDE, SDE)</term>
+      <term>6.2.2. - Numerical probability</term>
+      <term>6.2.3. - Probabilistic methods</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.2.5. - Numerical Linear Algebra</term>
+      <term>6.3.2. - Data assimilation</term>
+      <term>6.3.4. - Model reduction</term>
+      <term>6.3.5. - Uncertainty Quantification</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>2.3. - Epidemiology</term>
+      <term>3.2. - Climate and meteorology</term>
+      <term>3.3.2. - Water: sea &amp; ocean, lake &amp; river</term>
+      <term>3.3.4. - Atmosphere</term>
+      <term>9.4.3. - Physics</term>
+      <term>9.4.4. - Chemistry</term>
+      <term>9.9. - Risk management</term>
+    </keywordsSecteurs>
+    <UR name="Rennes"/>
+  </identification>
+  <team id="uid1">
+    <person key="aspi-2014-idm6248">
+      <firstname>Frédéric</firstname>
+      <lastname>Cérou</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="aspi-2014-idp85736">
+      <firstname>Patrick</firstname>
+      <lastname>Héas</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="aspi-2014-idm7472">
+      <firstname>François</firstname>
+      <lastname>Le Gland</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="aspi-2014-idp88592">
+      <firstname>Valérie</firstname>
+      <lastname>Monbet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes 1, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="matherials-2014-idp69400">
+      <firstname>Mathias</firstname>
+      <lastname>Rousset</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher, since Sep 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="aspi-2016-idp122448">
+      <firstname>Thi Tuyet Trang</firstname>
+      <lastname>Chau</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes 1</moreinfo>
+    </person>
+    <person key="aspi-2016-idp124896">
+      <firstname>Audrey</firstname>
+      <lastname>Cuillery</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>DCNS Nantes, CIFRE grant, since Apr 2016</moreinfo>
+    </person>
+    <person key="aspi-2016-idp127392">
+      <firstname>Ramatoulaye</firstname>
+      <lastname>Dabo</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Assane Seck de Ziguinchor and Univ. Rennes 1, co–tutelle</moreinfo>
+    </person>
+    <person key="aspi-2016-idp129936">
+      <firstname>Marie</firstname>
+      <lastname>Morvan</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes 1</moreinfo>
+    </person>
+    <person key="aspi-2015-idp110064">
+      <firstname>Audrey</firstname>
+      <lastname>Poterie</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes 1</moreinfo>
+    </person>
+    <person key="aspi-2015-idp107576">
+      <firstname>Kersane</firstname>
+      <lastname>Zoubert--Ousseni</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>CEA Grenoble</moreinfo>
+    </person>
+    <person key="aspi-2016-idp137264">
+      <firstname>Hassan</firstname>
+      <lastname>Maatouk</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, since Sep 2016</moreinfo>
+    </person>
+    <person key="sage-2014-idp66848">
+      <firstname>Fabienne</firstname>
+      <lastname>Cuyollaa</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="aspi-2014-idp86960">
+      <firstname>Arnaud</firstname>
+      <lastname>Guyader</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Paris VI, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The scientific objectives of ASPI are the design, analysis and
+implementation of interacting Monte Carlo methods, also known as particle
+methods, with focus on</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true">statistical inference in hidden Markov models
+and particle filtering,</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">risk evaluation and simulation of rare events,</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">global optimization.</p>
+        </li>
+      </simplelist>
+      <p>The whole problematic is multidisciplinary,
+not only because of the many scientific and engineering areas
+in which particle methods are used,
+but also because of the diversity of the scientific communities
+which have already contributed to establish the foundations
+of the field</p>
+      <p rend="quoted">target tracking,
+interacting particle systems,
+empirical processes,
+genetic algorithms (GA),
+hidden Markov models and nonlinear filtering,
+Bayesian statistics,
+Markov chain Monte Carlo (MCMC) methods, etc.</p>
+      <p>Intuitively speaking, interacting Monte Carlo methods are sequential
+simulation methods, in which particles</p>
+      <simplelist>
+        <li id="uid7">
+          <p noindent="true"><i>explore</i> the state space by mimicking the evolution
+of an underlying random process,</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true"><i>learn</i> their environment by evaluating a fitness function,</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">and <i>interact</i> so that only the most successful particles
+(in view of the fitness function) are allowed to survive
+and to get offsprings at the next generation.</p>
+        </li>
+      </simplelist>
+      <p>The effect of this mutation / selection mechanism is to automatically
+concentrate particles (i.e. the available computing power) in regions of
+interest of the state space. In the special case of particle filtering,
+which has numerous applications under the generic heading of positioning,
+navigation and tracking, in</p>
+      <p rend="quoted">target tracking,
+computer vision,
+mobile robotics,
+wireless communications,
+ubiquitous computing and ambient intelligence,
+sensor networks, etc.,</p>
+      <p>each particle represents a possible hidden state, and is replicated
+or terminated at the next generation on the basis of its consistency with
+the current observation, as quantified by the likelihood function.
+With these genetic–type algorithms, it becomes easy to efficiently combine
+a prior model of displacement with or without constraints, sensor–based
+measurements, and a base of reference measurements, for example in the
+form of a digital map (digital elevation map, attenuation map, etc.).
+In the most general case, particle methods provide approximations of
+Feynman–Kac distributions, a pathwise generalization of Gibbs–Boltzmann
+distributions, by means of the weighted empirical probability distribution
+associated with an interacting particle system,
+with applications that go far beyond filtering, in</p>
+      <p rend="quoted">simulation of rare events,
+global optimization,
+molecular simulation, etc.</p>
+      <p>The main applications currently considered are
+geolocalisation and tracking of mobile terminals,
+terrain–aided navigation,
+data fusion for indoor localisation,
+optimization of sensors location and activation,
+risk assessment in air traffic management,
+protection of digital documents.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid10">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Interacting Monte Carlo methods
+and particle approximation of Feynman–Kac distributions</bodyTitle>
+      <p>Monte Carlo methods are numerical methods that are widely used
+in situations where
+(i) a stochastic (usually Markovian) model is given for some underlying
+process, and (ii) some quantity of interest should be evaluated, that
+can be expressed in terms of the expected value of a functional of the
+process trajectory, which includes as an important special case the
+probability that a given event has occurred.
+Numerous examples can be found, e.g. in financial engineering (pricing of options and derivative
+securities)  <ref xlink:href="#aspi-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+in performance evaluation of communication networks (probability of buffer
+overflow), in statistics of hidden Markov models (state estimation,
+evaluation of contrast and score functions), etc.
+Very often in practice, no analytical expression is available for
+the quantity of interest, but it is possible to simulate trajectories
+of the underlying process. The idea behind Monte Carlo methods is
+to generate independent trajectories of this process
+or of an alternate instrumental process,
+and to build an approximation (estimator) of the quantity of interest
+in terms of the weighted empirical probability distribution
+associated with the resulting independent sample.
+By the law of large numbers, the above estimator converges
+as the size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> of the sample goes to infinity, with rate <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>/</mo><msqrt><mi>N</mi></msqrt></mrow></math></formula>
+and the asymptotic variance can be estimated using an appropriate
+central limit theorem.
+To reduce the variance of the estimator, many variance
+reduction techniques have been proposed.
+Still, running independent Monte Carlo simulations can lead to
+very poor results, because trajectories are generated <i>blindly</i>,
+and only afterwards are the corresponding weights evaluated.
+Some of the weights can happen to be negligible, in which case the
+corresponding trajectories are not going to contribute to the estimator,
+i.e. computing power has been wasted.</p>
+      <p>A major breakthrough made in the mid 90's,
+has been the introduction of interacting Monte Carlo methods,
+also known as sequential Monte Carlo (SMC) methods,
+in which a whole (possibly weighted) sample,
+called <i>system of particles</i>, is propagated in time, where
+the particles</p>
+      <simplelist>
+        <li id="uid12">
+          <p noindent="true"><i>explore</i> the state space under the effect of
+a <i>mutation</i> mechanism which mimics the evolution of the
+underlying process,</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">and are <i>replicated</i> or <i>terminated</i>, under
+the effect of a <i>selection</i> mechanism which automatically
+concentrates the particles, i.e. the available computing power,
+into regions of interest of the state space.</p>
+        </li>
+      </simplelist>
+      <p>In full generality, the underlying process is a discrete–time Markov
+chain, whose state space can be</p>
+      <p rend="quoted">finite,
+continuous,
+hybrid (continuous / discrete),
+graphical,
+constrained,
+time varying,
+pathwise, etc.,</p>
+      <p>the only condition being that it can easily be <i>simulated</i>.</p>
+      <p>In the special case of particle filtering,
+originally developed within the tracking community,
+the algorithms yield a numerical approximation of the optimal Bayesian
+filter, i.e. of the conditional probability distribution
+of the hidden state given the past observations, as a (possibly
+weighted) empirical probability distribution of the system of particles.
+In its simplest version, introduced in several different scientific
+communities under the name of
+<i>bootstrap filter</i>  <ref xlink:href="#aspi-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<i>Monte Carlo filter</i>  <ref xlink:href="#aspi-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+or <i>condensation</i> (conditional density propagation)
+algorithm  <ref xlink:href="#aspi-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and which historically has been the first algorithm to include
+a resampling step,
+the selection mechanism is governed by the likelihood function:
+at each time step, a particle is more likely to survive
+and to replicate at the next generation if it is consistent with
+the current observation.
+The algorithms also provide as a by–product a numerical approximation
+of the likelihood function, and of many other contrast functions for
+parameter estimation in hidden Markov models, such as the prediction
+error or the conditional least–squares criterion.</p>
+      <p>Particle methods
+are currently being used in many scientific and engineering areas</p>
+      <p rend="quoted">positioning, navigation, and tracking  <ref xlink:href="#aspi-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+visual tracking  <ref xlink:href="#aspi-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+mobile robotics  <ref xlink:href="#aspi-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+ubiquitous computing and ambient intelligence,
+sensor networks,
+risk evaluation and simulation of rare events  <ref xlink:href="#aspi-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+genetics, molecular simulation  <ref xlink:href="#aspi-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, etc.</p>
+      <p>Other examples of the many applications of particle filtering can be
+found in the contributed volume  <ref xlink:href="#aspi-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and in the special
+issue of <i>IEEE Transactions on Signal Processing</i> devoted
+to <i>Monte Carlo Methods for Statistical Signal Processing</i>
+in February 2002,
+where the tutorial paper  <ref xlink:href="#aspi-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> can be found,
+and in the textbook  <ref xlink:href="#aspi-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> devoted
+to applications in target tracking.
+Applications of sequential Monte Carlo methods to other areas,
+beyond signal and image processing, e.g. to genetics,
+can be found in  <ref xlink:href="#aspi-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A recent overview can also be found in  <ref xlink:href="#aspi-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Particle methods are very easy to implement, since it is sufficient
+in principle to simulate independent trajectories of the underlying
+process.
+The whole problematic is multidisciplinary,
+not only because of the already mentioned diversity of the scientific
+and engineering areas in which particle methods are used,
+but also because of the diversity of the scientific communities
+which have contributed to establish the foundations of the field</p>
+      <p rend="quoted">target tracking,
+interacting particle systems,
+empirical processes,
+genetic algorithms (GA),
+hidden Markov models and nonlinear filtering,
+Bayesian statistics,
+Markov chain Monte Carlo (MCMC) methods.</p>
+      <p>These algorithms can be interpreted as numerical approximation schemes
+for Feynman–Kac distributions, a pathwise generalization of Gibbs–Boltzmann
+distributions,
+in terms of the weighted empirical probability distribution
+associated with a system of particles.
+This abstract point of view  <ref xlink:href="#aspi-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+has proved to be extremely fruitful in providing a very general
+framework to the design and analysis of numerical approximation schemes,
+based on systems of branching and / or interacting particles,
+for nonlinear dynamical systems with values in the space of probability
+distributions, associated with Feynman–Kac distributions.
+Many asymptotic results have been proved as the number <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> of
+particles (sample size) goes to infinity,
+using techniques coming from applied probability (interacting particle
+systems, empirical processes  <ref xlink:href="#aspi-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>),
+see e.g. the survey article  <ref xlink:href="#aspi-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+or the textbooks  <ref xlink:href="#aspi-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and references therein</p>
+      <p rend="quoted">convergence in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mi>𝕃</mi></mrow><mi>p</mi></msup></math></formula>,
+convergence as empirical processes indexed by classes of functions,
+uniform convergence in time, see also  <ref xlink:href="#aspi-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+central limit theorem, see also  <ref xlink:href="#aspi-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+propagation of chaos,
+large deviations principle,
+etc.</p>
+      <p>The objective here is to
+systematically study the impact of the many algorithmic variants
+on the convergence results.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Multilevel splitting for rare event simulation</bodyTitle>
+      <moreinfo>
+        <p>See <ref xlink:href="#uid34" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and <ref xlink:href="#uid38" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </moreinfo>
+      <p>The estimation of the small probability of a rare but critical event,
+is a crucial issue in industrial areas such as</p>
+      <p rend="quoted">nuclear power plants,
+food industry,
+telecommunication networks,
+finance and insurance industry,
+air traffic management, etc.</p>
+      <p>In such complex systems, analytical methods cannot be used, and
+naive Monte Carlo methods are clearly unefficient to estimate accurately
+very small probabilities.
+Besides importance sampling, an alternate widespread technique
+consists in multilevel splitting  <ref xlink:href="#aspi-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+where trajectories going towards the
+critical set are given offsprings, thus increasing the number of
+trajectories that eventually reach the critical set.
+As shown in <ref xlink:href="#aspi-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, the Feynman–Kac formalism
+of <ref xlink:href="#uid11" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is well suited for the design
+and analysis of splitting algorithms for rare event simulation.</p>
+      <p><b>Propagation of uncertainty</b>   Multilevel splitting can be used in static situations. Here, the
+objective is to learn the probability distribution of an output random
+variable <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>Y</mi><mo>=</mo><mi>F</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow></math></formula>, where the function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula> is only defined pointwise
+for instance by a computer programme, and where the probability distribution
+of the input random variable <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>X</mi></math></formula> is known and easy to simulate from.
+More specifically, the objective
+could be to compute the probability of the output random variable
+exceeding a threshold, or more generally to evaluate the
+cumulative distribution function of the output random variable for
+different output values.
+This problem is characterized by
+the lack of an analytical expression for the function, the
+computational cost of a single pointwise evaluation of the function,
+which means that the number of calls to the function should be limited as
+much as possible, and finally the complexity and / or unavailability of the
+source code of the computer programme, which makes any modification
+very difficult or even impossible, for instance to change the model as in
+importance sampling methods.</p>
+      <p>The key issue is to learn as fast as possible regions of the input space
+which contribute most to the computation of the target quantity. The
+proposed splitting methods consists in (i) introducing a sequence of
+intermediate regions in the input space, implicitly defined by exceeding
+an increasing sequence of thresholds or levels, (ii) counting the fraction
+of samples that reach a level given that the previous level has been
+reached already, and (iii) improving the diversity of the selected samples,
+usually with an artificial Markovian dynamics for the input variable.
+In this way, the algorithm learns</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">the transition probability between successive levels, hence
+the probability of reaching each intermediate level,</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">and the probability distribution of the input random variable,
+conditionned on the output variable reaching each intermediate level.</p>
+        </li>
+      </simplelist>
+      <p>A further remark, is that this conditional probability distribution is
+precisely the optimal (zero variance) importance distribution needed to
+compute the probability of reaching the considered intermediate level.</p>
+      <p><b>Rare event simulation</b>   To be specific, consider a complex dynamical system modelled as a Markov
+process, whose state can possibly contain continuous components and
+finite components (mode, regime, etc.), and the objective is to
+compute the probability, hopefully very small, that a critical region
+of the state space is reached by the Markov process before a final
+time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula>, which can be deterministic and fixed, or random (for instance
+the time of return to a recurrent set, corresponding to a nominal
+behaviour).</p>
+      <p>The proposed splitting method consists in (i) introducing a decreasing
+sequence of intermediate, more and more critical, regions in the state
+space, (ii) counting the fraction of trajectories that reach an
+intermediate region before time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula>, given that the previous intermediate
+region has been reached before time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula>, and (iii) regenerating the
+population at each stage, through resampling. In addition to the
+non–intrusive behaviour of the method, the splitting methods make it
+possible to learn the probability distribution of typical critical
+trajectories, which reach the critical region before final time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula>,
+an important feature that methods based on importance sampling usually
+miss.
+Many variants have been proposed, whether</p>
+      <simplelist>
+        <li id="uid17">
+          <p noindent="true">the branching rate (number of offsprings allocated to a
+successful trajectory) is fixed, which allows for depth–first exploration
+of the branching tree, but raises the issue of controlling the population
+size,</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">the population size is fixed, which requires a breadth–first
+exploration of the branching tree, with random (multinomial) or deterministic
+allocation of offsprings, etc.</p>
+        </li>
+      </simplelist>
+      <p>Just as in the static case, the algorithm learns</p>
+      <simplelist>
+        <li id="uid19">
+          <p noindent="true">the transition probability between successive levels, hence
+the probability of reaching each intermediate level,</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">and the entrance probability distribution of the Markov process
+in each intermediate region.</p>
+        </li>
+      </simplelist>
+      <p>Contributions have been given to</p>
+      <simplelist>
+        <li id="uid21">
+          <p noindent="true">minimizing the asymptotic variance, obtained through a
+central limit theorem, with respect to the shape of the intermediate
+regions (selection of the importance function), to the thresholds (levels),
+to the population size, etc.</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">controlling the probability of extinction (when not even one
+trajectory reaches the next intermediate level),</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">designing and studying variants suited for hybrid state space
+(resampling per mode, marginalization, mode aggregation),</p>
+        </li>
+      </simplelist>
+      <p>and in the static case, to</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">minimizing the asymptotic variance, obtained through a central
+limit theorem, with respect to intermediate levels, to the Metropolis
+kernel introduced in the mutation step, etc.</p>
+        </li>
+      </simplelist>
+      <p>A related issue is global optimization. Indeed, the difficult problem
+of finding the set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>M</mi></math></formula> of global minima of a real–valued function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>
+can be replaced by the apparently simpler problem of sampling a population
+from a probability distribution depending on a small parameter,
+and asymptotically supported by the set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>M</mi></math></formula> as the small parameter goes
+to zero. The usual approach here is to use the cross–entropy
+method  <ref xlink:href="#aspi-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which relies on learning
+the optimal importance distribution within a prescribed parametric
+family. On the other hand, multilevel splitting methods could provide
+an alternate nonparametric approach to this problem.</p>
+    </subsection>
+    <subsection id="uid25" level="1">
+      <bodyTitle>Statistical learning: pattern recognition
+and nonparametric regression</bodyTitle>
+      <p>In pattern recognition and statistical learning, also known as machine
+learning, nearest neighbor (NN) algorithms are amongst the simplest but
+also very powerful algorithms available.
+Basically, given a training set of data, i.e. an <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula>–sample of i.i.d. object–feature pairs, with real–valued features,
+the question is how to generalize,
+that is how to guess the feature associated with any new object.
+To achieve this, one chooses some integer <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> smaller than <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula>, and
+takes the mean–value of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> features associated with the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> objects
+that are nearest to the new object, for some given metric.</p>
+      <p>In general, there is no way to guess exactly the value of the feature
+associated with the new object, and the minimal error that can be done
+is that of the Bayes estimator, which cannot be computed by lack of knowledge
+of the distribution of the object–feature pair, but the Bayes estimator
+can be useful to characterize the strength of the method.
+So the best that can be expected is that the NN estimator converges, say
+when the sample size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> grows, to the Bayes estimator. This is what has been
+proved in great generality by Stone  <ref xlink:href="#aspi-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for the mean square
+convergence, provided that the object is a finite–dimensional random
+variable, the feature is a square–integrable random variable,
+and the ratio <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>/</mo><mi>N</mi></mrow></math></formula> goes to 0.
+Nearest neighbor estimator is not the only local averaging estimator with
+this property, but it is arguably the simplest.</p>
+      <p>The asymptotic behavior when the sample size grows is well understood in
+finite dimension, but the situation is radically different in
+general infinite dimensional spaces, when the objects to be classified
+are functions, images, etc.</p>
+      <p><b>Nearest neighbor classification in infinite dimension</b>   In finite dimension, the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor classifier
+is universally consistent, i.e. its probability of error converges to
+the Bayes risk as <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> goes to infinity, whatever the joint probability
+distribution of the pair, provided that the ratio <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>/</mo><mi>N</mi></mrow></math></formula> goes to zero.
+Unfortunately, this result is no longer valid in general metric spaces,
+and the objective is to find out reasonable sufficient conditions for
+the weak consistency to hold. Even in finite dimension, there are exotic
+distances such that the nearest neighbor does not even get closer (in the
+sense of the distance) to the point of interest, and the state space
+needs to be complete for the metric, which is the first condition.
+Some regularity on the regression function is required next. Clearly,
+continuity is too strong because it is not required in finite dimension,
+and a weaker form of regularity is assumed. The following consistency
+result has been obtained: if the metric space is separable and
+if some Besicovich condition holds, then the nearest neighbor classifier
+is weakly consistent.
+Note that the Besicovich condition is always fulfilled in finite dimensional
+vector spaces (this result is called the Besicovich theorem), and that
+a counterexample <ref xlink:href="#aspi-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> can be given in an infinite
+dimensional space with
+a Gaussian measure (in this case, the nearest neighbor classifier is clearly
+nonconsistent). Finally, a simple example has been found which verifies
+the Besicovich condition with a noncontinuous regression function.</p>
+      <p><b>Rates of convergence of the functional <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor
+estimator</b>   Motivated by a broad range of potential applications, such as regression
+on curves, rates of convergence of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor estimator
+of the regression function, based on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> independent copies of the
+object–feature pair, have been investigated
+when the object is in a suitable ball in some functional space.
+Using compact embedding theory, explicit and general finite sample bounds
+can be obtained for the expected squared difference between the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest
+neighbor estimator and the Bayes regression function, in a very general
+setting. The results have also been
+particularized to classical function spaces such as Sobolev spaces,
+Besov spaces and reproducing kernel Hilbert spaces.
+The rates obtained are genuine nonparametric convergence rates,
+and up to our knowledge the first of their kind for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor
+regression.</p>
+      <p>This topic has produced several theoretical
+advances <ref xlink:href="#aspi-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+in collaboration with Gérard Biau (université Pierre et Marie Curie).
+A few possible target application domains have been identified in</p>
+      <simplelist>
+        <li id="uid26">
+          <p noindent="true">the statistical analysis of recommendation systems,</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">the design of reduced–order models and analog samplers,</p>
+        </li>
+      </simplelist>
+      <p>that would be a source of interesting problems.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid28">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Localisation, navigation and tracking</bodyTitle>
+      <moreinfo>
+        <p>See <ref xlink:href="#uid45" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </moreinfo>
+      <p>Among the many application domains of particle methods, or interacting
+Monte Carlo methods, ASPI has decided to focus on applications
+in localisation (or positioning), navigation and
+tracking  <ref xlink:href="#aspi-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which already covers a very broad
+spectrum of application domains. The objective here is to estimate
+the position (and also velocity, attitude, etc.) of a mobile object,
+from the combination of different sources of information, including</p>
+      <simplelist>
+        <li id="uid30">
+          <p noindent="true">a prior dynamical model of typical evolutions of the mobile,
+such as inertial estimates and prior model for inertial errors,</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">measurements provided by sensors,</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">and possibly a digital map providing some useful feature
+(terrain altitude, power attenuation, etc.) at each possible position.</p>
+        </li>
+      </simplelist>
+      <p>In some applications, another useful source of information is provided by</p>
+      <simplelist>
+        <li id="uid33">
+          <p noindent="true">a map of constrained admissible displacements, for instance in
+the form of an indoor building map,</p>
+        </li>
+      </simplelist>
+      <p>which particle methods can easily handle (map-matching).
+This Bayesian dynamical estimation problem is also called filtering,
+and its numerical implementation using particle methods, known as
+particle filtering, has been introduced by the target tracking
+community  <ref xlink:href="#aspi-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which has already contributed
+to many of the most interesting algorithmic improvements and is still
+very active, and has found applications in</p>
+      <p rend="quoted">target tracking,
+integrated navigation,
+points and / or objects tracking in video sequences,
+mobile robotics,
+wireless communications,
+ubiquitous computing and ambient intelligence,
+sensor networks, etc.</p>
+      <p>ASPI is contributing (or has contributed recently)
+to several applications of particle filtering in
+positioning, navigation and tracking, such as
+geolocalisation and tracking in a wireless network,
+terrain–aided navigation,
+and data fusion for indoor localisation.</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Rare event simulation</bodyTitle>
+      <moreinfo>
+        <p>See <ref xlink:href="#uid14" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and <ref xlink:href="#uid38" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </moreinfo>
+      <p>Another application domain of particle methods, or interacting Monte Carlo
+methods, that ASPI has decided to focus on is the estimation of the small
+probability of a rare but critical event, in complex dynamical systems.
+This is a crucial issue in industrial areas such as</p>
+      <p rend="quoted">nuclear power plants,
+food industry,
+telecommunication networks,
+finance and insurance industry,
+air traffic management, etc.</p>
+      <p>In such complex systems, analytical methods cannot be used, and naive
+Monte Carlo methods are clearly unefficient to estimate accurately
+very small probabilities.
+Besides importance sampling, an alternate widespread technique
+consists in multilevel splitting  <ref xlink:href="#aspi-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+where trajectories going towards the
+critical set are given offsprings, thus increasing the number of
+trajectories that eventually reach the critical set.
+This approach not only makes it possible to estimate the probability of
+the rare event, but also provides realizations of the random trajectory,
+given that it reaches the critical set, i.e. provides realizations of typical
+critical trajectories, an important feature that methods based on importance
+sampling usually miss.</p>
+      <p>ASPI is contributing (or has contributed recently)
+to several applications of multilevel splitting for
+rare event simulation, such as risk assessment in air traffic management,
+detection in sensor networks,
+and protection of digital documents.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid35">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>Frédéric Cérou and Arnaud Guyader have received the
+<ref xlink:href="http://imstat.org/aihp/prizes.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">prize</ref>
+of the best recent paper published in the journal <i>Annales de l'Institut
+Henri Poincaré, Probabilités et Statistiques</i>
+for their joint paper <ref xlink:href="#aspi-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+in collaboration with Gérard Biau (université Pierre et Marie Curie).
+This paper analyzes ABC (approximate Bayesian computation) —
+a family of computational techniques which offer an almost automated
+solution in situations where evaluation of the likelihood is computationally
+prohibitive, or whenever suitable likelihoods are not available —
+from the point of view of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>—nearest neighbor theory
+and it explores the statistical properties of its outputs.
+The paper discusses in particular some asymptotic features of the genuine
+conditional density estimate associated with ABC, which is an interesting
+hybrid between a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor and a kernel method.</p>
+    </subsection>
+  </highlights>
+  <resultats id="uid37">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Central limit theorem for adaptive multilevel splitting</bodyTitle>
+      <participants>
+        <person key="aspi-2014-idm6248">
+          <firstname>Frédéric</firstname>
+          <lastname>Cérou</lastname>
+        </person>
+        <person key="aspi-2014-idp86960">
+          <firstname>Arnaud</firstname>
+          <lastname>Guyader</lastname>
+        </person>
+        <person key="matherials-2014-idp69400">
+          <firstname>Mathias</firstname>
+          <lastname>Rousset</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with Bernard Delyon (université de Rennes 1).</p>
+      <p>In this work, we consider the adaptive multilevel splitting algorithm as a Fleming–Viot
+particle system: the particles are indexed by levels instead of time, and the associated states are given by first entrance into level sets, in a similar fashion as in  <ref xlink:href="#aspi-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A rigorous proof of a central limit theorem has been obtained in <ref xlink:href="#aspi-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for Fleming–Viot
+particle systems. The application to AMS (adaptive multilevel splitting) algorithm is in preparation.</p>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>An efficient algorithm for video super-resolution based on a sequential model</bodyTitle>
+      <participants>
+        <person key="aspi-2014-idp85736">
+          <firstname>Patrick</firstname>
+          <lastname>Héas</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with Angélique Drémeau (ENSTA Bretagne, Brest)
+and Cédric Herzet (EPI FLUMINANCE,
+Inria Rennes–Bretagne Atlantique)</p>
+      <p>In <ref xlink:href="#aspi-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose a novel procedure for video super–resolution, that is the recovery of a sequence of high–resolution images from its low-resolution counterpart. Our approach is based on a "sequential" model (i.e., each high-resolution frame is supposed to be a displaced version of the preceding one) and considers the use of sparsity-enforcing priors. Both the recovery of the high–resolution images and the motion fields relating them is tackled. This leads to a large–dimensional, non-convex and non-smooth problem. We propose an algorithmic framework to address the latter. Our approach relies on fast gradient evaluation methods and modern optimization techniques for non-differentiable/non-convex problems. Unlike some other previous works, we show that there exists a provably-convergent method with a complexity linear in the problem dimensions. We assess the proposed optimization method on several video benchmarks and emphasize its good performance with respect to the state of the art.</p>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Low–rank approximation and dynamic mode decomposition</bodyTitle>
+      <participants>
+        <person key="aspi-2014-idp85736">
+          <firstname>Patrick</firstname>
+          <lastname>Héas</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with Cédric Herzet (EPI FLUMINANCE,
+Inria Rennes–Bretagne Atlantique)</p>
+      <p>Dynamic mode decomposition (DMD) has emerged as a powerful tool for analyzing the dynamics of non-linear systems from experimental datasets. Recently, several attempts have extended DMD to the context of low-rank approximations. This low-rank extension takes the form of a non–convex optimization problem.
+To the best of our knowledge, only sub–optimal algorithms have been proposed in the literature to compute the solution of this problem. In <ref xlink:href="#aspi-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we prove that there exists a closed-form optimal solution to this problem and design an effective algorithm to compute it based on singular value decomposition (SVD). Based on this solution, we then propose efficient procedures for reduced-order modeling and for the identification of the low-rank DMD modes and amplitudes.
+Experiments illustrates the gain in performance of the proposed algorithm compared to state-of-the-art techniques.
+</p>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Model reduction from partial observations</bodyTitle>
+      <participants>
+        <person key="aspi-2014-idp85736">
+          <firstname>Patrick</firstname>
+          <lastname>Héas</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with Angélique Drémeau (ENSTA Bretagne, Brest)
+and Cédric Herzet (EPI FLUMINANCE,
+Inria Rennes–Bretagne Atlantique)</p>
+      <p>In <ref xlink:href="#aspi-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we deal with model order reduction of parametric partial differential equations (PPDE). We consider the specific setup where the solutions of the PPDE are only observed through a partial observation operator and address the task of finding a good approximation subspace of the solution manifold. We provide and study several tools to tackle this problem. We first identify the best worst–case performance achievable in this setup and propose simple procedures to approximate this optimal solution. We then provide, in a simplified setup, a theoretical analysis relating the achievable reduction performance to the choice of the observation operator and the prior knowledge available on the solution manifold.</p>
+      <p>In <ref xlink:href="#aspi-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we focus on reduced modeling of dynamical systems, in an analogous partial observation setup. Assuming prior knowledge available, we provide a unified reduction framework based on an a posteriori characterisation of the uncertainties on the solution manifold. Relying on sequential Monte Carlo (SMC) samples, we provide a closed-form approximation of solutions to the problem of choosing an optimal Galerkin projection or an optimal low–rank linear approximation. Numerical results obtained for a standard geophysical model show the gain brought by exploiting this posterior information for building a reduced model.
+</p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Combining analog method and ensemble
+data assimilation</bodyTitle>
+      <participants>
+        <person key="aspi-2016-idp122448">
+          <firstname>Thi Tuyet Trang</firstname>
+          <lastname>Chau</lastname>
+        </person>
+        <person key="aspi-2014-idm7472">
+          <firstname>François</firstname>
+          <lastname>Le Gland</lastname>
+        </person>
+        <person key="aspi-2014-idp88592">
+          <firstname>Valérie</firstname>
+          <lastname>Monbet</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with
+Pierre Ailliot (université de Bretagne Occidentale, Brest),
+Ronan Fablet and Pierre Tandéo (Télé́com Bretagne, Brest),
+Anne Cuzol (université de Bretagne Sud, Vannes)
+and Bernard Chapron (IFREMER, Brest).</p>
+      <p>Nowadays, ocean and atmosphere sciences face a deluge of data from spatial observations, in situ monitoring as well as numerical simulations. The availability of these different data sources offer new opportunities, still largely underexploited, to improve the understanding, modeling and reconstruction of geophysical dynamics. The classical way to reconstruct the space–time variations of a geophysical system from observations relies on data assimilation methods using multiple runs of the known dynamical model. This classical framework may have severe limitations including its computational cost, the lack of adequacy of the model with observed data, modeling uncertainties. In  <ref xlink:href="#aspi-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we explore an alternative approach and develop a fully data–-driven framework, which combines machine learning and statistical sampling to simulate the dynamics of complex system. As a proof concept, we address the assimilation of the chaotic Lorenz–63 model and imputation of missing data in multisite wind and rain time series.
+We demonstrate that a nonparametric sampler from a catalog of historical datasets, namely local linear regression, combined with a classical stochastic data assimilation scheme, the ensemble Kalman filter and the particular filter, reach state–of–the–art performances, without online evaluations of the physical model. The use of local regression instead of analog sampler allows to improve the performance of the filters.</p>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Classification trees, functional data, applications in biology</bodyTitle>
+      <participants>
+        <person key="aspi-2014-idp88592">
+          <firstname>Valérie</firstname>
+          <lastname>Monbet</lastname>
+        </person>
+        <person key="aspi-2015-idp110064">
+          <firstname>Audrey</firstname>
+          <lastname>Poterie</lastname>
+        </person>
+      </participants>
+      <p>This is a collaboration with Jean–François Dupuy (INSA Rennes)
+and Laurent Rouvière (université de Haute Bretagne, Rennes).</p>
+      <p>Classification and discriminant analysis methods have grown in depths
+during the past 20 years. Fisher linear discriminant analysis (LDA) is
+the basic but standard approach. As the structure and dimension of the
+data becomes more complex in a wide range of applications, such as
+functional data, there is a need for more flexible nonparametric
+classification and discriminant analysis tools, especially when the
+ratio of learning sample size to number of covariates is low and the
+covariates are highly correlated and the covariance matrix is highly
+degenerated or when the large number of covariates are generally weak
+in predicting the class labels. For some data such as spectrometry
+data, only some parts of the observed curves are discriminant leading
+to groups of variables.</p>
+      <p>We proposed a classification tree based on groups of variables. Like
+usual tree-based methods, the algorithm partitions the feature space
+into M regions, by recursively performing binary splits.
+The main difference is that each split is based on groups of variables
+and the boundary between both classes is the hyperplane which
+minimizes the Bayes risk in the set generated by the selected group of
+variables.
+We demonstrate on several toy examples and real spectrometry data that
+the performances of the proposed tree groups algorithm are at least as
+good as the one of the standard CART algorithm and group Lasso
+logistic regression.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid44">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Bilateral grants with industry</bodyTitle>
+      <moreinfo>
+        <p>See <ref xlink:href="#uid29" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </moreinfo>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Hybrid indoor navigation — PhD project at CEA LETI</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idm7472">
+            <firstname>François</firstname>
+            <lastname>Le Gland</lastname>
+          </person>
+          <person key="aspi-2015-idp107576">
+            <firstname>Kersane</firstname>
+            <lastname>Zoubert--Ousseni</lastname>
+          </person>
+        </participants>
+        <p>This is a collaboration with Christophe Villien (CEA LETI, Grenoble).</p>
+        <p>The issue here is user localization, and more generally localization–based
+services (LBS). This problem is addressed by GPS for outdoor applications,
+but no such general solution has been provided so far for indoor applications.
+The desired solution should rely on sensors that are already available
+on smartphones and other tablet computers.
+Inertial solutions that use MEMS (microelectromechanical system, such as
+accelerometer, magnetometer, gyroscope and barometer) are already studied
+at CEA. An increase in performance should be possible, provided these data
+are combined with other available data: map of the building, WiFi signal,
+modeling of perturbations of the magnetic field, etc. To be successful,
+advanced data fusion techniques should be used, such as particle filtering
+and the like, to take into account displacement constraints due to walls
+in the building, to manage several possible trajectories, and to deal with
+rather heterogeneous information (map, radio signals, sensor signals).</p>
+        <p>The main objective of this thesis is to design and tune localization
+algorithms that will be tested on platforms already available at CEA.
+Special attention is paid to particle smoothing and particle MCMC algorithms,
+to exploit some very precise information available at special time instants,
+e.g. when the user is clearly localized near a landmark point.</p>
+        <p>In some applications, real time estimation of the trajectory is not needed,
+and a post processing framework may provide a better estimation of this
+trajectory. In <ref xlink:href="#aspi-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we present and compare
+three different algorithms to improve a real time trajectory estimation.
+Actually, two different smoothing algorithms and the Viterbi algorithm are
+implemented and evaluated. These methods improve the regularity of the
+estimated trajectory by reducing switches between hypotheses.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Bayesian tracking from raw data — CIFRE grant with DCNS Nantes</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idm7472">
+            <firstname>François</firstname>
+            <lastname>Le Gland</lastname>
+          </person>
+          <person key="aspi-2016-idp124896">
+            <firstname>Audrey</firstname>
+            <lastname>Cuillery</lastname>
+          </person>
+        </participants>
+        <p>This is a collaboration with Dann Laneuville (DCNS Nantes).</p>
+        <p>After the introduction of MHT (multi–hypothesis tracking) techniques
+in the nineties, multitarget tracking has recently seen promising
+developpments with the introduction of new algorithms such
+as the PHD (probability hypothesis density) filter  <ref xlink:href="#aspi-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#aspi-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+or the HISP (hypothesised filter for independent stochastic populations)
+filter  <ref xlink:href="#aspi-2016-bid42" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+These techniques provide a unified multitarget model in a Bayesian
+framework  <ref xlink:href="#aspi-2016-bid43" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+which makes it possible to design recursive estimators of
+a <i>multitarget probability density</i>.
+Two main approaches can be used here: sequential Monte Carlo (SMC, also
+kown as particle filtering), and Gaussian mixture (GM).
+A third approach, based on discretizing the state–space in a possibly
+adaptive way, could also be considered despite its larger computational load.
+These methods are well studied and provide quite good results
+for <i>contact output</i> data, which correspond to regularly spaced
+measurements of targets with a large SNR (signal–to–noise ratio).
+Here, the data is processed (compared with a detection threshold) in each
+resolution cell of the sensor, so as to provide a list of detections at
+a given time instant.
+Among these methods, the HISP filter has the best performance/computational
+cost ratio.</p>
+        <p>However, these classical methods are unefficient for targets with a low SNR,
+e.g. targets in far range or small targets with a small detection
+probability.
+For such targets, preprocessing (thresholding) the data is not a good idea,
+and a much better idea is to feed a tracking algorithm with the
+raw <i>sensor output</i> data directly.
+These new methods  <ref xlink:href="#aspi-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> require a precise modeling of the
+sensor physics and a direct access to the radar (or the sonar) raw data,
+i.e. to the signal intensity level in each azimuth/range cell.
+Note that these new methods seem well suited to new types of sensors such
+as lidar, since manufacturers do not integrate a detection module and do
+provide raw images of the signal intensity level in each azimuth/range cell.</p>
+        <p>The objective of the thesis is to study and design a tracking algorithm
+using raw data, and to implement it on radar (or sonar, or lidar) real data.</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid48">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Regional initiatives</bodyTitle>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Stochastic Model­-Data Coupled Representations
+for the Upper Ocean Dynamics (SEACS) — inter labex project</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idm7472">
+            <firstname>François</firstname>
+            <lastname>Le Gland</lastname>
+          </person>
+          <person key="aspi-2014-idp88592">
+            <firstname>Valérie</firstname>
+            <lastname>Monbet</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>January 2015 to December 2017.</p>
+        </moreinfo>
+        <p>This is a joint research initiative supported by the three labex
+active in Brittany,
+<ref xlink:href="http://www.cominlabs.ueb.eu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CominLabs (Communication and Information Sciences
+Laboratory)</ref>,
+<ref xlink:href="http://www.lebesgue.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Lebesgue (Centre de Mathématiques Henri
+Lebesgue)</ref>
+and <ref xlink:href="http://www.labexmer.eu/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">LabexMER (Frontiers in Marine
+Research)</ref>.</p>
+        <p>This project aims at exploring novel statistical and stochastic methods
+to address the emulation, reconstruction and forecast of fine–scale upper
+ocean dynamics.
+The key objective is
+to investigate new tools and methods for the calibration and implementation
+of novel sound and efficient oceanic dynamical models, combining</p>
+        <simplelist>
+          <li id="uid51">
+            <p noindent="true">recent advances in the theoretical understanding,
+modeling and simulation of upper ocean dynamics,</p>
+          </li>
+          <li id="uid52">
+            <p noindent="true">and mass of data
+routinely available to observe the ocean evolution.</p>
+          </li>
+        </simplelist>
+        <p>In this respect, the emphasis will
+be given to stochastic frameworks to encompass
+multi–scale/multi–source approaches and benefit from the available
+observation and simulation massive data. The addressed scientific
+questions constitute basic research issues at the frontiers of several
+disciplines. It crosses in particular advanced data analysis
+approaches, physical oceanography and stochastic representations. To
+develop such an interdisciplinary initiative, the project gathers a set of
+research groups associated with these different scientific domains,
+which have already proven for several years their capacities to
+interact and collaborate on topics related to oceanic data and
+models. This project will place Brittany with an innovative and
+leading expertise at the frontiers of computer science, statistics and
+oceanography. This transdisciplinary research initiative is expected
+to resort to significant advances challenging the current thinking in
+computational oceanography.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>National initiatives</bodyTitle>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Computational Statistics and Molecular Simulation (COSMOS) — ANR
+challenge Information and Communication Society</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idm6248">
+            <firstname>Frédéric</firstname>
+            <lastname>Cérou</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>Inria contract ALLOC 9452 — January 2015 to December 2017.</p>
+        </moreinfo>
+        <p>The COSMOS project aims at developing numerical techniques dedicated
+to the sampling of high–dimensional probability measures describing a
+system of interest. There are two application fields of interest:
+computational statistical physics (a field also known as molecular
+simulation), and computational statistics. These two fields share some
+common history, but it seems that, in view of the quite recent
+specialization of the scientists and the techniques used in these
+respective fields, the communication between molecular simulation and
+computational statistics is not as intense as it should be.</p>
+        <p>We believe that there are therefore many opportunities in considering
+both fields at the same time: in particular, the adaption of a
+successful simulation technique from one field to the other requires
+first some abstraction process where the features specific to the
+original field of application are discarded and only the heart of the
+method is kept. Such a cross–fertilization is however only possible if
+the techniques developed in a specific field are sufficiently mature:
+this is why some fundamental studies specific to one of the
+application fields are still required. Our belief is that the
+embedding in a more general framework of specific developments in a
+given field will accelerate and facilitate the diffusion to the other
+field.</p>
+      </subsection>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Advanced Geophysical Reduced–Order Model Construction from Image Observations (GERONIMO) — ANR programme Jeunes Chercheuses et Jeunes Chercheurs</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idp85736">
+            <firstname>Patrick</firstname>
+            <lastname>Héas</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>Inria contract ALLOC 8102 — March 2014 to February 2018.</p>
+        </moreinfo>
+        <p>The GERONIMO project aims at devising new efficient and effective
+techniques for the design of geophysical reduced–order models (ROMs)
+from image data. The project both arises from the crucial need of
+accurate low–order descriptions of highly–complex geophysical
+phenomena and the recent numerical revolution which has supplied the
+geophysical scientists with an unprecedented volume of image data.
+Our research activities are concerned by the exploitation of the huge
+amount of information contained in image data in order to reduce the
+uncertainty on the unknown parameters of the models and improve the
+reduced–model accuracy. In other words, the objective of our
+researches to process the large amount of incomplete and noisy image
+data daily captured by satellites sensors to devise new advanced model
+reduction techniques. The construction of ROMs is placed into a
+probabilistic Bayesian inference context, allowing for the handling of
+uncertainties associated to image measurements and the
+characterization of parameters of the reduced dynamical system.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>European initiatives</bodyTitle>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Molecular Simulation: Modeling, Algorithms and Mathematical Analysis (MSMaths) — ERC Consolidator Grant</bodyTitle>
+        <participants>
+          <person key="matherials-2014-idp69400">
+            <firstname>Mathias</firstname>
+            <lastname>Rousset</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>January 2014 to December 2019.</p>
+          <p>PI: Tony Lelièvre, Civil Engineer in Chief, Ecole des Ponts Paris-Tech.</p>
+        </moreinfo>
+        <p>Note that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>/</mo><mn>3</mn></mrow></math></formula> of Mathias Rousset research activities are held within
+the MSMath ERC project.</p>
+        <p>With the development of large-scale computing facilities, simulations of materials at the molecular scale are now performed on a daily basis. The aim of these simulations is to understand the macroscopic properties of matter from a microscopic description, for example, its atomistic configuration.</p>
+        <p>In order to make these simulations efficient and precise, mathematics have a crucial role to play. Indeed, specific algorithms have to be used in order to bridge the time and space scales between the atomistic level and the macroscopic level. The objective of the MSMath ERC project is thus to develop and study efficient algorithms to simulate high-dimensional systems over very long times. These developments are done in collaboration with physicists, chemists and biologists who are using these numerical methods in an academic or industrial context.</p>
+        <p>In particular, we are developping mathematical tools at the interface between the analysis of partial differential equations and stochastic analysis in order to characterize and to quantify the metastability of stochastic processes. Metastability is a fundamental concept to understand the timescale separation between the microscopic model and the macroscopic world. Many algorithms which aim at bridging the timescales are built using this timescale separation.</p>
+      </subsection>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Design of Desalination Systems Based on Optimal Usage of Multiple Renewable Energy Sources (DESIRES) — ERANETMED NEXUS–14–049</bodyTitle>
+        <participants>
+          <person key="aspi-2014-idp88592">
+            <firstname>Valérie</firstname>
+            <lastname>Monbet</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>January 2016 to December 2018.</p>
+        </moreinfo>
+        <p>This project is funded
+by the ERA–NET Initiative ERANETMED (Euro–Mediterranean
+Cooperation through ERA–NET Joint Activities and Beyond).
+It is a collaboration with Greece, Tunisia and Marocco, coordinated
+by Technical University of Crete (TUC).
+The French staff includes:
+Pierre Ailliot (Université de Bretagne Occidentale, Brest),
+Denis Allard (INRA Avignon),
+Anne Cuzol (Université de Bretagne Sud, Vannes),
+Christophe Maisondieu (IFREMER Brest)
+and Valérie Monbet.</p>
+        <p>The aim of
+<ref xlink:href="http://desires.tuc.gr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">DESIRES</ref>
+is to develop an Internet–based, multi–parametric electronic platform for optimum design of desalination plants, supplied by renewable energy sources (RES). The platform will rely upon (i) a solar, wind and wave energy potential database, (ii) existing statistical algorithms for processing energy-related data, (iii) information regarding the inter-annual water needs, (iv) a database with the technical characteristics of desalination plant units and the RES components, and (v) existing algorithms for cost effective design, optimal sizing and location selection of desalination plants.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>International initiatives</bodyTitle>
+      <subsection id="uid60" level="2">
+        <bodyTitle>Rare event simulation in epidemiology — PhD project
+at université de Ziguinchor</bodyTitle>
+        <participants>
+          <person key="aspi-2016-idp127392">
+            <firstname>Ramatoulaye</firstname>
+            <lastname>Dabo</lastname>
+          </person>
+          <person key="aspi-2014-idm6248">
+            <firstname>Frédéric</firstname>
+            <lastname>Cérou</lastname>
+          </person>
+          <person key="aspi-2014-idm7472">
+            <firstname>François</firstname>
+            <lastname>Le Gland</lastname>
+          </person>
+        </participants>
+        <p>This is the subjet of the PhD project of Ramatoulaye Dabo (université
+Assane Seck de Ziguinchor and université de Rennes 1).</p>
+        <p>The question here is to develop adaptive multilevel splitting algorithms
+for models that are commonly used in epidemiology, such as SIR (susceptible,
+infectious, recovered) models  <ref xlink:href="#aspi-2016-bid45" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, or more complex
+compartmental models.
+A significant advantage of adaptive multilevel splitting is its robustness,
+since it does not require too much knowledge about the behavior of the
+system under study.
+An interesting challenge would be to understand how to couple the algorithm
+with numerically efficient simulation methods such
+as <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula>–leaping  <ref xlink:href="#aspi-2016-bid46" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Complexity bounds and estimation error bounds could also be studied.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid61">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Promoting scientific activities</bodyTitle>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Scientific events organisation</bodyTitle>
+        <p>As part of statistics semester of Labex Lebesgue,
+Valérie Monbet has co–organized the 3rd workshop
+on <ref xlink:href="https://www.lebesgue.fr/content/sem2016-climate" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Stochastic
+Weather Generators</ref>,
+held in Vannes in May 2016.
+This workshop aimed at bringing together a wide range of researchers, practitioners, and graduate students whose work is related to the stochastic modelling of meteorological variables and stochastic weather generators.
+Stochastic weather generators give us ability to reliably predict climate-related risks by simulating sequences of daily weather and climate consistent with specific aspects of climate variability and change. The simulated sequences of meteorological variables (rainfall, wind, temperature,etc.) are typically used as inputs into complex environmental and ecosystem models. They have a wide range of applications in hydrology, agriculture and environmental management.</p>
+        <p>Within the programme <i>École d'été France Excellence</i>
+promoted by the French embassy in China, she has co–organized
+a two–weeks <ref xlink:href="https://www.lebesgue.fr/content/ecole-ete-france-excellence" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Summer School
+in Statistics</ref>,
+held in Rennes in June/July 2016.
+This initiative has offered Chinese students the opportunity to attend
+graduate courses in statistics, including practical and seminar sessions.</p>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Participation in workshops, seminars, lectures, etc.</bodyTitle>
+        <p>In addition to presentations with a publication in the proceedings,
+which are listed at the end of the document, members of ASPI
+have also given the following presentations.</p>
+        <p>Frédéric Cérou has given an invited talk
+on the convergence of adaptive multilevel splitting
+at the
+<ref xlink:href="http://www.eurandom.tue.nl/events/workshops/2016/SAM_PROB+ANALYSIS/WS3.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">RESIM 2016</ref> workshop
+held in Eindhoven in March/April 2016.
+He has given, jointly with Mathias Rousset,
+a talk on a central limit theorem for adaptive multilevel splitting
+at the 2nd meeting on
+<ref xlink:href="http://cermics.enpc.fr/~lelievre/ERC/AMS_2.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Adaptive Multilevel Splitting and Rare Events</ref>,
+an event of the MSMath ERC project
+held at CERMICS in Marne–la–Vallée, in June 2016.</p>
+        <p>Patrick Héas has given a talk
+on learning geophysical systems from images,
+at the seminar of ENS Rennes, in April 2016,
+and a talk on reduced modeling from partial observations,
+at the SIAM conference on
+<ref xlink:href="http://www.siam.org/meetings/uq16/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Uncertainty Quantification</ref>,
+held in Lausanne, in April 2016.</p>
+        <p>François Le Gland has given a talk
+on marginalization for rare event simulation in switching diffusions
+at the
+<ref xlink:href="http://www.eurandom.tue.nl/events/workshops/2016/SAM_PROB+ANALYSIS/WS3.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">RESIM 2016</ref> workshop
+held in Eindhoven in March/April 2016,
+and at the probability and statistics seminar of LJK (laboratoire Jean
+Kuntzmann) in Grenoble, in June 2016.</p>
+        <p>Valérie Monbet has given a talk on
+time varying autoregressive models for multisite weather generators
+at the 3rd workshop
+on <ref xlink:href="https://www.lebesgue.fr/content/sem2016-climate" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Stochastic
+Weather Generators</ref>,
+held in Vannes in May 2016.
+She has also given given a series of three lectures (including a lab session)
+at the <i>École d'été France Excellence</i>
+<ref xlink:href="https://www.lebesgue.fr/content/ecole-ete-france-excellence" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Summer School
+in Statistics</ref>,
+held in Rennes in June/July 2016.</p>
+      </subsection>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Research administration</bodyTitle>
+        <p>François Le Gland is a member of
+the <i>conseil d'UFR</i>
+of the department of mathematics of université de Rennes 1.
+He is also a member of the <i>conseil scientifique</i>
+for the EDF/Inria scientific partnership.</p>
+        <p>Valérie Monbet is a member of both the <i>comité de direction</i>
+and the <i>conseil</i> of IRMAR (institut de recherche mathématiques
+de Rennes, UMR 6625).
+She is also the deputy head of the department of mathematics of université
+de Rennes 1, where she is
+a member of both the <i>conseil scientifique</i> and
+the <i>conseil d'UFR</i>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Teaching, supervision, thesis committees</bodyTitle>
+      <subsection id="uid67" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>Patrick Héas gives a course on
+<ref xlink:href="http://people.rennes.inria.fr/Patrick.Heas/cours.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Monte Carlo simulation methods in image
+analysis</ref>
+at université de Rennes 1,
+within the SISEA (signal, image, systèmes embarqués, automatique,
+école doctorale MATISSE) track
+of the master in electronical engineering and telecommunications.</p>
+        <p>François Le Gland gives</p>
+        <simplelist>
+          <li id="uid68">
+            <p noindent="true">a 2nd year course on
+<ref xlink:href="http://www.irisa.fr/aspi/legland/insa-rennes/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">introduction to stochastic differential
+equations</ref>,
+at INSA (institut national des sciences appliquées) Rennes,
+within the GM/AROM (risk analysis, optimization and modeling) major
+in mathematical engineering,</p>
+          </li>
+          <li id="uid69">
+            <p noindent="true">a 3rd year course on
+<ref xlink:href="http://www.irisa.fr/aspi/legland/ensta/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Bayesian filtering and particle
+approximation</ref>,
+at ENSTA (école nationale supérieure de techniques avancées), Palaiseau,
+within the statistics and control module,</p>
+          </li>
+          <li id="uid70">
+            <p noindent="true">a 3rd year course on
+<ref xlink:href="http://www.irisa.fr/aspi/legland/ensai/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">linear and nonlinear
+filtering</ref>,
+at ENSAI (école nationale de la statistique et de l'analyse de
+l'information), Ker Lann, within the statistical engineering track,</p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">a course on
+<ref xlink:href="http://www.irisa.fr/aspi/legland/rennes-1/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Kalman filtering and hidden Markov
+models</ref>,
+at université de Rennes 1,
+within the SISEA (signal, image, systèmes embarqués, automatique,
+école doctorale MATISSE) track
+of the master in electronical engineering and telecommunications,</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">and a 3rd year course on
+<ref xlink:href="http://www.irisa.fr/aspi/legland/telecom-bretagne/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">hidden Markov
+models</ref>,
+at Télécom Bretagne, Brest.</p>
+          </li>
+        </simplelist>
+        <p>Valérie Monbet gives several courses
+on data analysis,
+on time series,
+and on mathematical statistics,
+all at université de Rennes 1 within the master on statistics and
+econometrics.
+She is also the director of the master on statistics and
+econometry at université de Rennes 1.</p>
+      </subsection>
+      <subsection id="uid73" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <p>François Le Gland has been supervising one PhD student</p>
+        <simplelist>
+          <li id="uid74">
+            <p noindent="true">Alexandre Lepoutre,
+title: <i>Tracking and detection in Track–Before–Detect context using
+particle filtering</i>,
+université de Rennes 1,
+started in October 2010,
+defense held on October 5, 2016,
+funding: ONERA grant,
+co–direction: Olivier Rabaste (ONERA, Palaiseau).</p>
+          </li>
+        </simplelist>
+        <p>Frédéric Cérou and François Le Gland are jointly supervising one PhD
+student</p>
+        <simplelist>
+          <li id="uid75">
+            <p noindent="true">Ramatoulaye Dabo,
+provisional title: <i>Rare event simulation in epidemiology</i>,
+université Assane Seck de Ziguinchor (Senegal)
+and université de Rennes 1,
+started in September 2015,
+expected defense in 2018,
+co–direction: Alassane Diedhiou (université Assane Seck de Ziguinchor).</p>
+          </li>
+        </simplelist>
+        <p>François Le Gland and Valérie Monbet are jointly supervising one PhD
+student</p>
+        <simplelist>
+          <li id="uid76">
+            <p noindent="true">Thi Tuyet Trang Chau,
+provisional title: <i>Non parametric filtering for Metocean multi–source
+data fusion</i>,
+université de Rennes 1,
+started in October 2015,
+expected defense in October 2018,
+funding: Labex Lebesgue grant and Brittany council grant,
+co–direction: Pierre Ailliot (université de Bretagne Occidentale, Brest).</p>
+          </li>
+        </simplelist>
+        <p>François Le Gland is supervising two other PhD students</p>
+        <simplelist>
+          <li id="uid77">
+            <p noindent="true">Kersane Zoubert–Ousseni,
+provisional title: <i>Particle filters for hybrid indoor navigation
+with smartphones</i>,
+université de Rennes 1,
+started in December 2014,
+expected defense in 2017,
+funding: CEA grant,
+co–direction: Christophe Villien (CEA LETI, Grenoble),</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">Audrey Cuillery,
+provisional title: <i>Bayesian tracking from raw data</i>,
+université du Sud Toulon Var,
+started in April 2016,
+expected defense in 2019,
+funding: CIFRE grant with DCNS,
+co–direction: Claude Jauffret (université du Sud Toulon Var)
+and Dann Laneuville (DCNS, Nantes).</p>
+          </li>
+        </simplelist>
+        <p>Valérie Monbet is supervising two other PhD students</p>
+        <simplelist>
+          <li id="uid79">
+            <p noindent="true">Audrey Poterie,
+provisional title: <i>Régression d'une variable ordinale par des données
+longitudinales de grande dimension : application à la modélisation des
+effets secondaires suite à un traitement par radiothérapie</i>,
+université de Rennes 1,
+started in October 2015,
+expected defense in 2018,
+funding: INSA grant,
+co–direction: Jean–François Dupuy (INSA Rennes)
+and Laurent Rouvière (université de Haute Bretagne, Rennes).</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Marie Morvan,
+provisional title: <i>Modèles de régression pour données
+fonctionnelles. Application à la modélisation de données de
+spectrométrie dans le proche infra rouge</i>,
+université de Rennes 1,
+started in October 2016,
+expected defense in 2019,
+funding: MESR grant,
+co–direction: Joyce Giacofci (université de Haute Bretagne, Rennes)
+and Olivier Sire (université de Bretagne Sud, Vannes).</p>
+          </li>
+        </simplelist>
+        <p>Mathias Rousset is supervising one PhD student</p>
+        <simplelist>
+          <li id="uid81">
+            <p noindent="true">Yushun Xu,
+provisional title: <i>Variance reduction of overdamped Langevin dynamics
+simulation</i>,
+université Paris-Est,
+started in October 2015,
+expected defense in 2018,
+co–direction: Pierre-André Zitt (université Paris–Est).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid82" level="2">
+        <bodyTitle>Thesis committees</bodyTitle>
+        <p>François Le Gland has been a reviewer for the PhD theses of
+Tepmony Sim (Télécom ParisTech, advisors: Randal Douc
+and François Roueff)
+and
+Clément Walter (université Denis Diderot, Paris, advisor:
+Josselin Garnier).</p>
+        <p>Valérie Monbet has been a member of the committee for the HDR
+of Mathieu Emily (université de Haute Bretagne, Rennes).</p>
+        <p>Mathias Rousset has been a member of the committee for the PhD thesis
+of Zofia Trstanova (Inria Grenoble, EPI NANO-D,
+advisor: Stéphane Redon).</p>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="aspi-2016-bid29" type="article" rend="refer" n="refercite:biau10a">
+      <analytic>
+        <title level="a">On the rate of convergence of the bagged nearest neighbor estimate</title>
+        <author>
+          <persName key="classic-2014-idp103000">
+            <foreName>Gérard</foreName>
+            <surname>Biau</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Machine Learning Research</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">687–712</biblScope>
+          <ref xlink:href="http://jmlr.csail.mit.edu/papers/v11/biau10a.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>jmlr.<allowbreak/>csail.<allowbreak/>mit.<allowbreak/>edu/<allowbreak/>papers/<allowbreak/>v11/<allowbreak/>biau10a.<allowbreak/>html</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid30" type="article" rend="refer" n="refercite:biau10b">
+      <identifiant type="doi" value="10.1109/TIT.2010.2040857"/>
+      <analytic>
+        <title level="a">On the rate of convergence of the functional <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>–nearest neighbor estimates</title>
+        <author>
+          <persName key="classic-2014-idp103000">
+            <foreName>Gérard</foreName>
+            <surname>Biau</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Information Theory</title>
+        <imprint>
+          <biblScope type="volume">IT–56</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">2034–2040</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TIT.2010.2040857" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TIT.<allowbreak/>2010.<allowbreak/>2040857</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid31" type="article" rend="refer" n="refercite:biau15a">
+      <identifiant type="doi" value="10.1214/13-AIHP590"/>
+      <analytic>
+        <title level="a">New insights into approximate Bayesian computation</title>
+        <author>
+          <persName key="classic-2014-idp103000">
+            <foreName>Gérard</foreName>
+            <surname>Biau</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Annales de l'Institut Henri Poincaré, Probabilités et Statistiques</title>
+        <imprint>
+          <biblScope type="volume">51</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">376–403</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1214/13-AIHP590" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1214/<allowbreak/>13-AIHP590</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid28" type="article" rend="refer" n="refercite:cerou06d">
+      <identifiant type="doi" value="10.1051/ps:2006014"/>
+      <analytic>
+        <title level="a">Nearest neighbor classification in infinite dimension</title>
+        <author>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM : Probability and Statistics</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">340–355</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1051/ps:2006014" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1051/<allowbreak/>ps:2006014</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid59" type="article" rend="refer" n="refercite:cerou07a">
+      <identifiant type="doi" value="10.1080/07362990601139628"/>
+      <analytic>
+        <title level="a">Adaptive multilevel splitting for rare event analysis</title>
+        <author>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Stochastic Analysis and Applications</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">417–443</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1080/07362990601139628" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1080/<allowbreak/>07362990601139628</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid24" type="article" rend="refer" n="refercite:cerou06c">
+      <analytic>
+        <title level="a">Genetic genealogical models in rare event analysis</title>
+        <author>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="cqfd-2016-idp114784">
+            <foreName>Pierre</foreName>
+            <surname>Del Moral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Lezaud</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ALEA, Latin American Journal of Probability and Mathematical Statistics</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">181–203</biblScope>
+        </imprint>
+      </monogr>
+      <note type="bnote">Paper 01–08</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid58" type="article" rend="refer" n="refercite:guyader11a">
+      <identifiant type="doi" value="10.1007/s00245-011-9135-z"/>
+      <analytic>
+        <title level="a">Simulation and estimation of extreme quantiles and extreme probabilities</title>
+        <author>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Hengartner</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Éric</foreName>
+            <surname>Matzner–Løber</surname>
+            <initial>É.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Applied Mathematics &amp; Optimization</title>
+        <imprint>
+          <biblScope type="volume">64</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">171–196</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s00245-011-9135-z" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s00245-011-9135-z</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid61" type="incollection" rend="refer" n="refercite:legland11a">
+      <analytic>
+        <title level="a">Large sample asymptotics for the ensemble Kalman filter</title>
+        <author>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Vu–Duc</foreName>
+            <surname>Tran</surname>
+            <initial>V.–D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Dan O.</foreName>
+            <surname>Crisan</surname>
+            <initial>D. O.</initial>
+          </persName>
+          <persName>
+            <foreName>Boris L.</foreName>
+            <surname>Rozovskii</surname>
+            <initial>B. L.</initial>
+          </persName>
+        </editor>
+        <title level="m">The Oxford Handbook of Nonlinear Filtering</title>
+        <loc>Oxford</loc>
+        <imprint>
+          <biblScope type="chapter">22</biblScope>
+          <publisher>
+            <orgName>Oxford University Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">598–631</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid62" type="incollection" rend="refer" n="refercite:musso01a">
+      <identifiant type="doi" value="10.1007/978-1-4757-3437-9_12"/>
+      <analytic>
+        <title level="a">Improving regularized particle filters</title>
+        <author>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Musso</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Oudjane</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Doucet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nando</foreName>
+            <surname>de Freitas</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Sequential Monte Carlo Methods in Practice</title>
+        <loc>New York</loc>
+        <title level="s">Statistics for Engineering and Information Science</title>
+        <imprint>
+          <biblScope type="chapter">12</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">247–271</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4757-3437-9_12" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4757-3437-9_12</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid60" type="incollection" rend="refer" n="refercite:legland06c">
+      <identifiant type="doi" value="10.1007/11587392_11"/>
+      <analytic>
+        <title level="a">A sequential algorithm that keeps the particle system alive</title>
+        <author>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Oudjane</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Henk A. P.</foreName>
+            <surname>Blom</surname>
+            <initial>H. A. P.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Lygeros</surname>
+            <initial>J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Stochastic Hybrid Systems : Theory and Safety Critical Applications</title>
+        <loc>Berlin</loc>
+        <title level="s">Lecture Notes in Control and Information Sciences</title>
+        <imprint>
+          <biblScope type="number">337</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">351–389</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/11587392_11" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>11587392_11</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid54" type="phdthesis" rend="year" n="cite:lepoutre:tel-01423238">
+      <identifiant type="hal" value="tel-01423238"/>
+      <monogr>
+        <title level="m">Detection and tracking in Track-Before-Detect context using particle filtering</title>
+        <author>
+          <persName key="aspi-2014-idp93840">
+            <foreName>Alexandre</foreName>
+            <surname>Lepoutre</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Rennes 1</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01423238" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01423238</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid48" type="article" rend="year" n="cite:albert:hal-01243032">
+      <identifiant type="doi" value="10.1016/j.jbspin.2015.05.009"/>
+      <identifiant type="hal" value="hal-01243032"/>
+      <analytic>
+        <title level="a">A novel method for a fast diagnosis of septic arthritis using mid infrared and deported spectroscopy</title>
+        <author>
+          <persName>
+            <foreName>Jean-David</foreName>
+            <surname>Albert</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Anne</foreName>
+            <surname>Jolivet-Gougeon</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Fatih</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Maëna</foreName>
+            <surname>Le Corvec</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Malik</foreName>
+            <surname>Seck</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Fréderic</foreName>
+            <surname>Charpentier</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Coiffier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Catherine</foreName>
+            <surname>Boussard-Plédel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Bureau</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Guggenbuhl</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Loréal</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02920">
+        <idno type="issn">1297-319X</idno>
+        <title level="j">Joint Bone Spine</title>
+        <imprint>
+          <biblScope type="volume">83</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">318-323</biblScope>
+          <ref xlink:href="https://hal-univ-rennes1.archives-ouvertes.fr/hal-01243032" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-univ-rennes1.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01243032</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid51" type="article" rend="year" n="cite:albert:hal-01367198">
+      <identifiant type="doi" value="10.1016/j.rhum.2016.05.007"/>
+      <identifiant type="hal" value="hal-01367198"/>
+      <analytic>
+        <title level="a">Une nouvelle méthode pour le diagnostic rapide d'arthrite septique utilisant la spectroscopie infrarouge</title>
+        <author>
+          <persName>
+            <foreName>Jean-David</foreName>
+            <surname>Albert</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Anne</foreName>
+            <surname>Jolivet-Gougeon</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Fatih</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Maëna</foreName>
+            <surname>Le Corvec</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Malik</foreName>
+            <surname>Seck</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>Charpentier</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillaume</foreName>
+            <surname>Coiffier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Catherine</foreName>
+            <surname>Boussard-Plédel</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Bureau</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Guggenbuhl</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Loréal</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="no" id="rid03119">
+        <idno type="issn">1169-8330</idno>
+        <title level="j">Revue du Rhumatisme</title>
+        <imprint>
+          <biblScope type="volume">83</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">295–300</biblScope>
+          <ref xlink:href="https://hal-univ-rennes1.archives-ouvertes.fr/hal-01367198" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-univ-rennes1.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01367198</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid52" type="article" rend="year" n="cite:bessac:hal-01250353">
+      <identifiant type="doi" value="10.5194/ascmo-2-1-2016"/>
+      <identifiant type="hal" value="hal-01250353"/>
+      <analytic>
+        <title level="a">Comparison of hidden and observed regime-switching autoregressive models for (u,v)-components of wind fields in the Northeast Atlantic</title>
+        <author>
+          <persName key="aspi-2014-idp92568">
+            <foreName>Julie</foreName>
+            <surname>Bessac</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Ailliot</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Cattiaux</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03118">
+        <idno type="issn">2364-3579</idno>
+        <title level="j">Advances in Statistical Climatology, Meteorology and Oceanography</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-16</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01250353" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01250353</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid50" type="article" rend="year" n="cite:buiquang:hal-01314343">
+      <identifiant type="doi" value="10.1109/TAES.2015.140419"/>
+      <identifiant type="hal" value="hal-01314343"/>
+      <analytic>
+        <title level="a">Particle filtering and the Laplace method for target tracking</title>
+        <author>
+          <persName key="alpage-2014-idp72976">
+            <foreName>Paul</foreName>
+            <surname>Bui Quang</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Musso</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00704">
+        <idno type="issn">0018-9251</idno>
+        <title level="j">IEEE Transactions on Aerospace and Electronic Systems</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">350-366</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01314343" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01314343</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid49" type="article" rend="year" n="cite:cerou:hal-01417241">
+      <identifiant type="doi" value="10.1214/16-AAP1177"/>
+      <identifiant type="hal" value="hal-01417241"/>
+      <analytic>
+        <title level="a">Fluctuation analysis of adaptive multilevel splitting</title>
+        <author>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00134">
+        <idno type="issn">1050-5164</idno>
+        <title level="j">The Annals of Applied Probability : an official journal of the institute of mathematical statistics</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3319-3380</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01417241" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01417241</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid34" type="article" rend="year" n="cite:heas:hal-01158551">
+      <identifiant type="doi" value="10.1137/15M1023956"/>
+      <identifiant type="hal" value="hal-01158551"/>
+      <analytic>
+        <title level="a">An Efficient Algorithm for Video Super-Resolution Based On a Sequential Model</title>
+        <author>
+          <persName key="aspi-2014-idp85736">
+            <foreName>Patrick</foreName>
+            <surname>Héas</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Angélique</foreName>
+            <surname>Drémeau</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="fluminance-2014-idm10032">
+            <foreName>Cédric</foreName>
+            <surname>Herzet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01734">
+        <idno type="issn">1936-4954</idno>
+        <title level="j">SIAM Journal on Imaging Sciences</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">537-572</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01158551" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01158551</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">37 pages</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid47" type="article" rend="year" n="cite:jacquemart:hal-01404144">
+      <identifiant type="doi" value="10.1016/j.ast.2016.05.027"/>
+      <identifiant type="hal" value="hal-01404144"/>
+      <analytic>
+        <title level="a">Adaptive interacting particle system algorithm for aircraft conflict probability estimation</title>
+        <author>
+          <persName key="aspi-2014-idp91304">
+            <foreName>Damien</foreName>
+            <surname>Jacquemart</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérôme</foreName>
+            <surname>Morio</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00092">
+        <idno type="issn">1270-9638</idno>
+        <title level="j">Aerospace Science and Technology</title>
+        <imprint>
+          <biblScope type="volume">55</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">431-438</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01404144" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01404144</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid53" type="article" rend="year" n="cite:lecorvec:hal-01296780">
+      <identifiant type="doi" value="10.1016/j.irbm.2016.03.003"/>
+      <identifiant type="hal" value="hal-01296780"/>
+      <analytic>
+        <title level="a">Fast and Non-Invasive Medical Diagnostic Using Mid Infrared Sensor: The AMNIFIR Project</title>
+        <author>
+          <persName>
+            <foreName>Maëna</foreName>
+            <surname>Le Corvec</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>Charpentier</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Amar</foreName>
+            <surname>Kachenoura</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Siouar</foreName>
+            <surname>Bensaid</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Sébastien</foreName>
+            <surname>Henno</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Edouard</foreName>
+            <surname>Bardou-Jacquet</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Turlin</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Lotfi</foreName>
+            <surname>Senhadji</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Loréal</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Sire</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>J. F.</foreName>
+            <surname>Betagne</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Hugues</foreName>
+            <surname>Tariel</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Lainé</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02117">
+        <idno type="issn">1959-0318</idno>
+        <title level="j">IRBM</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">116-123</biblScope>
+          <ref xlink:href="https://hal-univ-rennes1.archives-ouvertes.fr/hal-01296780" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-univ-rennes1.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01296780</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid55" type="article" rend="year" n="cite:lepoutre:hal-01393453">
+      <identifiant type="doi" value="10.1109/TAES.2016.140909"/>
+      <identifiant type="hal" value="hal-01393453"/>
+      <analytic>
+        <title level="a">Multitarget likelihood for Track-Before-Detect applications with amplitude fluctuations</title>
+        <author>
+          <persName key="aspi-2014-idp93840">
+            <foreName>Alexandre</foreName>
+            <surname>Lepoutre</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Rabaste</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00704">
+        <idno type="issn">0018-9251</idno>
+        <title level="j">IEEE Transactions on Aerospace and Electronic Systems</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1089-1107</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01393453" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01393453</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid56" type="article" rend="year" n="cite:monbet:hal-01250058">
+      <identifiant type="doi" value="10.1016/j.csda.2016.10.023"/>
+      <identifiant type="hal" value="hal-01250058"/>
+      <analytic>
+        <title level="a">Sparse vector Markov switching autoregressive models. Application to multivariate time series of temperature</title>
+        <author>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Ailliot</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00385">
+        <idno type="issn">0167-9473</idno>
+        <title level="j">Computational Statistics and Data Analysis</title>
+        <imprint>
+          <biblScope type="volume">108</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">40-51</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01250058" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01250058</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid37" type="inproceedings" rend="year" n="cite:heas:hal-01246074">
+      <identifiant type="doi" value="10.1109/ICASSP.2016.7471880"/>
+      <identifiant type="hal" value="hal-01246074"/>
+      <analytic>
+        <title level="a">Reduced-Order Modeling of Hidden Dynamics</title>
+        <author>
+          <persName key="aspi-2014-idp85736">
+            <foreName>Patrick</foreName>
+            <surname>Héas</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="fluminance-2014-idm10032">
+            <foreName>Cédric</foreName>
+            <surname>Herzet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASPP)</title>
+        <loc>Shangai, China</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1268–1272</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01246074" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01246074</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>41</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid39" type="inproceedings" rend="year" n="cite:zoubertousseni:hal-01423198">
+      <identifiant type="doi" value="10.1109/IPIN.2016.7743590"/>
+      <identifiant type="hal" value="hal-01423198"/>
+      <analytic>
+        <title level="a">Comparison of post-processing algorithms for indoor navigation trajectories</title>
+        <author>
+          <persName key="aspi-2014-idp95056">
+            <foreName>Kersane</foreName>
+            <surname>Zoubert-Ousseni</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Christophe</foreName>
+            <surname>Villien</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Proceedings of the 7th International Conference on Indoor Positioning and Indoor Navigation (IPIN)</title>
+        <loc>Alcala de Henares, Spain</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01423198" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01423198</ref>
+        </imprint>
+        <meeting id="cid624875">
+          <title>Indoor Positioning and Indoor Navigation</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+      <note type="bnote">ISBN: 978-1-5090-2425-4nternational Conference on Indoor Positioning and Indoor Navigation</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid33" type="misc" rend="year" n="cite:cerou:hal-01391689">
+      <identifiant type="hal" value="hal-01391689"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">A Central Limit Theorem for Fleming-Viot Particle Systems</title>
+        <author>
+          <persName key="aspi-2014-idm6248">
+            <foreName>Frédéric</foreName>
+            <surname>Cérou</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernard</foreName>
+            <surname>Delyon</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="aspi-2014-idp86960">
+            <foreName>Arnaud</foreName>
+            <surname>Guyader</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="matherials-2014-idp69400">
+            <foreName>Mathias</foreName>
+            <surname>Rousset</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01391689" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01391689</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Preprint Arxiv</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid36" type="unpublished" rend="year" n="cite:herzet:hal-01394059">
+      <identifiant type="hal" value="hal-01394059"/>
+      <monogr>
+        <title level="m">Model Reduction from Partial Observations</title>
+        <author>
+          <persName key="fluminance-2014-idm10032">
+            <foreName>Cédric</foreName>
+            <surname>Herzet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Angélique</foreName>
+            <surname>Drémeau</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="aspi-2014-idp85736">
+            <foreName>Patrick</foreName>
+            <surname>Héas</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01394059" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01394059</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid35" type="unpublished" rend="year" n="cite:heas:hal-01394064">
+      <identifiant type="hal" value="hal-01394064"/>
+      <monogr>
+        <title level="m">Low-rank Approximation and Dynamic Mode Decomposition</title>
+        <author>
+          <persName key="aspi-2014-idp85736">
+            <foreName>Patrick</foreName>
+            <surname>Héas</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="fluminance-2014-idm10032">
+            <foreName>Cédric</foreName>
+            <surname>Herzet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01394064" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01394064</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid57" type="unpublished" rend="year" n="cite:heas:hal-01429975">
+      <identifiant type="hal" value="hal-01429975"/>
+      <monogr>
+        <title level="m">Optimal Low-Rank Dynamic Mode Decomposition</title>
+        <author>
+          <persName key="aspi-2014-idp85736">
+            <foreName>Patrick</foreName>
+            <surname>Héas</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="fluminance-2014-idm10032">
+            <foreName>Cédric</foreName>
+            <surname>Herzet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01429975" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01429975</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASPP), New Orleans, USA, 2017</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid11" type="article" rend="foot" n="footcite:arulampalam02a">
+      <identifiant type="doi" value="10.1109/78.978374"/>
+      <analytic>
+        <title level="a">A tutorial on particle filters for online nonlinear / non–Gaussian Bayesian tracking</title>
+        <author>
+          <persName>
+            <foreName>M. Sanjeev</foreName>
+            <surname>Arulampalam</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Simon</foreName>
+            <surname>Maksell</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Tim</foreName>
+            <surname>Clapp</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Signal Processing</title>
+        <imprint>
+          <biblScope type="volume">SP–50</biblScope>
+          <biblScope type="number">2 (Special issue on Monte Carlo Methods for Statistical Signal Processing)</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">174–188</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/78.978374" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>78.<allowbreak/>978374</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid44" type="phdthesis" rend="foot" n="footcite:bocquel13b">
+      <monogr>
+        <title level="m">Random finite sets in multi–target tracking: efficient sequential MCMC implementation</title>
+        <author>
+          <persName>
+            <foreName>Mélanie</foreName>
+            <surname>Bocquel</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Department of Applied Mathematics, University of Twente</orgName>
+            <address>
+              <addrLine>Enschede</addrLine>
+            </address>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://purl.utwente.nl/publications/87496" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>purl.<allowbreak/>utwente.<allowbreak/>nl/<allowbreak/>publications/<allowbreak/>87496</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph.D Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid14" type="article" rend="foot" n="footcite:cappe07a">
+      <identifiant type="doi" value="10.1109/JPROC.2007.893250"/>
+      <analytic>
+        <title level="a">An overview of existing methods and recent advances in sequential Monte Carlo</title>
+        <author>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Cappé</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Simon J.</foreName>
+            <surname>Godsill</surname>
+            <initial>S. J.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Éric</foreName>
+            <surname>Moulines</surname>
+            <initial>É.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proceedings of the IEEE</title>
+        <imprint>
+          <biblScope type="volume">95</biblScope>
+          <biblScope type="number">5 (Special issue on Large–Scale Dynamic Systems)</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">899–924</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/JPROC.2007.893250" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>JPROC.<allowbreak/>2007.<allowbreak/>893250</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid45" type="book" rend="foot" n="footcite:daley99a">
+      <identifiant type="doi" value="10.1017/CBO9780511608834"/>
+      <monogr>
+        <title level="m">Epidemic modelling: An introduction</title>
+        <title level="s">Cambridge Studies in Mathematical Biology</title>
+        <author>
+          <persName>
+            <foreName>Daryl J.</foreName>
+            <surname>Daley</surname>
+            <initial>D. J.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Gani</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <publisher>
+            <orgName>Cambridge University Press<address><addrLine>Cambridge</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1017/CBO9780511608834" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1017/<allowbreak/>CBO9780511608834</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid26" type="article" rend="foot" n="footcite:de-boer05a">
+      <identifiant type="doi" value="10.1007/s10479-005-5724-z"/>
+      <analytic>
+        <title level="a">A tutorial on the cross–entropy method</title>
+        <author>
+          <persName>
+            <foreName>Pieter–Tjerk</foreName>
+            <surname>De Boer</surname>
+            <initial>P.–T.</initial>
+          </persName>
+          <persName>
+            <foreName>Dirk P.</foreName>
+            <surname>Kroese</surname>
+            <initial>D. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Shie</foreName>
+            <surname>Mannor</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Reuven Y.</foreName>
+            <surname>Rubinstein</surname>
+            <initial>R. Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Annals of Operations Research</title>
+        <imprint>
+          <biblScope type="volume">134 (Special issue on the Cross-Entropy Method for Combinatorial Optimization, Rare Event Simulation and Neural Computation)</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">19–67</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/s10479-005-5724-z" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s10479-005-5724-z</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid18" type="book" rend="foot" n="footcite:del-moral13a">
+      <monogr>
+        <title level="m">Mean field simulation for Monte Carlo integration</title>
+        <title level="s">Monographs on Statistics and Applied Probability</title>
+        <author>
+          <persName key="cqfd-2016-idp114784">
+            <foreName>Pierre</foreName>
+            <surname>Del Moral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">126</biblScope>
+          <publisher>
+            <orgName>Chapman &amp; Hall / CRC Press<address><addrLine>London</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://www.crcpress.com/product/isbn/9781466504059" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>crcpress.<allowbreak/>com/<allowbreak/>product/<allowbreak/>isbn/<allowbreak/>9781466504059</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid22" type="article" rend="foot" n="footcite:douc08a">
+      <identifiant type="doi" value="10.1214/07-AOS514"/>
+      <analytic>
+        <title level="a">Limit theorems for weighted samples with applications to sequential Monte Carlo methods</title>
+        <author>
+          <persName>
+            <foreName>Randal</foreName>
+            <surname>Douc</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Éric</foreName>
+            <surname>Moulines</surname>
+            <initial>É.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The Annals of Statistics</title>
+        <imprint>
+          <biblScope type="volume">36</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">2344–2376</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1214/07-AOS514" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1214/<allowbreak/>07-AOS514</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid10" type="book" rend="foot" n="footcite:doucet01a">
+      <identifiant type="doi" value="10.1007/978-1-4757-3437-9"/>
+      <monogr>
+        <title level="m">Sequential Monte Carlo methods in practice</title>
+        <title level="s">Statistics for Engineering and Information Science</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Doucet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nando</foreName>
+            <surname>de Freitas</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4757-3437-9" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4757-3437-9</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid32" type="article" rend="foot" n="footcite:dynkin83a">
+      <identifiant type="doi" value="10.2307/1999052"/>
+      <analytic>
+        <title level="a">Stochastic waves</title>
+        <author>
+          <persName>
+            <foreName>Eugene B.</foreName>
+            <surname>Dynkin</surname>
+            <initial>E. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert J.</foreName>
+            <surname>Vanderbei</surname>
+            <initial>R. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Transactions of the American Mathematical Society</title>
+        <imprint>
+          <biblScope type="volume">275</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>1983</year>
+          </dateStruct>
+          <biblScope type="pages">771–779</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.2307/1999052" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>2307/<allowbreak/>1999052</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid5" type="article" rend="foot" n="footcite:fox03a">
+      <identifiant type="doi" value="10.1109/MPRV.2003.1228524"/>
+      <analytic>
+        <title level="a">Bayesian filtering for location estimation</title>
+        <author>
+          <persName>
+            <foreName>Dieter</foreName>
+            <surname>Fox</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Jeffrey</foreName>
+            <surname>Hightower</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Lin</foreName>
+            <surname>Liao</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Dirk</foreName>
+            <surname>Schulz</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Gaetano</foreName>
+            <surname>Borriello</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Pervasive Computing</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>July/September</month>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">24–33</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/MPRV.2003.1228524" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>MPRV.<allowbreak/>2003.<allowbreak/>1228524</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid6" type="incollection" rend="foot" n="footcite:fox01a">
+      <identifiant type="doi" value="10.1007/978-1-4757-3437-9_19"/>
+      <analytic>
+        <title level="a">Particle filters for mobile robot localization</title>
+        <author>
+          <persName>
+            <foreName>Dieter</foreName>
+            <surname>Fox</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastian</foreName>
+            <surname>Thrun</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Wolfram</foreName>
+            <surname>Burgard</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Frank</foreName>
+            <surname>Dellaert</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Doucet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nando</foreName>
+            <surname>de Freitas</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Sequential Monte Carlo Methods in Practice</title>
+        <loc>New York</loc>
+        <title level="s">Statistics for Engineering and Information Science</title>
+        <imprint>
+          <biblScope type="chapter">19</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">401–428</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4757-3437-9_19" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4757-3437-9_19</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid9" type="book" rend="foot" n="footcite:frenkel02a">
+      <monogr>
+        <title level="m">Understanding molecular simulation. From algorithms to applications</title>
+        <title level="s">Computational Science Series</title>
+        <author>
+          <persName>
+            <foreName>Daan</foreName>
+            <surname>Frenkel</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Berend</foreName>
+            <surname>Smit</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <edition>2nd</edition>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <publisher>
+            <orgName>Academic Press<address><addrLine>San Diego</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <ref xlink:href="http://www.sciencedirect.com/science/book/9780122673511" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>book/<allowbreak/>9780122673511</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid46" type="article" rend="foot" n="footcite:gillespie01a">
+      <identifiant type="doi" value="10.1063/1.1378322"/>
+      <analytic>
+        <title level="a">Approximate accelerated stochastic simulation of chemically reacting systems</title>
+        <author>
+          <persName>
+            <foreName>Daniel T.</foreName>
+            <surname>Gillespie</surname>
+            <initial>D. T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The Journal of Chemical Physics</title>
+        <imprint>
+          <biblScope type="volume">115</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">1716–1733</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1063/1.1378322" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1063/<allowbreak/>1.<allowbreak/>1378322</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid0" type="book" rend="foot" n="footcite:glasserman04a">
+      <identifiant type="doi" value="10.1007/978-0-387-21617-1"/>
+      <monogr>
+        <title level="m">Monte Carlo methods in financial engineering</title>
+        <title level="s">Applications of Mathematics</title>
+        <author>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Glasserman</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-0-387-21617-1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-0-387-21617-1</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid8" type="article" rend="foot" n="footcite:glasserman99a">
+      <identifiant type="doi" value="10.1287/opre.47.4.585"/>
+      <analytic>
+        <title level="a">Multilevel splitting for estimating rare event probabilities</title>
+        <author>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Glasserman</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Philip</foreName>
+            <surname>Heidelberger</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Perwez</foreName>
+            <surname>Shahabuddin</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Tim</foreName>
+            <surname>Zajic</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Operations Research</title>
+        <imprint>
+          <biblScope type="volume">47</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>July–August</month>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">585–600</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1287/opre.47.4.585" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1287/<allowbreak/>opre.<allowbreak/>47.<allowbreak/>4.<allowbreak/>585</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid1" type="article" rend="foot" n="footcite:gordon93a">
+      <identifiant type="doi" value="10.1049/ip-f-2.1993.0015"/>
+      <analytic>
+        <title level="a">Novel approach to nonlinear / non–Gaussian Bayesian state estimation</title>
+        <author>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+          <persName>
+            <foreName>David J.</foreName>
+            <surname>Salmond</surname>
+            <initial>D. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Adrian F. M.</foreName>
+            <surname>Smith</surname>
+            <initial>A. F. M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEE Proceedings, Part F</title>
+        <imprint>
+          <biblScope type="volume">140</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>1993</year>
+          </dateStruct>
+          <biblScope type="pages">107–113</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1049/ip-f-2.1993.0015" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1049/<allowbreak/>ip-f-2.<allowbreak/>1993.<allowbreak/>0015</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid4" type="article" rend="foot" n="footcite:gustafsson02a">
+      <identifiant type="doi" value="10.1109/78.978396"/>
+      <analytic>
+        <title level="a">Particle filters for positioning, navigation, and tracking</title>
+        <author>
+          <persName>
+            <foreName>Fredrik</foreName>
+            <surname>Gustafsson</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Fredrik</foreName>
+            <surname>Gunnarsson</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Niclas</foreName>
+            <surname>Bergman</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Urban</foreName>
+            <surname>Forssell</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Jonas</foreName>
+            <surname>Jansson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Rickard</foreName>
+            <surname>Karlsson</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Per–Johan</foreName>
+            <surname>Nordlund</surname>
+            <initial>P.–J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Signal Processing</title>
+        <imprint>
+          <biblScope type="volume">SP–50</biblScope>
+          <biblScope type="number">2 (Special issue on Monte Carlo Methods for Statistical Signal Processing)</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">425–437</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/78.978396" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>78.<allowbreak/>978396</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid42" type="phdthesis" rend="foot" n="footcite:houssineau15b">
+      <monogr>
+        <title level="m">Representation and estimation of stochastic populations</title>
+        <author>
+          <persName>
+            <foreName>Jérémie</foreName>
+            <surname>Houssineau</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">School of Engineering and Physical Sciences, Heriot–Watt University</orgName>
+            <address>
+              <addrLine>Edinburgh</addrLine>
+            </address>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://jeremiehoussineau.wordpress.com/ph-d-thesis-all-versions/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>jeremiehoussineau.<allowbreak/>wordpress.<allowbreak/>com/<allowbreak/>ph-d-thesis-all-versions/</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph.D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid3" type="article" rend="foot" n="footcite:isard98a">
+      <identifiant type="doi" value="10.1023/A:1008078328650"/>
+      <analytic>
+        <title level="a"><span class="smallcap" align="left">Condensation</span> — Conditional density propagation for visual tracking</title>
+        <author>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Isard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>Blake</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">29</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>1998</year>
+          </dateStruct>
+          <biblScope type="pages">5–28</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1023/A:1008078328650" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1023/<allowbreak/>A:1008078328650</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid21" type="article" rend="foot" n="footcite:kuensch05a">
+      <analytic>
+        <title level="a">Recursive Monte Carlo filters : Algorithms and theoretical analysis</title>
+        <author>
+          <persName>
+            <foreName>Hans R.</foreName>
+            <surname>Künsch</surname>
+            <initial>H. R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The Annals of Statistics</title>
+        <imprint>
+          <biblScope type="volume">33</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">1983–2021</biblScope>
+          <ref xlink:href="http://www.jstor.org/stable/3448632" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>jstor.<allowbreak/>org/<allowbreak/>stable/<allowbreak/>3448632</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid2" type="article" rend="foot" n="footcite:kitagawa96a">
+      <analytic>
+        <title level="a">Monte Carlo filter and smoother for non–Gaussian nonlinear state space models</title>
+        <author>
+          <persName>
+            <foreName>Genshiro</foreName>
+            <surname>Kitagawa</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational and Graphical Statistics</title>
+        <imprint>
+          <biblScope type="volume">5</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <biblScope type="pages">1–25</biblScope>
+          <ref xlink:href="http://www.jstor.org/stable/1390750" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>jstor.<allowbreak/>org/<allowbreak/>stable/<allowbreak/>1390750</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid19" type="article" rend="foot" n="footcite:legland03a">
+      <identifiant type="doi" value="10.1016/S0304-4149(03)00041-3"/>
+      <analytic>
+        <title level="a">A robustification approach to stability and to uniform particle approximation of nonlinear filters : the example of pseudo-mixing signals</title>
+        <author>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Oudjane</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Stochastic Processes and their Applications</title>
+        <imprint>
+          <biblScope type="volume">106</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">279-316</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/S0304-4149(03)00041-3" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>S0304-4149(03)00041-3</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid20" type="article" rend="foot" n="footcite:legland04a">
+      <identifiant type="doi" value="10.1214/aoap/1075828050"/>
+      <analytic>
+        <title level="a">Stability and uniform approximation of nonlinear filters using the Hilbert metric, and application to particle filters</title>
+        <author>
+          <persName key="aspi-2014-idm7472">
+            <foreName>François</foreName>
+            <surname>Le Gland</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Oudjane</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The Annals of Applied Probability</title>
+        <imprint>
+          <biblScope type="volume">14</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">144–187</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1214/aoap/1075828050" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1214/<allowbreak/>aoap/<allowbreak/>1075828050</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid13" type="book" rend="foot" n="footcite:liu01a">
+      <identifiant type="doi" value="10.1007/978-0-387-76371-2"/>
+      <monogr>
+        <title level="m">Monte Carlo strategies in scientific computing</title>
+        <title level="s">Springer Series in Statistics</title>
+        <author>
+          <persName>
+            <foreName>Jun S.</foreName>
+            <surname>Liu</surname>
+            <initial>J. S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-0-387-76371-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-0-387-76371-2</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid40" type="article" rend="foot" n="footcite:mahler03a">
+      <identifiant type="doi" value="10.1109/TAES.2003.1261119"/>
+      <analytic>
+        <title level="a">Multitarget Bayes filtering via first–order multitarget moments</title>
+        <author>
+          <persName>
+            <foreName>Ronald P. S.</foreName>
+            <surname>Mahler</surname>
+            <initial>R. P. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Aerospace and Electronic Systems</title>
+        <imprint>
+          <biblScope type="volume">AES–39</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">1152–1178</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TAES.2003.1261119" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TAES.<allowbreak/>2003.<allowbreak/>1261119</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid12" type="book" rend="foot" n="footcite:ristic04a">
+      <monogr>
+        <title level="m">Beyond the Kalman Filter : Particle Filters for Tracking Applications</title>
+        <author>
+          <persName>
+            <foreName>Branko</foreName>
+            <surname>Ristić</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>M. Sanjeev</foreName>
+            <surname>Arulampalam</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Neil J.</foreName>
+            <surname>Gordon</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Artech House<address><addrLine>Norwood, MA</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <ref xlink:href="http://www.artechhouse.com/international/books/945.aspx" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>artechhouse.<allowbreak/>com/<allowbreak/>international/<allowbreak/>books/<allowbreak/>945.<allowbreak/>aspx</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid25" type="book" rend="foot" n="footcite:rubinstein04a">
+      <identifiant type="doi" value="10.1007/978-1-4757-4321-0"/>
+      <monogr>
+        <title level="m">The cross–entropy method. A unified approach to combinatorial optimization, Monte Carlo simulation and machine learning</title>
+        <title level="s">Information Science and Statistics</title>
+        <author>
+          <persName>
+            <foreName>Reuven Y.</foreName>
+            <surname>Rubinstein</surname>
+            <initial>R. Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Dirk P.</foreName>
+            <surname>Kroese</surname>
+            <initial>D. P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4757-4321-0" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4757-4321-0</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid27" type="article" rend="foot" n="footcite:stone77a">
+      <analytic>
+        <title level="a">Consistent nonparametric regression (with discussion)</title>
+        <author>
+          <persName>
+            <foreName>Charles J.</foreName>
+            <surname>Stone</surname>
+            <initial>C. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The Annals of Statistics</title>
+        <imprint>
+          <biblScope type="volume">5</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>1977</year>
+          </dateStruct>
+          <biblScope type="pages">595–645</biblScope>
+          <ref xlink:href="http://www.jstor.org/stable/2958783" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>jstor.<allowbreak/>org/<allowbreak/>stable/<allowbreak/>2958783</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid43" type="book" rend="foot" n="footcite:stone14a">
+      <monogr>
+        <title level="m">Bayesian multiple target tracking</title>
+        <author>
+          <persName>
+            <foreName>Lawrence D.</foreName>
+            <surname>Stone</surname>
+            <initial>L. D.</initial>
+          </persName>
+          <persName>
+            <foreName>Roy L.</foreName>
+            <surname>Streit</surname>
+            <initial>R. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas L.</foreName>
+            <surname>Corwin</surname>
+            <initial>T. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Kristine L.</foreName>
+            <surname>Bell</surname>
+            <initial>K. L.</initial>
+          </persName>
+        </author>
+        <edition>2nd</edition>
+        <imprint>
+          <publisher>
+            <orgName>Artech House<address><addrLine>Norwood, MA</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="http://www.artechhouse.com/international/books/2090.aspx" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>artechhouse.<allowbreak/>com/<allowbreak/>international/<allowbreak/>books/<allowbreak/>2090.<allowbreak/>aspx</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid38" type="incollection" rend="foot" n="footcite:tandeo15a">
+      <identifiant type="doi" value="10.1007/978-3-319-17220-0_1"/>
+      <analytic>
+        <title level="a">Combining analog method and ensemble data assimilation: application to the Lorenz–63 chaotic system</title>
+        <author>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Tandéo</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Ailliot</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Juan</foreName>
+            <surname>Ruiz</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexis</foreName>
+            <surname>Hannart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Chapron</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Anne</foreName>
+            <surname>Cuzol</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="aspi-2014-idp88592">
+            <foreName>Valérie</foreName>
+            <surname>Monbet</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Easton</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Ronan</foreName>
+            <surname>Fablet</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Valliappa</foreName>
+            <surname>Lakshmanan</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Gilleland</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Amy</foreName>
+            <surname>McGovern</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Tingley</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">Machine Learning and Data Mining Approaches to Climate Science</title>
+        <loc>Cham</loc>
+        <imprint>
+          <biblScope type="chapter">1</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">3–12</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-3-319-17220-0_1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-3-319-17220-0_1</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid7" type="book" rend="foot" n="footcite:thrun05a">
+      <monogr>
+        <title level="m">Probabilistic robotics</title>
+        <title level="s">Intelligent Robotics and Autonomous Agents</title>
+        <author>
+          <persName>
+            <foreName>Sebastian</foreName>
+            <surname>Thrun</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Wolfram</foreName>
+            <surname>Burgard</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Dieter</foreName>
+            <surname>Fox</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>The MIT Press<address><addrLine>Cambridge, MA</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <ref xlink:href="http://mitpress.mit.edu/books/probabilistic-robotics" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>mitpress.<allowbreak/>mit.<allowbreak/>edu/<allowbreak/>books/<allowbreak/>probabilistic-robotics</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid41" type="article" rend="foot" n="footcite:vo06a">
+      <identifiant type="doi" value="10.1109/TSP.2006.881190"/>
+      <analytic>
+        <title level="a">The Gaussian mixture probability hypothesis density filter</title>
+        <author>
+          <persName>
+            <foreName>Ba–Ngu</foreName>
+            <surname>Vo</surname>
+            <initial>B.–N.</initial>
+          </persName>
+          <persName>
+            <foreName>Wing–Kin</foreName>
+            <surname>Ma</surname>
+            <initial>W.–K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Signal Processing</title>
+        <imprint>
+          <biblScope type="volume">SP–54</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">4091–4104</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/TSP.2006.881190" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>TSP.<allowbreak/>2006.<allowbreak/>881190</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid16" type="book" rend="foot" n="footcite:del-moral04a">
+      <identifiant type="doi" value="10.1007/978-1-4684-9393-1"/>
+      <monogr>
+        <title level="m">Feynman–Kac formulae. Genealogical and interacting particle systems with applications</title>
+        <title level="s">Probability and its Applications</title>
+        <author>
+          <persName key="cqfd-2016-idp114784">
+            <foreName>Pierre</foreName>
+            <surname>Del Moral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4684-9393-1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4684-9393-1</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid15" type="incollection" rend="foot" n="footcite:del-moral00d">
+      <identifiant type="doi" value="10.1007/BFb0103798"/>
+      <analytic>
+        <title level="a">Branching and interacting particle systems approximations of Feynman–Kac formulae with applications to nonlinear filtering</title>
+        <author>
+          <persName key="cqfd-2016-idp114784">
+            <foreName>Pierre</foreName>
+            <surname>Del Moral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Laurent</foreName>
+            <surname>Miclo</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Jacques</foreName>
+            <surname>Azéma</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Émery</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Ledoux</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Yor</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">Séminaire de Probabilités XXXIV</title>
+        <loc>Berlin</loc>
+        <title level="s">Lecture Notes in Mathematics</title>
+        <imprint>
+          <biblScope type="volume">1729</biblScope>
+          <publisher>
+            <orgName>Springer–Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">1–145</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1007/BFb0103798" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>BFb0103798</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid23" type="article" rend="foot" n="footcite:lecuyer07a">
+      <identifiant type="doi" value="10.1145/1225275.1225280"/>
+      <analytic>
+        <title level="a">Rare events, splitting, and quasi–Monte Carlo</title>
+        <author>
+          <persName key="dionysos-2014-idp110616">
+            <foreName>Pierre</foreName>
+            <surname>L'Écuyer</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Valérie</foreName>
+            <surname>Demers</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dionysos-2014-idm12448">
+            <foreName>Bruno</foreName>
+            <surname>Tuffin</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Transactions on Modeling and Computer Simulation</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">2 (Special issue honoring Perwez Shahabuddin)</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2007</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1145/1225275.1225280" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>1225275.<allowbreak/>1225280</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Article 9</note>
+    </biblStruct>
+    
+    <biblStruct id="aspi-2016-bid17" type="book" rend="foot" n="footcite:van-der-vaart96a">
+      <identifiant type="doi" value="10.1007/978-1-4757-2545-2"/>
+      <monogr>
+        <title level="m">Weak convergence and empirical processes</title>
+        <title level="s">Springer Series in Statistics</title>
+        <author>
+          <persName>
+            <foreName>Aad W.</foreName>
+            <surname>van der Vaart</surname>
+            <initial>A. W.</initial>
+          </persName>
+          <persName>
+            <foreName>Jon A.</foreName>
+            <surname>Wellner</surname>
+            <initial>J. A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer–Verlag<address><addrLine>Berlin</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1007/978-1-4757-2545-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>978-1-4757-2545-2</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

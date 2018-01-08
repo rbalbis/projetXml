@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="select" isproject="true">
+    <shortname>SELECT</shortname>
+    <projectName>Model selection in statistical learning</projectName>
+    <theme-de-recherche>Optimization, machine learning and statistical methods</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>http://www.math.u-psud.fr/select/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire de mathématiques d'Orsay de l'Université de Paris-Sud (LMO)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Paris-Sud (Paris 11)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2007 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.1.1. - Modeling, representation</term>
+      <term>3.1.8. - Big data (production, storage, transfer)</term>
+      <term>3.2.2. - Knowledge extraction, cleaning</term>
+      <term>3.3.2. - Data mining</term>
+      <term>3.3.3. - Big data analysis</term>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>3.4.3. - Reinforcement learning</term>
+      <term>3.4.4. - Optimization and learning</term>
+      <term>3.4.5. - Bayesian methods</term>
+      <term>3.4.6. - Neural networks</term>
+      <term>3.4.7. - Kernel methods</term>
+      <term>3.4.8. - Deep learning</term>
+      <term>5.3.3. - Pattern recognition</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.2.6. - Optimization</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.5. - Genetics</term>
+      <term>1.1.6. - Genomics</term>
+      <term>1.1.9. - Bioinformatics</term>
+      <term>1.1.10. - Mathematical biology</term>
+      <term>9.4.2. - Mathematics</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="select-2014-idm8264">
+      <firstname>Pascal</firstname>
+      <lastname>Massart</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Univ. Paris XI, Professor</moreinfo>
+    </person>
+    <person key="select-2014-idm7000">
+      <firstname>Benjamin</firstname>
+      <lastname>Auder</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="popix-2014-idm8712">
+      <firstname>Kevin</firstname>
+      <lastname>Bleakley</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="select-2014-idm5760">
+      <firstname>Gilles</firstname>
+      <lastname>Celeux</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="sierra-2014-idm27832">
+      <firstname>Sylvain</firstname>
+      <lastname>Arlot</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI, Professor</moreinfo>
+    </person>
+    <person key="select-2015-idp68648">
+      <firstname>Julie</firstname>
+      <lastname>Josse</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="select-2014-idp88664">
+      <firstname>Christine</firstname>
+      <lastname>Keribin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI, Associate Professor</moreinfo>
+    </person>
+    <person key="select-2014-idp89920">
+      <firstname>Claire</firstname>
+      <lastname>Lacour</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI, Associate Professor</moreinfo>
+    </person>
+    <person key="select-2016-idp157264">
+      <firstname>Matthieu</firstname>
+      <lastname>Lerasle</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="select-2014-idp91176">
+      <firstname>Patrick</firstname>
+      <lastname>Pamphile</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI, Associate Professor</moreinfo>
+    </person>
+    <person key="select-2014-idp92432">
+      <firstname>Jean-Michel</firstname>
+      <lastname>Poggi</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris V, Professor</moreinfo>
+    </person>
+    <person key="select-2016-idp164688">
+      <firstname>Josselin</firstname>
+      <lastname>Demont</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="select-2015-idp76584">
+      <firstname>Jonas</firstname>
+      <lastname>Renault</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="select-2016-idp169616">
+      <firstname>Christian</firstname>
+      <lastname>Poli</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="select-2016-idp172080">
+      <firstname>Benjamin</firstname>
+      <lastname>Goehry</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2016-idp174512">
+      <firstname>Neska</firstname>
+      <lastname>Haouij</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI and Univ. Tunis El Manar</moreinfo>
+    </person>
+    <person key="select-2014-idp108784">
+      <firstname>Valerie</firstname>
+      <lastname>Robert</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2014-idp112480">
+      <firstname>Yann</firstname>
+      <lastname>Vasseur</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2015-idp82760">
+      <firstname>Jeanne</firstname>
+      <lastname>Nguyen</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2016-idp184256">
+      <firstname>Florence</firstname>
+      <lastname>Ducros</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Cifre: Univ. Paris XI and Nexter</moreinfo>
+    </person>
+    <person key="select-2015-idp81520">
+      <firstname>Claire</firstname>
+      <lastname>Brécheteau</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="geometrica-2014-idp78640">
+      <firstname>Eddie</firstname>
+      <lastname>Aamari</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="sierra-2014-idp90344">
+      <firstname>Damien</firstname>
+      <lastname>Garreau</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2016-idp194000">
+      <firstname>Guillaume</firstname>
+      <lastname>Maillard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Paris XI</moreinfo>
+    </person>
+    <person key="select-2016-idp196432">
+      <firstname>Kaniav</firstname>
+      <lastname>Kamary</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="select-2014-idp98912">
+      <firstname>Olga</firstname>
+      <lastname>Mwana Mobulakani</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Model selection in Statistics</bodyTitle>
+      <p>The research domain for the <span class="smallcap" align="left">select</span> project is statistics. Statistical methodology has made great progress over the past few decades,
+with a variety of statistical learning software packages that support many different methods and algorithms.
+Users now face the problem of choosing among them, to select the most appropriate method for their data sets and objectives.
+The problem of model selection is an important but difficult problem, both theoretically and practically.
+Classical model selection criteria, which use penalized minimum-contrast criteria with fixed penalties, are often based on unrealistic assumptions.</p>
+      <p><span class="smallcap" align="left">select</span> aims to provide efficient model selection criteria with data-driven penalty terms. In this context, <span class="smallcap" align="left">select</span> aims to improve
+the toolkit of statistical model selection criteria from both theoretical and practical perspectives. Currently, <span class="smallcap" align="left">select</span> is focusing its effort
+on variable selection in statistical learning,
+hidden-structure models and supervised classification.
+Its domains of application concern reliability, curve classification, phylogenetic analysis and classification in genetics.
+New developments in <span class="smallcap" align="left">select</span> activities are concerned with applications in biostatistics (statistical analysis of medical images)
+and biology.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>General presentation</bodyTitle>
+      <p>From applications we treat on a day-to-day basis, we have learned that some assumptions currently used in
+asymptotic theory for model selection are often irrelevant in practice. For instance, it is not realistic to
+assume that the target belongs to the family of models in competition. Moreover, in many
+situations, it is useful to make the size of the model depend on the sample size, which makes asymptotic
+analyses breakdown. An important aim of <span class="smallcap" align="left">select</span> is to propose model selection criteria which take such
+practical constraints into account.</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>A nonasymptotic view of model selection</bodyTitle>
+      <p>An important goal of <span class="smallcap" align="left">select</span> is to build and analyze penalized log-likelihood model selection criteria
+that are efficient when the number of models in competition grows to infinity with the number of observations.
+Concentration inequalities are a key tool for this, and lead to data-driven penalty choice strategies.
+A major research direction for <span class="smallcap" align="left">select</span> consists of deepening the analysis of data-driven penalties, both from the theoretical
+and practical points of view. There is no universal way of calibrating penalties, but there are several different general ideas that we aim to develop,
+including heuristics derived from Gaussian theory, special strategies for variable selection, and resampling methods.</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Taking into account the modeling purpose in model selection</bodyTitle>
+      <p>Choosing a model is not only difficult theoretically. From a practical point of view, it is important to
+design model selection criteria that accommodate situations in which the data probability
+distribution P is unknown, and which take the model user's purpose into account. Most standard model
+selection criteria assume that P belongs to one of a set of models, without considering the purpose
+of the model. By also considering the model user's purpose, we can avoid or overcome certain
+theoretical difficulties, and produce flexible model selection criteria with data-driven penalties.
+The latter is useful in supervised classification and hidden-structure models.</p>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Bayesian model selection</bodyTitle>
+      <p>The Bayesian approach to statistical problems is fundamentally probabilistic: a joint
+probability distribution is used to describe the relationships among all unknowns
+and the data. Inference is then based on the posterior distribution, i.e., the conditional probability distribution of
+the parameters given the observed data. Exploiting the internal consistency of the probability framework, the posterior distribution extracts
+relevant information in the data and provides a complete and coherent summary
+of post-data uncertainty. Using the posterior to solve specific inference and decision
+problems is then straightforward, at least in principle.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid9">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>A key goal of <span class="smallcap" align="left">select</span> is to produce methodological contributions in statistics. For this reason, the <span class="smallcap" align="left">select</span> team
+works with applications that serve as an important source of interesting practical problems and require innovative
+methodology to address them. Many of our applications involve contracts with industrial partners, e.g., in
+reliability, although we also have several academic collaborations, e.g., in
+genetics and image analysis.
+</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Curve classification</bodyTitle>
+      <p>The field of classification for complex data such as curves, functions, spectra and time series, is an
+important problem in current research.
+Standard data analysis questions are being looked into anew, in order to define novel strategies that take the functional nature of such data
+into account. Functional data analysis addresses a variety of applied problems, including
+longitudinal studies, analysis of fMRI data, and spectral calibration.</p>
+      <p>We are focused in particular on unsupervised classification.
+In addition to standard questions such as the
+choice of the number of clusters, the norm for measuring the distance between two observations, and
+vectors for representing clusters, we must also address a major computational problem: the functional
+nature of the data, which requires new approaches.
+</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Computer experiments and reliability</bodyTitle>
+      <p>For several years now, <span class="smallcap" align="left">select</span> has collaborated with the EDF-DER <i>Maintenance des Risques Industriels</i> group.
+One important theme involves the resolution of inverse problems using simulation tools to
+analyze incertainty in highly complex physical systems.</p>
+      <p>The other major theme concerns reliability, through a research collaboration with Nexter involving a Cifre convention.
+This collaboration concerns a lifetime analysis of a vehicle fleet to assess aging.</p>
+      <p>Moreover, a collaboration has begun with Dassault Aviation on the modal analysis of mechanical structures, which aims to identify the vibration behavior
+of structures under dynamic excitation. From the algorithmic point of view, modal analysis amounts to estimation in parametric models on the basis of measured
+excitations and structural response data. In literature and existing implementations, the model selection problem associated with this estimation is currently treated by a rather weighty and heuristic procedure. In the context of our own research, model selection via penalization methods are to be tested on this model selection problem.
+</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Analysis of genomic data</bodyTitle>
+      <p>For many years now, <span class="smallcap" align="left">select</span> collaborates with Marie-Laure Martin-Magniette (URGV) for the analysis of genomic data.
+An important theme of this collaboration is using statistically sound model-based clustering methods to discover groups of co-expressed genes
+from microarray and high-throughput sequencing data. In particular, identifying biological entities that share similar profiles across several
+treatment conditions, such as co-expressed genes, may help identify groups of genes that are involved in the same biological processes.</p>
+      <p>Yann Vasseur is completing a thesis co-supervised by Gilles Celeux and Marie-Laure Martin-Magniette on this topic,
+which is also an interesting investigation domain for the latent block model developed by <span class="smallcap" align="left">select</span>.
+For this work, Yann Vasseur is dealing with high-dimensional ill-posed problems where the
+number of variable is almost equal to the number of observations. He has designed heuristic tools using regularized regression methods
+to circumvent this difficulty.</p>
+      <p><span class="smallcap" align="left">select</span> collaborates with Anavaj Sakuntabhai and Benno Schwikowski (Pasteur Institute) on prediction of dengue fever severity from high-dimensional gene expression data. One project involves using/finding new and computationally efficient methods (e.g., 2d isotonic regression, lasso regression) for predicting dengue severity. Due to the high-dimensional nature of the data and low-dimensional nature of the number of individuals, false discovery rate (FDR) methods are used to provide statistical justification of results. A second project aims to predict dengue severity using only low-dimensional clinical data obtained at hospital arrival.
+A third project involves statistical meta-analysis of newly collected dengue gene expression data along with recently published data sets from other groups.</p>
+      <p><span class="smallcap" align="left">select</span> is involved in the ANR “jeunes chercheurs” MixStatSeq directed by Cathy Maugis (INSA Toulouse), which is concerned with statistical analysis and
+clustering of RNASeq genomics data.
+</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Pharmacovigilance</bodyTitle>
+      <p>A collaboration is ongoing with Pascale Tubert-Bitter, Ismael Ahmed and Mohamed Sedki (Pharmacoepidemiology and Infectious Diseases, PhEMI) for the analysis of pharmacovigilance data. In this framework, the goal is to detect, as soon as possible, potential associations between certain drugs and adverse effects, which appeared after the authorized marketing of these drugs. Instead of working on aggregate data (contingency table) like is usually the case, the approach developed aims to deal with individual's data, which perhaps gives more information.
+Valerie Robert is completing a thesis co-supervised by Gilles Celeux and Christine Keribin on this topic, which involves the development of a new model-based clustering method, inspired by latent block models. Morever, she has defined new tools to estimate and assess the block clustering involved in these models.
+</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Spectroscopic imaging analysis of ancient materials</bodyTitle>
+      <p>Ancient materials, encountered in archaeology and paleontology are often complex, heterogeneous
+and poorly characterized before physico-chemical analysis. A popular technique to gather as
+much physico-chemical information as possible, is spectro-microscopy or spectral imaging, where a full spectra,
+made of more than a thousand samples, is measured for each pixel. The produced data is tensorial with two or
+three spatial dimensions and one or more spectral dimensions, and requires the combination of an “image”
+approach with a “curve analysis” approach. Since 2010 <span class="smallcap" align="left">select</span>, collaborates with Serge Cohen (IPANEMA)
+on the development of conditional density estimation through GMM, and non-asymptotic model selection, to
+perform stochastic segmentation of such tensorial datasets. This technique enables the simultaneous accounting
+for spatial and spectral information, while producing statistically sound information on morphological and
+physico-chemical aspects of the studied samples.</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid16">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>BlockCluster</bodyTitle>
+      <p>Block Clustering</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Mixture model -
+Block cluster analysis</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Blockcluster is software devoted to model-based block clustering. It is developed in partnership with the MODAL team (Inria Lille).
+This year, some major bugs have been fixed, and the Bayesian point of view has been reinforced by including Gibbs sampling for
+binary and categorial data. This Gibbs sampler, coupled with the variational Bayes algorithm, provides solutions which are more stable
+and less dependent on the initial values of the algorithm. An exact expression of the ICL criterion has also been provided. This non-asymptotic criterion appears to be more relevant than the BIC-like approximation of ICL.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>BlockCluster is an R package for co-clustering of binary, contingency and continuous data based on mixture models.</p>
+      <simplelist>
+        <li id="uid18">
+          <p noindent="true">Participants: Gilles Celeux, Christine Keribin, Christophe Biernacki and Serge Iovleff</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Contact: Gilles Celeux</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">URL: <ref xlink:href="http://cran.r-project.org/web/packages/blockcluster/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cran.<allowbreak/>r-project.<allowbreak/>org/<allowbreak/>web/<allowbreak/>packages/<allowbreak/>blockcluster/<allowbreak/>index.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Mixmod</bodyTitle>
+      <p>Multi-purpose software for model-based clustering and classification with continuous and categorical variables.</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Mixture model -
+cluster analysis -
+discriminant analysis</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p><span class="smallcap" align="left">mixmod</span> is being developed in collaboration with Christophe Biernacki, Florent Langrognet (Université de Franche-Comté) and
+Gérard Govaert (Université de Technologie de Compiègne). <span class="smallcap" align="left">mixmod</span> (<span class="smallcap" align="left">mix</span>ture <span class="smallcap" align="left">mod</span>eling) software fits mixture models to a given data set, with either a clustering or a
+discriminant analysis purpose.
+<span class="smallcap" align="left">mixmod</span> uses a large variety of algorithms to estimate mixture parameters, e.g., EM, Classification EM, and Stochastic EM.
+They can be combined to create different strategies that lead to a sensible maximum of the likelihood (or completed likelihood) function.
+Moreover, different information criteria for choosing a parsimonious model, e.g. the number of mixture components,
+some of them favoring either a cluster analysis or a discriminant analysis point of view, are included.
+Many Gaussian models for continuous variables and multinomial models for discrete variable are included.
+Written in C++, <span class="smallcap" align="left">mixmod</span> is interfaced with <span class="smallcap" align="left">Matlab</span>. The software,
+statistical documentation, and user guide are available here:
+<ref xlink:href="http://www.mixmod.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>mixmod.<allowbreak/>org</ref>.</p>
+      <p>Since 2010, <span class="smallcap" align="left">mixmod</span> has a proper graphical user interface. A version of <span class="smallcap" align="left">mixmod</span> in R is now available:
+<ref xlink:href="http://cran.r-project.org/web/packages/Rmixmod/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cran.<allowbreak/>r-project.<allowbreak/>org/<allowbreak/>web/<allowbreak/>packages/<allowbreak/>Rmixmod/<allowbreak/>index.<allowbreak/>html</ref>.</p>
+      <p>Josselin Demont and Benjamin Auder have contributed to software improvement in <span class="smallcap" align="left">mixmod</span>. They have implemented an interface to test
+any mathematical library (Armadillo, Eigen, etc.) to replace NEWMAT. They have contributed to the continuous integration setup using Jenkins
+tools, and prepared an automated testing framework for unit and non-regression tests.</p>
+      <p>Jonas Renault, an engineer, is in charge of developing a web version of <span class="smallcap" align="left">mixmod</span>.</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">Participants: Christophe Biernacki, Gilles Celeux, Gérard Govaert, Florent Langrognet and Benjamin Auder</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Partners: CNRS - HEUDIASYC - Laboratoire Paul Painlevé - LIFL - LMB - Université Lille 1</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true">Contact: Gilles Celeux</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">URL: <ref xlink:href="http://www.mixmod.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>mixmod.<allowbreak/>org</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>MASSICCC</bodyTitle>
+      <p>Massive Clustering with Cloud Computing</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Statistic analysis - Big data - Machine learning - Web Application</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>The web application let users use several software packages developed by Inria directly in a web browser.
+Mixmod is a classification library for continuous and categorical data.
+MixtComp allows for missing data and a larger choice of data types developed by MODAL team (Inria Lille).
+BlockCluster is a library for co-clustering data.
+When using the web application, the user can first upload a data set, then configure a job using one of the
+libraries mentioned and start the execution of the job on a cluster. The results are then displayed directly
+in the browser allowing for rapid understanding and interactive visualisation.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The MASSICCC web application offers a simple and dynamic interface for analysing heterogeneous data with a web browser.
+Various software packages for statistical analysis are available (Mixmod, MixtComp, BlockCluster) which allow for supervised and supervised classification of large data sets.</p>
+      <simplelist>
+        <li id="uid27">
+          <p noindent="true">Participants: Christophe Biernacki, Gilles Celeux, Benjamin Auder, Josselein Demont, Jonas Renault</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">Contact: Jonas Renault</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">URL: <ref xlink:href="https://massiccc.lille.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>massiccc.<allowbreak/>lille.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid30">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Model selection in Regression and Classification</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Serge</firstname>
+          <lastname>Cohen</lastname>
+        </person>
+        <person key="select-2014-idm8264">
+          <firstname>Pascal</firstname>
+          <lastname>Massart</lastname>
+        </person>
+        <person key="sierra-2014-idm27832">
+          <firstname>Sylvain</firstname>
+          <lastname>Arlot</lastname>
+        </person>
+        <person key="select-2014-idp92432">
+          <firstname>Jean-Michel</firstname>
+          <lastname>Poggi</lastname>
+        </person>
+        <person key="popix-2014-idm8712">
+          <firstname>Kevin</firstname>
+          <lastname>Bleakley</lastname>
+        </person>
+      </participants>
+      <p>The well-documented and consistent variable selection procedure in model-based cluster analysis and classification that Cathy Maugis (INSA Toulouse)
+designed during her PhD thesis in <span class="smallcap" align="left">select</span>, makes use of stepwise algorithms which are painfully slow in high dimensions.
+In order to circumvent this drawback, Gilles Celeux, in collaboration with Mohammed
+Sedki (Université Paris XI) and Cathy Maugis), have proposed to sort variables using a lasso-like penalization
+adapted to the Gaussian mixture model context.
+Using this ranking to select variables, they avoid the combinatory problem of stepwise procedures.
+The performances on challenging simulated and real data sets are similar to the standard procedure, with
+a CPU time divided by a factor of more than a hundred.</p>
+      <p>In collaboration with Jean-Michel Marin (Université de Montpellier) and Olivier Gascuel (LIRMM), Gilles Celeux has continued research
+aiming to select a short list of models rather a single model. This short list is declared to be compatible with the data using a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-value
+derived from the Kullback-Leibler distance between the model and the empirical distribution. Furthermore, the Kullback-Leibler distances at hand are estimated through nonparametric and parametric bootstrap procedures. Different strategies are compared through numerical experiments
+on simulated and real data sets. This year their method has been compared favorably to competing methods.</p>
+      <p>Sylvain Arlot, in collaboration with Damien Garreau (Inria Paris, Sierra team), studied the kernel change-point algorithm (KCP) proposed by Arlot, Celisse and Harchaoui, that aims at locating an unknown number of change-points in the distribution of a sequence of independent data taking values in an arbitrary set. The change-points are selected by model selection with a penalized kernel empirical criterion. They provide a non-asymptotic result showing that, with high probability, the KCP procedure retrieves the correct number of change-points, provided that the constant in the penalty is well-chosen; in addition, KCP estimates the change-points location at the minimax rate <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo form="prefix">log</mo><mo>(</mo><mi>n</mi><mo>)</mo><mo>/</mo><mi>n</mi></mrow></math></formula>. As a consequence, when using a characteristic kernel, KCP detects all kinds of change in the distribution (not only changes in the mean or the variance), and it is able to do so for complex structured data (not necessarily in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>ℝ</mi><mi>d</mi></msup></math></formula>). Most of the analysis is conducted assuming that the kernel is bounded; part of the results can be extended when we only assume a finite second-order moment.</p>
+      <p>Emilie Devijver, Yannig Goude and Jean-Michel Poggi have proposed a
+new methodology for customer segmentation, in the context of load
+profiles in energy consumption. The method is based on
+high-dimensional regression models which perform clustering and model
+selection at the same time. They have focused on uncovering classes
+corresponding to different regression models, and compute clustering
+and model identification in each cluster simultaneously. They have
+shown the feasibility of the approach on a real data set of Irish
+customers.
+Benjamin Goehry is completing a thesis co-supervised by P. Massart and
+J-M. Poggi, aiming at extending this scheme by introducing the use of
+time series forecasting models adapted to each cluster.</p>
+      <p>J-M. Poggi, with J. Cugliari, Y. Goude, have proposed building clustering
+tools useful for forecasting load consumption. The idea is to
+disaggregate the global signal in such a way that the sum of
+disaggregated forecasts significantly improves the prediction of the
+whole global signal. The strategy has three steps: first they cluster
+curves defining super-consumers, then they build a hierarchy of
+partitions from which the best one is selected with respect
+to a disaggregated forecast criterion. The proposed strategy is
+applied to a dataset of individual consumers from the French
+electricity provider EDF.</p>
+      <p>V. Thouvenot and J-M. Poggi, with A. Pichavant, A. Antoniadis, Y. Goude,
+consider electricity forecasting using multi-stage estimators of
+nonlinear additive models. An automatic procedure for variable
+selection is used to correct middle term forecasting errors for short
+term forecasting. An application to the EDF customer load demand at an
+aggregate level is considered as well as an application on load demand from the GEFCom 2012 competition; this is a local application.</p>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Estimator selection</bodyTitle>
+      <participants>
+        <person key="select-2014-idp89920">
+          <firstname>Claire</firstname>
+          <lastname>Lacour</lastname>
+        </person>
+        <person key="select-2014-idm8264">
+          <firstname>Pascal</firstname>
+          <lastname>Massart</lastname>
+        </person>
+      </participants>
+      <p>Estimator selection has become a crucial issue in nonparametric estimation. Two widely used methods are penalized empirical risk minimization (such as
+penalized log-likelihood estimation) and pairwise comparison (such as Lepski's method). C. Lacour, P. Massart and V. Rivoirard have developed a new method for bandwidth selection which is in some sense intermediate between these two main methods mentioned above, and is called “Penalized Comparison to Overfitting”. They have first provided some theoretical results (oracle bounds, minimal penalty) within the framework of kernel density estimation, which leads to some fully data-driven selection strategies. Currently, S. Varet is implementing this method, making a thorough comparison with other selection methods, and tackling the multivariate case. Theoretical work is also in progress, in order to expand the method to other loss functions, such as the Hellinger loss.</p>
+    </subsection>
+    <subsection id="uid33" level="1">
+      <bodyTitle>Statistical learning methodology and theory</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="select-2014-idp88664">
+          <firstname>Christine</firstname>
+          <lastname>Keribin</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Michel</firstname>
+          <lastname>Prenat</lastname>
+        </person>
+        <person key="select-2016-idp196432">
+          <firstname>Kaniav</firstname>
+          <lastname>Kamary</lastname>
+        </person>
+        <person key="sierra-2014-idm27832">
+          <firstname>Sylvain</firstname>
+          <lastname>Arlot</lastname>
+        </person>
+        <person key="select-2014-idm7000">
+          <firstname>Benjamin</firstname>
+          <lastname>Auder</lastname>
+        </person>
+        <person key="select-2014-idp92432">
+          <firstname>Jean-Michel</firstname>
+          <lastname>Poggi</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Neska</firstname>
+          <lastname>El Haouij</lastname>
+        </person>
+        <person key="popix-2014-idm8712">
+          <firstname>Kevin</firstname>
+          <lastname>Bleakley</lastname>
+        </person>
+      </participants>
+      <p>Gaussian graphical models are widely used to infer and visualize networks of dependencies between continuous variables.
+However, inferring the graph is difficult when the sample size is small compared to the number of variables.
+To reduce the number of parameters to estimate in the model,
+the past PhD. students Emilie Devijver (supervisors: Pascal Massart and Jean-Michel Poggi) and Mélina Gallopin (supervisor: Gilles Celeux)
+proposed a non-asymptotic model selection procedure supported by strong theoretical guarantees based on an oracle inequality and a minimax
+lower bound. The covariance matrix of the model is approximated by a block-diagonal matrix. The structure of this matrix is detected by
+thresholding the sample covariance matrix, where the threshold is selected using the slope heuristic. Based on the block-diagonal structure
+of the covariance matrix, the estimation problem is divided into several independent problems: subsequently, the network of dependencies
+between variables is inferred using the graphical lasso algorithm in each block. The performance of the procedure has been illustrated
+on simulated data. An application to a real gene expression dataset with a limited sample size has been achieved: the dimension reduction
+allows attention to be objectively focused on interactions among smaller subsets of genes, leading to a more parsimonious and interpretable
+modular network. This work has been accepted for publication in the <i>Journal of the American Statistical Association</i>.</p>
+      <p>J-M. Poggi, with A. Bar-Hen, have focused on individual observation
+diagnosis issues for graphical models. The use of an influence measure
+is a classical diagnostic method to measure the perturbation induced
+by single elements. The stability issue is here considered using
+jackknife. For a given graphical model, tools to perform diagnosis on
+observations are provided. In the second step, a filtering of the dataset
+to obtain a stable network is proposed.</p>
+      <p>Latent Block Models (LBM) are a model-based method to cluster simultaneously the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> columns and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> rows of a data matrix.
+The Blockcluster package estimates such LBMs. Parameter estimation in LBM is a difficult and multifaceted problem.
+Although various estimation strategies have been proposed and are now well-understood empirically, theoretical guarantees
+about their asymptotic behavior is rather rare. Christine Keribin, in collaboration with Mahendra Mariadassou (INRA)
+and Vincent Brault (Université de Grenoble) have shown that under some mild conditions on the parameter space, and
+in an asymptotic regime where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo form="prefix">log</mo><mo>(</mo><mi>d</mi><mo>)</mo><mo>/</mo><mi>n</mi></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo form="prefix">log</mo><mo>(</mo><mi>n</mi><mo>)</mo><mo>/</mo><mi>d</mi></mrow></math></formula> go to 0 when <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> go to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>+</mo><mi>∞</mi></mrow></math></formula>, (1) the maximum
+likelihood estimate of the complete model (with known labels) is consistent and (2) the log-likelihood ratios are equivalent
+under the complete and observed (with unknown labels) models. This equivalence allows us to transfer the asymptotic consistency
+to the maximum likelihood estimate under the observed model. Moreover, the variational estimator is also consistent. These results
+extends the results of Bickel et al. (2013) on stochastic block models, and detail the case where the parameter exhibits symmetry.</p>
+      <p>For the same LBM, Valérie Robert and Yann Vasseur have extended the popular Adjusted Rand Index (ARI)
+to the task of simultaneous
+clustering of the rows and columns of a given matrix. This new index, called the Coclustering
+Adjusted Rand Index (CARI), overcomes the label switching phenomenon while remaining
+useful and competitive with respect to other indices. Indeed, partitions with high numbers of
+clusters can be considered, and no convention is required when the numbers of
+clusters in partitions are different. They are now exploring links with other indices.</p>
+      <p>Gilles Celeux continued his collaboration with Jean-Patrick Baudry on model-based clustering.
+This year, they proposed to consider the model selection criterion ICL as a validity index. They
+show how it can be coupled with a null model of homogeneity focusing on clustering.
+This null model, which includes the Gaussian distributions, can be difficult to analyze.
+They find an explicit representation for simple models and show how the parametric bootstrap test can be applied in such
+situations.
+In more general situations, they propose a solution for applying this approach involving an “acceptance-rejection” procedure which explores the
+parameter space to approximate the maximum likelihood estimator inside the null model of homogeneity.
+The uncovering of this null model highlights the notion of class underlying ICL, and confirms the results of earlier results which show
+that ICL is consistent for a loss function taking clustering into account.</p>
+      <p>In collaboration with Arthur White and Jason Wyse (Trinity College, Dublin)
+Gilles Celeux has evaluated for multivariate Poisson mixture
+models the performance of a greedy search method
+compared to the expectation maximization (EM) algorithm,
+to optimize the ICL model selection criterion, which can be computed exactly
+for such models.
+It appears that EM gives often slightly better results,
+but the greedy search is computationally is more efficient.</p>
+      <p>The Dutch and French schools of data analysis differ in their approaches to the question: How does one understand and summarize the
+information contained in a data set? Julie Josse, in collaboration with François Husson (Agro Rennes) and Gibert Saporta (CNAM, Paris), explored the shared factors and differences between the schools, with a focus on methods
+dedicated to the analysis of categorical data, which are known either as homogeneity analysis (HOMALS) or multiple correspondence analysis
+(MCA).
+MCA is a dimension-reduction method which plays a large role in the analysis of tables with categorical nominal variables such as
+survey data. Though it is usually motivated and derived using geometric considerations,
+they proved that it amounts to a single
+proximal Newton step of a natural bilinear exponential family model for categorical data: the multinomial logit bilinear model. They
+compared and contrasted the behavior of MCA with that of the model on simulations, and discussed new insights into the properties of both
+exploratory multivariate methods and their cognate models. The main conclusion is to recommend approximating the
+multilogit model parameters using MCA. Indeed, estimating the parameters of the model is not a trivial task, whereas MCA has
+the great advantage of being easily solved by a singular value decomposition, as well as being scalable to large datasets.</p>
+      <p>Julie Josse, with Sobczyk and Bogdan, have discussed the problem of estimating the number of principal components in Principal
+Components Analysis (PCA). They address this issue by presenting an approximate Bayesian approach based on Laplace approximation,
+and introduce a general method for building the model selection criteria, called PEnalized SEmi-integrated Likelihood (PESEL).
+This general framework encompasses a variety of existing approaches based on probabilistic models, like e.g., Bayesian Information Criterion
+for the Probabilistic PCA (PPCA), and allows for construction of new criteria, depending on the size of the data set at hand. Specifically,
+they define PESEL when the number of variables substantially exceeds the number of observations. Numerical simulations show that PESEL-based criteria can be quite robust against deviations from probabilistic model assumptions. Selected PESEL-based criteria for
+estimation of the number of principal components are implemented in the R package varclust, which is available on Github.</p>
+      <p>Gillies Celeux and Julie Josse have started research on missing data for model-based clustering in collaboration with Christophe
+Biernacki (Modal, Inria Lille). The aim of this research is to propose appropriate and efficient tools for the packages Mixmod and Mixtcomp.</p>
+      <p>In collaboration with Jean-Michel Marin (Université de Montpellier) and Christian Robert (Université Paris 9-Dauphine),
+Gilles Celeux and Kaniav Kamary investigated the ability of Bayesian inference to properly estimate the parameters of Gaussian mixtures in high
+dimensions. Their study shows how the choice of the prior distributions is important. In particular, independent prior distributions give
+much better performances. Moreover, when the dimension <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> becomes very large (say <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>d</mi><mo>&gt;</mo><mn>40</mn></mrow></math></formula>) Bayesian inference becomes questionable.
+The results of this study will be gathered in a chapter of a book on mixture models that Gilles Celeux is preparing
+with Christian Robert and Sylvia Fruhwirth Schnatter.</p>
+      <p>Sylvain Arlot, in collaboration with Robin Genuer (ISPED), studied the reasons why random forests work so well in practice. Focusing on the problem of quantifying the impact of each ingredient of random forests on their performance, they showed that such a quantification is possible for a simple pure forest, leading to conclusions that could apply more generally. Then, they considered “hold-out” random forests, which are a good midpoint between “toy” pure forests and Breiman's original random forests.</p>
+      <p>J.-M. Poggi and N. El Haouij (with R. Ghozi, S. Sevestre Ghalila and M. Jaïdane)
+provide a random forest-based method for the selection of
+physiological functional variables in order to classify stress
+levels during a real-world driving experience. The contribution of this
+study is twofold: on the methodological side, it considers
+physiological signals as functional variables and offers a procedure
+for data processing and variable selection. On the applied side, the
+proposed method provides a “blind” procedure of driver's stress level
+classification that does not depend on expert-based studies of
+physiological signals.</p>
+      <p>J-M. Poggi (with R. Genuer, C. Tuleau-Malot, N. Villa-Vialaneix), have focused
+on random forests in Big Data classification problems, and have performed a
+review of available proposals about random forests in parallel
+environments as well as on online random forests. Three variants
+involving subsampling, Big Data-bootstrap and MapReduce respectively
+are tested on two massive datasets, one simulated one, and the other, real-world data.</p>
+      <p>B. Auder and J-M. Poggi (with M. Bobbia, B. Portier) have tested some
+methods for sequential aggregation for forecasting PM10 concentrations
+for the next day, in the context of air quality monitoring in Normandy
+(France). The main originality is that the set of experts contains at
+the same time statistical models built by means of various methods and
+groups of predictors, as well as experts coming from deterministic
+chemical models of prediction. The obtained results show that such a
+strategy clearly improves the performances of the best expert both in
+terms of prediction errors and in terms of alerts. What is more, it
+obtains, for the non-convex weighting strategy, the “unbiasedness” of
+observed-forecasted scatterplots, which is extremely difficult to obtain.</p>
+      <p>J-M. Poggi (with A. Antoniadis, I. Gijbels, S. Lambert-Lacroix) have
+considered the joint estimation and variable selection for mean and
+dispersion in proper dispersion models. They used recent results on
+Bregman divergence for establishing theoretical results for the
+proposed estimators in fairly general settings, and also studied variable
+selection when there is a large number of covariates, with this number
+possibly tending to infinity with the sample size. The proposed
+estimation and selection procedure is investigated via a simulation
+study, and illustrated via some real data applications.</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Estimation for conditional densities in high dimension</bodyTitle>
+      <participants>
+        <person key="select-2014-idp89920">
+          <firstname>Claire</firstname>
+          <lastname>Lacour</lastname>
+        </person>
+        <person key="select-2015-idp82760">
+          <firstname>Jeanne</firstname>
+          <lastname>Nguyen</lastname>
+        </person>
+      </participants>
+      <p>Jeanne Nguyen is working on estimation for conditional densities in high dimension. Much more informative than the regression function, conditional densities are of high interest in recent methods, particularly in the Bayesian framework (studying the posterior distribution). Considering a specific family of kernel estimators, she is studying a greedy algorithm for selecting the bandwidth. Her method addresses several issues: avoiding the curse of high dimensionality under some suitably defined sparsity conditions, being computationally efficient using iterative procedures, and early variable selection, providing theoretical guarantees on the minimax risk.
+</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Reliability</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="select-2016-idp184256">
+          <firstname>Florence</firstname>
+          <lastname>Ducros</lastname>
+        </person>
+        <person key="select-2014-idp91176">
+          <firstname>Patrick</firstname>
+          <lastname>Pamphile</lastname>
+        </person>
+      </participants>
+      <p>Since June 2015, in the framework of a CIFRE convention with Nexter, Florence Ducros has begun a thesis on the modeling of aging of vehicles, supervised by Gilles Celeux and Patrick Pamphile. This thesis should lead to designing an efficient maintenance strategy according to vehicle use profiles.
+It involves the estimation of mixtures and competing risk models in a highly-censored setting.
+Moreover, she can deduce from these models operational tools to estimate the number of spare parts
+to be stocked in a given period. These tools are defined to take vehicle use patterns into account.
+</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Statistical analysis of genomic data</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Mélina</firstname>
+          <lastname>Gallopin</lastname>
+        </person>
+        <person key="select-2014-idp88664">
+          <firstname>Christine</firstname>
+          <lastname>Keribin</lastname>
+        </person>
+        <person key="select-2014-idp112480">
+          <firstname>Yann</firstname>
+          <lastname>Vasseur</lastname>
+        </person>
+        <person key="popix-2014-idm8712">
+          <firstname>Kevin</firstname>
+          <lastname>Bleakley</lastname>
+        </person>
+      </participants>
+      <p>The subject of Yann Vasseur's PhD Thesis, supervised by Gilles Celeux and Marie-Laure Martin-Magniette (INRA URGV), is the inference of a regulatory network for
+Transcriptions Factors (TFs), which are specific genes, of <i>Arabidopsis thaliana</i>. For this, a transcriptome dataset with a similar number of TFs
+and statistical units is available. The first aim consists of reducing the dimension of the network to avoid high-dimensional difficulties. Representing this network
+with a Gaussian graphical model, the following procedure has been defined:</p>
+      <p spacebefore="5.69046pt"/>
+      <orderedlist>
+        <li id="uid37">
+          <p noindent="true"><i>Selection step</i>: choose the set of TF regulators (supports) of each TF.</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true"><i>Classification step</i>: deduce co-factor groups (TFs with similar expression levels) from these supports.</p>
+        </li>
+      </orderedlist>
+      <p>Thus, the reduced network would be built on the co-factor groups.
+Currently, several selection methods based on Gauss-LASSO and resampling procedures have been applied to the dataset.
+The study of stability and parameter calibration of these methods is in progress. The TFs are clustered with
+the Latent Block Model into a number of co-factor groups, selected with BIC or the exact ICL criterion.
+Since these models are built in an ad hoc way, Yann Vasseur has defined complex simulation tools to
+asses their performances in a proper way.</p>
+      <p>In a collaboration with Marie-Laure Martin-Magniette, Cathy Maugis and Andrea Rau, Gilles Celeux has studied
+gene expression obtained from high-throughput sequencing technology. The focus is on the question of clustering
+gene expression profiles as a means to discover groups of co-expressed genes. A Poisson mixture model is proposed, using a rigorous framework for parameter estimation, as well as for the choice of the appropriate number
+of clusters. They illustrate co-expression analyses using this approach on two real RNA-seq datasets.
+A set of simulation studies also compares the performance of the proposed model with that of several related
+approaches developed to cluster RNA-seq and serial analysis of gene expression data.
+The proposed method is implemented in the open-source R package <tt>HTSCluster</tt>, available on CRAN.
+It can now be compared with Gaussian mixtures obtained after relevant data transformations.
+Moreover, the performance of <tt>HTSCluster</tt> is compared with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>means-like algorithms using the
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>χ</mi><mn>2</mn></msup></math></formula> distance.</p>
+      <p>In collaboration with Benno Schwikowski, Iryna Nikolayeva and A Anavaj Sakuntabhai (Pasteur Institute, Paris), Kevin Bleakley works on using 2-d isotonic regression to predict dengue fever severity at hospital arrival using high-dimensional microarray gene expression data. Important marker genes for dengue severity have been detected, some of which now have been validated in external lab trials.</p>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>Model based-clustering for pharmacovigilance data</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="select-2014-idp88664">
+          <firstname>Christine</firstname>
+          <lastname>Keribin</lastname>
+        </person>
+        <person key="select-2014-idp108784">
+          <firstname>Valérie</firstname>
+          <lastname>Robert</lastname>
+        </person>
+      </participants>
+      <p>In collaboration with Pascale Tubert-Bitter, Ismael Ahmed and Mohamed Sedki, Gilles Celeux and Christine Keribin
+have started research concerning the detection of associations between drugs and adverse events in the framework
+of the PhD of Valerie Robert. At first, this team developed model-based clustering inspired by latent block models,
+which consists of co-clustering rows and columns of two binary tables, imposing the same row ranking. This enables it
+to highlight subgroups of individuals sharing the same drug profile, and subgroups of adverse effects and drugs with
+strong interactions.
+Furthermore, some sufficient conditions are provided to obtain identifiability of the model, and some results
+are shown for simulated data.
+The exact ICL criterion has been extended to this double block latent model.
+Through computer experiments, Valérie Robert has demonstrated the interest of the proposed model, compared with standard
+contingency table analysis, to detect co-prescription and masking effects.
+</p>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Statistical rating and ranking of scientific journals</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="select-2015-idp68648">
+          <firstname>Julie</firstname>
+          <lastname>Josse</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Simon</firstname>
+          <lastname>Grah</lastname>
+        </person>
+      </participants>
+      <p>In collaboration with Jean-Louis Foulley (université of Montpellier), Gilles Celeux and Julie Josse
+have started research on statistical rating and ranking of scientific journals.
+This research was the subject of the internship of Simon Grah (Université Paris-Sud).
+Simon Grah compared many models on a set of 47 statistical journals. His study showed that the
+Row-Column (RC) models appears to be the most relevant. In the future, Bayesian inference for different approaches, including
+PageRank, will be considered.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid41">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Contract with SNECMA</bodyTitle>
+      <participants>
+        <person key="select-2014-idm5760">
+          <firstname>Gilles</firstname>
+          <lastname>Celeux</lastname>
+        </person>
+        <person key="select-2016-idp184256">
+          <firstname>Florence</firstname>
+          <lastname>Ducros</lastname>
+        </person>
+        <person key="select-2014-idp91176">
+          <firstname>Patrick</firstname>
+          <lastname>Pamphile</lastname>
+        </person>
+      </participants>
+      <p><span class="smallcap" align="left">select</span> has a contract with Nexter regarding modeling the reliability of vehicles.</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid43">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <p>Gilles Celeux and Christine Keribin have a collaboration with the Pharmacoepidemiology and Infectious Diseases (PhEMI, INSERM) groups.</p>
+      <p>Christine Keribin is treasurer of the Société Française de Statistique (SFdS).</p>
+      <p>Sylvain Arlot and Pascal Massart co-organize a working group at ENS (Ulm) on statistical learning.</p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid46" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p><span class="smallcap" align="left">select</span> is part of the ANR funded MixStatSeq.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <p>Gilles Celeux is one of the co-organizers of the international working group on model-based clustering. This year this workshop took place in Paris.</p>
+      <p>Julie Josse was chair of useR!2016, Stanford, CA, USA, July 2016.
+<ref xlink:href="http://user2016.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>user2016.<allowbreak/>org/</ref></p>
+      <p>Juile Josse is member of the R foundation.</p>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid48">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid51" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <p>Sylvain Arlot:</p>
+          <simplelist>
+            <li id="uid52">
+              <p noindent="true">Sylvain Arlot organized a workshop at IHES on statistics and learning in the Paris-Saclay area.</p>
+            </li>
+            <li id="uid53">
+              <p noindent="true">Sylvain Arlot co-organized (with Francis Bach, Inria Paris, and Alain Celisse, Univ. Lille 1) a 2-day workshop at IHES about computational and statistical trade-offs in learning.</p>
+            </li>
+          </simplelist>
+          <p>Jean-Michel Poggi:</p>
+          <simplelist>
+            <li id="uid54">
+              <p noindent="true">Organization Special Invited Session entitled “Advances in Random
+Forests”, 22nd International Conference on Computational Statistics,
+Oviedo, Spain, 23-26 August 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid55" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p>Gilles Celeux is one of the co-organizers of the international working group on model-based clustering. This year the workshop took place in Paris.</p>
+          <p>Sylvain Arlot co-organized the 1st Junior Conference on Data Science and Engineering at Paris-Saclay (at LAL, Orsay).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid57" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <p>Jean-Michel Poggi was:</p>
+          <simplelist>
+            <li id="uid58">
+              <p noindent="true">President of the Scientific Programme Committee, ENBIS 2017, Naples, 10-14 June 2017</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid59" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Jean-Michel Poggi was:</p>
+          <simplelist>
+            <li id="uid60">
+              <p noindent="true">Member of the Scientific Committee of CESS 2016, Conference of European
+Statistics Stakeholders, Hungarian Academy of Sciences, Budapest, 20-21
+October 2016</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Member of SPC ENBIS-2016, Sheffield, UK, 11-15 September 2016</p>
+            </li>
+            <li id="uid62">
+              <p noindent="true">Member of the Scientific committee of the journées MAS 2016, Grenoble</p>
+            </li>
+            <li id="uid63">
+              <p noindent="true">Member of SPC COMPSTAT 2016, 22nd International Conference on
+Computational Statistics, Oviedo, Spain, 23-26 August 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid65" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Gilles Celeux is Editor-in-Chief of the <i>Journal de la SFdS</i>.
+He is Associate Editor of <i>Statistics and Computing</i>,
+<i>CSBIGS</i>.</p>
+          <p>Pascal Massart is Associate Editor of <i>Annals of Statistics</i>,
+<i>Confluentes Mathematici</i>, and <i>Foundations and Trends in Machine Learning</i>.</p>
+          <p>Jean-Michel Poggi is Associate Editor of <i>Journal of Statistical Software</i>, <i>Journal de la SFdS</i> and <i>CSBIGS</i>.</p>
+        </subsection>
+        <subsection id="uid66" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>The members of the team have reviewed numerous papers for numerous international journals.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid67" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>The members of the team have given many invited talks on their research in the course of 2016.</p>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <p>Jean-Michel Poggi is:</p>
+        <simplelist>
+          <li id="uid69">
+            <p noindent="true">Vice-President ENBIS (European Network for Business and Industrial Statistics), 2015-18</p>
+          </li>
+          <li id="uid70">
+            <p noindent="true">Vice-President FENStatS (Federation of European National Statistical Societies) since 2012</p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">Council Member of the ISI (2015-19)</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Member of the Board of Directors of the ERS of IASC (since 2014)</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid73" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Jean-Michel Poggi is member of the EMS Committee for Applied Mathematics (since 2014).</p>
+      </subsection>
+      <subsection id="uid74" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Jean-Michel Poggi is the president of ECAS (European Courses in Advanced Statistics) since 2015.</p>
+        <p>Sylvain Arlot coordinates (jointly with Marc Schoenauer, Inria Saclay) the math-STIC program of the Labex Mathématique Hadamard.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid76" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p><span class="smallcap" align="left">select</span> members teach various courses at several different universities,
+and in particular the Master 2 “Mathématique de l'aléatoire” of Université Paris-Saclay.</p>
+      </subsection>
+      <subsection id="uid77" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid78">
+            <p noindent="true">PhD in progress: Valérie Robert, 2013, Gilles Celeux and Christine Keribin</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">PhD in progress: Yann Vasseur, 2013, Gilles Celeux and Marie-Laure Martin-Magniette (URGV)</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">PhD in progress: Neska El Haouij, 2014, Jean-Michel Poggi and Meriem Jaïdane,
+Raja Ghozi (ENIT Tunisie) and Sylvie Sevestre-Ghalila (CEA LinkLab), Thesis ENITUPS</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">PhD in progress: Florence Ducros, 2015, Gilles Celeux and Patrick Pamphile</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">PhD in progress: Claire Brécheteau, 2015, Pascal Massart</p>
+          </li>
+          <li id="uid83">
+            <p noindent="true">PhD in progress: Eddie Aamari, 2015, Pascal Massart and Frédéric Chazal</p>
+          </li>
+          <li id="uid84">
+            <p noindent="true">PhD in progress: Damien Garreau, 2016, Sylvain Arlot and Gérard Biau</p>
+          </li>
+          <li id="uid85">
+            <p noindent="true">PhD in progress: Guillaume Maillard, 2016, Sylvain Arlot and Matthieu Lerasle</p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">PhD in progress: Jeanne Nguyen, 2015, Claire Lacour</p>
+          </li>
+          <li id="uid87">
+            <p noindent="true">PhD in progress: Benjamin Goehry, 2015, Pascal Massart and Jean-Michel Poggi</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid88" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid89">
+            <p noindent="true">Ph.D. Jérémy Bensadon: Sylvain Arlot (president)</p>
+          </li>
+          <li id="uid90">
+            <p noindent="true">Ph.D. Gwenaelle Mabon: Sylvain Arlot (member)</p>
+          </li>
+          <li id="uid91">
+            <p noindent="true">Ph.D. Mokhtar Alaya: Sylvain Arlot (president)</p>
+          </li>
+          <li id="uid92">
+            <p noindent="true">Ph.D. Marie-Liesse Cauwet: Sylvain Arlot (member)</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="select-2016-bid8" type="article" rend="year" n="cite:arlot:hal-01297557">
+      <identifiant type="doi" value="10.1007/s11749-016-0484-4"/>
+      <identifiant type="hal" value="hal-01297557"/>
+      <analytic>
+        <title level="a">Comments on: "A Random Forest Guided Tour" by G. Biau and E. Scornet</title>
+        <author>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sistm-2014-idp65784">
+            <foreName>Robin</foreName>
+            <surname>Genuer</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02061">
+        <idno type="issn">1133-0686</idno>
+        <title level="j">Test</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">228–238</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01297557" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01297557</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">The final publication is available at Springer: http://dx.doi.org/10.1007/s11749-016-0484-4</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid9" type="article" rend="year" n="cite:biau:hal-01170254">
+      <identifiant type="hal" value="hal-01170254"/>
+      <analytic>
+        <title level="a">The Statistical Performance of Collaborative Inference</title>
+        <author>
+          <persName key="classic-2014-idp103000">
+            <foreName>Gérard</foreName>
+            <surname>Biau</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="popix-2014-idm8712">
+            <foreName>Kevin</foreName>
+            <surname>Bleakley</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Cadre</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01187">
+        <idno type="issn">1532-4435</idno>
+        <title level="j">Journal of Machine Learning Research</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01170254" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01170254</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid10" type="article" rend="year" n="cite:chazal:hal-01336913">
+      <identifiant type="hal" value="hal-01336913"/>
+      <analytic>
+        <title level="a">Rates of convergence for robust geometric inference</title>
+        <author>
+          <persName key="geometrica-2014-idm28160">
+            <foreName>F</foreName>
+            <surname>Chazal</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="select-2014-idm8264">
+            <foreName>P</foreName>
+            <surname>Massart</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="geometrica-2014-idp69288">
+            <foreName>B</foreName>
+            <surname>Michel</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00518">
+        <idno type="issn">1935-7524</idno>
+        <title level="j">Electronic journal of statistics </title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">44</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01336913" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01336913</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid11" type="article" rend="year" n="cite:lacour:hal-01121989">
+      <identifiant type="doi" value="10.1016/j.spa.2016.04.015"/>
+      <identifiant type="hal" value="hal-01121989"/>
+      <analytic>
+        <title level="a">Minimal penalty for Goldenshluger-Lepski method</title>
+        <author>
+          <persName key="select-2014-idp89920">
+            <foreName>Claire</foreName>
+            <surname>Lacour</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="select-2014-idm8264">
+            <foreName>Pascal</foreName>
+            <surname>Massart</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01804">
+        <idno type="issn">0304-4149</idno>
+        <title level="j">Stochastic Processes and their Applications</title>
+        <imprint>
+          <biblScope type="volume">126</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3774–3789</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01121989" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01121989</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid1" type="inproceedings" rend="year" n="cite:baudry:hal-01437468">
+      <identifiant type="hal" value="hal-01437468"/>
+      <analytic>
+        <title level="a">What does ICL tell us about homogeneity for Model-Based Clustering?</title>
+        <author>
+          <persName>
+            <foreName>Jean-Patrick</foreName>
+            <surname>Baudry</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName key="select-2014-idm5760">
+            <foreName>Gilles</foreName>
+            <surname>Celeux</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Workshop on Model-Based Clustering and Classification</title>
+        <loc>Catane, Italy</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Salvatore Ingrassia</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01437468" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01437468</ref>
+        </imprint>
+        <meeting id="cid623652">
+          <title>Workshop on Model Based Clustering and Classification</title>
+          <num>2016</num>
+          <abbr type="sigle">MBC2</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid2" type="inproceedings" rend="year" n="cite:celeux:hal-01437459">
+      <identifiant type="hal" value="hal-01437459"/>
+      <analytic>
+        <title level="a">Comparing EM with a greedy search algorithm to optimize ICL for Poisson mixture models </title>
+        <author>
+          <persName key="select-2014-idm5760">
+            <foreName>Gilles</foreName>
+            <surname>Celeux</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Artur</foreName>
+            <surname>White</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jason</foreName>
+            <surname>Wyse</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Worshop on Model-Based Clustering</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01437459" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01437459</ref>
+        </imprint>
+        <meeting id="cid380095">
+          <title>Workshop on Model-Based Clustering</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid12" type="inproceedings" rend="year" n="cite:mariadassou:hal-01440084">
+      <identifiant type="hal" value="hal-01440084"/>
+      <analytic>
+        <title level="a">Normalité asymptotique de l’estimateur du maximum de vraisemblance dans le modèle de blocs latents</title>
+        <author>
+          <persName>
+            <foreName>Mahendra</foreName>
+            <surname>Mariadassou</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="select-2014-idp100152">
+            <foreName>Vincent</foreName>
+            <surname>Brault</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="select-2014-idp88664">
+            <foreName>Christine</foreName>
+            <surname>Keribin</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">48èmes Journées de Statistique de la SFdS</title>
+        <loc>Montpellier, France</loc>
+        <title level="s">48èmes Journées de Statistique de la SFdS</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01440084" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01440084</ref>
+        </imprint>
+        <meeting id="cid348420">
+          <title>Journées de Statistique</title>
+          <num>48</num>
+          <abbr type="sigle">JDS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid7" type="unpublished" rend="year" n="cite:aamari:hal-01245479">
+      <identifiant type="hal" value="hal-01245479"/>
+      <monogr>
+        <title level="m">Stability and Minimax Optimality of Tangential Delaunay Complexes for Manifold Reconstruction</title>
+        <author>
+          <persName key="geometrica-2014-idp78640">
+            <foreName>Eddie</foreName>
+            <surname>Aamari</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="geometrica-2014-idp87304">
+            <foreName>Clément</foreName>
+            <surname>Levrard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01245479" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01245479</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid3" type="unpublished" rend="year" n="cite:arlot:hal-00671174">
+      <identifiant type="hal" value="hal-00671174"/>
+      <monogr>
+        <title level="m">A kernel multiple change-point algorithm via model selection</title>
+        <author>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="modal-2014-idp67296">
+            <foreName>Alain</foreName>
+            <surname>Celisse</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="lear-2014-idp64440">
+            <foreName>Zaid</foreName>
+            <surname>Harchaoui</surname>
+            <initial>Z.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00671174" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00671174</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid4" type="unpublished" rend="year" n="cite:elhaouij:hal-01426752">
+      <identifiant type="hal" value="hal-01426752"/>
+      <monogr>
+        <title level="m">Random Forest-Based Approach for Physiological Functional Variable Selection: Towards Driver's Stress Level Classification</title>
+        <author>
+          <persName key="select-2015-idp66168">
+            <foreName>Neska</foreName>
+            <surname>El Haouij</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="select-2014-idp92432">
+            <foreName>Jean-Michel</foreName>
+            <surname>Poggi</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Raja El</foreName>
+            <surname>Ghozi</surname>
+            <initial>R. E.</initial>
+          </persName>
+          <persName>
+            <foreName>Sylvie</foreName>
+            <surname>Sevestre-Ghalila</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Mériem</foreName>
+            <surname>Jaïdane</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01426752" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01426752</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid5" type="unpublished" rend="year" n="cite:garreau:hal-01416704">
+      <identifiant type="hal" value="hal-01416704"/>
+      <monogr>
+        <title level="m">Consistent change-point detection with kernels</title>
+        <author>
+          <persName key="sierra-2014-idp90344">
+            <foreName>Damien</foreName>
+            <surname>Garreau</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01416704" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01416704</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid6" type="unpublished" rend="year" n="cite:lacour:hal-01346081">
+      <identifiant type="hal" value="hal-01346081"/>
+      <monogr>
+        <title level="m">Estimator selection: a new method with applications to kernel density estimation</title>
+        <author>
+          <persName key="select-2014-idp89920">
+            <foreName>Claire</foreName>
+            <surname>Lacour</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="select-2014-idm8264">
+            <foreName>Pascal</foreName>
+            <surname>Massart</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="classic-2014-idp110696">
+            <foreName>Vincent</foreName>
+            <surname>Rivoirard</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01346081" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01346081</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="select-2016-bid0" type="unpublished" rend="year" n="cite:sobczyk:hal-01342815">
+      <identifiant type="hal" value="hal-01342815"/>
+      <monogr>
+        <title level="m">Bayesian dimensionality reduction with PCA using penalized semi-integrated likelihood</title>
+        <author>
+          <persName>
+            <foreName>Piotr</foreName>
+            <surname>Sobczyk</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Malgorzata</foreName>
+            <surname>Bogdan</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="select-2015-idp68648">
+            <foreName>Julie</foreName>
+            <surname>Josse</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01342815" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01342815</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">31 pages, 7 figures</note>
+    </biblStruct>
+  </biblio>
+</raweb>

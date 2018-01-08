@@ -1,0 +1,3307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="polsys" isproject="true">
+    <shortname>POLSYS</shortname>
+    <projectName>Polynomial Systems</projectName>
+    <theme-de-recherche>Algorithmics, Computer Algebra and Cryptology</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://www-polsys.lip6.fr</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire d'informatique de Paris 6 (LIP6)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Pierre et Marie Curie (Paris 6)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2012 January 01, updated into Project-Team: 2013 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.4. - Verification, reliability, certification</term>
+      <term>4.3. - Cryptography</term>
+      <term>4.3.1. - Public key cryptography</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>7.2. - Discrete mathematics, combinatorics</term>
+      <term>7.3. - Optimization</term>
+      <term>7.5. - Geometry, Topology</term>
+      <term>7.6. - Computer Algebra</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>5. - Industry of the future</term>
+      <term>5.2. - Design and manufacturing</term>
+      <term>6. - IT and telecom</term>
+      <term>6.3. - Network functions</term>
+      <term>6.5. - Information systems</term>
+      <term>9.4.1. - Computer science</term>
+      <term>9.4.2. - Mathematics</term>
+      <term>9.8. - Privacy</term>
+    </keywordsSecteurs>
+    <UR name="Paris"/>
+  </identification>
+  <team id="uid1">
+    <person key="polsys-2014-idm27936">
+      <firstname>Jean-Charles</firstname>
+      <lastname>Faugère</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader, Inria, Senior
+Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idp67920">
+      <firstname>Alain</firstname>
+      <lastname>Jacquemard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Délégation Inria, Senior Researcher,
+Univ. Bourgogne, Professor, until Aug. 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idm26432">
+      <firstname>Elias</firstname>
+      <lastname>Tsigaridas</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="polsys-2014-idp66592">
+      <firstname>Jérémy</firstname>
+      <lastname>Berthomieu</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, Associate Professor</moreinfo>
+    </person>
+    <person key="polsys-2014-idp70968">
+      <firstname>Ludovic</firstname>
+      <lastname>Perret</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idp72288">
+      <firstname>Guénaël</firstname>
+      <lastname>Renault</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idp73616">
+      <firstname>Mohab</firstname>
+      <lastname>Safey El Din</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idp69456">
+      <firstname>Daniel</firstname>
+      <lastname>Lazard</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, Professor, Émérite</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2015-idp92760">
+      <firstname>Emmanuel</firstname>
+      <lastname>Prouff</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ANSSI, Safran Identity and Security,
+Associate Member</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2014-idm25184">
+      <firstname>Dongming</firstname>
+      <lastname>Wang</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>CNRS, Senior Researcher,
+Associate Member</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="polsys-2015-idp66840">
+      <firstname>Jérôme</firstname>
+      <lastname>Govinden</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>SATT-LUTECH, until Mar. 2016</moreinfo>
+    </person>
+    <person key="polsys-2014-idp76424">
+      <firstname>Christian</firstname>
+      <lastname>Eder</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Technische Universität
+Kaiserslautern, Germany, regularly</moreinfo>
+    </person>
+    <person key="polsys-2014-idp89656">
+      <firstname>Ivan</firstname>
+      <lastname>Bannwarth</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC</moreinfo>
+    </person>
+    <person key="polsys-2014-idp101344">
+      <firstname>Matías</firstname>
+      <lastname>Bender</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="polsys-2014-idp92208">
+      <firstname>Ulrick</firstname>
+      <lastname>Severin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Dassault Aviation, until Aug. 2016</moreinfo>
+    </person>
+    <person key="polsys-2014-idp96144">
+      <firstname>Thibaut</firstname>
+      <lastname>Verron</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC, until Sep. 2016</moreinfo>
+    </person>
+    <person key="polsys-2014-idp97400">
+      <firstname>Alexandre</firstname>
+      <lastname>Wallet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Dec. 2016</moreinfo>
+    </person>
+    <person key="polsys-2016-idp155408">
+      <firstname>Georgette</firstname>
+      <lastname>Bonpapa</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC</moreinfo>
+    </person>
+    <person key="polsys-2014-idp85904">
+      <firstname>Laurence</firstname>
+      <lastname>Bourcier</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="lifeware-2014-idp73408">
+      <firstname>Virginie</firstname>
+      <lastname>Collette</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="polsys-2015-idp96944">
+      <firstname>Irphane</firstname>
+      <lastname>Khan</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC</moreinfo>
+    </person>
+    <person key="rap-2014-idp66360">
+      <firstname>Nelly</firstname>
+      <lastname>Maloisel</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="polsys-2016-idp167728">
+      <firstname>Sènan</firstname>
+      <lastname>Dossa</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Lyon, Internship, from May 2016 until
+Sep. 2016</moreinfo>
+    </person>
+    <person key="polsys-2016-idp170288">
+      <firstname>Vincent</firstname>
+      <lastname>Guisse</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Min. de l'Éducation Nationale,
+Internship, from Apr. 2016 until Jul. 2016</moreinfo>
+    </person>
+    <person key="polsys-2016-idp172896">
+      <firstname>Ramon</firstname>
+      <lastname>Ronzon</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>École polytechnique, Internship,
+from Mar. 2016 until Sep. 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The main focus of the <span class="smallcap" align="left">PolSys</span> project is to solve systems of
+polynomial equations.</p>
+      <p>Our main objectives are:</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true"><b>Fundamental Algorithms and Structured Systems.</b> The
+objective is to propose fast exponential exact algorithms for
+solving polynomial equations
+and to identify large classes of structured polynomial systems which can be solved in polynomial time.</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true"><b>Solving Systems over the Reals and Applications.</b> For
+positive dimensional systems basic questions over the reals may be
+very difficult (for instance testing the existence of solutions) but
+also very useful in applications (e.g. global optimization problems).
+We plan to propose efficient algorithms and implementations to address
+the most important issues: computing sample points in the real
+solution sets, decide if two such sample points can be path-connected
+and, as a long term objective, perform quantifier elimination over the
+reals (computing a quantifier-free formula which is equivalent to a
+given quantified boolean formula of polynomial
+equations/inequalities).</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true"><b>Dedicated Algebraic Computation and Linear Algebra.</b> While
+linear algebra is a key step in the computation of Gröbner bases,
+the matrices generated by the algorithms <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>F</mi><mn>4</mn></msub><mo>/</mo><msub><mi>F</mi><mn>5</mn></msub></mrow></math></formula> have specific
+structures (quasi block triangular).The objective is to develop a
+dedicated efficient multi-core linear algebra package as the basis of
+a future open source library for computing Gröbner bases.</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true"><b>Solving Systems in Finite Fields, Applications in
+Cryptology and Algebraic Number Theory.</b> We propose to develop a
+systematic use of <i>structured systems</i> in Algebraic
+Cryptanalysis. We want to improve the efficiency and to predict the
+theoretical complexity of such attacks. We plan to demonstrate the
+power of algebraic techniques in new areas of cryptography such as
+Algebraic Number Theory (typically, in curve based cryptography).</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid8">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>Polynomial system solving is a fundamental problem in Computer
+Algebra with many applications in cryptography, robotics, biology,
+error correcting codes, signal theory, .... Among all available
+methods for solving polynomial systems, computation of Gröbner
+bases remains one of the most powerful and versatile method since it
+can be applied in the continuous case (rational coefficients) as
+well as in the discrete case (finite fields). Gröbner bases are
+also a building blocks for higher level algorithms who compute real
+sample points in the solution set of polynomial systems, decide
+connectivity queries and quantifier elimination over the reals. The
+major challenge facing the designer or the user of such algorithms
+is the intrinsic exponential behaviour of the complexity for
+computing Gröbner bases. The current proposal is an attempt to
+tackle these issues in a number of different ways: improve the
+efficiency of the fundamental algorithms (even when the complexity
+is exponential), develop high performance implementation exploiting
+parallel computers, and investigate new classes of structured
+algebraic problems where the complexity drops to polynomial time.</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Fundamental Algorithms and Structured Systems</bodyTitle>
+      <participants>
+        <person key="polsys-2014-idm27936">
+          <firstname>Jean-Charles</firstname>
+          <lastname>Faugère</lastname>
+        </person>
+        <person key="polsys-2014-idp73616">
+          <firstname>Mohab</firstname>
+          <lastname>Safey El Din</lastname>
+        </person>
+        <person key="polsys-2014-idm26432">
+          <firstname>Elias</firstname>
+          <lastname>Tsigaridas</lastname>
+        </person>
+        <person key="polsys-2014-idp72288">
+          <firstname>Guénaël</firstname>
+          <lastname>Renault</lastname>
+        </person>
+        <person key="polsys-2014-idm25184">
+          <firstname>Dongming</firstname>
+          <lastname>Wang</lastname>
+        </person>
+        <person key="polsys-2014-idp66592">
+          <firstname>Jérémy</firstname>
+          <lastname>Berthomieu</lastname>
+        </person>
+        <person key="polsys-2014-idp96144">
+          <firstname>Thibaut</firstname>
+          <lastname>Verron</lastname>
+        </person>
+      </participants>
+      <p>Efficient algorithms <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>F</mi><mn>4</mn></msub><mo>/</mo><msub><mi>F</mi><mn>5</mn></msub></mrow></math></formula> <footnote id="uid11" id-text="1">J.-C. Faugère. <i>A
+new efficient algorithm for computing Gröbner bases without reduction
+to zero (F5).</i> In Proceedings of ISSAC '02, pages 75-83, New York, NY,
+USA, 2002. ACM.</footnote> for computing the Gröbner basis of a
+polynomial system rely heavily on a connection with linear
+algebra. Indeed, these algorithms reduce the Gröbner basis
+computation to a sequence of Gaussian eliminations on several
+submatrices of the so-called Macaulay matrix in some degree. Thus, we expect to
+improve the existing algorithms by</p>
+      <p noindent="true"><i>(i)</i> developing dedicated
+linear algebra routines performing the Gaussian elimination steps:
+this is precisely the objective 2 described below;</p>
+      <p noindent="true"><i>(ii)</i>
+generating smaller or simpler matrices to which we will apply Gaussian
+elimination.</p>
+      <p noindent="true">We describe here our goals for the latter
+problem. First, we focus on algorithms for computing a Gröbner basis
+of <i>general polynomial systems</i>. Next, we present our goals on
+the development of dedicated algorithms for computing Gröbner bases
+of <i>structured polynomial systems</i> which arise in various
+applications.</p>
+      <p noindent="true" spacebefore="6.0pt"><b>Algorithms for general systems.</b> Several
+degrees of freedom are available to the designer of a Gröbner basis
+algorithm to generate the matrices occurring during the
+computation. For instance, it would be desirable to obtain matrices
+which would be almost triangular or very sparse. Such a goal can be
+achieved by considering various interpretations of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>F</mi><mn>5</mn></msub></math></formula>
+algorithm with respect to different monomial orderings. To address
+this problem, the tight complexity results obtained for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>F</mi><mn>5</mn></msub></math></formula> will be used to
+help in the design of such a general algorithm. To illustrate this
+point, consider the important problem of solving boolean polynomial
+systems; it might be interesting to preserve the sparsity of the
+original equations and, at the same time, using the fact that
+overdetermined systems are much easier to solve.</p>
+      <p noindent="true" spacebefore="6.0pt"><b>Algorithms dedicated to </b><i><b>structured</b></i><b>
+polynomial systems.</b> A complementary approach is to exploit the
+structure of the input polynomials to design specific algorithms. Very
+often, problems coming from applications are not random but are
+highly structured. The specific nature of these systems may vary a
+lot: some polynomial systems can be sparse (when the number of terms
+in each equation is low), overdetermined (the number of the equations
+is larger than the number of variables), invariants by the action of
+some finite groups, multi-linear (each equation is linear w.r.t. to
+one block of variables) or more generally multihomogeneous. In each
+case, the ultimate goal is to identify large classes of problems whose theoretical/practical complexity drops and to propose in each case
+dedicated algorithms.</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Solving Systems over the Reals and Applications.</bodyTitle>
+      <participants>
+        <person key="polsys-2014-idp73616">
+          <firstname>Mohab</firstname>
+          <lastname>Safey El Din</lastname>
+        </person>
+        <person key="polsys-2014-idp69456">
+          <firstname>Daniel</firstname>
+          <lastname>Lazard</lastname>
+        </person>
+        <person key="polsys-2014-idm26432">
+          <firstname>Elias</firstname>
+          <lastname>Tsigaridas</lastname>
+        </person>
+        <person key="polsys-2014-idp89656">
+          <firstname>Ivan</firstname>
+          <lastname>Bannwarth</lastname>
+        </person>
+      </participants>
+      <p>We shall develop algorithms for solving polynomial systems over
+complex/real numbers. Again, the goal is to extend significantly the
+range of reachable applications using algebraic techniques based on
+Gröbner bases and dedicated linear algebra routines. Targeted
+application domains are global optimization problems, stability of
+dynamical systems (e.g. arising in biology or in control theory) and
+theorem proving in computational geometry.</p>
+      <p>The following functionalities shall be requested by the end-users:</p>
+      <p noindent="true"><i>(i)</i> deciding the emptiness of the real solution set of systems
+of polynomial equations and inequalities,</p>
+      <p noindent="true"><i>(ii)</i> quantifier
+elimination over the reals or complex numbers,</p>
+      <p noindent="true"><i>(iii)</i> answering
+connectivity queries for such real solution sets.</p>
+      <p noindent="true">We will focus on these functionalities.</p>
+      <p>We will develop algorithms based on the so-called critical point
+method to tackle systems of equations and inequalities
+(problem <i>(i)</i>) . These techniques are based on solving
+0-dimensional polynomial systems encoding "critical points" which are
+defined by the vanishing of minors of jacobian matrices (with
+polynomial entries). Since these systems are highly structured, the
+expected results of Objective 1 and 2 may allow us to obtain dramatic
+improvements in the computation of Gröbner bases of such polynomial
+systems. This will be the foundation of practically fast
+implementations (based on singly exponential algorithms) outperforming
+the current ones based on the historical Cylindrical Algebraic
+Decomposition (CAD) algorithm (whose complexity is doubly exponential
+in the number of variables). We will also develop algorithms and
+implementations that allow us to analyze, at least locally, the
+topology of solution sets in some specific situations. A
+long-term goal is obviously to obtain an analysis of the global
+topology.</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Low level implementation and Dedicated Algebraic Computation and Linear Algebra.</bodyTitle>
+      <participants>
+        <person key="polsys-2014-idm27936">
+          <firstname>Jean-Charles</firstname>
+          <lastname>Faugère</lastname>
+        </person>
+        <person key="polsys-2014-idp76424">
+          <firstname>Christian</firstname>
+          <lastname>Eder</lastname>
+        </person>
+        <person key="polsys-2014-idm26432">
+          <firstname>Elias</firstname>
+          <lastname>Tsigaridas</lastname>
+        </person>
+      </participants>
+      <p>Here, the primary objective is to focus on <i>dedicated</i> algorithms
+and software for the linear algebra steps in Gröbner bases
+computations and for problems arising in Number Theory. As explained
+above, linear algebra is a key step in the process of computing
+efficiently Gröbner bases. It is then natural to develop specific
+linear algebra algorithms and implementations to further strengthen
+the existing software. Conversely, Gröbner bases computation is
+often a key ingredient in higher level algorithms from Algebraic
+Number Theory. In these cases, the algebraic problems are very
+particular and specific. Hence dedicated Gröbner bases algorithms
+and implementations would provide a better efficiency.</p>
+      <p noindent="true" spacebefore="6.0pt"><b>Dedicated linear algebra tools.</b><span class="smallcap" align="left">FGb </span>is
+an efficient library for Gröbner bases computations which can be used,
+for instance, via <span class="smallcap" align="left">Maple</span>. However, the library is sequential. A
+goal of the project is to extend its efficiency to new trend parallel
+architectures such as clusters of multi-processor systems in order to
+tackle a broader class of problems for several applications.
+Consequently, our first aim is to provide a durable, long term
+software solution, which will be the successor of the existing <span class="smallcap" align="left">FGb</span> library. To achieve this goal, we will first develop a high
+performance linear algebra package (under the LGPL license). This
+could be organized in the form of a collaborative project between the
+members of the team. The objective is not to develop a general
+library similar to the <span class="smallcap" align="left">Linbox</span> project but to propose a dedicated
+linear algebra package taking into account the specific properties of
+the matrices generated by the Gröbner bases algorithms. Indeed these
+matrices are sparse (the actual sparsity depends strongly on the
+application), almost block triangular and not necessarily of full
+rank. Moreover, most of the pivots are known at the beginning of the
+computation. In practice, such matrices are huge (more than <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>6</mn></msup></math></formula> columns) but taking into account their shape may allow us to speed
+up the computations by one or several orders of magnitude. A variant of a Gaussian elimination algorithm together
+with a corresponding C implementation has been presented. The main
+peculiarity is the order in which the operations are performed. This
+will be the kernel of the new linear algebra library that will be developed.</p>
+      <p>Fast linear algebra packages would also benefit to the transformation
+of a Gröbner basis of a zero–dimensional ideal with respect to a
+given monomial ordering into a Gröbner basis with respect to another
+ordering. In the generic case at least, the change of ordering is
+equivalent to the computation of the minimal polynomial of a so-called
+multiplication matrix. By taking into account the sparsity of this
+matrix, the computation of the Gröbner basis can be done more
+efficiently using a variant of the Wiedemann algorithm. Hence, our goal
+is also to obtain a dedicated high performance library for transforming
+(i.e. change ordering) Gröbner bases.</p>
+      <p noindent="true" spacebefore="6.0pt"><b>Dedicated algebraic tools for Algebraic Number
+Theory.</b> Recent results in Algebraic Number Theory tend to show that
+the computation of Gröbner basis is a key step toward the resolution
+of difficult problems in this
+domain <footnote id="uid14" id-text="2"> P. Gaudry, <i>Index calculus for abelian
+varieties of small dimension and the elliptic curve discrete logarithm
+problem</i>, Journal of Symbolic Computation 44,12 (2009)
+pp. 1690-1702</footnote>. Using existing resolution methods is simply not enough
+to solve relevant problems. The main algorithmic bottleneck to overcome is
+to adapt the Gröbner basis computation step to the specific
+problems. Typically, problems coming from Algebraic Number Theory
+usually have a lot of symmetries or the input systems are very
+structured. This is the case in particular for problems coming from
+the algorithmic theory of Abelian varieties over finite
+fields <footnote id="uid15" id-text="3"> e.g. point counting, discrete logarithm, isogeny.</footnote>
+where the objects are represented by polynomial system and are endowed
+with intrinsic group actions. The main goal here is to provide
+dedicated algebraic resolution algorithms and implementations for
+solving such problems. We do not restrict our focus on problems in positive
+characteristic. For instance, tower of algebraic fields can be
+viewed as triangular sets; more generally, related problems (e.g. effective Galois
+theory) which can be represented by polynomial systems will receive
+our attention. This is motivated by the fact that, for example,
+computing small integer solutions of Diophantine polynomial systems in
+connection with Coppersmith's method would also gain in efficiency by
+using a dedicated Gröbner bases computations step.</p>
+    </subsection>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Solving Systems in Finite Fields, Applications in Cryptology and Algebraic Number Theory.</bodyTitle>
+      <participants>
+        <person key="polsys-2014-idm27936">
+          <firstname>Jean-Charles</firstname>
+          <lastname>Faugère</lastname>
+        </person>
+        <person key="polsys-2014-idp70968">
+          <firstname>Ludovic</firstname>
+          <lastname>Perret</lastname>
+        </person>
+        <person key="polsys-2014-idp72288">
+          <firstname>Guénaël</firstname>
+          <lastname>Renault</lastname>
+        </person>
+        <person key="polsys-2014-idp66592">
+          <firstname>Jérémy</firstname>
+          <lastname>Berthomieu</lastname>
+        </person>
+      </participants>
+      <p>Here, we focus on solving polynomial systems over finite fields
+(i.e. the discrete case) and the corresponding applications
+(Cryptology, Error Correcting Codes, ...). Obviously this
+objective can be seen as an application of the results of the two
+previous objectives. However, we would like to emphasize that it is
+also the source of new theoretical problems and practical challenges.
+We propose to develop a systematic use of <i>structured systems</i> in
+<i>algebraic cryptanalysis</i>.</p>
+      <p noindent="true"><i>(i)</i> So far, breaking a cryptosystem using algebraic
+techniques could be summarized as modeling the problem by algebraic
+equations and then computing a, usually, time consuming Gröbner
+basis. A new trend in this field is to require a theoretical
+complexity analysis. This is needed to explain the behavior of the
+attack but also to help the designers of new cryptosystems to propose
+actual secure parameters.</p>
+      <p noindent="true"><i>(ii)</i> To assess the security of
+several cryptosystems in symmetric cryptography (block ciphers, hash
+functions, ...), a major difficulty is the size of the systems
+involved for this type of attack. More specifically, the bottleneck
+is the size of the linear algebra problems generated during a Gröbner basis
+computation.</p>
+      <p>We propose to develop a
+systematic use of <i>structured systems</i> in <i>algebraic
+cryptanalysis</i>.</p>
+      <p>The first objective is to build on the recent breakthrough in
+attacking McEliece's cryptosystem: it is the first structural
+weakness observed on one of the oldest public key cryptosystem. We
+plan to develop a well founded framework for assessing the security of
+public key cryptosystems based on coding theory from the algebraic
+cryptanalysis point of view. The answer to this issue is strongly
+related to the complexity of solving bihomogeneous systems (of
+bidegree <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mi>d</mi><mo>)</mo></mrow></math></formula>). We also plan to use the recently gained
+understanding on the complexity of structured systems in other areas
+of cryptography. For instance, the MinRank problem – which can be
+modeled as an overdetermined system of bilinear equations – is at the
+heart of the structural attack proposed by Kipnis and Shamir against
+HFE (one of the most well known multivariate public cryptosystem).
+The same family of structured systems arises in the algebraic
+cryptanalysis of the Discrete Logarithmic Problem (DLP) over curves
+(defined over some finite fields). More precisely, some bilinear
+systems appear in the polynomial modeling the points decomposition
+problem. Moreover, in this context, a natural group action can also
+be used during the resolution of the considered polynomial system.</p>
+      <p>Dedicated tools for linear algebra problems generated during the
+Gröbner basis computation will be used in algebraic cryptanalysis.
+The promise of considerable algebraic computing power beyond the
+capability of any standard computer algebra system will enable us to
+attack various cryptosystems or at least to propose accurate secure
+parameters for several important cryptosystems. Dedicated linear
+tools are thus needed to tackle these problems. From a theoretical
+perspective, we plan to further improve the theoretical complexity of
+the hybrid method and to investigate the problem of
+solving polynomial systems with noise, i.e. some equations of the
+system are incorrect. The hybrid method is a specific method for
+solving polynomial systems over finite fields. The idea is to mix
+exhaustive search and Gröbner basis computation to take advantage of
+the over-determinacy of the resulting systems.</p>
+      <p>Polynomial system with noise is currently emerging as a problem of
+major interest in cryptography. This problem is a key to further
+develop new applications of algebraic techniques; typically in
+side-channel and statistical attacks. We also emphasize that recently
+a connection has been established between several classical lattice
+problems (such as the Shortest Vector Problem), polynomial system
+solving and polynomial systems with noise. The main issue is that
+there is no sound algorithmic and theoretical framework for solving
+polynomial systems with noise. The development of such framework is a
+long-term objective.
+</p>
+    </subsection>
+  </fondements>
+  <highlights id="uid17">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>The goal of the RISQ project is to prepare the security industry to
+the upcoming shift of classical cryptography to quantum-safe cryptography.
+The RISQ project is a massive effort at the French level to embrace
+the quantum-safe revolution. The project gather 15 partners :
+ANSSI, C&amp;S, CEA, Crypto Experts, EADS, ENS Lyon, ENS Paris,
+Gemalto, Orange, PCQC, <span class="smallcap" align="left">PolSys</span> (Inria de Paris),
+Université de Rennes,
+Secure IC, Thales CS, and Université de Versailles.</p>
+      <p>The RISQ project is certainly the biggest (in term of number of
+partners, as well as funding) industrial project ever organized in
+quantum-safe cryptography. RISQ is
+one of few projects accepted in the “Grands Défis du
+Numérique” which is managed by BPI France, and will be funded thanks
+to the PIA.</p>
+      <p><span class="smallcap" align="left">PolSys</span> actively participated to gather the partners of RISQ, and in
+defining the proposal. <span class="smallcap" align="left">PolSys</span> will lead the academic effort in
+RISQ.</p>
+      <p>Jointly with <span class="smallcap" align="left">LAAS</span> (D. Henrion, S. Naldi), we have released
+a new <span class="smallcap" align="left">Maple</span> library <span class="smallcap" align="left">SPECTRA</span> for finding a real point
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>x</mi><mo>=</mo><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>...</mo><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo>)</mo></mrow></math></formula> such that the symmetric matrix
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><msub><mi>A</mi><mn>0</mn></msub><mo>+</mo><msub><mi>A</mi><mn>1</mn></msub><mspace width="0.166667em"/><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mo>⋯</mo><mo>+</mo><msub><mi>A</mi><mi>n</mi></msub><mspace width="0.166667em"/><msub><mi>x</mi><mi>n</mi></msub></mrow></math></formula> is positive semidefinite using
+exact arithmetic
+(see <ref xlink:href="http://homepages.laas.fr/henrion/software/spectra/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>homepages.<allowbreak/>laas.<allowbreak/>fr/<allowbreak/>henrion/<allowbreak/>software/<allowbreak/>spectra/</ref>).</p>
+      <p>Our open source C library <span class="smallcap" align="left">SLV</span> has been officially released
+this year with a presentation at <span class="smallcap" align="left">ISSAC</span>. It aims at
+solating and approximating the real roots of univariate polynomials
+with integer coefficients
+(see <ref xlink:href="http://www-polsys.lip6.fr/~elias/soft.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~elias/<allowbreak/>soft.<allowbreak/>html</ref>)</p>
+      <subsection id="uid19" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>Matías Bender received the Distinguished Student Author Award of
+<span class="smallcap" align="left">ISSAC2016</span> for his paper <ref xlink:href="#polsys-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+written with J.-Ch. <span class="smallcap" align="left">Faugère</span>, L. <span class="smallcap" align="left">Perret</span> and
+E. <span class="smallcap" align="left">Tsigaridas</span>.
+<best><ref xlink:href="#polsys-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></best></p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid20">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Epsilon</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Epsilon is a library of functions implemented in Maple and Java for polynomial elimination and decomposition with (geometric) applications.</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">Contact: Dongming Wang</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">URL: <ref xlink:href="http://wang.cc4cm.org/epsilon/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>wang.<allowbreak/>cc4cm.<allowbreak/>org/<allowbreak/>epsilon/<allowbreak/>index.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid24" level="1">
+      <bodyTitle>FGb</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>FGb is a powerful software for computing Groebner bases. It includes the new generation of algorihms for computing Gröbner bases polynomial systems (mainly the F4,F5 and FGLM algorithms).It is implemented in C/C++ (approximately 250000 lines), standalone servers are available on demand. Since 2006, FGb is dynamically linked with Maple software (version 11 and higher) and is part of the official distribution of this software.</p>
+      <simplelist>
+        <li id="uid25">
+          <p noindent="true">Participant: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">Contact: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">URL: <ref xlink:href="http://polsys.lip6.fr/~jcf/Software/FGb/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~jcf/<allowbreak/>Software/<allowbreak/>FGb/<allowbreak/>index.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>FGb Light</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Gröbner basis computation modulo p (p is a prime integer of 16 bits).</p>
+      <simplelist>
+        <li id="uid29">
+          <p noindent="true">Participant: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">Contact: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">URL: <ref xlink:href="http://www-polsys.lip6.fr/~jcf/Software/FGb/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~jcf/<allowbreak/>Software/<allowbreak/>FGb/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>GBLA</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>GBLA is an open source C library for linear algebra specialized for eliminating matrices generated during Gröbner basis computations in algorithms like F4 or F5.</p>
+      <simplelist>
+        <li id="uid33">
+          <p noindent="true">Contact: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">URL: <ref xlink:href="http://www-polsys.lip6.fr/~jcf/Software/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~jcf/<allowbreak/>Software/<allowbreak/>index.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>HFEBoost</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Public-key cryptography system enabling an authentification of dematerialized data.</p>
+      <simplelist>
+        <li id="uid36">
+          <p noindent="true">Authors: Jean-Charles Faugère and Ludovic Perret</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">Partner: UPMC</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Contact: Jean-Charles Faugère</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">URL: <ref xlink:href="http://www-polsys.lip6.fr/Links/hfeboost.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>Links/<allowbreak/>hfeboost.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>RAGlib</bodyTitle>
+      <p>Real Algebraic Geometry library</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>RAGLib is a powerful library, written in Maple, dedicated to solving over the reals polynomial systems. It is based on the FGb library for computing Grobner bases. It provides functionalities for deciding the emptiness and/or computing sample points to real solution sets of polynomial systems of equations and inequalities. This library provides implementations of the state-of-the-art algorithms with the currently best known asymptotic complexity for those problems.</p>
+      <simplelist>
+        <li id="uid41">
+          <p noindent="true">Contact: Mohab Safey El Din</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">URL: <ref xlink:href="http://www-polsys.lip6.fr/~safey/RAGLib/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~safey/<allowbreak/>RAGLib/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>SLV</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>SLV is a software package in C that provides routines for isolating (and subsequently refine) the real roots of univariate polynomials with integer or rational coefficients based on subdivision algorithms and on the continued fraction expansion of real numbers. Special attention is given so that the package can handle polynomials that have degree several thousands and size of coefficients hundrends of Megabytes.
+Currently the code consists of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>∼</mo><mn>5</mn><mspace width="0.166667em"/><mn>000</mn></mrow></math></formula> lines.</p>
+      <simplelist>
+        <li id="uid44">
+          <p noindent="true">Contact: Elias Tsigaridas</p>
+        </li>
+        <li id="uid45">
+          <p noindent="true">URL: <ref xlink:href="http://www-polsys.lip6.fr/~elias/soft" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>~elias/<allowbreak/>soft</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>SPECTRA</bodyTitle>
+      <p>Semidefinite Programming solved Exactly with Computational Tools of Real Algebra</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>SPECTRA is a Maple library devoted to solving exactly Semi-Definite Programs. It can handle rank constraints on the solution. It is based on the FGb library for computing Grobner bases and provides either certified numerical approximations of the solutions or exact representations of them.</p>
+      <simplelist>
+        <li id="uid47">
+          <p noindent="true">Contact: Mohab Safey El Din</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">URL: <ref xlink:href="http://homepages.laas.fr/henrion/software/spectra/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>homepages.<allowbreak/>laas.<allowbreak/>fr/<allowbreak/>henrion/<allowbreak/>software/<allowbreak/>spectra/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid49">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Fundamental algorithms and structured
+polynomial systems</bodyTitle>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Linear Algebra for Computing Gröbner Bases of
+Linear Recursive Multidimensional Sequences</bodyTitle>
+        <p>The so-called Berlekamp – Massey – Sakata algorithm
+computes a Gröbner
+basis of a 0-dimensional ideal of relations satisfied by an input
+table. It extends the Berlekamp – Massey algorithm
+to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>-dimensional tables, for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>n</mi><mo>&gt;</mo><mn>1</mn></mrow></math></formula>.</p>
+        <p>In the extended version <ref xlink:href="#polsys-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+investigate this
+problem and
+design several algorithms for
+computing such a Gröbner basis of an ideal of relations using linear
+algebra techniques.
+The first one performs a lot of table queries and
+is analogous to a change of variables on the ideal of relations.</p>
+        <p>As each query to the table can be expensive,
+we design a second algorithm
+requiring fewer queries, in general.
+This <span class="smallcap" align="left">FGLM</span>-like algorithm allows us to compute the relations of the
+table by extracting a full rank submatrix of a <i>multi-Hankel</i>
+matrix (a multivariate generalization of Hankel matrices).</p>
+        <p>Under some
+additional assumptions, we make a third, adaptive, algorithm and reduce
+further the number of table queries.
+Then, we relate the number of queries of
+this third algorithm to the
+<i>geometry</i> of the final staircase and we show that it is
+essentially linear in the size of the output when the staircase is convex.
+As a direct application to this, we decode <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>-cyclic codes, a
+generalization in dimension <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> of Reed Solomon codes.</p>
+        <p>We show that the multi-Hankel
+matrices are heavily structured when using the <span class="smallcap" align="left">LEX</span> ordering
+and that we can speed up the computations using fast algorithms for
+quasi-Hankel matrices.
+Finally, we design
+algorithms for computing the generating series of a linear recursive
+table.</p>
+      </subsection>
+      <subsection id="cid2" level="2">
+        <bodyTitle>Guessing Linear Recurrence Relations of Sequence
+Tuples and P-recursive Sequences with Linear Algebra</bodyTitle>
+        <p>Given several <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>-dimensional sequences, we first present
+in <ref xlink:href="#polsys-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> an algorithm
+for computing the Gröbner basis of their module of linear recurrence
+relations.</p>
+        <p>A P-recursive sequence <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mrow><mo>(</mo><msub><mi>u</mi><mi>𝐢</mi></msub><mo>)</mo></mrow><mrow><mi>𝐢</mi><mo>∈</mo><msup><mi>ℕ</mi><mi>n</mi></msup></mrow></msub></math></formula>
+satisfies linear recurrence relations with polynomial coefficients in
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝐢</mi></math></formula>, as defined by Stanley in 1980. Calling directly
+the aforementioned algorithm on the tuple of
+sequences <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mfenced separators="" open="(" close=")"><msub><mrow><mo>(</mo><msup><mi>𝐢</mi><mi>𝐣</mi></msup><mspace width="0.166667em"/><msub><mi>u</mi><mi>𝐢</mi></msub><mo>)</mo></mrow><mrow><mi>𝐢</mi><mo>∈</mo><msup><mi>ℕ</mi><mi>n</mi></msup></mrow></msub></mfenced><mi>𝐣</mi></msub></math></formula>
+for retrieving the relations yields redundant relations.
+Since the module of relations of a
+P-recursive sequence also has an extra structure of a 0-dimensional right
+ideal of an Ore algebra, we design a more efficient algorithm that takes
+advantage of this extra structure for
+computing the relations.</p>
+        <p>Finally, we show how to incorporate Gröbner bases computations in an
+Ore algebra <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>𝕂</mi><mfenced separators="" open="〈" close="〉"><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mo>...</mo><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>...</mo><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mfenced></mrow></math></formula>, with
+commutators <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>x</mi><mi>k</mi></msub><mspace width="0.166667em"/><msub><mi>x</mi><mi>ℓ</mi></msub><mo>-</mo><msub><mi>x</mi><mi>ℓ</mi></msub><mspace width="0.166667em"/><msub><mi>x</mi><mi>k</mi></msub><mo>=</mo><msub><mi>t</mi><mi>k</mi></msub><mspace width="0.166667em"/><msub><mi>t</mi><mi>ℓ</mi></msub><mo>-</mo><msub><mi>t</mi><mi>ℓ</mi></msub><mspace width="0.166667em"/><msub><mi>t</mi><mi>k</mi></msub><mo>=</mo><msub><mi>t</mi><mi>k</mi></msub><mspace width="0.166667em"/><msub><mi>x</mi><mi>ℓ</mi></msub><mo>-</mo><msub><mi>x</mi><mi>ℓ</mi></msub><mspace width="0.166667em"/><msub><mi>t</mi><mi>k</mi></msub><mo>=</mo><mn>0</mn></mrow></math></formula> for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>≠</mo><mi>ℓ</mi></mrow></math></formula> and
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>t</mi><mi>k</mi></msub><mspace width="0.166667em"/><msub><mi>x</mi><mi>k</mi></msub><mo>-</mo><msub><mi>x</mi><mi>k</mi></msub><mspace width="0.166667em"/><msub><mi>t</mi><mi>k</mi></msub><mo>=</mo><msub><mi>x</mi><mi>k</mi></msub></mrow></math></formula>, into the algorithm designed for P-recursive
+sequences. This allows us to compute faster the Gröbner basis of the ideal spanned by the first relations,
+such as in <span class="smallcap" align="left">2D</span>/<span class="smallcap" align="left">3D</span>-space walks examples.</p>
+      </subsection>
+      <subsection id="cid3" level="2">
+        <bodyTitle>On the Connection Between Ritt Characteristic Sets and
+Buchberger-Gröbner Bases</bodyTitle>
+        <p>For any polynomial ideal <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula>, let the minimal triangular set contained
+in the reduced Buchberger–Gröbner basis of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> with respect to the
+purely lexicographical term order be called the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula>-characteristic set
+of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula>. In <ref xlink:href="#polsys-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+we establish a strong connection between Ritt’s
+characteristic sets and Buchberger’s Gröbner bases of polynomial
+ideals by showing that the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula>-characteristic set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> is a Ritt
+characteristic set of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> whenever <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> is an ascending set, and a Ritt
+characteristic set of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> can always be computed from <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> with simple
+pseudo-division when <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> is regular. We also prove that under certain
+variable ordering, either the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula>-characteristic set of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> is normal,
+or irregularity occurs for the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>j</mi></math></formula>th, but not the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><mi>j</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math></formula>th, elimination
+ideal of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula> for some <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>j</mi></math></formula>. In the latter case, we provide explicit
+pseudo-divisibility relations, which lead to nontrivial
+factorizations of certain polynomials in the Buchberger–Gröbner
+basis and thus reveal the structure of such polynomials. The
+pseudo-divisibility relations may be used to devise an algorithm to
+decompose arbitrary polynomial sets into normal triangular sets
+based on Buchberger–Gröbner bases computation.</p>
+      </subsection>
+      <subsection id="cid4" level="2">
+        <bodyTitle>On the complexity of computing Gröbner bases for weighted
+homogeneous systems</bodyTitle>
+        <p>Solving polynomial systems arising from applications is frequently
+made easier by the structure of the systems. Weighted homogeneity
+(or quasi-homogeneity) is one example of such a structure: given a
+system of weights <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>W</mi><mo>=</mo><mo>(</mo><msub><mi>w</mi><mn>1</mn></msub><mo>,</mo><mo>⋯</mo><mo>,</mo><msub><mi>w</mi><mi>n</mi></msub><mo>)</mo></mrow></math></formula>, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula>-homogeneous
+polynomials are polynomials which are homogeneous w.r.t the weighted
+degree
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mo form="prefix">deg</mo><mi>W</mi></msub><mrow><mo>(</mo><msubsup><mi>X</mi><mrow><mn>1</mn></mrow><msub><mi>α</mi><mn>1</mn></msub></msubsup><mo>,</mo><mo>⋯</mo><mo>,</mo><msubsup><mi>X</mi><mrow><mi>n</mi></mrow><msub><mi>α</mi><mi>n</mi></msub></msubsup><mo>)</mo></mrow><mo>=</mo><mo>∑</mo><msub><mi>w</mi><mi>i</mi></msub><msub><mi>α</mi><mi>i</mi></msub></mrow></math></formula>.</p>
+        <p>Gröbner bases for weighted homogeneous systems can be computed by
+adapting existing algorithms for homogeneous systems to the weighted
+homogeneous case. In <ref xlink:href="#polsys-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we show that in
+this case, the complexity estimate for Algorithm F5
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mfenced separators="" open="(" close=")"><msup><mfenced separators="" open="(" close=")"><mfrac linethickness="0pt"><mrow><mi>n</mi><mo>+</mo><msub><mi>d</mi><mi> max </mi></msub><mo>-</mo><mn>1</mn></mrow><msub><mi>d</mi><mi> max </mi></msub></mfrac></mfenced><mi>ω</mi></msup></mfenced></math></formula>
+can be divided by a factor <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mfenced separators="" open="(" close=")"><mo>∏</mo><msub><mi>w</mi><mi>i</mi></msub></mfenced><mi>ω</mi></msup></math></formula>.
+For zero-dimensional systems, the complexity of Algorithm <span class="smallcap" align="left">FGLM</span>
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>n</mi><msup><mi>D</mi><mi>ω</mi></msup></mrow></math></formula> (where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula> is the number of solutions of the system)
+can be divided by the same factor
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mfenced separators="" open="(" close=")"><mo>∏</mo><msub><mi>w</mi><mi>i</mi></msub></mfenced><mi>ω</mi></msup></math></formula>. Under genericity
+assumptions, for zero-dimensional weighted homogeneous systems of
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula>-degree <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><msub><mi>d</mi><mn>1</mn></msub><mo>,</mo><mo>⋯</mo><mo>,</mo><msub><mi>d</mi><mi>n</mi></msub><mo>)</mo></mrow></math></formula>, these complexity estimates are
+polynomial in the weighted Bézout bound
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msubsup><mo>∏</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>d</mi><mi>i</mi></msub><mo>/</mo><msubsup><mo>∏</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>w</mi><mi>i</mi></msub></mrow></math></formula>.</p>
+        <p>Furthermore, the maximum degree reached in a run of Algorithm F5 is
+bounded by the weighted Macaulay bound <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>∑</mo><mrow><mo>(</mo><msub><mi>d</mi><mi>i</mi></msub><mo>-</mo><msub><mi>w</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>+</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math></formula>,
+and this bound is sharp if we can order the weights so that
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>w</mi><mi>n</mi></msub><mo>=</mo><mn>1</mn></mrow></math></formula>. For overdetermined semi-regular systems, estimates from
+the homogeneous case can be adapted to the weighted case.</p>
+        <p>We provide some experimental results based on systems arising from a
+cryptography problem and from polynomial inversion problems. They
+show that taking advantage of the weighted homogeneous structure
+yields substantial speed-ups, and allows us to solve systems which
+were otherwise out of reach.</p>
+      </subsection>
+      <subsection id="cid5" level="2">
+        <bodyTitle>A Superfast Randomized Algorithm to Decompose Binary Forms</bodyTitle>
+        <p>Symmetric Tensor Decomposition is a major problem that arises in areas such as signal processing, statistics, data analysis and computational neuroscience. It is equivalent to a homogeneous polynomial in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> variables of degree <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula> as a sum of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula>th powers of linear forms, using the minimal number of summands. This minimal number is called the rank of the polynomial/tensor. We consider the decomposition of binary forms, that corresponds to the decomposition of symmetric tensors of dimension 2 and order <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula>. This problem has its roots in Invariant Theory, where the decompositions are known as canonical forms. As part of that theory, different algorithms were proposed for the binary forms. In recent years, those algorithms were extended for the general symmetric tensor decomposition problem. We present in <ref xlink:href="#polsys-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> a new randomized algorithm that enhances the previous approaches with results from structured linear algebra and techniques from linear recurrent sequences. It achieves a softly linear arithmetic complexity bound. To the best of our knowledge, the previously known algorithms have quadratic complexity bounds.</p>
+      </subsection>
+      <subsection id="cid6" level="2">
+        <bodyTitle>On the Bit Complexity of Solving Bilinear Polynomial Systems</bodyTitle>
+        <p>In <ref xlink:href="#polsys-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we bound the Boolean complexity of
+computing isolating hyperboxes
+for all complex roots of systems of bilinear polynomials.
+The resultant of such systems admits a family of determinantal
+Sylvester-type formulas, which we make explicit by means of
+homological complexes.
+The computation of the determinant of the resultant matrix
+is a bottleneck for the overall complexity. We exploit the
+quasi-Toeplitz structure to reduce the problem to efficient
+matrix-vector products, corresponding to multivariate polynomial
+multiplication.
+For zero-dimensional systems, we arrive at a primitive element
+and a rational univariate
+representation of the roots. The overall bit complexity of our
+probabilistic algorithm is <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mover accent="true"><mi>O</mi><mo>˜</mo></mover><mi>B</mi></msub><mrow><mo>(</mo><msup><mi>n</mi><mn>4</mn></msup><msup><mi>D</mi><mn>4</mn></msup><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><msup><mi>D</mi><mn>4</mn></msup><mi>τ</mi><mo>)</mo></mrow></mrow></math></formula>, where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>
+is the number of variables, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula> equals the bilinear Bézout bound,
+and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>τ</mi></math></formula> is the maximum coefficient bitsize.
+In addition, a careful infinitesimal symbolic perturbation of the system
+allows us to treat degenerate and positive dimensional systems, thus
+making our algorithms and complexity analysis
+applicable to the general case.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>Solving Systems over the Reals and Applications</bodyTitle>
+      <subsection id="cid7" level="2">
+        <bodyTitle>Exact algorithms for linear matrix inequalities</bodyTitle>
+        <p>Let <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>A</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><msub><mi>A</mi><mn>0</mn></msub><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><msub><mi>A</mi><mn>1</mn></msub><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>+</mo><msub><mi>x</mi><mi>n</mi></msub><msub><mi>A</mi><mi>n</mi></msub></mrow></math></formula> be a linear matrix, or pencil,
+generated by given symmetric matrices <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>A</mi><mn>0</mn></msub><mo>,</mo><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><mo>...</mo><mo>,</mo><msub><mi>A</mi><mi>n</mi></msub></mrow></math></formula> of size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula>
+with rational entries. The set of real vectors <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>x</mi></math></formula> such that the
+pencil is positive semidefinite is a convex semi-algebraic set called
+spectrahedron, described by a linear matrix inequality (LMI). In
+<ref xlink:href="#polsys-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we design an exact algorithm that, up to
+genericity assumptions on the input matrices, computes an exact
+algebraic representation of at least one point in the spectrahedron,
+or decides that it is empty. The algorithm does not assume the
+existence of an interior point, and the computed point minimizes the
+rank of the pencil on the spectrahedron. The degree <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> of the
+algebraic representation of the point coincides experimentally with
+the algebraic degree of a generic semidefinite program associated to
+the pencil. We provide explicit bounds for the complexity of our
+algorithm, proving that the maximum number of arithmetic operations
+that are performed is essentially quadratic in a multilinear Bézout
+bound of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula>. When <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> (resp. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>) is fixed, such a bound, and hence
+the complexity, is polynomial in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> (resp. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula>). We conclude by
+providing results of experiments showing practical improvements with
+respect to state-of-the-art computer algebra algorithms.</p>
+      </subsection>
+      <subsection id="cid8" level="2">
+        <bodyTitle>Real root finding for determinants of linear matrices</bodyTitle>
+        <p>Let <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>A</mi><mn>0</mn></msub><mo>,</mo><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><mo>...</mo><mo>,</mo><msub><mi>A</mi><mi>n</mi></msub></mrow></math></formula> be given square matrices of size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> with
+rational coefficients. In <ref xlink:href="#polsys-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we focus on the
+exact computation of one point in each connected component of the real
+determinantal variety
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>{</mo><mi>x</mi><mi>∈</mi><msup><mi>ℝ</mi><mi>n</mi></msup><mo>:</mo><mo movablelimits="true" form="prefix">det</mo><mrow><mo>(</mo><msub><mi>A</mi><mn>0</mn></msub><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><msub><mi>A</mi><mn>1</mn></msub><mo>+</mo><mo>⋯</mo><mo>+</mo><msub><mi>x</mi><mi>n</mi></msub><msub><mi>A</mi><mi>n</mi></msub><mo>)</mo></mrow><mo>=</mo><mn>0</mn><mo>}</mo></mrow></math></formula>.
+Such a problem finds applications in many areas such as control
+theory, computational geometry, optimization, etc. Using standard
+complexity results this problem can be solved using <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>m</mi><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mo>)</mo></mrow></msup></math></formula>
+arithmetic operations. Under some genericity assumptions on the
+coefficients of the matrices, we provide an algorithm solving this
+problem whose runtime is essentially quadratic in
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mfenced separators="" open="(" close=")"><mfrac linethickness="0pt"><mrow><mi>n</mi><mo>+</mo><mi>m</mi></mrow><mi>n</mi></mfrac></mfenced></mrow><mn>3</mn></msup></math></formula> . We also report on experiments with a
+computer implementation of this algorithm. Its practical performance
+illustrates the complexity estimates. In particular, we emphasize that
+for subfamilies of this problem where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> is fixed, the complexity is
+polynomial in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>.</p>
+      </subsection>
+      <subsection id="cid9" level="2">
+        <bodyTitle>A nearly optimal algorithm for deciding connectivity queries
+in smooth and bounded real algebraic sets</bodyTitle>
+        <p>A roadmap for a semi-algebraic set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>S</mi></math></formula> is a curve which has a
+non-empty and connected intersection with all connected components of
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>S</mi></math></formula>. Hence, this kind of object, introduced by Canny, can be used to
+answer connectivity queries (with applications, for instance, to
+motion planning) but has also become of central importance in
+effective real algebraic geometry, since it is used in higher-level
+algorithms. In <ref xlink:href="#polsys-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we provide a
+probabilistic algorithm which computes roadmaps for smooth and bounded
+real algebraic sets. Its output size and running time are polynomial
+in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mo>(</mo><mi>n</mi><mi>D</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo form="prefix">log</mo><mo>(</mo><mi>d</mi><mo>)</mo></mrow></msup></math></formula> , where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula> is the maximum of the degrees of the
+input polynomials, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> is the dimension of the set under consideration
+and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> is the number of variables. More precisely, the running time
+of the algorithm is essentially subquadratic in the output size. Even
+under our assumptions, it is the first roadmap algorithm with output
+size and running time polynomial in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mo>(</mo><mi>n</mi><mi>D</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo form="prefix">log</mo><mo>(</mo><mi>d</mi><mo>)</mo></mrow></msup></math></formula>.</p>
+      </subsection>
+      <subsection id="cid10" level="2">
+        <bodyTitle>Determinantal sets, singularities and application to optimal
+control in medical imagery</bodyTitle>
+        <p>Control theory has recently been involved in the field of nuclear
+magnetic resonance imagery. The goal is to control the magnetic field
+optimally in order to improve the contrast between two biological
+matters on the pictures. Geometric optimal control leads us here to
+analyze mero-morphic vector fields depending upon physical parameters,
+and having their singularities defined by a determinantal
+variety. The involved matrix has polynomial entries with respect to
+both the state variables and the parameters. Taking into account the
+physical constraints of the problem, one needs to classify, with
+respect to the parameters, the number of real singularities lying in
+some prescribed semi-algebraic set. In <ref xlink:href="#polsys-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+develop a dedicated algorithm for real root classification of the
+singularities of the rank defects of a polynomial matrix, cut with a
+given semi-algebraic set. The algorithm works under some genericity
+assumptions which are easy to check. These assumptions are not so
+restrictive and are satisfied in the aforementioned application. As
+more general strategies for real root classification do, our algorithm
+needs to compute the critical loci of some maps, intersections with
+the boundary of the semi-algebraic domain, etc. In order to compute
+these objects, the determinantal structure is exploited through a
+stratification by the rank of the polynomial matrix. This speeds up
+the computations by a factor 100. Furthermore, our implementation is
+able to solve the application in medical imagery, which was out of
+reach of more general algorithms for real root classification. For
+instance, computational results show that the contrast problem where
+one of the matters is water is partitioned into three distinct
+classes.</p>
+      </subsection>
+      <subsection id="cid11" level="2">
+        <bodyTitle>Optimal Control of an Ensemble of Bloch Equations with
+Applications in MRI</bodyTitle>
+        <p>The optimal control of an ensemble of Bloch equations describing the
+evolution of an ensemble of spins is the mathematical model used in
+Nuclear Resonance Imaging and the associated costs lead to consider
+Mayer optimal control problems. The Maximum Principle allows to
+parameterize the optimal control and the dynamics is analyzed in the
+framework of geometric optimal control. This leads to numerical
+implementations or suboptimal controls using averaging principle
+as presented in <ref xlink:href="#polsys-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="cid12" level="2">
+        <bodyTitle>Critical Point Computations on Smooth Varieties: Degree and
+Complexity bounds</bodyTitle>
+        <p>Let <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>V</mi><mo>⊂</mo><msup><mi>ℂ</mi><mi>n</mi></msup></mrow></math></formula> be an equidimensional algebraic set and
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula> be an <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>-variate polynomial with rational coefficients. Computing
+the critical points of the map that evaluates <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula> at the points of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>
+is a cornerstone of several algorithms in real algebraic geometry and
+optimization. Under the assumption that the critical locus is finite
+and that the projective closure of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula> is smooth, we provide in
+<ref xlink:href="#polsys-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> sharp upper bounds on the degree of the
+critical locus which depend only on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo form="prefix">deg</mo><mo>(</mo><mi>g</mi><mo>)</mo></mrow></math></formula> and the degrees of the
+generic polar varieties associated to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>. Hence, in some special
+cases where the degrees of the generic polar varieties do not reach
+the worst-case bounds, this implies that the number of critical points
+of the evaluation map of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula> is less than the currently known degree
+bounds. We show that, given a lifting fiber of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>, a slight variant
+of an algorithm due to Bank, Giusti, Heintz, Lecerf, Matera and
+Solernó computes these critical points in time which is quadratic in
+this bound up to logarithmic factors, linear in the complexity of
+evaluating the input system and polynomial in the number of variables
+and the maximum degree of the input polynomials.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Solving Systems in Finite Fields, Applications in Cryptology and Algebraic Number Theory.</bodyTitle>
+      <subsection id="cid13" level="2">
+        <bodyTitle>Structural Cryptanalysis of McEliece Schemes with Compact Key.</bodyTitle>
+        <p>A very popular trend in code-based cryptography is to decrease the
+public-key size by focusing on subclasses of alternant/Goppa codes which admit a very compact public matrix, typically quasi-cyclic (QC), quasi-dyadic (QD),
+or quasi-monoidic (QM) matrices. We show in <ref xlink:href="#polsys-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that the very same reason which allows to construct a compact
+public-key makes the key-recovery problem intrinsically much easier.
+The gain on the public-key size induces an important security drop, which is as large as the compression factor <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula> on the public-key. The fundamental remark is that from the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>×</mo><mi>n</mi></mrow></math></formula> public generator matrix of a compact McEliece, one can construct a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>/</mo><mi>p</mi><mo>×</mo><mi>n</mi><mo>/</mo><mi>p</mi></mrow></math></formula> generator matrix which is – from an attacker point of view – as good as the initial public-key. We call this new smaller code the <i>folded code</i>. Any key-recovery attack
+can be deployed equivalently on this smaller generator matrix.
+To mount the key-recovery in practice, we also improve the algebraic
+technique of Faugère, Otmani, Perret and Tillich (FOPT). In particular, we introduce new algebraic equations allowing to include codes defined over any prime field in the scope of our attack. We describe
+a so-called “structural elimination” which is a new algebraic manipulation which simplifies the key-recovery system.
+As a proof of concept, we report successful attacks on many cryptographic parameters available in the literature.
+All the parameters of CFS-signatures based on QD/QM codes that have been proposed can be broken by this approach.
+In most cases, our attack takes few seconds (the hardest case requires less than 2 hours). In the encryption case, the algebraic systems are harder to solve in practice. Still, our attack succeeds against several cryptographic challenges proposed for QD and QM encryption schemes. We mention that some parameters that have been proposed in the literature remain out of reach of the methods given here. weakness arising from Goppa codes with QM or QD symmetries. Indeed, the security of such schemes is not relying on the bigger compact public matrix but on the small folded code which can be efficiently broken in practice with an algebraic attack for a large set of parameters</p>
+      </subsection>
+      <subsection id="cid14" level="2">
+        <bodyTitle>Folding Alternant and Goppa Codes with Non-Trivial Automorphism Groups</bodyTitle>
+        <p>The main practical limitation of the McEliece public-key encryption scheme is probably the size of its key. A famous trend to overcome this issue is to focus on subclasses of alternant/Goppa codes
+with a non trivial automorphism group. Such codes display then <i>symmetries</i> allowing
+compact parity-check or generator matrices. For instance, a key-reduction is obtained by taking
+<i>quasi-cyclic</i> (QC) or <i>quasi-dyadic</i> (QD) alternant/Goppa codes.
+We show in <ref xlink:href="#polsys-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, that the use of such <i>symmetric</i> alternant/Goppa codes in cryptography introduces a fundamental weakness. It is indeed possible to reduce the key-recovery on the original symmetric public-code to the key-recovery on a (much) smaller code that has no symmetry anymore. This result is obtained thanks to an operation on codes called <i>folding</i> that exploits the knowledge of the automorphism group. This operation consists in adding the coordinates of codewords which belong to the same orbit under the action of the automorphism group. The advantage is twofold: the reduction factor can be as large as the size of the orbits, and it preserves a fundamental property:
+folding the dual of an alternant (<i>resp</i>. Goppa) code provides the dual of an alternant (<i>resp</i>. Goppa) code. A key point is to show that all the existing constructions of alternant/Goppa codes with symmetries follow a common principal of taking codes whose support is globally invariant
+under the action of affine transformations (by building upon prior works of T. Berger and A. Dür). This enables not only to present a unified view but also to generalize the construction of QC,QD and even <i>quasi-monoidic</i> (QM) Goppa codes.
+Lastly, our results can be harnessed to boost up any key-recovery attack on McEliece systems based on symmetric alternant or Goppa codes, and in particular algebraic attacks.</p>
+      </subsection>
+      <subsection id="cid15" level="2">
+        <bodyTitle>Factoring <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>=</mo><msup><mi>p</mi><mi>r</mi></msup><msup><mi>q</mi><mi>s</mi></msup></mrow></math></formula> for Large <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>s</mi></math></formula></bodyTitle>
+        <p>D. Boneh, G. Durfee, and N. Howgrave-Graham showed at Crypto 99 that moduli of
+the form <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>=</mo><msup><mi>p</mi><mi>r</mi></msup><mi>q</mi></mrow></math></formula> can be factored in polynomial time when <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>r</mi><mi>≃</mi><mo form="prefix">log</mo><mi>p</mi></mrow></math></formula>. Their
+algorithm is based on Coppersmith’s technique for finding small roots of
+polynomial equations. In <ref xlink:href="#polsys-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we show that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>=</mo><msup><mi>p</mi><mi>r</mi></msup><msup><mi>q</mi><mi>s</mi></msup></mrow></math></formula>
+can also be factored in polynomial time when <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula> or <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>s</mi></math></formula> is at least <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mo>(</mo><mo form="prefix">log</mo><mi>p</mi><mo>)</mo></mrow><mn>3</mn></msup></math></formula>; therefore we identify a new class of integers that can be efficiently
+factored. We also generalize our algorithm to moduli equal to a product of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>
+factors of prime powers <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msubsup><mi>p</mi><mi>i</mi><msub><mi>r</mi><mi>i</mi></msub></msubsup></math></formula> ; we show that a non-trivial factor of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula>
+can be extracted in polynomial-time if one of the exponents <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>r</mi><mi>i</mi></msub></math></formula> is large
+enough.</p>
+      </subsection>
+      <subsection id="cid16" level="2">
+        <bodyTitle>On the p-adic stability of the FGLM algorithm</bodyTitle>
+        <p>Nowadays, many strategies to solve polynomial systems use the computation of a
+Gröbner basis for the graded reverse lexicographical ordering, followed by a
+change of ordering algorithm to obtain a Gröbner basis for the lexicographical
+ordering. The change of ordering algorithm is crucial for these strategies. In
+<ref xlink:href="#polsys-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we study the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-adic stability of the main change
+of ordering algorithm, FGLM. We show that FGLM is stable and give explicit upper
+bound on the loss of precision occuring in its execution. The variant of FGLM
+designed to pass from the grevlex ordering to a Gröbner basis in shape position
+is also stable. Our study relies on the application of Smith Normal Form
+computations for linear algebra.</p>
+      </subsection>
+      <subsection id="cid17" level="2">
+        <bodyTitle>Binary Permutation Polynomial Inversion and Application to Obfuscation Techniques</bodyTitle>
+        <p>Whether it is for constant obfusation, opaque predicate or equation obfuscation,
+Mixed Boolean-Arithmetic (MBA) expressions are a powerful tool providing
+concrete ways to achieve obfuscation. Recent results introduced ways to mix such
+a tool with permutation polynomials modulo <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>2</mn><mi>n</mi></msup></math></formula> in order to make the
+obfuscation technique more resilient to SMT solvers. However, because of
+limitations regarding the inversion of such permutations, the set of permutation
+polynomials presented suffers some restrictions. Those restrictions allow
+several methods of arithmetic simplification, decreasing the effectiveness of
+the technique at hiding information. In <ref xlink:href="#polsys-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+present general methods for permutation polynomials inversion. These methods
+allow us to remove some of the restrictions presented in the literature, making
+simplification attacks less effective. We discuss complexity and limits of these
+methods, and conclude that not only current simplification attacks may not be as
+effective as we thought, but they are still many uses of polynomial permutations
+in obfuscation that are yet to be explored.</p>
+      </subsection>
+      <subsection id="cid18" level="2">
+        <bodyTitle>Horizontal Side-Channel Attacks and Countermeasures on
+the ISW Masking Scheme</bodyTitle>
+        <p>A common countermeasure against side-channel attacks consists in using
+the masking scheme originally introduced by Ishai, Sahai and Wagner
+(ISW) at Crypto 2003, and further generalized by Rivain and Prouff at
+CHES 2010. The countermeasure is provably secure in the probing model,
+and it was showed by Duc, Dziembowski and Faust at Eurocrypt 2014 that
+the proof can be extended to the more realistic noisy leakage
+model. However the extension only applies if the leakage noise
+increases at least linearly with the masking order n, which is not
+necessarily possible in practice. In <ref xlink:href="#polsys-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+we investigate the security of an implementation when the
+previous condition is not satisﬁed, for example when the masking order
+n increases for a constant noise. We exhibit two (template) horizontal
+side-channel attacks against the Rivain-Prouff's secure multiplication
+scheme and we analyze their eﬃciency thanks to several simulations and
+experiments. Eventually, we describe a variant of Rivain-Prouff's
+multiplication that is still provably secure in the original ISW
+model, and also heuristically secure against our new attacks.</p>
+      </subsection>
+      <subsection id="cid19" level="2">
+        <bodyTitle>Faster Evaluation of SBoxes via Common Shares</bodyTitle>
+        <p>In <ref xlink:href="#polsys-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we describe a new technique for
+improving the efficiency of the
+masking countermeasure against side-channel attacks. Our technique is
+based on using common shares between secret variables, in order to
+reduce the number of finite field multiplications. Our algorithms are
+proven secure in the ISW probing model with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>n</mi><mo>&gt;</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math></formula> shares against <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula>
+probes. For AES, we get an equivalent of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>2</mn><mo>.</mo><mn>8</mn></mrow></math></formula> non-linear
+multiplications for every SBox evaluation, instead of 4 in the
+Rivain-Prouff countermeasure. We obtain similar improvements for other
+block-ciphers. Our technique is easy to implement and performs
+relatively well in practice, with roughly a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>20</mn><mo>%</mo></mrow></math></formula> speed-up compared
+to existing algorithms.</p>
+      </subsection>
+      <subsection id="cid20" level="2">
+        <bodyTitle>Information Extraction in the Presence of Masking with
+Kernel Discriminant Analysis</bodyTitle>
+        <p>To reduce the memory and timing complexity of the Side-Channel Attacks
+(SCA), dimensionality reduction techniques are usually applied to the
+measurements. They aim to detect the so-called Points of Interest
+(PoIs), which are time samples which (jointly) depend on some
+sensitive information (e.g. secret key sub-parts), and exploit them to
+extract information. The extraction is done through the use of
+functions which combine the measurement time samples. Examples of
+combining functions are the linear combinations provided by the
+Principal Component Analysis or the Linear Discriminant Analysis. When
+a masking countermeasure is properly implemented to thwart SCAs, the
+selection of PoIs is known to be a hard task: almost all existing
+methods have a combinatorial complexity explosion, since they require
+an exhaustive search among all possible d-tuples of points. In this
+paper we propose an eﬃcient method for informative feature extraction
+in presence of masking countermeasure. This method, called Kernel
+Discriminant Analysis, consists in completing the Linear Discriminant
+Analysis with a so-called kernel trick, in order to efficiently
+perform it over the set of all possible d-tuples of points without
+growing in complexity with d. We identify and analyse the issues
+related to the application of such a method. Afterwards, its
+performances are compared to those of the Projection Pursuit (PP) tool
+for PoI selection up to a 4th-order context. Experiments show that the
+Kernel Discriminant Analysis remains eﬀective and efficient for
+high-order attacks, leading to a valuable alternative to the PP in
+constrained contexts where the increase of the order d does not imply
+a growth of the profiling datasets.</p>
+      </subsection>
+      <subsection id="cid21" level="2">
+        <bodyTitle>Polynomial Evaluation and Side Channel Analysis</bodyTitle>
+        <p>Side Channel Analysis (SCA) is a class of attacks that exploits
+leakage of information from a cryptographic implementation during
+execution. To thwart it, masking is a common countermeasure. The
+principle is to randomly split every sensitive intermediate variable
+occurring in the computation into several shares and the number of
+shares, called the masking order, plays the role of a security
+parameter. The main issue while applying masking to protect a block
+cipher implementation is to specify an efficient scheme to secure the
+S-box computations. Several masking schemes, applicable for arbitrary
+orders, have been recently introduced. Most of them follow a similar
+approach originally introduced in the paper of Carlet et al published
+at FSE 2012; the S-box to protect is viewed as a polynomial and
+strategies are investigated which minimize the number of ﬁeld
+multiplications which are not squarings. The
+paper <ref xlink:href="#polsys-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> aims at presenting
+all these works in a comprehensive way. The methods are discussed,
+their differences and similarities are identiﬁed and the remaining open
+problems are listed.</p>
+      </subsection>
+      <subsection id="cid22" level="2">
+        <bodyTitle>Redeﬁning the Transparency Order</bodyTitle>
+        <p>In <ref xlink:href="#polsys-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we consider the multi-bit
+Diﬀerential Power Analysis (DPA) in the Hamming weight model. In this
+regard, we revisit the deﬁnition of Transparency Order (TO) from the
+work of Prouff (FSE 2005) and ﬁnd that the deﬁnition has certain
+limitations. Although this work has been quite well referred in the
+literature, surprisingly, these limitations remained unexplored for
+almost a decade. We analyse the definition from scratch, modify it and
+finally provide a deﬁnition with better insight that can theoretically
+capture DPA in Hamming weight model for hardware implementation with
+precharge logic. At the end, we confront the notion of (revised)
+transparency order with attack simulations in order to study to what
+extent the low transparency order of an s-box impacts the efficiency
+of a side channel attack against its processing.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid53">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <p>Until the mid 2000’s, multivariate cryptography was developing very rapidly, producing many interesting and versatile
+public-key schemes. However, many of them were soon successfully cryptanalysed (a lot have
+been done in this group). As a consequence, the confidence in multivariate cryptography cryptosystems
+declined. It seems that there have emerged new important reasons for renewal of the
+interest in a new generation of multivariate schemes. In the past two years, the algorithms for
+solving the Discrete Logarithm Problem over small characteristic fields underwent an extraordinary
+development. This clearly illustrates the risk to not consider alternatives to classical assumptions
+based on number theory. In parallel, two of the most important standardization bodies in the
+world, NIST and ETSI have recently started initiatives for developing cryptographic standards not
+based on number theory, with a particular focus on primitives resistant to quantum algorithms.
+An objective here is then to focus on the design of multivariate schemes.</p>
+      <p>The team is now involved in the industrial transfer of post-quantum cryptography. The project is supervised by SATT-LUTECH.
+SATT-LUTECH specializes in the processing and transfer of technologies from research laboratories of its shareholders: Inria, CNRS, University of Technology of Compiègne, National Museum of Natural History, Institute Curie, Université Panthéon-Assas, Paris Sorbonne University and National School of Industrial Creation).</p>
+      <p>The team has recently developed, in partnership with a mobile application development company (WASSA), an Android app for smartphones (Samsung G5 type) that uses multivariate cryptography. The application has been tested mid-November in a series of experiments supervised by DGA and French Ministry of Defense. The experiment gathered a total of hundred participants from various operational units.
+This is a first milestone in the maturation project whose goal is to create a start-up.
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid55">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid56" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid57" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <descriptionlist>
+          <li id="uid58">
+            <p noindent="true"><b>ANR Grant HPAC: High Performance Algebraic Computing
+(2012-2016).</b> The pervasive ubiquity of parallel architectures
+and memory hierarchy has led to a new quest for parallel
+mathematical algorithms and software capable of exploiting the
+various levels of parallelism: from hardware acceleration
+technologies (multi-core and multi-processor system on chip, GPGPU,
+FPGA) to cluster and global computing platforms. For giving a
+greater scope to symbolic and algebraic computing, beyond the
+optimization of the application itself, the effective use of a large
+number of resources (memory and specialized computing units) is
+expected to enhance the performance multi-criteria objectives: time,
+resource usage, reliability, even energy consumption. The design and
+the implementation of mathematical algorithms with provable,
+adaptive and sustainable performance is a major challenge. In this
+context, this project is devoted to fundamental and practical
+research speciﬁcally in exact linear algebra and system solving that
+are two essential "dwarfs" (or "killer kernels") in scientiﬁc and
+algebraic computing. The project should lead to progress in matrix
+algorithms and challenge solving in cryptology, and should provide
+new insights into high performance programming and library design
+problems (J.-C. Faugère [contact], L. Perret, G. Renault, M. Safey
+El Din).</p>
+          </li>
+          <li id="uid59">
+            <p noindent="true"><b>PIA grant RISQ: Regroupement of the Security Industry for Quantum-Safe security
+(2017-2020).</b> The goal of the RISQ project is to prepare the security industry to the upcoming shift of classical cryptography to quantum-safe cryptography.
+(J.-C. Faugère [contact], and L. Perret).</p>
+          </li>
+        </descriptionlist>
+      </subsection>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid61" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid62" level="3">
+          <bodyTitle>A3</bodyTitle>
+          <sanspuceslist>
+            <li id="uid63">
+              <p noindent="true">Type: PEOPLE</p>
+            </li>
+            <li id="uid64">
+              <p noindent="true">Instrument: Career Integration Grant</p>
+            </li>
+            <li id="uid65">
+              <p noindent="true">Duration: May 2013 - April 2017</p>
+            </li>
+            <li id="uid66">
+              <p noindent="true">Coordinator: Jean-Charles Faugère</p>
+            </li>
+            <li id="uid67">
+              <p noindent="true">Partner: Institut National de Recherche en Informatique et en Automatique (Inria), France</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Inria contact: Elias Tsigaridas</p>
+            </li>
+            <li id="uid69">
+              <p noindent="true">Abstract:
+The project Algebraic Algorithms and Applications (A3) is an
+interdisciplinary and multidisciplinary project, with strong
+international synergy. It consists of four work packages The first
+(Algebraic Algorithms) focuses on fundamental problems of
+computational (real) algebraic geometry: effective zero bounds, that
+is estimations for the minimum distance of the roots of a polynomial
+system from zero, algorithms for solving polynomials and polynomial
+systems, derivation of non-asymptotic bounds for basic algorithms of
+real algebraic geometry and application of polynomial system solving
+techniques in optimization. We propose a novel approach that
+exploits structure and symmetry, combinatorial properties of high
+dimensional polytopes and tools from mathematical physics. Despite
+the great potential of the modern tools from algebraic algorithms,
+their use requires a combined effort to transfer this technology to
+specific problems. In the second package (Stochastic Games) we aim
+to derive optimal algorithms for computing the values of stochastic
+games, using techniques from real algebraic geometry, and to
+introduce a whole new arsenal of algebraic tools to computational
+game theory. The third work package (Non-linear Computational
+Geometry), we focus on exact computations with implicitly defined
+plane and space curves. These are challenging problems that commonly
+arise in geometric modeling and computer aided design, but they also
+have applications in polynomial optimization. The final work package
+(Efficient Implementations) describes our plans for complete, robust
+and efficient implementations of algebraic algorithms.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid70" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <sanspuceslist>
+          <li id="uid71">
+            <p noindent="true">Program: COST</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Project acronym: CryptoAction</p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">Project title: Cryptography for Secure Digital Interaction</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">Duration: 04 2014 - 04 2018</p>
+          </li>
+          <li id="uid75">
+            <p noindent="true">Coordinator: Claudio ORLANDI</p>
+          </li>
+          <li id="uid76">
+            <p noindent="true">Abstract:
+As increasing amounts of sensitive data are exchanged and processed every day on the Internet, the need for security is paramount. Cryptography is the fundamental tool for securing digital interactions, and allows much more than secure communication: recent breakthroughs in cryptography enable the protection - at least from a theoretical point of view - of any interactive data processing task. This includes electronic voting, outsourcing of storage and computation, e-payments, electronic auctions, etc. However, as cryptography advances and becomes more complex, single research groups become specialized and lose contact with "the big picture". Fragmentation in this field can be dangerous, as a chain is only as strong as its weakest link. To ensure that the ideas produced in Europe's many excellent research groups will have a practical impact, coordination among national efforts and different skills is needed. The aim of this COST Action is to stimulate interaction between the different national efforts in order to develop new cryptographic solutions and to evaluate the security of deployed algorithms with applications to the secure digital interactions between citizens, companies and governments. The Action will foster a network of European research centers thus promoting movement of ideas and people between partners.</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid77">
+            <p noindent="true">Program: COST</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">Project acronym: CRYPTACUS</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">Project title: Cryptanalysis of ubiquitous computing systems</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Duration: 12 2014 - 12 2018</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">Coordinator: Gildas AVOINE</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">Abstract:
+Recent technological advances in hardware and software have irrevocably affected the classical picture of computing systems. Today, these no longer consist only of connected servers, but involve a wide range of pervasive and embedded devices, leading to the concept of “ubiquitous computing systems”.
+The objective of the Action is to improve and adapt the existent cryptanalysis methodologies and tools to the ubiquitous computing framework. Cryptanalysis, which is the assessment of theoretical and practical cryptographic mechanisms designed to ensure security and privacy, will be implemented along four axes: cryptographic models, cryptanalysis of building blocks, hardware and software security engineering, and security assessment of real-world systems.
+Researchers have only recently started to focus on the security of ubiquitous computing systems. Despite the critical flaws found, the required highly-specialized skills and the isolation of the involved disciplines are a true barrier for identifying additional issues. The Action will establish a network of complementary skills, so that expertise in cryptography, information security, privacy, and embedded systems can be put to work together.
+The outcome will directly help industry stakeholders and regulatory bodies to increase security and privacy in ubiquitous computing systems, in order to eventually make citizens better protected in their everyday life.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid83" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Inria International Labs</bodyTitle>
+        <subsection id="uid85" level="3">
+          <bodyTitle>GOAL</bodyTitle>
+          <sanspuceslist>
+            <li id="uid86">
+              <p noindent="true">Title: Geometry and Optimization with ALgebraic methods.</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid88">
+                  <p noindent="true">University of California Berkeley (United States)
+- Dept. of Mathematics - Bernd Sturmfels</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid89">
+              <p noindent="true">Start year: 2015</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">See also:
+<ref xlink:href="http://www-polsys.lip6.fr/GOAL/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-polsys.<allowbreak/>lip6.<allowbreak/>fr/<allowbreak/>GOAL/<allowbreak/>index.<allowbreak/>html</ref></p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">Polynomial optimization problems form a subclass of general global
+optimization problems, which have received a lot of attention from the
+research community recently; various solution techniques have been
+designed. One reason for the spectacular success of these methods is
+the potential impact in many fields: data mining, big data, energy
+savings, etc. More generally, many areas in mathematics, as well as
+applications in engineering, biology, statistics, robotics
+etc. require a deeper understanding of the algebraic structure of
+their underlying objects.</p>
+              <p>A new trend in the polynomial optimization community is the
+combination of algebraic and numerical methods. Understanding and
+characterizing the algebraic properties of the objects occurring in
+numerical algorithms can play an important role in improving the
+efficiency of exact methods. Moreover, this knowledge can be used to
+estimate the quality (for example the number of significant digits) of
+numerical algorithms. In many situations each coordinate of the
+optimum is an algebraic number. The degree of the minimal polynomials
+of these algebraic numbers is the Algebraic Degree of the problem.
+From a methodological point of view, this notion of Algebraic Degree
+emerges as an important complexity parameter for both numerical and
+the exact algorithms. However, algebraic systems occurring in
+applications often have special algebraic structures that deeply
+influence the geometry of the solution set. Therefore, the (true)
+algebraic degree could be much less than what is predicted by general
+worst case bounds (using Bézout bounds, mixed volume, etc.), and would
+be very worthwhile to understand it more precisely.</p>
+              <p>The goal of this proposal is to develop algorithms and mathematical
+tools to solve geometric and optimization problems through algebraic
+techniques. As a long-term goal, we plan to develop new software to
+solve these problems more efficiently. These objectives encompass the
+challenge of identifying instances of these problems that can be
+solved in polynomial time with respect to the number of solutions and
+modeling these problems with polynomial equations.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid92" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid93" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <sanspuceslist>
+          <li id="uid94">
+            <p noindent="true">Carlos Améndola Cerón</p>
+            <sanspuceslist>
+              <li id="uid95">
+                <p noindent="true">Date: May 2016</p>
+              </li>
+              <li id="uid96">
+                <p noindent="true">Institution: Technische Universität Berlin, Germany</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Christoph Koutschan</p>
+            <sanspuceslist>
+              <li id="uid98">
+                <p noindent="true">Date: Nov. 2016</p>
+              </li>
+              <li id="uid99">
+                <p noindent="true">Institution: Österreichische Akademie der Wissenschaften, Linz</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Didier Henrion</p>
+            <sanspuceslist>
+              <li id="uid101">
+                <p noindent="true">Date: Nov. 2016</p>
+              </li>
+              <li id="uid102">
+                <p noindent="true">Institution: LAAS, CNRS</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <li id="uid103">
+            <p noindent="true">Simone Naldi</p>
+            <sanspuceslist>
+              <li id="uid104">
+                <p noindent="true">Date: Nov. 2016</p>
+              </li>
+              <li id="uid105">
+                <p noindent="true">Institution: TU Univ. Dortmund, Germany.</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <li id="uid106">
+            <p noindent="true">Ioannis Psarros</p>
+            <sanspuceslist>
+              <li id="uid107">
+                <p noindent="true">Date: May. 2016</p>
+              </li>
+              <li id="uid108">
+                <p noindent="true">Institution: University of Athens, Greece.</p>
+              </li>
+            </sanspuceslist>
+          </li>
+        </sanspuceslist>
+        <subsection id="uid109" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <sanspuceslist>
+            <li id="uid110">
+              <p noindent="true">Vincent Guisse</p>
+              <sanspuceslist>
+                <li id="uid111">
+                  <p noindent="true">Date: Apr. 2016 - Jul. 2016</p>
+                </li>
+                <li id="uid112">
+                  <p noindent="true">Institution: Université Paris – Diderot</p>
+                </li>
+                <li id="uid113">
+                  <p noindent="true">Supervisor: Jean-Charles Faugère, Jérémy Berthomieu</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid114">
+              <p noindent="true">Ramon Ronzon</p>
+              <sanspuceslist>
+                <li id="uid115">
+                  <p noindent="true">Date: Mar. 2016 - Sep. 2016</p>
+                </li>
+                <li id="uid116">
+                  <p noindent="true">Institution: École polytechnique</p>
+                </li>
+                <li id="uid117">
+                  <p noindent="true">Supervisor: Jean-Charles Faugère, Ludovic Perret</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid118">
+              <p noindent="true">Sènan Dossa</p>
+              <sanspuceslist>
+                <li id="uid119">
+                  <p noindent="true">Date: Mar. 2016 - Sep. 2016</p>
+                </li>
+                <li id="uid120">
+                  <p noindent="true">Institution: ENS Lyon</p>
+                </li>
+                <li id="uid121">
+                  <p noindent="true">Supervisor: Jean-Charles Faugère, Ludovic Perret</p>
+                </li>
+              </sanspuceslist>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid122">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid123" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid124" level="2">
+        <bodyTitle>Scientific events organisation</bodyTitle>
+        <subsection id="uid125" level="3">
+          <bodyTitle>Member of the organizing committees</bodyTitle>
+          <p>Dongming Wang was involved in the organization of the following
+conferences</p>
+          <simplelist>
+            <li id="uid126">
+              <p noindent="true">Special Session on Software of Polynomial Systems at the 5th
+International Congress on Mathematical Software (ICMS 2016)
+(Berlin, Germany, July 11-14, 2016).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid127" level="2">
+        <bodyTitle>Scientific events selection</bodyTitle>
+        <subsection id="uid128" level="3">
+          <bodyTitle>Member of the conference program committees</bodyTitle>
+          <p>Emmanuel Prouff was member of the program committees of the following
+conferences</p>
+          <simplelist>
+            <li id="uid129">
+              <p noindent="true">Conference on Cryptographic Hardware and Embedded Systems
+2016 (CHES 2016) (Santa Barbara, CA, USA, Aug. 17-19, 2016);</p>
+            </li>
+            <li id="uid130">
+              <p noindent="true">Smart Card Research and Advanced Application Conference
+(CARDIS 2016) (Cannes, France, Nov. 7-9, 2016);</p>
+            </li>
+            <li id="uid131">
+              <p noindent="true">International Workshop on Constructive Side-Channel
+Analysis and Secure Design (COSADE 2016) (Graz, Austria,
+Apr. 14-15);</p>
+            </li>
+            <li id="uid132">
+              <p noindent="true">23rd ACM Conference on Computer and Communications Security
+(ACM CCS 2016) (Vienna, Austria, Oct. 24-28).</p>
+            </li>
+          </simplelist>
+          <p>Dongming Wang was member of the program committees of the following
+conferences</p>
+          <simplelist>
+            <li id="uid133">
+              <p noindent="true">11th International Workshop on Automated Deduction in
+Geometry (ADG 2016) (Strasbourg, France, June 27-29, 2016);</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">7th International Symposium on Symbolic Computation in
+Software Science (SCSS 2016) (Tokyo, Japan, March 28-31, 2016).</p>
+            </li>
+          </simplelist>
+          <p>Elias Tsigaridas was member of the program committees of the following
+conferences</p>
+          <simplelist>
+            <li id="uid135">
+              <p noindent="true">Computer Algebra in Scientific Computing (CASC 2016),
+Sept 2016 Bucharest, Romania.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid136" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid137" level="3">
+          <bodyTitle>Member of the editorial boards</bodyTitle>
+          <p>Ludovic Perret is Member of the Editorial Board of Designs, Codes
+and Cryptography.</p>
+          <p>Emmanuel Prouff is member of the editorial board of Journal of
+Cryptographic Engineering.</p>
+          <p>Mohab Safey El Din is member of the editorial board of Journal of
+Symbolic Computation.</p>
+          <p>Dongming Wang has the following editorial activities:</p>
+          <simplelist>
+            <li id="uid138">
+              <p noindent="true">Editor-in-Chief and Managing Editor for the journal</p>
+              <p noindent="true">Mathematics in Computer Science (published by
+Birkhäuser/Springer, Basel).</p>
+            </li>
+            <li id="uid139">
+              <p noindent="true">Executive Associate Editor-in-Chief for the journal</p>
+              <p noindent="true">SCIENCE CHINA Information Sciences (published by Science China
+Press, Beijing and Springer, Berlin).</p>
+            </li>
+            <li id="uid140">
+              <p noindent="true">Member of the Editorial Boards for the</p>
+              <simplelist>
+                <li id="uid141">
+                  <p noindent="true">Journal of Symbolic Computation (published by Academic
+Press/Elsevier, London),</p>
+                </li>
+                <li id="uid142">
+                  <p noindent="true">Frontiers of Computer Science (published by Higher
+Education Press, Beijing and Springer, Berlin),</p>
+                </li>
+                <li id="uid143">
+                  <p noindent="true">Texts and Monographs in Symbolic Computation (published
+by Springer, Wien New York),</p>
+                </li>
+              </simplelist>
+            </li>
+            <li id="uid144">
+              <p noindent="true">Member of the International Advisory Board for the
+Communications of JSSAC (Japan Society for Symbolic and
+Algebraic Computation) (published by JSSAC).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid145" level="2">
+        <bodyTitle>Invited talks</bodyTitle>
+        <p>Emmanuel Prouff was invited speaker at</p>
+        <simplelist>
+          <li id="uid146">
+            <p noindent="true">EUROCRYPT 2016 (invited tutorial), Vienna, Austria, on
+Securing Cryptography Implementations in
+Embedded Systems.</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">SPACE 2016 (invited speaker), Hyderabad, India on Breaking
+Cryptographic Implementations Using Deep Learning Techniques.</p>
+          </li>
+        </simplelist>
+        <p>Mohab Safey El Din was invited speaker at</p>
+        <simplelist>
+          <li id="uid148">
+            <p noindent="true">the SMAI-MODE session on semi-algebraic optimization, Toulouse,
+March 2016, France.</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">the AIM Workshop on Algebraic Vision which was held at the
+American Institute of Mathematics, San Jose, May 2016, USA.</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">the NCSU seminar on Symbolic Computation, Raleigh, May 2016,
+USA.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">the PGMO session on Semi-Definite Programming, Palaiseau,
+October 2016, France.</p>
+          </li>
+        </simplelist>
+        <p>Ludovic Perret was invited speaker at 17th World Conference on Information Security Applications (WISA 2016, August, Korea).</p>
+        <p>Elias Tsigaridas was invited speaker at</p>
+        <simplelist>
+          <li id="uid152">
+            <p noindent="true">the Department Seminar Series, of the Computer Science Department
+of the University of Liverpool, Apr 2016, UK.</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">the Seminar of RICAM, University of Linz, Austria (Dec. 2016)</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid154" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid155" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>Jérémy Berthomieu had the following teaching activities:</p>
+        <sanspuceslist>
+          <li id="uid156">
+            <p noindent="true">Master : Modeling and problems numerical and symbolic solving
+through <span class="smallcap" align="left">Maple</span> and <span class="smallcap" align="left">MATLAB</span> software,
+34 hours, M1, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid157">
+            <p noindent="true">Master : In charge of Basics of Algebraic Algorithms, 70
+hours, M1, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true">Master : Introduction to Security, 20 hours, M1,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">Master : Projects supervision, 8 hours, L2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">Licence : Introduction to Algorithmics, 49 hours, L3, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Licence : Representations and Numerical Methods, 41
+hours, L2, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">Licence : Projects supervision, 10 hours, L2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+        </sanspuceslist>
+        <p>Jean-Charles Faugère had the following teaching activities:</p>
+        <sanspuceslist>
+          <li id="uid163">
+            <p noindent="true">Master: Fundamental Algorithms in Real Algebraic Geometry, 13,5
+hours, M2, ENS de Lyon, France</p>
+          </li>
+          <li id="uid164">
+            <p noindent="true">Master : Polynomial Systems solving, 12 hours, M2, MPRI</p>
+          </li>
+        </sanspuceslist>
+        <p>Ludovic Perret had the following teaching activities amounting to
+around 220 hours:</p>
+        <sanspuceslist>
+          <li id="uid165">
+            <p noindent="true">Master : Polynomial Systems solving, M2, MPRI</p>
+          </li>
+          <li id="uid166">
+            <p noindent="true">Master : In charge of Introduction to Security, M1,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Master : In charge of Complexity,
+M1, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">Licence : Introduction to Algorithmic, L2,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">Licence : In charge of the Computer Science  – Applied
+Mathematics Program (PIMA) in Licence, L2,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">Licence : Project supervision, L2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+        </sanspuceslist>
+        <p>Guénaël Renault had the following teaching activities:</p>
+        <sanspuceslist>
+          <li id="uid171">
+            <p noindent="true">Master : In charge of the Security, Reliability and Numerical Efficiency
+Program in Master, 45 hours, M1 and M2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">Master : In charge of Advanced and Applied Cryptology, 70
+hours, M2, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Master : In charge of Security and Side-channels, 10
+hours, M2, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">Master : In charge of Threats and Attacks Modeling, 40
+hours, M1, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Master : Pro/Research internships supervision, 40 hours, M2,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">Master : Projects supervision, 20 hours, M1, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">Licence : In charge of Introduction to Cryptology, 30 hours, L3,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">Licence : Project supervision, 10 hours, L2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+        </sanspuceslist>
+        <p>Mohab Safey El Din had the following teaching activities:</p>
+        <sanspuceslist>
+          <li id="uid179">
+            <p noindent="true">Master : In charge of Modeling and problems numerical and symbolic solving
+through <span class="smallcap" align="left">Maple</span> and <span class="smallcap" align="left">MATLAB</span> software,
+36 hours, M1, Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">Master : In charge of Introduction to polynomial system
+solving, 48 hours, M2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid181">
+            <p noindent="true">Master: In charge of Fundamental Algorithms in Real Algebraic
+Geometry, 22,5 hours, M2, ENS de Lyon, France</p>
+          </li>
+          <li id="uid182">
+            <p noindent="true">Master : In charge of the Security, Reliability and Numerical Efficiency
+Program in Master, 12 hours, M1 and M2, Université
+Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid183">
+            <p noindent="true">Master : Introduction to Security, 10 hours, M1,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">Licence : Introduction to Cryptology, 20 hours, L3,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">Licence : In charge of the Computer Science  – Applied
+Mathematics Program (PIMA) in Licence, L2 and L3,
+Université Pierre-et-Marie-Curie, France</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid186" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid187">
+            <p noindent="true">PhD in progress : Ivan Bannwarth, Fast algorithms for studying
+real algebraic sets, started in Sept. 2014, Mohab Safey El Din</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">PhD in progress : Matías Bender, Algorithms for Sparse Gröbner
+basis and applications, started in Dec. 2015, Jean-Charles Faugère
+and Elias Tsigaridas</p>
+          </li>
+          <li id="uid189">
+            <p noindent="true">PhD in progress : Eleonora Cagli, Analysis and
+interest points research in the attacks by observation context,
+Emmanuel Prouff and Cécile Dumas</p>
+          </li>
+          <li id="uid190">
+            <p noindent="true">PhD in progress : Clayton Eduardo Lente da Silva,
+Planar discontinuous dynamical system, Universidade Estadual
+Paulista (São José do Rio Preto), started in Sep. 2013, Paulo
+Ricardo da Silva and Alain Jacquemard</p>
+          </li>
+          <li id="uid191">
+            <p noindent="true">HdR : Ludovic Perret, Université Pierre-et-Marie-Curie,
+defended in Dec. 2016</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">HdR : Guénaël Renault, Université Pierre-et-Marie-Curie,
+defended in Dec. 2016</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">PhD : Thársis Souza Silva, Relay Systems,
+Universidade Federal de Goiás, Goiânia,
+defended in May 2016, Ronaldo Alves Garcia and Alain Jacquemard</p>
+          </li>
+          <li id="uid194">
+            <p noindent="true">PhD : Adrian Thillard, Countermeasures to Side-Channel Attacks
+and Secure- Multi-Party Computation, ENS Paris, defended in
+Dec. 2016 Damien Vergnaud and Emmanuel Prouff</p>
+          </li>
+          <li id="uid195">
+            <p noindent="true">PhD : Thibaut Verron, Gröbner bases and structured
+polynomial systems, Université Pierre-et-Marie-Curie,
+defended in Sept. 2016, Jean-Charles Faugère
+and Mohab Safey El Din</p>
+          </li>
+          <li id="uid196">
+            <p noindent="true">PhD : Alexandre Wallet, The point decomposition
+problem in Jacobian varieties, Université Pierre-et-Marie-Curie,
+defended in Dec. 2016, Jean-Charles Faugère</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid197" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Jean-Charles Faugère was examiner in the PhD committees of
+C. Chenavier, V. Neiger, T. Verron and
+A. Wallet and in the HDR committees of L. Perret and G. Renault.</p>
+        <p>Alain Jacquemard was examiner in the PhD committee of T.S. Silva.</p>
+        <p>Emmanuel Prouff was reviewer of the PhD theses of A. Battistello and
+D. Martin. He was examiner in the PhD committee of A. Battistello,
+D. Martin and A. Thillard
+and in the HDR committees of G. Renault.</p>
+        <p>Mohab Safey El Din was examiner in the PhD committees of T. Verron and
+A. Wallet and in the HDR committees of L. Perret and G. Renault.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid198" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>J.-C. Faugère and L. Perret wrote a paper “Le grand défi du post-quantique” for MISC (HS 13, April 2016).</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="polsys-2016-bid33" type="inproceedings" rend="refer" n="refercite:bender:hal-01363545">
+      <identifiant type="doi" value="10.1145/2930889.2930896"/>
+      <identifiant type="hal" value="hal-01363545"/>
+      <analytic>
+        <title level="a">A Superfast Randomized Algorithm to Decompose Binary Forms</title>
+        <author>
+          <persName key="polsys-2014-idp101344">
+            <foreName>Matías R</foreName>
+            <surname>Bender</surname>
+            <initial>M. R.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="polsys-2014-idm26432">
+            <foreName>Elias</foreName>
+            <surname>Tsigaridas</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISSAC '16 - 41st International Symposium on Symbolic and Algebraic Computation</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">79-86</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01363545" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01363545</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid25" type="hdrthesis" rend="year" n="cite:perret:tel-01417808">
+      <identifiant type="hal" value="tel-01417808"/>
+      <monogr>
+        <title level="m">Gröbner bases techniques in Quantum-Safe Cryptography</title>
+        <author>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">UPMC - Paris 6 Sorbonne Universités</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01417808" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01417808</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Habilitation à diriger des recherches</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid29" type="hdrthesis" rend="year" n="cite:renault:tel-01416242">
+      <identifiant type="hal" value="tel-01416242"/>
+      <monogr>
+        <title level="m">Contribution à la Résolution Algébrique et Applications en Cryptologie</title>
+        <author>
+          <persName key="polsys-2014-idp72288">
+            <foreName>Guénaël</foreName>
+            <surname>Renault</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">UPMC - Paris 6 Sorbonne Universités</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01416242" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01416242</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Habilitation à diriger des recherches</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid30" type="phdthesis" rend="year" n="cite:verron:tel-01404406">
+      <identifiant type="hal" value="tel-01404406"/>
+      <monogr>
+        <title level="m">Regularisation of Gröbner basis computations for weighted and determinantal systems, and an application to medical imagery</title>
+        <author>
+          <persName key="polsys-2014-idp96144">
+            <foreName>Thibaut</foreName>
+            <surname>Verron</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Pierre et Marie Curie</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01404406" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01404406</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid28" type="phdthesis" rend="year" n="cite:wallet:tel-01407675">
+      <identifiant type="hal" value="tel-01407675"/>
+      <monogr>
+        <title level="m">The point decomposition problem in Jacobian varieties </title>
+        <author>
+          <persName key="polsys-2014-idp97400">
+            <foreName>Alexandre</foreName>
+            <surname>Wallet</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Pierre &amp; Marie Curie - Paris 6</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01407675" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01407675</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid1" type="article" rend="year" n="cite:berthomieu:hal-01253934">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.11.005"/>
+      <identifiant type="hal" value="hal-01253934"/>
+      <analytic>
+        <title level="a">Linear Algebra for Computing Gröbner Bases of Linear Recursive Multidimensional Sequences</title>
+        <author>
+          <persName key="polsys-2014-idp66592">
+            <foreName>Jérémy</foreName>
+            <surname>Berthomieu</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="polsys-2014-idp75112">
+            <foreName>Brice</foreName>
+            <surname>Boyer</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">48</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01253934" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01253934</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid19" type="incollection" rend="year" n="cite:carlet:hal-01399573">
+      <identifiant type="doi" value="10.1007/978-3-662-49301-4_20"/>
+      <identifiant type="hal" value="hal-01399573"/>
+      <analytic>
+        <title level="a">Polynomial Evaluation and Side Channel Analysis</title>
+        <author>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Carlet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="polsys-2015-idp92760">
+            <foreName>Emmanuel</foreName>
+            <surname>Prouff</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">The New Codebreakers</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">9100</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">315 - 341</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01399573" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01399573</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid20" type="article" rend="year" n="cite:chakraborty:hal-01399584">
+      <identifiant type="doi" value="10.1007/s10623-016-0250-3"/>
+      <identifiant type="hal" value="hal-01399584"/>
+      <analytic>
+        <title level="a">Redefining the transparency order</title>
+        <author>
+          <persName key="secret-2014-idp74600">
+            <foreName>Kaushik</foreName>
+            <surname>Chakraborty</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="secret-2015-idp84928">
+            <foreName>Sumanta</foreName>
+            <surname>Sarkar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Subhamoy</foreName>
+            <surname>Maitra</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Bodhisatwa</foreName>
+            <surname>Mazumdar</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Debdeep</foreName>
+            <surname>Mukhopadhyay</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="polsys-2015-idp92760">
+            <foreName>Emmanuel</foreName>
+            <surname>Prouff</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00462">
+        <idno type="issn">0925-1022</idno>
+        <title level="j">Designs, Codes and Cryptography</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01399584" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01399584</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid22" type="article" rend="year" n="cite:eder:hal-00974810">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.031"/>
+      <identifiant type="hal" value="hal-00974810"/>
+      <analytic>
+        <title level="a">A survey on signature-based algorithms for computing Gröbner basis computations</title>
+        <author>
+          <persName key="polsys-2014-idp76424">
+            <foreName>Christian</foreName>
+            <surname>Eder</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-75</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00974810" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00974810</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid21" type="article" rend="year" n="cite:faugere:hal-00807540">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.025"/>
+      <identifiant type="hal" value="hal-00807540"/>
+      <analytic>
+        <title level="a">Sparse FGLM algorithms</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Chenqi</foreName>
+            <surname>Mou</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <biblScope type="volume">80</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">538 - 569</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00807540" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00807540</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid13" type="article" rend="year" n="cite:faugere:hal-01244609">
+      <identifiant type="doi" value="10.1109/TIT.2015.2493539"/>
+      <identifiant type="hal" value="hal-01244609"/>
+      <analytic>
+        <title level="a">Folding Alternant and Goppa Codes with Non-Trivial Automorphism Groups</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>De Portzamparc</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00734">
+        <idno type="issn">0018-9448</idno>
+        <title level="j">IEEE Transactions on Information Theory</title>
+        <imprint>
+          <biblScope type="volume">62</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">184 - 198</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01244609" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01244609</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid12" type="article" rend="year" n="cite:faugere:hal-00964265">
+      <identifiant type="doi" value="10.1007/s10623-015-0036-z"/>
+      <identifiant type="hal" value="hal-00964265"/>
+      <analytic>
+        <title level="a">Structural Cryptanalysis of McEliece Schemes with Compact Keys</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>De Portzamparc</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00462">
+        <idno type="issn">0925-1022</idno>
+        <title level="j">Designs, Codes and Cryptography</title>
+        <imprint>
+          <biblScope type="volume">79</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">87-112</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00964265" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00964265</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid4" type="article" rend="year" n="cite:faugere:hal-01097316">
+      <identifiant type="doi" value="10.1016/j.jsc.2015.12.001"/>
+      <identifiant type="hal" value="hal-01097316"/>
+      <analytic>
+        <title level="a">On the complexity of computing Gröbner bases for weighted homogeneous systems</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="polsys-2014-idp96144">
+            <foreName>Thibaut</foreName>
+            <surname>Verron</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01097316" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01097316</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid6" type="article" rend="year" n="cite:henrion:hal-01184320">
+      <identifiant type="doi" value="10.1137/15M1036543"/>
+      <identifiant type="hal" value="hal-01184320"/>
+      <analytic>
+        <title level="a">Exact algorithms for linear matrix inequalities</title>
+        <author>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Henrion</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="polsys-2014-idp90952">
+            <foreName>Simone</foreName>
+            <surname>Naldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01738">
+        <idno type="issn">1052-6234</idno>
+        <title level="j">SIAM Journal on Optimization</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2512–2539</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01184320" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01184320</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid7" type="article" rend="year" n="cite:henrion:hal-01077888">
+      <identifiant type="doi" value="10.1016/j.jsc.2015.06.010"/>
+      <identifiant type="hal" value="hal-01077888"/>
+      <analytic>
+        <title level="a">Real root finding for determinants of linear matrices</title>
+        <author>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Henrion</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="polsys-2014-idp90952">
+            <foreName>Simone</foreName>
+            <surname>Naldi</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <biblScope type="volume">74</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">205-238</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01077888" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01077888</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid8" subtype="nonparu-n" type="article" rend="year" n="cite:safeyeldin:hal-00849057">
+      <identifiant type="hal" value="hal-00849057"/>
+      <analytic>
+        <title level="a">A nearly optimal algorithm for deciding connectivity queries in smooth and bounded real algebraic sets</title>
+        <author>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="polsys-2014-idp84576">
+            <foreName>Eric</foreName>
+            <surname>Schost</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01303">
+        <idno type="issn">0004-5411</idno>
+        <title level="j">Journal of the ACM</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00849057" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00849057</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Major revision, accepted for publication to Journal of the ACM</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid26" type="article" rend="year" n="cite:strzebonski:hal-01001820">
+      <identifiant type="hal" value="hal-01001820"/>
+      <analytic>
+        <title level="a">Univariate real root isolation over a single logarithmic extension of real algebraic numbers</title>
+        <author>
+          <persName>
+            <foreName>Adam</foreName>
+            <surname>Strzebonski</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idm26432">
+            <foreName>Elias</foreName>
+            <surname>Tsigaridas</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03104">
+        <idno type="issn">2194-1009</idno>
+        <title level="j">Springer Proceedings in Mathematics &amp; Statistics</title>
+        <imprint>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01001820" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01001820</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Ilias S. Kotsireas and Edgar Martínez-Moro</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid27" type="article" rend="year" n="cite:tsigaridas:hal-01422209">
+      <identifiant type="doi" value="10.1145/3015306.3015317"/>
+      <identifiant type="hal" value="hal-01422209"/>
+      <analytic>
+        <title level="a">SLV: a software for real root isolation</title>
+        <author>
+          <persName key="polsys-2014-idm26432">
+            <foreName>Elias</foreName>
+            <surname>Tsigaridas</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02051">
+        <idno type="issn">1932-2232</idno>
+        <title level="j">ACM Communications in Computer Algebra</title>
+        <imprint>
+          <biblScope type="volume">50</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">117 - 120</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01422209" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01422209</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid3" type="article" rend="year" n="cite:wang:hal-01399579">
+      <identifiant type="doi" value="10.1007/s11786-016-0279-8"/>
+      <identifiant type="hal" value="hal-01399579"/>
+      <analytic>
+        <title level="a">On the Connection Between Ritt Characteristic Sets and Buchberger–Gröbner Bases</title>
+        <author>
+          <persName key="polsys-2014-idm25184">
+            <foreName>Dongming</foreName>
+            <surname>Wang</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01401">
+        <idno type="issn">1661-8270</idno>
+        <title level="j">Mathematics in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">479–492</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01399579" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01399579</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid16" type="inproceedings" rend="year" n="cite:barthelemy:hal-01388108">
+      <identifiant type="doi" value="10.1145/2995306.2995310"/>
+      <identifiant type="hal" value="hal-01388108"/>
+      <analytic>
+        <title level="a">Binary Permutation Polynomial Inversion and Application to Obfuscation Techniques</title>
+        <author>
+          <persName>
+            <foreName>Lucas</foreName>
+            <surname>Barthelemy</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Ninon</foreName>
+            <surname>Eyrolles</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="polsys-2014-idp72288">
+            <foreName>Guénaël</foreName>
+            <surname>Renault</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Raphaël</foreName>
+            <surname>Roblin</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2nd International Workshop on Software PROtection</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01388108" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01388108</ref>
+        </imprint>
+        <meeting id="cid625232">
+          <title>International Workshop on Software PROtection</title>
+          <num>2</num>
+          <abbr type="sigle">SPRO</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid17" type="inproceedings" rend="year" n="cite:battistello:hal-01399577">
+      <identifiant type="doi" value="10.1007/978-3-662-53140-2_2"/>
+      <identifiant type="hal" value="hal-01399577"/>
+      <analytic>
+        <title level="a">Horizontal Side-Channel Attacks and Countermeasures on the ISW Masking Scheme</title>
+        <author>
+          <persName>
+            <foreName>Alberto</foreName>
+            <surname>Battistello</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Coron</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="polsys-2015-idp92760">
+            <foreName>Emmanuel</foreName>
+            <surname>Prouff</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="polsys-2014-idp98624">
+            <foreName>Rina</foreName>
+            <surname>Zeitoun</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">18th Conference on Cryptographic Hardware and Embedded Systems (CHES 2016)</title>
+        <loc>Santa Barbara, CA, United States</loc>
+        <title level="s">Cryptographic Hardware and Embedded Systems – CHES 2016</title>
+        <imprint>
+          <biblScope type="volume">9813</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">23 - 39</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01399577" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01399577</ref>
+        </imprint>
+        <meeting id="cid375810">
+          <title>Workshop on Cryptographic Hardware and Embedded Systems</title>
+          <num>18</num>
+          <abbr type="sigle">CHES</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid23" type="inproceedings" rend="year" n="cite:belaid:hal-01324823">
+      <identifiant type="doi" value="10.1007/978-3-662-49896-5_22"/>
+      <identifiant type="hal" value="hal-01324823"/>
+      <analytic>
+        <title level="a">Randomness Complexity of Private Circuits for Multiplication</title>
+        <author>
+          <persName key="cascade-2014-idp73576">
+            <foreName>Sonia</foreName>
+            <surname>Belaid</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Benhamouda</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="cascade-2014-idp91040">
+            <foreName>Alain</foreName>
+            <surname>Passelègue</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2015-idp92760">
+            <foreName>Emmanuel</foreName>
+            <surname>Prouff</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="cascade-2014-idp95984">
+            <foreName>Adrian</foreName>
+            <surname>Thillard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cascade-2014-idp67136">
+            <foreName>Damien</foreName>
+            <surname>Vergnaud</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EUROCRYPT 2016</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">616-648</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01324823" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01324823</ref>
+        </imprint>
+        <meeting id="cid32774">
+          <title>Annual International Conference on the Theory and Applications of Cryptographic Techniques</title>
+          <num>35</num>
+          <abbr type="sigle">EUROCRYPT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid0" type="inproceedings" rend="best" n="cite:bender:hal-01363545">
+      <identifiant type="doi" value="10.1145/2930889.2930896"/>
+      <identifiant type="hal" value="hal-01363545"/>
+      <analytic>
+        <title level="a">A Superfast Randomized Algorithm to Decompose Binary Forms</title>
+        <author>
+          <persName key="polsys-2014-idp101344">
+            <foreName>Matías R</foreName>
+            <surname>Bender</surname>
+            <initial>M. R.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="polsys-2014-idm26432">
+            <foreName>Elias</foreName>
+            <surname>Tsigaridas</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISSAC '16 - 41st International Symposium on Symbolic and Algebraic Computation</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">79-86</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01363545" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01363545</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid2" type="inproceedings" rend="year" n="cite:berthomieu:hal-01314266">
+      <identifiant type="doi" value="10.1145/2930889.2930926"/>
+      <identifiant type="hal" value="hal-01314266"/>
+      <analytic>
+        <title level="a">Guessing Linear Recurrence Relations of Sequence Tuples and P-recursive Sequences with Linear Algebra</title>
+        <author>
+          <persName key="polsys-2014-idp66592">
+            <foreName>Jérémy</foreName>
+            <surname>Berthomieu</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">41st International Symposium on Symbolic and Algebraic Computation</title>
+        <loc>Waterloo, ON, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">95-102</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01314266" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01314266</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid9" type="inproceedings" rend="year" n="cite:bonnard:hal-01307073">
+      <identifiant type="doi" value="10.1145/2930889.2930916"/>
+      <identifiant type="hal" value="hal-01307073"/>
+      <analytic>
+        <title level="a">Determinantal sets, singularities and application to optimal control in medical imagery</title>
+        <author>
+          <persName key="mctao-2014-idp60264">
+            <foreName>Bernard</foreName>
+            <surname>Bonnard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="polsys-2014-idp67920">
+            <foreName>Alain</foreName>
+            <surname>Jacquemard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="polsys-2014-idp96144">
+            <foreName>Thibaut</foreName>
+            <surname>Verron</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International symposium on symbolic and algebraic computations</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">103-110</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01307073" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01307073</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid10" type="inproceedings" rend="year" n="cite:bonnard:hal-01287290">
+      <identifiant type="hal" value="hal-01287290"/>
+      <analytic>
+        <title level="a">Optimal Control of an Ensemble of Bloch Equations with Applications in MRI</title>
+        <author>
+          <persName key="mctao-2014-idp60264">
+            <foreName>Bernard</foreName>
+            <surname>Bonnard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="polsys-2014-idp67920">
+            <foreName>Alain</foreName>
+            <surname>Jacquemard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mctao-2014-idp67016">
+            <foreName>Jérémy</foreName>
+            <surname>Rouot</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">55th IEEE Conference on Decision and Control - CDC</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01287290" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01287290</ref>
+        </imprint>
+        <meeting id="cid78271">
+          <title>IEEE Conference on Decision and Control</title>
+          <num>55</num>
+          <abbr type="sigle">CDC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid32" type="inproceedings" rend="year" n="cite:boyer:hal-01276346">
+      <identifiant type="doi" value="10.1145/2930889.2930914"/>
+      <identifiant type="hal" value="hal-01276346"/>
+      <analytic>
+        <title level="a">GBLA – Gröbner Basis Linear Algebra Package</title>
+        <author>
+          <persName key="polsys-2014-idp75112">
+            <foreName>Brice</foreName>
+            <surname>Boyer</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="polsys-2014-idp76424">
+            <foreName>Christian</foreName>
+            <surname>Eder</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Sylvian</foreName>
+            <surname>Lachartre</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Fayssal</foreName>
+            <surname>Martani</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">41st International Symposium on Symbolic and Algebraic Computation</title>
+        <loc>Waterloo, ON, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">135-142</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01276346" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01276346</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid14" type="inproceedings" rend="year" n="cite:coron:hal-01250302">
+      <identifiant type="doi" value="10.1007/978-3-319-29485-8_26"/>
+      <identifiant type="hal" value="hal-01250302"/>
+      <analytic>
+        <title level="a">Factoring <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>N</mi><mo>=</mo><msup><mi>p</mi><mi>r</mi></msup><msup><mi>q</mi><mi>s</mi></msup></mrow></math></formula> for Large <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>s</mi></math></formula></title>
+        <author>
+          <persName>
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Coron</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="polsys-2014-idp72288">
+            <foreName>Guénaël</foreName>
+            <surname>Renault</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="polsys-2014-idp98624">
+            <foreName>Rina</foreName>
+            <surname>Zeitoun</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">RSA Conference Cryptographers' Track</title>
+        <loc>San Francisco, United States</loc>
+        <title level="s">Topics in Cryptology – CT-RSA 2016</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01250302" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01250302</ref>
+        </imprint>
+        <meeting id="cid57265">
+          <title>Cryptographers' Track at the RSA Conference</title>
+          <num>2016</num>
+          <abbr type="sigle">CT-RSA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid18" type="inproceedings" rend="year" n="cite:coron:hal-01399578">
+      <identifiant type="doi" value="10.1007/978-3-662-53140-2_24"/>
+      <identifiant type="hal" value="hal-01399578"/>
+      <analytic>
+        <title level="a">Faster Evaluation of SBoxes via Common Shares</title>
+        <author>
+          <persName>
+            <foreName>Jean-Sébastien</foreName>
+            <surname>Coron</surname>
+            <initial>J.-S.</initial>
+          </persName>
+          <persName>
+            <foreName>Aurélien</foreName>
+            <surname>Greuet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2015-idp92760">
+            <foreName>Emmanuel</foreName>
+            <surname>Prouff</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="polsys-2014-idp98624">
+            <foreName>Rina</foreName>
+            <surname>Zeitoun</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">18th International Conference on Cryptographic Hardware and Embedded Systems (CHES 2016)</title>
+        <loc>Santa Barbara, CA, United States</loc>
+        <title level="s">Cryptographic Hardware and Embedded Systems – CHES 2016</title>
+        <imprint>
+          <biblScope type="volume">9813</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">498 - 514</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01399578" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01399578</ref>
+        </imprint>
+        <meeting id="cid375810">
+          <title>Workshop on Cryptographic Hardware and Embedded Systems</title>
+          <num>18</num>
+          <abbr type="sigle">CHES</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid5" type="inproceedings" rend="year" n="cite:emiris:hal-01401134">
+      <identifiant type="doi" value="10.1145/2930889.2930919"/>
+      <identifiant type="hal" value="hal-01401134"/>
+      <analytic>
+        <title level="a">On the Bit Complexity of Solving Bilinear Polynomial Systems</title>
+        <author>
+          <persName key="aromath-2016-idp117968">
+            <foreName>Ioannis Z.</foreName>
+            <surname>Emiris</surname>
+            <initial>I. Z.</initial>
+          </persName>
+          <persName>
+            <foreName>Angelos</foreName>
+            <surname>Mantzaflaris</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idm26432">
+            <foreName>Elias</foreName>
+            <surname>Tsigaridas</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISSAC '16 - 41st International Symposium on Symbolic and Algebraic Computation</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">215-222</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01401134" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01401134</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid31" type="inproceedings" rend="year" n="cite:faugere:hal-01314651">
+      <identifiant type="doi" value="10.1145/2930889.2930927"/>
+      <identifiant type="hal" value="hal-01314651"/>
+      <analytic>
+        <title level="a">Computing Small Certificates of Inconsistency of Quadratic Fewnomial Systems</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugère</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="caramel-2014-idp65584">
+            <foreName>Pierre-Jean</foreName>
+            <surname>Spaenlehauer</surname>
+            <initial>P.-J.</initial>
+          </persName>
+          <persName key="polsys-2014-idp93536">
+            <foreName>Jules</foreName>
+            <surname>Svartz</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Symposium on Symbolic and Algebraic Computation (ISSAC 2016)</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">223-230</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01314651" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01314651</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>2016</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid11" type="inproceedings" rend="year" n="cite:safeyeldin:hal-01312750">
+      <identifiant type="doi" value="10.1145/2930889.2930929"/>
+      <identifiant type="hal" value="hal-01312750"/>
+      <analytic>
+        <title level="a">Critical Point Computations on Smooth Varieties: Degree and Complexity bounds</title>
+        <author>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="caramel-2014-idp65584">
+            <foreName>Pierre-Jean</foreName>
+            <surname>Spaenlehauer</surname>
+            <initial>P.-J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Symposium on Symbolic and Algebraic Computation (ISSAC)</title>
+        <loc>Waterloo, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">183–190</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01312750" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01312750</ref>
+        </imprint>
+        <meeting id="cid318495">
+          <title>International Symposium on Symbolic and Algebraic Computation</title>
+          <num>35</num>
+          <abbr type="sigle">ISSAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid15" type="unpublished" rend="year" n="cite:renault:hal-01266071">
+      <identifiant type="hal" value="hal-01266071"/>
+      <monogr>
+        <title level="m">On the p-adic stability of the FGLM algorithm</title>
+        <author>
+          <persName key="polsys-2014-idp72288">
+            <foreName>Guénaël</foreName>
+            <surname>Renault</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Tristan</foreName>
+            <surname>Vaccon</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01266071" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01266071</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="polsys-2016-bid24" type="unpublished" rend="year" n="cite:safeyeldin:hal-01319729">
+      <identifiant type="hal" value="hal-01319729"/>
+      <monogr>
+        <title level="m">Bit complexity for multi-homogeneous polynomial system solving Application to polynomial minimization</title>
+        <author>
+          <persName key="polsys-2014-idp73616">
+            <foreName>Mohab</foreName>
+            <surname>Safey El Din</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="polsys-2014-idp84576">
+            <foreName>Eric</foreName>
+            <surname>Schost</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319729" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319729</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

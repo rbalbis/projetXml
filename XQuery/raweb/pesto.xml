@@ -1,0 +1,3100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="pesto" isproject="true">
+    <shortname>PESTO</shortname>
+    <projectName>Proof techniques for security protocols</projectName>
+    <theme-de-recherche>Security and Confidentiality</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/pesto/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire lorrain de recherche en informatique et ses applications (LORIA)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université de Lorraine</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2016 January 01, updated into Project-Team: 2016 November 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.4. - Verification, reliability, certification</term>
+      <term>4.5. - Formal methods for security</term>
+      <term>4.6. - Authentication</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+      <term>7.1. - Parallel and distributed algorithms</term>
+      <term>7.4. - Logic in Computer Science</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>6.3.2. - Network protocols</term>
+      <term>6.3.4. - Social Networks</term>
+      <term>6.6. - Embedded systems</term>
+      <term>9.8. - Privacy</term>
+    </keywordsSecteurs>
+    <UR name="Nancy"/>
+  </identification>
+  <team id="uid1">
+    <person key="cassis-2014-idp107776">
+      <firstname>Vincent</firstname>
+      <lastname>Cheval</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="cassis-2014-idm27528">
+      <firstname>Véronique</firstname>
+      <lastname>Cortier</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Deputy team leader, CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cassis-2014-idp65592">
+      <firstname>Steve</firstname>
+      <lastname>Kremer</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Team Leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cassis-2014-idp67000">
+      <firstname>Christophe</firstname>
+      <lastname>Ringeissen</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cassis-2014-idp68440">
+      <firstname>Michaël</firstname>
+      <lastname>Rusinowitch</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cassis-2014-idp69904">
+      <firstname>Mathieu</firstname>
+      <lastname>Turuani</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="cassis-2015-idp73640">
+      <firstname>Jannik</firstname>
+      <lastname>Dreier</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, Associate Professor</moreinfo>
+    </person>
+    <person key="cassis-2014-idp76744">
+      <firstname>Abdessamad</firstname>
+      <lastname>Imine</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cassis-2014-idp79528">
+      <firstname>Laurent</firstname>
+      <lastname>Vigneron</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="madynes-2014-idp157896">
+      <firstname>Younes</firstname>
+      <lastname>Abid</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, Fondation Maif, coadvised by Orpailleur</moreinfo>
+    </person>
+    <person key="cassis-2014-idp93728">
+      <firstname>Rémy</firstname>
+      <lastname>Chrétien</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>ENS Cachan &amp; LORIA, ANR Jeunes Chercheurs VIP (S. Delaune)</moreinfo>
+    </person>
+    <person key="cassis-2015-idp93424">
+      <firstname>Antoine</firstname>
+      <lastname>Dallon</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>ENS Cachan &amp; LORIA, DGA funding</moreinfo>
+    </person>
+    <person key="cassis-2015-idp94720">
+      <firstname>Alicia</firstname>
+      <lastname>Filipiak</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Cifre Orange</moreinfo>
+    </person>
+    <person key="cassis-2015-idp117352">
+      <firstname>Joseph</firstname>
+      <lastname>Lallemand</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, ERC Spooc,
+since September 2016</moreinfo>
+    </person>
+    <person key="cassis-2014-idp100232">
+      <firstname>Éric</firstname>
+      <lastname>Le Morvan</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, CNRS, until September 2016</moreinfo>
+    </person>
+    <person key="cassis-2014-idp102696">
+      <firstname>Huu Hiep</firstname>
+      <lastname>Nguyen</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine, Cordi-S, until October 2016</moreinfo>
+    </person>
+    <person key="cassis-2014-idp114088">
+      <firstname>Ludovic</firstname>
+      <lastname>Robin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine</moreinfo>
+    </person>
+    <person key="pesto-2016-idp155248">
+      <firstname>Constantin-Catalin</firstname>
+      <lastname>Dragan</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>CNRS, FP7 ERC ProSecure</moreinfo>
+    </person>
+    <person key="pesto-2016-idp157712">
+      <firstname>Ivan</firstname>
+      <lastname>Gazeau</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, ERC Spooc, since September 2016</moreinfo>
+    </person>
+    <person key="pesto-2016-idp160192">
+      <firstname>Peter</firstname>
+      <lastname>Roenne</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, ANR Sequoia, until March 2016</moreinfo>
+    </person>
+    <person key="cassis-2015-idp107336">
+      <firstname>Carlos</firstname>
+      <lastname>Castro</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>UTFSM, 12 months, until June 2016</moreinfo>
+    </person>
+    <person key="cassis-2014-idp115352">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Deschamps</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="carte-2014-idp103352">
+      <firstname>Delphine</firstname>
+      <lastname>Hubert</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ Lorraine</moreinfo>
+    </person>
+    <person key="carte-2014-idp104592">
+      <firstname>Martine</firstname>
+      <lastname>Kuhlmann</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="pesto-2016-idp172544">
+      <firstname>Kushal</firstname>
+      <lastname>Babel</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>2nd year student at IIT Bombay, India, from May 2016 until July 2016</moreinfo>
+    </person>
+    <person key="pesto-2016-idp175056">
+      <firstname>Charles</firstname>
+      <lastname>Duménil</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Master Mathématiques Nancy, M2, from April 2016 until September 2016</moreinfo>
+    </person>
+    <person key="cassis-2014-idp112816">
+      <firstname>Itsaka</firstname>
+      <lastname>Rakotonirina</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>ENS Cachan/MPRI, M2, from May 2016 until July 2016</moreinfo>
+    </person>
+    <person key="pesto-2016-idp180144">
+      <firstname>Jonathan</firstname>
+      <lastname>Proietto-Stallone</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>MIAGE Nancy, from March 2016 until August 2016</moreinfo>
+    </person>
+    <person key="pesto-2016-idp182640">
+      <firstname>Laura</firstname>
+      <lastname>Trivino</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>IUT Nancy, from April 2016 until June 2016</moreinfo>
+    </person>
+    <person key="pesto-2016-idp185136">
+      <firstname>Clément</firstname>
+      <lastname>Pascutto</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>ENS Paris, from June 2016 until July 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Context</bodyTitle>
+      <p>The rise of the Internet and the ubiquity of electronic devices have changed our way of life. Many face to face and paper transactions have nowadays digital counterparts: home banking, electronic commerce, e-voting, ... and even partially our social life. This digitalisation of the world comes with tremendous risks for our security and privacy as illustrated by the following examples.</p>
+      <p><i>Financial transactions.</i> According to the FEVAD (French
+federation of remote selling and e-commerce), in
+France 51.1 billions Euros have been spent through e-commerce in 2013
+and fraud is estimated to 1.9 billions Euros by
+certissim. <footnote id="uid4" id-text="1">Livre Blanc: La fraude dans le e-commerce,
+certissim.</footnote> As discussed in another white paper <footnote id="uid5" id-text="2">Dissecting
+Operation High
+Roller. <ref xlink:href="http://www.mcafee.com/uk/resources/reports/rp-operation-high-roller.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>mcafee.<allowbreak/>com/<allowbreak/>uk/<allowbreak/>resources/<allowbreak/>reports/<allowbreak/>rp-operation-high-roller.<allowbreak/>pdf</ref></footnote>
+by Dave Marcus (Director of Advanced Research and Threat Intelligence,
+McAfee) and Ryan Sherstobitoff (Threat Researcher, Guardian Analytics)
+bank fraud has changed dramatically. Fraudsters are aiming to steal
+increasingly higher amounts from bank accounts (with single transfers
+over 50,000 Euros) and develop fully automated attack tools to do
+so. As a consequence, protocols need to implement more advanced,
+multi-factor authentication methods.</p>
+      <p><i>Electronic voting.</i> In the last few years several European
+countries (Estonia, France, Norway and Switzerland) organised
+<i>legally binding political elections</i> that allowed (part of the)
+voters to cast their votes remotely via the Internet. For example, in
+June 2012 French people living abroad (“expats”) were allowed to
+vote via the Internet for parliament elections. An engineer
+demonstrated that it was possible to write a malware that could change the value of a casted vote without any way for the voter to notice. In Estonia in
+the 2011 parliament election, a similar attack was reported by
+computer scientist Paavo Pihelgas who conducted a real life experiment
+with aware consenting test subjects. <footnote id="uid6" id-text="3">The Supreme Court dismissed
+an electoral complaint regarding e-voting
+security. <ref xlink:href="http://www.nc.ee/?id=1235" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>nc.<allowbreak/>ee/<allowbreak/>?id=1235</ref></footnote></p>
+      <p><i>Privacy violations.</i> Another security threat is the violation of an individual person's privacy. For instance the use of RFID technology can be used to trace persons, e.g. in automatic toll-paying devices <footnote id="uid7" id-text="4">A Pass on Privacy? The New York Times, July 17,
+2005. <ref xlink:href="http://www.nytimes.com/2005/07/17/magazine/17WWLN.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>nytimes.<allowbreak/>com/<allowbreak/>2005/<allowbreak/>07/<allowbreak/>17/<allowbreak/>magazine/<allowbreak/>17WWLN.<allowbreak/>html</ref></footnote>
+or in public transportation. Even though security protocols are
+deployed to avoid tracing by third parties, protocol design errors
+enabled tracing of European e-passports. <footnote id="uid8" id-text="5">Defects in
+e-passports allow real-time tracking. The Register, 26th January
+2010.
+<ref xlink:href="http://www.theregister.co.uk/2010/01/26/epassport_rfid_weakness/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>theregister.<allowbreak/>co.<allowbreak/>uk/<allowbreak/>2010/<allowbreak/>01/<allowbreak/>26/<allowbreak/>epassport_rfid_weakness/</ref></footnote> Recently,
+a flaw was identified in the 3G mobile phone protocols that allows a
+third party, i.e., not only the operator, to trace
+telephones <ref xlink:href="#pesto-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Also, anonymised data of social networks
+has been effectively used to identify persons by comparing data from
+several social networks. <footnote id="uid9" id-text="6">Social sites dent privacy
+efforts. BBC, March 27
+2009. <ref xlink:href="http://news.bbc.co.uk/2/hi/technology/7967648.stm" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>news.<allowbreak/>bbc.<allowbreak/>co.<allowbreak/>uk/<allowbreak/>2/<allowbreak/>hi/<allowbreak/>technology/<allowbreak/>7967648.<allowbreak/>stm</ref></footnote>
+</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Objectives</bodyTitle>
+      <p>The aim of the Pesto project is to build formal models and techniques, for computer-aided analysis and design of security protocols (in a broad sense). While historically the main goals of protocols were confidentiality and authentication the situation has changed. E-voting protocols need to guarantee privacy of votes, while ensuring transparency of the election; electronic devices communicate data by the means of web services; RFID and mobile phone protocols have to guarantee that people cannot be traced. Due to malware, security protocols need to rely on additional mechanisms, such as trusted hardware components or multi-factor authentication, to guarantee security even if the computing platform is a priori untrusted. Current existing techniques and tools are however unable to analyse the properties required by these new protocols and take into account the newly deployed mechanisms and associated attacker models.
+</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid11">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Modelling</bodyTitle>
+      <p>Before being able to analyse and properly design security protocols, it is essential to have a model with a precise semantics of the protocols themselves, the attacker and its capabilities, as well as the properties a protocol needs to ensure.</p>
+      <p>Most current languages for protocol specification are quite basic and do not provide support for global state, loops, or complex data structures such as lists, or Merkle trees. As an example we may cite Hardware Security Modules that rely on a notion of <i>mutable
+global state</i> which does not arise in traditional protocols, see
+e.g. the discussion by Herzog <ref xlink:href="#pesto-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Similarly, the properties a protocol should satisfy are generally not precisely defined, and stating the “right” definitions is often a challenging task in itself. In the case of authentication, many protocol attacks were due to the lack of a precise meaning, cf <ref xlink:href="#pesto-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. While the case of authentication has been widely studied, the recent digitalisation of all kinds of transactions and services, introduces a plethora of new properties, including for instance anonymity in e-voting, untraceability of RFID tokens, verifiability of computations that are out-sourced, as well as sanitisation of data in social networks. We expect that many privacy anonymity properties may be modelled as particular observational equivalences in process calculi <ref xlink:href="#pesto-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, or indistinguishability between cryptographic games <ref xlink:href="#pesto-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, sanitisation of data may also rely on information-theoretic measures.</p>
+      <p>We also need to take into account that the attacker model changes. While historically the attacker was considered to control the communication network, we may nowadays argue that even (part of) the host executing the software may be compromised through, e.g., malware. This situation motivates the use of secure elements and multi-factor authentication with out-of-band channels. A typical example occurs in e-commerce: to validate an online payment a user needs to enter an additional code sent by the bank via sms to the user's mobile phone. Such protocols require the possession of a physical device in addition to the knowledge of a password which could have been leaked on an untrusted platform. The fact that data needs to be copied by a human requires these data to be <i>short</i>, and hence amenable to brute-force attacks by an attacker or guessing.</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Analysis</bodyTitle>
+      <subsection id="uid14" level="2">
+        <bodyTitle>Generic proof techniques</bodyTitle>
+        <p>Most automated tools for verifying security properties rely on
+techniques stemming from automated deduction. Often existing
+techniques do however not apply directly, or do not scale up due to
+the state explosion problems. For instance, the use of Horn clause
+resolution techniques requires dedicated resolution
+methods <ref xlink:href="#pesto-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/><ref xlink:href="#pesto-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Another example is
+unification modulo equational theory, which is a key technique in
+several tools, e.g. <ref xlink:href="#pesto-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Security protocols, however
+require to consider particular equational theories that are not
+naturally studied in classical automated reasoning. Sometimes, even
+new concepts have been introduced. One example is the finite variant
+property <ref xlink:href="#pesto-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which is used in several tools, e.g.,
+<i>Akiss</i> <ref xlink:href="#pesto-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, Maude-NPA <ref xlink:href="#pesto-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and
+Tamarin <ref xlink:href="#pesto-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Another example is the notion of asymmetric
+unification <ref xlink:href="#pesto-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> which is a variant of unification
+used in Maude-NPA to perform important <i>syntactic</i> pruning
+techniques of the search space, even when reasoning modulo an
+equational theory. For each of these topics we need to design
+efficient decision procedures for a variety of equational theories.</p>
+      </subsection>
+      <subsection id="uid15" level="2">
+        <bodyTitle>Dedicated procedures and tools</bodyTitle>
+        <p>We will also design dedicated techniques for automated protocol
+verification. While existing techniques for security protocol
+verification are efficient and have reached maturity for verification
+of confidentiality and authentication properties (or more generally
+safety properties), our goal is to go beyond these properties and the
+standard attacker models, verifying the properties and attacker models
+identified in Section <ref xlink:href="#uid12" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This includes techniques that</p>
+        <simplelist>
+          <li id="uid16">
+            <p noindent="true">can analyse <i>indistinguishability</i> properties, including
+for instance anonymity and unlinkability properties, but also
+properties stated in simulation-based (also known as universally
+composable) frameworks, which express the security of a protocol as
+an ideal (correct by design) system;</p>
+          </li>
+          <li id="uid17">
+            <p noindent="true">take into account protocols that rely on <i>mutable global
+state</i> which does not arise in traditional protocols, but is
+essential when verifying tamper-resistant hardware devices, e.g.,
+the RSA PKCS#11 standard, IBM's CCA and the trusted platform module
+(TPM);</p>
+          </li>
+          <li id="uid18">
+            <p noindent="true">consider attacker models for protocols relying on <i>weak
+secrets</i> that need to be copied or remembered by a human, such as
+multi-factor authentication.</p>
+          </li>
+        </simplelist>
+        <p>These goals are beyond the scope of most current analysis tools and
+require both theoretical advances in the area of verification, as well
+as the design of new efficient verification tools.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Design</bodyTitle>
+      <p>Given our experience in formal analysis of security protocols,
+including both protocol proofs and findings of flaws, it is tempting
+to use our experience to design protocols with security in mind and
+security proofs. This part includes both provably secure design
+techniques, as well as the development of new protocols.</p>
+      <subsection id="uid20" level="2">
+        <bodyTitle>General design techniques</bodyTitle>
+        <p>Design techniques will include <i>composition results</i> that allow
+one to design protocols in a modular way <ref xlink:href="#pesto-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#pesto-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Composition results come in many flavours: they may
+allow one to compose protocols with different objectives, e.g. compose a
+key exchange protocol with a protocol that requires a shared key or
+rely on a protocol for secure channel establishment, compose different
+protocols in parallel that may re-use some key material, or compose
+different sessions of a same protocol.</p>
+        <p>Another area where composition is of particular importance is Service
+Oriented Computing, where an “orchestrator” must combine some
+available component services, while guaranteeing some security
+properties. In this context, we will work on the automated synthesis
+of the orchestrator or monitors for enforcing the security goals.
+These problems require to study new classes of automata that
+communicate with structured messages.</p>
+      </subsection>
+      <subsection id="uid21" level="2">
+        <bodyTitle>New protocol design</bodyTitle>
+        <p>We will also design new protocols. Application areas that seem of particular importance are:</p>
+        <simplelist>
+          <li id="uid22">
+            <p noindent="true">External hardware devices such as security APIs that allow one for
+flexible key management, including key revocation, and their
+integration in security protocols. The security <i>fiasco</i> of the
+PKCS#11 standard <ref xlink:href="#pesto-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#pesto-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> witnesses
+the need for new protocols in this area.</p>
+          </li>
+          <li id="uid23">
+            <p noindent="true">Election systems that provide strong security guarantees. We
+already work (in collaboration with the Caramba team) on a prototype
+implementation of an e-voting system, Belenios
+(<ref xlink:href="http://belenios.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>belenios.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref>).</p>
+          </li>
+          <li id="uid24">
+            <p noindent="true">Mechanisms for publishing personal information (e.g. on social networks) in a controlled way.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </fondements>
+  <domaine id="uid25">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Formal methods for Cryptographic protocols</bodyTitle>
+      <p>Security protocols, such as TLS, Kerberos or ssh, are the main tool for securing our communications. The aim of our work is to propose models that are expressive enough to formally represent protocol executions in the presence of an adversary, formal definitions of the security properties to be satisfied by these protocols, and design automated tools able to analyse them and possibly exhibit design flaws.
+</p>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Automated reasoning</bodyTitle>
+      <p>Many techniques for symbolic verification of security are rooted in automated reasoning. A typical example is equational reasoning used to model the algebraic properties of a cryptographic primitive. Our work therefore aims to improve and adapt existing techniques or propose new ones when needed for reasoning about security.
+</p>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Electronic voting</bodyTitle>
+      <p>Electronic elections have in the last years been used in several countries for politically binding elections. The use in professional elections is even more widespread. The aim of our work is to increase our understanding of the security properties needed for secure elections, propose techniques for analysing e-voting protocols, design of state-of-the-art voting protocols, but also to highlight the limitations of e-voting solutions.
+</p>
+    </subsection>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Privacy in social networks</bodyTitle>
+      <p>Treatment of information released by users on social networks can violate a user's privacy. The goal of our work is to allow one a controlled information release while guaranteeing a user's privacy.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid30">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>Steve Kremer gave a keynote talk at the 29th IEEE Computer Security Foundations Symposium (CSF'16).</p>
+      <subsection id="uid32" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>Véronique Cortier, Antoine Dallon and Stéphanie Delaune received the EASST best paper award of the ETAPS conference for the paper <ref xlink:href="#pesto-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <best>
+          <ref xlink:href="#pesto-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </best>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid33">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Akiss</bodyTitle>
+      <p><i>Akiss</i> (Active Knowledge in Security Protocols) is a tool for
+verifying indistinguishability properties in cryptographic protocols,
+modelled as trace equivalence in a process calculus.
+Indistinguishability is used to model a variety of properties
+including anonymity properties, strong versions of confidentiality and
+resistance against offline guessing attacks, etc. <i>Akiss</i> implements a
+procedure to verify equivalence properties for a bounded number of
+sessions based on a fully abstract modelling of the traces of a
+bounded number of sessions of the protocols into first-order Horn
+clauses and a dedicated resolution procedure. The procedure can
+handle a large set of cryptographic primitives, namely those that can
+be modeled by an optimally reducing convergent rewrite system.
+The tool also includes the possibility for checking everlasting
+indistinguishability properties <ref xlink:href="#pesto-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The tool is still under active development, including optimisations to
+improve efficiency, but also the addition of new features, such as the
+possibility to model protocols using weak secrets, and the addition of
+support for exclusive or.</p>
+      <p>The <i>Akiss</i> tool is freely available at <ref xlink:href="https://github.com/akiss/akiss" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>github.<allowbreak/>com/<allowbreak/>akiss/<allowbreak/>akiss</ref>.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>ATSE</bodyTitle>
+      <p>We develop <i>CL-AtSe</i>, a Constraint Logic based Attack Searcher for cryptographic protocols,
+initiated and continued by the European projects <i>AVISPA</i>, AVANTSSAR (for web-services) and Nessos respectively.
+The <i>CL-AtSe</i> approach to verification consists in a symbolic state exploration of the protocol execution for a bounded number of sessions,
+thus is both correct and complete.
+<i>CL-AtSe</i> includes a proper handling of sets, lists, choice points, specification of any attack states through a language for expressing e.g., secrecy,
+authentication, fairness, or non-abuse freeness, advanced protocol simplifications and optimizations to reduce the problem complexity, and protocol
+analysis modulo the algebraic properties of cryptographic operators such as XOR (exclusive or) and Exp (modular exponentiation).</p>
+      <p><i>CL-AtSe</i> has been successfully used to analyse protocols from e.g., France Telecom R&amp;D, Siemens AG, IETF, Gemalto, Electrum in funded projects.
+It is also employed by external users, e.g., from the AVISPA's community.
+Moreover, <i>CL-AtSe</i> achieves good analysis times, comparable and sometimes better than other state-of-the art tools.</p>
+      <p><i>CL-AtSe</i> has been enhanced in various ways.
+It fully supports the Aslan semantics designed in the context of the AVANTSSAR project,
+including Horn clauses (for intruder-independent deductions, e.g., for credential management), and a large fragment of LTL-based security properties.
+A Bugzilla server collects bug reports, and online analysis and orchestration are available on our team server (<ref xlink:href="https://cassis.loria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>cassis.<allowbreak/>loria.<allowbreak/>fr</ref>).
+Large models can be analysed on the TALC Cluster in Nancy with parallel processing.
+<i>CL-AtSe</i> also supports negative constraints on the intruder's knowledge, which
+reduces drastically the orchestrator's processing times and allows separation of duties and non-disclosure policies,
+as well as conditional security properties, like: i) an authentication to be verified iff some session key is safe;
+ii) relying on a leaking condition on some private data instead of an honesty predicate to trigger or block some agent's property.
+This was crucial for e.g., the Electrum's wallet where all clients can be dishonest but security guarantees must be preserved anyway.</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Belenios</bodyTitle>
+      <p>In collaboration with the Caramba project-team, we develop an
+open-source private and verifiable electronic voting protocol, named
+<i>Belenios</i>. Our system is an evolution and a new implementation of an
+existing system, Helios, developed by Ben Adida, and used e.g., by UCL
+and the IACR association in real elections. The main differences with
+Helios are a cryptographic protection against ballot stuffing and a
+practical threshold decryption system that allows us to split the
+decryption key among several authorities, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> out of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> authorities
+being sufficient to decrypt. We will continue to add new cryptographic
+and protocol improvements to offer a secure, proved, and practical
+electronic voting system.</p>
+      <p>Belenios has been
+implemented (cf. <ref xlink:href="http://belenios.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>belenios.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref>) by
+Stéphane Glondu (SED Team).
+Since 2015, it is used
+by CNRS for remote election among its councils and since 2016, it
+used by Inria to elect representatives in the “comités de centre” of
+each Inria center.
+It has also been used to elect the leader of
+the GdR-IM working
+groups C2 and
+Calcul Formel. It has also been used in smaller
+elections (e.g., to choose an invited speaker).</p>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>Tamarin</bodyTitle>
+      <p>The <i>TAMARIN</i> prover is a security protocol verification tool that supports both falsification and unbounded verification of security protocols specified as multiset rewriting systems with respect to (temporal) first-order properties and a message theory that models Diffie-Hellman exponentiation combined with a user-defined subterm-convergent rewriting theory.</p>
+      <p>Its main advantages are its ability to handle stateful protocols and its interactive proof mode.
+Moreover, it has recently been extended to verify equivalence properties.</p>
+      <p>The tool is developed jointly by the PESTO team, the Institute of Information Security at ETH Zurich, and the University of Oxford.</p>
+      <p><i>TAMARIN</i> is freely available at <ref xlink:href="http://tamarin-prover.github.io/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>tamarin-prover.<allowbreak/>github.<allowbreak/>io/</ref>.
+In a joint effort, the partners wrote and published a user manual in 2016, available from the same website.</p>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Sapic</bodyTitle>
+      <p><i>SAPIC</i> is a tool that translates protocols from a high-level protocol description language akin to the applied pi-calculus into multiset rewrite rules, that can then be be analysed using the <i>TAMARIN</i> prover. <i>TAMARIN</i> has also bee extended with dedicated heuristics that exploit the form of translated rules and favour termination.</p>
+      <p><i>SAPIC</i> offers support for the analysis of protocols that include states, for example Hardware Security Tokens communicating with a possibly malicious user, or protocols that rely on databases. It also allows us to verify liveness properties and a recent extension adds a notion of location and reporting used for modelling trusted execution environments. It has been successfully applied on several case studies including the Yubikey authentication protocol, extensions of the PKCS#11 standard and fair exchange protocols.</p>
+      <p><i>SAPIC</i> is freely available at <ref xlink:href="http://sapic.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sapic.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>.</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid39">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Modelling</bodyTitle>
+      <subsection id="uid41" level="2">
+        <bodyTitle>New protocol and adversary models</bodyTitle>
+        <participants>
+          <person key="cassis-2015-idp73640">
+            <firstname>Jannik</firstname>
+            <lastname>Dreier</lastname>
+          </person>
+          <person key="cassis-2014-idp65592">
+            <firstname>Steve</firstname>
+            <lastname>Kremer</lastname>
+          </person>
+        </participants>
+        <p>Isolated Execution Environments (IEEs), such as ARM TrustZone and Intel SGX, offer the possibility to execute sensitive code in isolation from other malicious programs, running on the same machine, or a potentially corrupted OS. A key feature of IEEs is the ability to produce reports binding cryptographically a message to the program that produced it, typically ensuring that this message is the result of the given program running on an IEE. In collaboration with Jacomme (ENS Cachan) and Scerri (Univ. Bristol), Kremer presented a symbolic model for specifying and verifying applications that make use of such features. For this they introduced the S<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ℓ</mi></math></formula>APiC process calculus to reason about reports issued at given locations. They also provide tool support, extending the SAPIC/TAMARIN toolchain and demonstrate the applicability of their framework on several examples implementing secure outsourced computation (SOC), a secure licensing protocol and a one-time password protocol that all rely on such IEEs. This work has been accepted for publication at EuroS&amp;P'17 <ref xlink:href="#pesto-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>Most security properties are modelled as <i>safety</i> properties (<i>“bad things do not happen”</i>). Another important class of properties is that of <i>liveness</i> properties (<i>“eventually, good things happen”</i>). Reasoning about the class of <i>liveness</i> properties of cryptographic protocols, has received little attention in the literature, even though this class is vital in many security-sensitive applications, such as fair exchange protocols, or security layers in industrial control systems. In collaboration with Backes and Künnemann (U. Saarland, Germany), Dreier and Kremer have designed a protocol and adversary model that are suitable for reasoning about liveness properties. Tool support is also provided by extending the <i>SAPIC</i>/<i>TAMARIN</i> tool chain and several case studies demonstrate the effectiveness of the approach. This work has been accepted for publication at EuroS&amp;P'17 <ref xlink:href="#pesto-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>New properties</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="cassis-2015-idp73640">
+            <firstname>Jannik</firstname>
+            <lastname>Dreier</lastname>
+          </person>
+        </participants>
+        <p>Defining security properties correctly is often a challenging problem on its own: too strict definitions may lack generality and exclude systems that should be considered as secure, while relaxing definitions may lead to accepting insecure systems.</p>
+        <p>In e-voting, <i>verifiability</i> is the property meant to defend against voting devices and servers that have programming errors or are outright malicious. While the first formal definitions of verifiability were devised in the late 1980s already, new verifiability definitions are still being proposed. The definitions differ in various aspects, including the classes of protocols they capture and even their formulations of the very core of the meaning of verifiability. This is an unsatisfying state of affairs, leaving the research on the verifiability of e-voting protocols and systems in a fuzzy state. Cortier, in collaboration with Galindo (U. Birmingham, UK), Küsters, Müller (U. Trier, Germany) and Truderung (Polyas GmbH, Germany), review all formal definitions of verifiability proposed in the literature and cast them in a framework proposed by the KTV framework, yielding a uniform treatment of verifiability. This enables a detailed comparison of the various definitions of verifiability from the literature and a discussion of advantages and disadvantages, limitations and problems. Finally, a general definition of verifiability is distilled, which can be instantiated in various ways. This work has been presented at S&amp;P'16 <ref xlink:href="#pesto-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="6.0pt">Industrial systems are nowadays regularly the target of cyberattacks, the most famous being Stuxnet. At the same time such systems are increasingly interconnected with other systems and insecure media such as Internet. In contrast to other IT systems, industrial systems often do not only require classical properties like data confidentiality or authentication of the communication, but have special needs due to their interaction with the physical world. For example, the reordering or deletion of some commands sent to a machine can cause the system to enter an unsafe state with potentially catastrophic effects. To prevent such attacks, the integrity of the message flow is necessary.</p>
+        <p>In joint work with Lafourcade (Université Clermont-Ferrand), Potet, and Puys (University Grenoble Alpes), Dreier developed a formal definition of Flow Integrity in the context of industrial systems. The framework is applied to two well-known industrial protocols: OPC-UA and MODBUS. Using <i>TAMARIN</i>, a cryptographic protocol verification tool, they identified several design flaws in some of the different versions of these protocols. We also discussed how to efficiently model counters and timestamps in <i>TAMARIN</i>, as they are key ingredients of the analyzed protocols. This work is currently under submission.
+
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Analysis</bodyTitle>
+      <subsection id="uid44" level="2">
+        <bodyTitle>Analysis of equivalence properties</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idp107776">
+            <firstname>Vincent</firstname>
+            <lastname>Cheval</lastname>
+          </person>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="cassis-2015-idp93424">
+            <firstname>Antoine</firstname>
+            <lastname>Dallon</lastname>
+          </person>
+          <person key="pesto-2016-idp157712">
+            <firstname>Ivan</firstname>
+            <lastname>Gazeau</lastname>
+          </person>
+          <person key="cassis-2014-idp65592">
+            <firstname>Steve</firstname>
+            <lastname>Kremer</lastname>
+          </person>
+          <person key="cassis-2014-idp67000">
+            <firstname>Christophe</firstname>
+            <lastname>Ringeissen</lastname>
+          </person>
+        </participants>
+        <p>Automatic tools based on symbolic models have been successful in analyzing security protocols. These tools are particularly well adapted for trace properties (e.g. secrecy or authentication). However, they often fail to analyse equivalence properties. Equivalence properties can express a variety of security properties, including in particular privacy properties (vote privacy, anonymity, untraceability). Several decision procedures have already been proposed but the resulting tools are often rather limited, and lack efficiency.</p>
+        <p>In the case of a passive adversary, Ringeissen, in collaboration with Marshall (U. of Mary Washington, USA) and Erbatur (LMU, Germany) present new combination techniques for the study of deducibility and static equivalence in unions of equational theories sharing constructors. This allows us to develop new modularity results for the decidability of deducibility and static equivalence. In turn, this should allow for the security analysis of protocols which previous disjoint combination methods could not address because their axiomatization corresponds to the union of non-disjoint equational theories.</p>
+        <p>In case of an active adversary, and a bounded number of sessions, we made several advances. In <ref xlink:href="#pesto-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, Cheval and Kremer, in collaboration with Chadha (U. of Missouri, USA) and Ciobâcă (U. Iasi, Romania), present the theory underlying the <i>Akiss</i> tool, a Horn clause resolution based procedure for both under- and over-approximating trace equivalence. They show partial correctness for a large class of cryptographic primitives, modelled as an arbitrary convergent equational theory that has the finite variant properties. Additionally, termination is shown for subterm convergent theories. Gazeau and Kremer, in collaboration with Baelde (LSV, ENS Cachan) and Delaune (IRISA) have extended the <i>Akiss</i> tool with support for exclusive or. They analyse unlinkability in several RFID protocols and resistance to guessing attacks of several password base protocols. Cortier and Dallon, in collaboration with Delaune (IRISA) propose a novel algorithm, based on graph planning and SAT-solving, which significantly improves the efficiency of the analysis of equivalence properties. The resulting implementation, SAT-Equiv, can analyze several sessions where most tools have to stop after one or two sessions. Finally, Cheval and Kremer propose a novel decision procedure for verifying trace equivalence. Unlike most existing tools, they support a rich class of cryptographic primitives and protocols that may use else branches. An implementation of the procedure is currently under development.</p>
+        <p>These results are currently under submission.</p>
+      </subsection>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Simplification results</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="cassis-2015-idp93424">
+            <firstname>Antoine</firstname>
+            <lastname>Dallon</lastname>
+          </person>
+          <person key="cassis-2014-idp65592">
+            <firstname>Steve</firstname>
+            <lastname>Kremer</lastname>
+          </person>
+        </participants>
+        <p>Bounding the number of agent identies is a current practice when modeling a protocol. In 2003, it has been shown that one honest agent and one dishonest agent are indeed sufficient to find all possible attacks, for trace properties. This is no longer the case for equivalence properties, crucial to express many properties such as vote privacy or untraceability. As a first result of his PhD, Antoine Dallon has shown that it is sufficient to consider two honest agents and two dishonest agents for equivalence properties, for deterministic processes with standard primitives and without else branches. More generally, we show how to bound the number of agents for arbitrary constructor theories and for protocols with simple else branches. We show that our hypotheses are tight, providing counter-examples for non action-deterministic processes, non constructor theories, or protocols with complex else branches. This work has been presented at POST 2016 <ref xlink:href="#pesto-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and obtained the EASST best paper award of the ETAPS conference.</p>
+        <p>When verifying e-voting protocols, one of the difficulties is that they need to be secure for an arbitrary number of malicious voters. In collaboration with Arapinis (U. Edinburgh, UK), Cortier and Kremer identify a class of voting protocols for which only a small number of voters needs to be considered: if there is an attack on vote privacy, for an arbitrary number of honest and dishonest voters, then there is also an attack that involves at most 3 voters (2 honest voters and 1 dishonest voter). In the case where the protocol allows a voter to cast several votes and counts, e.g., only the last one, we also reduce the number of ballots required for an attack to 10, and under some additional hypotheses, 7 ballots. They illustrate the applicability of our results on several case studies, including different versions of Helios and Prêt-à-Voter, as well as the JCJ protocol. For some of these protocols the ProVerif tool is used to provide the first formal proofs of privacy for an unbounded number of voters. This work has been presented at ESORICS 2016 <ref xlink:href="#pesto-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Analysis of stateful security protocols</bodyTitle>
+        <participants>
+          <person key="cassis-2015-idp73640">
+            <firstname>Jannik</firstname>
+            <lastname>Dreier</lastname>
+          </person>
+          <person key="pesto-2016-idp175056">
+            <firstname>Charles</firstname>
+            <lastname>Duménil</lastname>
+          </person>
+          <person key="cassis-2014-idp65592">
+            <firstname>Steve</firstname>
+            <lastname>Kremer</lastname>
+          </person>
+        </participants>
+        <p>In collaboration with Künnemann (U. Saarland, Germany), Kremer proposes <i>SAPIC</i> (stateful applied pi calculus), a process calculus with constructs for manipulation of a global state by processes running in parallel. They show that this language can be translated to multiset rewriting rules whilst preserving all security properties expressible in a dedicated first-order logic for security properties. The translation has been implemented in a prototype tool which uses the <i>TAMARIN</i> prover as a backend. The tool is applied to several case studies among which a simplified fragment of PKCS#11, the Yubikey security token, and an optimistic contract signing protocol. This work has been published in the Journal of Computer Security <ref xlink:href="#pesto-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Dreier, Duménil and Kremer, in collaboration with Sasse (ETH Zurich, Switzerland) improve the underlying theory and the <i>TAMARIN</i> tool to allow for more general user-specified equational theories: the extension supports arbitrary convergent equational theories that have the finite variant property, making <i>TAMARIN</i> the first tool to support at the same time this large set of user-defined equational theories, protocols with global mutable state, an unbounded number of sessions, and complex security properties. The effectiveness of this generalization is demonstrated by analyzing several protocols that rely on blind signatures, trapdoor commitment schemes, and ciphertext prefixes that were previously out of scope. This work has been accepted for publication at POST'17.</p>
+      </subsection>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Analysis of e-voting protocols</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="pesto-2016-idp155248">
+            <firstname>Constantin-Catalin</firstname>
+            <lastname>Dragan</lastname>
+          </person>
+        </participants>
+        <p>Cortier and Dragan provide the first machine-checked proof of privacy-related
+properties (including ballot privacy) for an electronic voting
+protocol in the computational model.
+They target the popular Helios family of voting protocols, for which
+they identify appropriate levels of abstractions to allow the
+simplification and convenient reuse of proof steps across many
+variations of the voting scheme.
+The resulting framework enables machine-checked security proofs for
+several hundred variants of Helios and should serve as a stepping
+stone for the analysis of further variations of the scheme.</p>
+        <p>In addition, they highlight some of the lessons learned regarding the
+gap between pen-and-paper and machine-checked proofs, and report on
+the experience with formalizing the security of protocols at this
+scale. This work is submitted for publication.</p>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Analysis of Electrum Bitcoin wallet</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idp68440">
+            <firstname>Michaël</firstname>
+            <lastname>Rusinowitch</lastname>
+          </person>
+          <person key="cassis-2014-idp69904">
+            <firstname>Mathieu</firstname>
+            <lastname>Turuani</lastname>
+          </person>
+        </participants>
+        <p>Electrum is a popular Bitcoin wallet. We introduce a formal modeling in ASLan++ of the two-factor authentication protocol used by the Electrum Bitcoin wallet. This allows us to perform an automatic analysis of the wallet and show that it is secure for standard scenarios in the Dolev Yao model <ref xlink:href="#pesto-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The result could be derived thanks to some advanced features of the Cl-Atse protocol analyzer such as the possibility to specify i) new intruder deduction rules with clauses and ii) non-deducibility constraints.</p>
+      </subsection>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Satisfiability Modulo Bridging Theories</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idp67000">
+            <firstname>Christophe</firstname>
+            <lastname>Ringeissen</lastname>
+          </person>
+        </participants>
+        <p>Bridging theories are equational theories defining recursive
+functions. They are useful to handle equational theories of interest
+in protocol analysis, as advocated
+in  <ref xlink:href="#pesto-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, where a locality approach
+is promoted to solve the satisfiability problem. In collaboration with
+Pascal Fontaine (Veridis project-team) and Paula Chocron (IIIA-CSIC
+Barcelona), we investigate a combination approach for the
+satisfiability problem modulo this particular non-disjoint union of
+theories, where a source theory is connected to a target one through a
+bridging function. In 2016, we have prepared a new full paper unifying
+previous results presented respectively at CADE
+2015 <ref xlink:href="#pesto-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and FroCoS 2015. In that
+papers, we focused on source theories admitting term-generated
+models. In <ref xlink:href="#pesto-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we have also explored an
+extension to deal with terms modulo a congruence relation. This joint
+work with Raphaël Berthon (ENS Rennes) allows us to consider not
+only trees but also data structure theories such as lists, multisets
+and sets.</p>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Analysis of Security Properties for an Unbounded Number
+of Sessions</bodyTitle>
+        <participants>
+          <person key="pesto-2016-idp180144">
+            <firstname>Jonathan</firstname>
+            <lastname>Proietto-Stallone</lastname>
+          </person>
+          <person key="cassis-2014-idp69904">
+            <firstname>Mathieu</firstname>
+            <lastname>Turuani</lastname>
+          </person>
+          <person key="cassis-2014-idp79528">
+            <firstname>Laurent</firstname>
+            <lastname>Vigneron</lastname>
+          </person>
+        </participants>
+        <p>The internship of Jonathan Proietto-Stallone has permitted to study
+the method described in  <ref xlink:href="#pesto-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for analyzing
+protocols without bounding the number of sessions. We have clarified
+the formalization of this method, including the consideration of xor
+and exp operators, and implemented it in <i>CL-AtSe</i>.
+
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>Design</bodyTitle>
+      <subsection id="uid52" level="2">
+        <bodyTitle>E-voting protocols</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="cassis-2014-idp65592">
+            <firstname>Steve</firstname>
+            <lastname>Kremer</lastname>
+          </person>
+          <person key="pesto-2016-idp160192">
+            <firstname>Peter</firstname>
+            <lastname>Roenne</lastname>
+          </person>
+        </participants>
+        <p>We propose a new voting scheme, BeleniosRF, that offers both receipt-freeness and end-to-end verifiability. It is receipt-free in a strong sense, meaning that even dishonest voters cannot prove how they voted. We provide a game-based definition of receipt-freeness for voting protocols with non-interactive ballot casting, which we name strong receipt-freeness (sRF). To our knowledge, sRF is the first game-based definition of receipt-freeness in the literature, and it has the merit of being particularly concise and simple. Built upon the Helios protocol, BeleniosRF inherits its simplicity and does not require any anti-coercion strategy from the voters. We implement BeleniosRF and show its feasibility on a number of platforms, including desktop computers and smartphones. This work has been presented at CCS 2016 <ref xlink:href="#pesto-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>Another challenging problem in e-voting is to provide guarantees when the voting platform itself is corrupted. Du-Vote  <ref xlink:href="#pesto-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is a recently presented remote electronic voting scheme that aims to be malware tolerant, i.e., provide security even in the case where the platform used for voting has been compromised by dedicated malware. For this it uses an additional hardware token, similar to tokens distributed in the context of online banking. Du-Vote aims at providing vote privacy as long as either the vote platform or the vote server is honest. For verifiability, the security guarantees are even higher, as even if the token's software has been changed, and the platform and the server are colluding, attempts to change the election outcome should be detected with high probability. We provide an extensive security analysis of Du-Vote and show several attacks on both privacy as well as verifiability. We also propose changes to the system that would avoid many of these attacks. This work has been presented at Euro S&amp;P 2016 <ref xlink:href="#pesto-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Designing and proving an EMV-compliant payment protocol for mobile devices</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+          <person key="cassis-2015-idp94720">
+            <firstname>Alicia</firstname>
+            <lastname>Filipiak</lastname>
+          </person>
+        </participants>
+        <p>In collaboration with Gharout, Traoré and Florent (Orange Labs), we devised a payment protocol that can be securely used on mobile devices, even infected by malicious applications. Our protocol only requires a light use of Secure Elements, which significantly simplifies certification procedures and protocol maintenance. It is also fully compatible with the EMV-SDA protocol and allows off-line payments for the users. We provide a formal model and full security proofs of the protocol using the TAMARIN prover. This work has been accepted for publication at Euro S&amp;P'17 <ref xlink:href="#pesto-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Composition and design of PKIs</bodyTitle>
+        <participants>
+          <person key="cassis-2014-idp107776">
+            <firstname>Vincent</firstname>
+            <lastname>Cheval</lastname>
+          </person>
+          <person key="cassis-2014-idm27528">
+            <firstname>Véronique</firstname>
+            <lastname>Cortier</lastname>
+          </person>
+        </participants>
+        <p>Public Key Infrastructures (PKIs) is the backbone of public key cryptography, as it ensures that public keys can be correctly linked to identities. Their security typically relies on honest Certificate Authorities that distribute and/or generate keys to all parties. This trust assumption is a vulnerability exploited in numerous attacks. Recent proposals using public logs have succeeded in making certificate management more transparent and verifiable. However, those proposals involve a fixed set of authorities which means an oligopoly is created. Another problem with current log-based system is their heavy reliance on trusted parties that monitor the logs. Cheval, in collaboration with Ryan and Yu (U. Birmingham, UK) propose a distributed transparent key infrastructure (DTKI), which greatly reduces the oligopoly of service providers and allows verification of the behaviour of trusted parties. Their work also formalises the public log data structure and provides a formal analysis of the security that DTKI guarantees. The work has been published in The Computer Journal <ref xlink:href="#pesto-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>In protocol analysis one makes the (strong) assumption that honestly generated keys are available to all parties and that the link between identities and public keys is fixed and known to everyone. The abstraction is grounded in solid intuition but there are currently no theoretical underpinnings to justify its use. Cheval and Cortier, in collaboration with Warinschi (U. Bristol, UK), initiate a rigorous study of how to use PKIs within other protocols, securely. They first show that the abstraction outlined above is in general unsound by exhibiting a simple protocol which is secure with idealized key distribution but fails in the presence of more realistic PKI instantiation. Their main result is a generic composition theorem that identifies under which conditions protocols that require public keys can safely use any PKI protocol (which satisfies a security notion which we identify). Interestingly, unlike most existing composition results in symbolic models they do not require full tagging of the composed protocols. Furthermore, the results confirm the recommended practice that keys used in the PKI should not be used for any other cryptographic task. This work is currently under submission.</p>
+      </subsection>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Physical Zero-Knowledge Proofs</bodyTitle>
+        <participants>
+          <person key="cassis-2015-idp73640">
+            <firstname>Jannik</firstname>
+            <lastname>Dreier</lastname>
+          </person>
+        </participants>
+        <p>In this work we develop physical algorithms to realize zero-knowledge proofs for Akari, Takuzu, Kakuro, and KenKen, which are logic games similar to Sudoku. The zero-knowledge proofs allow a player to show that he knows a solution without revealing it. These interactive proofs can be realized with simple office material as they only rely on cards and envelopes. They can thus be used for example for scientific outreach activities, or in teaching. Moreover, we also formalized our algorithms and proved their security. This joint work with Bultel (U. Clermont-Ferrand), Dumas (U. Grenoble Alpes), and Lafourcade (U. Clermont-Ferrand) was published at FUN 2016 <ref xlink:href="#pesto-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Privacy Protection in Social Networks</bodyTitle>
+        <participants>
+          <person key="madynes-2014-idp157896">
+            <firstname>Younes</firstname>
+            <lastname>Abid</lastname>
+          </person>
+          <person key="cassis-2014-idp76744">
+            <firstname>Abdessamad</firstname>
+            <lastname>Imine</lastname>
+          </person>
+          <person key="cassis-2014-idp102696">
+            <firstname>Huu Hiep</firstname>
+            <lastname>Nguyen</lastname>
+          </person>
+          <person key="pesto-2016-idp185136">
+            <firstname>Clément</firstname>
+            <lastname>Pascutto</lastname>
+          </person>
+          <person key="cassis-2014-idp68440">
+            <firstname>Michaël</firstname>
+            <lastname>Rusinowitch</lastname>
+          </person>
+          <person key="pesto-2016-idp182640">
+            <firstname>Laura</firstname>
+            <lastname>Trivino</lastname>
+          </person>
+        </participants>
+        <p>Hiep Nguyen's PhD thesis addresses three privacy problems of social networks: graph anonymization, private community detection and private link exchange. The main goal is to provide new paradigms for publication of social graphs in noisy forms, private community detection over graphs as well as distributed aggregation of graphs via noisy link exchange processes. The graph anonymization problem is solved via two different semantics: uncertainty semantics and differential privacy. For uncertainty semantics, a general obfuscation model is proposed that keeps the expected node degree equal to those in the unanonymized graph. Over the last decade, a great number of algorithms for community detection have been proposed to deal with the increasingly complex networks. However, the problem of doing this in a private manner is rarely considered. We analyze the major challenges behind the problem and propose several schemes to tackle them under differential privacy from two perspectives: input perturbation and algorithm perturbation <ref xlink:href="#pesto-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>We address the problem of rapidly disclosing many friendship links using only legitimate queries (i.e., queries and tools provided by the targeted social network). Our study  <ref xlink:href="#pesto-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> sheds new light on the intrinsic relation between communities (usually represented as groups) and friendships between individuals. To develop an efficient attack we analysed group distributions, densities and visibility parameters from a large sample of a social network. By effectively exploring the target group network, our proposed algorithm is able to perform friendship and mutual-friend attacks along a strategy that minimizes the number of queries.
+Pascutto has established a state-of-the-art on inference techniques for social networks.
+Trivino has developed a user interface for privacy risk evaluation on social networks.
+
+</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid57">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid58" level="1">
+      <bodyTitle>Electronic Voting Systems</bodyTitle>
+      <participants>
+        <person key="cassis-2014-idm27528">
+          <firstname>Véronique</firstname>
+          <lastname>Cortier</lastname>
+        </person>
+        <person key="cassis-2014-idp69904">
+          <firstname>Mathieu</firstname>
+          <lastname>Turuani</lastname>
+        </person>
+      </participants>
+      <p>Since 2014, a collaboration agreement has been signed between Loria and Scytl, a Spanish company who is proposing solutions for the organization
+of on-line elections, including legally binding elections, in several
+countries.
+In this context, Scytl has signed a contract with the Pesto team as
+well as the University of Birmingham (David Galindo) to design a
+formal proof of both verifiability and privacy of the protocol
+developed by Scytl, for a deployment in Switzerland.
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid59">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid60" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid61" level="2">
+        <bodyTitle>CNRS</bodyTitle>
+        <simplelist>
+          <li id="uid62">
+            <p noindent="true">CNRS PEPS JCJC INS2I 2016 project VESPA <i>Verifying Equivalence Security in Protocols: Tools and Algorithms</i>, duration: 1 year, leader: Jannik Dreier, participant: Vincent Cheval.</p>
+            <p>Privacy-related notions such as unlinkability and anonymity are usually expressed as equivalence properties, which are notoriously difficult to prove.
+Due to the complexity of the protocols and the properties, tool support is a must, yet currently rather limited.
+Notably, there is currently no tool that can verify unlinkability of the electronic passport for an unbounded number of sessions, or anonymity in certain classic electronic cash protocols.
+The goal of this project is to enable the proofs for these and similar protocols using two complementary approaches: (1) by significantly advancing the state of the art of the algorithms used inside the tools to improve handling of branching and cryptographic primitives, and (2) by providing new reduction results that simplify the tools' inputs.</p>
+          </li>
+          <li id="uid63">
+            <p noindent="true">CNRS PEPS INS2I 2016 project ASSI <i>Analyse de Sécurité de Systèmes Industriels</i>, duration: 1 year, leader: Pascal Lafourcade (Université Clermont-Ferrand), participant PESTO: Jannik Dreier, other participants: Marie-Laure Potet, Maxime Puys (University Grenoble-Alpes).</p>
+            <p>The goal of the project is to develop an approach to verify protocols used in industrial control (SCADA) systems using tools such as <i>TAMARIN</i> or ProVerif.
+These protocols have specific security requirements such as flow integrity, going beyond the classical authentication and secrecy properties.
+The project also aims at analyzing different intruder models matching the particularities of industrial systems, and to develop specific modeling and verification techniques.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <simplelist>
+          <li id="uid65">
+            <p noindent="true">ANR SEQUOIA <i>Security properties, process
+equivalences and automated verification</i>, duration: 4 years,
+since October 2014, leader: Steve Kremer. Most protocol analysis
+tools are restricted to analyzing reachability properties while many
+security properties need to be expressed in terms of some process
+equivalence. The increasing use of observational equivalence as a
+modeling tool shows the need for new tools and techniques that are
+able to analyze such equivalence properties. The aims of this
+project are
+<i>(i)</i> to investigate which process equivalences – among the plethora of existing ones – are appropriate for a given security property, system assumptions and attacker capabilities;
+<i>(ii)</i> to advance the state-of-the-art of automated verification for process equivalences, allowing for instance support for more cryptographic primitives, relevant for case studies;
+<i>(iii)</i> to study protocols that use low-entropy secrets expressed using process equivalences;
+<i>(iv)</i> to apply these results to case studies from electronic voting.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid66" level="2">
+        <bodyTitle>Fondation MAIF</bodyTitle>
+        <p>Project <i>Protection de l'information personnelle sur les réseaux sociaux</i>, duration: 3 years, started in October 2014. The
+goal of the project is to lay the foundation for a risk verification environment on privacy in social
+networks. Given social relations, this environment will rely on the
+study of metrics to characterize the security level for a user. Next, by
+combining symbolic and statistical techniques, an objective is to
+synthesize a model of risk behavior as a rule base. Finally, a verifier à
+la model-checking will be developed to assess the security level of user.
+Partners are Pesto (leader), Orpailleur and Fondation Maif.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid68" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <simplelist>
+          <li id="uid69">
+            <p noindent="true">ProSecure (2011-2016) <footnote id="uid70" id-text="7"><ref xlink:href="http://prosecure.loria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>prosecure.<allowbreak/>loria.<allowbreak/>fr</ref></footnote>— ERC
+Starting Grant Project on Provably secure systems: foundations,
+design, and modularity. The long-term aim of the project is to develop
+provably secure systems such as security protocols. The goal is to
+propose foundations for a careful analysis and design of large
+classes of up-to-date protocols. To achieve this goal, the project is structured in
+three main tasks. First, we develop general verification
+techniques for new classes of protocols that are of primary interest
+in nowadays life like e-voting protocols, routing protocols or
+security APIs. Second, we consider the cryptographic part of
+the primitives that are used in such protocols (encryption,
+signatures, ...), obtaining higher security guarantees. Third, we
+propose modular results both for the analysis and design of
+protocols. Véronique Cortier is the leader of the project.</p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">SPOOC
+(2015–2020) <footnote id="uid72" id-text="8"><ref xlink:href="https://members.loria.fr/SKremer/files/spooc/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>members.<allowbreak/>loria.<allowbreak/>fr/<allowbreak/>SKremer/<allowbreak/>files/<allowbreak/>spooc/<allowbreak/>index.<allowbreak/>html</ref></footnote>—
+ERC Consolidator Grant on Automated Security Proofs of Cryptographic
+Protocols: Privacy, Untrusted Platforms and Applications to E-voting
+Protocols.</p>
+            <p>The goals of the Spooc project are to develop solid foundations and
+practical tools to analyze and formally prove security properties
+that ensure the privacy of users as well as techniques for executing
+protocols on untrusted platforms. We will</p>
+            <simplelist>
+              <li id="uid73">
+                <p noindent="true">develop foundations and practical tools for specifying and
+formally verifying new security properties, in particular privacy
+properties;</p>
+              </li>
+              <li id="uid74">
+                <p noindent="true">develop techniques for the design and automated analysis of
+protocols that have to be executed on untrusted platforms;</p>
+              </li>
+              <li id="uid75">
+                <p noindent="true">apply these methods in particular to novel e-voting protocols,
+which aim at guaranteeing strong security guarantees without need
+to trust the voter client software.</p>
+              </li>
+            </simplelist>
+            <p>Steve Kremer is the leader of the project.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid76" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid77" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <simplelist>
+          <li id="uid78">
+            <p noindent="true">Collaboration with David Basin, Ralf Sasse and Lara Schmid (ETH Zurich), Cas Cremers (University of Oxford), and Sasa Radomirovic (University of Dundee) on the improvement of the <i>TAMARIN</i> prover and the elaboration of a user manual.</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">Collaboration with Bogdan Warinschi (Bristol University) on
+defining game-based privacy for e-voting protocols and isolated
+execution environments.</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Collaboration with Myrto Arapinis (University of Edinburgh) on simplification results for the formal analysis of e-voting protocols.</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">Collaboration with Matteo Maffei (CISPA, Germany) on type systems for e-voting systems.</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">Collaboration with Michael Backes and Robert Künnemann (CISPA, Germany) on automated verification of security protocols.</p>
+          </li>
+          <li id="uid83">
+            <p noindent="true">Collaboration with Paliath Narendran's group (SUNY Albany) on automated deduction.</p>
+          </li>
+          <li id="uid84">
+            <p noindent="true">Collaboration with Hanifa Boucheneb's group (Ecole Polytechnique de Montréal) on model-checking of collaborative systems.</p>
+          </li>
+          <li id="uid85">
+            <p noindent="true">Collaboration with John Mullins's group (Ecole Polytechnique de Montréal) on information hiding.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid86" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid87" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid88">
+            <p noindent="true">Carlos Castro (UTSM Valparaíso, Chile), July 2015 - June 2016, partly funded as Inria invited researcher</p>
+          </li>
+          <li id="uid89">
+            <p noindent="true">David Galindo (University of Bimingham), April 2016</p>
+          </li>
+          <li id="uid90">
+            <p noindent="true">Bogdan Warinschi (University of Bristol), November 2016</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid91">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid92" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <p>The CNIL (Commission Nationale Informatique et Liberté) has official recommendations in terms of electronic voting.<footnote id="uid93" id-text="9"><ref xlink:href="https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000023174487" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>legifrance.<allowbreak/>gouv.<allowbreak/>fr/<allowbreak/>affichCnil.<allowbreak/>do?id=CNILTEXT000023174487</ref></footnote> These recommendations influence the design of e-voting systems that are deployed in France. However, some of the recommendations seem a bit outdated and dedicated to particular classes of systems. Even more importantly, the CNIL recommendations focus on vote privacy but do not say much about verifiability. Véronique Cortier, David Galindo, and Stéphane Glondu formulated new recommendations, submitted to the CNIL. They met some CNIL members to discuss how to integrate some of the propositions to the new version of the CNIL recommendations that should appear in 2017.</p>
+      <p>Moreover, Véronique Cortier was auditioned by the AFE (Assemblée des Francais de l'étranger) on the security of electronic voting. She has also presented the Belenios protocol to the MENESR (Ministère de l'Éducation National, de l'Enseignement Supérieur et de la Recherche) and to the Open Government Summit at the Sénat. Steve Kremer gave a talk on e-voting at the “Colloque Sécurité Informatique : mythes et réalité” organised by CNRS.</p>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid95" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <simplelist>
+            <li id="uid96">
+              <p noindent="true">Véronique Cortier: HotSpot 2016, 4th Workshop on Hot Issues in Security Principles and Trust. Affiliated with ETAPS 2016.</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Steve Kremer: GRSRD 2016, Grande Region Security and Reliability Day, Nancy, March 2016 (co-chair with J. Pang, U. Luxembourg).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid98" level="3">
+          <bodyTitle>Program Committee Chair</bodyTitle>
+          <simplelist>
+            <li id="uid99">
+              <p noindent="true">Véronique Cortier: HotSpot 2016, 4th Workshop on Hot Issues in Security Principles and Trust. Affiliated with ETAPS 2016.</p>
+            </li>
+            <li id="uid100">
+              <p noindent="true">Michaël Rusinowitch: ACM International Workshop on Security And Privacy Analytics, New Orleans, LA, USA, March 11, 2016.
+(co-chair with Rakesh Verma, U. Houston).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid101" level="3">
+          <bodyTitle>Program Committee Member</bodyTitle>
+          <simplelist>
+            <li id="uid102">
+              <p noindent="true">Véronique Cortier: LICS 2017, CCS 2016, Concur 2016, E-VoteID 2016,
+MFCS 2016, EuroS&amp;P 2016.</p>
+            </li>
+            <li id="uid103">
+              <p noindent="true">Steve Kremer : Voting 2017, Euro S&amp;P 2017, FSTTCS 2016, ESORICS 2016, CSF 2016,
+Voting 2016, AsiaCCS 2016, ACISP 2016.</p>
+            </li>
+            <li id="uid104">
+              <p noindent="true">Christophe Ringeissen: FroCoS 2017, UNIF 2017, WRLA 2016, UNIF 2016, IJCAR 2016.</p>
+            </li>
+            <li id="uid105">
+              <p noindent="true">Michaël Rusinowitch: POST 2016, CRISIS 2016, STM 2016.</p>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Vincent Cheval: TMPA 2017</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid107" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid108" level="3">
+          <bodyTitle>Editorial Board Member</bodyTitle>
+          <simplelist>
+            <li id="uid109">
+              <p noindent="true">Véronique Cortier: Information &amp; Computation, Journal of
+Computer Security, ACM Transactions on Information and System Security (TISSEC),
+Foundations and Trends (FnT) in Security and Privacy.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid110" level="3">
+          <bodyTitle>Scientific Committee Member</bodyTitle>
+          <simplelist>
+            <li id="uid111">
+              <p noindent="true">Laurent Vigneron: Technique et Sciences Informatiques, Lavoisier.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid112" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid113">
+            <p noindent="true">Steve Kremer: 29th IEEE Computer Security Foundations Symposium (CSF'16).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Inria evaluation committee (Steve Kremer)</p>
+        <p>Jury Junior Research Position Inria Rennes-Bretagne Atlantique (Steve Kremer)</p>
+        <p>Jury Senior Research Position (Steve Kremer)</p>
+        <p>Jury Junior Research Position Inria Nancy-Grand Est (Véronique
+Cortier, president of the committee)</p>
+        <p>Jury Professor at Université de Lorraine (Véronique Cortier)</p>
+        <p>Jury Assistant Professor at Université de Lorraine (Michaël Rusinowitch)</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid115" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid116" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <simplelist>
+          <li id="uid117">
+            <p noindent="true">Licence:</p>
+            <p>Vincent Cheval, Introduction to Theoretical Computer Science (Logic, Languages, Automata), 69 hours (ETD), TELECOM Nancy.</p>
+            <p>Jannik Dreier, Introduction to Theoretical Computer Science (Logic, Languages, Automata), 146 hours (ETD), TELECOM Nancy.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Master:</p>
+            <p>Véronique Cortier, Security of flows, 20 hours, M2 Computer Science,
+Telecom Nancy and Mines Nancy, France.</p>
+            <p>Abdessamad Imine, Security for XML Documents, 12 hours (ETD), M1, Lorraine University, France.</p>
+            <p>Steve Kremer, Security Theory, 24 hours (ETD), M2 Computer science, Lorraine University, France.</p>
+            <p>Christophe Ringeissen, Decision Procedures for Software Verification, 18 hours (ETD), M2 Computer science, Lorraine University, France.</p>
+            <p>Laurent Vigneron, Security of information systems, 22.5 hours (ETD), M2 Computer science, Lorraine University, France.</p>
+            <p>Laurent Vigneron, Security of information systems, 24 hours (ETD),
+M2 MIAGE – Distributed Information Systems, Lorraine University,
+France.</p>
+            <p>Laurent Vigneron, Security of information systems, 16 hours (ETD),
+M2 MIAGE – Audit and Design of Information Systems, Lorraine University, France.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid119" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid120">
+            <p noindent="true">HDR defended in 2016:</p>
+            <p>Abdessamad Imine, Data sharing in collaborative systems, defended on December 9.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">PhD defended in 2016:</p>
+            <p>Rémy Chrétien, Decision procedures of equivalence properties, started in October 2012, Véronique Cortier and Stéphanie Delaune</p>
+            <p noindent="true">Huu Hiep Nguyen, Secure Collaboration in Mobile Social Networks, started in November 2013, Abdessamad Imine and Michaël Rusinowitch</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">PhD discontinued in 2016:</p>
+            <p>Éric Le Morvan, Secure composition of cryptographic protocols,
+started in October 2013, discontinued in June 2016, Véronique Cortier</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">PhD in progress:</p>
+            <p>Younes Abid, Privacy control for social networks, started in March
+2015. Abdessamad Imine, Michaël Rusinowitch and Orpailleur
+co-advising.</p>
+            <p>Antoine Dallon, Decision procedures for equivalence properties,
+started in November 2015, Véronique Cortier and Stéphanie Delaune</p>
+            <p>Alicia Filipiak, Design and validation of security services for mobile
+platforms: smartphones and tablets, started in March 2015, Véronique Cortier</p>
+            <p>Joseph Lallemand, Type systems for equivalence properties, started in
+September 2016, Véronique Cortier</p>
+            <p>Ludovic Robin, Verification of cryptographic protocols using weak secrets, started in October 2014, Stéphanie Delaune and Steve Kremer</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid124" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Reviewer for Yang Zhang PhD, Luxembourg (Michaël Rusinowitch)</p>
+        <p>Examiner for Stefania Dumbrova, Paris-Sud (Michaël Rusinowitch)</p>
+        <p>Examiner for Jiri Marsik, LORIA (Laurent Vigneron)</p>
+        <p>Examiner for Robin David, CEA (Steve Kremer)</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid125" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid126">
+          <p noindent="true">Vote Électronique. Véronique Cortier. 1024 – Bulletin de la
+société informatique de France. Numéro 9, Novembre 2016.</p>
+        </li>
+        <li id="uid127">
+          <p noindent="true">How to Explain Modern Security Concepts to your Children. Xavier Bultel, Jannik Dreier, Pascal Lafourcade, Malika More. Cryptologia, Taylor &amp; Francis, 2016. <ref xlink:href="#pesto-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+        </li>
+        <li id="uid128">
+          <p noindent="true">Comment sécuriser les communications ? Du bon usage des protocoles et de la cryptographie. Vincent Cheval, Joseph Lallemand – Séminaire <i>La Pépinière 4.1</i>, Oct 2016, Maisons pour la science au service des professeurs, Nancy.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="pesto-2016-bid44" type="article" rend="refer" n="refercite:BCR-JSC15">
+      <analytic>
+        <title level="a">Parametrized automata simulation and application to service composition</title>
+        <author>
+          <persName key="cassis-2014-idp80968">
+            <foreName>Walid</foreName>
+            <surname>Belkhir</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Chevalier</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Symb. Comput.</title>
+        <imprint>
+          <biblScope type="volume">69</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">40–60</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid4" type="inproceedings" rend="refer" n="refercite:SP15-privacy">
+      <analytic>
+        <title level="a">A comprehensive analysis of game-based ballot privacy definitions</title>
+        <author>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Bernhard</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Veronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Galindo</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Pereira</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="cassis-2015-idp108592">
+            <foreName>Bogdan</foreName>
+            <surname>Warinschi</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 36th IEEE Symposium on Security and Privacy (S&amp;P'15)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society Press</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">499–516</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid6" type="inproceedings" rend="refer" n="refercite:ChadhaCK12">
+      <analytic>
+        <title level="a">Automated Verification of Equivalence Properties of Cryptographic Protocols</title>
+        <author>
+          <persName>
+            <foreName>Rohit</foreName>
+            <surname>Chadha</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Stefan</foreName>
+            <surname>Ciobaca</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Seidl</surname>
+            <initial>H.</initial>
+          </persName>
+        </editor>
+        <title level="m">Programming Languages and Systems - 21st European Symposium on Programming, ESOP 2012, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2012, Tallinn, Estonia, March 24 - April 1, 2012. Proceedings</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">7211</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">108–127</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid25" type="inproceedings" rend="refer" n="refercite:chocron:hal-01157898">
+      <identifiant type="hal" value="hal-01157898"/>
+      <analytic>
+        <title level="a">A Polite Non-Disjoint Combination Method: Theories with Bridging Functions Revisited</title>
+        <author>
+          <persName>
+            <foreName>Paula</foreName>
+            <surname>Chocron</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="veridis-2014-idp71104">
+            <foreName>Pascal</foreName>
+            <surname>Fontaine</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="cassis-2014-idp67000">
+            <foreName>Christophe</foreName>
+            <surname>Ringeissen</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 25th International Conference on Automated Deduction (CADE-25)</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">9195</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">419-433</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01157898" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01157898</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid46" type="inproceedings" rend="refer" n="refercite:CCD-concur14">
+      <analytic>
+        <title level="a">Typing messages for free in security protocols: the case of equivalence properties</title>
+        <author>
+          <persName key="cassis-2014-idp93728">
+            <foreName>Rémy</foreName>
+            <surname>Chretien</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 25th International Conference on Concurrency Theory (CONCUR'14)</title>
+        <loc>Rome, Italy</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">8704</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">372-386</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid45" type="inproceedings" rend="refer" n="refercite:KremerK14">
+      <analytic>
+        <title level="a">Automated Analysis of Security Protocols with Global State</title>
+        <author>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="prosecco-2014-idp85704">
+            <foreName>Robert</foreName>
+            <surname>Künnemann</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">2014 IEEE Symposium on Security and Privacy, SP 2014, Berkeley, CA, USA, May 18-21, 2014</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">163–178</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid47" type="inproceedings" rend="refer" n="refercite:NIR-JSC15">
+      <analytic>
+        <title level="a">Anonymizing Social Graphs via Uncertainty Semantics</title>
+        <author>
+          <persName>
+            <foreName>Hiep H.</foreName>
+            <surname>Nguyen</surname>
+            <initial>H. H.</initial>
+          </persName>
+          <persName key="cassis-2014-idp76744">
+            <foreName>Abdessamad</foreName>
+            <surname>Imine</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 10th ACM Symposium on Information, Computer and Communications Security, (ASIA CCS'15), 2015</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">495–506</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid40" type="proceedings" rend="year" n="cite:verma:hal-01408625">
+      <identifiant type="hal" value="hal-01408625"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes">
+        <title level="m">International Workshop on Security And Privacy Analytics</title>
+        <title level="s">IWSPA '16: Proceedings of the 2016 ACM on International Workshop on Security And Privacy Analytics</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Rakesh</foreName>
+            <surname>Verma</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michael</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>ACM<address><addrLine>New Orleans, United States</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408625" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408625</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid42" type="phdthesis" rend="year" n="cite:chretien:tel-01277205">
+      <identifiant type="hal" value="tel-01277205"/>
+      <monogr>
+        <title level="m">Automated analysis of equivalence properties for cryptographic protocols</title>
+        <author>
+          <persName>
+            <foreName>Rémy</foreName>
+            <surname>Chretien</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01277205" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01277205</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid41" type="phdthesis" rend="year" n="cite:nguyen:tel-01403474">
+      <identifiant type="hal" value="tel-01403474"/>
+      <monogr>
+        <title level="m">Social Graph Anonymization</title>
+        <author>
+          <persName key="dante-2014-idp102184">
+            <foreName>Huu-Hiep</foreName>
+            <surname>Nguyen</surname>
+            <initial>H.-H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Universite de Lorraine</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01403474" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01403474</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid43" type="article" rend="year" n="cite:abbes:hal-01320646">
+      <identifiant type="doi" value="10.1007/s10207-015-0290-0"/>
+      <identifiant type="hal" value="hal-01320646"/>
+      <analytic>
+        <title level="a">Detection of firewall configuration errors with updatable tree</title>
+        <author>
+          <persName>
+            <foreName>Tarek</foreName>
+            <surname>Abbes</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Adel</foreName>
+            <surname>Bouhoula</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00924">
+        <idno type="issn">1615-5262</idno>
+        <title level="j">International Journal of Information Security</title>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">301-317</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01320646" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01320646</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid37" type="article" rend="year" n="cite:avanesov:hal-01405851">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.008"/>
+      <identifiant type="hal" value="hal-01405851"/>
+      <analytic>
+        <title level="a">Intruder deducibility constraints with negation. Decidability and application to secured service compositions</title>
+        <author>
+          <persName>
+            <foreName>Tigran</foreName>
+            <surname>Avanesov</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Chevalier</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michael</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cassis-2014-idp69904">
+            <foreName>Mathieu</foreName>
+            <surname>Turuani</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <biblScope type="volume">80</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">4 - 26</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01405851" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01405851</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid36" type="article" rend="year" n="cite:avanesov:hal-01405842">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.009"/>
+      <identifiant type="hal" value="hal-01405842"/>
+      <analytic>
+        <title level="a">Satisfiability of General Intruder Constraints with and without a Set Constructor</title>
+        <author>
+          <persName>
+            <foreName>Tigran</foreName>
+            <surname>Avanesov</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Chevalier</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cassis-2014-idp69904">
+            <foreName>Mathieu</foreName>
+            <surname>Turuani</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <biblScope type="volume">80</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">27-61</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01405842" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01405842</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid35" type="article" rend="year" n="cite:bultel:hal-01397035">
+      <identifiant type="hal" value="hal-01397035"/>
+      <analytic>
+        <title level="a">How to Explain Modern Security Concepts to your Children</title>
+        <author>
+          <persName>
+            <foreName>Xavier</foreName>
+            <surname>Bultel</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="cassis-2015-idp73640">
+            <foreName>Jannik</foreName>
+            <surname>Dreier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Lafourcade</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Malika</foreName>
+            <surname>More</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00446">
+        <idno type="issn">0161-1194</idno>
+        <title level="j">Cryptologia</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01397035" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01397035</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid20" type="article" rend="year" n="cite:chadha:hal-01306561">
+      <identifiant type="doi" value="10.1145/2926715"/>
+      <identifiant type="hal" value="hal-01306561"/>
+      <analytic>
+        <title level="a">Automated verification of equivalence properties of cryptographic protocols</title>
+        <author>
+          <persName>
+            <foreName>Rohit</foreName>
+            <surname>Chadha</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="cassis-2014-idp107776">
+            <foreName>Vincent</foreName>
+            <surname>Cheval</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Ştefan Ciobâcǎ</foreName>
+            <surname>Ciobâcǎ</surname>
+            <initial>Ş. C.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00018">
+        <idno type="issn">1529-3785</idno>
+        <title level="j">ACM Transactions on Computational Logic</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01306561" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01306561</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid22" type="article" rend="year" n="cite:kremer:hal-01351388">
+      <identifiant type="doi" value="10.3233/JCS-160556"/>
+      <identifiant type="hal" value="hal-01351388"/>
+      <analytic>
+        <title level="a">Automated Analysis of Security Protocols with Global State</title>
+        <author>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="prosecco-2014-idp85704">
+            <foreName>Robert</foreName>
+            <surname>Künnemann</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01106">
+        <idno type="issn">0926-227X</idno>
+        <title level="j">Journal of Computer Security</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01351388" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01351388</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid38" type="article" rend="year" n="cite:nguyen:hal-01424911">
+      <identifiant type="hal" value="hal-01424911"/>
+      <analytic>
+        <title level="a">Network Structure Release under Differential Privacy</title>
+        <author>
+          <persName>
+            <foreName>Hiep</foreName>
+            <surname>Nguyen</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="cassis-2014-idp76744">
+            <foreName>Abdessamad</foreName>
+            <surname>Imine</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michael</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02005">
+        <idno type="issn">1888-5063</idno>
+        <title level="j">Transactions on Data Privacy</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">26</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01424911" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01424911</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid31" type="article" rend="year" n="cite:yu:hal-01403899">
+      <identifiant type="doi" value="10.1093/comjnl/bxw039"/>
+      <identifiant type="hal" value="hal-01403899"/>
+      <analytic>
+        <title level="a">DTKI: A New Formalized PKI with Verifiable Trusted Parties</title>
+        <author>
+          <persName key="galen-2014-idp87464">
+            <foreName>Jiangshan</foreName>
+            <surname>Yu</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="cassis-2014-idp107776">
+            <foreName>Vincent</foreName>
+            <surname>Cheval</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00393">
+        <idno type="issn">0010-4620</idno>
+        <title level="j">The Computer Journal</title>
+        <imprint>
+          <biblScope type="volume">59</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1695-1713</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01403899" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01403899</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid34" type="inproceedings" rend="year" n="cite:abid:hal-01402062">
+      <identifiant type="hal" value="hal-01402062"/>
+      <analytic>
+        <title level="a">Online link disclosure strategies for social networks</title>
+        <author>
+          <persName key="madynes-2014-idp157896">
+            <foreName>Younes</foreName>
+            <surname>Abid</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cassis-2014-idp76744">
+            <foreName>Abdessamad</foreName>
+            <surname>Imine</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="orpailleur-2014-idm28080">
+            <foreName>Amedeo</foreName>
+            <surname>Napoli</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="orpailleur-2014-idp76712">
+            <foreName>Chedy</foreName>
+            <surname>Raïssi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The 11th International Conference on Risks and Security of Internet and Systems</title>
+        <loc>Roscoff, France</loc>
+        <title level="s">The 11th International Conference on Risks and Security of Internet and Systems</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01402062" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01402062</ref>
+        </imprint>
+        <meeting id="cid298939">
+          <title>International Conference on Risks and Security of Internet and Systems</title>
+          <num>11</num>
+          <abbr type="sigle">CRISIS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid21" type="inproceedings" rend="year" n="cite:arapinis:hal-01351398">
+      <identifiant type="hal" value="hal-01351398"/>
+      <analytic>
+        <title level="a">When are three voters enough for privacy properties?</title>
+        <author>
+          <persName>
+            <foreName>Myrto</foreName>
+            <surname>Arapinis</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">21st European Symposium on Research in Computer Security</title>
+        <loc>Heraklion, Crete, Greece</loc>
+        <title level="s">21st European Symposium on Research in Computer Security</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01351398" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01351398</ref>
+        </imprint>
+        <meeting id="cid71323">
+          <title>European Symposium on Research in Computer Security</title>
+          <num>21</num>
+          <abbr type="sigle">ESORICS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid18" type="inproceedings" rend="year" n="cite:backes:hal-01396282">
+      <identifiant type="hal" value="hal-01396282"/>
+      <analytic>
+        <title level="a"> A Novel Approach for Reasoning about Liveness in Cryptographic Protocols and its Application to Fair Exchange</title>
+        <author>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Backes</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cassis-2015-idp73640">
+            <foreName>Jannik</foreName>
+            <surname>Dreier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="prosecco-2014-idp85704">
+            <foreName>Robert</foreName>
+            <surname>Künnemann</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2nd IEEE European Symposium on Security and Privacy (EuroS&amp;P'17)</title>
+        <loc>Paris, France</loc>
+        <title level="s">Proceedings of the 2nd IEEE European Symposium on Security and Privacy</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396282" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396282</ref>
+        </imprint>
+        <meeting id="cid624995">
+          <title>IEEE European Symposium on Security and Privacy</title>
+          <num>2</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid26" type="inproceedings" rend="year" n="cite:berthon:hal-01389228">
+      <identifiant type="hal" value="hal-01389228"/>
+      <analytic>
+        <title level="a">Satisfiability Modulo Free Data Structures Combined with Bridging Functions</title>
+        <author>
+          <persName key="cassis-2015-idp113528">
+            <foreName>Raphaël</foreName>
+            <surname>Berthon</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="cassis-2014-idp67000">
+            <foreName>Christophe</foreName>
+            <surname>Ringeissen</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Tim</foreName>
+            <surname>King</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Ruzica</foreName>
+            <surname>Piskac</surname>
+            <initial>R.</initial>
+          </persName>
+        </editor>
+        <title level="m">14th International Workshop on Satisfiability Modulo Theories, affiliated with IJCAR 2016</title>
+        <loc>Coimbra, Portugal</loc>
+        <title level="s">CEUR Workshop Proceedings</title>
+        <imprint>
+          <biblScope type="number">1617</biblScope>
+          <publisher>
+            <orgName>CEUR-WS.org</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">71–80</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01389228" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01389228</ref>
+        </imprint>
+        <meeting id="cid334698">
+          <title>International Workshop on Satisfiability Modulo Theories</title>
+          <num>14</num>
+          <abbr type="sigle">SMT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid32" type="inproceedings" rend="year" n="cite:bultel:hal-01326059">
+      <identifiant type="hal" value="hal-01326059"/>
+      <analytic>
+        <title level="a">Physical Zero-Knowledge Proofs for Akari, Takuzu, Kakuro and KenKen</title>
+        <author>
+          <persName>
+            <foreName>Xavier</foreName>
+            <surname>Bultel</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="cassis-2015-idp73640">
+            <foreName>Jannik</foreName>
+            <surname>Dreier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Guillaume</foreName>
+            <surname>Dumas</surname>
+            <initial>J.-G.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Lafourcade</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Erik</foreName>
+            <surname>Demaine</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabrizio</foreName>
+            <surname>Grandoni</surname>
+            <initial>F.</initial>
+          </persName>
+        </editor>
+        <title level="m">FUN with algorithms 2016</title>
+        <loc>La Maddalena, Italy</loc>
+        <title level="s">FUN with algorithms 2016</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01326059" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01326059</ref>
+        </imprint>
+        <meeting id="cid402237">
+          <title>International conference on Fun with Algorithms</title>
+          <num>8</num>
+          <abbr type="sigle">FUN</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid39" type="inproceedings" rend="year" n="cite:chaidos:hal-01377917">
+      <identifiant type="doi" value="10.1145/2976749.2978337"/>
+      <identifiant type="hal" value="hal-01377917"/>
+      <analytic>
+        <title level="a">BeleniosRF: A Non-interactive Receipt-Free Electronic Voting Scheme</title>
+        <author>
+          <persName>
+            <foreName>Pyrros</foreName>
+            <surname>Chaidos</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cascade-2016-idp114784">
+            <foreName>Georg</foreName>
+            <surname>Fuchsbauer</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Galindo</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">23rd ACM Conference on Computer and Communications Security (CCS'16)</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01377917" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377917</ref>
+        </imprint>
+        <meeting id="cid18256">
+          <title>ACM Conference on Computer and Communications Security</title>
+          <num>23</num>
+          <abbr type="sigle">CCS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid15" type="inproceedings" rend="best" n="cite:cortier:hal-01361286">
+      <identifiant type="doi" value="10.1007/978-3-662-49635-0_11"/>
+      <identifiant type="hal" value="hal-01361286"/>
+      <analytic>
+        <title level="a">Bounding the number of agents, for equivalence too</title>
+        <author>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cassis-2015-idp93424">
+            <foreName>Antoine</foreName>
+            <surname>Dallon</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">5th International Conference on Principles of Security and Trust (POST'16)</title>
+        <loc>Eindhoven, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">211-232</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01361286" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01361286</ref>
+        </imprint>
+        <meeting id="cid623476">
+          <title>International Conference on Principles of Security and Trust</title>
+          <num>5</num>
+          <abbr type="sigle">POST</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid30" type="inproceedings" rend="year" n="cite:cortier:hal-01408584">
+      <identifiant type="hal" value="hal-01408584"/>
+      <analytic>
+        <title level="a">Designing and proving an EMV-compliant payment protocol for mobile devices</title>
+        <author>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cassis-2015-idp94720">
+            <foreName>Alicia</foreName>
+            <surname>Filipiak</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Saïd</foreName>
+            <surname>Gharout</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jacques</foreName>
+            <surname>Traoré</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2nd IEEE European Symposium on Security and Privacy (EuroSP'17)</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408584" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408584</ref>
+        </imprint>
+        <meeting id="cid624995">
+          <title>IEEE European Symposium on Security and Privacy</title>
+          <num>2</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid19" type="inproceedings" rend="year" n="cite:cortier:hal-01280445">
+      <identifiant type="hal" value="hal-01280445"/>
+      <analytic>
+        <title level="a">SoK: Verifiability Notions for E-Voting Protocols</title>
+        <author>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Galindo</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Ralf</foreName>
+            <surname>Kuesters</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Johannes</foreName>
+            <surname>Mueller</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Tomasz</foreName>
+            <surname>Truderung</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">36th IEEE Symposium on Security and Privacy (S&amp;P'16)</title>
+        <loc>San Jose, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01280445" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01280445</ref>
+        </imprint>
+        <meeting id="cid94799">
+          <title>IEEE Symposium on Security and Privacy</title>
+          <num>37</num>
+          <abbr type="sigle">SP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid17" type="inproceedings" rend="year" n="cite:jacomme:hal-01396291">
+      <identifiant type="hal" value="hal-01396291"/>
+      <analytic>
+        <title level="a">Symbolic Models for Isolated Execution Environments</title>
+        <author>
+          <persName>
+            <foreName>Charlie</foreName>
+            <surname>Jacomme</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2014-idp103944">
+            <foreName>Guillaume</foreName>
+            <surname>Scerri</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2nd IEEE European Symposium on Security and Privacy (EuroS&amp;P'17)</title>
+        <loc>Paris, France</loc>
+        <title level="s">Proceedings of the 2nd IEEE European Symposium on Security and Privacy</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396291" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396291</ref>
+        </imprint>
+        <meeting id="cid624995">
+          <title>IEEE European Symposium on Security and Privacy</title>
+          <num>2</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid29" type="inproceedings" rend="year" n="cite:kremer:hal-01238894">
+      <identifiant type="hal" value="hal-01238894"/>
+      <analytic>
+        <title level="a">To Du or not to Du: A Security Analysis of Du-Vote</title>
+        <author>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2015-idp106072">
+            <foreName>Peter</foreName>
+            <surname>Rønne</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE European Symposium on Security and Privacy 2016</title>
+        <loc>Saarbrucken, Germany</loc>
+        <title level="s">Proceedings of the IEEE European Symposium on Security and Privacy 2016</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01238894" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01238894</ref>
+        </imprint>
+        <meeting id="cid624995">
+          <title>IEEE European Symposium on Security and Privacy</title>
+          <num>1</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid33" type="inproceedings" rend="year" n="cite:nguyen:hal-01393266">
+      <identifiant type="hal" value="hal-01393266"/>
+      <analytic>
+        <title level="a">Detecting Communities under Differential Privacy</title>
+        <author>
+          <persName>
+            <foreName>Hiep H</foreName>
+            <surname>Nguyen</surname>
+            <initial>H. H.</initial>
+          </persName>
+          <persName key="cassis-2014-idp76744">
+            <foreName>Abdessamad</foreName>
+            <surname>Imine</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michaël</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Workshop on Privacy in the Electronic Society - WPES 206</title>
+        <loc>Vienna, Austria</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">83 - 93</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01393266" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01393266</ref>
+        </imprint>
+        <meeting id="cid447692">
+          <title>Workshop on Privacy in the Electronic Society</title>
+          <num>2016</num>
+          <abbr type="sigle">WPES</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid23" type="inproceedings" rend="year" n="cite:turuani:hal-01256397">
+      <identifiant type="hal" value="hal-01256397"/>
+      <analytic>
+        <title level="a">Automated Verification of Electrum Wallet</title>
+        <author>
+          <persName key="cassis-2014-idp69904">
+            <foreName>Mathieu</foreName>
+            <surname>Turuani</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Voegtlin</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michael</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">3rd Workshop on Bitcoin and Blockchain Research</title>
+        <loc>Christ Church, Barbados</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01256397" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01256397</ref>
+        </imprint>
+        <meeting id="cid625554">
+          <title>3rd Workshop on Bitcoin and Blockchain Research</title>
+          <num>3</num>
+          <abbr type="sigle">BITCOIN</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid16" type="inproceedings" rend="foot" n="footcite:ArapinisCKR13">
+      <analytic>
+        <title level="a">Practical Everlasting Privacy</title>
+        <author>
+          <persName>
+            <foreName>Myrto</foreName>
+            <surname>Arapinis</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>David</foreName>
+            <surname>Basin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>Mitchell</surname>
+            <initial>J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Principles of Security and Trust - Second International Conference, POST 2013, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2013, Rome, Italy, March 16-24, 2013. Proceedings</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">7796</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">21–40</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid0" type="inproceedings" rend="foot" n="footcite:3G-CCS12">
+      <analytic>
+        <title level="a">New privacy issues in mobile telephony: fix and verification</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Arapinis</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Mancini</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Ritter</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Golde</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Redon</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Borgaonkar</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 19th ACM Conference on Computer and Communications Security (CCS'12)</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">205-216</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid5" type="inproceedings" rend="foot" n="footcite:blanchetcsfw01">
+      <analytic>
+        <title level="a">An Efficient Cryptographic Protocol Verifier Based on Prolog Rules</title>
+        <author>
+          <persName key="prosecco-2014-idp61024">
+            <foreName>Bruno</foreName>
+            <surname>Blanchet</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 14th Computer Security Foundations Workshop (CSFW'01)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Comp. Soc. Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">82–96</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid13" type="inproceedings" rend="foot" n="footcite:BCFS-ccs10">
+      <analytic>
+        <title level="a">Attacking and Fixing PKCS#11 Security Tokens</title>
+        <author>
+          <persName>
+            <foreName>Matteo</foreName>
+            <surname>Bortolozzo</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Matteo</foreName>
+            <surname>Centenaro</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Riccardo</foreName>
+            <surname>Focardi</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="prosecco-2014-idp63720">
+            <foreName>Graham</foreName>
+            <surname>Steel</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 17th ACM Conference on Computer and Communications Security (CCS'10)</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">260-269</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid12" type="article" rend="foot" n="footcite:CDKR-fmsd13">
+      <analytic>
+        <title level="a">Composition of Password-based Protocols</title>
+        <author>
+          <persName>
+            <foreName>Céline</foreName>
+            <surname>Chevalier</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Formal Methods in System Design</title>
+        <imprint>
+          <biblScope type="volume">43</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">369-413</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid27" type="article" rend="foot" n="footcite:ChevalierV-ASE04">
+      <analytic>
+        <title level="a">Strategy for Verifying Security Protocols with Unbounded Message Size</title>
+        <author>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Chevalier</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cassis-2014-idp79528">
+            <foreName>Laurent</foreName>
+            <surname>Vigneron</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Automated Software Engineering</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">141-166</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid8" type="inproceedings" rend="foot" n="footcite:ComDel-rta2005">
+      <analytic>
+        <title level="a">The finite variant property: How to get rid of some algebraic properties</title>
+        <author>
+          <persName>
+            <foreName>Hubert</foreName>
+            <surname>Comon-Lundh</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the 16th International Conference on Rewriting Techniques and Applications (RTA'05)</title>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">3467</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">294-307</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid11" type="article" rend="foot" n="footcite:CD-fmsd08">
+      <analytic>
+        <title level="a">Safely Composing Security Protocols</title>
+        <author>
+          <persName key="cassis-2014-idm27528">
+            <foreName>Véronique</foreName>
+            <surname>Cortier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Formal Methods in System Design</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">1-36</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid3" type="article" rend="foot" n="footcite:DKR-jcs08">
+      <analytic>
+        <title level="a">Verifying Privacy-type Properties of Electronic Voting Protocols</title>
+        <author>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computer Security</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">435-487</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid14" type="article" rend="foot" n="footcite:DKS-jcs09">
+      <analytic>
+        <title level="a">Formal Analysis of PKCS#11 and Proprietary Extensions</title>
+        <author>
+          <persName>
+            <foreName>Stéphanie</foreName>
+            <surname>Delaune</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cassis-2014-idp65592">
+            <foreName>Steve</foreName>
+            <surname>Kremer</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="prosecco-2014-idp63720">
+            <foreName>Graham</foreName>
+            <surname>Steel</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computer Security</title>
+        <imprint>
+          <biblScope type="volume">18</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">1211-1245</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid10" type="inproceedings" rend="foot" n="footcite:EKMMNR-fossacs14">
+      <analytic>
+        <title level="a">On Asymmetric Unification and the Combination Problem in Disjoint Theories</title>
+        <author>
+          <persName>
+            <foreName>Serdar</foreName>
+            <surname>Erbatur</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Deepak</foreName>
+            <surname>Kapur</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew M.</foreName>
+            <surname>Marshall</surname>
+            <initial>A. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Catherine</foreName>
+            <surname>Meadows</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Paliath</foreName>
+            <surname>Narendran</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="cassis-2014-idp67000">
+            <foreName>Christophe</foreName>
+            <surname>Ringeissen</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 17th International Conference on Foundations of Software Science and Computation Structures (FoSSaCS'14)</title>
+        <title level="s">LNCS</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">274-288</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid7" type="inproceedings" rend="foot" n="footcite:MaudeNPA09">
+      <analytic>
+        <title level="a">Maude-NPA: Cryptographic Protocol Analysis Modulo Equational Properties</title>
+        <author>
+          <persName>
+            <foreName>Santiago</foreName>
+            <surname>Escobar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Catherine</foreName>
+            <surname>Meadows</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>José</foreName>
+            <surname>Meseguer</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Foundations of Security Analysis and Design V</title>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">5705</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">1-50</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid2" type="inproceedings" rend="foot" n="footcite:Gollmann1996">
+      <analytic>
+        <title level="a">What do we mean by entity authentication?</title>
+        <author>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Gollmann</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. Symposium on Security and Privacy (SP'96)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Comp. Soc. Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <biblScope type="pages">46–54</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid28" type="inproceedings" rend="foot" n="footcite:GRCC-csf15">
+      <analytic>
+        <title level="a">Du-Vote: Remote Voting with Untrusted Computers</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Grewal</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Ryan</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Chen</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Clarkson</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 28th IEEE Computer Security Foundations Symposium (CSF'11)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid1" type="article" rend="foot" n="footcite:herzog06applying">
+      <analytic>
+        <title level="a">Applying protocol analysis to security device interfaces</title>
+        <author>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Herzog</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Security &amp; Privacy Magazine</title>
+        <imprint>
+          <biblScope type="volume">4</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>July-Aug</month>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">84–87</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid9" type="inproceedings" rend="foot" n="footcite:SMCB-cav13">
+      <analytic>
+        <title level="a">The TAMARIN Prover for the Symbolic Analysis of Security Protocols</title>
+        <author>
+          <persName>
+            <foreName>Benedikt</foreName>
+            <surname>Schmidt</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Simon</foreName>
+            <surname>Meier</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Cas</foreName>
+            <surname>Cremers</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Basin</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. 25th International Conference on Computer Aided Verification (CAV'13)</title>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">8044</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">696-701</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="pesto-2016-bid24" type="inproceedings" rend="foot" n="footcite:Sofronie-Stokkermans-CADE09">
+      <analytic>
+        <title level="a">Locality Results for Certain Extensions of Theories with Bridging Functions</title>
+        <author>
+          <persName>
+            <foreName>Viorica</foreName>
+            <surname>Sofronie-Stokkermans</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Renate A.</foreName>
+            <surname>Schmidt</surname>
+            <initial>R. A.</initial>
+          </persName>
+        </editor>
+        <title level="m">Automated Deduction - CADE-22, 22nd International Conference on Automated Deduction, Montreal, Canada, August 2-7, 2009. Proceedings</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">5663</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">67–83</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

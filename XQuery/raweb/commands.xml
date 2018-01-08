@@ -1,0 +1,2622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="commands" isproject="true">
+    <shortname>COMMANDS</shortname>
+    <projectName>Control, Optimization, Models, Methods and Applications for Nonlinear Dynamical Systems</projectName>
+    <theme-de-recherche>Optimization and control of dynamic systems</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/commands</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Centre de Mathématiques Appliquées (CMAP)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Labs">
+      <libelle>Unité de Mathématiques Appliquées (UMA - ENSTA)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole Polytechnique</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole nationale supérieure des techniques avancées</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2009 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>6.3.2. - Data assimilation</term>
+      <term>6.4.1. - Deterministic control</term>
+      <term>6.4.2. - Stochastic control</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4.4.1. - Smart grids</term>
+      <term>7.1.2. - Road traffic</term>
+      <term>7.1.3. - Air traffic</term>
+      <term>7.2.1. - Smart vehicles</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="commands-2016-idp114720">
+      <firstname>J. Frédéric</firstname>
+      <lastname>Bonnans</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="commands-2014-idp66824">
+      <firstname>Axel</firstname>
+      <lastname>Kröner</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="commands-2014-idp68104">
+      <firstname>Pierre</firstname>
+      <lastname>Martinon</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="commands-2016-idp122592">
+      <firstname>Jinyan</firstname>
+      <lastname>Liu</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Feb 2016</moreinfo>
+    </person>
+    <person key="commands-2014-idp82984">
+      <firstname>Benjamin</firstname>
+      <lastname>Heymann</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, until Sep 2016</moreinfo>
+    </person>
+    <person key="commands-2016-idp127472">
+      <firstname>Arthur</firstname>
+      <lastname>Le Rhun</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ifpen, from Apr 2016</moreinfo>
+    </person>
+    <person key="commands-2015-idp75136">
+      <firstname>Cédric</firstname>
+      <lastname>Rommel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Safety Line, granted by CIFRE</moreinfo>
+    </person>
+    <person key="commands-2014-idp73120">
+      <firstname>Jessica</firstname>
+      <lastname>Gameiro</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="commands-2016-idp134816">
+      <firstname>Luis Alberto</firstname>
+      <lastname>Croquevielle</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, intern, until Mar 2016</moreinfo>
+    </person>
+    <person key="commands-2014-idp87896">
+      <firstname>Justina</firstname>
+      <lastname>Gianatti</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>U. Rosario (Argentina), intern, until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Scientific directions</bodyTitle>
+      <p>Commands is a team devoted to dynamic optimization, both for deterministic and stochastic systems.
+This includes the following approaches: trajectory optimization, deterministic and stochastic optimal control, stochastic programming,
+dynamic programming and Hamilton-Jacobi-Bellman equation.</p>
+      <p>Our aim is to derive new and powerful algorithms for solving numerically these problems, with applications in several industrial fields.
+While the numerical aspects are the core of our approach it happens that the study of convergence of these algorithms and the verification
+of their well-posedness and accuracy raises interesting and difficult theoretical questions, such as, for trajectory optimization:
+qualification conditions and second-order optimality condition, well-posedness of the shooting algorithm, estimates for discretization errors;
+for the Hamilton-Jacobi-Bellman approach: accuracy estimates, strong uniqueness principles when state constraints are present,
+for stochastic programming problems: sensitivity analysis.</p>
+    </subsection>
+    <subsection id="uid4" level="1">
+      <bodyTitle>Industrial impact</bodyTitle>
+      <p>For many years the team members have been deeply involved in various industrial applications, often in the framework of PhD
+theses. The Commands team itself has dealt since its
+foundation in 2009 with several types of applications:</p>
+      <simplelist>
+        <li id="uid5">
+          <p noindent="true">Space vehicle trajectories, in collaboration with CNES, the French space agency.</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Aeronautics, in collaboration with the startup Safety Line.</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">Production, management, storage and trading of energy resources, in collaboration with EDF, GDF and TOTAL.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">Energy management for hybrid vehicles, in collaboration with Renault and IFPEN.</p>
+        </li>
+      </simplelist>
+      <p>We give more details in the Bilateral contracts section.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid9">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Historical aspects</bodyTitle>
+      <p>The roots of deterministic optimal control are the “classical” theory of the calculus of variations, illustrated by the work of Newton, Bernoulli,
+Euler, and Lagrange (whose famous multipliers were introduced in <ref xlink:href="#commands-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), with improvements due to the “Chicago school”,
+Bliss <ref xlink:href="#commands-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> during the first part of the 20th century, and by the notion of relaxed problem and generalized solution (Young <ref xlink:href="#commands-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p><i>Trajectory optimization</i> really started with the spectacular achievement done by Pontryagin's group <ref xlink:href="#commands-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> during the fifties,
+by stating, for general optimal control problems, nonlocal optimality conditions generalizing those of Weierstrass.
+This motivated the application to many industrial problems (see the classical books by Bryson and Ho <ref xlink:href="#commands-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, Leitmann <ref xlink:href="#commands-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+Lee and Markus <ref xlink:href="#commands-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, Ioffe and Tihomirov <ref xlink:href="#commands-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p><i>Dynamic programming</i> was introduced and systematically studied by R. Bellman during the fifties. The HJB equation, whose solution is the
+value function of the (parameterized) optimal control problem, is a variant of the classical Hamilton-Jacobi equation of mechanics
+for the case of dynamics parameterized by a control variable. It may be viewed as a differential form of the dynamic programming principle.
+This nonlinear first-order PDE appears to be well-posed in the framework of <i>viscosity solutions</i> introduced by Crandall and Lions
+<ref xlink:href="#commands-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The theoretical contributions in this direction did not cease growing, see the books by Barles <ref xlink:href="#commands-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and Bardi and Capuzzo-Dolcetta <ref xlink:href="#commands-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Trajectory optimization</bodyTitle>
+      <p>The so-called <i>direct methods</i> consist in an optimization of the trajectory, after having discretized time, by a nonlinear programming solver that possibly
+takes into account the dynamic structure. So the two main problems are the choice of the discretization and the nonlinear programming algorithm.
+A third problem is the possibility of refinement of the discretization once after solving on a coarser grid.</p>
+      <p>In the <i>full discretization approach</i>, general Runge-Kutta schemes with different values of control for each inner step are used. This allows to obtain and
+control high orders of precision, see Hager <ref xlink:href="#commands-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, Bonnans <ref xlink:href="#commands-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In an interior-point algorithm context, controls can be eliminated
+and the resulting system of equation is easily solved due to its band structure. Discretization errors due to constraints are discussed in Dontchev et al.
+<ref xlink:href="#commands-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. See also Malanowski et al. <ref xlink:href="#commands-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In the <i>indirect</i> approach, the control is eliminated thanks to Pontryagin's maximum principle. One has then to solve the two-points boundary value problem
+(with differential variables state and costate) by a single or multiple shooting method. The questions are here the choice of a discretization scheme for the
+integration of the boundary value problem, of a (possibly globalized) Newton type algorithm for solving the resulting finite dimensional problem
+in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mrow><mi>I</mi><mspace width="-1.70717pt"/><mi>R</mi></mrow><mi>n</mi></msup></math></formula> (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> is the number of state variables), and a methodology for finding an initial point.</p>
+      <p>For state constrained problems or singular arcs, the formulation of the shooting function may be quite elaborate <ref xlink:href="#commands-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#commands-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#commands-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+As initiated in <ref xlink:href="#commands-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we focus more specifically on the handling of discontinuities, with ongoing work on the geometric integration aspects
+(Hamiltonian conservation).
+</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Hamilton-Jacobi-Bellman approach</bodyTitle>
+      <p>This approach consists in calculating the value function associated with the optimal control problem, and then synthesizing the feedback control
+and the optimal trajectory using Pontryagin's principle. The method has the great particular advantage of reaching directly the global optimum,
+which can be very interesting when the problem is not convex.</p>
+      <p><i>Characterization of the value function</i>
+&gt;From the dynamic programming principle, we derive a characterization of the value function as being a solution (in viscosity sense) of an
+Hamilton-Jacobi-Bellman equation, which is a nonlinear PDE of dimension equal to the number n of state variables.
+Since the pioneer works of Crandall and Lions <ref xlink:href="#commands-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, many theoretical contributions were carried out,
+allowing an understanding of the properties of the value function as well as of the set of admissible trajectories.
+However, there remains an important effort to provide for the development of effective and adapted numerical tools, mainly because of numerical
+complexity (complexity is exponential with respect to n).</p>
+      <p><i>Optimal stochastic control problems</i> occur when the dynamical system is
+uncertain. A decision typically has to be taken at each time, while
+realizations of future events are unknown (but some information is given
+on their distribution of probabilities).
+In particular, problems of economic nature deal with large uncertainties
+(on prices, production and demand).
+Specific examples are the portfolio selection problems in a market with risky
+and non-risky assets, super-replication with uncertain volatility,
+management of power resources (dams, gas).
+Air traffic control is another example of such problems.</p>
+      <p><i>Nonsmoothness of the value function</i>.
+Sometimes the value function is smooth
+and the associated HJB equation can be solved explicitly.
+Still, the value function is not smooth enough to satisfy the
+HJB equation in the classical sense. As for the deterministic
+case, the notion of viscosity solution provides a convenient framework for
+dealing with the lack of smoothness, see Pham <ref xlink:href="#commands-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+that happens also to be
+well adapted to the study of discretization errors for numerical
+discretization schemes <ref xlink:href="#commands-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#commands-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>For solving stochastic control problems,
+we studied the so-called Generalized Finite Differences (GFD), that
+allow to choose at any node, the stencil approximating the diffusion
+matrix up to a certain threshold <ref xlink:href="#commands-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Determining the stencil and the associated coefficients boils down to
+a quadratic program to be solved at each point of the grid, and for each
+control. This is definitely expensive, with the exception of special
+structures where the coefficients can be computed at low cost.
+For two dimensional systems, we designed a (very) fast algorithm for
+computing the coefficients of the GFD scheme, based on the Stern-Brocot
+tree <ref xlink:href="#commands-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid13">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Fuel saving by optimizing airplanes trajectories</bodyTitle>
+      <p>We have a collaboration with the startup Safety Line on the optimization of
+trajectories for civil aircrafts. Key points include the reliable identification
+of the plane parameters (aerodynamic and thrust models) using data from the flight
+recorders, and the robust trajectory optimization of the climbing and
+cruise phases.
+We use both local (quasi-Newton interior-point algorithms)
+and global optimization tools (dynamic programming).
+</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Hybrid vehicles</bodyTitle>
+      <p>We started a collaboration with IFPEN on the energy management for hybrid vehicles.
+A significant direction is the analysis and classification of traffic
+data.
+We have preliminary results on the choice of the routing which amounts
+to some type of constrained shortest path.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid16">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>We started at the beginning of 2016 an
+Innovation Lab (Ilab) 'OSCAR', jointly with the startup
+Safety Line. The subject of the Ilab is the design of
+algorithmic tools for the (i) identification of aircraft dynamics,
+based on flight data recorders, and (ii) the computation of
+energy efficient flight trajectories.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid18">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid19" level="1">
+      <bodyTitle>BOCOP</bodyTitle>
+      <p>Boite à Outils pour le Contrôle OPtimal</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Energy management - Numerical optimization - Biology - Identification - Dynamic Optimization - Transportation</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Bocop is an open-source toolbox for solving optimal control problems, with collaborations with industrial and academic partners.
+Optimal control (optimization of dynamical systems governed by differential equations) has numerous applications in transportation, energy, process optimization, energy and biology.
+Bocop includes a module for parameter identification and a graphical interface, and runs under Linux / Windows / Mac.</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Participants: Joseph Frédéric Bonnans, Pierre Martinon, Benjamin Heymann and Jinyan Liu</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Contact: Pierre Martinon</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="http://bocop.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>bocop.<allowbreak/>org</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Bocop Avion</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Optimization - Aeronautics</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Optimize the climb speeds and associated fuel consumption for the flight planning of civil airplanes.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Joseph Frédéric Bonnans, Pierre Martinon, Stéphan Maindrault, Cindie Andrieu, Pierre Jouniaux and Karim Tekkal</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Pierre Martinon</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="http://www.safety-line.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>safety-line.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Bocop HJB</bodyTitle>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participants: Joseph Frédéric Bonnans, Pierre Martinon, Benjamin Heymann and Jinyan Liu</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Joseph Frédéric Bonnans</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">URL: <ref xlink:href="http://bocop.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>bocop.<allowbreak/>org</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid31">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Optimal control of ordinary and
+partial differential equations</bodyTitle>
+      <subsection id="uid33" level="2">
+        <bodyTitle>On the Design of Optimal Health Insurance Contracts under Ex Post Moral Hazard</bodyTitle>
+        <participants>
+          <person key="commands-2014-idp68104">
+            <firstname>Pierre</firstname>
+            <lastname>Martinon</lastname>
+          </person>
+        </participants>
+        <p>With Pierre Picard and Anasuya Raj, Ecole Polytechnique.</p>
+        <p noindent="true">We analyze in <ref xlink:href="#commands-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+the design of optimal medical insurance under ex post moral hazard, i.e., when illness severity cannot be observed by insurers and policyholders decide on their health expenditures. We characterize the trade-o§ between ex ante risk sharing and ex post incentive compatibility, in an optimal revelation mechanism under hidden information and risk aversion. We establish that the optimal contract provides partial insurance at the margin, with a deductible when insurersí rates are a§ected by a positive loading, and that it may also include an upper limit on coverage. We show that the potential to audit the health state leads to an upper limit on out-of-pocket expenses.</p>
+      </subsection>
+      <subsection id="uid34" level="2">
+        <bodyTitle>Optimal control of infinite dimensional bilinear systems: application to the heat and wave equations</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp66824">
+            <firstname>Axel</firstname>
+            <lastname>Kröner</lastname>
+          </person>
+        </participants>
+        <p>With Soledad Aronna, FGV, Rio de Janeiro.
+In this paper <ref xlink:href="#commands-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we consider second order optimality conditions for a bilinear optimal control problem governed by a strongly continuous semigroup operator, the control entering linearly in the cost function. We derive first and second order optimality conditions, taking advantage of the Goh transform. We then apply the results to the heat and wave equations.</p>
+      </subsection>
+      <subsection id="uid35" level="2">
+        <bodyTitle>Optimal control of PDEs in a complex space setting; application to the Schrödinger equation</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp66824">
+            <firstname>Axel</firstname>
+            <lastname>Kröner</lastname>
+          </person>
+        </participants>
+        <p>With Soledad Aronna, FGV, Rio de Janeiro.
+This paper <ref xlink:href="#commands-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+presents some optimality conditions for abstract optimization problems over complex spaces. We then apply these results to optimal control problems with a semigroup structure. As an application we detail the case when the state equation is the Schrödinger one, with pointwise constraints on the "bilinear'" control. We derive first and second order optimality conditions and address in particular the case that the control enters the state equation and cost function linearly.</p>
+      </subsection>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Approximation and reduction of optimal control problems in infinite dimension</bodyTitle>
+        <participants>
+          <person key="commands-2014-idp66824">
+            <firstname>Axel</firstname>
+            <lastname>Kröner</lastname>
+          </person>
+        </participants>
+        <p>With Michael D. Chekroun, UCLA) and H. Liu, Virginia Tech.
+Nonlinear optimal control problems in infinite dimensions are considered for which we establish approximation theorems and reduction procedures. Approximation theorems and reduction procedures are available in the literature. The originality of our approach relies on a combination of Galerkin approximation techniques with reduction techniques based on finite-horizon parameterizing manifolds. The numerical approximation of the control in a feedback form based on Hamilton-Jacobi-Equation become also affordable within this approach. The approach is applied to optimal control problems of delay differential equations and nonlinear parabolic equations.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>Stochastic control, electricity production and planning</bodyTitle>
+      <subsection id="uid38" level="2">
+        <bodyTitle>MIDAS: A Mixed Integer Dynamic Approximation Scheme</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+        </participants>
+        <p>With Andy Philpott and Faisal Wahid, U. Auckland.
+Mixed Integer Dynamic Approximation Scheme (MIDAS)
+<ref xlink:href="#commands-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+is a new
+sampling-based algorithm for solving finite-horizon stochastic dynamic
+programs with monotonic Bellman functions. MIDAS approximates these
+value functions using step functions, leading to stage problems that
+are mixed integer programs. We provide a general description of MIDAS,
+and prove its almost-sure convergence to an epsilon-optimal policy
+when the Bellman functions are known to be continuous, and the
+sampling process satisfies standard assumptions.</p>
+      </subsection>
+      <subsection id="uid39" level="2">
+        <bodyTitle>Long term aging : an adaptative weights dynamic programming algorithm</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp82984">
+            <firstname>Benjamin</firstname>
+            <lastname>Heymann</lastname>
+          </person>
+          <person key="commands-2014-idp68104">
+            <firstname>Pierre</firstname>
+            <lastname>Martinon</lastname>
+          </person>
+        </participants>
+        <p>We introduce <ref xlink:href="#commands-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+a class of optimal control problems with periodic data. A state variable that we call the age of the system represents the negative impact of the operations on the system qualities over time: other things being equal, older systems have higher operating costs. Many industrial problems relate to this class. If we envision to perform an optimization over a large number of periods, there is a tradeoff between minimizing repeatedly the one-period criterion in a short sighted way and taking into account the impact of the decision on the aging speed (which modifies the minimal one period criterion). In general, because the aging process is slow, short term optimization strategies-such as one period sliding horizon strategies-either neglect it or use rule-of-thumb penalization terms in the criterion, which leads to suboptimal solutions. On the other hand, for most applications it is unrealistic to envision a brute-force numerical resolution by dynamic programming of the long term problem because of the computation burden. We introduce a two-scale method to reduce this computation burden. The method relies on Lagrangian duality and some monotony properties. We expose the theoretical foundations of the method and discuss some practical aspects: approximation errors, asymptotic estimation, computation burden, possible extensions, etc. Since our initial motivation was the difficulty to take long term battery aging in Energy Management Systems into account, we implement the method on a toy long term microgrid energy management problem.</p>
+      </subsection>
+      <subsection id="uid40" level="2">
+        <bodyTitle> Continuous Optimal Control Approaches to Microgrid Energy Management</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp82984">
+            <firstname>Benjamin</firstname>
+            <lastname>Heymann</lastname>
+          </person>
+          <person key="commands-2014-idp68104">
+            <firstname>Pierre</firstname>
+            <lastname>Martinon</lastname>
+          </person>
+        </participants>
+        <p>With
+Francisco Silva XLIM, U. Limoges, Fernando Lanas and Guillermo Jimenez, U. Chile.</p>
+        <p>We propose in <ref xlink:href="#commands-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+a novel method for the microgrid energy management problem by introducing a continuous-time, rolling horizon formulation. The energy management problem is formulated as a deterministic optimal control problem (OCP). We solve (OCP) with two classical approaches: the direct method [1], and Bellman's Dynamic Programming Principle (DPP) [2]. In both cases we use the optimal control toolbox BOCOP [3] for the numerical simulations. For the DPP approach we implement a semi-Lagrangian scheme [4] adapted to handle the optimization of switching times for the on/off modes of the diesel generator. The DPP approach allows for an accurate modeling and is computationally cheap. It finds the global optimum in less than 3 seconds, a CPU time similar to the Mixed Integer Linear Programming (MILP) approach used in [5]. We achieve this performance by introducing a trick based on the Pontryagin Maximum Principle (PMP). The trick increases the computation speed by several orders and also improves the precision of the solution. For validation purposes, simulation are performed using datasets from an actual isolated microgrid located in northern Chile. Results show that DPP method is very well suited for this type of problem when compared with the MILP approach.</p>
+      </subsection>
+      <subsection id="uid41" level="2">
+        <bodyTitle>A Stochastic Continuous Time Model for Microgrid Energy Management</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp82984">
+            <firstname>Benjamin</firstname>
+            <lastname>Heymann</lastname>
+          </person>
+        </participants>
+        <p>With Francisco Silva XLIM U. Limoges, Guillermo Jimenez, U. Chile.</p>
+        <p>We propose in <ref xlink:href="#commands-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+a novel stochastic control formulation for the microgrid
+energy management problem and extend previous works on continuous
+time rolling horizon strategy to uncertain demand. We modelize the
+demand dynamics with a stochastic differential equation. We decompose
+this dynamics into three terms: an average drift, a time-dependent
+mean-reversion term and a Brownian noise. We use BOCOPHJB for the
+numerical simulations. This optimal control toolbox implements a
+semi-Lagrangian scheme and handle the optimization of switching times
+required for the discrete on/off modes of the diesel generator. The
+scheme allows for an accurate modelling and is computationally cheap
+as long as the state dimension is small. As described in previous
+works, we use a trick to reduce the search of the optimal control
+values to six points. This increases the computation speed by several
+orders. We compare this new formulation with the deterministic
+control approach using data from an isolated
+microgrid located in northern Chile.</p>
+      </subsection>
+      <subsection id="uid42" level="2">
+        <bodyTitle>Mechanism Design and Auctions for Electricity Network</bodyTitle>
+        <participants>
+          <person key="commands-2014-idp82984">
+            <firstname>Benjamin</firstname>
+            <lastname>Heymann</lastname>
+          </person>
+        </participants>
+        <p>With Alejandro Jofré, CMM - Center for Mathematical Modeling,
+U. Chile, Santiago.
+We present in <ref xlink:href="#commands-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+some key aspects of wholesale electricity markets modeling and more specifically focus our attention on auctions and mechanism design. Some of the results arising from those models are the computation of an optimal allocation for the Independent System Operator, the study of the equilibria (existence and unicity in particular) and the design of mechanisms to increase the social surplus. From a more general perspective, this field of research provides clues to discuss how wholesale electricity market should be regulated. We start with a general introduction and then present some results the authors obtained recently. We also briefly expose some undergoing related work. As an illustrative example, a section is devoted to the computation of the Independent System Operator response function for a symmetric binodal setting with piece-wise linear production cost functions.</p>
+      </subsection>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Mechanism design and allocation algorithms for network
+markets with piece-wise linear costs and externalities</bodyTitle>
+        <participants>
+          <person key="commands-2014-idp82984">
+            <firstname>Benjamin</firstname>
+            <lastname>Heymann</lastname>
+          </person>
+        </participants>
+        <p>With Alejandro Jofré, CMM - Center for Mathematical Modeling,
+U. Chile, Santiago.
+In <ref xlink:href="#commands-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+motivated by market power in electricity market, we introduce a mechanism design for simplified markets of two agents with linear production cost functions. In standard procurement auctions, the market power resulting from the quadratic transmission losses allow the producers to bid above their true value (i.e. production cost). The mechanism proposed in the previous paper reduces the producers margin to the society benefit. We extend those results to a more general market made of a finite number of agents with piecewise linear cost functions, which make the problem more difficult, but at the same time more realistic. We show that the methodology works for a large class of externalities. We also provide two algorithms to solve the principal allocation problem.</p>
+      </subsection>
+      <subsection id="uid44" level="2">
+        <bodyTitle>Variational analysis for options with stochastic volatility and multiple factors</bodyTitle>
+        <participants>
+          <person key="commands-2016-idp114720">
+            <firstname>J. Frédéric</firstname>
+            <lastname>Bonnans</lastname>
+          </person>
+          <person key="commands-2014-idp66824">
+            <firstname>Axel</firstname>
+            <lastname>Kröner</lastname>
+          </person>
+        </participants>
+        <p>In this ongoing work we discuss the
+variational analysis for stochastic volatility models with correlation and their applications for the pricing equations for European options is discussed. The considered framework is based on weigthed Sobolev spaces. Furthermore, to verify continuity of the rate term in the pricing equation an approach based on commutator analysis is developed.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid45">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Ifpen</bodyTitle>
+        <p>In the framework of the PhD thesis of Arthur Le Rhun, we study the energy management of hybrid (parallel) vehicles, and more specifically the optimal use of the thermal engine.
+Before the PhD, a 4-month internship was focused on the eco-routing problem for hybrid vehicles, ie computing the optimal path.
+We proposed a method based on graphs: the road network is defined by a graph, and to take into account the hybrid aspect of the vehicle, we dicretized the State of Charge on each node.
+Then a simple shortest path algorithm (A*) applied to this extended graph is able to solve the routing problem.
+Numerical simulations indicate that the solution of our discrete eco-routing problem converges to the correct solution when a sufficiently fine discretization of SoC is used.
+We illustrate the method on the Ille-et-Vilaine department, see Fig. <ref xlink:href="#uid48" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and Table <ref xlink:href="#uid49" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The main disadvantage of the method is the increasingly large computation time when the size of the extended graph grows.</p>
+        <object id="uid48">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/ille.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+        </object>
+        <table id="uid49" rend="display">
+          <tr style="border-top-style:solid;border-top-width:1px;border-bottom-style:solid; border-bottom-width:1px;" top-border="true" bottom-border="true">
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="right">SoC disc.</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">improved cases</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">Fuel savings</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">CPU time (s)</td>
+          </tr>
+          <tr style="">
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="right">3</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">19%</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">0.9753</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">6.03</td>
+          </tr>
+          <tr style="">
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="right">5</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">65%</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">0.8531</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">14.64</td>
+          </tr>
+          <tr style="">
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="right">10</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">88%</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">0.5831</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">52.80</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="right">20</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">88%</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">0.4222</td>
+            <td style="text-align:right;border-right-style:solid;border-right-width:1px;" right-border="true" halign="right">283.43</td>
+          </tr>
+          <caption>Results on the Ille-et-Vilaine department over 100 simulations</caption>
+        </table>
+      </subsection>
+      <subsection id="uid50" level="2">
+        <bodyTitle>Safety Line</bodyTitle>
+        <p>In the framework of an Ilab with Safety Line (a startup in aeronautics), we design tools for the optimization of fuel consumption for civil planes.
+A first part is devoted to the identification of the aerodynamic and thrust characteristics of the plane, using recorded data from hundreds of flights.
+Fig. <ref xlink:href="#uid51" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows the drag and lift coefficients for a Boeing 737, as functions of Mach and angle of attack.
+A second part is optimizing the fuel consumption during the climb and cruise phases.
+Fig. <ref xlink:href="#uid52" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows a simulated climb phase, along with recorded data from the actual flight.
+This collaboration relies significantly on the toolboxes <span class="smallcap" align="left">Bocop</span> and <span class="smallcap" align="left">BocopHJB</span> developed by Commands since 2010.</p>
+        <object id="uid51">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/aero.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+        </object>
+        <object id="uid52">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/9246.png" type="float" width="320.25pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+        </object>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid53">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <simplelist>
+        <li id="uid55">
+          <p noindent="true">Gaspard Monge Program for Optimization and Operational Research
+(Fondation Jacques Hadamard)</p>
+          <formula type="display">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+              <mtable>
+                <mtr>
+                  <mtd columnalign="left">
+                    <mtext>Title</mtext>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mo>:</mo>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Optimal</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>control</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>of</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>partial</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>differential</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>equations</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>using</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>parameterizing</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>manifolds</mtext>
+                      <mo>,</mo>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd/>
+                  <mtd/>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>model</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>reduction,</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>and</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>dynamic</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>programming</mtext>
+                      <mo>,</mo>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd columnalign="left">
+                    <mtext>Funding</mtext>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mo>:</mo>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>9,000</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Euro</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(for</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>2015-16),</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>10,000</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Euro</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(for</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>2016-17)</mtext>
+                      <mspace width="4.pt"/>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd columnalign="left">
+                    <mtext>PI</mtext>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mo>:</mo>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Axel</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Kröner</mtext>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd columnalign="left">
+                    <mtext>Period</mtext>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mo>:</mo>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mn>2015</mn>
+                      <mo>-</mo>
+                      <mn>2017</mn>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Further</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>members</mtext>
+                    </mrow>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mo>:</mo>
+                  </mtd>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Frédéric</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Bonnans</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(Inria</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Saclay</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>and</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>CMAP,</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>École</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Polytechnique),</mtext>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd/>
+                  <mtd/>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Mickaël</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Chekroun</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(UCLA,</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Los</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Angeles),</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Martin</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Gubisch</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(University</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>of</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Konstanz),</mtext>
+                    </mrow>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd/>
+                  <mtd/>
+                  <mtd columnalign="left">
+                    <mrow>
+                      <mtext>Karl</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Kunisch</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(University</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>of</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Graz),</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Hasnaa</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>Zidani</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>(ENSTA</mtext>
+                      <mspace width="4.pt"/>
+                      <mtext>ParisTech)</mtext>
+                      <mo>.</mo>
+                    </mrow>
+                  </mtd>
+                </mtr>
+              </mtable>
+            </math>
+          </formula>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid58" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <simplelist>
+            <li id="uid59">
+              <p noindent="true">Michael D. Chekroun, U.C.L.A, collaboration on the
+approximation and reduction of optimal control problems in infinite dimension.</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Alejandro Jofré, CMM, U. Chile, Santiago de Chile.
+Cosupervision of B. Heymann's PhD thesis.</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Pablo Lotito, U. Tandil, Argentina, supervision of
+Justina Gianatti's PhD.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid64">
+            <p noindent="true">M. Chekroun (University of California, Los Angeles), 12.-14.12.2016.</p>
+          </li>
+          <li id="uid65">
+            <p noindent="true">Johannes Pfefffer (Technische Universität München), 12.-14.12.2016.</p>
+          </li>
+        </simplelist>
+        <subsection id="uid66" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <simplelist>
+            <li id="uid67">
+              <p noindent="true">Luis Alberto Croquevielle Rendic:
+Classification of probability measures based on Optimal Transportation
+theory. January-March 2016.
+U. Catolica, Santiago, Chile.</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Justina Gianatti, Discretization of stochastic control problems,
+U. Rosario (Argentina), May-July 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid69">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid70" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid71" level="2">
+        <bodyTitle>Scientific events selection</bodyTitle>
+        <subsection id="uid72" level="3">
+          <bodyTitle>Member of the conference program committees</bodyTitle>
+          <simplelist>
+            <li id="uid73">
+              <p noindent="true">F. Bonnans, 14th EUROPT Workshop on Advances in Continuous
+Optimization, Poznań, July 3-6, 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid74" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid75" level="3">
+          <bodyTitle>Member of the editorial boards</bodyTitle>
+          <simplelist>
+            <li id="uid76">
+              <p noindent="true">F. Bonnans: Corresponding Editor of “ESAIM:COCV” (Control, Optimization and Calculus of Variations),
+and Associate Editor of “Applied Mathematics and Optimization”, “Optimization, Methods and Software”, and
+“Series on Mathematics and its Applications, Annals of The Academy of Romanian Scientists”.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid77" level="3">
+          <bodyTitle>Reviewer - Reviewing activities</bodyTitle>
+          <p>Reviews for major journals in the field such as
+Applied Mathematics and Optimization, Automatica,
+J. Diff. Equations, J. of Optimization Theory and Applications
+the SIAM J. Optimization, SIAM J. Control and Optimization,
+Inverse problems, Journal of Numerical Mathematics, Operations
+Research, Optimization, Process Control, Math. Reviews.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Invited talks</bodyTitle>
+        <simplelist>
+          <li id="uid79">
+            <p noindent="true">A. Kröner: Seminars in U. Konstanz, U. Hamburg, 2016.</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Minisymposium
+Numerical methods for time-dependent transportation and optimal control problems.
+Computational Methods in Applied Mathematics (CMAM), Jyväskyla,
+Finland, July 31-Aug. 6,2016;</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">Minisymposium 'Optimal Control - Theory and Applications',
+Emerging Trends in Applied Mathematics and Mechanics,
+Perpignan, May 30-June 3, 2016;</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">Minisymposium 'Numerical aspects of controllability of
+PDEs and inverse problems', CANUM (Congrès d'Analyse
+Numérique), Obernai,
+May 9-13, 2016;</p>
+          </li>
+          <li id="uid83">
+            <p noindent="true">A. Kröner:
+Workshop on <i>Numerical methods for Hamilton-Jacobi equations in optimal control and related fields</i>, Linz, Austria, Nov., 2016;</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Leadership within the scientific community</bodyTitle>
+        <simplelist>
+          <li id="uid85">
+            <p noindent="true">F. Bonnans: French representative to the IFIP-TC5 committee
+(International Federation of Information Processing; TC7 devoted to
+System Modeling and Optimization).</p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">F. Bonnans: member of the PGMO board and Steering Committee
+(Gaspard Monge Program for Optimization and Operations Research, EDF-FMJH).</p>
+          </li>
+          <li id="uid87">
+            <p noindent="true">F. Bonnans: member of the Broyden Prize committee (from the Journal Optimization Methods and Software).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid88" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid90">
+            <p noindent="true">Master :</p>
+            <p noindent="true">F. Bonnans: <i>Numerical analysis of partial differential equations
+arising in finance and stochastic control</i>, 36h, M2,
+Ecole Polytechnique and U. Paris 6, France.</p>
+            <p noindent="true">F. Bonnans: <i>Optimal control</i>, 15h, M2, Optimization master
+(U. Paris-Saclay) and Ensta, France.</p>
+            <p noindent="true">F. Bonnans: <i>Stochastic optimization</i>, 15h, M2, Optimization master
+(U. Paris-Saclay), France.</p>
+            <p noindent="true">A. Kröner : Optimal control of partial differential equations, 20h,
+M2, Optimization master (U. Paris-Saclay), France.</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid91">
+            <p noindent="true"><b>E-learning</b>
+F. Bonnans, several lecture notes on the page</p>
+            <p noindent="true">http://www.cmap.polytechnique.fr/<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>∼</mo></math></formula>bonnans/notes.html</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid93">
+            <p noindent="true">PhD : Benjamin Heymann,
+Dynamic optimization with uncertainty; application to energy production.
+Polytechnique fellowship, defense October 2016, F. Bonnans and A. Jofre.</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">PhD in progress :
+Cédric Rommel, Data exploration for the optimization of aircraft trajectories.
+Started November 2015, F. Bonnans and P. Martinon.
+CIFRE fellowship (Safety Line).</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true">PhD in progress :
+Arthur Le Rhun, Optimal and robust control of hybrid vehicles
+(IFPEN fellowship), started Sept. 2016, F. Bonnans and P. Martinon.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid96" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid97">
+            <p noindent="true">HDR Juries: F. Silva (Limoges), A. Rondepierre (Toulouse, rapporteur).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid98" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid99">
+          <p noindent="true">J.F. Bonnans: <i>Comment optimiser la gestion d'un micro-réseau
+électrique intelligent ?</i>
+Cahier de l'Institut Louis Bachelier N. 23 (2016), p. 12-13.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="commands-2016-bid43" type="article" rend="refer" n="refercite:aftalion:hal-00851182">
+      <identifiant type="hal" value="hal-00851182"/>
+      <analytic>
+        <title level="a">Optimization of running strategies based on anaerobic energy and variations of velocity</title>
+        <author>
+          <persName>
+            <foreName>Amandine</foreName>
+            <surname>Aftalion</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Journal of Applied Mathematics</title>
+        <imprint>
+          <biblScope type="volume">74</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">1615-1636</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00851182" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00851182</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid47" type="article" rend="refer" n="refercite:aronna:hal-01081111">
+      <identifiant type="hal" value="hal-01081111"/>
+      <analytic>
+        <title level="a">Second order analysis of state-constrained control-affine problems</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bean San</foreName>
+            <surname>Goh</surname>
+            <initial>B. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematical Programming, Series A</title>
+        <imprint>
+          <biblScope type="volume">160</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">115-147</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01081111" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01081111</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid46" type="article" rend="refer" n="refercite:aronna:hal-01273496">
+      <identifiant type="hal" value="hal-01273496"/>
+      <analytic>
+        <title level="a">Optimal Control of Infinite Dimensional Bilinear Systems: Application to the Heat and Wave Equations</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2015-idm28040">
+            <foreName>Joseph Fréderic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematical Programming B</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01273496" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01273496</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid41" type="article" rend="refer" n="refercite:aronna:inria-00631332">
+      <identifiant type="doi" value="10.1007/s10957-012-0254-8"/>
+      <identifiant type="hal" value="inria-00631332"/>
+      <analytic>
+        <title level="a">A Shooting Algorithm for Optimal Control Problems with Singular Arcs</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Optimization Theory and Applications</title>
+        <imprint>
+          <biblScope type="volume">158</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">419-459</biblScope>
+          <ref xlink:href="https://hal.inria.fr/inria-00631332" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00631332</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid48" type="article" rend="refer" n="refercite:bonnans:hal-00825273">
+      <identifiant type="doi" value="10.1137/130923452"/>
+      <identifiant type="hal" value="hal-00825273"/>
+      <analytic>
+        <title level="a">Second-order necessary conditions in Pontryagin form for optimal control problems</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="mokaplan-2014-idm27240">
+            <foreName>Xavier</foreName>
+            <surname>Dupuis</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="mctao-2014-idp69800">
+            <foreName>Laurent</foreName>
+            <surname>Pfeiffer</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Journal on Control and Optimization</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">3887-3916</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00825273" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00825273</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid42" type="article" rend="refer" n="refercite:bonnans:inria-00634387">
+      <identifiant type="doi" value="10.1007/s00245-013-9197-1"/>
+      <identifiant type="hal" value="inria-00634387"/>
+      <analytic>
+        <title level="a">A model-free no-arbitrage price bound for variance options</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Xiaolu</foreName>
+            <surname>Tan</surname>
+            <initial>X.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Applied Mathematics and Optimization</title>
+        <imprint>
+          <biblScope type="volume">68</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">43-73</biblScope>
+          <ref xlink:href="https://hal.inria.fr/inria-00634387" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00634387</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid44" type="article" rend="refer" n="refercite:bonnard:hal-00867753">
+      <identifiant type="doi" value="10.1007/s10440-014-9947-3"/>
+      <identifiant type="hal" value="hal-00867753"/>
+      <analytic>
+        <title level="a">Geometric and numerical methods in the contrast imaging problem in nuclear magnetic resonance</title>
+        <author>
+          <persName key="mctao-2014-idp60264">
+            <foreName>Bernard</foreName>
+            <surname>Bonnard</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Mathieu</foreName>
+            <surname>Claeys</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mctao-2014-idp72488">
+            <foreName>Olivier</foreName>
+            <surname>Cots</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Acta Applicandae Mathematicae</title>
+        <imprint>
+          <biblScope type="volume">135</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">5-45</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00867753" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00867753</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid45" type="article" rend="refer" n="refercite:giraldi:hal-01098501">
+      <identifiant type="hal" value="hal-01098501"/>
+      <analytic>
+        <title level="a">Optimal Design for Purcell Three-link Swimmer</title>
+        <author>
+          <persName key="numed-2014-idp110504">
+            <foreName>Laetitia</foreName>
+            <surname>Giraldi</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Marta</foreName>
+            <surname>Zoppello</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Physical Review</title>
+        <imprint>
+          <biblScope type="volume">91</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">023012</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01098501" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01098501</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid50" type="article" rend="refer" n="refercite:MR2801222">
+      <identifiant type="doi" value="10.1137/090766541"/>
+      <analytic>
+        <title level="a">Semismooth Newton methods for optimal control of the wave equation with control constraints</title>
+        <author>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karl</foreName>
+            <surname>Kunisch</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Boris</foreName>
+            <surname>Vexler</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Journal on Control and Optimization</title>
+        <imprint>
+          <biblScope type="volume">49</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">830–858</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/090766541" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>090766541</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid49" type="article" rend="refer" n="refercite:kroner:hal-00924089">
+      <identifiant type="doi" value="10.1051/cocv/2014033"/>
+      <identifiant type="hal" value="hal-00924089"/>
+      <analytic>
+        <title level="a">Optimal feedback control of undamped wave equations by solving a HJB equation</title>
+        <author>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karl</foreName>
+            <surname>Kunisch</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="commands-2014-idm25376">
+            <foreName>Hasnaa</foreName>
+            <surname>Zidani</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM: Control, Optimisation and Calculus of Variations</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">442 - 464</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00924089" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00924089</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid35" type="book" rend="year" n="cite:bonnans:hal-01422645">
+      <identifiant type="hal" value="hal-01422645"/>
+      <monogr x-scientific-popularization="no" x-international-audience="no">
+        <title level="m">Recherche opérationnelle. Aspects mathématiques et applications</title>
+        <author>
+          <persName key="commands-2014-idm26824">
+            <foreName>Frédéric</foreName>
+            <surname>Bonnans</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="maxplus-2014-idm7544">
+            <foreName>Stéphane</foreName>
+            <surname>Gaubert</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Ellipse</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">391</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01422645" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01422645</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid33" type="phdthesis" rend="year" n="cite:heymann:tel-01416404">
+      <identifiant type="hal" value="tel-01416404"/>
+      <monogr>
+        <title level="m">Mathematical contributions for the optimization and regulation of electricity production</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01416404" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01416404</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid34" type="article" rend="year" n="cite:aronna:hal-01081111">
+      <identifiant type="hal" value="hal-01081111"/>
+      <analytic>
+        <title level="a">Second order analysis of state-constrained control-affine problems</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bean San</foreName>
+            <surname>Goh</surname>
+            <initial>B. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01393">
+        <idno type="issn">0025-5610</idno>
+        <title level="j">Mathematical Programming, Series A</title>
+        <imprint>
+          <biblScope type="volume">160</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">115-147</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01081111" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01081111</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid25" type="article" rend="year" n="cite:aronna:hal-01273496">
+      <identifiant type="hal" value="hal-01273496"/>
+      <analytic>
+        <title level="a">Optimal Control of Infinite Dimensional Bilinear Systems: Application to the Heat and Wave Equations</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2015-idm28040">
+            <foreName>Joseph Fréderic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01393">
+        <idno type="issn">0025-5610</idno>
+        <title level="j">Mathematical Programming B</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01273496" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01273496</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid37" type="article" rend="year" n="cite:benlatifa:hal-01248282">
+      <identifiant type="doi" value="10.1142/S0219493716500167"/>
+      <identifiant type="hal" value="hal-01248282"/>
+      <analytic>
+        <title level="a">Numerical methods for an optimal multiple stopping problem</title>
+        <author>
+          <persName>
+            <foreName>Imène</foreName>
+            <surname>Ben Latifa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="commands-2015-idm28040">
+            <foreName>Joseph Fréderic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Mohamed</foreName>
+            <surname>Mnif</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01806">
+        <idno type="issn">0219-4937</idno>
+        <title level="j">Stochastics and Dynamics</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">27</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01248282" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01248282</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid40" type="article" rend="year" n="cite:bonnans:hal-01148272">
+      <identifiant type="doi" value="10.3934/mcrf.2016008"/>
+      <identifiant type="hal" value="hal-01148272"/>
+      <analytic>
+        <title level="a">On the convergence of the Sakawa-Shindo algorithm in stochastic control</title>
+        <author>
+          <persName key="commands-2014-idm26824">
+            <foreName>Frédéric J.</foreName>
+            <surname>Bonnans</surname>
+            <initial>F. J.</initial>
+          </persName>
+          <persName key="commands-2014-idp87896">
+            <foreName>Justina</foreName>
+            <surname>Gianatti</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Francisco José</foreName>
+            <surname>Silva</surname>
+            <initial>F. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02183">
+        <idno type="issn">2156-8472</idno>
+        <title level="j">Mathematical Control and Related Fields</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal-unilim.archives-ouvertes.fr/hal-01148272" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-unilim.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01148272</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid36" type="article" rend="year" n="cite:garcke:hal-01185912">
+      <identifiant type="hal" value="hal-01185912"/>
+      <analytic>
+        <title level="a">Suboptimal feedback control of PDEs by solving HJB equations on adaptive sparse grids</title>
+        <author>
+          <persName>
+            <foreName>Jochen</foreName>
+            <surname>Garcke</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01260">
+        <idno type="issn">0885-7474</idno>
+        <title level="j">Journal of Scientific Computing</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01185912" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01185912</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid39" type="article" rend="year" n="cite:hermosilla:hal-01055917">
+      <identifiant type="doi" value="10.1007/s11228-016-0368-5"/>
+      <identifiant type="hal" value="hal-01055917"/>
+      <analytic>
+        <title level="a">Legendre Transform and Applications to Finite and Infinite Optimization</title>
+        <author>
+          <persName key="commands-2014-idp81768">
+            <foreName>Cristopher</foreName>
+            <surname>Hermosilla</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01964">
+        <idno type="issn">1877-0533</idno>
+        <title level="j">Set-Valued and Variational Analysis</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01055917" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01055917</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid29" type="article" rend="year" n="cite:heymann:hal-01129393">
+      <identifiant type="hal" value="hal-01129393"/>
+      <analytic>
+        <title level="a">Continuous Optimal Control Approaches to Microgrid Energy Management</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Francisco</foreName>
+            <surname>Silva</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Fernando</foreName>
+            <surname>Lanas</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo</foreName>
+            <surname>Jimenez</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02656">
+        <idno type="issn">1868-3967</idno>
+        <title level="j">Energy Systems</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01129393" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01129393</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid38" type="article" rend="year" n="cite:kalise:hal-01120450">
+      <identifiant type="hal" value="hal-01120450"/>
+      <analytic>
+        <title level="a">Local minimization algorithms for dynamic programming equations</title>
+        <author>
+          <persName>
+            <foreName>Dante</foreName>
+            <surname>Kalise</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karl</foreName>
+            <surname>Kunisch</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01739">
+        <idno type="issn">1064-8275</idno>
+        <title level="j">SIAM Journal on Scientific Computing</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01120450" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01120450</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid30" type="inproceedings" rend="year" n="cite:heymann:hal-01314078">
+      <identifiant type="hal" value="hal-01314078"/>
+      <analytic>
+        <title level="a">A Stochastic Continuous Time Model for Microgrid Energy Management</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>J</foreName>
+            <surname>Frédéric Bonnans</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Francisco</foreName>
+            <surname>Silva</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo</foreName>
+            <surname>Jimenez</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECC2016</title>
+        <loc>Aalborg, Denmark</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01314078" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01314078</ref>
+        </imprint>
+        <meeting id="cid68828">
+          <title>European Control Conference</title>
+          <num>15</num>
+          <abbr type="sigle">ECC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid26" type="techreport" rend="year" n="cite:aronna:hal-01311421">
+      <identifiant type="hal" value="hal-01311421"/>
+      <monogr>
+        <title level="m">Optimal control of PDEs in a complex space setting; application to the Schrödinger equation</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2015-idm28040">
+            <foreName>Joseph Frédéric</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp66824">
+            <foreName>Axel</foreName>
+            <surname>Kröner</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01311421" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01311421</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid27" type="techreport" rend="year" n="cite:philpott:hal-01401950">
+      <identifiant type="hal" value="hal-01401950"/>
+      <monogr>
+        <title level="m">MIDAS: A Mixed Integer Dynamic Approximation Scheme</title>
+        <author>
+          <persName>
+            <foreName>Andy</foreName>
+            <surname>Philpott</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="commands-2014-idp86640">
+            <foreName>Faisal</foreName>
+            <surname>Wahid</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="commands-2014-idm26824">
+            <foreName>Frédéric</foreName>
+            <surname>Bonnans</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Saclay Ile de France</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">22</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01401950" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01401950</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid32" type="unpublished" rend="year" n="cite:heymann:hal-01416411">
+      <identifiant type="hal" value="hal-01416411"/>
+      <monogr>
+        <title level="m">Mechanism design and allocation algorithms for network markets with piece-wise linear costs and externalities</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Alejandro</foreName>
+            <surname>Jofré</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01416411" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01416411</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid31" type="unpublished" rend="year" n="cite:heymann:hal-01315844">
+      <identifiant type="hal" value="hal-01315844"/>
+      <monogr>
+        <title level="m">Mechanism Design and Auctions for Electricity Network</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Alejandro</foreName>
+            <surname>Jofré</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01315844" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01315844</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid28" type="unpublished" rend="year" n="cite:heymann:hal-01349932">
+      <identifiant type="hal" value="hal-01349932"/>
+      <monogr>
+        <title level="m">Long term aging : an adaptative weights dynamic programming algorithm</title>
+        <author>
+          <persName key="commands-2014-idp82984">
+            <foreName>Benjamin</foreName>
+            <surname>Heymann</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="commands-2014-idm26824">
+            <foreName>Frédéric</foreName>
+            <surname>Bonnans</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01349932" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01349932</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid24" type="unpublished" rend="year" n="cite:martinon:hal-01348551">
+      <identifiant type="hal" value="hal-01348551"/>
+      <monogr>
+        <title level="m">On the Design of Optimal Health Insurance Contracts under Ex Post Moral Hazard</title>
+        <author>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Picard</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Anasuya</foreName>
+            <surname>Raj</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal-polytechnique.archives-ouvertes.fr/hal-01348551" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-polytechnique.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01348551</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid17" type="article" rend="foot" n="footcite:AroBonMar11">
+      <analytic>
+        <title level="a">A Shooting Algorithm for Optimal Control Problems with Singular Arcs</title>
+        <author>
+          <persName>
+            <foreName>Maria Soledad</foreName>
+            <surname>Aronna</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Optimization Theory and Applications</title>
+        <imprint>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">Inria Report RR-7763, 2011</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid10" type="book" rend="foot" n="footcite:BarCap97">
+      <monogr>
+        <title level="m">Optimal control and viscosity solutions of Hamilton-Jacobi-Bellman equations</title>
+        <title level="s">Systems and Control: Foundations and Applications</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Bardi</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>I.</foreName>
+            <surname>Capuzzo-Dolcetta</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Birkhäuser, Boston</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid9" type="book" rend="foot" n="footcite:Bar94a">
+      <monogr>
+        <title level="m">Solutions de viscosité des équations de Hamilton-Jacobi</title>
+        <title level="s">Mathématiques et Applications</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Barles</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <publisher>
+            <orgName>Springer, Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1994</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid21" type="article" rend="foot" n="footcite:BarJak03">
+      <analytic>
+        <title level="a">Error bounds for monotone approximation schemes for Hamilton-Jacobi-Bellman equations</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Barles</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>E.R.</foreName>
+            <surname>Jakobsen</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">43</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">540–558</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid1" type="book" rend="foot" n="footcite:Bli46">
+      <monogr>
+        <title level="m">Lectures on the Calculus of Variations</title>
+        <author>
+          <persName>
+            <foreName>G.A.</foreName>
+            <surname>Bliss</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>University of Chicago Press<address><addrLine>Chicago, Illinois</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1946</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid15" type="article" rend="foot" n="footcite:BonHerSIAM07">
+      <analytic>
+        <title level="a">Well-Posedness of the Shooting Algorithm for State Constrained Optimal Control Problems with a Single Constraint and Control</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="spirals-2014-idp105344">
+            <foreName>A.</foreName>
+            <surname>Hermant</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Control Optimization</title>
+        <imprint>
+          <biblScope type="volume">46</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">1398–1430</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid16" type="article" rend="foot" n="footcite:BonHerIHP09">
+      <analytic>
+        <title level="a">Second-order Analysis for Optimal Control Problems with Pure State Constraints and Mixed Control-State Constraints</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="spirals-2014-idp105344">
+            <foreName>A.</foreName>
+            <surname>Hermant</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Annales de l'Institut Henri Poincaré. Analyse non linéaire</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">561-598</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid12" type="article" rend="foot" n="footcite:BonLauV04">
+      <analytic>
+        <title level="a">Computation of order conditions for symplectic partitioned Runge-Kutta schemes with application to optimal control</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Julien</foreName>
+            <surname>Laurent-Varin</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Numerische Mathematik</title>
+        <imprint>
+          <biblScope type="volume">103</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">1–10</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid23" type="article" rend="foot" n="footcite:BoOtZi04">
+      <analytic>
+        <title level="a">Numerical schemes for the two dimensional second-order HJB equation</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Ottenwaelter</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="commands-2014-idm25376">
+            <foreName>Hasnaa</foreName>
+            <surname>Zidani</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ESAIM: M2AN</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">723-735</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid22" type="article" rend="foot" n="footcite:BonZid03">
+      <analytic>
+        <title level="a">Consistency of generalized finite difference schemes for the stochastic HJB equation</title>
+        <author>
+          <persName key="commands-2016-idp114720">
+            <foreName>J. Frederic</foreName>
+            <surname>Bonnans</surname>
+            <initial>J. F.</initial>
+          </persName>
+          <persName key="commands-2014-idm25376">
+            <foreName>Hasnaa</foreName>
+            <surname>Zidani</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">41</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">1008-1021</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid4" type="book" rend="foot" n="footcite:BryHo75">
+      <monogr>
+        <title level="m">Applied optimal control</title>
+        <author>
+          <persName>
+            <foreName>A. E.</foreName>
+            <surname>Bryson</surname>
+            <initial>A. E.</initial>
+          </persName>
+          <persName>
+            <foreName>Y.-C.</foreName>
+            <surname>Ho</surname>
+            <initial>Y.-C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Hemisphere Publishing<address><addrLine>New-York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1975</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid8" type="article" rend="foot" n="footcite:CraLio83">
+      <analytic>
+        <title level="a">Viscosity solutions of Hamilton Jacobi equations</title>
+        <author>
+          <persName>
+            <foreName>M.G.</foreName>
+            <surname>Crandall</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>P.L.</foreName>
+            <surname>Lions</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Bull. American Mathematical Society</title>
+        <imprint>
+          <biblScope type="volume">277</biblScope>
+          <dateStruct>
+            <year>1983</year>
+          </dateStruct>
+          <biblScope type="pages">1–42</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid13" type="article" rend="foot" n="footcite:DonHagVel00">
+      <analytic>
+        <title level="a">Second-order Runge-Kutta approximations in control constrained optimal control</title>
+        <author>
+          <persName>
+            <foreName>A.L.</foreName>
+            <surname>Dontchev</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>W.W.</foreName>
+            <surname>Hager</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>V.M.</foreName>
+            <surname>Veliov</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM Journal on Numerical Analysis</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">202–226</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid18" type="article" rend="foot" n="footcite:GeMa07">
+      <analytic>
+        <title level="a">Using switching detection and variational equations for the shooting method</title>
+        <author>
+          <persName key="mctao-2014-idp68352">
+            <foreName>Joseph</foreName>
+            <surname>Gergaud</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="commands-2014-idp68104">
+            <foreName>Pierre</foreName>
+            <surname>Martinon</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Optimal Control Applications and Methods</title>
+        <imprint>
+          <biblScope type="volume">28</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">95–116</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid11" type="article" rend="foot" n="footcite:Hager00">
+      <analytic>
+        <title level="a">Runge-Kutta methods in optimal control and the transformed adjoint system</title>
+        <author>
+          <persName>
+            <foreName>W.W.</foreName>
+            <surname>Hager</surname>
+            <initial>W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Numerische Mathematik</title>
+        <imprint>
+          <biblScope type="volume">87</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">247–282</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid7" type="book" rend="foot" n="footcite:Iof79">
+      <monogr>
+        <title level="m">Theory of Extremal Problems</title>
+        <author>
+          <persName>
+            <foreName>A.D.</foreName>
+            <surname>Ioffe</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>V.M.</foreName>
+            <surname>Tihomirov</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>North-Holland Publishing Company, Amsterdam</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1979</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">Russian Edition: Nauka, Moscow, 1974</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid20" type="article" rend="foot" n="footcite:Kry00">
+      <analytic>
+        <title level="a">On the rate of convergence of finite-difference approximations for Bellman's equations with variable coefficients</title>
+        <author>
+          <persName>
+            <foreName>N.V.</foreName>
+            <surname>Krylov</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Probability Theory and Related Fields</title>
+        <imprint>
+          <biblScope type="volume">117</biblScope>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <biblScope type="pages">1–16</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid0" type="book" rend="foot" n="footcite:Lag1788">
+      <monogr>
+        <title level="m">Mécanique analytique</title>
+        <author>
+          <persName>
+            <foreName>J.-L.</foreName>
+            <surname>Lagrange</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1788</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">reprinted by J. Gabay, 1989</note>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid6" type="book" rend="foot" n="footcite:LeeMar67">
+      <monogr>
+        <title level="m">Foundations of optimal control theory</title>
+        <author>
+          <persName>
+            <foreName>E.B.</foreName>
+            <surname>Lee</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Markus</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>John Wiley, New York</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1967</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid5" type="book" rend="foot" n="footcite:Lei66">
+      <monogr>
+        <title level="m">An introduction to optimal control</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Leitmann</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Mc Graw Hill, New York</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1966</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid14" type="incollection" rend="foot" n="footcite:MBM98">
+      <analytic>
+        <title level="a">Convergence of approximations to nonlinear optimal control problems</title>
+        <author>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Malanowski</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Büskens</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Maurer</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Mathematical programming with data perturbations</title>
+        <loc>New York</loc>
+        <title level="s">Lecture Notes in Pure and Appl. Math.</title>
+        <imprint>
+          <biblScope type="volume">195</biblScope>
+          <publisher>
+            <orgName>Dekker</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1998</year>
+          </dateStruct>
+          <biblScope type="pages">253–284</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid19" type="book" rend="foot" n="footcite:Pham-book">
+      <monogr>
+        <title level="m">Optimisation et Contrôle Stochastique Appliqués à la Finance</title>
+        <author>
+          <persName key="genscale-2015-idp129112">
+            <foreName>H.</foreName>
+            <surname>Pham</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">61</biblScope>
+          <publisher>
+            <orgName>Springer Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid3" type="book" rend="foot" n="footcite:PBGM">
+      <monogr>
+        <title level="m">The Mathematical Theory of Optimal Processes</title>
+        <author>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Pontryagin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>V.</foreName>
+            <surname>Boltyanski</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Gamkrelidze</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Michtchenko</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Wiley Interscience, New York</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1962</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="commands-2016-bid2" type="book" rend="foot" n="footcite:You69">
+      <monogr>
+        <title level="m">Lectures on the calculus of variations and optimal control theory</title>
+        <author>
+          <persName>
+            <foreName>L.C.</foreName>
+            <surname>Young</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>W. B. Saunders Co.<address><addrLine>Philadelphia</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1969</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

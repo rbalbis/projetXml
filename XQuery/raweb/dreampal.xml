@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="dreampal" isproject="true">
+    <shortname>DREAMPAL</shortname>
+    <projectName>Dynamic Reconfigurable Massively Parallel Architectures and Languages</projectName>
+    <theme-de-recherche>Architecture, Languages and Compilation</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/dreampal/</urlTeam>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université des sciences et technologies de Lille (Lille 1)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2013 January 01, updated into Project-Team: 2015 January 01, end of the Project-Team: 2016 December 31</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.2. - Hardware accelerators (GPGPU, FPGA, etc.)</term>
+      <term>1.1.12. - Non-conventional architectures</term>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.4.2. - Model-checking</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>6.6. - Embedded systems</term>
+      <term>7.2.1. - Smart vehicles</term>
+    </keywordsSecteurs>
+    <UR name="Lille"/>
+  </identification>
+  <team id="uid1">
+    <person key="dreampal-2014-idm29400">
+      <firstname>Vlad</firstname>
+      <lastname>Rusu</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Team leader, Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dreampal-2015-idp62208">
+      <firstname>Ahmad Shadi</firstname>
+      <lastname>Aljendi</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I, Teaching Assistant, until Sep 2016</moreinfo>
+    </person>
+    <person key="dreampal-2014-idm26688">
+      <firstname>Rabie</firstname>
+      <lastname>Ben Atitallah</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Valenciennes, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dreampal-2014-idp66568">
+      <firstname>Jean-Luc</firstname>
+      <lastname>Dekeyser</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="dreampal-2014-idp68008">
+      <firstname>Frederic</firstname>
+      <lastname>Guyomarch</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I, Associate Professor</moreinfo>
+    </person>
+    <person key="dreampal-2014-idp69280">
+      <firstname>Philippe</firstname>
+      <lastname>Marquet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I, Associate Professor</moreinfo>
+    </person>
+    <person key="dreampal-2014-idp70536">
+      <firstname>Samy</firstname>
+      <lastname>Meftali</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I, Associate Professor</moreinfo>
+    </person>
+    <person key="dreampal-2014-idp78264">
+      <firstname>Karim</firstname>
+      <lastname>Ali</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Valenciennes, until Sep 2016</moreinfo>
+    </person>
+    <person key="dreampal-2014-idp79472">
+      <firstname>Wissem</firstname>
+      <lastname>Chouchene</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Univ. Lille I</moreinfo>
+    </person>
+    <person key="dreampal-2014-idp71984">
+      <firstname>Andrei</firstname>
+      <lastname>Arusoaie</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria, until Feb 2016</moreinfo>
+    </person>
+    <person key="modal-2014-idp81512">
+      <firstname>Corinne</firstname>
+      <lastname>Jamroz</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Lille</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Executive Summary</bodyTitle>
+      <p>Standard Integrated Circuits are reaching their limits and need to
+evolve in order to meet the requirements of next-generation
+computing. We anticipate that FPGAs (Field Programmable Gate Arrays)
+will play a major role in this evolution: FPGAs are currently only
+one or two generations behind the most advanced technologies for
+standard processors, and their application-specific hardware is an
+order of magnitude faster than software solutions on standard
+processors. One of the most promising evolutions are
+next-generation 3D-FPGAs, which, thanks to their fast
+reconfiguration and inherent parallelism, will enable users to build
+dynamically reconfigurable, massively parallel hardware
+architectures around them. This new paradigm opens many
+opportunities for research, since, to our best knowledge, there are
+no methodologies for building such architectures, and there are no
+dedicated languages for programming on them.</p>
+      <p>We shall thus address the following topics: proposing an execution
+model and a design environment, in which users can build customized
+massively parallel dynamically reconfigurable hardware architectures,
+benefiting from the reconfiguration speed and parallelism of
+3D-FPGAs; proposing dedicated languages for programming applications
+on such architectures; and designing software engineering tools for
+those languages: compilers, simulators, and formal verifiers. The
+overall objective is to enable an efficient and safe programming on
+the customized architectures. Our target application domain are
+embedded systems performing intensive signal/image processing (e.g.,
+smart cameras, radars, and set-top boxes)</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>New Models for New Technologies</bodyTitle>
+      <p>Over the past 25 years there have been several hardware-architecture generations dedicated to massively parallel computing. We have contributed to them in the past, and shall continue doing so in the Dreampal project. The three generations, chronologically ordered, are:</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true">Supercomputers from the 80s and 90s, based on massively parallel architectures that are more or less distributed (from the Cray T3D or Connection Machine CM2 to GRID 5000). Computer scientists have proposed methods and tools for mapping sequential algorithms to those parallel architectures in order to extract maximum power from them. We have contributed in this area in the past.</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">Parallelism pervades the chips! A new challenge appears:
+hardware/software co-design, in order to obtain performance gains by
+designing algorithms together with the parallel architectures of
+chips adapted to the algorithms. During the previous decade many
+studies, including ours in the Inria DaRT team, were dedicated to this type of co-design. DaRT has contributed to the development of the OMG MARTE standard (http://www.omgmarte.org) and to its implementation on several parallel platforms. Gaspard2, our implementation of this concept, was identified as one of the key software tools developed at Inria: <ref xlink:href="http://www.inria.fr/en/centre/lille/research/platforms-and-flagship-software/flagship-software" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>en/<allowbreak/>centre/<allowbreak/>lille/<allowbreak/>research/<allowbreak/>platforms-and-flagship-software/<allowbreak/>flagship-software</ref>.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">The new challenge of the 2010s is, in our opinion, the integration of dynamic reconfiguration and massive parallelism. New circuits with high-density integration and supporting dynamic hardware reconfiguration have been proposed. In such architectures one can dynamically change the architecture while an algorithm is running on it. The Dynamic Partial Reconfiguration (DPR) feature offered by recent FPGA boards even allows, in theory, to generate optimized hardware at runtime, by adding, removing, and replacing components on a by-need basis. This integration of dynamic reconfiguration and massive parallelism induces a new degree of complexity, which we, as computer scientists, need to understand and deal with order to make possible the design of applications running on such architectures. This is the main challenge that we address in the Dreampal project. We note that we adress these problems as computer scientists; we do, however, collaborate with electronics specialists in order to benefit from their expertise in 3-D FPGAs.</p>
+        </li>
+      </simplelist>
+      <p>Excerpt from the HiPEAC vision 2011/12</p>
+      <p rend="quoted">
+        <i>“The advent of 3D stacking enables higher levels of
+integration and reduced costs for off-chip communications. The
+overall complexity is managed due to the separation in different
+dies, independently designed.” </i>
+      </p>
+      <p>FPGAs (Field Programmable Gate Arrays) are configurable circuits that have emerged as a privileged target platform for intensive signal processing applications. FPGAs take advantage of the latest technological developments in circuits. For example, the Virtex7 from Xilinx offers a 28-nanometer integration, which is only one or two generations behind the latest general-purpose processors. 3D-Stacked Integrated Circuits (3D SICs) consist of two or more conventional 2D circuits stacked on the top of each other and built into the same IC. Recently, 3D SICs have been released by Xilinx for the Virtex 7 FPGA family. 3D integration will vastly increase the integration capabilities of FPGA circuits. The convergence of massive parallelism and dynamic reconfiguration in inevitable: we believe it is one of the main challenges in computing for the current decade.</p>
+      <p>By incorporating the configuration and/or data/program memory on the top of the FPGA fabric, with fast and numerous connections between memory and elementary logic blocks (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>∼</mo></math></formula>10000 connections between dies), it will be possible to obtain dynamically reconfigurable computing platforms with a very high reconfiguration rate. Such a rate was not possible before, due to the serial nature of the interface between the configuration memory and the FPGA fabric itself. The FPGA technology also enables massively parallel architectures due to the large number of programmable logic fabrics available on the chip. For instance, Xilinx demonstrated 3600 8-bit picoBlaze softcore processors running simultaneously on the Virtex-7 2000T FPGA. For specific applications, picoBlaze can be replaced by specialized hardware accelerators or other IPs (Intellectual Property) components. This opens the possibility of creating massively parallel IP-based machines.
+</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Multi-softcore on 3D FPGA</bodyTitle>
+      <p>From the 2010 Xilinx white paper on FPGAs:</p>
+      <p rend="quoted">
+        <i>“Unlike a processor, in which architecture of the ALU is
+fixed and designed in a general-purpose manner to execute
+various operations, the CLBs (configurable logic blocks ) can be
+programmed with just the operations needed by the
+application... The FPGA architecture provides the flexibility to
+create a massive array of application-specific ALUs..The new
+solution enables high-bandwidth connectivity between multiple
+die by providing a much greater number of
+connections... enabling the integration of massive quantities of
+interconnect logic resources within a single package”</i>
+      </p>
+      <p>Softcore processors are processors implemented using hardware synthesis. Proprietary solutions include PicoBlaze, MicroBlaze, Nios, and Nios II; open-source
+solutions include Leon, OpenRisk, and FC16. The choice is wide and many new solutions emerge, including multi-softcore implementations on FPGAs. An alternative
+to softcores are hardware accelerators on FPGAs, which are dedicated circuits that are an order of magnitude faster than softcores. Between these two approaches,
+there are other various approaches that connect IPs to softcores, in which, the processor's machine-code language is extended, and IP invocations become new
+instructions. We envisage a new class of softcores (we call them reflective softcores <footnote id="uid10" id-text="1">Hereafter, by reflective system, we mean a system that is able
+to modify its own structure and behaviour while it is running. A reflective softcore thus dynamically adds, removes, and replaces IPs in the application running on it,
+and is able to dynamically modify its own program memory, thereby dynamically altering the program it is executing.</footnote>), where almost everything is implemented in IPs;
+only the control flow is assigned to the softcore itself. The partial dynamic reconfiguration of next-generation FPGAs makes such dynamic IP management possible in
+practice. We believe that efficient reflective softcores on the new 3D-FPGAs should be as small as possible: low-performance generic hardware components (ALU,
+registers, memory, I/O...) should be replaced by dedicated high-performance IPs.</p>
+      <p>We are developing a sofcore processor called HoMade (<ref xlink:href="http://www.lifl.fr/~dekeyser/Homade" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lifl.<allowbreak/>fr/<allowbreak/>~dekeyser/<allowbreak/>Homade</ref>) following these ideas.</p>
+      <p>In the multi-reflective softcores that we develop, some softcores will be slaves and others will be masters. Massively parallel dynamically reconfigurable architectures of softcores can thus be envisaged. This requires, additionally, a parallel management of the partial dynamic reconfiguration system. This can be done, for example, on a given subset of softcores: a massively parallel reconfiguration will replace the current replication of a given IP with the replication of a new IP. Thanks to the new 3D-FPGAs this task can be performed efficiently and in parallel using the large number of 3D communication links (Through-Silicon-Vias). Our roadmap for HoMade is to evolve towards this multi-reflective softcore model.
+</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>When Hardware Meets Software</bodyTitle>
+      <p>HIPEAC vision 2011/12: <i>"The number of cores and instruction set extensions increases with every new generation, requiring changes in the software to effectively exploit the new features."</i></p>
+      <p>When the new massively parallel dynamically reconfigurable
+architectures become reality users will need languages for programming
+software applications on them. The languages will be
+themselves dynamic and parallel, in order to reflect and to fully
+exploit the dynamicity and parallelism of the architectures. Thus,
+developers will be able to invoke reconfiguration and call parallel
+instructions in their programs. This expressiveness comes with a cost,
+however, because new classes of bugs can be induced by the interaction
+between dynamic reconfiguration and parallelism; for example,
+deadlocks due to waiting for output from an IP that does not exist any
+more due to a reconfiguration. The detection and elimination of such
+bugs before deployment is paramount for cost-effectiveness and safety
+reasons.</p>
+      <p>Thus, we shall build an environment for developing software on
+parallel, dynamically reconfigurable architectures that will include
+languages and adequate formal analyses and verification tools for
+them, in addition to more traditional tools (emulators, compilers,
+etc). To this end we shall be using formal-semantics frameworks
+associated with easy-to-use formal verification tools in order to
+formally define our languages of interest and allow users to formally
+verify their programs. The K semantic framework
+(<ref xlink:href="http://k-framework.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>k-framework.<allowbreak/>org</ref>), developed jointly by Univs. Urbana
+Champaign, USA, and Iasi, Romania) is one such framework, which is
+mature enough (it has allowed defining a formal semantics of the
+largest subset of the C language to date, as well as many other
+languages from essentially all programming paradigms) and is familiar
+to us from previous work. In K, one can rapidly prototype a language
+definition and try several versions of the syntax and semantics of
+instructions. This is important in our project, where the proposed
+programming languages (in particular, the HoMade assembly language)
+will go through several versions before being stabilized. Moreover,
+once a language is defined in K one gets an interpreter of the
+language and one gains access to formal verification tools for
+free. We are also developing new analysis verification tools for K (in
+collaboration with the K team), which will be adapted and used in the
+Dreampal project.
+</p>
+    </subsection>
+  </fondements>
+  <highlights id="uid12">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>2016 is the last year of Dreampal's existence as an Inria project-team. Due to different scientific objectives, three of the members (S. Meftali, J.L. Dekeyser, P. Marquet) will create a group within the Cristal laboratory, while the team leader V. Rusu will collaborate with the 2xs team within Cristal. Frédéric Guyomarch joined the L2EP laboratory, and external collaborator Rabie Ben Atitallah continues his activity in the LAMIH laboratory in Valenciennes.</p>
+      <p>This activity report has been written by the team leader, based on the information available to him at the time of its writing. Any activity, e.g., by other team members,
+not reflected in the report, is only missing because of lack of input from the people concerned.
+</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid14">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid15" level="1">
+      <bodyTitle>HoMade</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> SoC - Multicore - Softcore</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>HoMade is a softcore processor. The current version is reflective (i.e., the program it executes is self-modifiable), and statically configurable, dynamically reconfigurable multi-processors are the next steps. Users have to add to it the functionality they need in their applications via IPs. We have also being developing a library of IPs for the most common processor functions (ALU, registers, ...). All the design is in VHDL except for some schematic specifications.</p>
+      <simplelist>
+        <li id="uid16">
+          <p noindent="true">Participant: Jean Luc Dekeyser</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Partner: LIFL</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">Contact: Jean Luc Dekeyser</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">URL: <ref xlink:href="https://sites.google.com/site/homadeguideen/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>sites.<allowbreak/>google.<allowbreak/>com/<allowbreak/>site/<allowbreak/>homadeguideen/<allowbreak/>home</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid20" level="1">
+      <bodyTitle>JHomade</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>JHomade is a software suite written in JAVA, including compilers and tools for the HoMade processor. It allows us to compile HiHope programs to Homade machine code and load the resulting binaries on FPGA boards. It was first released in 2013. The second version in 2014 includes several new features, like a C-frontend, a binary decoder and a code-generator for VHDL simulation. New features of the HiHope language are described in more detail in Section.</p>
+      <simplelist>
+        <li id="uid21">
+          <p noindent="true">Contact: Vlad Rusu</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="https://gforge.inria.fr/frs/?group_id=3646" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>frs/<allowbreak/>?group_id=3646</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid23">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>A Language-Independent Proof System for Full Program Equivalence</bodyTitle>
+      <p>Two programs are mutually equivalent if, for the same input, either they both diverge or they both terminate with the same result. Mutual equivalence is an adequate notion of equivalence for programs written in deterministic languages. It is useful in many contexts, such as capturing the correctness of program transformations within the same language, or capturing the correctness of compilers between two different languages. In <ref xlink:href="#dreampal-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we introduce a language-independent proof system for mutual equivalence, which is para-metric in the operational semantics of two languages and in a state-similarity relation. The proof system is sound: if it terminates then it establishes the mutual equivalence of the programs given to it as input. We illustrate it on two programs in two different languages (an imperative one and a functional one), that both compute the Collatz sequence. The Collatz sequence is an interesting case study since it is not known wether the sequence terminates or not; nevertheless, our proof system shows that the two programs are mutually equivalent (even if we cannot establish termination or divergence of either one).
+</p>
+    </subsection>
+    <subsection id="uid25" level="1">
+      <bodyTitle>A Generic Framework for Symbolic Execution: a Coinductive Approach</bodyTitle>
+      <p>In <ref xlink:href="#dreampal-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we propose a language-independent symbolic execution framework. The approach is parameterised by a language definition, which consists of a signature for the lan-guage's syntax and execution infrastructure, a model interpreting the signature, and rewrite rules for the language's operational semantics. Then, symbolic execution amounts to computing symbolic paths using a derivative operation. We prove that the symbolic execution thus defined has the properties naturally expected from it, meaning that the feasible symbolic executions of a program and the concrete executions of the same program mutually simulate each other. We also show how a coinduction-based extension of symbolic execution can be used for the deductive verification of programs. We show how the proposed symbolic-execution approach, and the coinductive verification technique based on it, can be seamlessly implemented in language definition frameworks based on rewriting such as the K framework. A prototype implementation of our approach has been developed in K. We illustrate it on the symbolic analysis and deductive verification of nontrivial programs.
+</p>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Circuit Merging versus Dynamic Partial Reconfiguration -The HoMade Implementation</bodyTitle>
+      <p>One goal of reconfiguration is to save power and occupied resources. In <ref xlink:href="#dreampal-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we compare two different kinds of reconfiguration available on field-programmable gate arrays (FPGA) and we discuss their pros and cons. The first method that we study is circuit merging. This type of reconfiguration methods consists in sharing common resources between different circuits. The second method that we explore is dynamic partial reconfiguration (DPR). It is specific to some FPGA, allowing well defined reconfigurable parts to be modified during run-time. We show that DPR, when available, has good and more predictable result in terms of occupied area. There is still a huge overhead in term of time and power consumption during the reconfiguration phase. Therefore we show that circuit merging remains an interesting solution on FPGA because it is not vendor specific and the reconfiguration time is around a clock cycle. Besides, good merging algorithms exist even-though FPGA physical synthesis flow makes it hard to predict the real performance of the merged circuit during the optimization. We establish our comparison in the context of the HoMade processo
+</p>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Language Definitions as Rewrite Theories</bodyTitle>
+      <p>K is a formal framework for defining operational semantics of programming languages. The K-Maude compiler translates K language definitions to Maude rewrite theories. The compiler enables program execution by using the Maude rewrite engine with the compiled definitions, and program analysis by using various Maude analysis tools. K supports symbolic execution in Maude by means of an automatic transformation of language definitions. The transformed definition is called the symbolic extension of the original definnition. In <ref xlink:href="#dreampal-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we investigate the theoretical relationship between K language definitions and their Maude translations, between symbolic extensions of K definitions and their Maude translations, and how the relationship between K definitions and their symbolic extensions is reflected on their respective representations in Maude. In particular, the results show how analysis performed with Maude tools can be formally lifted up to the original language definitions.
+</p>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>SCAC-Net: Reconfigurable Interconnection Network in SCAC Massively parallel SoC</bodyTitle>
+      <p>Parallel communication plays a critical role in massively parallel systems, especially in distributed memory systems executing parallel programs on shared data. Therefore, integrating an interconnection network in these systems becomes essential to ensure data inter-nodes exchange. Choosing the most effective communication structure must meet certain criteria: speed, size and power consumption. Indeed, the communication phase should be as fast as possible to avoid compromising parallel computing, using small and low power consumption modules to facilitate the interconnection network extensibility in a scalable system. To meet these criteria and based on a module reuse methodology, we chose to integrate a reconfigurable SCAC-Net interconnection network to communicate data in SCAC Massively parallel SoC. In <ref xlink:href="#dreampal-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we present the detailed hardware implementation and discusses the performance evaluation of the proposed reconfigurable SCAC-Net network.
+</p>
+    </subsection>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Proving Reachability-Logic Formulas Incrementally</bodyTitle>
+      <p>Reachability Logic (RL) is a formalism for defining the operational semantics of programming languages and for specifying program properties. As a program logic it can be seen as a language-independent alternative to Hoare Logics. Several verification techniques have been proposed for RL, all of which have a circular nature: the RL formula under proof can circularly be used as a hypothesis in the proof of another RL formula, or even in its own proof. This feature is essential for dealing with possibly unbounded repetitive behaviour (e.g., program loops). The downside of such approaches is that the verification of a set of RL formulas is monolithic, i.e., either all formulas in the set are proved valid, or nothing can be inferred about any of the formula's validity or invalidity. In <ref xlink:href="#dreampal-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we propose a new, incremental method for proving a large class of RL formulas. The proposed method takes as input a given RL formula under proof (corresponding to a given program fragment), together with a (possibly empty) set of other valid RL formulas (e.g., already proved using our method), which specify sub-programs of the program fragment under verification. It then checks certain conditions are shown to be equivalent to the validity of the RL formula under proof. A newly proved formula can then be incrementally used in the proof of other RL formulas, corresponding to larger program fragments. The process is repeated until the whole program is proved. We illustrate our approach by verifying the nontrivial Knuth-Morris-Pratt string-matching program.
+</p>
+    </subsection>
+  </resultats>
+  <partenariat id="uid30">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid31" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid32" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid33" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>In 2016 we have continued our strong and long-term collaboration with Prof. Dorel Lucanu's group Univ. Iasi as witnessed by the co-authored publications (3 journals and 1 conference). Vlad Rusu serves as “external advisor for PhD students” in Prof. Lucanu's group. In 2016 we have also had notable interactions with Prof. José Meseguer (Univ. Illinois at Urbana Champaign, USA), which consisted in sharing ideas and mutual reading and commenting advanced drafts prior to submission in journals/conferences.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid34">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid37" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>V.Rusu was a member in the PC of the 2016 edition of the Int. Workshop on Rewriting Logic and Applications, and will be the organizer of the next edition of the event. He was was also PC member of Approches Formelles pour la Validation Logicielle (AFADL'2016).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid38" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Vlad Rusu is elected member at Inria's Evaluation Committee. As such he has been involved in several activities regarding promotions of researchers, team creations, and team evaluations.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid40" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid41">
+            <p noindent="true">Licence : V.Rusu, Logic, 30hrs, L3, Univ. Lille, France.</p>
+          </li>
+          <li id="uid42">
+            <p noindent="true">Doctorat : V. Rusu, External adviser for PhD students, Univ. Iasi, Romania.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="dreampal-2016-bid14" type="article" rend="refer" n="refercite:aitelcadi:hal-01247399">
+      <identifiant type="doi" value="10.1007/s10845-015-1075-z"/>
+      <identifiant type="hal" value="hal-01247399"/>
+      <analytic>
+        <title level="a">Mathematical programming models for scheduling in a CPU/FPGA architecture with heterogeneous communication delays</title>
+        <author>
+          <persName>
+            <foreName>Abdessamad</foreName>
+            <surname>Ait El Cadi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Omar</foreName>
+            <surname>Souissi</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm26688">
+            <foreName>Rabie</foreName>
+            <surname>Ben Atitallah</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Belanger</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Abdelhakim</foreName>
+            <surname>Artiba</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Intelligent Manufacturing</title>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">1-12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01247399" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247399</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid11" type="inproceedings" rend="refer" n="refercite:ali:hal-01247130">
+      <identifiant type="doi" value="10.1109/ReCoSoC.2015.7238104"/>
+      <identifiant type="hal" value="hal-01247130"/>
+      <analytic>
+        <title level="a">Using hardware parallelism for reducing power consumption in video streaming applications</title>
+        <author>
+          <persName key="dreampal-2014-idp78264">
+            <foreName>Karim M. A.</foreName>
+            <surname>Ali</surname>
+            <initial>K. M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Rabie Ben</foreName>
+            <surname>Atitallah</surname>
+            <initial>R. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Nizar</foreName>
+            <surname>Fakhfakh</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">10th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC), 2015</title>
+        <loc>Bremen, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01247130" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247130</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid15" type="article" rend="refer" n="refercite:baklouti:hal-01144977">
+      <identifiant type="doi" value="10.1016/j.micpro.2015.03.007"/>
+      <identifiant type="hal" value="hal-01144977"/>
+      <analytic>
+        <title level="a">FPGA-based many-core System-on-Chip design</title>
+        <author>
+          <persName>
+            <foreName>Mouna</foreName>
+            <surname>Baklouti</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp69280">
+            <foreName>Philippe</foreName>
+            <surname>Marquet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Mohamed</foreName>
+            <surname>Abid</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Microprocessors and Microsystems</title>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">38</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01144977" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01144977</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid7" type="article" rend="refer" n="refercite:ciobaca:hal-01245528">
+      <identifiant type="doi" value="10.1007/s00165-016-0361-7"/>
+      <identifiant type="hal" value="hal-01245528"/>
+      <analytic>
+        <title level="a">A Language-Independent Proof System for Full Program Equivalence</title>
+        <author>
+          <persName>
+            <foreName>Stefan</foreName>
+            <surname>Ciobaca</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Rosu</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Formal Aspects of Computing</title>
+        <imprint>
+          <biblScope type="volume">28</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">469–497</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01245528" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01245528</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid9" subtype="nonparu-n" type="article" rend="refer" n="refercite:lucanu:hal-01238696">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.012"/>
+      <identifiant type="hal" value="hal-01238696"/>
+      <analytic>
+        <title level="a">A Generic Framework for Symbolic Execution: a Coinductive Approach</title>
+        <author>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01238696" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01238696</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted for publication</note>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid8" type="inproceedings" rend="refer" n="refercite:lucanu:hal-01158941">
+      <identifiant type="doi" value="10.1007/978-3-319-23165-5_21"/>
+      <identifiant type="hal" value="hal-01158941"/>
+      <analytic>
+        <title level="a">Verifying Reachability-Logic Properties on Rewriting-Logic Specifications</title>
+        <author>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Nowak</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">Logic, Rewriting, and Concurrency - Festschrift Symposium in Honor of José Meseguer</title>
+        <loc>Urbana Champaign, United States</loc>
+        <title level="s">Logic, Rewriting, and Concurrency Essays Dedicated to José Meseguer on the Occasion of His 65th Birthday</title>
+        <imprint>
+          <biblScope type="volume">9200</biblScope>
+          <publisher>
+            <orgName>Springer Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01158941" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01158941</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid12" type="article" rend="refer" n="refercite:lucanu:hal-01065830">
+      <identifiant type="doi" value="10.1007/s00165-014-0319-6"/>
+      <identifiant type="hal" value="hal-01065830"/>
+      <analytic>
+        <title level="a">Program Equivalence by Circular Reasoning</title>
+        <author>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Formal Aspects of Computing</title>
+        <imprint>
+          <biblScope type="volume">27</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">701-726</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01065830" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01065830</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid13" type="article" rend="refer" n="refercite:rusu:hal-01186005">
+      <identifiant type="doi" value="10.1016/j.jlamp.2015.09.001"/>
+      <identifiant type="hal" value="hal-01186005"/>
+      <analytic>
+        <title level="a">Language Definitions as Rewrite Theories</title>
+        <author>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Traian-Florin</foreName>
+            <surname>Şerbănuţă</surname>
+            <initial>T.-F.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Ştefănescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Roşu</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Logic and Algebraic Methods in Programming</title>
+        <imprint>
+          <biblScope type="volume">85</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">98–120</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01186005" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01186005</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid6" type="inproceedings" rend="refer" n="refercite:viswanathan:hal-01247116">
+      <identifiant type="doi" value="10.1109/FCCM.2015.13"/>
+      <identifiant type="hal" value="hal-01247116"/>
+      <analytic>
+        <title level="a">Massively Parallel Dynamically Reconfigurable Multi-FPGA Computing System </title>
+        <author>
+          <persName key="dreampal-2014-idp84424">
+            <foreName>Venkatasubramanian</foreName>
+            <surname>Viswanathan</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Rabie Ben</foreName>
+            <surname>Atitallah</surname>
+            <initial>R. B.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE 23rd Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015</title>
+        <loc>Vancouver, BC , Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01247116" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247116</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid10" type="inproceedings" rend="refer" n="refercite:viswanathan:hal-01247133">
+      <identifiant type="doi" value="10.1145/2684746.2689115"/>
+      <identifiant type="hal" value="hal-01247133"/>
+      <analytic>
+        <title level="a">A Parallel And Scalable Multi-FPGA based Architecture for High Performance Applications</title>
+        <author>
+          <persName key="dreampal-2014-idp84424">
+            <foreName>Venkatasubramanian</foreName>
+            <surname>Viswanathan</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm26688">
+            <foreName>Rabie</foreName>
+            <surname>Ben Atitallah</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Benjamin</foreName>
+            <surname>Nakache</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Maurice</foreName>
+            <surname>Nakache</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, FPGA '15</title>
+        <loc>Monterey, California, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01247133" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247133</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid0" type="article" rend="year" n="cite:ciobaca:hal-01245528">
+      <identifiant type="doi" value="10.1007/s00165-016-0361-7"/>
+      <identifiant type="hal" value="hal-01245528"/>
+      <analytic>
+        <title level="a">A Language-Independent Proof System for Full Program Equivalence</title>
+        <author>
+          <persName>
+            <foreName>Stefan</foreName>
+            <surname>Ciobaca</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Rosu</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00601">
+        <idno type="issn">0934-5043</idno>
+        <title level="j">Formal Aspects of Computing</title>
+        <imprint>
+          <biblScope type="volume">28</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">469–497</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01245528" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01245528</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid1" subtype="nonparu-n" type="article" rend="year" n="cite:lucanu:hal-01238696">
+      <identifiant type="doi" value="10.1016/j.jsc.2016.07.012"/>
+      <identifiant type="hal" value="hal-01238696"/>
+      <analytic>
+        <title level="a">A Generic Framework for Symbolic Execution: a Coinductive Approach</title>
+        <author>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01272">
+        <idno type="issn">0747-7171</idno>
+        <title level="j">Journal of Symbolic Computation</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01238696" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01238696</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted for publication</note>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid2" type="article" rend="year" n="cite:perier:hal-01245800">
+      <identifiant type="hal" value="hal-01245800"/>
+      <analytic>
+        <title level="a">Circuit Merging versus Dynamic Partial Reconfiguration -The HoMade Implementation</title>
+        <author>
+          <persName key="dreampal-2015-idp77520">
+            <foreName>Jean</foreName>
+            <surname>Perier</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp79472">
+            <foreName>Wissem</foreName>
+            <surname>Chouchene</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02904">
+        <idno type="issn">2278-7895</idno>
+        <title level="j">i-manager's Journal on Embedded Systems(JES)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01245800" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01245800</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid3" type="article" rend="year" n="cite:rusu:hal-01186005">
+      <identifiant type="doi" value="10.1016/j.jlamp.2015.09.001"/>
+      <identifiant type="hal" value="hal-01186005"/>
+      <analytic>
+        <title level="a">Language Definitions as Rewrite Theories</title>
+        <author>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp74488">
+            <foreName>Dorel</foreName>
+            <surname>Lucanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Traian-Florin</foreName>
+            <surname>Şerbănuţă</surname>
+            <initial>T.-F.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrei</foreName>
+            <surname>Ştefănescu</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Roşu</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01183">
+        <idno type="issn">1567-8326</idno>
+        <title level="j">Journal of Logic and Algebraic Methods in Programming</title>
+        <imprint>
+          <biblScope type="volume">85</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">98–120</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01186005" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01186005</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid4" type="inproceedings" rend="year" n="cite:krichene:hal-01247298">
+      <identifiant type="hal" value="hal-01247298"/>
+      <analytic>
+        <title level="a">SCAC-Net: Reconfigurable Interconnection Network in SCAC Massively parallel SoC</title>
+        <author>
+          <persName key="dreampal-2014-idp80696">
+            <foreName>Hana</foreName>
+            <surname>Krichene</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Mouna</foreName>
+            <surname>Baklouti</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Mohamed</foreName>
+            <surname>Abid</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp69280">
+            <foreName>Philippe</foreName>
+            <surname>Marquet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp66568">
+            <foreName>Jean-Luc</foreName>
+            <surname>Dekeyser</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp70536">
+            <foreName>Samy</foreName>
+            <surname>Meftali</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The 24th Euromicro International Conference on Parallel, Distributed and Network-Based Processing</title>
+        <loc>Heraklion, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01247298" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01247298</ref>
+        </imprint>
+        <meeting id="cid64853">
+          <title>Euromicro International Conference on Parallel, Distributed and Network-Based Processing</title>
+          <num>24</num>
+          <abbr type="sigle">PDP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="dreampal-2016-bid5" subtype="nonparu-s" type="inproceedings" rend="year" n="cite:rusu:hal-01282379">
+      <identifiant type="hal" value="hal-01282379"/>
+      <analytic>
+        <title level="a">Proving Reachability-Logic Formulas Incrementally</title>
+        <author>
+          <persName key="dreampal-2014-idm29400">
+            <foreName>Vlad</foreName>
+            <surname>Rusu</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="dreampal-2014-idp71984">
+            <foreName>Andrei</foreName>
+            <surname>Arusoaie</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">11th International Workshop on Rewriting Logic and its Applications</title>
+        <loc>Eindhoven, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01282379" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01282379</ref>
+        </imprint>
+        <meeting id="cid395069">
+          <title>International Workshop on Rewriting Logic and its Applications</title>
+          <num>11</num>
+          <abbr type="sigle">WRLA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

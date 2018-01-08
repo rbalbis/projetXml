@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="storm" isproject="true">
+    <shortname>STORM</shortname>
+    <projectName>STatic Optimizations, Runtime Methods</projectName>
+    <theme-de-recherche>Distributed and High Performance Computing</theme-de-recherche>
+    <domaine-de-recherche>Networks, Systems and Services, Distributed Computing</domaine-de-recherche>
+    <header_dates_team>Creation of the Team: 2015 January 01</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.6. - Concurrent programming</term>
+      <term>2.1.10. - Domain-specific languages</term>
+      <term>2.2.1. - Static analysis</term>
+      <term>2.2.3. - Run-time systems</term>
+      <term>2.2.4. - Parallel architectures</term>
+      <term>2.2.5. - GPGPU, FPGA, etc.</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>3.3.1. - Earth and subsoil</term>
+      <term>5.2.3. - Aviation</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Bordeaux"/>
+  </identification>
+  <team id="uid1">
+    <person key="runtime-2014-idp85888">
+      <firstname>Denis</firstname>
+      <lastname>Barthou</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Team leader, Bordeaux INP, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="runtime-2014-idp80536">
+      <firstname>Olivier</firstname>
+      <lastname>Aumage</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="storm-2015-idm28664">
+      <firstname>Marie Christine</firstname>
+      <lastname>Counilh</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Associate Professor</moreinfo>
+    </person>
+    <person key="runtime-2014-idp79056">
+      <firstname>Raymond</firstname>
+      <lastname>Namyst</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="runtime-2014-idp89872">
+      <firstname>Samuel</firstname>
+      <lastname>Thibault</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Associate Professor</moreinfo>
+    </person>
+    <person key="storm-2015-idp65856">
+      <firstname>Pierre Andre</firstname>
+      <lastname>Wacrenier</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, Associate Professor</moreinfo>
+    </person>
+    <person key="storm-2015-idp67064">
+      <firstname>Adrien</firstname>
+      <lastname>Cassagne</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2015-idp68320">
+      <firstname>Jerome</firstname>
+      <lastname>Clet-Ortega</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="runtime-2014-idp93640">
+      <firstname>Nathalie</firstname>
+      <lastname>Furmento</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="runtime-2014-idp94872">
+      <firstname>Samuel</firstname>
+      <lastname>Pitoiset</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2016-idp132672">
+      <firstname>Chiheb</firstname>
+      <lastname>Sakka</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inriafrom Jul 2016</moreinfo>
+    </person>
+    <person key="storm-2016-idp135152">
+      <firstname>Corentin</firstname>
+      <lastname>Salingue</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2015-idp75776">
+      <firstname>Hugo</firstname>
+      <lastname>Brunie</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA</moreinfo>
+    </person>
+    <person key="runtime-2014-idp121376">
+      <firstname>Terry</firstname>
+      <lastname>Cojean</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="runtime-2014-idp123848">
+      <firstname>Christopher</firstname>
+      <lastname>Haine</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2015-idp81856">
+      <firstname>Pierre</firstname>
+      <lastname>Huchant</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux</moreinfo>
+    </person>
+    <person key="runtime-2014-idp125104">
+      <firstname>Suraj</firstname>
+      <lastname>Kumar</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2016-idp149792">
+      <firstname>Raphaël</firstname>
+      <lastname>Prat</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA, from Oct 2016</moreinfo>
+    </person>
+    <person key="storm-2016-idp152240">
+      <firstname>Arthur</firstname>
+      <lastname>Loussert</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA, from Oct 2016</moreinfo>
+    </person>
+    <person key="runtime-2014-idp132544">
+      <firstname>Marc</firstname>
+      <lastname>Sergent</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, until Dec 2016</moreinfo>
+    </person>
+    <person key="runtime-2014-idp133760">
+      <firstname>Gregory</firstname>
+      <lastname>Vaumourin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CEA, until Oct 2016</moreinfo>
+    </person>
+    <person key="mescal-2014-idp116584">
+      <firstname>Luka</firstname>
+      <lastname>Stanisic</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="cagire-2014-idp69224">
+      <firstname>Sylvie</firstname>
+      <lastname>Embolla</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="storm-2016-idp164544">
+      <firstname>Thomas</firstname>
+      <lastname>Caroff</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="storm-2016-idp167040">
+      <firstname>Arthur</firstname>
+      <lastname>Chevalier</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="storm-2016-idp169536">
+      <firstname>Berenice</firstname>
+      <lastname>Faltrept</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="hiepacs-2015-idp164344">
+      <firstname>Loris</firstname>
+      <lastname>Lucido</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Jun 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="storm-2016-idp174528">
+      <firstname>Berangere</firstname>
+      <lastname>Subervie</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>A successful approach to deal with the complexity of modern
+architectures is centered around the use of runtime systems, to manage
+tasks dynamically, these runtime systems being either generic or
+specific to an application. Similarly, on the compiler side,
+optimizations and analyses are more aggressive in iterative
+compilation frameworks, fit for library generations, or DSL, in
+particular for linear algebra methods. To go beyond this state of the
+art and alleviate the difficulties for programming these machines, we
+believe it is necessary to provide inputs with richer semantics to
+runtime and compiler alike, and in particular by combining both
+approaches.</p>
+      <p>This general objective is declined into two sub-objectives, the first
+concerning the expression of parallelism itself, the second the
+optimization and adaptation of this parallelism by compilers and runtimes.</p>
+      <object id="uid4">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/storm-big-picture.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>STORM Big Picture</caption>
+      </object>
+      <simplelist>
+        <li id="uid5">
+          <p noindent="true">Expressing parallelism: As shown in the following figure, we
+propose to work on parallelism expression through Domain Specific
+Languages, able to capture the essence of the algorithms used
+through usual parallel languages such as OpenCL, OpenMP and through
+high performance libraries. The DSLs will be driven by applications,
+with the idea to capture at the algorithmic level the parallelism of
+the problem and perform dynamic data layout adaptation, parallel and
+algorithmic optimizations. The principle here is to capture a
+higher level of semantics, enabling users to express not only
+parallelism but also different algorithms.</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">Optimizing and adapting parallelism: The goal here is to
+leverage the necessary adaptation to evolving hardware, by providing
+mechanisms allowing users to run the same code on different
+architectures. This implies to adapt parallelism, in particular the
+granularity of the work, to the architecture. This relies on the use
+of existing parallel libraries and their composition, and more
+generally the separation of concern between the description of
+tasks, that represent semantic units of work, and the tasks to be
+executed by the different processing units. Splitting or coarsening
+moldable tasks, generating code for these tasks and scheduling them
+is part of this work.</p>
+          <p>Finally, the abstraction we advocate for requires to propose a feed
+back loop. This feed back has two objectives: To make users better
+understand their application and how to change the expression of
+parallelism if necessary, but also to propose an abstracted model
+for the machine. This allows to develop and formalize the compiling,
+scheduling techniques on a model, not too far from the real
+machine. Here, simulation techniques are a way to abstract the
+complexity of the architecture while preserving essential metrics.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid7">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Parallel Computing and Architectures</bodyTitle>
+      <p>Following the current trends of the evolution of HPC systems architectures,
+it is expected that future Exascale systems (i.e. Sustaining <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>18</mn></msup></math></formula> flops)
+will have millions of cores. Although the exact architectural details
+and trade-offs of such systems are still unclear, it is anticipated that
+an overall concurrency level of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><msup><mn>10</mn><mn>9</mn></msup><mo>)</mo></mrow></math></formula> threads/tasks will probably be
+required to feed all computing units while hiding memory latencies. It
+will obviously be a challenge for many applications to scale to that
+level, making the underlying system sound like “embarrassingly parallel
+hardware.”</p>
+      <p>From the programming point of view, it becomes a matter of being able to
+expose extreme parallelism within applications to feed the underlying
+computing units. However, this increase in the number of cores also
+comes with architectural constraints that actual hardware evolution
+prefigures: computing units will feature extra-wide SIMD and SIMT units
+that will require aggressive code vectorization or “SIMDization”,
+systems will become hybrid by mixing traditional CPUs and accelerators
+units, possibly on the same chip as the AMD APU solution, the amount of
+memory per computing unit is constantly decreasing, new levels of memory
+will appear, with explicit or implicit consistency management, etc. As a
+result, upcoming extreme-scale system will not only require
+unprecedented amount of parallelism to be efficiently exploited, but
+they will also require that applications generate adaptive parallelism
+capable to map tasks over heterogeneous computing units.</p>
+      <p>The current situation is already alarming, since European HPC end-users
+are forced to invest in a difficult and time-consuming process of
+tuning and optimizing their applications to reach most of current
+supercomputers' performance. It will go even worse at horizon 2020 with
+the emergence of new parallel architectures (tightly integrated
+accelerators and cores, high vectorization capabilities, etc.) featuring
+unprecedented degree of parallelism that only too few experts will be
+able to exploit efficiently. As highlighted by the ETP4HPC initiative,
+existing programming models and tools won't be able to cope with such a
+level of heterogeneity, complexity and number of computing units, which
+may prevent many new application opportunities and new science advances
+to emerge.</p>
+      <p>The same conclusion arises from a non-HPC perspective, for single node
+embedded parallel architectures, combining heterogeneous multicores,
+such as the ARM big.LITTLE processor and accelerators such as GPUs or
+DSPs. The need and difficulty to write programs able to run on various
+parallel heterogeneous architectures has led to initiatives such as
+HSA, focusing on making it easier to program heterogeneous computing
+devices. The growing complexity of hardware is a limiting factor to
+the emergence of new usages relying on new technology.
+</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Scientific and Societal Stakes</bodyTitle>
+      <p>In the HPC context, simulation is already considered as a third pillar
+of science with experiments and theory. Additional computing power
+means more scientific results, and the possibility to open new fields
+of simulation requiring more performance, such as multi-scale,
+multi-physics simulations. Many scientific domains able to take
+advantage of Exascale computers, these “Grand Challenges” cover
+large panels of science, from seismic, climate, molecular dynamics,
+theoretical and astrophysics physics... Besides, embedded applications
+are also able to take advantage of these performance increase. There
+is still an on-going trend where dedicated hardware is progressively
+replaced by off-the-shelf components, adding more adaptability and
+lowering the cost of devices. For instance, Error Correcting Codes in
+cell phones are still hardware chips, but with the forthcoming 5G
+protocol, new software and adaptative solutions relying on low power
+multicores are also explored. New usages are also appearing, relying
+on the fact that large computing capacities are becoming more
+affordable and widespread. This is the case for instance with Deep
+Neural Networks where the training phase can be done on supercomputers
+and then used in embedded mobile systems. The same consideration
+applies for big data problems, of internet of things, where small
+sensors provide large amount of data that need to be processed in
+short amount of time. Even though the computing capacities required
+for such applications are in general a different scale from HPC
+infrastructures, there is still a need in the future for high
+performance computing applications.</p>
+      <p>However, the outcome of new scientific results and the development of new
+usages for mobile, embedded systems will be hindered by the complexity
+and high level of expertise required to tap the performance offered by
+future parallel heterogeneous architectures.
+</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Towards More Abstraction</bodyTitle>
+      <p>As emphasized by initiatives such as the European Exascale Software
+Initiative (EESI), the European Technology Platform for High Performance
+Computing (ETP4HPC), or the International Exascale Software Initiative
+(IESP), the HPC community needs new programming APIs and languages for
+expressing heterogeneous massive parallelism in a way that provides an
+abstraction of the system architecture and promotes high performance and
+efficiency. The same conclusion holds for mobile, embedded applications that require performance on heterogeneous systems.</p>
+      <p>This crucial challenge given by the evolution of parallel architectures
+therefore comes from this need to make high performance accessible to
+the largest number of developpers, abstracting away architectural
+details providing some kind of performance portability. Disruptive uses
+of the new technology and groundbreaking new scientific results will not
+come from code optimization or task scheduling, but they require the
+design of new algorithms that require the technology to be tamed in
+order to reach unprecedented levels of performance.</p>
+      <p>Runtime systems and numerical libraries are part of the answer, since
+they may be seen as building blocks optimized by experts and used as-is
+by application developers. The first purpose of runtime systems is
+indeed to provide <i>abstraction</i>. Runtime systems offer a uniform
+programming interface for a specific subset of hardware (e.g., OpenGL or
+DirectX are well-established examples of runtime systems dedicated to
+hardware-accelerated graphics) or low-level software entities (e.g.,
+POSIX-thread implementations). They are designed as thin user-level
+software layers that complement the basic, general purpose functions
+provided by the operating system calls. Applications then target these
+uniform programming interfaces in a portable manner. Low-level, hardware
+dependent details are hidden inside runtime systems. The adaptation of
+runtime systems is commonly handled through drivers. The abstraction
+provided by runtime systems thus enables portability. Abstraction alone
+is however not enough to provide portability of performance, as it does
+nothing to leverage low-level-specific features to get increased
+performance. Consequently, the second role of runtime systems is to
+<i>optimize</i> abstract application requests by dynamically mapping
+them onto low-level requests and resources as efficiently as possible.
+This mapping process makes use of scheduling algorithms and heuristics
+to decide the best actions to take for a given metric and the
+application state at a given point in its execution time. This allows
+applications to readily benefit from available underlying low-level
+capabilities to their full extent without breaking their portability.
+Thus, optimization together with abstraction allows runtime systems to
+offer portability of performance. Numerical libraries provide sets of
+highly optimized kernels for a given field (dense or sparse linear
+algebra, FFT, etc.) either in an autonomous fashion or using an
+underlying runtime system.</p>
+      <p>Application domains cannot resort to libraries for all codes however,
+computation patterns such as stencils are a representative example of
+such difficulty. The compiler technology plays here a central role, in
+managing high level semantics, either through templates, domain specific
+languages or annotations. Compiler optimizations, and the same applies
+for runtime optimizations, are limited by the level of semantics they
+manage. Providing part of the algorithmic knowledge of an application,
+for instance knowing that it computes a 5-point stencil and then
+performs a dot product, would lead to more opportunities to adapt
+parallelism, memory structures, and is a way to leverage the evolving
+hardware.</p>
+      <p>Compilers and runtime play a crucial role in the future of high
+performance applications, by defining the input language for users,
+and optimizing/transforming it into high performance code. The
+objective of STORM is to propose better interactions between compiler
+and runtime and more semantics for both approaches. We recall in the
+following section the expertise of the team.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid11">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Application Fields</bodyTitle>
+      <p>The application of our work concerns linear algebra, solvers and fast-multipole methods, in collaboration with other Inria teams and with industry. This allows a wide range of scientific and industrial applications possibly interested in the techniques we propose, in the domain of high performance computing but also in order to compute intensive embedded applications.
+In terms of direct application, the software developed in the team are used in applications in various fields, ranging from seismic, mechanic of fluids, molecular dynamics, high energy physics or material simulations. Similarly, the domains of image processing and signal processing can take advantage of the expertise and software of the team.</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid13">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Chameleon</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> HPC - Dense linear algebra - Task-based algorithm - Runtime system - Task scheduling</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Chameleon is part of the MORSE (Matrices Over Runtime Systems @ Exascale) project. The overall objective is to develop robust linear algebra libraries relying on innovative runtime systems that can fully benefit from the potential of those future large-scale complex machines.</p>
+      <p>We expect advances in three directions based first on strong and closed interactions between the runtime and numerical linear algebra communities. This initial activity will then naturally expand to more focused but still joint research in both fields.</p>
+      <p>1. Fine interaction between linear algebra and runtime systems.
+On parallel machines, HPC applications need to take care of data movement and consistency, which can be either explicitly managed at the level of the application itself or delegated to a runtime system. We adopt the latter approach in order to better keep up with hardware trends whose complexity is growing exponentially. One major task in this project is to define a proper interface between HPC applications and runtime systems in order to maximize productivity and expressivity. As mentioned in the next section, a widely used approach consists in abstracting the application as a DAG that the runtime system is in charge of scheduling. Scheduling such a DAG over a set of heterogeneous processing units introduces a lot of new challenges, such as predicting accurately the execution time of each type of task over each kind of unit, minimizing data transfers between memory banks, performing data prefetching, etc.
+Expected advances:
+In a nutshell, a new runtime system API will be designed to allow applications to provide scheduling hints to the runtime system and to get real-time feedback about the consequences of scheduling decisions.</p>
+      <p>2. Runtime systems.
+A runtime environment is an intermediate layer between the system and the application. It provides low-level functionality not provided by the system (such as scheduling or management of the heterogeneity) and high-level features (such as performance portability). In the framework of this proposal, we will work on the scalability of runtime environment. To achieve scalability it is required to avoid all centralization. Here, the main problem is the scheduling of the tasks. In many task-based runtime environments the scheduler is centralized and becomes a bottleneck as soon as too many cores are involved. It is therefore required to distribute the scheduling decision or to compute a data distribution that impose the mapping of task using, for instance the so-called “owner-compute” rule.
+Expected advances:
+We will design runtime systems that enable an efficient and scalable use of thousands of distributed multicore nodes enhanced with accelerators.</p>
+      <p>3. Linear algebra.
+Because of its central position in HPC and of the well understood structure of its algorithms, dense linear algebra has often pioneered new challenges that HPC had to face. Again, dense linear algebra has been in the vanguard of the new era of petascale computing with the design of new algorithms that can efficiently run on a multicore node with GPU accelerators. These algorithms are called “communication-avoiding” since they have been redesigned to limit the amount of communication between processing units (and between the different levels of memory hierarchy). They are expressed through Direct Acyclic Graphs (DAG) of fine-grained tasks that are dynamically scheduled.
+Expected advances:
+First, we plan to investigate the impact of these principles in the case of sparse applications (whose algorithms are slightly more complicated but often rely on dense kernels). Furthermore, both in the dense and sparse cases, the scalability on thousands of nodes is still limited, new numerical approaches need to be found. We will specifically design sparse hybrid direct/iterative methods that represent a promising approach.</p>
+      <p>The overall goal of the MORSE associate team is to enable advanced numerical algorithms to be executed on a scalable unified runtime system for exploiting the full potential of future exascale machines.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Chameleon is a dense linear algebra software relying on sequential task-based algorithms where sub-tasks of the overall algorithms are submitted to a Runtime system. A Runtime system such as StarPU is able to manage automatically data transfers between not shared memory area (CPUs-GPUs, distributed nodes). This kind of implementation paradigm allows to design high performing linear algebra algorithms on very different type of architecture: laptop, many-core nodes, CPUs-GPUs, multiple nodes. For example, Chameleon is able to perform a Cholesky factorization (double-precision) at 80 TFlop/s on a dense matrix of order 400 000 (e.i. 4 min).</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">Participants: Emmanuel Agullo, Mathieu Faverge, Cédric Castagnede and Florent Pruvost</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">Partners: Innovative Computing Laboratory (ICL) - King Abdullha University of Science and Technology - University of Colorado Denver</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Contact: Emmanuel Agullo</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">URL: <ref xlink:href="https://project.inria.fr/chameleon/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>chameleon/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>KLANG-OMP</bodyTitle>
+      <p>The KStar OpenMP Compiler</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Compilers - Task scheduling - OpenMP - Source-to-source compiler - Data parallelism</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The Klang-Omp compiler, now renamed KStar following the recommendation of the local experimentation and development service, is a source-to-source OpenMP compiler for languages C and C++. The KStar compiler translates OpenMP directives and constructs into API calls from the StarPU runtime system or the XKaapi runtime system.
+The KStar compiler is virtually fully compliant with OpenMP 3.0 constructs.
+The KStar compiler supports OpenMP 4.0 dependent tasks and accelerated targets.</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Participants: Olivier Aumage, Nathalie Furmento, Samuel Pitoiset and Samuel Thibault</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Contact: Olivier Aumage</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="http://kstar.gforge.inria.fr/#!index.md" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kstar.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>#!index.<allowbreak/>md</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>KaStORS</bodyTitle>
+      <p>The KaStORS OpenMP Benchmark Suite</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Benchmarking - HPC - Task-based algorithm - Task scheduling - OpenMP - Data parallelism</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The KaStORS benchmarks suite has been designed to evaluate implementations of the OpenMP dependent task paradigm, introduced as part of the OpenMP 4.0 specification.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Olivier Aumage, François Broquedis, Pierrick Brunet, Nathalie Furmento, Thierry Gautier, Samuel Thibault and Philippe Virouleau</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Thierry Gautier</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="http://kastors.gforge.inria.fr/#!index.md" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kastors.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>#!index.<allowbreak/>md</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>MORSE</bodyTitle>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Contact: Emmanuel Agullo</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">URL: <ref xlink:href="http://icl.cs.utk.edu/morse/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icl.<allowbreak/>cs.<allowbreak/>utk.<allowbreak/>edu/<allowbreak/>morse/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid30" level="1">
+      <bodyTitle>AFF3CT</bodyTitle>
+      <p>A Fast Forward Error Correction Tool (previously named P-Edge).</p>
+      <p><span class="smallcap" align="left">Keywords:</span> Code generation - Error Correction Code</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The AFF3CT library joins genericity techniques together with code generation capabilities to enable implementing efficient and portable error correction codes. The genericity offered allows to easily experiment with a large panel of algorithmic variants.</p>
+      <simplelist>
+        <li id="uid31">
+          <p noindent="true">Previous name: P-Edge</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">Authors: Adrien Cassagne, Olivier Aumage, Bertrand Le Gal, Camille Leroux and Denis Barthou</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">Partner: IMS</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">Contact: Adrien Cassagne</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">URL: <ref xlink:href="https://aff3ct.github.io/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>aff3ct.<allowbreak/>github.<allowbreak/>io/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>StarPU</bodyTitle>
+      <p>The StarPU Runtime System</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> HPC - Scheduling - GPU - Multicore - Performance</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Traditional processors have reached architectural limits which heterogeneous multicore designs and hardware specialization (eg. coprocessors, accelerators, ...) intend to address. However, exploiting such machines introduces numerous challenging issues at all levels, ranging from programming models and compilers to the design of scalable hardware solutions. The design of efficient runtime systems for these architectures is a critical issue. StarPU typically makes it much easier for high performance libraries or compiler environments to exploit heterogeneous multicore machines possibly equipped with GPGPUs or Cell processors: rather than handling low-level issues, programmers may concentrate on algorithmic concerns.Portability is obtained by the means of a unified abstraction of the machine. StarPU offers a unified offloadable task abstraction named "codelet". Rather than rewriting the entire code, programmers can encapsulate existing functions within codelets. In case a codelet may run on heterogeneous architectures, it is possible to specify one function for each architectures (eg. one function for CUDA and one function for CPUs). StarPU takes care to schedule and execute those codelets as efficiently as possible over the entire machine. In order to relieve programmers from the burden of explicit data transfers, a high-level data management library enforces memory coherency over the machine: before a codelet starts (eg. on an accelerator), all its data are transparently made available on the compute resource.Given its expressive interface and portable scheduling policies, StarPU obtains portable performances by efficiently (and easily) using all computing resources at the same time. StarPU also takes advantage of the heterogeneous nature of a machine, for instance by using scheduling strategies based on auto-tuned performance models.</p>
+      <p>StarPU is a task programming library for hybrid architectures</p>
+      <p>The application provides algorithms and constraints:
+- CPU/GPU implementations of tasks
+- A graph of tasks, using either the StarPU's high level GCC plugin pragmas or StarPU's rich C API</p>
+      <p>StarPU handles run-time concerns
+- Task dependencies
+- Optimized heterogeneous scheduling
+- Optimized data transfers and replication between main memory and discrete memories
+- Optimized cluster communications</p>
+      <p>Rather than handling low-level scheduling and optimizing issues, programmers can concentrate on algorithmic concerns!</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>StarPU is a runtime system that offers support for heterogeneous multicore machines. While many efforts are devoted to design efficient computation kernels for those architectures (e.g. to implement BLAS kernels on GPUs), StarPU not only takes care of offloading such kernels (and implementing data coherency across the machine), but it also makes sure the kernels are executed as efficiently as possible.</p>
+      <simplelist>
+        <li id="uid37">
+          <p noindent="true">Participants: Cédric Augonnet, Samuel Thibault, Nathalie Furmento, Simon Archipoff, Jérôme Clet-Ortega, Nicolas Collin, Ludovic Courtes, Mehdi Juhoor, Xavier Lacoste, Benoît Lize, Ludovic Stordeur, Cyril Roelandt, Corentin Salingue, Chiheb Sakka, Samuel Pitoiset, François Tessier, Pierre-André Wacrenier, Andra Hugo, Terry Cojean, Raymond Namyst, Olivier Aumage and Marc Sergent</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Contact: Olivier Aumage</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">URL: <ref xlink:href="http://starpu.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>starpu.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>hwloc</bodyTitle>
+      <p>Hardware Locality</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> HPC - Topology - Open MPI - Affinities - GPU - Multicore - NUMA - Locality</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Hardware Locality (hwloc) is a library and set of tools aiming at discovering and exposing the topology of machines, including processors, cores, threads, shared caches, NUMA memory nodes and I/O devices. It builds a widely-portable abstraction of these resources and exposes it to applications so as to help them adapt their behavior to the hardware characteristics. They may consult the hierarchy of resources, their attributes, and bind task or memory on them.</p>
+      <p>hwloc targets many types of high-performance computing applications, from thread scheduling to placement of MPI processes. Most existing MPI implementations, several resource managers and task schedulers, and multiple other parallel libraries already use hwloc.</p>
+      <simplelist>
+        <li id="uid41">
+          <p noindent="true">Participants: Brice Goglin and Samuel Thibault</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">Partners: AMD - Intel - Open MPI consortium</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">Contact: Brice Goglin</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">URL: <ref xlink:href="http://www.open-mpi.org/projects/hwloc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>open-mpi.<allowbreak/>org/<allowbreak/>projects/<allowbreak/>hwloc/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid45">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Automatic OpenCL Task Adaptation for Heterogeneous Architectures</bodyTitle>
+      <p>OpenCL defines a common parallel programming language for all
+devices, although writing tasks adapted to the devices, managing
+communication and load-balancing issues are left to the programmer.
+In this work <ref xlink:href="#storm-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we propose a novel automatic compiler and runtime
+technique to execute single OpenCL kernels on heterogeneous
+multi-device architectures. Our technique splits computation and data
+automatically across the computing devices. The technique proposed is
+completely transparent to the user, does not require off-line
+training or a performance model. It handles communications and
+load-balancing issues, resulting from hardware heterogeneity, load
+imbalance within the kernel itself and load variations between
+repeated executions of the kernel, in an iterative computation. We
+present our results on benchmarks and on an N-body application over
+two platforms, a 12-core CPU with two different GPUs and a 16-core CPU
+with three homogeneous GPUs.
+</p>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>Fast Forward Error Correction Codes</bodyTitle>
+      <p>Erroc Correction Codes are essential for preserving data integrity in communications. These algorithms find errors due to noise in transmissions and correct these errors with a high probability. Several algorithms are used, with different capacities in term of correction and most of them are implemented in cell phones or satellites as ASICS. The need to handle many different usages, different contexts of use pushes towards software solutions. A larger spectrum of algorithms can be explored, in order to meet the expectations in terms of performance, power consumption and error correcting power. These new algorithms, for the 5G for instance, can then be either implemented in software (for large antenna for instance) or in hardware. In both case, software simulation is necessary in order to evaluate the properties of the new algorithms. We developped in collaboration with IMS new versions of algorithms and a new software, AFF3CT <ref xlink:href="http://aff3ct.github.io/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>aff3ct.<allowbreak/>github.<allowbreak/>io/<allowbreak/>index.<allowbreak/>html</ref>, that allows the exploration of many different algorithmic variants and their evaluation. Two conference papers have been published on these new results <ref xlink:href="#storm-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/><ref xlink:href="#storm-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Resource aggregation for task-based Cholesky Factorization</bodyTitle>
+      <p>Hybrid computing platforms are now commonplace, featuring a large
+number of CPU cores and accelerators. This trend makes balancing
+computations between these heterogeneous resources performance
+critical. In a recent paper <ref xlink:href="#storm-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we propose
+aggregating several CPU cores in order to execute larger parallel
+tasks and thus improve the load balance between CPUs and accelerators.
+Additionally, we present our approach to exploit internal parallelism
+within tasks. This is done by combining two runtime systems: one
+runtime system to handle the task graph and another one to manage the
+internal parallelism. We demonstrate the relevance of our approach in
+the context of the dense Cholesky factorization kernel implemented on
+top of the StarPU task-based runtime system.We present experimental
+results showing that our solution outperforms state of the art
+implementations.
+In addition, we realized an extended version of this paper submitted
+for review to the Parallel Computing journal special issue for HCW and
+HeteroPar 2016 workshops. In this new paper <ref xlink:href="#storm-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we provide additional details on our contribution and propose a brand
+new study on the recent Intel Xeon Phi Knights Landing (KNL) where we
+show that we are able to outperform existing state of the art
+implementations on this platform thanks to our proposed technique.
+</p>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Scheduling of Linear Algebra Kernels on Multiple Heterogeneous Resources</bodyTitle>
+      <p>In this paper <ref xlink:href="#storm-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we consider task-based
+dense linear algebra applications on a single heterogeneous node which
+contains regular CPU cores and a set of GPU devices. Efficient
+scheduling strategies are crucial in this context in order to achieve
+good and portable performance. HeteroPrio, a resource-centric dynamic
+scheduling strategy has been introduced in a previous work and
+evaluated for the special case of nodes with exactly two types of
+resources. However, this restriction can be limiting, for example on
+nodes with several types of accelerators, but not only this. Indeed,
+an interesting approach to increase resource usage is to group several
+CPU cores together, which allows to use intra-task parallelism. We
+propose a generalization of HeteroPrio to the case with several
+classes of heterogeneous workers. We provide extensive evaluation of
+this algorithm with Cholesky factorization, both through simulation
+and actual execution, compared with HEFT-based scheduling strategy,
+the state of the art dynamic scheduling strategy for heterogeneous
+systems. Experimental evaluation shows that our approach is efficient
+even for highly heterogeneous configurations and significantly
+outperforms HEFT-based strategy.
+</p>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Analyzing Dynamic Task-Based Applications on Hybrid Platforms: An Agile Scripting Approach</bodyTitle>
+      <p>In this paper <ref xlink:href="#storm-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we present visual analysis techniques to evaluate the performance of HPC task-based applications on hybrid architectures. Our approach is based on composing modern data analysis tools (pjdump, R, ggplot2, plotly), enabling an agile and flexible scripting framework with minor development cost. We validate our proposal by analyzing traces from the full-fledged implementation of the Cholesky decomposition available in the MORSE library running on a hybrid (CPU/GPU) platform. The analysis compares two different workloads and three different task schedulers from the StarPU runtime system. Our analysis based on composite views allows to identify allocation mistakes, priority problems in scheduling decisions, GPU tasks anomalies causing bad performance, and critical path issues.
+</p>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>Distributed StarPU Scalability on Heterogeneous Platforms</bodyTitle>
+      <p>The emergence of accelerators as standard computing resources on supercomput- ers and the subsequent architectural complexity increase revived the need for high-level parallel programming paradigms. Sequential task-based programming model has been shown to efficiently meet this challenge on a single multicore node possibly enhanced with accelerators, which moti- vated its support in the OpenMP 4.0 standard. In this paper, we show that this paradigm can also be employed to achieve high performance on modern supercomputers composed of multiple such nodes, with extremely limited changes in the user code. To prove this claim, we have extended the StarPU runtime system with an advanced inter-node data management layer that supports this model by posting communications automatically <ref xlink:href="#storm-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We illustrate our discussion with the task- based tile Cholesky algorithm that we implemented on top of this new runtime system layer. We show that it allows for very high productivity while achieving a performance competitive with both the pure Message Passing Interface (MPI)-based ScaLAPACK Cholesky reference implementation and the DPLASMA Cholesky code, which implements another (non sequential) task-based programming paradigm.
+</p>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Controlling the Memory Subscription of Distributed Applications with a Task-Based Runtime System</bodyTitle>
+      <p>The ever-increasing supercomputer architectural complexity emphasizes the need for high-level parallel pro- gramming paradigms. Among such paradigms, task-based programming manages to abstract away much of the archi- tecture complexity while efficiently meeting the performance challenge, even at large scale. Dynamic run-time systems are typically used to execute task-based applications, to schedule computation resource usage and memory allocations. While computation scheduling has been well studied, the dynamic management of memory resource subscription inside such run- times has however been little explored. This paper <ref xlink:href="#storm-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> studies the cooperation between a task-based distributed application code and a run-time system engine to control the memory subscription levels throughout the execution. We show that the task paradigm allows to control the memory footprint of the application by throttling the task submission flow rate, striking a compromise between the performance benefits of anticipative task submission and the resulting memory consumption. We illustrate the benefits of our contribution on a compressed dense linear algebra distributed application.
+</p>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>StarPU Interfacing with GASPI/GPI2</bodyTitle>
+      <p>A version of the distributed dependence support of StarPU has been ported by Corentin Salingue, under the supervision of Olivier Aumage on the high performance GASPI/GPI2 networking layer developed by the Fraunhofer institute in Germany. The GPI2 framework offers a lightweight communication interface specifically designed for thread enabled HPC applications. This work has been conducted as part of the H2020 INTERTWinE european project.
+</p>
+    </subsection>
+    <subsection id="uid54" level="1">
+      <bodyTitle>A Stencil DSEL for Single Code Accelerated Computing with SYCL</bodyTitle>
+      <p>Stencil kernels arise in many scientific codes as the result from dis- cretizing natural, continuous phenomenons. Many research works have designed stencil frameworks to help programmer optimize stencil kernels for performance, and to target CPUs or accelerators. However, existing stencil kernels, either library-based or language-based necessitate to write distinct source codes for accelerated ker- nels and for the core application, or to resort to specific keywords, pragmas or language extensions.
+SYCL is a C++ based approach designed by the Khronos Group to program the core application as well as the application kernels with a single unified, C++ compliant source code. A SYCL application can then be linked with a CPU-only runtime library or processed by a SYCL-enabled compiler to automatically build an OpenCL accelerated application. Our contribution <ref xlink:href="#storm-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is a stencil domain specific embedded language (DSEL) which leverage SYCL together with expression template techniques to implement statically optimized stencil applications able to run on platforms equipped with OpenCL devices, while preserving the single source benefits from SYCL.
+</p>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>Bridging the gap between OpenMP 4.0 and native runtime systems for the fast multipole method</bodyTitle>
+      <p>With the advent of complex modern architectures, the low-level paradigms long considered sufficient to build High Performance Computing (HPC) numerical codes have met their limits. Achieving efficiency, ensuring portability, while preserving programming tractability on such hardware prompted the HPC community to design new, higher level paradigms. The successful ports of fully-featured numerical libraries on several recent runtime system proposals have shown, indeed, the benefit of task-based parallelism models in terms of performance portability on complex platforms. However, the common weakness of these projects is to deeply tie applications to specific expert-only runtime system APIs. The OpenMP specification, which aims at providing a common parallel programming means for shared-memory platforms, appears as a good candidate to address this issue thanks to the latest task-based constructs introduced as part of its revision 4.0.
+The goal of this paper <ref xlink:href="#storm-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is to assess the effectiveness and limits of this support for designing a high-performance numerical library. We illustrate our discussion with the ScalFMM library, which implements state-of-the-art fast multipole method (FMM) algorithms, that we have deeply re-designed with respect to the most advanced features provided by OpenMP 4. We show that OpenMP 4 allows for significant performance improvements over previous OpenMP revisions on recent multicore processors. We furthermore propose extensions to the OpenMP 4 standard and show how they can enhance FMM performance. To assess our statement, we have implemented this support within the Klang-OMP source-to-source compiler that translates OpenMP directives into calls to the StarPU task-based runtime system. This study shows that we can take advantage of the advanced capabilities of a fully-featured runtime system without resorting to a specific, native runtime port, hence bridging the gap between the OpenMP standard and the very high performance that was so far reserved to expert-only runtime system APIs.
+</p>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Hierarchical Tasks</bodyTitle>
+      <p>Modern computing platforms are heterogeneous and the load balancing is more complex to reach high performance. We decided to deal with the granularity problem in the context of task paralleliism and in a dynamic way through the implementation of hierarchical tasks in StarPU runtime. The idea is to give the runtime the ability to control tasks submission in order to choose the good granularity at the right moment. The application describes a control graph and the runtime generates the computation tasks graph on-the-fly according to the state of the machine (available computing resources, memory consumption, ...). As a consequence the runtime is able to limit the size of the computation tasks graph without loosing parallelism. Some experiments have been done on a Cholesky application and in the qr-mumps software and show that the work of an application programmer can be alleviated and the granularity choice could be easily delegated to the task based runtime.
+</p>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Software-Hardware Exploration for Read-Only Data</bodyTitle>
+      <p>We have proposed a new way of managing the
+cache by exploiting the difference of behavior in the memory
+system between read-only data and read-write data. A division
+of the existing cache-based memory hierarchy is proposed in
+order to create a dedicated data path for read-only data. This
+proposition is similar to the existing separation at the L1-level
+between instruction and data caches. In order to justify this
+approach, an analysis performed on a set of benchmarks shows
+that read-only data count for significant part of the working set
+and are less reused than read-write data. A transparent solution
+is proposed based on specific compilation support to separate
+automatically the memory accesses of read-only data at L1-level.
+This organization exploits the properties of the different sub-
+workloads in order to increase the overall data locality and data
+reuse. Simulated in a multicore environment, the evaluation of
+the new memory organization shows reduction of L1 misses up
+to 28.5%. Moreover, the messages issued on the interconnection
+network can be reduced up to 14.7% without any penalty on the
+performance.</p>
+      <p>Besides the reduced
+miss-rate allows maintaining performance with smaller cache
+size on the read-write path while the properties of the read-
+only part can benefit of a simplified cache implementation
+despite a shared multicore access <ref xlink:href="#storm-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid58">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid60">
+          <p noindent="true">HiBOX project, with Airbus and IMACS (2013-2017).</p>
+        </li>
+        <li id="uid61">
+          <p noindent="true">CEA contracts:</p>
+          <simplelist>
+            <li id="uid62">
+              <p noindent="true">Several PhD contracts: for Hugo Brunie, Raphaël Prat, Marc Sergent and Arthur Loussert.</p>
+            </li>
+            <li id="uid63">
+              <p noindent="true">Industrial contract with CEA-DAM on particle simulation.</p>
+            </li>
+          </simplelist>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid64">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid65" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid66" level="2">
+        <bodyTitle>PIA</bodyTitle>
+        <descriptionlist>
+          <label>ELCI</label>
+          <li id="uid67">
+            <p noindent="true">The ELCI project (Software Environment for HPC) aims to
+develop a new generation of software stack for supercomputers,
+numerical solvers, runtime and programming development environments
+for HPC simulation. The ELCI project also aims to validate this
+software stack by showing its capacity to offer improved
+scalability, resilience, security, modularity and abstraction on
+real applications. The coordinator is Bull, and the different partners are CEA, Inria, SAFRAN, CERFACS, CNRS CORIA, CENAERO, ONERA, UVSQ, Kitware and AlgoTech.</p>
+          </li>
+        </descriptionlist>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <descriptionlist>
+          <label>ANR SOLHAR</label>
+          <li id="uid69">
+            <p noindent="true">(<ref xlink:href="http://solhar.gforge.inria.fr/doku.php?id=start" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>solhar.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>doku.<allowbreak/>php?id=start</ref>).</p>
+            <sanspuceslist>
+              <li id="uid70">
+                <p noindent="true">ANR MONU 2013 Program, 2013 - 2016 (36 months)</p>
+              </li>
+              <li id="uid71">
+                <p noindent="true">Identification: ANR-13-MONU-0007</p>
+              </li>
+              <li id="uid72">
+                <p noindent="true">Coordinator: Inria Bordeaux/LaBRI</p>
+              </li>
+              <li id="uid73">
+                <p noindent="true">Other partners: CNRS-IRIT, Inria-LIP Lyon, CEA/CESTA, EADS-IW</p>
+              </li>
+              <li id="uid74">
+                <p noindent="true">Abstract: This project aims at studying and designing algorithms and parallel programming models for implementing direct methods for the solution of sparse linear systems on emerging computers equipped with accelerators. The ultimate aim of this project is to achieve the implementation of a software package providing a solver based on direct methods for sparse linear systems of equations. Several attempts have been made to accomplish the porting of these methods on such architectures; the proposed approaches are mostly based on a simple offloading of some computational tasks (the coarsest grained ones) to the accelerators and rely on fine hand-tuning of the code and accurate performance modeling to achieve efficiency. This project proposes an innovative approach which relies on the efficiency and portability of runtime systems, such as the StarPU tool developed in the runtime team (Bordeaux). Although the SOLHAR project will focus on heterogeneous computers equipped with GPUs due to their wide availability and affordable cost, the research accomplished on algorithms, methods and programming models will be readily applicable to other accelerator devices such as ClearSpeed boards or Cell processors.</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <label>ANR Songs</label>
+          <li id="uid75">
+            <p noindent="true">Simulation of next generation systems
+(<ref xlink:href="http://infra-songs.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>infra-songs.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>).</p>
+            <sanspuceslist>
+              <li id="uid76">
+                <p noindent="true">ANR INFRA 2011, 01/2012 - 12/2015 (48 months)</p>
+              </li>
+              <li id="uid77">
+                <p noindent="true">Identification: ANR-11INFR01306</p>
+              </li>
+              <li id="uid78">
+                <p noindent="true">Coordinator: Martin Quinson (Inria Nancy)</p>
+              </li>
+              <li id="uid79">
+                <p noindent="true">Other partners: Inria Nancy, Inria Rhône-Alpes,
+IN2P3, LSIIT, Inria Rennes, I3S.</p>
+              </li>
+              <li id="uid80">
+                <p noindent="true">Abstract: The goal of the SONGS project is to extend the
+applicability of the SimGrid simulation framework from Grids and
+Peer-to-Peer systems to Clouds and High Performance Computation
+systems. Each type of large-scale computing system will be
+addressed through a set of use cases and lead by researchers
+recognized as experts in this area.</p>
+              </li>
+            </sanspuceslist>
+          </li>
+        </descriptionlist>
+      </subsection>
+      <subsection id="uid81" level="2">
+        <bodyTitle>ADT - Inria Technological Development Actions</bodyTitle>
+        <descriptionlist>
+          <label>ADT K'Star</label>
+          <li id="uid82">
+            <p noindent="true">(<ref xlink:href="http://kstar.gforge.inria.fr/#!index.md" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>kstar.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>#!index.<allowbreak/>md</ref>)</p>
+            <participants>
+              <person key="runtime-2014-idp80536">
+                <firstname>Olivier</firstname>
+                <lastname>Aumage</lastname>
+              </person>
+              <person key="runtime-2014-idp93640">
+                <firstname>Nathalie</firstname>
+                <lastname>Furmento</lastname>
+              </person>
+              <person key="runtime-2014-idp94872">
+                <firstname>Samuel</firstname>
+                <lastname>Pitoiset</lastname>
+              </person>
+              <person key="runtime-2014-idp89872">
+                <firstname>Samuel</firstname>
+                <lastname>Thibault</lastname>
+              </person>
+            </participants>
+            <sanspuceslist>
+              <li id="uid83">
+                <p noindent="true">Inria ADT Campaign 2013, 10/2013 - 9/2015 (24 months)</p>
+              </li>
+              <li id="uid84">
+                <p noindent="true">Coordinator: Thierry Gautier (team AVALON, Inria Grenoble - Rhône-Alpes) and Olivier Aumage (team RUNTIME, Inria Bordeaux - Sud-Ouest)</p>
+              </li>
+              <li id="uid85">
+                <p noindent="true">Abstract: The Inria action ADT K'Star is a joint effort from
+Inria teams AVALON and RUNTIME to design the Klang-Omp source-to-source OpenMP compiler to translate OpenMP directives into calls to the API of AVALON and RUNTIME respective runtime systems (XKaapi for AVALON, StarPU for RUNTIME).</p>
+              </li>
+            </sanspuceslist>
+          </li>
+        </descriptionlist>
+      </subsection>
+      <subsection id="uid86" level="2">
+        <bodyTitle>IPL - Inria Project Lab</bodyTitle>
+        <descriptionlist>
+          <label>C2S<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>@</mo></math></formula>Exa - Computer and Computational Sciences at Exascale</label>
+          <li id="uid87">
+            <participants>
+              <person key="runtime-2014-idp80536">
+                <firstname>Olivier</firstname>
+                <lastname>Aumage</lastname>
+              </person>
+            </participants>
+            <sanspuceslist>
+              <li id="uid88">
+                <p noindent="true">Inria IPL 2013 - 2017 (48 months)</p>
+              </li>
+              <li id="uid89">
+                <p noindent="true">Coordinator: Stéphane Lantéri (team Nachos, Inria Sophia)</p>
+              </li>
+            </sanspuceslist>
+            <p>Since January 2013, the team is participating to the C2S<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>@</mo></math></formula>Exa
+<ref xlink:href="http://www-sop.inria.fr/c2s_at_exa" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-sop.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>c2s_at_exa</ref> Inria Project Lab (IPL).
+This national initiative aims at the development of numerical modeling
+methodologies that fully exploit the processing capabilities of modern
+massively parallel architectures in the context of a number of
+selected applications related to important scientific and
+technological challenges for the quality and the security of life in
+our society. This collaborative effort involves
+computer scientists that are experts of programming models,
+environments and tools for harnessing massively parallel systems,
+algorithmists that propose algorithms and contribute to generic
+libraries and core solvers in order to take benefit from all the
+parallelism levels with the main goal of optimal scaling on very large
+numbers of computing entities and, numerical mathematicians that are
+studying numerical schemes and scalable solvers for systems of partial
+differential equations in view of the simulation of very large-scale
+problems.</p>
+          </li>
+          <label>HAC-SPECIS - High-performance Application and Computers, Studying PErformance and Correctness In Simulation</label>
+          <li id="uid90">
+            <participants>
+              <person key="runtime-2014-idp89872">
+                <firstname>Samuel</firstname>
+                <lastname>Thibault</lastname>
+              </person>
+              <person key="mescal-2014-idp116584">
+                <firstname>Luka</firstname>
+                <lastname>Stanisic</lastname>
+              </person>
+            </participants>
+            <sanspuceslist>
+              <li id="uid91">
+                <p noindent="true">Inria IPL 2016 - 2020 (48 months)</p>
+              </li>
+              <li id="uid92">
+                <p noindent="true">Coordinator: Arnaud Legrand (team Polaris, Inria Rhône Alpes)</p>
+              </li>
+            </sanspuceslist>
+            <p>Since June 2016, the team is participating to the HAC-SPECIS
+<ref xlink:href="http://hacspecis.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hacspecis.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref> Inria Project Lab (IPL).
+This national initiative aims at answering methodological needs
+of HPC application and runtime developers and allowing to study
+real HPC systems both from the correctness and performance point
+of view. To this end, it gathers experts from the HPC, formal
+verification and performance evaluation community.</p>
+          </li>
+        </descriptionlist>
+      </subsection>
+    </subsection>
+    <subsection id="uid93" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid94" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid95" level="3">
+          <bodyTitle>INTERTWinE</bodyTitle>
+          <sanspuceslist>
+            <li id="uid96">
+              <p noindent="true">Title: Programming Model INTERoperability ToWards Exascale</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Programm: H2020</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">Duration: October 2015 - October 2018</p>
+            </li>
+            <li id="uid99">
+              <p noindent="true">Coordinator: EPCC</p>
+            </li>
+            <li id="uid100">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid101">
+                  <p noindent="true">Barcelona Supercomputing Center - Centro Nacional de Supercomputacion (Spain)</p>
+                </li>
+                <li id="uid102">
+                  <p noindent="true">Deutsches Zentrum für Luft - und Raumfahrt Ev (Germany)</p>
+                </li>
+                <li id="uid103">
+                  <p noindent="true">Fraunhofer Gesellschaft Zur Forderung Der Angewandten Forschung Ev (Germany)</p>
+                </li>
+                <li id="uid104">
+                  <p noindent="true">Institut National de Recherche en Informatique et en Automatique (France)</p>
+                </li>
+                <li id="uid105">
+                  <p noindent="true">Kungliga Tekniska Hoegskolan (Sweden)</p>
+                </li>
+                <li id="uid106">
+                  <p noindent="true">T-Systems Solutions for Research (Germany)</p>
+                </li>
+                <li id="uid107">
+                  <p noindent="true">The University of Edinburgh (United Kingdom)</p>
+                </li>
+                <li id="uid108">
+                  <p noindent="true">Universitat Jaume I de Castellon (Spain)</p>
+                </li>
+                <li id="uid109">
+                  <p noindent="true">The University of Manchester (United Kingdom)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid110">
+              <p noindent="true">Inria contact: Olivier Aumage</p>
+            </li>
+            <li id="uid111">
+              <p noindent="true">This project addresses the problem of programming model design and implementation for the Exascale. The first Exascale computers will be very highly parallel systems, consisting of a hierarchy of architectural levels. To program such systems effectively and portably, programming APIs with efficient and robust implementations must be ready in the appropriate timescale. A single, “silver bullet” API which addresses all the architectural levels does not exist and seems very unlikely to emerge soon enough. We must therefore expect that using combinations of different APIs at different system levels will be the only practical solution in the short to medium term. Although there remains room for improvement in individual programming models and their implementations, the main challenges lie in interoperability between APIs. It is this interoperability, both at the specification level and at the implementation level, which this project seeks to address and to further the state of the art. INTERTWinE brings together the principal European organisations driving the evolution of programming models and their implementations. The project will focus on seven key programming APIs: MPI, GASPI, OpenMP, OmpSs, StarPU, QUARK and PaRSEC, each of which has a project partner with extensive experience in API design and implementation. Interoperability requirements, and evaluation of implementations will be driven by a set of kernels and applications, each of which has a project partner with a major role in their development. The project will implement a co- design cycle, by feeding back advances in API design and implementation into the applications and kernels, thereby driving new requirements and hence further advances.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid112" level="3">
+          <bodyTitle>Mont-Blanc 2</bodyTitle>
+          <sanspuceslist>
+            <li id="uid113">
+              <p noindent="true">Title: Programming Model INTERoperability ToWards Exascale</p>
+            </li>
+            <li id="uid114">
+              <p noindent="true">Programm: FP7</p>
+            </li>
+            <li id="uid115">
+              <p noindent="true">Duration: September 2013 - January 2017</p>
+            </li>
+            <li id="uid116">
+              <p noindent="true">Coordinator: BSC</p>
+            </li>
+            <li id="uid117">
+              <p noindent="true">Partners: Atos/Bull, ARM, Jülich, LRZ, Univ. Stuttgart, CINECA, CNRS, CEA, Univ. Bristol,
+Allinea Software, Univ. Cantabria</p>
+            </li>
+            <li id="uid118">
+              <p noindent="true">Inria contact: Olivier Aumage</p>
+            </li>
+            <li id="uid119">
+              <p noindent="true">The Mont-Blanc project aims to develop a European Exascale approach leveraging on commodity
+power-efficient embedded technologies. The project has developed a HPC system software stack on
+ARM, and will deploy the first integrated ARM-based HPC prototype by 2014, and is also working
+on a set of 11 scientific applications to be ported and tuned to the prototype system. Team STORM has been involved in porting the MAQAO binary code analyzer and instrumenter on ARM platforms and interfacing it with the kernel autotuning framework BOAST.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid120" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid121" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid122" level="3">
+          <bodyTitle>Declared Inria International Partners</bodyTitle>
+          <simplelist>
+            <li id="uid123">
+              <p noindent="true">Team STORM is supervising the membership of Inria as part of the OpenMP Architecture Review Board (ARB), the international body in charge of the standardisation of the OpenMP parallel programming language. The membership has been supported by an InriaHUB/Standardisation grant.</p>
+            </li>
+            <li id="uid124">
+              <p noindent="true">Team STORM is member of the Khronos Group Advisory Panel about the standardization of the OpenCL and SYCL programming languages.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid125">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid126" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid127" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid128" level="3">
+          <bodyTitle>Chair of Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid129">
+              <p noindent="true">Samuel Thibault was a Program Committee chair for EuroPar'16.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid130" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid131">
+              <p noindent="true">Samuel Thibault was a member of the Program Committee for Compas'16, HCW'16, MuCoCos'16, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>3</mn></msup></math></formula>MA'16</p>
+            </li>
+            <li id="uid132">
+              <p noindent="true">Olivier Aumage was a member of the Program Committee for HUCAA 16'</p>
+            </li>
+            <li id="uid133">
+              <p noindent="true">Raymond Namyst was a member of the Program Committees for Cluster'16, EuroPar'16 and SAC/MUSEPAT'16</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">Denis Barthou was a Program Committee chair for UCHPC'16</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid135" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>The members of the team reviewed numerous papers for various international conferences such as IPDPS, Super-Computing, Euro-Par, ICPP.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid136" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <p>The members of the team review papers from many high-level journals such as TPDS, CCPE, TACO, JPDC.</p>
+      </subsection>
+      <subsection id="uid137" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid138">
+            <p noindent="true">Samuel Thibault was invited to present StarPU advances at the "Scalable Task-based Programming Models" workshop of SIAM-PP 2016</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">Samuel Thibault was invited to participate to the "What Do You Need to Know About Task-Based Programming for Future Systems?" panel of SIAM-PP 2016</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">Samuel Thibault was invited to make a talk on StarPU at an meeting for the H2020 NLAFET project</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">Samuel Thibault was then invited to make a talk at the CCDSC-2016 workshop</p>
+          </li>
+          <li id="uid142">
+            <p noindent="true">Samuel Thibault was invited to make a talk at Jussieu for a APR seminar</p>
+          </li>
+          <li id="uid143">
+            <p noindent="true">Terry Cojean was invited to present his work at the "Task-based Scientific, High Performance Computing on Top of Runtime Systems" workshop of SIAM-PP 2016</p>
+          </li>
+          <li id="uid144">
+            <p noindent="true">Terry Cojean was invited to present his work by the research group of Prof. Benkner at the University of Vienna.</p>
+          </li>
+          <li id="uid145">
+            <p noindent="true">Terry Cojean was invited to give a talk on StarPU at the RESPA workshop of Super-Computing 2016, details available in <ref xlink:href="#storm-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/></p>
+          </li>
+          <li id="uid146">
+            <p noindent="true">Luka Stanisic was invited to present an effective methodology for reproducible research on dynamic task-based runtime systems at the "Task-based Scientific, High Performance Computing on Top of Runtime Systems" workshop of SIAM-PP 2016</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">Luka Stanisic was invited to present advanced usage of Git at the "Reproducible Research" webinars</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Olivier Aumage was invited to present StarPU at the Parallel Programming Frameworks: Technologies, Performance and Applications track of SIAM-PP 2016 in Paris.</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">Olivier Aumage was invited to present StarPU at CERFACS in Toulouse.</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">Olivier Aumage was invited to present StarPU at the workshop Building a European/American Community for the Development of Dynamic Runtimes in Extreme-Scale Systems, as part of ISC'2016 in Frankfurt.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">Olivier Aumage and Samuel Thibault presented a tutorial session on runtime systems and StarPU as part of the Prace Advanced Training Center (PATC) program in Paris, in partnership with La Maison de la simulation.</p>
+          </li>
+          <li id="uid152">
+            <p noindent="true">Olivier Aumage was invited to present StarPU by the research group of Prof. Benkner at the university of Vienna.</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">Olivier Aumage was invited to give a training session on advanced parallel programming models for HPC platforms as part of the EoCoE European Center of Excellence face-to-face meeting in Rome</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">Raymond Namyst was invited to give a talk about Heterogeneous Programming at the RoMoL Workshop, Barcelona, March 2016</p>
+          </li>
+          <li id="uid155">
+            <p noindent="true">Raymond Namyst was invited to give a talk about StarPU at the CEA 2016 HPC Worshop, Cargèse</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid156" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid157" level="2">
+        <bodyTitle>Teaching administration</bodyTitle>
+        <sanspuceslist>
+          <li id="uid158">
+            <p noindent="true">Samuel Thibault is responsible for the computer science topic of the first university semester.</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">Samuel Thibault is responsible for the creation of the new Licence Pro ADSILLH (Administrateur et Développeur de Systèmes Informatiques sous Licences Libres et Hybrides)</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">Denis Barthou is responsible for the cyber-security, systems and networks 3rd year of the ENSEIRB-MATMECA engineering school.</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">Raymond Namyst is Vice-chair of the Computer Science Training Department of University of Bordeaux</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid162" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid163">
+            <p noindent="true">Licence : Marie-Christine Counilh, Introduction to Computer Science, 64HeTD, L1, University of Bordeaux</p>
+          </li>
+          <li id="uid164">
+            <p noindent="true">Licence : Marie-Christine Counilh, Introduction to C Programming, 52HeTD, L1, University of Bordeaux</p>
+          </li>
+          <li id="uid165">
+            <p noindent="true">Licence : Samuel Thibault, Introduction to Computer Science, 32HeTD, L1, University of Bordeaux</p>
+          </li>
+          <li id="uid166">
+            <p noindent="true">Licence : Samuel Thibault, Networking, 51HeTD, L3, University of Bordeaux</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Licence : Samuel Thibault, Computer Architecture, 77HeTD, L2, University of Bordeaux</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">Licence : Samuel Thibault, Tutored project, 10HeTD, L3, University of Bordeaux</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">Licence : Pierre-André Wacrenier, Introduction to Computer Science, 64HeTD, L1, University of Bordeaux</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">Licence : Terry Cojean, Networking, 40HeTD, L1, IUT Bordeaux</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">Licence : Terry Cojean, Object Oriented Programming, 24HeTD, L3, IUT Bordeaux</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">Master : Luka Stanisic, Operating Systems, 22HeTD, M1, University of Bordeaux</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Master : Samuel Thibault, Operating Systems, 22HeTD, M1, University of Bordeaux</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">Master : Marie-Christine Counilh, Object Oriented Programming, 30HeTD, M1, University of Bordeaux</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Master : Raymond Namyst, Operating Systems, M1, University of Bordeaux</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">Master : Pierre-André Wacrenier and Raymond Namyst, Parallel Programming, M1, University of Bordeaux</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">Engineering School: Samuel Thibault, Information System Security, 13HeTD, M1, ENSEIRB-MATMECA/IPB</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">Engineering School: Olivier Aumage, Languages and Supports for Parallelism, 14HeTD, M2, ENSEIRB-MATMECA/IPB joint with University of Bordeaux</p>
+          </li>
+          <li id="uid179">
+            <p noindent="true">Engineering School: Olivier Aumage, High Performance Communication Libraries, 20HeTD, M2, ENSEIRB-MATMECA/IPB joint with University of Bordeaux</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">Engineering School: Denis Barthou, Compilation, Architecture, Architecture for HPC, real-time 3D at ENSEIRB-MATMECA (around 200HeTD), from L3 to M2.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid181" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid182">
+            <p noindent="true">PhD: Gregory Vaumourin, Hybrid Memory Hierarchy and Dynamic Data Handling in Embedded Parallel Architectures, University of Bordeaux, defended in Nov 2016, advisors: Denis Barthou, Alexandre Guerre (CEA), Thomas Dombek (CEA)</p>
+          </li>
+          <li id="uid183">
+            <p noindent="true">PhD: Marc Sergent, Passage à l'échelle d'un support d'exécution à base de tâches pour
+l'algèbre linéaire dense, University of Bordeaux, defended in Dec 2016, advisors: Raymond Namyst, Olivier Aumage, Samuel Thibault, David Goudin (CEA)</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">PhD in progress: Suraj Kumar, Task-based programming paradigms and scheduling, 2013/12, Emmanuel Agullo, Olivier Beaumont, Samuel Thibault</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">PhD in progress: Terry cojean, Programming heterogeneous machines using moldable tasks, 2014/09, Pierre-André Wacrenier, Abdou Guermouche, Raymond Namyst</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">PhD in progress: Christopher Haine, Estimating efficiency and automatic restructuration of data layout, 2014/01, Olivier Aumage, Denis Barthou</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">PhD in progress: Arthur Loussert, Ressource (co)Allocation in HPC systems, 2016/10, Raymond Namyst, Marc Perache (CEA), Benoît Welterlen (ATOS)</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">PhD in progress: Raphaël Prat, Load Balancing in Molecular Dynamics, 2016/10, Raymond Namyst, Laurent Colombet (CEA)</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid189" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Denis Barthou has participated to the following PhD juries</p>
+        <simplelist>
+          <li id="uid190">
+            <p noindent="true">Abdul Wahid MEMON, U. Versailles St Quentin, Jun 2016 (reviewer)</p>
+          </li>
+          <li id="uid191">
+            <p noindent="true">Abderrahmane Nassim HALLI, U. of Grenoble, Sep 2016 (reviewer)</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">Milan KABAC, U. Bordeaux, Oct 2016 (president)</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">Nans ODRY, U. Aix Marseille, Oct 2016 (reviewer)</p>
+          </li>
+        </simplelist>
+        <p>Raymond Namyst has participated to the following PhD juries</p>
+        <simplelist>
+          <li id="uid194">
+            <p noindent="true">David Beniamine, U. Grenoble, Dec 2016 (reviewer)</p>
+          </li>
+          <li id="uid195">
+            <p noindent="true">Alban Rousset, U. Besançon, Oct 2016 (reviewer)</p>
+          </li>
+          <li id="uid196">
+            <p noindent="true">Naweiluo Zhou, U. Grenoble, Oct 2016 (reviewer)</p>
+          </li>
+          <li id="uid197">
+            <p noindent="true">Béranger Bramas, U. Bordeaux, Feb 2016 (president)</p>
+          </li>
+          <li id="uid198">
+            <p noindent="true">Oleg Iegorov, U. Grenoble, Apr 2016 (president)</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid199" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid200">
+          <p noindent="true">Samuel Thibault made a Inria talk about « Building Debian/Ubuntu packages to make it easy for users to install your software »</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="storm-2016-bid11" type="phdthesis" rend="year" n="cite:vaumourin:tel-01402354">
+      <identifiant type="hal" value="tel-01402354"/>
+      <monogr>
+        <title level="m">Read Only Data Specific Management for an Energy Efficient Memory System</title>
+        <author>
+          <persName key="runtime-2014-idp133760">
+            <foreName>Gregory</foreName>
+            <surname>Vaumourin</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01402354" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01402354</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid14" type="inproceedings" rend="year" n="cite:agullo:hal-01223573">
+      <identifiant type="hal" value="hal-01223573"/>
+      <analytic>
+        <title level="a">Are Static Schedules so Bad ? A Case Study on Cholesky Factorization</title>
+        <author>
+          <persName key="hiepacs-2014-idp77424">
+            <foreName>Emmanuel</foreName>
+            <surname>Agullo</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="realopt-2014-idp61024">
+            <foreName>Olivier</foreName>
+            <surname>Beaumont</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="realopt-2014-idp62272">
+            <foreName>Lionel</foreName>
+            <surname>Eyraud-Dubois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="runtime-2014-idp125104">
+            <foreName>Suraj</foreName>
+            <surname>Kumar</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS 2016)</title>
+        <loc>Chicago, IL, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01223573" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01223573</ref>
+        </imprint>
+        <meeting id="cid87817">
+          <title>IEEE International Parallel and Distributed Processing Symposium</title>
+          <num>30</num>
+          <abbr type="sigle">IPDPS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid13" type="inproceedings" rend="year" n="cite:arras:hal-01234333">
+      <identifiant type="hal" value="hal-01234333"/>
+      <analytic>
+        <title level="a">DKPN: A Composite Dataflow/Kahn Process Networks Execution Model</title>
+        <author>
+          <persName key="runtime-2014-idp98680">
+            <foreName>Paul-Antoine</foreName>
+            <surname>Arras</surname>
+            <initial>P.-A.</initial>
+          </persName>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Fuin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">24th Euromicro International Conference on Parallel, Distributed and Network-based processing</title>
+        <loc>Heraklion Crete, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01234333" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01234333</ref>
+        </imprint>
+        <meeting id="cid64853">
+          <title>Euromicro International Conference on Parallel, Distributed and Network-Based Processing</title>
+          <num>24</num>
+          <abbr type="sigle">PDP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid9" type="inproceedings" rend="year" n="cite:aumage:hal-01290099">
+      <identifiant type="hal" value="hal-01290099"/>
+      <analytic>
+        <title level="a">A Stencil DSEL for Single Code Accelerated Computing with SYCL</title>
+        <author>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="runtime-2014-idp85888">
+            <foreName>Denis</foreName>
+            <surname>Barthou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="tea-2015-idp66624">
+            <foreName>Alexandre</foreName>
+            <surname>Honorat</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">SYCL 2016 1st SYCL Programming Workshop during the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</title>
+        <loc>Barcelone, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01290099" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01290099</ref>
+        </imprint>
+        <meeting id="cid625307">
+          <title>SYCL Programming Workshop</title>
+          <num>1</num>
+          <abbr type="sigle">SYCL</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid5" type="inproceedings" rend="year" n="cite:beaumont:hal-01361992">
+      <identifiant type="hal" value="hal-01361992"/>
+      <analytic>
+        <title level="a">Scheduling of Linear Algebra Kernels on Multiple Heterogeneous Resources</title>
+        <author>
+          <persName key="realopt-2014-idp61024">
+            <foreName>Olivier</foreName>
+            <surname>Beaumont</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="runtime-2014-idp121376">
+            <foreName>Terry</foreName>
+            <surname>Cojean</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="realopt-2014-idp62272">
+            <foreName>Lionel</foreName>
+            <surname>Eyraud-Dubois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp85560">
+            <foreName>Abdou</foreName>
+            <surname>Guermouche</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="runtime-2014-idp125104">
+            <foreName>Suraj</foreName>
+            <surname>Kumar</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on High Performance Computing, Data, and Analytics (HiPC 2016)</title>
+        <loc>Hyderabad, India</loc>
+        <title level="s">Proceedings of the IEEE International Conference on High Performance Computing (HiPC 2016)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01361992" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01361992</ref>
+        </imprint>
+        <meeting id="cid283870">
+          <title>International Conference on High Performance Computing</title>
+          <num>23</num>
+          <abbr type="sigle">HIPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid2" type="inproceedings" rend="year" n="cite:cassagne:hal-01363975">
+      <identifiant type="hal" value="hal-01363975"/>
+      <analytic>
+        <title level="a">Energy Consumption Analysis of Software Polar Decoders on Low Power Processors</title>
+        <author>
+          <persName key="storm-2015-idp67064">
+            <foreName>Adrien</foreName>
+            <surname>Cassagne</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Camille</foreName>
+            <surname>Leroux</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="runtime-2014-idp85888">
+            <foreName>Denis</foreName>
+            <surname>Barthou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Le Gal</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The 2016 European Signal Processing Conference (EUSIPCO 2016)</title>
+        <loc>Budapest, Hungary</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01363975" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01363975</ref>
+        </imprint>
+        <meeting id="cid70310">
+          <title>European Signal Processing Conference</title>
+          <num>24</num>
+          <abbr type="sigle">EUSIPCO</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid1" type="inproceedings" rend="year" n="cite:cassagne:hal-01363980">
+      <identifiant type="doi" value="10.1109/ISTC.2016.7593092"/>
+      <identifiant type="hal" value="hal-01363980"/>
+      <analytic>
+        <title level="a">Beyond Gbps Turbo Decoder on Multi-Core CPUs</title>
+        <author>
+          <persName key="storm-2015-idp67064">
+            <foreName>Adrien</foreName>
+            <surname>Cassagne</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Thibaud</foreName>
+            <surname>Tonnellier</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Camille</foreName>
+            <surname>Leroux</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Le Gal</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="runtime-2014-idp85888">
+            <foreName>Denis</foreName>
+            <surname>Barthou</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Symposium on Turbo Codes &amp; Iterative Information Processing</title>
+        <loc>Brest, France</loc>
+        <title level="s">Turbo Codes and Iterative Information Processing</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01363980" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01363980</ref>
+        </imprint>
+        <meeting id="cid625306">
+          <title>International Symposium on Turbo Codes and Iterative Information Processing</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid12" type="inproceedings" rend="year" n="cite:cojean:hal-01410103">
+      <identifiant type="hal" value="hal-01410103"/>
+      <analytic>
+        <title level="a">The StarPU Runtime System at Exascale ?: Scheduling and Programming over Upcoming Machines</title>
+        <author>
+          <persName key="runtime-2014-idp121376">
+            <foreName>Terry</foreName>
+            <surname>Cojean</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="yes" x-editorial-board="no">
+        <title level="m">RESPA workshop at SC16</title>
+        <loc>Salt Lake City, Utah, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01410103" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01410103</ref>
+        </imprint>
+        <meeting id="cid19985">
+          <title>ACM International Conference on Supercomputing</title>
+          <num>2016</num>
+          <abbr type="sigle">ICS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid3" type="inproceedings" rend="year" n="cite:cojean:hal-01181135">
+      <identifiant type="hal" value="hal-01181135"/>
+      <analytic>
+        <title level="a">Resource aggregation for task-based Cholesky Factorization on top of heterogeneous machines</title>
+        <author>
+          <persName key="runtime-2014-idp121376">
+            <foreName>Terry</foreName>
+            <surname>Cojean</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp85560">
+            <foreName>Abdou</foreName>
+            <surname>Guermouche</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp96904">
+            <foreName>Andra</foreName>
+            <surname>Hugo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="runtime-2014-idp79056">
+            <foreName>Raymond</foreName>
+            <surname>Namyst</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="runtime-2014-idp91128">
+            <foreName>Pierre-André</foreName>
+            <surname>Wacrenier</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">HeteroPar'2016 worshop of Euro-Par</title>
+        <loc>Grenoble, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01181135" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01181135</ref>
+        </imprint>
+        <meeting id="cid322121">
+          <title>International Workshop on Algorithms, Models and Tools for Parallel Computing on Heterogeneous Networks</title>
+          <num>2016</num>
+          <abbr type="sigle">HeteroPar</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid15" type="inproceedings" rend="year" n="cite:cojean:hal-01355385">
+      <identifiant type="hal" value="hal-01355385"/>
+      <analytic>
+        <title level="a">Resource aggregation in task-based applications over accelerator-based multicore machines</title>
+        <author>
+          <persName key="runtime-2014-idp121376">
+            <foreName>Terry</foreName>
+            <surname>Cojean</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp85560">
+            <foreName>Abdou</foreName>
+            <surname>Guermouche</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp96904">
+            <foreName>Andra-Ecaterina</foreName>
+            <surname>Hugo</surname>
+            <initial>A.-E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp79056">
+            <foreName>Raymond</foreName>
+            <surname>Namyst</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="runtime-2014-idp91128">
+            <foreName>Pierre-André</foreName>
+            <surname>Wacrenier</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">HeteroPar'2016 worshop of Euro-Par</title>
+        <loc>Grenoble, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01355385" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01355385</ref>
+        </imprint>
+        <meeting id="cid322121">
+          <title>International Workshop on Algorithms, Models and Tools for Parallel Computing on Heterogeneous Networks</title>
+          <num>2016</num>
+          <abbr type="sigle">HeteroPar</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid6" type="inproceedings" rend="year" n="cite:garciapinto:hal-01353962">
+      <identifiant type="hal" value="hal-01353962"/>
+      <analytic>
+        <title level="a">Analyzing Dynamic Task-Based Applications on Hybrid Platforms: An Agile Scripting Approach</title>
+        <author>
+          <persName key="moais-2014-idp108368">
+            <foreName>Vinicius</foreName>
+            <surname>Garcia Pinto</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="mescal-2014-idp116584">
+            <foreName>Luka</foreName>
+            <surname>Stanisic</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="mescal-2014-idp64792">
+            <foreName>Arnaud</foreName>
+            <surname>Legrand</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Lucas</foreName>
+            <surname>Mello Schnorr</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="moais-2014-idp89024">
+            <foreName>Vincent</foreName>
+            <surname>Danjean</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">3rd Workshop on Visual Performance Analysis (VPA)</title>
+        <loc>Salt Lake City, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01353962" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353962</ref>
+        </imprint>
+        <meeting id="cid624922">
+          <title>Workshop on Visual Performance Analysis</title>
+          <num>3</num>
+          <abbr type="sigle">VPA</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">Held in conjunction with SC16</note>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid0" type="inproceedings" rend="year" n="cite:huchant:hal-01419366">
+      <identifiant type="doi" value="10.1007/978-3-319-43659-3_50"/>
+      <identifiant type="hal" value="hal-01419366"/>
+      <analytic>
+        <title level="a">Automatic OpenCL Task Adaptation for Heterogeneous Architectures</title>
+        <author>
+          <persName key="storm-2015-idp81856">
+            <foreName>Pierre</foreName>
+            <surname>Huchant</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="runtime-2014-idp87344">
+            <foreName>Marie-Christine</foreName>
+            <surname>Counilh</surname>
+            <initial>M.-C.</initial>
+          </persName>
+          <persName key="runtime-2014-idp85888">
+            <foreName>Denis</foreName>
+            <surname>Barthou</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Euro-Par</title>
+        <loc>Grenoble, France</loc>
+        <title level="s">Euro-Par 2016: Parallel Processing</title>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">684 - 696</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01419366" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01419366</ref>
+        </imprint>
+        <meeting id="cid306382">
+          <title>International Euro-Par Conference on Parallel Processing</title>
+          <num>13</num>
+          <abbr type="sigle">Euro-Par</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid8" type="inproceedings" rend="year" n="cite:sergent:hal-01284004">
+      <identifiant type="hal" value="hal-01284004"/>
+      <analytic>
+        <title level="a">Controlling the Memory Subscription of Distributed Applications with a Task-Based Runtime System</title>
+        <author>
+          <persName key="runtime-2014-idp132544">
+            <foreName>Marc</foreName>
+            <surname>Sergent</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Goudin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">21st International Workshop on High-Level Parallel Programming Models and Supportive Environments</title>
+        <loc>Chicago, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01284004" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01284004</ref>
+        </imprint>
+        <meeting id="cid607727">
+          <title>International Workshop on High-Level Parallel Programming Models and Supportive Environments</title>
+          <num>21</num>
+          <abbr type="sigle">HIPS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid17" type="inproceedings" rend="year" n="cite:sergent:hal-01380126">
+      <identifiant type="hal" value="hal-01380126"/>
+      <analytic>
+        <title level="a">Controlling the Memory Subscription of Distributed Applications with a Task-Based Runtime System</title>
+        <author>
+          <persName key="runtime-2014-idp132544">
+            <foreName>Marc</foreName>
+            <surname>Sergent</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Goudin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="no">
+        <title level="m">SIAM Conference on Parallel Processing for Scientific Computing (SIAM PP 2016)</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">318 - 327</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01380126" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380126</ref>
+        </imprint>
+        <meeting id="cid48738">
+          <title>SIAM Conference on Parallel Processing for Scientific Computing</title>
+          <num>2016</num>
+          <abbr type="sigle">SIAM PP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid10" type="techreport" rend="year" n="cite:agullo:hal-01372022">
+      <identifiant type="hal" value="hal-01372022"/>
+      <monogr>
+        <title level="m">Bridging the gap between OpenMP 4.0 and native runtime systems for the fast multipole method</title>
+        <author>
+          <persName key="hiepacs-2014-idp77424">
+            <foreName>Emmanuel</foreName>
+            <surname>Agullo</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp99408">
+            <foreName>Berenger</foreName>
+            <surname>Bramas</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp78664">
+            <foreName>Olivier</foreName>
+            <surname>Coulaud</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="runtime-2014-idp94872">
+            <foreName>Samuel</foreName>
+            <surname>Pitoiset</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8953</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">49</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01372022" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01372022</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid7" type="techreport" rend="year" n="cite:agullo:hal-01332774">
+      <identifiant type="hal" value="hal-01332774"/>
+      <monogr>
+        <title level="m">Achieving High Performance on Supercomputers with a Sequential Task-based Programming Model</title>
+        <author>
+          <persName key="hiepacs-2014-idp77424">
+            <foreName>Emmanuel</foreName>
+            <surname>Agullo</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="runtime-2014-idp80536">
+            <foreName>Olivier</foreName>
+            <surname>Aumage</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp84304">
+            <foreName>Mathieu</foreName>
+            <surname>Faverge</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="runtime-2014-idp93640">
+            <foreName>Nathalie</foreName>
+            <surname>Furmento</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp90544">
+            <foreName>Florent</foreName>
+            <surname>Pruvost</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="runtime-2014-idp132544">
+            <foreName>Marc</foreName>
+            <surname>Sergent</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8927</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest ; Bordeaux INP ; CNRS ; Université de Bordeaux ; CEA</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">27</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01332774" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01332774</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid18" type="techreport" rend="year" n="cite:agullo:hal-01387482">
+      <identifiant type="hal" value="hal-01387482"/>
+      <monogr>
+        <title level="m">Task-based fast multipole method for clusters of multicore processors</title>
+        <author>
+          <persName key="hiepacs-2014-idp77424">
+            <foreName>Emmanuel</foreName>
+            <surname>Agullo</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp99408">
+            <foreName>Bérenger</foreName>
+            <surname>Bramas</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp78664">
+            <foreName>Olivier</foreName>
+            <surname>Coulaud</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="hiepacs-2016-idp200080">
+            <foreName>Martin</foreName>
+            <surname>Khannouz</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mescal-2014-idp116584">
+            <foreName>Luka</foreName>
+            <surname>Stanisic</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8970</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">15</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01387482" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01387482</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="storm-2016-bid16" type="unpublished" rend="year" n="cite:beaumont:hal-01386174">
+      <identifiant type="hal" value="hal-01386174"/>
+      <monogr>
+        <title level="m">Approximation Proofs of a Fast and Efficient List Scheduling Algorithm for Task-Based Runtime Systems on Multicores and GPUs</title>
+        <author>
+          <persName key="realopt-2014-idp61024">
+            <foreName>Olivier</foreName>
+            <surname>Beaumont</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="realopt-2014-idp62272">
+            <foreName>Lionel</foreName>
+            <surname>Eyraud-Dubois</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="runtime-2014-idp125104">
+            <foreName>Suraj</foreName>
+            <surname>Kumar</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01386174" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01386174</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="storm-2016-bid4" type="unpublished" rend="year" n="cite:cojean:hal-01409965">
+      <identifiant type="hal" value="hal-01409965"/>
+      <monogr>
+        <title level="m">Resource aggregation for task-based Cholesky Factorization on top of modern architectures</title>
+        <author>
+          <persName key="runtime-2014-idp121376">
+            <foreName>Terry</foreName>
+            <surname>Cojean</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp85560">
+            <foreName>Abdou</foreName>
+            <surname>Guermouche</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp96904">
+            <foreName>Andra</foreName>
+            <surname>Hugo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="runtime-2014-idp79056">
+            <foreName>Raymond</foreName>
+            <surname>Namyst</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="runtime-2014-idp91128">
+            <foreName>Pierre-André</foreName>
+            <surname>Wacrenier</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01409965" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01409965</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">This paper is submitted for review to the Parallel Computing special issue for HCW and HeteroPar 16 workshops</note>
+    </biblStruct>
+  </biblio>
+</raweb>

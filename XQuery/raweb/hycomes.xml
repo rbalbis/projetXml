@@ -1,0 +1,3273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="hycomes" isproject="true">
+    <shortname>HYCOMES</shortname>
+    <projectName>Modélisation hybride &amp; conception par contrats pour les systèmes embarqués multi-physiques</projectName>
+    <theme-de-recherche>Embedded and Real-time Systems</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/hycomes/en/</urlTeam>
+    <header_dates_team>Creation of the Team: 2013 July 01, updated into Project-Team: 2016 September 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2. - Software</term>
+      <term>2.1. - Programming Languages</term>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.1.5. - Constraint programming</term>
+      <term>2.1.8. - Synchronous languages</term>
+      <term>2.1.10. - Domain-specific languages</term>
+      <term>2.2. - Compilation</term>
+      <term>2.3. - Embedded and cyber-physical systems</term>
+      <term>2.3.1. - Embedded systems</term>
+      <term>2.3.2. - Cyber-physical systems</term>
+      <term>2.3.3. - Real-time systems</term>
+      <term>2.4. - Verification, reliability, certification</term>
+      <term>2.4.1. - Analysis</term>
+      <term>2.4.2. - Model-checking</term>
+      <term>2.4.3. - Proofs</term>
+      <term>2.5. - Software engineering</term>
+      <term>2.5.1. - Software Architecture &amp; Design</term>
+      <term>2.5.2. - Component-based Design</term>
+      <term>3. - Data and knowledge</term>
+      <term>3.1. - Data</term>
+      <term>3.1.1. - Modeling, representation</term>
+      <term>6. - Modeling, simulation and control</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.3. - Discrete Modeling (multi-agent, people centered)</term>
+      <term>6.1.5. - Multiphysics modeling</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>2. - Health</term>
+      <term>2.4. - Therapies</term>
+      <term>2.4.3. - Surgery</term>
+      <term>4. - Energy</term>
+      <term>5. - Industry of the future</term>
+      <term>5.2. - Design and manufacturing</term>
+      <term>5.2.1. - Road vehicles</term>
+      <term>5.2.2. - Railway</term>
+      <term>5.2.3. - Aviation</term>
+      <term>5.2.4. - Aerospace</term>
+      <term>5.8. - Learning and training</term>
+      <term>5.9. - Industrial maintenance</term>
+      <term>7. - Transport and logistics</term>
+      <term>7.1. - Traffic management</term>
+      <term>7.1.3. - Air traffic</term>
+      <term>8. - Smart Cities and Territories</term>
+      <term>8.1. - Smart building/home</term>
+      <term>8.1.1. - Energy for smart buildings</term>
+    </keywordsSecteurs>
+    <UR name="Rennes"/>
+  </identification>
+  <team id="uid1">
+    <person key="hycomes-2014-idm10408">
+      <firstname>Benoît</firstname>
+      <lastname>Caillaud</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="hycomes-2014-idm8984">
+      <firstname>Albert</firstname>
+      <lastname>Benveniste</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Senior Researcher, Emeritus</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="hycomes-2015-idp62264">
+      <firstname>Khalil</firstname>
+      <lastname>Ghorbal</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="hycomes-2016-idp143184">
+      <firstname>Aurélien</firstname>
+      <lastname>Lamercerie</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, from Nov 2016, funded by the Sunset collaborative project, Labex CominLabs</moreinfo>
+    </person>
+    <person key="hycomes-2014-idm6248">
+      <firstname>Ayman</firstname>
+      <lastname>Aljarbouh</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria, partially granted by Conseil Régional de Bretagne and by the Modrio ITEA2 project</moreinfo>
+    </person>
+    <person key="visages-2014-idp130624">
+      <firstname>Angélique</firstname>
+      <lastname>Jarnoux</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="hycomes-2016-idp150816">
+      <firstname>Siham Rim</firstname>
+      <lastname>Boudaoud</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Rennes I, Master Intern, from
+Feb 2016 until Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Hycomes has been created as a new team of the Rennes — Bretagne
+Atlantique Inria research center in July 2013. The team builds upon
+the most promising results of the former S4 team-project and of the
+Synchronics large scale initiative. Two topics in embedded system
+design are covered:</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true">Hybrid systems modelling, with applications to the design of multi-physics
+embedded systems, often referenced as cyber-physical systems;</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">Contract-based design and interface theories, with
+applications to requirements engineering in the context of
+safety-critical systems design.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid6">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Hybrid Systems Modeling</bodyTitle>
+      <p>Systems industries today make extensive use of mathematical modeling
+tools to design computer controlled physical systems. This class of
+tools addresses the modeling of physical systems with models that
+are simpler than usual scientific computing problems by using only
+Ordinary Differential Equations (ODE) and Difference Equations but
+not Partial Differential Equations (PDE). This family of tools first
+emerged in the 1980's with SystemBuild by MatrixX (now distributed
+by National Instruments) followed soon by Simulink by Mathworks,
+with an impressive subsequent development.</p>
+      <p>In the early 90's control scientists from the University of Lund
+(Sweden) realized that the above approach did not support component
+based modeling of physical systems with
+reuse <footnote id="uid8" id-text="1"><ref xlink:href="http://www.lccc.lth.se/media/LCCC2012/WorkshopSeptember/slides/Astrom.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lccc.<allowbreak/>lth.<allowbreak/>se/<allowbreak/>media/<allowbreak/>LCCC2012/<allowbreak/>WorkshopSeptember/<allowbreak/>slides/<allowbreak/>Astrom.<allowbreak/>pdf</ref></footnote>.
+For instance, it was not easy to draw an electrical or hydraulic
+circuit by assembling component models of the various devices. The
+development of the Omola language by Hilding Elmqvist was a first
+attempt to bridge this gap by supporting some form of Differential
+Algebraic Equations (DAE) in the models. Modelica quickly emerged
+from this first attempt and became in the 2000's a major
+international concerted effort with the Modelica Consortium
+<footnote id="uid9" id-text="2"><ref xlink:href="https://www.modelica.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>modelica.<allowbreak/>org/</ref></footnote>. A wider set of tools,
+both industrial and academic, now exists in this segment
+<footnote id="uid10" id-text="3">SimScape by Mathworks, Amesim by LMS International, now
+Siemens PLM, and more.</footnote>. In the EDA sector, VHDL-AMS was developed
+as a standard  <ref xlink:href="#hycomes-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Despite these tools are now widely used by a number of engineers,
+they raise a number of technical difficulties. The meaning of some
+programs, their mathematical semantics, can be tainted with
+uncertainty. A main source of difficulty lies in the failure to
+properly handle the discrete and the continuous parts of systems,
+and their interaction. How the propagation of mode changes and
+resets should be handled? How to avoid artifacts due to the use of a
+global ODE solver causing unwanted coupling between seemingly non
+interacting subsystems? Also, the mixed use of an equational style
+for the continuous dynamics with an imperative style for the mode
+changes and resets is a source of difficulty when handling parallel
+composition. It is therefore not uncommon that tools return complex
+warnings for programs with many different suggested hints for fixing
+them. Yet, these “pathological” programs can still be executed, if
+wanted so, giving surprising results — See for instance the
+Simulink examples in  <ref xlink:href="#hycomes-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#hycomes-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and  <ref xlink:href="#hycomes-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Indeed this area suffers from the same difficulties that led to the
+development of the theory of synchronous languages as an effort to
+fix obscure compilation schemes for discrete time equation based
+languages in the 1980's. Our vision is that hybrid systems modeling
+tools deserve similar efforts in theory as synchronous languages did
+for the programming of embedded systems.</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Background on non-standard analysis</bodyTitle>
+      <p>Non-Standard analysis plays a central role in our research on hybrid
+systems modeling <ref xlink:href="#hycomes-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#hycomes-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The following text provides a brief
+summary of this theory and gives some hints on its usefulness in the
+context of hybrid systems modeling. This presentation is based on our
+paper <ref xlink:href="#hycomes-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, a chapter of Simon
+Bliudze's PhD thesis  <ref xlink:href="#hycomes-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and a recent presentation
+of non-standard analysis, not axiomatic in style, due to the
+mathematician Lindström  <ref xlink:href="#hycomes-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Non-standard numbers allowed us to reconsider the semantics of hybrid
+systems and propose a radical alternative to the <i>super-dense
+time semantics</i> developed by Edward Lee and his team as part of the
+Ptolemy II project, where cascades of successive instants can occur in
+zero time by using <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>ℝ</mi><mo>+</mo></msub><mo>×</mo><mi>ℕ</mi></mrow></math></formula> as a time index. In the non-standard
+semantics, the time index is defined as a set
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>𝕋</mi><mo>=</mo><mo>{</mo><mi>n</mi><mi>∂</mi><mo>∣</mo><mi>n</mi><mo>∈</mo><mrow><msup><mrow/><mo>*</mo></msup><mi>ℕ</mi></mrow><mo>}</mo></mrow></math></formula>, where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>∂</mi></math></formula> is an
+<i>infinitesimal</i> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mrow/><mo>*</mo></msup><mi>ℕ</mi></mrow></math></formula> is the set of <i>non-standard
+integers</i>. Remark that 1/ <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝕋</mi></math></formula> is dense in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ℝ</mi><mo>+</mo></msub></math></formula>, making it
+“continuous”, and 2/ every <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow></math></formula> has a predecessor in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝕋</mi></math></formula> and a
+successor in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝕋</mi></math></formula>, making it “discrete”. Although it is not effective from
+a computability point of view, the <i>non-standard semantics</i>
+provides a framework that is familiar to the computer
+scientist and at the same time efficient as a symbolic
+abstraction. This makes it an excellent candidate for the development
+of provably correct compilation schemes and type systems for hybrid
+systems modeling languages.</p>
+      <p>Non-standard analysis was proposed by Abraham Robinson in the
+1960s to allow the explicit manipulation of “infinitesimals” in
+analysis  <ref xlink:href="#hycomes-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Robinson's approach is axiomatic; he proposes adding three new axioms to the
+basic Zermelo-Fraenkel (ZFC) framework.
+There has been much debate in the mathematical community as to
+whether it is worth considering non-standard analysis instead of
+staying with the traditional one.
+We do not enter this debate.
+The important thing for us is that non-standard analysis allows the use of
+the non-standard discretization of continuous dynamics “as if” it was
+operational.</p>
+      <p>Not surprisingly, such an idea is quite ancient. Iwasaki et
+al.  <ref xlink:href="#hycomes-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> first proposed using non-standard
+analysis to discuss the nature of time in hybrid systems. Bliudze and
+Krob  <ref xlink:href="#hycomes-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> have also used non-standard
+analysis as a mathematical support for defining a system theory for
+hybrid systems. They discuss in detail the notion of “system” and
+investigate computability issues. The formalization they propose
+closely follows that of Turing machines, with a memory tape and a
+control mechanism.</p>
+      <p>The introduction to non-standard analysis in  <ref xlink:href="#hycomes-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is very
+pleasant and we take the liberty to borrow it. This presentation was
+originally due to Lindstrøm, see  <ref xlink:href="#hycomes-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Its interest is that it
+does not require any fancy axiomatic material but only makes use of
+the axiom of choice — actually a weaker form of it. The proposed
+construction bears some resemblance to the construction of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ℝ</mi></math></formula> as
+the set of equivalence classes of Cauchy sequences in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ℚ</mi></math></formula> modulo the
+equivalence relation <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mrow><mo>(</mo><msub><mi>u</mi><mi>n</mi></msub><mo>)</mo></mrow><mo>≈</mo><mrow><mo>(</mo><msub><mi>v</mi><mi>n</mi></msub><mo>)</mo></mrow></mrow></math></formula> iff
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mo movablelimits="true" form="prefix">lim</mo><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></msub><mrow><mo>(</mo><msub><mi>u</mi><mi>n</mi></msub><mo>-</mo><msub><mi>v</mi><mi>n</mi></msub><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></formula>.</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Contract-Based Design, Interfaces Theories, and Requirements Engineering</bodyTitle>
+      <p>System companies such as automotive and aeronautic companies are
+facing significant difficulties due to the exponentially raising
+complexity of their products coupled with increasingly tight demands
+on functionality, correctness, and time-to-market. The cost of being
+late to market or of imperfections in the products is staggering as
+witnessed by the recent recalls and delivery delays that many major
+car and airplane manufacturers had to bear in the recent years. The
+specific root causes of these design problems are complex and relate
+to a number of issues ranging from design processes and
+relationships with different departments of the same company and
+with suppliers, to incomplete requirement specification and testing.</p>
+      <p>We believe the most promising means to address the challenges in
+systems engineering is to employ structured and formal design
+methodologies that seamlessly and coherently combine the various
+viewpoints of the design space (behavior, space, time, energy,
+reliability, ...), that provide the appropriate abstractions to
+manage the inherent complexity, and that can provide
+correct-by-construction implementations. The following technology
+issues must be addressed when developing new approaches to the
+design of complex systems:</p>
+      <simplelist>
+        <li id="uid13">
+          <p noindent="true">The overall design flows for heterogeneous systems and the
+associated use of models across traditional boundaries are not well
+developed and understood. Relationships between different teams
+inside a same company, or between different stake-holders in the
+supplier chain, are not well supported by solid technical
+descriptions for the mutual obligations.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">System requirements capture and analysis is in large part a
+heuristic process, where the informal text and natural
+language-based techniques in use today are facing significant
+challenges. Formal requirements engineering is in its infancy:
+mathematical models, formal analysis techniques and links to system
+implementation must be developed.</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">Dealing with variability, uncertainty, and life-cycle issues,
+such as extensibility of a product family, are not well-addressed
+using available systems engineering methodologies and tools.</p>
+        </li>
+      </simplelist>
+      <p>The challenge is to address the entire process and not to consider
+only local solutions of methodology, tools, and models that ease part
+of the design.</p>
+      <p><i>Contract-based design</i> has been proposed as a new approach to
+the system design problem that is rigorous and effective in dealing
+with the problems and challenges described before, and that, at the
+same time, does not require a radical change in the way industrial
+designers carry out their task as it cuts across design flows of
+different type.
+Indeed, contracts can be used almost everywhere and at nearly all
+stages of system design, from early requirements capture, to embedded
+computing infrastructure and detailed design involving circuits and
+other hardware. Contracts explicitly handle pairs of properties,
+respectively representing the assumptions on the environment and the
+guarantees of the system under these assumptions. Intuitively, a
+contract is a pair <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mi>A</mi><mo>,</mo><mi>G</mi><mo>)</mo></mrow></math></formula> of assumptions and guarantees
+characterizing in a formal way 1) under which context the design is
+assumed to operate, and 2) what its obligations are. Assume/Guarantee
+reasoning has been known for a long time, and has been used mostly as
+verification mean for the design of
+software  <ref xlink:href="#hycomes-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. However, contract based
+design with explicit assumptions is a philosophy that should be
+followed all along the design, with all kinds of models, whenever
+necessary. Here, specifications are not limited to profiles, types, or
+taxonomy of data, but also describe the functions, performances of
+various kinds (time and energy), and reliability.
+This amounts to enrich a component's interface with, on one hand, formal
+specifications of the behavior of the environment in which the component may
+be instantiated and, on the other hand, of the expected behavior of the component itself.
+The consideration of rich interfaces is still in its infancy. So far,
+academic researchers have addressed the mathematics and algorithmics
+of interfaces theories and contract-based reasoning. To make them a
+technique of choice for system engineers, we must develop:</p>
+      <simplelist>
+        <li id="uid16">
+          <p noindent="true">Mathematical foundations for interfaces and requirements
+engineering that enable the design of frameworks and tools;</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">A system engineering framework and associated methodologies and tool
+sets that focus on system requirements modeling, contract specification,
+and verification at multiple abstraction layers.</p>
+        </li>
+      </simplelist>
+      <p>A detailed bibliography on contract and interface theories for
+embedded system design can be found
+in <ref xlink:href="#hycomes-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In a nutshell, contract and
+interface theories fall into two main categories:</p>
+      <descriptionlist>
+        <label>Assume/guarantee contracts.</label>
+        <li id="uid18">
+          <p noindent="true">By explicitly relying on the
+notions of assumptions and guarantees, A/G-contracts are intuitive,
+which makes them appealing for the engineer. In A/G-contracts,
+assumptions and guarantees are just properties regarding the
+behavior of a component and of its environment. The typical case is
+when these properties are formal languages or sets of traces, which
+includes the class of safety
+properties  <ref xlink:href="#hycomes-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Contract
+theories were initially developed as specification formalisms able
+to refuse some inputs from the
+environment  <ref xlink:href="#hycomes-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A/G-contracts were advocated
+by the <span class="smallcap" align="left">Speeds</span> project  <ref xlink:href="#hycomes-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. They
+were further experimented in the framework of the CESAR
+project  <ref xlink:href="#hycomes-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, with the additional consideration of
+<i>weak</i> and <i>strong</i> assumptions. This is still a very
+active research topic, with several recent contributions dealing
+with the timed  <ref xlink:href="#hycomes-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and
+probabilistic  <ref xlink:href="#hycomes-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+viewpoints in system design, and even mixed-analog circuit design 
+<ref xlink:href="#hycomes-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+        <label>Automata theoretic interfaces.</label>
+        <li id="uid19">
+          <p noindent="true">Interfaces combine assumptions
+and guarantees in a single, automata theoretic specification. Most
+interface theories are based on Lynch Input/Output
+Automata  <ref xlink:href="#hycomes-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Interface
+Automata  <ref xlink:href="#hycomes-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+focus primarily on parallel composition and compatibility: Two
+interfaces can be composed and are compatible if there is at least
+one environment where they can work together. The idea is that the
+resulting composition exposes as an interface the needed information
+to ensure that incompatible pairs of states cannot be reached. This
+can be achieved by using the possibility, for an Interface
+Automaton, to refuse selected inputs from the environment in a given
+state, which amounts to the implicit assumption that the environment
+will never produce any of the refused inputs, when the interface is
+in this state. Modal
+Interfaces <ref xlink:href="#hycomes-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> inherit from both
+Interface Automata and the originally unrelated notion of Modal
+Transition
+System  <ref xlink:href="#hycomes-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Modal
+Interfaces are strictly more expressive than Interface Automata by
+decoupling the I/O orientation of an event and its deontic
+modalities (mandatory, allowed or forbidden). Informally, a
+<i>must</i> transition is available in every component that realizes
+the modal interface, while a <i>may</i> transition needs not
+be. Research on interface theories is still very active. For
+instance,
+timed  <ref xlink:href="#hycomes-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid42" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+probabilistic  <ref xlink:href="#hycomes-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid43" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and energy-aware  <ref xlink:href="#hycomes-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> interface theories have
+been proposed recently.</p>
+        </li>
+      </descriptionlist>
+      <p>Requirements Engineering is one of the major concerns in large systems
+industries today, particularly so in sectors where certification
+prevails  <ref xlink:href="#hycomes-2016-bid45" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. DOORS projects collecting
+requirements are poorly structured and cannot be considered a formal
+modeling framework today. They are nothing more than an informal
+documentation enriched with hyperlinks. As examples, medium size
+sub-systems may have a few thousands requirements and the Rafale
+fighter aircraft has above 250,000 of them. For the Boeing 787,
+requirements were not stable while subcontractors performed the
+development of the fly-by-wire and of the landing gear subsystems.</p>
+      <p>We see Contract-Based Design and Interfaces Theories as innovative
+tools in support of Requirements Engineering. The Software
+Engineering community has extensively covered several aspects of
+Requirements Engineering, in particular:</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">the development and use of large and rich <i>ontologies</i>; and</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">the use of Model Driven Engineering technology for the
+structural aspects of requirements and resulting hyperlinks (to
+tests, documentation, PLM, architecture, and so on).</p>
+        </li>
+      </simplelist>
+      <p>Behavioral models and properties, however, are not properly
+encompassed by the above approaches. This is the cause of a remaining
+gap between this phase of systems design and later phases where formal
+model based methods involving behavior have become prevalent—see the
+success of Matlab/Simulink/Scade technologies. We believe that our
+work on contract based design and interface theories is best suited to
+bridge this gap.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid22">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Cyber-Physical Systems Design</bodyTitle>
+      <p>Academic research and industry are currently witnessing several
+major revolutions: <i>Cyber-Physical Systems</i> (CPS),
+<i>Big-Data</i> and <i>Cloud Computing</i>, just to name a few. The
+Hycomes team is focused on CPS, and more precisely on CPS modeling
+with two targeted applications: The rigorous design of CPS and the
+optimal exploitation of CPS. Despite many
+engineers believe that <i>systems become too complex to be modeled
+in a faithfully</i>, the Hycomes team defends the opposite idea. We believe
+in the benefits of modeling, but acknowledge that the communities of
+researchers and tool developers are in part responsible for this
+defiance. The steep increase in the complexity of systems (e.g., public transportation systems, electric power grids) and of their
+models comes from composing smaller subsystems into complex
+architectures. As a matter of fact, these architectures are sparse,
+and subsystems interactions are confined to immediate surrounding
+neighborhoods. Thus, the dimension (number of state variables) of a
+system is not the most appropriate characterization of its
+complexity. It is rather the structure of a system and its
+combinatorics of modes of operation that encapsulate its complexity.</p>
+      <p>The main objective of the Hycomes team is to advance modeling technologies
+(languages, compile-time analyses, simulation techniques) for CPS
+combining physical interactions, communication layers and software components.
+We believe that mastering CPS comprising thousands to millions of components requires
+radical changes of paradigms. For instance, modeling techniques must
+be revised, especially when physics is involved. Modeling languages
+must be enhanced to cope with larger models. This can only be
+done by combining new <b>compilation</b> techniques (to master the
+structural complexity of models) with new <b>mathematical</b> tools
+(new numerical methods, in particular).
+We identify below the different axis we want to tackle.</p>
+      <subsection id="uid24" level="2">
+        <bodyTitle>Modelica</bodyTitle>
+        <p>Modelica is a component-based modeling language initially designed for
+the modeling of multi-physics systems. The
+mathematical paradigm underlying Modelica, known as <i>Differential
+Algebraic Equations</i> (DAE). The key challenge is to be
+able to combine algebraic constraints, resulting from the laws of
+physics, in interaction with the nonsmooth behavior of some physical
+phenomena (e.g., impact laws), the multiple modes of operation of the system, and the
+intrinsically discrete behavior of software components.
+In essence, Modelica is based on the concept of multi-mode DAE, so
+that models can switch from one behavior to another when an event occurs,
+typically the crossing of a threshold.
+This approach is paramount to the modeling of large CPS.
+For instance, EDF has done a thorough modeling of the electric power
+grid of the Reunion island <footnote id="uid25" id-text="4"><ref xlink:href="http://www.ceser-reunion.fr/fileadmin/user_upload/tx_pubdb/archives/10.10.18_Rapport_electricite.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ceser-reunion.<allowbreak/>fr/<allowbreak/>fileadmin/<allowbreak/>user_upload/<allowbreak/>tx_pubdb/<allowbreak/>archives/<allowbreak/>10.<allowbreak/>10.<allowbreak/>18_Rapport_electricite.<allowbreak/>pdf</ref></footnote>. This
+was undertaken to gain a better understanding of this complex and
+notably unstable assembly of highly decentralized electric power
+plants: dams, small thermal power plants, wind and solar farms, and
+residential solar panels, just to name a few.
+This large model turned out to be intractable with state-of-the-art
+Modelica tools: because Modelica compilation techniques are not
+modular, the whole model has to be compiled as one unit, resulting in
+a very large simulation code. Parallel simulation of Modelica models
+is still in its infancy and gives poor results on very large models  <ref xlink:href="#hycomes-2016-bid46" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>;
+parallel/distributed techniques for networks of FMU components are not
+applicable to a monolithic model  <ref xlink:href="#hycomes-2016-bid47" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid48" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Moreover, when simulating, for instance, thermal models of a
+building, the opening of a window or of a door impacts the whole
+simulation, despite it only has a local impact on the heat exchanges
+and temperatures. This is caused by the sudden change of stiffness in
+some part of the model, that forces a change in discretization step
+size (assuming that a variable step solver is used for simulation),
+with the adverse effect that the simulation of the whole system is
+slowed down.
+The root cause of this phenomenon boils down to the fact that system
+models and numerical methods used to simulate them are not space
+adaptive — recall that such models are 0-D models, with ODEs/DAEs,
+with no Partial Differential Equations (PDEs).</p>
+      </subsection>
+      <subsection id="uid26" level="2">
+        <bodyTitle>Co-modeling and co-simulation</bodyTitle>
+        <p>The emergence of the FMI
+standard  <footnote id="uid27" id-text="5"><ref xlink:href="https://www.fmi-standard.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>fmi-standard.<allowbreak/>org/</ref></footnote> supporting
+co-modeling and co-simulation has contributed to the widespread belief
+that the co-simulation of a large number of models is achievable using
+FMI-based tools. This is unfortunately an illusion, as FMI does not
+guarantee the reproducibility and determinacy of simulations. There
+are several reasons for that. First, FMI offers no rollback
+mechanism  <ref xlink:href="#hycomes-2016-bid49" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which makes the
+co-simulation to depend on the discretization policy. Second, as the
+standard is not formally specified, its various implementations by
+tool developers differ.</p>
+      </subsection>
+      <subsection id="uid28" level="2">
+        <bodyTitle>Beyond simulation</bodyTitle>
+        <p>Many physical science engineers (mechanical, electrical, aeronautic,
+...) develop models with the sole objective to simulate them, while it
+is known that models can be used for a variety of tasks, all
+contributing towards the safe design and operation of a CPS:
+validating a design model against a set of requirements, assess the
+robustness of a model, test implementations against a design model,
+perform state estimation during system operation, just to name a few.</p>
+        <p>Early stages of CPS design usually consist in the elicitation of
+system-level requirements that will be used later on to design
+detailed models that can be simulated. Most often, the design tasks
+are split among several suppliers. This calls for precise requirements
+to be passed to them, so that, as far as feasible, suppliers can work
+independently. Some of the requirements specify the allowed behavior
+of the sub-system to be design, while others specify the assumed
+behavior of the sub-system's environment.</p>
+        <p>During operation of a CPS, maintenance tasks play an ever-increasing
+role, to minimize the downtime of the system and, to maintain an
+extremely low probability of occurrence of catastrophic
+failures. <i>Diagnosis</i> enables to replace some routine inspections
+or precautionary replacements of critical parts (that are usually
+triggered by the number of hours of operation, or by calendar) by
+fewer maintenance operations, triggered by the estimated wear or aging
+of those parts. This helps to reduce immobilization times and
+maintenance costs.
+Design models could be reused to help the development of diagnosis
+software that will trigger maintenance operations, based on the output
+of <i>parity check</i> algorithms  <ref xlink:href="#hycomes-2016-bid50" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, capable of detecting slow or sudden
+changes of some parameters. Reusing design models in this context
+would be a genuine innovation, in comparison to the established
+practice, where diagnosis is designed by hand, from scratch.</p>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Verification</bodyTitle>
+        <p>Because of severe complexity or undecidability problems, CPS formal
+verification can be done only on partial and simplified models. When
+applicable, these techniques complement usefully simulations. Despite
+of the high level of expertise it requires, formal verification brings
+a level of confidence in the analyses that can not be compared with
+what can be obtained by simulation. Using formal verification makes
+sense only for the most critical parts of a CPS. A fine example is the
+formal correctness proof of a new generation of aircraft collision
+prevention system, the
+ACAS-X <ref xlink:href="#hycomes-2016-bid51" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This proof has
+facilitated the certification of this system, according to the
+established aeronautic standards
+(DO-178C <footnote id="uid30" id-text="6"><ref xlink:href="http://www.adacore.com/gnatpro-safety-critical/avionics/do178c/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>adacore.<allowbreak/>com/<allowbreak/>gnatpro-safety-critical/<allowbreak/>avionics/<allowbreak/>do178c/</ref></footnote>).</p>
+      </subsection>
+    </subsection>
+  </domaine>
+  <highlights id="uid31">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>Team members have made a significant step towards the definition of
+a formal semantics of multimode DAE systems, their strucutral
+analysis and the generation of simulation code. In particular,
+impulsive behavior at mode changes are handled
+correctly  <ref xlink:href="#hycomes-2016-bid52" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> (see Section <ref xlink:href="#uid44" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for
+full details). This semantics has been implemented, in part, in the
+SunDAE prototype software (Section <ref xlink:href="#uid34" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid33">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid34" level="1">
+      <bodyTitle>SunDAE</bodyTitle>
+      <p>Structural analysis tool for multimode DAE systems</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>SunDAE is a multimode DAE (mDAE) structural analysis tool. Structural
+differentiation index is determined, impulsion analysis is performed
+and a BTF scheduling of the equations is performed, for each mode of
+a mDAE system. The input language consists in guarded equations. The
+output is a state-machine where states define continuous-time
+dynamics and transitions define resets. Both are defined by scheduled
+blocks of equations. SunDAE has been developed since 2016 by the Hycomes team and
+is distributed as an open-source software, under the CeCCIL
+Free Software Licensing Agreement.</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">Contact: Benoit Caillaud</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Flipflop</bodyTitle>
+      <p>Test &amp; Flip Net Synthesis Tool for the Inference of Technical Procedure Models</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Flipflop is a Test and Flip net synthesis tool implementing a linear algebraic polynomial time algorithm. Computations are done in the Z/2Z ring. Test and Flip nets extend Elementary Net Systems by allowing test to zero, test to one and flip arcs. The effect of flip arcs is to complement the marking of the place. While the net synthesis problem has been proved to be NP hard for Elementary Net Systems, thanks to flip arcs, the synthesis of Test and Flip nets can be done in polynomial time. Test and flip nets have the required expressivity to give concise and accurate representations of surgical processes (models of types of surgical operations). Test and Flip nets can express causality and conflict relations. The tool takes as input either standard XES log files (a standard XML file format for process mining tools) or a specific XML file format for surgical applications. The output is a Test and Flip net, solution of the following synthesis problem: Given a finite input language (log file), compute a net, which language is the least language in the class of Test and Flip net languages, containing the input language.</p>
+      <simplelist>
+        <li id="uid37">
+          <p noindent="true">Contact: Benoit Caillaud</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">URL: <ref xlink:href="http://tinyurl.com/oql6f3y" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>tinyurl.<allowbreak/>com/<allowbreak/>oql6f3y</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>MICA</bodyTitle>
+      <p>Model Interface Compositional Analysis Library</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Modal interfaces - Contract-based desing</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>In Mica, systems and interfaces are represented by extension. However, a careful design of the state and event heap enables the definition, composition and analysis of reasonably large systems and interfaces. The heap stores states and events in a hash table and ensures structural equality (there is no duplication). Therefore complex data-structures for states and events induce a very low overhead, as checking equality is done in constant time.</p>
+      <p>Thanks to the Inter module and the mica interactive environment, users can define complex systems and interfaces using Ocaml syntax. It is even possible to define parameterized components as Ocaml functions.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Mica is an Ocaml library implementing the Modal Interface algebra. The purpose of Modal Interfaces is to provide a formal support to contract based design methods in the field of system engineering. Modal Interfaces enable compositional reasoning methods on I/O reactive systems.</p>
+      <simplelist>
+        <li id="uid40">
+          <p noindent="true">Participant: Benoit Caillaud</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">Contact: Benoit Caillaud</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">URL: <ref xlink:href="http://www.irisa.fr/s4/tools/mica/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>irisa.<allowbreak/>fr/<allowbreak/>s4/<allowbreak/>tools/<allowbreak/>mica/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid43">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>Structural Analysis of Multi-Mode DAEs</bodyTitle>
+      <p>Differential Algebraic Equation (DAE) systems constitute the
+mathematical model supporting physical modeling languages such as
+Modelica or Simscape. Unlike Ordinary Differential Equations, or
+ODEs, they exhibit subtle issues because of their implicit
+<i>latent equations</i> and related <i>differentiation index</i>.
+Multi-mode DAE (mDAE) systems are much harder to deal with, not only
+because of their mode-dependent dynamics, but essentially because of
+the events and resets occurring at mode transitions. Unfortunately,
+the large literature devoted to the numerical analysis of DAEs do
+not cover the multi-mode case. It typically says nothing about mode
+changes. This lack of foundations cause numerous difficulties to
+the existing modeling tools. Some models are well handled, others
+are not, with no clear boundary between the two classes.
+In <ref xlink:href="#hycomes-2016-bid53" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we develop a comprehensive
+mathematical approach to the <i>structural analysis</i> of mDAE
+systems which properly extends the usual analysis of DAE systems. We
+define a constructive semantics based on nonstandard analysis and
+show how to produce execution schemes in a systematic way. This work
+has been accepted for presentation at the HSCC 2017
+conference  <ref xlink:href="#hycomes-2016-bid52" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> in April 2017.
+</p>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Decoupling Abstractions</bodyTitle>
+      <p>In <ref xlink:href="#hycomes-2016-bid54" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we investigated decoupling abstractions, by which
+we seek to simulate (i.e. abstract) a given system of ordinary differential equations (ODEs)
+by another system that features completely independent (i.e. uncoupled) sub-systems, which
+can be considered as separate systems in their own right. Beyond a purely mathematical interest as a tool for the
+qualitative analysis of ODEs, decoupling can be applied to verification problems arising in the fields of control and hybrid systems.
+Existing verification technology often scales poorly with dimension. Thus, reducing a verification
+problem to a number of independent verification problems for systems of smaller dimension may enable one to prove
+properties that are otherwise seen as too difficult. We show an interesting correspondence between
+Darboux polynomials and decoupling simulating abstractions of systems of
+polynomial ODEs and give a constructive procedure for automatically computing the
+latter.
+</p>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Formal Verification of the ACAS X System</bodyTitle>
+      <p>The <i>Next-Generation Airborne Collision Avoidance System</i> (ACAS X) is intended to be installed on all
+large aircraft to give advice to pilots and prevent mid-air collisions with other aircraft.
+It is currently being developed by the Federal Aviation Administration (FAA).
+In <ref xlink:href="#hycomes-2016-bid51" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we determine the geometric configurations under which
+the advice given by ACAS X is safe under a precise set of assumptions and formally verify these configurations using hybrid systems theorem
+proving techniques. We consider subsequent advisories and show how to adapt our formal verification to take them into account.
+We examine the current version of the real ACAS X system and discuss some cases
+where our safety theorem conflicts with the actual advisory given by that
+version, demonstrating how formal hybrid systems proving approaches are helping to ensure the
+safety of ACAS X. Our approach is general and could also be used to identify unsafe
+advice issued by other collision avoidance systems or confirm their safety.
+</p>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>Chattering-Free Simulation</bodyTitle>
+      <p>Chattering is a fundamental phenomenon that is unique to hybrid systems, due to the complex interaction
+between discrete dynamics (in the form of discrete transitions) and continuous dynamics (in the form of time).
+In practice, simulating chattering hybrid systems is challenging in that simulation effectively halts near the
+chattering time point, as an infinite number of discrete transitions would need to be simulated.
+In <ref xlink:href="#hycomes-2016-bid55" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, formal conditions are provided for when the
+simulated models of hybrid systems display chattering behavior, and methods are proposed for avoiding chattering "on the fly" in runtime.
+We utilize dynamical behavior analysis to derive conditions for detecting chattering without enumeration of modes.
+We also present a new iterative algorithm to allow for solutions to be carried past the chattering point, and we
+show by a prototypical implementation how to generate the equivalent chattering-free dynamics internally by the
+simulator in the main simulation loop.
+</p>
+    </subsection>
+  </resultats>
+  <partenariat id="uid48">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <simplelist>
+        <li id="uid50">
+          <p noindent="true">Ayman Aljarbouh's PhD is partially funded by an ARED grant of
+the Brittany Regional Council. His doctoral work took place in the
+context of the Modrio (completed in 2016) and Sys2Soft (completed in 2015) projects on hybrid systems
+modeling. Ayman Aljarbouh is working on
+accelerated simulation techniques for hybrid systems. In particular,
+he is focusing on the regularisation, at runtime, of chattering
+behaviour and the approximation of Zeno behaviour.</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">Benoît Caillaud and Aurélien Lamercerie are participating to the S3PM and SUNSET projects of the
+CominLabs excellence
+laboratory  <footnote id="uid52" id-text="7"><ref xlink:href="http://www.s3pm.cominlabs.ueb.eu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>s3pm.<allowbreak/>cominlabs.<allowbreak/>ueb.<allowbreak/>eu/</ref></footnote>. This
+project focuses on the computation of surgical procedural knowledge
+models from recordings of individual procedures, and their
+execution  <ref xlink:href="#hycomes-2016-bid56" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The objective is to develop
+an enabling technology for procedural knowledge based computer
+assistance of surgery. In this project, we demonstrate its potential
+added value in nurse and surgeon training <ref xlink:href="#hycomes-2016-bid57" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#hycomes-2016-bid58" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <sanspuceslist>
+          <li id="uid55">
+            <p noindent="true">Program: ITEA2</p>
+          </li>
+          <li id="uid56">
+            <p noindent="true">Project acronym: Modrio</p>
+          </li>
+          <li id="uid57">
+            <p noindent="true">Project title: Model Driven Physical Systems Operation</p>
+          </li>
+          <li id="uid58">
+            <p noindent="true">Duration: September 2012 – May 2016</p>
+          </li>
+          <li id="uid59">
+            <p noindent="true">Coordinator: EDF (France)</p>
+          </li>
+          <li id="uid60">
+            <p noindent="true">Other partners: ABB (Sweden), Ampère Laboratory / CNRS
+(France), Bielefeld University (Germany), Dassault Systèmes
+(Sweden), Dassault Aviation (France), DLR (Germany), DPS (France),
+EADS (France), Equa Simulation (Sweden), IFP (France),
+ITI (Germany), Ilmenau University (Germany), Katholic University of
+Leuven (Belgium), Knorr-Bremse (Germany), LMS (France and Belgium),
+Linköping University (Sweden), MathCore (Sweden), Modelon
+(Sweden), Pöry (Finland), Qtronic (Germany), SICS (Sweden), Scania
+(Sweden), Semantum (Finland), Sherpa Engineering (France), Siemens
+(Germany and Sweden), Simpack (Germany), SKF (Sweden), Supmeca
+(France), Triphase (Belgium), University of Calabria (Italy), VTT
+(Finland), Vattenfall (Sweden), Wapice (Finland).</p>
+          </li>
+          <li id="uid61">
+            <p noindent="true">Abstract: Modelling and simulation are efficient and widely used
+tools for system design. But they are seldom used for systems
+operation. However, most functionalities for system design are
+beneficial for system operation, provided that they are enhanced to
+deal with real operating situations. Through open standards the
+benefits of sharing compatible information and data become obvious:
+improved cooperation between the design and the operation
+communities, easier adaptation of operation procedures wrt. design
+evolutions. Open standards also foster general purpose
+technology. The objective of the ITEA 2 MODRIO project is to extend
+modelling and simulation tools based on open standards from system
+design to system operation.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid62">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid63" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid65" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Benoî Caillaud has served on the program committee of ACSD
+2016 (<ref xlink:href="http://acsd2016.mat.umk.pl" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>acsd2016.<allowbreak/>mat.<allowbreak/>umk.<allowbreak/>pl</ref>), a
+conference on the applications of concurrency in system design. He
+is a member of the steering committe of ACSD since 2006.</p>
+        </subsection>
+        <subsection id="uid66" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>Benoît Caillaud has reviewed papers submitted to the ACSD 2016 and ACC 2016 conferences.</p>
+          <p>Khalil Ghorbal reviewed two regular research papers for the Hybrid Systems: Computation and Control Conference.</p>
+          <p>Khalil Ghorbal reviewed two journal papers for the IEEE Transactions on Automatic Control.</p>
+          <p>Khalil Ghorbal reviewed a journal paper for the Computer Journal (Oxford Journals, Science and Mathematics).</p>
+          <p>Khalil Ghorbal reviewed a journal paper for the Information and Computation journal (Elsevier).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid67" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Benoît Caillaud has given an invited talk on <i>Time Domains
+in Hybrid Systems Modeling</i> at the SHARC 2016 workshop and ALROB
+meetingthat took place in Brest in June 2016
+(<ref xlink:href="http://lab-sticc.univ-brest.fr/~goulven/sharc2016/program/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lab-sticc.<allowbreak/>univ-brest.<allowbreak/>fr/<allowbreak/>~goulven/<allowbreak/>sharc2016/<allowbreak/>program/<allowbreak/>index.<allowbreak/>html</ref>).</p>
+        <p>In May 13, 2016, Khalil Ghorbal gave an invited talk about the invariant generation for polynomial ordinary differential equations during the Effective Algebraic Geometry Seminar, IRMAR, Rennes, France.</p>
+        <p>In May 23, 2016, Ayman Aljarbouh presented a talk at the Embassy of Sweden in Tokyo for the first Japanese Modelica Conference (MODELICA2016), May 23-24, 2016, Tokyo, JAPAN.</p>
+        <p>In July 2016, Ayman Aljarbouh presented a poster during the French-American Doctoral Exchange Seminar (FADEx) 2016: Systèmes Cyber-Physiques, July 04-08, 2016, Grenoble, FRANCE.</p>
+        <p>In November, 5-12, Albert Benveniste was invited at the Systems Research Center, a center of excellence of the University of Maryland at College Park, USA.</p>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Benoît Caillaud is head of the <i>Languages and Software
+Engineering</i> department of IRISA
+(<ref xlink:href="http://www.irisa.fr/en/departments/d4-language-and-software-engineering" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>irisa.<allowbreak/>fr/<allowbreak/>en/<allowbreak/>departments/<allowbreak/>d4-language-and-software-engineering</ref>). He
+has been in charge of presenting the departement during the evaluation
+seminar of IRISA by HCERES in January 2016.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid70" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid71">
+            <p noindent="true">Master : Benoît Caillaud is teaching with Marc Pouzet a first year master degree course on <i>hybrid systems modeling</i>. The course is open to the students registered to the computer science research and innovation curriculum of the university of Rennes 1 and ENS Rennes, France.</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Master : Khalil Ghorbal was "Chargé de TD" (20h Eq TD) for the "Analyse et Conception Formelles" module open for students registered to the computer science master degree of the university of Rennes 1 and ENS Rennes, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid73" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid74">
+            <p noindent="true">PhD in progress : Ayman Aljarbouh, <i>Accelerated Simulation of Hybrid Systems</i>, started january 2014, supervised by Benoît Caillaud. Ayman Aljarbouh is expected to defend his PhD in MArch 2017.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid75" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Khalil Ghorbal was reviewer in the PhD defense committee of Sameh Mohamed, "Une Méthode Topologique pour la Recherche d'Ensembles Invariants de
+Systèmes Continus et á Commutation", defended in October 17th, 2016, Univ. Paris Saclay (ENS Cachan).</p>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="hycomes-2016-bid2" type="article" rend="refer" n="refercite:hal-00766726">
+      <identifiant type="doi" value="10.1016/j.jcss.2011.08.009"/>
+      <identifiant type="hal" value="hal-00766726"/>
+      <analytic>
+        <title level="a">Non-standard semantics of hybrid systems modelers</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computer and System Sciences</title>
+        <imprint>
+          <biblScope type="volume">78</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">877-910</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00766726" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00766726</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">This work was supported by the SYNCHRONICS large scale initiative of Inria</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid13" type="techreport" rend="refer" n="refercite:hal-00757488">
+      <identifiant type="hal" value="hal-00757488"/>
+      <monogr>
+        <title level="m">Contracts for System Design</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Dejan</foreName>
+            <surname>Nickovic</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Passerone</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Raclet</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName>
+            <foreName>Philipp</foreName>
+            <surname>Reinkemeier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Alberto L.</foreName>
+            <surname>Sangiovanni-Vincentelli</surname>
+            <initial>A. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Werner</foreName>
+            <surname>Damm</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas A.</foreName>
+            <surname>Henzinger</surname>
+            <initial>T. A.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8147</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">65</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00757488" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00757488</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Rapport de recherche</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid32" type="article" rend="refer" n="refercite:journalsfuinRacletBBCLP11">
+      <identifiant type="doi" value="10.3233/FI-2011-416"/>
+      <analytic>
+        <title level="a">A Modal Interface Theory for Component-based Design</title>
+        <author>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Raclet</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName key="sumo-2014-idp101624">
+            <foreName>Eric</foreName>
+            <surname>Badouel</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Passerone</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Fundamenta Informaticae</title>
+        <imprint>
+          <biblScope type="volume">108</biblScope>
+          <biblScope type="number">1-2</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">119-149</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.3233/FI-2011-416" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>3233/<allowbreak/>FI-2011-416</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid60" type="article" rend="year" n="cite:baudart:hal-01408224">
+      <identifiant type="doi" value="10.1145/2932189"/>
+      <identifiant type="hal" value="hal-01408224"/>
+      <analytic>
+        <title level="a">Loosely Time-Triggered Architectures</title>
+        <author>
+          <persName key="parkas-2014-idp135424">
+            <foreName>Guillaume</foreName>
+            <surname>Baudart</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00023">
+        <idno type="issn">1539-9087</idno>
+        <title level="j">ACM Transactions on Embedded Computing Systems (TECS)</title>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408224" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408224</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Article 71</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid58" type="article" rend="year" n="cite:claude:hal-01300990">
+      <identifiant type="doi" value="10.3233/978-1-61499-625-5-63"/>
+      <identifiant type="hal" value="hal-01300990"/>
+      <analytic>
+        <title level="a">Synthesis and Simulation of Surgical Process Models</title>
+        <author>
+          <persName key="hybrid-2014-idp88784">
+            <foreName>Guillaume</foreName>
+            <surname>Claude</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="hybrid-2014-idp66240">
+            <foreName>Valérie</foreName>
+            <surname>Gouranton</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernard</foreName>
+            <surname>Gibaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="hybrid-2014-idm25952">
+            <foreName>Bruno</foreName>
+            <surname>Arnaldi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Jannin</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01816">
+        <idno type="issn">0926-9630</idno>
+        <title level="j">Studies in Health Technology and Informatics</title>
+        <imprint>
+          <biblScope type="volume">220</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">63–70</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01300990" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01300990</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid51" type="article" rend="year" n="cite:jeannin:hal-01232365">
+      <identifiant type="doi" value="10.1007/s10009-016-0434-1"/>
+      <identifiant type="hal" value="hal-01232365"/>
+      <analytic>
+        <title level="a">A Formally Verified Hybrid System for Safe Advisories in the Next-Generation Airborne Collision Avoidance System</title>
+        <author>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Jeannin</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName key="hycomes-2015-idp62264">
+            <foreName>Khalil</foreName>
+            <surname>Ghorbal</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Yanni</foreName>
+            <surname>Kouskoulas</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Aurora</foreName>
+            <surname>Schmidt</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ryan</foreName>
+            <surname>Gardner</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Stefan</foreName>
+            <surname>Mitsch</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>André</foreName>
+            <surname>Platzer</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01005">
+        <idno type="issn">1433-2779</idno>
+        <title level="j">International Journal on Software Tools for Technology Transfer</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01232365" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01232365</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid55" type="inproceedings" rend="year" n="cite:aljarbouh:hal-01247008">
+      <identifiant type="doi" value="10.3384/ecp1612495"/>
+      <identifiant type="hal" value="hal-01247008"/>
+      <analytic>
+        <title level="a">Chattering-Free Simulation of Hybrid Dynamical Systems with the Functional Mock-Up Interface 2.0</title>
+        <author>
+          <persName>
+            <foreName>Ayman</foreName>
+            <surname>ALJARBOUH</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">The First Japanese Modelica Conferences</title>
+        <loc>Tokyo, Japan</loc>
+        <imprint>
+          <biblScope type="volume">124</biblScope>
+          <biblScope type="number">013</biblScope>
+          <publisher>
+            <orgName>Linköping University Electronic Press, Linköpings universitet</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">Modelon and Modelica Association</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">95-105</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01247008" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01247008</ref>
+        </imprint>
+        <meeting id="cid625236">
+          <title>Japanese Modelica Conference</title>
+          <num>1</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid59" type="inproceedings" rend="year" n="cite:aljarbouh:hal-01365875">
+      <identifiant type="doi" value="10.1109/CSE-EUC-DCABES.2016.217"/>
+      <identifiant type="hal" value="hal-01365875"/>
+      <analytic>
+        <title level="a">Chattering-Free Simulation for Hybrid Dynamical Systems: Semantics and Prototype Implementation</title>
+        <author>
+          <persName>
+            <foreName>Ayman</foreName>
+            <surname>ALJARBOUH</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Adam</foreName>
+            <surname>Duracz</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Yingfu</foreName>
+            <surname>Zeng</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Walid</foreName>
+            <surname>Taha</surname>
+            <initial>W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">2016 IEEE International Conference on Computational Science and Engineering, IEEE International Conference on Embedded and Ubiquitous Computing, and International Symposium on Distributed Computing and Applications to Business, Engineering and Science</title>
+        <loc>Paris, France</loc>
+        <title level="s">Proceedings of the 19th IEEE International Conference on Computational Science and Engineering, the 14th IEEE International Conference on Embedded and Ubiquitous Computing, the 15th International Symposium on Distributed Computing and Applications to Business, Engineering and Science</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE Computer Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01365875" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01365875</ref>
+        </imprint>
+        <meeting id="cid625394">
+          <title>IEEE International Conference on Computational Science and Engineering, IEEE International Conference on Embedded and Ubiquitous Computing, and International Symposium on Distributed Computing and Applications to Business, Engineering and Science</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid57" type="inproceedings" rend="year" n="cite:claude:hal-01391776">
+      <identifiant type="hal" value="hal-01391776"/>
+      <analytic>
+        <title level="a">From Observations to Collaborative Simulation: Application to Surgical Training</title>
+        <author>
+          <persName key="hybrid-2014-idp88784">
+            <foreName>Guillaume</foreName>
+            <surname>Claude</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="hybrid-2014-idp66240">
+            <foreName>Valérie</foreName>
+            <surname>Gouranton</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernard</foreName>
+            <surname>Gibaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Jannin</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="hybrid-2014-idm25952">
+            <foreName>Bruno</foreName>
+            <surname>Arnaldi</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICAT-EGVE 2016 - International Conference on Artificial Reality and Telexistence, Eurographics Symposium on Virtual Environments</title>
+        <loc>Little Rock, Arkansas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01391776" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01391776</ref>
+        </imprint>
+        <meeting id="cid393136">
+          <title>International Conference on Artificial Reality and Telexistence</title>
+          <num>26</num>
+          <abbr type="sigle">ICAT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid54" type="inproceedings" rend="year" n="cite:sogokon:hal-01374899">
+      <identifiant type="doi" value="10.1007/978-3-319-48989-6_38"/>
+      <identifiant type="hal" value="hal-01374899"/>
+      <analytic>
+        <title level="a">Decoupling Abstractions of Non-linear Ordinary Differential Equations</title>
+        <author>
+          <persName>
+            <foreName>Andrew T</foreName>
+            <surname>Sogokon</surname>
+            <initial>A. T.</initial>
+          </persName>
+          <persName key="hycomes-2015-idp62264">
+            <foreName>Khalil</foreName>
+            <surname>Ghorbal</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Taylor T</foreName>
+            <surname>Johnson</surname>
+            <initial>T. T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Formal Methods</title>
+        <loc>Limassol, Cyprus</loc>
+        <title level="s">FM 2016: Formal Methods</title>
+        <imprint>
+          <biblScope type="volume">Lecture Notes in Computer Science</biblScope>
+          <biblScope type="number">9995</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">628-644</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01374899" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01374899</ref>
+        </imprint>
+        <meeting id="cid314773">
+          <title>International Symposium on Formal Methods</title>
+          <num>21</num>
+          <abbr type="sigle">FM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid53" type="techreport" rend="year" n="cite:benveniste:hal-01343967">
+      <identifiant type="hal" value="hal-01343967"/>
+      <monogr>
+        <title level="m">Structural Analysis of Multi-Mode DAE Systems</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Hilding</foreName>
+            <surname>Elmqvist</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Otter</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8933</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01343967" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01343967</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid34" type="article" rend="foot" n="footcite:AHLNW-08">
+      <analytic>
+        <title level="a">20 Years of Modal and Mixed Specifications</title>
+        <author>
+          <persName>
+            <foreName>Adam</foreName>
+            <surname>Antonik</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Huth</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulrik</foreName>
+            <surname>Nyman</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Bulletin of European Association of Theoretical Computer Science</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <biblScope type="number">94</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid17" type="book" rend="foot" n="footcite:Baier08">
+      <monogr>
+        <title level="m">Principles of Model Checking</title>
+        <author>
+          <persName key="sumo-2014-idp122560">
+            <foreName>Christel</foreName>
+            <surname>Baier</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Joost-Pieter</foreName>
+            <surname>Katoen</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>MIT Press, Cambridge</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid48" type="article" rend="foot" n="footcite:benkhaled:hal-01018348">
+      <identifiant type="doi" value="10.1016/j.simpat.2014.05.002"/>
+      <identifiant type="hal" value="hal-01018348"/>
+      <analytic>
+        <title level="a">Fast multi-core co-simulation of Cyber-Physical Systems : application to internal combustion engines</title>
+        <author>
+          <persName key="necs-2014-idp110176">
+            <foreName>Abir</foreName>
+            <surname>Ben Khaled</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mohamed El Mongi</foreName>
+            <surname>Ben Gaïd</surname>
+            <initial>M. E. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Pernet</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="demar-2014-idp69984">
+            <foreName>Daniel</foreName>
+            <surname>Simon</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Simulation Modelling Practice and Theory</title>
+        <imprint>
+          <biblScope type="volume">47</biblScope>
+          <biblScope type="number">September</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">79-91</biblScope>
+          <ref xlink:href="https://hal-ifp.archives-ouvertes.fr/hal-01018348" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-ifp.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01018348</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid3" type="misc" rend="foot" n="footcite:benveniste:hal-00938866">
+      <identifiant type="hal" value="hal-00938866"/>
+      <monogr>
+        <title level="m">A Type-Based Analysis of Causality Loops In Hybrid Systems Modelers</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Pagano</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00938866" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00938866</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Deliverable D3.1_1 v 1.0 of the Sys2soft collaborative project ”Physics Aware Software”</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid4" type="misc" rend="foot" n="footcite:benveniste:hal-00938891">
+      <identifiant type="hal" value="hal-00938891"/>
+      <monogr>
+        <title level="m">Semantics of multi-mode DAE systems</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00938891" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00938891</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Deliverable D.4.1.1 of the ITEA2 Modrio collaborative project</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid52" type="inproceedings" rend="foot" n="footcite:Benveniste2017a">
+      <analytic>
+        <title level="a">Structural Analysis of Multi-Mode DAE Systems</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Hilding</foreName>
+            <surname>Elmqvist</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="hycomes-2015-idp62264">
+            <foreName>Khalil</foreName>
+            <surname>Ghorbal</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Otter</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the 20th ACM International Conference on Hybrid Systems: Computation and Control, HSCC'17</title>
+        <loc>Pittsburgh, PA, USA</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2017</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">to appear</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid20" type="inproceedings" rend="foot" n="footcite:Benveniste2008b">
+      <analytic>
+        <title level="a">Multiple Viewpoint Contract-Based Specification and Design</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Alberto</foreName>
+            <surname>Ferrari</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Leonardo</foreName>
+            <surname>Mangeruca</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Passerone</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Christos</foreName>
+            <surname>Sofronis</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes" x-editorial-board="yes">
+        <title level="m">Proceedings of the Software Technology Concertation on Formal Methods for Components and Objects (FMCO'07)</title>
+        <loc>Amsterdam, The Netherlands</loc>
+        <title level="s">Revised Lectures, Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">5382</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid1" type="inproceedings" rend="foot" n="footcite:benveniste2014z">
+      <identifiant type="doi" value="10.1145/2562059.2562125"/>
+      <identifiant type="hal" value="hal-01093388"/>
+      <analytic>
+        <title level="a">A type-based analysis of causality loops in hybrid modelers</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Pagano</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">HSCC '14: International Conference on Hybrid Systems: Computation and Control</title>
+        <loc>Berlin, Germany</loc>
+        <title level="s">Proceedings of the 17th international conference on Hybrid systems: computation and control (HSCC '14)</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">13</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01093388" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01093388</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid38" type="inproceedings" rend="foot" n="footcite:bertrandLPR2009">
+      <identifiant type="hal" value="inria-00424356"/>
+      <analytic>
+        <title level="a">A Compositional Approach on Modal Specifications for Timed Systems</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Sophie</foreName>
+            <surname>Pinchinat</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Raclet</surname>
+            <initial>J.-B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">11th International Conference on Formal Engineering Methods (ICFEM'09)</title>
+        <loc>Rio de Janeiro, Brazil</loc>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">5885</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">679-697</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00424356/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00424356/<allowbreak/>en</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid42" type="article" rend="foot" n="footcite:BertrandLPR2011">
+      <identifiant type="doi" value="10.1016/j.scico.2011.01.007"/>
+      <analytic>
+        <title level="a">Modal event-clock specifications for timed component-based design</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Sophie</foreName>
+            <surname>Pinchinat</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Raclet</surname>
+            <initial>J.-B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Science of Computer Programming</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.scico.2011.01.007" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>scico.<allowbreak/>2011.<allowbreak/>01.<allowbreak/>007</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid39" type="inproceedings" rend="foot" n="footcite:bertrandPR2009">
+      <identifiant type="doi" value="10.1007/978-3-642-00982-2_13"/>
+      <identifiant type="hal" value="inria-00424283"/>
+      <analytic>
+        <title level="a">Refinement and Consistency of Timed Modal Specifications</title>
+        <author>
+          <persName key="sumo-2014-idp103056">
+            <foreName>Nathalie</foreName>
+            <surname>Bertrand</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Sophie</foreName>
+            <surname>Pinchinat</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Raclet</surname>
+            <initial>J.-B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">3rd International Conference on Language and Automata Theory and Applications (LATA'09)</title>
+        <loc>Tarragona, Spain</loc>
+        <title level="s">LNCS</title>
+        <imprint>
+          <biblScope type="volume">5457</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">152-163</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00424283/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00424283/<allowbreak/>en</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid22" type="inproceedings" rend="foot" n="footcite:Bhaduri2010">
+      <analytic>
+        <title level="a">A proposal for real-time interfaces in SPEEDS</title>
+        <author>
+          <persName>
+            <foreName>Purandar</foreName>
+            <surname>Bhaduri</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Ingo</foreName>
+            <surname>Stierand</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Design, Automation and Test in Europe (DATE'10)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">441-446</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid50" type="article" rend="foot" n="footcite:BISWAS20091486">
+      <identifiant type="doi" value="10.3182/20090630-4-ES-2003.00242"/>
+      <analytic>
+        <title level="a">Analytic Redundancy, Possible Conflicts, and TCG-based Fault Signature Diagnosis applied to Nonlinear Dynamic Systems</title>
+        <author>
+          <persName>
+            <foreName>Gautam</foreName>
+            <surname>Biswas</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Anibal</foreName>
+            <surname>Bregon</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Xenofon</foreName>
+            <surname>Koutsoukos</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Belarmino</foreName>
+            <surname>Pulido</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IFAC Proceedings Volumes</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">1486 - 1491</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S1474667016359857" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S1474667016359857</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid5" type="phdthesis" rend="foot" n="footcite:BliudzePhD">
+      <monogr>
+        <title level="m">Un cadre formel pour l'étude des systèmes industriels complexes: un exemple basé sur l'infrastructure de l'UMTS</title>
+        <author>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Bliudze</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole Polytechnique</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid11" type="article" rend="foot" n="footcite:BliudzeK09">
+      <analytic>
+        <title level="a">Modelling of Complex Systems: Systems as Dataflow Machines</title>
+        <author>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Bliudze</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Krob</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Fundam. Inform.</title>
+        <imprint>
+          <biblScope type="volume">91</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">251–274</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid35" type="article" rend="foot" n="footcite:BoudLar92">
+      <analytic>
+        <title level="a">Graphical Versus Logical Specifications</title>
+        <author>
+          <persName key="indes-2014-idm27776">
+            <foreName>Gérard</foreName>
+            <surname>Boudol</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Theor. Comput. Sci.</title>
+        <imprint>
+          <biblScope type="volume">106</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">3-20</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid49" type="inproceedings" rend="foot" n="footcite:DBLP:conf/hybrid/BromanGLMTW15">
+      <identifiant type="doi" value="10.1145/2728606.2728629"/>
+      <analytic>
+        <title level="a">Requirements for hybrid cosimulation standards</title>
+        <author>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Broman</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Lev</foreName>
+            <surname>Greenberg</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Edward A.</foreName>
+            <surname>Lee</surname>
+            <initial>E. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Masin</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Stavros</foreName>
+            <surname>Tripakis</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Wetter</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Girard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Sriram</foreName>
+            <surname>Sankaranarayanan</surname>
+            <initial>S.</initial>
+          </persName>
+        </editor>
+        <title level="m">Proceedings of the 18th International Conference on Hybrid Systems: Computation and Control, HSCC'15, Seattle, WA, USA, April 14-16, 2015</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">179–188</biblScope>
+          <ref xlink:href="http://doi.acm.org/10.1145/2728606.2728629" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>doi.<allowbreak/>acm.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>2728606.<allowbreak/>2728629</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid56" type="inproceedings" rend="foot" n="footcite:caillaud:hal-00872284">
+      <identifiant type="hal" value="hal-00872284"/>
+      <analytic>
+        <title level="a">Surgical Process Mining with Test and Flip Net Synthesis</title>
+        <author>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Robin</foreName>
+            <surname>Bergenthum</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Josep</foreName>
+            <surname>Carmona</surname>
+            <initial>J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Application of Region Theory (ART)</title>
+        <loc>Barcelona, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">43-54</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00872284" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00872284</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid23" type="inproceedings" rend="foot" n="footcite:caillaudDLLPW2010">
+      <identifiant type="doi" value="10.1109/QEST.2010.23"/>
+      <identifiant type="hal" value="inria-00591578"/>
+      <analytic>
+        <title level="a">Compositional design methodology with constraint Markov chains</title>
+        <author>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Delahaye</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mikkel L.</foreName>
+            <surname>Pedersen</surname>
+            <initial>M. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">QEST 2010</title>
+        <loc>Williamsburg, Virginia, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2010</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00591578/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00591578/<allowbreak/>en</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid24" type="article" rend="foot" n="footcite:caillaudDLLPW2011">
+      <identifiant type="doi" value="10.1016/j.tcs.2011.05.010"/>
+      <identifiant type="hal" value="hal-00654003"/>
+      <analytic>
+        <title level="a">Constraint Markov Chains</title>
+        <author>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Delahaye</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mikkel L.</foreName>
+            <surname>Pedersen</surname>
+            <initial>M. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Theoretical Computer Science</title>
+        <imprint>
+          <biblScope type="volume">412</biblScope>
+          <biblScope type="number">34</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">4373-4404</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00654003/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00654003/<allowbreak/>en</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid31" type="phdthesis" rend="foot" n="footcite:Chakrabarti07">
+      <monogr>
+        <title level="m">A Framework for Compositional Design and Analysis of Systems</title>
+        <author>
+          <persName>
+            <foreName>Arindam</foreName>
+            <surname>Chakrabarti</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">EECS Department, University of California, Berkeley</orgName>
+          </publisher>
+          <dateStruct>
+            <month>Dec</month>
+            <year>2007</year>
+          </dateStruct>
+          <ref xlink:href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-174.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>eecs.<allowbreak/>berkeley.<allowbreak/>edu/<allowbreak/>Pubs/<allowbreak/>TechRpts/<allowbreak/>2007/<allowbreak/>EECS-2007-174.<allowbreak/>html</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid44" type="inproceedings" rend="foot" n="footcite:ChakrabartiAHS03">
+      <analytic>
+        <title level="a">Resource Interfaces</title>
+        <author>
+          <persName>
+            <foreName>Arindam</foreName>
+            <surname>Chakrabarti</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>de Alfaro</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas A.</foreName>
+            <surname>Henzinger</surname>
+            <initial>T. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mariëlle</foreName>
+            <surname>Stoelinga</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Rajeev</foreName>
+            <surname>Alur</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Insup</foreName>
+            <surname>Lee</surname>
+            <initial>I.</initial>
+          </persName>
+        </editor>
+        <title level="m">EMSOFT</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">2855</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">117-133</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid15" type="inproceedings" rend="foot" n="footcite:ChangMP92">
+      <analytic>
+        <title level="a">Characterization of Temporal Property Classes</title>
+        <author>
+          <persName>
+            <foreName>Edward Y.</foreName>
+            <surname>Chang</surname>
+            <initial>E. Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Zohar</foreName>
+            <surname>Manna</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName>
+            <foreName>Amir</foreName>
+            <surname>Pnueli</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Werner</foreName>
+            <surname>Kuich</surname>
+            <initial>W.</initial>
+          </persName>
+        </editor>
+        <title level="m">ICALP</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">623</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">474-486</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid18" type="book" rend="foot" n="footcite:Clarke99">
+      <monogr>
+        <title level="m">Model Checking</title>
+        <author>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Clarke</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Grumberg</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="sumo-2014-idp126408">
+            <foreName>D.</foreName>
+            <surname>Peled</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>MIT Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid9" type="book" rend="foot" n="footcite:Cutland">
+      <monogr>
+        <title level="m">Nonstandard analysis and its applications</title>
+        <editor role="editor">
+          <persName>
+            <foreName>N. J.</foreName>
+            <surname>Cutland</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Cambridge Univ. Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1988</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid21" type="inproceedings" rend="foot" n="footcite:DammTSPH11">
+      <analytic>
+        <title level="a">Using Contract-Based Component Specifications for Virtual Integration and Architecture Design</title>
+        <author>
+          <persName>
+            <foreName>Werner</foreName>
+            <surname>Damm</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>Eike</foreName>
+            <surname>Thaden</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Ingo</foreName>
+            <surname>Stierand</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Peikenkamp</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Hungar</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 2011 Design, Automation and Test in Europe (DATE'11)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2011</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid41" type="inproceedings" rend="foot" n="footcite:DavidLLNW10b">
+      <analytic>
+        <title level="a">ECDAR: An Environment for Compositional Design and Analysis of Real Time Systems</title>
+        <author>
+          <persName>
+            <foreName>Alexandre</foreName>
+            <surname>David</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulrik</foreName>
+            <surname>Nyman</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Automated Technology for Verification and Analysis - 8th International Symposium, ATVA 2010, Singapore, September 21-24, 2010. Proceedings</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">365-370</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid40" type="inproceedings" rend="foot" n="footcite:DavidLLNW10a">
+      <analytic>
+        <title level="a">Timed I/O automata: a complete specification theory for real-time systems</title>
+        <author>
+          <persName>
+            <foreName>Alexandre</foreName>
+            <surname>David</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulrik</foreName>
+            <surname>Nyman</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 13th ACM International Conference on Hybrid Systems: Computation and Control, HSCC 2010, Stockholm, Sweden, April 12-15, 2010</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">91-100</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid29" type="inproceedings" rend="foot" n="footcite:Alfaro03">
+      <analytic>
+        <title level="a">Game Models for Open Systems</title>
+        <author>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>de Alfaro</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Verification: Theory and Practice</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">2772</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">269-289</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid28" type="inproceedings" rend="foot" n="footcite:dAH01">
+      <analytic>
+        <title level="a">Interface automata</title>
+        <author>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>de Alfaro</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas A.</foreName>
+            <surname>Henzinger</surname>
+            <initial>T. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the 9th ACM SIGSOFT International Symposium on Foundations of Software Engineering (FSE'01)</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">109–120</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid30" type="inproceedings" rend="foot" n="footcite:Alfaro04interfacebaseddesign">
+      <analytic>
+        <title level="a">Interface-based design</title>
+        <author>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>de Alfaro</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas A.</foreName>
+            <surname>Henzinger</surname>
+            <initial>T. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">In Engineering Theories of Software Intensive Systems, proceedings of the Marktoberdorf Summer School</title>
+        <imprint>
+          <publisher>
+            <orgName>Kluwer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid37" type="inproceedings" rend="foot" n="footcite:Alfaro2002">
+      <analytic>
+        <title level="a">Timed Interfaces</title>
+        <author>
+          <persName>
+            <foreName>Luca</foreName>
+            <surname>de Alfaro</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas A.</foreName>
+            <surname>Henzinger</surname>
+            <initial>T. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mariëlle</foreName>
+            <surname>Stoelinga</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the 2nd International Workshop on Embedded Software (EMSOFT'02)</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">2491</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">108–122</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid43" type="inproceedings" rend="foot" n="footcite:DBLP:conf/vmcai/DelahayeKLLPSW11">
+      <analytic>
+        <title level="a">Abstract Probabilistic Automata</title>
+        <author>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Delahaye</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Joost-Pieter</foreName>
+            <surname>Katoen</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName key="estasys-2014-idm31072">
+            <foreName>Axel</foreName>
+            <surname>Legay</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mikkel L.</foreName>
+            <surname>Pedersen</surname>
+            <initial>M. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Falak</foreName>
+            <surname>Sher</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Ranjit</foreName>
+            <surname>Jhala</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>David A.</foreName>
+            <surname>Schmidt</surname>
+            <initial>D. A.</initial>
+          </persName>
+        </editor>
+        <title level="m">VMCAI</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">6538</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">324-339</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid8" type="book" rend="foot" n="footcite:Diener">
+      <monogr>
+        <title level="m">Analyse non standard</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Diener</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Reeb</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Hermann</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid19" type="book" rend="foot" n="footcite:Dill89ThesisACM">
+      <monogr>
+        <title level="m">Trace Theory for Automatic Hierarchical Verification of Speed-Independent Circuits</title>
+        <title level="s">ACM Distinguished Dissertations</title>
+        <author>
+          <persName>
+            <foreName>David L.</foreName>
+            <surname>Dill</surname>
+            <initial>D. L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>MIT Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid46" type="inproceedings" rend="foot" n="footcite:Olsson2014a">
+      <analytic>
+        <title level="a">Parallel Model Execution on Many Cores</title>
+        <author>
+          <persName>
+            <foreName>Hilding</foreName>
+            <surname>Elmqvist</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Sven Erik</foreName>
+            <surname>Matsson</surname>
+            <initial>S. E.</initial>
+          </persName>
+          <persName>
+            <foreName>Hans</foreName>
+            <surname>Olsson</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 10th International Modelica Conference; March 10-12; 2014; Lund; Sweden</title>
+        <imprint>
+          <publisher>
+            <orgName>Linköping University Electronic Press; Linköpings universitet</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">363-370</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid47" type="inproceedings" rend="foot" n="footcite:galtier:hal-01155707">
+      <identifiant type="hal" value="hal-01155707"/>
+      <analytic>
+        <title level="a">FMI-Based Distributed Multi-Simulation with DACCOSIM</title>
+        <author>
+          <persName>
+            <foreName>Virginie</foreName>
+            <surname>Galtier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Stéphane</foreName>
+            <surname>Vialle</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Cherifa</foreName>
+            <surname>Dad</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Philippe</foreName>
+            <surname>Tavella</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Philippe</foreName>
+            <surname>Lam-Yee-Mui</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Gilles</foreName>
+            <surname>Plessis</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Symposium on Theory of Modeling and Simulation - TMS'15</title>
+        <loc>Alexandria, VA, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">804-811</biblScope>
+          <ref xlink:href="https://hal-supelec.archives-ouvertes.fr/hal-01155707" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-supelec.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01155707</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid0" type="misc" rend="foot" n="footcite:808837">
+      <identifiant type="doi" value="10.1109/IEEESTD.1999.90578"/>
+      <monogr>
+        <title level="m">IEEE Standard VHDL Analog and Mixed-Signal Extensions, Std 1076.1-1999</title>
+        <imprint>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1109/IEEESTD.1999.90578" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>IEEESTD.<allowbreak/>1999.<allowbreak/>90578</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid10" type="inproceedings" rend="foot" n="footcite:IwasakiFSBG95">
+      <analytic>
+        <title level="a">Modeling Time in Hybrid Systems: How Fast Is “Instantaneous”?</title>
+        <author>
+          <persName>
+            <foreName>Y.</foreName>
+            <surname>Iwasaki</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Farquhar</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>V.A.</foreName>
+            <surname>Saraswat</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>D.G.</foreName>
+            <surname>Bobrow</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="asclepios-2014-idp93808">
+            <foreName>V.</foreName>
+            <surname>Gupta</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">IJCAI</title>
+        <imprint>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+          <biblScope type="pages">1773–1781</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid14" type="article" rend="foot" n="footcite:Lamport77">
+      <analytic>
+        <title level="a">Proving the Correctness of Multiprocess Programs</title>
+        <author>
+          <persName>
+            <foreName>Leslie</foreName>
+            <surname>Lamport</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Trans. Software Eng.</title>
+        <imprint>
+          <biblScope type="volume">3</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>1977</year>
+          </dateStruct>
+          <biblScope type="pages">125-143</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid36" type="inproceedings" rend="foot" n="footcite:LarsenNW07CONCUR">
+      <analytic>
+        <title level="a">On Modal Refinement and Consistency</title>
+        <author>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Ulrik</foreName>
+            <surname>Nyman</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrzej</foreName>
+            <surname>Wasowski</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the 18th International Conference on Concurrency Theory (CONCUR'07)</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">105–119</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid33" type="inproceedings" rend="foot" n="footcite:KT88">
+      <analytic>
+        <title level="a">A Modal Process Logic</title>
+        <author>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Bent</foreName>
+            <surname>Thomsen</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the Third Annual Symposium on Logic in Computer Science (LICS'88)</title>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1988</year>
+          </dateStruct>
+          <biblScope type="pages">203-210</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid6" type="incollection" rend="foot" n="footcite:Lindstrom">
+      <analytic>
+        <title level="a">An Invitation to Nonstandard Analysis</title>
+        <author>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Lindstrøm</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>N. J.</foreName>
+            <surname>Cutland</surname>
+            <initial>N. J.</initial>
+          </persName>
+        </editor>
+        <title level="m">Nonstandard Analysis and its Applications</title>
+        <imprint>
+          <publisher>
+            <orgName>Cambridge Univ. Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1988</year>
+          </dateStruct>
+          <biblScope type="pages">1–105</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid27" type="inproceedings" rend="foot" n="footcite:Lynch03">
+      <analytic>
+        <title level="a">Input/Output Automata: Basic, Timed, Hybrid, Probabilistic, Dynamic, ...</title>
+        <author>
+          <persName>
+            <foreName>Nancy A.</foreName>
+            <surname>Lynch</surname>
+            <initial>N. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Roberto M.</foreName>
+            <surname>Amadio</surname>
+            <initial>R. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Denis</foreName>
+            <surname>Lugiez</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <title level="m">CONCUR</title>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">2761</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">187-188</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid26" type="article" rend="foot" n="footcite:LynchS89">
+      <analytic>
+        <title level="a">A Proof of the Kahn Principle for Input/Output Automata</title>
+        <author>
+          <persName>
+            <foreName>Nancy A.</foreName>
+            <surname>Lynch</surname>
+            <initial>N. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Eugene W.</foreName>
+            <surname>Stark</surname>
+            <initial>E. W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Inf. Comput.</title>
+        <imprint>
+          <biblScope type="volume">82</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+          <biblScope type="pages">81-92</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid16" type="book" rend="foot" n="footcite:MannaPnueli95">
+      <monogr>
+        <title level="m">Temporal verification of reactive systems: Safety</title>
+        <author>
+          <persName>
+            <foreName>Zohar</foreName>
+            <surname>Manna</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName>
+            <foreName>Amir</foreName>
+            <surname>Pnueli</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid12" type="article" rend="foot" n="footcite:Meyer:1992:ADC:618974.619797">
+      <identifiant type="doi" value="10.1109/2.161279"/>
+      <analytic>
+        <title level="a">Applying "Design by Contract"</title>
+        <author>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Meyer</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computer</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">10</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">40–51</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/2.161279" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>2.<allowbreak/>161279</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid25" type="article" rend="foot" n="footcite:Nuzzo2012">
+      <analytic>
+        <title level="a">Methodology for the Design of Analog Integrated Interfaces Using Contracts</title>
+        <author>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Nuzzo</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Alberto L.</foreName>
+            <surname>Sangiovanni-Vincentelli</surname>
+            <initial>A. L.</initial>
+          </persName>
+          <persName>
+            <foreName>X.</foreName>
+            <surname>Sun</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Puggelli</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Sensors Journal</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <month>Dec.</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">3329–3345</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid7" type="book" rend="foot" n="footcite:Robinson">
+      <monogr>
+        <title level="m">Non-Standard Analysis</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Robinson</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Princeton Landmarks in Mathematics</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">ISBN 0-691-04490-2</note>
+    </biblStruct>
+    
+    <biblStruct id="hycomes-2016-bid45" type="article" rend="foot" n="footcite:Sikora2012a">
+      <identifiant type="doi" value="10.1007/s00766-011-0144-x"/>
+      <analytic>
+        <title level="a">Industry needs and research directions in requirements engineering for embedded systems</title>
+        <author>
+          <persName>
+            <foreName>Ernst</foreName>
+            <surname>Sikora</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Bastian</foreName>
+            <surname>Tenbergen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Klaus</foreName>
+            <surname>Pohl</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Requirements Engineering</title>
+        <imprint>
+          <biblScope type="volume">17</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">57–78</biblScope>
+          <ref xlink:href="http://link.springer.com/article/10.1007/s00766-011-0144-x" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>link.<allowbreak/>springer.<allowbreak/>com/<allowbreak/>article/<allowbreak/>10.<allowbreak/>1007/<allowbreak/>s00766-011-0144-x</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

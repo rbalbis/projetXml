@@ -1,0 +1,2805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="grace" isproject="true">
+    <shortname>GRACE</shortname>
+    <projectName>Geometry, arithmetic, algorithms, codes and encryption</projectName>
+    <theme-de-recherche>Algorithmics, Computer Algebra and Cryptology</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/grace/</urlTeam>
+    <header_dates_team>Creation of the Team: 2012 January 01, updated into Project-Team: 2013 July 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>4.2. - Correcting codes</term>
+      <term>4.3.1. - Public key cryptography</term>
+      <term>4.3.3. - Cryptographic protocols</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+      <term>7.6. - Computer Algebra</term>
+      <term>7.7. - Number theory</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>9.4.2. - Mathematics</term>
+      <term>9.8. - Privacy</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="grace-2014-idm29104">
+      <firstname>Daniel</firstname>
+      <lastname>Augot</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="grace-2014-idm27624">
+      <firstname>Alain</firstname>
+      <lastname>Couvreur</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="grace-2014-idm25056">
+      <firstname>Benjamin</firstname>
+      <lastname>Smith</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="grace-2016-idp113184">
+      <firstname>Luca</firstname>
+      <lastname>de Feo</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Versailles, Associate Professor</moreinfo>
+    </person>
+    <person key="grace-2014-idp85768">
+      <firstname>Françoise</firstname>
+      <lastname>Levy-Dit-Vehel</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENSTA, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="grace-2014-idp66896">
+      <firstname>François</firstname>
+      <lastname>Morain</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="caramel-2014-idp74688">
+      <firstname>Nicholas</firstname>
+      <lastname>Coxon</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="grace-2014-idp68336">
+      <firstname>David</firstname>
+      <lastname>Lucas</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="grace-2014-idp82032">
+      <firstname>Elise</firstname>
+      <lastname>Barelli</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="grace-2016-idp128768">
+      <firstname>Hanna-Mae</firstname>
+      <lastname>Bisserier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inst. de Recherche Technologique SystemX, from Nov 2016</moreinfo>
+    </person>
+    <person key="grace-2015-idp72696">
+      <firstname>Nicolas</firstname>
+      <lastname>Duhamel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>ENS Cachan</moreinfo>
+    </person>
+    <person key="grace-2014-idp83296">
+      <firstname>Pierre</firstname>
+      <lastname>Karpman</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until October 2016</moreinfo>
+    </person>
+    <person key="grace-2014-idp84512">
+      <firstname>Julien</firstname>
+      <lastname>Lavauzelle</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="grace-2014-idp69568">
+      <firstname>Virgile</firstname>
+      <lastname>Ducet</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Oct 2016</moreinfo>
+    </person>
+    <person key="grace-2014-idm26384">
+      <firstname>Philippe</firstname>
+      <lastname>Lebacque</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Franche-Comté, Faculty Member</moreinfo>
+    </person>
+    <person key="grace-2016-idp143600">
+      <firstname>François-Régis</firstname>
+      <lastname>Blache</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Université des Antilles, Faculty Member, Nov 2016</moreinfo>
+    </person>
+    <person key="grace-2015-idp83856">
+      <firstname>Helene</firstname>
+      <lastname>Bessin Rousseau</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="commands-2014-idp73120">
+      <firstname>Jessica</firstname>
+      <lastname>Gameiro</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="gamma3-2016-idp140704">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Perrot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="grace-2016-idp153552">
+      <firstname>Christopher</firstname>
+      <lastname>Barbin</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Master intern, from Apr 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="grace-2016-idp156048">
+      <firstname>Nagarjun</firstname>
+      <lastname>Chinthamani Dwarakanath</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Master intern, from Apr 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="grace-2015-idp90152">
+      <firstname>Eleonora</firstname>
+      <lastname>Palazzolo</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Master intern, until Apr 2016</moreinfo>
+    </person>
+    <person key="grace-2016-idp161024">
+      <firstname>Evrim</firstname>
+      <lastname>Petek</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Master intern, from May 2016 until Sep 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Scientific foundations</bodyTitle>
+      <p>GRACE has two broad application domains—cryptography and coding
+theory—linked by a common foundation in
+algorithmic number theory and the geometry of algebraic curves.
+In our research, which combines theoretical work
+with practical software development,
+we use algebraic curves
+to <i>create better cryptosystems</i>,
+to <i>provide better security assessments</i>
+for cryptographic key sizes,
+and to <i>build the best error-correcting codes</i>.</p>
+      <p>Coding and cryptography deal (in different ways) with securing
+communication systems for high-level applications.
+In our research, the two domains are linked by
+the computational issues related to
+algebraic curves (over various fields) and arithmetic rings.
+These fundamental number-theoretic algorithms,
+at the crossroads of a rich area of
+mathematics and computer science, have already proven their relevance
+in public key cryptography, with industrial successes including the RSA
+cryptosystem and elliptic curve cryptography.
+It is less well-known that the same branches of mathematics
+can be used to build very good codes for error correction.
+While coding theory
+has traditionally had an electrical engineering flavour,
+recent developments in computer science have shed new light on
+coding theory, leading to new applications more central to computer science.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Algorithmic Number Theory</bodyTitle>
+      <p>Algorithmic Number Theory is concerned with replacing special cases
+with general algorithms to solve problems in number theory.
+In the Grace project, it appears in three main threads:</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true">fundamental algorithms for integers and polynomials
+(including primality and factorization);</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">algorithms for finite fields (including discrete logarithms);
+and</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">algorithms for algebraic curves.</p>
+        </li>
+      </simplelist>
+      <p>Clearly, we use computer algebra in many ways. Research in cryptology
+has motivated a renewed interest in Algorithmic Number Theory in
+recent decades—but the fundamental problems still exist <i>per
+se</i>. Indeed, while algorithmic number theory application in
+cryptanalysis is epitomized by applying factorization to breaking RSA
+public key, many other problems, are relevant to various area of
+computer science. Roughly speaking, the problems of the cryptological
+world are of bounded size, whereas Algorithmic Number Theory is also
+concerned with asymptotic results.</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Arithmetic Geometry: Curves and
+their Jacobians</bodyTitle>
+      <p>Theme: Arithmetic Geometry: Curves and their Jacobians
+
+<i>Arithmetic Geometry</i> is the meeting point of algebraic geometry and
+number theory: that is, the study of geometric objects defined over
+arithmetic number systems (such as the integers and finite fields).
+The fundamental objects for our applications
+in both coding theory and cryptology
+are curves and their Jacobians over finite fields.</p>
+      <p>An algebraic <i>plane curve</i> <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula> over a field
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝐊</mi></math></formula> is defined by an equation</p>
+      <formula type="display">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+          <mrow>
+            <mi>𝒳</mi>
+            <mo>:</mo>
+            <msub>
+              <mi>F</mi>
+              <mi>𝒳</mi>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <mi>x</mi>
+              <mo>,</mo>
+              <mi>y</mi>
+              <mo>)</mo>
+            </mrow>
+            <mo>=</mo>
+            <mn>0</mn>
+            <mspace width="1.em"/>
+            <mtext>where</mtext>
+            <mspace width="4.pt"/>
+            <msub>
+              <mi>F</mi>
+              <mi>𝒳</mi>
+            </msub>
+            <mo>∈</mo>
+            <mi>𝐊</mi>
+            <mrow>
+              <mo>[</mo>
+              <mi>x</mi>
+              <mo>,</mo>
+              <mi>y</mi>
+              <mo>]</mo>
+            </mrow>
+            <mo>.</mo>
+          </mrow>
+        </math>
+      </formula>
+      <p noindent="true">(Not every curve is planar—we may have more variables, and more
+defining equations—but from an algorithmic point of view,
+we can always reduce to the plane setting.)
+The <i>genus</i> <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>g</mi><mi>𝒳</mi></msub></math></formula> of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula>
+is a non-negative integer classifying the essential geometric complexity
+of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula>;
+it depends on the degree of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>F</mi><mi>𝒳</mi></msub></math></formula>
+and on the number of singularities of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula>.
+The curve <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula> is associated in a functorial way
+with an algebraic group <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>J</mi><mi>𝒳</mi></msub></math></formula>,
+called the <i>Jacobian</i> of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula>.
+The group <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>J</mi><mi>𝒳</mi></msub></math></formula> has a geometric structure:
+its elements correspond to points on a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>g</mi><mi>𝒳</mi></msub></math></formula>-dimensional
+projective algebraic group variety. Typically,
+we do not compute with the equations defining this projective variety:
+there are too many of them, in too many variables, for this to be
+convenient. Instead, we use fast algorithms based on the
+representation in terms of classes of formal sums of points on
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝒳</mi></math></formula>.</p>
+      <p>The simplest curves with nontrivial Jacobians are
+curves of genus 1,
+known as <i>elliptic curves</i>;
+they are typically defined by equations of the form
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi></mrow></math></formula>.
+Elliptic curves are particularly important given their central
+role in public-key cryptography over the past two decades.
+Curves of higher genus are important in both cryptography and coding theory.</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Curve-Based cryptology</bodyTitle>
+      <p>Theme: Curve-Based Cryptology</p>
+      <p>Jacobians of curves are excellent candidates for cryptographic groups
+when constructing efficient instances of public-key cryptosystems.
+Diffie–Hellman key exchange is an instructive example.</p>
+      <p>Suppose Alice and Bob want to establish a secure communication
+channel. Essentially, this means establishing a common secret
+<i>key</i>, which they will then use for encryption and decryption.
+Some decades ago, they would have exchanged this key in person, or
+through some trusted intermediary; in the modern, networked world,
+this is typically impossible, and in any case completely unscalable.
+Alice and Bob may be anonymous parties who want to do e-business, for
+example, in which case they cannot securely meet, and they have no way
+to be sure of each other's identities. Diffie–Hellman key exchange
+solves this problem. First, Alice and Bob publicly agree on a
+cryptographic group <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula> with a generator <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula> (of order <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula>); then
+Alice secretly chooses an integer <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>a</mi></math></formula> from <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>[</mo><mn>1</mn><mo>.</mo><mo>.</mo><mi>N</mi><mo>]</mo></mrow></math></formula>, and sends <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mi>P</mi></mrow></math></formula> to
+Bob. In the meantime, Bob secretly chooses an integer <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>b</mi></math></formula> from
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>[</mo><mn>1</mn><mo>.</mo><mo>.</mo><mi>N</mi><mo>]</mo></mrow></math></formula>, and sends <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>b</mi><mi>P</mi></mrow></math></formula> to Alice. Alice then computes <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mo>(</mo><mi>b</mi><mi>P</mi><mo>)</mo></mrow></math></formula>, while
+Bob computes <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>b</mi><mo>(</mo><mi>a</mi><mi>P</mi><mo>)</mo></mrow></math></formula>; both have now computed <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mi>b</mi><mi>P</mi></mrow></math></formula>, which becomes
+their shared secret key. The security of this key depends on the
+difficulty of computing <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mi>b</mi><mi>P</mi></mrow></math></formula> given <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula>, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mi>P</mi></mrow></math></formula>, and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>b</mi><mi>P</mi></mrow></math></formula>; this is the
+Computational Diffie–Hellman Problem (CDHP). In practice, the CDHP
+corresponds to the Discrete Logarithm Problem (DLP), which is to
+determine <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>a</mi></math></formula> given <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mi>P</mi></mrow></math></formula>.</p>
+      <p>This simple protocol has been in use, with only minor modifications,
+since the 1970s. The challenge is to create examples of groups <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula>
+with a relatively compact representation and an efficiently computable
+group law, and such that the DLP in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula> is hard (ideally approaching
+the exponential difficulty of the DLP in an abstract group). The
+Pohlig–Hellman reduction shows that the DLP in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula> is essentially
+only as hard as the DLP in its largest prime-order subgroup.
+We therefore look for compact and efficient groups of prime order.</p>
+      <p>The classic example of a group suitable for the Diffie–Hellman protocol
+is the multiplicative group of a finite field <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>𝐅</mi><mi>q</mi></msub></math></formula>.
+There are two problems that render its usage somewhat less than ideal.
+First, it has too much structure: we have a subexponential Index
+Calculus attack on the DLP in this group, so while it is very hard,
+the DLP falls a long way short of the exponential difficulty of the
+DLP in an abstract group. Second, there is only one such group for
+each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>q</mi></math></formula>: its subgroup treillis depends only on the factorization of
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>q</mi><mo>-</mo><mn>1</mn></mrow></math></formula>, and requiring <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>q</mi><mo>-</mo><mn>1</mn></mrow></math></formula> to have a large prime factor eliminates
+many convenient choices of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>q</mi></math></formula>.</p>
+      <p>This is where Jacobians of algebraic curves come into their own.
+First, elliptic curves and Jacobians of genus 2 curves do not have a
+subexponential index calculus algorithm: in particular, from the point
+of view of the DLP, a generic elliptic curve is currently <i>as
+strong as</i> a generic group of the same size. Second, they provide
+some diversity: we have many degrees of freedom in choosing
+curves over a fixed <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>𝐅</mi><mi>q</mi></msub></math></formula>, with a consequent diversity of possible
+cryptographic group orders. Furthermore, an attack which leaves one curve
+vulnerable may not necessarily apply to other curves. Third, viewing
+a Jacobian as a geometric object rather than a pure group allows us to
+take advantage of a number of special features of Jacobians. These
+features include efficiently computable pairings, geometric
+transformations for optimised group laws, and the availability of
+efficiently computable non-integer endomorphisms for accelerated
+encryption and decryption.</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Algebraic Coding Theory</bodyTitle>
+      <p>Theme: Coding theory</p>
+      <p>Coding Theory studies originated with the idea of using redundancy in
+messages to protect against noise and errors. The last decade of the
+20th century has seen the success of so-called iterative decoding
+methods, which enable us to get very close to the Shannon
+capacity. The capacity of a given channel is the best achievable
+transmission rate for reliable transmission. The consensus in
+the community is that this capacity is more easily reached with these
+iterative and probabilistic methods than with algebraic codes (such as
+Reed–Solomon codes).</p>
+      <p>However, algebraic coding is useful in settings other than the Shannon
+context. Indeed, the Shannon setting is a random case setting, and
+promises only a vanishing error probability. In contrast, the
+algebraic Hamming approach is a worst case approach: under
+combinatorial restrictions on the noise, the noise can be adversarial,
+with strictly zero errors.</p>
+      <p>These considerations are renewed by the topic of list decoding
+after the breakthrough of Guruswami and Sudan at the end of the
+nineties. List decoding relaxes the uniqueness requirement of
+decoding, allowing a small list of candidates to be returned instead
+of a single codeword. List decoding can reach a capacity close
+to the Shannon capacity, with zero failure, with small lists, in
+the adversarial case.
+The method of Guruswami and Sudan enabled list decoding of most of the
+main algebraic codes: Reed–Solomon codes and Algebraic–Geometry (AG)
+codes and new related constructions “capacity-achieving list
+decodable codes”. These results open the way to applications again
+adversarial channels, which correspond to worst case settings in
+the classical computer science language.</p>
+      <p>Another avenue of our studies is AG codes over various geometric
+objects. Although Reed–Solomon codes are the best possible codes for
+a given alphabet, they are very limited in their length, which cannot
+exceed the size of the alphabet. AG codes circumvent this limitation,
+using the theory of algebraic curves over finite fields to construct
+long codes over a fixed alphabet. The striking result of
+Tsfasman–Vladut–Zink showed that
+codes better than random codes can be built this way, for
+medium to large alphabets.
+Disregarding the asymptotic aspects and considering only finite
+length, AG codes can be used either for longer codes with the same
+alphabet, or for codes with the same length with a smaller alphabet
+(and thus faster underlying arithmetic).</p>
+      <p>From a broader point of view, wherever Reed–Solomon codes are used,
+we can substitute AG codes with some benefits: either beating random
+constructions, or beating Reed–Solomon codes which are of bounded
+length for a given alphabet.</p>
+      <p>Another area of Algebraic Coding Theory with which we are more recently concerned is the one of Locally Decodable Codes. After having been first theoretically introduced, those codes now begin to find practical applications, most notably in cloud-based remote storage systems.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid12">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Cryptography and Cryptanalysis</bodyTitle>
+      <p>In the twenty-first century, cryptography plays two essential roles:
+it is used to ensure <i>security</i> and <i>integrity</i>
+of communications and communicating entities.
+Contemporary cryptographic techniques can be used
+to hide private data,
+and to prove that public data has not been modified;
+to provide anonymity, and to assert and prove public identities.
+The creation and testing of practical cryptosystems involves</p>
+      <orderedlist>
+        <li id="uid14">
+          <p noindent="true">The design of provably secure protocols;</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">The design and analysis of compact and efficient
+algorithms to implement those protocols, and to attack
+their underlying mathematical and computational problems;</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">The robust implementation of those algorithms in
+low-level software and hardware, and their deployment in the
+wild.</p>
+        </li>
+      </orderedlist>
+      <p>While these layers are interdependent, GRACE's cryptographic
+research is focused heavily on the middle layer: we design, implement,
+and analyze the most efficient algorithms for fundamental tasks in
+contemporary cryptography. Our “clients”, in a sense, are
+protocol designers on the one hand, and software and hardware engineers
+on the other.</p>
+      <p>F. Morain and B. Smith work primarily on
+the number-theoretic algorithms that underpin the current
+state-of-the-art in public-key cryptography (which is used to
+establish secure connections, and create and verify digital
+signatures, among other applications).
+For example, their participation in the ANR CATREL project aims
+to give a realistic assessment of the security of systems based
+on the Discrete Logarithm Problem, by creating a free, open,
+algorithmic package implementing the fastest known algorithms
+for attacking DLP instances. This will have an extremely important
+impact on contemporary pairing-based cryptosystems, as well as
+legacy finite field-based cryptosystems.
+On a more constructive note, F. Morain' elliptic curve point counting
+and primality proving algorithms are essential tools in the everyday
+construction of strong public-key cryptosystems,
+while B. Smith's recent work on elliptic and genus 2 curves aims to improve the
+speed of curve-based cryptosystems (such as Elliptic Curve Diffie–Hellman
+key exchange, a crucial step in establishing secure internet
+connections) without compromising their security.</p>
+      <p>D. Augot, F. Levy-dit-Vehel, and A. Couvreur's
+research on codes has far-reaching applications in
+<i>code-based cryptography</i>.
+This is a field which is growing rapidly in importance—partly
+due to the supposed resistance of code-based cryptosystems to
+attacks from quantum computing, partly due to the range of new
+techniques on offer, and partly because the fundamental problem
+of parameter selection is relatively poorly understood.
+For example, A. Couvreur's work on filtration attacks on codes has an
+important impact on the design of code-based systems using wild Goppa
+codes or
+algebraic geometry codes, and on the choice of parameter sizes
+for secure implementations.</p>
+      <p>Coding theory also has important practical applications in the
+improvement of conventional symmetric cryptosystems. For example,
+D. Augot's recent work on MDS matrices via BCH codes gives a more
+efficient construction of optimal diffusion layers in block
+ciphers. Here we use combinatorial, non-algorithmic properties of
+codes, in the internals of designs of block ciphers.</p>
+      <p>While coding theory brings tools as above for the classical
+problems of encryption, authentication, and so on, it can also
+provide solutions to new cryptographic problems. This is
+classically illustrated by the use of Reed-Solomon codes in secret
+sharing schemes. Grace is involved in the study, construction and
+implementation of locally decodable codes, which have applications
+in quite a few cryptographic protocols : <i>Private Information Retrieval</i>,
+<i>Proofs of Retrievability</i>, <i>Proofs of Ownership</i>, etc.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid17">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid19" level="2">
+        <bodyTitle>Events organization</bodyTitle>
+        <simplelist>
+          <li id="uid20">
+            <p noindent="true">A. Couvreur, D. Augot and D. Lucas organized with L. De Feo and
+Hugues Randriambololona (ENST ParisTech) a
+<ref xlink:href="https://ecole-c2-2016.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">spring school
+on coding and cryptology</ref> in la Chapelle Gauthier (Seine et Marne).</p>
+          </li>
+          <li id="uid21">
+            <p noindent="true">A. Couvreur and D. Augot organized 4 days workshop in november 2016
+for the ANR MANTA. The topics were: “Decoding” and “Codes from surfaces”.</p>
+          </li>
+          <li id="uid22">
+            <p noindent="true"><ref xlink:href="https://wiki.sagemath.org/days75" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">SageDays75</ref>. To conclude
+the ACTIS projet, we organized a one-week SageDays in August
+2016. The day was spent at Inria Saclay, and people were staying at
+night in a cottage in Vallée de Chevreuse.</p>
+            <p>The overall theme of this Sage Days was coding theory and exact
+linear algebra related to it, but there was be lots of general
+hacking. The aim of this Sage Days was to Introduce Sage to coding
+theorists; have presentations about the enhancements we made to
+Sage's coding theory library during Inria's ACTIS project; Help
+people to work on their own projects.</p>
+            <p>We had a few talks on the mornings, and coding sprints on the
+afternoons. The first days' talks were focused on basic
+functionalities of our library, the last 2 days on advanced
+functionalities, with an emphasis on Sage development.</p>
+            <p>We were glad to attract several core sage developpers, who
+recognized the quality of the work done by D. Lucas.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid23">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>ACTIS</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The aim of this project is to vastly improve the state of the error correcting library in Sage. The existing library does not present a good and usable API, and the provided algorithms are very basic, irrelevant, and outdated. We thus have two directions for improvement: renewing the APIs to make them actually usable by researchers, and incorporating efficient programs for decoding, like J. Nielsen's CodingLib, which contains many new algorithms.</p>
+      <simplelist>
+        <li id="uid25">
+          <p noindent="true">Contact: David Lucas</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">
+            <ref xlink:href="https://bil.inria.fr/fr/software/view/2114/tab" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>bil.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>fr/<allowbreak/>software/<allowbreak/>view/<allowbreak/>2114/<allowbreak/>tab</ref>
+          </p>
+        </li>
+      </simplelist>
+      <p>During the project, D. Lucas and J. Nielsen
+proposed a google summer of code
+<ref xlink:href="https://summerofcode.withgoogle.com/archive/2016/projects/5721008107421696" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">project
+on rank-metric codes</ref> under our ACTIS framework. The intern was Arpit Merchant, who visited us for SageDays75.
+</p>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>muKummer</bodyTitle>
+      <p><span class="smallcap" align="left">Keyword:</span> Cryptography</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>A competitive, high-speed, open implementation of the Diffie–Hellman key
+exchange protocol and a Schnorr-type digital signature scheme,
+targeting the 128-bit security level on two microcontroller
+platforms:
+the classic AVR ATMega 8-bit platform
+and the more modern ARM Cortex M0 32-bit platform.
+These downloads contain mixed C and assembly sources
+for the implementations described in <ref xlink:href="#grace-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participant: Benjamin Smith</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Benjamin Smith</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">ATMega implementation URL: <ref xlink:href="http://www.cs.ru.nl/~jrenes/software/mukummer-avr.tar.gz" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cs.<allowbreak/>ru.<allowbreak/>nl/<allowbreak/>~jrenes/<allowbreak/>software/<allowbreak/>mukummer-avr.<allowbreak/>tar.<allowbreak/>gz</ref></p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">Cortex M0 implementation URL: <ref xlink:href="http://www.cs.ru.nl/~jrenes/software/mukummer-arm.tar.gz" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cs.<allowbreak/>ru.<allowbreak/>nl/<allowbreak/>~jrenes/<allowbreak/>software/<allowbreak/>mukummer-arm.<allowbreak/>tar.<allowbreak/>gz</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid32">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid33" level="1">
+      <bodyTitle>Faster elliptic
+and hyperelliptic curve cryptography</bodyTitle>
+      <p>B. Smith made several contributions to the development of faster
+arithmetic on elliptic curves and genus 2 Jacobians in 2016.
+In joint work with C. Costello and P.-N. Chung,
+he gave a new, efficient, uniform, and constant-time scalar multiplication
+algorithm for genus 2 Jacobians exploiting fast Kummer surface
+arithmetic and features of differential addition chains;
+this was presented at SAC 2016.
+The theory in this article was the basis of a highly competitive
+implementation of key exchange and signatures for microcontroller
+platforms, in joint work with J. Renes, P. Schwabe, and L. Batina,
+presented at CHES 2016.
+</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Quantum factoring</bodyTitle>
+      <p>Integer factorization via Shor's algorithm is a benchmark problem
+for general quantum computers, but surprisingly little work has been
+done on optimizing the algorithm for use as a serious factoring tool
+once large quantum computers are built (rather than as a proof of
+concept). In the meantime, given the limited size of contemporary
+quantum computers and the practical difficulties involved in
+building them, any optimizations to quantum factoring algorithms can
+lead to significant practical improvements.
+In a new interdisciplinary project with physicists F. Grosshans and
+T. Lawson, F. Morain and B. Smith have derived a simple new
+quantum factoring algorithm for cryptographic integers; its expected
+runtime is lower than Shor's factoring algorithm, and it should also
+be easier to implement in practice <ref xlink:href="#grace-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Advances in point counting</bodyTitle>
+      <p>Determining the number of points on an elliptic curve,
+or more generally on the Jacobian of an algebraic curve,
+is a classic problem in algorithmic number theory
+that is now crucial for efficiently generating secure cryptographic
+parameters.
+Together with C. Scribot,
+F. Morain and B. Smith developed an improved version of the
+state-of-the-art SEA algorithm for certain families of elliptic
+curves with special endomorphisms; this was presented at ANTS-XII
+<ref xlink:href="#grace-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+B. Smith also led a project group on special genus-2 point counting
+algorithms at the "Algebraic Geometry for Coding Theory and
+Cryptography" workshop at IPAM, UCLA, in 2016.
+</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Cryptanalysis of code based cryptosystems by filtration attacks</bodyTitle>
+      <p>The McEliece encryption scheme based on binary Goppa codes was one
+of the first public-key encryption schemes  <ref xlink:href="#grace-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Its security rests on the difficulty of decoding an
+arbitrary code. The original proposal uses classical Goppa codes, and
+while it still remains unbroken, it requires a huge size of key.
+On the other hand, many derivative systems based on other families of
+algebraic codes have been subject to key recovery attacks.
+Up to now, key recovery attacks were based either on a variant of
+Sidelnikov and Shestakov's attack <ref xlink:href="#grace-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+where the first step involves the computation of minimum-weight codewords,
+or on the resolution of a system of polynomial equations
+using Gröbner bases.</p>
+      <p>In <ref xlink:href="#grace-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, A. Couvreur, P. Gaborit, V. Gauthier,
+A. Otmani and J.-P. Tillich introduced a new paradigm of attack
+called <i>filtration attacks</i>.
+The general principle decomposes in two steps:</p>
+      <orderedlist>
+        <li id="uid37">
+          <p noindent="true"><b>Distinguishing</b> the public code from a random one using
+the square code operation.</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true"><b>Computing a filtration</b> of the
+public code using the distinguisher, and deriving from this filtration
+an efficient decoding algorithm for the public code.</p>
+        </li>
+      </orderedlist>
+      <p>This new style of attack allowed A. Couvreur, A. Otmani and J.-P. Tillich
+to break (in polynomial time)
+McEliece based on wild Goppa codes over quadratic extensions
+<ref xlink:href="#grace-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A detailed long version has been written and recently published
+<ref xlink:href="#grace-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A. Couvreur, Irene Márquez–Corbella, and R. Pellikaan broke McEliece
+based on algebraic geometry codes from curves of arbitrary genus
+<ref xlink:href="#grace-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#grace-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> by reconstructing
+optimal polynomial time decoding algorithms decoding up to the half minimum distance
+minus half the genus. This can be computed from the raw data of a
+generator matrix. In a recently submitted long version
+<ref xlink:href="#grace-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> the algorithm has been improved and
+permits to reconstruct a decoding algorithm up to the half minimum
+distance.
+</p>
+    </subsection>
+    <subsection id="uid39" level="1">
+      <bodyTitle>Quantum LDPC codes</bodyTitle>
+      <p>Quantum codes are the analogous of error correcting codes
+for a quantum computer. A well known family of quantum codes
+are the CSS codes due to Calderbank, Shor and Steane
+can be represented by a pair of matrices
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><msub><mi>H</mi><mi>X</mi></msub><mo>,</mo><msub><mi>H</mi><mi>Z</mi></msub><mo>)</mo></mrow></math></formula> such that <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>H</mi><mi>X</mi></msub><msubsup><mi>H</mi><mi>Z</mi><mi>T</mi></msubsup><mo>=</mo><mn>0</mn></mrow></math></formula>. As in classical coding
+theory, if these matrices are sparse, then the code is said to be
+LDPC. An open problem in quantum coding theory is to get
+a family of quantum LDPC codes whose asymptotic minimum
+distance is in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>Ω</mi><mo>(</mo><msup><mi>n</mi><mi>α</mi></msup><mo>)</mo></mrow></math></formula> for some <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>&gt;</mo><mn>1</mn><mo>/</mo><mn>2</mn></mrow></math></formula>.
+No such family is known and actually, only few known families
+of quantum LDPC codes have a minimum distance tending to infinity.</p>
+      <p>In <ref xlink:href="#grace-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+Benjamin Audoux (I2M, Marseille) and A. Couvreur
+investigate a problem suggested by Bravyi and Hastings. They studied the
+behaviour of iterated tensor powers of CSS codes and prove in
+particular that such families always have a minimum distance tending to
+infinity. They propose also 3 families of LDPC codes whose minimum
+distance is in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>Ω</mi><mo>(</mo><msup><mi>n</mi><mi>β</mi></msup><mo>)</mo></mrow></math></formula> for all <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>β</mi><mo>&lt;</mo><mn>1</mn><mo>/</mo><mn>2</mn></mrow></math></formula>.
+</p>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Discrete Logarithm computations in
+finite fields with the NFS algorithm</bodyTitle>
+      <p>The best discrete logarithm record computations in prime fields and
+large characteristic finite fields are obtained with Number Field
+Sieve algorithm (NFS) at the moment. This algorithm is made of four
+steps:</p>
+      <orderedlist>
+        <li id="uid41">
+          <p noindent="true">polynomial selection;</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">relation collection (with a sieving technique);</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">linear algebra (computing the kernel of a huge matrix, of
+millions of rows and columns);</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">individual discrete logarithm computation.</p>
+        </li>
+      </orderedlist>
+      <p>The two more time consuming steps are the relation collection step and
+the linear algebra step.
+The polynomial selection is quite fast but is very important since it
+determines the complexity of the algorithm. Selecting better
+polynomials is a key to improve the overall running-time of the NFS
+algorithm.</p>
+      <p>A. Guillevic and F. Morain have written a chapter
+<ref xlink:href="#grace-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> on discrete logarithm computations for a
+book on pairings.</p>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Breaking a MNT curve using DL computations</bodyTitle>
+        <p>There is a reduction between an elliptic curve <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>E</mi></math></formula> defined over
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>𝐅</mi><mi>p</mi></msub></math></formula> and a finite extension of degree <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> (aka <i>embedding
+degree</i>) of the base field, using pairing computations. In brief, one
+can transport the discrete logarithm problem from <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>E</mi></math></formula> to
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>𝐅</mi><msup><mi>p</mi><mi>k</mi></msup></msub></math></formula>. If <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> is relatively small, this yields a DLP much
+easier to solve than directly on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>E</mi></math></formula>. To give some highlight on
+current easyness, A. Guillevic, F. Morain and E. Thomé (from CARAMBA
+EPC in LORIA) computed a discrete log on a curve of embedding degree
+3 and cryptographic size. This clearly showed that curves with small
+embedding degrees are indeed weak. The article
+<ref xlink:href="#grace-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> was presented by A. Guillevic during the
+SAC 2016 conference in New Foundland.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Rank metric codes over infinite fields</bodyTitle>
+      <p>Rank metric and Gabidulin codes over the rationals promise
+interesting applications to space-time coding. We have constructed
+optimal codes, similar to Gabidulin codes, in the case of infinite
+fields. We use algebraic extensions, and we have determined the
+condition on the considered extension to enable this construction.
+For example: we can design codes with complex coefficients, using
+number fields and Galois automorphisms.
+Then, in the rank metric setting, codewords can be seen as matrices.
+In this setting, a channel introduces errors (a matrix of small rank <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula>
+added to the codeword) and erasures (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>s</mi><mi>r</mi></msub></math></formula> rows and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>s</mi><mi>c</mi></msub></math></formula> columns of the
+matrix are erased). We have developed an algorithm (adapted from the
+Welch–Berlekamp algorithm) to recover the right codeword in the
+presence of an error of rank weight up to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>r</mi><mo>+</mo><msub><mi>s</mi><mi>c</mi></msub><mo>+</mo><msub><mi>s</mi><mi>r</mi></msub><mo>⩽</mo><mi>d</mi><mo>-</mo><mn>1</mn></mrow></math></formula>,
+where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula> is the minimal distance of the code.
+As opposed to the finite field case, we are confronted by coefficient
+size growth. We solve this problem by computing modulo prime ideals.
+Using these codes we can completely bypass intermediate constructions
+using finite fields, which were the stumbling-block in classic
+constructions.</p>
+      <p>We also have used this framework to build rank-metric codes over the
+field of rational functions, using algebraic function fields with
+cyclic Galois group (Kummer and Artin extensions). These codes can
+be seen as a generator of infinitely many convolutional
+codes.</p>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>Hash function cryptanalysis</bodyTitle>
+      <p>Cryptographic hash functions are versatile primitives that are used in
+many cryptographic protocols. The security of a hash function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>h</mi></math></formula> is
+usually evaluated through two main notions: its preimage resistance (given a target <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula>, the
+difficulty of finding a message <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> s.t. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>h</mi><mo>(</mo><mi>m</mi><mo>)</mo><mo>=</mo><mi>t</mi></mrow></math></formula>) and its collision resistance (the
+difficulty of finding two messages <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>m</mi><mo>,</mo><msup><mi>m</mi><mo>'</mo></msup></mrow></math></formula> s.t. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>h</mi><mrow><mo>(</mo><mi>m</mi><mo>)</mo></mrow><mo>=</mo><mi>h</mi><mrow><mo>(</mo><msup><mi>m</mi><mo>'</mo></msup><mo>)</mo></mrow></mrow></math></formula>).</p>
+      <p>A popular hash function is the SHA-1 algorithm. Although theoretical collision attacks were
+found in 2005, it is still being used in some applications, for instance as the hash function in some TLS certificates.
+Hence cryptanalysis of SHA-1 is still a major topic in cryptography.</p>
+      <p>In 2015, we improved the state-of-the-art on SHA-1 analysis in two ways:</p>
+      <simplelist>
+        <li id="uid48">
+          <p noindent="true">T. Espitau, P.-A. Fouque and P. Karpman improved the previous preimage attacks on SHA-1, reaching up to 62 rounds (out of
+80), up from 57. The corresponding paper was published at CRYPTO 2015.</p>
+        </li>
+        <li id="uid49">
+          <p noindent="true">P. Karpman, T. Peyrin and M. Stevens developed collision attacks on the compression function of SHA-1 (i.e. freestart collisions).
+This exploits a model that is slightly more generous to the attacker in order to find explicit collisions on more rounds than
+what was previously possible. A first work resulted in freestart collisions for SHA-1 reduced to 76 steps; this attack takes less than a week
+to compute on a common GPU. The corresponding paper was published at CRYPTO 2015. This was later
+improved to attack the full compression function. Although the attack is more expensive it is still practical, taking less than two weeks
+on a 64 GPU cluster. The corresponding paper was accepted at EUROCRYPT 2016 <ref xlink:href="#grace-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Block cipher design and analysis</bodyTitle>
+      <p>Block ciphers are one of the most basic cryptographic primitives, yet block cipher analysis is still a major research topic.
+In recent years, the community also shifted focus to the more general setting of <i>authenticated encryption</i>, where one
+specifies an (set of) algorithm(s) providing both encryption and authentication for messages of arbitrary length. A major
+current event in that direction is the CAESAR academic competition, which aims to select a portfolio of good algorithms.</p>
+      <p>In 2015, we helped to improve the state of the art in block cipher research in several ways:</p>
+      <simplelist>
+        <li id="uid51">
+          <p noindent="true">P. Karpman developed a compact 8-bit S-box with branch number three, which can be used as a basis to construct a lightweight block
+cipher particularly efficient on 8-bit microcontrollers <ref xlink:href="#grace-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+      </simplelist>
+      <p>In 2016, together with P.-A. Fouque, P. Kirchner and B. Minaud, P. Karpman designed a family of efficient provably incompressible
+symmetric primitives, which corresponds to a weak notion of white-box cryptography. The objective of such algorithms is that
+given an implementation of a certain target size, an adversary shouldn't be able to efficiently find a smaller implementation with comparable functionality.
+We introduced a security model that captures the behaviour of realistic adversaries and used this model to prove the security of a family
+of block cipher and a family of key generating functions. The corresponding paper was published at ASIACRYPT 2016 <ref xlink:href="#grace-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Weight distribution of
+Algebraic-Geometry codes</bodyTitle>
+      <p>V. Ducet worked on the weight distribution of geometric codes
+following a method initiated by Duursma. More precisely he
+implemented his method in magma and was able to compute the weight
+distribution of the geometric codes coming from two optimal curves
+of genus 2 and 3 over the finite fields of size 16 and 9
+respectively. The aim is to compute the weight distribution of the
+Hermitian code over the finite field of size 16, for which
+computational improvements of the implementation are
+necessary.
+</p>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>Update on the Chor-Rivest cryptosystem</bodyTitle>
+      <p>The Chor-Rivest cryptosystem from the 90's was “broken” by
+Vaudenay. However, Vaudenay's attack applies only for the range of
+parameters originally proposed. The major recent breakthrough in
+discrete logarithm computations enable to redesign the system with a
+completly different range of paramaters, possibly thwarting
+Vaudenay's attack. D. Augot and C. Barbin tried to find a new
+attack against this discrete log and knapsack-based cryptosystem,
+using the Sidelnikov-Shestakov algorithm for recovering a
+Reed-Solomon code. Apparently, our new attack does not outperform
+S. Vaudenay's original attack, and it may be possible that the
+Chor-Rivest could be redesigned in a secure way.
+
+</p>
+    </subsection>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Proofs or Retrievability</bodyTitle>
+      <p>A Proof of Retrievability (PoR) is a cryptographic protocol which aims at
+ensuring a user that he can retrieve files he previously stored on a server.
+J. Lavauzelle and F. Levy-dit-Vehel studied a new approach for the
+construction of PoRs. The idea is to encode the file so that the user can
+check with low communication whether its file has been damaged.
+Such an encoding can be efficiently done with locally decodable and testable
+codes, and especially with the family of lifted codes introduced by Guo,
+Kopparty and Sudan  <ref xlink:href="#grace-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In practice, PoRs thus defined achieve very
+efficient storage overhead and acceptable communication, compared to the
+existing litterature. This new construction <ref xlink:href="#grace-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+has been presented during the ISIT2016 conference in Barcelona.
+</p>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>Fast Encoding of Multiplicity Codes</bodyTitle>
+      <p>N. Coxon has produced a fast implementation which demonstrates that
+the multiplicity codes from Kopparty, Saraf and Yehkanin are indeed
+practical for very large databases (when used in the Private
+Information Retrieval setting). For instance, we can
+encode a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>8</mn></msup></math></formula> bit longs message in two seconds on a regular
+laptop, and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>9</mn></msup></math></formula> in thirty seconds. We envisioned a scenario where
+DNA sequences are encoded using these multiplicity codes: <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>8</mn></msup></math></formula>
+bits is the size of Drosophila melanogaster (flies), and
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>9</mn></msup></math></formula> bits is the order of magnitude of the human genome.
+
+</p>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Private Information Retrieval</bodyTitle>
+      <p>Imagine the following scenario, in which a researcher wants to
+access many sustrings a DNA sequences, while maintaining the privacy
+of the request. The privacy or the secrecy of the database is not a
+concern here: for instance, this researcher wants to access many DNA
+subsequences of drosophila melanogaster, hosted on a remote data
+broker, and clearly the concern is not to protect the private life
+of flies. But the information leaked about the queries may endanger
+the novel aspect of the discovery the researcher is about to make,
+by revealing which DNA sequences he is studying.</p>
+      <p>Private Information Retrieval (PIR) schemes are designed to achieve this
+goal: a user queries a database <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>T</mi></math></formula> hosted on a remote server, and
+wants the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>i</mi></math></formula>-th entry, i.e. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow></math></formula>. A cryptographic protocol is
+then run, and at the end of the protocol, the server must not know
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>i</mi></math></formula>, neither the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow></math></formula> he answered, yet the user gets <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>T</mi><mo>[</mo><mi>i</mi><mo>]</mo></mrow></math></formula>.</p>
+      <p>These PIR schemes can be achieved in an unconditionally secure way
+using the above Multiplicity codes, which N. Coxon made practical.
+In September, we explained this scenario and demoed our software at
+Nokia Bell Lab's Future X days a use case of Multiplicity codes for
+private access to DNA sequences.
+
+</p>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Compact McEliece Keys from Algebraic-geometry codes</bodyTitle>
+      <p>In 1978, McEliece <ref xlink:href="#grace-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, introduced a public key
+cryptosystem based on linear codes and suggested to use classical
+Goppa codes which belong to the family of alternant codes. This
+proposition remains secure but leads to very large public keys
+compared to other public-key cryptosystems. Many proposals have been
+made in order to reduce the key size, in particular quasi-cyclic
+alternant codes. Quasi-cyclic alternant codes refer to alternant
+codes admitting a generator matrix made of severals cyclic
+bloks. These alternant codes contains weakness because they have a
+non-trivial automorphism group. Thanks to this property we can
+build, from a quasi-cyclic alternant code, an alternant code with
+smaller parameters which has almost same private elements than the
+original code. Faugère, Otmani, Tillich, Perret and Portzamparc
+<ref xlink:href="#grace-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> showed this fact for alternant codes
+obtained by using supports <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>x</mi><mo>∈</mo><msubsup><mi>𝔽</mi><mrow><msup><mi>q</mi><mi>m</mi></msup></mrow><mi>n</mi></msubsup></mrow></math></formula> globally
+stable by an affine map <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>φ</mi><mo>:</mo><mi>z</mi><mo>↦</mo><mi>a</mi><mi>z</mi><mo>+</mo><mi>b</mi></mrow></math></formula>, with
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><msubsup><mi>𝔽</mi><mrow><msup><mi>q</mi><mi>m</mi></msup></mrow><mi>n</mi></msubsup></mrow></math></formula>. E. Barelli has extended this proof to the non-affine case: for all codes
+obtained by using supports <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>x</mi><mo>∈</mo><msubsup><mi>𝔽</mi><mrow><msup><mi>q</mi><mi>m</mi></msup></mrow><mi>n</mi></msubsup></mrow></math></formula> globally
+stable by a map <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>φ</mi><mo>:</mo><mi>z</mi><mo>↦</mo><mfrac><mrow><mi>a</mi><mi>z</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>z</mi><mo>+</mo><mi>d</mi></mrow></mfrac></mrow></math></formula>, with
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>∈</mo><msubsup><mi>𝔽</mi><mrow><msup><mi>q</mi><mi>m</mi></msup></mrow><mi>n</mi></msubsup></mrow></math></formula>.</p>
+      <p>In order to suggest compact keys for the McEliece cryptosystem E. Barelli
+and A. Couvreur studied quasi-cyclic alternant gemeotric codes.
+Alternant geometric codes means a subfield subcode of an algebraic-geometry codes.
+To build these codes, we need curves with automorphisms. In particular, we studied Kummer cover of plane curves.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid58">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Nokia (ex Alcatel-Lucent)</bodyTitle>
+        <p>Within the framework of the joint lab Inria-ALU, Grace and
+Alcatel-Lucent collaborate on the topic of Private Information
+Retrieval: that is, enabling a user to retrieve data from a remote
+database while revealing neither the query nor the retrieved data.
+(This is not the same as data confidentiality, which refers to the
+need for users to ensure secrecy of their data; this is classically
+obtained through encryption, which prevents access to data in the clear.)</p>
+        <p>A typical application would be a centralized database of medical
+records, which can be accessed by doctors, nurses, and so
+on. A desirable privacy goal would be that the central system does not
+know which patient is queried for when a query is made, and this goal
+is precisely achieved by a Private Information Retrieval
+protocol. Note also that in this scenario the database is not
+encrypted, since many users are allowed to access it.</p>
+        <p>We are exploring applications of Locally Decodable Codes to Private
+Information Retrieval in the multi-cloud (multi-host) setting, to
+ensure both secure, reliable storage, and privacy of database queries.</p>
+        <p>N. Coxon made the first implementation of these codes, who are indeed
+very practical. On a laptop, we can encode an ADN of a drosophilia in
+two seconds, and a <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mn>10</mn><mn>9</mn></msup></math></formula> bit data base in 30 seconds. We have a few
+real-life scenario in mind (DNA, geolocalisation, streaming), and we will check how realistic they are.</p>
+      </subsection>
+      <subsection id="cid2" level="2">
+        <bodyTitle>Safran Identity and Security (ex-Morpho)</bodyTitle>
+        <p>A contract has been signed in November 2016 between Safran Identity
+and Security and École polytechnique, for one year post-doc
+position. A candidate has been found, and will arrive early 2017
+(January).</p>
+        <p>The topic is the research is to use bitcoin's blockchain to issue and
+manipulate certification of identities, which is very close to the
+(trendy) topic of diplomation with blockchains.</p>
+        <p>Safran had a preliminary construction for doing that, and a
+preliminary version has been submitted to
+the <ref xlink:href="http://prosecco.gforge.inria.fr/ieee-blockchain2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IEEE
+Security and Privacy on the Blockchain Workshop</ref>.</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid60">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid62" level="2">
+        <bodyTitle>PEPS Aije-bitcoin</bodyTitle>
+        <p>Within the group PAIP (Pour une Approche Interdisciplinaire de la
+Privacy), D. Augot presented the cryptographic and peer-to-peer
+principles at the heart of the Bitcoin protocol (electronic signature,
+hash functions, and so on). Most of the information is publicly
+available: the history of all transactions, evolution of the source
+code, developers' mailing lists, and the Bitcoin exchange rate. It
+was recognized by the economists in our group that such an amount of
+data is very rare for an economic phenomenon, and it was decided to
+start research on the history of Bitcoin, to study the interplay
+between the development of protocol and the development of the
+economical phenomenon.</p>
+        <p>The project
+<ref xlink:href="https://aije-bitcoin.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><b>Aije-Bitcoin</b></ref> (analyse
+informatique, juridique et economique de Bitcoin) was accepted as
+interdisciplinary research for a PEPS (Projet exploratoire Premier
+Soutien) cofunded by the CNRS and Universite de Paris-Saclay. This
+one-year preliminary program will enable the group to master the
+understanding of Bitcoin from various angles, allowing more advanced
+research in the following years.</p>
+        <p>One M2 intern, E. Palazzollo, was intern in Sceaux, with aim to
+qualify the nature of bitcoin, as an asset, curency, etc.</p>
+        <p>This project ended in March 2016</p>
+      </subsection>
+      <subsection id="uid63" level="2">
+        <bodyTitle>IDEALCODES</bodyTitle>
+        <p>Idealcodes is a two-year Digiteo research project, started in October
+2014. The partners involved are the École Polytechnique (X) and the
+Université de Versailles–Saint-Quentin-en-Yvelines (Luca de Feo,
+UVSQ). After hiring J. Nielsen the first year, we have hired
+V. Ducet for the second year, both working at the boundary between
+coding theory, cryptography, and computer algebra</p>
+        <p>Idealcodes spans the three research areas of algebraic coding theory,
+cryptography, and computer algebra, by investigating the problem of
+lattice reduction (and root-finding). In algebraic coding theory this
+is found in Guruswami and Sudan's list decoding of algebraic geometry
+codes and Reed–Solomon codes. In cryptography, it is found in
+Coppersmith's method for finding small roots of integer
+equations. These topics were unified and generalised by H. Cohn and
+N. Heninger  <ref xlink:href="#grace-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, by considering algebraic
+geometry codes and number field codes under the deep analogy between
+polynomials and integers. Sophisticated results in coding theory could
+be then carried over to cryptanalysis, and vice-versa. The generalized
+view raises problems of computing efficiently, which is one of the
+main research topics of Idealcodes.</p>
+        <p>The last year of the one-year project aims to find matrices with good
+diffusion properties over small finite fields. The principle is to
+find non-maximal matrices, but with better coefficients and
+implementation properties. The relevant cryptographic properties to be
+studied correspond to the weight distribution of the associated
+code. Since we use Algebraic-Geometry codes, much more powerful
+techniques can be used for computing these weight distribution, using and
+improving Duursma's ideas  <ref xlink:href="#grace-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>IRT System-X</bodyTitle>
+        <p>D. Augot is co-advising a PhD candidate, H.-M. Bisserier, on “les relations
+contractuelles de droit privé à l'épreuve de la technologie des
+blockchains”, i.e. on (French) law and so-called “smart
+contracts”. D. Augot will mainly help H.-M. Bisserier to clarify the
+essential computer science topics and issues relevant to the most
+important blockchains (bitcoin, ethereum). Then H.-M. Bisserier will be
+advised by C. Zolynksi for remaining two years, fixing research
+directions.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid65" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid66" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p>MANTA (accepted July 2015, starting March 2016): “Curves,
+surfaces, codes and cryptography”. This project deals with
+applications of coding theory error correcting codes to in
+cryptography, multi-party computation, and complexity theory, using
+advanced topics in algebraic geometry and number theory. The
+kickoff was a one week-retreat in Dordogne (20 participants), and we
+had another four day meeting in Saclay in November 17.
+ See
+<ref xlink:href="http://anr-manta.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://anr-manta.inria.fr/</ref>.</p>
+      </subsection>
+      <subsection id="uid67" level="2">
+        <bodyTitle>DGA</bodyTitle>
+        <p>Cybersecurity. Inria and DGA contracted for three PhD topics at
+the national level, one of them involving Grace. Grace started a new
+PhD, and hired P. Karpman. The topic of this PhD is complementary to
+the above DIFMAT-3: while DIFMAT-3 provides fundamental methods for
+dealing with AG codes, in application for diffusion layers in block
+ciphers, the topic here is to make concrete propositions of block
+ciphers using these matrices.
+P. Karpman is coadvised by T. Peyrin (Nanyang Technological
+University, Singapore), by P.-A. Fouque (Université de
+Rennes), and D. Augot.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid69" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid70" level="3">
+          <bodyTitle>PQCRYPTO</bodyTitle>
+          <sanspuceslist>
+            <li id="uid71">
+              <p noindent="true">Title: Post-quantum cryptography for long-term security</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">Programm: H2020</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Duration: March 2015 - March 2018</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Coordinator: TECHNISCHE UNIVERSITEIT EINDHOVEN</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid76">
+                  <p noindent="true">Academia Sinica (Taiwan)</p>
+                </li>
+                <li id="uid77">
+                  <p noindent="true">Bundesdruckerei (Germany)</p>
+                </li>
+                <li id="uid78">
+                  <p noindent="true">Danmarks Tekniske Universitet (Denmark)</p>
+                </li>
+                <li id="uid79">
+                  <p noindent="true">Katholieke Universiteit Leuven (Belgium)</p>
+                </li>
+                <li id="uid80">
+                  <p noindent="true">Nxp Semiconductors Belgium Nv (Belgium)</p>
+                </li>
+                <li id="uid81">
+                  <p noindent="true">Ruhr-Universitaet Bochum (Germany)</p>
+                </li>
+                <li id="uid82">
+                  <p noindent="true">Stichting Katholieke Universiteit (Netherlands)</p>
+                </li>
+                <li id="uid83">
+                  <p noindent="true">Coding Theory and Cryptology group, Technische Universiteit Eindhoven (Netherlands)</p>
+                </li>
+                <li id="uid84">
+                  <p noindent="true">Technische Universitaet Darmstadt (Germany)</p>
+                </li>
+                <li id="uid85">
+                  <p noindent="true">University of Haifa (Israel)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Inria contact: Nicolas Sendrier</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Online security depends on a very few underlying
+cryptographic algorithms. Public-key algorithms are particularly
+crucial since they provide digital signatures and establish
+secure communication. Essentially all applications today are
+based on RSA or on the discrete-logarithm problem in finite
+fields or on elliptic curves. Cryptographers optimize parameter
+choices and implementation details for these systems and build
+protocols on top of these systems; cryptanalysts fine-tune
+attacks and establish exact security levels for these
+systems.</p>
+              <p>It might seem that having three systems offers enough variation,
+but these systems are all broken as soon as large quantum
+computers are built. The EU and governments around the world are
+investing heavily in building quantum computers; society needs to
+be prepared for the consequences, including cryptanalytic attacks
+accelerated by these computers. Long-term confidential documents
+such as patient health-care records and state secrets have to
+guarantee security for many years, but information encrypted
+today using RSA or elliptic curves and stored until quantum
+computers are available will then be as easy to
+decipher.</p>
+              <p>PQCRYPTO will allow users to switch to post-quantum cryptography:
+cryptographic systems that are not merely secure for today but
+that will also remain secure long-term against attacks by quantum
+computers. PQCRYPTO will design a portfolio of high-security
+post-quantum public-key systems, and will improve the speed of
+these systems, with reference implementations.</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Our team is engaged in WP3.3 “advanced applications for the
+cloud”. We envision to focus essentially on secure multiparty
+computation, essentially the information theoretically secure
+constructions, who are naturally secure against a quantum computer
+invoked on classical queries. We will study whether these
+protocols still resist quantum queries. This work sub package
+started March 2015, and is dealt with by D. Augot.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid89">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid90" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid92" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid93">
+              <p noindent="true">D. Augot is member of the committee of the
+<ref xlink:href="http://cca.saclay.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CCA</ref> seminar on coding and
+cryptology. This seminar regularly attracts around 30 participants.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid95" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid96">
+              <p noindent="true">D. Augot was reviewer for
+International Symposium on Information Theory</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid98" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid99">
+              <p noindent="true">D. Augot is member of the editorial board of the <i>RAIRO -
+Theoretical Informatics and Applications</i>, a Cambridge journal
+published by EDP Sciences.</p>
+            </li>
+            <li id="uid100">
+              <p noindent="true">D. Augot is member of the editorial board of the <i>International
+Journal of Information and Coding Theory</i>, InderScience publishers.</p>
+            </li>
+            <li id="uid101">
+              <p noindent="true">F. Morain is member of the editorial board of the
+<i>Applicable Algebra in Engineering, Communication and Computing</i>,
+Springer.</p>
+            </li>
+            <li id="uid102">
+              <p noindent="true">A. Couvreur was editor with Alp Bassa (Bogazici University, Turkey) and
+David Kohel (Aix-Marseille University) of a number of <i>AMS
+Contemporary Mathematics</i> for the proceedings of the conference
+AGCT (<i>Arithmetic Geometry Cryptography and Coding Theory</i>)
+2015.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid104">
+              <p noindent="true">D. Augot was reviewer for</p>
+              <simplelist>
+                <li id="uid105">
+                  <p noindent="true">Discrete Mathematics</p>
+                </li>
+                <li id="uid106">
+                  <p noindent="true">Designs, Codes and Cryptography</p>
+                </li>
+                <li id="uid107">
+                  <p noindent="true">Linear and Multilinear Algebra</p>
+                </li>
+                <li id="uid108">
+                  <p noindent="true">Finite Fields and their applications</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+          <simplelist>
+            <li id="uid109">
+              <p noindent="true">A. Couvreur was reviewer for</p>
+              <simplelist>
+                <li id="uid110">
+                  <p noindent="true">Discrete Mathematics</p>
+                </li>
+                <li id="uid111">
+                  <p noindent="true">Designs, Codes and Cryptography</p>
+                </li>
+                <li id="uid112">
+                  <p noindent="true">Journal of Algebra</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid113" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid114">
+            <p noindent="true">D. Augot was invited speaker at Yet Another Cryptography Conference (YACC), Porquerolles, June 2016.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">B. Smith was an invited speaker at the 20th international Workshop on
+Elliptic Curve Cryptography (ECC), Izmir, Turkey, September 2016.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">A. Couvreur gave a talk to represent the group <i>Codes et Cryptographie</i>
+of the GdR <i>Informatique Mathématiques</i> (GdR IM) at the <i>Journées
+nationales du GdR IM</i> at University Paris 13 (January 13).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid117" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid118">
+            <p noindent="true">D. Augot participated in a round table at a <ref xlink:href="http://www.colloque-blockchain.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">workshop</ref> organized by French National Assembly (lower house) at, on blockchains (March 24th).</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">D. Augot participated in a
+<ref xlink:href="http://chairgovreg.fondation-dauphine.fr/fr/node/224" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">round
+table at Paris Dauphine</ref> on blockchains, organized by the chair
+“Chaire Gouvernance &amp; Régulation” (November 1).</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">D. Augot made a talk on hashing and blockchain at a <ref xlink:href="https://webusers.imj-prg.fr/~ricardo.perez-marco/IHP/IHP.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">workshop</ref> on blockchains held at Institut Poincaré (November 16).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid121" level="2">
+        <bodyTitle>Teaching in international postgraduate summer schools</bodyTitle>
+        <simplelist>
+          <li id="uid122">
+            <p noindent="true">B. Smith gave lectures on
+<i>Basic public-key constructions with elliptic curves</i>
+and
+<i>Advanced constructions in curve-based cryptography</i>
+at the
+<i>Summer school on real-world crypto and privacy</i>,
+Sibenik, Croatia, June 2016.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">B. Smith gave a course on <i>asymmetric cryptography and
+elliptic curves</i> at the
+<i>Crypto-CO summer school on cryptography and security</i>,
+Bogota, Colombia, July 2016.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">B. Smith gave lectures on elliptic curves
+at the
+<i>ECC2016 Computational Algebraic Number Theory School</i>,
+Izmir, Turkey, September 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid125" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Committees</p>
+        <simplelist>
+          <li id="uid126">
+            <p noindent="true">A. Couvreur is an elected member of Saclay's <i>comité de centre</i>.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">A. Couvreur is an elected member of Saclay's <i>Comité local
+Hygiène, Sécurité et Conditions de Travail</i>.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">A. Couvreur is the <i>jeune chercheur référent</i> for the <i>commission
+de suivi doctoral</i> of Inria Saclay.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">D. Augot is a member of LIX's <i>conseil de direction</i>.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">D. Augot is the vice-head of Inria's <i>comité de suivi doctoral</i></p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">D. Augot is a member of LIX's <i>assemblée des chefs d'équipe</i></p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">D. Augot is elected member of the <i>conseil académique
+consultatif</i> of Paris-Saclay University.</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">F. Levy-dit-Vehelis a representative of “enseignants-chercheurs” of LIX.</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">F. Morain, B. Smith and A. Couvreur are elected members
+of the <i>Conseil de Laboratoire</i> of the LIX.</p>
+          </li>
+          <li id="uid135">
+            <p noindent="true">F. Morain is vice-head of the Département
+d'informatique of Ecole Polytechnique.</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">F. Morain represents École polytechnique in the
+committee in charge of <i>Mention HPC</i> in the
+<i>Master de l'université Paris Saclay</i>.</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">F. Morain is member of the Board of Master Parisien de
+Recherche en Informatique (MPRI).</p>
+          </li>
+          <li id="uid138">
+            <p noindent="true">B. Smith is a <i>Correspondant</i> for International Relations
+at Saclay.</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">B. Smith is a member of the COST-GTRI.</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">B. Smith is a member of the teaching committee
+of the Department of Computer Science of the École polytechnique.</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">B. Smith is the academic coordinator for Computer Science in the
+new <i>Bachelor</i> program at École polytechnique.</p>
+          </li>
+        </simplelist>
+        <p>Committees</p>
+        <simplelist>
+          <li id="uid142">
+            <p noindent="true">D. Augot was in the committee assessing candidates for Univ. Paris 8.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid143" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid144" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid145">
+            <p noindent="true">Licence :</p>
+            <simplelist>
+              <li id="uid146">
+                <p noindent="true">D. Augot was mentoring a group of polytechnique students on a L3 projet on homomorphic encryption and voting (6 students)</p>
+              </li>
+              <li id="uid147">
+                <p noindent="true">D. Augot was mentoring a group of polytechnique students on a L3 projet on blockchains and hyperledger, in collaboration with Orange (5 students)</p>
+              </li>
+              <li id="uid148">
+                <p noindent="true">F. Levy-dit-Vehel, “Mathématiques discrètes pour la protection de
+l'information”, 24h (equiv TD), 2nd year (L3), ENSTA ParisTech, France.</p>
+              </li>
+              <li id="uid149">
+                <p noindent="true">J. Lavauzelle, 1I002, “Introduction à la programmation en C”,
+tutorial class (38.5h), L1, Université Pierre et Marie Curie,
+France</p>
+              </li>
+              <li id="uid150">
+                <p noindent="true">J. Lavauzelle, 2I011, “Méthodes numériques”, tutorial class
+(21h), L2, Université Pierre et Marie Curie, France</p>
+              </li>
+              <li id="uid151">
+                <p noindent="true">J. Lavauzelle, 1I001, “Éléments de programmation”,
+tutorial class (38.5h), L1, Université Pierre et Marie Curie,
+France</p>
+              </li>
+              <li id="uid152">
+                <p noindent="true">J. Lavauzelle, 2I003, “Initiation à l'algorithmique”,
+tutorial class (21.25h), L2, Université Pierre et Marie Curie,
+France</p>
+              </li>
+              <li id="uid153">
+                <p noindent="true">A. Couvreur and E. Barelli, INF311, ”Introduction à l'informatique“,
+26.7h(equiv TD), 1st year, Ecole Polytechnique, France.</p>
+              </li>
+              <li id="uid154">
+                <p noindent="true">E. Barelli, INF411, "Les bases de la programmation et de
+l'algorithmique", 21.3h (equiv TD), 2nd year (L3), Ecole
+Polytechnique, France.</p>
+              </li>
+              <li id="uid155">
+                <p noindent="true">B. Smith, INF442, "Traitement des données massives",
+32h TD, 2nd year, École polytechnique</p>
+              </li>
+              <li id="uid156">
+                <p noindent="true">A. Couvreur and B. Smith,
+INF411, "Les bases de la programmation et de
+l'algorithmique",
+32h TD, 2nd year, École polytechnique</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid157">
+            <p noindent="true">Master :</p>
+            <simplelist>
+              <li id="uid158">
+                <p noindent="true">D. Augot was mentoring François Bonnal, on a M1 research training projet, “bitcoin malleability”</p>
+              </li>
+              <li id="uid159">
+                <p noindent="true">D. Augot was mentoring Édouard Dufour-Sans, on a M1 research training projet, “symmetric information theoretically secure private information retrieval schemes and applications”</p>
+              </li>
+              <li id="uid160">
+                <p noindent="true">F. Levy-dit-Vehel, “Cours de Cryptographie”, 30h. (equiv TD), 3rd year (M1), ENSTA ParisTech, France.</p>
+              </li>
+              <li id="uid161">
+                <p noindent="true">B. Smith, “Algorithmes arithmétiques pour la
+cryptologie”, 15h, MPRI (M2), Paris</p>
+              </li>
+              <li id="uid162">
+                <p noindent="true">A. Couvreur, INF558a, “Introduction to cryptology”,
+25h, Ecole Polytechnique (M1).</p>
+              </li>
+              <li id="uid163">
+                <p noindent="true">A. Couvreur, “Introduction to coding theory and
+cryptology”, 10h, MPRI (M2), Paris.</p>
+              </li>
+              <li id="uid164">
+                <p noindent="true">B. Smith supervised Nagarjun Chinthamani
+Dwarakanath for a 3A project and an M1 project on
+efficient curve-based cryptosystems at École polytechnique</p>
+              </li>
+              <li id="uid165">
+                <p noindent="true">A. Couvreur supervised Evrim Petek's M2 internship
+on the power decoding algorithm.</p>
+              </li>
+              <li id="uid166">
+                <p noindent="true">A. Couvreur supervised Anas Aarab's M1 TRE (<i>Travail
+de Recherche Encadré</i>) on the decoding of Reed Solomon
+codes.</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Doctorat :</p>
+            <simplelist>
+              <li id="uid168">
+                <p noindent="true">Ben Smith made a lecture at the
+<ref xlink:href="https://ecole-c2-2016.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">spring school
+on coding
+and cryptology</ref> at La Chapelle-Gauthier.</p>
+              </li>
+            </simplelist>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid169" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid170">
+            <p noindent="true">PhD in progress. J. Lavauzelle has began his Ph.D. on locally
+decodable codes and cryptogra[hic applications, on October 1st,
+2015, under the supervision of D. Augot and F. Levy-dit-Vehel.</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">PhD in progress. E. Barelli has begun his PhD on
+Algebraic-Geometry codes for code-based crypto on October 1st, 2015,
+under the supervision of D. Augot and A. Couvreur.</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">PhD in progress. N. Duhamel has begun his PhD on genus 2 curves
+for cryptography, under the supervision of B. Smith and F. Morain.</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Completed PhD. P. Karpman, starting in 2013, defended in
+November 2016 his PhD on security of symmetric crytographic
+primitives.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid174" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid175">
+            <p noindent="true">D. Augot was examiner in the jury of Fanny Jardel, who defended her thesis “Calcul et Stockage Distribués pour les Réseaux de
+Communication”, January 11, Télécom-ParisTech</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">D. Augot was examiner in the jury of Cécile Pierrot, who defended her thesis “Le logarithme discret dans les corps finis”, November 25, Pierre and Marie Curie University.</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">F. Morain was referee and examiner in the jury of Alexandre
+WALLET, who defended his thesis “Le problème de décomposition
+de points dans les variétés jacobiennes”, December 14, Pierre and Marie Curie University.</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">A. Couvreur is member of the jury of the agrégation de mathématiques
+and coordinator of option C (“algèbre et calcul formel).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid179" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid180">
+          <p noindent="true">At the occasion of Nokia Bell Labs Future X-Days, September 2016, D. Augot,
+N. Coxon and F. Levy-dit-Vehel demoed N. Coxon's implementation of a code
+based <i>private information retrieval scheme</i></p>
+        </li>
+        <li id="uid181">
+          <p noindent="true">D. Augot made a two hours lecture on bitcoin to the French <i>institut des actuaires</i>.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="grace-2016-bid27" type="inproceedings" rend="refer" n="refercite:augot:hal-01044597">
+      <identifiant type="hal" value="hal-01044597"/>
+      <analytic>
+        <title level="a">Direct Construction of Recursive MDS Diffusion Layers using Shortened BCH Codes</title>
+        <author>
+          <persName key="grace-2014-idm29104">
+            <foreName>Daniel</foreName>
+            <surname>Augot</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Matthieu</foreName>
+            <surname>Finiasz</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Carlos</foreName>
+            <surname>Cid</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Rechberger</surname>
+            <initial>C.</initial>
+          </persName>
+        </editor>
+        <title level="m">21st International Workshop on Fast Software Encryption, FSE 2014</title>
+        <loc>London, United Kingdom</loc>
+        <imprint>
+          <publisher>
+            <orgName>springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01044597" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01044597</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid8" type="inproceedings" rend="refer" n="refercite:couvreur:hal-00937476">
+      <identifiant type="doi" value="10.1109/ISIT.2014.6875072"/>
+      <identifiant type="hal" value="hal-00937476"/>
+      <analytic>
+        <title level="a">A Polynomial Time Attack against Algebraic Geometry Code Based Public Key Cryptosystems</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Irene</foreName>
+            <surname>Márquez-Corbella</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Ruud</foreName>
+            <surname>Pellikaan</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Information Theory (ISIT), 2014 IEEE International Symposium on</title>
+        <loc>Honolulu, United States</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">1446-1450</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00937476" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00937476</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid6" type="inproceedings" rend="refer" n="refercite:couvreur:hal-00931774">
+      <identifiant type="hal" value="hal-00931774"/>
+      <analytic>
+        <title level="a">Polynomial Time Attack on Wild McEliece Over Quadratic Extensions</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">EUROCRYPT 2014</title>
+        <loc>Copenhagen, Denmark</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">17-39</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00931774" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00931774</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid31" type="article" rend="refer" n="refercite:lebacque:hal-01081468">
+      <identifiant type="hal" value="hal-01081468"/>
+      <analytic>
+        <title level="a">On the Number of Rational Points of Jacobians over Finite Fields</title>
+        <author>
+          <persName key="grace-2014-idm26384">
+            <foreName>Philippe</foreName>
+            <surname>Lebacque</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexey</foreName>
+            <surname>Zykin</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Acta Arith.</title>
+        <imprint>
+          <biblScope type="volume">169</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">373–384</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01081468" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01081468</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid29" type="article" rend="refer" n="refercite:Morain07">
+      <analytic>
+        <title level="a">Implementing the asymptotically fast version of the elliptic curve primality proving algorithm</title>
+        <author>
+          <persName key="grace-2014-idp66896">
+            <foreName>François</foreName>
+            <surname>Morain</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Math. Comp.</title>
+        <imprint>
+          <biblScope type="volume">76</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">493–505</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid28" type="article" rend="refer" n="refercite:Smith09JCrypt">
+      <analytic>
+        <title level="a">Isogenies and the discrete logarithm problem in Jacobians of genus 3 hyperelliptic curves</title>
+        <author>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">J. of Cryptology</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">505-529</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid30" type="inproceedings" rend="refer" n="refercite:smith:hal-00825287">
+      <identifiant type="doi" value="10.1007/978-3-642-42033-7_4"/>
+      <identifiant type="hal" value="hal-00825287"/>
+      <analytic>
+        <title level="a">Families of fast elliptic curves from Q-curves</title>
+        <author>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Kazue</foreName>
+            <surname>Sako</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Palash</foreName>
+            <surname>Sarkar</surname>
+            <initial>P.</initial>
+          </persName>
+        </editor>
+        <title level="m">Advances in Cryptology - ASIACRYPT 2013</title>
+        <loc>Bangalore, India</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">8269</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">61-78</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00825287" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00825287</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid26" type="article" rend="year" n="cite:couvreur:hal-01069510">
+      <identifiant type="hal" value="hal-01069510"/>
+      <analytic>
+        <title level="a">An upper bound on the number of rational points of arbitrary projective varieties over finite fields</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01614">
+        <idno type="issn">0002-9939</idno>
+        <title level="j">Proceedings of the American Mathematical Society</title>
+        <imprint>
+          <biblScope type="volume">144</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3671-3685</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01069510" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01069510</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid7" type="article" rend="year" n="cite:couvreur:hal-01426775">
+      <identifiant type="doi" value="10.1109/TIT.2016.2574841"/>
+      <identifiant type="hal" value="hal-01426775"/>
+      <analytic>
+        <title level="a">Polynomial Time Attack on Wild McEliece Over Quadratic Extensions</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00734">
+        <idno type="issn">0018-9448</idno>
+        <title level="j">IEEE Transactions on Information Theory</title>
+        <imprint>
+          <biblScope type="volume">63</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">404 - 427</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01426775" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01426775</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid12" type="incollection" rend="year" n="cite:guillevic:hal-01420485">
+      <identifiant type="hal" value="hal-01420485"/>
+      <analytic>
+        <title level="a">Discrete Logarithms</title>
+        <author>
+          <persName key="grace-2014-idp70824">
+            <foreName>Aurore</foreName>
+            <surname>Guillevic</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="grace-2014-idp66896">
+            <foreName>François</foreName>
+            <surname>Morain</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Nadia El</foreName>
+            <surname>Mrabet</surname>
+            <initial>N. E.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Joye</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">Guide to pairing-based cryptography</title>
+        <imprint>
+          <publisher>
+            <orgName>CRC Press - Taylor and Francis Group</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">42</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01420485" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01420485</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid2" type="article" rend="year" n="cite:morain:hal-01320388">
+      <identifiant type="doi" value="10.1112/S1461157016000267"/>
+      <identifiant type="hal" value="hal-01320388"/>
+      <analytic>
+        <title level="a">Computing cardinalities of Q-curve reductions over finite fields</title>
+        <author>
+          <persName key="grace-2014-idp66896">
+            <foreName>François</foreName>
+            <surname>Morain</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="grace-2014-idp90888">
+            <foreName>Charlotte</foreName>
+            <surname>Scribot</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02257">
+        <idno type="issn">1461-1570</idno>
+        <title level="j">LMS Journal of Computation and Mathematics</title>
+        <imprint>
+          <biblScope type="volume">19</biblScope>
+          <biblScope type="number">A</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">15</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01320388" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01320388</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid24" type="article" rend="year" n="cite:smith:hal-01064255">
+      <identifiant type="doi" value="10.1007/s00145-015-9210-8"/>
+      <identifiant type="hal" value="hal-01064255"/>
+      <analytic>
+        <title level="a">The Q-curve construction for endomorphism-accelerated elliptic curves</title>
+        <author>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01113">
+        <idno type="issn">0933-2790</idno>
+        <title level="j">Journal of Cryptology</title>
+        <imprint>
+          <biblScope type="volume">29</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">27</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01064255" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01064255</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid23" type="inproceedings" rend="year" n="cite:fouque:hal-01427810">
+      <identifiant type="doi" value="10.1007/978-3-662-53887-6_6"/>
+      <identifiant type="hal" value="hal-01427810"/>
+      <analytic>
+        <title level="a">Efficient and Provable White-Box Primitives</title>
+        <author>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Fouque</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="grace-2014-idp83296">
+            <foreName>Pierre</foreName>
+            <surname>Karpman</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Kirchner</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Brice</foreName>
+            <surname>Minaud</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ASIACRYPT 2016</title>
+        <loc>HANOI, Vietnam</loc>
+        <title level="s">Advances in Cryptology - ASIACRYPT 2016 - 22nd International Conference on the Theory and Application of Cryptology and Information Security</title>
+        <imprint>
+          <biblScope type="volume">LNCS 10031</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">159 - 188</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01427810" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01427810</ref>
+        </imprint>
+        <meeting id="cid305389">
+          <title>International Conference on the Theory and Application of Cryptology and Information</title>
+          <num>22</num>
+          <abbr type="sigle">ASIACRYPT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid16" type="inproceedings" rend="year" n="cite:fouque:hal-01421044">
+      <identifiant type="doi" value="10.1007/978-3-662-53887-6_6"/>
+      <identifiant type="hal" value="hal-01421044"/>
+      <analytic>
+        <title level="a">Efficient and Provable White-Box Primitives</title>
+        <author>
+          <persName>
+            <foreName>Pierre-Alain</foreName>
+            <surname>Fouque</surname>
+            <initial>P.-A.</initial>
+          </persName>
+          <persName key="grace-2014-idp83296">
+            <foreName>Pierre</foreName>
+            <surname>Karpman</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Kirchner</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Brice</foreName>
+            <surname>Minaud</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ASIACRYPT</title>
+        <loc>Hanoï, Vietnam</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421044" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421044</ref>
+        </imprint>
+        <meeting id="cid305389">
+          <title>International Conference on the Theory and Application of Cryptology and Information</title>
+          <num>17</num>
+          <abbr type="sigle">ASIACRYPT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="grace-2016-bid13" type="inproceedings" rend="year" n="cite:guillevic:hal-01320496">
+      <identifiant type="hal" value="hal-01320496"/>
+      <analytic>
+        <title level="a">Solving discrete logarithms on a 170-bit MNT curve by pairing reduction</title>
+        <author>
+          <persName key="grace-2014-idp70824">
+            <foreName>Aurore</foreName>
+            <surname>Guillevic</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="grace-2014-idp66896">
+            <foreName>François</foreName>
+            <surname>Morain</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="caramel-2014-idp66832">
+            <foreName>Emmanuel</foreName>
+            <surname>Thomé</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Avanzi</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Howard</foreName>
+            <surname>Heys</surname>
+            <initial>H.</initial>
+          </persName>
+        </editor>
+        <title level="m">Selected Areas in Cryptography 2016</title>
+        <loc>St. John's, Canada</loc>
+        <title level="s">Selected Areas in Cryptography 2016</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01320496" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01320496</ref>
+        </imprint>
+        <meeting id="cid35128">
+          <title>Annual Workshop on Selected Areas in Cryptography</title>
+          <num>23</num>
+          <abbr type="sigle">SACR</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">to appear in the Lecture Notes in Computer Science (LNCS)</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid18" type="inproceedings" rend="year" n="cite:lavauzelle:hal-01413159">
+      <identifiant type="doi" value="10.1109/ISIT.2016.7541611"/>
+      <identifiant type="hal" value="hal-01413159"/>
+      <analytic>
+        <title level="a">New proofs of retrievability using locally decodable codes</title>
+        <author>
+          <persName key="grace-2014-idp84512">
+            <foreName>Julien</foreName>
+            <surname>Lavauzelle</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="grace-2014-idp85768">
+            <foreName>Françoise</foreName>
+            <surname>Levy-Dit-Vehel</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Symposium on Information Theory ISIT 2016</title>
+        <loc>Barcelona, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1809 - 1813</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01413159" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01413159</ref>
+        </imprint>
+        <meeting id="cid89373">
+          <title>IEEE International Symposium on Information Theory</title>
+          <num>2016</num>
+          <abbr type="sigle">ISIT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid0" type="inproceedings" rend="year" n="cite:renes:hal-01300727">
+      <identifiant type="doi" value="10.1007/978-3-662-53140-2_15"/>
+      <identifiant type="hal" value="hal-01300727"/>
+      <analytic>
+        <title level="a"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>μ</mi></math></formula>Kummer: efficient hyperelliptic signatures and key exchange on microcontrollers</title>
+        <author>
+          <persName>
+            <foreName>Joost</foreName>
+            <surname>Renes</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Peter</foreName>
+            <surname>Schwabe</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Lejla</foreName>
+            <surname>Batina</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Cryptographic Hardware and Embedded Systems – CHES 2016</title>
+        <loc>Santa Barbara, United States</loc>
+        <title level="s">Cryptographic Hardware and Embedded Systems – CHES 2016</title>
+        <imprint>
+          <biblScope type="volume">9813</biblScope>
+          <publisher>
+            <orgName>Springer-Verlag</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">IACR</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">20</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01300727" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01300727</ref>
+        </imprint>
+        <meeting id="cid375810">
+          <title>Workshop on Cryptographic Hardware and Embedded Systems</title>
+          <num>18</num>
+          <abbr type="sigle">CHES</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid14" type="inproceedings" rend="year" n="cite:stevens:hal-01251023">
+      <identifiant type="doi" value="10.1007/978-3-662-49890-3_18"/>
+      <identifiant type="hal" value="hal-01251023"/>
+      <analytic>
+        <title level="a">Freestart Collision for Full SHA-1</title>
+        <author>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Stevens</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="grace-2014-idp83296">
+            <foreName>Pierre</foreName>
+            <surname>Karpman</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="secret-2016-idp190992">
+            <foreName>Thomas</foreName>
+            <surname>Peyrin</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EUROCRYPT 2016</title>
+        <loc>Vienne, Austria</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IACR</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01251023" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01251023</ref>
+        </imprint>
+        <meeting id="cid32774">
+          <title>Annual International Conference on the Theory and Applications of Cryptographic Techniques</title>
+          <num>35</num>
+          <abbr type="sigle">EUROCRYPT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid25" type="unpublished" rend="year" n="cite:ballentine:hal-01421031">
+      <identifiant type="hal" value="hal-01421031"/>
+      <monogr>
+        <title level="m">Isogenies for point counting on genus two hyperelliptic curves with maximal real multiplication</title>
+        <author>
+          <persName>
+            <foreName>Sean</foreName>
+            <surname>Ballentine</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="grace-2014-idp70824">
+            <foreName>Aurore</foreName>
+            <surname>Guillevic</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Elisa</foreName>
+            <surname>Lorenzo García</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="lfant-2014-idp86472">
+            <foreName>Chloe</foreName>
+            <surname>Martindale</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="caramel-2014-idp75936">
+            <foreName>Maike</foreName>
+            <surname>Massierer</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Jaap</foreName>
+            <surname>Top</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01421031" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421031</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid22" type="unpublished" rend="year" n="cite:chung:hal-01353480">
+      <identifiant type="hal" value="hal-01353480"/>
+      <monogr>
+        <title level="m">Fast, uniform scalar multiplication for genus 2 Jacobians with fast Kummers</title>
+        <author>
+          <persName>
+            <foreName>Ping Ngai</foreName>
+            <surname>Chung</surname>
+            <initial>P. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Craig</foreName>
+            <surname>Costello</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01353480" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353480</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid10" type="unpublished" rend="year" n="cite:couvreur:hal-01280927">
+      <identifiant type="hal" value="hal-01280927"/>
+      <monogr>
+        <title level="m">Cryptanalysis of McEliece Cryptosystem Based on Algebraic Geometry Codes and their subcodes</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Irene</foreName>
+            <surname>Márquez-Corbella</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Ruud</foreName>
+            <surname>Pellikaan</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01280927" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01280927</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid1" type="unpublished" rend="year" n="cite:grosshans:hal-01229587">
+      <identifiant type="hal" value="hal-01229587"/>
+      <monogr>
+        <title level="m">Factoring Safe Semiprimes with a Single Quantum Query</title>
+        <author>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>Grosshans</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Lawson</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="grace-2014-idm25056">
+            <foreName>Benjamin</foreName>
+            <surname>Smith</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="grace-2014-idp66896">
+            <foreName>François</foreName>
+            <surname>Morain</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01229587" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01229587</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid15" type="unpublished" rend="year" n="cite:karpman:hal-01263735">
+      <identifiant type="hal" value="hal-01263735"/>
+      <monogr>
+        <title level="m">Exercice de style</title>
+        <author>
+          <persName key="grace-2014-idp83296">
+            <foreName>Pierre</foreName>
+            <surname>Karpman</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01263735" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01263735</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid11" type="unpublished" rend="foot" n="footcite:couvreur:hal-01248760">
+      <identifiant type="hal" value="hal-01248760"/>
+      <monogr>
+        <title level="m">On tensor products of CSS Codes</title>
+        <author>
+          <persName>
+            <foreName>Benjamin</foreName>
+            <surname>Audoux</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01248760" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01248760</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid20" type="inproceedings" rend="foot" n="footcite:Cohn-Heninger:ICS2011">
+      <analytic>
+        <title level="a">Ideal forms of Coppersmith's theorem and Guruswami-Sudan list decoding</title>
+        <author>
+          <persName>
+            <foreName>Henry</foreName>
+            <surname>Cohn</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Nadia</foreName>
+            <surname>Heninger</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Bernard</foreName>
+            <surname>Chazelle</surname>
+            <initial>B.</initial>
+          </persName>
+        </editor>
+        <title level="m">Innovations in Computer Science - ICS 2010, Tsinghua University, Beijing, China, January 7-9, 2011. Proceedings</title>
+        <imprint>
+          <publisher>
+            <orgName>Tsinghua University Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">298-308</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid5" type="article" rend="foot" n="footcite:couvreur:hal-01096172">
+      <identifiant type="doi" value="10.1007/s10623-014-9967-z"/>
+      <identifiant type="hal" value="hal-01096172"/>
+      <analytic>
+        <title level="a">Distinguisher-based attacks on public-key cryptosystems using Reed-Solomon codes</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Gaborit</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Valérie</foreName>
+            <surname>Gauthier-Umana</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Designs, Codes and Cryptography</title>
+        <imprint>
+          <biblScope type="volume">73</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">641-666</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01096172" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01096172</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid9" type="inproceedings" rend="foot" n="footcite:couvreur:hal-01069272">
+      <identifiant type="hal" value="hal-01069272"/>
+      <analytic>
+        <title level="a">Cryptanalysis of public-key cryptosystems that use subcodes of algebraic geometry codes</title>
+        <author>
+          <persName key="grace-2014-idm27624">
+            <foreName>Alain</foreName>
+            <surname>Couvreur</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Irene</foreName>
+            <surname>Márquez-Corbella</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Ruud</foreName>
+            <surname>Pellikaan</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">4th ICMCTA - Fourth International Castle Meeting on Coding Theory and Applications</title>
+        <loc>Palmela, Portugal</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01069272" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01069272</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid21" type="article" rend="foot" n="footcite:Duursma99">
+      <identifiant type="doi" value="10.1090/S0002-9947-99-02179-0"/>
+      <analytic>
+        <title level="a">Weight distributions of geometric Goppa codes</title>
+        <author>
+          <persName>
+            <foreName>Iwan M.</foreName>
+            <surname>Duursma</surname>
+            <initial>I. M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Trans. Amer. Math. Soc.</title>
+        <imprint>
+          <biblScope type="volume">351</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+          <biblScope type="pages">3609–3639</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1090/S0002-9947-99-02179-0" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1090/<allowbreak/>S0002-9947-99-02179-0</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid19" type="article" rend="foot" n="footcite:FOPfolding2016">
+      <analytic>
+        <title level="a">Folding alternant and Goppa codes with non-trivial automorphism groups</title>
+        <author>
+          <persName key="polsys-2014-idm27936">
+            <foreName>Jean-Charles</foreName>
+            <surname>Faugere</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>Ayoub</foreName>
+            <surname>Otmani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="polsys-2014-idp70968">
+            <foreName>Ludovic</foreName>
+            <surname>Perret</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Frédéric</foreName>
+            <surname>De Portzamparc</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="secret-2014-idp69320">
+            <foreName>Jean-Pierre</foreName>
+            <surname>Tillich</surname>
+            <initial>J.-P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Information Theory</title>
+        <imprint>
+          <biblScope type="volume">62</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">184–198</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid17" type="inproceedings" rend="foot" n="footcite:GuoKS13">
+      <identifiant type="doi" value="10.1145/2422436.2422494"/>
+      <analytic>
+        <title level="a">New Affine-invariant Codes from Lifting</title>
+        <author>
+          <persName>
+            <foreName>Alan</foreName>
+            <surname>Guo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Swastik</foreName>
+            <surname>Kopparty</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Madhu</foreName>
+            <surname>Sudan</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 4th Conference on Innovations in Theoretical Computer Science</title>
+        <loc>New York, NY, USA</loc>
+        <title level="s">ITCS '13</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">529–540</biblScope>
+          <ref xlink:href="http://doi.acm.org/10.1145/2422436.2422494" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>doi.<allowbreak/>acm.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>2422436.<allowbreak/>2422494</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid3" type="inbook" rend="foot" n="footcite:McE78">
+      <analytic>
+        <author>
+          <persName>
+            <foreName>R. J.</foreName>
+            <surname>McEliece</surname>
+            <initial>R. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">A Public-Key System Based on Algebraic Coding Theory</title>
+        <imprint>
+          <publisher>
+            <orgName>Jet Propulsion Lab</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1978</year>
+          </dateStruct>
+          <biblScope type="pages">114–116</biblScope>
+        </imprint>
+      </monogr>
+      <note type="bnote">DSN Progress Report 44</note>
+    </biblStruct>
+    
+    <biblStruct id="grace-2016-bid4" type="article" rend="foot" n="footcite:SidelShesta92">
+      <analytic>
+        <title level="a">On the insecurity of cryptosystems based on generalized Reed-Solomon codes</title>
+        <author>
+          <persName>
+            <foreName>V.M.</foreName>
+            <surname>Sidelnikov</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>S.O.</foreName>
+            <surname>Shestakov</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Discrete Math. Appl.</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">439-444</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

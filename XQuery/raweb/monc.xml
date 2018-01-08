@@ -1,0 +1,2383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="monc" isproject="true">
+    <shortname>MONC</shortname>
+    <projectName>Mathematical modeling for Oncology</projectName>
+    <theme-de-recherche>Modeling and Control for Life Sciences</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/monc/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Institut de Mathématiques de Bordeaux (IMB)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Institut Polytechnique de Bordeaux</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2015 January 01, updated into Project-Team: 2016 November 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>6.3. - Computation-data interaction</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>6.3.2. - Data assimilation</term>
+      <term>6.3.3. - Data processing</term>
+      <term>6.3.4. - Model reduction</term>
+      <term>6.3.5. - Uncertainty Quantification</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.9. - Bioinformatics</term>
+      <term>1.1.10. - Mathematical biology</term>
+      <term>1.1.11. - Systems biology</term>
+      <term>1.4. - Pathologies</term>
+      <term>2.2.3. - Cancer</term>
+      <term>2.4.2. - Drug resistance</term>
+      <term>2.6.1. - Brain imaging</term>
+      <term>2.6.3. - Biological Imaging</term>
+    </keywordsSecteurs>
+    <UR name="Bordeaux"/>
+  </identification>
+  <team id="uid1">
+    <person key="mc2-2014-idp66576">
+      <firstname>Olivier</firstname>
+      <lastname>Saut</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Team leader, CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="mc2-2014-idm27840">
+      <firstname>Sebastien</firstname>
+      <lastname>Benzekry</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="mc2-2014-idp65160">
+      <firstname>Clair</firstname>
+      <lastname>Poignard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="mc2-2014-idm29272">
+      <firstname>Thierry</firstname>
+      <lastname>Colin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Bordeaux INP, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="m3disim-2014-idp68688">
+      <firstname>Annabelle</firstname>
+      <lastname>Collin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Bordeaux INP, Associate Professor</moreinfo>
+    </person>
+    <person key="mc2-2014-idp77128">
+      <firstname>Marie</firstname>
+      <lastname>Martin</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="cardamom-2015-idp87304">
+      <firstname>Jean</firstname>
+      <lastname>Mercat</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="mc2-2014-idp85872">
+      <firstname>Perrine</firstname>
+      <lastname>Berment</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, until Oct 2016</moreinfo>
+    </person>
+    <person key="monc-2016-idp160288">
+      <firstname>Sergio</firstname>
+      <lastname>Corridore</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, from Nov 2016</moreinfo>
+    </person>
+    <person key="mc2-2014-idp87120">
+      <firstname>Manon</firstname>
+      <lastname>Deville</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux</moreinfo>
+    </person>
+    <person key="monc-2016-idp165200">
+      <firstname>Olivier</firstname>
+      <lastname>Gallinato-Contino</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="monc-2015-idp77024">
+      <firstname>Thibaut</firstname>
+      <lastname>Kritter</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux</moreinfo>
+    </person>
+    <person key="mc2-2014-idp93272">
+      <firstname>Thomas</firstname>
+      <lastname>Michel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux, until Nov 2016</moreinfo>
+    </person>
+    <person key="monc-2016-idp172544">
+      <firstname>Chiara</firstname>
+      <lastname>Nicolo</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, from Oct 2016</moreinfo>
+    </person>
+    <person key="mc2-2014-idp94488">
+      <firstname>Agathe</firstname>
+      <lastname>Peretti</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux</moreinfo>
+    </person>
+    <person key="mc2-2014-idp78384">
+      <firstname>Cynthia</firstname>
+      <lastname>Perier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Bordeaux</moreinfo>
+    </person>
+    <person key="monc-2015-idp81928">
+      <firstname>Guillaume</firstname>
+      <lastname>Dechriste</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="manao-2014-idp122736">
+      <firstname>Boris</firstname>
+      <lastname>Raymond</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="cagire-2014-idp69224">
+      <firstname>Sylvie</firstname>
+      <lastname>Embolla</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="monc-2016-idp187296">
+      <firstname>Mikaël</firstname>
+      <lastname>Antoine</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Institut Bergonié, Radiotherapy Physician, from Nov 2016</moreinfo>
+    </person>
+    <person key="mc2-2014-idp84624">
+      <firstname>Etienne</firstname>
+      <lastname>Baratchart</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, until Jul 2016</moreinfo>
+    </person>
+    <person key="mc2-2014-idp104424">
+      <firstname>Francois</firstname>
+      <lastname>Cornelis</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>APHP, Radiologist</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="monc-2016-idp195136">
+      <firstname>Laura</firstname>
+      <lastname>Lumale</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Intern, from Jul 2016 until Sep 2016</moreinfo>
+    </person>
+    <person key="monc-2016-idp197632">
+      <firstname>Louise</firstname>
+      <lastname>Missenard</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Institut Bergonié, Medical Student, from Oct 2016</moreinfo>
+    </person>
+    <person key="mc2-2014-idp114400">
+      <firstname>Vivien</firstname>
+      <lastname>Pianet</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="monc-2016-idp202640">
+      <firstname>Claudia</firstname>
+      <lastname>Pouypoudat</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CHU Bordeaux, Medical Student</moreinfo>
+    </person>
+    <person key="mc2-2014-idp109352">
+      <firstname>Benjamin</firstname>
+      <lastname>Taton</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CHU Bordeaux, Medical Doctor</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Objectives</bodyTitle>
+      <p>The MONC project-team aims at developing new mathematical models built on partial differential equations and statistical methods and based on precise biological and medical knowledge. The goal is ultimately to be able to help clinicians and/or biologists to better understand, predict or control tumor growth and possibly evaluate the therapeutic response, in a clinical context or for pre-clinical studies through quantitative numerical tools. We develop patient-specific approaches (mainly based on medical images) as well as population-type approaches in order to take advantage of large databases. We claim that we can have a clinical impact that can change the way of handling certain pathologies.</p>
+      <p><i>In vivo</i> modeling of tumors is limited by the amount of information obtainable. However, recently, there have been dramatic increases in the scope and quality of patient-specific data from non-invasive imaging methods, so that several potentially valuable measurements are now available to quantitatively measure tumor growth, assess tumor status as well as anatomical or functional details. Using different techniques such as CT scan, magnetic resonance imaging (MRI), or positron emission tomography (PET), it is now possible to evaluate and define tumor status at different levels or scales: physiological, molecular and cellular.</p>
+      <p>In the meantime, the understanding of the biological mechanisms of tumor growth, including the influence of the micro-environment, has greatly increased and medical doctors now have access to a wide spectrum of therapies (surgery, mini-invasive techniques, radiotherapies, chemotherapies, targeted therapies...).</p>
+      <p>Our project aims at supporting the decision process of oncologists in the definition of therapeutic protocols via quantitative methods. The idea is to build phenomenological mathematical models based on data obtained in the clinical imaging routine like CT scans, MRIs and PET scans. We therefore want to offer medical doctors patient-specific tumor growth models, which are able to evaluate – on the basis of previously collected data and within the limits of phenomenological models – the time evolution of the pathology at subsequent times and the response to therapies. More precisely, our goal is to help clinicians answer the following questions thanks to our numerical tools:</p>
+      <orderedlist>
+        <li id="uid4">
+          <p noindent="true">When is it necessary to start a treatment?</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true">What is the best time to change a treatment?</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true">When to stop a treatment?</p>
+        </li>
+      </orderedlist>
+      <p>In addition, we also intend to incorporate real-time model information for improving the accuracy and efficacy of non invasive or micro-invasive tumor ablation techniques like acoustic hyperthermia, electroporation, radio-frequency, cryo-ablation and of course radiotherapies.</p>
+      <p>There is therefore a critical need of integrating biological knowledge into mathematical models based on clinical or experimental data. The main purpose of our project is to create new mathematical models and new paradigms for data assimilation that are adapted to the biological nature of the disease and to the amount of multi-modal data available.
+</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>General strategy</bodyTitle>
+      <object id="uid8">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/ImageMeningiome2.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3D numerical simulation of a meningioma. The tumor is shown in red.</caption>
+      </object>
+      <object id="uid9">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/poumon2.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3D numerical simulation of a lung tumor. The tumor is shown in yellow.</caption>
+      </object>
+      <p>The general strategy consists of the interactions of several stages:</p>
+      <simplelist>
+        <li id="uid10">
+          <p noindent="true"><em style="UNDERLINE">Stage 1:</em>  <i>Derivation of mechanistic models based on the biological knowledge and the available observations.</i> The construction of such models relies on the up-to-date biological knowledge at the cellular level including description of the cell-cycle, interaction with the microenvironement (angiogenesis, interaction with the stroma). Such models also include a "macroscopic" description of specific molecular pathways that are known to have a critical role in carcinogenesis or that are targeted by new drugs. We emphasize that for this purpose, close interactions with biologists are crucial. Lots of works devoted to modeling at the cellular level are available in the literature. However, in order to be able to use
+these models in a clinical context, the tumor is also to be described at the tissue level. The <i>in vitro</i> mechanical characterization of tumor tissues has been widely studied. Yet no description that could be patient specific or even tumor specific is available. It is therefore necessary to build adapted phenomenological models, according to the biological and clinical reality.</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true"><em style="UNDERLINE">Stage 2:</em>  <i>Data collection.</i> In the clinical context, data may come from medical imaging (MRI, CT-Scan, PET scan) at different time points. It is also a crucial point: we need longitudinal data in time in order to be able to understand the time course of the disease. The data may also be obtained from analyses of blood samples or biopsies. A close collaboration with clinicians is required for selecting the specific cases to focus on, the understanding of the key points and of the key data, the classification of the grades of the tumors, the understanding of the treatment, ...In the preclinical context, data may for instance be macroscopic measurements of the tumor volume for subcutaneous cases, green fluorescence protein (GFP) quantifications for total number of living cells, non-invasive bioluminescence signals or even imaging obtained with devices adapted to small animals.</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true"><em style="UNDERLINE">Stage 3:</em>  <i>Adaptation of the model to data.</i> The model has to be adapted to the data: it is useless to have a model taking many biological features of the disease into account if it cannot be reliably parameterized with available data. For example, very detailed descriptions of the angiogenesis process found in the literature cannot be used, as they have too much parameters to determine for the information available. A pragmatic approach has to be developed for this purpose. On the other hand, one has to try to model any element that can be useful to exploit the image. Parameterizing must be performed carefully in order to achieve an optimal trade-off between the accuracy of the model, its complexity, identifiability and predictive power. Parameter estimation is a critical issue in mathematical biology: if there are too many parameters, it will be impossible to estimate them but if the model is too simple, it will be too far from reality.</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true"><em style="UNDERLINE">Stage 4:</em>  <i>Data assimilation.</i> Due to the complexity of the data - for example multimodal, longitudinal medical imaging - data assimilation is a major challenge. Such a process is a combination of methods for solving inverse problems and statistical methods including machine learning strategies. Presently, most of the inverse problems - developed in the team - are solved using a gradient method coupled with some Monte-Carlo type algorithm. More efficient methods could be used as for example the sequential methods, <i>i.e.</i> the Kalman type filters or the so-called Luenberger filter (nudging). Using sequential methods can also simplify Stage 3 because they can be used even with complex models. Of course, the strategy used by the team depends on the quantity and the quality of data. It is not the same if we have an homogeneous population of cases or if it is a very specific isolated case.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true"><em style="UNDERLINE">Stage 4':</em><i>Data assimilation of gene expression.</i> "Omics" data become more and more important in oncology and we aim at developing our models using this information as well. For example, in our work on GIST <ref xlink:href="#monc-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we have taken the effect of a Ckit mutation on resistance to treatment into account. However, it is still not clear how to use in general gene expression data in our macroscopic models, and particularly how to connect the genotype to the phenotype and the macroscopic growth. We expect to use statistical learning techniques on populations of patients in order to move towards this direction, but we emphasize that this task is very prospective and is a scientific challenge in itself.</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true"><em style="UNDERLINE">Stage 5:</em>  <i>Simulation and prediction</i>. Once the models have been parametrized, the simulation part can be done. We also need to include a quantification of uncertainties and to produce 3D simulations that can be confronted to reality.</p>
+        </li>
+      </simplelist>
+      <object id="uid16">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/strategy.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>General strategy of the team to build meaningful models in oncology.</caption>
+      </object>
+    </subsection>
+  </presentation>
+  <fondements id="uid17">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>Our research on mathematical oncology is three-fold:</p>
+      <simplelist>
+        <li id="uid19">
+          <p noindent="true"><em style="UNDERLINE">Axis 1:</em> Tumor modeling for patient-specific simulations.</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true"><em style="UNDERLINE">Axis 2:</em> Bio-physical modeling for personalized therapies.</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true"><em style="UNDERLINE">Axis 3:</em> Quantitative cancer modeling for biological and preclinical studies.</p>
+        </li>
+      </simplelist>
+      <p>In the first axis, we aim at producing patient-specific simulations of the growth of a tumor or its response to treatment starting from a series of images. We hope to be able to offer a valuable insight on the disease to the clinicians in order to improve the decision process. This would be particularly useful in the cases of relapses or for metastatic diseases.</p>
+      <p>The second axis aims at modeling biophysical therapies like radiotherapies, but also thermo-ablations, radio-frequency ablations or electroporation that play a crucial role in the case of a relapse or for a metastatic disease, which is precisely the clinical context where the techniques of axis 1 will be applied.</p>
+      <p>The third axis, even if not directly linked to clinical perspectives, is essential since it is a way to better understand and model the biological reality of cancer growth and the (possibly complex) effects of therapeutic intervention. Modeling in this case also helps to interpret the experimental results and improve the accuracy of the models used in Axis 1. Technically speaking, some of the computing tools are similar to those of Axis 1.</p>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Axis 1: Tumor modeling for patient-specific simulations</bodyTitle>
+      <p>The gold standard treatment for most cancers is surgery. In the case where total resection of the tumor is possible, the patient often benefits from an adjuvant therapy (radiotherapy, chemotherapy, targeted therapy or a combination of them) in order to eliminate the potentially remaining cells that may not be visible. In this case personalized modeling of tumor growth is useless and statistical modeling will be able to quantify the risk of relapse, the mean progression-free survival time...However if total resection is not possible or if metastases emerge from distant sites, clinicians will try to control the disease for as long as possible. A wide set of tools are available. Clinicians may treat the disease by physical interventions (radiofrequency ablation, cryoablation, radiotherapy, electroporation, focalized ultrasound,...) or chemical agents (chemotherapies, targeted therapies, antiangiogenic drugs, immunotherapies, hormonotherapies). One can also decide to monitor the patient without any treatment (this is the case for slowly growing tumors like some metastases to the lung, some lymphomas or for some low grade glioma). A reliable patient-specific model of tumor evolution with or without therapy may have different uses:</p>
+      <simplelist>
+        <li id="uid23">
+          <p noindent="true"><em style="UNDERLINE">Case without treatment:</em> the evaluation of the growth of the tumor would offer a useful indication for the time at which the tumor will reach a critical size. For example, radiofrequency ablation of pulmonary lesion is
+very efficient as long as the diameter of the lesion is smaller than 3 cm. Thus, the prediction can help the clinician plan the intervention. For slowly growing tumors, quantitative modeling can also help to decide at what time interval the patient has to undergo a CT-scan. CT-scans are irradiative exams and there is a challenge for decreasing their occurrence for each patient. It has also an economical impact. And if the disease evolution starts to differ
+from the forecast, this might mean that some events have occurred at the biological level. For instance, it could be the rise of an aggressive phenotype or cells that leave a dormancy state. This kind of events cannot be predicted, but some mismatch with respect to the prediction can be an indirect proof of their existence. It could be an indication for the clinician to start a treatment.</p>
+        </li>
+        <li id="uid24">
+          <p noindent="true"><em style="UNDERLINE">Case with treatment:</em> a model can help to understand and to quantify the final outcome of a treatment using the early response. It can help for a redefinition of the treatment planning. Modeling can also help to anticipate the relapse by analyzing some functional aspects of the tumor. Again, a deviation with respect to reference curves can mean a lack of efficiency of the therapy or a relapse. Moreover, for a long time, the response to a treatment has been quantified by the RECIST criteria which consists in
+(roughly speaking) measuring the diameters of the largest tumor of the patient, as it is seen on a CT-scan. This criteria is still widely used and was quite efficient for chemotherapies and radiotherapies that induce a decrease of the size of the lesion. However, with the systematic use of targeted therapies and anti-angiogenic drugs that modify the physiology of the tumor, the size may remain unchanged even if the drug is efficient and deeply modifies the tumor behavior. One better way to estimate this effect could be to use functional imaging (Pet-scan, perfusion or diffusion MRI, ...), a model can then be used to exploit the data and to understand in what extent the therapy is efficient.</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true"><em style="UNDERLINE">Optimization:</em> currently, we do not believe that we can optimize a particular treatment in terms of distribution of doses, number, planning with the model that we will develop in a medium term perspective. But it is an aspect that we keep in mind on a long term one.</p>
+        </li>
+      </simplelist>
+      <p>The scientific challenge is therefore as follows: knowing the history of the patient, the nature of the primitive tumor, its histopathology, knowing the treatments that patients have undergone, knowing some biological facts on the tumor and having a sequence of images (CT-scan, MRI, PET or a mix of them), are we able to provide a numerical simulation of the extension of the tumor and of its metabolism that fits as best as possible with the data (CT-scans or functional data) and that is predictive in order to address the clinical cases described above?</p>
+      <p>Our approach relies on the elaboration of PDE models and their parametrization with the image by coupling deterministic and stochastic methods. The PDE models rely on the description of the dynamics of cell populations. The number of populations depends on the pathology. For example, for glioblastoma, one needs to use proliferative cells, invasive cells, quiescent cells as well as necrotic tissues to be able to reproduce realistic behaviors of the disease. In order to describe the relapse for hepatic metastases of gastro-intestinal stromal tumor (gist), one needs three cell populations: proliferative cells, healthy tissue and necrotic tissue.</p>
+      <p>The law of proliferation is often coupled with a model for the angiogenesis. However such models of angiogenesis involve too many non measurable parameters to be used with real clinical data and therefore one has to use simplified or even simplistic versions. The law of proliferation often mimics the existence of an hypoxia threshold, it consists of an O.D.E. or a P.D.E that describes the evolution of the growth rate as a combination of sigmoid functions of nutrients or roughly speaking oxygen concentration. Usually, several laws are available for a given pathology since at this level, there are no quantitative argument to choose a particular one.</p>
+      <p>The velocity of the tumor growth differs depending on the nature of the tumor. For metastases, we will derive the velocity thanks to Darcy's law in order to express that the extension of the tumor is basically due to the increase of volume. This gives a sharp interface between the metastasis and the surrounding healthy tissues, as observed by anatomopathologists. For primitive tumors like glioma or lung cancer, we use reaction-diffusion equations in order to describe the invasive aspects of such primitive tumors.</p>
+      <p>The modeling of the drugs depends on the nature of the drug: for chemotherapies, a death term can be added into the equations of the population of cells, while antiangiogenic drugs have to be introduced in a angiogenic model. Resistance to treatment can be described either by several populations of cells or with non-constant growth or death rates. As said before, it is still currently difficult to model the changes of phenotype or mutations, we therefore propose to investigate this kind of phenomena by looking at deviations of the numerical simulations compared to the medical observations.</p>
+      <p>The calibration of the model is achieved by using a series (at least 2) of images of the same patient and by minimizing a cost function. The cost function contains at least the difference between the volume of the tumor that is measured on the images with the computed one. It also contains elements on the geometry, on the necrosis and any information that can be obtained through the medical images. We will pay special attention to functional imaging (PET, perfusion and diffusion MRI). The inverse problem is solved using a gradient method coupled with some Monte-Carlo type algorithm. If a large number of similar cases is available, one can imagine to use statistical algorithms like random forests to use some non quantitative data like the gender, the age, the origin of the primitive tumor...for example for choosing the model for the growth rate for a patient using this population knowledge (and then to fully adapt the model to the patient by calibrating this particular model on patient data) or for having a better initial estimation of the modeling parameters. We have obtained several preliminary results concerning lung metastases including treatments and for metastases to the liver.</p>
+      <object id="uid26">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/prediction_meningioma.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Plot showing the accuracy of our prediction on meningioma volume. Each point corresponds to a patient whose two first exams were used to calibrate our model. A patient-specific prediction was made with this calibrated model and compared with the actual volume as measured on a third time by clinicians. A perfect prediction would be on the black dashed line. Medical data was obtained from Prof. Loiseau, CHU Pellegrin.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Axis 2: Bio-physical modeling for personalized therapies</bodyTitle>
+      <p>In this axis, we investigate locoregional therapies such as radiotherapy, irreversible electroporation.
+Electroporation consists in increasing the membrane permeability of cells by the delivery of high voltage pulses. This non-thermal phenomenon can be transient (reversible) or irreversible (IRE). IRE or
+electro-chemotherapy – which is a combination of reversible electroporation with a cytotoxic drug – are essential tools for the treatment of a metastatic disease. Numerical modeling of these therapies is a clear scientific challenge.
+Clinical applications of the modeling are the main target, which thus drives the scientific approach, even though theoretical studies in order to improve the knowledge of the biological phenomena, in particular for electroporation, should also be addressed.
+However, this subject is quite wide and we focus on two particular approaches: some aspects of radiotherapies and electro-chemotherapy. This choice is motivated partly by pragmatic reasons: we already have collaborations with physicians on these
+therapies. Other treatments could be probably treated with the same approach, but we do not plan to work on this subject on a medium term.</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true"><em style="UNDERLINE">Radiotherapy (RT)</em> is a common therapy for cancer. Typically, using a CT scan of the patient with the structures of interest (tumor, organs at risk) delineated, the clinicians optimize the dose delivery to treat the tumor while preserving healthy tissues. The RT is then delivered every day using low resolution scans (CBCT) to position the beams. Under treatment the patient may lose weight and the tumor shrinks. These changes may affect the propagation of the beams and subsequently change the dose that is effectively delivered. It could be harmful for the patient especially if sensitive organs are concerned. In such cases, a replanification of the RT could be done to adjust the therapeutical protocol. Unfortunately, this process takes too much time to be performed routinely. The challenges faced by clinicians are numerous, we focus on two of them:</p>
+          <simplelist>
+            <li id="uid29">
+              <p noindent="true"><i>Detecting the need of replanification:</i> we are using the positioning scans to evaluate the movement and deformation of the various structures of interest. Thus we can detect whether or not a structure has
+moved out of the safe margins (fixed by clinicians) and thus if a replanification may be necessary. In a retrospective study, our work can also be used to determine RT margins when there are no standard ones. A collaboration with the RT department of Institut Bergonié is underway on the treatment of retroperitoneal sarcoma and ENT tumors (head and neck cancers). A retrospective study was performed on 11 patients with retro-peritoneal sarcoma. The results have shown that the safety margins (on the RT) that clinicians are currently using are probably not large enough. The tool used in this study was developed by an engineer funded by Inria (Cynthia Périer, ADT Sesar). We used well validated methods from a level-set approach and segmentation / registration methods. The originality and difficulty lie in the fact that we are dealing with real data in a clinical setup. Clinicians have currently no way to perform complex measurements with their clinical tools. This prevents them from investigating the replanification. Our work and the tools developed pave the way for easier studies on evaluation of RT plans in collaboration with Institut Bergonié. <i>There was no modeling involved in this work that arose during discussions with our collaborators.</i> The main purpose of the team is to have meaningful outcomes of our research for clinicians, sometimes it implies leaving a bit our area of expertise.</p>
+            </li>
+            <li id="uid30">
+              <p noindent="true"><i>Evaluating RT efficacy and finding correlation between the radiological responses and the clinical outcome:</i> our goal is to help doctors to identify correlation between the response to RT (as seen on images) and the longer term clinical outcome of the patient. Typically, we aim at helping them to decide when to plan the next exam after the RT. For patients whose response has been linked to worse prognosis, this exam would have to be planned earlier. This is the subject of collaborations with Institut Bergonié and CHU Bordeaux on different cancers (head and neck, pancreas). The response is evaluated from image markers (<i>e.g.</i> using texture information) or with a mathematical model developed in Axis 1.
+The other challenges are either out of reach or not in the domain of expertise of the team. Yet our works may tackle some important issues for adaptive radiotherapy.</p>
+            </li>
+          </simplelist>
+        </li>
+        <li id="uid31">
+          <p noindent="true"><em style="UNDERLINE">Both IRE and electrochemotherapy</em> are anticancerous treatments based on the same phenomenon: the electroporation of cell membranes. This phenomenon is known for a few decades but it is still not well understood, therefore our interest is two fold:</p>
+          <orderedlist>
+            <li id="uid32">
+              <p noindent="true">We want to use mathematical models in order to better understand the biological behavior and the effect of the treatment. We work in tight collaboration with biologists and bioeletromagneticians to derive precise models of cell and tissue electroporation, in the continuity of the research program of the Inria team-project MC2. These studies lead to complex non-linear mathematical models involving some parameters (as less as possible). Numerical methods to compute precisely such models and the calibration of the parameters with the experimental data are then addressed. Tight collaborations with the Vectorology and Anticancerous Therapies (VAT) of IGR at Villejuif, Laboratoire Ampère of Ecole Centrale Lyon and the Karlsruhe Institute of technology will continue, and we aim at developing new collaborations with Institute of Pharmacology and Structural Biology (IPBS) of Toulouse and the Laboratory of Molecular Pathology and Experimental Oncology (LMPEO) at CNR Rome, in order to understand differences of the electroporation of healthy cells and cancer cells in spheroids and tissues.</p>
+            </li>
+            <li id="uid33">
+              <p noindent="true">This basic research aims at providing new understanding of electroporation, however it is necessary to address, particular questions raised by radio-oncologists that apply such treatments. One crucial question is "What pulse or what train of pulses should I apply to electroporate the tumor if the electrodes are located as given by the medical images"? Even if the real-time optimization of the placement of the electrodes for deep tumors may seem quite utopian since the clinicians face too many medical constraints that cannot be taken into account (like the position of some organs, arteries, nerves...), on can expect to produce real-time information of the validity of the placement done by the clinician. Indeed, once the placement is performed by the radiologists, medical images are usually used to visualize the localization of the electrodes. Using these medical data, a crucial goal is to provide a tool in order to compute in real-time and visualize the electric field and the electroporated region directly on theses medical images, to give the doctors a precise knowledge of the region affected by the electric field. In the long run, this research will benefit from the knowledge of the theoretical electroporation modeling, but it seems important to use the current knowledge of tissue electroporation – even quite rough –, in order to rapidly address the specific difficulty of such a goal (real-time computing of non-linear model, image segmentation and visualization). Tight collaborations with CHU Pellegrin at Bordeaux, and CHU J. Verdier at Bondy are crucial.</p>
+            </li>
+          </orderedlist>
+        </li>
+        <li id="uid34">
+          <p noindent="true"><em style="UNDERLINE">Radiofrequency ablation.</em> In a collaboration with Hopital Haut Leveque, CHU Bordeaux we are trying to determine the efficacy and risk of relapse of hepatocellular carcinoma treated by radiofrequency ablation. For this matter we are using geometrical measurements on images (margins of the RFA, distance to the boundary of the organ) as well as texture information to statistically evaluate the clinical outcome of patients.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Axis 3: Quantitative cancer modeling for biological and preclinical studies</bodyTitle>
+      <p>With the emergence and improvement of a plethora of experimental techniques, the molecular, cellular and tissue biology has operated a shift toward a more quantitative science, in particular in the domain of cancer biology. These quantitative assays generate a large amount of data that call for theoretical formalism in order to better understand and predict the complex phenomena involved. Indeed, due to the huge complexity underlying the development of a cancer disease that involves multiple scales (from the genetic, intra-cellular scale to the scale of the whole organism), and a large number of interacting physiological processes (see the so-called "hallmarks of cancer"), several questions are not fully understood. Among these, we want to focus on the most clinically relevant ones, such as the general laws governing tumor growth and the development of metastases (secondary tumors, responsible of 90% of the deaths from a solid cancer).
+In this context, it is thus challenging to potentiate the diversity of the data available in experimental settings (such as <i>in vitro</i> tumor spheroids or <i>in vivo</i> mice experiments) in order to improve our understanding of the disease and its dynamics, which in turn lead to validation, refinement and better tuning of the macroscopic models used in the axes 1 and 2 for clinical applications.</p>
+      <p>In recent years, several new findings challenged the classical vision of the metastatic development biology, in particular by the discovery of organism-scale phenomena that are amenable to a dynamical description in terms of mathematical models based on differential equations. These include the angiogenesis-mediated distant inhibition of secondary tumors by a primary tumor the pre-metastatic niche or the self-seeding phenomenon Building a general, cancer type specific, comprehensive theory that would integrate these dynamical processes remains an open challenge. On the therapeutic side, recent studies demonstrated that some drugs (such as the Sunitinib), while having a positive effect on the primary tumor (reduction of the growth), could <i>accelerate</i> the growth of the metastases. Moreover, this effect was found to be scheduling-dependent. Designing better ways to use this drug in order to control these phenomena is another challenge. In the context of combination therapies, the question of the <i>sequence</i> of administration between the two drugs is also particularly relevant.</p>
+      <p>One of the technical challenge that we need to overcome when dealing with biological data is the presence of potentially very large inter-animal (or inter-individual) variability.</p>
+      <p>Starting from the available multi-modal data and relevant biological or therapeutic questions, our purpose is to develop adapted mathematical models (<i>i.e.</i> identifiable from the data) that recapitulate the existing knowledge and reduce it to its more fundamental components, with two main purposes:</p>
+      <orderedlist>
+        <li id="uid36">
+          <p noindent="true">to generate quantitative and empirically testable predictions that allow to assess biological hypotheses or</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">to investigate the therapeutic management of the disease and assist preclinical studies of anti-cancerous drug development.</p>
+        </li>
+      </orderedlist>
+      <p>We believe that the feedback loop between theoretical modeling and experimental studies can help to generate new knowledge and improve our predictive abilities for clinical diagnosis, prognosis, and therapeutic decision. Let us note that the first point is in direct link with the axes 1 and 2 of the team since it allows us to experimentally validate the models at the biological scale (<i>in vitro</i> and <i>in vivo</i> experiments) for further clinical applications.</p>
+      <p>More precisely, we first base ourselves on a thorough exploration of the biological literature of the biological phenomena we want to model: growth of tumor spheroids, <i>in vivo</i> tumor growth in mice, initiation and development of the metastases, effect of anti-cancerous drugs. Then we investigate, using basic statistical tools, the data we dispose, which can range from: spatial distribution of heterogeneous cell population within tumor spheroids, expression of cell makers (such as green fluorescent protein for cancer cells or specific antibodies for other cell types), bioluminescence, direct volume measurement or even intra-vital images obtained with specific imaging devices. According to the data type, we further build dedicated mathematical models that are based either on PDEs (when spatial data is available, or when time evolution of a structured density can be inferred from the data, for instance for a population of tumors) or ODEs (for scalar longitudinal data). These models are confronted to the data by two principal means:</p>
+      <orderedlist>
+        <li id="uid38">
+          <p noindent="true">when possible, experimental assays can give a direct measurement of some parameters (such as the proliferation rate or the migration speed) or</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">statistical tools to infer the parameters from observables of the model.</p>
+        </li>
+      </orderedlist>
+      <p>This last point is of particular relevance to tackle the problem of the large inter-animal variability and we use adapted statistical tools such as the mixed-effects modeling framework.</p>
+      <p>Once the models are shown able to describe the data and are properly calibrated, we use them to test or simulate biological hypotheses. Based on our simulations, we then aim at proposing to our biological collaborators new experiments to confirm or infirm newly generated hypotheses, or to test different administration protocols of the drugs. For instance, in a collaboration with the team of the professor Andreas Bikfalvi (Laboratoire de l'Angiogénèse et du Micro-environnement des Cancers, Inserm, Bordeaux), based on confrontation of a mathematical model to multi-modal biological data (total number of cells in the primary and distant sites and MRI), we could demonstrate that the classical view of metastatic dissemination and development (one metastasis is born from one cell) was probably inaccurate, in mice grafted with metastatic kidney tumors. We then proposed that metastatic germs could merge or attract circulating cells. Experiments involving cells tagged with two different colors are currently performed in order to confirm or infirm this hypothesis.</p>
+      <p>Eventually, we use the large amount of temporal data generated in preclinical experiments for the effect of anti-cancerous drugs in order to design and validate mathematical formalisms translating the biological mechanisms of action of these drugs for application to clinical cases, in direct connection with the axis 1. We have a special focus on targeted therapies (designed to specifically attack the cancer cells while sparing the healthy tissue) such as the Sunitinib. This drug is indeed indicated as a first line treatment for metastatic renal cancer and we plan to conduct a translational study coupled between A. Bikfalvi's laboratory and medical doctors, F. Cornelis (radiologist) and A. Ravaud (head of the medical oncology department).</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid40">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Tumor growth monitoring and therapeutic evaluation</bodyTitle>
+      <p>Each type of cancer is different and requires an adequate model. More specifically, we are currently working on the following diseases:</p>
+      <simplelist>
+        <li id="uid42">
+          <p noindent="true">Glioma (brain tumors),</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">Meningioma (intracranial tumors),</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">Metastases to the lung, liver from various organs,</p>
+        </li>
+        <li id="uid45">
+          <p noindent="true">Soft-tissue sarcoma,</p>
+        </li>
+        <li id="uid46">
+          <p noindent="true">Hepatocellular Carcinoma (primary liver tumors),</p>
+        </li>
+      </simplelist>
+      <p>with starting works on kidney cancer, EGFR-mutated lung cancer and pancreas cancer.</p>
+      <p>In this context our application domains are</p>
+      <simplelist>
+        <li id="uid47">
+          <p noindent="true">Image-driven patient-specific simulations of tumor growth and treatments,</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">Parameter estimation and data assimilation of medical images.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>Biophysical therapies</bodyTitle>
+      <simplelist>
+        <li id="uid50">
+          <p noindent="true">Modeling of electrochemotherapy on biological and clinical scales.</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">Evaluation of radiotherapy and radiofrequency ablation.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>In-vitro and animals experimentations in oncology</bodyTitle>
+      <simplelist>
+        <li id="uid53">
+          <p noindent="true">Theoretical biology of the metastatic process: dynamics of a population of tumors in mutual interactions, dormancy, pre-metastatic and metastatic niche, quantification of metastatic potential and differential effects of anti-angiogenic therapies on primary tumor and metastases.</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">Mathematical models for preclinical cancer research: description and prediction of tumor growth and metastatic development, effect of anti-cancerous therapies.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </domaine>
+  <highlights id="uid55">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>Last year saw a net increase in the diffusion of our work outside our own academic circle. Perrine Berment has clinched a seat in the national final of <i>Ma thèse en 180 secondes</i> after winning regional competition. Research achieved in the team was mentioned in popular radio shows like <ref xlink:href="https://www.franceinter.fr/emissions/futur-proche/futur-proche-28-octobre-2016?xtmc=kurde_medecin&amp;xtnp=1&amp;xtcr=14" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>franceinter.<allowbreak/>fr/<allowbreak/>emissions/<allowbreak/>futur-proche/<allowbreak/>futur-proche-28-octobre-2016?xtmc=kurde_medecin&amp;xtnp=1&amp;xtcr=14</ref>. This opens new collaboration opportunities locally and nationaly for the team.</p>
+      <p>On a scientific point of view, the team has significantly increased its work on modeling tumor heterogeneity and texture analysis with very promising results so far, particularly in the thesis of Thibaut Kritter, Agathe Peretti, Cynthia Perier. We have developed a model for texture evolution over time which may offer a much better insight than approaches using statistical methods on texture features (<i>e.g.</i> radiomics).</p>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>Julien Jouganous has won <i>Prix Le Monde de la Recherche Universitaire</i>, <ref xlink:href="http://www.lemonde.fr/sciences/article/2016/11/23/prix-le-monde-de-la-recherche-2016-l-evolution-du-cancer-en-equations_5036804_1650684.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lemonde.<allowbreak/>fr/<allowbreak/>sciences/<allowbreak/>article/<allowbreak/>2016/<allowbreak/>11/<allowbreak/>23/<allowbreak/>prix-le-monde-de-la-recherche-2016-l-evolution-du-cancer-en-equations_5036804_1650684.<allowbreak/>html</ref>.</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid58">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid59" level="1">
+      <bodyTitle>CADMOS</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Health - Cancer - Partial differential equation - Cartesian grid</p>
+      <simplelist>
+        <li id="uid60">
+          <p noindent="true">Participants: Olivier Saut, Julien Jouganous, Annabelle Collin and Olivier Gallinato</p>
+        </li>
+        <li id="uid61">
+          <p noindent="true">Partners: CNRS - INP Bordeaux - Université de Bordeaux</p>
+        </li>
+        <li id="uid62">
+          <p noindent="true">Contact: Olivier Saut</p>
+        </li>
+        <li id="uid63">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>Carcinom</bodyTitle>
+      <p>Computer-Assisted Research about Cancer growth and INsights on Oncological Mechanisms</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Cancer - Data modeling - Regression</p>
+      <simplelist>
+        <li id="uid65">
+          <p noindent="true">Participants: Vivien Pianet and Simon Evain</p>
+        </li>
+        <li id="uid66">
+          <p noindent="true">Contact: Sébastien Benzekry</p>
+        </li>
+        <li id="uid67">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>MetaPoumon</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Health - Evolution - Cancer - Medical imaging</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The software evaluates the aggressiveness of pulmonary metastasis or response to treatment for predictive goal. To do this, we use a mathematical model based on a set of equations to nonlinear partial differential equations. This model is calibrated to the patient data using a longitudinal sequence of CT or MRI of the patient.</p>
+      <simplelist>
+        <li id="uid69">
+          <p noindent="true">Participants: Olivier Saut, Thierry Colin, Marie Martin and Julien Jouganous</p>
+        </li>
+        <li id="uid70">
+          <p noindent="true">Partners: CNRS - IPB - Université de Bordeaux</p>
+        </li>
+        <li id="uid71">
+          <p noindent="true">Contact: Olivier Saut</p>
+        </li>
+        <li id="uid72">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid73" level="1">
+      <bodyTitle>Nenuphar</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Modeling - Oncologie - Cancer - Partial differential equation - Medical - Medical imaging</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The goal of project is to evaluate the aggressiveness of a tumor or its response to therapy. For that purpose, we use a mathematical model based on a set of nonlinear partial differential equations. This model is calibrated on patient data using a longitudinal sequence of CT Scan or MRI of the patient. This approach has been validated on about 35 clinical cases of lung metastases from various primary tumors (kidney, bladder, thyroid). Using two initial images showing the targeted lesion, we recover the patient-specific parameters of the model. The evolution of the disease is then predicted by letting the model run for later times with these parameters.</p>
+      <simplelist>
+        <li id="uid74">
+          <p noindent="true">Partners: CNRS - INP Bordeaux - Université Bordeaux 1</p>
+        </li>
+        <li id="uid75">
+          <p noindent="true">Contact: Marie Martin</p>
+        </li>
+        <li id="uid76">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>PapriK</bodyTitle>
+      <simplelist>
+        <li id="uid78">
+          <p noindent="true">Contact: Cynthia Perier</p>
+        </li>
+        <li id="uid79">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid80" level="1">
+      <bodyTitle>SESAR</bodyTitle>
+      <p>Monitor of the effect of RT on Retroperitoneal Sarcoma</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Segmentation - Health - DICOM - Cancer - Medical imaging</p>
+      <simplelist>
+        <li id="uid81">
+          <p noindent="true">Partner: Institut Bergonié</p>
+        </li>
+        <li id="uid82">
+          <p noindent="true">Contact: Cynthia Perier</p>
+        </li>
+        <li id="uid83">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid84" level="1">
+      <bodyTitle>SegmentIt</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Health - Signal - Registration of 2D and 3D multimodal images - 3D - Image analysis - Image - Processing - Medical imaging</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Image processing software for anatomical and functional data. Segmentation, registration and digital filtering.
+Assessement of the kidney perfusion and the kidney function (to be continued).</p>
+      <simplelist>
+        <li id="uid85">
+          <p noindent="true">Participants: Thierry Colin, Olivier Saut, Vivien Pianet, Agathe Peretti, Marie Martin, Sébastien Benzekry, Baudoin Denis De Senneville, Cynthia Perier, Benjamin Taton, Nicolas Grenier and Christian Combe</p>
+        </li>
+        <li id="uid86">
+          <p noindent="true">Contact: Benjamin Taton</p>
+        </li>
+        <li id="uid87">
+          <p noindent="true">URL: <ref xlink:href="https://team.inria.fr/monc/software/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>monc/<allowbreak/>software/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid88">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid89" level="1">
+      <bodyTitle>Free boundary problem for cell protrusion formations: theoretical and numerical aspects</bodyTitle>
+      <p>Authors: Olivier Gallinato, Masahito Ohta, Clair Poignard, Takashi Suzuki</p>
+      <p>In this paper, a free boundary problem for cell protrusion formation is studied theoretically and numerically. The cell membrane is precisely described thanks to a level set function, whose motion is due to specific signalling pathways. The aim is to model the chemical interactions between the cell and its environment, in the process of invadopodia or pseudopodia formation. The model consists of Laplace equation with Dirichlet condition inside the cell coupled to Laplace equation with Neumann condition in the outer domain. The actin polymerization is accounted for as the gradient of the inner signal, which drives the motion of the interface. We prove the well-posedness of our free boundary problem under a sign condition on the datum. This criterion ensures the consistency of the model, and provides conditions to focus on for any enrichment of the model. We then propose a new first order Cartesian finite-difference method to solve the problem. We eventually exhibit the main biological features that can be accounted for by the model: the formation of thin and elongated protrusions as for invadopodia, or larger protrusion as for pseudopodia, depending on the source term in the equation. The model provides the theoretical and numerical grounds for single cell migration modeling, whose formulation is valid in 2D and 3D. In particular, specific chemical reactions that occured at the cell membrane could be precisely described in forthcoming works.
+Journal: Journal of Mathematical Biology, Springer Verlag (Germany), 2016, &lt;10.1007/s00285-016-1080-7&gt;
+lien hal: <ref xlink:href="https://hal.inria.fr/hal-01412264v1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412264v1</ref>
+</p>
+    </subsection>
+    <subsection id="uid90" level="1">
+      <bodyTitle>Mathematical model for transport of DNA plasmids from the external medium up to the nucleus by electroporation</bodyTitle>
+      <p>Authors: Michael Leguèbe, M Notarangelo, Monika Twarogowska, Roberto Natalini, Clair Poignard</p>
+      <p>This work is devoted to modelling gastrointestinal stromal tumour metastases to the liver, their growth and resistance to therapies. More precisely, resistance to two standard treatments based on tyrosine kinase inhibitors (imatinib and sunitinib) is observed clinically. Using observations from medical images (CT scans), we build a spatial model consisting in a set of non-linear partial differential equations. After calibration of its parameters with clinical data, this model reproduces qualitatively and quantitatively the spatial tumour evolution of one specific patient. Important features of the growth such as the appearance of spatial heterogeneities and the therapeutical failures may be explained by our model. We then investigate numerically the possibility of optimizing the treatment in terms of progression-free survival time and minimum tumour size reachable by varying the dose of the first treatment. We find that according to our model, the progression-free survival time reaches a plateau with respect to this dose. We also demonstrate numerically that the spatial structure of the tumour may provide much more insights on the cancer cell activities than the standard RECIST criteria, which only consists in the measurement of the tumour diameter. Finally, we discuss on the non-predictivity of the model using only CT scans, in the sense that the early behaviour of the lesion is not sufficient to predict the response to the treatment.
+Journal: Mathematical Medicine and Biology, Oxford University Press (OUP), 2016, &lt;10.1093/imammb/dqw002&gt;
+lien hal: <ref xlink:href="https://hal.inria.fr/hal-01380292" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380292</ref>
+</p>
+    </subsection>
+    <subsection id="uid91" level="1">
+      <bodyTitle>Free boundary problem for cell protrusion formations: theoretical and numerical aspects</bodyTitle>
+      <p>Authors: Olivier Gallinato, Masahito Ohta, Clair Poignard, Takashi Suzuki</p>
+      <p>In this paper, a free boundary problem for cell protrusion formation is studied theoretically and numerically. The cell membrane is precisely described thanks to a level set function, whose motion is due to specific signalling pathways. The aim is to model the chemical interactions between the cell and its environment, in the process of invadopodia or pseudopodia formation. The model consists of Laplace equation with Dirichlet condition inside the cell coupled to Laplace equation with Neumann condition in the outer domain. The actin polymerization is accounted for as the gradient of the inner signal, which drives the motion of the interface. We prove the well-posedness of our free boundary problem under a sign condition on the datum. This criterion ensures the consistency of the model, and provides conditions to focus on for any enrichment of the model. We then propose a new first order Cartesian finite-difference method to solve the problem. We eventually exhibit the main biological features that can be accounted for by the model: the formation of thin and elongated protrusions as for invadopodia, or larger protrusion as for pseudopodia, depending on the source term in the equation. The model provides the theoretical and numerical grounds for single cell migration modeling, whose formulation is valid in 2D and 3D. In particular, specific chemical reactions that occured at the cell membrane could be precisely described in forthcoming works.
+Journal: Journal of Mathematical Biology, Springer Verlag (Germany), 2016, &lt;10.1007/s00285-016-1080-7&gt;
+lien hal: <ref xlink:href="https://hal.inria.fr/hal-01412264v1" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412264v1</ref>
+</p>
+    </subsection>
+    <subsection id="uid92" level="1">
+      <bodyTitle>Spatial modelling of tumour drug resistance: the case of GIST liver metastases Mathematical Medicine and Biology Advance</bodyTitle>
+      <p>Authors: Guillaume Lefebvre, François Cornelis, Patricio Cumsille, Thierry Colin, Clair Poignard, Olivier Saut</p>
+      <p>This work is devoted to modelling gastrointestinal stromal tumour metastases to the liver, their growth and resistance to therapies. More precisely, resistance to two standard treatments based on tyrosine kinase inhibitors (imatinib and sunitinib) is observed clinically. Using observations from medical images (CT scans), we build a spatial model consisting in a set of non-linear partial differential equations. After calibration of its parameters with clinical data, this model reproduces qualitatively and quantitatively the spatial tumour evolution of one specific patient. Important features of the growth such as the appearance of spatial heterogeneities and the therapeutical failures may be explained by our model. We then investigate numerically the possibility of optimizing the treatment in terms of progression-free survival time and minimum tumour size reachable by varying the dose of the first treatment. We find that according to our model, the progression-free survival time reaches a plateau with respect to this dose. We also demonstrate numerically that the spatial structure of the tumour may provide much more insights on the cancer cell activities than the standard RECIST criteria, which only consists in the measurement of the tumour diameter. Finally, we discuss on the non-predictivity of the model using only CT scans, in the sense that the early behaviour of the lesion is not sufficient to predict the response to the treatment.
+Journal: Mathematical Medicine and Biology, Oxford University Press (OUP), 2016, &lt;10.1093/imammb/dqw002&gt;
+lien hal: <ref xlink:href="https://hal.inria.fr/hal-01380292" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380292</ref>
+</p>
+    </subsection>
+    <subsection id="uid93" level="1">
+      <bodyTitle>Mathematical modeling of cancer immunotherapy and synergy with radiotherapy</bodyTitle>
+      <p>Team participant: S. Benzekry
+Other participants: R. Serre, N. André, J. Ciccolini, D. Barbolosi (SMARTc, Inserm, Marseille, FR), L. Padovani, X. Muracciole (Radiotherapy Unit, La Timone Hospital, Marseille, FR), F. Barlési (Multidisciplinary Oncology and Therapeutic Innovations Unit, AP-HM, Marseille, FR) and C. Meille (Roche Pharmaceutics, Basel, Switzerland)</p>
+      <p>Combining radiotherapy with immune checkpoint blockade may offer considerable therapeutic impact if the immunosuppressive nature of the tumor microenvironment (TME) can be relieved. In this study, we used mathematical models, which can illustrate the potential synergism between immune checkpoint inhibitors and radiotherapy. A discrete-time pharmacodynamic model of the combination of radiotherapy with inhibitors of the PD1–PDL1 axis and/or the CTLA4 pathway is described. This mathematical framework describes how a growing tumor first elicits and then inhibits an antitumor immune response. This antitumor immune response is described by a primary and a secondary (or memory) response. The primary immune response appears first and is inhibited by the PD1–PDL1 axis, whereas the secondary immune response happens next and is inhibited by the CTLA4 pathway. The effects of irradiation are described by a modified version of the linear-quadratic model. This modeling offers an explanation for the reported biphasic relationship between the size of a tumor and its immunogenicity, as measured by the abscopal effect (an off-target immune response). Furthermore, it explains why discontinuing immunotherapy may result in either tumor recurrence or a durably sustained response. Finally, it describes how synchronizing immunotherapy and radiotherapy can produce synergies. The ability of the model to forecast pharmacodynamic endpoints was validated retrospectively by checking that it could describe data from experimental studies, which investigated the combination of radiotherapy with immune checkpoint inhibitors. In summary, a model such as this could be further used as a simulation tool to facilitate decision making about optimal scheduling of immunotherapy with radiotherapy and perhaps other types of anticancer therapies.
+</p>
+    </subsection>
+    <subsection id="uid94" level="1">
+      <bodyTitle>Non-Standard Radiotherapy Fractionations Delay the Time to Malignant Transformation of Low-Grade Gliomas</bodyTitle>
+      <p>Team participant: S. Benzekry.
+Other participants: A. Henares-Molina, V.M. Perez-Garcia and A. Martinez-Gonzalez (Môlab, Universidad de Castilla-La Mancha, Ciudad Real, Spain) P.C. Lara (Radiation Oncology, Las Palmas University Hospital, Las Palmas, Spain), M. Garcia-Rojo (Pathology department, Jerez de la Frontera Hospital, Jerez de la Frontera, Spain)</p>
+      <p>Grade II gliomas are slowly growing primary brain tumors that affect mostly young patients. Cytotoxic therapies (radiotherapy and/or chemotherapy) are used initially only for patients having a bad prognosis. These therapies are planned following the “maximum dose in minimum time” principle, i. e. the same schedule used for high-grade brain tumors in spite of their very different behavior. These tumors transform after a variable time into high-grade tumors, what decreases significantly the patient’s life expectancy. In this paper we study mathematical models describing the growth of grade II gliomas in response to radiotherapy. We find that protracted metronomic fractionations, <i>i.e.</i> therapeutical schedules enlarging the time interval between low-dose radiotherapy fractions, may lead to a better tumor control without an increase in toxicity. Other non-standard fractionations such as protracted or hypoprotracted schemes may also be beneficial. The potential survival improvement depends on the tumor proliferation rate and can be even of the order of years. A conservative metronomic scheme, still being a suboptimal treatment, delays the time to malignant progression of at least one year when compared to the standard scheme.
+</p>
+    </subsection>
+    <subsection id="uid95" level="1">
+      <bodyTitle>Model-driven optimization of antiangiogenics + cytotoxics combination in breast cancer mice treated with bevacizumab and paclitaxel</bodyTitle>
+      <p>Team participant: S. Benzekry.
+Other participants: S. Mollard (CRUK, Cambridge, UK), J. Ciccolini, D-C Imbs, R. El Cheikh, D. Barbolosi (SMARTc, Inserm, Marseille, FR)</p>
+      <p>Bevacizumab is the first-in-class antiangiogenic drug administrated concomitantly with cytotoxics. Several reports have shown that antiangiogenics could induce a transient phase of vascular normalization, thus ensuring a better drug delivery provided that cytotoxics administration is delayed. However, determining this best sequence is challenging. We have developed a simple mathematical model describing the impact of antiangiogenics on tumor vasculature. A 3.4 days delay between bevacizumab and paclitaxel was first proposed by the model as an optimal sequence. To test its relevance, 84 mice were orthotopically xenografted with human MDA-231Luc+ breast cancer cells. Two different sets of experiments were performed, based upon different bevacizumab dosing (10 or 20 mg/kg) and inter-cycle intervals (7 or 10 days), comprising several combinations with paclitaxel. Results showed that scheduling bevacizumab administration 3 days before paclitaxel improved antitumor efficacy (48% reduction in tumor growth as compared with concomitant dosing, p&lt;0.05) while reducing metastatic spreading. Additionally, bevacizumab alone could lead to more aggressive metastatic disease with shorter survival in animals. Our phenomenological model was able to fit e perietal data a d provided insight o the underlying d a i s of as ulature’s a ilit to deliver the cytotoxic agent. Final simulations suggested a new, data-informed optimal sequence of 2.4 days. Our data suggest that concomitant dosing between bevacizumab and paclitaxel could be a sub-optimal strategy at bedside. In addition, this proof of concept study suggests that mathematical modelling could help to identify the best sequence among a variety of possible alternate treatment modalities, thus refining the way experimental or clinical studies are conducted.
+</p>
+    </subsection>
+    <subsection id="uid96" level="1">
+      <bodyTitle>Dynamics of concomitant resistance: data, theories and mathematical modeling</bodyTitle>
+      <p>Team participant: S. Benzekry
+Other participants: C. Lamont, L. Hlatky, P. Hahnfeldt (Center of Cancer and Systems Biology, Boston, USA)</p>
+      <p>In mice bearing two tumors implanted simultaneously, tumor growth was suppressed in one of the two tumors. Three theories of this phenomenon were advanced and assessed against the data. As formalized, the two models of competition for nutrients and indirect angiogenesis-regulated inhibition were not able to explain the growth behavior as well as a third model based on direct systemic inhibition. The superior model offers a depiction of concomitant resistance that provides an improved theoretical basis for tumor growth control that may also find utility in therapeutic planning to avoid post-surgery metastatic acceleration.
+</p>
+    </subsection>
+    <subsection id="uid97" level="1">
+      <bodyTitle>Modeling spontaneous metastasis following surgery: an in vivo-in silico approach</bodyTitle>
+      <p>Team participant: S. Benzekry.
+Other participants: A. Tracz, M. Mastri, R. Corbelli and J. Ebos (Roswell Park Cancer Institute, Buffalo, USA) D. Barbolosi (SMARTc, Inserm, Marseille, FR)</p>
+      <p>Rapid improvements in the detection and tracking of early-stage tumor progression aim to guide decisions regarding cancer treatments as well as predict metastatic recurrence in patients following surgery. Mathematical models may have the potential to further assist in estimating metastatic risk, particularly when paired with in vivo tumor data that faithfully represent all stages of disease progression. Herein we describe mathematical analysis that uses data from mouse models of spontaneous metastasis developing after surgical removal of orthotopically implanted primary tumors. Both presurgical (primary tumor) and postsurgical (metastatic) growth was quantified using bioluminescence and was then used to generate a mathematical formalism based on general laws of the disease (<i>i.e.</i> dissemination and growth). The model was able to fit and predict pre-/post-surgical data at the level of the individual as well as the population. Our approach also enabled retrospective analysis of clinical data describing the probability of metastatic relapse as a function of primary tumor size. In these data-based models, inter-individual variability was quantified by a key parameter of intrinsic metastatic potential. Critically, our analysis identified a highly nonlinear relationship between primary tumor size and postsurgical survival, suggesting possible threshold limits for the utility of tumor size as a predictor of metastatic recurrence. These findings represent a novel use of clinically relevant models to assess the impact of surgery on metastatic potential and may guide optimal timing of treatments in neoadjuvant (presurgical) and adjuvant (postsurgical) settings to maximize patient benefit.
+</p>
+    </subsection>
+    <subsection id="uid98" level="1">
+      <bodyTitle>Computational Trials: Unraveling Motility Phenotypes, Progression Patterns, and Treatment Options for Glioblastoma Multiforme</bodyTitle>
+      <p>Team participants: Thierry Colin, Olivier Saut.
+Other participants: Fabio Raman, Elizabeth Scribner, Olivier Saut, Cornelia Wenger, Hassan Fathallah-Shaykh.</p>
+      <p>Glioblastoma multiforme is a malignant brain tumor with poor prognosis and high morbidity due to its invasiveness. Hypoxia-driven motility and concentration-driven motility are two mechanisms of glioblastoma multiforme invasion in the brain. The use of anti-angiogenic drugs has uncovered new progression patterns of glioblastoma multiforme associated with significant differences in overall survival. Here, we apply a mathematical model of glioblas- toma multiforme growth and invasion in humans and design computational trials using agents that target angiogenesis, tumor replication rates, or motility. The findings link highly- dispersive, moderately-dispersive, and hypoxia-driven tumors to the patterns observed in glioblastoma multiforme treated by anti-angiogenesis, consisting of progression by Expand- ing FLAIR, Expanding FLAIR + Necrosis, and Expanding Necrosis, respectively. Further- more, replication rate-reducing strategies (e.g. Tumor Treating Fields) appear to be effective in highly-dispersive and moderately-dispersive tumors but not in hypoxia-driven tumors. The latter may respond to motility-reducing agents. In a population computational trial, with all three phenotypes, a correlation was observed between the efficacy of the rate- reducing agent and the prolongation of overall survival times. This research highlights the potential applications of computational trials and supports new hypotheses on glioblastoma multiforme phenotypes and treatment options.
+</p>
+    </subsection>
+    <p>N</p>
+  </resultats>
+  <partenariat id="uid99">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid100" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid101" level="2">
+        <bodyTitle>Plan Cancer</bodyTitle>
+        <subsection id="uid102" level="3">
+          <bodyTitle>NUMEP</bodyTitle>
+          <p>Plan Cancer NUMEP: 2016–2019. Numerics for Clinical Electroporation
+Funding: 460 kE
+Partners: Inria Team MONC, Institut de Pharmacologie de Toulouse, CHU J. Verdier de Bondy
+Duration: Octobre 2016—Septembre 2019
+Project leader: C. Poignard
+Co-PI: M-P. Rols (IPBS), O. Séror (CHU J. Verdier)</p>
+        </subsection>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Dynamo</bodyTitle>
+          <p>Plan Cancer DYNAMO: 2015–2018. Dynamical Models for Tissue Electroporation
+Funding: 370 kE
+Partners: Laboratoire Ampère, Lab. Vectorology and Anticancerous Therapies (IGR), Inria Team MONC
+Duration: Octobre 2015—Septembre 2018
+Project leader: R. Scorretti (Laboratoire Ampère)
+Co-PI: L.M. Mir (IGR), C. Poignard (Inria Team MONC)</p>
+        </subsection>
+        <subsection id="uid104" level="3">
+          <bodyTitle>Moglimaging</bodyTitle>
+          <simplelist>
+            <li id="uid105">
+              <p noindent="true">Project acronym - Moglimaging: Modeling of Glioblastoma treatment-induced resistance and heterogeneity by multi-modal imaging.</p>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Partners -</p>
+            </li>
+            <li id="uid107">
+              <p noindent="true">Duration - from Nov. 2016 to Nov 2019.</p>
+            </li>
+            <li id="uid108">
+              <p noindent="true">Coordinator - E. Cohen-Jonathan Moyal, Institut Universitaire du Cancer Toulouse / Local coordinator - O. Saut.</p>
+            </li>
+            <li id="uid109">
+              <p noindent="true">Team participants - S. Benzekry, A. Collin, C. Poignard, O. Saut.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid110" level="3">
+          <bodyTitle>MIMOSA</bodyTitle>
+          <simplelist>
+            <li id="uid111">
+              <p noindent="true">Project acronym - Plan Cancer MIMOSA (Physique, Mathématiques et Sciences de l'ingénieur appliqués au Cancer)</p>
+            </li>
+            <li id="uid112">
+              <p noindent="true">Partner - Laboratory of Biology, Bordeaux University</p>
+            </li>
+            <li id="uid113">
+              <p noindent="true">Duration - from 2014 to 2017</p>
+            </li>
+            <li id="uid114">
+              <p noindent="true">Coordinator - Th. Colin</p>
+            </li>
+            <li id="uid115">
+              <p noindent="true">Team participants - S. Benzekry, Th. Colin, C. Poignard, O. Saut</p>
+            </li>
+            <li id="uid116">
+              <p noindent="true">Title - Mathematical modeling for exploration of the impact of mechanical constraints on tumor growth</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid117" level="2">
+        <bodyTitle>A*Midex MARS</bodyTitle>
+        <simplelist>
+          <li id="uid118">
+            <p noindent="true">Project acronym - A*Midex MARS</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Partner - Service d'Oncologie Multidisciplinaire &amp; Innovations Thérapeutiques, Hopitaux de Marseille</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Duration - from 2014 to 2016</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Coordinator - F. Barlesi</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Team participant - S. Benzekry</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Title - Modeling Anticancer Research &amp; Simulation</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid124" level="2">
+        <bodyTitle>PEPS CNRS</bodyTitle>
+        <simplelist>
+          <li id="uid125">
+            <p noindent="true">PEPS CNRS "Jeune chercheur"
+Acronym: Metamat
+Partners: J. Ebos, Roswell Park Cancer Institute, Buffalo, USA
+Duration: October - November 2016
+PI: S. Benzekry</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid126" level="2">
+        <bodyTitle>Competitivity Clusters</bodyTitle>
+        <simplelist>
+          <li id="uid127">
+            <p noindent="true">Labex TRAIL (<ref xlink:href="http://trail.labex.u-bordeaux.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>trail.<allowbreak/>labex.<allowbreak/>u-bordeaux.<allowbreak/>fr</ref>): MOD Project Consolidation. 1 2-years post-doc position (100k€), led by A. Collin, 1 PhD funding (100k€) led by O. Saut.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid128" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid129" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid130" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <simplelist>
+            <li id="uid131">
+              <p noindent="true">LEA EBAM on electroporation <ref xlink:href="http://lea-ebam.cnrs.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lea-ebam.<allowbreak/>cnrs.<allowbreak/>fr</ref>,</p>
+            </li>
+            <li id="uid132">
+              <p noindent="true">JSPS Core-to-Core "Establishing Network in Mathematical Medicine" granted by Japan, led by T. Suzuki, Osaka University, (local PI: C. Poignard).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid133" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid134" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>Clair Poignard and the team had visits from the following scientists:</p>
+        <simplelist>
+          <li id="uid135">
+            <p noindent="true">T. Suzuki, Osaka University, Japan,</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">R. Natalini, IAC, Rome (PhD co-supervision of M. Deville)</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">F. Gibou, UCSB, Santa Barbara (Numerical methods for cell aggregate electroporation).</p>
+          </li>
+          <li id="uid138">
+            <p noindent="true">Rouzimaimati Makemuti (Associate professor at Xingiang University, China);</p>
+          </li>
+        </simplelist>
+        <p>Thierry Colin and Olivier Saut had the pleasure to welcome Hassan Fathallah-Shaykh (neuro-oncologist, Univ. Alabama at Birmingham) for two weeks to work on ours models for glioblastoma.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid139">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid140" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid141" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid142" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p>Thierry Colin was in the organizing committee of the <i>6th International Conference in Computational Surgery and Dual Training</i> in Bordeaux. The whole team (particularly A. Collin and C. Poignard) was involved in the organization of this event.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid143" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid144" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid145">
+              <p noindent="true">S. Benzekry - biomathematical modeling journals: Journal of Theoretical Biology, Mathematical Biosciences, Bulletin of Mathematical Biology, Theoretical Biology and Medical Modeling, Mathematical Biosciences and Engineering, Journal of Biological Informatics, Journal of Biological Systems, ESAIM:Proc, Mathematics and Computers in Simulation; and medical/biological journals about cancer: Clinical Pharmacokinetics, BMC Cancer</p>
+            </li>
+            <li id="uid146">
+              <p noindent="true">A. Collin - Computer Methods in Applied Mechanics and Engineering.</p>
+            </li>
+            <li id="uid147">
+              <p noindent="true">T. Colin - Too much to list...</p>
+            </li>
+            <li id="uid148">
+              <p noindent="true">C. Poignard - SIAM Journal on Mathematical Analysis, IEEE Trans on Mag, J. Math. Biology, J. Theoretical Biology</p>
+            </li>
+            <li id="uid149">
+              <p noindent="true">O. Saut - IEEE Trans. Med. Imaging, PLOS Computational Biology, PLOS One, Medical Image Analysis, Nature Comm.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid150" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid151">
+            <p noindent="true">Sébastien Benzekry:</p>
+            <simplelist>
+              <li id="uid152">
+                <p noindent="true">Integrated Mathematical Oncology Department, Moffitt Cancer Center, Tampa, Florida, USA.</p>
+              </li>
+              <li id="uid153">
+                <p noindent="true">Department of Genetics, Roswell Park Cancer Institute, Buffalo, NY, USA.</p>
+              </li>
+              <li id="uid154">
+                <p noindent="true">Mathematics Department Colloquium, Ryerson University, Toronto, Canada.</p>
+              </li>
+              <li id="uid155">
+                <p noindent="true">Metronomics @ Mumbai, Mumbai, India.</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid156">
+            <p noindent="true">Thierry Colin:</p>
+            <simplelist>
+              <li id="uid157">
+                <p noindent="true">Second French-Korean congress, July 2016, Bordeaux.</p>
+              </li>
+              <li id="uid158">
+                <p noindent="true">Treatment optimization for glioblastomas, Ocotber 2016, Cuenca, Spain.</p>
+              </li>
+              <li id="uid159">
+                <p noindent="true">Keio University Hospital, Japan,</p>
+              </li>
+              <li id="uid160">
+                <p noindent="true">Tokyo University of Science, Japan,</p>
+              </li>
+              <li id="uid161">
+                <p noindent="true">Osaka University, Japan.</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid162">
+            <p noindent="true">Olivier Saut: ALGORITMY 2016, Conference on Scientific Computing, Podbanske, Slovakia (<ref xlink:href="http://www.math.sk/alg2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>math.<allowbreak/>sk/<allowbreak/>alg2016</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid163" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <simplelist>
+          <li id="uid164">
+            <p noindent="true">O. Saut is the head of the CNRS GDR 3471 Metice (<ref xlink:href="http://metice.math.cnrs.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>metice.<allowbreak/>math.<allowbreak/>cnrs.<allowbreak/>fr</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid165" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid166">
+            <p noindent="true">S. Benzekry was a reviewer for research projects of the CETIC (Centre d’Excellence Africain en Technologies de l’Information et de la Communication) and for the Erwin Schroedinger-Fellowship of the Austrian Science Fund (FWF).</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">O. Saut is an expert for the French Ministry of Research (for various programs including PHC and EGIDE programs).</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">O. Saut was a reviewer for Research Career Development Fellowship program of Dublin City University.</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">O. Saut is a reviewer for project proposals in IGSSE (International Graduate School of Science and Engineering), Technical University of Munich.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid170" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid171">
+            <p noindent="true">C. Poignard is elected member of the Inria evaluation committee.</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">O. Saut is a member of the Steering Committee of Labex TRAIL (<ref xlink:href="http://trail.labex.u-bordeaux.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>trail.<allowbreak/>labex.<allowbreak/>u-bordeaux.<allowbreak/>fr</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid173" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid174" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid175">
+            <p noindent="true">Licence: S. Benzekry, Equations différentielles ordinaires, 20h, ENSEIRB-Matmeca, France.</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">Master: T. Colin, Last year of Engineering school Enseirb-Matmeca: multiphysics modelling</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">Licence: T. Colin, First Year of the Engineering school of chemestry of Bordeaux, specilization in structures and composite material: basic mathematics.</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">Licence and Master: A. Collin did a full service as MdC at the Engineering school ENSEIRB-Matmeca.</p>
+          </li>
+          <li id="uid179">
+            <p noindent="true">Licence: Clair Poignard, Engineering school ENSCPB. L3 undergraduate course on numerical analysis (50h).</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">Licence: Clair Poignard, Engineering school ENSEIRB-Matmeca: undergraduate lecture on numerical analysis (18h).</p>
+          </li>
+          <li id="uid181">
+            <p noindent="true">Master : Olivier Saut, Outils Numériques pour la Mécanique, 20h, M1, ENSEIRB-Matmeca, France.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid182" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid183">
+            <p noindent="true">PhD : P. Berment, Mathematical modelling evaluating radiotherapy outcome for colorectal tumor with Pet Scan, Univ. Bordeaux, July 2016, Thierry Colin and Olivier Saut.</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">PhD : E. Baratchart, Quantitative study of the dynamics and spatial aspects of metastatic development using mathematical models, Univ. Bordeaux, February 2016, S. Benzekry, Th. Colin and O. Saut.</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">PhD in progress : M. Deville, Modeling of electroporation and gene transfection across tissue. Theoretical and numerical aspects., Sep 2014, C. Poignard and R. Natalini (IAC, CNR Roma).</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">PhD : O. Gallinato, Invasive process modeling of the tumor metastatic cells, Univ. Bordeaux, C. Poignard and T. Suzuki (Osaka University). (PhD defended November 22, 2016)</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">PhD in progress : T. Kritter, Primary tumors modelling with a view to the gliomas and adenocarcinomas study, Sep 2015, C. Poignard and O. Saut</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">PhD : T. Michel, Analysis of mathematical growth tumor models, Univ. Bordeaux, C. Poignard and Th. Colin. (PhD defended November 18, 2016)</p>
+          </li>
+          <li id="uid189">
+            <p noindent="true">PhD in progress : A. Perreti, Anti-angiogenic traitements modeling using medical imaging, Oct 2014, Th. Colin and O. Saut.</p>
+          </li>
+          <li id="uid190">
+            <p noindent="true">PhD in progress : S. Corridore, 2016-2019, A. Collin and C. Poignard.</p>
+          </li>
+          <li id="uid191">
+            <p noindent="true">PhD in progress : C. Perier, 2016-2019, B. Denis de Senneville and O. Saut.</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">PhD in progress: C. Nicolò, Mathematical modeling of systemic aspects of cancer and cancer therapy, Oct 2016, S. Benzekry and O. Saut.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid193" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid194">
+            <p noindent="true">O. Saut was a reviewer of the PhD of Matthieu Lê "Modélisation de la croissance de tumeurs cérébrales, application à la radiothérapie", Univ. Nice, Inria Sophia Antipolis, July 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid195" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid196">
+          <p noindent="true">Popularization article in a special edition of the journal "Tangente" devoted to mathematics in medicine. (S. Benzekry).</p>
+        </li>
+        <li id="uid197">
+          <p noindent="true">S. Benzekry was interviewed by the journal "Sciences et Avenir".</p>
+        </li>
+        <li id="uid198">
+          <p noindent="true">A. Collin is an active member of "Femmes et Sciences" and gave several talks in this context (Printemps de la Mixité, talks in high schools...).</p>
+        </li>
+        <li id="uid199">
+          <p noindent="true">O. Saut is a regular speaker at Entretien de l'Excellence (<ref xlink:href="http://www.lesentretiens.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lesentretiens.<allowbreak/>org</ref>).</p>
+        </li>
+        <li id="uid200">
+          <p noindent="true">O. Saut was a speaker at the "Forum des Métiers" in Collège Montaigne, Lormont.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="monc-2016-bid7" type="proceedings" rend="year" n="cite:mir:hal-01285366">
+      <identifiant type="doi" value="10.1007/978-981-287-817-5_47"/>
+      <identifiant type="hal" value="hal-01285366"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Dynamic Modeling of Electroporation for the Computation of the Electric Field Distribution Inside Biological Tissues during the Application of the Pulse Voltage</title>
+        <title level="s">IFMBE Proceedings: 1st World Congress on Electroporation and Pulsed Electric Fields in Biology, Medicine and Food &amp; Environmental Technologies</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Lluis</foreName>
+            <surname>Mir</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Riccardo</foreName>
+            <surname>Scorretti</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Silve</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Damien</foreName>
+            <surname>Voyer</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <biblScope type="number">Part IX</biblScope>
+          <publisher>
+            <orgName>Springer<address><addrLine>Portorož, Slovenia</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">211-214</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01285366" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01285366</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid5" type="phdthesis" rend="year" n="cite:baratchart:tel-01314117">
+      <identifiant type="hal" value="tel-01314117"/>
+      <monogr>
+        <title level="m">A quantitative study of the metastatic process through mathematical modeling</title>
+        <author>
+          <persName key="mc2-2014-idp84624">
+            <foreName>Etienne</foreName>
+            <surname>Baratchart</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01314117" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01314117</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid8" type="phdthesis" rend="year" n="cite:berment:tel-01367488">
+      <identifiant type="hal" value="tel-01367488"/>
+      <monogr>
+        <title level="m">Treatment response modeling in oncology : examples in radiotherapy and targeted therapies</title>
+        <author>
+          <persName key="mc2-2014-idp85872">
+            <foreName>Perrine</foreName>
+            <surname>Berment</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01367488" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01367488</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid14" type="phdthesis" rend="year" n="cite:gallinato:tel-01419334">
+      <identifiant type="hal" value="tel-01419334"/>
+      <monogr>
+        <title level="m">Modeling of cancer phenomena and superconvergent methods for the resolution of interface problems on Cartesian grid</title>
+        <author>
+          <persName key="mc2-2014-idp88352">
+            <foreName>Olivier</foreName>
+            <surname>Gallinato</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01419334" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01419334</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid4" type="phdthesis" rend="year" n="cite:groza:tel-01410323">
+      <identifiant type="hal" value="tel-01410323"/>
+      <monogr>
+        <title level="m">Identification of unknown model parameters and sensitivity analysis for abrasive waterjet milling process</title>
+        <author>
+          <persName>
+            <foreName>Vladimir</foreName>
+            <surname>GROZA</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Universite Nice Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01410323" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01410323</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid15" type="phdthesis" rend="year" n="cite:michel:tel-01419843">
+      <identifiant type="hal" value="tel-01419843"/>
+      <monogr>
+        <title level="m">Mathematical analysis and model calibration for tumor growth models</title>
+        <author>
+          <persName key="mc2-2014-idp93272">
+            <foreName>Thomas</foreName>
+            <surname>Michel</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Bordeaux</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01419843" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01419843</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid17" type="article" rend="year" n="cite:benzekry:hal-01418295">
+      <identifiant type="hal" value="hal-01418295"/>
+      <analytic>
+        <title level="a">Les lois de la croissance tumorale</title>
+        <author>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sébastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="no" x-international-audience="no" id="rid01836">
+        <idno type="issn">0987-0806</idno>
+        <title level="j">Bibliothèque Tangente</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418295" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418295</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid28" type="article" rend="year" n="cite:benzekry:hal-01222046">
+      <identifiant type="doi" value="10.1158/0008-5472.CAN-15-1389"/>
+      <identifiant type="hal" value="hal-01222046"/>
+      <analytic>
+        <title level="a">Modeling Spontaneous Metastasis following Surgery: An In Vivo-In Silico Approach</title>
+        <author>
+          <persName key="mc2-2014-idm27840">
+            <foreName>S.</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Tracz</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Mastri</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Corbelli</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Barbolosi</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>J. M. L.</foreName>
+            <surname>Ebos</surname>
+            <initial>J. M. L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01926">
+        <idno type="issn">0008-5472</idno>
+        <title level="j">Cancer Research</title>
+        <imprint>
+          <biblScope type="volume">76</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">535 - 547</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01222046" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01222046</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid1" type="article" rend="year" n="cite:collin:hal-01404076">
+      <identifiant type="hal" value="hal-01404076"/>
+      <analytic>
+        <title level="a">Analysis-suitable G1 multi-patch parametrizations for C1 isogeometric spaces</title>
+        <author>
+          <persName key="m3disim-2014-idp68688">
+            <foreName>Annabelle</foreName>
+            <surname>Collin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Giancarlo</foreName>
+            <surname>Sangalli</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Takacs</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00386">
+        <idno type="issn">0167-8396</idno>
+        <title level="j">Computer Aided Geometric Design</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01404076" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01404076</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid9" type="article" rend="year" n="cite:gallinato:hal-01412264">
+      <identifiant type="doi" value="10.1007/s00285-016-1080-7"/>
+      <identifiant type="hal" value="hal-01412264"/>
+      <analytic>
+        <title level="a">Free boundary problem for cell protrusion formations: theoretical and numerical aspects</title>
+        <author>
+          <persName key="mc2-2014-idp88352">
+            <foreName>Olivier</foreName>
+            <surname>Gallinato</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Masahito</foreName>
+            <surname>Ohta</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Takashi</foreName>
+            <surname>Suzuki</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01193">
+        <idno type="issn">0303-6812</idno>
+        <title level="j">Journal of Mathematical Biology</title>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01412264" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412264</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid0" type="article" rend="year" n="cite:lefebvre:hal-01380292">
+      <identifiant type="doi" value="10.1093/imammb/dqw002"/>
+      <identifiant type="hal" value="hal-01380292"/>
+      <analytic>
+        <title level="a">Spatial modelling of tumour drug resistance: the case of GIST liver metastases Mathematical Medicine and Biology Advance</title>
+        <author>
+          <persName key="mc2-2014-idp92048">
+            <foreName>Guillaume</foreName>
+            <surname>Lefebvre</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mc2-2014-idp104424">
+            <foreName>François</foreName>
+            <surname>Cornelis</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Patricio</foreName>
+            <surname>Cumsille</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mc2-2014-idm29272">
+            <foreName>Thierry</foreName>
+            <surname>Colin</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mc2-2014-idp66576">
+            <foreName>Olivier</foreName>
+            <surname>Saut</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03045">
+        <idno type="issn">1477-8599</idno>
+        <title level="j">Mathematical Medicine and Biology</title>
+        <imprint>
+          <biblScope type="volume">00</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1 - 26</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01380292" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01380292</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid10" type="article" rend="year" n="cite:leguebe:hal-01412380">
+      <identifiant type="doi" value="10.1016/j.mbs.2016.11.015"/>
+      <identifiant type="hal" value="hal-01412380"/>
+      <analytic>
+        <title level="a">Mathematical model for transport of DNA plasmids from the external medium up to the nucleus by electroporation</title>
+        <author>
+          <persName key="mc2-2014-idp79640">
+            <foreName>Michael S</foreName>
+            <surname>Leguèbe</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName>
+            <foreName>M G</foreName>
+            <surname>Notarangelo</surname>
+            <initial>M. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Monika</foreName>
+            <surname>Twarogowska</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Natalini</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01382">
+        <idno type="issn">0025-5564</idno>
+        <title level="j">Mathematical Biosciences</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01412380" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412380</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid25" type="article" rend="year" n="cite:mollard:hal-01392861">
+      <identifiant type="doi" value="10.1038/srep36173"/>
+      <identifiant type="hal" value="hal-01392861"/>
+      <analytic>
+        <title level="a">In Vivo Bioluminescence Tomography for Monitoring Breast Tumor Growth and Metastatic Spreading: Comparative Study and Mathematical Modeling</title>
+        <author>
+          <persName>
+            <foreName>Séverine</foreName>
+            <surname>Mollard</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Raphaelle</foreName>
+            <surname>Fanciullino</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Sarah</foreName>
+            <surname>Giacometti</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Cindy</foreName>
+            <surname>Serdjebi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sebastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Joseph</foreName>
+            <surname>Ciccolini</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02410">
+        <idno type="issn">2045-2322</idno>
+        <title level="j">Scientific Reports</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">10</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01392861" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01392861</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid26" type="article" rend="year" n="cite:pantziarka:hal-01392473">
+      <identifiant type="doi" value="10.3332/ecancer.2016.689"/>
+      <identifiant type="hal" value="hal-01392473"/>
+      <analytic>
+        <title level="a">Next generation metronomic chemotherapy - report from the Fifth Biennial International Metronomic and Anti-angiogenic Therapy Meeting, 6 - 8 May 2016, Mumbai</title>
+        <author>
+          <persName>
+            <foreName>Pan G</foreName>
+            <surname>Pantziarka</surname>
+            <initial>P. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Lisa</foreName>
+            <surname>Hutchinson</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas G</foreName>
+            <surname>André</surname>
+            <initial>N. G.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sébastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Francesco</foreName>
+            <surname>Bertolini</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Atanu</foreName>
+            <surname>Bhattacharjee</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Shubhada</foreName>
+            <surname>Chiplunkar</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Dan G</foreName>
+            <surname>Duda</surname>
+            <initial>D. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Vikram G</foreName>
+            <surname>Gota</surname>
+            <initial>V. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sudeep G</foreName>
+            <surname>Gupta</surname>
+            <initial>S. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Amit J</foreName>
+            <surname>Joshi</surname>
+            <initial>A. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Sadhana</foreName>
+            <surname>Kannan</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Kerbel</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Kieran</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Antonella</foreName>
+            <surname>Palazzo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Aparna</foreName>
+            <surname>Parikh</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Eddy G</foreName>
+            <surname>Pasquier</surname>
+            <initial>E. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Vijay</foreName>
+            <surname>Patil</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Kumar</foreName>
+            <surname>Prabhash</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Yuval</foreName>
+            <surname>Shaked</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Giselle Saulnier</foreName>
+            <surname>Sholler</surname>
+            <initial>G. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Jaroslav J</foreName>
+            <surname>Sterba</surname>
+            <initial>J. J.</initial>
+          </persName>
+          <persName>
+            <foreName>David J</foreName>
+            <surname>Waxman</surname>
+            <initial>D. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Shripad G</foreName>
+            <surname>Banavali</surname>
+            <initial>S. G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03044">
+        <idno type="issn">1754-6605</idno>
+        <title level="j">Ecancermedicalscience</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01392473" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01392473</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid23" type="article" rend="year" n="cite:raman:hal-01396271">
+      <identifiant type="doi" value="10.1371/journal.pone.0146617"/>
+      <identifiant type="hal" value="hal-01396271"/>
+      <analytic>
+        <title level="a">Computational Trials: Unraveling Motility Phenotypes, Progression Patterns, and Treatment Options for Glioblastoma Multiforme</title>
+        <author>
+          <persName>
+            <foreName>Fabio</foreName>
+            <surname>Raman</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Elizabeth</foreName>
+            <surname>Scribner</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="mc2-2014-idp66576">
+            <foreName>Olivier</foreName>
+            <surname>Saut</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Cornelia</foreName>
+            <surname>Wenger</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mc2-2014-idm29272">
+            <foreName>Thierry</foreName>
+            <surname>Colin</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Hassan M</foreName>
+            <surname>Fathallah-Shaykh</surname>
+            <initial>H. M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01553">
+        <idno type="issn">1932-6203</idno>
+        <title level="j">PLoS ONE</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396271" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396271</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid18" type="article" rend="year" n="cite:seror:hal-01421863">
+      <identifiant type="doi" value="10.1148/radiol.2017161809"/>
+      <identifiant type="hal" value="hal-01421863"/>
+      <analytic>
+        <title level="a">Irreversible Electroporation: Disappearance of Observable Changes at Imaging Does Not Always Imply Complete Reversibility of the Underlying Causal Tissue Changes</title>
+        <author>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Seror</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mc2-2014-idp88352">
+            <foreName>Olivier</foreName>
+            <surname>Gallinato</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Rafik</foreName>
+            <surname>Belkacem-Ourabia</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Sutter</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01657">
+        <idno type="issn">0033-8419</idno>
+        <title level="j">Radiology</title>
+        <imprint>
+          <biblScope type="volume">282</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">301 - 302</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421863" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421863</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid27" type="article" rend="year" n="cite:serre:hal-01336779">
+      <identifiant type="doi" value="10.1158/0008-5472.CAN-15-3567"/>
+      <identifiant type="hal" value="hal-01336779"/>
+      <analytic>
+        <title level="a">Mathematical modeling of cancer immunotherapy and its synergy with radiotherapy</title>
+        <author>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Serre</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>S.</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Laetitia</foreName>
+            <surname>Padovani</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>MEILLE</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Andre</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Ciccolini</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Barlesi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>X.</foreName>
+            <surname>Muracciole</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Barbolosi</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01926">
+        <idno type="issn">0008-5472</idno>
+        <title level="j">Cancer Research</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01336779" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01336779</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid6" type="article" rend="year" n="cite:silve:hal-01266274">
+      <identifiant type="doi" value="10.1038/srep19957"/>
+      <identifiant type="hal" value="hal-01266274"/>
+      <analytic>
+        <title level="a">Impact of external medium conductivity on cell membrane electropermeabilization by microsecond and nanosecond electric pulses</title>
+        <author>
+          <persName>
+            <foreName>Aude</foreName>
+            <surname>Silve</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Isabelle</foreName>
+            <surname>Leray</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Lluis M.</foreName>
+            <surname>Mir</surname>
+            <initial>L. M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02410">
+        <idno type="issn">2045-2322</idno>
+        <title level="j">Scientific Reports</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01266274" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01266274</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid19" type="article" rend="year" n="cite:yankeelov:hal-01396241">
+      <identifiant type="hal" value="hal-01396241"/>
+      <analytic>
+        <title level="a">Multi-scale Modeling in Clinical Oncology: Opportunities and Barriers to Success </title>
+        <author>
+          <persName>
+            <foreName>Thomas E.</foreName>
+            <surname>Yankeelov</surname>
+            <initial>T. E.</initial>
+          </persName>
+          <persName>
+            <foreName>Gary</foreName>
+            <surname>An</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mc2-2014-idp66576">
+            <foreName>Oliver</foreName>
+            <surname>Saut</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Guy M.</foreName>
+            <surname>Genin</surname>
+            <initial>G. M.</initial>
+          </persName>
+          <persName>
+            <foreName>E. Georg</foreName>
+            <surname>Luebeck</surname>
+            <initial>E. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Aleksander S.</foreName>
+            <surname>Popel</surname>
+            <initial>A. S.</initial>
+          </persName>
+          <persName key="numed-2014-idp104072">
+            <foreName>Benjamin</foreName>
+            <surname>Ribba</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Paolo</foreName>
+            <surname>Vicini</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Xiaobo</foreName>
+            <surname>Zhou</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Jared A.</foreName>
+            <surname>Weis</surname>
+            <initial>J. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Kaiming</foreName>
+            <surname>Ye</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00135">
+        <idno type="issn">0090-6964</idno>
+        <title level="j">Annals of Biomedical Engineering</title>
+        <imprint>
+          <biblScope type="volume">44</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01396241" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01396241</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid13" type="inproceedings" rend="year" n="cite:ciccolini:hal-01404637">
+      <identifiant type="doi" value="10.1158/1538-7445.AM2016-2099"/>
+      <identifiant type="hal" value="hal-01404637"/>
+      <analytic>
+        <title level="a">Abstract 2099: Model-driven optimization of anti-angiogenics combined with chemotherapy: application to bevacizumab + pemetrexed/cisplatin doublet in NSCLC-bearing mice</title>
+        <author>
+          <persName>
+            <foreName>Joseph</foreName>
+            <surname>Ciccolini</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sebastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Sarah</foreName>
+            <surname>Giacometti</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Barlesi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Dominique</foreName>
+            <surname>Barbolosi</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">107th Annual Meeting of the American Association for Cancer Research</title>
+        <loc>New Orleans, France</loc>
+        <imprint>
+          <biblScope type="volume">76</biblScope>
+          <biblScope type="number">14 Supplement</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">20</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01404637" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01404637</ref>
+        </imprint>
+        <meeting id="cid624810">
+          <title>American Association for Cancer Research Annual Meeting</title>
+          <num>2016</num>
+          <abbr type="sigle">AACR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid20" type="inproceedings" rend="year" n="cite:perrussel:hal-01393362">
+      <identifiant type="hal" value="hal-01393362"/>
+      <analytic>
+        <title level="a">Asymptotic expansion for the magnetic potential in the eddy-current problem</title>
+        <author>
+          <persName key="nachos-2014-idp90696">
+            <foreName>Ronan</foreName>
+            <surname>Perrussel</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="magique-3d-2014-idp71056">
+            <foreName>Victor</foreName>
+            <surname>Péron</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Ruth V.</foreName>
+            <surname>Sabariego</surname>
+            <initial>R. V.</initial>
+          </persName>
+          <persName>
+            <foreName>Patrick</foreName>
+            <surname>Dular</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Laurent</foreName>
+            <surname>Krähenbühl</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">10th International Symposium on Electric and Magnetic Fields (EMF 2016)</title>
+        <loc>Lyon, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01393362" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01393362</ref>
+        </imprint>
+        <meeting id="cid625272">
+          <title>International Symposium on Electric and Magnetic Fields</title>
+          <num>10</num>
+          <abbr type="sigle">EMF</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid22" type="techreport" rend="year" n="cite:evain:hal-01377994">
+      <identifiant type="hal" value="hal-01377994"/>
+      <monogr>
+        <title level="m">Mathematical modeling of tumor and metastatic growth when treated with sunitinib</title>
+        <author>
+          <persName key="monc-2015-idp89416">
+            <foreName>Simon</foreName>
+            <surname>Evain</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sebastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377994" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377994</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid24" type="techreport" rend="year" n="cite:gallinato:hal-01228013">
+      <identifiant type="hal" value="hal-01228013"/>
+      <monogr>
+        <title level="m">Free boundary problem for cell protrusion formations: theoretical and numerical aspects</title>
+        <author>
+          <persName key="mc2-2014-idp88352">
+            <foreName>Olivier</foreName>
+            <surname>Gallinato</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Masahito</foreName>
+            <surname>Ohta</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Takashi</foreName>
+            <surname>Suzuki</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8810</biblScope>
+          <publisher>
+            <orgName type="institution">Inria ; Institut de Mathématiques de Bordeaux ; Université de Bordeaux ; Tokyo University of Science ; Osaka University</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01228013" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01228013</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid11" type="techreport" rend="year" n="cite:leguebe:hal-01349522">
+      <identifiant type="hal" value="hal-01349522"/>
+      <monogr>
+        <title level="m">Mathematical model for transport of DNA plasmids from the external medium up to the nucleus by electroporation</title>
+        <author>
+          <persName key="mc2-2014-idp79640">
+            <foreName>Michael</foreName>
+            <surname>Leguèbe</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Maria G.</foreName>
+            <surname>Notarangelo</surname>
+            <initial>M. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Monika</foreName>
+            <surname>Twarogowska</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Roberto</foreName>
+            <surname>Natalini</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8939</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349522" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349522</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid16" type="techreport" rend="year" n="cite:lumale:hal-01420449">
+      <identifiant type="hal" value="hal-01420449"/>
+      <monogr>
+        <title level="m"> Around a mathematical model of the concomitant tumor resistance phenomenon </title>
+        <author>
+          <persName key="monc-2016-idp195136">
+            <foreName>Laura</foreName>
+            <surname>Lumale</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="mc2-2014-idm27840">
+            <foreName>Sébastien</foreName>
+            <surname>Benzekry</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux ; Equipe MONC ; INSA Toulouse</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01420449" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01420449</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid21" type="techreport" rend="year" n="cite:poignard:hal-01349523">
+      <identifiant type="hal" value="hal-01349523"/>
+      <monogr>
+        <title level="m">Different Approaches used in Modeling of Cell Membrane Electroporation</title>
+        <author>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Aude</foreName>
+            <surname>Silve</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Lars</foreName>
+            <surname>Wegner</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8940</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Bordeaux Sud-Ouest</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349523" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349523</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid3" type="misc" rend="year" n="cite:davidovi:hal-01418706">
+      <identifiant type="hal" value="hal-01418706"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">The effects of the diffusive inclusions in the bidomain model: theoretical and numerical study. Application to the rat heart</title>
+        <author>
+          <persName>
+            <foreName>Anđela</foreName>
+            <surname>Davidović</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="carmen-2014-idp59504">
+            <foreName>Yves</foreName>
+            <surname>Coudière</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418706" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418706</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">2nd Scientific Workshop IHU-Liryc</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid2" type="unpublished" rend="year" n="cite:davidovi:hal-01418674">
+      <identifiant type="hal" value="hal-01418674"/>
+      <monogr>
+        <title level="m">The Modified Bidomain Model with Periodic Diffusive Inclusions</title>
+        <author>
+          <persName>
+            <foreName>Anđela</foreName>
+            <surname>Davidović</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="carmen-2014-idp59504">
+            <foreName>Yves</foreName>
+            <surname>Coudière</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="mc2-2014-idp65160">
+            <foreName>Clair</foreName>
+            <surname>Poignard</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418674" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418674</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="monc-2016-bid12" type="misc" rend="year" n="cite:gerard:hal-01400776">
+      <identifiant type="hal" value="hal-01400776"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Front observer for data assimilation of electroanatomical mapping data for a numerical atrial model</title>
+        <author>
+          <persName key="carmen-2015-idp86152">
+            <foreName>A</foreName>
+            <surname>Gérard</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idp68688">
+            <foreName>A</foreName>
+            <surname>Collin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="carmen-2014-idp72312">
+            <foreName>J</foreName>
+            <surname>Bayer</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>A</foreName>
+            <surname>Frontera</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="m3disim-2014-idm27064">
+            <foreName>P</foreName>
+            <surname>Moireau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="carmen-2014-idp59504">
+            <foreName>Yves</foreName>
+            <surname>Coudière</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01400776" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01400776</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">Liryc Workshop</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

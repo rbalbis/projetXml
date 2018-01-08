@@ -1,0 +1,3616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="abs" isproject="true">
+    <shortname>ABS</shortname>
+    <projectName>Algorithms, Biology, Structure</projectName>
+    <theme-de-recherche>Computational Biology</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/abs/</urlTeam>
+    <header_dates_team>Creation of the Project-Team: 2008 July 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.5. - Software engineering</term>
+      <term>3.3.2. - Data mining</term>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.2.8. - Computational geometry and meshes</term>
+      <term>7.2. - Discrete mathematics, combinatorics</term>
+      <term>7.5. - Geometry, Topology</term>
+      <term>7.9. - Graph theory</term>
+      <term>8.2. - Machine learning</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.1. - Structural biology</term>
+      <term>1.1.7. - Immunology</term>
+      <term>1.1.9. - Bioinformatics</term>
+    </keywordsSecteurs>
+    <UR name="Sophia"/>
+    <moreinfo/>
+  </identification>
+  <team id="uid1">
+    <person key="abs-2014-idm29960">
+      <firstname>Frédéric</firstname>
+      <lastname>Cazals</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="abs-2014-idm27264">
+      <firstname>Dorian</firstname>
+      <lastname>Mazauric</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="abs-2015-idp69344">
+      <firstname>Augustin</firstname>
+      <lastname>Chevallier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, PhD Student</moreinfo>
+    </person>
+    <person key="abs-2014-idp70608">
+      <firstname>Simon</firstname>
+      <lastname>Marillet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>INRA, PhD Student, until December 2015</moreinfo>
+    </person>
+    <person key="abs-2014-idp74528">
+      <firstname>Romain</firstname>
+      <lastname>Tetley</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, PhD Student</moreinfo>
+    </person>
+    <person key="abs-2016-idp119312">
+      <firstname>Rémi</firstname>
+      <lastname>Watrigant</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Post-Doctoral Fellow, from Nov 2016</moreinfo>
+    </person>
+    <person key="abs-2014-idm26016">
+      <firstname>Florence</firstname>
+      <lastname>Barbara</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Assistant</moreinfo>
+    </person>
+    <person key="abs-2014-idm28480">
+      <firstname>Tom</firstname>
+      <lastname>Dreyfus</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Redant labs - Inria, contractor</moreinfo>
+    </person>
+    <person key="abs-2016-idp126688">
+      <firstname>Neva</firstname>
+      <lastname>Durand</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Baylor college of medicine, Visiting scientist</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p noindent="true"><b>Computational Biology and Computational Structural Biology.</b>
+Understanding the lineage between species and the genetic drift of
+genes and genomes, apprehending the control and feed-back loops
+governing the behavior of a cell, a tissue, an organ or a body, and
+inferring the relationship between the structure of biological
+(macro)-molecules and their functions are amongst the major challenges
+of modern biology. The investigation of these challenges is
+supported by three types of data: genomic data, transcription and
+expression data, and structural data.</p>
+      <p>Genetic data feature sequences of nucleotides on DNA and RNA
+molecules, and are symbolic data whose processing falls in the realm
+of Theoretical Computer Science: dynamic programming, algorithms on
+texts and strings, graph theory dedicated to phylogenetic problems.
+Transcription and expression data feature evolving concentrations of
+molecules (RNAs, proteins, metabolites) over time, and fit in the formalism of
+discrete and continuous dynamical systems, and of graph theory. The
+exploration and the modeling of these data are covered by a rapidly
+expanding research field termed <i>systems biology</i>.
+Structural data encode informations about the 3D structures of
+molecules (nucleic acids (DNA, RNA), proteins, small molecules) and their
+interactions, and come from three main sources: X ray
+crystallography, NMR spectroscopy, cryo Electron Microscopy.
+Ultimately, structural data should expand our understanding of how the
+structure accounts for the function of macro-molecules – one of the
+central questions in structural biology. This goal actually subsumes
+two equally difficult challenges, which are <i>folding</i> – the
+process through which a protein adopts its 3D structure, and <i>docking</i> – the process through which two or several molecules
+assemble. Folding and docking are driven by non covalent interactions,
+and for complex systems, are actually inter-twined
+<ref xlink:href="#abs-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Apart from the bio-physical interests raised by these processes, two
+different application domains are concerned: in fundamental biology,
+one is primarily interested in understanding the machinery of the
+cell; in medicine, applications to drug design are developed.</p>
+      <p noindent="true" spacebefore="12.0pt"><b>Modeling in Computational Structural Biology.</b>
+Acquiring structural data is not always possible: NMR is restricted to
+relatively small molecules; membrane proteins do not crystallize, etc.
+As a matter of fact, the order of magnitude of the number of
+genomes sequenced is of the order of one thousand, which results in
+circa one million of genes recorded in the manually curated
+Swiss-Prot database.
+On the other hand, the Protein Data Bank contains circa 90,000
+structures. Thus, the paucity of structures with respect to the known
+number of genes calls for modeling in structural biology, so as to
+foster our understanding of the structure-to-function relationship.</p>
+      <p>Ideally, bio-physical models of macro-molecules should resort to
+quantum mechanics. While this is possible for small systems, say up to
+50 atoms, large systems are investigated within the framework of the
+Born-Oppenheimer approximation which stipulates the nuclei and the
+electron cloud can be decoupled.
+Example force fields developed in this realm are AMBER, CHARMM, OPLS.
+Of particular importance are Van der Waals models, where each atom is
+modeled by a sphere whose radius depends on the atom chemical type.
+From an historical perspective, Richards
+<ref xlink:href="#abs-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#abs-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and later Connolly
+<ref xlink:href="#abs-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, while defining molecular surfaces and
+developing algorithms to compute them, established the connexions
+between molecular modeling and geometric constructions. Remarkably, a
+number of difficult problems (e.g. additively weighted Voronoi
+diagrams) were touched upon in these early days.</p>
+      <p>The models developed in this vein are instrumental in investigating
+the interactions of molecules for which no structural data is
+available. But such models often fall short from providing complete
+answers, which we illustrate with the folding problem. On one hand, as
+the conformations of side-chains belong to discrete sets (the
+so-called rotamers or rotational isomers) <ref xlink:href="#abs-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+the number of distinct conformations of a poly-peptidic chain is
+exponential in the number of amino-acids. On the other hand, Nature
+folds proteins within time scales ranging from milliseconds to hours,
+while time-steps used in molecular dynamics simulations are of the
+order of the femto-second, so that biologically relevant time-scales
+are out reach for simulations. The fact that Nature avoids the
+exponential trap is known as Levinthal's paradox.
+The intrinsic difficulty of problems calls for models exploiting
+several classes of informations. For small systems, <i>ab initio</i>
+models can be built from first principles. But for more complex
+systems, <i>homology</i> or template-based models integrating a variable amount of
+knowledge acquired on similar systems are resorted to.</p>
+      <p>The variety of approaches developed are illustrated by the two
+community wide experiments CASP (<i>Critical Assessment of Techniques
+for Protein Structure Prediction</i>; <ref xlink:href="http://predictioncenter.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>predictioncenter.<allowbreak/>org</ref>) and
+CAPRI (<i>Critical Assessment of Prediction of Interactions</i>;
+<ref xlink:href="http://capri.ebi.ac.uk" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>capri.<allowbreak/>ebi.<allowbreak/>ac.<allowbreak/>uk</ref>), which allow models and prediction algorithms
+to be compared to experimentally resolved structures.</p>
+      <p spacebefore="6.0pt">As illustrated by the previous discussion, modeling macro-molecules
+touches upon biology, physics and chemistry, as well as
+mathematics and computer science. In the following, we present the
+topics investigated within <span class="smallcap" align="left">ABS</span>.</p>
+      <object id="uid4">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">
+              <ressource xlink:href="IMG/1vfb_chains_iatoms.jpg" type="inline" height="99.58464pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+            <td style="text-align:center;" halign="center">
+              <ressource xlink:href="IMG/conformers_1BTH_77-86__backbones10-20.jpg" type="inline" height="99.58464pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+            <td style="text-align:center;" halign="center">
+              <ressource xlink:href="IMG/Toleranced-model-canonical-configurations_subfig_pict.png" type="inline" height="99.58464pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+          <tr style="">
+            <td style="text-align:center;" halign="center">(a)</td>
+            <td style="text-align:center;" halign="center">(b)</td>
+            <td style="text-align:center;" halign="center">(c)</td>
+          </tr>
+          <caption/>
+        </table>
+        <caption><b>Geometric constructions in computational structural biology.</b>
+(a) An antibody-antigen complex, with interface atoms
+identified by our Voronoi based interface
+model. This model is
+instrumental in mining correlations between structural and
+biological as well as biophysical properties of protein complexes
+<ref xlink:href="#abs-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+(b) A diverse set of conformations of a backbone loop, selected
+thanks to a geometric optimization algorithm
+<ref xlink:href="#abs-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Such conformations are used by mean field
+theory based docking algorithms.
+(c) A toleranced model (TOM) of the nuclear pore complex, visualized at two
+different scales <ref xlink:href="#abs-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The parameterized family of
+shapes coded by a TOM is instrumental to identify stable properties
+of the underlying macro-molecular system.</caption>
+      </object>
+    </subsection>
+  </presentation>
+  <fondements id="uid5">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>The research conducted by <span class="smallcap" align="left">ABS</span> focuses on three main directions in
+Computational Structural Biology (CSB), together with the associated
+methodological developments:</p>
+      <p noindent="true">– Modeling interfaces and contacts,</p>
+      <p noindent="true">– Modeling macro-molecular assemblies,</p>
+      <p noindent="true">– Modeling the flexibility of macro-molecules,</p>
+      <p noindent="true">– Algorithmic foundations.
+</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Modeling interfaces and contacts</bodyTitle>
+      <p><b>Keywords:</b> Docking, interfaces, protein complexes, structural alphabets,
+scoring functions, Voronoi diagrams, arrangements of balls.
+</p>
+      <p>The Protein Data Bank, <ref xlink:href="http://www.rcsb.org/pdb" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>rcsb.<allowbreak/>org/<allowbreak/>pdb</ref>, contains the
+structural data which have been resolved experimentally. Most of the
+entries of the PDB feature isolated proteins <footnote id="uid8" id-text="1">For structures
+resolved by crystallography, the PDB contains the asymmetric unit of
+the crystal. Determining the biological unit from the asymmetric unit is
+a problem in itself.</footnote>, the remaining ones being
+protein - protein or protein - drug complexes.
+These structures feature what Nature
+does – up to the bias imposed by the experimental conditions inherent
+to structure elucidation, and are of special interest to investigate
+non-covalent contacts in biological complexes. More precisely,
+given two proteins defining a complex, interface atoms are defined as
+the atoms of one protein <i>interacting</i> with atoms of the second
+one. Understanding the structure of interfaces is central to
+understand biological complexes and thus the function of biological
+molecules <ref xlink:href="#abs-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Yet, in spite of almost three decades
+of investigations, the basic principles guiding the formation of
+interfaces and accounting for its stability are unknown
+<ref xlink:href="#abs-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Current investigations follow two routes.
+From the experimental perspective <ref xlink:href="#abs-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, directed
+mutagenesis enables one to quantify the energetic importance of
+residues, important residues being termed <i>hot</i> residues. Such
+studies recently evidenced the <i>modular</i> architecture of
+interfaces
+<ref xlink:href="#abs-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+From the modeling perspective, the main issue consists of guessing the
+hot residues from sequence and/or structural informations
+<ref xlink:href="#abs-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The description of interfaces is also of special interest to improve
+<i>scoring functions</i>. By scoring function, two things are meant:
+either a function which assigns to a complex a quantity homogeneous to
+a free energy change  <footnote id="uid9" id-text="2">The Gibbs free energy of a system is
+defined by <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>G</mi><mo>=</mo><mi>H</mi><mo>-</mo><mi>T</mi><mi>S</mi></mrow></math></formula>, with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>H</mi><mo>=</mo><mi>U</mi><mo>+</mo><mi>P</mi><mi>V</mi></mrow></math></formula>. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula> is minimum at an equilibrium,
+and differences in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>G</mi></math></formula> drive chemical reactions.</footnote>,
+or a function stating that a complex is more stable than another one,
+in which case the value returned is a score and not an energy.
+Borrowing to statistical mechanics <ref xlink:href="#abs-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Chapter
+7</ref>, the usual way to design scoring functions is to
+mimic the so-called potentials of mean force. To put it briefly, one
+reverts Boltzmann's law, that is, denoting <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>p</mi><mi>i</mi></msub><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mrow></math></formula> the probability of
+two atoms –defining type <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>i</mi></math></formula>– to be located at distance <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula>, the
+(free) energy assigned to the pair is computed as <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>E</mi><mi>i</mi></msub><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow><mo>=</mo><mo>-</mo><mi>k</mi><mi>T</mi><mo form="prefix">log</mo><msub><mi>p</mi><mi>i</mi></msub><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mrow></math></formula>.
+Estimating from the PDB one function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>p</mi><mi>i</mi></msub><mrow><mo>(</mo><mi>r</mi><mo>)</mo></mrow></mrow></math></formula> for each type of pair of
+atoms, the energy of a complex is computed as the sum of the energies
+of the pairs located within a distance threshold
+<ref xlink:href="#abs-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#abs-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. To compare the energy thus obtained to a
+reference state, one may compute <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>E</mi><mo>=</mo><msub><mo>∑</mo><mi>i</mi></msub><msub><mi>p</mi><mi>i</mi></msub><mo form="prefix">log</mo><msub><mi>p</mi><mi>i</mi></msub><mo>/</mo><msub><mi>q</mi><mi>i</mi></msub></mrow></math></formula>,
+with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>p</mi><mi>i</mi></msub></math></formula> the observed frequencies, and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>q</mi><mi>i</mi></msub></math></formula> the frequencies
+stemming from an a priori model <ref xlink:href="#abs-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In doing so,
+the energy defined is nothing but the Kullback-Leibler divergence
+between the distributions <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>{</mo><msub><mi>p</mi><mi>i</mi></msub><mo>}</mo></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>{</mo><msub><mi>q</mi><mi>i</mi></msub><mo>}</mo></mrow></math></formula>.</p>
+      <p spacebefore="12.0pt">Describing interfaces poses problems in two settings:
+static and dynamic.</p>
+      <p spacebefore="6.0pt">In the static setting, one seeks the minimalist geometric model
+providing a relevant bio-physical signal. A first step in doing so
+consists of identifying interface atoms, so as to relate the geometry and
+the bio-chemistry at the interface level <ref xlink:href="#abs-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+To elaborate at the atomic level, one seeks a structural alphabet
+encoding the spatial structure of proteins. At the side-chain and
+backbone level, an example of such alphabet is that of
+<ref xlink:href="#abs-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. At the atomic level and in spite of recent
+observations on the local structure of the neighborhood of a given
+atom <ref xlink:href="#abs-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, no such alphabet is known. Specific
+important local conformations are known, though. One of them is the
+so-called dehydron structure, which is an under-desolvated hydrogen
+bond – a property that can be directly inferred from the spatial
+configuration of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>C</mi><mi>α</mi></msub></math></formula> carbons surrounding a hydrogen bond
+<ref xlink:href="#abs-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p spacebefore="3.0pt">In the dynamic setting, one wishes to understand whether selected (hot) residues
+exhibit specific dynamic properties, so as to serve as anchors in
+a binding process <ref xlink:href="#abs-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. More generally, any
+significant observation raised in the static setting deserves
+investigations in the dynamic setting, so as to assess its
+stability. Such questions are also related to the problem of
+correlated motions, which we discuss next.
+</p>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Modeling macro-molecular assemblies</bodyTitle>
+      <p><b>Keywords:</b> Macro-molecular assembly, reconstruction by data
+integration, proteomics, modeling with uncertainties, curved Voronoi
+diagrams, topological persistence.
+</p>
+      <subsection id="uid11" level="2">
+        <bodyTitle>Reconstruction by Data Integration</bodyTitle>
+        <p>Large protein assemblies such as the Nuclear Pore Complex (NPC),
+chaperonin cavities, the proteasome or ATP synthases, to name a few,
+are key to numerous biological functions. To improve our
+understanding of these functions, one would ideally like to build and
+animate atomic models of these molecular machines. However, this task
+is especially tough, due to their size and their plasticity, but also
+due to the flexibility of the proteins involved.
+In a sense, the modeling challenges arising in this context are
+different from those faced for binary docking, and also from those
+encountered for intermediate size complexes which are often amenable
+to a processing mixing (cryo-EM) image analysis and classical docking.
+To face these new challenges, an emerging paradigm is that of
+reconstruction by data integration <ref xlink:href="#abs-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In a
+nutshell, the strategy is reminiscent from NMR and consists of mixing
+experimental data from a variety of sources, so as to find out the
+model(s) best complying with the data.
+This strategy has been in particular used to propose plausible models
+of the Nuclear Pore Complex <ref xlink:href="#abs-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, the largest assembly
+known to date in the eukaryotic cell, and consisting of 456 protein
+<i>instances</i> of 30 <i>types</i>.</p>
+      </subsection>
+      <subsection id="uid12" level="2">
+        <bodyTitle>Modeling with Uncertainties and Model Assessment</bodyTitle>
+        <p>Reconstruction by data integration requires three ingredients. First,
+a parametrized model must be adopted, typically a collection of balls
+to model a protein with pseudo-atoms. Second, as in NMR, a functional
+measuring the agreement between a model and the data must be
+chosen. In <ref xlink:href="#abs-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, this functional is based upon <i>restraints</i>, namely penalties associated to the experimental data.
+Third, an optimization scheme must be selected.
+The design of restraints is notoriously challenging, due to the
+ambiguous nature and/or the noise level of the data.
+For example, Tandem Affinity Purification (TAP) gives access to a <i>pullout</i> i.e. a list of protein types which are known to interact
+with one tagged protein type, but no information on the number of
+complexes or on the stoichiometry of proteins types within a complex
+is provided.
+In cryo-EM, the envelope enclosing an assembly is often imprecisely
+defined, in particular in regions of low density. For immuno-EM
+labelling experiments, positional uncertainties arise from the
+microscope resolution.</p>
+        <p spacebefore="6.0pt">These uncertainties coupled with the complexity of the functional
+being optimized, which in general is non convex, have two
+consequences.
+First, it is impossible to single out a unique reconstruction, and a
+set of plausible reconstructions must be considered. As an example,
+1000 plausible models of the NPC were reported in
+<ref xlink:href="#abs-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Interestingly, averaging the positions of all
+balls of a particular protein type across these models resulted in 30
+so-called <i>probability density maps</i>, each such map encoding the
+probability of presence of a particular protein type at a particular
+location in the NPC.
+Second, the assessment of all models (individual and averaged) is non
+trivial. In particular, the lack of straightforward statistical
+analysis of the individual models and the absence of assessment for
+the averaged models are detrimental to the mechanistic exploitation of
+the reconstruction results. At this stage, such models therefore
+remain qualitative.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Modeling the flexibility of macro-molecules</bodyTitle>
+      <p><b>Keywords:</b> Folding, docking, energy landscapes, induced fit,
+molecular dynamics, conformers, conformer ensembles, point clouds,
+reconstruction, shape learning, Morse theory.
+</p>
+      <p>Proteins in vivo vibrate at various frequencies: high frequencies
+correspond to small amplitude deformations of chemical bonds, while
+low frequencies characterize more global deformations. This
+flexibility contributes to the entropy thus the <tt>free energy</tt> of
+the system <i>protein - solvent</i>. From the experimental standpoint,
+NMR studies generate ensembles of conformations, called <tt>conformers</tt>, and so do molecular dynamics (MD) simulations.
+Of particular interest while investigating flexibility is the notion
+of correlated motion. Intuitively, when a protein is folded, all
+atomic movements must be correlated, a constraint which gets
+alleviated when the protein unfolds since the steric constraints get
+relaxed <footnote id="uid14" id-text="3">Assuming local forces are prominent, which in turn
+subsumes electrostatic interactions are not prominent.</footnote>.
+Understanding correlations is of special interest to predict the
+folding pathway that leads a protein towards its native state.
+A similar discussion holds for the case of partners within a complex,
+for example in the third step of the <i>diffusion - conformer
+selection - induced fit</i> complex formation model.</p>
+      <p>Parameterizing these correlated motions, describing the corresponding
+energy landscapes, as well as handling collections of conformations
+pose challenging algorithmic problems.</p>
+      <p spacebefore="6.0pt">At the side-chain level, the question of improving rotamer libraries
+is still of interest <ref xlink:href="#abs-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This question is
+essentially a clustering problem in the parameter space describing the
+side-chains conformations.</p>
+      <p>At the atomic level, flexibility is essentially investigated resorting
+to methods based on a classical potential energy (molecular dynamics),
+and (inverse) kinematics.
+A molecular dynamics simulation provides a point cloud sampling the
+conformational landscape of the molecular system investigated, as each
+step in the simulation corresponds to one point in the parameter space
+describing the system (the conformational space)
+<ref xlink:href="#abs-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The standard methodology to analyze such a point cloud consists of
+resorting to normal modes. Recently, though, more elaborate methods
+resorting to more local analysis
+<ref xlink:href="#abs-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, to Morse theory <ref xlink:href="#abs-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and
+to analysis of meta-stable states of time series
+<ref xlink:href="#abs-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> have been proposed.</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Algorithmic foundations</bodyTitle>
+      <p><b>Keywords:</b> Computational geometry, computational topology,
+optimization, data analysis.
+</p>
+      <p>Making a stride towards a better understanding of the biophysical
+questions discussed in the previous sections requires various
+methodological developments, which we briefly discuss now.</p>
+      <subsection id="uid16" level="2">
+        <bodyTitle>Modeling Interfaces and Contacts</bodyTitle>
+        <p>In modeling interfaces and contacts, one may favor geometric or
+topological information.</p>
+        <p>On the geometric side, the problem of modeling contacts at the atomic
+level is tantamount to encoding multi-body relations between an atom
+and its neighbors. On the one hand, one may use an encoding of
+neighborhoods based on geometric constructions such as Voronoi
+diagrams (affine or curved) or arrangements of balls. On the other
+hand, one may resort to clustering strategies in higher dimensional
+spaces, as the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula> neighbors of a given atom are represented by <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>3</mn><mi>p</mi><mo>-</mo><mn>6</mn></mrow></math></formula>
+degrees of freedom – the neighborhood being invariant upon rigid
+motions. The information gathered while modeling contacts can further
+be integrated into interface models.</p>
+        <p>On the topological side, one may favor constructions which remain
+stable if each atom in a structure <i>retains</i> the same neighbors,
+even though the 3D positions of these neighbors change to some
+extent. This process is observed in flexible docking cases, and call
+for the development of methods to encode and compare shapes undergoing
+tame geometric deformations.</p>
+      </subsection>
+      <subsection id="uid17" level="2">
+        <bodyTitle>Modeling Macro-molecular Assemblies</bodyTitle>
+        <p>In dealing with large assemblies, a number of methodological
+developments are called for.</p>
+        <p>On the experimental side, of particular interest is the disambiguation
+of proteomics signals. For example, TAP and mass spectrometry data
+call for the development of combinatorial algorithms aiming at
+unraveling pairwise contacts between proteins within an
+assembly. Likewise, density maps coming from electron microscopy,
+which are often of intermediate resolution (5-10Å) call the
+development of noise resilient segmentation and interpretation
+algorithms. The results produced by such algorithms can further be
+used to guide the docking of high resolutions crystal structures into
+maps.</p>
+        <p>As for modeling, two classes of developments are particularly
+stimulating. The first one is concerned with the design of algorithms
+performing reconstruction by data integration, a process reminiscent
+from non convex optimization. The second one encompasses assessment
+methods, in order to single out the reconstructions which best comply
+with the experimental data. For that endeavor, the development of
+geometric and topological models accommodating uncertainties is
+particularly important.</p>
+      </subsection>
+      <subsection id="uid18" level="2">
+        <bodyTitle>Modeling the Flexibility of Macro-molecules</bodyTitle>
+        <p>Given a sampling on an energy landscape, a number of fundamental
+issues actually arise: how does the point cloud describe the
+topography of the energy landscape (a question reminiscent from Morse
+theory)? Can one infer the effective number of degrees of freedom of
+the system over the simulation, and is this number varying?
+Answers to these questions would be of major interest to refine our
+understanding of folding and docking, with applications to the
+prediction of structural properties. It should be noted in passing
+that such questions are probably related to modeling phase transitions in
+statistical physics where geometric and topological methods are being
+used <ref xlink:href="#abs-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="12.0pt">From an algorithmic standpoint, such questions are reminiscent of
+<i>shape learning</i>. Given a collection of samples on an (unknown) <i>model</i>, <i>learning</i> consists of guessing the model from the samples
+– the result of this process may be called the <i>reconstruction</i>. In doing so, two types of guarantees are sought:
+topologically speaking, the reconstruction and the model should
+(ideally!) be isotopic; geometrically speaking, their Hausdorff
+distance should be small.
+Motivated by applications in Computer Aided Geometric Design, surface
+reconstruction triggered a major activity in the Computational
+Geometry community over the past ten years
+<ref xlink:href="#abs-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Aside from applications, reconstruction
+raises a number of deep issues:
+the study of distance functions to the model and to the samples,
+and their comparison; the study of Morse-like constructions stemming from distance
+functions to points; the analysis of topological invariants of the model and the samples,
+and their comparison.</p>
+      </subsection>
+    </subsection>
+  </fondements>
+  <highlights id="uid19">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>In 2016, several achievements are worth noticing in three realms,
+namely in computer science, computational structural biology, and
+software.</p>
+      <subsection id="uid21" level="2">
+        <bodyTitle>Computer Science</bodyTitle>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>Optimal transportation problems with connectivity constraints</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b> Optimal transportation theory provides a rich framework to compare
+<i>measures</i>, both in the continuous and discrete settings. In
+this work, we study generalization of discrete transportation
+problems, when the supply and demand nodes are endowed with a graph
+structure; due to these constraints, our study focuses on transport
+plans respecting selected connectivity constrains. Our contributions
+encompass a formalization of these problems, as well as hardness
+results and heuristic algorithms.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b> To the best of our knowledge, this work is the first one focusing on
+transport plans with connectivity constraints. One of the key
+applications targeted is the comparison of potential energy
+landscapes (PEL) in biophysics. Our algorithms provide a novel way to
+compare PEL, a topic overlooked so far.</p>
+        <p spacebefore="6.0pt"/>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>Clustering stability revealed by matchings between clusters of clusters</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b> Clustering is a fundamental problem in data science, yet, the variety
+of clustering methods and their sensitivity to parameters make
+clustering hard. This work provides a new tier of methods to
+compare two clusterings, by computing meta-clusters within each
+clustering– a meta-cluster is a group of clusters, together with a
+matching between these.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b>  Our methods will help assess the coherence between two clusterings,
+in two respects: by stressing the (lack of) stability of clustering
+while varying the parameters of a given algorithm, and by allowing a
+detailed comparisons of various algorithms.</p>
+        <p spacebefore="6.0pt"/>
+      </subsection>
+      <subsection id="uid22" level="2">
+        <bodyTitle>Computational Structural Biology</bodyTitle>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>Novel structural parameters of Ig-Ag complexes yield a quantitative description of interaction specificity and binding affinity</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b> Understanding the specificity of antibodies for the targeted
+antigens, and predicting the affinity an antibody - antigen
+complexes is a central question in structural immunology. Using
+novel parameters acting as proxys for important biophysical
+quantities, we obtained affinity predictions of unprecedented
+accuracy, and were able to provide a quantitative explanation for
+the specific role of so-called <i>complementarity determining
+regions</i> – in particular CDR3 of heavy chains. See details in
+section <ref xlink:href="#uid59" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b> Our affinity predictions are the most accurate known to date, and show that for certain classes
+of IG - Ag complexes, the affinity prediction problem may be solved from databases of high resolution
+crystal structures.</p>
+        <p spacebefore="6.0pt"/>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>Energy landscapes and persistent minima</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b>  Potential energy landscapes (PEL) of molecular systems are complex
+high-dimensional height functions. In this work, we introduced
+several tools from graph theory, optimization, and computational
+topology, so as to identify prominent features of PEL – prosaically
+distinguishing the signal from the noise. See details in section
+<ref xlink:href="#uid62" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b>  Our work calls for important developments in two directions. The
+first one is concerned with the <i>calibration / learning</i> of
+features of PEL. The second one is the systematic comparison of
+force fields used in biophysics, as from current knowledge, deciding which force
+field is best for a given task or system is an open issue.</p>
+        <p spacebefore="6.0pt"/>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>Hybridizing rapidly growing random trees and basin hopping yields an improved exploration of energy landscapes</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b>  We developed a novel exploration algorithm for high-dimensional non
+convex (potential) energy functions used in biophysics. Our
+algorithm exploits the ability of <i>basin hopping</i> to locate
+low-lying local minima, and that of <i>rapidly exploring random
+tree</i> to foster the exploration of yet unexplored regions. See
+details in section <ref xlink:href="#uid63" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b> Our exploration algorithm outperform the two classical algorithms it
+is derived from. To strike a major impact, though, our exploration
+strategy needs to be complemented by enhanced thermodynamic sampling
+algorithms, able to bridge the gap between structures on the one
+hand, and thermodynamics / dynamics on the other hand.</p>
+        <p spacebefore="6.0pt"/>
+      </subsection>
+      <subsection id="uid23" level="2">
+        <bodyTitle>Software</bodyTitle>
+        <p noindent="true">
+          <formula type="inline">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+              <mo>▸</mo>
+            </math>
+          </formula>
+          <b>The Structural Bioinformatics Library</b>
+        </p>
+        <p noindent="true">
+          <b>Reference:</b>
+          <ref xlink:href="#abs-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </p>
+        <p spacebefore="3.0pt" noindent="true"><b>In a nutshell:</b> The SBL was released in 2015. In 2016, two important milestones were
+achieved, with the addition of several important packages, notably
+geared towards the generation and the analysis of conformational
+ensembles, and the publication of <ref xlink:href="#abs-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>–to
+appear in Bioinformatics.</p>
+        <p spacebefore="3.0pt" noindent="true"><b>Assessment:</b>  As outlined by the reviewers of <ref xlink:href="#abs-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, the SBL
+is to the best of our knowledge the first library proposing a
+coherent framework, in terms of algorithms, data structures and
+biophysical models, to tackle the most important problems in
+structural bioinformatics.
+Our paper presenting the SBL being in press as of December 2016,
+statistics on users and downloads will be reported in the 2017
+activity report.</p>
+        <p spacebefore="6.0pt"/>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid24">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid25" level="1">
+      <bodyTitle>The Structural Bioinformatics Library</bodyTitle>
+      <subsection id="uid26" level="2">
+        <bodyTitle>The <tt>SBL</tt> : overview</bodyTitle>
+        <p>The <tt>SBL</tt>  (<ref xlink:href="http://sbl.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sbl.<allowbreak/>inria.<allowbreak/>fr</ref>) is a generic C++/python library
+providing algorithms and applications to solve complex problems in
+computational structural biology (CSB). <ref xlink:href="#abs-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p spacebefore="6.0pt">For Biologists, the key advantages are:</p>
+        <simplelist>
+          <li id="uid27">
+            <p noindent="true">comprehensive in silico environment providing software
+applications,</p>
+          </li>
+          <li id="uid28">
+            <p noindent="true">answering complex bio-physical problems (modeling interfaces and
+contacts, modeling the flexibility of proteins, and modeling
+macro-molecular assemblies),</p>
+          </li>
+          <li id="uid29">
+            <p noindent="true">in a robust, fast and reproducible way.</p>
+          </li>
+        </simplelist>
+        <p>For Developers, the striking facts are:</p>
+        <simplelist>
+          <li id="uid30">
+            <p noindent="true">broad C++/python toolbox,</p>
+          </li>
+          <li id="uid31">
+            <p noindent="true">with modular design and careful specifications,</p>
+          </li>
+          <li id="uid32">
+            <p noindent="true">fostering the development of complex applications.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid33" level="2">
+        <bodyTitle>The <tt>SBL</tt> : rationale and design</bodyTitle>
+        <p>Software development generally faces a dichotomy, with on the one hand generic
+libraries providing methods of ubiquitous interest, and on the other
+hand application driven libraries targeting specific application
+areas.
+Libraries in the former category typically provide state-of-the art
+low level algorithms carefully specified, at the detriment of high
+level applications.
+Libraries in the latter category are generally high level and
+user-friendly, but the lack of formalism often makes it difficult to
+couple them to low level algorithms with formal specifications.
+The <tt>SBL</tt>  ambitions to reconcile both software development
+philosophies, based on an advanced design suited for all classes of
+users and developers.</p>
+        <p spacebefore="6.0pt">In terms of high-level operations, the <tt>SBL</tt>  provides various
+applications revolving around the problem of understanding the
+relationship between the structure and the function of macro-molecules
+and their complexes (see below).
+In terms of low-level operations, the design of the <tt>SBL</tt>  is meant to
+accommodate both
+the variety of models coding the physical and chemical properties of
+macro-molecular systems (models based on unions of balls such as van
+der Walls models or solvent accessible models, or models based on
+conformations and conformational ensembles),
+as well as the variety of operations (geometric, topological, and
+combinatorial) undertaken on these models.</p>
+        <p>More precisely, the <tt>SBL</tt>  consists of the following software
+components, detailed below:</p>
+        <simplelist>
+          <li id="uid34">
+            <p noindent="true"><tt>SBL-APPLICATIONS</tt><b>:</b> high level applications solving specific applied
+problems.</p>
+          </li>
+          <li id="uid35">
+            <p noindent="true"><tt>SBL-CORE</tt><b>:</b> low-level generic C++ classes
+templated by traits classes specifying C++ concepts
+<footnote id="uid36" id-text="4">The design has
+been guided by that used in the Computational Geometry Algorithm
+Library (CGAL), see <ref xlink:href="http://www.cgal.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cgal.<allowbreak/>org</ref></footnote>.</p>
+          </li>
+          <li id="uid37">
+            <p noindent="true"><tt>SBL-MODELS</tt><b>:</b> C++ <i>models</i> matching the C++ concepts required
+to instantiate classes from <tt>SBL-CORE</tt>.</p>
+          </li>
+          <li id="uid38">
+            <p noindent="true"><tt>SBL-MODULES</tt><b>:</b> C++ classes instantiating classes from
+the <tt>SBL-CORE</tt> with specific biophysical models from
+<tt>SBL-MODELS</tt>. A module may be seen as a black box transforming an input into an
+output. With modules, an application workflow consists of
+interconnected modules.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid39" level="2">
+        <bodyTitle>The <tt>SBL</tt>  for end-users: <tt>SBL-APPLICATIONS</tt></bodyTitle>
+        <p>End
+users will find in the <tt>SBL</tt>  portable applications running on all
+platforms (Linux, MacOS, Windows). These applications split into the
+following categories:</p>
+        <simplelist>
+          <li id="uid40">
+            <p noindent="true"><b>Space Filling Models:</b> applications dealing with molecular
+models defined by unions of balls.</p>
+          </li>
+          <li id="uid41">
+            <p noindent="true"><b>Conformational Analysis:</b> applications dealing with
+molecular flexibility.</p>
+          </li>
+          <li id="uid42">
+            <p noindent="true"><b>Large assemblies:</b> applications dealing with
+macro-molecular assemblies involving from tens to hundreds of
+macro-molecules.</p>
+          </li>
+          <li id="uid43">
+            <p noindent="true"><b>Data Analysis:</b> applications providing novel data analysis - statistical analysis tools.</p>
+          </li>
+          <li id="uid44">
+            <p noindent="true"><b>Data Management:</b> applications to handle input data and
+results, using standard tools revolving around the XML file format
+(in particular the XPath query language). These tools allow
+automating data storage, parsing and retrieval, so that upon running
+calculations with applications, statistical analysis and plots are a
+handful of python lines away.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid45" level="2">
+        <bodyTitle>The <tt>SBL</tt>  for developers: <tt>SBL-CORE</tt>, <tt>SBL-MODELS</tt> and <tt>SBL-MODULES</tt></bodyTitle>
+        <p>The <tt>SBL</tt>  makes it easy to develop novel high-level applications, by
+providing high level ready to use C++ classes instantiating various
+biophysical models.</p>
+        <p>In particular, modules allow the development of applications without
+the burden of instantiating low level classes. In fact, once modules
+are available, designing an application merely consists of connecting
+modules.</p>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle> The <tt>SBL</tt>  for low-level developers and contributors: <tt>SBL-CORE</tt>,
+and <tt>SBL-MODELS</tt></bodyTitle>
+        <p>Low level developments may use classes from / contribute classes
+to <tt>SBL-CORE</tt> and <tt>SBL-MODELS</tt>. In fact, such developments are equivalent
+to those based upon C++ libraries such as CGAL
+(<ref xlink:href="http://www.cgal.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cgal.<allowbreak/>org/</ref>) or boost C++ libraries
+(<ref xlink:href="http://www.boost.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>boost.<allowbreak/>org/</ref>). It should be noticed that the <tt>SBL</tt>  heavily relies on these libraries. The <tt>SBL-CORE</tt> is organized into
+four sub-sections:</p>
+        <simplelist>
+          <li id="uid47">
+            <p noindent="true">CADS : Combinatorial Algorithms and Data Structures.</p>
+          </li>
+          <li id="uid48">
+            <p noindent="true">GT : Computational geometry and computational topology.</p>
+          </li>
+          <li id="uid49">
+            <p noindent="true">CSB : Computational Structural Biology.</p>
+          </li>
+          <li id="uid50">
+            <p noindent="true">IO : Input / Output.</p>
+          </li>
+        </simplelist>
+        <p>It should also be stressed that these packages implement algorithms not
+available elsewhere, or available in a non-generic guise. Due to the
+modular structure of the library, should valuable implementations be
+made available outside the <tt>SBL</tt>  (e.g. in CGAL or boost), a
+substitution may occur.</p>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Interoperability</bodyTitle>
+        <p>The <tt>SBL</tt>  is interoperable with existing
+molecular modeling systems, at several levels:</p>
+        <simplelist>
+          <li id="uid52">
+            <p noindent="true">At the library level, our state-of-the-art algorithms (e.g. the
+computation of molecular surfaces and volumes) can be integrated
+within existing software by instantiating the required classes from
+<tt>SBL-CORE</tt>, or using the adequate modules.</p>
+          </li>
+          <li id="uid53">
+            <p noindent="true">At the application level, our applications can easily be integrated
+within processing pipelines, since the format used for input and
+output are standard ones. (For input, the PDB format can always be
+used. For output, our applications generate XML files.)</p>
+          </li>
+          <li id="uid54">
+            <p noindent="true">Finally, for visualization purposes, our applications generate outputs
+for the two reference molecular modeling environments, namely Visual
+Molecular Dynamics (<ref xlink:href="http://www.ks.uiuc.edu/Research/vmd/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ks.<allowbreak/>uiuc.<allowbreak/>edu/<allowbreak/>Research/<allowbreak/>vmd/</ref>) and
+Pymol (<ref xlink:href="http://www.pymol.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>pymol.<allowbreak/>org/</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Releases, distribution, and license</bodyTitle>
+        <p>The <tt>SBL</tt>  is released under a proprietary open source license, see
+<ref xlink:href="http://sbl.inria.fr/license/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sbl.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>license/</ref>.</p>
+        <p>The source code is distributed from <ref xlink:href="http://sbl.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sbl.<allowbreak/>inria.<allowbreak/>fr</ref>, using
+tarballs and a git repository. Bugzilla is used to handle user's
+feedback and bug tracking.</p>
+      </subsection>
+    </subsection>
+  </logiciels>
+  <resultats id="uid56">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Modeling interfaces and contacts</bodyTitle>
+      <p><b>Keywords:</b> docking, scoring, interfaces, protein complexes, Voronoi diagrams,
+arrangements of balls.
+</p>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Predicting binding poses and affinities for protein - ligand complexes in the 2015 D3R Grand Challenge using a physical model with a statistical parameter estimation</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idp70608">
+            <firstname>Simon</firstname>
+            <lastname>Marillet</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with Sergei Grudinin, Maria Kadukova and Andreas Eisenbarth
+(Univ. Grenoble Alpes / CNRS / Inria, France).</p>
+        </moreinfo>
+        <p>The 2015 D3R Grand Challenge provided an opportunity to test our new
+model for the binding free energy of small molecules
+<ref xlink:href="#abs-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, as well as to assess our protocol to
+predict binding poses for protein-ligand complexes. Our pose
+predictions were ranked 3-9 for the HSP90 dataset, depending on the
+assessment metric. For the MAP4K dataset the ranks are very dispersed
+and equal to 2-35, depending on the assessment metric, which does not
+provide any insight into the accuracy of the method. The main success
+of our pose prediction protocol was the re-scoring stage using the
+recently developed Convex-PL potential. We make a thorough analysis of
+our docking predictions and discuss the effect of the choice of rigid
+receptor templates, the number of flexible residues in the binding
+pocket, the binding pocket size, and the subsequent re-scoring.</p>
+        <p>However, the main challenge was to predict experimentally determined
+binding affinities for two blind test sets. Our affinity prediction
+model consisted of two terms, a pairwise-additive enthalpy, and a non
+pairwise-additive entropy. We trained the free parameters of the model
+with a regularized regression using affinity and structural data from
+the PDBBind database. Our model performed very well on the training
+set, however, failed on the two test sets. We explain the drawback and
+pitfalls of our model, in particular in terms of relative coverage of
+the test set by the training set and missed dynamical properties from
+crystal structures, and discuss different routes to improve it.</p>
+      </subsection>
+      <subsection id="uid59" level="2">
+        <bodyTitle>Novel structural parameters of Ig-Ag complexes yield a quantitative description of interaction specificity and binding affinity</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idp70608">
+            <firstname>Simon</firstname>
+            <lastname>Marillet</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with Pierre Boudinot (INRA Jouy-en-Josas)
+and M-P. Lefranc (University of Montpellier 2).</p>
+        </moreinfo>
+        <p>Antibody-antigen complexes challenge our understanding, as analyses to
+date failed to unveil the key determinants of binding affinity and
+interaction specificity. In this work <ref xlink:href="#abs-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+partially fill this gap based on novel quantitative analyses using two
+standardized databases, the IMGT/3Dstructure-DB and the structure
+affinity benchmark.</p>
+        <p>First, we introduce a statistical analysis of interfaces which enables
+the classification of ligand types (protein, peptide, chemical;
+cross-validated classification error of 9.6%), and yield binding
+affinity predictions of unprecedented accuracy (median absolute error
+of 0.878 kcal/mol). Second, we exploit the contributions made by CDRs
+in terms of position at the interface and atomic packing properties to
+show that in general, VH CDR3 and VL CDR3 make dominant contributions
+to the binding affinity, a fact also shown to be consistent with the
+enthalpy - entropy compensation associated with pre-configuration of
+CDR3. Our work suggests that the affinity prediction problem could be
+solved from databases of high resolution crystal structures of
+complexes with known affinity.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>Modeling macro-molecular assemblies</bodyTitle>
+      <p><b>Keywords:</b> macro-molecular assembly, reconstruction by data integration,
+proteomics, modeling with uncertainties, curved Voronoi diagrams,
+topological persistence.
+</p>
+      <p>No new result on this topic in 2016.</p>
+    </subsection>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Modeling the flexibility of macro-molecules</bodyTitle>
+      <p><b>Keywords:</b> protein, flexibility, collective coordinate,
+conformational sampling dimensionality reduction.
+</p>
+      <subsection id="uid62" level="2">
+        <bodyTitle>Energy landscapes and persistent minima</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with David Wales and Joanne Carr, from Cambridge University (UK).</p>
+        </moreinfo>
+        <p>In this work <ref xlink:href="#abs-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we consider a coarse-graining
+of high-dimensional potential energy landscapes based upon
+persistences—which correspond to lowest barrier heights to
+lower-energy minima. Persistences can be calculated efficiently for
+local minima in kinetic transition networks that are based on
+stationary points of the prevailing energy landscape. The networks
+studied here represent peptides, proteins, nucleic acids, an atomic
+cluster, and a glassy system. Minima with high persistence values are
+likely to represent some form of alternative structural morphology,
+which, if appreciably populated at the prevailing temperature, could
+compete with the global minimum (defined as in- finitely
+persistent). Threshold values on persistences (and in some cases
+equilibrium occupation probabilities) have therefore been used in this
+work to select subsets of minima, which were then analysed to see how
+well they can represent features of the full network. Simplified
+disconnectivity graphs showing only the selected minima can convey the
+funnelling (including any multiple-funnel) characteristics of the
+corresponding full graphs. The effect of the choice of persistence
+threshold on the reduced disconnectivity graphs was considered for a
+system with a hierarchical, glassy landscape. Sets of persistent
+minima were also found to be useful in comparing networks for the same
+system sampled under different conditions, using minimum oriented
+spanning forests.</p>
+      </subsection>
+      <subsection id="uid63" level="2">
+        <bodyTitle>Hybridizing rapidly growing random trees and basin hopping yields an improved exploration of energy landscapes</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idm28480">
+            <firstname>Tom</firstname>
+            <lastname>Dreyfus</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Andrea</firstname>
+            <lastname>Roth</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with Charles Robert (IBPC / CNRS, Paris, France).</p>
+        </moreinfo>
+        <p>The number of local minima of the potential energy landscape (PEL) of
+molecular systems generally grows exponentially with the number of
+degrees of freedom, so that a crucial property of PEL exploration
+algorithms is their ability to identify local minima which are low
+lying and diverse. In this work <ref xlink:href="#abs-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we
+present a new exploration algorithm, retaining the ability of basin
+hopping (BH) to identify local minima, and that of transition based
+rapidly exploring random trees (T-RRT) to foster the exploration of
+yet unexplored regions. This ability is obtained by interleaving calls
+to the extension procedures of BH and T-RRT, and we show tuning the
+balance between these two types of calls allows the algorithm to focus
+on low lying regions. Computational efficiency is obtained using
+state-of-the art data structures, in particular for searching
+approximate nearest neighbors in metric spaces. We present results
+for the BLN69, a protein model whose conformational space has
+dimension 207 and whose PEL has been studied exhaustively. On this
+system, we show that the propensity of our algorithm to explore low
+lying regions of the landscape significantly outperforms those of BH
+and T-RRT.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>Algorithmic foundations</bodyTitle>
+      <p><b>Keywords:</b> computational geometry, Computational topology, Voronoi diagrams,
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>α</mi></math></formula>-shapes, Morse theory, graph algorithm, combinatorial optimization, statistical learning.
+</p>
+      <subsection id="uid65" level="2">
+        <bodyTitle>The Structural Bioinformatics Library: modeling in biomolecular science and beyond</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idm28480">
+            <firstname>Tom</firstname>
+            <lastname>Dreyfus</lastname>
+          </person>
+        </participants>
+        <p>Software in structural bioinformatics has mainly been application
+driven. To favor practitioners seeking off-the-shelf applications, but
+also developers seeking advanced building blocks to develop novel
+applications, we undertook the design of the Structural Bioinformatics
+Library (SBL, http://sbl. inria.fr) <ref xlink:href="#abs-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, a
+generic C++/python cross-platform software library targeting complex
+problems in structural bioinformatics. Its tenet is based on a modular
+design offering a rich and versatile framework allowing the
+development of novel applications requiring well specified complex
+operations, without compromising robustness and performances.</p>
+        <p>The SBL involves four software components (1-4 thereafter). For
+end-users, the SBL provides ready to use, state-of-the-art (1)
+applications to handle molecular models defined by unions of balls, to
+deal with molecular flexibility, to model macro-molecular
+assemblies. These tools can also be combined to tackle integrated
+analysis problems. For developers, the SBL provides a broad C++
+toolbox with modular design, involving (2) core algorithms, (3)
+biophysical models, and (4) modules, the latter being especially
+suited to develop novel applications. The SBL comes with a thorough
+documentation consisting of user and reference manuals, and a bugzilla
+platform to handle community feedback.</p>
+        <p>The SBL is available from <ref xlink:href="http://sbl.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sbl.<allowbreak/>inria.<allowbreak/>fr</ref>.</p>
+      </subsection>
+      <subsection id="uid66" level="2">
+        <bodyTitle>Optimal transportation problems with connectivity constraints</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <p>The earth mover distance (EMD) or the Mallows distance are example
+optimal transportation (OT) problems reducing to linear programs. In
+this work <ref xlink:href="#abs-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we study a generalization of these
+problems when the supply and demand nodes are the vertices of two
+graphs called the supply and the demand graphs. The novel problems
+embed connectivity constraints in the transport plans computed, using
+a Lipschitz-like condition involving distances between certain
+subgraphs of the supply graph and certain subgraphs of the demand
+graph. More precisely, we make three contributions.</p>
+        <p>First, we formally introduce two optimal transportation problems
+generalizing EMD, namely Minimum-cost under flow, transport size, and
+connectivity constraints problem (problem EMD-FCC) and Maximum-flow
+under cost, transport size, and connectivity constraints problem
+(problem EMD-CCC). We prove that problems EMD-CCC and EMD-FCC are
+NP-complete, and that EMD-FCC is hard to approximate within any given
+constant. Second, we develop a greedy heuristic algorithm returning
+admissible solutions, of time complexity <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>3</mn></msup><msup><mi>m</mi><mn>2</mn></msup><mo>)</mo></mrow></math></formula> with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> the
+numbers of vertices of the supply and demand graphs,
+respectively. Third, on the experimental side, we apply our novel OT
+algorithms for two applications, namely the comparison of clusterings,
+and the analysis of so-called potential energy landscapes in molecular
+science. These experiments show that optimizing the transport plan and
+respecting connectivity constraint can be competing
+objectives. Implementations of our algorithms are available in the
+Structural Bioinformatics Library at <ref xlink:href="http://sbl.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sbl.<allowbreak/>inria.<allowbreak/>fr</ref>.</p>
+      </subsection>
+      <subsection id="uid67" level="2">
+        <bodyTitle>Clustering stability revealed by matchings between clusters of clusters</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm29960">
+            <firstname>Frédéric</firstname>
+            <lastname>Cazals</lastname>
+          </person>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+          <person key="abs-2014-idp74528">
+            <firstname>Romain</firstname>
+            <lastname>Tetley</lastname>
+          </person>
+        </participants>
+        <p>Clustering is a fundamental problem in data science, yet, the variety
+of clustering methods and their sensitivity to parameters make
+clustering hard. To analyze the stability of a given clustering
+algorithm while varying its parameters, and to compare clusters
+yielded by different algorithms, several comparison schemes based on
+matchings, information theory and various indices (Rand, Jaccard) have
+been developed. In this work <ref xlink:href="#abs-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we go beyond
+these by providing a novel class of methods computing meta-clusters
+within each clustering– a meta-cluster is a group of clusters,
+together with a matching between these. Altogether, these pieces of
+information help assessing the coherence between two clusterings.</p>
+        <p>More specifically, let the intersection graph of two clusterings be
+the edge-weighted bipartite graph in which the nodes represent the
+clusters, the edges represent the non empty intersection between two
+clusters, and the weight of an edge is the number of common items. We
+introduce the so-called (k,D) and D-family-matching problems on
+intersection graphs, with k the number of meta-clusters and D the
+upper-bound on the diameter of the graph induced by the clusters of
+any meta-cluster. First we prove hardness and inapproximability
+results. Second, we design exact polynomial time dynamic programming
+algorithms for some classes of graphs (in particular trees). Then, we
+prove efficient (exact, approximation, and heuristic) algorithms,
+based on spanning trees, for general graphs. Practically, we present
+extensive experiments in two directions. First, we illustrate the
+ability of our algorithms to identify relevant meta-clusters between a
+given clustering and an edited version of it. Second, we show how our
+methods can be used to identify notorious instabilities of the k-means
+algorithm.</p>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Experimental evaluation of a branch and bound algorithm for computing pathwidth</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with David Coudert and Nicolas Nisse (COATI project-team,
+Université Côte D'Azur, Inria, I3S / CNRS).</p>
+        </moreinfo>
+        <p><i>Path-decompositions</i> of graphs are an important ingredient of dynamic
+programming algorithms for solving efficiently many NP-hard problems.
+Therefore, computing the pathwidth and associated path-decomposition of graphs
+has both a theoretical and practical interest.
+In <ref xlink:href="#abs-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we design a Branch and Bound algorithm that computes the exact
+pathwidth of graphs and a corresponding path-decomposition. Our main
+contribution consists of several non-trivial techniques to reduce the size of
+the input graph (pre-processing) and to cut the exploration space during the
+search phase of the algorithm.
+We evaluate experimentally our algorithm by comparing it to existing
+algorithms of the literature. It appears from the simulations that our
+algorithm offers a significant gain with respect to previous work. In
+particular, it is able to compute the exact pathwidth of any graph with less
+than 60 nodes in a reasonable running-time (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>≤</mo><mn>10</mn></mrow></math></formula> minutes on a standard laptop). Moreover, our
+algorithm achieves good performance when used as a heuristic (i.e., when
+returning best result found within bounded time-limit).
+Our algorithm is not restricted to undirected graphs since it actually
+computes the directed pathwidth which generalizes the notion of pathwidth to digraphs.</p>
+      </subsection>
+      <subsection id="uid69" level="2">
+        <bodyTitle>Extracting the core structural connectivity network: guaranteeing network connectedness through a graph-theoretical approach</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with
+Demian Wassermann, Guillermo Gallardo-Diez and Rachid Deriche
+(ATHENA project-team, Université Côte d'Azur, Inria).</p>
+        </moreinfo>
+        <p>In this work <ref xlink:href="#abs-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we present a graph-theoretical algorithm to
+extract the connected core structural connectivity network of a
+subject population. Extracting this core common network across
+subjects is a main problem in current neuroscience. Such network
+facilitates cognitive and clinical analyses by reducing the number of
+connections that need to be explored. Furthermore, insights into the
+human brain structure can be gained by comparing core networks of
+different populations. We show that our novel algorithm has
+theoretical and practical advantages. First, contrary to the current
+approach our algorithm guarantees that the extracted core subnetwork
+is connected agreeing with current evidence that the core structural
+network is tightly connected. Second, our algorithm shows enhanced
+performance when used as feature selection approach for connectivity
+analysis on populations.</p>
+      </subsection>
+      <subsection id="uid70" level="2">
+        <bodyTitle>On the complexity of the representation of simplicial complexes by trees</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with Jean-Daniel Boissonnat (DataShape team, Université Côte d'Azur, Inria).</p>
+        </moreinfo>
+        <p>In this paper <ref xlink:href="#abs-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we investigate the
+problem of the representation of simplicial complexes by trees. We
+introduce and analyze local and global tree representations. We prove
+that the global tree representation is more efficient in terms of time
+complexity for searching a given simplex and we show that the local
+tree representation is more efficient in terms of size of the
+structure. The simplicial complexes are modeled by hypergraphs. We
+then prove that the associated combinatorial optimization problems are
+very difficult to solve and to approximate even if the set of maximal
+simplices induces a planar graph of maximum degree at most three or a
+bounded degree hypergraph. However, we prove polynomial time
+algorithms that compute constant factor approximations and optimal
+solutions for some classes of instances.</p>
+      </subsection>
+      <subsection id="uid71" level="2">
+        <bodyTitle>Well balanced designs for data placement</bodyTitle>
+        <participants>
+          <person key="abs-2014-idm27264">
+            <firstname>Dorian</firstname>
+            <lastname>Mazauric</lastname>
+          </person>
+        </participants>
+        <moreinfo>
+          <p>In collaboration with Jean-Claude Bermond (COATI project-team,
+Université Côte D'Azur, Inria, I3S / CNRS), Alain Jean-Marie
+(MAESTRO project-team, Université Côte D'Azur, Inria) and Joseph Yu (Department of Mathematics, UFV, Abbotsford, BC, Canada).</p>
+        </moreinfo>
+        <p>The problem we consider in <ref xlink:href="#abs-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is motivated by
+data placement, in particular data replication in distributed storage
+and retrieval systems. We are given a set <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula> of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>v</mi></math></formula> servers along with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>b</mi></math></formula>
+files (data, documents). Each file is replicated on exactly <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula> servers.
+A placement consists in finding a family of b subsets of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>
+(representing the files) called blocks, each of size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>. Each server
+has some probability to fail and we want to find a placement that
+minimizes the variance of the number of available files. It was
+conjectured that there always exists an optimal placement (with
+variance better than any other placement for any value of the
+probability of failure). We show that the conjecture is true, if there
+exists a well-balanced design, that is a family of blocks, each of size
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>k</mi></math></formula>, such that each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>j</mi></math></formula>-element subset of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula>, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>≤</mo><mi>j</mi><mo>≤</mo><mi>k</mi></mrow></math></formula>, belongs
+to the same or almost the same number of blocks (difference at most
+one).
+The existence of well-balanced designs is a difficult problem as it contains, as a subproblem, the existence of Steiner systems. We completely solve the case math formula and give bounds and constructions for math formula and some values of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>v</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>b</mi></math></formula>.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid72">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid73" level="1">
+      <bodyTitle>Bilateral contracts with industry</bodyTitle>
+      <p>In this section, we describe the collaboration between ABS and MS Vision
+(<ref xlink:href="http://msvision.eu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>msvision.<allowbreak/>eu/</ref>), and company based in the Netherlands.
+MSVision was created in 2004 and currently involves 20 employees; it
+is a worldwide leader in delivering tailored hardware solutions to the
+mass spectrometry community. As detailed below, the collaboration aims
+at strengthening the offer of the company on the algorithmic and
+software sides.</p>
+      <p>This collaboration is funded by the Instituts Carnots
+(<ref xlink:href="http://www.instituts-carnot.eu/en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>instituts-carnot.<allowbreak/>eu/<allowbreak/>en</ref>).</p>
+      <subsection id="uid74" level="2">
+        <bodyTitle>Context</bodyTitle>
+        <p>Protein complexes underlie most biological functions, so that
+studying such complexes in native conditions (intact molecular species
+taken in solution) is of paramount importance in biology and medicine.
+Unfortunately, the two leading experimental techniques to date, X ray
+crystallography and cryo electron microscopy, involve aggressive
+sample reparation (sample crystallization and sample freezing in
+amorphous ice, respectively) which may damage the structures and/or
+create artifacts. These experimental constraints legitimate the use of
+mass spectrometry (MS) to study biomolecules and their complexes under
+native conditions, using electrospray ionization (ESI), a soft
+ionization technique developed by John Fenn (Nobel prize in chemistry,
+2002). MS actually delivers information on the masses of the molecular
+species studied, from which further information on the stoichiometry,
+topology and contacts between subunits can be inferred. Thanks to
+ESI, MS is expected to play a pivotal role in biology to unravel the
+structure of macromolecular complexes underlying all major
+biological processes, in medicine and biotechnology to understand the
+complex patterns of molecules involved in pathways, and also in
+biotechnologies for quality checks.</p>
+      </subsection>
+      <subsection id="uid75" level="2">
+        <bodyTitle>Specific goals</bodyTitle>
+        <p>A mass spectrometer delivers a mass spectrum, i.e. an
+histogram representing the relative abundance of the ions (ionized
+proteins or protein complexes in our case), as a function of their
+mass-to-charge (m/z) ratio. Deconvoluting a mass spectrum means
+transforming it into a human readable mass histogram. Due to the
+nature of the ESI process (i.e. the inclusion of solvent and various
+other molecules) and the intrinsic variability of the studied
+biomolecules in native conditions, the interpretation of such spectra
+is delicate. Methods currently used are of heuristic nature, failing
+to satisfactorily handle the aforementioned difficulties.
+The goal of this collaboration is to develop optimal algorithms and
+the associated software to fill the critical gap of mass spectra
+deconvolution. The benefits for the analyst will be twofold, namely
+time savings, and the identification of previously undetected
+components.
+Upon making progress on the deconvolution problem, the collaboration
+will be expanded on the geometric and topological modeling of large
+macro-molecular assemblies, a topic to which ABS recently made
+significant contributions
+<ref xlink:href="#abs-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#abs-2016-bid42" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <diffusion id="uid76">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Promoting scientific activities</bodyTitle>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid79" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <p>Frédéric Cazals, together with C. Robert (IBPC, CNRS Paris) and J. Cortés
+(LAAS, CNRS Toulouse) organized the <i>energy landscapes</i> workshop,
+an international gathering devoted to all topics revolving around
+energy landscapes, as encountered in physics, chemistry, biochemistry,
+biology, applied mathematics, and computer science.
+See details at <ref xlink:href="https://eland2016.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>eland2016.<allowbreak/>inria.<allowbreak/>fr/</ref>.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid80" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid81" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>– Frédéric Cazals was member of the following program committees:</p>
+          <simplelist>
+            <li id="uid82">
+              <p noindent="true">Symposium On Geometry Processing</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Shape Modeling International: 2016</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Symposium on Solid and Physical Modeling</p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Intelligent Systems for Molecular Biology (ISMB), PC member of Protein Interactions &amp; Molecular Networks</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">International Conference on Pattern Recognition in Bioinformatics</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid87" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid88" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>– Frédéric Cazals reviewed papers for the following journals:</p>
+          <simplelist>
+            <li id="uid89">
+              <p noindent="true">The International Journal of Computational Geometry and Applications</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Bioinformatics</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">The Journal of Immunology</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Invited Talks and Presentations</bodyTitle>
+        <p>– Frédéric Cazals gave the following invited talks:</p>
+        <simplelist>
+          <li id="uid93">
+            <p noindent="true"><i>Energy landscapes: sampling, analysis</i>,
+Congrès de la Société Française de Biophysique –
+Structural biology meets biophysics, Obernai. December 2016.</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true"><i>Modeling energy landscapes of biomolecular systems</i>,
+Ecole Normale Supérieure de Cachan. September 2016.</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true"><i>Novel structural parameters of Ig-Ag complexes yield a
+quantitative description of interaction specificity and binding
+affinity</i>, Structural Aspects of Infectious Disease, Cambridge, UK,
+August 2016.</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true"><i>Energy landscapes: sampling, analysis, and comparison</i>,
+Energy Landscapes Workshop, Porquerolles. July 2016.</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true"><i>Improved understanding of protein dynamics via energy landscape
+sampling, analysis, and comparison</i>, TSRC on protein dynamics. Les
+Houches, March 2016.</p>
+          </li>
+        </simplelist>
+        <p spacebefore="6.0pt">– Romain Tetley gave the following invited talk:</p>
+        <simplelist>
+          <li id="uid98">
+            <p noindent="true"><i>A bootstrap method for detecting structurally conserved motifs</i>,
+Energy Landscapes Workshop, Porquerolles. July 2016.</p>
+          </li>
+        </simplelist>
+        <p spacebefore="6.0pt">– Poster presentations:</p>
+        <simplelist>
+          <li id="uid99">
+            <p noindent="true">Dorian Mazauric presented the following poster:</p>
+            <p noindent="true"><i>Unveiling Contacts within Macro-molecular Assemblies by solving
+Minimum Weight Connectivity Inference Problems</i>, Congrès de la
+Société Française de Biophysique – Structural biology meets
+biophysics, Obernai. December 2016.</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Augustin Chevallier presented the following poster:</p>
+            <p noindent="true"><i>Towards free energy calculations for biomolecules: generic
+Wang-Landau algorithm with automatic parameters selection</i>,
+Congrès de la Société Française de Biophysique – Structural
+biology meets biophysics, Obernai. December 2016.</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Dorian Mazauric presented the following poster:</p>
+            <p noindent="true"><i>Mass Transportation Problems with Connectivity Constraints and
+Energy Landscape Comparison</i>, Energy Landscapes Workshop,
+Porquerolles. July 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <p noindent="true">– FrédéricCazals:</p>
+        <simplelist>
+          <li id="uid103">
+            <p noindent="true">2010-.... Member of the steering committee of the <i>GDR
+Bioinformatique Moleculaire</i>, for the <i>Structure and
+macro-molecular interactions</i> theme.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid104" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>– Frédéric Cazals acted as expert for the <i>Italian Research and University
+Evaluation Agency (ANVUR)</i>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid105" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid107">
+            <p noindent="true">Master: Frédéric Cazals (Inria ABS) and S. Oudot (Inria Saclay),
+<i>Foundations of Geometric Methods in Data Analysis</i>, Data Sciences
+Program, Department of Applied Mathematics, Ecole Centrale
+Paris. (<ref xlink:href="http://www-sop.inria.fr/abs/teaching/centrale-FGMDA/centrale-FGMDA.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-sop.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>abs/<allowbreak/>teaching/<allowbreak/>centrale-FGMDA/<allowbreak/>centrale-FGMDA.<allowbreak/>html</ref>)</p>
+          </li>
+          <li id="uid108">
+            <p noindent="true">Master: Frédéric Cazals and Dorian Mazauric (Inria ABS), <i>Algorithmic problems in computational
+structural biology</i>, 24h, Master of Science in Computational Biology
+from the University of Nice Sophia Antipolis,
+France, see <ref xlink:href="http://cbb.unice.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cbb.<allowbreak/>unice.<allowbreak/>fr</ref>.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid110">
+            <p noindent="true"><b>PhD thesis, defended, December 2016.</b> Simon Marillet, <i>Modeling the antibody response: from the structure of
+immunoglobulins - antigen complexes to the clonal complexity of
+heavy chain repertoires</i>, University of Nice Sophia Antipolis. The
+thesis is co-advised by Frédéric Cazals and Pierre Boudinot (INRA
+Jouy-en-Josas).</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true"><b>PhD thesis, ongoing.</b> Romain Tetley, <i>Structural
+alignments: beyond the rigid case</i>, University of Nice Sophia
+Antipolis.
+Under the supervision of Frédéric Cazals.</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true"><b>PhD thesis, ongoing.</b> Augustin Chevallier, <i>Sampling biomolecular systems</i>,
+University of Nice Sophia Antipolis.
+Under the supervision of Frédéric Cazals.</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true"><b>Postdoctoral research of Rémi Watrigant, 2016 - 2018.</b>
+Projet de Recherche Exploratoire (Inria).
+<i>Improving inference algorithms for macromolecular structure determination</i>.
+Under the supervision of Dorian Mazauric and Frédéric Havet (Inria
+COATI project-team).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p noindent="true">– Frédéric Cazals:</p>
+        <simplelist>
+          <li id="uid115">
+            <p noindent="true">Huaxiong Ding, University of Lyon, December 2016. Committee
+member. <i>Combining 2D facial Texture and 3D face morphology for
+estimating people soft biometrics: gender, facial expression.</i></p>
+            <p noindent="true">Advisors: Liming Chen and Jean-Marie Morvan.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid116" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <subsection id="cid1" level="2">
+        <bodyTitle>Dissemination of scientific culture</bodyTitle>
+        <p><b>Participant:</b> Dorian Mazauric, member of the group of Médiation et Animation des MAthématiques, des Sciences et Techniques Informatiques et des Communications (MASTIC), Inria Sophia Antipolis - Méditerranée.</p>
+        <subsection id="idp4399520" level="3">
+          <bodyTitle>Publications and ressources.</bodyTitle>
+          <simplelist>
+            <li id="uid117">
+              <p noindent="true">2016. <i>Graphes et Algorithmes – Jeux grandeur nature</i>.
+Dorian Mazauric, en collaboration avec Laurent Giauffret, Direction des Services Départementaux de l'Éducation Nationale (DSDEN) des Alpes-Maritimes.
+[<ref xlink:href="https://hal.inria.fr/hal-01366804" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01366804</ref>]</p>
+            </li>
+            <li id="uid118">
+              <p noindent="true">2016. <i>Graphes et Algorithmes - Diffusion de l'information scientifique.</i>
+Dorian Mazauric.
+[<ref xlink:href="https://hal.inria.fr/hal-01383665" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01383665</ref>]</p>
+            </li>
+            <li id="uid119">
+              <p noindent="true">2016.
+<i>Information et communication : la Théorie des Graphes</i>.
+Jean-Claude Bermond et Dorian Mazauric.
+Fondation la main à la pâte.
+To appear.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4412752" level="3">
+          <bodyTitle>Fête de la Science en PACA.</bodyTitle>
+          <simplelist>
+            <li id="uid120">
+              <p noindent="true">22-23/10/2016.
+Village des sciences et de l'innovation au Palais des Congrès d'Antibes Juan-les-Pins.
+Fête de la Science 2016.
+<i>a) La magie des graphes et du binaire</i>.
+<i>b) Algorithmes grandeur nature</i>.
+<i>c) Pas besoin de réfléchir, les ordinateurs calculent tellement vite ? Théorie des graphes et algorithmique pour les réseaux</i>.
+[<ref xlink:href="https://www.inria.fr/centre/sophia/agenda/fete-de-la-science-2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>sophia/<allowbreak/>agenda/<allowbreak/>fete-de-la-science-2016</ref>]</p>
+            </li>
+            <li id="uid121">
+              <p noindent="true">10-12/10/2016.
+Fête de la Science au collège Yves Montand, Vinon-sur-Verdon.
+Institut Esope 21.
+<i>a) La magie des graphes et du binaire</i>.
+<i>b) Algorithmes grandeur nature</i>.
+<i>c) Pas besoin de réfléchir, les ordinateurs calculent tellement vite ? Théorie des graphes et algorithmique pour les réseaux</i>.
+[<ref xlink:href="https://www.inria.fr/centre/sophia/agenda/fete-de-la-science-2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>sophia/<allowbreak/>agenda/<allowbreak/>fete-de-la-science-2016</ref>]</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4427968" level="3">
+          <bodyTitle>Stage MathC2+ à Inria Sophia Antipolis - Méditerranée.</bodyTitle>
+          <simplelist>
+            <li id="uid122">
+              <p noindent="true">15-16/06/2016.
+Activité pour une quarantaine de lycéens des Alpes-Maritimes (accueillis à Inria Sophia Antipolis - Méditerranée durant 4 jours).
+<i>Algorithmes grandeur nature pour le calcul d'un arbre couvrant de poids minimum (application pour la conception d'un réseau électrique)</i>.
+Présentation aux lycéens du stage.
+<i>Pas besoin de réfléchir, les ordinateurs calculent tellement vite ? Théorie des graphes et algorithmique pour les réseaux</i>.
+[<ref xlink:href="http://www.inria.fr/centre/sophia/actualites/mathc2-40-lyceens-des-alpes-maritimes-en-immersion-au-coeur-d-un-centre-de-recherche" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>sophia/<allowbreak/>actualites/<allowbreak/>mathc2-40-lyceens-des-alpes-maritimes-en-immersion-au-coeur-d-un-centre-de-recherche</ref>]
+[<ref xlink:href="https://youtu.be/rLj5I1Gu1uI" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>youtu.<allowbreak/>be/<allowbreak/>rLj5I1Gu1uI</ref>]</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4438928" level="3">
+          <bodyTitle>Interventions à l'ÉSPÉ de l'Académie de Nice.</bodyTitle>
+          <simplelist>
+            <li id="uid123">
+              <p noindent="true">8-15/03/2016.
+Organisation d'un atelier à l'École Supérieure du Professorat et de l'Éducation (ÉSPÉ) de l'Académie de Nice (site de Stéphen Liégeard) en collaboration avec l'Inspection Académique (avec Laurent Giauffret).
+Animation, avec des étudiants de l'ÉSPÉ, pour 360 élèves de CM1 et de CM2.
+<i>La magie des graphes et du binaire, algorithmes et jeux (réseaux de tri)</i>.
+[<ref xlink:href="http://www.inria.fr/actualite/agenda/semaine-des-mathematiques-au-mois-de-mars?utm_content=buffer4b539&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>actualite/<allowbreak/>agenda/<allowbreak/>semaine-des-mathematiques-au-mois-de-mars?utm_content=buffer4b539&amp;utm_medium=social&amp;utm_source=twitter.<allowbreak/>com&amp;utm_campaign=buffer</ref>]
+[<ref xlink:href="http://www2.ac-nice.fr/DSDEN06/cid101665/des-chercheurs-de-retour-a-l-ecole.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www2.<allowbreak/>ac-nice.<allowbreak/>fr/<allowbreak/>DSDEN06/<allowbreak/>cid101665/<allowbreak/>des-chercheurs-de-retour-a-l-ecole.<allowbreak/>html</ref>]</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4450608" level="3">
+          <bodyTitle>Formations pour les enseignants en collaboration avec la DSDEN des Alpes-Maritimes.</bodyTitle>
+          <simplelist>
+            <li id="uid124">
+              <p noindent="true">15-19/09/2016.
+Préparation avec Laurent Giauffret d'une formation pour 17 enseignants de cycle 3 (cours moyen d'enseignement élémentaire).
+<i>a) Présentation d'Inria et du dispositif ASTEP.</i>
+<i>b) Graphes et Algorithmes : théorie et mise en pratique avec des jeux.</i>
+<i>c) Présentation de Thymio et mise en avant des possibilités offertes.</i>
+<i>d) Présentation du logiciel Scratch par le Maître Assistant Informatique de circonscription.</i></p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4455344" level="3">
+          <bodyTitle>Conférences dans des lycées dans le cadre du dispositif régional "Science Culture".</bodyTitle>
+          <simplelist>
+            <li id="uid125">
+              <p noindent="true">26/01/2016.
+Conférence au lycée Amiral de Grasse (classes de seconde).
+<i>a) Pas besoin de réfléchir, les ordinateurs calculent tellement vite ? Théorie des graphes et algorithmique pour les réseaux</i>.
+<i>b) La magie des graphes et du binaire</i>.</p>
+            </li>
+            <li id="uid126">
+              <p noindent="true">21/01/2016.
+Conférence au lycée Amiral de Grasse (classes de terminale).
+<i>a) Pas besoin de réfléchir, les ordinateurs calculent tellement vite ? Théorie des graphes et algorithmique pour les réseaux</i>.
+<i>b) La magie des graphes et du binaire</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4461712" level="3">
+          <bodyTitle>Conférences dans des collèges des Alpes-Maritimes.</bodyTitle>
+          <simplelist>
+            <li id="uid127">
+              <p noindent="true">05/12/2016.
+Conférence au collège Jules Verne de Cagnes-sur-Mer (deux classe de sixième) (avec Rémi Watrigant).
+<i>La magie des graphes et du binaire</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4464752" level="3">
+          <bodyTitle>Conférences dans des écoles primaires des Alpes-Maritimes dans le cadre d'ASTEP.</bodyTitle>
+          <simplelist>
+            <li id="uid128">
+              <p noindent="true">22/03/2016.
+Conférence à l'école élémentaire de La Tournière, Antibes (classe de CE2).
+<i>La magie des graphes et du binaire, algorithmes et jeux (algorithmes grandeur nature pour trier, jeux combinatoires...)</i>.</p>
+            </li>
+            <li id="uid129">
+              <p noindent="true">18/03/2016.
+Conférence à l'école élémentaire Langevin 2, Vallauris (classe de CP).
+<i>La magie des graphes et du binaire, algorithmes et jeux (algorithmes grandeur nature pour trier, jeux combinatoires...)</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="idp4469856" level="3">
+          <bodyTitle>Autres présentations.</bodyTitle>
+          <simplelist>
+            <li id="uid130">
+              <p noindent="true">05/01/2016.
+Présentation à des lycéens d'Australie et de Nouvelle-Zélande (classes de secondes) à Inria Sophia Antipolis - Méditerranée.
+<i>La magie des graphes et du binaire</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="abs-2016-bid41" type="inproceedings" rend="refer" n="refercite:agarwal2013connectivity">
+      <identifiant type="hal" value="hal-00849873"/>
+      <analytic>
+        <title level="a">Connectivity Inference in Mass Spectrometry based Structure Determination</title>
+        <author>
+          <persName key="abs-2014-idp66840">
+            <foreName>D.</foreName>
+            <surname>Agarwal</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Araujo</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="coati-2015-idp70992">
+            <foreName>C.</foreName>
+            <surname>Caillouet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="coati-2014-idm28144">
+            <foreName>D.</foreName>
+            <surname>Coudert</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="coati-2014-idp69696">
+            <foreName>S.</foreName>
+            <surname>Pérennes</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>H.L.</foreName>
+            <surname>Bodlaender</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>G.F.</foreName>
+            <surname>Italiano</surname>
+            <initial>G.</initial>
+          </persName>
+        </editor>
+        <title level="m">European Symposium on Algorithms (Springer LNCS 8125)</title>
+        <loc>Sophia Antipolis, France</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">289–300</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00849873" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00849873</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid42" type="article" rend="refer" n="refercite:agarwal2015unveiling">
+      <identifiant type="doi" value="10.1074/mcp.M114.047779"/>
+      <identifiant type="hal" value="hal-01078378"/>
+      <analytic>
+        <title level="a">Unveiling Contacts within Macro-molecular assemblies by solving Minimum Weight Connectivity Inference Problems</title>
+        <author>
+          <persName key="abs-2014-idp66840">
+            <foreName>D.</foreName>
+            <surname>Agarwal</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="coati-2015-idp70992">
+            <foreName>C.</foreName>
+            <surname>Caillouet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="coati-2014-idm28144">
+            <foreName>D.</foreName>
+            <surname>Coudert</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Molecular and Cellular Proteomics</title>
+        <imprint>
+          <biblScope type="volume">14</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">2274–2282</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01078378" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01078378</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid47" type="inproceedings" rend="refer" n="refercite:ccl-msamsc-03">
+      <analytic>
+        <title level="a">Molecular shape analysis based upon the Morse-Smale complex and the Connolly function</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="geometrica-2014-idm28160">
+            <foreName>F.</foreName>
+            <surname>Chazal</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Lewiner</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ACM SoCG</title>
+        <loc>San Diego, USA</loc>
+        <imprint>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">351-360</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid45" type="article" rend="refer" n="refercite:cazals2015conformational">
+      <identifiant type="doi" value="10.1002/jcc.23913"/>
+      <identifiant type="hal" value="hal-01076317"/>
+      <analytic>
+        <title level="a">Conformational Ensembles and Sampled Energy Landscapes: Analysis and Comparison</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="abs-2014-idm28480">
+            <foreName>T.</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>D.</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Roth</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>C.H.</foreName>
+            <surname>Robert</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. of Computational Chemistry</title>
+        <imprint>
+          <biblScope type="volume">36</biblScope>
+          <biblScope type="number">16</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">1213–1231</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01076317" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01076317</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid6" type="article" rend="refer" n="refercite:cazals2014greedy">
+      <identifiant type="doi" value="10.1111/cgf.12270"/>
+      <identifiant type="hal" value="hal-00777892"/>
+      <analytic>
+        <title level="a">Greedy Geometric Algorithms for Collections of Balls, with Applications to Geometric Approximation and Molecular Coarse-Graining</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="abs-2014-idm28480">
+            <foreName>T.</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Sachdeva</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Shah</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computer Graphics Forum</title>
+        <imprint>
+          <biblScope type="volume">33</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">1–17</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00777892" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00777892</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid29" type="incollection" rend="refer" n="refercite:cg-dbsra-06">
+      <analytic>
+        <title level="a">Delaunay Triangulation Based Surface Reconstruction</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Giesen</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>J-D.</foreName>
+            <surname>Boissonnat</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="vegas-2014-idp67392">
+            <foreName>M.</foreName>
+            <surname>Teillaud</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">Effective Computational Geometry for curves and surfaces</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer-Verlag, Mathematics and Visualization</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid50" type="article" rend="refer" n="refercite:ck-armcc-05">
+      <analytic>
+        <title level="a">An algorithm for reporting maximal <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>c</mi></math></formula>-cliques</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Karande</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Theoretical Computer Science</title>
+        <imprint>
+          <biblScope type="volume">349</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">484–490</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid49" type="book" rend="refer" n="refercite:compbio-book">
+      <identifiant type="doi" value="10.1007/978-3-642-31208-3"/>
+      <identifiant type="hal" value="hal-00845616"/>
+      <monogr>
+        <title level="m">Modeling in Computational Biology and Medicine: A Multidisciplinary Endeavor</title>
+        <editor role="editor">
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="neuromathcomp-2014-idp67120">
+            <foreName>P.</foreName>
+            <surname>Kornprobst</surname>
+            <initial>P.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/hal-00845616" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00845616</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid7" type="article" rend="refer" n="refercite:cazals-tom-12">
+      <analytic>
+        <title level="a">Assessing the Reconstruction of Macro-molecular Assemblies with Toleranced Models</title>
+        <author>
+          <persName key="abs-2014-idm28480">
+            <foreName>T.</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>V.</foreName>
+            <surname>Doye</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Proteins: structure, function, and bioinformatics</title>
+        <imprint>
+          <biblScope type="volume">80</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">2125–2136</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid48" type="article" rend="refer" n="refercite:cazals-tom-graphs-2013">
+      <identifiant type="doi" value="10.1002/prot.24313"/>
+      <identifiant type="hal" value="hal-00849795"/>
+      <analytic>
+        <title level="a">Probing a Continuum of Macro-molecular Assembly Models with Graph Templates of Sub-complexes</title>
+        <author>
+          <persName key="abs-2014-idm28480">
+            <foreName>T.</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>V.</foreName>
+            <surname>Doye</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proteins: structure, function, and bioinformatics</title>
+        <imprint>
+          <biblScope type="volume">81</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">2034–2044</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00849795" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00849795</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid46" type="article" rend="refer" n="refercite:cazals-bpatches-2012">
+      <analytic>
+        <title level="a">Characterizing the Morphology of Protein Binding Patches</title>
+        <author>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Malod-Dognin</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Bansal</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Proteins: structure, function, and bioinformatics</title>
+        <imprint>
+          <biblScope type="volume">80</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">2652–2665</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid5" type="article" rend="refer" n="refercite:marillet2015affinity">
+      <identifiant type="doi" value="10.1002/prot.24946"/>
+      <identifiant type="hal" value="hal-01159641"/>
+      <analytic>
+        <title level="a">High Resolution Crystal Structures Leverage Protein Binding Affinity Predictions</title>
+        <author>
+          <persName key="abs-2014-idp70608">
+            <foreName>S.</foreName>
+            <surname>Marillet</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Boudinot</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>F.</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Proteins: structure, function, and bioinformatics</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <biblScope type="number">84</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">9–20</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01159641" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01159641</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid43" type="book" rend="year" n="cite:mazauric:hal-01366804">
+      <identifiant type="hal" value="hal-01366804"/>
+      <monogr x-scientific-popularization="yes" x-international-audience="no">
+        <title level="m">Graphes et Algorithmes – Jeux grandeur nature</title>
+        <author>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">401</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01366804" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01366804</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid40" type="article" rend="year" n="cite:bermond:hal-01223288">
+      <identifiant type="doi" value="10.1002/jcd.21506"/>
+      <identifiant type="hal" value="hal-01223288"/>
+      <analytic>
+        <title level="a">Well Balanced Designs for Data Placement</title>
+        <author>
+          <persName key="coati-2014-idm26672">
+            <foreName>Jean-Claude</foreName>
+            <surname>Bermond</surname>
+            <initial>J.-C.</initial>
+          </persName>
+          <persName key="maestro-2014-idm25584">
+            <foreName>Alain</foreName>
+            <surname>Jean-Marie</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Joseph</foreName>
+            <surname>Yu</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02969">
+        <idno type="issn">1063-8539</idno>
+        <title level="j">Journal of Combinatorial Designs</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">55-76</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01223288" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01223288</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid39" type="article" rend="year" n="cite:boissonnat:hal-01259806">
+      <identifiant type="doi" value="10.1016/j.tcs.2015.12.034"/>
+      <identifiant type="hal" value="hal-01259806"/>
+      <analytic>
+        <title level="a">On the complexity of the representation of simplicial complexes by trees</title>
+        <author>
+          <persName key="geometrica-2014-idm29640">
+            <foreName>Jean-Daniel</foreName>
+            <surname>Boissonnat</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01855">
+        <idno type="issn">0304-3975</idno>
+        <title level="j">Theoretical Computer Science</title>
+        <imprint>
+          <biblScope type="volume">617</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">17</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01259806" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01259806</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid33" type="article" rend="year" n="cite:carr:hal-01423280">
+      <identifiant type="doi" value="10.1063/1.4941052"/>
+      <identifiant type="hal" value="hal-01423280"/>
+      <analytic>
+        <title level="a">Energy landscapes and persistent minima</title>
+        <author>
+          <persName>
+            <foreName>Joanne</foreName>
+            <surname>Carr</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>David John</foreName>
+            <surname>Wales</surname>
+            <initial>D. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01071">
+        <idno type="issn">0021-9606</idno>
+        <title level="j">The Journal of Chemical Physics</title>
+        <imprint>
+          <biblScope type="volume">144</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01423280" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01423280</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid37" type="article" rend="year" n="cite:coudert:hal-01266496">
+      <identifiant type="doi" value="10.1145/2851494"/>
+      <identifiant type="hal" value="hal-01266496"/>
+      <analytic>
+        <title level="a">Experimental Evaluation of a Branch and Bound Algorithm for Computing Pathwidth and Directed Pathwidth</title>
+        <author>
+          <persName key="coati-2014-idm28144">
+            <foreName>David</foreName>
+            <surname>Coudert</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="coati-2014-idp68264">
+            <foreName>Nicolas</foreName>
+            <surname>Nisse</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00006">
+        <idno type="issn">1084-6654</idno>
+        <title level="j">ACM Journal of Experimental Algorithmics</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">23</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01266496" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01266496</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid36" type="article" rend="year" n="cite:grudinin:hal-01377738">
+      <identifiant type="doi" value="10.1007/s10822-016-9976-2"/>
+      <identifiant type="hal" value="hal-01377738"/>
+      <analytic>
+        <title level="a">Predicting binding poses and affinities for protein-ligand complexes in the 2015 D3R Grand Challenge using a physical model with a statistical parameter estimation</title>
+        <author>
+          <persName key="nano-d-2015-idp6776">
+            <foreName>Sergei</foreName>
+            <surname>Grudinin</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="nano-d-2016-idp126544">
+            <foreName>Maria</foreName>
+            <surname>Kadukova</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="nano-d-2015-idp119352">
+            <foreName>Andreas</foreName>
+            <surname>Eisenbarth</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="abs-2014-idp70608">
+            <foreName>Simon</foreName>
+            <surname>Marillet</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02360">
+        <idno type="issn">0920-654X</idno>
+        <title level="j">Journal of Computer-Aided Molecular Design</title>
+        <imprint>
+          <biblScope type="volume">30</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">791–804</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01377738" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377738</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid34" type="article" rend="year" n="cite:roth:hal-01423282">
+      <identifiant type="hal" value="hal-01423282"/>
+      <analytic>
+        <title level="a">Hybridizing rapidly growing random trees and basin hopping yields an improved exploration of energy landscapes</title>
+        <author>
+          <persName>
+            <foreName>Andrea</foreName>
+            <surname>Roth</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="abs-2014-idm28480">
+            <foreName>Tom</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="abs-2014-idp71848">
+            <foreName>Charles H</foreName>
+            <surname>Robert</surname>
+            <initial>C. H.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01091">
+        <idno type="issn">0192-8651</idno>
+        <title level="j">Journal of Computational Chemistry</title>
+        <imprint>
+          <biblScope type="volume">37</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">14</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01423282" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01423282</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid38" type="inproceedings" rend="year" n="cite:wassermann:hal-01333301">
+      <identifiant type="hal" value="hal-01333301"/>
+      <analytic>
+        <title level="a">Extracting the Core Structural Connectivity Network: Guaranteeing Network Connectedness Through a Graph-Theoretical Approach</title>
+        <author>
+          <persName key="athena-2014-idm26448">
+            <foreName>Demian</foreName>
+            <surname>Wassermann</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Guillermo</foreName>
+            <surname>Gallardo-Diez</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="athena-2014-idm30752">
+            <foreName>Rachid</foreName>
+            <surname>Deriche</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">MICCAI 2016</title>
+        <loc>Athens, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01333301" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01333301</ref>
+        </imprint>
+        <meeting id="cid291324">
+          <title>International Conference on Medical Image Computing and Computer Assisted Intervention</title>
+          <num>19</num>
+          <abbr type="sigle">MICCAI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid35" type="techreport" rend="year" n="cite:cazals:hal-01379635">
+      <identifiant type="hal" value="hal-01379635"/>
+      <monogr>
+        <title level="m">The Structural Bioinformatics Library: modeling in biomolecular science and beyond</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="abs-2014-idm28480">
+            <foreName>Tom</foreName>
+            <surname>Dreyfus</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8957</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01379635" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01379635</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid30" type="techreport" rend="year" n="cite:cazals:hal-01411117">
+      <identifiant type="hal" value="hal-01411117"/>
+      <monogr>
+        <title level="m">Optimal transportation problems with connectivity constraints</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8991</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis ; Université Côte d'Azur</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">24</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01411117" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01411117</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid31" type="techreport" rend="year" n="cite:cazals:hal-01410396">
+      <identifiant type="hal" value="hal-01410396"/>
+      <monogr>
+        <title level="m">Clustering stability revealed by matchings between clusters of clusters</title>
+        <author>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="abs-2014-idp74528">
+            <foreName>Romain</foreName>
+            <surname>Tetley</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8992</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis ; Université Côte d'Azur</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">51</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01410396" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01410396</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid32" type="techreport" rend="year" n="cite:marillet:hal-01381795">
+      <identifiant type="hal" value="hal-01381795"/>
+      <monogr>
+        <title level="m">Novel structural parameters of Ig -Ag complexes yield a quantitative description of interaction specificity and binding affinity</title>
+        <author>
+          <persName key="abs-2014-idp70608">
+            <foreName>Simon</foreName>
+            <surname>Marillet</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Marie-Paule</foreName>
+            <surname>Lefranc</surname>
+            <initial>M.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Boudinot</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="abs-2014-idm29960">
+            <foreName>Frédéric</foreName>
+            <surname>Cazals</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8963</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01381795" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01381795</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid44" type="misc" rend="year" n="cite:mazauric:hal-01383665">
+      <identifiant type="hal" value="hal-01383665"/>
+      <monogr x-scientific-popularization="yes">
+        <title level="m">Graphes et Algorithmes - Diffusion de l'information scientifique</title>
+        <author>
+          <persName key="abs-2014-idm27264">
+            <foreName>Dorian</foreName>
+            <surname>Mazauric</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">403</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01383665" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01383665</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Slides de médiation scientifique pour comprendre les graphes et les algorithmes de manière ludique</note>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid22" type="article" rend="foot" n="footcite:aal-pdama-07">
+      <analytic>
+        <title level="a">Determining the architectures of macromolecular assemblies</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Alber</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Dokudovskaya</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>L.M.</foreName>
+            <surname>Veenhoff</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp88416">
+            <foreName>W.</foreName>
+            <surname>Zhang</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Kipper</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Devos</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Suprapto</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Karni-Schmidt</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Williams</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>B.T.</foreName>
+            <surname>Chait</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>M.P.</foreName>
+            <surname>Rout</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Sali</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Nature</title>
+        <imprint>
+          <biblScope type="volume">450</biblScope>
+          <dateStruct>
+            <month>Nov</month>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">683-694</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid21" type="article" rend="foot" n="footcite:aal-manpc-07">
+      <analytic>
+        <title level="a">The molecular architecture of the nuclear pore complex</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Alber</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Dokudovskaya</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>L.M.</foreName>
+            <surname>Veenhoff</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="poems-2014-idp88416">
+            <foreName>W.</foreName>
+            <surname>Zhang</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Kipper</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Devos</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Suprapto</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Karni-Schmidt</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Williams</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>B.T.</foreName>
+            <surname>Chait</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Sali</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>M.P.</foreName>
+            <surname>Rout</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Nature</title>
+        <imprint>
+          <biblScope type="volume">450</biblScope>
+          <biblScope type="number">7170</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">695–701</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid20" type="article" rend="foot" n="footcite:aal-iddsda-08">
+      <analytic>
+        <title level="a">Integrating Diverse Data for Structure Determination of Macromolecular Assemblies</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Alber</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Förster</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Korkin</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Topf</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Sali</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Ann. Rev. Biochem.</title>
+        <imprint>
+          <biblScope type="volume">77</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">11.1–11.35</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid12" type="book" rend="foot" n="footcite:omb-al-cbb-01">
+      <monogr>
+        <title level="m">Computational Biochemistry and Biophysics</title>
+        <author>
+          <persName>
+            <foreName>O.M.</foreName>
+            <surname>Becker</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>A. D.</foreName>
+            <surname>Mackerell</surname>
+            <initial>A. D.</initial>
+          </persName>
+          <persName key="cairn-2014-idp138456">
+            <foreName>B.</foreName>
+            <surname>Roux</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Watanabe</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>M. Dekker</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid16" type="article" rend="foot" n="footcite:cgt-hmmds-04">
+      <analytic>
+        <title level="a">A Hidden Markov Model derived structural alphabet for proteins</title>
+        <author>
+          <persName>
+            <foreName>A-C.</foreName>
+            <surname>Camproux</surname>
+            <initial>A.-C.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Gautier</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Tuffery</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Mol. Biol.</title>
+        <imprint>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">591-605</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid3" type="article" rend="foot" n="footcite:mlc-amsc-83">
+      <analytic>
+        <title level="a">Analytical molecular surface calculation</title>
+        <author>
+          <persName>
+            <foreName>M. L.</foreName>
+            <surname>Connolly</surname>
+            <initial>M. L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Appl. Crystallogr.</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>1983</year>
+          </dateStruct>
+          <biblScope type="pages">548–558</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid23" type="article" rend="foot" n="footcite:d-rl21-02">
+      <analytic>
+        <title level="a">Rotamer libraries in the 21st century</title>
+        <author>
+          <persName>
+            <foreName>R.L.</foreName>
+            <surname>Dunbrack</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Curr Opin Struct Biol</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">431-440</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid18" type="article" rend="foot" n="footcite:fb-ehpfp-02">
+      <analytic>
+        <title level="a">Extent of Hydrogen-Bond Protection in Folded Proteins: A Constraint on Packing Architectures</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Fernandez</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>R.S.</foreName>
+            <surname>Berry</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Biophysical Journal</title>
+        <imprint>
+          <biblScope type="volume">83</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">2475-2481</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid9" type="book" rend="foot" n="footcite:f-smps-99">
+      <monogr>
+        <title level="m">Structure and Mechanism in Protein Science: A Guide to Enzyme Catalysis and Protein Folding</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Fersht</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Freeman</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1999</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid2" type="incollection" rend="foot" n="footcite:mg-fmr-pgvad-02">
+      <analytic>
+        <title level="a">Protein geometry: volumes, areas, and distances</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Gerstein</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>F.M.</foreName>
+            <surname>Richards</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>M. G.</foreName>
+            <surname>Rossmann</surname>
+            <initial>M. G.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Arnold</surname>
+            <initial>E.</initial>
+          </persName>
+        </editor>
+        <title level="m">The international tables for crystallography (Vol F, Chap. 22)</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">531–539</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid14" type="article" rend="foot" n="footcite:gohlke2">
+      <analytic>
+        <title level="a">Statistical potentials and scoring functions applied to protein-ligand binding</title>
+        <author>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Gohlke</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Klebe</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Curr. Op. Struct. Biol.</title>
+        <imprint>
+          <biblScope type="volume">11</biblScope>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">231-235</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid4" type="article" rend="foot" n="footcite:jwlm-caasc-78">
+      <analytic>
+        <title level="a">Conformations of amino acid side chains in proteins</title>
+        <author>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Janin</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Wodak</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Levitt</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="orpailleur-2014-idp72552">
+            <foreName>B.</foreName>
+            <surname>Maigret</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Mol. Biol.</title>
+        <imprint>
+          <biblScope type="volume">125</biblScope>
+          <dateStruct>
+            <year>1978</year>
+          </dateStruct>
+          <biblScope type="pages">357–386</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid26" type="article" rend="foot" n="footcite:kk-hcfes-04">
+      <analytic>
+        <title level="a">Hidden complexity of free energy surfaces for peptide (protein) folding</title>
+        <author>
+          <persName>
+            <foreName>V. K.</foreName>
+            <surname>Krivov</surname>
+            <initial>V. K.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Karplus</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">PNAS</title>
+        <imprint>
+          <biblScope type="volume">101</biblScope>
+          <biblScope type="number">41</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">14766-14770</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid27" type="incollection" rend="foot" n="footcite:mshs-mcsdp-07">
+      <analytic>
+        <title level="a">Metastable Conformational Structure and Dynamics: Peptides between Gas Phase and Aqueous Solution</title>
+        <author>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Meerbach</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Ch.</foreName>
+            <surname>Schutte</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>I.</foreName>
+            <surname>Horenko</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Schmidt</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Kuhn</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Wudste</surname>
+            <initial>L.</initial>
+          </persName>
+        </editor>
+        <title level="m">Analysis and Control of Ultrafast Photoinduced Reactions. Series in Chemical Physics 87</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid11" type="article" rend="foot" n="footcite:mo-iwmdp-07">
+      <analytic>
+        <title level="a">On Itinerant Water Molecules and Detectability of Protein-Protein Interfaces through Comparative Analysis of Homologues</title>
+        <author>
+          <persName>
+            <foreName>I.</foreName>
+            <surname>Mihalek</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Lichtarge</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">JMB</title>
+        <imprint>
+          <biblScope type="volume">369</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">584–595</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid15" type="article" rend="foot" n="footcite:mal-isppi-07">
+      <analytic>
+        <title level="a">Integrating statistical pair potentials into protein complex prediction</title>
+        <author>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Mintseris</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Pierce</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Wiehe</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Anderson</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mathrisk-2014-idp83160">
+            <foreName>R.</foreName>
+            <surname>Chen</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Z.</foreName>
+            <surname>Weng</surname>
+            <initial>Z.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proteins</title>
+        <imprint>
+          <biblScope type="volume">69</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">511–520</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid28" type="book" rend="foot" n="footcite:p-gthds-07">
+      <monogr>
+        <title level="m">Geometry and Topology in Hamiltonian Dynamics and Statistical Mechanics</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Pettini</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid25" type="article" rend="foot" n="footcite:psck-framm-07">
+      <analytic>
+        <title level="a">Fast and Reliable Analysis of Molecular Motion Using Proximity Relations and Dimensionality Reduction</title>
+        <author>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Plaku</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Stamati</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Clementi</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>L.E.</foreName>
+            <surname>Kavraki</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proteins: Structure, Function, and Bioinformatics</title>
+        <imprint>
+          <biblScope type="volume">67</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">897–907</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid19" type="article" rend="foot" n="footcite:rtvc-arppi-04">
+      <analytic>
+        <title level="a">Anchor residues in protein-protein interactions</title>
+        <author>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Rajamani</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Thiel</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Vajda</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>C.J.</foreName>
+            <surname>Camacho</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">PNAS</title>
+        <imprint>
+          <biblScope type="volume">101</biblScope>
+          <biblScope type="number">31</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">11287-11292</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid10" type="article" rend="foot" n="footcite:D.Reichmann01042005">
+      <analytic>
+        <title level="a">From The Cover: The modular architecture of protein-protein binding interfaces</title>
+        <author>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Reichmann</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Rahat</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Albeck</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Meged</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Dym</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Schreiber</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">PNAS</title>
+        <imprint>
+          <biblScope type="volume">102</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">57-62</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid1" type="article" rend="foot" n="footcite:richards1">
+      <analytic>
+        <title level="a">Areas, volumes, packing and protein structure</title>
+        <author>
+          <persName>
+            <foreName>F.M.</foreName>
+            <surname>Richards</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Ann. Rev. Biophys. Bioeng.</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <dateStruct>
+            <year>1977</year>
+          </dateStruct>
+          <biblScope type="pages">151-176</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid24" type="article" rend="foot" n="footcite:r-al-tcmel-06">
+      <analytic>
+        <title level="a">Topographical complexity of multidimensional energy landscapes</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Rylance</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Johnston</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Y.</foreName>
+            <surname>Matsunaga</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cidre-2015-idp108224">
+            <foreName>C-B</foreName>
+            <surname>Li</surname>
+            <initial>C.-B.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Baba</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Komatsuzaki</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">PNAS</title>
+        <imprint>
+          <biblScope type="volume">103</biblScope>
+          <biblScope type="number">49</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">18551-18555</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid0" type="article" rend="foot" n="footcite:gs-ls-fbefb-05">
+      <analytic>
+        <title level="a">Folding and binding: an extended family business</title>
+        <author>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Schreiber</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Serrano</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Current Opinion in Structural Biology</title>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">1–3</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid13" type="article" rend="foot" n="footcite:sippl1">
+      <analytic>
+        <title level="a">Calculation of Conformational Ensembles from Potential of Mean Force: An Approach to the Knowledge-based prediction of Local Structures in Globular Proteins</title>
+        <author>
+          <persName>
+            <foreName>M.J.</foreName>
+            <surname>Sippl</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Mol. Biol.</title>
+        <imprint>
+          <biblScope type="volume">213</biblScope>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+          <biblScope type="pages">859-883</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid17" type="article" rend="foot" n="footcite:sld-aepps-05">
+      <analytic>
+        <title level="a">An atomic environment potential for use in protein structure prediction</title>
+        <author>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Summa</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Levitt</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>W.</foreName>
+            <surname>DeGrado</surname>
+            <initial>W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">JMB</title>
+        <imprint>
+          <biblScope type="volume">352</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">986–1001</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="abs-2016-bid8" type="article" rend="foot" n="footcite:sw-jj-sbmr-02">
+      <analytic>
+        <title level="a">Structural basis of macromolecular recognition</title>
+        <author>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Wodak</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Janin</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Adv. in protein chemistry</title>
+        <imprint>
+          <biblScope type="volume">61</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">9–73</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

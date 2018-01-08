@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="smis" isproject="true">
+    <shortname>SMIS</shortname>
+    <projectName>Secured and Mobile Information Systems</projectName>
+    <theme-de-recherche>Data and Knowledge Representation and Processing</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://www-smis.inria.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Parallelisme, réseaux, systèmes, modélisation (PRISM)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Versailles Saint-Quentin</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2004 September 01, end of the Project-Team: 2016 December 31</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.6. - Cloud</term>
+      <term>1.1.8. - Security of architectures</term>
+      <term>1.4. - Ubiquitous Systems</term>
+      <term>3.1.2. - Data management, quering and storage</term>
+      <term>3.1.3. - Distributed data</term>
+      <term>3.1.5. - Control access, privacy</term>
+      <term>3.1.6. - Query optimization</term>
+      <term>3.1.8. - Big data (production, storage, transfer)</term>
+      <term>3.1.9. - Database</term>
+      <term>4.3. - Cryptography</term>
+      <term>4.7. - Access control</term>
+      <term>4.8. - Privacy-enhancing technologies</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>2. - Health</term>
+      <term>6.4. - Internet of things</term>
+      <term>6.5. - Information systems</term>
+      <term>6.6. - Embedded systems</term>
+      <term>8.2. - Connected city</term>
+      <term>8.5. - Smart society</term>
+      <term>9.8. - Privacy</term>
+      <term>9.10. - Ethics</term>
+    </keywordsSecteurs>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="smis-2014-idm29176">
+      <firstname>Philippe</firstname>
+      <lastname>Pucheral</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Univ. Versailles, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="smis-2014-idm27688">
+      <firstname>Nicolas</firstname>
+      <lastname>Anciaux</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="smis-2014-idp65688">
+      <firstname>Luc</firstname>
+      <lastname>Bouganim</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="smis-2014-idp68608">
+      <firstname>Iulian</firstname>
+      <lastname>Sandu Popa</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Versailles, Associate Professor</moreinfo>
+    </person>
+    <person key="cassis-2014-idp103944">
+      <firstname>Guillaume</firstname>
+      <lastname>Scerri</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Univ. Versailles, Associate Professor, from Sept. 2016</moreinfo>
+    </person>
+    <person key="smis-2014-idp69880">
+      <firstname>Aydogan</firstname>
+      <lastname>Ersoz</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="smis-2016-idp133696">
+      <firstname>Oana</firstname>
+      <lastname>Manea</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Nov. 2016</moreinfo>
+    </person>
+    <person key="smis-2014-idp76104">
+      <firstname>Athanasia</firstname>
+      <lastname>Katsouraki</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Sept. 2016</moreinfo>
+    </person>
+    <person key="smis-2014-idp77336">
+      <firstname>Saliha</firstname>
+      <lastname>Lallali</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, granted by ANR KISS project, until Jan. 2016</moreinfo>
+    </person>
+    <person key="smis-2014-idp79800">
+      <firstname>Paul</firstname>
+      <lastname>Tran Van</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CozyCloud, CIFRE</moreinfo>
+    </person>
+    <person key="smis-2016-idp143488">
+      <firstname>Axel</firstname>
+      <lastname>Michel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>INSA-CVL, from Sept. 2015</moreinfo>
+    </person>
+    <person key="smis-2016-idp145936">
+      <firstname>Julien</firstname>
+      <lastname>Loudet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>CozyCloud, CIFRE, from April 2016</moreinfo>
+    </person>
+    <person key="smis-2016-idp148384">
+      <firstname>Riad</firstname>
+      <lastname>Ladjel</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>IDEX grant, from Oct. 2016</moreinfo>
+    </person>
+    <person key="gamma3-2016-idp140704">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Perrot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="smis-2014-idp67104">
+      <firstname>Benjamin</firstname>
+      <lastname>Nguyen</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>INSA CVL, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The research work within the project-team is devoted to the design and analysis of core database techniques dedicated to the definition of secured and mobile information systems.</p>
+      <p>Ubiquitous computing and ambient intelligence entail embedding data in increasingly light and specialized devices (chips, sensors and electronic appliances for smart buildings, telephony, transportation, health, etc.). These devices exhibit severe hardware constraints to match size, security, power consumption and also production costs requirements. At the same time, they could highly benefit from embedded database functionalities to store data, analyze it, query it and protect it. This raises a first question “<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Q</mi><mn>1</mn></msub></math></formula>: <i>How to make powerful data management techniques compatible with highly constrained hardware platforms?</i>”. To tackle this question, SMIS contributes to the design and validation of new storage and indexing models, query execution and optimization techniques, and transaction protocols. The relevance of this research goes beyond embedded databases and may have potential applications for database servers running on advanced hardware.</p>
+      <p>By making information more accessible and by multiplying –often transparently– the means of acquiring it, ubiquitous computing involves new threats for data privacy. The second question addressed by the project-team is then “<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Q</mi><mn>2</mn></msub></math></formula>: <i>How to make smart objects less intrusive?</i>”. New access and usage control models have to be devised to help individuals keep a better control on the acquisition and sharing conditions of their data. This means integrating privacy principles like user’s consent, limited collection and limited retention in the access and usage control policy definition. This also means designing appropriate mechanisms to enforce this control and provide accountability with strong security guarantees.</p>
+      <p>In parallel, thanks to a high degree of decentralization and to the emergence of low cost tamper-resistant hardware, ubiquitous computing contains the seeds for new ways of managing personal/sensitive data. The third question driving the research of the project-team is therefore “<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>Q</mi><mn>3</mn></msub></math></formula>: <i>How to build privacy-by-design architectures based on trusted smart objects?</i>”. The objective is to capitalize on embedded data management techniques, privacy-preserving mechanisms, trusted devices and cryptographic protocols to define an integrated framework dedicated to the secure management of personal/sensitive data. The expectation is showing that credible alternatives to a systematic centralization of personal/sensitive data on servers can be devised and validating the approach through real case experiments.
+</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Embedded Data Management</bodyTitle>
+      <p>The challenge tackled is this research action is twofold: (1) to design embedded database techniques matching the hardware constraints of (current and future) smart objects and (2) to set up co-design rules helping hardware manufacturers to calibrate their future platforms to match the requirements of data driven applications. While a large body of work has been conducted on data management techniques for high-end servers (storage, indexation and query optimization models minimizing the I/O bottleneck, parallel DBMS, main memory DBMS, etc.), less research efforts have been placed on embedded database techniques. Light versions of popular DBMS have been designed for powerful handheld devices; yet DBMS vendors have never addressed the complex problem of embedding database components into chips. Proposals dedicated to databases embedded on chip usually consider small databases, stored in the non-volatile memory of the microcontroller –hundreds of kilobytes– and rely on NOR Flash or EEPROM technologies. Conversely, SMIS is pioneering the combination of microcontrollers and NAND Flash constraints to manage Gigabyte(s) size embedded databases. We present below the positioning of SMIS with respect to international teams conducting research on topics which may be connected to the addressed problem, namely work on electronic stable storage, RAM consumption and specific hardware platforms.</p>
+      <p>Major database teams are investigating data management issues related to hardware advances (EPFL: A. Ailamaki, CWI: M. Kersten, U. Of Wisconsin: J. M. Patel, Columbia: K. Ross, UCSB: A. El Abbadi, IBM Almaden: C. Mohan, etc.). While there are obvious links with our research on embedded databases, these teams target high-end computers and do not consider highly constrained architectures with non traditional hardware resources balance. At the other extreme, sensors (ultra-light computing devices) are considered by several research teams (e.g., UC Berkeley: D. Culler, ITU: P. Bonnet, Johns Hopkins University: A. Terzis, MIT: S. Madden, etc.). The focus is on the processing of continuous streams of collected data. Although the devices we consider share some hardware constraints with sensors, the objectives of both environments strongly diverge in terms of data cardinality and complexity, query complexity and data confidentiality requirements. Several teams are looking at efficient indexes on flash (HP LABS: G. Graefe, U. Minnesota: B. Debnath, U. Massachusetts: Y. Diao, Microsoft: S. Nath, etc.). Some studies try to minimize the RAM consumption, but the considered RAM/stable storage ratio is quite large compared to the constraints of the embedded context. Finally, a large number of teams have focused on the impact of flash memory on database system design (we presented an exhaustive state of the art in a VLDB tutorial <ref xlink:href="#smis-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The work conducted in the SMIS team on bi-modal flash devices takes the opposite direction, proposing to influence the design of flash devices by the expression of database requirements instead of running after the constantly evolving flash device technology.
+</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Access and Usage Control Models</bodyTitle>
+      <p>Access control management has been deeply studied for decades. Different models have been proposed to declare and administer access control policies, like DAC, MAC, RBAC, TMAC, and OrBAC. While access control management is well established, new models are being defined to cope with privacy requirements. Privacy management distinguishes itself from traditional access control is the sense that the data to be protected is personal. Hence, the user's consent must be reflected in the access control policies, as well as the usage of the data, its collection rules and its retention period, which are principles safeguarded by law and must be controlled carefully.</p>
+      <p>The research community working on privacy models is broad, and involves many teams worldwide including in France ENST-B, LIRIS, Inria LICIT, and LRI, and at the international level IBM Almaden, Purdue Univ., Politecnico di Milano and Univ. of Milano, George Mason Univ., Univ. of Massachusetts, Univ. of Texas and Colorado State Univ. to cite a few. Pioneer attempts towards privacy wary systems include the P3P Platform for Privacy Preservation <ref xlink:href="#smis-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and Hippocratic databases <ref xlink:href="#smis-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In the last years, many other policy languages have been proposed for different application scenarios, including EPAL <ref xlink:href="#smis-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, XACML <ref xlink:href="#smis-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and WSPL <ref xlink:href="#smis-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Hippocratic databases are inspired by the axiom that databases should be responsible for the privacy preservation of the data they manage. The architecture of a Hippocratic database is based on ten guiding principles derived from privacy laws.</p>
+      <p>The trend worldwide has been to propose enhanced access control policies to capture finer behavior and bridge the gap with privacy policies. To cite a few, Ardagna <i>et al.</i> (Univ. Milano) enables actions to be performed after data collection (like notification or removal), purpose binding features have been studied by Lefevre <i>et al.</i> (IBM Almaden), and Ni <i>et al.</i> (Purdue Univ.) have proposed obligations and have extended the widely used RBAC model to support privacy policies.</p>
+      <p>The positioning of the SMIS team within this broad area is rather (1) to focus on intuitive or automatic tools helping the individual to control some facets of her privacy (e.g., data retention, minimal collection) instead of increasing the expressiveness but also the complexity of privacy models and (2) to push concrete models enriched by real-case (e.g., medical) scenarios and by a joint work with researchers in Law.
+</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Tamper-resistant Data Management</bodyTitle>
+      <p>Tamper-resistance refers to the capacity of a system to defeat confidentiality and integrity attacks. This problem is complementary to access control management while being (mostly) orthogonal to the way access control policies are defined. Security surveys regularly point out the vulnerability of database servers against external (i.e., by intruders) and internal (i.e., by employees) attacks. Several attempts have been made in commercial DBMSs to strengthen server-based security, e.g., by separating the duty between DBA and DSA (Data Security Administrator), by encrypting the database footprint and by securing the cryptographic material using Hardware Security Modules (HSM) <ref xlink:href="#smis-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. To face internal attacks, client-based security approaches have been investigated where the data is stored encrypted on the server and is decrypted only on the client side. Several contributions have been made in this direction, notably by U. of California Irvine (S. Mehrotra, Database Service Provider model), IBM Almaden (R. Agrawal, computation on encrypted data), U. of Milano (E. Damiani, encryption schemes), Purdue U. (E. Bertino, XML secure publication), U. of Washington (D. Suciu, provisional access) to cite a few seminal works. An alternative, recently promoted by Stony Brook Univ. (R. Sion), is to augment the security of the server by associating it with a tamper-resistant hardware module in charge of the security aspects. Contrary to traditional HSM, this module takes part in the query computation and performs all data decryption operations. SMIS investigates another direction based on the use of a tamper-resistant hardware module on the client side. Most of our contributions in this area are based on exploiting the tamper-resistance of secure tokens to build new data protection schemes.</p>
+      <p>While our work on Privacy-Preserving data Publishing (PPDP) is still related to tamper-resistance, a complementary positioning is required for this specific topic. The primary goal of PPDP is to anonymize/sanitize microdata sets before publishing them to serve statistical analysis purposes. PPDP (and privacy in databases in general) is a hot topic since 2000, when it was introduced by IBM Research (IBM Almaden: R. Agrawal, IBM Watson: C.C. Aggarwal), and many teams, mostly north American universities or research centres, study this topic (e.g., PORTIA DB-Privacy project regrouping universities such as Stanford with H. Garcia-Molina). Much effort has been devoted by the scientific community to the definition of privacy models exhibiting better privacy guarantees or better utility or a balance of both (such as differential privacy studied by C. Dwork: Microsoft Research or D. Kifer: Penn-State Univ and J. Gehrke: Cornell Univ) and thorough surveys exist that provide a large overview of existing PPDP models and mechanisms <ref xlink:href="#smis-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. These works are however orthogonal to our approach in that they make the hypothesis of a trustworthy central server that can execute the anonymization process. In our work, this is not the case. We consider an architecture composed of a large population of tamper-resistant devices weakly connected to an untrusted infrastructure and study how to compute PPDP problems in this context <ref xlink:href="#smis-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Hence, our work has some connections with the works done on Privacy Preserving Data Collection (Stevens Institute of Tech. / Rutgers Univ,NJ: R.N.Wright, Univ Austin Texas: V. Shmatikov), on Secure Multi-party Computing for Privacy Preserving Data Mining (Rutgers Univ: J. Vaidya, Purdue Univ: C. Clifton) and on distributed PPDP algorithms (Univ Wisconsin: D. DeWitt, Univ Michigan: K. Lefevre, Rutgers Univ: J. Vaidya, Purdue Univ: C. Clifton) while none of them share the same architectural hypothesis as us.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid8">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Application Domains</bodyTitle>
+      <p>Our work addresses varied application domains. Typically, data management techniques on chip are required each time data-driven applications have to be embedded in ultra-light computing devices. This situation occurs for example in healthcare applications where medical folders are embedded into smart tokens (e.g., smart cards, secured USB keys), in telephony applications where personal data (address book, agenda, etc.) is embedded into cellular phones, in sensor networks where sensors log row measurements and perform local computation on them, in smart-home applications where a collection of smart appliances gather information about the occupants to provide them a personalized service, and more generally in most applications related to ambient intelligence.</p>
+      <p>Safeguarding data confidentiality has become a primary concern for citizens, administrations and companies, broadening the application domains of our work on access control policies definition and enforcement. The threat on data confidentiality is manifold: external and internal attacks on the data at rest, on the data on transit, on the data hosted in untrusted environments (e.g., Database Service Providers, Web-hosting companies) and subject to illegal usage, insidious gathering of personal data in an ambient intelligence surrounding. Hence, new access control models and security mechanisms are required to accurately declare and safely control who is granted access to which data and for which purpose.</p>
+      <p>While the application domain mentioned above is rather large, two applications are today more specifically targeted by the SMIS team. The first one deals with privacy preservation in EHR (Electronic Health Record) systems and PCEHR (Personally Controlled EHR) <ref xlink:href="#smis-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We are developing technologies tackling this issue and experiment them in the field. The second application area deals with privacy preservation in the context of personal Cloud, that is personal data hosted in dedicated servers staying under the holder's control (e.g., in a personal internet box or in a home automation box).
+</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid10">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid11" level="1">
+      <bodyTitle>PLUG-DB ENGINE</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description:</span>
+PlugDB is a complete platform dedicated to a secure and ubiquitous management of personal data. It aims at providing an alternative to a systematic centralization of personal data. The PlugDB engine is a personal database server capable of storing data (tuples and documents) in tables and BLOBs, indexing them, querying them in SQL, sharing them through assertional access control policies and enforcing transactional properties (atomicity, integrity, durability) <ref xlink:href="#smis-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The PlugDB engine is embedded in a tamper-resistant hardware device combining the security of smartcard with the storage capacity of NAND Flash. The personal database is hosted encrypted in NAND Flash and the PlugDB engine code runs in the microcontroller. Complementary modules allow to pre-compile SQL queries for the applications, communicate with the DBMS from a remote Java program, synchronize local data with remote servers (typically used for recovering the database in the case of a broken or lost devices) and participate in distributed computation (e.g., global queries). PlugDB runs both on secure devices provided by Gemalto and on specific secure devices designed by SMIS and assembled by electronic SMEs. Mastering the hardware platform opens up new research and experiment opportunities (e.g., we have recently integrated a Bluetooth module to communicate wirelessly with PlugDB and a fingerprint module to strongly authenticate users) and allows us to engage ourselves in an open-source/open hardware initiative. Open-SW/open-HW contributes to the trust the community of users can put in any privacy preserving solution and is key to enable a diversity of solutions, hence decreasing the risk of class attacks. PlugDB engine has been registered first at APP (Agence de Protection des Programmes) in 2009 - a new version being registered every two years and the hardware datasheets in 2015. PlugDB has been experimented in the field, notably in the healthcare domain. We also recently set up an educational platform on top of PlugDB, named SIPD (Système d’Information privacy-by-Design) and used at ENSIIE, INSA CVL and UVSQ through the Versailles Sciences Lab fablab, to raise students awareness of privacy protection problems and embedded programming. As a conclusion, PlugDB combines several research contributions from the team, at the crossroads of flash data management, embedded data processing and secure distributed computations. It then strongly federates all members of our team (permanent members, PhD students and engineers). It is also a vector of visibility, technological transfer and dissemination and gives us the opportunity to collaborate with researchers from other disciplines around a concrete privacy enhancing platform.</p>
+      <simplelist>
+        <li id="uid12">
+          <p noindent="true">Participants: Nicolas Anciaux, Luc Bouganim, Philippe Pucheral and Aydogan Ersoz</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">Contact: Nicolas Anciaux</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">URL: <ref xlink:href="https://project.inria.fr/plugdb/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>plugdb/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Privacy Preserving Mobile Laboratory</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description:</span>
+We have started to design a privacy preserving mobile laboratory used
+as an experimental platform for multidisciplinary research launched
+‘in vivo’. The goal is to conduct reliable surveys and avoid the
+privacy paradox (what users declare on their privacy behavior is far
+from what they effectively do). The platform, built on top of PlugDB,
+includes two android applications, a “server” which takes as input a
+questionnaire description and broadcast it on demand to the client
+applications. Users interact with the questionnaire on the client
+applications, storing the detailed answers in their PlugDB personal
+server. Then a secure distributed computation takes place (between
+users’ PlugDB servers) and computes non-sensitive global statistics
+based on potentially sensitive raw answers. A beta-version of this
+platform was developed during the PhD of Athanasia Katsouraki and was
+used for a pre-experimentation targeting 140 students. While the
+experiment was successful, it showed the limitation and complexity of
+the initial setting (laptops, required Internet access, complexity in
+the questionnaire deployment). We designed and implement a second
+platform running on android tablets with a local router and automatic
+questionnaire deployment. The platform has been demonstrated in
+several forums and very recently at the Sénat in Paris. This platform represents a backing for two PhD theses on privacy (the first one in economics, the second one in our team) funded in 2016 by the interdisciplinary doctoral program at UPSay (IDI 2016).</p>
+      <simplelist>
+        <li id="uid16">
+          <p noindent="true">Participants: Nicolas Anciaux, Luc Bouganim, Aydogan Ersoz, Athanasia Katsouraki, Riad Ladjel, Benjamin Nguyen, Remy Pasquion, Paul Tran Van</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Contact: Luc Bouganim</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">URL: <ref xlink:href="https://project.inria.fr/plugdb/en/PPML" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>plugdb/<allowbreak/>en/<allowbreak/>PPML</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid19">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Embedded Data Management</bodyTitle>
+      <participants>
+        <person key="smis-2014-idm27688">
+          <firstname>Nicolas</firstname>
+          <lastname>Anciaux</lastname>
+        </person>
+        <person key="smis-2014-idp77336">
+          <firstname>Saliha</firstname>
+          <lastname>Lallali</lastname>
+        </person>
+        <person key="smis-2014-idm29176">
+          <firstname>Philippe</firstname>
+          <lastname>Pucheral</lastname>
+        </person>
+        <person key="smis-2014-idp68608">
+          <firstname>Iulian</firstname>
+          <lastname>Sandu Popa</lastname>
+          <moreinfo>correspondent</moreinfo>
+        </person>
+      </participants>
+      <p noindent="true"><b>Embedded keyword indexing:</b> In this work, we revisit the traditional problem of information retrieval queries over large collections of files in an embedded context. A file can be any form of document, picture or data stream, associated with a set of terms. A query can be any form of keyword search using a ranking function (e.g., TF-IDF) identifying the top-k most relevant files. The proposed search engine can be used in sensors to search for relevant objects in their surroundings, in cameras to search pictures by using tags, in personal smart dongles to secure the querying of documents and files hosted in an untrusted Cloud, or in a personal cloud securely managed using a tamper resistant smart object. A search engine is usually based on a (large) inverted index and queries are traditionally evaluated by allocating one container in RAM per document to aggregate its score, making the RAM consumption linear with the size of the document corpus. To tackle this issue, we designed a new form of inverted index which can be accessed in a pure pipeline manner to evaluate search queries without materializing any intermediate result. Successive index partitions are written once in Flash and maintained in the background by timely triggering merge operations while files are inserted or deleted from the index. This work was initially published at VLDB’15 <ref xlink:href="#smis-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and demonstrated at SIGMOD’15 <ref xlink:href="#smis-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It constitutes the main contribution of the PhD thesis of Saliha Lallali defended in January 2016. In 2016, we extended this work to demonstrate at EDBT’16 <ref xlink:href="#smis-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> its applicability to set up a secure distributed search engine for the Personal Cloud. We also complemented this work with (1) a thorough analysis of the RAM consumption linked to the main algorithms implementing the solution, (2) the support of conditional top-k queries in a personal Cloud context that we consider as a killer application domain today and (3) new performance measurements with a real dataset (ENRON), representative of this personal Cloud context. These new contributions have been submitted to Information Systems journal.
+</p>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Secure Global Computing on Asymmetric Architecture</bodyTitle>
+      <participants>
+        <person key="smis-2014-idp67104">
+          <firstname>Benjamin</firstname>
+          <lastname>Nguyen</lastname>
+          <moreinfo>correspondent</moreinfo>
+        </person>
+        <person key="smis-2016-idp143488">
+          <firstname>Axel</firstname>
+          <lastname>Michel</lastname>
+        </person>
+        <person key="smis-2014-idm29176">
+          <firstname>Philippe</firstname>
+          <lastname>Pucheral</lastname>
+        </person>
+        <person key="smis-2014-idp68608">
+          <firstname>Iulian</firstname>
+          <lastname>Sandu Popa</lastname>
+        </person>
+      </participants>
+      <p><b>Asymmetric Architecture Computing:</b> This research direction studies the secure execution of various algorithms on data stored in an unstructured network of Trusted Cells (i.e., personal trusted device) so that each user can keep control over her data. The data could be stored locally in a trusted cell or encrypted on some external cloud. Execution takes place on a specific infrastructure called the Asymmetric Architecture (AA): the network of trusted cells, supported by an untrusted cloud supporting IaaS or PaaS. Our objective is to show that many different algorithms and computing paradigms can be executed on AA, thus achieving secure and private computation. Our first contribution in this area was to study the execution of Privacy Preserving Data Publishing algorithms on such an architecture (T. Allard’s PhD Thesis). Then we studied general SQL queries in this same execution context. We concentrated on the subset of SQL queries without joins, but including Group By and aggregates, and show how to secure their execution in the presence of honest-but-curious attackers. This work, named SQL-AA and notably published at EDBT’14 <ref xlink:href="#smis-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and demonstrated at VLDB’15, was part of Quoc-Cuong To’s Ph.D defended in 2015. We have extended this framework through a collaboration with INSA Centre Val de Loire, LIFO Lab and University of Paris Nord, LIPN lab and have shown in CoopIS’15 <ref xlink:href="#smis-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that it is possible to achieve seamless integration of distributed MapReduce processing using trusted cells, while maintaining reasonable performance. In 2016, we added three novel contributions to SQL-AA: (i) an extended privacy analysis in which we consider stronger adversaries with more background knowledge, (ii) an extended threat model in which we consider malicious attacker and propose safety properties to prevent malicious attacks and (iii) we tackled practical issues like exchanging securely shared keys among trusted cells and Querier (GKE protocol) and enforcing access control at query execution time. These new contributions have been published in TODS’16 <ref xlink:href="#smis-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In parallel, we are starting a new study in the line of our previous work on Privacy Preserving Data Publishing (PPDP) with the objective to inject individualized privacy requirements in the PPDP protocol. A preliminary contribution has been published at BDA’16 <ref xlink:href="#smis-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> to compute SQL aggregate queries under k-anonymity constraints where each individual contributing to the query may define her own k constraint, thereby letting each one weighting differently the sensitiveness of a given piece of information according to her own situation.</p>
+      <p><b>Secure spatio-temporal distributed processing:</b> Mobile participatory sensing could be used in many applications such as vehicular traffic monitoring, pollution tracking, or even health surveying (e.g., to allow measuring in real-time the individual exposure to environmental risk factors or the propagation of an epidemic). However, its success depends on finding a solution for querying a large number of users which protects user location privacy and works in real-time <ref xlink:href="#smis-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We addressed these issues and proposed PAMPAS, a privacy-aware mobile distributed system for efficient data aggregation in mobile participatory sensing. In PAMPAS, mobile devices enhanced with secure hardware, called secure probes, perform distributed query processing, while preventing users from accessing other users' data. Secure probes exchange data in encrypted form with help from an untrusted supporting server infrastructure. PAMPAS uses two efficient, parallel, and privacy-aware protocols for location-based aggregation and adaptive spatial partitioning of secure probes. Our experimental results and security analysis demonstrate that these protocols are able to collect, aggregate and share statistics or derived data in real-time, without any privacy leakage. This work is part of Dai Hai Ton That’s Ph.D. thesis defended in January 2016, co-supervised by Iulian Sandu Popa. The system implementation was demonstrated in  <ref xlink:href="#smis-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, while two papers describing the technical details of the system have been published in 2016 <ref xlink:href="#smis-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#smis-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Personal Cloud</bodyTitle>
+      <participants>
+        <person key="smis-2014-idm27688">
+          <firstname>Nicolas</firstname>
+          <lastname>Anciaux</lastname>
+          <moreinfo>correspondent</moreinfo>
+        </person>
+        <person key="smis-2014-idp65688">
+          <firstname>Luc</firstname>
+          <lastname>Bouganim</lastname>
+        </person>
+        <person key="smis-2016-idp145936">
+          <firstname>Julien</firstname>
+          <lastname>Loudet</lastname>
+        </person>
+        <person key="smis-2014-idp67104">
+          <firstname>Benjamin</firstname>
+          <lastname>Nguyen</lastname>
+        </person>
+        <person key="smis-2014-idm29176">
+          <firstname>Philippe</firstname>
+          <lastname>Pucheral</lastname>
+        </person>
+        <person key="smis-2014-idp68608">
+          <firstname>Iulian</firstname>
+          <lastname>Sandu Popa</lastname>
+        </person>
+        <person key="cassis-2014-idp103944">
+          <firstname>Guillaume</firstname>
+          <lastname>Scerri</lastname>
+        </person>
+        <person key="smis-2014-idp79800">
+          <firstname>Paul</firstname>
+          <lastname>Tran Van</lastname>
+        </person>
+      </participants>
+      <p>We are witnessing an exponential increase in the acquisition of personal data about the individuals or produced by them. Today, this information is managed using Web applications, centralizing this data in cloud data servers, under the control of few Web majors <ref xlink:href="#smis-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. However, it has now become clear that (1) centralizing millions of personal records exposes the data to very sophisticated attacks, linked to a very high potential benefit in case of success (millions of records being revealed), and (2) delegating the management of personal records without any tangible guarantee for the individuals leads to privacy violations, the data being potentially made accessible to other organizations (e.g., governments, commercial partners) and being subject to lucrative secondary usages (not advertised to the individuals). To face this situation, many recent initiatives push towards the emergence of the Personal Cloud paradigm. A personal cloud can be viewed as a personal server, owned by a given individual, which gives to its owner the ability to store her complete digital environment, synchronize it among various devices and share it with other individuals and applications under control. In the SMIS team, we claim the need of a Secure Personal Cloud, and promote the introduction of a secure (tamper resistant) data engine in the architecture <ref xlink:href="#smis-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. On this basis, we investigate new data sharing and dissemination models, where usage and access control rules endorsed by the individuals could be enforced and have presented this vision at EDBT’14 <ref xlink:href="#smis-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and at ADBIS'15 <ref xlink:href="#smis-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We have started a cooperation with the startup CozyCloud at the end of 2014. A contract was signed at the end of 2014 to integrate PlugDB in a CozyCloud instance and two CIFRE PhD thesis have been launched so far. Paul Tran Van’s PhD thesis explores a new data sharing paradigm dedicated to the personal cloud context. This paradigm, called SWYSWYK (Share What You See with Who You Know), allows to automatically derive intuitive sharing rules from a personal cloud content, to share rules among a community of users and to let each user physically visualize the net effects of these rules on her own Personal Cloud. We propose a reference architecture providing the users with tangible guarantees about the enforcement of SWYSWYK policies and demonstrate through a performance evaluation conducted on a real personal cloud platform that the approach is practical. This work constitutes the core of Paul Tran Van’s thesis and is being submitted for publication at VLDB. Preliminary ideas related to this work are presented in ERCIM news’16 <ref xlink:href="#smis-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Julien Loudet’s PhD thesis is just starting with the objective to explore privacy-preserving distributed computations over personal clouds.</p>
+      <p>More generally, the personal cloud context gain in importance in our research work. It is even at the heart of our future project-team named PETRUS (PErsonal and TRUSted cloud). PETRUS is expected to take over from the SMIS team beginning of 2017.
+</p>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Interdisciplinary study on Privacy-by-Design</bodyTitle>
+      <participants>
+        <person key="smis-2014-idm27688">
+          <firstname>Nicolas</firstname>
+          <lastname>Anciaux</lastname>
+        </person>
+        <person key="smis-2014-idp65688">
+          <firstname>Luc</firstname>
+          <lastname>Bouganim</lastname>
+          <moreinfo>correspondent</moreinfo>
+        </person>
+        <person key="smis-2014-idp76104">
+          <firstname>Athanasia</firstname>
+          <lastname>Katsouraki</lastname>
+        </person>
+        <person key="smis-2014-idp67104">
+          <firstname>Benjamin</firstname>
+          <lastname>Nguyen</lastname>
+        </person>
+        <person key="smis-2014-idm29176">
+          <firstname>Philippe</firstname>
+          <lastname>Pucheral</lastname>
+        </person>
+      </participants>
+      <p>The objective of this research action is to study the reciprocal entanglements between economic, legal, societal and technological aspects of the management and exploitation of personal data. Indeed, devising new ways of protecting data privacy cannot be done in isolation; it requires also identifying alternative economic models that are both viable and regulatory compliant. We started an interdisciplinary research work with economists (RITM Lab) and jurists (CERDI and DANTE labs) in the privacy axis of ISN (Institut de la Société Numérique) and plan to pursue it in two projects in preparation: the Convergence Institute I2DRIVE (Interdisciplinary Institute for Data Research: Intelligence, Values and Ethics) and the CNRS Federation SIHS (Sciences Informatiques, Humaines et Sociales) at UVSQ. A first interdisciplinary work conducted in 2016 concerns the design of a privacy preserving platform needed to conduct privacy studies “in vivo”. Such platforms are required to validate the effectiveness of privacy preserving solutions, in terms of technical feasibility, lawfulness, acceptability and benefits. To this end, we have designed a privacy preserving mobile lab, derived from the personal cloud platform developed by the team (see ‘Software’ section). In her PhD thesis, Athanasia Katsouraki developed a beta-version of that platform and used it to perform a pre-experimentation in the context of online form based survey, targeting 140 students. The goal was threefold: (1) to test the effectiveness of the proposed platform, (2) to test the adequation of the questionnaire and experimentation protocol (a result for the experimental economist), and (3) to check the impact of the use of a secure platform on the student’s answers. The pre-experimentation showed several improvement axis and led to the actual design of the privacy preserving mobile lab described in the Software section.</p>
+      <p>Another joint work is related to the design of technical means to help individuals perceive how their personal life is exposed compared to others and to make appropriate protection choices. This work led to the definition of a new principle called Privacy-by-Using <ref xlink:href="#smis-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, that we introduced to try to circumvent the limits of the privacy-by-design principle promoted by the regulator. The confrontation of the Privacy-by-Using principle with Big Data processing <ref xlink:href="#smis-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> has also been studied with jurists and economists.</p>
+      <p>Finally, we conducted a scientific expertise on behalf of DGCCRF (Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes) and of the European Council regarding the draft proposal of "Directive of the European Parliament and of the Council on certain aspects concerning contracts for the online and other distance sales of goods" regulating the payment of numeric goods and services by means of personal data. This led us to a cross-analysis, with researchers in Law and computer scientists, of technical, societal and economic issues linked to the smart disclosure principle, that is, under which conditions and formats individuals can get their data back from service providers <ref xlink:href="#smis-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#smis-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#smis-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Formal guarantees</bodyTitle>
+      <participants>
+        <person key="cassis-2014-idp103944">
+          <firstname>Guillaume</firstname>
+          <lastname>Scerri</lastname>
+        </person>
+      </participants>
+      <p>The aim of the action is to investigate the changes required for the PlugDB architecture to be amenable to formal security proofs.</p>
+      <p>More precisely we started exploring the precise formal guarantees that are desirable for a personal data server. Following work started in Bristol <ref xlink:href="#smis-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, relating to formal guarantees provided by secure hardware, we started studying how one could leverage the low level guarantees provided by secure hardware (PlugDB for example) to cover the more complex operations and guarantees required of a personal data server. The first finding of the action is that a modular architecture is required for formal proofs to be obtainable. This is reflected in the architectural concerns presented in the PETRUS project.</p>
+      <p>Additionally, we started studying how to leverage secure hardware guarantees in order to perform secure computations on distributed data. A first result in this direction is presented in <ref xlink:href="#smis-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and submitted to Financial Cryptography 2017.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid25">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid27" level="2">
+        <bodyTitle>Cozy Cloud bilateral contract (Dec 2014 - Nov. 2015) </bodyTitle>
+        <p>Partners: Cozy Cloud, Inria-SMIS</p>
+        <p noindent="true">SMIS funding: 50k€.</p>
+        <p noindent="true">
+          <i>While this initial contract is over, we mention it to explain the increasing relationship being built between Cozy Cloud and our team. Cozy Cloud is a French startup providing a personal Cloud platform. The Cozy product is a software stack that anyone can deploy to run his personal server in order to host his personal data and web services. While centralizing all personal data in the holder's hand is a natural way to reestablish his control on his privacy, this represents an unprecedented threat in case of attacks by an intruder, especially for individuals who are not security experts. The objective of this bilateral contract is to address this issue by integrating the PlugDB solution into the Cozy stack. Roughly speaking, the Cozy data system will be modified in such a way to store only encrypted files and each file access will be intercepted and routed to PlugDB. PlugDB will act as a doorkeeper for the whole individual dataspace by managing the files' metadata, the access control rules defined on these metadata, the decryption keys and the user/application authentication.</i>
+        </p>
+      </subsection>
+      <subsection id="uid28" level="2">
+        <bodyTitle>Cozy Cloud CIFRE - Tran Van contract (Oct 2014 - Sept 2017)</bodyTitle>
+        <p>Partners: Cozy Cloud, Inria-SMIS</p>
+        <p noindent="true">SMIS funding: 30k€</p>
+        <p noindent="true">In relation with the bilateral contract mentioned above, a CIFRE PhD thesis has been started by Paul Tran Van. The objective is to capitalize on the Cozy-PlugDB platform to devise new access and usage control models to exchange data among devices of the same user (devices may have different levels of trustworthiness) and among different users thanks to a user-friendly sharing model (see the work on the SWYSWYK - Share What You See with Who You Know - model presented above) .</p>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Cozy Cloud CIFRE - Loudet contract (Apr 2016 - Apr 2019</bodyTitle>
+        <p>Partners: Cozy Cloud, Inria-SMIS</p>
+        <p noindent="true">SMIS funding: 45k€</p>
+        <p noindent="true">In relation with the bilateral contract mentioned above, a second CIFRE PhD thesis has been started by Julien Loudet. The objective is to allow for a secure execution of distributed queries on a set of personal clouds associated to users, depending on social links, user's localization or user's profile. The general idea is to build secure indexes, distributed on the users’ personal cloud and to devise a secure execution protocol revealing solely the query result to the querier. Such highly distributed secure queries potentially enable new (social) applications fed by user’s personal data which could be developed on the Cozy-PlugDB platform.
+</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid30">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid31" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid32" level="2">
+        <bodyTitle>ANR PerSoCloud (Jan. 2017 - Jan. 2020)</bodyTitle>
+        <p>Partners: Orange Labs (coordinator), Inria-SMIS, Cozy Cloud, Univ. of Versailles.</p>
+        <p noindent="true">SMIS funding: 170k€.</p>
+        <p>The objective of PerSoCloud is to design, implement and validate a full‑fledged Privacy-by-Design Personal Cloud Sharing Platform. One of the major difficulties linked to the concept of personal cloud lies in organizing and enforcing the security of the data sharing while the data is no longer under the control of a central server. We identify three dimensions to this problem. Devices-sharing: assuming that the primary copy of user U1's personal data is hosted in a secure place, how to share and synchronize it with U1's multiple (mobile) devices without compromising security? Peers-sharing: how user U1 could exchange a subset of his-her data with an identified user U2 while providing to U1 tangible guarantees about the usage made by U2 of this data? Community-sharing: how user U1 could exchange a subset of his-her data with a large community of users and contribute to personal big data analytics while providing to U1 tangible guarantees about the preservation of his-her anonymity? In addition to tackling these three scientific and technical issues, a legal analysis will guarantee compliance of this platform with the security and privacy French and UE regulation, which firmly promotes the Privacy by Design principle, including the current reforms of personal data regulation.</p>
+      </subsection>
+      <subsection id="uid33" level="2">
+        <bodyTitle>ANR KISS (Dec. 2011 - Feb. 2016)</bodyTitle>
+        <p>Partners: Inria-SMIS (coordinator), Inria-SECRET, LIRIS, Univ. of Versailles, CryptoExperts, Gemalto, Yvelines district.</p>
+        <p noindent="true">SMIS funding: 230k€.</p>
+        <p>The idea promoted in KISS is to embed, in trusted devices, software components capable of acquiring, storing and managing securely various forms of personal data (e.g., salary forms, invoices, banking statements, geolocation data, depending on the applications). These software components form a Personal Data Server which can remain under the holder's control. The scientific challenges include: embedded data management issues tackling regular, streaming and spatio-temporal data (e.g., geolocation data), data provenance-based privacy models, crypto-protected distributed protocols to implement private communications and secure global computations.</p>
+      </subsection>
+      <subsection id="uid34" level="2">
+        <bodyTitle>PIA - PDP SECSi (May. 2016 - Dec. 2017)</bodyTitle>
+        <p>Partners: Cozy Cloud (coordinator), Qwant, Inria-SMIS, FING.</p>
+        <p noindent="true">SMIS funding: 149k€.</p>
+        <p>The objective of this PIA-PDP (Programme Investissement d’Avenir - Protection des Données Personnelles) SECSi project is to build a concrete Personal Cloud platform which can support a large scale deployment of Self Data services. Three major difficulties are identified and will be tackled in this project: (1) how to implement and enforce a fine control of the data flow when personal data are exploited by third party applications, (2) how to protect these same applications when processing is delegated to the personal cloud platform itself and (3) how to implement personalized search on the web without hurting user’s privacy.</p>
+      </subsection>
+      <subsection id="uid35" level="2">
+        <bodyTitle>CAPPRIS Project-Lab (Dec. 2011 - Dec. 2016)</bodyTitle>
+        <p>Inria Partners: PRIVATICS (coordinator), SMIS, PLANETE, CIDRE, COMETE.</p>
+        <p noindent="true">External partners: Univ. of Namur, Eurecom, LAAS.</p>
+        <p noindent="true">Funding: not associated to individual project-teams.</p>
+        <p>An Inria Project Lab (IPL) is a long-term multi-disciplinary project launched by Inria to sustain large scale risky research actions in line with its own strategic plan. CAPPRIS stands for "Collaborative Action on the Protection of Privacy Rights in the Information Society". The key issues that are addressed are: (1) the identification of existing and future threats to privacy, (2) the definition of formally grounded measures to assess and quantify privacy, (3) the definition of the fundamental principles underlying privacy by design and methods to apply them in concrete situations and (4) The integration of the social and legal dimensions. To assess the relevance and significance of the research results, they are confronted to three classes of case studies CAPPRIS partners are involved in: namely Online Social Networks, Location Based Services and Electronic Health Record Systems.</p>
+      </subsection>
+      <subsection id="uid36" level="2">
+        <bodyTitle>CityLab@Inria, Inria Project Lab (May 2014 -).</bodyTitle>
+        <p>Inria Partners: CLIME, DICE, FUN, MIMOVE, MYRIADS, SMIS, URBANET, WILLOW.</p>
+        <p noindent="true">External partners: UC Berkeley.</p>
+        <p noindent="true">Funding: not associated to individual project teams.</p>
+        <p>CityLab@Inria studies ICT solutions toward smart cities that promote both social and environmental sustainability. A strong emphasis of the Lab is on the undertaking of a multi-disciplinary research program through the integration of relevant scientific and technology studies, from sensing up to analytics and advanced applications, so as to actually enact the foreseen smart city Systems of Systems. SMIS contributes to Privacy-by-Design architectures for trusted smart objects so as to ensure privacy to citizens, which is critical for ensuring that urbanscale sensing contributes to social sustainability and does not become a threat. <ref xlink:href="https://citylab.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>citylab.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+      </subsection>
+      <subsection id="uid37" level="2">
+        <bodyTitle>VALDO (Valorisation et monétisation des données personnelles à l’ère du Big Data), Digital Society Institute (DSI) (May 2015 - Sept. 2016).</bodyTitle>
+        <p>Partners: DANTE and SMIS (co-organizers), CERDI, RITM.</p>
+        <p noindent="true">SMIS funding: 50K€.</p>
+        <p>The objective of this project is to study with a multidisciplinary approach (i.e., computer science, law and economics) the impact of putting a certain (e.g., monetary) value on personal data, over the behavior of individuals (that are the rightful owners of the data) and market companies (that make usage of the personal data) in terms of data protection practices and data usage.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid38">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid39" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid40" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid41" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <simplelist>
+            <li id="uid42">
+              <p noindent="true">Philippe Pucheral: Co-founder of the bi-annual French Summer School 'Masses de Données Distribuées' and co-organizer of this school in 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid43" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid44">
+              <p noindent="true">Benjamin Nguyen: Steering commitee of 'Atelier sur la Protection de la Vie Privée' (APVP) in 2016</p>
+            </li>
+            <li id="uid45">
+              <p noindent="true">Nicolas Anciaux: co-organizer (with Fabrice Le Guel and Ulysse Roux) of the 'Journée de restitution d'ISN' in 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid47" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid48">
+              <p noindent="true">Philippe Pucheral: DATA’16, DBKDA’16, BDA’16, EDBT’17</p>
+            </li>
+            <li id="uid49">
+              <p noindent="true">Luc Bouganim: VLDB’17, EDBT'16, BDA’16 (Demo)</p>
+            </li>
+            <li id="uid50">
+              <p noindent="true">Benjamin Nguyen: ECML/PKDD'16</p>
+            </li>
+            <li id="uid51">
+              <p noindent="true">Nicolas Anciaux: SIGMOD'17, EDBT'16, DATA'16, ICT4AWE'16, BDA'16, RESSI'16</p>
+            </li>
+            <li id="uid52">
+              <p noindent="true">Iulian Sandu Popa: IEEE MobileCloud’16, DATA’16, MobilWare’16, MCSMS’16</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid53" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid54">
+              <p noindent="true">Luc Bouganim: EDBT’17</p>
+            </li>
+            <li id="uid55">
+              <p noindent="true">Iulian Sandu Popa: MDM’16</p>
+            </li>
+            <li id="uid56">
+              <p noindent="true">Guillaume Scerri : SIGMOD’17, EDBT’17, STACS’17</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid58" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid59">
+              <p noindent="true">Nicolas Anciaux: Associate Editor of the VLDB Journal (since 2015)</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Benjamin Nguyen: Techniques et Sciences Informatiques (TSI) - Revue Française (Rédacteur adjoint, domaine Sécurité et Vie Privée depuis 2016-05)</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Luc Bouganim: Area Editor for PVLDB 2018</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid62" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid63">
+              <p noindent="true">Iulian Sandu Popa: IEEE TKDE, ACM Transactions on Storage, International Journal of Digital Earth</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid65">
+            <p noindent="true">Invited tutorial: N. Anciaux, L. Bouganim, Tutorial: Decentralized Personal Data Management, using secure devices, BDA summer school: ”Masses de données distribuées”, Urugne, June 2016 <ref xlink:href="#smis-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+          </li>
+          <li id="uid66">
+            <p noindent="true">Invited talk: N. Anciaux, La valorisation de la donnée par l’usager : approche technique. Centre français de droit comparé, Colloque 'Propriété(s) et données', Paris, 2016 <ref xlink:href="https://linc.cnil.fr/fr/le-centre-francais-de-droit-compare-organise-un-colloque-proprietes-et-donnees" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>linc.<allowbreak/>cnil.<allowbreak/>fr/<allowbreak/>fr/<allowbreak/>le-centre-francais-de-droit-compare-organise-un-colloque-proprietes-et-donnees</ref></p>
+          </li>
+          <li id="uid67">
+            <p noindent="true">Invited talk: L. Bouganim, Remy Pasquion, A Secure and Mobile Platform for Experimental Economy, Multidisciplinary Research Seminar at Telecom Paris Tech, Paris, June 2016.</p>
+          </li>
+          <li id="uid68">
+            <p noindent="true">Invited talk: N. Anciaux, Contrôler ses données personnelles par la décentralisation. Journée Protection de la vie privée : Nouveaux instruments techniques et juridiques, CNRS, November 2016. <ref xlink:href="http://www.univ-orleans.fr/lifo/evenements/CAPPRIS/?page_id=125" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>univ-orleans.<allowbreak/>fr/<allowbreak/>lifo/<allowbreak/>evenements/<allowbreak/>CAPPRIS/<allowbreak/>?page_id=125</ref></p>
+          </li>
+          <li id="uid69">
+            <p noindent="true">Invited demonstration: L. Bouganim and R. Pasquion, Présentation d’une Plateforme de Questionnaires Respectueux de la Vie Privée, Sommet « Partenariat pour un Gouvernement ouvert », Agora numérique « Pour un Sénat ouvert », December, 8, 2016.</p>
+          </li>
+          <li id="uid70">
+            <p noindent="true">Invited demonstrations: N. Anciaux, L. Bouganim and P. Tran Van, Partager et disposer de ses données en en gardant la maîtrise, trois démonstrations sur la base de PlugDB: Mobile Platform for Experimental Economy, Secure personal cloud (with Cozy Cloud), Personal Social-Medical Folder. Journée Protection de la vie privée : Nouveaux instruments techniques et juridiques, CNRS, November 2016. <ref xlink:href="http://www.univ-orleans.fr/lifo/evenements/CAPPRIS/?page_id=125" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>univ-orleans.<allowbreak/>fr/<allowbreak/>lifo/<allowbreak/>evenements/<allowbreak/>CAPPRIS/<allowbreak/>?page_id=125</ref></p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">Invited talk: Iulian Sandu Popa, Distributed Architectures for Privacy-Aware Mobile Participatory Sensing, BIS’16 Workshop, June 2016 <ref xlink:href="https://project.inria.fr/siliconvalley/bis2016-day-2-full-day-working-session-on-smart-cities/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>project.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>siliconvalley/<allowbreak/>bis2016-day-2-full-day-working-session-on-smart-cities/</ref></p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Invited talk: N. Anciaux, A new approach for secure personal cloud, CITI Talk, Lyon, May 2016 <ref xlink:href="http://www.citi-lab.fr/2016/05/17/citi-talk-a-new-approach-for-secure-personal-cloud-by-nicolas-anciaux-on-26th-may/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>citi-lab.<allowbreak/>fr/<allowbreak/>2016/<allowbreak/>05/<allowbreak/>17/<allowbreak/>citi-talk-a-new-approach-for-secure-personal-cloud-by-nicolas-anciaux-on-26th-may/</ref></p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">Panel: Nicolas Anciaux, Enjeux et opportunités des modèles ouverts en santé, Paris Open Source Summit, 2016. Trackleader : Olivier de Fresnoye. Panelists : Nicolas Anciaux (Inria), Mobin Yasini(MD, MPH, PhD, mHealth Quality R&amp;D Director), Stéphane Gigandet (Open Food Facts), Clémentine Langlois (Fongwama) <ref xlink:href="http://empoweringopeninnovation.org/enjeux-et-opportunites-des-modeles-ouverts-en-sante/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>empoweringopeninnovation.<allowbreak/>org/<allowbreak/>enjeux-et-opportunites-des-modeles-ouverts-en-sante/</ref></p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid74" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid75">
+            <p noindent="true">N. Anciaux, P. Pucheral : scientific expertise on behalf of DGCCRF (Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes) and of the European Council regarding the draft proposal of "Directive of the European Parliament and of the Council on certain aspects concerning contracts for the online and other distance sales of goods" regulating the payment of numeric goods and services by means of personal data</p>
+          </li>
+          <li id="uid76">
+            <p noindent="true">Benjamin Nguyen: Natural Sciences and Engineering Research Council of Canada (NSERC), Research grants</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">Benjamin Nguyen: Membre du comité d'éthique de TeraLab, du Groupe des Ecoles Nationales d'Economie et de Statistique (GENES) dont l'ENSAE.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid79">
+            <p noindent="true">Philippe Pucheral: Member of the HDR committee of the STV doctoral school (UVSQ) since 2014</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Philippe Pucheral: Member of the steering committee of the ED STIC doctoral school of University Paris-Saclay, 'Data, Knowledge and Interactions' committee (about 250 PhD students) since 2014</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">Philippe Pucheral: Representative of Inria in the ‘Comité des Tutelles Formation’ of Paris-Saclay University since 2016</p>
+          </li>
+          <li id="uid82">
+            <p noindent="true">Philippe Pucheral: Member of the ‘Commission de Sélection’ of UVSQ and of the ‘Commission des Appellations’ of Télécom SudParis in 2016</p>
+          </li>
+          <li id="uid83">
+            <p noindent="true">Luc Bouganim: Reviewer for the ANR programs (Evaluation committee CE23), 2016</p>
+          </li>
+          <li id="uid84">
+            <p noindent="true">Luc Bouganim: Member of the ‘Commission de Sélection’ of the INSA CVL, 2016</p>
+          </li>
+          <li id="uid85">
+            <p noindent="true">Nicolas Anciaux: Co-director of the 'Privacy and digital identity' WG at Digital Society Institute (DSI), until June 2016</p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">Nicolas Anciaux: Reviewer of the CHIST-ERA Call 2015 - SPTIoT</p>
+          </li>
+          <li id="uid87">
+            <p noindent="true">Nicolas Anciaux: Member of the ‘Commission de Sélection’ of UVSQ, 2016</p>
+          </li>
+          <li id="uid88">
+            <p noindent="true">Benjamin Nguyen: Director of LIFO (EA 4022) since July 2016</p>
+          </li>
+          <li id="uid89">
+            <p noindent="true">Benjamin Nguyen: Responsible of CNRS privacy working group "Sécurité" since september 2016</p>
+          </li>
+          <li id="uid90">
+            <p noindent="true">Benjamin Nguyen: Director of Digital Affairs (INSA CVL)</p>
+          </li>
+          <li id="uid91">
+            <p noindent="true">Iulian Sandu Popa: Reviewer for the ANR programs (evaluation committee CE23), 2016</p>
+          </li>
+          <li id="uid92">
+            <p noindent="true">Iulian Sandu Popa: Member of the ‘Commission de Sélection’ of the UVSQ, 2016</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid93" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid94" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid95">
+            <p noindent="true">Master : Philippe Pucheral, co-director of the DataScale master (UPSay), courses in M1 and M2 at UVSQ and at ENSIIE</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">Master: Nicolas Anciaux, Courses on database internal mechanisms and database security, 80, in Master1 and Master2 (AFTI, Orsay) and in engineering school (ENSTA ParisTech, Telecom Paristech)</p>
+          </li>
+          <li id="uid97">
+            <p noindent="true">Master : Luc Bouganim, Bases de données, 24, niveau M2, CFA AFTI/UVSQ, France</p>
+          </li>
+          <li id="uid98">
+            <p noindent="true">Master : Luc Bouganim, Systèmes d'information Privacy by Design, 54, niveau M2, ENSIIE, INSA CVL, France</p>
+          </li>
+          <li id="uid99">
+            <p noindent="true">Master : Luc Bouganim, Sécurité des bases de données, 10, niveau M2, Télécom ParisTech, France</p>
+          </li>
+          <li id="uid100">
+            <p noindent="true">Licence : Iulian Sandu Popa, Initiation aux bases de données (niveau L2), Bases de données (niveau L3), 96, UVSQ, France</p>
+          </li>
+          <li id="uid101">
+            <p noindent="true">Master : Iulian Sandu Popa, Bases de données relationnelles (niveau M1), Gestion des données spatiotemporelles (niveau M2), Sécurité des bases de données (niveau M2), 96, UVSQ, France</p>
+          </li>
+          <li id="uid102">
+            <p noindent="true">Master : Benjamin Nguyen, Databases, IA, Security, 192, INSA CVL, France</p>
+          </li>
+          <li id="uid103">
+            <p noindent="true">Licence : Guillaume Scerri, Fondements de l’informatique, 36, niveau L1, UVSQ, France</p>
+          </li>
+          <li id="uid104">
+            <p noindent="true">Licence : Guillaume Scerri, Initiation aux bases de données, 43.5, niveau L2, UVSQ, France</p>
+          </li>
+          <li id="uid105">
+            <p noindent="true">Master : Guillaume Scerri, Bases de données, 30, niveau M1, UVSQ France</p>
+          </li>
+        </sanspuceslist>
+        <sanspuceslist>
+          <li id="uid106">
+            <p noindent="true">
+              <b>E-learning</b>
+            </p>
+            <sanspuceslist>
+              <li id="uid107">
+                <p noindent="true">MOOC created in 2016: "Villes intelligentes : défis technologiques et sociétaux", coordinated by V. Issarny and N. Mitton. N. Anciaux, S.Grumbach, V. Issarny, N. Mitton, C. Morin, A. Pathak, H. Rivano. Start date 25 Jan. 2016. In 2016, more than 8000 students have registered to follow the courses. A new edition is planned for 2017. <ref xlink:href="https://www.fun-mooc.fr/courses/inria/41009/session01/about" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>fun-mooc.<allowbreak/>fr/<allowbreak/>courses/<allowbreak/>inria/<allowbreak/>41009/<allowbreak/>session01/<allowbreak/>about</ref></p>
+              </li>
+              <li id="uid108">
+                <p noindent="true">MOOC created in 2016: Bases de données relationnelles : comprendre pour maîtriser (Serge Abiteboul, Benjamin Nguyen, Philippe Rigaux) <ref xlink:href="https://www.fun-mooc.fr/courses/inria/41008/session01/about" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>fun-mooc.<allowbreak/>fr/<allowbreak/>courses/<allowbreak/>inria/<allowbreak/>41008/<allowbreak/>session01/<allowbreak/>about</ref></p>
+              </li>
+            </sanspuceslist>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid110">
+            <p noindent="true">PhD: Athanasia Katsouraki, Sharing and Usage Control of Personal Information, UVSQ, September 2016, Luc Bouganim and Benjamin Nguyen</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">PhD: Saliha Lallali, A Secure Search Engine for the Personal Cloud, UVSQ, January 2016, Nicolas Anciaux, Philippe Pucheral, and Iulian Sandu Popa</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">PhD: Dai Hai Ton That, Efficient Management and Secure Sharing of Mobility Traces, UVSQ, January 2016, Iulian Sandu Popa and Karine Zeitouni</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">PhD in progress : Paul Tran Van, Partage de documents sécurisé dans le Cloud Personnel, October 2014, Nicolas Anciaux and Philippe Pucheral</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">PhD in progress : Axel Michel, Secure Distributed Computations, October 2015, Benjamin Nguyen and Philippe Pucheral</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">PhD in progress : Julien Loudet, Personal Queries on Personal Clouds, July 2016, Luc Bouganim and Iulian Sandu Popa</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">PhD in progress : Riad Ladjel, Secure Distributed Computation for the Personal Cloud, October 2016, Nicolas Anciaux and Philippe Pucheral</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid117" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid118">
+            <p noindent="true">Philippe Pucheral: member of the PhD jury of Mahsa Najafzadeh (Paris VI, 22/04/2016)</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Benjamin Nguyen: reviewer of the PhD of Tarek SAYAH, Exposition sélective et problème de fuite d'inférence dans le Linked Data, Université Claude Bernard Lyon I, 2016/09/08</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Benjamin Nguyen: reviewer of the PhD of Germain JOLLY, Evaluation of payment applications on smart cards, Université de Caen/ENSICAEN, 2016/07/08</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Benjamin Nguyen: reviewer of the PhD of Julien LOLIVE, Entrelacement des mécanismes d'identification et de respect de la vie privée pour la protection des contenus externalisés, Télécom Bretagne, 2016/05/13</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Benjamin Nguyen: president and reviewer of the PhD jury of Karina SOKOLOVA, Bridging the gap between Privacy by Design and mobile systems by patterns, Université Technologique de Troyes, 2016/04/27</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid123" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>General public (large audience magazines, television, videos):</p>
+      <simplelist>
+        <li id="uid124">
+          <p noindent="true">"Santé connectée. Une médecine sans médecin ?", interview of N. Anciaux, La Recherche, N°510 Avril 2016. (http://fliphtml5.com/ggwf/ynja p.84)</p>
+        </li>
+        <li id="uid125">
+          <p noindent="true">"PlugDB, coffre-fort numérique personnel", interview of P.Pucheral, Le Monde Science &amp; Techno, November 28th, 2016.</p>
+        </li>
+        <li id="uid126">
+          <p noindent="true">"Sur Internet, vos données personnelles valent de l’or", interview of P.Pucheral, Ca m'intéresse, November 2016.</p>
+        </li>
+        <li id="uid127">
+          <p noindent="true">"Santé connectée, santé partagée", interview of P.Pucheral, Le Point, April 7th 2016.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="smis-2016-bid8" type="article" rend="refer" n="refercite:allard:hal-00934586">
+      <identifiant type="doi" value="10.1007/s10619-013-7122-x"/>
+      <identifiant type="hal" value="hal-00934586"/>
+      <analytic>
+        <title level="a">MetaP: Revisiting Privacy-Preserving Data Publishing using Secure Devices</title>
+        <author>
+          <persName key="zenith-2014-idp93512">
+            <foreName>Tristan</foreName>
+            <surname>Allard</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Distributed and Parallel Databases</title>
+        <imprint>
+          <biblScope type="volume">32</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">191-244</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00934586" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00934586</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid22" type="inproceedings" rend="refer" n="refercite:anciaux:hal-00768379">
+      <identifiant type="hal" value="hal-00768379"/>
+      <analytic>
+        <title level="a">Trusted Cells : A Sea Change for Personnal Data Services</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idm26248">
+            <foreName>Philippe</foreName>
+            <surname>Bonnet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">CIDR 2013 - 6th Biennal Conference on Innovative Database Research</title>
+        <loc>Asilomar, United States</loc>
+        <imprint>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">4</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00768379" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00768379</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid9" type="inproceedings" rend="refer" n="refercite:anciaux:hal-00906204">
+      <identifiant type="hal" value="hal-00906204"/>
+      <analytic>
+        <title level="a">Folk-IS: Opportunistic Data Services in Least Developed Countries</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Thierry</foreName>
+            <surname>Delot</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Sergio</foreName>
+            <surname>Ilarri</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Leïla</foreName>
+            <surname>Kloul</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="fun-2014-idm29720">
+            <foreName>Nathalie</foreName>
+            <surname>Mitton</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">40th International Conference on Very Large Data Bases (VLDB)</title>
+        <loc>Hangzhou, China</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Zhejiang University</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00906204" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00906204</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid10" type="article" rend="refer" n="refercite:anciaux:hal-00768355">
+      <identifiant type="doi" value="10.1007/s10619-012-7119-x"/>
+      <identifiant type="hal" value="hal-00768355"/>
+      <analytic>
+        <title level="a">MILo-DB: a personal, secure and portable database machine</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Yanli</foreName>
+            <surname>Guo</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Lionel</foreName>
+            <surname>Le Folgoc</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Shaoyi</foreName>
+            <surname>Yin</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Distributed and Parallel Databases</title>
+        <imprint>
+          <biblScope type="volume">32</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">37-63</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00768355" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00768355</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid11" type="inproceedings" rend="refer" n="refercite:anciaux:hal-01176458">
+      <identifiant type="doi" value="10.14778/2777598.2777600"/>
+      <identifiant type="hal" value="hal-01176458"/>
+      <analytic>
+        <title level="a">A Scalable Search Engine for Mass Storage Smart Objects</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp77336">
+            <foreName>Saliha</foreName>
+            <surname>Lallali</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 41th International Conference on Very Large Databases (VLDB)</title>
+        <loc>Kohala Coast, Hawaii, United States</loc>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">9</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">910-921</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01176458" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01176458</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid24" type="article" rend="refer" n="refercite:anciaux:hal-01096633">
+      <identifiant type="doi" value="10.5441/002/edbt.2014.71"/>
+      <identifiant type="hal" value="hal-01096633"/>
+      <analytic>
+        <title level="a">Tutorial: Managing Personal Data with Strong Privacy Guarantees</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">672-673</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01096633" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01096633</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid32" type="article" rend="refer" n="refercite:BPSW16">
+      <identifiant type="doi" value="10.1109/EuroSP.2016.28"/>
+      <identifiant type="hal" value="hal-01417137"/>
+      <analytic>
+        <title level="a">Foundations of Hardware-Based Attested Computation and Application to SGX</title>
+        <author>
+          <persName key="cassis-2014-idp103944">
+            <foreName>Guillaume</foreName>
+            <surname>Scerri</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="cassis-2015-idp108592">
+            <foreName>Bogdan</foreName>
+            <surname>Warinschi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Barbosa</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Portela</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">245-260</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01417137" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01417137</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid14" type="inproceedings" rend="refer" n="refercite:to:hal-01096639">
+      <identifiant type="doi" value="10.5441/002/edbt.2014.44"/>
+      <identifiant type="hal" value="hal-01096639"/>
+      <analytic>
+        <title level="a">Privacy-Preserving Query Execution using a Decentralized Architecture and Tamper Resistant Hardware</title>
+        <author>
+          <persName key="smis-2015-idp73896">
+            <foreName>Quoc Cuong</foreName>
+            <surname>To</surname>
+            <initial>Q. C.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">17th International Conference on Extending Database Technology (EDBT)</title>
+        <loc>Athens, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01096639" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01096639</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid15" type="inproceedings" rend="refer" n="refercite:to:hal-01254951">
+      <identifiant type="doi" value="10.1007/978-3-319-26148-5_3"/>
+      <identifiant type="hal" value="hal-01254951"/>
+      <analytic>
+        <title level="a">TrustedMR: A Trusted MapReduce System based on Tamper Resistance Hardware </title>
+        <author>
+          <persName>
+            <foreName>Cuong Quoc</foreName>
+            <surname>To</surname>
+            <initial>C. Q.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 23rd International Conference on Cooperative Information Systems (COOPIS)</title>
+        <loc>Rhodes, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">38-56</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01254951" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01254951</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid18" type="article" rend="refer" n="refercite:tonthat:hal-01176563">
+      <identifiant type="doi" value="10.1145/2786758"/>
+      <identifiant type="hal" value="hal-01176563"/>
+      <analytic>
+        <title level="a">TRIFL: A Generic Trajectory Index for Flash Storage</title>
+        <author>
+          <persName>
+            <foreName>Dai Hai</foreName>
+            <surname>Ton That</surname>
+            <initial>D. H.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Zeitouni</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Transactions on Algorithms</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>July</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">44</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01176563" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01176563</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid39" type="phdthesis" rend="year" n="cite:katsouraki:tel-01425638">
+      <identifiant type="hal" value="tel-01425638"/>
+      <monogr>
+        <title level="m">Sharing and Usage Control of Personal Information</title>
+        <author>
+          <persName key="smis-2014-idp76104">
+            <foreName>Athanasia</foreName>
+            <surname>Katsouraki</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01425638" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01425638</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid36" type="phdthesis" rend="year" n="cite:lallali:tel-01426486">
+      <identifiant type="hal" value="tel-01426486"/>
+      <monogr>
+        <title level="m">A Scalable Search Engine for the Personal Cloud</title>
+        <author>
+          <persName key="smis-2014-idp77336">
+            <foreName>Saliha</foreName>
+            <surname>Lallali</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01426486" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01426486</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid37" type="phdthesis" rend="year" n="cite:tonthat:tel-01290834">
+      <identifiant type="hal" value="tel-01290834"/>
+      <monogr>
+        <title level="m">Efficient management and secure sharing of mobility traces</title>
+        <author>
+          <persName>
+            <foreName>Dai Hai</foreName>
+            <surname>Ton That</surname>
+            <initial>D. H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Paris-Saclay</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01290834" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01290834</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid26" type="article" rend="year" n="cite:anciaux:hal-01427725">
+      <identifiant type="hal" value="hal-01427725"/>
+      <analytic>
+        <title level="a">A Root of Trust for the Personal Cloud</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Benjamin</foreName>
+            <surname>André</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Tran-Van</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="no" x-international-audience="yes" id="rid00490">
+        <idno type="issn">0926-4981</idno>
+        <title level="j">ERCIM News</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01427725" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01427725</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid29" type="article" rend="year" n="cite:anciaux:hal-01432544">
+      <identifiant type="hal" value="hal-01432544"/>
+      <analytic>
+        <title level="a">Dossier Contenus Numériques Revue Contrats, Concurrence, Consommation - Contenus Numériques</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Martine</foreName>
+            <surname>BEHAR-TOUCHAIS</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Valérie-Laure</foreName>
+            <surname>Benabou</surname>
+            <initial>V.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Geoffray</foreName>
+            <surname>BRUNAUX</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Audrey</foreName>
+            <surname>LEFEVRE</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>MARTIAL-BRAZ</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Judith</foreName>
+            <surname>ROCHFELD</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Natacha</foreName>
+            <surname>SAUPHANOR-BROUILLAUD</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Bianca</foreName>
+            <surname>SCHULZ</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Juliette</foreName>
+            <surname>SENECHAL</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Célia</foreName>
+            <surname>Zolynski</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="no" id="rid03168">
+        <idno type="issn">1156-8291</idno>
+        <title level="j">Revue Contrats Concurrence Consommation</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01432544" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01432544</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid31" type="article" rend="year" n="cite:berthet:hal-01429939">
+      <identifiant type="hal" value="hal-01429939"/>
+      <analytic>
+        <title level="a">" Contenus numériques et récupération des données : un nouvel outil d' 'empouvoirement' du consommateur ? "</title>
+        <author>
+          <persName>
+            <foreName>Charly</foreName>
+            <surname>Berthet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Célia</foreName>
+            <surname>Zolynski</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="no" id="rid03169">
+        <idno type="issn">2493-2957</idno>
+        <title level="j">Dalloz IP/IT</title>
+        <imprint>
+          <biblScope type="volume">IP IT / 10</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01429939" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01429939</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid35" type="article" rend="year" n="cite:pan:hal-01426424">
+      <identifiant type="doi" value="10.1109/TMC.2016.2538226"/>
+      <identifiant type="hal" value="hal-01426424"/>
+      <analytic>
+        <title level="a">DIVERT: A Distributed Vehicular Traffic Re-Routing System for Congestion Avoidance</title>
+        <author>
+          <persName>
+            <foreName>Susan Juan</foreName>
+            <surname>Pan</surname>
+            <initial>S. J.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Cristian</foreName>
+            <surname>Borcea</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00740">
+        <idno type="issn">1536-1233</idno>
+        <title level="j">IEEE Transactions on Mobile Computing</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">58-72</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01426424" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426424</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid30" type="article" rend="year" n="cite:pucheral:hal-01429951">
+      <identifiant type="hal" value="hal-01429951"/>
+      <analytic>
+        <title level="a">Dossier Contenus Numériques / Données</title>
+        <author>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Martine</foreName>
+            <surname>BEHAR-TOUCHAIS</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Valérie-Laure</foreName>
+            <surname>Benabou</surname>
+            <initial>V.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>MARTIAL-BRAZ</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Judith</foreName>
+            <surname>ROCHFELD</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Natacha</foreName>
+            <surname>SAUPHANOR-BROUILLAUD</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Bianca</foreName>
+            <surname>SCHULZ</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Juliette</foreName>
+            <surname>SENECHAL</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Célia</foreName>
+            <surname>Zolynski</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="no" id="rid03168">
+        <idno type="issn">1156-8291</idno>
+        <title level="j">Contrats concurrence consommation</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01429951" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01429951</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid27" type="article" rend="year" n="cite:pucheral:hal-01427983">
+      <identifiant type="doi" value="10.3917/legi.056.0089"/>
+      <identifiant type="hal" value="hal-01427983"/>
+      <analytic>
+        <title level="a">La Privacy by design : une fausse bonne solution aux problèmes de protection des données personnelles soulevés par l'Open data et les objets connectés ?</title>
+        <author>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Alain</foreName>
+            <surname>Rallet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabrice</foreName>
+            <surname>Rochelandet</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Célia</foreName>
+            <surname>Zolynski</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="no" id="rid03170">
+        <idno type="issn">1244-9288</idno>
+        <title level="j">Legicom</title>
+        <imprint>
+          <biblScope type="number">56</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">89-99</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01427983" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01427983</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid28" type="incollection" rend="year" n="cite:pucheral:hal-01429075">
+      <identifiant type="hal" value="hal-01429075"/>
+      <analytic>
+        <title level="a">Privacy by Design et Big Data</title>
+        <author>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Alain</foreName>
+            <surname>Rallet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Célia</foreName>
+            <surname>Zolynski</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Les big data à découvert</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01429075" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01429075</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid16" subtype="nonparu-s" type="article" rend="year" n="cite:to:hal-01296432">
+      <identifiant type="hal" value="hal-01296432"/>
+      <analytic>
+        <title level="a">Private and Scalable Execution of SQL Aggregates on a Secure Decentralized Architecture</title>
+        <author>
+          <persName>
+            <foreName>Cuong Quoc</foreName>
+            <surname>To</surname>
+            <initial>C. Q.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00021">
+        <idno type="issn">0362-5915</idno>
+        <title level="j">ACM Transactions on Database Systems</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01296432" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01296432</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid21" type="article" rend="year" n="cite:tonthat:hal-01426358">
+      <identifiant type="doi" value="10.3166/RIG.26.185-210"/>
+      <identifiant type="hal" value="hal-01426358"/>
+      <analytic>
+        <title level="a">Un protocole basé sur des mobiles sécurisés pour une collecte participative de données spatiales en mobilité réellement anonyme</title>
+        <author>
+          <persName>
+            <foreName>Dai Hai</foreName>
+            <surname>Ton That</surname>
+            <initial>D. H.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Zeitouni</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Cristian</foreName>
+            <surname>Borcea</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01700">
+        <idno type="issn">1260-5875</idno>
+        <title level="j">Revue Internationale de Géomatique</title>
+        <imprint>
+          <biblScope type="volume">26</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">185-210</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01426358" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426358</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid40" type="inproceedings" rend="year" n="cite:bouganim:hal-01289023">
+      <identifiant type="hal" value="hal-01289023"/>
+      <analytic>
+        <title level="a">DatShA :A Data Sharing Algebra for access control plans</title>
+        <author>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="smis-2014-idp76104">
+            <foreName>Athanasia</foreName>
+            <surname>Katsouraki</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">19th International Conference on Extending Database Technology (EDBT 2016)</title>
+        <loc>Bordeaux, France</loc>
+        <title level="s">Proceedings of the 19th International Conference on Extending Database Technology (short paper)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01289023" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01289023</ref>
+        </imprint>
+        <meeting id="cid280585">
+          <title>International Conference on Extending Database Technology</title>
+          <num>19</num>
+          <abbr type="sigle">EDBT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid13" type="inproceedings" rend="year" n="cite:le:hal-01293409">
+      <identifiant type="hal" value="hal-01293409"/>
+      <analytic>
+        <title level="a">Distributed Secure Search in the Personal Cloud</title>
+        <author>
+          <persName key="coffee-2014-idp81752">
+            <foreName>Thi Bao Thu</foreName>
+            <surname>Le</surname>
+            <initial>T. B. T.</initial>
+          </persName>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Sébastien</foreName>
+            <surname>Gilloton</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="smis-2014-idp77336">
+            <foreName>Saliha</foreName>
+            <surname>Lallali</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="smis-2015-idp70184">
+            <foreName>Chao</foreName>
+            <surname>Chen</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">19th International Conference on Extending Database Technology (EDBT 2016)</title>
+        <loc>Bordeaux, France</loc>
+        <title level="s">Proceedings of EDBT'16 (Demo paper)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">652-655</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01293409" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01293409</ref>
+        </imprint>
+        <meeting id="cid280585">
+          <title>International Conference on Extending Database Technology</title>
+          <num>19</num>
+          <abbr type="sigle">EDBT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid38" type="inproceedings" rend="year" n="cite:michel:hal-01424993">
+      <identifiant type="hal" value="hal-01424993"/>
+      <analytic>
+        <title level="a">Managing distributed queries under anonymity constraints</title>
+        <author>
+          <persName key="smis-2016-idp143488">
+            <foreName>Axel</foreName>
+            <surname>Michel</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">7e Atelier sur la Protection de la Vie Privée</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01424993" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01424993</ref>
+        </imprint>
+        <meeting id="cid404748">
+          <title>Atelier Protection de la Vie Privée</title>
+          <num>7</num>
+          <abbr type="sigle">APVP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid17" type="inproceedings" rend="year" n="cite:michel:hal-01424989">
+      <identifiant type="hal" value="hal-01424989"/>
+      <analytic>
+        <title level="a">Exécution de requêtes distribuées sous contraintes d'anonymat</title>
+        <author>
+          <persName key="smis-2016-idp143488">
+            <foreName>Axel</foreName>
+            <surname>Michel</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">32ème Conférence sur la Gestion de Données - Principes, Technologies et Applications</title>
+        <loc>Poitiers, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01424989" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01424989</ref>
+        </imprint>
+        <meeting id="cid343018">
+          <title>Journées Bases de Données Avancées</title>
+          <num>32</num>
+          <abbr type="sigle">BDA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid20" type="inproceedings" rend="year" n="cite:tonthat:hal-01426375">
+      <identifiant type="doi" value="10.1145/1235"/>
+      <identifiant type="hal" value="hal-01426375"/>
+      <analytic>
+        <title level="a">PAMPAS: Privacy-Aware Mobile Participatory Sensing Using Secure Probes</title>
+        <author>
+          <persName>
+            <foreName>Dai Hai</foreName>
+            <surname>Ton That</surname>
+            <initial>D. H.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Zeitouni</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Cristian</foreName>
+            <surname>Borcea</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Scientific and Statistical Database Management (SSDBM '16)</title>
+        <loc>Budapest, Hungary</loc>
+        <title level="s">Proceedings of the 28th International Conference on Scientific and Statistical Database Management</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426375" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426375</ref>
+        </imprint>
+        <meeting id="cid108245">
+          <title>International Conference in Scientific and Statistical Database Management</title>
+          <num>28</num>
+          <abbr type="sigle">SSDBM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid34" type="misc" rend="year" n="cite:anciaux:hal-01425656">
+      <identifiant type="hal" value="hal-01425656"/>
+      <monogr x-scientific-popularization="yes">
+        <title level="m">Decentralized Personal Data Management, using secure devices (Tutorial)</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01425656" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01425656</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">BDA summer school: ”Masses de données distribuées”, Urugne, France</note>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid2" type="inproceedings" rend="foot" n="footcite:AKS02">
+      <analytic>
+        <title level="a">Hippocratic Databases</title>
+        <author>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Agrawal</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Kiernan</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Srikant</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="scale-2015-idp106032">
+            <foreName>Y.</foreName>
+            <surname>Xu</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proc. of the Int. Conf. on Very Large Data Bases (VLDB)</title>
+        <imprint>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid23" type="inproceedings" rend="foot" n="footcite:PDS10">
+      <analytic>
+        <title level="a">Secure Personal Data Servers: a Vision Paper</title>
+        <author>
+          <persName key="zenith-2014-idp93512">
+            <foreName>Tristan</foreName>
+            <surname>Allard</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Yanli</foreName>
+            <surname>Guo</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Lionel</foreName>
+            <surname>Le Folgoc</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Indrajit</foreName>
+            <surname>Ray</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Indrakshi</foreName>
+            <surname>Ray</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Shaoyi</foreName>
+            <surname>Yin</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes" x-editorial-board="yes">
+        <title level="m">Proc. of the 36th Int. Conf. on Very Large Databases (VLDB)</title>
+        <imprint>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid25" type="inproceedings" rend="foot" n="footcite:anciaux:hal-01176512">
+      <identifiant type="hal" value="hal-01176512"/>
+      <analytic>
+        <title level="a">Towards an Era of Trust in Personal Data Management</title>
+        <author>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp67104">
+            <foreName>Benjamin</foreName>
+            <surname>Nguyen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 19th East-European Conference on Advances in Databases and Information Systems (ADBIS '15). Tutorial</title>
+        <loc>Poitiers, France</loc>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01176512" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01176512</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid5" type="inproceedings" rend="foot" n="footcite:Anderson04">
+      <analytic>
+        <title level="a">An introduction to the web services policy language (WSPL)</title>
+        <author>
+          <persName>
+            <foreName>A.H.</foreName>
+            <surname>Anderson</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">IEEE Computer Society</title>
+        <imprint>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid33" type="article" rend="foot" n="footcite:BBBPSSW16">
+      <analytic>
+        <title level="a">Secure Multiparty Computation from SGX</title>
+        <author>
+          <persName>
+            <foreName>Raad</foreName>
+            <surname>Bahmani</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Barbosa</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Ferdinand</foreName>
+            <surname>Brasser</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Portela</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Ahmad-Reza</foreName>
+            <surname>Sadeghi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cassis-2014-idp103944">
+            <foreName>Guillaume</foreName>
+            <surname>Scerri</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="cassis-2015-idp108592">
+            <foreName>Bogdan</foreName>
+            <surname>Warinschi</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IACR Cryptology ePrint Archive</title>
+        <imprint>
+          <biblScope type="volume">2016</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1057</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid0" type="inproceedings" rend="foot" n="footcite:bouganim2011flashtutorial">
+      <analytic>
+        <title level="a">System Co-Design and Data Management for Flash Devices</title>
+        <author>
+          <persName key="smis-2014-idm26248">
+            <foreName>Philippe</foreName>
+            <surname>Bonnet</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>I.</foreName>
+            <surname>Koltsidas</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>S.D.</foreName>
+            <surname>Viglas</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">Very Large Data Bases (Tutorial)</title>
+        <imprint>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid6" type="inbook" rend="foot" n="footcite:09-27">
+      <analytic>
+        <author>
+          <persName key="smis-2014-idp65688">
+            <foreName>Luc</foreName>
+            <surname>Bouganim</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Yanli</foreName>
+            <surname>Guo</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+        <title level="a">Database Encryption</title>
+      </analytic>
+      <monogr>
+        <title level="m">Encyclopedia of Cryptography and Security</title>
+        <editor role="editor">
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Jajodia</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>van Tilborg</surname>
+            <initial>H.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">307-312</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid1" type="book" rend="foot" n="footcite:Cranor02">
+      <monogr>
+        <title level="m">Web Privacy with P3P</title>
+        <author>
+          <persName>
+            <foreName>L.F.</foreName>
+            <surname>Cranor</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>O'Reilly Media</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid7" type="article" rend="foot" n="footcite:Fung10">
+      <analytic>
+        <title level="a">Privacy-preserving data publishing: A survey of recent developments</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Fung</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Wang</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="mathrisk-2014-idp83160">
+            <foreName>R.</foreName>
+            <surname>Chen</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>P.S.</foreName>
+            <surname>Yu</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Computing Surveys (CSUR)</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid12" type="inproceedings" rend="foot" n="footcite:lallali:hal-01176473">
+      <identifiant type="doi" value="10.1145/2723372.2735376"/>
+      <identifiant type="hal" value="hal-01176473"/>
+      <analytic>
+        <title level="a">A Secure Search Engine for the Personal Cloud</title>
+        <author>
+          <persName key="smis-2014-idp77336">
+            <foreName>Saliha</foreName>
+            <surname>Lallali</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="smis-2014-idm27688">
+            <foreName>Nicolas</foreName>
+            <surname>Anciaux</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="smis-2014-idm29176">
+            <foreName>Philippe</foreName>
+            <surname>Pucheral</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (SIGMOD '15). Demo paper</title>
+        <loc>Melbourne, Australia</loc>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">1445-1450</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01176473" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01176473</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid4" type="inproceedings" rend="foot" n="footcite:Moses05">
+      <analytic>
+        <title level="a">Extensible access control markup language (XACML) version 2.0</title>
+        <author>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Moses</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Oasis Standard 200502</title>
+        <imprint>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid3" type="inproceedings" rend="foot" n="footcite:Schunter03">
+      <analytic>
+        <title level="a">Enterprise privacy authorization language (EPAL 1.1)</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Schunter</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Powers</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">IBM</title>
+        <imprint>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="smis-2016-bid19" type="inproceedings" rend="foot" n="footcite:tonthat:hal-01176486">
+      <identifiant type="hal" value="hal-01176486"/>
+      <analytic>
+        <title level="a">PPTM: Privacy-aware Participatory Traffic Monitoring Using Mobile Secure Probes</title>
+        <author>
+          <persName>
+            <foreName>Dai Hai</foreName>
+            <surname>Ton That</surname>
+            <initial>D. H.</initial>
+          </persName>
+          <persName key="smis-2014-idp68608">
+            <foreName>Iulian</foreName>
+            <surname>Sandu Popa</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Zeitouni</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 16th IEEE International Conference on Mobile Data Management (MDM '15). Demo paper</title>
+        <loc>Pittsburgh, United States</loc>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">4</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01176486" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01176486</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

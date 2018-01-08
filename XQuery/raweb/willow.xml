@@ -1,0 +1,2431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="willow" isproject="true">
+    <shortname>WILLOW</shortname>
+    <projectName>Models of visual object recognition and scene understanding</projectName>
+    <theme-de-recherche>Vision, perception and multimedia interpretation</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://www.di.ens.fr/willow</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Département d'Informatique de l'Ecole Normale Supérieure</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole normale supérieure de Paris</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2007 June 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.1.1. - Modeling, representation</term>
+      <term>3.4. - Machine learning and statistics</term>
+      <term>5.3. - Image processing and analysis</term>
+      <term>5.4. - Computer vision</term>
+      <term>8. - Artificial intelligence</term>
+      <term>8.1. - Knowledge</term>
+      <term>8.2. - Machine learning</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>9.4.1. - Computer science</term>
+      <term>9.4.5. - Data science</term>
+    </keywordsSecteurs>
+    <UR name="Paris"/>
+  </identification>
+  <team id="uid1">
+    <person key="willow-2014-idp100656">
+      <firstname>Jean</firstname>
+      <lastname>Ponce</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader, ENS Paris, Professor</moreinfo>
+    </person>
+    <person key="willow-2014-idp106096">
+      <firstname>Minsu</firstname>
+      <lastname>Cho</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Starting Research position, until Aug 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp101920">
+      <firstname>Ivan</firstname>
+      <lastname>Laptev</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="willow-2014-idp103392">
+      <firstname>Josef</firstname>
+      <lastname>Sivic</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="willow-2015-idp69312">
+      <firstname>Jonathan</firstname>
+      <lastname>Chemla</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Aug 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp130840">
+      <firstname>Petr</firstname>
+      <lastname>Gronat</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2015-idp73088">
+      <firstname>Antony</firstname>
+      <lastname>Marion</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Mar 2016</moreinfo>
+    </person>
+    <person key="sierra-2014-idp67776">
+      <firstname>Anton</firstname>
+      <lastname>Osokin</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2016-idp133696">
+      <firstname>Ignacio</firstname>
+      <lastname>Rocco Spremolla</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, from Apr 2016</moreinfo>
+    </person>
+    <person key="lear-2014-idp81696">
+      <firstname>Guilhem</firstname>
+      <lastname>Cheron</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp118512">
+      <firstname>Theophile</firstname>
+      <lastname>Dalens</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp122216">
+      <firstname>Vadim</firstname>
+      <lastname>Kantorov</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2016-idp143456">
+      <firstname>Antoine</firstname>
+      <lastname>Miech</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, from Oct 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp123440">
+      <firstname>Maxime</firstname>
+      <lastname>Oquab</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2015-idp83136">
+      <firstname>Julia</firstname>
+      <lastname>Peyre</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp124664">
+      <firstname>Rafael</firstname>
+      <lastname>Sampaio de Rezende</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp125896">
+      <firstname>Guillaume</firstname>
+      <lastname>Seguin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris, until Aug 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp127128">
+      <firstname>Matthew</firstname>
+      <lastname>Trager</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2016-idp158064">
+      <firstname>Gul</firstname>
+      <lastname>Varol Simsekli</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp114800">
+      <firstname>Piotr</firstname>
+      <lastname>Bojanowski</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Mar 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp128352">
+      <firstname>Tuan Hung</firstname>
+      <lastname>Vu</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp133328">
+      <firstname>John</firstname>
+      <lastname>Canny</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UC Berkeley, Professor, Inria International Chair</moreinfo>
+    </person>
+    <person key="willow-2016-idp167888">
+      <firstname>Alexei</firstname>
+      <lastname>Efros</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UC Berkeley, May-Jun 2016</moreinfo>
+    </person>
+    <person key="willow-2016-idp170368">
+      <firstname>Sergiu</firstname>
+      <lastname>Irimie</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Aug 2016</moreinfo>
+    </person>
+    <person key="willow-2016-idp172832">
+      <firstname>Phillip</firstname>
+      <lastname>Isola</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UC Berkeley, Jun 2016</moreinfo>
+    </person>
+    <person key="willow-2016-idp175296">
+      <firstname>Oleh</firstname>
+      <lastname>Rybkin</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Sep 2016</moreinfo>
+    </person>
+    <person key="willow-2016-idp177760">
+      <firstname>Richard</firstname>
+      <lastname>Zhang</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UC Berkeley, Jun 2016</moreinfo>
+    </person>
+    <person key="matherials-2014-idp80112">
+      <firstname>David</firstname>
+      <lastname>Dinis</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Apr 2016</moreinfo>
+    </person>
+    <person key="matherials-2016-idp201200">
+      <firstname>Sarah</firstname>
+      <lastname>Le</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, from Jul 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp104832">
+      <firstname>Relja</firstname>
+      <lastname>Arandjelovic</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Jul 2016</moreinfo>
+    </person>
+    <person key="linkmedia-2014-idp104120">
+      <firstname>Andrei</firstname>
+      <lastname>Bursuc</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Oct 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp108576">
+      <firstname>Bumsub</firstname>
+      <lastname>Ham</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Jul 2016</moreinfo>
+    </person>
+    <person key="willow-2014-idp109840">
+      <firstname>Suha</firstname>
+      <lastname>Kwak</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Mar 2016</moreinfo>
+    </person>
+    <person key="willow-2016-idp194992">
+      <firstname>Kai</firstname>
+      <lastname>Han</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="willow-2014-idp112336">
+      <firstname>Mathieu</firstname>
+      <lastname>Aubry</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENPC</moreinfo>
+    </person>
+    <person key="willow-2016-idp199760">
+      <firstname>Gunnar Atli</firstname>
+      <lastname>Sigurdsson</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Carnegie Mellon University</moreinfo>
+    </person>
+    <person key="willow-2016-idp202240">
+      <firstname>Pavel</firstname>
+      <lastname>Trutman</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Czech Technical University</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Statement</bodyTitle>
+      <p>Object recognition —or, in a broader sense, scene understanding—
+is the ultimate scientific challenge of computer vision: After 40
+years of research, robustly identifying the familiar objects (chair,
+person, pet), scene categories (beach, forest, office), and activity
+patterns (conversation, dance, picnic) depicted in family pictures,
+news segments, or feature films is still beyond the capabilities
+of today's vision systems. On the other hand, truly successful object
+recognition and scene understanding technology will have a broad
+impact in application domains as varied as defense, entertainment,
+health care, human-computer interaction, image retrieval and data
+mining, industrial and personal robotics, manufacturing, scientific
+image analysis, surveillance and security, and transportation.</p>
+      <p>Despite the limitations of today's scene understanding technology,
+tremendous progress has been accomplished in the past ten years, due
+in part to the formulation of object recognition as a statistical
+pattern matching problem. The emphasis is in general on the features
+defining the patterns and on the algorithms used to learn and
+recognize them, rather than on the representation of object, scene,
+and activity categories, or the integrated interpretation of the
+various scene elements. WILLOW complements this approach with an
+ambitious research program explicitly addressing the representational
+issues involved in object recognition and, more generally, scene
+understanding.</p>
+      <p>Concretely, our objective is to develop geometric, physical, and
+statistical models for all components of the image interpretation
+process, including illumination, materials, objects, scenes, and human
+activities. These models will be used to tackle fundamental
+scientific challenges such as three-dimensional (3D) object and scene
+modeling, analysis, and retrieval; human activity capture and
+classification; and category-level object and scene recognition. They
+will also support applications with high scientific, societal, and/or
+economic impact in domains such as quantitative image analysis in
+science and humanities; film post-production and special effects; and
+video annotation, interpretation, and retrieval.
+Machine learning is a key part of our effort, with a balance of
+practical work in support of computer vision application and
+methodological research aimed at developing effective algorithms and
+architectures.</p>
+      <p>WILLOW was created in 2007: It was recognized as an Inria team in
+January 2007, and as an official project-team in June 2007. WILLOW
+is a joint research team between Inria Paris Rocquencourt, Ecole
+Normale Supérieure (ENS) and Centre National de la Recherche
+Scientifique (CNRS).</p>
+      <p>This year we have hired two new Phd students: Antoine Miech (Inria) and Ignacio Rocco (inria).
+Alexei Efros (Professor, UC Berkeley, USA) visited Willow during May-June with his postdoc Phillip Isola and Phd student Richard Zhang.
+John Canny (Professor, UC Berkeley, USA) visited Willow within the framework of Inria's International Chair program.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>3D object and scene modeling, analysis,
+and retrieval</bodyTitle>
+      <p>This part of our research focuses on geometric models
+of specific 3D objects at the local (differential) and global levels,
+physical and statistical models of materials and illumination
+patterns, and modeling and retrieval of objects and scenes in large
+image collections. Our past work in these areas includes research
+aimed at recognizing rigid 3D objects in cluttered photographs taken
+from arbitrary viewpoints (Rothganger <i>et al.</i>, 2006), segmenting
+video sequences into parts corresponding to rigid scene components
+before recognizing these in new video clips (Rothganger <i>et al.</i>,
+2007), retrieval of particular objects and buildings from images
+and videos (Sivic and Zisserman, 2003) and (Philbin <i>et al.</i>,
+2007), and a theoretical study of a general formalism
+for modeling central and non-central cameras using
+the formalism and terminology of classical projective geometry (Ponce, 2009 and Batog <i>et al.</i>, 2010).</p>
+      <p>We have also developed multi-view stereopsis algorithms that have
+proven remarkably effective at recovering intricate details and thin
+features of compact objects and capturing the overall structure of
+large-scale, cluttered scenes.
+We have obtained a US patent 8,331,615
+<footnote id="uid6" id-text="1">The patent: "Match, Expand, and Filter Technique for Multi-View Stereopsis" was issued December 11, 2012 and assigned patent number 8,331,615.</footnote>
+for the corresponding software
+(PMVS, <ref xlink:href="https://github.com/pmoulon/CMVS-PMVS" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>github.<allowbreak/>com/<allowbreak/>pmoulon/<allowbreak/>CMVS-PMVS</ref>) which is
+available under a GPL license and used for film production by ILM and Weta as well as by Google in Google Maps. It is also the basic technology used by Iconem, a start-up founded by Y. Ubelmann, a Willow collaborator.
+We have also applied our multi-view-stereo approach to model archaeological sites together with developing representations and efficient retrieval techniques to enable matching historical paintings to 3D models of archaeological sites (Russel <i>et al.</i>, 2011).</p>
+      <p>Our current efforts in this area are outlined in detail in Section. <ref xlink:href="#uid26" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Category-level object and scene recognition</bodyTitle>
+      <p>The objective in this core part of our research is to learn and
+recognize quickly and accurately thousands of visual categories,
+including materials, objects, scenes, and broad classes of
+temporal events, such as patterns of human activities in picnics,
+conversations, etc. The current paradigm in the vision community
+is to model/learn one object category (read 2D aspect) at a time.
+If we are to achieve our goal, we have to break away from this
+paradigm, and develop models that account for the tremendous
+variability in object and scene appearance due to texture,
+material, viewpoint, and illumination changes within each object
+category, as well as the complex and evolving relationships
+between scene elements during the course of normal human
+activities.</p>
+      <p>Our current work in this area is outlined in detail in Section <ref xlink:href="#uid37" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid8" level="1">
+      <bodyTitle>Image restoration, manipulation and enhancement</bodyTitle>
+      <p>The goal of this part of our research is to develop models, and methods for
+image/video restoration, manipulation and enhancement.
+The ability to “intelligently" manipulate the content of images and video is just as essential as
+high-level content interpretation in many applications:
+This ranges from restoring old films or removing unwanted wires and rigs from new ones
+in post production, to cleaning up a shot of your daughter at her birthday party, which
+is lovely but noisy and blurry because the lights were out when she blew the candles, or
+editing out a tourist from your Roman holiday video. Going beyond the modest abilities
+of current “digital zoom" (bicubic interpolation in general) so you can close in on that
+birthday cake, “deblock" a football game on TV, or turn your favorite DVD into a blue-ray,
+is just as important.</p>
+      <p>In this context, we believe there is a new convergence between computer vision,
+machine learning, and signal processing. For example: The idea of
+exploiting self-similarities in image analysis, originally introduced in computer vision for texture
+synthesis applications (Efros and Leung, 1999), is the basis for non-local means (Buades
+<i>et al.</i>, 2005), one of today's most successful approaches to image restoration. In turn,
+by combining a powerful sparse coding approach to non-local means (Dabov <i>et al.</i>, 2007)
+with modern machine learning techniques for dictionary learning (Mairal <i>et al.</i>, 2010), we have obtained
+denoising and demosaicking results that are the state of the art on standard benchmarks
+(Mairal <i>et al.</i>, 2009).</p>
+      <p>Our current work is outlined in detail in Section <ref xlink:href="#uid45" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Human activity capture and classification</bodyTitle>
+      <p>From a scientific point of view, visual action understanding is a
+computer vision problem that until recently has received little attention
+outside of extremely specific contexts such as surveillance or
+sports. Many of the current approaches to the visual interpretation of human
+activities are designed for a limited range of operating
+conditions, such as static cameras, fixed scenes, or restricted
+actions. The objective of this part of our project is to attack
+the much more challenging problem of understanding actions and
+interactions in unconstrained video depicting everyday human
+activities such as in sitcoms, feature films, or news segments.
+The recent emergence of automated annotation tools for this type
+of video data (Everingham, Sivic, Zisserman, 2006; Laptev,
+Marszałek, Schmid, Rozenfeld, 2008; Duchenne, Laptev, Sivic, Bach, Ponce, 2009) means that massive amounts
+of labelled data for training and recognizing action models will at
+long last be available.</p>
+      <p>Our research agenda in this scientific domain is described below and our recent results are outlined
+in detail in Section <ref xlink:href="#uid48" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <simplelist>
+        <li id="uid10">
+          <p noindent="true"><b>Weakly-supervised learning and annotation of human actions in video.</b>
+We aim to leverage the huge amount of video data using readily-available annotations in the form of video scripts.
+Scripts, however, often provide only imprecise and incomplete information about the video. We address
+this problem with weakly-supervised learning techniques both at the text and image levels.</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true"><b>Descriptors for video representation</b>
+Video representation has a crucial role for recognizing human actions and other components of a visual scene.
+Our work in this domain aims to develop generic methods for representing video data based on
+realistic assumptions. In particular, we develop deep learning methods and design new trainable representations
+for various tasks such as human action recognition, person detection, segmentation and tracking.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </fondements>
+  <domaine id="uid12">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>We believe that foundational modeling work should be grounded in applications. This includes (but is not restricted to) the following high-impact domains.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Quantitative image analysis in science and humanities</bodyTitle>
+      <p>We plan to apply our 3D object and scene modeling and analysis technology to image-based modeling of human skeletons and artifacts in anthropology, and large-scale site indexing, modeling, and retrieval in archaeology and cultural heritage preservation. Most existing work in this domain concentrates on image-based rendering, that is, the synthesis of good-looking pictures of artifacts and digs. We plan to focus instead on quantitative applications. We are engaged in a project involving the archaeology laboratory at ENS and focusing on image-based artifact modeling and decorative pattern retrieval in Pompeii. Application of our 3D reconstruction technology is now being explored in the field of cultural heritage and archeology by the start-up Iconem, founded by Y. Ubelmann, a Willow collaborator.</p>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Video Annotation, Interpretation, and Retrieval</bodyTitle>
+      <p>Both specific and category-level object and scene recognition can be used to annotate, augment, index, and retrieve video segments in the audiovisual domain. The Video Google system developed by Sivic and Zisserman (2005) for retrieving shots containing specific objects is an early success in that area. A sample application, suggested by discussions with Institut National de l'Audiovisuel (INA) staff, is to match set photographs with actual shots in film and video archives, despite the fact that detailed timetables and/or annotations are typically not available for either medium. Automatically annotating the shots is of course also relevant for archives that may record hundreds of thousands of hours of video. Some of these applications will be pursued in our MSR-Inria project.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid16">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid18" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <simplelist>
+          <li id="uid19">
+            <p noindent="true">Jean Ponce (together with Svetlana Lazebnik and Cordelia Schmid) received the Longuet-Higgins Prize for “Fundamental contributions in Computer Vision", awarded at the IEEE Conference on Computer Vision and Pattern Recognition, 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid20">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid21" level="1">
+      <bodyTitle>NetVLAD: CNN architecture for weakly supervised place recognition</bodyTitle>
+      <p>Open source release of the software package for our paper "NetVLAD: CNN architecture for weakly supervised place recognition" <ref xlink:href="#willow-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It provides a full implementation of the method, including code for weakly supervised training of the CNN representation, testing on standard datasets, as well as trained models. Links to all of these are available at our project page <ref xlink:href="http://www.di.ens.fr/willow/research/netvlad/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>willow/<allowbreak/>research/<allowbreak/>netvlad/</ref>.</p>
+    </subsection>
+    <subsection id="uid22" level="1">
+      <bodyTitle>Unsupervised learning from narrated instruction videos</bodyTitle>
+      <p>Open source release of the software package for our paper "Unsupervised learning from narrated instruction videos" . It provides a full implementation of the method, including code for weakly supervised training from instruction video, as well as trained models. Links to all of these are available at our project page <ref xlink:href="http://www.di.ens.fr/willow/research/instructionvideos/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>willow/<allowbreak/>research/<allowbreak/>instructionvideos/</ref>.</p>
+    </subsection>
+    <subsection id="uid23" level="1">
+      <bodyTitle>ContextLocNet: Context-aware deep network models for
+weakly supervised localization</bodyTitle>
+      <p>Open source release of code reproducing the results in our
+"ContextLocNet: Context-aware deep network models for weakly
+supervised localization" <ref xlink:href="#willow-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It provides
+code for training models, testing on standard datasets and trained
+models. It can be found online at
+<ref xlink:href="https://github.com/vadimkantorov/contextlocnet" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>github.<allowbreak/>com/<allowbreak/>vadimkantorov/<allowbreak/>contextlocnet</ref>.</p>
+    </subsection>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Long-term Temporal Convolutions for Action Recognition</bodyTitle>
+      <p>Open source release of the software package for our paper "Long-term Temporal Convolutions for Action Recognition" <ref xlink:href="#willow-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It provides code for training models, testing on standard datasets and trained models. Links are available at our project page <ref xlink:href="http://www.di.ens.fr/willow/research/ltc/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>willow/<allowbreak/>research/<allowbreak/>ltc/</ref>.</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid25">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid26" level="1">
+      <bodyTitle>3D object and scene modeling, analysis, and retrieval</bodyTitle>
+      <subsection id="uid27" level="2">
+        <bodyTitle>Trinocular Geometry Revisited</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Martial</firstname>
+            <lastname>Hebert</lastname>
+          </person>
+          <person key="willow-2014-idp127128">
+            <firstname>Matthew</firstname>
+            <lastname>Trager</lastname>
+          </person>
+        </participants>
+        <p>When do the visual rays associated with triplets of point correspondences converge, that is, intersect in a common point? Classical models of trinocular geometry based on the fundamental matrices and trifocal tensor associated with the corresponding cameras only provide partial answers to this fundamental question, in large part because of underlying, but seldom explicit, general configuration assumptions. In this project, we use elementary tools from projective line geometry to provide necessary and sufficient geometric and analytical conditions for convergence in terms of transversals to triplets of visual rays, without any such assumptions. In turn, this yields a novel and simple minimal parameterization of trinocular geometry for cameras with non-collinear or collinear pinholes, which can be used to construct a practical and efficient method for trinocular geometry parameter estimation. This work has been published at CVPR 2014, and a revised version that includes numerical experiments using synthetic and real data has been published in IJCV <ref xlink:href="#willow-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and example results are shown in figure <ref xlink:href="#uid28" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid28">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/trager1.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Left: Visual rays associated with three (correct) correspondences. Right: Degenerate epipolar constraints associated with three coplanar, but non-intersecting rays lying in the trifocal plane.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Consistency of silhouettes and their duals</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp127128">
+            <firstname>Matthew</firstname>
+            <lastname>Trager</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Martial</firstname>
+            <lastname>Hebert</lastname>
+          </person>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+        </participants>
+        <p>Silhouettes provide rich information on three-dimensional shape, since the intersection of the associated visual cones generates the "visual hull", which encloses and approximates the original shape. However, not all silhouettes can actually be projections of the same object in space: this simple observation has implications in object recognition and multi-view segmentation, and has been (often implicitly) used as a basis for camera calibration. In this paper, we investigate the conditions for multiple silhouettes, or more generally arbitrary closed image sets, to be geometrically "consistent". We present this notion as a natural generalization of traditional multi-view geometry, which deals with consistency for points. After discussing some general results, we present a "dual" formulation for consistency, that gives conditions for a family of planar sets to be sections of the same object. Finally, we introduce a more general notion of silhouette "compatibility" under partial knowledge of the camera projections, and point out some possible directions for future research. This work has been published in <ref xlink:href="#willow-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and example results are shown in <ref xlink:href="#uid30" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid30">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/trager2.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Geometrically consistent silhouettes are feasible projections of a single object.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid31" level="2">
+        <bodyTitle>Congruences and Concurrent Lines in Multi-View Geometry</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Bernd</firstname>
+            <lastname>Sturmfels</lastname>
+          </person>
+          <person key="willow-2014-idp127128">
+            <firstname>Matthew</firstname>
+            <lastname>Trager</lastname>
+          </person>
+        </participants>
+        <p>We present a new framework for multi-view geometry in computer vision. A camera is a mapping between <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>3</mn></msup></math></formula> and a line congruence. This model, which ignores image planes and measurements, is a natural abstraction of traditional pinhole cameras. It includes two-slit cameras, pushbroom cameras, catadioptric cameras, and many more. We study the concurrent lines variety, which consists of n-tuples of lines in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>3</mn></msup></math></formula> that intersect at a point. Combining its equations with those of various congruences, we derive constraints for corresponding images in multiple views. We also study photographic cameras which use image measurements and are modeled as rational maps from <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>3</mn></msup></math></formula> to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>2</mn></msup></math></formula> or <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>P</mi><mn>1</mn></msup><mo>×</mo><msup><mi>P</mi><mn>1</mn></msup></mrow></math></formula>. This work has been accepted for publication in <ref xlink:href="#willow-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and example results are shown in <ref xlink:href="#uid32" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid32">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/trager3.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Non-central panoramic (<i>left</i>) and stereo panoramic cameras (<i>right</i>) are examples of non-linear cameras that can be modeled using line congruences.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid33" level="2">
+        <bodyTitle>NetVLAD: CNN architecture for weakly supervised place recognition</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Relja</firstname>
+            <lastname>Arandjelović</lastname>
+          </person>
+          <person key="willow-2014-idp130840">
+            <firstname>Petr</firstname>
+            <lastname>Gronat</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Akihiko</firstname>
+            <lastname>Torii</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Tomas</firstname>
+            <lastname>Pajdla</lastname>
+          </person>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#willow-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we tackle the problem of large scale visual place recognition, where the task is to quickly and accurately recognize the location of a given query photograph. We present the following three principal contributions. First, we develop a convolutional neural network (CNN) architecture that is trainable in an end-to-end manner directly for the place recognition task. The main component of this architecture, NetVLAD, is a new generalized VLAD layer, inspired by the "Vector of Locally Aggregated Descriptors" image representation commonly used in image retrieval. The layer is readily pluggable into any CNN architecture and amenable to training via backpropagation. Second, we develop a training procedure, based on a new weakly supervised ranking loss, to learn parameters of the architecture in an end-to-end manner from images depicting the same places over time downloaded from Google Street View Time Machine. Finally, we show that the proposed architecture obtains a large improvement in performance over non-learnt image representations as well as significantly outperforms off-the-shelf CNN descriptors on two challenging place recognition benchmarks.
+This work has been published at CVPR 2016 <ref xlink:href="#willow-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Figure <ref xlink:href="#uid34" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows some qualitative results.</p>
+        <object id="uid34">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/arandjelovic2.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our trained NetVLAD descriptor correctly recognizes the location (b) of the query photograph (a) despite the large amount of clutter (people, cars), changes in viewpoint and completely different illumination (night vs daytime).</caption>
+        </object>
+      </subsection>
+      <subsection id="uid35" level="2">
+        <bodyTitle>Pairwise Quantization</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Artem</firstname>
+            <lastname>Babenko</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Relja</firstname>
+            <lastname>Arandjelović</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Victor</firstname>
+            <lastname>Lempitsky</lastname>
+          </person>
+        </participants>
+        <p>We consider the task of lossy compression of high-dimensional vectors through quantization. We propose the approach that learns quantization parameters by minimizing the distortion of scalar products and squared distances between pairs of points. This is in contrast to previous works that obtain these parameters through the minimization of the reconstruction error of individual points. The proposed approach proceeds by finding a linear transformation of the data that effectively reduces the minimization of the pairwise distortions to the minimization of individual reconstruction errors. After such transformation, any of the previously-proposed quantization approaches can be used. Despite the simplicity of this transformation, the experiments demonstrate that it achieves considerable reduction of the pairwise distortions compared to applying quantization directly to the untransformed data.
+This work has been published on arXiv <ref xlink:href="#willow-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and submitted to Neurocomputing journal.</p>
+        <subsection id="uid36" level="3">
+          <bodyTitle>Learning and Calibrating Per-Location Classifiers for Visual Place Recognition</bodyTitle>
+          <participants>
+            <person key="willow-2014-idp130840">
+              <firstname>Petr</firstname>
+              <lastname>Gronat</lastname>
+            </person>
+            <person key="willow-2014-idp103392">
+              <firstname>Josef</firstname>
+              <lastname>Sivic</lastname>
+            </person>
+            <person key="PASUSERID">
+              <firstname>Guillaume</firstname>
+              <lastname>Obozinski</lastname>
+              <moreinfo>ENPC / Inria SIERRA</moreinfo>
+            </person>
+            <person key="PASUSERID">
+              <firstname>Tomáš</firstname>
+              <lastname>Pajdla</lastname>
+              <moreinfo>CTU in Prague</moreinfo>
+            </person>
+          </participants>
+          <p>The aim of this work is to localize a query photograph by finding other images depicting the same place in a large geotagged image database. This is a challenging task due to changes in viewpoint, imaging conditions and the large size of the image database. The contribution of this work is two-fold. First, we cast the place recognition problem as a classification task and use the available geotags to train a classifier for each location in the database in a similar manner to per-exemplar SVMs in object recognition. Second, as only few positive training examples are available for each location, we propose a new approach to calibrate all the per-location SVM classifiers using <i>only</i> the negative examples. The calibration we propose relies on a significance measure essentially equivalent to the p-values classically used in statistical hypothesis testing. Experiments are performed on a database of 25,000 geotagged street view images of Pittsburgh and demonstrate improved place recognition accuracy of the proposed approach over the previous work.
+This work has been published at CVPR 2013, and a revised version that
+includes additional experimental results has been published at IJCV <ref xlink:href="#willow-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>Category-level object and scene recognition</bodyTitle>
+      <subsection id="uid38" level="2">
+        <bodyTitle>Proposal Flow</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp108576">
+            <firstname>Bumsub</firstname>
+            <lastname>Ham</lastname>
+          </person>
+          <person key="willow-2014-idp106096">
+            <firstname>Minsu</firstname>
+            <lastname>Cho</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Cordelia</firstname>
+            <lastname>Schmid</lastname>
+          </person>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+        </participants>
+        <p>Finding image correspondences remains a challenging problem in the presence of intra-class variations and large changes in scene layout, typical in scene flow computation. In <ref xlink:href="#willow-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we introduce a novel approach to this problem, dubbed proposal flow, that establishes reliable correspondences using object proposals. Unlike prevailing scene flow approaches that operate on pixels or regularly sampled local regions, proposal flow benefits from the characteristics of modern object proposals, that exhibit high repeatability at multiple scales, and can take advantage of both local and geometric consistency constraints among proposals. We also show that proposal flow can effectively be transformed into a conventional dense flow field. We introduce a new dataset that can be used to evaluate both general scene flow techniques and region-based approaches such as proposal flow. We use this benchmark to compare different matching algorithms, object proposals, and region features within proposal flow with the state of the art in scene flow. This comparison, along with experiments on standard datasets, demonstrates that proposal flow significantly outperforms existing scene flow methods in various settings. This work has been published at CVPR 2016 <ref xlink:href="#willow-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The proposed method and its qualitative result are illustrated in Figure <ref xlink:href="#uid39" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid39">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/ham2.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Proposal flow generates a reliable scene flow between similar images by establishing geometrically consistent correspondences between object proposals. (Left) Region-based scene flow by matching object proposals. (Right) Color-coded dense flow field generated from the region matches, and image warping using the flow.</caption>
+        </object>
+        <subsection id="uid40" level="3">
+          <bodyTitle>Learning Discriminative Part Detectors for Image Classification and Cosegmentation</bodyTitle>
+          <participants>
+            <person key="PASUSERID">
+              <firstname>Jian</firstname>
+              <lastname>Sun</lastname>
+            </person>
+            <person key="willow-2014-idp100656">
+              <firstname>Jean</firstname>
+              <lastname>Ponce</lastname>
+            </person>
+          </participants>
+          <p>In this work, we address the problem of learning discriminative part detectors from image sets with category labels. We propose a novel latent SVM model regularized by group sparsity to learn these part detectors. Starting from a large set of initial parts, the group sparsity regularizer forces the model to jointly select and optimize a set of discriminative part detectors in a max-margin framework. We propose a stochastic version of a proximal algorithm to solve the corresponding optimization problem. We apply the proposed method to image classification and cosegmentation, and quantitative experiments with standard bench- marks show that it matches or improves upon the state of the art.
+The first version of this work has appeared at CVPR 2013. An extended version has been published at IJCV <ref xlink:href="#willow-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid41" level="2">
+        <bodyTitle>ContextLocNet: Context-aware deep network models for
+weakly supervised localization</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp122216">
+            <firstname>Vadim</firstname>
+            <lastname>Kantorov</lastname>
+          </person>
+          <person key="willow-2014-idp123440">
+            <firstname>Maxime</firstname>
+            <lastname>Oquab</lastname>
+          </person>
+          <person key="willow-2014-idp106096">
+            <firstname>Minsu</firstname>
+            <lastname>Cho</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#willow-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we aim to localize objects in images
+using image-level supervision only. Previous approaches to this
+problem mainly focus on discriminative object regions and often fail
+to locate precise object boundaries. In <ref xlink:href="#willow-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+we address this problem by introducing two types of context-aware
+guidance models, additive and contrastive models, that leverage their
+surrounding context regions to improve localization. The additive
+model encourages the predicted object region to be supported by its
+surrounding context region. The contrastive model encourages the
+predicted object region to be outstanding from its surrounding context
+region. Our approach benefits from the recent success of convolutional
+neural networks for object recognition and extends Fast R-CNN to
+weakly supervised object localization. Extensive experimental
+evaluation on the PASCAL VOC 2007 and 2012 benchmarks shows hat our
+context-aware approach significantly improves weakly supervised
+localization and detection. A high-level architecture of our model is
+presented in Figure <ref xlink:href="#uid42" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, the project webpage is at
+<ref xlink:href="http://www.di.ens.fr/willow/research/contextlocnet/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>willow/<allowbreak/>research/<allowbreak/>contextlocnet/</ref>.</p>
+        <object id="uid42">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/kantorov1.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>ContextLocNet improves localization by comparing an object
+score between a proposal and its context.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Faces In Places: Compound query retrieval</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Yujie</firstname>
+            <lastname>Zhong</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Relja</firstname>
+            <lastname>Arandjelović</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Andrew</firstname>
+            <lastname>Zisserman</lastname>
+          </person>
+        </participants>
+        <p>The goal of this work is to retrieve images containing both a target person and a target scene type from a large dataset of images. At run time this compound query is handled using a face classifier trained for the person, and an image classifier trained for the scene type. We make three contributions: first, we propose a hybrid convolutional neural network architecture that produces place-descriptors that are aware of faces and their corresponding descriptors. The network is trained to correctly classify a combination of face and scene classifier scores. Second, we propose an image synthesis system to render high quality fully-labelled face-and-place images, and train the network only from these synthetic images. Last, but not least, we collect and annotate a dataset of real images containing celebrities in different places, and use this dataset to evaluate the retrieval system. We demonstrate significantly improved retrieval performance for compound queries using the new face-aware place-descriptors.
+This work has been published at BMVC 2016 <ref xlink:href="#willow-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Figure <ref xlink:href="#uid44" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows some qualitative results.</p>
+        <object id="uid44">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/arandjelovic3.jpg" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Examples of the top two retrieved images for various compound queries.</caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Image restoration, manipulation and enhancement</bodyTitle>
+      <subsection id="uid46" level="2">
+        <bodyTitle>Robust Guided Image Filtering Using Nonconvex Potentials</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp108576">
+            <firstname>Bumsub</firstname>
+            <lastname>Ham</lastname>
+          </person>
+          <person key="willow-2014-idp106096">
+            <firstname>Minsu</firstname>
+            <lastname>Cho</lastname>
+          </person>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+        </participants>
+        <p>Filtering images using a guidance signal, a process called joint or guided image filtering, has been used in various tasks in computer vision and computational photography, particularly for noise reduction and joint upsampling. The aim is to transfer the structure of the guidance signal to an input image, restoring noisy or altered image structure. The main drawbacks of such a data-dependent framework are that it does not consider differences in structure between guidance and input images, and it is not robust to outliers. We propose a novel SD (for static/dynamic) filter to address these problems in a unified framework by jointly leveraging structural information of guidance and input images. Joint image filtering is formulated as a nonconvex optimization problem, which is solved by the majorization-minimization algorithm. The proposed algorithm converges quickly while guaranteeing a local minimum. The SD filter effectively controls the underlying image structure at different scales and can handle a variety of types of data from different sensors. It is robust to outliers and other artifacts such as gradient reversal and global intensity shifting, and has good edge-preserving smoothing properties. We demonstrate the flexibility and effectiveness of the SD filter in a great variety of applications including depth upsampling, scale-space filtering, texture removal, flash/non-flash denoising, and RGB/NIR denoising. This has been published at CVPR 2015. A new revised version is currently in submission <ref xlink:href="#willow-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The SD filter is illustrated in Figure <ref xlink:href="#uid47" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid47">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/ham1.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Sketch of joint image filtering and SD filtering: Static guidance filtering convolves an input image with a weight function computed from static guidance, as in the dotted blue box. Dynamic guidance filtering uses weight functions that are repeatedly obtained from regularized input images, as in the dotted red box. We have observed that static and dynamic guidance complement each other, and exploiting only one of them is problematic, especially in the case of data from different sensors (e.g., depth and color images). The SD filter takes advantage of both, and addresses the problems of current joint image filtering.</caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Human activity capture and classification</bodyTitle>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding</bodyTitle>
+        <participants>
+          <person key="willow-2016-idp199760">
+            <firstname>Gunnar A.</firstname>
+            <lastname>Sigurdsson</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Gül</firstname>
+            <lastname>Varol</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Xiaolong</firstname>
+            <lastname>Wang</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Ali</firstname>
+            <lastname>Farhadi</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Abhinav</firstname>
+            <lastname>Gupta</lastname>
+          </person>
+        </participants>
+        <p>Computer vision has a great potential to help our daily lives by searching for lost keys, watering flowers or reminding us to take a pill. To succeed with such tasks, computer vision methods need to be trained from real and diverse examples of our daily dynamic scenes. While most of such scenes are not particularly exciting, they typically do not appear on YouTube, in movies or TV broadcasts. So how do we collect sufficiently many diverse but boring samples representing our lives? We propose a novel Hollywood in Homes approach to collect such data. Instead of shooting videos in the lab, we ensure diversity by distributing and crowdsourcing the whole process of video creation from script writing to video recording and annotation. Following this procedure we collect a new dataset, <i>Charades</i>, with hundreds of people recording videos in their own homes, acting out casual everyday activities (see Figure <ref xlink:href="#uid50" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The dataset is composed of 9,848 annotated videos with an average length of 30 seconds, showing activities of 267 people from three continents. Each video is annotated by multiple free-text descriptions, action labels, action intervals and classes of interacted objects. In total, Charades provides 27,847 video descriptions, 66,500 temporally localized intervals for 157 action classes and 41,104 labels for 46 object classes. Using this rich data, we evaluate and provide baseline results for several tasks including action recognition and automatic description generation. We believe that the realism, diversity, and casual nature of this dataset will present unique challenges and new opportunities for computer vision community. This work has been published at ECCV 2016 <ref xlink:href="#willow-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid50">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/varol2.jpg" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Comparison of actions in the Charades dataset and on YouTube: <i>Reading a book, Opening a refrigerator, Drinking from a cup.</i> YouTube returns entertaining and often atypical videos, while <i>Charades</i> contains typical everyday videos.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid51" level="2">
+        <bodyTitle>Unsupervised learning from narrated instruction videos</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Jean-Baptiste</firstname>
+            <lastname>Alayrac</lastname>
+          </person>
+          <person key="willow-2014-idp114800">
+            <firstname>Piotr</firstname>
+            <lastname>Bojanowski</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Nishant</firstname>
+            <lastname>Agrawal</lastname>
+          </person>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Simon</firstname>
+            <lastname>Lacoste-Julien</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#willow-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of automatically learning the main steps to complete a certain task, such as changing a car tire, from a set of narrated instruction videos. The contributions of this paper are three-fold. First, we develop a new unsupervised learning approach that takes advantage of the complementary nature of the input video and the associated narration. The method solves two clustering problems, one in text and one in video, applied one after each other and linked by joint constraints to obtain a single coherent sequence of steps in both modalities. Second, we collect and annotate a new challenging dataset of real-world instruction videos from the Internet. The dataset contains about 800,000 frames for five different tasks that include complex interactions between people and objects, and are captured in a variety of indoor and outdoor settings. Third, we experimentally demonstrate that the proposed method can automatically discover, in an unsupervised manner, the main steps to achieve the task and locate the steps in the input videos. This work has been published at CVPR 2016 <ref xlink:href="#willow-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Long-term Temporal Convolutions for Action Recognition</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Gul</firstname>
+            <lastname>Varol</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Cordelia</firstname>
+            <lastname>Schmid</lastname>
+          </person>
+        </participants>
+        <p>Typical human actions such as hand-shaking and drinking last several seconds and exhibit characteristic spatio-temporal structure. Recent methods attempt to capture this structure and learn action representations with convolutional neural networks. Such representations, however, are typically learned at the level of single frames or short video clips and fail to model actions at their full temporal scale.
+In <ref xlink:href="#willow-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we learn video representations using neural networks with long-term temporal convolutions. We demonstrate that CNN models with increased temporal extents improve the accuracy of action recognition despite reduced spatial resolution. We also study the impact of different low-level representations, such as raw values of video pixels and optical flow vector fields and demonstrate the importance of high-quality optical flow estimation for learning accurate action models. We report state-of-the-art results on two challenging benchmarks for human action recognition UCF101 and HMDB51. This work is under review. The results for the proposed method are illustrated in Figure <ref xlink:href="#uid53" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid53">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/varol1.png" type="float" width="405.6487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The highest improvement of long-term temporal convolutions in terms of class accuracy is for “JavelinThrow”. For 16-frame network, it is mostly confused with “FloorGymnastics” class. We visualize sample videos with 7 frames extracted at every 8 frames. The intuitive explanation is that both classes start by running for a few seconds and then the actual action takes place. Long-term temporal convolutions with 60 frames can capture this interval, whereas 16-frame networks fail to recognize such long-term activities.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid54" level="2">
+        <bodyTitle>Thin-Slicing forPose: Learning to Understand Pose without Explicit Pose Estimation</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp109840">
+            <firstname>Suha</firstname>
+            <lastname>Kwak</lastname>
+          </person>
+          <person key="willow-2014-idp106096">
+            <firstname>Minsu</firstname>
+            <lastname>Cho</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#willow-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of learning a pose-aware, compact embedding that projects images with similar human poses to be placed close-by in the embedding space (Figure <ref xlink:href="#uid55" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The embedding function is built on a deep convolutional network, and trained with a triplet-based rank constraint on real image data. This architecture allows us to learn a robust representation that captures differences in human poses by effectively factoring out variations in clothing, background, and imaging conditions in the wild. For a variety of pose-related tasks, the proposed pose embedding provides a cost-efficient and natural alternative to explicit pose estimation, circumventing challenges of localizing body joints. We demonstrate the efficacy of the embedding on pose-based image retrieval and action recognition problems. This work has been published at CVPR 2016 <ref xlink:href="#willow-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid55">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/kwak2.png" type="float" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The manifold of our pose embedding visualized using t-SNE. Each point represents a human pose image. To better show correlation between the pose embedding and annotated pose, we color-code pose similarities in annotation between an arbitrary target image (red box) and all the other images. Selected examples of color-coded images are illustrated in the right-hand side. Images similar with the target in annotated pose are colored in yellow, otherwise in blue. As can be seen, yellow images lie closer by the target in general, which indicates that a position on the embedding space implicitly represents a human pose.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Instance-level video segmentation from object tracks</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp125896">
+            <firstname>Guillaume</firstname>
+            <lastname>Seguin</lastname>
+          </person>
+          <person key="willow-2014-idp114800">
+            <firstname>Piotr</firstname>
+            <lastname>Bojanowski</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Rémi</firstname>
+            <lastname>Lajugie</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+        </participants>
+        <p>In <ref xlink:href="#willow-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we address the problem of segmenting multiple object instances in complex videos.
+Our method does not require manual pixel-level annotation for training, and relies instead on readily-available object detectors or visual object tracking only.
+Given object bounding boxes at input as shown in Figure <ref xlink:href="#uid57" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we cast video segmentation as a weakly-supervised learning problem.
+Our proposed objective combines
+(a) a discriminative clustering term for background segmentation,
+(b) a spectral clustering one for grouping pixels of same object instances, and
+(c) linear constraints enabling instance-level segmentation.
+We propose a convex relaxation of this problem and solve it efficiently using the Frank-Wolfe algorithm.
+We report results and compare our method to several baselines on a new video dataset for multi-instance person segmentation. This work has been published at CVPR 2016.</p>
+        <object id="uid57">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/seguin2.jpg" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Results of our method applied to multi-person segmentation in a sample video from our database.
+Given an input video together with the tracks of object bounding boxes (left), our method finds pixel-wise segmentation for each object instance across video frames (right).</caption>
+        </object>
+      </subsection>
+    </subsection>
+  </resultats>
+  <contrats id="uid58">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Facebook AI Research Paris: Weakly-supervised interpretation of image and video data (Inria)</bodyTitle>
+      <participants>
+        <person key="willow-2014-idp100656">
+          <firstname>Jean</firstname>
+          <lastname>Ponce</lastname>
+        </person>
+        <person key="willow-2014-idp106096">
+          <firstname>Minsu</firstname>
+          <lastname>Cho</lastname>
+        </person>
+        <person key="willow-2014-idp101920">
+          <firstname>Ivan</firstname>
+          <lastname>Laptev</lastname>
+        </person>
+        <person key="willow-2014-idp103392">
+          <firstname>Josef</firstname>
+          <lastname>Sivic</lastname>
+        </person>
+      </participants>
+      <p>We will develop in this project (Facebook gift) new models of image and video content, as well as new recognition architectures and algorithms, to address the problem of understanding the visual
+content of images and videos using weak forms of supervision, such as
+the fact that multiple images contain instances of the same objects,
+or the textual information available in television or film scripts.</p>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>Google: Learning to annotate videos from movie scripts (Inria)</bodyTitle>
+      <participants>
+        <person key="willow-2014-idp103392">
+          <firstname>Josef</firstname>
+          <lastname>Sivic</lastname>
+        </person>
+        <person key="willow-2014-idp101920">
+          <firstname>Ivan</firstname>
+          <lastname>Laptev</lastname>
+        </person>
+        <person key="willow-2014-idp100656">
+          <firstname>Jean</firstname>
+          <lastname>Ponce</lastname>
+        </person>
+      </participants>
+      <p>The goal of this project is to automatically generate annotations of complex dynamic events in video. We wish to deal with events involving multiple people interacting with each other, objects and the scene, for example people at a party in a house. The goal is to generate structured annotations going beyond simple text tags. Examples include entire text sentences describing the video content as well as bounding boxes or segmentations spatially and temporally localizing the described objects and people in video. This is an extremely challenging task due to large intra-class variation of human actions. We propose to learn joint video and text representations enabling such annotation capabilities from feature length movies with coarsely aligned shooting scripts. Building on our previous work in this area, we aim to develop structured representations of video and associated text enabling to reason both spatially and temporally about scenes, objects and people as well as their interactions. Automatic understanding and interpretation of video content is a key-enabling factor for a range of practical applications such as content-aware advertising or search. Novel video and text representations are needed to enable breakthrough in this area.</p>
+    </subsection>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Google: Structured learning from video and natural language (Inria)</bodyTitle>
+      <participants>
+        <person key="PASUSERID">
+          <firstname>Simon</firstname>
+          <lastname>Lacoste-Julien</lastname>
+        </person>
+        <person key="willow-2014-idp101920">
+          <firstname>Ivan</firstname>
+          <lastname>Laptev</lastname>
+        </person>
+        <person key="willow-2014-idp103392">
+          <firstname>Josef</firstname>
+          <lastname>Sivic</lastname>
+        </person>
+      </participants>
+      <p>People can easily learn how to change a flat tire of a car or assemble an IKEA shelve by observing other people doing the same task, for example, by watching a narrated instruction video. In addition, they can easily perform the same task in a different context, for example, at their home. This involves advanced visual intelligence abilities such as recognition of objects and their function as well as interpreting sequences of human actions that achieve a specific task. However, currently there is no artificial system with a similar cognitive visual competence. The goal of this proposal is to develop models, representations and learning algorithms for automatic understanding of complex human activities from videos narrated with natural language.</p>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>MSR-Inria joint lab: Image and video mining for science and humanities (Inria)</bodyTitle>
+      <participants>
+        <person key="PASUSERID">
+          <firstname>Leon</firstname>
+          <lastname>Bottou</lastname>
+          <moreinfo>Facebook</moreinfo>
+        </person>
+        <person key="willow-2014-idp101920">
+          <firstname>Ivan</firstname>
+          <lastname>Laptev</lastname>
+        </person>
+        <person key="willow-2014-idp123440">
+          <firstname>Maxime</firstname>
+          <lastname>Oquab</lastname>
+        </person>
+        <person key="willow-2014-idp100656">
+          <firstname>Jean</firstname>
+          <lastname>Ponce</lastname>
+        </person>
+        <person key="willow-2014-idp103392">
+          <firstname>Josef</firstname>
+          <lastname>Sivic</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Cordelia</firstname>
+          <lastname>Schmid</lastname>
+          <moreinfo>Inria Lear</moreinfo>
+        </person>
+      </participants>
+      <p>This collaborative project brings together the WILLOW and LEAR project-teams with MSR researchers in Cambridge and elsewhere. The concept builds on several ideas articulated in the “2020 Science” report, including the importance of data mining and machine learning in computational science. Rather than focusing only on natural sciences, however, we propose here to expand the breadth of e-science to include humanities and social sciences. The project we propose will focus on fundamental computer science research in computer vision and machine learning, and its application to archaeology, cultural heritage preservation, environmental science, and sociology, and it will be validated by collaborations with researchers and practitioners in these fields.</p>
+      <p>In October 2013 a new agreement has been signed for 2013-2016 with the research focus on automatic understanding of dynamic video content. Recent studies predict that by 2018 video will account for 80-90% of traffic on the Internet. Automatic understanding and interpretation of video content is a key enabling factor for a range of practical applications such as organizing and searching home videos or content aware video advertising. For example, interpreting videos of "making a birthday cake" or "planting a tree" could provide effective means for advertising products in local grocery stores or garden centers. The goal of this project is to perform fundamental computer science research in computer vision and machine learning in order to enhance the current capabilities to automatically understand, search and organize dynamic video content.</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid63">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid64" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Agence Nationale de la Recherche (ANR): SEMAPOLIS</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp112336">
+            <firstname>Mathieu</firstname>
+            <lastname>Aubry</lastname>
+          </person>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+        </participants>
+        <p>The goal of the SEMAPOLIS project is to develop advanced large-scale image analysis and learning techniques to semantize city images and produce semantized 3D reconstructions of urban environments, including proper rendering.
+Geometric 3D models of existing cities have a wide range of applications, such as navigation in virtual environments and realistic sceneries for video games and movies. A number of players (Google, Microsoft, Apple) have started to produce such data. However, the models feature only plain surfaces, textured from available pictures. This limits their use in urban studies and in the construction industry, excluding in practice applications to diagnosis and simulation. Besides, geometry and texturing are often wrong when there are invisible or discontinuous parts, e.g., with occluding foreground objects such as trees, cars or lampposts, which are pervasive in urban scenes.
+This project will go beyond the plain geometric models by producing semantized 3D models, i.e., models which are not bare surfaces but which identify architectural elements such as windows, walls, roofs, doors, etc.
+Semantic information is useful in a larger number of scenarios, including diagnosis and simulation for building renovation projects, accurate shadow impact taking into account actual window location, and more general urban planning and studies such as solar cell deployment. Another line of applications concerns improved virtual cities for navigation, with object-specific rendering, e.g., specular surfaces for windows. Models can also be made more compact, encoding object repetition (e.g., windows) rather than instances and replacing actual textures with more generic ones according to semantics; it allows cheap and fast transmission over low- bandwidth mobile phone networks, and efficient storage in GPS navigation devices.</p>
+        <p>This is a collaborative effort with LIGM / ENPC (R. Marlet), University of Caen (F. Jurie), Inria Sophia Antipolis (G. Drettakis) and Acute3D (R. Keriven).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid67" level="2">
+        <bodyTitle>European Research Council (ERC) Advanced Grant: "VideoWorld" - Jean Ponce</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+        </participants>
+        <p>WILLOW will be funded in part from 2011 to 2016 by the ERC Advanced Grant "VideoWorld" awarded to Jean Ponce by the European Research Council.</p>
+        <p>`Digital video is everywhere, at home, at work, and on the Internet. Yet, effective technology for organizing, retrieving, improving, and editing its content is nowhere to be found. Models for video content, interpretation and manipulation inherited from still imagery are obsolete, and new ones must be invented. With a new convergence between computer vision, machine learning, and signal processing, the time is right for such an endeavor. Concretely, we will develop novel spatio-temporal models of video content learned from training data and capturing both the local appearance and nonrigid motion of the elements—persons and their surroundings—that make up a dynamic scene. We will also develop formal models of the video interpretation process that leave behind the architectures inherited from the world of still images to capture the complex interactions between these elements, yet can be learned effectively despite the sparse annotations typical of video understanding scenarios. Finally, we will propose a unified model for video restoration and editing that builds on recent advances in sparse coding and dictionary learning, and will allow for unprecedented control of the video stream. This project addresses fundamental research issues, but its results are expected to serve as a basis for groundbreaking technological advances for applications as varied as film post-production, video archival, and smart camera phones.'</p>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>European Research Council (ERC) Starting Grant: "Activia" - Ivan Laptev</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+        </participants>
+        <p>WILLOW will be funded in part from 2013 to 2017 by the ERC Starting Grant "Activia" awarded to Ivan Laptev by the European Research Council.</p>
+        <p>`Computer vision is concerned with the automated interpretation of images and video streams. Today's research is (mostly) aimed at answering queries such as 'Is this a picture of a dog?', (classification) or sometimes 'Find the dog in this photo' (detection). While categorisation and detection are useful for many tasks, inferring correct class labels is not the final answer to visual recognition. The categories and locations of objects do not provide direct understanding of their function i.e., how things work, what they can be used for, or how they can act and react. Such an understanding, however, would be highly desirable to answer currently unsolvable queries such as 'Am I in danger?' or 'What can happen in this scene?'. Solving such queries is the aim of this proposal. My goal is to uncover the functional properties of objects and the purpose of actions by addressing visual recognition from a different and yet unexplored perspective. The main novelty of this proposal is to leverage observations of people, i.e., their actions and interactions to automatically learn the use, the purpose and the function of objects and scenes from visual data. The project is timely as it builds upon the two key recent technological advances: (a) the immense progress in visual recognition of objects, scenes and human actions achieved in the last ten years, as well as (b) the emergence of a massive amount of public image and video data now available to train visual models. ACTIVIA addresses fundamental research issues in automated interpretation of dynamic visual scenes, but its results are expected to serve as a basis for ground-breaking technological advances in practical applications. The recognition of functional properties and intentions as explored in this project will directly support high-impact applications such as detection of abnormal events, which are likely to revolutionise today's approaches to crime protection, hazard prevention, elderly care, and many others.'</p>
+      </subsection>
+      <subsection id="uid69" level="2">
+        <bodyTitle>European Research Council (ERC) Starting Grant: "Leap" - Josef Sivic</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+        </participants>
+        <p>The contract has begun on Nov 1st 2014. WILLOW will be funded in part from 2014 to 2018 by the ERC Starting Grant "Leap" awarded to Josef Sivic by the European Research Council.</p>
+        <p>`People constantly draw on past visual experiences to anticipate future events and better understand, navigate, and interact with their environment, for example, when seeing an angry dog or a quickly approaching car. Currently there is no artificial system with a similar level of visual analysis and prediction capabilities. LEAP is a first step in that direction, leveraging the emerging collective visual memory formed by the unprecedented amount of visual data available in public archives, on the Internet and from surveillance or personal cameras - a complex evolving net of dynamic scenes, distributed across many different data sources, and equipped with plentiful but noisy and incomplete metadata. The goal of this project is to analyze dynamic patterns in this shared visual experience in order (i) to find and quantify their trends; and (ii) learn to predict future events in dynamic scenes. With ever expanding computational resources and this extraordinary data, the main scientific challenge is now to invent new and powerful models adapted to its scale and its spatio-temporal, distributed and dynamic nature. To address this challenge, we will first design new models that generalize across different data sources, where scenes are captured under vastly different imaging conditions such as camera viewpoint, temporal sampling, illumination or resolution. Next, we will develop a framework for finding, describing and quantifying trends that involve measuring long-term changes in many related scenes. Finally, we will develop a methodology and tools for synthesizing complex future predictions from aligned past visual experiences. Our models will be automatically learnt from large-scale, distributed, and asynchronous visual data, coming from different sources and with different forms of readily-available but noisy and incomplete metadata such as text, speech, geotags, scene depth (stereo sensors), or gaze and body motion (wearable sensors). Breakthrough progress on these problems would have profound implications on our everyday lives as well as science and commerce, with safer cars that anticipate the behavior of pedestrians on streets; tools that help doctors monitor, diagnose and predict patients' health; and smart glasses that help people react in unfamiliar situations enabled by the advances from this project.'</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid70" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid71" level="2">
+        <bodyTitle>IARPA FINDER Visual geo-localization (Inria)</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+          <person key="willow-2014-idp130840">
+            <firstname>Petr</firstname>
+            <lastname>Gronat</lastname>
+          </person>
+          <person key="willow-2014-idp104832">
+            <firstname>Relja</firstname>
+            <lastname>Arandjelovic</lastname>
+          </person>
+        </participants>
+        <p>Finder is an IARPA funded project aiming to develop technology to geo-localize images and videos that do not have geolocation tag. It is common today for even consumer-grade cameras to tag the images that they capture with the location of the image on the earth's surface (“geolocation"). However, some imagery does not have a geolocation tag and it can be important to know the location of the camera, image, or objects in the scene. Finder aims to develop technology to automatically or semi-automatically geo-localize images and video that do not have the geolocation tag using reference data from many sources, including overhead and ground-based images, digital elevation data, existing well-understood image collections, surface geology, geography, and cultural information.</p>
+        <p>Partners: ObjectVideo, DigitalGlobe, UC Berkeley, CMU, Brown Univ., Cornell Univ., Univ. of Kentucky, GMU, Indiana Univ., and Washington Univ.</p>
+      </subsection>
+      <subsection id="uid72" level="2">
+        <bodyTitle>Inria CityLab initiative</bodyTitle>
+        <participants>
+          <person key="willow-2014-idp103392">
+            <firstname>Josef</firstname>
+            <lastname>Sivic</lastname>
+          </person>
+          <person key="willow-2014-idp100656">
+            <firstname>Jean</firstname>
+            <lastname>Ponce</lastname>
+          </person>
+          <person key="willow-2014-idp101920">
+            <firstname>Ivan</firstname>
+            <lastname>Laptev</lastname>
+          </person>
+          <person key="willow-2016-idp167888">
+            <firstname>Alexei</firstname>
+            <lastname>Efros</lastname>
+            <moreinfo>UC Berkeley</moreinfo>
+          </person>
+        </participants>
+        <p>Willow participates in the ongoing CityLab@Inria initiative (co-ordinated by V. Issarny), which aims to leverage Inria research results towards developing “smart cities" by enabling radically new ways of living in, regulating, operating and managing cities. The activity of Willow focuses on urban-scale quantitative visual analysis and is pursued in collaboration with A. Efros (UC Berkeley).</p>
+        <p>Currently, map-based street-level imagery, such as Google Street-view provides a comprehensive visual record of many cities worldwide. Additional visual sensors are likely to be wide-spread in near future: cameras will be built in most manufactured cars and (some) people will continuously capture their daily visual experience using wearable mobile devices such as Google Glass. All this data will provide large-scale, comprehensive and dynamically updated visual record of urban environments.</p>
+        <p>The goal of this project is to develop automatic data analytic tools for large-scale quantitative analysis of such dynamic visual data. The aim is to provide quantitative answers to questions like: What are the typical architectural elements (e.g., different types of windows or balconies) characterizing a visual style of a city district? What is their geo-spatial distribution (see figure 1)? How does the visual style of a geo-spatial area evolve over time? What are the boundaries between visually coherent areas in a city? Other types of interesting questions concern distribution of people and their activities: How do the number of people and their activities at particular places evolve during a day, over different seasons or years? Are there tourists sightseeing, urban dwellers shopping, elderly walking dogs, or children playing on the street? What are the major causes for bicycle accidents?</p>
+        <p>Break-through progress on these goals would open-up completely new ways smart cities are visualized, modeled, planned and simulated, taking into account large-scale dynamic visual input from a range of visual sensors (e.g., cameras on cars, visual data from citizens, or static surveillance cameras).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid73" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid74" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>Prof. Alexei Efros (UC Berkeley, USA) visited Willow during May-June with his postdoc Phillip Isola and Phd student
+Richard Zhang.
+Prof. John Canny (UC Berkeley) has visited Willow in 2016 within the framework of Inria's International Chair program.</p>
+        <subsection id="uid75" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <p>P. Trutman and O. Rybkin have visited Willow from Czech Technical University in Prague.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid76">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid79" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <simplelist>
+            <li id="uid80">
+              <p noindent="true">I. Laptev will be program co-chair of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid81" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid82">
+              <p noindent="true">M. Trager is an organizer of "Minisymposium" on "Algebraic Vision" at the SIAM conference on Applied Algebraic Geometry (Atlanta, July 31st-August 4th 2017).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid83" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid84" level="3">
+          <bodyTitle>Area chairs</bodyTitle>
+          <simplelist>
+            <li id="uid85">
+              <p noindent="true">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016 (I. Laptev).</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Asian Conference on Computer Vision (ACCV), 2016 (I. Laptev).</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">International Conference on Computer Vision (ICCV), 2017 (J. Sivic).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid88" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid89">
+              <p noindent="true">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016 (R. Arandjelovic, A. Bursuc, P. Bojanowski, M. Cho, J. Sivic, G. Cheron).</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">European Conference on Computer Vision (ECCV), 2016 (R. Arandjelovic, A. Bursuc, P. Bojanowski, G. Cheron, M. Cho, S. Kwak, J. Sivic, G. Cheron, I. Laptev).</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">International Conference on Learning Representations, 2016 (J. Sivic).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Journals</bodyTitle>
+        <subsection id="uid93" level="3">
+          <bodyTitle>Member of the editorial board</bodyTitle>
+          <simplelist>
+            <li id="uid94">
+              <p noindent="true">International Journal of Computer Vision (I. Laptev, J. Ponce, J. Sivic).</p>
+            </li>
+            <li id="uid95">
+              <p noindent="true">IEEE Transactions on Pattern Analysis and Machine Intelligence (I. Laptev, J. Sivic).</p>
+            </li>
+            <li id="uid96">
+              <p noindent="true">Foundations and Trends in Computer Graphics and Vision (J. Ponce).</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">I. Laptev and J. Sivic co-edit a special issue on "Video representations for visual recognition" in the International Journal of Computer Vision.</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">J. Sivic co-edits a special issue on "Advances in Large-Scale Media Geo-Localization" in the International Journal of Computer Vision.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid99" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid100">
+              <p noindent="true">International Journal of Computer Vision (M. Cho, G. Cheron, R. Arandjelovic).</p>
+            </li>
+            <li id="uid101">
+              <p noindent="true">IEEE Transactions on Pattern Analysis and Machine Intelligence (R. Arandjelovic, P. Bojanowski, M. Cho, S. Kwak, G. Cheron, A. Bursuc).</p>
+            </li>
+            <li id="uid102">
+              <p noindent="true">IEEE Transactions on Circuits and Systems for Video Technology (P. Bojanowski, B. Ham).</p>
+            </li>
+            <li id="uid103">
+              <p noindent="true">IEEE Transactions on Image Processing (B. Ham).</p>
+            </li>
+            <li id="uid104">
+              <p noindent="true">IEEE Signal Processing Letters (B. Ham).</p>
+            </li>
+            <li id="uid105">
+              <p noindent="true">Computer Vision and Image Understanding (M. Cho, A. Bursuc).</p>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Elsevier Neurocomputing (B. Ham).</p>
+            </li>
+            <li id="uid107">
+              <p noindent="true">EURASIP Journal on Image and Video Processing (B. Ham).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid108" level="2">
+        <bodyTitle>Others</bodyTitle>
+        <simplelist>
+          <li id="uid109">
+            <p noindent="true">J. Sivic is senior fellow of the Neural Computation and Adaptive Perception program of the Canadian Institute of Advanced Research.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">R. Arandjelovic and J. Sivic obtained the outstanding reviewer award at IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid111" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid112">
+            <p noindent="true">V. Kantorov, Speaker at Second Christmas Colloquium on Computer Vision (December 2016, Moscow, SkolTech).</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">I. Laptev, Invited talk, MailRu, Moscow, May 2016.</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">I. Laptev, Invited talk, Skolkovo Robotics, Moscow, May 2016.</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">I. Laptev, Invited talk, Deep Machine Intelligence and its Applications, SkolTech, Moscow, June 2016.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">I. Laptev, Invited talk, MSR-Inria Offsite Meeting, Paris, September, 2016.</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">I. Laptev, Invited talk, University of Central Florida, Orlando, September, 2016.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">I. Laptev, Invited talk, Georgia Institute of Technology, Atlanta, September, 2016.</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">I. Laptev, Invited talk, ECCV'16 Workshop on Brave new ideas for motion representations in videos, Amsterdam, October, 2016.</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">I. Laptev, Invited talk, Open Day AI Innovation Factory , December, 2016.</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">J. Ponce, Invited talk, New York University, January 2016.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">J. Ponce, Invited talk, Université Marne la Vallée, Mars 2016.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">J. Ponce, Invited talk, Workshop on Algebraic Vision, San Jose, May 2016.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">J. Ponce, Invited talk, Colloque LORIA, Nancy, May 2016.</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">J. Ponce, Invited talk, Parthenos Workshop, Bordeaux, November 2016.</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">J. Sivic, seminar, UC Berkeley, May, December, 2016.</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">J. Sivic, invited talk, Brno University of Technology, April 2016.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">J. Sivic, Invited talk, the CIFAR workshop, Barcelona, December 2016.</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">J. Sivic, Invited talk, Colloquium on Perspectives and New Challenges in Data Science, Ecole de Ponts ParisTech, 2016.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">M. Trager, invited speaker, AIM workshop “Algebraic Vision" (San Jose, May 2-6, 2016).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid131" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <simplelist>
+          <li id="uid132">
+            <p noindent="true">Member, advisory board, IBM Watson AI Xprize (J. Ponce).</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">Member, steering committee, "France Intelligence Artificielle" initiative (J. Ponce).</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">Member, advisory board, Computer Vision Foundation (J. Sivic).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid135" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid136">
+            <p noindent="true">J. Sivic gave an overview of state-of-the-art in computer vision at the seminar on artificial intelligence, Direction Generale des Entreprises (DGE) du Ministere de l'Economie, de l'Industrie et du Numerique, September, 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid137" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid138">
+            <p noindent="true">Member, Bureau du comité des projets, Inria, Paris (J. Ponce)</p>
+          </li>
+          <li id="uid139">
+            <p noindent="true">Director, Department of Computer Science, Ecole normale supérieure (J. Ponce)</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">Member, Scientific academic council, PSL Research University (J. Ponce)</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">Member, Research representative committee, PSL Research University (J. Ponce).</p>
+          </li>
+          <li id="uid142">
+            <p noindent="true">Member of Inria Commission de developpement technologique (CDT), 2012- (J. Sivic).</p>
+          </li>
+          <li id="uid143">
+            <p noindent="true">Member of ANR evaluation committee (I. Laptev).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid144" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid145" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <simplelist>
+          <li id="uid146">
+            <p noindent="true">Master : J. Ponce, "Introduction to computer vision", M1, Ecole normale superieure, 36h.</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">Master : I. Laptev, J. Ponce and J. Sivic (together with C. Schmid, Inria Grenoble), "Object recognition and computer vision", M2, Ecole normale superieure, and MVA, Ecole normale superieure de Cachan, 36h.</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Master : I. Laptev, J. Ponce and J. Sivic, Cours PSL-ITI - Informatique, mathematiques appliques pour le traitement du signal et l'imagerie, 20h.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid149" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid150">
+            <p noindent="true">PhD : Piotr Bojanowski, "Learning to annotate dynamic video scenes", graduated in 2016, I. Laptev, J. Ponce, C. Schmid and J. Sivic.</p>
+          </li>
+          <li id="uid151">
+            <p noindent="true">PhD : Guillaume Seguin, "Person analysis in stereoscopic movies", graduated in 2016, I. Laptev and J. Sivic.</p>
+          </li>
+          <li id="uid152">
+            <p noindent="true">PhD in progress : Ignacio Rocco, “Estimating correspondence between images via convolutional neural networks”, started in Jan 2017, J. Sivic, R. Arandjelovic (Google DeepMind).</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">PhD in progress : Antoine Miech, “Understanding long-term temporal structure of videos Phd thesis proposal", started in Oct 2016, I. Laptev, J. Sivic, P. Bojanowski (Facebook AI Research).</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">PhD in progress : Gul Varol, “Deep learning methods for video interpretation”, started in Oct 2015, I. Laptev, C. Schmid.</p>
+          </li>
+          <li id="uid155">
+            <p noindent="true">PhD in progress : Julia Peyre, “Learning to reason about scenes from images and language", started in Oct 2015, C. Schmid, I. Laptev, J. Sivic.</p>
+          </li>
+          <li id="uid156">
+            <p noindent="true">PhD in progress : Jean-Baptiste Alayrac, "Structured learning from video and natural language", started in 2014, I. Laptev, J. Sivic and S. Lacoste-Julien (Inria SIERRA / U. Montreal).</p>
+          </li>
+          <li id="uid157">
+            <p noindent="true">PhD in progress : Rafael Sampaio de Rezende, started in 2013, J.Ponce.</p>
+          </li>
+          <li id="uid158">
+            <p noindent="true">PhD in progress : Guilhem Cheron, "Structured modeling and recognition of human actions in video", started in 2014, I. Laptev and C. Schmid.</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">PhD in progress : Theophile Dalens, "Learning to analyze and reconstruct architectural scenes", starting in Jan 2015, M. Aubry and J. Sivic.</p>
+          </li>
+          <li id="uid160">
+            <p noindent="true">PhD in progress : Vadim Kantorov, "Large-scale video mining and recognition", started in 2012, I. Laptev.</p>
+          </li>
+          <li id="uid161">
+            <p noindent="true">PhD in progress : Maxime Oquab, "Learning to annotate dynamic scenes with convolutional neural networks", started in Jan 2014, L. Bottou (Facebook AI Research), I. Laptev and J. Sivic.</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">PhD in progress : Matthew Trager, "Projective geometric models in vision", started in 2014, J. Ponce and M. Hebert (CMU).</p>
+          </li>
+          <li id="uid163">
+            <p noindent="true">PhD in progress : Tuang Hung VU, "Learning functional description of dynamic scenes", started in 2013, I. Laptev.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid164" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid165">
+            <p noindent="true">PhD thesis committee:</p>
+            <simplelist>
+              <li id="uid166">
+                <p noindent="true">Stavros Tsogkas, Ecole Centrale, France, 2016 (J. Sivic, examinateur).</p>
+              </li>
+              <li id="uid167">
+                <p noindent="true">Sesh Karri, Ecole Normale Superieure, France, 2016 (J. Sivic, examinateur).</p>
+              </li>
+              <li id="uid168">
+                <p noindent="true">Elliot Crowley, University of Oxford, UK, 2016, (J. Sivic, external examiner)</p>
+              </li>
+              <li id="uid169">
+                <p noindent="true">Olivier Frigo, Universite Paris Descartes, France, 2016 (J. Sivic, rapporteur).</p>
+              </li>
+              <li id="uid170">
+                <p noindent="true">Mattis Paulin, Inria Grenoble, France, 2017 (J. Sivic, rapporteur).</p>
+              </li>
+              <li id="uid171">
+                <p noindent="true">Francesco Massa, ENPC, France 2017 (J. Sivic, examinateur).</p>
+              </li>
+              <li id="uid172">
+                <p noindent="true">Philippe Weinzaepfel, Universite Grenoble Alpes, France, 2015 (I. Laptev, rapporteur).</p>
+              </li>
+              <li id="uid173">
+                <p noindent="true">Guillaume Seguin, Ecole Normale Superieure, France, 2016 (I. Laptev, J.Ponce, J. Sivic, examinateurs).</p>
+              </li>
+              <li id="uid174">
+                <p noindent="true">Piotr Bojanowski, Ecole Normale Superieure, France, 2016 (I. Laptev, J.Ponce, J. Sivic, examinateurs).</p>
+              </li>
+              <li id="uid175">
+                <p noindent="true">Ala Aboudib, Télécom Bretagne, France, 2016 (J. Ponce).</p>
+              </li>
+              <li id="uid176">
+                <p noindent="true">Philippe Weinzaepfel, Universite Grenoble Alpes, France, 2016 (J. Ponce).</p>
+              </li>
+            </simplelist>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid177" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid178">
+          <p noindent="true">Participation to the round table on "L'IA est-elle réservée aux GAFA", NUMA, June 2016 (J. Ponce).</p>
+        </li>
+        <li id="uid179">
+          <p noindent="true">Participation to the round table on "Fictions, magie numerique et realites", Post-digital program, ENS/PSL Research University, October 2016 (J. Ponce).</p>
+        </li>
+        <li id="uid180">
+          <p noindent="true">Debate with Jacques Attali, "Intelligence Artificielle, science avec conscience?", "Intelligence Artificielle : de la technique au business" Conference, December 2016 (J. Ponce).</p>
+        </li>
+        <li id="uid181">
+          <p noindent="true">Participation to the round table on AI, Liberté Living Lab, December 2016 (J. Ponce).</p>
+        </li>
+        <li id="uid182">
+          <p noindent="true">Participation to the round table on ethics at the Senate's public hearing on Artificial Intelligence, January 2017 (J. Ponce).</p>
+        </li>
+        <li id="uid183">
+          <p noindent="true">Interview on Nolife 56Kast (<ref xlink:href="https://www.youtube.com/watch?v=8UgH8_J2ugU" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>youtube.<allowbreak/>com/<allowbreak/>watch?v=8UgH8_J2ugU</ref>) (J. Ponce).</p>
+        </li>
+        <li id="uid184">
+          <p noindent="true">Interview in Le Monde (<ref xlink:href="http://www.lemonde.fr/pixels/article/2016/01/08/intelligence-artificielle-ce-que-voient-les-machines_4843858_4408996.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>lemonde.<allowbreak/>fr/<allowbreak/>pixels/<allowbreak/>article/<allowbreak/>2016/<allowbreak/>01/<allowbreak/>08/<allowbreak/>intelligence-artificielle-ce-que-voient-les-machines_4843858_4408996.<allowbreak/>html</ref>) (J. Ponce).</p>
+        </li>
+        <li id="uid185">
+          <p noindent="true">Interview in Télérama (<ref xlink:href="http://www.telerama.fr/monde/trouver-le-calme-reconstituer-palmyre-ou-choisir-un-traitement-grace-a-l-ia,141131.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>telerama.<allowbreak/>fr/<allowbreak/>monde/<allowbreak/>trouver-le-calme-reconstituer-palmyre-ou-choisir-un-traitement-grace-a-l-ia,141131.<allowbreak/>php</ref>) (J. Ponce).</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="willow-2016-bid17" type="phdthesis" rend="year" n="cite:bojanowski:tel-01364560">
+      <identifiant type="hal" value="tel-01364560"/>
+      <monogr>
+        <title level="m">Learning to annotate dynamic video scenes</title>
+        <author>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole normale supérieure</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01364560" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01364560</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid16" type="phdthesis" rend="year" n="cite:seguin:tel-01311143">
+      <identifiant type="hal" value="tel-01311143"/>
+      <monogr>
+        <title level="m">Person analysis in stereoscopic movies</title>
+        <author>
+          <persName key="willow-2014-idp125896">
+            <foreName>Guillaume</foreName>
+            <surname>Seguin</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole normale superieure</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01311143" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01311143</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid7" type="article" rend="year" n="cite:gronat:hal-01418239">
+      <identifiant type="doi" value="10.1007/s11263-015-0878-x"/>
+      <identifiant type="hal" value="hal-01418239"/>
+      <analytic>
+        <title level="a">Learning and calibrating per-location classifiers for visual place recognition</title>
+        <author>
+          <persName key="willow-2014-idp130840">
+            <foreName>Petr</foreName>
+            <surname>Gronát</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sierra-2014-idp96488">
+            <foreName>Guillaume</foreName>
+            <surname>Obozinski</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="willow-2014-idp103392">
+            <foreName>Josef</foreName>
+            <surname>Sivic</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Tomáš</foreName>
+            <surname>Pajdla</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00880">
+        <idno type="issn">0920-5691</idno>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <biblScope type="volume">118</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">319-336</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418239" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418239</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid11" subtype="nonparu-n" type="article" rend="year" n="cite:ham:hal-01279857">
+      <identifiant type="hal" value="hal-01279857"/>
+      <analytic>
+        <title level="a">Robust Guided Image Filtering Using Nonconvex Potentials</title>
+        <author>
+          <persName key="willow-2014-idp108576">
+            <foreName>Bumsub</foreName>
+            <surname>Ham</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="willow-2014-idp106096">
+            <foreName>Minsu</foreName>
+            <surname>Cho</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00747">
+        <idno type="issn">0162-8828</idno>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01279857" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01279857</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted pending minor revision</note>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid18" type="article" rend="year" n="cite:idrees:hal-01431525">
+      <identifiant type="doi" value="10.1016/j.cviu.2016.10.018"/>
+      <identifiant type="hal" value="hal-01431525"/>
+      <analytic>
+        <title level="a">The THUMOS challenge on action recognition for videos "in the wild"</title>
+        <author>
+          <persName>
+            <foreName>Haroon R</foreName>
+            <surname>Idrees</surname>
+            <initial>H. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Amir R</foreName>
+            <surname>Zamir</surname>
+            <initial>A. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Yu-Gang</foreName>
+            <surname>Jiang</surname>
+            <initial>Y.-G.</initial>
+          </persName>
+          <persName>
+            <foreName>Alex R</foreName>
+            <surname>Gorban</surname>
+            <initial>A. R.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan R</foreName>
+            <surname>Laptev</surname>
+            <initial>I. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Rahul R</foreName>
+            <surname>Sukthankar</surname>
+            <initial>R. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Mubarak R</foreName>
+            <surname>Shah</surname>
+            <initial>M. R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00409">
+        <idno type="issn">1077-3142</idno>
+        <title level="j">Computer Vision and Image Understanding</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01431525" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01431525</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid9" type="article" rend="year" n="cite:sun:hal-01064637">
+      <identifiant type="doi" value="10.1007/s11263-016-0899-0"/>
+      <identifiant type="hal" value="hal-01064637"/>
+      <analytic>
+        <title level="a">Learning Dictionary of Discriminative Part Detectors for Image Categorization and Cosegmentation</title>
+        <author>
+          <persName key="willow-2014-idp111096">
+            <foreName>Jian</foreName>
+            <surname>Sun</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00880">
+        <idno type="issn">0920-5691</idno>
+        <title level="j">International Journal of Computer Vision</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01064637" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01064637</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid3" type="article" rend="year" n="cite:trager:hal-01152348">
+      <identifiant type="hal" value="hal-01152348"/>
+      <analytic>
+        <title level="a">Trinocular Geometry Revisited</title>
+        <author>
+          <persName key="willow-2014-idp127128">
+            <foreName>Matthew</foreName>
+            <surname>Trager</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Martial</foreName>
+            <surname>Hebert</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00880">
+        <idno type="issn">0920-5691</idno>
+        <title level="j">International Journal on Computer Vision (IJCV)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01152348" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01152348</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid13" type="inproceedings" rend="year" n="cite:alayrac:hal-01171193">
+      <identifiant type="hal" value="hal-01171193"/>
+      <analytic>
+        <title level="a">Unsupervised Learning from Narrated Instruction Videos</title>
+        <author>
+          <persName key="sierra-2014-idp84192">
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Alayrac</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="willow-2015-idp100752">
+            <foreName>Nishant</foreName>
+            <surname>Agrawal</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="willow-2014-idp103392">
+            <foreName>Josef</foreName>
+            <surname>Sivic</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="sierra-2014-idm26584">
+            <foreName>Simon</foreName>
+            <surname>Lacoste-Julien</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CVPR2016 - 29th IEEE Conference on Computer Vision and Pattern Recognition</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01171193" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01171193</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid0" type="inproceedings" rend="year" n="cite:arandjelovi:hal-01242052">
+      <identifiant type="hal" value="hal-01242052"/>
+      <analytic>
+        <title level="a">NetVLAD: CNN architecture for weakly supervised place recognition</title>
+        <author>
+          <persName key="willow-2014-idp104832">
+            <foreName>Relja</foreName>
+            <surname>Arandjelović</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="willow-2014-idp130840">
+            <foreName>Petr</foreName>
+            <surname>Gronat</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Akihiko</foreName>
+            <surname>Torii</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Tomas</foreName>
+            <surname>Pajdla</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="willow-2014-idp103392">
+            <foreName>Josef</foreName>
+            <surname>Sivic</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CVPR 2016 - 29th IEEE Conference on Computer Vision and Pattern Recognition</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01242052" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01242052</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid8" type="inproceedings" rend="year" n="cite:ham:hal-01240281">
+      <identifiant type="hal" value="hal-01240281"/>
+      <analytic>
+        <title level="a">Proposal Flow</title>
+        <author>
+          <persName key="willow-2014-idp108576">
+            <foreName>Bumsub</foreName>
+            <surname>Ham</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="willow-2014-idp106096">
+            <foreName>Minsu</foreName>
+            <surname>Cho</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="lear-2014-idp61664">
+            <foreName>Cordelia</foreName>
+            <surname>Schmid</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CVPR 2016 - IEEE Conference on Computer Vision &amp; Pattern Recognition</title>
+        <loc>LAS VEGAS, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01240281" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01240281</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid1" type="inproceedings" rend="year" n="cite:kantorov:hal-01421772">
+      <identifiant type="doi" value="10.1007/978-3-319-46454-1_22"/>
+      <identifiant type="hal" value="hal-01421772"/>
+      <analytic>
+        <title level="a">ContextLocNet: Context-Aware Deep Network Models for Weakly Supervised Localization</title>
+        <author>
+          <persName key="willow-2014-idp122216">
+            <foreName>Vadim</foreName>
+            <surname>Kantorov</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="willow-2014-idp123440">
+            <foreName>Maxime</foreName>
+            <surname>Oquab</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp106096">
+            <foreName>Minsu</foreName>
+            <surname>Cho</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECCV 2016</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">350 - 365</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421772" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421772</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid14" type="inproceedings" rend="year" n="cite:kwak:hal-01242724">
+      <identifiant type="hal" value="hal-01242724"/>
+      <analytic>
+        <title level="a">Thin-Slicing for Pose: Learning to Understand Pose without Explicit Pose Estimation</title>
+        <author>
+          <persName key="willow-2014-idp109840">
+            <foreName>Suha</foreName>
+            <surname>Kwak</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="willow-2014-idp106096">
+            <foreName>Minsu</foreName>
+            <surname>Cho</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CVPR 2016 - IEEE Conference on Computer Vision and Pattern Recognition</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01242724" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01242724</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid19" type="inproceedings" rend="year" n="cite:lajugie:hal-01251018">
+      <identifiant type="hal" value="hal-01251018"/>
+      <analytic>
+        <title level="a">A weakly-supervised discriminative model for audio-to-score alignment</title>
+        <author>
+          <persName key="sierra-2014-idp92792">
+            <foreName>Rémi</foreName>
+            <surname>Lajugie</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sierra-2014-idm29296">
+            <foreName>Francis</foreName>
+            <surname>Bach</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <loc>Shanghai, China</loc>
+        <title level="s">Proceedings of the 41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01251018" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01251018</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>41</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid15" type="inproceedings" rend="year" n="cite:seguin:hal-01255765">
+      <identifiant type="hal" value="hal-01255765"/>
+      <analytic>
+        <title level="a">Instance-level video segmentation from object tracks</title>
+        <author>
+          <persName key="willow-2014-idp125896">
+            <foreName>Guillaume</foreName>
+            <surname>Seguin</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sierra-2014-idp92792">
+            <foreName>Rémi</foreName>
+            <surname>Lajugie</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CVPR 2016</title>
+        <loc>Las Vegas, United States</loc>
+        <title level="s">Proceedings of the 29th IEEE Computer Society Conference on Computer Vision and Pattern Recognition</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01255765" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01255765</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid12" type="inproceedings" rend="year" n="cite:sigurdsson:hal-01418216">
+      <identifiant type="doi" value="10.1007/978-3-319-46448-0_31"/>
+      <identifiant type="hal" value="hal-01418216"/>
+      <analytic>
+        <title level="a">Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding</title>
+        <author>
+          <persName key="willow-2016-idp199760">
+            <foreName>Gunnar A.</foreName>
+            <surname>Sigurdsson</surname>
+            <initial>G. A.</initial>
+          </persName>
+          <persName key="willow-2015-idp88088">
+            <foreName>Gül</foreName>
+            <surname>Varol</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="crypt-2014-idm29872">
+            <foreName>Xiaolong</foreName>
+            <surname>Wang</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Ali</foreName>
+            <surname>Farhadi</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Abhinav</foreName>
+            <surname>Gupta</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Computer Vision – ECCV 2016</title>
+        <loc>Amsterdam, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">510 - 526</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418216" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418216</ref>
+        </imprint>
+        <meeting id="cid66293">
+          <title>European Conference on Computer Vision</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCV</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid4" type="inproceedings" rend="year" n="cite:trager:hal-01287180">
+      <identifiant type="hal" value="hal-01287180"/>
+      <analytic>
+        <title level="a">Consistency of silhouettes and their duals</title>
+        <author>
+          <persName key="willow-2014-idp127128">
+            <foreName>Matthew</foreName>
+            <surname>Trager</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Martial</foreName>
+            <surname>Hebert</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE Conference on Computer Vision and Pattern Recognition, 2016</title>
+        <loc>Las Vegas, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01287180" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01287180</ref>
+        </imprint>
+        <meeting id="cid82398">
+          <title>IEEE International Conference on Computer Vision and Pattern Recognition</title>
+          <num>2016</num>
+          <abbr type="sigle">CVPR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid10" type="inproceedings" rend="year" n="cite:zhong:hal-01353886">
+      <identifiant type="hal" value="hal-01353886"/>
+      <analytic>
+        <title level="a">Faces In Places: Compound query retrieval</title>
+        <author>
+          <persName>
+            <foreName>Yujie</foreName>
+            <surname>Zhong</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="willow-2014-idp104832">
+            <foreName>Relja</foreName>
+            <surname>Arandjelović</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>Zisserman</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">BMVC - 27th British Machine Vision Conference</title>
+        <loc>York, United Kingdom</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01353886" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353886</ref>
+        </imprint>
+        <meeting id="cid38519">
+          <title>British Machine Vision Conference</title>
+          <num>27</num>
+          <abbr type="sigle">BMVC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid6" type="unpublished" rend="year" n="cite:babenko:hal-01330582">
+      <identifiant type="hal" value="hal-01330582"/>
+      <monogr>
+        <title level="m">Pairwise Quantization</title>
+        <author>
+          <persName>
+            <foreName>Artem</foreName>
+            <surname>Babenko</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="willow-2014-idp104832">
+            <foreName>Relja</foreName>
+            <surname>Arandjelović</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Victor</foreName>
+            <surname>Lempitsky</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01330582" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01330582</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid5" subtype="nonparu-n" type="misc" rend="year" n="cite:ponce:hal-01423057">
+      <identifiant type="hal" value="hal-01423057"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Congruences and Concurrent Lines in Multi-View Geometry</title>
+        <author>
+          <persName key="willow-2014-idp100656">
+            <foreName>Jean</foreName>
+            <surname>Ponce</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernd</foreName>
+            <surname>Sturmfels</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="willow-2014-idp127128">
+            <foreName>Matthew</foreName>
+            <surname>Trager</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01423057" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01423057</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Accepted for "Advances in Applied Mathematics"</note>
+    </biblStruct>
+    
+    <biblStruct id="willow-2016-bid2" type="unpublished" rend="year" n="cite:varol:hal-01241518">
+      <identifiant type="hal" value="hal-01241518"/>
+      <monogr>
+        <title level="m">Long-term Temporal Convolutions for Action Recognition</title>
+        <author>
+          <persName key="willow-2015-idp88088">
+            <foreName>Gül</foreName>
+            <surname>Varol</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="willow-2014-idp101920">
+            <foreName>Ivan</foreName>
+            <surname>Laptev</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="lear-2014-idp61664">
+            <foreName>Cordelia</foreName>
+            <surname>Schmid</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01241518" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01241518</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

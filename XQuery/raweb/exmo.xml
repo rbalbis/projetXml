@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="exmo" isproject="true">
+    <shortname>EXMO</shortname>
+    <projectName>Computer mediated exchange of structured knowledge</projectName>
+    <theme-de-recherche>Data and Knowledge Representation and Processing</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://exmo.inria.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire d'Informatique de Grenoble (LIG)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Grenoble Alpes</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2003 July 01, end of the Project-Team: 2016 December 31</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.1.7. - Open data</term>
+      <term>3.2.2. - Knowledge extraction, cleaning</term>
+      <term>3.2.4. - Semantic Web</term>
+      <term>3.2.5. - Ontologies</term>
+      <term>8.1. - Knowledge</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>6.3.1. - Web</term>
+      <term>9.7. - Knowledge dissemination</term>
+      <term>9.7.2. - Open data</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="exmo-2014-idp104520">
+      <firstname>Jérôme</firstname>
+      <lastname>Euzenat</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="exmo-2014-idp106008">
+      <firstname>Manuel</firstname>
+      <lastname>Atencia Arcas</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes, Associate Professor</moreinfo>
+    </person>
+    <person key="exmo-2014-idp107280">
+      <firstname>Jérôme</firstname>
+      <lastname>David</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble Alpes, Associate Professor</moreinfo>
+    </person>
+    <person key="exmo-2014-idp113488">
+      <firstname>Armen</firstname>
+      <lastname>Inants</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Apr 2016, granted by ANR LINDICLE project</moreinfo>
+    </person>
+    <person key="exmo-2014-idp115928">
+      <firstname>Adam</firstname>
+      <lastname>Sanchez Ayte</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, granted by ANR LINDICLE project</moreinfo>
+    </person>
+    <person key="exmo-2014-idp114704">
+      <firstname>Tatiana</firstname>
+      <lastname>Lesnikova</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until May 2016; Post-Doctoral Fellow since then, granted by ANR LINDICLE project</moreinfo>
+    </person>
+    <person key="exmo-2016-idp152656">
+      <firstname>Lydie</firstname>
+      <lastname>Leon</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, from Sep 2016</moreinfo>
+    </person>
+    <person key="exmo-2014-idp111040">
+      <firstname>Marion</firstname>
+      <lastname>Ponsot</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="exmo-2016-idp157616">
+      <firstname>Mashruf Zaman</firstname>
+      <lastname>Chowdhury</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Master student, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+    <person key="exmo-2016-idp160112">
+      <firstname>Irina</firstname>
+      <lastname>Dragoste</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Master student, from Feb 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="exmo-2016-idp162608">
+      <firstname>Maroua</firstname>
+      <lastname>Gmati</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Master student, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>General Objectives</bodyTitle>
+      <p>The semantic web blends the communication capabilities of the web with knowledge representation. Expressing formalised knowledge on a computer is useful, not exclusively for the need of the computer, but for communication. The goal of <span class="smallcap" align="left">Exmo</span> is the development of theoretical, experimental and software tools for communicating formalised knowledge.</p>
+      <p>There is no reason why knowledge expressed on the web should be in a single format or by reference to a single vocabulary (or ontology). In order to interoperate, the representations have to be matched and transformed. We build on our experience of alignments as representing the relationships between ontologies. Such alignments may be used for generating knowledge transformations (or any other kind of mediators) used for interoperating or interlinking data. We focus on the design of an alignment infrastructure and on the investigation of alignment properties when they are used for reconciling ontologies or interlinking data.</p>
+      <p>On a longer term, we study how a semantic web made of interrelated ontologies and datasets evolves and structures itself depending on its use. In particular, we aim at understanding how it influences and is influenced by its use in interpersonal communication.</p>
+      <p><span class="smallcap" align="left">Exmo</span>'s work is naturally applied in all contexts in which ontologies are used for expressing knowledge that has to be communicated. It is more directly focussed on the infrastructure of the semantic web and the web of data.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Knowledge representation semantics</bodyTitle>
+      <p>We work with semantically defined knowledge representation languages
+(like description logics, conceptual graphs and object-based
+languages). Their semantics is usually defined
+within model theory initially
+developed for logics. The languages dedicated to the semantic web
+(<span class="smallcap" align="left">rdf</span> and <span class="smallcap" align="left">owl</span>) follow that approach.
+<span class="smallcap" align="left">rdf</span> is a knowledge representation language dedicated to the description
+of resources; <span class="smallcap" align="left">owl</span> is designed for expressing ontologies: it
+describes concepts and relations that can be used
+within <span class="smallcap" align="left">rdf</span>.</p>
+      <p>We consider a language <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>L</mi></math></formula> as a set of syntactically
+defined expressions (often inductively defined by applying
+constructors over other expressions). A representation
+(<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>o</mi><mo>⊆</mo><mi>L</mi></mrow></math></formula>)
+is a set of such expressions. It is also called an ontology. An interpretation function (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>I</mi></math></formula>) is
+inductively defined over the structure of the language to a structure
+called interpretation domain (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>D</mi></math></formula>). This
+expresses the construction of the “meaning” of an expression in function
+of its components. A formula is satisfied by an interpretation if
+it fulfills a condition (in general being interpreted over a
+particular subset of the domain). A model of a set of expressions is an
+interpretation satisfying all these expressions. An
+expression (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>δ</mi></math></formula>)
+is then a consequence of a set of expressions (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>o</mi></math></formula>) if it is
+satisfied by all of their models (noted <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>o</mi><mo>⊧</mo><mi>δ</mi></mrow></math></formula>).</p>
+      <p>A computer must determine if a particular expression (taken as a
+query, for instance) is the consequence of a set of axioms (a
+knowledge base). For that purpose, it uses programs, called
+provers, that can be based on the processing of a set of
+inference rules, on the construction of models or on procedural
+programming. These programs are able to deduce theorems (noted
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>o</mi><mo>⊢</mo><mi>δ</mi></mrow></math></formula>). They
+are said to be sound if they only find theorems which are
+indeed consequences and to be complete if they find all the
+consequences as theorems. However, depending on the language and its
+semantics, the decidability, i.e., the ability to create sound and
+complete provers, is not warranted. Even for decidable
+languages, the algorithmic complexity of provers may prohibit their
+exploitation.</p>
+      <p>To solve this problem a trade-off between the expressivity of the
+language and the complexity of its provers has to be
+found. These considerations have led to the definition of languages
+with limited complexity – like conceptual graphs and object-based
+representations – or of modular families of languages with associated
+modular prover algorithms – like description logics.</p>
+      <p><span class="smallcap" align="left">Exmo</span> mainly considers languages with
+well-defined semantics (such as <span class="smallcap" align="left">rdf</span>
+and <span class="smallcap" align="left">owl</span> that we contributed to define), and defines
+the semantics of some languages
+such as the <span class="smallcap" align="left">sparql</span> query language and alignment languages, in order to establish
+the properties of computer manipulations of the representations.</p>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Ontology matching and alignments</bodyTitle>
+      <p>When different representations are used, it is necessary to identify their correspondences.
+This task is called ontology matching and its result is an alignment <ref xlink:href="#exmo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+It can be described as follows:
+given two ontologies, each describing a set of discrete entities (which can be classes, properties, rules, predicates, etc.), find the relationships, if any, holding between these entities.</p>
+      <p>An alignment between two ontologies <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>o</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>o</mi><mo>'</mo></msup></math></formula> is a set of correspondences <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>〈</mo><mi>e</mi><mo>,</mo><msup><mi>e</mi><mo>'</mo></msup><mo>,</mo><mi>r</mi><mo>〉</mo></mrow></math></formula> such that:</p>
+      <simplelist>
+        <li id="uid7">
+          <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>e</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>e</mi><mo>'</mo></msup></math></formula> are the entities between which a relation is asserted by the correspondence, e.g., formulas, terms, classes, individuals;</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>r</mi></math></formula> is the relation asserted to hold between <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>e</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>e</mi><mo>'</mo></msup></math></formula>.
+This relation can be any relation applying to these entities, e.g., equivalence, subsumption.</p>
+        </li>
+      </simplelist>
+      <p>In addition, a correspondence may support various types of metadata, in particular measures of the confidence in a correspondence.</p>
+      <p>Given the semantics of the two ontologies provided by their consequence relation, we define an interpretation of two aligned ontologies as a pair of interpretations <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>〈</mo><mi>m</mi><mo>,</mo><msup><mi>m</mi><mo>'</mo></msup><mo>〉</mo></mrow></math></formula>, one for each ontology.
+Such a pair of interpretations is a model of the aligned ontologies <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>o</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>o</mi><mo>'</mo></msup></math></formula> if and only if each respective interpretation is a model of the ontology and they satisfy all correspondences of the alignment.</p>
+      <p>This definition is extended to networks of ontologies: a collection of ontologies and associated alignments.
+A model of such an ontology network is a tuple of local models such that each alignment is valid for the models involved in the tuple.
+In such a system, alignments play the role of model filters which select the local models that are compatible with all alignments.
+So, given an ontology network, it is possible to interpret it.</p>
+      <p>However, given a set of ontologies, it is necessary to find the alignments between them and the semantics does not tell which ones they are.
+Ontology matching aims at finding these alignments.
+A variety of methods is used for this task.
+They perform pairwise comparisons of entities from each of the ontologies and select the most similar pairs.
+Most matching algorithms provide correspondences between named entities, more rarely between compound terms.
+The relationships are generally equivalence between these entities.
+Some systems are able to provide subsumption relations as well as other relations in the support language (like incompatibility or instantiation).
+Confidence measures are usually given a value between 0 and 1 and are used for expressing preferences between two correspondences.</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Data interlinking</bodyTitle>
+      <p>Links are important for the publication of <span class="smallcap" align="left">rdf</span> data on the web.
+We call data interlinking the process of generating links identifying
+the same resource described in two data sets.
+Data interlinking parallels ontology matching: from two datasets (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>d</mi></math></formula>
+and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>d</mi><mo>'</mo></msup></math></formula>) it generates a set of links (also called a link set, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>L</mi></math></formula>).</p>
+      <p>We have extended the notion of database keys in a way which is more adapted to the context of description logics and the openness of the semantic web.
+We have introduced the notion of a link key <ref xlink:href="#exmo-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#exmo-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> which is a combination of such keys with alignments.
+More precisely, a link key is a structure <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>〈</mo><msup><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msup><mo>,</mo><msup><mi>K</mi><mrow><mi>i</mi><mi>n</mi></mrow></msup><mo>,</mo><mi>C</mi><mo>〉</mo></mrow></math></formula> such that:</p>
+      <simplelist>
+        <li id="uid10">
+          <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msup></math></formula> is a set of pairs of property expressions;</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>K</mi><mrow><mi>i</mi><mi>n</mi></mrow></msup></math></formula> is a set of pairs of property expressions;</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>C</mi></math></formula> is a correspondence between classes.</p>
+        </li>
+      </simplelist>
+      <p>Such a link key holds if and only if for any pair of resources belonging to the classes in correspondence
+such that the values of their property in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>K</mi><mrow><mi>e</mi><mi>q</mi></mrow></msup></math></formula> are pairwise equal and the values of those in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>K</mi><mrow><mi>i</mi><mi>n</mi></mrow></msup></math></formula> pairwise intersect,
+the resources are the same.</p>
+      <p>As can be seen, link key validity is only relying on pairs of objects in two different data sets.
+We further qualify link keys as weak, plain and strong depending on them satisfying further constraints:
+a weak link key is only valid on pairs of individuals of different data sets,
+a plain link key has to apply in addition to pairs of individuals of the same data set as soon as one of them is identified with another individual of the other data set,
+a strong link key is a link key which is also a key for each data set, it can be though of as a link key which is made of two keys.</p>
+      <p>Link keys can then be used for finding equal individuals across two data sets and generating the corresponding owl:sameAs links.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid13">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Semantic web technologies</bodyTitle>
+      <p>The main application context motivating our work is the “semantic web” infrastructure.</p>
+      <p>Internet technologies support organisations and people in accessing and sharing knowledge, often difficult to access in a documentary form.
+However, these technologies quickly reach their limits: web site organisation is expensive and full-text search inefficient.
+Content-based information search is becoming a necessity.
+Content representation enables computers to manipulate knowledge on a more formal ground and to carry out similarity or generality search.
+Knowledge representation formalisms are good candidates for expressing content.</p>
+      <p>The vision of a “semantic web” <ref xlink:href="#exmo-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> complements the web, with formal knowledge representation spanning across sites.
+Taking advantage of this semantic web requires the manipulation of various knowledge representation formats.
+<span class="smallcap" align="left">Exmo</span> concerns are thus central to the semantic web implementation.
+Our work aims at enhancing content understanding, including the intelligibility of communicated knowledge and formal knowledge transformations.</p>
+      <p>In addition, <span class="smallcap" align="left">Exmo</span> considers more specific uses of semantic web technologies in wider contexts.</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid15">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Alignment API</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Using ontologies is the priviledged way to achieve interoperability among heterogeneous systems within the semantic web.
+However, as the ontologies underlying two systems are not necessarily compatible, they may in turn need to be reconciled.
+Ontology reconciliation requires most of the time to find the correspondences between entities (e.g., classes, objects, properties) occuring in ontologies.
+We call a set of such correspondences an alignment.</p>
+      <p>We have designed a format for expressing alignments in a uniform
+way. The goal of this format is to share
+available alignments on the web. It should help systems using alignments,
+e.g., mediators, translators, to take advantage of any matching
+algorithm and it will help matching algorithms to be used in many
+different tasks. This format is expressed in <span class="smallcap" align="left">rdf</span>, so it is freely extensible.
+We have proposed and implemented an expressive extension called <span class="smallcap" align="left">edoal</span> <ref xlink:href="#exmo-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The Alignment <span class="smallcap" align="left">api</span> <ref xlink:href="#exmo-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is an <span class="smallcap" align="left">api</span> and implementation for expressing and sharing ontology alignments.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The <span class="smallcap" align="left">api</span> itself is a Java description of tools for accessing the common format. It defines five main interfaces (OntologyNetwork, Alignment, Cell, Relation and Evaluator).</p>
+      <p>We provide an implementation for this <span class="smallcap" align="left">api</span> which can be used for producing transformations, rules or bridge axioms independently from the algorithm which produced the alignment. The proposed implementation features:</p>
+      <simplelist>
+        <li id="uid17">
+          <p noindent="true">a base implementation of the interfaces with all useful facilities,</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">a library of sample matchers,</p>
+        </li>
+        <li id="uid19">
+          <p noindent="true">a library of renderers (<span class="smallcap" align="left">xslt</span>, <span class="smallcap" align="left">rdf</span>, <span class="smallcap" align="left">skos</span>, <span class="smallcap" align="left">swrl</span>, <span class="smallcap" align="left">owl</span>, <span class="smallcap" align="left">c-owl</span>, <span class="smallcap" align="left">sparql</span>, etc.),</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">a library of evaluators (various generalisation of precision/recall, precision/recall graphs),</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">a flexible test generation framework which allows for generating evaluation datasets,</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">a library of wrappers for several ontology <span class="smallcap" align="left">api</span>s,</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">parsers for different formats.</p>
+        </li>
+      </simplelist>
+      <p>To instanciate the <span class="smallcap" align="left">api</span>, it is sufficient to refine the base implementation by implementing the align() method. Doing so, the new implementation will benefit from all the services already implemented in the base implementation.</p>
+      <p noindent="true">We have developed, on top of the Alignment <span class="smallcap" align="left">api</span>, an Alignment server that can be used by remote clients for matching ontologies and for storing and sharing alignments.
+It is developed as an extensible platform which allows to plug-in new interfaces.
+The Alignment server can be accessed through <span class="smallcap" align="left">html</span>, web service (<span class="smallcap" align="left">soap</span> and <span class="smallcap" align="left">rest</span>) and agent communication interfaces.</p>
+      <p>The Alignment <span class="smallcap" align="left">api</span> is used in the Ontology Alignment Evaluation Initiative data and result processing (§<ref xlink:href="#uid33" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+It is also used by more than 50 other teams worldwide.</p>
+      <p>The Alignment <span class="smallcap" align="left">api</span> is freely available since december 2003, under the <span class="smallcap" align="left">lgpl</span> licence, at <ref xlink:href="http://alignapi.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>alignapi.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref>.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Jérôme Euzenat, Jérôme David, Armen Inants</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Jérôme Euzenat</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="http://alignapi.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>alignapi.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>OntoSim</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>There are many reasons for measuring a distance between ontologies.
+For example, in semantic social networks, when a peer looks for particular information, it could be more appropriate to send queries to peers having closer ontologies because it will be easier to translate them and it is more likely that such a peer has the information of interest.</p>
+      <p>OntoSim is a library offering similarity and distance measures between ontology entities as well as between ontologies themselves.
+It materialises our work towards better ontology proximity measures.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>OntoSim is a Java <span class="smallcap" align="left">api</span> allowing to compute similarities between ontologies.
+It relies on the Alignment <span class="smallcap" align="left">api</span> for ontology loading so it is quite independent of the ontology <span class="smallcap" align="left">api</span> used (<span class="smallcap" align="left">Jena</span> or <span class="smallcap" align="left">owl api</span>).</p>
+      <p>OntoSim provides a framework for designing various kinds of similarities.
+In particular, we differentiated similarities in the ontology space from those in the alignment space.
+The latter ones make use of available alignments in a network of ontologies while the former only rely on ontology data.
+OntoSim is provided with 4 entity measures which can be combined using various aggregation schemes (average linkage, Hausdorff, maximum weight coupling, etc.), 2 kinds of vector space measures (boolean and <span class="smallcap" align="left">tfidf</span>), and 4 alignment space measures.
+It also features original comparison methods such as agreement/disagreement measures.
+In addition, the framework embeds external similarity libraries which can be combined to our own.</p>
+      <p>OntoSim is based on an ontology interface allowing for using ontology parsed with different <span class="smallcap" align="left">api</span>s.
+It is written in <span class="smallcap" align="left">Java</span> and is available, under the <span class="smallcap" align="left">lgpl</span> licence, at <ref xlink:href="http://ontosim.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>ontosim.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref>.</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participants: Jérôme David, Jérôme Euzenat</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Jérôme David</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">URL: <ref xlink:href="http://ontosim.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>ontosim.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid31">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Ontology matching and alignments</bodyTitle>
+      <subsection id="uid33" level="2">
+        <bodyTitle>Evaluation</bodyTitle>
+        <participants>
+          <person key="exmo-2014-idp104520">
+            <firstname>Jérôme</firstname>
+            <lastname>Euzenat</lastname>
+            <moreinfo>Correspondent</moreinfo>
+          </person>
+        </participants>
+        <p>Since 2004, we run the Ontology Alignment Evaluation Initiative (<span class="smallcap" align="left">oaei</span>) which organises
+evaluation campaigns for assessing the degree of achievement of actual
+ontology matching algorithms <ref xlink:href="#exmo-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>This year, we used again our generator for generating a new version of benchmarks.
+The Alignment <span class="smallcap" align="left">api</span> was used for manipulating alignments and evaluating results <ref xlink:href="#exmo-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>The participating systems and evaluation results were presented in the 11th Ontology
+Matching workshop <ref xlink:href="#exmo-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#exmo-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, held Kobe (JP).
+More information on <span class="smallcap" align="left">oaei</span> can be found at <ref xlink:href="http://oaei.ontologymatching.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>oaei.<allowbreak/>ontologymatching.<allowbreak/>org/</ref>.</p>
+      </subsection>
+      <subsection id="uid34" level="2">
+        <bodyTitle>Algebras of alignment relations</bodyTitle>
+        <participants>
+          <person key="exmo-2014-idp106008">
+            <firstname>Manuel</firstname>
+            <lastname>Atencia Arcas</lastname>
+          </person>
+          <person key="exmo-2014-idp104520">
+            <firstname>Jérôme</firstname>
+            <lastname>Euzenat</lastname>
+            <moreinfo>Correspondent</moreinfo>
+          </person>
+          <person key="exmo-2014-idp113488">
+            <firstname>Armen</firstname>
+            <lastname>Inants</lastname>
+          </person>
+        </participants>
+        <p>Qualitative calculi are central in qualitative binary constraint satisfaction problems.
+All these qualitative calculi share an implicit assumption that the universe is homogeneous, i.e., consists of objects of the same kind.
+However, objects of different kinds may also entertain relations.
+Many applications discriminate between different kinds of objects.
+For example, some spatial models discriminate between regions, lines and points, and different relations are used for each kind of objects.
+In ontology matching, qualitative calculi were shown useful for expressing alignments between only one kind of entities, such as concepts or individuals.
+However, relations between individuals and concepts, which impose additional constraints, are not exploited.</p>
+        <p>We introduced modularity in qualitative calculi and provided a methodology for modeling qualitative calculi with heterogeneous universes <ref xlink:href="#exmo-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+It is based on a special class of partition schemes which we call modular.
+For a qualitative calculus generated by a modular partition scheme, we can define a structure that associates each relation symbol with an abstract domain and codomain from a Boolean lattice of sorts.
+A module of such a qualitative calculus is a sub-calculus restricted to a given sort, which is obtained through an operation called relativisation to a sort.
+Of a greater practical interest is the opposite operation, which allows for combining several qualitative calculi into a single calculus.
+We defined an operation called combination modulo glue, which combines two or more qualitative calculi over different universes, provided some glue relations between these universes.
+The framework is general enough to support most known qualitative spatio-temporal calculi.</p>
+        <p>In 2012, we introduced a semantics supporting confidences in correspondences as weights.
+However, it introduced a discontinuity between weighted and non-weighted interpretations.
+Moreover, it does not provide a calculus for reasoning with weighted ontology alignments.
+We introduced a calculus for such alignments <ref xlink:href="#exmo-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> provided by an infinite relation-type algebra, the elements of which are weighted taxonomic relations.
+In addition, it approximates the non-weighted case in a continuous manner.</p>
+        <p>This work has been part of the PhD of Armen Inants <ref xlink:href="#exmo-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> partially funded by the <span class="smallcap" align="left">Lindicle</span> project (§<ref xlink:href="#uid41" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Data interlinking</bodyTitle>
+      <p>The web of data uses semantic web technologies to publish data on the web in such a way that they can be interpreted and connected together.
+It is thus important to be able to establish links between these data <ref xlink:href="#exmo-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, both for the web of data and for the semantic web that it contributes to feed.
+We consider this problem from different perspectives.</p>
+      <subsection id="uid36" level="2">
+        <bodyTitle>Interlinking cross-lingual RDF data sets</bodyTitle>
+        <participants>
+          <person key="exmo-2014-idp114704">
+            <firstname>Tatiana</firstname>
+            <lastname>Lesnikova</lastname>
+          </person>
+          <person key="exmo-2014-idp107280">
+            <firstname>Jérôme</firstname>
+            <lastname>David</lastname>
+            <moreinfo>Correspondent</moreinfo>
+          </person>
+          <person key="exmo-2014-idp104520">
+            <firstname>Jérôme</firstname>
+            <lastname>Euzenat</lastname>
+          </person>
+        </participants>
+        <p><span class="smallcap" align="left">Rdf</span> data sets are being published with labels that may be expressed in different languages.
+Even systems based on graph structure, ultimately rely on anchors based on language fragments.
+In this context, data interlinking requires specific approaches in order to tackle cross-lingualism.
+We proposed a general framework for interlinking <span class="smallcap" align="left">rdf</span> data in different languages and implemented two approaches: one approach is based on machine translation, the other one takes advantage of multilingual references, such as BabelNet.</p>
+        <p>This year, we evaluated machine translation for interlinking concepts, i.e., generic entities named with a common noun or term, as opposed to individual entities.
+In previous work, the evaluated method has been applied on named entities.
+We conducted two experiments involving different thesauri in different languages.
+The first experiment involved concepts from the TheSoz multilingual thesaurus in three languages: English, French and German. The second experiment involved concepts from the EuroVoc and <span class="smallcap" align="left">agrovoc</span> thesauri in English and Chinese respectively.
+We demonstrated that machine translation can be beneficial for cross-lingual thesauri interlining independently of a dataset structure <ref xlink:href="#exmo-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>This work has been part of the PhD of Tatiana Lesnikova <ref xlink:href="#exmo-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> developed in the <span class="smallcap" align="left">Lindicle</span> project (§<ref xlink:href="#uid41" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      </subsection>
+      <subsection id="uid37" level="2">
+        <bodyTitle>Uncertainty-sensitive reasoning for inferring sameAs facts in Linked Data</bodyTitle>
+        <participants>
+          <person key="exmo-2014-idp106008">
+            <firstname>Manuel</firstname>
+            <lastname>Atencia Arcas</lastname>
+            <moreinfo>Correspondent</moreinfo>
+          </person>
+          <person key="exmo-2014-idp107280">
+            <firstname>Jérôme</firstname>
+            <lastname>David</lastname>
+          </person>
+        </participants>
+        <p>A major challenge in data interlinking is to design tools that effectively deal with incomplete and noisy data, and exploit uncertain knowledge.
+We modelled data interlinking as a reasoning problem with uncertainty.
+For that purpose, we introduced a probabilistic framework for modelling and reasoning over uncertain <span class="smallcap" align="left">rdf</span> facts and rules that is based on the semantics of probabilistic Datalog.
+We have designed an algorithm, ProbFR, based on this framework.
+Experiments on real-world datasets have shown the usefulness and effectiveness of our approach for data linkage and disambiguation <ref xlink:href="#exmo-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <p>This work was carried out in collaboration with Mustafa Al-Bakri and Marie-Christine Rousset (LIG).</p>
+      </subsection>
+      <subsection id="uid38" level="2">
+        <bodyTitle>Tableau extensions for reasoning with link keys</bodyTitle>
+        <participants>
+          <person key="exmo-2014-idp106008">
+            <firstname>Manuel</firstname>
+            <lastname>Atencia Arcas</lastname>
+            <moreinfo>Correspondent</moreinfo>
+          </person>
+          <person key="exmo-2014-idp104520">
+            <firstname>Jérôme</firstname>
+            <lastname>Euzenat</lastname>
+          </person>
+          <person key="exmo-2016-idp162608">
+            <firstname>Maroua</firstname>
+            <lastname>Gmati</lastname>
+          </person>
+        </participants>
+        <p>Link keys allow for generating links across datasets expressed in different ontologies (see §<ref xlink:href="#uid9" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+But they can also be thought of as axioms in a description logic.
+As such, they can contribute to infer ABox axioms, such as links, or terminological axioms and other link keys.
+Yet, no reasoning support existed for link keys.
+We extended the tableau method designed for ALC to take link keys into account <ref xlink:href="#exmo-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We showed how this extension enables combining link keys with classical terminological reasoning with and without ABox and TBox and generate non trivial link keys.</p>
+      </subsection>
+    </subsection>
+  </resultats>
+  <partenariat id="uid39">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid41" level="2">
+        <bodyTitle>ANR Lindicle</bodyTitle>
+        <sanspuceslist>
+          <li id="uid42">
+            <p noindent="true">Program: ANR-Blanc international 2</p>
+          </li>
+          <li id="uid43">
+            <p noindent="true">Project acronym: <span class="smallcap" align="left">Lindicle</span></p>
+          </li>
+          <li id="uid44">
+            <p noindent="true">Project title: Linking data in cross-lingual environment</p>
+          </li>
+          <li id="uid45">
+            <p noindent="true">Duration: January 2013 - December 2016</p>
+          </li>
+          <li id="uid46">
+            <p noindent="true">Coordinator: Inria <span class="smallcap" align="left">Exmo</span>/Jérôme David</p>
+          </li>
+          <li id="uid47">
+            <p noindent="true">Participants: Jérôme Euzenat, Manuel Atencia Arcas, Jérôme
+David, Tatiana Lesnikova, Adam Sanchez Ayte, Armen Inants</p>
+          </li>
+          <li id="uid48">
+            <p noindent="true">Other partners: Tsinghua university (CN)</p>
+          </li>
+          <li id="uid49">
+            <p noindent="true">See also: <ref xlink:href="http://lindicle.inrialpes.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lindicle.<allowbreak/>inrialpes.<allowbreak/>fr</ref></p>
+          </li>
+          <li id="uid50">
+            <p noindent="true">Abstract: The <span class="smallcap" align="left">Lindicle</span> project investigates multilingual data interlinking between French, English and Chinese data sources (see §<ref xlink:href="#uid35" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid52" level="2">
+        <bodyTitle>Informal International Partners</bodyTitle>
+        <p><span class="smallcap" align="left">Exmo</span> (and other colleagues from Oxford, Trento, Mannheim, Linköping, Milano, Amsterdam, Galway and the Open university) organises yearly the Ontology alignment evaluation initiative (OAEI).</p>
+      </subsection>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Participation in Other International Programs</bodyTitle>
+        <p>Jérôme Euzenat is benefiting from a special visiting researcher grant from the Brazilian Ciência sem Fronteiras program on “Methodology and algorithms for ontology refinement and matching” (2015-2017).
+He is working with the team of Fernanda Baião and Kate Revoredo at the Universidade Federal do Estado do Rio de Janeiro (<span class="smallcap" align="left">unirio</span>).
+Together, they investigate methods for evolving ontologies and alignments which involve users and agents.
+The goal of the project is to design methods and algorithms using theory revision to deal with knowledge evolution in a reliable manner and obtaining better quality alignments.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid54" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid55" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid56">
+            <p noindent="true">Karima Akli (<span class="smallcap" align="left">usthb</span>, Algiers) visited <span class="smallcap" align="left">Exmo</span> in September 2016, working on rough sets for link key extraction.</p>
+          </li>
+          <li id="uid57">
+            <p noindent="true">Yan Zhang (U. Tsinghua) and Zhichun Wang (Beijing Normal University) visited <span class="smallcap" align="left">Exmo</span> in September 2016 in the framework of the Lindicle project, working cross-lingual data interlinking and query-driven ontology matching.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Research Stays Abroad</bodyTitle>
+        <simplelist>
+          <li id="uid59">
+            <p noindent="true">Jérôme Euzenat visited the Universidade Federal do Estado do Rio de Janeiro (<span class="smallcap" align="left">unirio</span>) for two months in March and November 2016 (see §<ref xlink:href="#uid53" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid60">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid62" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid63" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid64">
+              <p noindent="true">Jérôme Euzenat was organiser of the 11th Ontology matching workshop
+of the 15th <span class="smallcap" align="left">iswc</span>, Kobe (<span class="smallcap" align="left">jp</span>), 2016 (with Pavel
+Shvaiko, Ernesto Jiménez Ruiz, Michele Cheatham, Oktie Hassanzadeh and Ryutaro Ichise),</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid66" level="3">
+          <bodyTitle>Member of Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid67">
+              <p noindent="true">Manuel Atencia, Jérôme David and Jérôme Euzenat have been programme committee members of the conference “European conference on artificial intelligence (<span class="smallcap" align="left">ecai</span>)” 2016</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the “International conference on Knowledge Representation and Reasoning (<span class="smallcap" align="left">kr</span>)” 2016</p>
+            </li>
+            <li id="uid69">
+              <p noindent="true">Manuel Atencia and Jérôme Euzenat have been programme committee members of the “International semantic web conference (<span class="smallcap" align="left">iswc</span>)” 2016</p>
+            </li>
+            <li id="uid70">
+              <p noindent="true">Manuel Atencia, Jérôme David and Jérôme Euzenat have been programme committee members of the “European Semantic Web Conference (<span class="smallcap" align="left">eswc</span>)” 2016</p>
+            </li>
+            <li id="uid71">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the “International Conference on Formal Ontologies for Information
+Systems (<span class="smallcap" align="left">fois</span>)” 2016</p>
+            </li>
+            <li id="uid72">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the “International Conference on Conceptual Structures (<span class="smallcap" align="left">iccs</span>)” 2016</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the “International Conference on Web Information Systems and Technologies (WebIST)” 2016</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Tatiana Lesnikova and Jérôme Euzenat have been scientific committee member of the “Language resources and evaluation conference (<span class="smallcap" align="left">lrec</span>)” 2016</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the “French fundamental artificial intelligence days” (<span class="smallcap" align="left">jaif</span>) 2016</p>
+            </li>
+            <li id="uid76">
+              <p noindent="true">Jérôme David was programme committee member of the <span class="smallcap" align="left">iswc</span> “Ontology matching” workshop (<span class="smallcap" align="left">om</span>) 2016</p>
+            </li>
+            <li id="uid77">
+              <p noindent="true">Jérôme David was programme committee member of the <span class="smallcap" align="left">egc</span> workshop on “quality of linked open data” (QLOD) 2016</p>
+            </li>
+            <li id="uid78">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the <span class="smallcap" align="left">eswc</span> workshop on “Completing and Debugging the Semantic Web (CoDeS)”, 2016.</p>
+            </li>
+            <li id="uid79">
+              <p noindent="true">Jérôme Euzenat was programme committee member of the <span class="smallcap" align="left">ecai</span> workshop on “Diversity-aware artificial intelligence”, 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid80" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid81">
+              <p noindent="true">Jérôme David and Tatiana Lesnikova have been a reviewer for the 15th “International Semantic Web Conference (<span class="smallcap" align="left">iswc</span>)”, 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid82" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid83" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid84">
+              <p noindent="true">Jérôme Euzenat is member of the editorial board of <i>Journal of web semantics</i> (area editor), <i>Journal on data semantics</i> and the <i>Semantic web journal</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid85" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid86">
+              <p noindent="true">Manuel Atencia has been reviewer for <i>Semantic web journal</i> and <i>ACM transactions on database systems</i>.</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Jérôme David has been reviewer for <i>Artificial intelligence review</i> and <i>Semantic web journal</i>.</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Jérôme Euzenat has been reviewer for <i>IEEE transactions on knowledge and data engineering</i>, <i>Knowledge and information systems</i> and <i>Artificial intelligence review</i>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid90">
+            <p noindent="true">“Extraction de clés de liage de données”, Invited talk, 16e conférence internationale francophone sur l’extraction et la gestion des connaissances (<span class="smallcap" align="left">egc</span>), Reims (FR), 2016-01-21 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid91">
+            <p noindent="true">Series of four seminars at UniRio, Rio de Janeiro (BR): “Introduction to ontology matching and alignment” 2016-03-11, “Repairing alignments and cultural evolution” 2016-03-17, “Data link key extraction (and relation with Formal concepts analysis)” 2016-03-22, “(Belief) revision in networks of ontologies” 2016-03-30 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid92">
+            <p noindent="true">“Introduction to ontology matching and alignment”, Seminar <span class="smallcap" align="left">ibm</span> Research, Rio de Janeiro (BR), 2016-03-23 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid93">
+            <p noindent="true">“Semantic web evolution: tectonic quake or gentle drift?”, Invited talk, 12th International Conference on Web Information Systems and Technologies (WebIST), Roma (IT), 2016-04-24 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">“Knowledge change, failure, adaptation, and evolution”, Invited talk, 2nd Joint ontology workshops (<span class="smallcap" align="left">jowo</span>), Annecy (FR), 2016-07-06 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid95">
+            <p noindent="true">“Data interlinking with formal concept analysis and link keys”, Invited talk, 13th international conference on concept lattices and applications (<span class="smallcap" align="left">cla</span>), Moskow (RU), 2016-07-19 (Jérôme Euzenat).</p>
+          </li>
+          <li id="uid96">
+            <p noindent="true">“Fixing knowledge in the distributed age”, Invited tutorial, 10th international conference on scalable uncertainty managament (<span class="smallcap" align="left">sum</span>), Nice (FR), 2016-09-21 (Jérôme Euzenat).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <simplelist>
+          <li id="uid98">
+            <p noindent="true">Jérôme Euzenat is member of the executive committee and the scientific council of the <span class="smallcap" align="left">cnrs</span> Pre-GDR “Artificial intelligence”.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid99" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid100">
+            <p noindent="true">Jérôme David has been consulting for the start-up Budplace.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid101" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Responsibilities</bodyTitle>
+          <simplelist>
+            <li id="uid104">
+              <p noindent="true">Jérôme David is coordinator, with Véronique Sansonnet, of the Master “Mathematicques et informatiques appliquées aux sciences humaines et sociales” (Univ. Grenoble Alpes);</p>
+            </li>
+            <li id="uid105">
+              <p noindent="true">Manuel Atencia is coordinator of option “Web, Informatique et Connaissance” of Master M1 “Mathematicques et informatiques appliquées aux sciences humaines et sociales” (Univ. Grenoble Alpes);</p>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Jérôme Euzenat is, with Sihem Amer-Yahia, coordinator of the “AI and the web” option of the M2R in computer science and applied mathematics (Univ. Grenoble Alpes).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid107" level="3">
+          <bodyTitle>Lectures</bodyTitle>
+          <sanspuceslist>
+            <li id="uid108">
+              <p noindent="true">Licence: Jérôme David, Algorithmique et programmation par objets, 90h, L2 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid109">
+              <p noindent="true">Licence: Jérôme David, Introduction à Python, Licence ESSIG, 24h, UGA, France</p>
+            </li>
+            <li id="uid110">
+              <p noindent="true">Licence: Manuel Atencia, Technologies du Web, LP ESSIG, 18h, UGA, France</p>
+            </li>
+            <li id="uid111">
+              <p noindent="true">Licence: Manuel Atencia, Introduction aux technologies du Web, 60h, L3 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid112">
+              <p noindent="true">Master: Jérôme David, Programmation Java 2, 45h, M1 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid113">
+              <p noindent="true">Master: Jérôme David, Documents XML, 30h, M1 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid114">
+              <p noindent="true">Master: Manuel Atencia, Langages et technologies du Web 2, 21h, M1 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid115">
+              <p noindent="true">Master: Manuel Atencia, Introduction à la programmation web, 30h, M1 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid116">
+              <p noindent="true">Master: Manuel Atencia, Intelligence Artificielle, 7,5h, M1 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid117">
+              <p noindent="true">Master: Jérôme David, JavaEE, 30h, M2 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid118">
+              <p noindent="true">Master: Jérôme David, Développement Web Mobile, 30h, M2 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid119">
+              <p noindent="true">Master: Manuel Atencia, Web Sémantique, 30h, M2 MIASHS, UGA, France</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">Master: Jérôme Euzenat, Semantic web: from XML to OWL, 23heqTD, M2R, UGA, France</p>
+            </li>
+            <li id="uid121">
+              <p noindent="true">Post-graduate level: Jérôme Euzenat, “Ontology matching”, 1h30, Tutorial, 13th international conference on concept lattices
+and applications (CLA), Moskow (RU), 2016</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid122" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <subsection id="uid123" level="3">
+          <bodyTitle>PhD</bodyTitle>
+          <simplelist>
+            <li id="uid124">
+              <p noindent="true">PhD: Armen Inants, “Qualitative calculi with hererogeneous universes”, Univ. Grenoble Alpes, 2016-04-25</p>
+            </li>
+            <li id="uid125">
+              <p noindent="true">PhD: Tatiana Lesnikova, “RDF data interlinking: evaluation of cross-lingual methods”, Univ. Grenoble Alpes, 2016-05-04</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid126" level="3">
+          <bodyTitle>Master</bodyTitle>
+          <simplelist>
+            <li id="uid127">
+              <p noindent="true">MSc: Mashruf Chowdury, Agreement and disagreement between ontologies, M2R Informatics, Univ. Grenoble Alpes, June 2016</p>
+            </li>
+            <li id="uid128">
+              <p noindent="true">MSc: Irina Dragoste, Ontology evolution through interaction, M2R Informatics, Univ. Grenoble Alpes, September 2016</p>
+            </li>
+            <li id="uid129">
+              <p noindent="true">MSc: Maroua Gmati, Reasoning with link keys, M2R Informatics, Univ. Grenoble Alpes, June 2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid130" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid131">
+            <p noindent="true">Jérôme Euzenat has been external examiner of the computer science PhD of Filip Radulovic (Universidad Politécnica de
+Madrid) “RIDER: a recommendation framework for exploiting evaluation results and user quality
+requirements” supervised by Asunción Gómez-Pérez, 2016</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">Manuel Atencia has been external examiner of the computer science PhD of Daniel Vila Suero (Universidad Politécnica de
+Madrid) “A framework for ontology-based library data generation, access and exploitation” supervised by Asunción Gómez-Pérez and Jorge Gracia del Rio, 2016</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">Jérôme Euzenat has been external examiner of the computer science PhD of Damien Graux (Université Grenoble Alpes) “On
+the efficient distributed evaluation of SPARQL queries” supervised by Nabil Layaïda and Pierre
+Genevès, 2016</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid134" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid135">
+          <p noindent="true">Jérôme Euzenat gave a training conference in computer science for high-school teachers on “Language and semantics”, Inria, Montbonnot (FR), 2016-02-10</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="exmo-2016-bid1" type="inproceedings" rend="refer" n="refercite:atencia2014b">
+      <identifiant type="doi" value="10.3233/978-1-61499-419-0-15"/>
+      <analytic>
+        <title level="a">Data interlinking through robust linkkey extraction</title>
+        <author>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Atencia</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="exmo-2014-idp107280">
+            <foreName>Jérôme</foreName>
+            <surname>David</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName key="dream-2014-idp84872">
+            <foreName>Torsten</foreName>
+            <surname>Schaub</surname>
+            <initial>Torsten.</initial>
+          </persName>
+          <persName>
+            <foreName>Gerhard</foreName>
+            <surname>Friedrich</surname>
+            <initial>Gerhard.</initial>
+          </persName>
+          <persName>
+            <foreName>Barry</foreName>
+            <surname>O'Sullivan</surname>
+            <initial>Barry.</initial>
+          </persName>
+        </editor>
+        <title level="m">Proc. 21st european conference on artificial intelligence (ECAI), Praha (CZ)</title>
+        <loc>Amsterdam (NL)</loc>
+        <imprint>
+          <publisher>
+            <orgName>IOS press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">15–20</biblScope>
+          <ref xlink:href="ftp://ftp.inrialpes.fr/pub/exmo/publications/atencia2014b.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ftp://<allowbreak/>ftp.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>pub/<allowbreak/>exmo/<allowbreak/>publications/<allowbreak/>atencia2014b.<allowbreak/>pdf</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid4" type="article" rend="refer" n="refercite:david2011a">
+      <identifiant type="doi" value="10.3233/SW-2011-0028"/>
+      <analytic>
+        <title level="a">The Alignment API 4.0</title>
+        <author>
+          <persName key="exmo-2014-idp107280">
+            <foreName>Jérôme</foreName>
+            <surname>David</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>François</foreName>
+            <surname>Scharffe</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Cássia</foreName>
+            <surname>Trojahn dos Santos</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Semantic web journal</title>
+        <imprint>
+          <biblScope type="volume">2</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">3–10</biblScope>
+          <ref xlink:href="ftp://ftp.inrialpes.fr/pub/exmo/publications/david2011a.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ftp://<allowbreak/>ftp.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>pub/<allowbreak/>exmo/<allowbreak/>publications/<allowbreak/>david2011a.<allowbreak/>pdf</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid5" type="article" rend="refer" n="refercite:euzenat2011b">
+      <identifiant type="doi" value="10.1007/978-3-642-22630-4_6"/>
+      <analytic>
+        <title level="a">Ontology Alignment Evaluation Initiative: six years of experience</title>
+        <author>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Meilicke</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Shvaiko</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Heiner</foreName>
+            <surname>Stuckenschmidt</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Cássia</foreName>
+            <surname>Trojahn dos Santos</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal on data semantics</title>
+        <imprint>
+          <biblScope type="volume">XV</biblScope>
+          <biblScope type="number">6720</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">158–192</biblScope>
+          <ref xlink:href="ftp://ftp.inrialpes.fr/pub/exmo/publications/euzenat2011b.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ftp://<allowbreak/>ftp.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>pub/<allowbreak/>exmo/<allowbreak/>publications/<allowbreak/>euzenat2011b.<allowbreak/>pdf</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid0" type="book" rend="refer" n="refercite:euzenat2013c">
+      <monogr>
+        <title level="m">Ontology matching</title>
+        <author>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Shvaiko</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <edition>2nd</edition>
+        <imprint>
+          <publisher>
+            <orgName>Springer-Verlag<address><addrLine>Heidelberg (DE)</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://book.ontologymatching.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>book.<allowbreak/>ontologymatching.<allowbreak/>org</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid7" type="book" rend="year" n="cite:shvaiko:hal-01421835">
+      <identifiant type="hal" value="hal-01421835"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Proc. 11th ISWC workshop on ontology matching (OM)</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Shvaiko</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Ernesto</foreName>
+            <surname>Jiménez-Ruiz</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Michelle</foreName>
+            <surname>Cheatham</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Oktie</foreName>
+            <surname>Hassanzadeh</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Ryutaro</foreName>
+            <surname>Ichise</surname>
+            <initial>R.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>No commercial editor.</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-252</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421835" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421835</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">shvaiko2016b</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid8" type="book" rend="year" n="cite:shvaiko:hal-01254905">
+      <identifiant type="hal" value="hal-01254905"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Proc. 10th ISWC workshop on ontology matching (OM)</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Shvaiko</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Ernesto</foreName>
+            <surname>Jiménez-Ruiz</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Michelle</foreName>
+            <surname>Cheatham</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Oktie</foreName>
+            <surname>Hassanzadeh</surname>
+            <initial>O.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>No commercial editor.</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-239</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01254905" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01254905</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">shvaiko2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid9" type="phdthesis" rend="year" n="cite:inants:tel-01366032">
+      <identifiant type="hal" value="tel-01366032"/>
+      <monogr>
+        <title level="m">Qualitative calculi with heterogeneous universes</title>
+        <author>
+          <persName key="exmo-2014-idp113488">
+            <foreName>Armen</foreName>
+            <surname>Inants</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Grenoble Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01366032" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01366032</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid13" type="phdthesis" rend="year" n="cite:lesnikova:tel-01366030">
+      <identifiant type="hal" value="tel-01366030"/>
+      <monogr>
+        <title level="m">RDF Data Interlinking : evaluation of Cross-lingual Methods</title>
+        <author>
+          <persName key="exmo-2014-idp114704">
+            <foreName>Tatiana</foreName>
+            <surname>Lesnikova</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Grenoble Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01366030" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01366030</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid3" type="incollection" rend="year" n="cite:kovalenko:hal-01416191">
+      <identifiant type="doi" value="10.1007/978-3-319-41490-4_6"/>
+      <identifiant type="hal" value="hal-01416191"/>
+      <analytic>
+        <title level="a">Semantic matching of engineering data structures</title>
+        <author>
+          <persName>
+            <foreName>Olga</foreName>
+            <surname>Kovalenko</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Marta Sabou</foreName>
+            <surname>Stefan Biffl</surname>
+            <initial>M. S.</initial>
+          </persName>
+        </editor>
+        <title level="m">Semantic web technologies for intelligent engineering applications</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">137-157</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01416191" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01416191</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">kovalenko2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid6" type="inproceedings" rend="year" n="cite:achichi:hal-01421833">
+      <identifiant type="hal" value="hal-01421833"/>
+      <analytic>
+        <title level="a">Results of the Ontology Alignment Evaluation Initiative 2016</title>
+        <author>
+          <persName>
+            <foreName>Manel</foreName>
+            <surname>Achichi</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Michelle</foreName>
+            <surname>Cheatham</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Zlatan</foreName>
+            <surname>Dragisic</surname>
+            <initial>Z.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Faria</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Alfio</foreName>
+            <surname>Ferrara</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Giorgos</foreName>
+            <surname>Flouris</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Irini</foreName>
+            <surname>Fundulaki</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Ian</foreName>
+            <surname>Harrow</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Valentina</foreName>
+            <surname>Ivanova</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Ernesto</foreName>
+            <surname>Jiménez-Ruiz</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Elena</foreName>
+            <surname>Kuss</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Patrick</foreName>
+            <surname>Lambrix</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Henrik</foreName>
+            <surname>Leopold</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Huanyu</foreName>
+            <surname>Li</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Meilicke</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Stefano</foreName>
+            <surname>Montanelli</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Catia</foreName>
+            <surname>Pesquita</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Tzanina</foreName>
+            <surname>Saveta</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Pavel</foreName>
+            <surname>Shvaiko</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrea</foreName>
+            <surname>Splendiani</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Heiner</foreName>
+            <surname>Stuckenschmidt</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Konstantin</foreName>
+            <surname>Todorov</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Cássia</foreName>
+            <surname>Trojahn dos Santos</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Ondrej</foreName>
+            <surname>Zamazal</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="no">
+        <title level="m">11th ISWC workshop on ontology matching (OM)</title>
+        <loc>Kobe, Japan</loc>
+        <imprint>
+          <publisher>
+            <orgName>No commercial editor.</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">73-129</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421833" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421833</ref>
+        </imprint>
+        <meeting id="cid330628">
+          <title>International Workshop on Ontology Matching</title>
+          <num>11</num>
+          <abbr type="sigle">OM</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">achichi2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid14" type="inproceedings" rend="year" n="cite:albakri:hal-01366296">
+      <identifiant type="doi" value="10.3233/978-1-61499-672-9-698"/>
+      <identifiant type="hal" value="hal-01366296"/>
+      <analytic>
+        <title level="a">Uncertainty-sensitive reasoning for inferring sameAs facts in linked data</title>
+        <author>
+          <persName>
+            <foreName>Mustafa</foreName>
+            <surname>Al-Bakri</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Atencia</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="exmo-2014-idp107280">
+            <foreName>Jérôme</foreName>
+            <surname>David</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Steffen</foreName>
+            <surname>Lalande</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Marie-Christine</foreName>
+            <surname>Rousset</surname>
+            <initial>M.-C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">22nd european conference on artificial intelligence (ECAI)</title>
+        <loc>Der Haague, Netherlands</loc>
+        <imprint>
+          <publisher>
+            <orgName>IOS press</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">698-706</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01366296" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01366296</ref>
+        </imprint>
+        <meeting id="cid65446">
+          <title>European Conference on Artificial Intelligence</title>
+          <num>22</num>
+          <abbr type="sigle">ECAI</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">albakri2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid11" type="inproceedings" rend="year" n="cite:euzenat:hal-01382101">
+      <identifiant type="hal" value="hal-01382101"/>
+      <analytic>
+        <title level="a">Extraction de clés de liage de données (résumé étendu)</title>
+        <author>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Bruno</foreName>
+            <surname>Crémilleux</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Cyril</foreName>
+            <surname>de Runz</surname>
+            <initial>C.</initial>
+          </persName>
+        </editor>
+        <title level="m">16e conférence internationale francophone sur extraction et gestion des connaissances (EGC)</title>
+        <loc>Reims, France</loc>
+        <imprint>
+          <publisher>
+            <orgName>Hermann</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">9-12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382101" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382101</ref>
+        </imprint>
+        <meeting id="cid347453">
+          <title>Journées d'Extraction et Gestion des Connaissances</title>
+          <num>16</num>
+          <abbr type="sigle">EGC</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">euzenat2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid15" type="inproceedings" rend="year" n="cite:gmati:hal-01421834">
+      <identifiant type="hal" value="hal-01421834"/>
+      <analytic>
+        <title level="a">Tableau extensions for reasoning with link keys</title>
+        <author>
+          <persName key="exmo-2016-idp162608">
+            <foreName>Maroua</foreName>
+            <surname>Gmati</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Atencia</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">11th ISWC workshop on ontology matching (OM)</title>
+        <loc>Kobe, Japan</loc>
+        <imprint>
+          <publisher>
+            <orgName>No commercial editor.</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">37-48</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01421834" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01421834</ref>
+        </imprint>
+        <meeting id="cid330628">
+          <title>International Workshop on Ontology Matching</title>
+          <num>11</num>
+          <abbr type="sigle">OM</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">gmati2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid10" type="inproceedings" rend="year" n="cite:inants:hal-01382098">
+      <identifiant type="doi" value="10.1007/978-3-319-46523-4_22"/>
+      <identifiant type="hal" value="hal-01382098"/>
+      <analytic>
+        <title level="a">Algebraic calculi for weighted ontology alignments</title>
+        <author>
+          <persName key="exmo-2014-idp113488">
+            <foreName>Armen</foreName>
+            <surname>Inants</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Manuel</foreName>
+            <surname>Atencia</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Groth</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Elena</foreName>
+            <surname>Simperl</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Alasdair</foreName>
+            <surname>Gray</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Marta</foreName>
+            <surname>Sabou</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Markus</foreName>
+            <surname>Krötzsch</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="wimmics-2014-idp101176">
+            <foreName>Freddy</foreName>
+            <surname>Lécué</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Fabian</foreName>
+            <surname>Flöck</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Yolanda</foreName>
+            <surname>Gil</surname>
+            <initial>Y.</initial>
+          </persName>
+        </editor>
+        <title level="m">15th International semantic web conference (ISWC)</title>
+        <loc>Kobe, Japan</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">360-375</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382098" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382098</ref>
+        </imprint>
+        <meeting id="cid310590">
+          <title>International Semantic Web Conference</title>
+          <num>15</num>
+          <abbr type="sigle">ISWC</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">inants2016b</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid12" type="inproceedings" rend="year" n="cite:lesnikova:hal-01382099">
+      <identifiant type="hal" value="hal-01382099"/>
+      <analytic>
+        <title level="a">Cross-lingual RDF thesauri interlinking</title>
+        <author>
+          <persName key="exmo-2014-idp114704">
+            <foreName>Tatiana</foreName>
+            <surname>Lesnikova</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="exmo-2014-idp107280">
+            <foreName>Jérôme</foreName>
+            <surname>David</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">10th international conference on Language resources and evaluation (LREC)</title>
+        <loc>Portoroz, Slovenia</loc>
+        <imprint>
+          <publisher>
+            <orgName>No commercial editor.</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2442-2449</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382099" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382099</ref>
+        </imprint>
+        <meeting id="cid289398">
+          <title>International Conference on Language Resources and Evaluation</title>
+          <num>10</num>
+          <abbr type="sigle">LREC</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">lesnikova2016a</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid16" type="techreport" rend="year" n="cite:sanchez:hal-01382105">
+      <identifiant type="hal" value="hal-01382105"/>
+      <monogr>
+        <title level="m">Instance-level matching</title>
+        <author>
+          <persName>
+            <foreName>Adam</foreName>
+            <surname>Sanchez</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="exmo-2014-idp114704">
+            <foreName>Tatiana</foreName>
+            <surname>Lesnikova</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="exmo-2014-idp107280">
+            <foreName>Jérôme</foreName>
+            <surname>David</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="exmo-2014-idp104520">
+            <foreName>Jérôme</foreName>
+            <surname>Euzenat</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Lindicle</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">20</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01382105" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01382105</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">sanchez2016a</note>
+      <note type="typdoc">Contract</note>
+    </biblStruct>
+    
+    <biblStruct id="exmo-2016-bid2" type="article" rend="foot" n="footcite:berners2001a">
+      <analytic>
+        <title level="a">The Semantic Web</title>
+        <author>
+          <persName>
+            <foreName>Tim</foreName>
+            <surname>Berners-Lee</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>James</foreName>
+            <surname>Hendler</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Ora</foreName>
+            <surname>Lassila</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Scientific American</title>
+        <imprint>
+          <biblScope type="volume">284</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">34–43</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

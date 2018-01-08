@@ -1,0 +1,2668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="maverick" isproject="true">
+    <shortname>MAVERICK</shortname>
+    <projectName>Models and Algorithms for Visualization and Rendering</projectName>
+    <theme-de-recherche>Interaction and visualization</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>http://maverick.inria.fr/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire Jean Kuntzmann (LJK)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Institut polytechnique de Grenoble</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Grenoble Alpes</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2012 January 01, updated into Project-Team: 2014 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>5.2. - Data visualization</term>
+      <term>5.5. - Computer graphics</term>
+      <term>5.5.1. - Geometrical modeling</term>
+      <term>5.5.2. - Rendering</term>
+      <term>5.5.3. - Computational photography</term>
+      <term>5.5.4. - Animation</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>5.5. - Materials</term>
+      <term>5.7. - 3D printing</term>
+      <term>9.2.2. - Cinema, Television</term>
+      <term>9.2.3. - Video games</term>
+      <term>9.2.4. - Theater</term>
+      <term>9.5.6. - Archeology, History</term>
+    </keywordsSecteurs>
+    <UR name="Grenoble"/>
+  </identification>
+  <team id="uid1">
+    <person key="maverick-2014-idp13512">
+      <firstname>Nicolas</firstname>
+      <lastname>Holzschuch</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="maverick-2014-idp106952">
+      <firstname>Fabrice</firstname>
+      <lastname>Neyret</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="maverick-2014-idp108296">
+      <firstname>Cyril</firstname>
+      <lastname>Soler</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="maverick-2014-idp109712">
+      <firstname>Georges-Pierre</firstname>
+      <lastname>Bonneau</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I, Professor</moreinfo>
+    </person>
+    <person key="maverick-2014-idp111160">
+      <firstname>Joëlle</firstname>
+      <lastname>Thollot</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>INP Grenoble, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="maverick-2014-idp112608">
+      <firstname>Romain</firstname>
+      <lastname>Vergne</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I, Assistant Professor</moreinfo>
+    </person>
+    <person key="maverick-2014-idp118912">
+      <firstname>Benoit</firstname>
+      <lastname>Arbelot</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="maverick-2015-idp77744">
+      <firstname>Alexandre</firstname>
+      <lastname>Bleron</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I</moreinfo>
+    </person>
+    <person key="maverick-2015-idp78984">
+      <firstname>Alban</firstname>
+      <lastname>Fichet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="maverick-2014-idp120160">
+      <firstname>Guillaume</firstname>
+      <lastname>Loubet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I</moreinfo>
+    </person>
+    <person key="maverick-2015-idp81472">
+      <firstname>Jeremy</firstname>
+      <lastname>Wambecke</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I,</moreinfo>
+    </person>
+    <person key="maverick-2014-idp121408">
+      <firstname>Benoit</firstname>
+      <lastname>Zupancic</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, until Mar 2016, granted by ANR ALTA project</moreinfo>
+    </person>
+    <person key="maverick-2015-idp83952">
+      <firstname>Beibei</firstname>
+      <lastname>Wang</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="maverick-2016-idp144400">
+      <firstname>Girijanandan</firstname>
+      <lastname>Nucha</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Granted by Inria</moreinfo>
+    </person>
+    <person key="maverick-2014-idp123888">
+      <firstname>Diane</firstname>
+      <lastname>Courtiol</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="maverick-2014-idp117664">
+      <firstname>Léo</firstname>
+      <lastname>Allemand-Giorgis</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Univ. Grenoble I, until June 16</moreinfo>
+    </person>
+    <person key="maverick-2014-idp14992">
+      <firstname>Jean-Dominique</firstname>
+      <lastname>Gascuel</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Digisens SA. External collaborator</moreinfo>
+    </person>
+    <person key="maverick-2016-idp154272">
+      <firstname>Santiago</firstname>
+      <lastname>Montesdeoca</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria Internship, from Oct 2016</moreinfo>
+    </person>
+    <person key="maverick-2016-idp156752">
+      <firstname>Christopher</firstname>
+      <lastname>Dubois</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Internship, from Apr 2016 until Sep 2016</moreinfo>
+    </person>
+    <person key="maverick-2016-idp159248">
+      <firstname>Hugo</firstname>
+      <lastname>Frezat</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Internship, from May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="maverick-2016-idp161744">
+      <firstname>Yannick</firstname>
+      <lastname>Lanier</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Internship, Feb 2016</moreinfo>
+    </person>
+    <person key="maverick-2016-idp164224">
+      <firstname>Thomas</firstname>
+      <lastname>Lerchundi</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Grenoble</research-centre>
+      <moreinfo>Inria, Internship, from Feb 2016 until Jun 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Computer-generated pictures and videos are now ubiquitous: both for
+leisure activities, such as special effects in motion pictures,
+feature movies and video games, or for more serious activities, such as
+visualization and simulation.</p>
+      <p>Maverick was created as a research team in January 2012 and upgraded
+as a research project in January 2014. We deal with image synthesis
+methods. We place ourselves at the end of the image production
+pipeline, when the pictures are generated and displayed (see
+figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We take many possible inputs: datasets,
+video flows, pictures and photographs, (animated) geometry from a
+virtual world... We produce as output pictures and videos.</p>
+      <p>These pictures will be viewed by humans, and we consider this fact as an
+important point of our research strategy, as it provides the benchmarks for
+evaluating our results: the pictures and animations produced must
+be able to convey the message to the viewer. The actual message depends on the specific
+application: data visualization, exploring virtual worlds, designing paintings
+and drawings... Our vision is that all these applications share common
+research problems: ensuring that the important features are perceived, avoiding
+cluttering or aliasing, efficient internal data representation, etc.</p>
+      <p>Computer Graphics, and especially Maverick is at the
+crossroad between fundamental research and industrial applications. We are both
+looking at the constraints and needs of applicative users and targeting long
+term research issues such as sampling and filtering.</p>
+      <object id="uid4">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/WhoWeAre.jpg" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Position of the Maverick research team inside the graphics pipeline.</caption>
+      </object>
+      <p>The Maverick project-team aims at producing
+representations and algorithms for efficient, high-quality
+computer generation of pictures and animations through the study of
+four <i>Research problems</i>:</p>
+      <simplelist>
+        <li id="uid5">
+          <p noindent="true"><i>Computer Visualization</i>, where we take as input a large
+localized dataset and represent it in a way that will let an observer
+understand its key properties,</p>
+        </li>
+        <li id="uid6">
+          <p noindent="true"><i>Expressive Rendering</i>, where we create an artistic representation
+of a virtual world,</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true"><i>Illumination Simulation</i>, where our focus is modelling the
+interaction of light with the objects in the scene.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true"><i>Complex
+Scenes</i>, where our focus is rendering and modelling highly complex scenes.</p>
+        </li>
+      </simplelist>
+      <p>The heart of Maverick is <i>understanding</i> what makes a
+picture useful, powerful and interesting for the user, and designing algorithms
+to create these pictures.</p>
+      <p>We will address these research problems through three interconnected approaches:</p>
+      <simplelist>
+        <li id="uid9">
+          <p noindent="true">working on the <i>impact</i> of pictures, by conducting perceptual
+studies, measuring and removing artefacts and discontinuities, evaluating the
+user response to pictures and algorithms,</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true">developing <i>representations</i> for data, through
+abstraction, stylization and simplification,</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">developing new methods for <i>predicting</i> the properties of a
+picture (<i>e.g.</i> frequency content, variations) and adapting our
+image-generation algorithm to these properties.</p>
+        </li>
+      </simplelist>
+      <p>A fundamental element of the Maverick project-team is
+that the research problems and the scientific approaches are all cross-connected.
+Research on the <i>impact</i> of pictures is of interest in three different research
+problems:
+<i>Computer Visualization</i>, <i>Expressive rendering</i>
+and <i>Illumination Simulation</i>. Similarly, our research on <i>Illumination simulation</i>
+will gather contributions from all three scientific approaches:
+impact, representations and prediction.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid12">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>The Maverick project-team aims at producing
+representations and algorithms for efficient, high-quality
+computer generation of pictures and animations through the study of
+four <b>research problems</b>:</p>
+      <simplelist>
+        <li id="uid14">
+          <p noindent="true"><i>Computer Visualization</i> where we take as
+input a large localized dataset and represent it in a way that will let an observer
+understand its key properties.
+Visualization can be used for data analysis, for the results of a simulation, for
+medical imaging data...</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true"><i>Expressive Rendering</i>, where we create an artistic representation
+of a virtual world.
+Expressive rendering corresponds to the generation of drawings or paintings of
+a virtual scene, but also to some areas of
+computational photography, where the picture is simplified in
+specific areas to focus the attention.</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true"><i>Illumination Simulation</i>, where we model the
+interaction of light with the objects in the scene, resulting in a
+photorealistic picture of the scene. Research include improving the
+quality and photorealism of pictures, including more complex effects such as
+depth-of-field or motion-blur. We are also working on accelerating the
+computations, both for real-time photorealistic rendering and offline,
+high-quality rendering.</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true"><i>Complex
+Scenes</i>, where we generate, manage, animate and render
+highly complex scenes, such as natural scenes with forests, rivers and oceans,
+but also large datasets for visualization. We are especially interested in
+interactive visualization of complex scenes, with all the associated
+challenges in terms of processing and memory bandwidth.</p>
+        </li>
+      </simplelist>
+      <p>The fundamental research interest of Maverick is first, <i>understanding</i> what makes a
+picture useful, powerful and interesting for the user, and second <i>designing</i> algorithms to create and improve these pictures.</p>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Research approaches</bodyTitle>
+      <p>We will address these research problems through three interconnected research approaches:</p>
+      <subsection id="idp3900272" level="2">
+        <bodyTitle>Picture Impact</bodyTitle>
+        <p>Our first research axis deals with the <i>impact</i> pictures have on the
+viewer, and how we can improve this impact. Our research here will
+target:</p>
+        <simplelist>
+          <li id="uid19">
+            <p noindent="true"><i>evaluating user response:</i> we need to evaluate how the viewers
+respond to the pictures and animations generated by our algorithms, through user studies,
+either asking the viewer about what he perceives in a picture or measuring
+how his body reacts (eye tracking, position tracking).</p>
+          </li>
+          <li id="uid20">
+            <p noindent="true"><i>removing artefacts and discontinuities:</i> temporal and spatial
+discontinuities perturb viewer attention, distracting the viewer from the main
+message. These discontinuities occur during the picture
+creation process; finding and removing them is a difficult process.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="idp3905312" level="2">
+        <bodyTitle>Data Representation</bodyTitle>
+        <p>The data we receive as input for picture generation is often unsuitable for
+interactive high-quality rendering: too many details, no spatial
+organisation... Similarly the pictures we produce or get as input for other
+algorithms can contain superfluous details.</p>
+        <p>One of our goals is to develop new data representations, adapted to our
+requirements for rendering. This includes fast access to the relevant
+information, but also access to the specific hierarchical level of information
+needed: we want to organize the data in hierarchical levels, pre-filter it so
+that sampling at a given level also gives information about the underlying
+levels. Our research for this axis include filtering, data abstraction,
+simplification and stylization.</p>
+        <p>The input data can be of any kind: geometric data,
+such as the model of an object, scientific data before visualization,
+pictures and photographs. It can be time-dependent or not; time-dependent
+data bring an additional level of challenge on the algorithm for fast updates.</p>
+      </subsection>
+      <subsection id="idp3908432" level="2">
+        <bodyTitle>Prediction and simulation</bodyTitle>
+        <p>Our algorithms for generating pictures require computations: sampling,
+integration, simulation... These computations can be optimized if we already
+know the characteristics of the final picture. Our recent research has shown
+that it is possible to predict the local characteristics of a picture by
+studying the phenomena involved: the local complexity, the spatial
+variations, their direction...</p>
+        <p>Our goal is to develop new techniques for predicting the properties of a
+picture, and to adapt our image-generation algorithms to these properties, for
+example by sampling less in areas of low variation.</p>
+        <p>Our research problems and approaches are all cross-connected.
+Research on the <i>impact</i> of pictures is of interest in three different research
+problems:
+<i>Computer Visualization</i>, <i>Expressive rendering</i>
+and <i>Illumination Simulation</i>. Similarly, our research on <i>Illumination simulation</i>
+will use all three research approaches:
+impact,
+representations and prediction.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Cross-cutting research issues</bodyTitle>
+      <p>Beyond the connections between our problems and research approaches,
+we are interested in several issues, which are present throughout all
+our research:</p>
+      <descriptionlist>
+        <label>
+          <b>sampling</b>
+        </label>
+        <li id="uid22">
+          <p noindent="true">is an ubiquitous process occurring in all our application
+domains, whether photorealistic
+rendering (<i>e.g.</i> photon mapping), expressive rendering (<i>e.g.</i>
+brush strokes), texturing, fluid simulation (Lagrangian methods), etc.
+When sampling and reconstructing a signal for picture generation, we have to
+ensure both coherence and homogeneity. By <i>coherence</i>, we mean not
+introducing spatial or temporal discontinuities in the reconstructed signal.
+By <i>homogeneity</i>, we mean that samples should be placed regularly in space
+and time. For a time-dependent signal, these requirements are conflicting with
+each other, opening new areas of research.</p>
+        </li>
+        <label>
+          <b>filtering</b>
+        </label>
+        <li id="uid23">
+          <p noindent="true">is another ubiquitous process, occuring in all our
+application domains, whether in realistic rendering (<i>e.g.</i> for integrating
+height fields, normals, material properties), expressive rendering (<i>e.g.</i> for
+simplifying strokes), textures (through non-linearity and
+discontinuities). It is especially relevant when we are replacing a signal or
+data with a lower resolution (for hierarchical representation); this involves
+filtering the data with a reconstruction kernel, representing the transition
+between levels.</p>
+        </li>
+        <label>
+          <b>performance and scalability</b>
+        </label>
+        <li id="uid24">
+          <p noindent="true">are also a common requirement for all our
+applications. We want our algorithms to be usable, which implies that they
+can be used on large and complex scenes, placing a great importance on
+scalability. For some applications, we target interactive and real-time
+applications, with an update frequency between 10 Hz and 120 Hz.</p>
+        </li>
+        <label>
+          <b>coherence and continuity</b>
+        </label>
+        <li id="uid25">
+          <p noindent="true">in space and time is also a common
+requirement of realistic as well as expressive models which must be
+ensured despite contradictory requirements. We want to avoid flickering and
+aliasing.</p>
+        </li>
+        <label>
+          <b>animation:</b>
+        </label>
+        <li id="uid26">
+          <p noindent="true">our input data is likely to be time-varying
+(<i>e.g.</i> animated geometry, physical simulation, time-dependent dataset). A
+common requirement for all our algorithms and data representation is that they
+must be compatible with animated data (fast updates for data structures, low latency
+algorithms...).</p>
+        </li>
+      </descriptionlist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Methodology</bodyTitle>
+      <p>Our research is guided by several methodological principles:</p>
+      <descriptionlist>
+        <label>
+          <b>Experimentation:</b>
+        </label>
+        <li id="uid28">
+          <p noindent="true">to find solutions and phenomenological models, we use
+experimentation, performing statistical measurements of how a system behaves.
+We then extract a model from the experimental data.</p>
+        </li>
+        <label>
+          <b>Validation:</b>
+        </label>
+        <li id="uid29">
+          <p noindent="true">for each algorithm we develop, we look for experimental
+validation: measuring the behavior of the algorithm, how it scales, how it
+improves over the state-of-the-art... We also compare our algorithms to the
+exact solution. Validation is harder for some of our research domains, but it
+remains a key principle for us.</p>
+        </li>
+        <label>
+          <b>Reducing the complexity of the problem:</b>
+        </label>
+        <li id="uid30">
+          <p noindent="true">the equations describing
+certain behaviors in image synthesis can have a large degree of complexity,
+precluding computations, especially in real time. This is true for physical
+simulation of fluids, tree growth, illumination simulation... We are looking for <i>emerging phenomena</i> and <i>phenomenological models</i> to describe them (see framed box “Emerging
+phenomena”). Using these, we simplify the theoretical models in a controlled
+way, to improve user interaction and accelerate the computations.</p>
+        </li>
+        <label>
+          <b>Transferring ideas from other domains:</b>
+        </label>
+        <li id="uid31">
+          <p noindent="true">Computer Graphics is, by nature,
+at the interface of many research domains: physics for the behavior of light,
+applied mathematics for numerical simulation, biology, algorithmics... We import tools from all these domains, and keep looking for new tools and
+ideas.</p>
+        </li>
+        <label>
+          <b>Develop new fondamental tools:</b>
+        </label>
+        <li id="uid32">
+          <p noindent="true">In situations where specific tools are required for a
+problem, we will proceed from a theoretical framework to
+develop them. These tools may in return have applications in
+other domains, and we are ready to
+disseminate them.</p>
+        </li>
+        <label>
+          <b>Collaborate with industrial partners:</b>
+        </label>
+        <li id="uid33">
+          <p noindent="true">we have a long experiment of collaboration with industrial
+partners. These collaborations bring us new problems to solve, with short-term or medium-term
+transfert opportunities. When we cooperate with these partners, we have to find
+<i>what they need</i>, which can be very different from <i>what they want</i>,
+their expressed need.</p>
+        </li>
+      </descriptionlist>
+    </subsection>
+  </fondements>
+  <domaine id="uid34">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Application Domains</bodyTitle>
+      <p>The natural application domain for our research is the production of digital images, for example for movies and special effects, virtual prototyping, video games...</p>
+      <p>Our research have also been applied to tools for generating and editing images and textures, for example generating textures for maps.</p>
+      <p>Our current application domains are:</p>
+      <simplelist>
+        <li id="uid36">
+          <p noindent="true">Offline and real-time rendering in movie special effects and video games;</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">Virtual prototyping;</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Scientific visualization;</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">Content modeling and generation (e.g. generating texture for video games, capturing reflectance properties, etc);</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">Image creation and manipulation.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </domaine>
+  <highlights id="uid41">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid43" level="2">
+        <bodyTitle>Presentations at Siggraph</bodyTitle>
+        <p>The paper “Flow-Guided Warping for Image-Based Shape Manipulation” co-authored by Romain Vergnes and Georges-Pierre Bonneau was presented at Siggraph 2016 <ref xlink:href="#maverick-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The paper is completed by
+an open-source software running
+on mobile phones that allow interactive manipulation of images (<ref xlink:href="http://bonneau.meylan.free.fr/ShwarpIt/ShwarpIt.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>bonneau.<allowbreak/>meylan.<allowbreak/>free.<allowbreak/>fr/<allowbreak/>ShwarpIt/<allowbreak/>ShwarpIt.<allowbreak/>html</ref>). See sections <ref xlink:href="#uid72" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#uid93" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid44">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Diffusion curves</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Vector-based drawing - Shading</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span> Diffusion Curves is a vector-based design tool for creating complex shaded images.
+This prototype is composed of the Windows binary, along with the required shader programs (ie. in source code).</p>
+      <simplelist>
+        <li id="uid46">
+          <p noindent="true">Participants: Joelle Thollot, Pascal Barla, Adrien Bousseau and Alexandrina Orzan</p>
+        </li>
+        <li id="uid47">
+          <p noindent="true">Partners: CNRS - INP Grenoble - LJK - Université Joseph-Fourier</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">Contact: Joelle Thollot</p>
+        </li>
+        <li id="uid49">
+          <p noindent="true">URL: <ref xlink:href="http://maverick.inria.fr/Publications/2008/OBWBTS08/index.php" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>maverick.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>Publications/<allowbreak/>2008/<allowbreak/>OBWBTS08/<allowbreak/>index.<allowbreak/>php</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>GRATIN</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description</span>
+Gratin is a node-based compositing software for creating, manipulating
+and animating 2D and 3D data. It uses an internal direct acyclic
+multi-graph and provides an intuitive user interface that allows to
+quickly design complex prototypes. Gratin has several properties that
+make it useful for researchers and students. (1) it works in real-time:
+everything is executed on the GPU, using OpenGL, GLSL and/or Cuda. (2) it
+is easily programmable: users can directly write GLSL scripts inside the
+interface, or create new C++ plugins that will be loaded as new nodes in
+the software. (3) all the parameters can be animated using keyframe
+curves to generate videos and demos. (4) the system allows to easily
+exchange nodes, group of nodes or full pipelines between people.</p>
+      <simplelist>
+        <li id="uid51">
+          <p noindent="true">Participants: Pascal Barla and Romain Vergne</p>
+        </li>
+        <li id="uid52">
+          <p noindent="true">Partner: UJF</p>
+        </li>
+        <li id="uid53">
+          <p noindent="true">Contact: Romain Vergne</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">URL: <ref xlink:href="http://gratin.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>gratin.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>GigaVoxels</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description</span>
+Gigavoxel is a software platform which goal is the real-time quality
+rendering of very large and very detailed scenes which couldn't fit memory.
+Performances permit showing details over deep zooms and walk through very
+crowdy scenes (which are rigid, for the moment). The principle is to
+represent data on the GPU as a Sparse Voxel Octree which multiscale voxels
+bricks are produced on demand only when necessary and only at the required
+resolution, and kept in a LRU cache. User defined producer lays accross CPU
+and GPU and can load, transform, or procedurally create the data. Another
+user defined function is called to shade each voxel according to the
+user-defined voxel content, so that it is user choice to distribute the
+appearance-making at creation (for faster rendering) or on the fly (for
+storageless thin procedural details). The efficient rendering is done using
+a GPU differential cone-tracing using the scale corresponding to the
+3D-MIPmapping LOD, allowing quality rendering with one single ray per pixel.
+Data is produced in case of cache miss, and thus only whenever visible
+(accounting for view frustum and occlusion). Soft-shadows and depth-of-field
+is easily obtained using larger cones, and are indeed cheaper than unblurred
+rendering. Beside the representation, data management and base rendering
+algorithm themself, we also worked on realtime light transport, and on
+quality prefiltering of complex data. Ongoing researches are addressing
+animation. GigaVoxels is currently used for the quality real-time
+exploration of the detailed galaxy in ANR RTIGE. Most of the work published
+by Cyril Crassin (and al.) during his PhD (see
+<ref xlink:href="http://maverick.inria.fr/Members/Cyril.Crassin/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>maverick.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>Members/<allowbreak/>Cyril.<allowbreak/>Crassin/</ref> ) is related to GigaVoxels.
+GigaVoxels is available for Windows and Linux under the BSD-3 licence.</p>
+      <simplelist>
+        <li id="uid56">
+          <p noindent="true">Participants: Cyril Crassin, Fabrice Neyret, Prashant Goswami, Jérémy Sinoir, Pascal Guehl and Eric Heitz</p>
+        </li>
+        <li id="uid57">
+          <p noindent="true">Contact: Fabrice Neyret</p>
+        </li>
+        <li id="uid58">
+          <p noindent="true">URL: <ref xlink:href="http://gigavoxels.inrialpes.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>gigavoxels.<allowbreak/>inrialpes.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>HQR</bodyTitle>
+      <p>High Quality Renderer</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Lighting simulation</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>HQR is a global lighting simulation platform. HQR software is based on the photon mapping method which is capable of solving the light
+balance equation and of giving a high quality solution. Through a graphical user interface, it reads X3D scenes using the X3DToolKit package
+developed at Maverick, it allows the user to tune several parameters, computes photon maps, and reconstructs information to obtain a high
+quality solution. HQR also accepts plugins which considerably eases the developpement of new algorithms for global illumination, those
+benefiting from the existing algorithms for handling materials, geometry and light sources.</p>
+      <simplelist>
+        <li id="uid60">
+          <p noindent="true">Participant: Cyril Soler</p>
+        </li>
+        <li id="uid61">
+          <p noindent="true">Contact: Cyril Soler</p>
+        </li>
+        <li id="uid62">
+          <p noindent="true">URL: <ref xlink:href="http://artis.imag.fr/~Cyril.Soler/HQR" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>artis.<allowbreak/>imag.<allowbreak/>fr/<allowbreak/>~Cyril.<allowbreak/>Soler/<allowbreak/>HQR</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid63" level="1">
+      <bodyTitle>MobiNet</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Co-simulation - Education - Programmation</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+The MobiNet software allows for the creation of simple applications such as video games, virtual physics experiments or pedagogical math
+illustrations. It relies on an intuitive graphical interface and language which allows the user to program a set of mobile objects
+(possibly through a network). It is available in public domain for Linux,Windows and MacOS.</p>
+      <simplelist>
+        <li id="uid64">
+          <p noindent="true">Participants: Fabrice Neyret, Sylvain Lefebvre, Samuel Hornus, Joelle Thollot and Franck Hetroy-Wheeler</p>
+        </li>
+        <li id="uid65">
+          <p noindent="true">Partners: Cies - CNRS - GRAVIR - INP Grenoble - Inria - IREM - LJK</p>
+        </li>
+        <li id="uid66">
+          <p noindent="true">Contact: Fabrice Neyret</p>
+        </li>
+        <li id="uid67">
+          <p noindent="true">URL: <ref xlink:href="http://mobinet.imag.fr/index.en.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>mobinet.<allowbreak/>imag.<allowbreak/>fr/<allowbreak/>index.<allowbreak/>en.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>PROLAND</bodyTitle>
+      <p>PROcedural LANDscape</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Real time - 3D - Realistic rendering - Masses of data - Atmosphere - Ocean</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span> The goal of this platform is the real-time quality rendering and editing of large landscapes. All features
+can work with planet-sized terrains, for all viewpoints from ground to space. Most of the work published by Eric Bruneton and Fabrice
+Neyret (see <ref xlink:href="http://evasion.inrialpes.fr/Membres/Eric.Bruneton/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>evasion.<allowbreak/>inrialpes.<allowbreak/>fr/<allowbreak/>Membres/<allowbreak/>Eric.<allowbreak/>Bruneton/</ref> ) has been done within Proland and integrated in the main branch.
+Proland is available under the BSD-3 licence.</p>
+      <simplelist>
+        <li id="uid69">
+          <p noindent="true">Participants: Antoine Begault, Eric Bruneton, Guillaume Piolet and Fabrice Neyret</p>
+        </li>
+        <li id="uid70">
+          <p noindent="true">Contact: Fabrice Neyret</p>
+        </li>
+        <li id="uid71">
+          <p noindent="true">URL: <ref xlink:href="https://proland.inrialpes.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>proland.<allowbreak/>inrialpes.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid72" level="1">
+      <bodyTitle>ShwarpIt</bodyTitle>
+      <p><span class="smallcap" align="left">Keyword:</span> Warping</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span>
+ShwarpIt is a simple mobile app that allows you to manipulate the perception of shapes in images. Slide the ShwarpIt slider to the right to make shapes appear rounder. Slide it to the left to make shapes appear more flat. The Scale slider gives you control on the scale of the warping deformation.</p>
+      <simplelist>
+        <li id="uid73">
+          <p noindent="true">Contact: Georges-Pierre Bonneau</p>
+        </li>
+        <li id="uid74">
+          <p noindent="true">URL: <ref xlink:href="http://bonneau.meylan.free.fr/ShwarpIt/ShwarpIt.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>bonneau.<allowbreak/>meylan.<allowbreak/>free.<allowbreak/>fr/<allowbreak/>ShwarpIt/<allowbreak/>ShwarpIt.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>VRender</bodyTitle>
+      <p><span class="smallcap" align="left">Functional Description</span> The VRender library is a simple tool to render the content of an OpenGL window to a vectorial device such
+as Postscript, XFig, and soon SVG. The main usage of such a library is to make clean vectorial drawings for publications, books, etc.
+In practice, VRender replaces the z-buffer based hidden surface removal of OpenGL by sorting the geometric primitives so that they can
+be rendered in a back-to-front order, possibly cutting them into pieces to solve cycles.
+VRender is also responsible for the vectorial snapshot feature of the QGLViewer library.</p>
+      <simplelist>
+        <li id="uid76">
+          <p noindent="true">Participant: Cyril Soler</p>
+        </li>
+        <li id="uid77">
+          <p noindent="true">Contact: Cyril Soler</p>
+        </li>
+        <li id="uid78">
+          <p noindent="true">URL: <ref xlink:href="http://artis.imag.fr/Software/VRender/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>artis.<allowbreak/>imag.<allowbreak/>fr/<allowbreak/>Software/<allowbreak/>VRender/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>X3D TOOLKIT</bodyTitle>
+      <p>X3D Development platform</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span> X3DToolkit is a library to parse and write X3D files, that supports plugins and extensions.</p>
+      <simplelist>
+        <li id="uid80">
+          <p noindent="true">Participants: Gilles Debunne and Yannick Le Goc</p>
+        </li>
+        <li id="uid81">
+          <p noindent="true">Contact: Cyril Soler</p>
+        </li>
+        <li id="uid82">
+          <p noindent="true">URL: <ref xlink:href="http://artis.imag.fr/Software/X3D/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>artis.<allowbreak/>imag.<allowbreak/>fr/<allowbreak/>Software/<allowbreak/>X3D/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid83" level="1">
+      <bodyTitle>libylm</bodyTitle>
+      <p>LibYLM</p>
+      <p noindent="true"><span class="smallcap" align="left">Keyword:</span> Spherical harmonics</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description</span> This library implements spherical and zonal harmonics. It provides the means to perform decompositions,
+manipulate spherical harmonic distributions and provides its own viewer to visualize spherical harmonic distributions. It is available for
+linux on the Launchpad PPA of the author.</p>
+      <simplelist>
+        <li id="uid84">
+          <p noindent="true">Author: Cyril Soler</p>
+        </li>
+        <li id="uid85">
+          <p noindent="true">Contact: Cyril Soler</p>
+        </li>
+        <li id="uid86">
+          <p noindent="true">URL: <ref xlink:href="https://launchpad.net/~csoler-users/+archive/ubuntu/ylm" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>launchpad.<allowbreak/>net/<allowbreak/>~csoler-users/<allowbreak/>+archive/<allowbreak/>ubuntu/<allowbreak/>ylm</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid87">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid88" level="1">
+      <bodyTitle>Computer-aided image manipulation</bodyTitle>
+      <subsection id="uid89" level="2">
+        <bodyTitle>Automatic lighting design from photographic rules</bodyTitle>
+        <participants>
+          <person key="maverick-2015-idp81472">
+            <firstname>Jérémy</firstname>
+            <lastname>Wambecke</lastname>
+          </person>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+          <person key="maverick-2014-idp109712">
+            <firstname>Georges-Pierre</firstname>
+            <lastname>Bonneau</lastname>
+          </person>
+          <person key="maverick-2014-idp111160">
+            <firstname>Joëlle</firstname>
+            <lastname>Thollot</lastname>
+          </person>
+        </participants>
+        <object id="uid90">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/lighting-design.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our lighting setup produces
+realistic images for any kind of opaque surfaces, where shapes of
+objects are always properly conveyed.</caption>
+        </object>
+        <p>Lighting design is crucial in 3D scenes modeling for its ability to
+provide cues to understand the objects shape. However a lot of time,
+skills, trials and errors are required to obtain a desired
+result. Existing automatic lighting methods for conveying the shape of
+3D objects are based either on costly optimizations or on
+non-realistic shading effects. Also they do not take the material
+information into account. In this work, we propose a new method that
+automatically suggests a lighting setup to reveal the shape of a 3D
+model, taking into account its material and its geometric properties
+(see Figure <ref xlink:href="#uid90" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our method is independent from
+the rendering algorithm. It is based on lighting rules extracted from
+photography books, applied through a fast and simple geometric
+analysis. We illustrate our algorithm on objects having different
+shapes and materials, and we show by both visual and metric evaluation
+that it is comparable to optimization methods in terms of lighting
+setups quality. Thanks to its genericity our algorithm could be
+integrated in any rendering pipeline to suggest appropriate
+lighting. It has been published in WICED'2016 <ref xlink:href="#maverick-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid91" level="2">
+        <bodyTitle>Automatic Texture Guided Color Transfer and Colorization</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp118912">
+            <firstname>Benoit</firstname>
+            <lastname>Arbelot</lastname>
+          </person>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Thomas</firstname>
+            <lastname>Hurtut</lastname>
+          </person>
+          <person key="maverick-2014-idp111160">
+            <firstname>Joëlle</firstname>
+            <lastname>Thollot</lastname>
+          </person>
+        </participants>
+        <object id="uid92">
+          <table rend="inline">
+            <tr style="">
+              <td style="">
+                <ressource xlink:href="IMG/ColorTransfer.png" type="inline" width="204.95818pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+              <td style="">
+                <ressource xlink:href="IMG/Colorization.png" type="inline" width="204.95818pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+            <tr style="">
+              <td style="">Color transfer</td>
+              <td style="">Colorization</td>
+            </tr>
+            <caption/>
+          </table>
+          <caption>Our framework allows for automatic local color transfer (left) and colorization (right) based on textural properties.</caption>
+        </object>
+        <p>This work targets two related color manipulation problems: <i>Color
+transfer</i> for modifying an image colors and <i>colorization</i> for
+adding colors to a greyscale image. Automatic methods for these two
+applications propose to modify the input image using a reference that
+contains the desired colors. Previous approaches usually do not target
+both applications and suffer from two main limitations: possible
+misleading associations between input and reference regions and poor
+spatial coherence around image structures. In this work, we propose a
+unified framework that uses the textural content of the images to
+guide the color transfer and colorization (see
+Figure <ref xlink:href="#uid92" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our method introduces an edge-aware texture
+descriptor based on region covariance, allowing for local color
+transformations. We show that our approach is able to produce results
+comparable or better than state-of-the-art methods in both
+applications. It has been published in Expressive'2016
+<ref xlink:href="#maverick-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and an extended version has been submitted
+to C&amp;G.</p>
+      </subsection>
+      <subsection id="uid93" level="2">
+        <bodyTitle>Flow-Guided Warping for Image-Based Shape Manipulation</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Pascal</firstname>
+            <lastname>Barla</lastname>
+          </person>
+          <person key="maverick-2014-idp109712">
+            <firstname>Georges-Pierre</firstname>
+            <lastname>Bonneau</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Roland W.</firstname>
+            <lastname>Fleming</lastname>
+          </person>
+        </participants>
+        <object id="uid94">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/warping.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our warping technique takes as input
+(a) a single image (Jules Bennes, after Barye: “walking lion”) and
+modifies its perceived surface shape, either making it sharper in
+(b) or rounder in (c).</caption>
+        </object>
+        <p>We present an interactive method that manipulates perceived object
+shape from a single input color image thanks to a warping technique
+implemented on the GPU. The key idea is to give the illusion of shape
+sharpening or rounding by exaggerating orientation patterns in the
+image that are strongly correlated to surface curvature. We build on a
+growing literature in both human and computer vision showing the
+importance of orientation patterns in the communication of shape,
+which we complement with mathematical relationships and a statistical
+image analysis revealing that structure tensors are indeed strongly
+correlated to surface shape features. We then rely on these
+correlations to introduce a flow-guided image warping algorithm, which
+in effect exaggerates orientation patterns involved in shape
+perception. We evaluate our technique by 1) comparing it to ground
+truth shape deformations, and 2) performing two perceptual experiments
+to assess its effects. Our algorithm produces convincing shape
+manipulation results on synthetic images and photographs, for various
+materials and lighting environments (see Figure <ref xlink:href="#uid94" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). This
+work has been published in ACM TOG 2016 <ref xlink:href="#maverick-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid95" level="2">
+        <bodyTitle>Local Shape Editing at the Compositing Stage</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Carlos</firstname>
+            <lastname>Jorge Zubiaga Peña</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Gael</firstname>
+            <lastname>Guennebaud</lastname>
+          </person>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Pascal</firstname>
+            <lastname>Barla</lastname>
+          </person>
+        </participants>
+        <object id="uid96">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/local-shape-edit.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our method permits to modify
+surface shape by making use of the shading and auxiliary buffers
+output by modern renderers. We first reconstruct shading
+environments for each object/material combination of the Truck
+scene, relying on normal and shading buffers. When normals are
+then modified by the compositing artist, the color image is
+recomposited in real-time, enabling interactive exploration. Our
+method reproduces inter-reflections between objects, as seen when
+comparing the reconstructed environments for rear and front
+mudguards.</caption>
+        </object>
+        <p>Modern compositing software permit to linearly recombine different 3D
+rendered outputs (e.g., diffuse and reflection shading) in
+post-process, providing for simple but interactive appearance
+manipulations. Renderers also routinely provide auxiliary buffers
+(e.g., normals, positions) that may be used to add local light sources
+or depth-of-field effects at the compositing stage. These methods are
+attractive both in product design and movie production, as they allow
+designers and technical directors to test different ideas without
+having to re-render an entire 3D scene. We extend this approach to the
+editing of local shape: users modify the rendered normal buffer, and
+our system automatically modifies diffuse and reflection buffers to
+provide a plausible result (see
+Figure <ref xlink:href="#uid96" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our method is based on the
+reconstruction of a pair of diffuse and reflection prefiltered
+environment maps for each distinct object/material appearing in the
+image. We seamlessly combine the reconstructed buffers in a
+recompositing pipeline that works in real-time on the GPU using
+arbitrarily modified normals. This work has been published in EGSR (EI
+&amp; I) 2016 <ref xlink:href="#maverick-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid97" level="2">
+        <bodyTitle>Map Style Formalization: Rendering Techniques Extension for Cartography</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Hugo</firstname>
+            <lastname>Loi</lastname>
+          </person>
+          <person key="maverick-2014-idp118912">
+            <firstname>Benoit</firstname>
+            <lastname>Arbelot</lastname>
+          </person>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+          <person key="maverick-2014-idp111160">
+            <firstname>Joëlle</firstname>
+            <lastname>Thollot</lastname>
+          </person>
+        </participants>
+        <object id="uid98">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/montagne.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Reference and Resulting Mountain map “Aiguille du Moine”, 1:10k scale: extracts of reference (first line) and resulting rocky areas (second line): on the right, zooms on, first the hatching primitives, second the stylized same ones. For a fair comparison, we provide resulting map at a resolution similar to the reference map.</caption>
+        </object>
+        <p>Cartographic design requires controllable methods and tools to produce
+maps that are adapted to users' needs and preferences. The formalized
+rules and constraints for cartographic representation come mainly from
+the conceptual framework of graphic semiology. Most current
+Geographical Information Systems (GIS) rely on the Styled Layer
+Descriptor and Semiology Encoding (SLD/SE) specifications which
+provide an XML schema describing the styling rules to be applied on
+geographic data to draw a map. Although this formalism is relevant
+for most usages in cartography, it fails to describe complex
+cartographic and artistic styles. In order to overcome these
+limitations, we propose an extension of the existing SLD/SE
+specifications to manage extended map stylizations, by the means of
+controllable expressive methods. Inspired by artistic and
+cartographic sources (Cassini maps, mountain maps, artistic movements,
+etc.), we propose to integrate into our system three main expressive
+methods: linear stylization, patch-based region filling and vector
+texture generation. We demonstrate how our pipeline allows to
+personalize map rendering with expressive methods in several
+examples. This work is the result of the MAPSTYLE ANR and has been
+published at Expressive 20016 <ref xlink:href="#maverick-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid99" level="1">
+      <bodyTitle>Illumination Simulation and Materials</bodyTitle>
+      <subsection id="uid100" level="2">
+        <bodyTitle>A Physically-Based Reflectance Model Combining Reflection and Diffraction</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+          </person>
+        </participants>
+        <p>Reflectance properties express how objects in a virtual scene interact with
+light; they control the appearance of the object: whether it looks shiny or
+not, whether it has a metallic or plastic appearance. Having a good reflectance
+model is essential for the production of photo-realistic pictures. Measured
+reflectance functions provide high realism at the expense of memory cost.
+Parametric models are compact, but finding the right parameters to approximate
+measured reflectance can be difficult. Most parametric models use a model of
+the surface micro-geometry to predict the reflectance at the macroscopic level.
+We have shown that this micro-geometry causes two different physical phenomena:
+reflection and diffraction. Their relative importance is connected to the
+surface roughness. Taking both phenomena into account, we developped a new
+reflectance model that is compact, based on physical properties and provides a
+good approximation of measured reflectance (See Figure <ref xlink:href="#uid101" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+        <object id="uid101">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/diffraction.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Surface micro-geometry contributes to its visible aspect (material reflectance). Two physical phenomena
+are acting together: reflection on micro-facets and diffraction. Our reflectance model combines them,
+with the proper energy repartition between them. The importance of diffraction depends on the roughness of
+the material. Even when it it relatively small, as for <tt>green-metallic-paint2</tt>, it has a significant
+impact of the aspect of the material. Our model explains even a very difficult material
+like <tt>alum-bronze</tt> (middle row) as a single material.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>A Robust and Flexible Real-Time Sparkle Effect</bodyTitle>
+        <participants>
+          <person key="maverick-2015-idp83952">
+            <firstname>Beibei</firstname>
+            <lastname>Wang</lastname>
+          </person>
+        </participants>
+        <p>We present a fast and practical procedural sparkle effect for snow and other
+sparkly surfaces which we integrated into a recent video game. Following from
+previous work, we generate the sparkle glints by intersecting a jittered 3D
+grid of sparkle seed points with the rendered surface. By their very nature,
+the sparkle effect consists of high frequencies which must be dealt with
+carefully to ensure an anti-aliased and noise free result (See Figure <ref xlink:href="#uid103" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We identify a number
+of sources of aliasing and provide effective techniques to construct a signal
+that has an appropriate frequency content ready for sampling at pixels at both
+foreground and background ranges of the scene. This enables artists to push
+down the sparkle size to the order of 1 pixel and achieve a solid result free
+from noisy flickering or other aliasing problems, with only a few intuitive
+tweakable inputs to manage <ref xlink:href="#maverick-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid103">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/sparkle.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Two scenes rendered with our sparkle effect</caption>
+        </object>
+      </subsection>
+      <subsection id="uid104" level="2">
+        <bodyTitle>Capturing Spatially Varying Anisotropic Reflectance Parameters using Fourier Analysis</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+          </person>
+          <person key="maverick-2015-idp78984">
+            <firstname>Alban</firstname>
+            <lastname>Fichet</lastname>
+          </person>
+        </participants>
+        <p>Reflectance parameters condition the appearance of objects in photorealistic
+rendering. Practical acquisition of reflectance parameters is still a difficult
+problem. Even more so for spatially varying or anisotropic materials, which
+increase the number of samples required. We present an algorithm for
+acquisition of spatially varying anisotropic materials, sampling only a small
+number of directions. Our algorithm uses Fourier analysis to extract the
+material parameters from a sub-sampled signal. We are able to extract diffuse
+and specular reflectance, direction of anisotropy, surface normal and
+reflectance parameters from as little as 20 sample directions (See Figure <ref xlink:href="#uid105" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our system makes
+no assumption about the stationarity or regularity of the materials, and can
+recover anisotropic effects at the pixel level. This work has been published at
+Graphics Interface 2016 <ref xlink:href="#maverick-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid105">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/teaser_GI.jpg" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our acquisition pipeline: first, we place a material sample on our acquisition platform, and acquire photographs with varying incoming light direction. In a second step, we extract anisotropic direction, shading normal, albedo and reflectance parameters from these photographs and store them in texture maps. We later use these texture maps to render new views of the material.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Estimating Local Beckmann Roughness for Complex BSDFs</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+          </person>
+        </participants>
+        <p>Many light transport related techniques require an analysis of the blur width
+of light scattering at a path vertex, for instance a Beckmann roughness. Such
+use cases are for instance analysis of expected variance (and potential biased
+countermeasures in production rendering), radiance caching or directionally
+dependent virtual point light sources, or determination of step sizes in the
+path space Metropolis light transport framework: recent advanced mutation
+strategies for Metropolis Light Transport, such as Manifold Exploration and
+Half Vector Space Light Transport employ local curvature of the BSDFs (such as
+an average Beckmann roughness) at all interactions along the path in order to
+determine an optimal mutation step size. A single average Beckmann roughness,
+however, can be a bad fit for complex measured materials and, moreover, such
+curvature is completely undefined for layered materials as it depends on the
+active scattering layer. We propose a robust estimation of local curvature for
+BSDFs of any complexity by using local Beckmann approximations, taking into
+account additional factors such as both incident and outgoing direction (See Figure <ref xlink:href="#uid107" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). This
+work has been published as a Siggraph 2016 Talk <ref xlink:href="#maverick-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid107">
+          <table rend="inline">
+            <tr style="">
+              <td style="text-align:center;" halign="center">
+                <ressource xlink:href="IMG/Figure1a.png" type="inline" width="136.64313pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+              <td style="text-align:center;" halign="center">
+                <ressource xlink:href="IMG/Figure1b.png" type="inline" width="136.64313pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+              <td style="text-align:center;" halign="center">
+                <ressource xlink:href="IMG/Figure1c.png" type="inline" width="136.64313pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+            <caption/>
+          </table>
+          <caption>Indirect lighting (exposure in b and c increased for printouts) on three test scenes rendered with different materials: (a)
+multilayer coated plastic material, (b) measured materials on a ring, (c) CTD
+material on a car. The insets show difference to reference in CIE'76 <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>Δ</mi><mi>E</mi></mrow></math></formula>.
+Top: single Gaussian, bottom: our local Gaussian
+approximation. We can render both analytic (a, c) and measured materials (b)
+more robustly because the local Gaussian approximation facilitates more even
+exploration of path space.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid108" level="2">
+        <bodyTitle>MIC based PBGI</bodyTitle>
+        <participants>
+          <person key="maverick-2015-idp83952">
+            <firstname>Beibei</firstname>
+            <lastname>Wang</lastname>
+          </person>
+        </participants>
+        <p>Point-Based Global Illumination (PBGI) is a popular rendering method in
+special effects and motion picture productions. The tree-cut computation is in
+gen eral the most time consuming part of this algorithm, but it can be
+formulated for efficient parallel execution, in particular regarding wide-SIMD
+hardware. In this context, we propose several vectorization schemes, namely
+single, packet and hybrid, to maximize the utilization of modern CPU
+architectures. Whil e for the single scheme, 16 nodes from the hierarchy are
+processed for a single receiver in parallel, the packet scheme handles one
+node for 16 receivers. These two schemes work well for scenes having smooth
+geometry and diffuse material. When the scene contains high frequency bumps
+maps and glossy reflection s, we use a hybrid vectorization method. We conduct
+experiments on an Intel Many Integrated Core architecture and report
+preliminary results on several sce nes, showing that up to a 3x speedup can be
+achieved when compared with non-vectorized execution <ref xlink:href="#maverick-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Point-Based Light Transport for Participating Media with Refractive Boundaries</bodyTitle>
+        <participants>
+          <person key="maverick-2015-idp83952">
+            <firstname>Beibei</firstname>
+            <lastname>Wang</lastname>
+          </person>
+          <person key="maverick-2014-idp14992">
+            <firstname>Jean-Dominique</firstname>
+            <lastname>Gascuel</lastname>
+          </person>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+          </person>
+        </participants>
+        <p>Illumination effects in translucent materials are a combination of several physical phenomena: absorption and scattering inside the material, refraction at
+its surface. Because refraction can focus light deep inside the material, where it will be scattered, practical illumination simulation inside translucent
+materials is difficult. In this paper, we present an a Point-Based Global Illumination method for light transport on translucent materials with refractive
+boundaries. We start by placing volume light samples inside the translucent material and organising them into a spatial hierarchy. At rendering, we gather
+light from these samples for each camera ray. We compute separately the samples contributions to single, double and multiple scattering, and add them (See Figure <ref xlink:href="#uid110" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). Our approach provides high-quality results, comparable to the state of the art, with significant speed-ups (from 9<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>×</mo></math></formula> to 60<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>×</mo></math></formula> depending on scene c
+omplexity) and a much smaller memory footprint <ref xlink:href="#maverick-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#maverick-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid110">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/pbgi.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Our algorithm (a), compared with Bi-Directional Path Tracing (BDPT)
+(b), Photon Mapping with Beam-Radiance Estimate (BRE) (c) and Unified
+Points, Beams and Paths (UPBP) (d) (e). Our algorithm is up to 60 times faster
+than UPBP, with similar quality. Material: olive oil,
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>α</mi><mo>=</mo><mrow><mn>0</mn><mo>.</mo><mn>0042</mn><mo>,</mo><mn>0</mn><mo>.</mo><mn>4535</mn><mo>,</mo><mn>0</mn><mo>.</mo><mn>0995</mn></mrow></mrow></math></formula>; <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>ℓ</mi><mo>=</mo><mrow><mn>9</mn><mo>.</mo><mn>7087</mn><mo>,</mo><mn>11</mn><mo>.</mo><mn>6279</mn><mo>,</mo><mn>2</mn><mo>.</mo><mn>7397</mn></mrow></mrow></math></formula>. For this material with
+low albedo <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>α</mi></math></formula> and large mean-free-path <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ℓ</mi></math></formula>, low-order scattering
+effects dominate.</caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid111" level="1">
+      <bodyTitle>Complex Scenes</bodyTitle>
+      <p>In order to render both efficiently and accurately ultra-detailed
+large scenes, this approach consists in
+developing representations and algorithms able to account
+compactly for the quantitative visual appearance of a regions of space
+projecting on screen at the size of a pixel.</p>
+      <subsection id="uid112" level="2">
+        <bodyTitle>Appearance pre-filtering</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp120160">
+            <firstname>Guillaume</firstname>
+            <lastname>Loubet</lastname>
+          </person>
+          <person key="maverick-2014-idp106952">
+            <firstname>Fabrice</firstname>
+            <lastname>Neyret</lastname>
+          </person>
+        </participants>
+        <p>We address the problem of constructing appearance-preserving level of details (LoDs) of complex 3D models such as trees
+and propose a hybrid method that combines the strength of mesh and volume representations. Our main idea is to separate
+macroscopic (i.e. larger than the target spatial resolution) and microscopic (sub-resolution) surfaces at each scale and to treat
+them differently, because meshes are very efficient at representing macroscopic surfaces while sub-resolution geometry benefit
+from volumetric approximations. We introduce a new algorithm based on mesh analysis that detects the macroscopic surfaces
+of a 3D model at a given resolution. We simplify these surfaces with edge collapses and provide a method for pre-filtering their
+BRDFs parameters. To approximate microscopic details, we use a heterogeneous microflake participating medium and provide
+a new artifact-free voxelization algorithm that preserves local occlusion. Thanks to our macroscopic surface analysis, our
+algorithm is fully automatic and can generate seamless LoDs at arbitrarily coarse resolutions for a wide range of 3D models.
+We validated our method on highly complex geometry and show that appearance is consistent across scales while memory usage and loading times are drasticall
+y reduced (see Figure <ref xlink:href="#uid113" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). This work has been submitted to EG2017.</p>
+        <object id="uid113">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/LoubetRA16.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>A weeping willow 3D model pre-filtered with our method. Our LoDs use meshes for representing macroscopic surfaces and a
+volumetric representation to approximate sub-resolution geometry. This approach allows for accurate preservation of the appearance of complex geometry acro
+ss scales while memory usage is drastic reduced. These images have been rendered with 256spp and a thin lense camera model in Mitsuba </caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid114" level="1">
+      <bodyTitle>Texture Synthesis</bodyTitle>
+      <subsection id="uid115" level="2">
+        <bodyTitle>Understanding and controlling contrast oscillations in stochastic texture algorithms using Spectrum of Variance</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp106952">
+            <firstname>Fabrice</firstname>
+            <lastname>Neyret</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Eric</firstname>
+            <lastname>Heitz</lastname>
+          </person>
+        </participants>
+        <p>We identify and analyze a major issue pertaining to all power-spectrum based texture synthesis algorithms from Fourier synthesis to procedural noise algori
+thms like Perlin or Gabor noise, namely, the oscillation of contrast (see Figure <ref xlink:href="#uid116" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). One of our key contributions is to introduce a simple yet powerf
+ul descriptor of signals, the Spectrum of Variance (not to be confused with the PSD), which, to our surprise, has never been leveraged before. In this new
+framework, several issues get easy to understand measure and control, with new handles, as we illustrate. We finally show that fixing oscillation of contra
+st opens many doors to a more controllable authoring of stochastic texturing. We explore some of the new reachable possibilities such as constrained noise
+content and bridges towards very different families of look such as cellular patterns, points-like distributions or reaction-diffusion <ref xlink:href="#maverick-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid116">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/Gabor_RA2016.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Power-spectrum based texturing algorithms (e.g., Gabor, Fourier synthesis) suffer from unexpected low frequency contrast
+variations (a,b,c top) even when the spectrum has no low frequency (the contrast field is display in red in (c)). This prevents precise authoring with non-
+linear transform, like color LUT (b top). Our renormalization method allows to control the stationarity (a,b,c bottom). It also opens many doors for noise
+authoring such as the generation of reaction-diffusion-like strips and spots (b bottom), cellular-like patterns (d), content constraints (e), or the parame
+trization of height maps relative to local extrema (f).</caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid117" level="1">
+      <bodyTitle>Visualization and Geometric Design</bodyTitle>
+      <subsection id="uid118" level="2">
+        <bodyTitle>Surfacing Curve Networks with Normal Control</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp109712">
+            <firstname>Georges-Pierre</firstname>
+            <lastname>Bonneau</lastname>
+          </person>
+        </participants>
+        <p>Members of Maverick involved: Georges-Pierre Bonneau</p>
+        <p>This is a joint work with team-project IMAGINE (Tibor Stanko and Stefanie Hahmann) at Inria-Grenoble and CEA-Leti (Nathalie Saguin).
+Recent surface acquisition technologies based on microsensors produce three-space tangential curve data which can be
+transformed into a network of space curves with surface normals. This work addresses the problem of surfacing an
+arbitrary closed 3D curve network with given surface normals. Thanks to the normal vector input, the patch finding
+problem can be solved unambiguously and an initial piecewise smooth triangle mesh is computed. The input normals
+are propagated throughout the mesh. Together with the initial mesh, the propagated normals are used to compute mean
+curvature vectors. We compute the final mesh as the solution of a new variational optimization method based
+on the mean curvature vectors. The intuition behind this original approach is to guide the standard Laplacian-based
+variational methods by the curvature information extracted from the input normals. The normal input increases shape
+fidelity and allows to achieve globally smooth and visually pleasing shapes <ref xlink:href="#maverick-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#maverick-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+This is a joint work with team-project IMAGINE (Tibor Stanko and Stefanie Hahmann) at Inria-Grenoble and CEA-Leti (Nathalie Saguin).</p>
+        <object id="uid119">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/IllustrationTravauxTibor.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>In <ref xlink:href="#maverick-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#maverick-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we address the problem of surfacing an arbitrary closed 3D curve network with given surface normals (top row). Our interpolating surfaces are visualized with (middle row) and without (bottom row) input curves.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid120" level="2">
+        <bodyTitle>Piecewise polynomial Reconstruction of Scalar Fields from Simplified Morse-Smale Complexes</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp117664">
+            <firstname>Léo</firstname>
+            <lastname>Allemand-Giorgis</lastname>
+          </person>
+          <person key="maverick-2014-idp109712">
+            <firstname>Georges-Pierre</firstname>
+            <lastname>Bonneau</lastname>
+          </person>
+        </participants>
+        <p>Morse-Smale (MS) complexes have been proposed to visualize topological
+features of scalar fields defined on manifold domains. Herein, three main problems
+have been addressed in the past: (a) efficient computation of the initial combinatorial
+structure connecting the critical points; (b) simplification of these combinatorial
+structures; (c) reconstruction of a scalar field in accordance to the simplified
+Morse-Smale complex. The present work faces the third problem by proposing
+a novel approach for computing a scalar field coherent with a given simplified
+MS complex that privileges the use of piecewise polynomial functions. Based on
+techniques borrowed from shape preserving design in Computer Aided Geometric
+Design, our method constructs the surface cell by cell using piecewise polynomial
+curves and surfaces. The benefit and limitations of using polynomials for reconstruction
+surfaces from topological data are studied in this work <ref xlink:href="#maverick-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        <object id="uid121">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/IllustrationTravauxLeo.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The terrain data set of Mt Rainier (a) has 1931 critical points (b). The simplified Morse-Smale complex with 69 critical points is reconstructed using our methods. The final function approximates the original one, with a topology that is simplified in a controlled-manner.</caption>
+        </object>
+      </subsection>
+    </subsection>
+  </resultats>
+  <partenariat id="uid122">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid123" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid124" level="2">
+        <bodyTitle>ANR BLANC: ALTA</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+            <moreinfo>contact</moreinfo>
+          </person>
+          <person key="maverick-2014-idp108296">
+            <firstname>Cyril</firstname>
+            <lastname>Soler</lastname>
+          </person>
+        </participants>
+        <p>We are funded by the ANR research program "Blanc" for a joint research
+project with two other Inria research teams, REVES in Sophia-Antipolis
+and Manao in Bordeaux. The goal of this project is studying light
+transport operators for global illumination, both in terms of
+frequency analysis and dimensional analysis. The grant started in
+October 2011, for 54 months.</p>
+      </subsection>
+      <subsection id="uid125" level="2">
+        <bodyTitle>ANR CONTINT: Galaxy/veRTIGE</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp14992">
+            <firstname>Jean-Dominique</firstname>
+            <lastname>Gascuel</lastname>
+          </person>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+          </person>
+          <person key="maverick-2014-idp106952">
+            <firstname>Fabrice</firstname>
+            <lastname>Neyret</lastname>
+            <moreinfo>contact</moreinfo>
+          </person>
+        </participants>
+        <p>RTIGE stands for Real-Time and Interactive Galaxy for
+Edutainment. This is an ANR CONTINT (Contents and Interactions)
+research program, for a joint research project with the EVASION Inria
+project-team, the GEPI and LERMA research teams at Paris Observatory,
+and the RSA Cosmos company. The goal of this project is to simulate
+the quality multi-spectral real-time exploration of the Galaxy with
+Hubble-like images, based on simulation data, statistical data coming
+from observation, star catalogs, and procedural amplification for
+stars and dust clouds distributions. RSA-Cosmos aims at integrating
+the results in digital planetariums (See Figures <ref xlink:href="#uid126" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#uid127" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The grant started in
+December 2010, for 60 months.</p>
+        <object id="uid126">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/compo-labels.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>The interactive virtual galaxy integrated in the RSA Cosmos virtual planetarium Sky Explorer, rendered in real-time simulating various Hubble filters in the visible and invisible ranges.</caption>
+        </object>
+        <object id="uid127">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/GV-veRTIGE.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Some detailed views inside the galaxy using the experimental model GigaVoxels-veRTIGE.</caption>
+        </object>
+      </subsection>
+      <subsection id="uid128" level="2">
+        <bodyTitle>ANR CONTINT: MAPSTYLE</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp111160">
+            <firstname>Joëlle</firstname>
+            <lastname>Thollot</lastname>
+            <moreinfo>contact</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Hugo</firstname>
+            <lastname>Loi</lastname>
+          </person>
+        </participants>
+        <p>The MAPSTYLE project aims at exploring the possibilities offered by
+cartography and expressive rendering to propose original and new
+cartographic representations. Through this project, we target two
+types of needs. On the one hand, mapping agencies produce series paper
+maps with some renderings that are still derived from drawings made by
+hand 50 years ago: for example, rocky areas in the series TOP25 (to
+1/25000) of the French Institut Géographique National (IGN). The
+rendering of these rocky areas must be automated and its effectiveness
+retained to meet the requirements of hikers safety. On the other hand,
+Internet mapping tools allow any user to become a
+cartographer. However, they provide default styles that cannot be
+changed (GeoPortal, Google Maps) or they are editable but without any
+assistance or expertise (CloudMade). In such cases, as in the case of
+mobile applications, we identify the need to offer users means to
+design map styles more personalised and more attractive to meet their
+expectations (decision-making, recreation, etc.) and their tastes. The
+grant started on October 2012, for 48 months.</p>
+      </subsection>
+      <subsection id="uid129" level="2">
+        <bodyTitle>ANR: Materials</bodyTitle>
+        <participants>
+          <person key="maverick-2014-idp13512">
+            <firstname>Nicolas</firstname>
+            <lastname>Holzschuch</lastname>
+            <moreinfo>contact</moreinfo>
+          </person>
+          <person key="maverick-2014-idp112608">
+            <firstname>Romain</firstname>
+            <lastname>Vergne</lastname>
+          </person>
+        </participants>
+        <p>Participants: Nicolas Holzschuch [contact], Romain Vergne.
+We are funded by the ANR for a joint research project on acquisition and restitution of micro-facet based
+materials. This project is in cooperation with Océ Print Logic technologies, the Museum of Ethnography at the University of Bordeaux and the Manao team at Inria Bordeaux. The grant started in October 2015, for 48 months.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid130" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid131" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid132" level="3">
+          <bodyTitle>Declared Inria International Partners</bodyTitle>
+          <sanspuceslist>
+            <li id="uid133">
+              <p noindent="true">Title: “MAIS”: Mathematical Analysis of Image Synthesis</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid135">
+                  <p noindent="true">University of Montreal (Canada)
+- Département d'Informatique et Recherche Opérationnelle - Derek Nowrouzezahrai</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid136">
+              <p noindent="true">Duration: 2015 - 2019</p>
+            </li>
+            <li id="uid137">
+              <p noindent="true">Start year: 2015</p>
+            </li>
+            <li id="uid138">
+              <p noindent="true">See also: <ref xlink:href="http://diro.umontreal.ca/accueil/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>diro.<allowbreak/>umontreal.<allowbreak/>ca/<allowbreak/>accueil/</ref></p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid139" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>We have frequent exchanges and on-going collaborations with Cyril Crassin from nVIDIA-Research, and Eric Heitz, Laurent Belcour and
+Jonathan Dupuy from Unity-Research.</p>
+          <p>Maverick is part of the GPU Research Center labeled by nVIDIA at Inria Grenoble. Team contact: Fabrice NEYRET.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid140" level="2">
+        <bodyTitle>Participation in Other International Programs</bodyTitle>
+        <subsection id="uid141" level="3">
+          <bodyTitle>Indo-French Center of Applied Mathematics</bodyTitle>
+          <sanspuceslist>
+            <li id="uid142">
+              <p noindent="true">
+                <b> Topology-driven Visualization of Scientific Data</b>
+              </p>
+            </li>
+            <li id="uid143">
+              <p noindent="true">Title: Topology-driven Visualization of Scientific Data</p>
+            </li>
+            <li id="uid144">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid145">
+                  <p noindent="true">IISc Bangalore (India) - Deptartment of Science and Automation - Vijay Natarajan</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid146">
+              <p noindent="true">Duration: Sept 2016 - Sept 2017</p>
+            </li>
+            <li id="uid147">
+              <p noindent="true">One of the greatest scientific challenges of the 21st century is how to master, organize, and extract useful
+knowledge from the overwhelming flow of information made available by today's data acquisition
+systems and computing resources. Visualization is the premium means of taking up this challenge.
+Topological analysis has recently emerged as a powerful class of methods for visualizing data. From the
+input data, these methods derive combinatorial structures capturing the essential features of the data. The
+goal of this project is to design new topological structures, study their properties, and develop efficient
+algorithms to compute them. In order to solve this challenge, we will combine our expertise in Topology
+for the Indian partner and in Geometric Modeling for the French partner. We plan to develop new
+geometric models that accurately and intuitively depict the topological combinatorial structures.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid148" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid149" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <subsection id="uid150" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <sanspuceslist>
+            <li id="uid151">
+              <p noindent="true">Nucha Girijanandan</p>
+              <sanspuceslist>
+                <li id="uid152">
+                  <p noindent="true">Date: June 2016 - Jul 2016</p>
+                </li>
+                <li id="uid153">
+                  <p noindent="true">Institution: IIS (India) - Deptartment of Science and Automation</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid154">
+              <p noindent="true">Nucha worked on the project “Topology Driven Visualisation of Scientific Data”, along with G-P. Bonneau.</p>
+            </li>
+          </sanspuceslist>
+          <sanspuceslist>
+            <li id="uid155">
+              <p noindent="true">Santiago Montesdeoca</p>
+              <sanspuceslist>
+                <li id="uid156">
+                  <p noindent="true">Date: Oct 1st - Dec 31 2016</p>
+                </li>
+                <li id="uid157">
+                  <p noindent="true">MAGIC - Nanyang Technological University, Singapore.</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid158">
+              <p noindent="true">Santiago is doing research in watercolor rendering of 3D animation and environments, developing new stylization approaches and enforcing direct stylization frameworks in expressive rendering. His research interests include expressive/non-photorealistic rendering, computer animation, real-time rendering and image processing.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid159" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <subsection id="uid160" level="3">
+          <bodyTitle>Sabbatical programme</bodyTitle>
+          <sanspuceslist>
+            <li id="uid161">
+              <p noindent="true">Soler Cyril</p>
+              <sanspuceslist>
+                <li id="uid162">
+                  <p noindent="true">Date: Aug 2015 - Jul 2016</p>
+                </li>
+                <li id="uid163">
+                  <p noindent="true">Institution: <ref xlink:href="http://www.umontreal.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Université de Montréal</ref> (Canada)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid164">
+              <p noindent="true">During his stay in Montreal, C.Soler has worked in Collaboration with D.Nowrouzezahrai and P.Poulin (U.of Montreal) and
+Guillaume Lavoué (Université Lyon-I), on two projects associated to material appearance capture and characterisation.
+At the time of writing these two projects are actively followed by all partners and publications will be submitted to ACM Transaction on Graphics within a few months. C.Soler has also presented his work in the seminar of the DIRO
+in October 2015.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid165" level="3">
+          <bodyTitle>Research Stays Abroad</bodyTitle>
+          <sanspuceslist>
+            <li id="uid166">
+              <p noindent="true">Fabrice Neyret</p>
+              <sanspuceslist>
+                <li id="uid167">
+                  <p noindent="true">Date: Nov 2015 - Mar 2016</p>
+                </li>
+                <li id="uid168">
+                  <p noindent="true">Institution: WETA Digital (New-Zeland)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid169">
+              <p noindent="true">The content of this collaboration is covered by a NDA.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid170">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid171" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid172" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid173" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid174">
+              <p noindent="true">Nicolas Holzschuch was a member of the International Program Committee of the Eurographics Symposium on Rendering (EGSR) 2016, the ACM Symposium on Interactive 3D Graphics (I3D) 2016 and 2017, and SIBGRAPI 2016.</p>
+            </li>
+            <li id="uid175">
+              <p noindent="true">Cyril Soler was a member of the International Program Committee of the Eurographics Symposium on Rendering (EGSR) 2016</p>
+            </li>
+            <li id="uid176">
+              <p noindent="true">Joëlle Thollot was a member of the International Program Committee of Expressive'2016</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid177" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>All members of the Maverick team work as reviewers for the most prestigious conferences, including Siggrah, Eurographics, the EG symposium on rendering.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid178" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid179" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>All members of the Maverick team work as reviewers for the most prestigious journals, including ACM TOG, IEEE
+TVCG, etc.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid180" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid181">
+            <p noindent="true">Fabrice Neyret, Feb 2, 2016. Victoria University, New-Zeland</p>
+          </li>
+          <li id="uid182">
+            <p noindent="true">Cyril Soler, Nov, 2015. University of Montreal.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid183" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Nicolas Holzschuch is an elected member of Inria Evaluation Committee (CE), an elected member of Inria Comité Technique (CTI) and a reserve member of Inria Scientific Council (CS).
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid184" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid185" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <p>Joëlle Thollot and Georges-Pierre Bonneau are both full Professor of Computer Science. Romain Vergne is an associate professor in Computer Science. They teach general computer science topics at basic and intermediate levels, and advanced courses in computer graphics and visualization at the master levels. Nicolas Holzschuch teaches advanced courses in computer graphics at the Master level. In addition, Romain Vergne teached an advanced course on "perception &amp; graphics" at the spring school of Ôkhra (Roussillon).</p>
+        <simplelist>
+          <li id="uid186">
+            <p noindent="true">Licence: Joëlle Thollot, Automates finis, 27h, L3 cursus alternance, ENSIMAG, France</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">Licence: Joëlle Thollot, Théorie des langages, 18h, L3, ENSIMAG, France</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">Master: Joëlle Thollot, Responsable du cursus en alternance, 48h, L3-M1-M2, ENSIMAG, France</p>
+          </li>
+          <li id="uid189">
+            <p noindent="true">Master: Joëlle Thollot, Tutorat d'apprentis, 48h, L3-M1-M2, ENSIMAG, France</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid190" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid191">
+            <p noindent="true">PhD in progress: Guillaume Loubet, <i>Représentations efficaces de l'apparence sous-pixel</i>, Université de Grenoble, October 2010, Fabrice Neyret</p>
+          </li>
+          <li id="uid192">
+            <p noindent="true">PhD defended: Léo Allemand-Giorgis, <i>Visualisation de champs scalaires guidée par la topologie</i>, October 2012, Georges-Pierre Bonneau, Stefanie Hahmann. Defense</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">PhD in progress : Aarohi Johal, <i>Algorithmes de génération automatique d'arbres de construction à partir de modèles géométriques CAO B-Rep</i>, September 2013, Jean-Claude Léon, Georges-Pierre Bonneau, thèse CIFRE EdR R&amp;D.</p>
+          </li>
+          <li id="uid194">
+            <p noindent="true">PhD in progress : Benoit Arbelot, Etudes statistiques de forme, de matériaux et d'environnement pour la manipulation de l'apparence, October 2013, Joëlle Thollot, Romain Vergne.</p>
+          </li>
+          <li id="uid195">
+            <p noindent="true">PhD in progress: Alexandre Bleron, Stylization of animated 3D scenes in a painterly style, October
+1, 2015, Joëlle Thollot, Romain Vergne, Thomas Hurtut.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid196" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid197">
+            <p noindent="true">Nicolas Holzschuch was in the jury for the PhD defenses of Boris Raymond (Bordeaux), Thomas Subileau (Toulouse), and the "HDR" of Lionel Simonot (Physique, Poitiers).</p>
+          </li>
+          <li id="uid198">
+            <p noindent="true">Joëlle Thollot has been a member of the jury for the PhD of Pierre-Luc Manteaux (Oct 2016 - UGA), Ulysse Vimont (dec 2016 - UGA), Jordane Suarez (dec 2016 - Paris 8).</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid199" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Every year, “MobiNet” (see section 4.5) classes are conducted with high school pupils of the large Grenoble
+area to practice initiation and intuition on Computer Science, Maths and Physics. Depending on the year, we
+have 2 to 4 groups in the scope of INP-Grenoble “Enginneering weeks”, and 0 to 2 groups in the scope of
+Math-C2+ operations.</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="maverick-2016-bid18" type="phdthesis" rend="year" n="cite:allemandgiorgis:tel-01431658">
+      <identifiant type="hal" value="tel-01431658"/>
+      <monogr>
+        <title level="m">Topology driven visualization of complex data</title>
+        <author>
+          <persName key="maverick-2014-idp117664">
+            <foreName>Léo</foreName>
+            <surname>Allemand-Giorgis</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Grenoble Alpes</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01431658" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01431658</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid14" type="incollection" rend="year" n="cite:allemandgiorgis:hal-01252477">
+      <identifiant type="hal" value="hal-01252477"/>
+      <analytic>
+        <title level="a">Piecewise polynomial Reconstruction of Scalar Fields from Simplified Morse-Smale Complexes</title>
+        <author>
+          <persName key="maverick-2014-idp117664">
+            <foreName>Léo</foreName>
+            <surname>Allemand-Giorgis</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName key="imagine-2014-idp106136">
+            <foreName>Stefanie</foreName>
+            <surname>Hahmann</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Hamish</foreName>
+            <surname>Carr</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Christoph</foreName>
+            <surname>Garth</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Tino</foreName>
+            <surname>Weinkauf</surname>
+            <initial>T.</initial>
+          </persName>
+        </editor>
+        <title level="m">Topological Data Analysis</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01252477" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01252477</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid12" type="article" rend="year" n="cite:stanko:hal-01342465">
+      <identifiant type="hal" value="hal-01342465"/>
+      <analytic>
+        <title level="a">Surfacing Curve Networks with Normal Control</title>
+        <author>
+          <persName key="imagine-2014-idp143696">
+            <foreName>Tibor</foreName>
+            <surname>Stanko</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="imagine-2014-idp106136">
+            <foreName>Stefanie</foreName>
+            <surname>Hahmann</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Saguin-Sprynski</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00410">
+        <idno type="issn">0097-8493</idno>
+        <title level="j">Computers and Graphics</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01342465" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01342465</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid0" type="article" rend="year" n="cite:vergne:hal-01307571">
+      <identifiant type="doi" value="10.1145/2897824.2925937"/>
+      <identifiant type="hal" value="hal-01307571"/>
+      <analytic>
+        <title level="a">Flow-Guided Warping for Image-Based Shape Manipulation</title>
+        <author>
+          <persName key="maverick-2014-idp112608">
+            <foreName>Romain</foreName>
+            <surname>Vergne</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="manao-2014-idp103624">
+            <foreName>Pascal</foreName>
+            <surname>Barla</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Roland</foreName>
+            <surname>Fleming</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00024">
+        <idno type="issn">0730-0301</idno>
+        <title level="j">ACM Transactions on Graphics (TOG)</title>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01307571" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01307571</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid2" type="inproceedings" rend="year" n="cite:arbelot:hal-01305596">
+      <identifiant type="hal" value="hal-01305596"/>
+      <analytic>
+        <title level="a">Automatic Texture Guided Color Transfer and Colorization</title>
+        <author>
+          <persName key="maverick-2014-idp118912">
+            <foreName>Benoit</foreName>
+            <surname>Arbelot</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="maverick-2014-idp112608">
+            <foreName>Romain</foreName>
+            <surname>Vergne</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Hurtut</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="maverick-2014-idp111160">
+            <foreName>Joëlle</foreName>
+            <surname>Thollot</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Expressive 2016</title>
+        <loc>Lisbonne, Portugal</loc>
+        <title level="s">Proceedings of Expressive 2016</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01305596" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01305596</ref>
+        </imprint>
+        <meeting id="cid625294">
+          <title>Expressive :  The Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid4" type="inproceedings" rend="year" n="cite:christophe:hal-01317403">
+      <identifiant type="doi" value="10.2312/exp.20161064"/>
+      <identifiant type="hal" value="hal-01317403"/>
+      <analytic>
+        <title level="a">Map Style Formalization: Rendering Techniques Extension for Cartography</title>
+        <author>
+          <persName>
+            <foreName>Sidonie</foreName>
+            <surname>Christophe</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Bertrand</foreName>
+            <surname>Duménieu</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérémie</foreName>
+            <surname>Turbet</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Charlotte</foreName>
+            <surname>Hoarau</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="manao-2016-idp171184">
+            <foreName>Nicolas</foreName>
+            <surname>Mellado</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérémie</foreName>
+            <surname>Ory</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="maverick-2014-idp116408">
+            <foreName>Hugo</foreName>
+            <surname>Loi</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Masse</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="maverick-2014-idp118912">
+            <foreName>Benoit</foreName>
+            <surname>Arbelot</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="maverick-2014-idp112608">
+            <foreName>Romain</foreName>
+            <surname>Vergne</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Mathieu</foreName>
+            <surname>Brédif</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Thomas</foreName>
+            <surname>Hurtut</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="maverick-2014-idp111160">
+            <foreName>Joëlle</foreName>
+            <surname>Thollot</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="manao-2015-idp100656">
+            <foreName>David</foreName>
+            <surname>Vanderhaeghe</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName key="manao-2014-idp108768">
+            <foreName>Pierre</foreName>
+            <surname>Bénard</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Holger</foreName>
+            <surname>Winnemöller</surname>
+            <initial>H.</initial>
+          </persName>
+        </editor>
+        <title level="m">Expressive 2016 The Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering</title>
+        <loc>Lisbonne, Portugal</loc>
+        <title level="s">Non-Photorealistic Animation and Rendering</title>
+        <imprint>
+          <publisher>
+            <orgName>The Eurographics Association</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">The Eurographics Association</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01317403" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01317403</ref>
+        </imprint>
+        <meeting id="cid625294">
+          <title>Expressive :  The Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid6" type="inproceedings" rend="year" n="cite:fichet:hal-01302120">
+      <identifiant type="hal" value="hal-01302120"/>
+      <analytic>
+        <title level="a">Capturing Spatially Varying Anisotropic Reflectance Parameters using Fourier Analysis</title>
+        <author>
+          <persName key="maverick-2015-idp78984">
+            <foreName>Alban</foreName>
+            <surname>Fichet</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Imari</foreName>
+            <surname>Sato</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="maverick-2014-idp13512">
+            <foreName>Nicolas</foreName>
+            <surname>Holzschuch</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Graphics Interface 2016</title>
+        <loc>Victoria, BC, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01302120" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01302120</ref>
+        </imprint>
+        <meeting id="cid47705">
+          <title>Conference on Graphics Interface</title>
+          <num>2016</num>
+          <abbr type="sigle">GI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid13" type="inproceedings" rend="year" n="cite:stanko:hal-01342487">
+      <identifiant type="doi" value="10.2312/egsh.20161005"/>
+      <identifiant type="hal" value="hal-01342487"/>
+      <analytic>
+        <title level="a">Smooth Interpolation of Curve Networks with Surface Normals</title>
+        <author>
+          <persName key="imagine-2014-idp143696">
+            <foreName>Tibor</foreName>
+            <surname>Stanko</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="imagine-2014-idp106136">
+            <foreName>Stefanie</foreName>
+            <surname>Hahmann</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Saguin-Sprynski</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Eurographics 2016 Short Papers</title>
+        <loc>Lisbonne, Portugal</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01342487" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01342487</ref>
+        </imprint>
+        <meeting id="cid29028">
+          <title>Annual Conference of the European Association for Computer Graphics</title>
+          <num>37</num>
+          <abbr type="sigle">EUROGRAPHICS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid16" type="inproceedings" rend="year" n="cite:stanko:hal-01372958">
+      <identifiant type="hal" value="hal-01372958"/>
+      <analytic>
+        <title level="a">Smooth interpolation of curve networks with surface normals</title>
+        <author>
+          <persName key="imagine-2014-idp143696">
+            <foreName>Tibor</foreName>
+            <surname>Stanko</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="imagine-2014-idp106136">
+            <foreName>Stefanie</foreName>
+            <surname>Hahmann</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Saguin-Sprynski</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="no">
+        <title level="m">GTMG 2016 — Actes des Journées du Groupe de Travail en Modélisation Géométrique</title>
+        <loc>Dijon, France, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01372958" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01372958</ref>
+        </imprint>
+        <meeting id="cid395841">
+          <title>Journées du Groupe de Travail en Modélisation Géométrique</title>
+          <num>2016</num>
+          <abbr type="sigle">GTMG</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid1" type="inproceedings" rend="year" n="cite:wambecke:hal-01316577">
+      <identifiant type="doi" value="10.2312/wiced.20161094"/>
+      <identifiant type="hal" value="hal-01316577"/>
+      <analytic>
+        <title level="a">Automatic lighting design from photographic rules</title>
+        <author>
+          <persName key="maverick-2015-idp81472">
+            <foreName>Jérémy</foreName>
+            <surname>Wambecke</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="maverick-2014-idp112608">
+            <foreName>Romain</foreName>
+            <surname>Vergne</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="maverick-2014-idp109712">
+            <foreName>Georges-Pierre</foreName>
+            <surname>Bonneau</surname>
+            <initial>G.-P.</initial>
+          </persName>
+          <persName key="maverick-2014-idp111160">
+            <foreName>Joëlle</foreName>
+            <surname>Thollot</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">WICED: Eurographics Workshop on Intelligent Cinematography and Editing</title>
+        <loc>Lisbon, Portugal</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Eurographics</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01316577" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01316577</ref>
+        </imprint>
+        <meeting id="cid624141">
+          <title>Foundations of Digital Games Workshop on Intelligent Cinematography and Editing</title>
+          <num>2016</num>
+          <abbr type="sigle">WICED</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid5" type="inproceedings" rend="year" n="cite:wang:hal-01327604">
+      <identifiant type="hal" value="hal-01327604"/>
+      <analytic>
+        <title level="a">A Robust and Flexible Real-Time Sparkle Effect</title>
+        <author>
+          <persName key="maverick-2015-idp83952">
+            <foreName>Beibei</foreName>
+            <surname>Wang</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>How</foreName>
+            <surname>Bowles</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EGSR 2016 E&amp;I</title>
+        <loc>Dublin, Ireland</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01327604" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01327604</ref>
+        </imprint>
+        <meeting id="cid64081">
+          <title>Eurographics Symposium on Rendering</title>
+          <num>2016</num>
+          <abbr type="sigle">EGSR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid9" type="inproceedings" rend="year" n="cite:wang:hal-01327239">
+      <identifiant type="hal" value="hal-01327239"/>
+      <analytic>
+        <title level="a">Point-Based Light Transport for Participating Media with Refractive Boundaries</title>
+        <author>
+          <persName key="maverick-2015-idp83952">
+            <foreName>Beibei</foreName>
+            <surname>Wang</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="maverick-2014-idp14992">
+            <foreName>Jean-Dominique</foreName>
+            <surname>Gascuel</surname>
+            <initial>J.-D.</initial>
+          </persName>
+          <persName key="maverick-2014-idp13512">
+            <foreName>Nicolas</foreName>
+            <surname>Holzschuch</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EGSR2016 EI&amp;I</title>
+        <loc>Dublin, Ireland</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01327239" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01327239</ref>
+        </imprint>
+        <meeting id="cid64081">
+          <title>Eurographics Symposium on Rendering</title>
+          <num>2016</num>
+          <abbr type="sigle">EGSR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid10" type="inproceedings" rend="year" n="cite:wang:hal-01273887">
+      <identifiant type="hal" value="hal-01273887"/>
+      <analytic>
+        <title level="a">PBVLT: a point based method for volumetric light transport computation in participating media with refractive boundaries</title>
+        <author>
+          <persName key="maverick-2015-idp83952">
+            <foreName>Beibei</foreName>
+            <surname>Wang</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="maverick-2014-idp13512">
+            <foreName>Nicolas</foreName>
+            <surname>Holzschuch</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Groupe de Travail Rendu du GDR IG RV</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01273887" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01273887</ref>
+        </imprint>
+        <meeting id="cid625295">
+          <title>Groupe de Travail du Informatique Géométrique et Graphique, Réalité Virtuelle et Visualisation</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid3" type="inproceedings" rend="year" n="cite:zubiaga:hal-01338414">
+      <identifiant type="hal" value="hal-01338414"/>
+      <analytic>
+        <title level="a">Local Shape Editing at the Compositing Stage</title>
+        <author>
+          <persName>
+            <foreName>Carlos J.</foreName>
+            <surname>Zubiaga</surname>
+            <initial>C. J.</initial>
+          </persName>
+          <persName key="manao-2014-idp104864">
+            <foreName>Gael</foreName>
+            <surname>Guennebaud</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="maverick-2014-idp112608">
+            <foreName>Romain</foreName>
+            <surname>Vergne</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="manao-2014-idp103624">
+            <foreName>Pascal</foreName>
+            <surname>Barla</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EGSR</title>
+        <loc>Dublin, Ireland</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01338414" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01338414</ref>
+        </imprint>
+        <meeting id="cid64081">
+          <title>Eurographics Symposium on Rendering</title>
+          <num>2016</num>
+          <abbr type="sigle">EGSR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid15" type="techreport" rend="year" n="cite:goswami:hal-01325905">
+      <identifiant type="hal" value="hal-01325905"/>
+      <monogr>
+        <title level="m">Real-time landscape-size convective clouds simulation and rendering</title>
+        <author>
+          <persName key="maverick-2014-idp113872">
+            <foreName>Prashant</foreName>
+            <surname>Goswami</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="maverick-2014-idp106952">
+            <foreName>Fabrice</foreName>
+            <surname>Neyret</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8919</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">17</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01325905" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01325905</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid17" type="techreport" rend="year" n="cite:holzschuch:hal-01386157">
+      <identifiant type="hal" value="hal-01386157"/>
+      <monogr>
+        <title level="m">A Physically-Based Reflectance Model Combining Reflection and Diffraction</title>
+        <author>
+          <persName key="maverick-2014-idp13512">
+            <foreName>Nicolas</foreName>
+            <surname>Holzschuch</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="manao-2014-idp107520">
+            <foreName>Romain</foreName>
+            <surname>Pacanowski</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8964</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01386157" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01386157</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid11" type="techreport" rend="year" n="cite:neyret:hal-01349134">
+      <identifiant type="hal" value="hal-01349134"/>
+      <monogr>
+        <title level="m">Understanding and controlling contrast oscillations in stochastic texture algorithms using Spectrum of Variance</title>
+        <author>
+          <persName key="maverick-2014-idp106952">
+            <foreName>Fabrice</foreName>
+            <surname>Neyret</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="maverick-2014-idp115136">
+            <foreName>Eric</foreName>
+            <surname>Heitz</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">LJK / Grenoble University - Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">8</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01349134" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349134</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid7" type="misc" rend="year" n="cite:holzschuch:hal-01312227">
+      <identifiant type="doi" value="10.1145/2897839.2927416"/>
+      <identifiant type="hal" value="hal-01312227"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">Estimating Local Beckmann Roughness for Complex BSDFs</title>
+        <author>
+          <persName key="maverick-2014-idp13512">
+            <foreName>Nicolas</foreName>
+            <surname>Holzschuch</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Anton</foreName>
+            <surname>Kaplanyan</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Johannes</foreName>
+            <surname>Hanika</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Carsten</foreName>
+            <surname>Dachsbacher</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01312227" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01312227</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">ACM Siggraph talks</note>
+    </biblStruct>
+    
+    <biblStruct id="maverick-2016-bid8" type="misc" rend="year" n="cite:xu:hal-01316873">
+      <identifiant type="hal" value="hal-01316873"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Efficient Point based Global Illumination on Intel MIC Architecture</title>
+        <author>
+          <persName>
+            <foreName>Xiang</foreName>
+            <surname>Xu</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Pei</foreName>
+            <surname>Wang</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="maverick-2015-idp83952">
+            <foreName>Beibei</foreName>
+            <surname>Wang</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="morpheo-2014-idp123560">
+            <foreName>Lu</foreName>
+            <surname>Wang</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Changhe</foreName>
+            <surname>Tu</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Xiangxu</foreName>
+            <surname>Meng</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Tamy</foreName>
+            <surname>Boubekeur</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01316873" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01316873</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">Eurographics 2016 poster</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

@@ -1,0 +1,3127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="cagire" isproject="true">
+    <shortname>CAGIRE</shortname>
+    <projectName>Computational AGility for internal flows sImulations and compaRisons with Experiments</projectName>
+    <theme-de-recherche>Numerical schemes and simulations</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire de mathématiques et de leurs applications (LMAP)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université de Pau et des Pays de l'Adour</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2011 June 01, updated into Project-Team: 2016 May 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.7. - High performance computing</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4.2.1. - Fission</term>
+      <term>4.3.4. - Solar Energy</term>
+      <term>5.2.1. - Road vehicles</term>
+      <term>5.2.3. - Aviation</term>
+    </keywordsSecteurs>
+    <UR name="Bordeaux"/>
+  </identification>
+  <team id="uid1">
+    <person key="cagire-2014-idm30568">
+      <firstname>Pascal</firstname>
+      <lastname>Bruel</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Team leader, CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cagire-2014-idm29096">
+      <firstname>Rémi</firstname>
+      <lastname>Manceau</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="cagire-2014-idm27664">
+      <firstname>Vincent</firstname>
+      <lastname>Perrier</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="cagire-2015-idp15024">
+      <firstname>Jonathan</firstname>
+      <lastname>Jung</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Univ. Pau, Associate Professor</moreinfo>
+    </person>
+    <person key="cagire-2014-idp65488">
+      <firstname>Benjamin</firstname>
+      <lastname>Lux</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Engineer, until Oct 2016</moreinfo>
+    </person>
+    <person key="cagire-2014-idp66728">
+      <firstname>Yann</firstname>
+      <lastname>Moguen</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Pau University, Post-Doctoral Fellow, until May 2016</moreinfo>
+    </person>
+    <person key="cagire-2014-idp69224">
+      <firstname>Sylvie</firstname>
+      <lastname>Embolla</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Assistant</moreinfo>
+    </person>
+    <person key="bacchus-2014-idp103040">
+      <firstname>Nicolas</firstname>
+      <lastname>Jahier</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria, Assistant</moreinfo>
+    </person>
+    <person key="cagire-2014-idp73064">
+      <firstname>Simon</firstname>
+      <lastname>Delmas</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Pau University, until January 2016</moreinfo>
+    </person>
+    <person key="cagire-2014-idp74320">
+      <firstname>Jean-François</firstname>
+      <lastname>Wald</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>EDF, until April 2016</moreinfo>
+    </person>
+    <person key="cagire-2016-idp164752">
+      <firstname>Nicolas</firstname>
+      <lastname>Hernandez Reyes</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Inria internship, from Feb 2016 until Apr 2016</moreinfo>
+    </person>
+    <person key="cagire-2016-idp167248">
+      <firstname>Saad</firstname>
+      <lastname>Jameel</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Bordeaux</research-centre>
+      <moreinfo>Internship, from Apr 2016 until Sep 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Turbulent flows with complex interactions</bodyTitle>
+      <p>This interdisciplinary project brings together researchers coming from different horizons and backgrounds (applied mathematics and fluid mechanics) who progressively elaborated a common vision of what should be the simulation tool of fluid dynamics of tomorrow. Our application will be focused on
+wall bounded turbulent flows and featuring complex phenomena such as aeroacoustics, hydrodynamic instabilities, phase change processes, wall roughness, buoyancy or localized relaminarization. Because such flows are exhibiting a multiplicity of time and scale fluctuations resulting from complex interactions, their simulation is extremely challenging. Even if various methods of simulation (DNS <footnote id="uid4" id-text="1">Direct numerical simulation</footnote>) and turbulence modeling (RANS <footnote id="uid5" id-text="2">Reynolds averaged Navier-Stokes</footnote>, LES <footnote id="uid6" id-text="3">Large-eddy simulation</footnote>, hybrid RANS-LES) are available and have been significantly improved over time, none of them does satisfy all the needs encountered in industrial and environmental configurations. We consider that all these methods will be useful in the future in different situations or regions of the flow if combined in the same simulation in order to benefit from their respective advantages wherever relevant, while mutually compensating their known limitations. It will thus lead to a description of turbulence at widely varying scales in the computational domain, hence the name <i>multi-scale simulations</i>. For example, the RANS mode may extend throughout regions where turbulence is sufficiently close to equilibrium leaving to LES or DNS the handling of regions where large scale coherent structures are present. However, a considerable body of work is required to:</p>
+      <simplelist>
+        <li id="uid7">
+          <p noindent="true">Establish the behavior of the different types of turbulence modeling approaches when combined with high order discretization methods.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">Elaborate relevant and robust switching criteria between models, similar to error assessments used in automatic mesh refinement, but based on the physics of the flow in order to adapt on the fly the scale of resolution from one extreme of the spectrum to another (say from the Kolmogorov scale to the geometrical large scale, i.e., from DNS to RANS).</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">Ensure a high level of accuracy and robustness of the resulting simulation tool to address a large range of flow configurations, i.e., from a generic lab scale geometry for validation to practical systems of interest of our industrial partners.</p>
+        </li>
+      </simplelist>
+      <p>But the best agile modeling and high order discretization methods are useless without the recourse to high performance computing (HPC) to bring the simulation time down to values compatible with the requirement of the end users. So, a significant part of our activity will be devoted to the proper handling of the constantly evolving supercomputer architectures. But even the best ever simulation library is useless if it is not disseminated and increasingly used by the CFD community as well as our industrial partners. In that respect, the significant success of the low order finite volume simulation suite OpenFOAM <footnote id="uid10" id-text="4"><ref xlink:href="http://www.openfoam.com" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>openfoam.<allowbreak/>com</ref></footnote> or the more recently proposed SU2 <footnote id="uid11" id-text="5"><ref xlink:href="http://su2.stanford.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>su2.<allowbreak/>stanford.<allowbreak/>edu/</ref></footnote> from Stanford are considered as examples of quite successful dissemination stories that could be if not followed but at least considered as a source of inspiration. Our natural inclination though will be to promote the use of the library in direction of our present and future industrial and academic partners with a special interest on the SMEs active in the highly competitive and strategic economical sectors of energy production and aerospace propulsion. Indeed, these sectors are experiencing a revolution of the entire design process especially for complex parts with an intimate mix between simulations and additive manufacturing (3D printing) processes in the early stages of the design process. For big companies such as General Electric or Safran (co-developing the CFM Leap-1 engines with 3D printed fuel nozzles) as well as medium-size companies such as Aerojet Rocketdyne, this is a unique opportunity to reduce the duration and hence the cost of development of their systems while preserving if not strengthening their capability of designing innovative components that cannot be produced by classical manufacturing processes. On the other side, for the small companies of this sector, this may have a rather detrimental effect on their competitiveness since their capability of mastering both these new manufacturing processes and advanced simulation approaches is far more limited. Thus, through our sustained direct (EDF, Turbomeca, PSA, AD Industrie) or indirect (European programs, WALLTURB, KIAI, IMPACT-AE, SOPRANO) partnership with different companies, we are able to identify relevant generic configurations from our point of view of scientists to serve as support for the development of our approach. This methodological choice was motivated by the desire to lead an as efficient as possible transfer activity while maintaining a clear distinction between what falls within our field of competence of researchers from what is related to the development of their products by our industrial partners.
+The long-term objective of this project is to develop, validate, promote and transfer an original and effective approach for modeling and simulating generic flows representative of flow configurations encountered in the field of energy production and aeronautical propulsion. Our approach will be combining
+mesh (h) + turbulence model (m) + discretization order (p) agility. This will
+be achieved by:</p>
+      <simplelist>
+        <li id="uid12">
+          <p noindent="true">Contributing to the development of new turbulence models.</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">Improving high order numerical methods, and increasing their efficiency in
+the constantly evolving High Performance Computing context.</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">Developing experimental tools.</p>
+        </li>
+      </simplelist>
+      <p>Concerning applications, our objective are :</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">To reinforce the long term existing partnership with EDF and Safran group,
+and the other European partners involved in the same European projects as we are.</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">To consolidate and develop partnership with SMEs operating in the aeronautical sector.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid17">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid18" level="1">
+      <bodyTitle>The scientific context</bodyTitle>
+      <subsection id="uid19" level="2">
+        <bodyTitle>Computational fluid mechanics: modeling or not before discretizing ?</bodyTitle>
+        <p>A typical continuous solution of the Navier Stokes equations at sufficiently high values of the Reynolds number is governed
+by a spectrum of time and space scales fluctuations closely connected with the turbulent nature of the flow. The term deterministic chaos employed by Frisch in his enlightening book <ref xlink:href="#cagire-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is certainly conveying most adequately the difficulty in analyzing and simulating this kind of flows.
+The broadness of the turbulence spectrum is directly controlled by the Reynolds number defined as the ratio between the inertial forces and the viscous forces. This number is not only useful to determine the transition from a laminar to a turbulent flow regime, it also indicates the range of scales of fluctuations that are present in the flow under consideration. Typically, for the velocity field and far from solid walls, the ratio between the largest scale (the integral length scale) to the smallest one (Kolmogorov scale) scales as <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>R</mi><msup><mi>e</mi><mrow><mn>3</mn><mo>/</mo><mn>4</mn></mrow></msup></mrow></math></formula> per dimension. In addition, for internal flows, the viscous effects near the solid walls yield a scaling proportional to <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>R</mi><mi>e</mi></mrow></math></formula> per dimension. The smallest scales play a crucial role in the dynamics of the largest ones which implies that an accurate framework for the computation of turbulent flows must take into account all these scales. Thus, the usual practice to deal with turbulent flows is to choose between an a priori modeling (in most situations) or not (low Re number and rather simple configurations) before proceeding to the discretization step followed by the simulation runs themselves. If a modeling phase is on the agenda, then one has to choose again among the above mentioned variety of approaches. As it is illustrated in Fig. <ref xlink:href="#uid21" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, this can be achieved either by directly solving the Navier-Stokes equations (DNS) or by first applying a statistical averaging (RANS) or a spatial filtering operator to the Navier-Stokes equations (LES).
+The new terms brought about by the filtering operator have to be modeled. From a computational point of view, the RANS approach is the least demanding, which explains why historically it has been the workhorse in both the academic and the industrial sectors. It has permitted quite a substantial progress in the understanding of various phenomena such as turbulent combustion or heat transfer. Its inherent inability to provide a time-dependent information has led to promote in the last decade the recourse to either LES or DNS to supplement if not replace RANS. By simulating the large scale structures while modeling the smallest ones supposed to be more isotropic, LES proved to be quite a step through that permits to fully take advantage of the increasing power of computers to study complex flow configurations. At the same time, DNS was progressively applied to geometries of increasing complexity (channel flows with values of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>R</mi><msub><mi>e</mi><mi>τ</mi></msub></mrow></math></formula> multiplied by 10 during the last 15 years, jets, turbulent premixed flames, among many others), and proved to be a formidable tool that permits <b>(i)</b> to improve our knowledge on turbulent flows and <b>(ii)</b> to test (i.e., validate or invalidate) and improve the modeling hypotheses inherently associated to the RANS and LES approaches. From a numerical point of view, if the steady nature of the RANS equations allows to perform iterative convergence on finer and finer meshes, the high computational cost of LES or DNS makes necessary the use of highly accurate numerical schemes in order to optimize the use of computational resources. To the noticeable exception of the hybrid RANS-LES modeling, which is not yet accepted as a reliable tool for industrial design, as mentioned in the preamble of the Go4hybrid European program <footnote id="uid20" id-text="6"><ref xlink:href="http://www.transport-research.info/web/projects/project_details.cfm?id=46810" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>transport-research.<allowbreak/>info/<allowbreak/>web/<allowbreak/>projects/<allowbreak/>project_details.<allowbreak/>cfm?id=46810</ref></footnote>, once chosen, a single turbulence model will (try to) do the job for modeling the whole flow. Thus, depending on its intrinsic strengths and weaknesses, the accuracy will be a rather volatile quantity strongly dependent on the flow configuration. The turbulence modeling and industrial design communities waver between the desire to continue to rely on the RANS approach, which is unrivaled in terms of computational cost, but is still not able to accurately represent all the complex phenomena; and the temptation to switch to LES, which outperforms RANS in many situations but is prohibitively expensive in high-Reynolds number wall-bounded flows. In order to account for the deficiencies of both approaches and to combine them for significantly improving the overall quality of the modeling, the hybrid RANS-LES approach has emerged during the last decade as a viable, intermediate way, and we are definitely inscribing our project in this innovative field of research, with an original approach though, connected with a time filtered hybrid RANS-LES and a systematic and progressive validation process against experimental data produced by the team.</p>
+        <object id="uid21">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/figure1.png" type="float" width="277.5474pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>A schematic view of the different nested steps for turbulent flow simulation: from DNS to hybrid RANS-LES. The approximate dates at which the different approaches are or will be routinely used in the industry are indicated in the boxes on the right (extrapolations based on the present rate of increase in computer performances).</caption>
+        </object>
+      </subsection>
+      <subsection id="uid22" level="2">
+        <bodyTitle>Computational fluid mechanics: high order discretization on unstructured meshes and efficient methods of solution</bodyTitle>
+        <p>All the methods considered in the project are mesh-based methods: the computational domain is divided into cells, that have an elementary shape:
+triangles and quadrangles in two dimensions, and tetrahedra, hexahedra, pyramids, and prisms in three dimensions. If the cells are only regular hexahedra, the mesh is said to be structured. Otherwise, it is said to be unstructured. If the mesh is composed of more than one sort of elementary shape, the mesh is said to be hybrid. In the project, the numerical strategy is based on discontinuous Galerkin methods. These methods were introduced by Reed and Hill <ref xlink:href="#cagire-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and first studied by Lesaint and Raviart <ref xlink:href="#cagire-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The extension to the Euler system with explicit time integration was mainly led by Shu, Cockburn and their collaborators. The steps of time integration and slope limiting were similar to high order ENO schemes,
+whereas specific constraints given by the finite element nature of the scheme were progressively solved, for scalar conservation laws <ref xlink:href="#cagire-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#cagire-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+one dimensional systems <ref xlink:href="#cagire-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, multidimensional scalar conservation laws <ref xlink:href="#cagire-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and multidimensional systems <ref xlink:href="#cagire-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. For the same system, we can
+also cite the work of <ref xlink:href="#cagire-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#cagire-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which is slightly different: the stabilization is made by adding a nonlinear term, and the time
+integration is implicit. Contrary to continuous Galerkin methods, the discretization of diffusive operators is not straightforward. This is due to the discontinuous
+approximation space, which does not fit well with the space function in which the diffusive system is well posed. A first stabilization was proposed by Arnold <ref xlink:href="#cagire-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The first application of discontinuous Galerkin methods to Navier-Stokes equations was proposed in <ref xlink:href="#cagire-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> by
+mean of a mixed formulation. Actually, this first attempt led to a non compact computation stencil, and was later proved to be not stable.
+A compactness improvement was made in <ref xlink:href="#cagire-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which was later analyzed, and proved to be stable in a more
+unified framework <ref xlink:href="#cagire-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The combination with the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>k</mi><mo>-</mo><mi>ω</mi></mrow></math></formula> RANS model was made in
+<ref xlink:href="#cagire-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. As far as Navier Stokes equations are concerned, we can also cite the work of <ref xlink:href="#cagire-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, in which the
+stabilization is closer to the one of <ref xlink:href="#cagire-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, the work of <ref xlink:href="#cagire-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> on local time stepping, or the first use of discontinuous
+Galerkin methods for direct numerical simulation of a turbulent channel flow done in <ref xlink:href="#cagire-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Discontinuous Galerkin methods are so popular because:</p>
+        <simplelist>
+          <li id="uid23">
+            <p noindent="true">They can be developed for any order of approximation.</p>
+          </li>
+          <li id="uid24">
+            <p noindent="true">The computational stencil of one given cell is limited to the cells with which it has a common face. This stencil does not
+depend on the order of approximation. This is a pro, compared for example with high order finite volumes, which require as more and more neighbors
+as the order increases.</p>
+          </li>
+          <li id="uid25">
+            <p noindent="true">They can be developed for any kind of mesh, structured, unstructured, but also for aggregated grids <ref xlink:href="#cagire-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This is a pro compared not only
+with finite differences schemes, which can be developed only on
+structured meshes, but also compared with continuous finite elements methods,
+for which the definition of the approximation basis is not clear on
+aggregated elements.</p>
+          </li>
+          <li id="uid26">
+            <p noindent="true"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-adaptivity is easier than with continuous finite elements, because
+neighboring elements having a different order are only weakly coupled.</p>
+          </li>
+          <li id="uid27">
+            <p noindent="true">Upwinding is as natural as for finite volumes methods, which is a
+benefit for hyperbolic problems.</p>
+          </li>
+          <li id="uid28">
+            <p noindent="true">As the formulation is weak, boundary conditions are naturally
+weakly formulated. This is a benefit compared with strong formulations,
+for example point centered formulation when a point is at the intersection
+of two kinds of boundary conditions.</p>
+          </li>
+        </simplelist>
+        <p>For concluding this section, there already exist numerical schemes based on the discontinuous Galerkin method which
+proved to be efficient for computing compressible viscous flows. Nevertheless, there remain many things to be improved, which include:
+efficient shock capturing methods for supersonic flows, high order discretization of curved boundaries, low Mach number behavior of
+these schemes and combination with second-moment RANS models.Another drawback of the discontinuous Galerkin methods is that they can be
+computationally costly, due to the accurate representation of the solution calling for a particular care
+of implementation for being efficient. We believe that this cost can be balanced by the strong memory locality of the method, which is an asset
+for porting on emerging many-core architectures.</p>
+      </subsection>
+      <subsection id="uid29" level="2">
+        <bodyTitle>Experimental fluid mechanics: a relevant tool for physical modeling and simulation development</bodyTitle>
+        <p>With the considerable and constant development of computer performance, many people were thinking at the turn of the 21st century that in the short term, CFD would replace experiments considered as too costly and not flexible enough. Simply flipping through scientific journals such as Journal of Fluid Mechanics, Combustion of Flame, Physics of Fluids or Journal of Computational Physics or through websites such that of Ercoftac <footnote id="uid30" id-text="7"><ref xlink:href="http://www.ercoftac.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ercoftac.<allowbreak/>org</ref></footnote> is sufficient to convince oneself that the recourse to experiments to provide either a quantitative description of complex phenomena or reference values for the assessment of the predictive capabilities of the physical modeling and of the related simulations is still necessary. The major change that can be noted though concerns the content of the interaction between experiments and CFD (understood in the broad sense). Indeed, LES or DNS assessment calls for the experimental determination of time and space turbulent scales as well as time resolved measurements and determination of single or multi-point statistical properties of the velocity field. Thus, the team methodology incorporates from the very beginning an experimental component that is operated in strong interaction with the physical modeling and the simulation activities.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Research directions</bodyTitle>
+      <subsection id="uid32" level="2">
+        <bodyTitle>Boundary conditions</bodyTitle>
+        <subsection id="uid33" level="3">
+          <bodyTitle>Generating synthetic turbulence</bodyTitle>
+          <p>A crucial point for any multi-scale simulation able to locally switch (in space or time) from a coarse level of turbulence description to a more refined one, is the enrichment of the solution by fluctuations as physically meaningful as possible. Basically, this issue is an extension of the problem of the generation of realistic inlet boundary conditions in DNS or LES of subsonic turbulent flows. In that respect, the method of anisotropic linear forcing (ALF) we have developed in collaboration with EDF proved very encouraging, by its efficiency, its generality and simplicity of implementation. So, it seems natural, on the one hand, to extend this approach to the compressible framework and then implement it in AeroSol. On the other hand, we shall concentrate (in cooperation with EDF R&amp;D in Chatou via a CIFRE PhD do be started next year) on the theoretical link between the local variations of the scale's description of turbulence (e.g. a sudden variations in the size of the time filter) and the intensity of the ALF forcing transiently applied to help in the development of missing scales of fluctuations.</p>
+        </subsection>
+        <subsection id="uid34" level="3">
+          <bodyTitle>Stable and non reflecting boundary conditions</bodyTitle>
+          <p>In aerodynamics, and especially for subsonic computations, handling inlet and
+outlet boundary conditions is a difficult issue. A lot of work has already been done for
+second order schemes for Navier Stokes equations, see
+<ref xlink:href="#cagire-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#cagire-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and the
+huge number of papers citing it.
+On the one hand, we believe that strong improvements
+are necessary with higher order schemes: indeed, the less dissipative the
+scheme is, the worse impact have the spurious reflections. For this,
+we will first concentrate on the linearized Navier-Stokes system, and analyze
+the boundary condition imposition in a discontinuous Galerkin framework
+with a similar approach as in <ref xlink:href="#cagire-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We will also try to extend the work of <ref xlink:href="#cagire-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which
+deals with Euler equations, to the Navier Stokes equations.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid35" level="2">
+        <bodyTitle>Turbulence models and model agility</bodyTitle>
+        <subsection id="uid36" level="3">
+          <bodyTitle>Extension of zero Mach models to the compressible system</bodyTitle>
+          <p>We shall develop in parallel our multi-scale turbulence modeling and the related adaptive numerical methods of AeroSol. Without prejudice to methods that will be on the podium in the future, a first step in this direction will be to extend to a compressible framework the continuous hybrid temporal RANS/LES models we have developed up to now in a Mach zero context.</p>
+        </subsection>
+        <subsection id="uid37" level="3">
+          <bodyTitle>Study of wall flows with and without mass or heat transfer at the wall: determination and validation of relevant criteria for hybrid turbulence models</bodyTitle>
+          <p>In the targeted application domains, the turbulence/wall interaction and the heat transfer at the fluid-solid interfaces are physical phenomena whose numerical prediction is at the heart of the concerns of our industrial partners. For instance, for a jet engine manufacturer, being able to properly design the configuration of the cooling of the walls of its engine combustion chamber in the presence of thermoacoustic instabilities is based on the proper identification and a thorough understanding of the major mechanisms that drive the dynamics of the parietal transfers.
+For our part, we will gradually use all our analysis and experimentation tools to actively participate in the improvement of the collective knowledge on such kind of transfers. The flow configurations dealt with by the beginning of the project will be those of subsonic single phase impacting jets or JICF with the possible presence of an interacting acoustic wave. The conjugate heat transfer at the wall will be also progressively tackled. The existing criteria of switching of the hybrid RANS/LES model will be tested on those flow configurations in order to determine their domain of validity. In parallel, the hydrodynamic instability modes of the JICF will be studied experimentally and theoretically (in cooperation with the SIAME laboratory) in order to determine if it is possible to drive a change of instability regime (e.g. from absolute to convective) and so propose challenging flow conditions that would be relevant for the setting-up of an hybrid LES/DNS approach aimed at supplementing the hybrid RANS/LES one.</p>
+        </subsection>
+        <subsection id="uid38" level="3">
+          <bodyTitle>Improvement of turbulence models</bodyTitle>
+          <p>The production and the subsequent use of DNS (AeroSol library) and experimental (bench MAVERIC) databases dedicated to the improvement of the physical models will be an important part of our activity. In that respect, our present capability of producing in-situ experimental data for simulation validation and flow analysis is clearly a strongly differentiating mark of our project. It is on the improvement of the hybrid RANS/LES approach that will focus most of our initial efforts of analysis of the DNS and experimental data as soon as they will become available. This method has a decisive advantage over all other hybrid RANS/LES approaches since it relies on a well defined time filtering formalism. This greatly facilitates the proper extraction from the databases of the various terms appearing in the relevant flux balances obtained at the different scales involved (e.g. from RANS to LES). But we would not be comprehensive in that matter if we were not questioning the relevance of any simulation-experiment comparisons. In other words, a central issue will also be to answer positively the following question: will we be comparing the same quantities between simulations and experiment? From an experimental point of view, the questions to be raised will be, among others, the possible difference in resolution between the experiment and the simulations, the similar location of the measurement points and simulation points, the acceptable level of random error associated to the necessary finite number of samples. In that respect, the recourse to uncertainty quantification techniques will be advantageously considered.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid39" level="2">
+        <bodyTitle>Development of an efficient implicit high-order compressible solver scalable on new architectures</bodyTitle>
+        <p>As the flows we wish to simulate may be very computationally demanding, we will
+maintain our efforts in the development of AeroSol in
+the following directions:</p>
+        <simplelist>
+          <li id="uid40">
+            <p noindent="true">Efficient implementation of the discontinuous Galerkin method.</p>
+          </li>
+          <li id="uid41">
+            <p noindent="true">Implicit methods based on Jacobian-Free-Newton-Krylov methods and
+multigrid.</p>
+          </li>
+          <li id="uid42">
+            <p noindent="true">Porting on heterogeneous architectures.</p>
+          </li>
+          <li id="uid43">
+            <p noindent="true">Implementation of models.</p>
+          </li>
+        </simplelist>
+        <subsection id="uid44" level="3">
+          <bodyTitle>Efficient implementation of the discontinuous Galerkin method</bodyTitle>
+          <p>In high order discontinuous Galerkin methods, the unknown vector is composed
+of a concatenation of the unknowns in the cells of the mesh.
+An explicit residual computation is composed of three loops: an integration
+loop on the cells, for which computations in two different cells are
+independent, an integration loop on boundary faces, in which
+computations depend on data of one cell and on the boundary conditions, and an
+integration loop on the interior faces, in which computations depend on data
+of the two neighboring cells. Each of these loops are composed of three steps:
+the first step consists in interpolating data at the quadrature points, the
+second step in computing a nonlinear flux at the quadrature points
+(the physical flux for the cell loop, an upwind flux for interior faces or a
+flux adapted to the kind of boundary condition for boundary faces), and the
+third step consists in projecting the nonlinear flux on the degrees of freedom.</p>
+          <p>In this research direction, we propose to exploit the strong memory
+locality of the method (i.e., the fact that all the unknowns of a cell are
+stocked contiguously). This formulation can reduce the linear steps of the
+method (interpolation on the quadrature points and projection on the degrees
+of freedom) to simple matrix-matrix product which can be optimized.
+For the nonlinear steps, composed of the computation of the physical flux on
+the cells and of the numerical flux on the faces, we will try to exploit
+vectorization.</p>
+        </subsection>
+        <subsection id="uid45" level="3">
+          <bodyTitle>Implicit methods based on Jacobian-Free-Newton-Krylov methods and multigrid</bodyTitle>
+          <p>For our computations of the IMPACT-AE project, we use an explicit time
+stepping. The time stepping is limited by the CFL condition, and in
+our flow, the time step is limited by the acoustic wave velocity. As the Mach
+number of the flow we simulate in IMPACT-AE is low, the acoustic time
+restriction is much lower than the turbulent time scale, which
+is driven by the velocity of the flow. We hope to have a better efficiency by
+using time implicit methods, for using a time step driven by the velocity of
+the flow.</p>
+          <p>Using implicit time stepping in compressible flows in particularly difficult,
+because the system is fully nonlinear, so that the nonlinear solving
+theoretically requires to build many times the Jacobian. Our experience in
+implicit methods is that the building of a Jacobian is very costly, especially
+in three dimensions and in a high order framework, because the optimization
+of the memory usage is very difficult. That is why we propose to use
+Jacobian free implementation, based on <ref xlink:href="#cagire-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This method consists
+in solving the linear steps of the Newton method by a Krylov method, which
+requires Jacobian-vector product. The smart idea of this method is to replace
+this product by an approximation based on a difference of residual, therefore
+avoiding any Jacobian computation. Nevertheless, Krylov methods are known
+to converge slowly, especially for the compressible system when the Mach number
+is low, because the system is ill-conditioned.
+In order to precondition, we propose to use
+an aggregation-based multigrid method, which consists in using the same
+numerical method on coarser meshes obtained by aggregation of the initial mesh.
+This choice is driven by the fact that multigrid methods are the only one to
+scale linearly <ref xlink:href="#cagire-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#cagire-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> with the number of
+unknowns in term of number of operations, and
+that this preconditioning does not require any Jacobian computation.</p>
+          <p>Beyond the technical aspects of the multigrid approach, which will be challenging
+to implement, we are also interested in the design of an efficient
+aggregation. This often means to perform an aggregation based on criteria
+(anisotropy of the problem, for example) <ref xlink:href="#cagire-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+For this, we propose to extend the scalar analysis of
+<ref xlink:href="#cagire-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> to a linearized version of the Euler and Navier-Stokes
+equations, and try to deduce an optimal strategy for anisotropic aggregation,
+based on the local characteristics of the flow. Note that discontinuous
+Galerkin methods are particularly well suited to h-p aggregation, as this
+kind of methods can be defined on any shape <ref xlink:href="#cagire-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </subsection>
+        <subsection id="uid46" level="3">
+          <bodyTitle>Porting on heterogeneous architectures</bodyTitle>
+          <p>Until the beginning of the 2000s, the computing capacities have been improved
+by interconnecting an increasing number of more and more powerful computing
+nodes. The computing capacity of each node was increased by improving the
+clock speed, the number of cores per processor, the introduction of a separate
+and dedicated memory bus per processor, but also the instruction level
+parallelism, and the size of the memory cache. Even if the number of
+transistors kept on growing up, the clock speed improvement has flattened
+since the mid 2000s <ref xlink:href="#cagire-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Already in 2003, <ref xlink:href="#cagire-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> pointed out the
+difficulties for efficiently using the biggest clusters:
+"While these super-clusters have theoretical peak performance in the Teraflops range, sustained performance with real
+applications is far from the peak. Salinas, one of the 2002 Gordon Bell Awards was able to sustain 1.16
+Tflops on ASCI White (less than 10% of peak)."
+From the current multi-core architectures, the trend is now to use many-core accelerators. The idea behind
+many-core is to use an accelerator composed of a lot of relatively slow and simplified cores for executing the
+most simple parts of the algorithm. The larger the part of the code executed on the accelerator, the faster the code may become.
+In this task, we will work on the heterogeneous aspects of computation. These heterogeneities are intrinsic to our computations and have two sources. The first one is the use of hybrid meshes, which are necessary for using a local structured mesh in a boundary layer. As the different cell shapes (pyramids, hexahedra, prisms and tetrahedra) do not have the same number of degrees of freedom, nor the same number of quadrature points, the execution time on one face or one cell depends on its shape. The second source of heterogeneity are the boundary conditions. Depending on the kind of boundary conditions, user defined boundary values might be needed, which induces a different computational cost. Heterogeneities are typically what may decrease efficiency in parallel if the workload is not well balanced between the cores. Note that heterogeneities were not dealt with in what we consider as one of the most advanced work on discontinuous Galerkin on GPU <ref xlink:href="#cagire-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, as only straight simplicial cell
+shapes were addressed. For managing at best our heterogeneous computations on heterogeneous architectures, we propose to use the execution runtime StarPU <ref xlink:href="#cagire-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. For this, the discontinuous Galerkin algorithm will be reformulated in term of a graph of tasks. The previous tasks on the memory management will be useful for that. The linear steps of the discontinuous Galerkin methods require also memory transfers, and one task of
+the project will consist in determining the optimal task granularity for this step, i.e. the number of cells or face integrations to be sent in parallel on the accelerator. On top of that, the question of which device is the most appropriate to tackle such kind of tasks will be discussed.</p>
+          <p>Last, we point out that the combination of shared-memory and distributed-memory
+parallel programming models is better suited than only the distributed-memory
+one for multigrid, because in a hybrid version, a wider part of the mesh
+shares the same memory, therefore allowing for a coarser aggregation.</p>
+          <p>The consortium will benefit from a particularly stimulating environment in
+the Inria Bordeaux Sud Ouest center around high performance computing,
+which is one of the strategic axis of the center.</p>
+        </subsection>
+        <subsection id="uid47" level="3">
+          <bodyTitle>Implementation of turbulence models in AeroSol and validation</bodyTitle>
+          <p>We will gradually insert models developed in research direction <ref xlink:href="#uid36" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> in the AeroSol library in which we develop methods for the DNS of compressible turbulent flows at low Mach number. Indeed, thanks to its formalism of temporal filtering, the HTLES approach offers a theoretical framework characterized by a continuous transition from RANS to DNS, even for complex flow configurations (e.g. without directions of spatial homogeneity). As for the discontinuous Galerkin method available presently in AeroSol, it is the best suited and versatile method able to meet the requirements of accuracy, stability and cost related to the local (varying) level of resolution of the turbulent flow at hand, regardless of its configuration complexity. This task is part of a the European project iHybrid, coordinated by TU Berlin, that we are currently writting in collaboration with two of our industrial partners, EDF and PSA.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid48" level="2">
+        <bodyTitle>Validation of the simulations: test flow configurations</bodyTitle>
+        <p>To supplement whenever necessary the test flow configuration of MAVERIC and apart from configurations that could emerge in the course of the project, the following configurations for which either experimental data, simulation data or both have been published will be used whenever relevant for benchmarking the quality of our agile computations:</p>
+        <simplelist>
+          <li id="uid49">
+            <p noindent="true">The impinging turbulent jet (simulations).</p>
+          </li>
+          <li id="uid50">
+            <p noindent="true">The ORACLES two-channel dump combustor developed in the European projects LES4LPP and MOLECULES.</p>
+          </li>
+          <li id="uid51">
+            <p noindent="true">The non reactive single-phase PRECCINSTA burner (monophasic swirler), a configuration that has been extensively calculated in particular with the AVBP and Yales2 codes.</p>
+          </li>
+          <li id="uid52">
+            <p noindent="true">The LEMCOTEC configuration (monophasic swirler + effusion cooling).</p>
+          </li>
+          <li id="uid53">
+            <p noindent="true">The ONERA MERCATO two-phase injector configuration provided the question of confidentiality of the data is not an obstacle.</p>
+          </li>
+          <li id="uid54">
+            <p noindent="true">Rotating turbulent flows with wall interaction and heat transfer.</p>
+          </li>
+          <li id="uid55">
+            <p noindent="true">Turbulent flows with buoyancy.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </fondements>
+  <domaine id="uid56">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Aeronautical combustion chambers</bodyTitle>
+      <p>The combustion chamber of aeronautical engines is the system of practical interest we are interested in as far as propulsion devices are concerned. The MAVERIC test facility presented in Fig. <ref xlink:href="#uid58" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> was developed by P. Bruel during the theses (CIFRE Turbomeca) of A. Most (2007) and J.-L. Florenciano (2013). The initial objective was to reproduce experimentally a simplified flow configuration (jet(s) in crossflow) representative of that encountered at the level of the effusion cooled aeronautical combustion chambers walls. The experimental data were used by Safran/Turbomeca to assess the predictive capability of LES simulations during our joint participation in the EU-FP7 KIAI program (2009-2013). Concerning DNS, the jet in crossflow configurations of our AeroSol based simulations which represent our contribution to the EU IMPACT-AE program (2011-2016) were chosen in partnership with Turbomeca who is leading the corresponding work package. On the side of turbulence modelling, in the just-started EU-SOPRANO program (2016-2020), the RANS and possibly hybrid RANS-LES models developed in CAGIRE will be compared to experimental data provided by ONERA, in order to validate their ability to represent the turbulent mixing and heat transfer in effusion cooled walls of combustion chambers, and used to study the influence of various parameters, in order to develop approximate boundary conditions for industrial computations. Last but not least, tests aimed at demonstrating the feasibility of characterizing in situ by PIV the velocity field of flows emerging from different kinds of fuel nozzles were carried out at the Turbomeca premises in 2012 and 2013. Although our main present industrial partners are large companies, we are and will be actively targeting much smaller companies (SMEs) especially in the southwest part of France. In that respect, the partnership we just started with AD Industries which is manufacturing fuel nozzles as well as combustion chambers for business jet engines is emblematic of our involvement in such kind of partnership.</p>
+      <object id="uid58">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/figure2.png" type="float" width="277.5474pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Overview of the Cagire test facility MAVERIC.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Power stations</bodyTitle>
+      <p>The cooling of key components of power stations in case of emergency stops is a critical issue.
+R. Manceau has established a long term collaboration (4 PhD thesis) with the R &amp; D center of EDF of Chatou, for the development of refined turbulence models in the in-house CFD code of EDF, Code_Saturne, in order to improve the physical description of the complex interaction phenomena involved in such applications.
+In the framework of the co-supervision of the PhD thesis (CIFRE EDF) of J.-F. Wald, defended in 2016, strategies are developed to adapt the EB-RSM turbulence model to a local modification of the scale of description of the flow in the near-wall region: refined scale (fine mesh in the near-wall region) or coarse scale (with wall functions). Indeed, the complexity of the industrial geometries is such that a fine mesh along solid boundaries in the whole system is usually not possible/desirable. This project will be pursued through the CIFRE PhD thesis of Gaetan Mangeon that will start in early 2017, dedicated to the extension of these wall functions to conjugate heat transfer and mixed/natural convection.
+</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid60">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>
+        <big>
+          <b>From Cagire to ... Cagire !</b>
+        </big>
+      </p>
+      <p>Last April 2016, after near five years of existence and a 1-year preparation/evaluation process of the new project, the common team Cagire (<b>C</b>omputational <b>A</b>pproximation with discontinuous <b>G</b>alerk<b>I</b>n methods and compa<b>R</b>ison with <b>E</b>xperiments) died and was reborn as the common <b>project</b> team Cagire (<b>C</b>omputational <b>AG</b>ility for internal flows s<b>I</b>mulations and compa<b>R</b>isons with <b>E</b>xperiments) with the much broader scope presented above.</p>
+      <p>
+        <big>
+          <b>A first step towards the dissemination of the AeroSol library</b>
+        </big>
+      </p>
+      <p>A deposit procedure of the AeroSol library (around 78000 lines of C++) with APP <footnote id="uid62" id-text="8"><ref xlink:href="http://www.app.asso.fr/en/welcome.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>app.<allowbreak/>asso.<allowbreak/>fr/<allowbreak/>en/<allowbreak/>welcome.<allowbreak/>html</ref></footnote> has been finalized in 2016. This will protect the library authors' rights and will open the possibility of disseminating the library in a sound way.</p>
+      <p>
+        <big>
+          <b>Launching of a long-term collaboration with a new industrial partner, PSA</b>
+        </big>
+      </p>
+      <p>In January 2016, we have been contacted by the R &amp; D department of the PSA Group (Peugeot Citroën Automobile SA) in order to elaborate a long-term, 10-year project on the modelling and simulation of the turbulent flow in the under-hood space of road vehicles, in the framework of their <i>Full Digital 2025 Ambition</i>, i.e, their plan to switch to a design of future vehicles entirely based on simulation. In order to overcome the technological barrier of the prediction of the natural convection regime, a long-term collaboration program has been established, starting with an internship (Saad Jameel), defended in September 2016, a CIFRE PhD (same student), going to start in February 2017, and the deposit of the ANR PRCE project MONACO-2025, coordinated by R. Manceau, involving the institute PPrime of Poitiers, PSA and EDF.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid63">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid64" level="1">
+      <bodyTitle>AeroSol</bodyTitle>
+      <participants>
+        <person key="cagire-2014-idp73064">
+          <firstname>Simon</firstname>
+          <lastname>Delmas</lastname>
+          <moreinfo>Université de Bordeaux</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Sébastien</firstname>
+          <lastname>de Brye</lastname>
+          <moreinfo>Université de Bordeaux</moreinfo>
+        </person>
+        <person key="cagire-2014-idp65488">
+          <firstname>Benjamin</firstname>
+          <lastname>Lux</lastname>
+          <moreinfo>Cagire</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Nikolaos</firstname>
+          <lastname>Pattakos</lastname>
+          <moreinfo>Cardamom</moreinfo>
+        </person>
+        <person key="cagire-2014-idm27664">
+          <firstname>Vincent</firstname>
+          <lastname>Perrier</lastname>
+          <moreinfo>Cagire, correspondent</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Mario</firstname>
+          <lastname>Ricchiuto</lastname>
+          <moreinfo>Cardamom</moreinfo>
+        </person>
+      </participants>
+      <p>Developed since 2011 by V. Perrier in partnership with the Cardamom Inria team, the AeroSol library is a high order finite element library written in C++. The code design has been carried for being able to perform efficient computations, with continuous and discontinuous finite element methods on hybrid and possibly curvilinear meshes.
+The work of the Cardamom team is focused on continuous finite element methods, while we focus on discontinuous Galerkin methods. However, everything
+is done for sharing the largest possible
+part of code. The distribution of
+the unknowns is made with the software PaMPA,
+first developed within the Inria teams Bacchus and Castor, and currently
+maintained in the Tadaam team.</p>
+      <p>The generic features of the library are
+Adaptive wall treatment for a second moment closure in the industrial context</p>
+      <simplelist>
+        <li id="uid65">
+          <p noindent="true"><b>High order</b>. It can be theoretically any order of accuracy, but
+the finite element basis, and quadrature formula are implemented for having
+up to a fifth order of accuracy.</p>
+        </li>
+        <li id="uid66">
+          <p noindent="true"><b>Hybrid and curvilinear meshes</b>. AeroSol can deal with
+up to fifth order conformal meshes composed of lines, triangles, quadrangles,
+tetrahedra, hexahedra, prism, and pyramids.</p>
+        </li>
+        <li id="uid67">
+          <p noindent="true"><b>Continuous and discontinuous discretization</b>. AeroSol deals
+with both continuous and discontinuous finite element methods.</p>
+        </li>
+      </simplelist>
+      <p>We would like to emphasize three assets of this library:</p>
+      <simplelist>
+        <li id="uid68">
+          <p noindent="true"><b>Its development environment</b> For allowing a good collaborative work and a functional library, a strong emphasis has been put on the use of modern
+collaborative tools for developing our software. This includes the active use
+of a repository, the use of CMake for the compilation, the constant
+development of unitary and functional tests for all the parts of the library
+(using CTest),
+and the use of the continuous integration tool Jenkins for testing the
+different configurations of AeroSol and its dependencies. Efficiency is
+regularly tested with direct interfacing with the PAPI library or with
+tools like scalasca.</p>
+        </li>
+        <li id="uid69">
+          <p noindent="true"><b>Its genericity</b> A lot of classes are common to all the
+discretization, for example classes concerning I/O, finite element functions,
+quadrature, geometry, time integration, linear solver, models and interface
+with PaMPA. Adding simple features (e.g. models, numerical flux, finite element
+basis or quadrature formula) can be easily done by writing the class, and
+declaring its use in only one class of the code.</p>
+        </li>
+        <li id="uid70">
+          <p noindent="true"><b>Its efficiency</b> This modularity is achieved by means
+of template abstraction for keeping good performances. Dedicated efficient
+implementation, based on the data locality of the discontinuous Galerkin
+method has been developed. As far as parallelism is concerned, we use
+point-to-point communications, the HDF5 library for parallel I/O. The behavior of
+the AeroSol library at medium scale (1000 to 2000 cores) was studied in
+<ref xlink:href="#cagire-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+        </li>
+      </simplelist>
+      <p>The AeroSol project fits with the first axis of the Bordeaux Sud Ouest development strategy, which is to build a coherent software suite scalable and efficient on new architectures, as the AeroSol library relies on several tools developed in other Inria teams, especially for the
+management of the parallel aspects. At the end of 2015, AeroSol had the following features:</p>
+      <simplelist>
+        <li id="uid71">
+          <p noindent="true"><b>Boundary conditions</b> Periodic boundary conditions, time-dependent
+inlet and outlet boundary conditions. Adiabatic wall and isothermal wall.
+Steger-Warming based boundary condition. Synthetic Eddy Method for generating turbulence.</p>
+        </li>
+        <li id="uid72">
+          <p noindent="true"><b>C++/Fortran interface</b> Tests for binding fortran with C++.</p>
+        </li>
+        <li id="uid73">
+          <p noindent="true"><b>Development environment</b>
+An upgraded use of CMake for compilation (gcc, icc and xlc),
+CTest for automatic tests and memory checking,
+lcov and gcov for code coverage reports. A CDash server for collecting the unitary tests and the memory checking.
+An under development interface for functional tests.
+Optional linking with HDF5, PAPI, with dense small matrices libraries (BLAS, Eigen).
+An updated shared project Plafrim and joint project Aerosol/Scotch/PaMPA project on the continuous integration platform. An on-going integration of SPack for handling dependencies. A fixed ESSL interface.</p>
+        </li>
+        <li id="uid74">
+          <p noindent="true"><b>Finite elements</b> up to fourth degree for Lagrange finite elements and hierarchical orthogonal finite element basis (with Dubiner transform on simplices) on lines, triangles, quadrangles, tetrahedra, prisms, hexaedra and pyramids. Finite element basis that are interpolation basis on Gauss-Legendre points for lines, quadrangles, and hexaedra, and triangle (only 1st and 2nd order).</p>
+        </li>
+        <li id="uid75">
+          <p noindent="true"><b>Geometry</b> Elementary geometrical functions for first order lines, triangles, quadrangles, prisms, tetrahedra, hexaedra and pyramids. Handling of high order meshes.</p>
+        </li>
+        <li id="uid76">
+          <p noindent="true"><b>In/Out</b>
+Link with the XML library for handling with parameter files. Parallel reader
+for GMSH, with an embedded geometrical pre-partitioner.
+Writer on the VTK-ASCII legacy format (cell and point centered). Parallel output in vtu and pvtu (Paraview) for cell-centered visualization, and XDMF/HDF5 format for both cell and point centered visualization. Ability of saving the high order solution and restarting from it. Computation of volumic and probe statistics. Ability of saving averaged layer data in quad and hexa meshes. Ability of defining user defined output visualization variables.</p>
+        </li>
+        <li id="uid77">
+          <p noindent="true"><b>Instrumentation</b> Aerosol can give some traces on memory consumption/problems with an interfacing with the PAPI library. Tests have also been performed with VTUNE and TAU. Tests with Maqao and Scalasca (VIHPS workshop).</p>
+        </li>
+        <li id="uid78">
+          <p noindent="true"><b>Linear Solvers</b> Link with the external linear solver UMFPack, PETSc and MUMPS. Internal solver for diagonal and block-diagonal matrices.</p>
+        </li>
+        <li id="uid79">
+          <p noindent="true"><b>Memory handling</b> discontinuous and continuous, sequential and parallel discretizations
+based on PaMPA for generic meshes, including hybrid meshes.</p>
+        </li>
+        <li id="uid80">
+          <p noindent="true"><b>Models</b> Perfect gas Euler system, real gas Euler system (template based abstraction for a generic equation of state), scalar
+advection, Waves equation in first order formulation, generic interface for defining space-time models from space models.
+Diffusive models: isotropic and anisotropic diffusion, compressible Navier-Stokes. Scalar advection-diffusion model. Linearized Euler equations, and Sutherland model for non isothermal diffusive flows. Shallow-water model.</p>
+        </li>
+        <li id="uid81">
+          <p noindent="true"><b>Multigrid</b> Development of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-multigrid methods. This includes also the possibility of beginning a computation with an order and to decrease or increase the order of approximation when restarting. For the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula> multigrid methods, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>V</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>W</mi></math></formula> cycle have been developed, and restriction and prolongation opertors have also been developed. In progress implementation of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>h</mi></math></formula>-multigrid, with the development of tests of the aggregation methods of PaMPA, and the definition of finite element basis on arbitrary cells.</p>
+        </li>
+        <li id="uid82">
+          <p noindent="true"><b>Numerical fluxes</b> Centered fluxes, exact Godunov' flux for linear hyperbolic systems, and Lax-Friedrich flux. Riemann solvers for Low Mach flows. Numerical flux accurate for steady and unsteady computations.</p>
+        </li>
+        <li id="uid83">
+          <p noindent="true"><b>Numerical schemes</b> Continuous Galerkin method for the Laplace problem (up to fifth order) with non consistent time iteration or with direct matrix inversion.
+Explicit and implicit discontinuous Galerkin methods for hyperbolic systems, diffusive and advection-diffusion problems. In progress optimization by stocking the geometry for advection problems. SUPG and Residual distribution schemes. Optimization of DG schemes for
+advection-diffusion problems: stocking of the geometry and use of BLAS for all the linear phases of the scheme.</p>
+        </li>
+        <li id="uid84">
+          <p noindent="true"><b>Parallel computing</b> Mesh redistribution, computation of Overlap with PaMPA. Collective asynchronous communications (PaMPA based). Asynchronous point to point communications. Tests on the cluster Avakas from MCIA, and on Mésocentre de Marseille, and PlaFRIM. Tier-1 Turing (BlueGene). Weighted load balancing for hybrid meshes.</p>
+        </li>
+        <li id="uid85">
+          <p noindent="true"><b>Postprocessing</b> High order projections over line postprocessing, possibility of stocking averaged data, such as the average flow and the Reynolds stresses.</p>
+        </li>
+        <li id="uid86">
+          <p noindent="true"><b>Quadrature formula</b> up to 11th order for Lines, Quadrangles, Hexaedra, Pyramids, Prisms, up to 14th order for tetrahedron, up to 21st order for triangles. Gauss-Lobatto type quadrature formula for lines, triangles, quadrangles and hexaedra.</p>
+        </li>
+        <li id="uid87">
+          <p noindent="true"><b>Time iteration</b> explicit Runge-Kutta up to fourth order, explicit
+Strong Stability Preserving schemes up to third order. Optimized CFL time schemes: SSP(2,3) and SSP(3,4). CFL time stepping. Implicit integration with BDF schemes from 2nd to 6th order Newton method for stationary problems. Implicit unstationary time iterator non consistent in time for stationary problems. Implementation of in house GMRES and conjugate gradient based on Jacobian free iterations.</p>
+        </li>
+        <li id="uid88">
+          <p noindent="true"><b>Validation </b> Poiseuille, Taylor-Green vortex. Laplace equation on a ring and Poiseuille flow on a ring. Volumic forcing
+based on wall dissipation.Turbulent channel flow.</p>
+        </li>
+      </simplelist>
+      <p>In 2016, the following features have been added:</p>
+      <simplelist>
+        <li id="uid89">
+          <p noindent="true">Geometric multigrid methods: aggregation of the mesh based on
+PaMPA, definition of finite element basis on arbitrary
+shape cells. Definition of geometry, quadratures and
+numerical schemes on aggregated finite elements.</p>
+        </li>
+        <li id="uid90">
+          <p noindent="true">Sutherland law in the Navier-Stokes equations.</p>
+        </li>
+        <li id="uid91">
+          <p noindent="true">Mass matrix free implementation of discontinuous Galerkin
+methods.</p>
+        </li>
+        <li id="uid92">
+          <p noindent="true">Improvement of installation documentation. Spack based
+installation.</p>
+        </li>
+        <li id="uid93">
+          <p noindent="true">Implementation of Boussinesq type models and Shallow water
+discretizations with well balancing, positivity preserving,
+wet-dry handling, limiters based on entropy viscosity,</p>
+        </li>
+        <li id="uid94">
+          <p noindent="true">Implementation of Barotropic Euler equations</p>
+        </li>
+        <li id="uid95">
+          <p noindent="true">Implementation of Taylor-based basis on simplices.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid96">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid97" level="1">
+      <bodyTitle>Heat transfer for effusion flows</bodyTitle>
+      <p>The conjugate heat-transfer problem of a flow around a multi-
+perforated plate under realistic conditions has been addressed by
+the coupling of the LES-AVBP solver for the flow and the AVTP for
+solving the heat equation in the solid. A description of the topology
+of the heat exchange has been realized for the aspiration and injection sides of the walls as well as in the inner side of the holes.
+This work highlights the potential of such a fluid-solid coupling strategy in
+the description of the heat exchange distribution for combustor
+liners. Different analytical expressions have been assessed for each
+category of exchange surface.<ref xlink:href="#cagire-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+</p>
+    </subsection>
+    <subsection id="uid98" level="1">
+      <bodyTitle>All-Mach numerical fluxes</bodyTitle>
+      <p>This study was split into three self-consistent parts. In the first one, the low Mach number problem through a linear analysis of a perturbed linear wave equation was defined and analyzed. Then, we show how to modify Godunov type schemes applied to the linear wave equation to make this scheme accurate at any Mach number. This allows to define an all Mach correction and to propose a linear all Mach Godunov scheme for the linear wave equation. In the second one, we apply the all Mach correction proposed previously to the case of the non-linear barotropic Euler system when the Godunov type scheme is a Roe scheme. A linear stability result is proposed and a formal asymptotic analysis justifies the construction in this non-linear case by showing how this construction is related with the linear analysis. At last, we apply the all Mach correction to the case of the full Euler compressible system. Numerous numerical results justify the theoretical results and show that the obtained all Mach Godunov type schemes are both accurate and stable for all Mach numbers. We also underline that the proposed approach can be applied to other schemes and allows to justify other existing all Mach schemes.
+</p>
+    </subsection>
+    <subsection id="uid99" level="1">
+      <bodyTitle>Extension and validation of the EB-RSM model</bodyTitle>
+      <p>The EB-RSM RANS turbulence model, an innovative model based on second moment closure, has been developed for almost 15 years and is now gradually deployed in the industrial practise. It is already implemented in several industrial codes (Code_Saturne, StarCCM+, EZNSS), as well as the open-source code OpenFOAM. In collaboration with industrial partners, the model is now being confronted to more and more complex industrial configurations: Wall-cooling using impinging jets; Measurement/control of head losses in pipes or injectors via local restrictions of the section (diaphragms); Turbine blade cooling by pin matrices; Control of boundary layer separation by local blowing to exploit the Coanda effect; Wing-tip vortices around airfoils representative of the spoilers of Formula One racing cars; Open-water propeller. All these results confirm the interest of the model compared to well-established models, and its numerical robustness.</p>
+    </subsection>
+    <subsection id="uid100" level="1">
+      <bodyTitle>Creation of a database of a direct numerical simulation of a jet in cross flow with and without gyration and with non isothermal flows</bodyTitle>
+      <p>This year, we performed the direct numerical simulation of a jet in cross flow
+without gyration and with a 90° skidding with respect to the cross flow, and
+with a cross flow 800 Kelvin hotter than the jet.
+The Sutherland law was implemented for accounting for viscous effects in the
+non isothermal case and was validated. Then direct numerical simulations
+have been performed, by using synthetic eddy methods for inlet
+boundary conditions. Third order discretization was used. A limiter on the
+density was also used for damping oscillations in strong shear layers, which in
+this case include both large density and velocity gradients.</p>
+      <p>The database contains the mean flow at all points, the Reynolds
+tensor at the degrees of freedom, and the time dependent data at some probes.</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid101">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid102" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid103">
+          <p noindent="true">Collaborative research contract with EDF (UPPA): “Nouveau modèle de turbulence Haut-Bas Reynolds avec prise en compte
+de la thermique active ou passive. (New high-low Reynolds number turbulence model accounting for active or passive heat transfer)” associated with the PhD thesis of J.-F. Wald.</p>
+        </li>
+        <li id="uid104">
+          <p noindent="true">Collaboration contract “OpenLab Fluidics” with PSA (CNRS-UPPA): “Simulation numérique d'écoulements de convection naturelle typique des situations rencontrées dans l'espace sous-capot des véhicules automobiles”.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid105" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid106">
+          <p noindent="true">PhD grant (CIFRE) of J.-F. Wald, EDF, defended in May 2016.</p>
+        </li>
+        <li id="uid107">
+          <p noindent="true">Internship grant of S. Jameel, PSA, defended in September 2016.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid108">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid109" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid110" level="2">
+        <bodyTitle>Predicting pressure losses in aeronautical fuel injectors</bodyTitle>
+        <p>This is a 3-year programme, started mid-2015 and funded by Conseil Régional d'Aquitaine (2014 Call) and two small-size companies, AD Industrie (Gurmençon, France) and GDTECH (Bordes, France). The objective is to investigate the possibility of using advanced RANS or hybrid RANS-LES approaches to better predict the pressure losses in aeronautical fuel nozzles. A one-year post-doc [YM] (ending in May 2016) assessed the capability of EBRSM-based RANS simulations to predict the discharge coefficient and the pressure loss of a fluid flowing through a diaphragm <ref xlink:href="#cagire-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid111" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid112" level="2">
+        <bodyTitle>GIS Success</bodyTitle>
+        <p>We are members of the CNRS GIS Success (Groupement
+d'Intérêt Scientifique) organised around two of the major CFD codes employed by the Safran group, namely AVBP and Yales 2. No specific technical activity has been devoted around those codes during 2016 to the noticeable exception of the post-processing and the publication of results previously obtained with AVBP <ref xlink:href="#cagire-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid113" level="2">
+        <bodyTitle>CEMRACS 2016</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Mohamed</firstname>
+            <lastname>Essadki</lastname>
+            <moreinfo>PhD student, ECP</moreinfo>
+          </person>
+          <person key="cagire-2015-idp15024">
+            <firstname>Jonathan</firstname>
+            <lastname>Jung</lastname>
+            <moreinfo>UPPA, Cagire</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Adam</firstname>
+            <lastname>Larat</lastname>
+            <moreinfo>CNRS, ECP</moreinfo>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Milan</firstname>
+            <lastname>Peltier</lastname>
+            <moreinfo>PhD student, ECP</moreinfo>
+          </person>
+          <person key="cagire-2014-idm27664">
+            <firstname>Vincent</firstname>
+            <lastname>Perrier</lastname>
+            <moreinfo>Inria, Cagire</moreinfo>
+          </person>
+        </participants>
+        <p>The assessment of the use of a runtime (StarPU) in the context of the recourse to high order method has been at the origin of a joint project called Hodin (High Order DIscontinuous methods with ruNtime) started during CEMRACS 2016. As a first step, a low-order finite volume code has been written using a task driven implementation. This step was necessary to get acquainted with the specficities of StarPU. Then a DG based high order sequel of that FV program running only on CPU's has been developed and will serve as a basis for the progressive adaptation of AeroSol to such a kind of runtime.</p>
+      </subsection>
+      <subsection id="uid114" level="2">
+        <bodyTitle>CDMATH</bodyTitle>
+        <p>Participation in the CNRS-Needs funded action <footnote id="uid115" id-text="9"><ref xlink:href="http://cdmath.jimdo.com" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cdmath.<allowbreak/>jimdo.<allowbreak/>com</ref></footnote> which is aimed at applying mathematics to hydraulic problems. [JJ]
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid116" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid117" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid118" level="3">
+          <bodyTitle>IMPACT-AE</bodyTitle>
+          <participants>
+            <person key="cagire-2014-idm27664">
+              <firstname>Vincent</firstname>
+              <lastname>Perrier</lastname>
+              <moreinfo>responsible of the team contribution</moreinfo>
+            </person>
+            <person key="cagire-2014-idm30568">
+              <firstname>Pascal</firstname>
+              <lastname>Bruel</lastname>
+              <moreinfo>substitute</moreinfo>
+            </person>
+            <person key="cagire-2014-idp73064">
+              <firstname>Simon</firstname>
+              <lastname>Delmas</lastname>
+              <moreinfo>PhD</moreinfo>
+            </person>
+          </participants>
+          <sanspuceslist>
+            <li id="uid119">
+              <p noindent="true">Program: Propulsion</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">Project acronym: IMPACT-AE</p>
+            </li>
+            <li id="uid121">
+              <p noindent="true">Project title: Intelligent Design Methodologies for Low Pollutant Combustors for Aero-Engines</p>
+            </li>
+            <li id="uid122">
+              <p noindent="true">Duration: 01/11/2011 - 31/05/2016</p>
+            </li>
+            <li id="uid123">
+              <p noindent="true">Coordinator: Roll Royce Deutschland</p>
+            </li>
+            <li id="uid124">
+              <p noindent="true">Other partners:</p>
+              <simplelist>
+                <li id="uid125">
+                  <p noindent="true">France: Insa of Rouen, ONERA, Snecma, Turbomeca.</p>
+                </li>
+                <li id="uid126">
+                  <p noindent="true">Germany: Rolls-Royce Deutschland, MTU Aeo Engine Gmbh, DLR, Technology Institute of Karlsruhe, University of Bundeswehr (Munich)</p>
+                </li>
+                <li id="uid127">
+                  <p noindent="true">Italy: AVIOPROP SRL, AVIO S.P.A., University of Florence</p>
+                </li>
+                <li id="uid128">
+                  <p noindent="true">United Kingdom: Rolls Royce PLC, Cambridge University, Imperial College of Science, Technology and Medecine, Loughborough University.</p>
+                </li>
+              </simplelist>
+            </li>
+            <li id="uid129">
+              <p noindent="true">Abstract: The environmental benefits of low emission lean burn technology in reducing NOx emissions up to 80% will only be effective when these are deployed to a large range of new aero-engine applications. While integrating methodologies for advanced engine architectures and thermodynamic cycles. It will support European engine manufacturers to pick up and keep pace with the US competitors, being already able to exploit their new low emission combustion technology to various engine applications with short turn-around times. Key element of
+the project will be the development and validation of design methods for low emission combustors to reduce
+NOx and CO emissions by an optimization of the combustor aero-design process. Preliminary combustor design
+tools will be coupled with advanced parametrisation and automation tools. Improved heat transfer and NOx
+models will increase the accuracy of the numerical prediction. The contribution of our team is to create with AeroSol a direct numerical simulations (DNS) database relevant to the configuration of film cooling for subsequent improvement of RANS based simulations of isothermal and non isothermal wall flows with discrete mass transfer.</p>
+            </li>
+            <li id="uid130">
+              <p noindent="true">This program ended in May 2016 and the two final deliverables due by the team and devoted to the DNS of isothermal and non isothermal single jets in crossflow with and without gyration were issued in April and May 2016.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid131" level="3">
+          <bodyTitle>SOPRANO</bodyTitle>
+          <participants>
+            <person key="cagire-2014-idm29096">
+              <firstname>Rémi</firstname>
+              <lastname>Manceau</lastname>
+              <moreinfo>co-responsible for the team contribution</moreinfo>
+            </person>
+            <person key="cagire-2014-idm30568">
+              <firstname>Pascal</firstname>
+              <lastname>Bruel</lastname>
+              <moreinfo>co-responsible for the team contribution</moreinfo>
+            </person>
+            <person key="PASUSERID">
+              <firstname>?</firstname>
+              <lastname>?</lastname>
+              <moreinfo>Post doc starting in 2018</moreinfo>
+            </person>
+          </participants>
+          <sanspuceslist>
+            <li id="uid132">
+              <p noindent="true">Topic: MG-1.2-2015 - Enhancing resource efficiency of aviation</p>
+            </li>
+            <li id="uid133">
+              <p noindent="true">Project acronym: SOPRANO</p>
+            </li>
+            <li id="uid134">
+              <p noindent="true">Project title: Soot Processes and Radiation in Aeronautical
+inNOvative combustors</p>
+            </li>
+            <li id="uid135">
+              <p noindent="true">Duration: 01/09/2016 - 31/08/2020</p>
+            </li>
+            <li id="uid136">
+              <p noindent="true">Coordinator: SAFRAN</p>
+            </li>
+            <li id="uid137">
+              <p noindent="true">Other partners:</p>
+              <simplelist>
+                <li id="uid138">
+                  <p noindent="true">France: CNRS, CERFACS, INSA Rouen, SAFRAN SA, Snecma SAS, Turbomeca SA.</p>
+                </li>
+                <li id="uid139">
+                  <p noindent="true">Germany: DLR, GE-DE Gmbh, KIT, MTU, RRD,</p>
+                </li>
+                <li id="uid140">
+                  <p noindent="true">Italy: GE AVIO SRL, University of Florence</p>
+                </li>
+                <li id="uid141">
+                  <p noindent="true">United Kingdom: Rolls Royce PLC, Imperial College of Science, Technology and Medecine, Loughborough University.</p>
+                </li>
+              </simplelist>
+            </li>
+            <li id="uid142">
+              <p noindent="true">Abstract:
+For decades, most of the aviation research activities have been focused on the reduction of noise and NOx and
+CO2 emissions. However, emissions from aircraft gas turbine engines of non-volatile PM, consisting primarily of
+soot particles, are of international concern today. Despite the lack of knowledge toward soot formation processes
+and characterization in terms of mass and size, engine manufacturers have now to deal with both gas and particles
+emissions. Furthermore, heat transfer understanding, that is also influenced by soot radiation, is an important matter
+for the improvement of the combustor’s durability, as the key point when dealing with low-emissions combustor
+architectures is to adjust the air flow split between the injection system and the combustor’s walls. The SOPRANO
+initiative consequently aims at providing new elements of knowledge, analysis and improved design tools, opening the
+way to:
+• Alternative designs of combustion systems for future aircrafts that will enter into service after 2025 capable of
+simultaneously reducing gaseous pollutants and particles,
+• Improved liner lifetime assessment methods.
+Therefore, the SOPRANO project will deliver more accurate experimental and numerical methodologies for
+predicting the soot emissions in academic or semi-technical combustion systems. This will contribute to enhance
+the comprehension of soot particles formation and their impact on heat transfer through radiation. In parallel, the
+durability of cooling liner materials, related to the walls air flow rate, will be addressed by heat transfer measurements
+and predictions. Finally, the expected contribution of SOPRANO is to apply these developments in order to determine
+the main promising concepts, in the framework of current low-NOx technologies, able to control the emitted soot
+particles in terms of mass and size over a large range of operating conditions without compromising combustor’s liner
+durability and performance toward NOx emissions.</p>
+            </li>
+            <li id="uid143">
+              <p noindent="true">In the SOPRANO project, our objective is to complement the experimental (ONERA)
+and LES (CERFACS) work by RANS computations of multiperforated plates, in order to build a database making
+possible a parametric study of mass, momentum and heat transfer through the plate and the development of
+multi-parameter-dependent equivalent boundary conditions.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid144" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid145" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid146" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <li id="uid147">
+            <p noindent="true">Collaboration with E. Dick (University of Ghent, Belgium) on the development of schemes for the simulation of
+unsteady all-Mach flows. [PB,YM]</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">Collaboration with A. Beketaeva and A. Naïmanova (Institute of Mathematics, Almaty, Kazakhstan) related to the simulation of supersonic flows.[PB]</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">Collaboration with S. Dellacherie (Montréal Polytechnic Institute, Canada) related to all-Mach flow simulations. [JJ]</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">Collaboration with S. Lardeau (CD-Adapco, Londres, UK) on the EB-RSM model for industrial applications. [RM]</p>
+          </li>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid151" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid152" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid153">
+            <p noindent="true">Prof. Sergio Elaskar (Conicet and University National of Cordoba, Argentina) visited LMAP-Cagire for a 3-week stay from October 17 to
+November 5, 2016. Common subjects of interest were identified regarding intermittency, unsteady boundary conditions for low Mach flow and
+future use of AeroSol.</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">Alireza Mazaheri (Nasa, Langley, USA) Hyperbolic discretization of nonlinear diffusive terms for Navier Stokes equations.</p>
+          </li>
+        </simplelist>
+        <subsection id="uid155" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <simplelist>
+            <li id="uid156">
+              <p noindent="true">Nicolas Hernandez from Technical University S. Maria (Chile). The objective of the stay was to compare velocity measured by LDV and
+PIV. When applied to MAVERIC, the results of
+this analysis show that to improve the coherence between LDV and PIV, an increase in the pixel size of the PIV
+image of particles should be sought.</p>
+            </li>
+            <li id="uid157">
+              <p noindent="true">Saad Jameel from the International Master Program <i>Turbulence</i> of the Ecole Centrale de Lille/University of Poitiers. This internship, in the framework of the just-started collaboration with PSA, aimed at evaluating and overcoming the limitations of eddy-viscosity models for turbulent flows in mixed/natural convection regimes representative of the flow in under-hood space of automobiles in some particular, critical situations.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid158">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid159" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid160" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid161" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <p>Member [RM] of the steering committee of the Special Interest Group “Turbulence Modelling” (SIG-15) of ERCOFTAC (European Research COmmittee for Flow,
+Turbulence and Combustion) that organizes a series of international workshops dedicated to cross-comparisons of the results of turbulence models and experimental/DNS
+databases.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid162" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid163" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid164">
+              <p noindent="true"><i>Intl Symp. Turbulence, Heat and Mass Transfer</i> [RM]</p>
+            </li>
+            <li id="uid165">
+              <p noindent="true"><i>Intl. Symp. Engineering Turbulence Modelling and Measurement</i> [RM]</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid166" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>This year, the team members have reviewed (6) contributions to the following conferences:</p>
+          <simplelist>
+            <li id="uid167">
+              <p noindent="true">ASME-GT Turbo Expo 2016 (Séoul, South Korea) (2) [PB]</p>
+            </li>
+            <li id="uid168">
+              <p noindent="true">6th Int. Symp. Hybrid RANS-LES models, 2016 (Strasbourg, France) (2) [RM]</p>
+            </li>
+            <li id="uid169">
+              <p noindent="true">36th IAHR World Congress, 2016 (The Hague, the Netherlands) (2) [RM]</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid170" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid171" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid172">
+              <p noindent="true">International Journal of Aerospace Engineering: co-guest editor of the special issue
+"The Use of Multiperforated Liners in Gas Turbine and Aeroengine Combustion Systems"
+<footnote id="uid173" id-text="10"><ref xlink:href="https://www.hindawi.com/journals/ijae/osi/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>hindawi.<allowbreak/>com/<allowbreak/>journals/<allowbreak/>ijae/<allowbreak/>osi/</ref></footnote> ...[PB]</p>
+            </li>
+            <li id="uid174">
+              <p noindent="true">Advisory Board of <i>International Journal of Heat and Fluid Flow</i> [RM]</p>
+            </li>
+            <li id="uid175">
+              <p noindent="true">Advisory Board of <i>Flow, Turbulence and Combustion</i> [RM]</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid176" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>During 2016, the team members reviewed (22) papers for the following journals:</p>
+          <simplelist>
+            <li id="uid177">
+              <p noindent="true">Aerospace Science and Technology (1) [PB]</p>
+            </li>
+            <li id="uid178">
+              <p noindent="true">AIAA Journal (2) [RM]</p>
+            </li>
+            <li id="uid179">
+              <p noindent="true">Compte Rendus Mécanique (1) [PB]</p>
+            </li>
+            <li id="uid180">
+              <p noindent="true">Computers and Fluids (3) [PB] [VP]</p>
+            </li>
+            <li id="uid181">
+              <p noindent="true">Energy and Buildings (1) [PB]</p>
+            </li>
+            <li id="uid182">
+              <p noindent="true">Experiments in Fluids (1) [RM]</p>
+            </li>
+            <li id="uid183">
+              <p noindent="true">Flow, Turbulence and Combustion (3) [RM]</p>
+            </li>
+            <li id="uid184">
+              <p noindent="true">International Journal of Heat and Fluid Flow (2) [RM]</p>
+            </li>
+            <li id="uid185">
+              <p noindent="true">Journal of Aerospace Lab (1) [PB]</p>
+            </li>
+            <li id="uid186">
+              <p noindent="true">Journal of Computational Physics (1) [VP]</p>
+            </li>
+            <li id="uid187">
+              <p noindent="true">Journal of Fluid Mechanics (1) [RM]</p>
+            </li>
+            <li id="uid188">
+              <p noindent="true">Journal of Petroleum Science and Engineering (1) [PB]</p>
+            </li>
+            <li id="uid189">
+              <p noindent="true">Nuclear Engineering and Design (2) [RM]</p>
+            </li>
+            <li id="uid190">
+              <p noindent="true">Parallel Computing (1) [VP]</p>
+            </li>
+            <li id="uid191">
+              <p noindent="true">Physics of Fluids (1) [RM]</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid192" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid193">
+            <p noindent="true">Manceau, R., Progress in Hybrid Temporal LES (plenary lecture), Proc. 6th Symp. Hybrid RANS-LES Methods, Strasbourg, France, 2016</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid194" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid195">
+            <p noindent="true">Co-responsible for the organisation of the LMAP seminar <footnote id="uid196" id-text="11"><ref xlink:href="http://lma-umr5142.univ-pau.fr/live/seminaires" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>lma-umr5142.<allowbreak/>univ-pau.<allowbreak/>fr/<allowbreak/>live/<allowbreak/>seminaires</ref></footnote> [JJ]</p>
+          </li>
+          <li id="uid197">
+            <p noindent="true">Member of the LMAP council [PB]</p>
+          </li>
+          <li id="uid198">
+            <p noindent="true">Member of the IPRA research federation council [RM]</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid199" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid200" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid201">
+            <p noindent="true">Master : "Maths 2: Data analysis", 39h, M1 - Génie Pétrolier, Université de Pau et des Pays de l'Adour, Pau, France. [JJ]</p>
+          </li>
+          <li id="uid202">
+            <p noindent="true">Licence : "Stochastic simulations", 36h, L3 - MIASHS, Université de Pau et des Pays de l'Adour, Pau, France.[JJ]</p>
+          </li>
+          <li id="uid203">
+            <p noindent="true">Licence : "Linear regression and invariance analysis", 19h30, L3 - MIASHS, Université de Pau et des Pays de l'Adour, Pau, France.[JJ]</p>
+          </li>
+          <li id="uid204">
+            <p noindent="true">Master : "Finite volumes for hyperbolic systems and compressible fluid mechanics", 24h75, M2 - MMS, Université de Pau et des Pays de l'Adour, Pau, France. [VP]</p>
+          </li>
+          <li id="uid205">
+            <p noindent="true">Master : “Turbulence modelling” (in English), 27h30, M2 - International Master program Turbulence, Université de Poitiers/Ecole centrale de Lille, France. [RM]</p>
+          </li>
+          <li id="uid206">
+            <p noindent="true">Eng. 3 : “Industrial codes for CFD” (in English), 12h30, 3rd year of engineering school (M2), ENSMA, Poitiers, France. [RM]</p>
+          </li>
+          <li id="uid207">
+            <p noindent="true">Eng. 3 : “Advanced physics–Turbulence modelling for CFD”, 16h, 3rd year of engineering school (M2), ENSGTI, France. [RM]</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid208" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid209">
+            <p noindent="true">PhD Jean-François Wald, Adaptive wall treatment for a second moment closure in the industrial context
+, Université de Pau et des Pays de l'Adour, France, defended 10 May 2016, Supervisor: [RM].</p>
+          </li>
+          <li id="uid210">
+            <p noindent="true">PhD in progress : Nurtoleu Shakhan, Modelling and simulation of supersonic jet in crossflow, University of Al Faraby (Almaty, Kazakhstan), started October 2013 (the thesis subject has been modified mid-2014)), Supervisor: A. Naïmanova and Co-Supervisor :[PB].</p>
+          </li>
+          <li id="uid211">
+            <p noindent="true">Young Engineer: Benjamin Lux, Implementation of h-p multigrid in Aerosol, Supervisor: [VP]</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid212" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>The participation in the following thesis juries is noted ("referee" in a French doctoral thesis jury is more or less equivalent to an external opponent in an Anglo-Saxon like PhD jury):</p>
+        <simplelist>
+          <li id="uid213">
+            <p noindent="true">PhD: F. Laurendeau, “Analyse expérimentale et modélisation numérique d'un actionneur plasma de type jet synthétique”, University of Toulouse, France, 18 October 2016. Supervisors: G. Casalis and F. Chedevergne. [RM, referee]</p>
+          </li>
+          <li id="uid214">
+            <p noindent="true">PhD: G. Arroyo-Callejo « Modélisation thermique avancée d’une paroi multi-perforée de chambre de combustion aéronautique avec dilution giratoire » University of Toulouse, France, 3 May 2016. Supervisor: P. Millan. [PB, referee]</p>
+          </li>
+          <li id="uid215">
+            <p noindent="true">PhD: M. Nini, “Analysis of a novel hybrid RANS/LES technique based on Reynolds stress tensor reconstruction”, Politecnico di Milano, Italy, 3 March 2016. Supervisors: Antonella Abba and Massimo Germano. [RM, referee]</p>
+          </li>
+          <li id="uid216">
+            <p noindent="true">PhD: L. Labarrère “Étude théorique et numérique de la combustion à volume constant appliquée à la propulsion », University of Toulouse, France, 21 March 2016. Supervisor and co-supervisor: T. Poinsot et A. Dauptain. [PB]</p>
+          </li>
+          <li id="uid217">
+            <p noindent="true">PhD: V. Popie « Modélisation asymptotique de la réponse acoustique de plaques perforées dans un cadre linéaire avec étude des effets visqueux », University of Toulouse, France, 14 January 2016. Supervisor and co-supervisor: S. Tordeux et E. Piot. [PB]</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid218" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid219">
+          <p noindent="true">Unithé ou café, "Modelling and approximation in fluid mechanics", 21 June 2016, Inria BSO Center. [JJ]</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="cagire-2016-bid54" type="article" rend="refer" n="refercite:DeLaageDeMeux2015">
+      <identifiant type="doi" value="10.1063/1.4916019"/>
+      <analytic>
+        <title level="a">Anisotropic Linear Forcing for synthetic turbulence generation in LES and hybrid RANS/LES modeling</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>de Laage de Meux</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Audebert</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Perrin</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Phys. Fluids</title>
+        <imprint>
+          <biblScope type="volume">27</biblScope>
+          <biblScope type="number">035115</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1063/1.4916019" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1063/<allowbreak/>1.<allowbreak/>4916019</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid52" type="article" rend="refer" n="refercite:dellacherie:hal-00776629">
+      <identifiant type="doi" value="10.1142/S0218202516500603"/>
+      <identifiant type="hal" value="hal-00776629"/>
+      <analytic>
+        <title level="a">Construction of modified Godunov type schemes accurate at any Mach number for the compressible Euler system</title>
+        <author>
+          <persName>
+            <foreName>Stéphane</foreName>
+            <surname>Dellacherie</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2015-idp15024">
+            <foreName>Jonathan</foreName>
+            <surname>Jung</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Omnes</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre-Arnaud</foreName>
+            <surname>Raviart</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematical Models and Methods in Applied Sciences</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00776629" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00776629</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid51" type="article" rend="refer" n="refercite:florenciano:hal-01353952">
+      <identifiant type="doi" value="10.1016/j.ast.2016.03.004"/>
+      <identifiant type="hal" value="hal-01353952"/>
+      <analytic>
+        <title level="a">LES fluid-solid coupled calculations for the assessment of heat transfer coefficient correlations over multi-perforated walls</title>
+        <author>
+          <persName>
+            <foreName>Juan-Luis</foreName>
+            <surname>Florenciano</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Aerospace Science and Technology</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">13</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01353952" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353952</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid57" type="article" rend="refer" n="refercite:franquet:hal-00739446">
+      <identifiant type="doi" value="10.1016/j.compfluid.2012.02.021"/>
+      <identifiant type="hal" value="hal-00739446"/>
+      <analytic>
+        <title level="a">Runge-Kutta discontinuous Galerkin method for interface flows with a maximum preserving limiter</title>
+        <author>
+          <persName key="cagire-2014-idm26424">
+            <foreName>Erwin</foreName>
+            <surname>Franquet</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computers and Fluids</title>
+        <imprint>
+          <biblScope type="volume">65</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">2-7</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00739446" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00739446</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid56" type="article" rend="refer" n="refercite:franquet:hal-00684427">
+      <identifiant type="doi" value="10.1016/j.jcp.2012.02.002"/>
+      <identifiant type="hal" value="hal-00684427"/>
+      <analytic>
+        <title level="a">Runge-Kutta discontinuous Galerkin method for the approximation of Baer and Nunziato type multiphase models</title>
+        <author>
+          <persName key="cagire-2014-idm26424">
+            <foreName>Erwin</foreName>
+            <surname>Franquet</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">4096-4141</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00684427" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00684427</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid53" type="article" rend="refer" n="refercite:herard:hal-01233251">
+      <identifiant type="doi" value="10.1016/j.crma.2015.10.026"/>
+      <identifiant type="hal" value="hal-01233251"/>
+      <analytic>
+        <title level="a">An interface condition to compute compressible flows in variable cross section ducts</title>
+        <author>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Hérard</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName key="cagire-2015-idp15024">
+            <foreName>Jonathan</foreName>
+            <surname>Jung</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Comptes Rendus Mathématique</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01233251" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01233251</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid55" type="article" rend="refer" n="refercite:Manceau2015">
+      <identifiant type="doi" value="10.1016/j.ijheatfluidflow.2014.09.002"/>
+      <analytic>
+        <title level="a">Recent progress in the development of the Elliptic Blending Reynolds-stress model</title>
+        <author>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Int. J. Heat Fluid Fl.</title>
+        <imprint>
+          <biblScope type="volume">51</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">195-220</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.ijheatfluidflow.2014.09.002" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>ijheatfluidflow.<allowbreak/>2014.<allowbreak/>09.<allowbreak/>002</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid50" type="article" rend="refer" n="refercite:moguen2013a">
+      <identifiant type="doi" value="10.1016/j.jcp.2013.08.019"/>
+      <identifiant type="hal" value="hal-00929713"/>
+      <analytic>
+        <title level="a">Semi-implicit characteristic-based boundary treatment for acoustics in low Mach number flows</title>
+        <author>
+          <persName key="cagire-2014-idp66728">
+            <foreName>Yann</foreName>
+            <surname>Moguen</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Erik</foreName>
+            <surname>Dick</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">255</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">339-361</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00929713" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00929713</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid58" type="article" rend="refer" n="refercite:moguen:hal-01096422">
+      <identifiant type="doi" value="10.1016/j.jcp.2014.10.041"/>
+      <identifiant type="hal" value="hal-01096422"/>
+      <analytic>
+        <title level="a">Godunov-type schemes with an inertia term for unsteady full Mach number range flow calculations</title>
+        <author>
+          <persName key="cagire-2014-idp66728">
+            <foreName>Yann</foreName>
+            <surname>Moguen</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cagire-2014-idp73064">
+            <foreName>Simon</foreName>
+            <surname>Delmas</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Erik</foreName>
+            <surname>Dick</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">281</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">35</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01096422" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01096422</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid39" type="phdthesis" rend="year" n="cite:wald:tel-01415106">
+      <identifiant type="hal" value="tel-01415106"/>
+      <monogr>
+        <title level="m">Adaptive wall treatment for a second moment closure in the industrial context</title>
+        <author>
+          <persName key="cagire-2014-idp74320">
+            <foreName>Jean-François</foreName>
+            <surname>Wald</surname>
+            <initial>J.-F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Pau et des Pays de l'Adour</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01415106" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01415106</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid47" type="article" rend="year" n="cite:dehoux:hal-01391900">
+      <identifiant type="doi" value="10.1016/j.ijheatfluidflow.2016.09.003"/>
+      <identifiant type="hal" value="hal-01391900"/>
+      <analytic>
+        <title level="a">An elliptic blending differential flux model for natural, mixed and forced convection</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Dehoux</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Sofiane</foreName>
+            <surname>Benhamadouche</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02725">
+        <idno type="issn">0142-727X</idno>
+        <title level="j">International Journal of Heat and Fluid Flow</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391900" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391900</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid48" type="article" rend="year" n="cite:dellacherie:hal-01130404">
+      <identifiant type="doi" value="10.1051/proc/201552006"/>
+      <identifiant type="hal" value="hal-01130404"/>
+      <analytic>
+        <title level="a">Preliminary results for the study of the Godunov Scheme Applied to the Linear Wave Equation with Porosity at Low Mach Number</title>
+        <author>
+          <persName>
+            <foreName>Stéphane</foreName>
+            <surname>Dellacherie</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2015-idp15024">
+            <foreName>Jonathan</foreName>
+            <surname>Jung</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Omnes</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02803">
+        <idno type="issn">2267-3059</idno>
+        <title level="j">ESAIM: Proceedings and Surveys</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.upmc.fr/hal-01130404" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01130404</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid49" type="article" rend="year" n="cite:dellacherie:hal-00776629">
+      <identifiant type="doi" value="10.1142/S0218202516500603"/>
+      <identifiant type="hal" value="hal-00776629"/>
+      <analytic>
+        <title level="a">Construction of modified Godunov type schemes accurate at any Mach number for the compressible Euler system</title>
+        <author>
+          <persName>
+            <foreName>Stéphane</foreName>
+            <surname>Dellacherie</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2015-idp15024">
+            <foreName>Jonathan</foreName>
+            <surname>Jung</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Omnes</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre-Arnaud</foreName>
+            <surname>Raviart</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01389">
+        <idno type="issn">0218-2025</idno>
+        <title level="j">Mathematical Models and Methods in Applied Sciences</title>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-00776629" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00776629</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid42" type="article" rend="year" n="cite:elomari:hal-01353957">
+      <identifiant type="doi" value="10.1016/j.jobe.2016.07.013"/>
+      <identifiant type="hal" value="hal-01353957"/>
+      <analytic>
+        <title level="a">Analysis of micro-dispersed PCM-composite boards behavior in a buiding's wall for different seasons</title>
+        <author>
+          <persName>
+            <foreName>Kamal</foreName>
+            <surname>El Omari</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Yves</foreName>
+            <surname>Le Guer</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03032">
+        <idno type="issn">2352-7102</idno>
+        <title level="j">Journal of Building Engineering</title>
+        <imprint>
+          <biblScope type="volume">7</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">11</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01353957" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353957</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid33" type="article" rend="year" n="cite:florenciano:hal-01353952">
+      <identifiant type="doi" value="10.1016/j.ast.2016.03.004"/>
+      <identifiant type="hal" value="hal-01353952"/>
+      <analytic>
+        <title level="a">LES fluid-solid coupled calculations for the assessment of heat transfer coefficient correlations over multi-perforated walls</title>
+        <author>
+          <persName>
+            <foreName>Juan-Luis</foreName>
+            <surname>Florenciano</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00092">
+        <idno type="issn">1270-9638</idno>
+        <title level="j">Aerospace Science and Technology</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">13</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01353952" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01353952</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid35" type="article" rend="year" n="cite:herard:hal-01233251">
+      <identifiant type="doi" value="10.1016/j.crma.2015.10.026"/>
+      <identifiant type="hal" value="hal-01233251"/>
+      <analytic>
+        <title level="a">An interface condition to compute compressible flows in variable cross section ducts</title>
+        <author>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Hérard</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName key="cagire-2015-idp15024">
+            <foreName>Jonathan</foreName>
+            <surname>Jung</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00366">
+        <idno type="issn">1631-073X</idno>
+        <title level="j">Comptes Rendus Mathématique</title>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01233251" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01233251</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid37" type="inproceedings" rend="year" n="cite:delmas:hal-01419110">
+      <identifiant type="hal" value="hal-01419110"/>
+      <analytic>
+        <title level="a"> Behaviour of discontinuous Galerkin methods for steady and unsteady compressible flow in the low Mach regime</title>
+        <author>
+          <persName key="cagire-2014-idp73064">
+            <foreName>Simon</foreName>
+            <surname>Delmas</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">European Congress on Computational Methods in Applied Sciences and Engineering</title>
+        <loc>Herkonissos, Crête, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419110" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419110</ref>
+        </imprint>
+        <meeting id="cid68639">
+          <title>European Congress on Computational Methods in Applied Sciences and Engineering</title>
+          <num>2012</num>
+          <abbr type="sigle">ECCOMAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid46" type="inproceedings" rend="year" n="cite:manceau:hal-01391899">
+      <identifiant type="hal" value="hal-01391899"/>
+      <analytic>
+        <title level="a">Progress in Hybrid Temporal LES (plenary lecture)</title>
+        <author>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">6th Symp. Hybrid RANS-LES Methods</title>
+        <loc>Strasbourg, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391899" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391899</ref>
+        </imprint>
+        <meeting id="cid625248">
+          <title>Symposium on Hybrid RANS-LES Methods</title>
+          <num>6</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid43" type="inproceedings" rend="year" n="cite:mazaheri:hal-01390704">
+      <identifiant type="hal" value="hal-01390704"/>
+      <analytic>
+        <title level="a">Hyperbolic Discontinuous Galerkin Scheme for Advection-Diffusion: Comparisons with BR2 &amp; Symmetric IP Schemes</title>
+        <author>
+          <persName>
+            <foreName>Alireza</foreName>
+            <surname>Mazaheri</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="bacchus-2014-idm29512">
+            <foreName>Mario</foreName>
+            <surname>Ricchiuto</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">AIAA Aviation and Aeronautics Forum and Exposition</title>
+        <loc>Denver (CO), United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01390704" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01390704</ref>
+        </imprint>
+        <meeting id="cid625254">
+          <title>AIAA Aviation and Aeronautics Forum and Exposition</title>
+          <num>2017</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid34" type="techreport" rend="year" n="cite:moguen:hal-01391897">
+      <identifiant type="hal" value="hal-01391897"/>
+      <monogr>
+        <title level="m">Développement d'une méthodologie efficace de calcul des pertes de charge dans les injecteurs de moteurs aéronautiques</title>
+        <author>
+          <persName key="cagire-2014-idp66728">
+            <foreName>Yann</foreName>
+            <surname>Moguen</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Université de Pau et des Pays de l'Adour</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391897" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391897</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid41" type="misc" rend="year" n="cite:bruel:hal-01410437">
+      <identifiant type="hal" value="hal-01410437"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Propagation de flammes turbulentes prémélangées en régime de flammelette</title>
+        <author>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01410437" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01410437</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Séminaire du Groupe de travail du LRC Manon - Thème "Turbulence"- Université Pierre et Marie Curie</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid40" type="misc" rend="year" n="cite:bruel:hal-01410311">
+      <identifiant type="hal" value="hal-01410311"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Recent developments regarding the simulation of low Mach flows</title>
+        <author>
+          <persName key="cagire-2014-idm30568">
+            <foreName>Pascal</foreName>
+            <surname>Bruel</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01410311" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01410311</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Journées Ondes du Sud Ouest</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid45" type="misc" rend="year" n="cite:manceau:hal-01391898">
+      <identifiant type="hal" value="hal-01391898"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">An introduction to hybrid temporal LES for turbulent Flows</title>
+        <author>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391898" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391898</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Seminar, Politecnico di Milano, Italy</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid36" type="misc" rend="year" n="cite:perrier:hal-01419099">
+      <identifiant type="hal" value="hal-01419099"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Report on DNS of isothermal flows with adiabatic walls</title>
+        <author>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419099" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419099</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Second livrable de l'UPPA dans le cadre du projet IMPACT-AE</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid38" type="misc" rend="year" n="cite:perrier:hal-01419100">
+      <identifiant type="hal" value="hal-01419100"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Report on DNS of non-isothermal flows with adiabatic walls</title>
+        <author>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419100" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419100</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Troisième livrable de l'UPPA dans le cadre du programme européen IMPACT-AE</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid44" type="misc" rend="year" n="cite:wald:hal-01391895">
+      <identifiant type="hal" value="hal-01391895"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Validation of adaptive wall treatment for the EB-RSM</title>
+        <author>
+          <persName>
+            <foreName>J.-F.</foreName>
+            <surname>Wald</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName>
+            <foreName>Sofiane</foreName>
+            <surname>Benhamadouche</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="cagire-2014-idm29096">
+            <foreName>R.</foreName>
+            <surname>Manceau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01391895" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01391895</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">Code_Saturne user meeting</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid32" type="article" rend="foot" n="footcite:mbengoue2013a">
+      <identifiant type="hal" value="hal-00917411"/>
+      <analytic>
+        <title level="a">Comparison of high order algorithms in Aerosol and Aghora for compressible flows</title>
+        <author>
+          <persName>
+            <foreName>Dragan</foreName>
+            <surname>Amenga-Mbengoue</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="bacchus-2014-idp77032">
+            <foreName>Damien</foreName>
+            <surname>Genet</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="bacchus-2014-idp72088">
+            <foreName>Cedric</foreName>
+            <surname>Lachat</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Emeric</foreName>
+            <surname>Martin</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Maxime</foreName>
+            <surname>Mogé</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="cagire-2014-idm27664">
+            <foreName>Vincent</foreName>
+            <surname>Perrier</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Florent</foreName>
+            <surname>Renac</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="bacchus-2014-idm29512">
+            <foreName>Mario</foreName>
+            <surname>Ricchiuto</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="hiepacs-2014-idp93136">
+            <foreName>François</foreName>
+            <surname>Rue</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">ESAIM: Proceedings</title>
+        <imprint>
+          <biblScope type="volume">43</biblScope>
+          <dateStruct>
+            <month>December</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">1-16</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00917411" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00917411</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid10" type="article" rend="foot" n="footcite:arnold1982">
+      <analytic>
+        <title level="a">An interior penalty finite element method with discontinuous elements</title>
+        <author>
+          <persName>
+            <foreName>Douglas N</foreName>
+            <surname>Arnold</surname>
+            <initial>D. N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM journal on numerical analysis</title>
+        <imprint>
+          <biblScope type="volume">19</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>1982</year>
+          </dateStruct>
+          <biblScope type="pages">742–760</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid13" type="article" rend="foot" n="footcite:arnold2002">
+      <analytic>
+        <title level="a">Unified analysis of discontinuous Galerkin methods for elliptic problems</title>
+        <author>
+          <persName>
+            <foreName>Douglas N</foreName>
+            <surname>Arnold</surname>
+            <initial>D. N.</initial>
+          </persName>
+          <persName>
+            <foreName>Franco</foreName>
+            <surname>Brezzi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>L Donatella</foreName>
+            <surname>Marini</surname>
+            <initial>L. D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM journal on numerical analysis</title>
+        <imprint>
+          <biblScope type="volume">39</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">1749–1779</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid31" type="article" rend="foot" n="footcite:Augonnet2011">
+      <identifiant type="doi" value="10.1002/cpe.1631"/>
+      <analytic>
+        <title level="a">StarPU: A Unified Platform for Task Scheduling on Heterogeneous Multicore Architectures</title>
+        <author>
+          <persName>
+            <foreName>Cédric</foreName>
+            <surname>Augonnet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="runtime-2014-idp89872">
+            <foreName>Samuel</foreName>
+            <surname>Thibault</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="runtime-2014-idp79056">
+            <foreName>Raymond</foreName>
+            <surname>Namyst</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="runtime-2014-idp91128">
+            <foreName>Pierre-André</foreName>
+            <surname>Wacrenier</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Concurr. Comput. : Pract. Exper.</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>February</month>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">187–198</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1002/cpe.1631" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1002/<allowbreak/>cpe.<allowbreak/>1631</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid18" type="article" rend="foot" n="footcite:Bassi2012">
+      <identifiant type="doi" value="10.1016/j.jcp.2011.08.018"/>
+      <analytic>
+        <title level="a">On the flexibility of agglomeration based physical space discontinuous Galerkin discretizations</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Bassi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>L.</foreName>
+            <surname>Botti</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Colombo</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>D.A. Di</foreName>
+            <surname>Pietro</surname>
+            <initial>D. D.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Tesini</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">45 - 65</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0021999111005055" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0021999111005055</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid14" type="article" rend="foot" n="footcite:bassirebayrans">
+      <analytic>
+        <title level="a">Discontinuous Galerkin solution of the Reynolds-averaged Navier-Stokes and k-omega turbulence model equations</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Bassi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Crivellini</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Rebay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Savini</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computers &amp; Fluids</title>
+        <imprint>
+          <biblScope type="volume">34</biblScope>
+          <biblScope type="number">4-5</biblScope>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+          <biblScope type="pages">507-540</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid11" type="article" rend="foot" n="footcite:bassirebay">
+      <identifiant type="doi" value="10.1006/jcph.1996.5572"/>
+      <analytic>
+        <title level="a">A high-order accurate discontinuous finite element method for the numerical solution of the compressible Navier-Stokes equations</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Bassi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Rebay</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">131</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+          <biblScope type="pages">267–279</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1006/jcph.1996.5572" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1006/<allowbreak/>jcph.<allowbreak/>1996.<allowbreak/>5572</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid12" type="inproceedings" rend="foot" n="footcite:br2">
+      <analytic>
+        <title level="a">A high-order accurate discontinuous finite element method for inviscid and viscous turbomachinery flows</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Bassi</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Rebay</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Mariotti</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Pedinotti</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Savini</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the 2nd European Conference on Turbomachinery Fluid Dynamics and Thermodynamics</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Technologisch Instituut, Antwerpen, Belgium</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+          <biblScope type="pages">99–109</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid6" type="article" rend="foot" n="footcite:shu4">
+      <identifiant type="doi" value="10.2307/2008501"/>
+      <analytic>
+        <title level="a">The Runge-Kutta local projection discontinuous Galerkin finite element method for conservation laws. IV. The multidimensional case</title>
+        <author>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Suchung</foreName>
+            <surname>Hou</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Chi-Wang</foreName>
+            <surname>Shu</surname>
+            <initial>C.-W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Comp.</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">190</biblScope>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+          <biblScope type="pages">545–581</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.2307/2008501" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>2307/<allowbreak/>2008501</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid5" type="article" rend="foot" n="footcite:shu3">
+      <analytic>
+        <title level="a">TVB Runge-Kutta local projection discontinuous Galerkin finite element method for conservation laws. III. One-dimensional systems</title>
+        <author>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>San Yih</foreName>
+            <surname>Lin</surname>
+            <initial>S. Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Chi-Wang</foreName>
+            <surname>Shu</surname>
+            <initial>C.-W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">84</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+          <biblScope type="pages">90–113</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid4" type="article" rend="foot" n="footcite:shu2">
+      <identifiant type="doi" value="10.2307/2008474"/>
+      <analytic>
+        <title level="a">TVB Runge-Kutta local projection discontinuous Galerkin finite element method for conservation laws. II. General framework</title>
+        <author>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Chi-Wang</foreName>
+            <surname>Shu</surname>
+            <initial>C.-W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Comp.</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <biblScope type="number">186</biblScope>
+          <dateStruct>
+            <year>1989</year>
+          </dateStruct>
+          <biblScope type="pages">411–435</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.2307/2008474" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>2307/<allowbreak/>2008474</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid3" type="article" rend="foot" n="footcite:shu1">
+      <analytic>
+        <title level="a">The Runge-Kutta local projection <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mn>1</mn></msup></math></formula>-discontinuous-Galerkin finite element method for scalar conservation laws</title>
+        <author>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Chi-Wang</foreName>
+            <surname>Shu</surname>
+            <initial>C.-W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">RAIRO Modél. Math. Anal. Numér.</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>1991</year>
+          </dateStruct>
+          <biblScope type="pages">337–361</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid7" type="article" rend="foot" n="footcite:shu5">
+      <identifiant type="doi" value="10.1006/jcph.1998.5892"/>
+      <analytic>
+        <title level="a">The Runge-Kutta discontinuous Galerkin method for conservation laws. V. Multidimensional systems</title>
+        <author>
+          <persName>
+            <foreName>Bernardo</foreName>
+            <surname>Cockburn</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Chi-Wang</foreName>
+            <surname>Shu</surname>
+            <initial>C.-W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">141</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>1998</year>
+          </dateStruct>
+          <biblScope type="pages">199–224</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1006/jcph.1998.5892" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1006/<allowbreak/>jcph.<allowbreak/>1998.<allowbreak/>5892</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid17" type="inproceedings" rend="foot" n="footcite:colis">
+      <analytic>
+        <title level="a">Discontinuous Galerkin methods for turbulence simulation</title>
+        <author>
+          <persName>
+            <foreName>S. Scott</foreName>
+            <surname>Colis</surname>
+            <initial>S. S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the Summer Program</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Center for Turbulence Research</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid8" type="article" rend="foot" n="footcite:feistauer">
+      <identifiant type="doi" value="10.1016/j.jcp.2007.01.035"/>
+      <analytic>
+        <title level="a">On a robust discontinuous Galerkin technique for the solution of compressible flow</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Feistauer</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>V.</foreName>
+            <surname>Kučera</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">224</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2007</year>
+          </dateStruct>
+          <biblScope type="pages">208–221</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.jcp.2007.01.035" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>jcp.<allowbreak/>2007.<allowbreak/>01.<allowbreak/>035</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid0" type="book" rend="foot" n="footcite:frisch">
+      <monogr>
+        <title level="m">Turbulence: The Legacy of AN Kolmogorov</title>
+        <author>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Frisch</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Cambridge University Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1995</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid21" type="article" rend="foot" n="footcite:Giles1990">
+      <analytic>
+        <title level="a">Non-Reflecting Boundary Conditions for Euler Equation Calculation</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Giles</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">The American Institute of Aeronautics and Astronautics Journal</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">12</biblScope>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid15" type="article" rend="foot" n="footcite:hartmannhouston1">
+      <analytic>
+        <title level="a">Symmetric interior penalty DG methods for the compressible Navier-Stokes equations. I. Method formulation</title>
+        <author>
+          <persName>
+            <foreName>Ralf</foreName>
+            <surname>Hartmann</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Houston</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Int. J. Numer. Anal. Model.</title>
+        <imprint>
+          <biblScope type="volume">3</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">1–20</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid29" type="inproceedings" rend="foot" n="footcite:Jameson2003">
+      <analytic>
+        <title level="a">Using Computational Fluid Dynamics for Aerodynamics</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Jameson</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Fatica</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">National Research Council Workshop on "The Future of Supercomputing"</title>
+        <imprint>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid9" type="article" rend="foot" n="footcite:szepessy">
+      <identifiant type="doi" value="10.2307/2008684"/>
+      <analytic>
+        <title level="a">On the convergence of shock-capturing streamline diffusion finite element methods for hyperbolic conservation laws</title>
+        <author>
+          <persName>
+            <foreName>Claes</foreName>
+            <surname>Johnson</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Anders</foreName>
+            <surname>Szepessy</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Peter</foreName>
+            <surname>Hansbo</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Math. Comp.</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">189</biblScope>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+          <biblScope type="pages">107–129</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.2307/2008684" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>2307/<allowbreak/>2008684</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid30" type="article" rend="foot" n="footcite:Klockner2009">
+      <identifiant type="doi" value="10.1016/j.jcp.2009.06.041"/>
+      <analytic>
+        <title level="a">Nodal discontinuous Galerkin methods on graphics processors</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Klöckner</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Warburton</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Bridge</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>J.S.</foreName>
+            <surname>Hesthaven</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">228</biblScope>
+          <biblScope type="number">21</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">7863 - 7882</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0021999109003647" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0021999109003647</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid23" type="article" rend="foot" n="footcite:Knoll2004">
+      <identifiant type="doi" value="10.1016/j.jcp.2003.08.010"/>
+      <analytic>
+        <title level="a">Jacobian-free Newton-Krylov methods: a survey of approaches and applications</title>
+        <author>
+          <persName>
+            <foreName>D.A.</foreName>
+            <surname>Knoll</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>D.E.</foreName>
+            <surname>Keyes</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">193</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">357 - 397</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0021999103004340" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0021999103004340</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid2" type="incollection" rend="foot" n="footcite:lesaintraviart">
+      <analytic>
+        <title level="a">On a finite element method for solving the neutron transport equation</title>
+        <author>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Lesaint</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>P.-A.</foreName>
+            <surname>Raviart</surname>
+            <initial>P.-A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Mathematical aspects of finite elements in partial differential equations (Proc. Sympos., Math. Res. Center, Univ. Wisconsin, Madison, Wis., 1974)</title>
+        <imprint>
+          <publisher>
+            <orgName>Math. Res. Center, Univ. of Wisconsin-Madison, Academic Press, New York</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1974</year>
+          </dateStruct>
+          <biblScope type="pages">89–123. Publication No. 33</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid16" type="article" rend="foot" n="footcite:munz">
+      <identifiant type="doi" value="10.1016/j.jcp.2008.02.015"/>
+      <analytic>
+        <title level="a">An explicit discontinuous Galerkin scheme with local time-stepping for general unsteady diffusion equations</title>
+        <author>
+          <persName>
+            <foreName>Frieder</foreName>
+            <surname>Lörcher</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Gregor</foreName>
+            <surname>Gassner</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Claus-Dieter</foreName>
+            <surname>Munz</surname>
+            <initial>C.-D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">J. Comput. Phys.</title>
+        <imprint>
+          <biblScope type="volume">227</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">5649–5670</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1016/j.jcp.2008.02.015" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1016/<allowbreak/>j.<allowbreak/>jcp.<allowbreak/>2008.<allowbreak/>02.<allowbreak/>015</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid26" type="article" rend="foot" n="footcite:Muresan2008">
+      <identifiant type="doi" value="10.1137/060678397"/>
+      <analytic>
+        <title level="a">Analysis of Aggregation-Based Multigrid</title>
+        <author>
+          <persName>
+            <foreName>Adrian C.</foreName>
+            <surname>Muresan</surname>
+            <initial>A. C.</initial>
+          </persName>
+          <persName>
+            <foreName>Yvan</foreName>
+            <surname>Notay</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">SIAM J. Sci. Comput.</title>
+        <imprint>
+          <biblScope type="volume">30</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">1082–1103</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1137/060678397" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1137/<allowbreak/>060678397</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid19" type="article" rend="foot" n="footcite:poinsot">
+      <analytic>
+        <title level="a">Boundary conditions for direct simulations of compressible viscous flows</title>
+        <author>
+          <persName>
+            <foreName>T.</foreName>
+            <surname>Poinsot</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>S.K.</foreName>
+            <surname>Lele</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">101</biblScope>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">104-129</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid1" type="techreport" rend="foot" n="footcite:reedhill">
+      <monogr>
+        <title level="m">Triangular mesh methods for the neutron transport equation</title>
+        <author>
+          <persName>
+            <foreName>W.H.</foreName>
+            <surname>Reed</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>T.R.</foreName>
+            <surname>Hill</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">LA-UR-73-479</biblScope>
+          <publisher>
+            <orgName type="institution">Los Alamos Scientific Laboratory</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1973</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Technical report</note>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid28" type="article" rend="foot" n="footcite:Sutter2005">
+      <analytic>
+        <title level="a">The free lunch is over: A fundamental turn toward concurrency in software</title>
+        <author>
+          <persName>
+            <foreName>H.</foreName>
+            <surname>Sutter</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Dr. Dobbâs Journal</title>
+        <imprint>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid20" type="article" rend="foot" n="footcite:Thompson1990">
+      <identifiant type="doi" value="10.1016/0021-9991(90)90152-Q"/>
+      <analytic>
+        <title level="a">Time-dependent boundary conditions for hyperbolic systems, {II}</title>
+        <author>
+          <persName>
+            <foreName>Kevin W</foreName>
+            <surname>Thompson</surname>
+            <initial>K. W.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">89</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>1990</year>
+          </dateStruct>
+          <biblScope type="pages">439 - 461</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/002199919090152Q" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>002199919090152Q</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid22" type="article" rend="foot" n="footcite:Toulopoulos2011">
+      <identifiant type="doi" value="10.1016/j.jcp.2011.04.008"/>
+      <analytic>
+        <title level="a">Artificial boundary conditions for the numerical solution of the Euler equations by the discontinuous galerkin method</title>
+        <author>
+          <persName>
+            <foreName>Ioannis</foreName>
+            <surname>Toulopoulos</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>John A.</foreName>
+            <surname>Ekaterinaris</surname>
+            <initial>J. A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">230</biblScope>
+          <biblScope type="number">15</biblScope>
+          <dateStruct>
+            <year>2011</year>
+          </dateStruct>
+          <biblScope type="pages">5974 - 5995</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0021999111002324" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0021999111002324</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid27" type="article" rend="foot" n="footcite:vanderVegt2012">
+      <identifiant type="doi" value="10.1016/j.jcp.2012.05.038"/>
+      <analytic>
+        <title level="a">hp-Multigrid as Smoother algorithm for higher order discontinuous Galerkin discretizations of advection dominated flows: Part I. Multilevel analysis</title>
+        <author>
+          <persName>
+            <foreName>J.J.W.</foreName>
+            <surname>van der Vegt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Rhebergen</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <biblScope type="number">22</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">7537 - 7563</biblScope>
+          <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0021999112003129" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sciencedirect.<allowbreak/>com/<allowbreak/>science/<allowbreak/>article/<allowbreak/>pii/<allowbreak/>S0021999112003129</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid24" type="book" rend="foot" n="footcite:Wesseling">
+      <monogr>
+        <title level="m">An introduction to multigrid methods</title>
+        <title level="s">Pure and applied mathematics</title>
+        <author>
+          <persName>
+            <foreName>Pieter</foreName>
+            <surname>Wesseling</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>J. Wiley<address><addrLine>Chichester, New York</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <ref xlink:href="http://opac.inria.fr/record=b1088946" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>opac.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>record=b1088946</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="cagire-2016-bid25" type="article" rend="foot" n="footcite:Yavneh2006">
+      <identifiant type="doi" value="10.1109/MCSE.2006.125"/>
+      <analytic>
+        <title level="a">Why Multigrid Methods Are So Efficient</title>
+        <author>
+          <persName>
+            <foreName>Irad</foreName>
+            <surname>Yavneh</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Computing in Science and Engg.</title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <month>November</month>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">12–22</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1109/MCSE.2006.125" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1109/<allowbreak/>MCSE.<allowbreak/>2006.<allowbreak/>125</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

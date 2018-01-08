@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="xpop" isproject="true">
+    <shortname>XPOP</shortname>
+    <projectName>statistical modelling for life sciences</projectName>
+    <theme-de-recherche>Computational Neuroscience and Medecine</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <header_dates_team>Creation of the Team: 2016 January 01</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.1.1. - Modeling, representation</term>
+      <term>3.2.3. - Inference</term>
+      <term>3.3. - Data and knowledge analysis</term>
+      <term>3.3.1. - On-line analytical processing</term>
+      <term>3.3.2. - Data mining</term>
+      <term>3.3.3. - Big data analysis</term>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>3.4.4. - Optimization and learning</term>
+      <term>3.4.5. - Bayesian methods</term>
+      <term>3.4.6. - Neural networks</term>
+      <term>3.4.7. - Kernel methods</term>
+      <term>3.4.8. - Deep learning</term>
+      <term>5.9.2. - Estimation, modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.2.2. - Numerical probability</term>
+      <term>6.2.3. - Probabilistic methods</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.3.3. - Data processing</term>
+      <term>6.3.5. - Uncertainty Quantification</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.5. - Genetics</term>
+      <term>1.1.6. - Genomics</term>
+      <term>1.1.9. - Bioinformatics</term>
+      <term>1.1.11. - Systems biology</term>
+      <term>2.2.3. - Cancer</term>
+      <term>2.2.4. - Infectious diseases, Virology</term>
+      <term>2.4.1. - Pharmaco kinetics and dynamics</term>
+      <term>9.1.1. - E-learning, MOOC</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Saclay"/>
+  </identification>
+  <team id="uid1">
+    <person key="popix-2014-idm9976">
+      <firstname>Marc</firstname>
+      <lastname>Lavielle</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+    </person>
+    <person key="select-2015-idp68648">
+      <firstname>Julie</firstname>
+      <lastname>Josse</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Associate Professor</moreinfo>
+    </person>
+    <person key="select-2014-idp86192">
+      <firstname>Erwan</firstname>
+      <lastname>Le Pennec</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Associate Professor</moreinfo>
+    </person>
+    <person key="xpop-2016-idp171200">
+      <firstname>Eric</firstname>
+      <lastname>Moulines</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, Professor</moreinfo>
+    </person>
+    <person key="lifeware-2014-idm25264">
+      <firstname>François-Marie</firstname>
+      <lastname>Floch</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, until Oct 2016</moreinfo>
+    </person>
+    <person key="xpop-2016-idp176160">
+      <firstname>Nicolas</firstname>
+      <lastname>Brosse</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique</moreinfo>
+    </person>
+    <person key="xpop-2016-idp178592">
+      <firstname>Mohammed</firstname>
+      <lastname>Karimi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Inria, from Oct 2016</moreinfo>
+    </person>
+    <person key="xpop-2016-idp181024">
+      <firstname>Genevieve</firstname>
+      <lastname>Robin</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Ecole Polytechnique, from Sep 2016</moreinfo>
+    </person>
+    <person key="xpop-2016-idp183472">
+      <firstname>Marine</firstname>
+      <lastname>Zulian</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Saclay</research-centre>
+      <moreinfo>Dassault Systemes, from Sep 2016, granted by CIFRE</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Developing sound, useful and usable methods</bodyTitle>
+      <p>The main objective of <span class="smallcap" align="left">Xpop</span> is to develop new sound and rigorous methods for statistical modeling in the field of biology and life sciences.
+These methods for modeling include statistical methods of estimation, model diagnostics and model selection as well as methods for numerical models (systems of ordinary and partial differential equations).
+Historically, the key area where these methods have been used is population pharmacokinetics.
+However, the framework is currently being extended to sophisticated numerical models in the contexts of viral dynamics, glucose-insulin processes, tumor growth, precision medicine, intracellular processes, etc.</p>
+      <p>Furthermore, an important aim of <span class="smallcap" align="left">Xpop</span> is to transfer the methods developed into software packages so that they can be used in everyday practice.
+</p>
+    </subsection>
+    <subsection id="uid4" level="1">
+      <bodyTitle>Combining numerical, statistical and stochastic components of a model</bodyTitle>
+      <p>Mathematical models that characterize complex biological phenomena are defined by systems of ordinary differential equations when dealing with dynamical systems that evolve with respect to time, or by partial differential equations when there is a spatial component in the model. Also, it is sometimes useful to integrate a stochastic aspect into the dynamical system in order to model stochastic intra-individual variability.</p>
+      <p>In order to use such methods, we must deal with complex numerical difficulties, generally related to resolving the systems of differential equations. Furthermore, to be able to check the quality of a model (i.e. its descriptive and predictive performances), we require data. The statistical aspect of the model is thus critical in how it takes into account different sources of variability and uncertainty, especially when data come from several individuals and we are interested in characterizing the inter-subject variability. Here, the tools of reference are mixed-effects models.</p>
+      <p>Confronted with such complex modeling problems, one of the goals of <span class="smallcap" align="left">Xpop</span> is to show the importance of combining numerical, statistical and stochastic approaches.</p>
+    </subsection>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Developing future standards</bodyTitle>
+      <p>Linear mixed-effects models have been well-used in statistics for a long time. They are a classical approach, essentially relying on matrix calculations in Gaussian models. Whereas a solid theoretical base has been developed for such models, <i>nonlinear</i> mixed-effects models (NLMEM) have received much less attention in the statistics community, even though they have been applied to many domains of interest. It has thus been the users of these models, such as pharmacometricians, who have taken them and developed methods, without really looking to develop a clean theoretical framework or understand the mathematical properties of the methods. This is why a standard estimation method in NLMEM is to linearize the model, and few people have been interested in understanding the properties of estimators obtained in this way.</p>
+      <p>Statisticians and pharmacometricians frequently realize the need to create bridges between these two communities. We are entirely convinced that this requires the development of new standards for population modeling that can be widely accepted by these various communities.
+These standards include the language used for encoding a model, the approach for representing a model and the methods for using it:</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true"><b>The approach.</b> Our approach consists in seeing a model as hierarchical, represented by a joint probability distribution. This joint distribution can be decomposed into a product of conditional distributions, each associated with a submodel (model for observations, individual parameters, etc.). Tasks required of the modeler are thus related to these probability distributions.</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true"><b>The methods.</b> Many tests have shown that algorithms implemented in <span class="smallcap" align="left">Monolix</span> are the most reliable, all the while being extremely fast. In fact, these algorithms are precisely described and published in well known statistical journals. In particular, the SAEM algorithm, used for calculating the maximum likelihood estimation of population parameters, has shown its worth in numerous situations. Its mathematical convergence has also been proven under quite general hypotheses.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true"><b>The language.</b> Mlxtran is used by <span class="smallcap" align="left">Monolix</span> and other modeling tools and is today by far the most advanced language for representing models. Initially developed for representing pharmacometric models, its syntax also allows it to easily code dynamical systems defined by a system of ODEs, and statistical models involving continuous, discrete and survival variables. This flexibility is a true advantage both for numerical modelers and statisticians.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid9">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Scientific positioning</bodyTitle>
+      <p>"Interfaces" is the defining characteristic of <span class="smallcap" align="left">Xpop</span>:</p>
+      <p><b>The interface between statistics, probability and numerical methods.</b>
+Mathematical modelling of complex biological phenomena require to combine numerical, stochastic and statistical approaches. The CMAP is therefore the right place to be for positioning the team at the interface between several mathematical disciplines.</p>
+      <p><b>The interface between mathematics and the life sciences.</b> The goal of <span class="smallcap" align="left">Xpop</span> is to bring the right answers to the right questions. These answers are mathematical tools (statistics, numerical methods, etc.), whereas the questions come from the life sciences (pharmacology, medicine, biology, etc.).
+This is why the point of <span class="smallcap" align="left">Xpop</span> is not to take part in mathematical projects only, but also pluridisciplinary ones.</p>
+      <p><b>The interface between mathematics and software development.</b> The development of new methods is the main activity of <span class="smallcap" align="left">Xpop</span>. However, new methods are only useful if they end up being implemented in a software tool. A strong partnership with Lixoft (the spin-off company who continue developing <span class="smallcap" align="left">Monolix</span>) is indispensable to maintaining this positioning.</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>The mixed-effects models</bodyTitle>
+      <p>Mixed-effects models are statistical models with both fixed effects and random effects. They are
+well-adapted to situations where repeated measurements are made on the same individual/statistical unit.</p>
+      <p>Consider first a single subject <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>i</mi></math></formula> of the population.
+Let <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>y</mi><mi>i</mi></msub><mo>=</mo><mrow><mo>(</mo><msub><mi>y</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>,</mo><mn>1</mn><mo>≤</mo><mi>j</mi><mo>≤</mo><msub><mi>n</mi><mi>i</mi></msub><mo>)</mo></mrow></mrow></math></formula> be the vector of observations for this subject. The model that describes the observations <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>y</mi><mi>i</mi></msub></math></formula> is assumed to be a parametric probabilistic model: let
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>p</mi><mi>Y</mi></msub><mrow><mo>(</mo><msub><mi>y</mi><mi>i</mi></msub><mo>;</mo><msub><mi>ψ</mi><mi>i</mi></msub><mo>)</mo></mrow></mrow></math></formula> be the probability distribution of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>y</mi><mi>i</mi></msub></math></formula>,
+where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ψ</mi><mi>i</mi></msub></math></formula> is a vector of parameters.</p>
+      <p>In a population framework, the vector of parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ψ</mi><mi>i</mi></msub></math></formula> is assumed to be drawn from a population distribution <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>p</mi><mi>Ψ</mi></msub><mrow><mo>(</mo><msub><mi>ψ</mi><mi>i</mi></msub><mo>;</mo><mi>θ</mi><mo>)</mo></mrow></mrow></math></formula> where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>θ</mi></math></formula> is a vector of population parameters.</p>
+      <p>Then, the probabilistic model is the joint probability distribution</p>
+      <formula id-text="1" id="uid12" textype="equation" type="display">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+          <mrow>
+            <mi>p</mi>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>y</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mi>ψ</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>;</mo>
+              <mi>θ</mi>
+              <mo>)</mo>
+            </mrow>
+            <mo>=</mo>
+            <msub>
+              <mi>p</mi>
+              <mi>Y</mi>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>y</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>|</mo>
+              <msub>
+                <mi>ψ</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <msub>
+              <mi>p</mi>
+              <mi>Ψ</mi>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>ψ</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>;</mo>
+              <mi>θ</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </math>
+      </formula>
+      <p noindent="true">To define a model thus consists in defining precisely these two terms.</p>
+      <p>In most applications, the observed data <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>y</mi><mi>i</mi></msub></math></formula> are continuous longitudinal data. We then assume the following representation for <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>y</mi><mi>i</mi></msub></math></formula>:</p>
+      <formula id-text="2" id="uid13" textype="equation" type="display">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+          <mrow>
+            <msub>
+              <mi>y</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+              </mrow>
+            </msub>
+            <mo>=</mo>
+            <mi>f</mi>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>t</mi>
+                <mrow>
+                  <mi>i</mi>
+                  <mi>j</mi>
+                </mrow>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mi>ψ</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mo>+</mo>
+            <mi>g</mi>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>t</mi>
+                <mrow>
+                  <mi>i</mi>
+                  <mi>j</mi>
+                </mrow>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mi>ψ</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <msub>
+              <mi>ε</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+              </mrow>
+            </msub>
+            <mspace width="4pt"/>
+            <mspace width="4pt"/>
+            <mo>,</mo>
+            <mspace width="4pt"/>
+            <mn>1</mn>
+            <mo>≤</mo>
+            <mi>i</mi>
+            <mo>≤</mo>
+            <mi>N</mi>
+            <mspace width="4pt"/>
+            <mspace width="4pt"/>
+            <mo>,</mo>
+            <mspace width="4pt"/>
+            <mspace width="4pt"/>
+            <mn>1</mn>
+            <mo>≤</mo>
+            <mi>j</mi>
+            <mo>≤</mo>
+            <msub>
+              <mi>n</mi>
+              <mi>i</mi>
+            </msub>
+            <mo>.</mo>
+          </mrow>
+        </math>
+      </formula>
+      <p noindent="true">Here, <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>y</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></math></formula> is the observation obtained from subject <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>i</mi></math></formula> at time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>t</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></math></formula>. The residual errors <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>(</mo><msub><mi>ε</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>)</mo></mrow></math></formula> are assumed to be standardized random variables (mean zero and variance 1). The residual error model is represented by function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>g</mi></math></formula> in model (<ref xlink:href="#uid13" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <p>Function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>f</mi></math></formula> is usually the solution to a system of ordinary differential equations (pharmacokinetic/pharmacodynamic models, etc.) or a system of partial differential equations (tumor growth, respiratory system, etc.). This component is a fundamental component of the model since it defines the prediction of the observed kinetics for a given set of parameters.</p>
+      <p>The vector of individual parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ψ</mi><mi>i</mi></msub></math></formula> is usually function of a vector of population parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>ψ</mi><mi> pop </mi></msub></math></formula>, a vector of random effects <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>η</mi><mi>i</mi></msub><mo>∼</mo><mi>𝒩</mi><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mi>Ω</mi><mo>)</mo></mrow></mrow></math></formula>, a vector of individual covariates <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>c</mi><mi>i</mi></msub></math></formula> (weight, age, gender, ...) and some fixed effects <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>β</mi></math></formula>.</p>
+      <p>The joint model of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>y</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>ψ</mi></math></formula> depends then on a vector of parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>θ</mi><mo>=</mo><mo>(</mo><msub><mi>ψ</mi><mi> pop </mi></msub><mo>,</mo><mi>β</mi><mo>,</mo><mi>Ω</mi><mo>)</mo></mrow></math></formula>.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Computational Statistical Methods</bodyTitle>
+      <p>Central to modern statistics is the use of probabilistic models. To relate these models to data requires the ability to calculate the probability of the observed data: the likelihood function, which is central to most statistical methods and provides a principled framework to handle uncertainty.</p>
+      <p>The emergence of computational statistics as a collection of powerful and general methodologies for carrying out likelihood-based inference made complex models with non-standard data accessible to likelihood, including hierarchical models, models with intricate latent structure, and missing data.</p>
+      <p>In particular, algorithms previously developed by <span class="smallcap" align="left">Popix</span> for mixed effects models, and today implemented in several software tools (especially <span class="smallcap" align="left">Monolix</span>) are part of these methods:</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true">the adaptive Metropolis-Hastings algorithm allows one to sample from the conditional distribution of the individual parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>p</mi><mo>(</mo><msub><mi>ψ</mi><mi>i</mi></msub><mo>|</mo><msub><mi>y</mi><mi>i</mi></msub><mo>;</mo><msub><mi>c</mi><mi>i</mi></msub><mo>,</mo><mi>θ</mi><mo>)</mo></mrow></math></formula>,</p>
+        </li>
+        <li id="uid16">
+          <p noindent="true">the SAEM algorithm is used to maximize the observed likelihood <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>ℒ</mi><mo>(</mo><mi>θ</mi><mo>;</mo><mi>y</mi><mo>)</mo><mo>=</mo><mi>p</mi><mo>(</mo><mi>y</mi><mo>;</mo><mi>θ</mi><mo>)</mo></mrow></math></formula>,</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true">Importance Sampling Monte Carlo simulations provide an accurate estimation of the observed log-likelihood <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo form="prefix">log</mo><mo>(</mo><mi>ℒ</mi><mo>(</mo><mi>θ</mi><mo>;</mo><mi>y</mi><mo>)</mo><mo>)</mo></mrow></math></formula>.</p>
+        </li>
+      </simplelist>
+      <p>Computational statistics is an area which remains extremely active today. Recently, one can notice that the incentive
+for further improvements and innovation comes mainly from three broad directions: the high dimensional
+challenge, the quest for adaptive procedures that can eliminate the cumbersome process
+of tuning "by hand" the settings of the algorithms and the need for flexible
+theoretical support, arguably required by all recent developments as well as many of the traditional MCMC
+algorithms that are widely used in practice.</p>
+      <p>Working in these three directions is a clear objective for <span class="smallcap" align="left">Xpop</span>.</p>
+    </subsection>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Markov Chain Monte Carlo algorithms</bodyTitle>
+      <p>While these Monte Carlo algorithms have turned into standard tools over the past decade, they still face difficulties in handling less regular
+problems such as those involved in deriving inference for high-dimensional models. One of the main problems encountered when using MCMC in this challenging settings is that it is difficult to design a Markov chain that efficiently samples the state space of interest.</p>
+      <p>The Metropolis-adjusted Langevin algorithm (MALA) is a Markov chain Monte Carlo (MCMC) method for obtaining random samples from a probability distribution for which direct sampling is difficult. As the name suggests, MALA uses a combination of two mechanisms to generate the states of a random walk that has the target probability distribution as an invariant measure:</p>
+      <orderedlist>
+        <li id="uid19">
+          <p noindent="true">new states are proposed using Langevin dynamics, which use evaluations of the gradient of the target probability density function;</p>
+        </li>
+        <li id="uid20">
+          <p noindent="true">these proposals are accepted or rejected using the Metropolis-Hastings algorithm, which uses evaluations of the target probability density (but not its gradient).</p>
+        </li>
+      </orderedlist>
+      <p>Informally, the Langevin dynamics drives the random walk towards regions of high probability in the manner of a gradient flow, while the Metropolis-Hastings accept/reject mechanism improves the mixing and convergence properties of this random walk.</p>
+      <p>Several extensions of MALA have been proposed recently by several authors, including fMALA (fast MALA), AMALA (anisotropic MALA), MMALA (manifold MALA), position-dependent MALA (PMALA), ...</p>
+      <p>MALA and these extensions have demonstrated to represent very efficient alternative for sampling from high dimensional distributions.
+We therefore need to adapt these methods to general mixed effects models.</p>
+    </subsection>
+    <subsection id="uid21" level="1">
+      <bodyTitle>Parameter estimation</bodyTitle>
+      <p>The Stochastic Approximation Expectation Maximization (SAEM) algorithm has shown to be extremely efficient for maximum likelihood estimation in incomplete data models, and particularly in mixed effects models for estimating the population parameters.
+However, there are several practical situations for which extensions of SAEM are still needed:</p>
+      <p spacebefore="14.22636pt"/>
+      <p><b>High dimensional model:</b>  a complex physiological model may have a large number of parameters (in the order of 100). Then several problems arise:</p>
+      <simplelist>
+        <li id="uid22">
+          <p noindent="true">when most of these parameters are associated with random effects, the MCMC algorithm should be able to sample, for each of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>N</mi></math></formula> individuals, parameters from a high dimensional distribution.
+Efficient MCMC methods for high dimensions are then required.</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Practical identifiability of the model is not ensured with a limited amount of data. In other words, we cannot expect to be able to properly estimate all the parameters of the model, including the fixed effects and the variance-covariance matrix of the random effects. Then, some random effects should be removed, assuming that some parameters do not vary in the population. It may also be necessary to fix the value of some parameters (using values from the literature for instance).
+The strategy to decide which parameters should be fixed and which random effects should be removed remains totally empirical.
+<span class="smallcap" align="left">Xpop</span> aims to develop a procedure that will help the modeller to take such decisions.</p>
+        </li>
+      </simplelist>
+      <p spacebefore="14.22636pt"/>
+      <p><b>Large number of covariates:</b>  the covariate model aims to explain part of the inter-patient variability of some parameters.
+Classical methods for covariate model building are based on comparisons with respect to some criteria, usually derived from the likelihood (AIC, BIC), or some statistical test (Wald test, LRT, etc.). In other words, the modelling procedure requires two steps: first, all possible models are fitted using some estimation procedure (e.g. the SAEM algorithm) and the likelihood of each model is computed using a numerical integration procedure (e.g. Monte Carlo Importance Sampling); then, a model selection procedure chooses the "best" covariate model. Such a strategy is only possible with a reduced number of covariates, i.e., with a "small" number of models to fit and compare.</p>
+      <p>As an alternative, we are thinking about a Bayesian approach which consists of estimating simultaneously the covariate model and the parameters of the model in a single run. An (informative or uninformative) prior is defined for each model by defining a prior probability for each covariate to be included in the model. In other words, we extend the probabilistic model by introducing binary variables that indicate the presence or absence of each covariate in the model. Then, the model selection procedure consists of estimating and maximizing the conditional distribution of this sequence of binary variables. Furthermore, a probability can be associated to any of the possible covariate models.</p>
+      <p>This conditional distribution can be estimated using an MCMC procedure combined with the SAEM algorithm for estimating the population parameters of the model. In practice, such an approach can only deal with a limited number of covariates since the dimension of the probability space to explore increases exponentially with the number of covariates. Consequently, we would like to have methods able to find a small number of variables (from a large starting set) that influence certain parameters in populations of individuals.
+That means that, instead of estimating the conditional distribution of all the covariate models as described above, the algorithm should focus on the most likely ones.</p>
+      <p spacebefore="14.22636pt"/>
+      <p><b>Fixed parameters:</b>  it is quite frequent that some individual parameters of the model have no random component and are purely fixed effects. Then, the model may not belong to the exponential family anymore and the original version of SAEM cannot be used as it is.
+Several extensions exist:</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">introduce random effects with decreasing variances for these parameters,</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">introduce a prior distribution for these fixed effects,</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">apply the stochastic approximation directly on the sequence of estimated parameters, instead of the sufficient statistics of the model.</p>
+        </li>
+      </simplelist>
+      <p>None of these methods always work correctly. Furthermore, what are the pros and cons of these methods is not clear at all.
+Then, developing a robust methodology for such model is necessary.</p>
+      <p spacebefore="14.22636pt"/>
+      <p><b>Convergence toward the global maximum of the likelihood:</b> convergence of SAEM can strongly depend on thie initial guess when the observed likelihood has several local maxima. A kind of simulated annealing version of SAEM was previously developed and implemented in <span class="smallcap" align="left">Monolix</span>.
+The method works quite well in most situations but there is no theoretical justification and choosing the settings of this algorithm (i.e. how the temperature decreases during the iterations) remains empirical.
+A precise analysis of the algorithm could be very useful to better understand why it "works" in practice and how to optimize it.</p>
+      <p spacebefore="14.22636pt"/>
+      <p><b>Convergence diagnostic:</b>  Convergence of SAEM was theoretically demonstrated under very general hypothesis. Such result is important but of little interest in practice at the time to use SAEM in a finite amount of time, i.e. in a finite number of iterations.
+Some qualitative and quantitative criteria should be defined in order to both optimize the settings of the algorithm, detect a poor convergence of SAEM and evaluate the quality of the results in order to avoid using them unwisely.</p>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Model building</bodyTitle>
+      <p>Defining an optimal strategy for model building is far from easy because a model is the assembled product of numerous components that need to been evaluated and perhaps improved: the structural model, residual error model, covariate model, covariance model, etc.</p>
+      <p>How to proceed so as to obtain the best possible combination of these components? There is no magic recipe but an effort will be made to
+provide some qualitative and quantitative criteria in order to help the modeller for building his model.</p>
+      <p>The strategy to take will mainly depend on the time we can dedicate to building the model and the time required for running it. For relatively simple models for which parameter estimation is fast, it is possible to fit many models and compare them. This can also be done if we have powerful computing facilities available (e.g., a cluster) allowing large numbers of simultaneous runs.</p>
+      <p>However, if we are working on a standard laptop or desktop computer, model building is a sequential process in which a new model is tested at each step. If the model is complex and requires significant computation time (e.g., when involving systems of ODEs), we are constrained to limit the number of models we can test in a reasonable time period. In this context, it also becomes important to carefully choose the tasks to run at each step.</p>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>Model evaluation</bodyTitle>
+      <p>Diagnostic tools are recognized as an essential method for model assessment in the process of model building. Indeed, the modeler needs to confront "his" model with the experimental data before concluding that this model is able to reproduce the data and before using it for any purpose, such as prediction or simulation for instance.</p>
+      <p>The objective of a diagnostic tool is twofold: first we want to check if the assumptions made on the model are valid or not ; then, if some assumptions are rejected, we want to get some guidance on how to improve the model.</p>
+      <p>As is the usual case in statistics, it is not because this "final" model has not been rejected that it is necessarily the "true" one. All that we can say is that the experimental data does not allow us to reject it. It is merely one of perhaps many models that cannot be rejected.</p>
+      <p>Model diagnostic tools are for the most part graphical, i.e., visual; we "see" when something is not right between a chosen model and the data it is hypothesized to describe.
+These diagnostic plots are usually based on the empirical Bayes estimates (EBEs) of the individual parameters and EBEs of the random effects: scatterplots of individual parameters versus covariates to detect some possible relationship, scatterplots of pairs of random effects to detect some possible correlation between random effects, plot of the empirical distribution of the random effects (boxplot, histogram,...) to check if they are normally distributed, ...</p>
+      <p>The use of EBEs for diagnostic plots and statistical tests is efficient with rich data, i.e. when a significant amount of information is available in the data for recovering accurately all the individual parameters.
+On the contrary, tests and plots can be misleading when the estimates of the individual parameters are greatly shrunk.</p>
+      <p>We propose to develop new approaches for diagnosing mixed effects models in a general context and derive formal and unbiased statistical tests for testing separately each feature of the model.</p>
+    </subsection>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Missing data</bodyTitle>
+      <p>The ability to easily collect and gather a large amount of data from different sources can be seen as an opportunity to better understand many processes. It has already led to breakthroughs in several application areas. However, due to the wide heterogeneity of measurements and objectives, these large databases often exhibit an extraordinary high number of missing values. Hence, in addition to scientific questions, such data also present some important methodological and technical challenges for data analyst.</p>
+      <p>Missing values occur for a variety of reasons: machines that fail, survey participants who do not answer certain questions, destroyed or lost data, dead animals, damaged plants, etc. Missing values are problematic since most statistical methods can not be applied directly on a incomplete data.
+Many progress have been made to properly handle missing values. However, there are still many challenges that need to be addressed in the future, that are crucial for the users.</p>
+      <simplelist>
+        <li id="uid30">
+          <p noindent="true">State of arts methods often consider the case of continuous or categorical data whereas real data are very often mixed. The idea is to develop a multiple imputation method based on a specific principal component analysis (PCA) for mixed data. Indeed, PCA has been used with success to predict (impute) the missing values. A very appealing property is the ability of the method to handle very large matrices with large amount of missing entries.</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">The asymptotic regime underlying modern data is not any more to consider that the sample size increases but that both number of observations and number of variables are very large. In practice first experiments showed that the
+coverage properties of confidence areas based on the classical methods to estimate variance with missing values varied widely. The asymptotic method and the bootstrap do well in low-noise setting, but can fail when the noise level gets high or when the number of variables is much greater than the number of rows. On the other hand, the jackknife has good
+coverage properties for large noisy examples but requires a minimum number of variables to be
+stable enough.</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">Inference with missing values is usually performed under the assumption of "Missing at Random" (MAR) values which means that the probability that a value is missing may depend on the observed data but does not depend on the missing value itself. In real data and in particular in data coming from clinical studies, both "Missing Non at Random" (MNAR) and MAR values occur. Taking into account in a proper way both types of missing values is extremely challenging but is worth investigating since the applications are extremely broad.</p>
+        </li>
+      </simplelist>
+      <p>It is important to stress that missing data models are part of the general incomplete data models addressed by <span class="smallcap" align="left">Xpop</span>. Indeed, models with latent variables (i.e. non observed variables such as random effects in a mixed effects model), models with censored data (e.g. data below some limit of quantification) or models with dropout mechanism (e.g. when a subject in a clinical trial fails to continue in the study) can be seen as missing data models.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid33">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Population pharmacometrics</bodyTitle>
+      <p>Pharmacometrics involves the analysis and interpretation of data produced in pre-clinical and clinical trials.
+Population pharmacokinetics studies the variability in drug exposure for clinically safe and effective doses by focusing on identification of patient characteristics which significantly affect or are highly correlated with this variability.
+Disease progress modeling uses mathematical models to describe, explain, investigate and predict the changes in disease status as a function of time. A disease progress model incorporates functions describing natural disease progression and drug action.</p>
+      <p>The model based drug development (MBDD) approach establishes quantitative targets for each development step and optimizes the design of each study to meet the target.
+Optimizing study design requires simulations, which in turn require models.
+In order to arrive at a meaningful design, mechanisms need to be understood and correctly represented in the mathematical model. Furthermore, the model has to be predictive for future studies.
+This requirement precludes all purely empirical modeling; instead, models have to be mechanistic.</p>
+      <p>In particular, physiologically based pharmacokinetic models attempt to mathematically transcribe anatomical, physiological, physical, and chemical descriptions of phenomena involved in the ADME (Absorption - Distribution - Metabolism - Elimination) processes. A system of ordinary differential equations for the quantity of substance in each compartment involves parameters representing blood flow, pulmonary ventilation rate, organ volume, etc.</p>
+      <p>The ability to describe variability in pharmacometrics model is essential. The nonlinear mixed-effects modeling approach does this by combining the structural model component (the ODE system) with a statistical model, describing the distribution of the parameters between subjects and within subjects, as well as quantifying the unexplained or residual variability within subjects.</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Precision medicine and pharmacogenomics</bodyTitle>
+      <p>Pharmacogenomics involves using an individual's genome to determine whether or not a particular therapy, or dose of therapy, will be effective. Indeed, people's reaction to a given drug depends on their physiological state and environmental factors, but also to their individual genetic make-up.</p>
+      <p>Precision medicine is an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person. While some advances in precision medicine have been made, the practice is not currently in use for most diseases.</p>
+      <p>Currently, in the traditional population approach, inter-individual variability in the reaction to drugs is modeled using covariates such as weight, age, sex, ethnic origin, etc. Genetic polymorphisms susceptible to modify pharmacokinetic or pharmacodynamic parameters are much harder to include, especially as there are millions of possible polymorphisms (and thus covariates) per patient.</p>
+      <p>The challenge is to determine which genetic covariates are associated to some PKPD parameters and/or implicated in patient responses to a given drug.</p>
+      <p>Another problem encountered is the dependence of genes, as indeed, gene expression is a highly regulated process. In cases where the explanatory variables (genomic variants) are correlated, Lasso-type methods for model selection are thwarted.</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Biology - Intracellular processes</bodyTitle>
+      <p>Significant cell-to-cell heterogeneity is ubiquitously-observed in isogenic cell populations. Cells respond differently to a same stimulation. For example, accounting for such heterogeneity is essential to quantitatively understand why some bacteria survive antibiotic treatments, some cancer cells escape drug-induced suicide, stem cell do not differentiate, or some cells are not infected by pathogens.</p>
+      <p>The origins of the variability of biological processes and phenotypes are multifarious. Indeed, the observed heterogeneity of cell responses to a common stimulus can originate from differences in cell phenotypes (age, cell size, ribosome and transcription factor concentrations, etc), from spatio-temporal variations of the cell environments and from the intrinsic randomness of biochemical reactions. From systems and synthetic biology perspectives, understanding the exact contributions of these different sources of heterogeneity on the variability of cell responses is a central question.</p>
+    </subsection>
+  </domaine>
+  <highlights id="uid37">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>
+        <big>
+          <b>R Foundation</b>
+        </big>
+      </p>
+      <p>Julie Josse has been elected member of the R Foundation for Statistical Computing.</p>
+      <p>
+        <big>
+          <b>mlxR 3.1</b>
+        </big>
+      </p>
+      <p>mlxR 3.1 available on CRAN</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid39">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>mlxR</bodyTitle>
+      <p>A R package for the simulation and visualization of longitudinal data.
+The models are encoded using the model coding language 'Mlxtran', automatically converted into C++ codes, compiled on the fly and linked to R using the 'Rcpp' package. That allows one to implement very easily complex ODE-based models and complex statistical models, including mixed effects models, for continuous, count, categorical, and time-to-event data.
+</p>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>FactoMineR</bodyTitle>
+      <p>A R package dedicated to principal component methods (PCA,
+Correspondence Analysis for contingency tables, Multiple Correspondence Analysis for categorical data, MFA for multi-blocks data). Google users group and you-tube videos available.
+</p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>missMDA</bodyTitle>
+      <p>A R package to perform principal component methods (PCA, MCA, MFA) with missing values
+and to impute continuous, categorical and mixed data. Multiple imputation is available.
+</p>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>denoiseR</bodyTitle>
+      <p>A R package that approximates a low-rank matrix from noisy data (Gaussian and Poisson Noise).
+Singular values shrinkage methods are implemented.
+</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid44">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Identifiability in mixed effects models</bodyTitle>
+      <p>We considered the question of model identifiability within the context of nonlinear mixed effects models. Although there has been extensive research in the area of fixed effects models, much less attention has been paid to random effects models.</p>
+      <p>In this context we distinguish between theoretical identifiability, in which different parameter values lead to non-identical probability distributions, structural identifiability which concerns the algebraic properties of the structural model, and practical identifiability, whereby the model may be theoretically identifiable but the design of the experiment may make parameter estimation difficult and imprecise.</p>
+      <p>We have explored a number of pharmacokinetic models which are known to be non-identifiable at an individual level but can become identifiable at the population level if a number of specific assumptions on the probabilistic model hold. Essentially if the probabilistic models are different, even though the structural models are non-identifiable, then they will lead to different likelihoods. The findings are supported through simulations.
+</p>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Enhanced Method for Diagnosing Pharmacometric Models</bodyTitle>
+      <p>For nonlinear mixed-effects pharmacometric models, diagnostic approaches often rely on individual parameters, also called empirical Bayes estimates (EBEs), estimated through maximizing conditional distributions. When individual data are sparse, the distribution of EBEs can “shrink” towards the same population value, and as a direct consequence, resulting diagnostics can be misleading.</p>
+      <p>Instead of maximizing each individual conditional distribution of individual parameters, we propose to randomly sample them in order to obtain values better spread out over the marginal distribution of individual parameters.</p>
+      <p>We have evaluated, through diagnostic plots and statistical tests, hypothesis related to the distribution of the individual parameters and shown that the proposed method leads to more reliable results than using the EBEs. In particular, diagnostic plots are more meaningful, the rate of type I error is correctly controlled and its power increases when the degree of misspecification increases. An application to the warfarin pharmacokinetic data confirms the interest of the approach for practical applications.
+</p>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>A Shrinkage-Thresholding Metropolis Adjusted Langevin Algorithm for Bayesian Variable Selection</bodyTitle>
+      <p>We have introduced a new Markov Chain Monte Carlo method for Bayesian variable selection in high dimensional settings. The algorithm is a Hastings-Metropolis sampler with a proposal mechanism which combines a Metropolis Adjusted Langevin (MALA) step to propose local moves associated with a shrinkage-thresholding step allowing to propose new models.</p>
+      <p>The geometric ergodicity of this new trans-dimensional Markov Chain Monte Carlo sampler was established. An extensive numerical experiment, on simulated and real data, illustrates the performance of the proposed algorithm in comparison with some more classical trans-dimensional algorithms
+</p>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>Maximum likelihood estimation of a low-order building model</bodyTitle>
+      <p>Our objective was to investigate the accuracy of the estimates learned with an open loop model of a building whereas the data is actually collected in closed loop, which corresponds to the true exploitation of buildings. We have proposed a simple model based on an equivalent RC network whose parameters are physically interpretable. We also described the maximum likelihood estimation of these parameters by the EM algorithm, and derived their statistical properties.</p>
+      <p>The numerical experiments clearly show the potential of the method, in terms of accuracy and robustness. We have emphasized the fact that the estimations are linked to the generating process for the observations, which includes the command system. For instance, the features of the building are correctly estimated if there is a significant gap between the heating and cooling setpoint.
+</p>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>LP-convergence of a Girsanov theorem based particle filter</bodyTitle>
+      <p>We have analyzed the LP-convergence of a previously proposed Girsanov theorem based particle filter for discretely observed stochastic differential equation (SDE) models. We proved the convergence of the algorithm with the number of particles tending to infinity by requiring a moment condition and a step-wise initial condition boundedness for the stochastic exponential process giving the likelihood ratio of the SDEs. The practical implications of the condition are illustrated with an Ornstein–Uhlenbeck model and with a non-linear Bene's model.
+</p>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>Adaptive estimation in the nonparametric random coefficients binary choice model by needlet thresholding</bodyTitle>
+      <p>In the random coefficients binary choice model, a binary variable equals
+1 iff an index <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>X</mi><mi>T</mi></msup><mi>β</mi></mrow></math></formula> is positive. The vectors <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>X</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>β</mi></math></formula> are independent and belong to the sphere <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>S</mi><mrow><mi>d</mi><mi>−</mi><mn>1</mn></mrow></msup></math></formula> in <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>R</mi><mi>d</mi></msup></math></formula>. We have proven lower bounds on the minimax risk for estimation of the density <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>f</mi><mi>β</mi></msub></math></formula> over Besov bodies where the loss is a power of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>L</mi><mi>p</mi></msup><mrow><mo>(</mo><msup><mi>S</mi><mrow><mi>d</mi><mi>−</mi><mn>1</mn></mrow></msup><mo>)</mo></mrow></mrow></math></formula> norm for
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mn>1</mn><mo>≤</mo><mi>p</mi><mo>≤</mo><mi>∞</mi></mrow></math></formula>. We have shown that a hard thresholding estimator based on a needlet expansion
+with data-driven thresholds achieves these lower bounds up to logarithmic factors.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid51">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Bilateral Contract with Industry</bodyTitle>
+      <p>Contract with Lixoft
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid53">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid54" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid55" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <p>The Drug Disease Model Resources (DDMoRe) consortium will build and maintain a universally applicable, open source, model-based framework, intended as the gold standard for future collaborative drug and disease modeling and simulation.</p>
+        <p>The DDMoRe project is supported by the Innovative Medicines Initiative (IMI), a large-scale public-private partnership between the European Union and the pharmaceutical industry association EFPIA.</p>
+        <p>Marc Lavielle was leader of WP6: "New tools for Model Based Drug Development".</p>
+        <p>DDMoRe website: <ref xlink:href="http://www.ddmore.eu" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ddmore.<allowbreak/>eu</ref></p>
+        <p>Duration: 2010 - 2016</p>
+        <p>Project members:
+Uppsala Universitet,
+Sweden;  University of Navarra,
+Spain;  Universiteit Leiden,
+Netherlands;  Université Paris Diderot,
+France;  Universita degli Studi di Pavia,
+Italy;  UCB Pharma ,
+Belgium;  Simcyp,
+UK;  Pfizer,
+UK;  Optimata ,
+Israel;  Novo Nordisk ,
+Denmark;  Novartis,
+Switzerland;  Merck Serono,
+Switzerland;  Takeda,
+Switzerland;  Mango Business Solutions ,
+UK;  Lixoft,
+France;  Interface Europe,
+Belgium;  Institut de Recherches Internationales Servier,
+France;  Inria,
+France;  GlaxoSmithKline Research and Development,
+UK;  Freie Universitat Berlin,
+Germany;  F. Hoffmann - La Roche ,
+Switzerland;  EMBL - European Bioinformatics Institute,
+UK;  Eli Lilly ,
+UK;  Cyprotex Discovery,
+UK;  Consiglio Nazionale delle Ricerche,
+Italy;  AstraZeneca,
+Sweden.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid57" level="2">
+        <bodyTitle>Informal International Partners</bodyTitle>
+        <p>Marc Lavielle is Adjunct Professor at the Faculty of Pharmacy of Florida University.</p>
+        <p>Marc Lavielle is Adjunct Professor at the Faculty of Pharmacy of Buffalo University.</p>
+        <p>Julie Josse collaborates with Susan Holmes, Stanford University.</p>
+        <p>Eric Moulines regularly collaborates with Sean P. Meyn, University of Florida.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid58" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid59" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <p>Ricardo Rios, Universidad Central de Venezuela, Caracas: September 2016.</p>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid60">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid62" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid63" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <p>Julie josse was chair of useR!2016, Stanford, CA, USA, July 2016. <ref xlink:href="http://user2016.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>user2016.<allowbreak/>org</ref>.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Marc Lavielle is member of the Scientific Committee of the High Council for Biotechnologies</p>
+      </subsection>
+      <subsection id="uid65" level="2">
+        <bodyTitle>Research administration</bodyTitle>
+        <p>Marc Lavielle is member of</p>
+        <simplelist>
+          <li id="uid66">
+            <p noindent="true">the Scientific Programming Committee (CPS) of the Institute Henri Poincaré (IHP),</p>
+          </li>
+          <li id="uid67">
+            <p noindent="true">the Executive Board (CA) of SMAI.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid69" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid70">
+            <p noindent="true">Master : Julie Josse, Statistics with R, 48, M2, X-HEC</p>
+          </li>
+          <li id="uid71">
+            <p noindent="true">Master : Eric Moulines, Regresson models, 36, M2, X-HEC</p>
+          </li>
+          <li id="uid72">
+            <p noindent="true">Engineering School : Eric Moulines, Statistics, 36, 2A, X</p>
+          </li>
+          <li id="uid73">
+            <p noindent="true">Engineering School : Eric Moulines, Markov Chains, 36, 3A, X</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">Engineering School : Erwan Le Pennec, Statistics, 36, 2A, X</p>
+          </li>
+          <li id="uid75">
+            <p noindent="true">Engineering School : Erwan Le Pennec, Statistical Learning, 36, 3A, X</p>
+          </li>
+          <li id="uid76">
+            <p noindent="true">Engineering School : Marc Lavielle, Time Series, 24, 3A, X</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid77" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid78">
+            <p noindent="true">PhD in progress : Nicolas Brosse, September 2016, Eric Moulines</p>
+          </li>
+          <li id="uid79">
+            <p noindent="true">PhD in progress : Geneviève Robin, September 2016, Julie Josse</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">PhD in progress : Belhal Karimi, October 2016, Marc Lavielle and Eric Moulines</p>
+          </li>
+          <li id="uid81">
+            <p noindent="true">PhD in progress : Marine Zulian, October 2016, Marc Lavielle</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="xpop-2016-bid1" type="article" rend="year" n="cite:braham:hal-01418961">
+      <identifiant type="doi" value="10.1109/TVT.2016.2599842"/>
+      <identifiant type="hal" value="hal-01418961"/>
+      <analytic>
+        <title level="a">Fixed Rank Kriging for Cellular Coverage Analysis</title>
+        <author>
+          <persName>
+            <foreName>Hajer</foreName>
+            <surname>Braham</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Sana Ben</foreName>
+            <surname>Jemaa</surname>
+            <initial>S. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Gersende</foreName>
+            <surname>Fort</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Berna</foreName>
+            <surname>Sayrac</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00759">
+        <idno type="issn">0018-9545</idno>
+        <title level="j">IEEE Transactions on Vehicular Technology</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">11</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418961" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418961</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid2" type="article" rend="year" n="cite:braham:hal-01419051">
+      <identifiant type="doi" value="10.1109/TWC.2016.2605676"/>
+      <identifiant type="hal" value="hal-01419051"/>
+      <analytic>
+        <title level="a">Spatial Prediction Under Location Uncertainty in Cellular Networks</title>
+        <author>
+          <persName>
+            <foreName>Hajer</foreName>
+            <surname>Braham</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Sana Ben</foreName>
+            <surname>Jemaa</surname>
+            <initial>S. B.</initial>
+          </persName>
+          <persName>
+            <foreName>Gersende</foreName>
+            <surname>Fort</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Berna</foreName>
+            <surname>Sayrac</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00762">
+        <idno type="issn">1536-1276</idno>
+        <title level="j">IEEE Transactions on Wireless Communications</title>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">7633 - 7643</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01419051" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419051</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid9" type="article" rend="year" n="cite:jala:hal-01418859">
+      <identifiant type="doi" value="10.1080/00401706.2014.979951"/>
+      <identifiant type="hal" value="hal-01418859"/>
+      <analytic>
+        <title level="a">Sequential design of computer experiments for the assessment of fetus exposure to electromagnetic fields</title>
+        <author>
+          <persName>
+            <foreName>Marjorie</foreName>
+            <surname>Jala</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>CELINE C.</foreName>
+            <surname>LEVY LEDUC</surname>
+            <initial>C. C.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Emmanuelle</foreName>
+            <surname>Conil</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Joe</foreName>
+            <surname>Wiart</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01840">
+        <idno type="issn">0040-1706</idno>
+        <title level="j">Technometrics</title>
+        <imprint>
+          <biblScope type="volume">58</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">30–42</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01418859" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01418859</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid10" type="article" rend="year" n="cite:lavielle:hal-01365535">
+      <identifiant type="hal" value="hal-01365535"/>
+      <analytic>
+        <title level="a">What do we mean by identiability in mixed effects models?</title>
+        <author>
+          <persName key="popix-2014-idm9976">
+            <foreName>Marc</foreName>
+            <surname>Lavielle</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Leon</foreName>
+            <surname>Aarons</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01238">
+        <idno type="issn">1567-567X</idno>
+        <title level="j">Journal of Pharmacokinetics and Pharmacodynamics</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01365535" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01365535</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid0" type="article" rend="year" n="cite:lavielle:hal-01365532">
+      <identifiant type="doi" value="10.1007/s11095-016-2020-3"/>
+      <identifiant type="hal" value="hal-01365532"/>
+      <analytic>
+        <title level="a">Enhanced Method for Diagnosing Pharmacometric Models: Random Sampling from Conditional Distributions</title>
+        <author>
+          <persName key="popix-2014-idm9976">
+            <foreName>Marc</foreName>
+            <surname>Lavielle</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="numed-2014-idp104072">
+            <foreName>Benjamin</foreName>
+            <surname>Ribba</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid03175">
+        <idno type="issn">0724-8741</idno>
+        <title level="j">Pharmaceutical Research / Pharmaceutical Research (Dordrecht)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01365532" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01365532</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid12" type="article" rend="year" n="cite:schreck:hal-01418960">
+      <identifiant type="doi" value="10.1109/JSTSP.2015.2496546"/>
+      <identifiant type="hal" value="hal-01418960"/>
+      <analytic>
+        <title level="a">A Shrinkage-Thresholding Metropolis Adjusted Langevin Algorithm for Bayesian Variable Selection</title>
+        <author>
+          <persName>
+            <foreName>Amandine</foreName>
+            <surname>Schreck</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Gersende</foreName>
+            <surname>Fort</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sylvain</foreName>
+            <surname>Le Corff</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00690">
+        <idno type="issn">1932-4553</idno>
+        <title level="j">IEEE Journal of Selected Topics in Signal Processing</title>
+        <imprint>
+          <biblScope type="volume">10</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">366 - 375</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01418960" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418960</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid4" type="inproceedings" rend="year" n="cite:ilhe:hal-01418963">
+      <identifiant type="doi" value="10.1109/SSP.2016.7551709"/>
+      <identifiant type="hal" value="hal-01418963"/>
+      <analytic>
+        <title level="a">Nonparametric estimation of a shot-noise process</title>
+        <author>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Ilhe</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>François</foreName>
+            <surname>Roueff</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Souloumiac</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">SSP 16 - Statistical Signal Processing Workshop</title>
+        <loc>Palma de Mallorca, Spain</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IEEE Signal Processing Society</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01418963" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01418963</ref>
+        </imprint>
+        <meeting id="cid96985">
+          <title>IEEE Workshop on Statistical Signal Processing</title>
+          <num>2016</num>
+          <abbr type="sigle">SSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid8" type="inproceedings" rend="year" n="cite:lafond:hal-01419048">
+      <identifiant type="doi" value="10.1109/ICASSP.2016.7472457"/>
+      <identifiant type="hal" value="hal-01419048"/>
+      <analytic>
+        <title level="a">D-FW: Communication efficient distributed algorithms for high-dimensional sparse optimization</title>
+        <author>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Lafond</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Hoi-To</foreName>
+            <surname>Wai</surname>
+            <initial>H.-T.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Acoustics, Speech and Signal Processing</title>
+        <loc>Shangai, China</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">4144 - 4148</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01419048" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419048</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>2008</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid7" type="inproceedings" rend="year" n="cite:nabil:hal-01419050">
+      <identifiant type="doi" value="10.1109/EUSIPCO.2016.7760339"/>
+      <identifiant type="hal" value="hal-01419050"/>
+      <analytic>
+        <title level="a">Maximum likelihood estimation of a low-order building model</title>
+        <author>
+          <persName>
+            <foreName>Tahar</foreName>
+            <surname>Nabil</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>François</foreName>
+            <surname>Roueff</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Jicquel</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Alexandre</foreName>
+            <surname>Girard</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">EUSIPCO 2016: 2016 24th European Signal Processing Conference</title>
+        <loc>Budapest, Hungary</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419050" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419050</ref>
+        </imprint>
+        <meeting id="cid70310">
+          <title>European Signal Processing Conference</title>
+          <num>24</num>
+          <abbr type="sigle">EUSIPCO</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid6" type="inproceedings" rend="year" n="cite:sarkka:hal-01419046">
+      <identifiant type="doi" value="10.1109/ICASSP.2016.7472426"/>
+      <identifiant type="hal" value="hal-01419046"/>
+      <analytic>
+        <title level="a">On the L&lt;inf&gt;P&lt;/inf&gt;-convergence of a Girsanov theorem based particle filter</title>
+        <author>
+          <persName>
+            <foreName>Simo</foreName>
+            <surname>Särkkä</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="xpop-2016-idp171200">
+            <foreName>Eric</foreName>
+            <surname>Moulines</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICASSP 2016 - International Conference on Acoustics, Speech and Signal Processing</title>
+        <loc>Shangai, China</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">3989 - 3993</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01419046" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419046</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>41</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid11" type="unpublished" rend="year" n="cite:gautier:inria-00601274">
+      <identifiant type="hal" value="inria-00601274"/>
+      <monogr>
+        <title level="m">Adaptive estimation in the nonparametric random coefficients binary choice model by needlet thresholding</title>
+        <author>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Gautier</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="select-2014-idp86192">
+            <foreName>Erwan</foreName>
+            <surname>Le Pennec</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/inria-00601274" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00601274</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid5" type="unpublished" rend="year" n="cite:lavielle:hal-01251986">
+      <identifiant type="hal" value="hal-01251986"/>
+      <monogr>
+        <title level="m">What do we mean by identifiability in mixed effects models?</title>
+        <author>
+          <persName key="popix-2014-idm9976">
+            <foreName>Marc</foreName>
+            <surname>Lavielle</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Leon</foreName>
+            <surname>Aarons</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01251986" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01251986</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="xpop-2016-bid3" type="unpublished" rend="year" n="cite:montuelle:hal-01070805">
+      <identifiant type="hal" value="hal-01070805"/>
+      <monogr>
+        <title level="m">PAC-Bayesian aggregation of affine estimators</title>
+        <author>
+          <persName key="select-2014-idp107544">
+            <foreName>Lucie</foreName>
+            <surname>Montuelle</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="select-2014-idp86192">
+            <foreName>Erwan</foreName>
+            <surname>Le Pennec</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01070805" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01070805</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

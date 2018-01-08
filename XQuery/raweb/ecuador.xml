@@ -1,0 +1,2903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="ecuador" isproject="true">
+    <shortname>ECUADOR</shortname>
+    <projectName>Program transformations for scientific computing</projectName>
+    <theme-de-recherche>Numerical schemes and simulations</theme-de-recherche>
+    <domaine-de-recherche>Applied Mathematics, Computation and Simulation</domaine-de-recherche>
+    <header_dates_team>Creation of the Project-Team: 2014 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.2.1. - Static analysis</term>
+      <term>2.5. - Software engineering</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>6.3.2. - Data assimilation</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>1.1.2. - Molecular biology</term>
+      <term>3.2. - Climate and meteorology</term>
+      <term>3.3.2. - Water: sea &amp; ocean, lake &amp; river</term>
+      <term>3.3.4. - Atmosphere</term>
+      <term>5.2.3. - Aviation</term>
+      <term>5.2.4. - Aerospace</term>
+      <term>9.5.3. - Economy, Finance</term>
+    </keywordsSecteurs>
+    <UR name="Sophia"/>
+  </identification>
+  <team id="uid1">
+    <person key="ecuador-2014-idp10944">
+      <firstname>Laurent</firstname>
+      <lastname>Hascoët</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Team leader, Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="ecuador-2014-idp12432">
+      <firstname>Alain</firstname>
+      <lastname>Dervieux</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="ecuador-2014-idp13840">
+      <firstname>Valérie</firstname>
+      <lastname>Pascual</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+    </person>
+    <person key="ecuador-2014-idp108312">
+      <firstname>Eléonore</firstname>
+      <lastname>Gauci</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="ecuador-2016-idp151696">
+      <firstname>Emmanuelle</firstname>
+      <lastname>Itam</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Montpellier II, from Feb 2016</moreinfo>
+    </person>
+    <person key="ecuador-2014-idp110800">
+      <firstname>Ala</firstname>
+      <lastname>Taftaf</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="ecuador-2015-idp69568">
+      <firstname>Olivier</firstname>
+      <lastname>Allain</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Lemma, Visiting Scientist</moreinfo>
+    </person>
+    <person key="ecuador-2014-idp107120">
+      <firstname>Gautier</firstname>
+      <lastname>Brèthes</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Visiting Scientist, until Mar 2016</moreinfo>
+    </person>
+    <person key="ecuador-2016-idp161520">
+      <firstname>Georgios</firstname>
+      <lastname>Ntanakas</lastname>
+      <categoryPro>Visiteur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Rolls-Royce, Dahlewitz, Germany, Visiting Scientist, until Feb 2016</moreinfo>
+    </person>
+    <person key="diana-2014-idp95824">
+      <firstname>Christine</firstname>
+      <lastname>Claux</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="ecuador-2014-idp109552">
+      <firstname>Bruno</firstname>
+      <lastname>Koobus</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Montpellier II, Professor</moreinfo>
+    </person>
+    <person key="ecuador-2014-idp112024">
+      <firstname>Stephen</firstname>
+      <lastname>Wornom</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Lemma, Engineer</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>Team Ecuador studies Algorithmic Differentiation (AD) of computer programs, blending :</p>
+      <simplelist>
+        <li id="uid4">
+          <p noindent="true"><b>AD theory:</b> We study software engineering techniques, to
+analyze and transform programs mechanically. Algorithmic Differentiation (AD)
+transforms a program <tt>P</tt> that computes a function <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula>, into a program <tt>P'</tt>
+that computes analytical derivatives of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula>.
+We put emphasis on the <i>adjoint mode</i> of AD,
+a sophisticated transformation that yields gradients for optimization at a remarkably low cost.</p>
+        </li>
+        <li id="uid5">
+          <p noindent="true"><b>AD application to Scientific Computing:</b>
+We adapt the strategies of Scientific Computing
+to take full advantage of AD.
+We validate our work on real-size applications.</p>
+        </li>
+      </simplelist>
+      <p>We want to produce AD code that can compete
+with hand-written sensitivity and adjoint programs used in the industry.
+We implement our algorithms into the tool Tapenade,
+one of the most popular AD tools now.</p>
+      <p>Our research directions :</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true">Efficient adjoint AD of frequent dialects e.g. Fixed-Point loops.</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">Development of the adjoint AD model towards Dynamic Memory Management.</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">Development of the adjoint AD model towards Parallel Languages.</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">Optimal shape design and optimal control for steady and unsteady simulations.
+Higher-order derivatives for uncertainty quantification.</p>
+        </li>
+        <li id="uid10">
+          <p noindent="true">Adjoint-driven mesh adaptation.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </presentation>
+  <fondements id="uid11">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Algorithmic Differentiation</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp13840">
+          <firstname>Valérie</firstname>
+          <lastname>Pascual</lastname>
+        </person>
+        <person key="ecuador-2014-idp110800">
+          <firstname>Ala</firstname>
+          <lastname>Taftaf</lastname>
+        </person>
+      </participants>
+      <glosslist>
+        <label>algorithmic differentiation</label>
+        <li>
+          <p>(AD, aka Automatic Differentiation)
+Transformation of a program, that returns a new program that computes
+derivatives of the initial program, i.e. some combination of the
+partial derivatives of the program's outputs with respect to its inputs.</p>
+        </li>
+        <label>adjoint</label>
+        <li>
+          <p>Mathematical manipulation of the Partial Differential Equations
+that define a problem, obtaining new differential equations that define
+the gradient of the original problem's solution.</p>
+        </li>
+        <label>checkpointing</label>
+        <li>
+          <p>General trade-off technique, used in adjoint AD,
+that trades duplicate execution of a part of the program
+to save some memory space that was used to save intermediate results.</p>
+        </li>
+      </glosslist>
+      <p>Algorithmic Differentiation (AD) differentiates
+<i>programs</i>. The input of AD is
+a source program <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula> that, given some <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>X</mi><mo>∈</mo><msup><mi>ℝ</mi><mi>n</mi></msup></mrow></math></formula>,
+returns some <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>Y</mi><mo>=</mo><mi>F</mi><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow><mspace width="0.222222em"/><mo>∈</mo><msup><mi>ℝ</mi><mi>m</mi></msup></mrow></math></formula>, for a differentiable <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula>.
+AD generates a new source program <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mo>'</mo></msup></math></formula> that,
+given <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>X</mi></math></formula>, computes some derivatives of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula> <ref xlink:href="#ecuador-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Any execution of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula> amounts to a sequence of instructions,
+which is identified with a composition of vector functions. Thus, if</p>
+      <formula id-text="1" id="uid13" textype="eqnarray" type="display">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+          <mtable displaystyle="true">
+            <mtr>
+              <mtd columnalign="right">
+                <mtable>
+                  <mtr>
+                    <mtd columnalign="right">
+                      <mi>P</mi>
+                    </mtd>
+                    <mtd>
+                      <mrow>
+                        <mspace width="0.222222em"/>
+                        <mtext>runs</mtext>
+                        <mspace width="0.222222em"/>
+                      </mrow>
+                    </mtd>
+                    <mtd columnalign="left">
+                      <mrow>
+                        <mo>{</mo>
+                        <msub>
+                          <mi>I</mi>
+                          <mn>1</mn>
+                        </msub>
+                        <mo>;</mo>
+                        <msub>
+                          <mi>I</mi>
+                          <mn>2</mn>
+                        </msub>
+                        <mo>;</mo>
+                        <mo>⋯</mo>
+                        <msub>
+                          <mi>I</mi>
+                          <mi>p</mi>
+                        </msub>
+                        <mo>;</mo>
+                        <mo>}</mo>
+                        <mo>,</mo>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd columnalign="right">
+                      <mi>F</mi>
+                    </mtd>
+                    <mtd>
+                      <mrow>
+                        <mtext>then</mtext>
+                        <mspace width="4.pt"/>
+                        <mtext>is</mtext>
+                      </mrow>
+                    </mtd>
+                    <mtd columnalign="left">
+                      <mrow>
+                        <msub>
+                          <mi>f</mi>
+                          <mi>p</mi>
+                        </msub>
+                        <mo>∘</mo>
+                        <msub>
+                          <mi>f</mi>
+                          <mrow>
+                            <mi>p</mi>
+                            <mo>-</mo>
+                            <mn>1</mn>
+                          </mrow>
+                        </msub>
+                        <mo>∘</mo>
+                        <mo>⋯</mo>
+                        <mo>∘</mo>
+                        <msub>
+                          <mi>f</mi>
+                          <mn>1</mn>
+                        </msub>
+                        <mo>,</mo>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                </mtable>
+              </mtd>
+            </mtr>
+          </mtable>
+        </math>
+      </formula>
+      <p noindent="true">where each <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>f</mi><mi>k</mi></msub></math></formula> is the elementary function implemented by instruction <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>I</mi><mi>k</mi></msub></math></formula>.
+AD applies the chain rule to obtain derivatives of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula>.
+Calling <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>X</mi><mi>k</mi></msub></math></formula> the values of all variables after
+instruction <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>I</mi><mi>k</mi></msub></math></formula>, i.e. <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>X</mi><mn>0</mn></msub><mo>=</mo><mi>X</mi></mrow></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>=</mo><msub><mi>f</mi><mi>k</mi></msub><mrow><mo>(</mo><msub><mi>X</mi><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow></mrow></math></formula>,
+the Jacobian of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>F</mi></math></formula> is</p>
+      <formula id-text="2" id="uid14" textype="equation" type="display">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+          <mrow>
+            <msup>
+              <mi>F</mi>
+              <mo>'</mo>
+            </msup>
+            <mrow>
+              <mo>(</mo>
+              <mi>X</mi>
+              <mo>)</mo>
+            </mrow>
+            <mo>=</mo>
+            <msubsup>
+              <mi>f</mi>
+              <mi>p</mi>
+              <mo>'</mo>
+            </msubsup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>X</mi>
+                <mrow>
+                  <mi>p</mi>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mspace width="0.222222em"/>
+            <mo>.</mo>
+            <mspace width="0.222222em"/>
+            <msubsup>
+              <mi>f</mi>
+              <mrow>
+                <mi>p</mi>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+              <mo>'</mo>
+            </msubsup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>X</mi>
+                <mrow>
+                  <mi>p</mi>
+                  <mo>-</mo>
+                  <mn>2</mn>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mspace width="0.222222em"/>
+            <mo>.</mo>
+            <mspace width="0.222222em"/>
+            <mo>⋯</mo>
+            <mspace width="0.222222em"/>
+            <mo>.</mo>
+            <mspace width="0.222222em"/>
+            <msubsup>
+              <mi>f</mi>
+              <mn>1</mn>
+              <mo>'</mo>
+            </msubsup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>X</mi>
+                <mn>0</mn>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </math>
+      </formula>
+      <p noindent="true">which can be mechanically written as a sequence of instructions <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msubsup><mi>I</mi><mi>k</mi><mo>'</mo></msubsup></math></formula>.
+This can be generalized to higher level derivatives, Taylor series, etc.
+Combining the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msubsup><mi>I</mi><mi>k</mi><mo>'</mo></msubsup></math></formula> with the control of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>P</mi></math></formula> yields <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>P</mi><mo>'</mo></msup></math></formula>,
+and therefore this differentiation is piecewise.</p>
+      <p>In practice, many applications only need cheaper projections of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msup><mi>F</mi><mo>'</mo></msup><mrow><mo>(</mo><mi>X</mi><mo>)</mo></mrow></mrow></math></formula> such as:</p>
+      <simplelist>
+        <li id="uid15">
+          <p noindent="true"><b>Sensitivities</b>, defined for a given direction <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mover accent="true"><mi>X</mi><mo>˙</mo></mover></math></formula> in the input space as:</p>
+          <formula id-text="3" id="uid16" textype="equation" type="display">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+              <mrow>
+                <msup>
+                  <mi>F</mi>
+                  <mo>'</mo>
+                </msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mi>X</mi>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <mover accent="true">
+                  <mi>X</mi>
+                  <mo>˙</mo>
+                </mover>
+                <mo>=</mo>
+                <msubsup>
+                  <mi>f</mi>
+                  <mi>p</mi>
+                  <mo>'</mo>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mrow>
+                      <mi>p</mi>
+                      <mo>-</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mspace width="0.222222em"/>
+                <mo>.</mo>
+                <mspace width="0.222222em"/>
+                <msubsup>
+                  <mi>f</mi>
+                  <mrow>
+                    <mi>p</mi>
+                    <mo>-</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mo>'</mo>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mrow>
+                      <mi>p</mi>
+                      <mo>-</mo>
+                      <mn>2</mn>
+                    </mrow>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mspace width="0.222222em"/>
+                <mo>.</mo>
+                <mspace width="0.222222em"/>
+                <mo>⋯</mo>
+                <mspace width="0.222222em"/>
+                <mo>.</mo>
+                <mspace width="0.222222em"/>
+                <msubsup>
+                  <mi>f</mi>
+                  <mn>1</mn>
+                  <mo>'</mo>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mn>0</mn>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mspace width="0.222222em"/>
+                <mo>.</mo>
+                <mspace width="0.222222em"/>
+                <mover accent="true">
+                  <mi>X</mi>
+                  <mo>˙</mo>
+                </mover>
+                <mspace width="1.em"/>
+                <mo>.</mo>
+              </mrow>
+            </math>
+          </formula>
+          <p spacebefore="14.22636pt" noindent="true"/>
+          <p>This expression is easily computed from right to left, interleaved with the original
+program instructions. This is the <i>tangent mode</i> of AD.</p>
+        </li>
+        <li id="uid17">
+          <p noindent="true"><b>Adjoints</b>, defined after transposition (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>F</mi><mrow><mo>'</mo><mo>*</mo></mrow></msup></math></formula>), for a given weighting <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mover><mi>Y</mi><mo>¯</mo></mover></math></formula> of the outputs as:</p>
+          <formula id-text="4" id="uid18" textype="equation" type="display">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" mode="display" overflow="scroll">
+              <mrow>
+                <msup>
+                  <mi>F</mi>
+                  <mrow>
+                    <mo>'</mo>
+                    <mo>*</mo>
+                  </mrow>
+                </msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mi>X</mi>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <mover>
+                  <mi>Y</mi>
+                  <mo>¯</mo>
+                </mover>
+                <mo>=</mo>
+                <msubsup>
+                  <mi>f</mi>
+                  <mn>1</mn>
+                  <mrow>
+                    <mo>'</mo>
+                    <mo>*</mo>
+                  </mrow>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mn>0</mn>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <msubsup>
+                  <mi>f</mi>
+                  <mn>2</mn>
+                  <mrow>
+                    <mo>'</mo>
+                    <mo>*</mo>
+                  </mrow>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mn>1</mn>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <mspace width="0.222222em"/>
+                <mo>⋯</mo>
+                <mspace width="0.222222em"/>
+                <mo>.</mo>
+                <msubsup>
+                  <mi>f</mi>
+                  <mrow>
+                    <mi>p</mi>
+                    <mo>-</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mrow>
+                    <mo>'</mo>
+                    <mo>*</mo>
+                  </mrow>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mrow>
+                      <mi>p</mi>
+                      <mo>-</mo>
+                      <mn>2</mn>
+                    </mrow>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <msubsup>
+                  <mi>f</mi>
+                  <mi>p</mi>
+                  <mrow>
+                    <mo>'</mo>
+                    <mo>*</mo>
+                  </mrow>
+                </msubsup>
+                <mrow>
+                  <mo>(</mo>
+                  <msub>
+                    <mi>X</mi>
+                    <mrow>
+                      <mi>p</mi>
+                      <mo>-</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msub>
+                  <mo>)</mo>
+                </mrow>
+                <mo>.</mo>
+                <mover>
+                  <mi>Y</mi>
+                  <mo>¯</mo>
+                </mover>
+                <mspace width="1.em"/>
+                <mo>.</mo>
+              </mrow>
+            </math>
+          </formula>
+          <p spacebefore="14.22636pt" noindent="true"/>
+          <p>This expression is most efficiently computed from right to left,
+because matrix<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>×</mo></math></formula>vector products are cheaper
+than matrix<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>×</mo></math></formula>matrix products.
+This is the <i>adjoint mode</i> of AD, most effective for
+optimization, data assimilation  <ref xlink:href="#ecuador-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+adjoint problems  <ref xlink:href="#ecuador-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, or inverse problems.</p>
+        </li>
+      </simplelist>
+      <p>Adjoint AD builds a very efficient program  <ref xlink:href="#ecuador-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Section 3.3</ref>,
+which computes the gradient in a time independent from the number of parameters <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>.
+In contrast, computing the same gradient with the <i>tangent mode</i>
+would require running the tangent differentiated program <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula> times.</p>
+      <p>However, the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>X</mi><mi>k</mi></msub></math></formula> are required in
+the <i>inverse</i> of their computation order. If the
+original program <i>overwrites</i> a part of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>X</mi><mi>k</mi></msub></math></formula>,
+the differentiated program must restore <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>X</mi><mi>k</mi></msub></math></formula> before it is used
+by <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><msubsup><mi>f</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mrow><mo>'</mo><mo>*</mo></mrow></msubsup><mrow><mo>(</mo><msub><mi>X</mi><mi>k</mi></msub><mo>)</mo></mrow></mrow></math></formula>.
+Therefore, the central research problem of adjoint AD is to
+make the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>X</mi><mi>k</mi></msub></math></formula> available in reverse order at the cheapest cost,
+using strategies that combine storage,
+repeated forward computation from available previous values, or even
+inverted computation from available later values.</p>
+      <p>Another research issue is to make the AD model cope with the
+constant evolution of modern language constructs. From the old days
+of Fortran77, novelties include pointers and dynamic allocation,
+modularity, structured data types, objects, vectorial notation
+and parallel programming. We keep developing our models and tools
+to handle these new constructs.
+</p>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Static Analysis and Transformation of programs</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp13840">
+          <firstname>Valérie</firstname>
+          <lastname>Pascual</lastname>
+        </person>
+        <person key="ecuador-2014-idp110800">
+          <firstname>Ala</firstname>
+          <lastname>Taftaf</lastname>
+        </person>
+      </participants>
+      <glosslist>
+        <label>abstract syntax tree</label>
+        <li>
+          <p>Tree representation of a computer program,
+that keeps only the semantically significant information and abstracts away
+syntactic sugar such as indentation, parentheses, or separators.</p>
+        </li>
+        <label>control flow graph</label>
+        <li>
+          <p>Representation of a procedure body as a directed graph,
+whose nodes, known as basic blocks, each contain a sequence of instructions
+and whose arrows represent all possible control jumps that can occur at run-time.</p>
+        </li>
+        <label>abstract interpretation</label>
+        <li>
+          <p>Model that describes program static analysis
+as a special sort of execution, in which all branches of control switches are taken
+concurrently, and where computed values are replaced by abstract values
+from a given <i>semantic domain</i>. Each particular analysis gives birth to
+a specific semantic domain.</p>
+        </li>
+        <label>data flow analysis</label>
+        <li>
+          <p>Program analysis that studies how a given property of variables
+evolves with execution of the program. Data Flow analysis is static, therefore
+studying all possible run-time behaviors and making conservative approximations.
+A typical data-flow analysis is to detect, at any location in the source program,
+whether a variable is initialized or not.</p>
+        </li>
+      </glosslist>
+      <p>The most obvious example of a program transformation tool is certainly a compiler.
+Other examples are program translators, that go from one language or formalism to another,
+or optimizers, that transform a program to make it run better.
+AD is just one such transformation.
+These tools share the technological basis that lets them implement the sophisticated
+analyses  <ref xlink:href="#ecuador-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> required. In particular there are common
+mathematical models to specify these analyses and analyze their properties.</p>
+      <p>An important principle is <i>abstraction</i>: the core of a compiler
+should not bother about syntactic details of the compiled program.
+The optimization and code generation phases must be independent
+from the particular input programming language. This is generally achieved
+using language-specific <i>front-ends</i>, language-independent <i>middle-ends</i>,
+and target-specific <i>back-ends</i>.
+In the middle-end, analysis can concentrate on the semantics
+of a reduced set of constructs. This analysis operates
+on an abstract representation of programs made of one
+<i>call graph</i>, whose nodes are themselves <i>flow graphs</i> whose
+nodes (<i>basic blocks</i>) contain abstract <i>syntax trees</i> for the individual
+atomic instructions.
+To each level are attached symbol tables, nested to capture scoping.</p>
+      <p>Static program analysis can be defined on this internal representation,
+which is largely language independent. The simplest analyses on trees can be
+specified with inference rules  <ref xlink:href="#ecuador-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+But many <i>data-flow analyses</i> are more complex, and better defined on graphs than on trees.
+Since both call graphs and flow graphs may be cyclic, these global analyses will be solved iteratively.
+<i>Abstract Interpretation</i>  <ref xlink:href="#ecuador-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is a theoretical framework to
+study complexity and termination of these analyses.</p>
+      <p>Data flow analyses must be carefully designed to avoid or control
+combinatorial explosion. At the call graph level, they can run bottom-up or top-down,
+and they yield more accurate results when they take into account the different
+call sites of each procedure, which is called <i>context sensitivity</i>.
+At the flow graph level, they can run forwards or backwards, and
+yield more accurate results when they take into account only the possible
+execution flows resulting from possible control, which is called <i>flow sensitivity</i>.</p>
+      <p>Even then, data flow analyses are limited, because they are static and thus have very
+little knowledge of actual run-time values. Far before reaching the very theoretical limit of
+<i>undecidability</i>, one reaches practical limitations to how much information one can infer
+from programs that use arrays  <ref xlink:href="#ecuador-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> or pointers.
+Therefore, conservative <i>over-approximations</i> must be made, leading to
+derivative code less efficient than ideal.
+</p>
+    </subsection>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Algorithmic Differentiation and Scientific Computing</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp12432">
+          <firstname>Alain</firstname>
+          <lastname>Dervieux</lastname>
+        </person>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp109552">
+          <firstname>Bruno</firstname>
+          <lastname>Koobus</lastname>
+        </person>
+      </participants>
+      <glosslist>
+        <label>linearization</label>
+        <li>
+          <p>In Scientific Computing, the mathematical model
+often consists of Partial Differential Equations, that are
+discretized and then solved by a computer program.
+Linearization of these equations, or alternatively
+linearization of the computer program, predict the
+behavior of the model when small perturbations are applied.
+This is useful when the perturbations are effectively small,
+as in acoustics, or when one wants the sensitivity of the system
+with respect to one parameter, as in optimization.</p>
+        </li>
+        <label>adjoint state</label>
+        <li>
+          <p>Consider a system of Partial Differential Equations
+that define some characteristics of a system with respect to some
+input parameters. Consider one particular scalar characteristic.
+Its sensitivity, (or gradient) with respect to the input parameters
+can be defined as the solution of “adjoint” equations, deduced from the
+original equations through linearization and transposition.
+The solution of the adjoint equations is known as the adjoint state.</p>
+        </li>
+      </glosslist>
+      <p>Scientific Computing provides reliable simulations
+of complex systems. For example it is possible to <i>simulate</i>
+the steady or unsteady 3D air flow around a plane that captures the physical phenomena
+of shocks and turbulence. Next comes <i>optimization</i>,
+one degree higher in complexity because it repeatedly simulates and
+applies gradient-based optimization steps until an optimum is reached.
+The next sophistication is <i>robustness</i> i.e. to detect and to lower preference to a solution which,
+although maybe optimal, is very sensitive to uncertainty on design parameters or
+on manufacturing tolerances. This makes second derivative come into play.
+Similarly <i>Uncertainty Quantification</i> can use second derivatives to evaluate how uncertainty on
+the simulation inputs imply uncertainty on its outputs.</p>
+      <p>We investigate several approaches to obtain the gradient, between two extremes:</p>
+      <simplelist>
+        <li id="uid21">
+          <p noindent="true">One can write an <i>adjoint system</i> of mathematical equations,
+then discretize it and program it by hand. This is time consuming.
+Although this looks mathematically sound  <ref xlink:href="#ecuador-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, this does not provide
+the gradient of the discretized function itself, thus
+degrading the final convergence of gradient-descent optimization.</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">One can apply adjoint AD (<i>cf</i> <ref xlink:href="#uid12" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+on the program that discretizes and solves the direct system.
+This gives exactly the adjoint of the discrete function
+computed by the program. Theoretical results  <ref xlink:href="#ecuador-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> guarantee convergence
+of these derivatives when the direct program converges.
+This approach is highly mechanizable, but leads to massive use of storage
+and may require code transformation by hand  <ref xlink:href="#ecuador-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> to reduce memory
+usage.</p>
+        </li>
+      </simplelist>
+      <p>If for instance the model is steady, or when
+the computation uses a Fixed-Point iteration, tradeoffs exist between these
+two extremes  <ref xlink:href="#ecuador-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that combine low storage
+consumption with possible automated adjoint generation.
+We advocate incorporating them into the AD model and
+into the AD tools.
+</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid23">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Algorithmic Differentiation</bodyTitle>
+      <p>Algorithmic Differentiation of programs gives sensitivities or gradients,
+useful for instance for :</p>
+      <simplelist>
+        <li id="uid25">
+          <p noindent="true">optimum shape design under constraints, multidisciplinary optimization,
+and more generally any algorithm based on local linearization,</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">inverse problems, such as parameter estimation and in particular
+4Dvar data assimilation in climate sciences (meteorology, oceanography),</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">first-order linearization of complex systems, or higher-order simulations, yielding
+reduced models for simulation of complex systems around a given state,</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">mesh adaptation and mesh optimization with gradients or adjoints,</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">equation solving with the Newton method,</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">sensitivity analysis, propagation of truncation errors.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Multidisciplinary optimization</bodyTitle>
+      <p>A CFD program computes the flow around a shape, starting from a number of inputs that define
+the shape and other parameters.
+On this flow one can define optimization criteria e.g. the lift of an aircraft.
+To optimize a criterion by a gradient descent, one needs the gradient of the criterion with respect
+to all inputs, and possibly additional gradients when there are constraints.
+Adjoint AD is the most efficient way to compute these gradients.
+</p>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Inverse problems and Data Assimilation</bodyTitle>
+      <p>Inverse problems aim at estimating the value of hidden parameters from other
+measurable values, that depend on the hidden parameters through a system of
+equations. For example, the hidden parameter might be the shape of the ocean floor,
+and the measurable values of the altitude and velocities of the surface.</p>
+      <p>One particular case of inverse problems is <i>data assimilation</i>  <ref xlink:href="#ecuador-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+in weather forecasting or in oceanography.
+The quality of the initial state of the simulation conditions the quality of the
+prediction. But this initial state is not well known. Only some
+measurements at arbitrary places and times are available.
+A good initial state is found by solving a least squares problem
+between the measurements and a guessed initial state which itself must verify the
+equations of meteorology. This boils down to solving an adjoint problem,
+which can be done though AD  <ref xlink:href="#ecuador-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Figure <ref xlink:href="#uid33" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows an example of a data assimilation exercise
+using the oceanography code OPA  <ref xlink:href="#ecuador-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and its AD-adjoint
+produced by Tapenade.</p>
+      <object id="uid33">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/TwinExperimentFigs.png" type="float" width="427.0pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Twin experiment using the adjoint of OPA. Random noise, added to a simulation of
+the sea surface temperature around the Antarctic, is removed by minimizing the
+discrepancy with the physical model</caption>
+      </object>
+      <p>The special case of <i>4Dvar</i> data assimilation is particularly challenging.
+The 4<sup>th</sup> dimension in “4D” is time, as available measurements are distributed
+over a given assimilation period. Therefore the least squares mechanism must be
+applied to a simulation over time that follows the time evolution model.
+This process gives a much better estimation of the initial state, because
+both position and time of measurements are taken into account.
+On the other hand, the adjoint problem involved is more complex,
+because it must run (backwards) over many time steps.
+This demanding application of AD justifies our efforts in
+reducing the runtime and memory costs of AD adjoint codes.
+</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Linearization</bodyTitle>
+      <p>Simulating a complex system often requires solving a system of Partial Differential Equations.
+This can be too expensive, in particular for real-time simulations.
+When one wants to simulate the reaction of this complex system to small perturbations around a fixed
+set of parameters, there is an efficient approximation: just suppose that the system
+is linear in a small neighborhood of the current set of parameters. The reaction of the system
+is thus approximated by a simple product of the variation of the parameters with the
+Jacobian matrix of the system. This Jacobian matrix can be obtained by AD.
+This is especially cheap when the Jacobian matrix is sparse.
+The simulation can be improved further by introducing higher-order derivatives, such as Taylor
+expansions, which can also be computed through AD.
+The result is often called a <i>reduced model</i>.
+</p>
+    </subsection>
+    <subsection id="uid35" level="1">
+      <bodyTitle>Mesh adaptation</bodyTitle>
+      <p>Some approximation errors can be expressed by an adjoint state.
+Mesh adaptation can benefit from this. The classical optimization step can give an optimization
+direction not only for the control parameters, but also for the approximation parameters, and in
+particular the mesh geometry. The ultimate goal is to obtain optimal control parameters
+up to a precision prescribed in advance.
+</p>
+    </subsection>
+  </domaine>
+  <logiciels id="uid36">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid37" level="1">
+      <bodyTitle>AIRONUM</bodyTitle>
+      <p>Aironum is an experimental software that solves the unsteady compressible Navier-Stokes equations with k-, LES-VMS (Large Eddy Simulation - Variational Multi-Scale) and hybrid turbulence modelling on parallel platforms, using MPI. The mesh model is unstructured tetrahedrization, with possible mesh motion.</p>
+      <p>Aironum was developed by Inria and University of Montpellier.
+It is used by Inria, University of Montpellier and University of Pisa.
+Aironum is used as an experimental platform for:</p>
+      <simplelist>
+        <li id="uid38">
+          <p noindent="true">Numerical approximation of compressible flows, such as upwind mixed element volume
+approximation with superconvergence on regular meshes.</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">Numerical solution algorithms for the implicit time advancing of the compressible
+Navier-Stokes equations, such as parallel scalable deflated additive Schwarz algorithms.</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">Turbulence modelling such as the Variational Multiscale Large eddy Simulation
+and its hybridization with RANS (Reynolds Averaged Navier-Stokes) statistical models.</p>
+        </li>
+      </simplelist>
+      <simplelist>
+        <li id="uid41">
+          <p noindent="true">Participant: Alain Dervieux</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">Contact: Alain Dervieux</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">URL: <ref xlink:href="http://www-sop.inria.fr/tropics/aironum" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-sop.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tropics/<allowbreak/>aironum</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>TAPENADE</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Static analysis - Optimization - Compilation - Gradients</p>
+      <p noindent="true">Tapenade <ref xlink:href="#ecuador-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> is an Algorithmic Differentiation tool that transforms an original program into a new program that computes derivatives of the original program. Being an AD tool, Tapenade produces analytical derivatives exact up to machine precision, and in adjoint mode computes gradients at a cost independent of the number of input variables.</p>
+      <p>Tapenade implements the results of our research about models and static analyses for AD. Tapenade can be downloaded and installed on most architectures. Alternatively, it can be used as a web server. Higher-order derivatives can be obtained through repeated application. Tapenade accepts source programs written in Fortran77, Fortran90, or C. It provides differentiation in the following modes: tangent, vector tangent, adjoint, and vector adjoint.</p>
+      <p>Tapenade performs sophisticated data-flow analysis, flow-sensitive and context-sensitive, on the complete source program to produce an efficient differentiated code. Analyses performed are Type-Checking, Read-Write analysis, Pointer analysis, and AD-specific analyses including Activity analysis, Adjoint Liveness analysis, and TBR analysis.</p>
+      <simplelist>
+        <li id="uid45">
+          <p noindent="true">Participants: Laurent Hascoët, Valérie Pascual</p>
+        </li>
+        <li id="uid46">
+          <p noindent="true">Contact: Laurent Hascoët</p>
+        </li>
+        <li id="uid47">
+          <p noindent="true">URL: <ref xlink:href="http://www-sop.inria.fr/tropics/tapenade.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-sop.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tropics/<allowbreak/>tapenade.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid48">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid49" level="1">
+      <bodyTitle>AD-adjoints and C dynamic memory management</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Sri Hari Krishna</firstname>
+          <lastname>Narayanan</lastname>
+          <moreinfo>Argonne National Lab. (Illinois, USA)</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Mathieu</firstname>
+          <lastname>Morlighem</lastname>
+          <moreinfo>University of California at Irvine (USA)</moreinfo>
+        </person>
+      </participants>
+      <p>One of the current frontiers of AD research is the definition of an adjoint AD model
+that can cope with dynamic memory management. This research is central in our
+ongoing effort towards adjoint AD of C, and more remotely towards AD of C++.
+This research is conducted in collaboration with the MCS department of Argonne National Lab.
+Our partnership is formalized by joint participation in the Inria joint lab JLESC,
+and partly funded by the Partner University Fund (PUF) of the French embassy in the USA.</p>
+      <p>Adjoint AD must reproduce in reverse order
+the control decisions of the original code. In languages such as C,
+allocation of dynamic memory and pointer management form a significant
+part of these control decisions. Reproducing memory allocation in reverse
+means reallocating memory, possibly receiving a different memory chunk.
+Reproducing pointer addresses in reverse thus require to convert
+addresses in the former memory chunks into equivalent addresses in
+the new reallocated chunks. Together with Krishna Narayanan from Argonne,
+we experiment on real applications to find the most efficient solution
+to this address conversion problem. We jointly develop a library
+(called ADMM, ADjoint Memory Management) whose primitives are used in
+AD adjoint code to handle this address conversion. Both our AD tool Tapenade and
+Argonne's tool OpenAD use ADMM in the adjoint code they produce.</p>
+      <p>This year, ADMM was instrumental in the successful generation of the adjoint code of “ALIF”
+(formerly called “SEISM”) by Tapenade.
+The “ALIF” code is developed by Mathieu Morlighem from UC Irvine, jointly with Eric Larour
+from JPL. This glaciology code is a C clone of the C++ “ISSM” code from JPL.
+One objective of this work is to clarify the C programming style that allows AD to perform better.
+Another objective is to make progress in the direction of generating adjoints of C++ code.
+Although ADMM has already been used with success for the adjoint of several small- to medium-size applications,
+and now on the large-size code “ALIF”, we are still considering alternative implementation strategies.
+This work was presented at the AD2016 conference in Oxford <ref xlink:href="#ecuador-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and an article is submitted to journal “Optimization Methods and Software”.
+</p>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>AD-adjoints of MPI-parallel codes</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp110800">
+          <firstname>Ala</firstname>
+          <lastname>Taftaf</lastname>
+        </person>
+        <person key="ecuador-2016-idp161520">
+          <firstname>Georgios</firstname>
+          <lastname>Ntanakas</lastname>
+          <moreinfo>Rolls-Royce, Dahlewitz, Germany</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Sri Hari Krishna</firstname>
+          <lastname>Narayanan</lastname>
+          <moreinfo>Argonne National Lab. (Illinois, USA)</moreinfo>
+        </person>
+      </participants>
+      <p>We have a long-standing collaboration with Argonne National Lab on the
+question of adjoint AD of message-passing parallel codes.
+We continued joint development of the Adjoinable-MPI library (AMPI)
+that provides efficient tangent and adjoint AD for
+MPI-parallel codes, independently of the AD tool used
+(now AdolC, dco, OpenAD, Tapenade).</p>
+      <p>Ala Taftaf considers the question of
+checkpointing applied to the AD-adjoint of an MPI-parallel code.
+Checkpointing is a memory/runtime tradeoff which is
+essential for adjoint AD of large codes, in particular parallel codes.
+However, for MPI codes this question has always been addressed by ad-hoc
+hand manipulations of the differentiated code, and with no formal
+assurance of correctness.
+Ala Taftaf studies these past experiments and proposes more general strategies.
+Ala Taftaf presented her results <ref xlink:href="#ecuador-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#ecuador-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> at the Eccomas 2016
+conference (Crete) in June and at the NOED 2016 conference (Munich) in july <ref xlink:href="#ecuador-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>During his secondment with our team, PhD student Georgios Ntanakas from Rolls-Royce
+studied possible extension of Tapenade to handle the parallel constructs in
+Rolls-Royce's “Hydra” code, which rely on a special parallel library named “OPlus”.
+</p>
+    </subsection>
+    <subsection id="uid51" level="1">
+      <bodyTitle>AD-adjoints of Iterative Processes</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp110800">
+          <firstname>Ala</firstname>
+          <lastname>Taftaf</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Sri Hari Krishna</firstname>
+          <lastname>Narayanan</lastname>
+          <moreinfo>Argonne National Lab. (Illinois, USA)</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Daniel</firstname>
+          <lastname>Goldberg</lastname>
+          <moreinfo>University of Edinburgh, UK</moreinfo>
+        </person>
+      </participants>
+      <p>Ala Taftaf continued her work on the adjoint of iterative Fixed-Point loops.
+This year she studied refinements of the AD-specific data-flow analyses to
+adapt them to the specific shape of this adjoint code,
+proposed by Bruce Christianson  <ref xlink:href="#ecuador-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. She also proposed
+an efficient “warm-start” mechanism, that provides a good initial guess for
+the fixed-point loop that computes the adjoint, in the case where this
+fixed-point loop is itself enclosed in another loop.
+These results are described in her PhD document, to be defended in January 2017.</p>
+      <p>We published a journal article <ref xlink:href="#ecuador-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> on our joint work
+with Krishna Narayanan from ANL and Dan Goldberg
+from University of Edinburgh (UK), which applies in particular
+this fixed-point adjoint strategy to a glaciology configuration
+of the MIT GCM code.
+</p>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>AD of mixed-language codes</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp13840">
+          <firstname>Valérie</firstname>
+          <lastname>Pascual</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Tom</firstname>
+          <lastname>Verstraete</lastname>
+          <moreinfo>VKI, Brussels, Belgium</moreinfo>
+        </person>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+      </participants>
+      <p>In collaboration with Tom Verstraete, Valérie Pascual is applying Tapenade to
+the library “Calculix”, whose implementation mixes Fortran and C. This library
+is well fit for Tapenade differentiation, as the internal representation
+that we use for codes is language-independent. We can thus load both Fortran and C source into Tapenade
+and differentiate the complete code transparently. Obviously, since this is the first
+application of Tapenade to a real-size mixed-language code, interesting problems arise
+mostly about parameter-passing strategies. Valérie Pascual presented her first results
+at the AD2016 conference in Oxford <ref xlink:href="#ecuador-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>Multirate methods</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp12432">
+          <firstname>Alain</firstname>
+          <lastname>Dervieux</lastname>
+        </person>
+        <person key="ecuador-2014-idp109552">
+          <firstname>Bruno</firstname>
+          <lastname>Koobus</lastname>
+        </person>
+        <person key="ecuador-2016-idp151696">
+          <firstname>Emmanuelle</firstname>
+          <lastname>Itam</lastname>
+        </person>
+        <person key="ecuador-2014-idp112024">
+          <firstname>Stephen</firstname>
+          <lastname>Wornom</lastname>
+        </person>
+      </participants>
+      <p>This study is performed in collaboration with IMAG-Montpellier II.
+It addresses an important complexity issue in unsteady mesh adaptation and
+takes place in the work done in the ANR Maidesc.
+Unsteady high-Reynolds computations are strongly penalized by the very small time-step
+imposed by accuracy requirements on regions involving small space-time scales.
+Unfortunately, this is also true for sophisticated unsteady mesh adaptive calculations.
+This small time-step is an important computational penalty
+for mesh adaptive methods of AMR type. This is also the case for the Unsteady
+Fixed-Point mesh-adaptive methods developed by Ecuador in cooperation with the Gamma3 team
+of Inria-Saclay.
+In the latter method, the loss of efficiency is even more crucial when the anisotropic mesh
+is locally strongly streched. This loss is evaluated as limiting the numerical
+convergence order for discontinuities to 8/5 instead of second-order convergence.
+An obvious remedy is to design time-consistent methods using different time steps
+on different parts of the mesh, as far as they are efficient and not too complex.
+The family of time-advancing methods in which unsteady phenomena are computed
+with different time steps in different regions is referred to as the multirate methods.
+In our cooperation with university of Montpellier, a novel multirate method
+using cell agglomeration has been designed and developed in our AIRONUM CFD platform.
+A series of large-scale test cases show that the new method is much more efficient than
+an explicit method, while retaining a similar time accuracy over the whole
+computational domain. The comparison with an implicit scheme shows that the implicit scheme
+is in some cases one order less accurate due to higher time steps and higher dissipation.
+A communication has been presented at ECCOMAS <ref xlink:href="#ecuador-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and an article is submitted to a journal.
+</p>
+    </subsection>
+    <subsection id="uid54" level="1">
+      <bodyTitle>Application of AD to uncertainties and errors in CFD</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp13840">
+          <firstname>Valérie</firstname>
+          <lastname>Pascual</lastname>
+        </person>
+        <person key="ecuador-2014-idp10944">
+          <firstname>Laurent</firstname>
+          <lastname>Hascoët</lastname>
+        </person>
+        <person key="ecuador-2014-idp12432">
+          <firstname>Alain</firstname>
+          <lastname>Dervieux</lastname>
+        </person>
+      </participants>
+      <p>An important application of AD is the creation of uncertainty management tools,
+as first and second derivatives are used for the assembly
+of perturbation-based models for Uncertainty Quantification.</p>
+      <p>During the FP7 project UMRIDA, finished in september 2016,
+Inria has assisted Alenia-Aermacchi and WUT (Warsaw) in
+applying Tapenade to a CFD software for perturbation-based models.</p>
+      <p>We contributed the following chapters to the UMRIDA monography  <ref xlink:href="#ecuador-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>:</p>
+      <simplelist>
+        <li id="uid55">
+          <p noindent="true">II.5.0 Introduction to Intrusive Perturbation Methods</p>
+        </li>
+        <li id="uid56">
+          <p noindent="true">II.5.1 Algorithmic Differentiation for second derivatives</p>
+        </li>
+        <li id="uid57">
+          <p noindent="true">III.a.4 Introduction to Intrusive Perturbation Methods and their range of applicability</p>
+        </li>
+        <li id="uid58">
+          <p noindent="true">IV.3 Use of Automatic Differentiation tools at the example of Tapenade</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Control of approximation errors</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp107120">
+          <firstname>Gautier</firstname>
+          <lastname>Brèthes</lastname>
+        </person>
+        <person key="ecuador-2014-idp108312">
+          <firstname>Eléonore</firstname>
+          <lastname>Gauci</lastname>
+        </person>
+        <person key="ecuador-2014-idp12432">
+          <firstname>Alain</firstname>
+          <lastname>Dervieux</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Adrien</firstname>
+          <lastname>Loseille</lastname>
+          <moreinfo>Gamma3 team, Inria-Rocquencourt</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Frédéric</firstname>
+          <lastname>Alauzet</lastname>
+          <moreinfo>Gamma3 team, Inria-Rocquencourt</moreinfo>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Loïc</firstname>
+          <lastname>Frazza</lastname>
+          <moreinfo>Gamma3 team, Inria-Saclay</moreinfo>
+        </person>
+        <person key="ecuador-2014-idp112024">
+          <firstname>Stephen</firstname>
+          <lastname>Wornom</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Anca</firstname>
+          <lastname>Belme</lastname>
+          <moreinfo>university of Paris 6</moreinfo>
+        </person>
+      </participants>
+      <p>Reducing approximation errors as much as possible is a
+particular kind of optimal control problem.
+We formulate it exactly this way when we look for the optimal metric
+of the mesh, which minimizes a user-specified functional (goal-oriented mesh
+adaptation). In that case, the usual methods of optimal control apply,
+using adjoint states that can be produced by Algorithmic Differentiation.</p>
+      <p>Our theoretical studies in mesh adaptation are supported by the
+ANR project MAIDESC coordinated by ECUADOR and Gamma3, which deals with
+meshes for interfaces, third-order accuracy,
+meshes for boundary layers, and curved meshes.</p>
+      <p>The thesis of Éléonore Gauci on the goal-oriented criteria for CFD and
+coupled CSM-CFD systems is continuing.
+Éléonore Gauci gave a presentation at ECCOMAS in Crete.</p>
+      <p>Further studies of mesh adaptation for viscous flows are currently performed
+and a paper in collaboration with Gamma3 and
+university of Paris 6 (Anca Belme) is being written for a Journal.</p>
+      <p>An important novelty in mesh adaption is the norm-oriented AA method.
+The method relies on the definition of ad hoc correctors.
+It has been developed in the academic platform “FMG” for elliptic problems.
+Gautier Brèthes gave several presentations in conferences, a journal
+article has been published <ref xlink:href="#ecuador-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The introduction of the norm-oriented idea considerably amplifies the impact of
+adjoint-based AA. The applied mathematician and the engineer now have methods
+when faced to mesh adaptation for the simulation of a complex PDE system, since they
+can specify which error norm level they wish, and for which norm.
+Another version is developed jointly with Inria team Gamma3 for
+the compressible Euler model.</p>
+      <p>A work of extension of a different standpoint, the tensorial metric method
+was started during the thesis of Gautier Brèthes and has been been submitted to a journal.</p>
+      <p>CFD application are supported by the European FP7 project UMRIDA
+which deals with the application of AA to approximation error modelling and control.</p>
+      <p>This involves an extensive work on a series of RANS (Reynolds Averaged Navier-Stokes)
+adaptative computations relying on
+the multi-scale method on the one hand, and on the other hand on further development
+by Gamma3 and Ecuador of the novel norm-oriented method
+for the compressible Euler model. This will be first published as a chapter
+contributed to the UMRIDA monography  <ref xlink:href="#ecuador-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>:
+II.1.4 Numerical uncertainties estimation and mitigation by mesh adaption
+Frédéric Alauzet, Alain Dervieux, Loïc Frazza and Adrien Loseille.
+</p>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>Turbulence models</bodyTitle>
+      <participants>
+        <person key="ecuador-2014-idp12432">
+          <firstname>Alain</firstname>
+          <lastname>Dervieux</lastname>
+        </person>
+        <person key="ecuador-2014-idp109552">
+          <firstname>Bruno</firstname>
+          <lastname>Koobus</lastname>
+        </person>
+        <person key="ecuador-2016-idp151696">
+          <firstname>Emmanuelle</firstname>
+          <lastname>Itam</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Marianna</firstname>
+          <lastname>Braza</lastname>
+          <moreinfo>CNRS-IMFT at Toulouse</moreinfo>
+        </person>
+        <person key="ecuador-2014-idp112024">
+          <firstname>Stephen</firstname>
+          <lastname>Wornom</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Bruno</firstname>
+          <lastname>Sainte-Rose</lastname>
+          <moreinfo>Lemma</moreinfo>
+        </person>
+      </participants>
+      <p>Modeling turbulence is an essential aspect of CFD.
+The purpose of our work in hybrid RANS/LES
+(Reynolds Averaged Navier-Stokes / Large Eddy Simulation)is to develop new approaches
+for industrial applications of LES-based analyses.
+In the applications targetted (aeronautics, hydraulics), the Reynolds
+number can be as high as several tenth millions, far too high for pure
+LES models. However, certain regions in the flow can be better predicted
+with LES than with usual statistical RANS (Reynolds averaged
+Navier-Stokes) models. These are mainly vortical separated regions
+as assumed in one of the most popular hybrid model,
+the hybrid Detached Eddy Simulation model.
+Here, “hybrid” means that a blending is applied between LES and RANS.
+An important difference between a real life flow and a wind tunnel or basin
+is that the turbulence of the flow upstream of each body is not well known.</p>
+      <p>This year, we have validated and experimented for various test cases
+the integration of the boundary layer by adding the so-called
+Menter correction imposing the Bradshaw law.
+We have studied these improvements on multiple-body flows. An emblematic case is the
+interaction between two parallel cylinders, one being in the wake of the other.</p>
+      <p>The development of hybrid models, in particular DES in the litterature has
+raised the question of the domain of validity of these models.
+According to theory, these models should not be applied to flow
+involving laminar boundary layers (BL).
+But industrial flows are complex flows and often present regions of
+laminar BL, regions of fully developed turbulent BL and regions of
+non-equilibrium vortical BL.
+It is then mandatory for industrial use that the new hybrid models give a reasonable
+prediction for all these types of flow. This year, we concentrated on evaluating
+the behavior of hybrid models for laminar BL and for vortical wakes.
+While less predictive than pure LES on laminar BL, some hybrid models
+still give reasonable predictions for rather low Reynolds numbers.
+A little surprisingly, the prediction of vortical wakes needs some improvement.
+For this improvement, we propose a hybrid formulation involving locally
+a sophisticated LES-VMS (Large Eddy Simulation - Variational Multi-Scale) model combined with the dynamic local limitation
+of Germano-Piomelli. Several standard options together with the new model
+have been compared for a series of test cases: a communication has been presented
+in a conference <ref xlink:href="#ecuador-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and an article is in preparation.
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid61">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid62" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <simplelist>
+        <li id="uid63">
+          <p noindent="true">Ecuador and Lemma share the results of Gautier Brèthes' thesis, which is
+partly supported by Lemma, the other part being supported by a PACA region fellowship.</p>
+        </li>
+        <li id="uid64">
+          <p noindent="true">Ecuador and Lemma have a bilateral contract to share the results of Stephen Wornom,
+Lemma engineer provided to Inria and hosted by Inria under a Inria-Lemma contract.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </contrats>
+  <partenariat id="uid65">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid66" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid67" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <subsection id="uid68" level="3">
+          <bodyTitle>MAIDESC</bodyTitle>
+          <p>Ecuador is coordinator of the ANR project MAIDESC, with
+Inria team Gamma3, University of Montpellier II, CEMEF-Ecole des Mines,
+Inria-Bordeaux, Lemma and Transvalor.
+MAIDESC concentrates on mesh adaptation and in particular
+meshes for interfaces, third-order accuracy, meshes for boundary layers, and
+curved meshes.
+</p>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid70" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid71" level="3">
+          <bodyTitle>AboutFlow</bodyTitle>
+          <sanspuceslist>
+            <li id="uid72">
+              <p noindent="true">Type: PEOPLE</p>
+            </li>
+            <li id="uid73">
+              <p noindent="true">Instrument: Initial Training Network</p>
+            </li>
+            <li id="uid74">
+              <p noindent="true">Duration: 2012-2016</p>
+            </li>
+            <li id="uid75">
+              <p noindent="true">Coordinator: Jens-Dominik Mueller</p>
+            </li>
+            <li id="uid76">
+              <p noindent="true">Partner: Queen Mary University of London (UK)</p>
+            </li>
+            <li id="uid77">
+              <p noindent="true">Inria contact: Laurent Hascoët</p>
+            </li>
+            <li id="uid78">
+              <p noindent="true">Abstract: The aim of AboutFlow is to develop robust gradient-based optimisation methods
+using adjoint sensitivities for numerical optimisation of flows.
+<ref xlink:href="http://aboutflow.sems.qmul.ac.uk/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>aboutflow.<allowbreak/>sems.<allowbreak/>qmul.<allowbreak/>ac.<allowbreak/>uk/</ref></p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid79" level="3">
+          <bodyTitle>UMRIDA</bodyTitle>
+          <sanspuceslist>
+            <li id="uid80">
+              <p noindent="true">Type:AAT</p>
+            </li>
+            <li id="uid81">
+              <p noindent="true">Instrument:Aeronautics and Air Transport</p>
+            </li>
+            <li id="uid82">
+              <p noindent="true">Duration: 2013-2016</p>
+            </li>
+            <li id="uid83">
+              <p noindent="true">Coordinator: Charles Hirsch</p>
+            </li>
+            <li id="uid84">
+              <p noindent="true">Partner: Numeca S.A. (Belgium)</p>
+            </li>
+            <li id="uid85">
+              <p noindent="true">Inria contact: Alain Dervieux</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">Abstract: UMRIDA addresses major research challenges in Uncertainty Quantification and
+Robust Design: develop new methods that handle large
+numbers of simultaneous uncertainties and generalized geometrical uncertainties.
+Apply these methods to representative industrial configurations.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid87" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid88" level="2">
+        <bodyTitle>Inria International Labs</bodyTitle>
+        <p>Ecuador participates in the Joint Laboratory for Exascale Computing (JLESC)
+together with colleagues at Argonne National Laboratory.
+Laurent Hascoët attended the JLESC meeting in Lyon, France, june 27-29.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid89" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid90" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid91">
+            <p noindent="true">Krishna Narayanan from Argonne National Laboratory, june 29-july 1.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Internships</bodyTitle>
+        <simplelist>
+          <li id="uid93">
+            <p noindent="true">Georgios Ntanakas from Rolls-Royce, Germany, january 18-30.</p>
+          </li>
+          <li id="uid94">
+            <p noindent="true">Ala Taftaf to Rolls-Royce, Germany, may 6-27.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid95" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <simplelist>
+          <li id="uid96">
+            <p noindent="true">Laurent Hascoët visited Argonne National Laboratory, november 14-22.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid97">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid98" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid99" level="2">
+        <bodyTitle>Scientific events organisation</bodyTitle>
+        <subsection id="uid100" level="3">
+          <bodyTitle>Member of the organizing committees</bodyTitle>
+          <simplelist>
+            <li id="uid101">
+              <p noindent="true">Laurent Hascoët is on the organizing commitee of the EuroAD Workshops
+on Algorithmic Differentiation.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid102" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid103" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid104">
+            <p noindent="true">Master : Laurent Hascoët, Optimisation avancée, 15 h, M2, University of Nice</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid106">
+            <p noindent="true">PhD in progress : Ala Taftaf, “Extensions of Algorithmic Differentiation by Source Transformation to meet some needs of Scientific Computing”,
+started july 2013, advisor L. Hascoët.</p>
+          </li>
+          <li id="uid107">
+            <p noindent="true">PhD in progress : Éléonore Gauci, “Norm-oriented criteria for CFD and coupled CSM-CFD systems”,
+started october 2014, advisor A. Dervieux</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid108" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid109">
+            <p noindent="true">Alain Dervieux, jury, PhD defense of Laure Billon, Mines Paristech, december 9.</p>
+          </li>
+          <li id="uid110">
+            <p noindent="true">Laurent Hascoët, jury, PhD defense of Vladimir Groza, University of Nice, november 9.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid111" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>Laurent Hascoët wrote an article about AD for the blog “binaire”, hosted by ”Le Monde”. May 9.
+</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="ecuador-2016-bid37" type="article" rend="refer" n="refercite:CourtyDervieux06">
+      <analytic>
+        <title level="a">Multilevel functional Preconditioning for shape optimisation</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Courty</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>A.</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of CFD</title>
+        <imprint>
+          <biblScope type="volume">20</biblScope>
+          <biblScope type="number">7</biblScope>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+          <biblScope type="pages">481-490</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid36" type="article" rend="refer" n="refercite:CDKH03">
+      <analytic>
+        <title level="a">Reverse automatic differentiation for optimum design: from adjoint state assembly to gradient computation</title>
+        <author>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Courty</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>A.</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp109552">
+            <foreName>B.</foreName>
+            <surname>Koobus</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Optimization Methods and Software</title>
+        <imprint>
+          <biblScope type="volume">18</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2003</year>
+          </dateStruct>
+          <biblScope type="pages">615-627</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid34" type="inproceedings" rend="refer" n="refercite:DauvergneHascoet06">
+      <analytic>
+        <title level="a">The Data-Flow Equations of Checkpointing in reverse Automatic Differentiation</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Dauvergne</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">International Conference on Computational Science, ICCS 2006, Reading, UK</title>
+        <imprint>
+          <dateStruct>
+            <year>2006</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid33" type="incollection" rend="refer" n="refercite:Hascoet2005TAD">
+      <analytic>
+        <title level="a">The Adjoint Data-Flow Analyses: Formalization, Properties, and Applications</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Araya-Polo</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>H. M.</foreName>
+            <surname>Bücker</surname>
+            <initial>H. M.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Corliss</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Hovland</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Naumann</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Norris</surname>
+            <initial>B.</initial>
+          </persName>
+        </editor>
+        <title level="m">Automatic Differentiation: Applications, Theory, and Tools</title>
+        <title level="s">Lecture Notes in Computational Science and Engineering</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2005</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid32" type="incollection" rend="refer" n="refercite:Hascoet2001AIC">
+      <analytic>
+        <title level="a">Adjoining Independent Computations</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>S.</foreName>
+            <surname>Fidanova</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Held</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Corliss</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mimetic-2016-idp204864">
+            <foreName>C.</foreName>
+            <surname>Faure</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Griewank</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Naumann</surname>
+            <initial>U.</initial>
+          </persName>
+        </editor>
+        <title level="m">Automatic Differentiation of Algorithms: From Simulation to Optimization</title>
+        <loc>New York, NY</loc>
+        <title level="s">Computer and Information Science</title>
+        <imprint>
+          <biblScope type="chapter">35</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+          <biblScope type="pages">299-304</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid0" type="incollection" rend="refer" n="refercite:HascoetChapOUP">
+      <identifiant type="hal" value="hal-01109881"/>
+      <analytic>
+        <title level="a">Adjoints by Automatic Differentiation</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Advanced data assimilation for geosciences</title>
+        <imprint>
+          <publisher>
+            <orgName>Oxford University Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01109881" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01109881</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid39" type="article" rend="refer" n="refercite:HNP04">
+      <analytic>
+        <title level="a">“To Be Recorded” Analysis in Reverse-Mode Automatic Differentiation</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Naumann</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp13840">
+            <foreName>V.</foreName>
+            <surname>Pascual</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Future Generation Computer Systems</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid40" type="article" rend="refer" n="refercite:Hascoet2008Cab">
+      <analytic>
+        <title level="a">Cheaper Adjoints by Reversing Address Computations</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Utke</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>U.</foreName>
+            <surname>Naumann</surname>
+            <initial>U.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Scientific Programming</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">81–92</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid35" type="article" rend="refer" n="refercite:dervieuxCFDJ2007">
+      <analytic>
+        <title level="a">A Framework for Adjoint-based Shape Design and Error Control</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="pervasive_interaction-2016-idp105808">
+            <foreName>M.</foreName>
+            <surname>Vázquez</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp109552">
+            <foreName>B.</foreName>
+            <surname>Koobus</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>A.</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Computational Fluid Dynamics Journal</title>
+        <imprint>
+          <biblScope type="volume">16</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">454-464</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid18" type="article" rend="refer" n="refercite:TapenadeRef13">
+      <identifiant type="doi" value="10.1145/2450153.2450158"/>
+      <analytic>
+        <title level="a">The Tapenade Automatic Differentiation tool: Principles, Model, and Specification</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp13840">
+            <foreName>V.</foreName>
+            <surname>Pascual</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Transactions On Mathematical Software</title>
+        <imprint>
+          <biblScope type="volume">39</biblScope>
+          <biblScope type="number">3</biblScope>
+          <dateStruct>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="http://dx.doi.org/10.1145/2450153.2450158" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>2450153.<allowbreak/>2450158</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid38" type="article" rend="refer" n="refercite:multilevel-vazquez">
+      <analytic>
+        <title level="a">Multilevel optimization of a supersonic aircraft</title>
+        <author>
+          <persName key="pervasive_interaction-2016-idp105808">
+            <foreName>M.</foreName>
+            <surname>Vázquez</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>A.</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp109552">
+            <foreName>B.</foreName>
+            <surname>Koobus</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Finite Elements in Analysis and Design</title>
+        <imprint>
+          <biblScope type="volume">40</biblScope>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">2101-2124</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid27" type="article" rend="year" n="cite:brethes:hal-01413431">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.07.008"/>
+      <identifiant type="hal" value="hal-01413431"/>
+      <analytic>
+        <title level="a">Anisotropic norm-oriented mesh adaptation for a Poisson problem</title>
+        <author>
+          <persName key="ecuador-2014-idp107120">
+            <foreName>Gautier</foreName>
+            <surname>Brèthes</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>Alain</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">322</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">804 - 826</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413431" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413431</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid23" type="article" rend="year" n="cite:goldberg:hal-01413295">
+      <identifiant type="hal" value="hal-01413295"/>
+      <analytic>
+        <title level="a">An optimized treatment for algorithmic differentiation of an important glaciological fixed-point problem</title>
+        <author>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Goldberg</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Sri Hari Krishna</foreName>
+            <surname>Narayanan</surname>
+            <initial>S. H. K.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Utke</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01928">
+        <idno type="issn">1991-959X</idno>
+        <title level="j">Geoscientific Model Development</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">27</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413295" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413295</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid30" type="article" rend="year" n="cite:hascoet:hal-01413332">
+      <identifiant type="doi" value="10.1080/10556788.2016.1146269"/>
+      <identifiant type="hal" value="hal-01413332"/>
+      <analytic>
+        <title level="a">Programming language features, usage patterns, and the efficiency of generated adjoint code</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Utke</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01548">
+        <idno type="issn">1055-6788</idno>
+        <title level="j">Optimization Methods and Software</title>
+        <imprint>
+          <biblScope type="volume">31</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">885 - 903</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413332" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413332</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid31" type="article" rend="year" n="cite:hueckelheim:hal-01413321">
+      <identifiant type="hal" value="hal-01413321"/>
+      <analytic>
+        <title level="a">Algorithmic differentiation of code with multiple context-specific activities</title>
+        <author>
+          <persName>
+            <foreName>Jan Christian</foreName>
+            <surname>Hueckelheim</surname>
+            <initial>J. C.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="veridis-2014-idp103288">
+            <foreName>Jens-Dominik</foreName>
+            <surname>Müller</surname>
+            <initial>J.-D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00029">
+        <idno type="issn">0098-3500</idno>
+        <title level="j">ACM Transactions on Mathematical Software</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413321" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413321</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid19" type="inproceedings" rend="year" n="cite:hascoet:hal-01413381">
+      <identifiant type="hal" value="hal-01413381"/>
+      <analytic>
+        <title level="a">Source-transformation Differentiation of a C++-like Ice Sheet model</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Mathieu</foreName>
+            <surname>Morlighem</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">AD2016 - 7th International Conference on Algorithmic Differentiation</title>
+        <loc>Oxford, United Kingdom</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">4</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413381" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413381</ref>
+        </imprint>
+        <meeting id="cid625249">
+          <title>International Conference on Algorithmic Differentiation</title>
+          <num>7</num>
+          <abbr type="sigle">AD</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid25" type="inproceedings" rend="year" n="cite:itam:hal-01413449">
+      <identifiant type="hal" value="hal-01413449"/>
+      <analytic>
+        <title level="a">A Volume-Agglomeration Multirate Time Advancing Approach</title>
+        <author>
+          <persName key="ecuador-2016-idp151696">
+            <foreName>E.</foreName>
+            <surname>Itam</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp112024">
+            <foreName>S.</foreName>
+            <surname>Wornom</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp109552">
+            <foreName>B.</foreName>
+            <surname>Koobus</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>Alain</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECCOMAS Congress 2016 VII European Congress on Computational Methods in Applied Sciences and Engineering</title>
+        <loc>Hernissios, Crete, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413449" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413449</ref>
+        </imprint>
+        <meeting id="cid68639">
+          <title>European Congress on Computational Methods in Applied Sciences and Engineering</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCOMAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid28" type="inproceedings" rend="year" n="cite:itam:hal-01413453">
+      <identifiant type="hal" value="hal-01413453"/>
+      <analytic>
+        <title level="a">Hybrid simulation of high-Reynolds number flows relying on a variational multiscale model</title>
+        <author>
+          <persName key="ecuador-2016-idp151696">
+            <foreName>Emmanuelle</foreName>
+            <surname>Itam</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp112024">
+            <foreName>Stephen</foreName>
+            <surname>Wornom</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp109552">
+            <foreName>Bruno</foreName>
+            <surname>Koobus</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp12432">
+            <foreName>Alain</foreName>
+            <surname>Dervieux</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6th Symposium on Hybrid RANS-LES Methods</title>
+        <loc>Strasbourg, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413453" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413453</ref>
+        </imprint>
+        <meeting id="cid625248">
+          <title>Symposium on Hybrid RANS-LES Methods</title>
+          <num>6</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid29" type="inproceedings" rend="year" n="cite:narayanan:hal-01413363">
+      <identifiant type="hal" value="hal-01413363"/>
+      <analytic>
+        <title level="a">Interfacing OpenAD and Tapenade</title>
+        <author>
+          <persName>
+            <foreName>Sri Hari Krishna</foreName>
+            <surname>Narayanan</surname>
+            <initial>S. H. K.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">AD2016 - 7th International Conference on Algorithmic Differentiation</title>
+        <loc>Oxford, United Kingdom</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">4</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01413363" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413363</ref>
+        </imprint>
+        <meeting id="cid625249">
+          <title>International Conference on Algorithmic Differentiation</title>
+          <num>7</num>
+          <abbr type="sigle">AD</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid24" type="inproceedings" rend="year" n="cite:pascual:hal-01393424">
+      <identifiant type="hal" value="hal-01393424"/>
+      <analytic>
+        <title level="a">Mixed-language Automatic Differentiation</title>
+        <author>
+          <persName key="ecuador-2014-idp13840">
+            <foreName>Valérie</foreName>
+            <surname>Pascual</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">AD2016 - 7th International Conference on Algorithmic Differentiation</title>
+        <loc>Oxford, United Kingdom</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01393424" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01393424</ref>
+        </imprint>
+        <meeting id="cid625249">
+          <title>International Conference on Algorithmic Differentiation</title>
+          <num>7</num>
+          <abbr type="sigle">AD</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid22" type="inproceedings" rend="year" n="cite:taftaf:hal-01413402">
+      <identifiant type="hal" value="hal-01413402"/>
+      <analytic>
+        <title level="a">Experiments on Checkpointing Adjoint MPI Programs</title>
+        <author>
+          <persName key="ecuador-2014-idp110800">
+            <foreName>Ala</foreName>
+            <surname>Taftaf</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">11th ASMO UK/ISSMO/NOED2016: International Conference on Numerical Optimisation Methods for Engineering Design</title>
+        <loc>Munich, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413402" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413402</ref>
+        </imprint>
+        <meeting id="cid625247">
+          <title>International Conference on Numerical Optimisation Methods for Engineering Design</title>
+          <num>11</num>
+          <abbr type="sigle">ASMO UK/ISSMO/NOED</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid20" type="inproceedings" rend="year" n="cite:taftaf:hal-01413394">
+      <identifiant type="hal" value="hal-01413394"/>
+      <analytic>
+        <title level="a">On the correct application of AD checkpointing to adjoint MPI-parallel programs</title>
+        <author>
+          <persName key="ecuador-2014-idp110800">
+            <foreName>Ala</foreName>
+            <surname>Taftaf</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2016)</title>
+        <loc>Crete, Greece</loc>
+        <title level="s">VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2016)</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01413394" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01413394</ref>
+        </imprint>
+        <meeting id="cid68639">
+          <title>European Congress on Computational Methods in Applied Sciences and Engineering</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCOMAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid21" type="techreport" rend="year" n="cite:hascoet:hal-01277449">
+      <identifiant type="hal" value="hal-01277449"/>
+      <monogr>
+        <title level="m">On the correct application of AD checkpointing to adjoint MPI-parallel programs</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>Laurent</foreName>
+            <surname>Hascoet</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp110800">
+            <foreName>Ala</foreName>
+            <surname>Taftaf</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8864</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>February</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01277449" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01277449</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid4" type="book" rend="foot" n="footcite:dragon">
+      <monogr>
+        <title level="m">Compilers: Principles, Techniques and Tools</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Aho</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Sethi</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Ullman</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Addison-Wesley</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1986</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid7" type="techreport" rend="foot" n="footcite:TrfL97">
+      <identifiant type="hal" value="inria-00073376"/>
+      <monogr>
+        <title level="m">A language and an integrated environment for program transformations</title>
+        <author>
+          <persName>
+            <foreName>I.</foreName>
+            <surname>Attali</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp13840">
+            <foreName>V.</foreName>
+            <surname>Pascual</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Roudet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">3313</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/inria-00073376" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00073376</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">research report</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid15" type="article" rend="foot" n="footcite:Christianson98">
+      <analytic>
+        <title level="a">Reverse accumulation and implicit functions</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Christianson</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Optimization Methods and Software</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>1998</year>
+          </dateStruct>
+          <biblScope type="pages">307–322</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid5" type="article" rend="foot" n="footcite:NatSem86">
+      <identifiant type="hal" value="inria-00076140"/>
+      <analytic>
+        <title level="a">Natural semantics on the computer</title>
+        <author>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Clément</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Despeyroux</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Kahn</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Proceedings, France-Japan AI and CS Symposium, ICOT</title>
+        <imprint>
+          <dateStruct>
+            <year>1986</year>
+          </dateStruct>
+          <biblScope type="pages">49-89</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00076140" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00076140</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Also, Information Processing Society of Japan, Technical Memorandum PL-86-6. Also Inria research report # 416</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid8" type="article" rend="foot" n="footcite:Cousot96">
+      <analytic>
+        <title level="a">Abstract Interpretation</title>
+        <author>
+          <persName key="antique-2014-idm27896">
+            <foreName>P.</foreName>
+            <surname>Cousot</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">ACM Computing Surveys</title>
+        <imprint>
+          <biblScope type="volume">28</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <biblScope type="pages">324-328</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid10" type="article" rend="foot" n="footcite:IrigCreus96">
+      <analytic>
+        <title level="a">Interprocedural Array Region Analyses</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Creusillet</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>F.</foreName>
+            <surname>Irigoin</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Parallel Programming</title>
+        <imprint>
+          <biblScope type="volume">24</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>1996</year>
+          </dateStruct>
+          <biblScope type="pages">513–546</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid11" type="article" rend="foot" n="footcite:Gilbert92">
+      <analytic>
+        <title level="a">Automatic differentiation and iterative processes</title>
+        <author>
+          <persName>
+            <foreName>J.C.</foreName>
+            <surname>Gilbert</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Optimization Methods and Software</title>
+        <imprint>
+          <biblScope type="volume">1</biblScope>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+          <biblScope type="pages">13–21</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid2" type="inproceedings" rend="foot" n="footcite:giles">
+      <analytic>
+        <title level="a">Adjoint methods for aeronautical design</title>
+        <author>
+          <persName>
+            <foreName>M.-B.</foreName>
+            <surname>Giles</surname>
+            <initial>M.-B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the ECCOMAS CFD Conference</title>
+        <imprint>
+          <dateStruct>
+            <year>2001</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid14" type="article" rend="foot" n="footcite:GriFaure01">
+      <analytic>
+        <title level="a">Reduced Gradients and Hessians from Fixed Point Iteration for State Equations</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Griewank</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mimetic-2016-idp204864">
+            <foreName>C.</foreName>
+            <surname>Faure</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Numerical Algorithms</title>
+        <imprint>
+          <biblScope type="volume">30(2)</biblScope>
+          <dateStruct>
+            <year>2002</year>
+          </dateStruct>
+          <biblScope type="pages">113–139</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid3" type="book" rend="foot" n="footcite:Griewank2008EDP">
+      <monogr>
+        <title level="m">Evaluating Derivatives: Principles and Techniques of Algorithmic Differentiation</title>
+        <author>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Griewank</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>A.</foreName>
+            <surname>Walther</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <edition>2nd</edition>
+        <imprint>
+          <publisher>
+            <orgName>SIAM, Other Titles in Applied Mathematics</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid6" type="phdthesis" rend="foot" n="footcite:ThsHascoet">
+      <monogr>
+        <title level="m">Transformations automatiques de spécifications sémantiques: application: Un vérificateur de types incremental</title>
+        <author>
+          <persName key="ecuador-2014-idp10944">
+            <foreName>L.</foreName>
+            <surname>Hascoët</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Nice Sophia-Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1987</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid26" type="book" rend="foot" n="footcite:umridaBook">
+      <monogr>
+        <title level="m">UMRIDA: Uncertainty Management for Robust Industrial Desin in Aeronautics including Best Practice Guide on Uncertainty Quantification Applications</title>
+        <editor role="editor">
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Hirsch</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Bugeda</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Szumbarski</surname>
+            <initial>J.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="bnote">to appear</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid12" type="techreport" rend="foot" n="footcite:HBM">
+      <monogr>
+        <title level="m">Automatic Differentiation of Navier-Stokes computations</title>
+        <author>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Hovland</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Mohammadi</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Bischof</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">MCS-P687-0997</biblScope>
+          <publisher>
+            <orgName type="institution">Argonne National Laboratory</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Technical report</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid1" type="article" rend="foot" n="footcite:DimetTallagrand">
+      <analytic>
+        <title level="a">Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects</title>
+        <author>
+          <persName>
+            <foreName>F.-X.</foreName>
+            <surname>Le Dimet</surname>
+            <initial>F.-X.</initial>
+          </persName>
+          <persName>
+            <foreName>O.</foreName>
+            <surname>Talagrand</surname>
+            <initial>O.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Tellus</title>
+        <imprint>
+          <biblScope type="volume">38A</biblScope>
+          <dateStruct>
+            <year>1986</year>
+          </dateStruct>
+          <biblScope type="pages">97-110</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid17" type="techreport" rend="foot" n="footcite:MadecEtAl">
+      <monogr>
+        <title level="m">OPA8.1 ocean general circulation model reference manual</title>
+        <author>
+          <persName key="airsea-2015-idp99496">
+            <foreName>G.</foreName>
+            <surname>Madec</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Delecluse</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Imbard</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>C.</foreName>
+            <surname>Levy</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">Pole de Modelisation, IPSL</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1998</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Technical report</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid13" type="article" rend="foot" n="footcite:mohammadi:97">
+      <analytic>
+        <title level="a">Practical application to fluid flows of automatic differentiation for design problems</title>
+        <author>
+          <persName>
+            <foreName>B.</foreName>
+            <surname>Mohammadi</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Von Karman Lecture Series</title>
+        <imprint>
+          <dateStruct>
+            <year>1997</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid16" type="phdthesis" rend="foot" n="footcite:ThsRostaing">
+      <monogr>
+        <title level="m">Différentiation Automatique: application à un problème d'optimisation en météorologie</title>
+        <author>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Rostaing</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">université de Nice Sophia-Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <year>1993</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="ecuador-2016-bid9" type="inproceedings" rend="foot" n="footcite:RuRi00">
+      <analytic>
+        <title level="a">Symbolic Bounds Analysis of Pointers, Array Indices, and Accessed Memory Regions</title>
+        <author>
+          <persName>
+            <foreName>R.</foreName>
+            <surname>Rugina</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Rinard</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the ACM SIGPLAN'00 Conference on Programming Language Design and Implementation</title>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

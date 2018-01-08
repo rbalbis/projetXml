@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="parkas" isproject="true">
+    <shortname>PARKAS</shortname>
+    <projectName>Parallélisme de Kahn Synchrone</projectName>
+    <theme-de-recherche>Embedded and Real-time Systems</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://parkas.di.ens.fr</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Département d'Informatique de l'Ecole Normale Supérieure</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole normale supérieure de Paris</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2011 April 01, updated into Project-Team: 2012 January 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.1. - Multicore</term>
+      <term>1.1.3. - Memory models</term>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.1.3. - Functional programming</term>
+      <term>2.1.6. - Concurrent programming</term>
+      <term>2.1.8. - Synchronous languages</term>
+      <term>2.2.2. - Memory models</term>
+      <term>2.2.3. - Run-time systems</term>
+      <term>2.2.4. - Parallel architectures</term>
+      <term>2.2.5. - GPGPU, FPGA, etc.</term>
+      <term>2.2.6. - Adaptive compilation</term>
+      <term>2.3. - Embedded and cyber-physical systems</term>
+      <term>2.3.1. - Embedded systems</term>
+      <term>2.3.2. - Cyber-physical systems</term>
+      <term>2.3.3. - Real-time systems</term>
+      <term>2.4.3. - Proofs</term>
+      <term>3.1.3. - Distributed data</term>
+      <term>3.1.8. - Big data (production, storage, transfer)</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.7. - High performance computing</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>5.2.1. - Road vehicles</term>
+      <term>5.2.2. - Railway</term>
+      <term>5.2.3. - Aviation</term>
+      <term>6.4. - Internet of things</term>
+      <term>6.6. - Embedded systems</term>
+      <term>9.2.1. - Music, sound</term>
+      <term>9.4.1. - Computer science</term>
+      <term>9.4.2. - Mathematics</term>
+    </keywordsSecteurs>
+    <UR name="Paris"/>
+  </identification>
+  <team id="uid1">
+    <person key="parkas-2014-idp13232">
+      <firstname>Marc</firstname>
+      <lastname>Pouzet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader, Univ. Paris VI, Professor</moreinfo>
+    </person>
+    <person key="parkas-2014-idp14504">
+      <firstname>Timothy</firstname>
+      <lastname>Bourke</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="parkas-2014-idp15768">
+      <firstname>Albert</firstname>
+      <lastname>Cohen</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="parkas-2014-idp109368">
+      <firstname>Francesco</firstname>
+      <lastname>Zappa Nardelli</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="parkas-2015-idp69144">
+      <firstname>Jean-Baptiste</firstname>
+      <lastname>Brejon</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Sep 2016</moreinfo>
+    </person>
+    <person key="parkas-2014-idp122672">
+      <firstname>Michael</firstname>
+      <lastname>Kruse</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="parkas-2014-idp116144">
+      <firstname>Mircea</firstname>
+      <lastname>Namolaru</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, until Sep 2016, granted by FP7 EuroLab-4-HPC project</moreinfo>
+    </person>
+    <person key="estasys-2015-idp104848">
+      <firstname>Laurent</firstname>
+      <lastname>Morin</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, External collaborator from Rennes</moreinfo>
+    </person>
+    <person key="parkas-2014-idp120128">
+      <firstname>Zhen</firstname>
+      <lastname>Zhang</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Postdoctoral Fellow, until Jan 2016</moreinfo>
+    </person>
+    <person key="in-situ-2014-idp89448">
+      <firstname>Oleksandr</firstname>
+      <lastname>Zinenko</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Postdoctoral Fellow</moreinfo>
+    </person>
+    <person key="parkas-2014-idp135424">
+      <firstname>Guillaume</firstname>
+      <lastname>Baudart</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris</moreinfo>
+    </person>
+    <person key="parkas-2016-idp40432">
+      <firstname>Julien</firstname>
+      <lastname>Proy</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris and INVIA, CIFRE Fellowship</moreinfo>
+    </person>
+    <person key="compsys-2015-idp117272">
+      <firstname>Adilla</firstname>
+      <lastname>Susungi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Mines Paristech, PSL Fellowship</moreinfo>
+    </person>
+    <person key="parkas-2014-idp136648">
+      <firstname>Ulysse</firstname>
+      <lastname>Beaugnon</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris</moreinfo>
+    </person>
+    <person key="parkas-2016-idp47792">
+      <firstname>Lelio</firstname>
+      <lastname>Brun</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris, from Apr 2016</moreinfo>
+    </person>
+    <person key="parkas-2016-idp50240">
+      <firstname>Prasanth</firstname>
+      <lastname>Chatarasi</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Rice University and Inria, from May 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="parkas-2014-idp144120">
+      <firstname>Nhat Minh</firstname>
+      <lastname>Le</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris and Inria, until Nov 2016, granted by Min. du Redressement Productif</moreinfo>
+    </person>
+    <person key="parkas-2014-idp146600">
+      <firstname>Robin</firstname>
+      <lastname>Morisset</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris and Inria, granted by Google Inc</moreinfo>
+    </person>
+    <person key="parkas-2014-idp117488">
+      <firstname>Chandan</firstname>
+      <lastname>Reddy Gopal</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris and Inria</moreinfo>
+    </person>
+    <person key="parkas-2015-idp86664">
+      <firstname>Jie</firstname>
+      <lastname>Zhao</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Chinese scholarship from NDSC</moreinfo>
+    </person>
+    <person key="parkas-2014-idp142896">
+      <firstname>Adrien</firstname>
+      <lastname>Guatto</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris and Inria, until Jan 2016</moreinfo>
+    </person>
+    <person key="compsys-2014-idp71016">
+      <firstname>Guillaume</firstname>
+      <lastname>Iooss</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris</moreinfo>
+    </person>
+    <person key="muse-2014-idm25680">
+      <firstname>Anna</firstname>
+      <lastname>Bednarik</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="parkas-2015-idp92992">
+      <firstname>Tommaso</firstname>
+      <lastname>Borghesi</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Master Student, until Jan 2016</moreinfo>
+    </person>
+    <person key="parkas-2016-idp72528">
+      <firstname>Keyur</firstname>
+      <lastname>Joshi</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>IIT Hyderabad and Inria, Master Student, May 2016 until Jul 2016</moreinfo>
+    </person>
+    <person key="parkas-2016-idp75040">
+      <firstname>Lilia</firstname>
+      <lastname>Otmane Cherif</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>UPMC and Inria, Master Student, from Apr 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="parkas-2014-idp118856">
+      <firstname>Sven</firstname>
+      <lastname>Verdoolaege</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Independent contractor, Polly Labs grant of ARM</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The research in PARKAS focuses on the design, semantics, and compilation of
+programming languages which allow going from parallel deterministic
+specifications to target embedded code executing on sequential or multi-core
+architectures.
+We are driven by the ideal of a mathematical and executable language used
+both to program and simulate a wide variety of systems, including real-time
+embedded controllers in interaction with a physical environment (e.g.,
+fly-by-wire, engine control), computationally intensive applications (e.g.,
+video), and compilers that produce provably correct and efficient code.</p>
+      <p>The team bases its research on the foundational work of Gilles Kahn on the
+semantics of deterministic parallelism, the theory and practice of
+synchronous languages and typed functional languages, synchronous
+circuits, modern (polyhedral) compilation, and formal models to prove
+the correctness of low level code running on weak-memory processors.</p>
+      <p>To realize our research program, we develop languages (<span class="smallcap" align="left">Lucid Synchrone</span>,
+<span class="smallcap" align="left">ReactiveML</span>, <span class="smallcap" align="left">Lucy-n</span>, <span class="smallcap" align="left">Zelus</span>), compilers (PPCG),
+contributions to open-source projects (isl, LLVM, gcc), tools to
+study language semantics (Ott) and to test optimization compilers in the
+presence of threads (cmmtest), and formalizations in Interactive Theorem
+Provers of language semantics (Vélus, <i>n</i>-synchrony, quasi-synchrony).
+These software projects constitute essential “laboratories”: they
+ground our scientific contributions, guide and validate our research
+through experimentation, and are an important vehicle for mutually
+beneficial and long standing collaborations with industry.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Programming Languages for
+Cyber-Physical Systems</bodyTitle>
+      <p>We study the definition of languages for reactive and Cyber-Physical Systems
+in which distributed control software interacts closely with physical
+devices.
+We focus on languages that mix discrete-time and continuous-time; in
+particular, the combination of synchronous programming constructs with
+differential equations, relaxed models of synchrony for distributed systems
+communicating via periodic sampling or through buffers, and the embedding of
+synchronous features in a general purpose ML language.</p>
+      <p>The synchronous language
+<span class="smallcap" align="left">Scade</span>, <footnote id="uid6" id-text="1"><ref xlink:href="http://www.esterel-technologies.com/products/scade-suite" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>esterel-technologies.<allowbreak/>com/<allowbreak/>products/<allowbreak/>scade-suite</ref></footnote>
+based on synchronous languages principles, is ideal for programming embedded
+software and is used routinely in the most critical applications. But
+embedded design also involves modeling the control software together with
+its environment made of physical devices that are traditionally defined by
+differential equations that evolve on a continuous-time basis and
+approximated with a numerical solver. Furthermore, compilation usually
+produces single-loop code, but implementations increasingly involve multiple
+and multi-core processors communicating via buffers and shared-memory.</p>
+      <p>The major player in embedded design for cyber-physical systems is
+undoubtedly
+<span class="smallcap" align="left">Simulink</span>, <footnote id="uid7" id-text="2"><ref xlink:href="http://www.mathworks.com/products/simulink" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>mathworks.<allowbreak/>com/<allowbreak/>products/<allowbreak/>simulink</ref></footnote>
+with <span class="smallcap" align="left">Modelica</span><footnote id="uid8" id-text="3"><ref xlink:href="https://www.modelica.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>modelica.<allowbreak/>org</ref></footnote> a new player.
+Models created in these tools are used not only for simulation,
+but also for test-case generation, formal verification, and
+translation to embedded code.
+That said, many foundational and practical aspects are not well-treated by
+existing theory (for instance, hybrid automata), and current tools.
+In particular, features that mix discrete and continuous time often suffer
+from inadequacies and bugs.
+This results in a broken development chain: for the most critical
+applications, the model of the controller must be reprogrammed into either
+sequential or synchronous code, and properties verified on the source model
+have to be reverified on the target code.
+There is also the question of how much confidence can be placed in the code
+used for simulation.</p>
+      <p>We attack these issues through the development of the <span class="smallcap" align="left">Zelus</span> research
+prototype, industrial collaborations with the SCADE team at
+ANSYS/Esterel-Technologies, and collaboration with Modelica developers at
+Dassault-Systèmes and the Modelica association.
+Our approach is to develop a <i>conservative extension</i> of a synchronous
+language capable of expressing in a single source text a model of the
+control software and its physical environment, to simulate the whole using
+off-the-shelf numerical solvers, and to generate target embedded code.
+Our goal is to increase faithfulness and confidence in both what is actually
+executed on platforms and what is simulated.
+The goal of building a language on a strong mathematical basis for hybrid
+systems is shared with the Ptolemy project at UC Berkeley; our approach is
+distinguished by building our language on a synchronous semantics, reusing
+and extending classical synchronous compilation techniques.</p>
+      <p>Adding continuous time to a synchronous language gives a richer programming
+model where reactive controllers can be specified in idealized physical
+time.
+An example is the so called quasi-periodic architecture studied by Caspi,
+where independent processors execute periodically and communicate by
+sampling.
+We have applied <span class="smallcap" align="left">Zelus</span> to model a class of quasi-periodic protocols and to
+analyze an abstraction proposed for model-checking such systems.</p>
+      <p>Communication-by-sampling is suitable for control applications where value
+timeliness is paramount and lost or duplicate values tolerable, but other
+applications—for instance, those involving video streams—seek a
+different trade-off through the use of bounded buffers between processes.
+We developed the <i>n</i>-synchronous model and the programming language
+<span class="smallcap" align="left">Lucy-n</span> to treat this issue.</p>
+    </subsection>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Efficient Compilation for Parallel and
+Distributed Computing</bodyTitle>
+      <p>We develop compilation techniques for sequential and multi-core processors,
+and efficient parallel run-time systems for computationally intensive
+real-time applications (e.g., video and streaming).
+We study the generation of parallel code from synchronous programs,
+compilation techniques based on the polyhedral model, and the exploitation
+of synchronous Single Static Assignment (SSA) representations in general
+purpose compilers.</p>
+      <p>We consider distribution and parallelism as two distinct concepts.</p>
+      <simplelist>
+        <li id="uid10">
+          <p noindent="true">Distribution refers to the construction of multiple programs
+which are dedicated to run on specific computing devices. When an
+application is designed for, or adapted to, an embedded
+multiprocessor, the distribution task grants fine grained—design-
+or compilation-time—control over the mapping and interaction
+between the multiple programs.</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">Parallelism is about generating code capable of efficiently
+exploiting multiprocessors. Typically this amounts to
+maing (in)dependence properties, data transfers, atomicity
+and isolation explicit. Compiling parallelism translates these properties
+into low-level synchronization and communication primitives
+and/or onto a runtime system.</p>
+        </li>
+      </simplelist>
+      <p>We also see a strong relation between the foundations of synchronous
+languages and the design of compiler intermediate representations for
+concurrent programs. These representations are essential to the construction
+of compilers enabling the optimization of parallel programs and the
+management of massively parallel resources. Polyhedral compilation is one of
+the most popular research avenues in this area. Indirectly, the design of
+intermediate representations also triggers exciting research on dedicated
+runtime systems supporting parallel constructs. We are particularly
+interested in the implementation of non-blocking dynamic schedulers
+interacting with decoupled, deterministic communication channels to hide
+communication latency and optimize local memory usage.</p>
+      <p>While distribution and parallelism issues arise in all areas of
+computing, our programming language perspective pushes us to
+consider four scenarios:</p>
+      <orderedlist>
+        <li id="uid12">
+          <p noindent="true">designing an embedded system, both hardware and software,
+and codesign;</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">programming existing embedded hardware with functional and
+behavioral constraints;</p>
+        </li>
+        <li id="uid14">
+          <p noindent="true">programming and compiling for a general-purpose or
+high-performance, best-effort system;</p>
+        </li>
+        <li id="uid15">
+          <p noindent="true">programming large scale distributed, I/O-dominated and
+data-centric systems.</p>
+        </li>
+      </orderedlist>
+      <p>We work on a multitude of research experiments, algorithms and
+prototypes related to one or more of these scenarios. Our main efforts
+focused on extending the code generation algorithms for synchronous
+languages and on the development of more scalable and widely
+applicable polyhedral compilation methods.
+</p>
+    </subsection>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Validation and Proof of Compilers</bodyTitle>
+      <p>Compilers are complex software and not immune from bugs.
+We work on validation and proof tools for compilers to relate the semantics
+of executed code and source programs.
+We develop techniques to formally prove the correctness of compilation
+passes for synchronous languages (Lustre), and to validate compilation
+optimization for C code in the presence of threads.</p>
+      <subsection id="uid17" level="2">
+        <bodyTitle>Lustre:</bodyTitle>
+        <p>The formal validation of a compiler for a synchronous language (or more
+generally for a language based on synchronous block diagrams) promises to
+reduce the likelihood of compiler-introduced bugs, the cost of testing, and
+also to ensure that properties verified on the source model hold of the
+target code.
+Such a validation would be complementary to existing industrial
+qualifications which certify the development process and not the functional
+correctness of a compiler.
+The scientific interest is in developing models and techniques that both
+facilitate the verification and allow for convenient reasoning over the
+semantics of a language and the behavior of programs written in it.</p>
+      </subsection>
+      <subsection id="uid18" level="2">
+        <bodyTitle>C/C++:</bodyTitle>
+        <p>The recently approved C11 and C++11 standards define a concurrency model for
+the C and C++ languages, which were originally designed without concurrency
+support. Their intent is to permit most compiler and hardware optimizations,
+while providing escape mechanisms for writing portable, high-performance,
+low-level code. Mainstream compilers are being modified to support the new
+standards. A subtle class of compiler bugs is the so-called concurrency
+compiler bugs, where compilers generate correct sequential code but break
+the concurrency memory model of the programming language. Such bugs are
+observable only when the miscompiled functions interact with concurrent
+contexts, making them particularly hard to detect. All previous techniques
+to test compiler correctness miss concurrency compiler bugs.</p>
+      </subsection>
+    </subsection>
+  </fondements>
+  <highlights id="uid19">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid21" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>Marc Pouzet won the Inria/French Académie des Sciences/Dassault Systèmes
+Innovation award.</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid22">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid23" level="1">
+      <bodyTitle>Cmmtest</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Cmmtest is a tool for hunting concurrency compiler bugs.
+The Cmmtest tool performs random testing of C and C++ compilers against the C11/C++11 memory model. A test case is any well-defined, sequential C program, for each test case, cmmtest:</p>
+      <p>compiles the program using the compiler and compiler optimisations that are being tested,</p>
+      <p>runs the compiled program in an instrumented execution environment that logs all memory accesses to global variables and synchronisations,</p>
+      <p>compares the recorded trace with a reference trace for the same program, checking if the recorded trace can be obtained from the reference trace by valid eliminations, reorderings and introductions.</p>
+      <p>Cmmtest identified several mistaken write introductions and other unexpected behaviours in the latest release of the gcc compiler. These have been promptly fixed by the gcc developers.</p>
+      <simplelist>
+        <li id="uid24">
+          <p noindent="true">Participants: Pankaj Pawan, Francesco Zappa Nardelli, Robin Morisset, Anirudh Kumar, Pankaj Prateek Kewalramani and Pankaj More</p>
+        </li>
+        <li id="uid25">
+          <p noindent="true">Contact: Francesco Zappa Nardelli</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">URL: <ref xlink:href="http://www.di.ens.fr/~zappa/projects/cmmtest/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>~zappa/<allowbreak/>projects/<allowbreak/>cmmtest/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid27" level="1">
+      <bodyTitle>GCC</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Compilation - Polyhedral compilation</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, Ada, and Go, as well as libraries for these languages (libstdc++, libgcj,...). GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participants: Albert Cohen, Tobias Grosser, Feng Li, Riyadh Baghdadi and Nhat Minh Le</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Albert Cohen</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">URL: <ref xlink:href="http://gcc.gnu.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>gcc.<allowbreak/>gnu.<allowbreak/>org/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid31" level="1">
+      <bodyTitle>Heptagon</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Heptagon is an experimental language for the implementation of embedded real-time reactive systems. It is developed inside the Synchronics large-scale initiative, in collaboration with Inria Rhones-Alpes. It is essentially a subset of Lucid Synchrone, without type inference, type polymorphism and higher-order. It is thus a Lustre-like language extended with hierchical automata in a form very close to SCADE 6. The intention for making this new language and compiler is to develop new aggressive optimization techniques for sequential C code and compilation methods for generating parallel code for different platforms. This explains much of the simplifications we have made in order to ease the development of compilation techniques.</p>
+      <simplelist>
+        <li id="uid32">
+          <p noindent="true">Participants: Adrien Guatto, Marc Pouzet, Cédric Pasteur, Léonard Gerard, Brice Gelineau, Gwenael Delaval and Eric Rutten</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">Contact: Marc Pouzet</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Lem</bodyTitle>
+      <p>lightweight executable mathematics</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Lem is a lightweight tool for writing, managing, and publishing large scale semantic definitions. It is also intended as an intermediate language for generating definitions from domain-specific tools, and for porting definitions between interactive theorem proving systems (such as Coq, HOL4, and Isabelle). As such it is a complementary tool to Ott. Lem resembles a pure subset of Objective Caml, supporting typical functional programming constructs, including top-level parametric polymorphism, datatypes, records, higher-order functions, and pattern matching. It also supports common logical mechanisms including list and set comprehensions, universal and existential quantifiers, and inductively defined relations. From this, Lem generates OCaml, HOL4, Coq, and Isabelle code.</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true">Participants: Scott Owens, Peter Sewell and Francesco Zappa Nardelli</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true">Contact: Francesco Zappa Nardelli</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true">URL: <ref xlink:href="http://www.cl.cam.ac.uk/~pes20/lem/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cl.<allowbreak/>cam.<allowbreak/>ac.<allowbreak/>uk/<allowbreak/>~pes20/<allowbreak/>lem/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Lucid Synchrone</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Lucid Synchrone is a language for the implementation of reactive systems. It is based on the synchronous model of time as provided by Lustre combined with features from ML languages. It provides powerful extensions such as type and clock inference, type-based causality and initialization analysis and allows to arbitrarily mix data-flow systems and hierarchical automata or flows and valued signals.</p>
+      <simplelist>
+        <li id="uid39">
+          <p noindent="true">Contact: Marc Pouzet</p>
+        </li>
+        <li id="uid40">
+          <p noindent="true">URL: <ref xlink:href="http://www.di.ens.fr/~pouzet/lucid-synchrone/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>di.<allowbreak/>ens.<allowbreak/>fr/<allowbreak/>~pouzet/<allowbreak/>lucid-synchrone/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Lucy-n</bodyTitle>
+      <p>Lucy-n: an n-synchronous data-flow programming language</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Lucy-n is a language to program in the n-synchronous model. The language is similar to Lustre with a buffer construct. The Lucy-n compiler ensures that programs can be executed in bounded memory and automatically computes buffer sizes. Hence this language allows to program Kahn networks, the compiler being able to statically compute bounds for all FIFOs in the program.</p>
+      <simplelist>
+        <li id="uid42">
+          <p noindent="true">Participants: Albert Cohen, Adrien Guatto, Marc Pouzet and Louis Mandel</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">Contact: Albert Cohen</p>
+        </li>
+        <li id="uid44">
+          <p noindent="true">URL: <ref xlink:href="https://www.lri.fr/~mandel/lucy-n/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>lri.<allowbreak/>fr/<allowbreak/>~mandel/<allowbreak/>lucy-n/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid45" level="1">
+      <bodyTitle>Ott</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Ott is a tool for writing definitions of programming languages and calculi. It takes as input a definition of a language syntax and semantics, in a concise and readable ASCII notation that is close to what one would write in informal mathematics. It generates output:</p>
+      <p>a LaTeX source file that defines commands to build a typeset version of the definition,</p>
+      <p>a Coq version of the definition,</p>
+      <p>an Isabelle version of the definition, and</p>
+      <p>a HOL version of the definition.</p>
+      <p>Additionally, it can be run as a filter, taking a LaTeX/Coq/Isabelle/HOL source file with embedded (symbolic) terms of the defined language, parsing them and replacing them by typeset terms.</p>
+      <p>The main goal of the Ott tool is to support work on large programming language definitions, where the scale makes it hard to keep a definition internally consistent, and to keep a tight correspondence between a definition and implementations. We also wish to ease rapid prototyping work with smaller calculi, and to make it easier to exchange definitions and definition fragments between groups. The theorem-prover backends should enable a smooth transition between use of informal and formal mathematics.</p>
+      <simplelist>
+        <li id="uid46">
+          <p noindent="true">Participants: Francesco Zappa Nardelli, Peter Sewell and Scott Owens</p>
+        </li>
+        <li id="uid47">
+          <p noindent="true">Contact: Francesco Zappa Nardelli</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">URL: <ref xlink:href="http://www.cl.cam.ac.uk/~pes20/ott/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cl.<allowbreak/>cam.<allowbreak/>ac.<allowbreak/>uk/<allowbreak/>~pes20/<allowbreak/>ott/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid49" level="1">
+      <bodyTitle>PPCG</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>PPCG is our source-to-source research tool for automatic parallelization in the polyhedral model. It serves as a test bed for many compilation algorithms and heuristics published by our group, and is currently the best automatic parallelizer for CUDA and OpenCL (on the Polybench suite).</p>
+      <simplelist>
+        <li id="uid50">
+          <p noindent="true">Participants: Sven Verdoolaege, Tobias Grosser, Riyadh Baghdadi and Albert Cohen</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">Contact: Sven Verdoolaege</p>
+        </li>
+        <li id="uid52">
+          <p noindent="true">URL: <ref xlink:href="http://freshmeat.net/projects/ppcg" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>freshmeat.<allowbreak/>net/<allowbreak/>projects/<allowbreak/>ppcg</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid53" level="1">
+      <bodyTitle>ReactiveML</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>ReactiveML is a programming language dedicated to the implementation of interactive systems as found in graphical user interfaces, video games or simulation problems. ReactiveML is based on the synchronous reactive model due to Boussinot, embedded in an ML language (OCaml).</p>
+      <p>The Synchronous reactive model provides synchronous parallel composition and dynamic features like the dynamic creation of processes. In ReactiveML, the reactive model is integrated at the language level (not as a library) which leads to a safer and a more natural programming paradigm.</p>
+      <simplelist>
+        <li id="uid54">
+          <p noindent="true">Participants: Guillaume Baudart, Louis Mandel and Cédric Pasteur</p>
+        </li>
+        <li id="uid55">
+          <p noindent="true">Contact: Guillaume Baudart</p>
+        </li>
+        <li id="uid56">
+          <p noindent="true">URL: <ref xlink:href="http://rml.lri.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>rml.<allowbreak/>lri.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>SundialsML</bodyTitle>
+      <p>Sundials/ML</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Simulation - Mathematics - Numerical simulations</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>Sundials/ML is an OCaml interface to the Sundials suite of numerical solvers
+(CVODE, CVODES, IDA, IDAS, KINSOL, ARKODE). It supports all features except
+for the Hypre and PETSC nvectors (which require additional libraries).
+Its structure mostly follows that of the Sundials library, both for ease of
+reading the existing documentation and for adapting existing source code,
+but several changes have been made for programming convenience and to
+increase safety, namely:</p>
+      <simplelist>
+        <li id="uid58">
+          <p noindent="true">solver sessions are mostly configured via algebraic data types rather
+than multiple function calls,</p>
+        </li>
+        <li id="uid59">
+          <p noindent="true">errors are signalled by exceptions not return codes (also from
+user-supplied callback routines),</p>
+        </li>
+        <li id="uid60">
+          <p noindent="true">user data is shared between callback routines via closures (partial
+applications of functions),</p>
+        </li>
+        <li id="uid61">
+          <p noindent="true">vectors are checked for compatibility (using a combination of static and
+dynamic checks), and</p>
+        </li>
+        <li id="uid62">
+          <p noindent="true">explicit free commands are not necessary since OCaml is a
+garbage-collected language.</p>
+        </li>
+      </simplelist>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Sundials/ML is an OCaml interface to the Sundials suite of numerical solvers
+(CVODE, CVODES, IDA, IDAS, KINSOL, ARKODE).</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">New Progress</span>
+      </p>
+      <p>This year we updated our interface to work with versions 2.6.0 and 2.7.0
+of the Sundials library. This included significant work to support the new
+ARKODE solver, sparse matrices and the KLU and SuperLU/MT linear solvers,
+OpenMP and Pthreads nvectors, and various new functions and linear solvers
+in existing solvers. The source files were completely reorganized. The
+OCaml types for nvectors were adapted to support multiple nvectors. Memory
+leaks were eliminated and the performance problems investigated.
+This work was presented at the ACM Workshop on
+ML <ref xlink:href="#parkas-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <simplelist>
+        <li id="uid63">
+          <p noindent="true">Participants: Marc Pouzet and Timothy Bourke</p>
+        </li>
+        <li id="uid64">
+          <p noindent="true">Partner: UPMC, AIST (Jun Inoue)</p>
+        </li>
+        <li id="uid65">
+          <p noindent="true">Contact: Timothy Bourke</p>
+        </li>
+        <li id="uid66">
+          <p noindent="true">URL: <ref xlink:href="http://inria-parkas.github.io/sundialsml/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>inria-parkas.<allowbreak/>github.<allowbreak/>io/<allowbreak/>sundialsml/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>Zélus</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>The Zélus implementation has two main parts: a compiler that transforms Zélus programs into OCaml programs and a runtime library that orchestrates compiled programs and numeric solvers. The runtime can use the Sundials numeric solver, or custom implementations of well-known algorithms for numerically approximating continuous dynamics.</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Zélus is a new programming language for hybrid system modeling. It is based on a synchronous language but extends it with Ordinary Differential Equations (ODEs) to model continuous-time behaviors. It allows for combining arbitrarily data-flow equations, hierarchical automata and ODEs. The language keeps all the fundamental features of synchronous languages: the compiler statically ensure the absence of deadlocks and critical races, it is able to generate statically scheduled code running in bounded time and space and a type-system is used to distinguish discrete and logical-time signals from continuous-time ones. The ability to combines those features with ODEs made the language usable both for programming discrete controllers and their physical environment.</p>
+      <simplelist>
+        <li id="uid68">
+          <p noindent="true">Participants: Marc Pouzet and Timothy Bourke</p>
+        </li>
+        <li id="uid69">
+          <p noindent="true">Contact: Marc Pouzet</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid70" level="1">
+      <bodyTitle>isl</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>isl is a library for manipulating sets and relations of integer points bounded by linear constraints. Supported operations on sets include intersection, union, set difference, emptiness check, convex hull, (integer) affine hull, integer projection, transitive closure (and over-approximation), computing the lexicographic minimum using parametric integer programming. It includes an ILP solver based on generalized basis reduction, and a new polyhedral code generator. isl also supports affine transformations for polyhedral compilation, and increasingly abstract representations to model source and intermediate code in a polyhedral framework.</p>
+      <simplelist>
+        <li id="uid71">
+          <p noindent="true">Participants: Sven Verdoolaege, Tobias Grosser and Albert Cohen</p>
+        </li>
+        <li id="uid72">
+          <p noindent="true">Contact: Sven Verdoolaege</p>
+        </li>
+        <li id="uid73">
+          <p noindent="true">URL: <ref xlink:href="http://freshmeat.net/projects/isl" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>freshmeat.<allowbreak/>net/<allowbreak/>projects/<allowbreak/>isl</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid74">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid75" level="1">
+      <bodyTitle>Verified compilation of Lustre</bodyTitle>
+      <participants>
+        <person key="parkas-2014-idp14504">
+          <firstname>Timothy</firstname>
+          <lastname>Bourke</lastname>
+        </person>
+        <person key="parkas-2016-idp47792">
+          <firstname>Lélio</firstname>
+          <lastname>Brun</lastname>
+        </person>
+        <person key="parkas-2014-idp13232">
+          <firstname>Marc</firstname>
+          <lastname>Pouzet</lastname>
+        </person>
+      </participants>
+      <p>Synchronous dataflow languages and their compilers are increasingly used to
+develop safety-critical applications, like fly-by-wire controllers in
+aircraft and monitoring software for power plants. A striking example is the
+SCADE Suite tool of ANSYS/Esterel Technologies which is DO-178B/C qualified
+for the aerospace and defense industries. This tool allows engineers to
+develop and validate systems at the level of abstract block diagrams that
+are automatically compiled into executable code.</p>
+      <p>Formal modelling and verification in an interactive theorem prover can
+potentially complement the industrial certification of such tools to give
+very precise definitions of language features and increased confidence in
+their correct compilation; ideally, right down to the binary code that
+actually executes.</p>
+      <p>This year we integrated elements of the CompCert verified C compiler into
+our Lustre compiler.
+In particular, we modularized the syntax and semantics of our source Lustre
+language and intermediate Obc language to be independent of the underlying
+types and operators of the host language.
+All previous proofs are independent of the choice of host language.
+We integrated CompCert by instantiating the types and operators with those
+of the Clight language and by adding a function that compiles an Obc program
+into Clight.
+The key challenge in this compilation pass is to move from a model where
+program variables are stored in a tree structure where distinctness is
+manifest to a model where variables are stored in nested structures in a
+single memory block with concomitant problems of aliasing, alignment, and
+memory size.
+We addressed this challenge by extending a CompCert library for expressing
+separation assertions and applying it to express our recursive predicates.</p>
+      <p>A similar approach was taken to address the encoding of multiple return
+values (permitted in Obc but not in Clight).
+We made various practical improvements to our compiler and proofs including
+the addition of a verified parser, the addition of an elaboration pass with
+type and clock checking, and pretty-printers for intermediate languages.
+It is now possible to compile scheduled and normalized Lustre programs to
+assembly code with a proof correction that relates the generated transition
+function to the dataflow semantics of the source program.</p>
+      <p>The initial part of this work, reported last year, has been
+published <ref xlink:href="#parkas-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In collaboration with Pierre-Évariste Dagand (CNRS), Lionel Reig (Collège de
+France), and Xavier Leroy (Inria, GALLIUM team).
+</p>
+    </subsection>
+    <subsection id="uid76" level="1">
+      <bodyTitle>Fence Optimisations for Multicore Architectures</bodyTitle>
+      <participants>
+        <person key="parkas-2014-idp146600">
+          <firstname>Robin</firstname>
+          <lastname>Morisset</lastname>
+        </person>
+        <person key="parkas-2014-idp109368">
+          <firstname>Francesco</firstname>
+          <lastname>Zappa Nardelli</lastname>
+        </person>
+      </participants>
+      <p>We have pursued our investigation of sound optimisations for modern
+multicore architectures. Last year we focused on optimisations that can be expressed inside the semantics of the C11/C++11 programming language; we thus moved to optimisations that can be expressed only at the harware level. In particular we have shown how partial redundancy elimination (PRE) can be instantiated to perform <i>provably correct</i>
+fence elimination for multi-threaded programs running on top of the x86, ARM and IBM Power relaxed memory models.
+We have implemented our algorithm in the x86, ARM and Power backends of the <tt>LLVM</tt> compiler infrastructure. The optimisation does not induce an observable overhead at compile-time and can result in up-to 10% speedup on some benchmarks.</p>
+      <p>This work has been published in CC 2017 <ref xlink:href="#parkas-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The implementation of the optimisations will be submitted for inclusion in the LLVM compiler suite.
+</p>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Compiling synchronous languages for
+multi-processor implementations</bodyTitle>
+      <participants>
+        <person key="parkas-2014-idp14504">
+          <firstname>Timothy</firstname>
+          <lastname>Bourke</lastname>
+        </person>
+        <person key="parkas-2014-idp15768">
+          <firstname>Albert</firstname>
+          <lastname>Cohen</lastname>
+        </person>
+        <person key="compsys-2014-idp71016">
+          <firstname>Guillaume</firstname>
+          <lastname>Iooss</lastname>
+        </person>
+        <person key="parkas-2014-idp13232">
+          <firstname>Marc</firstname>
+          <lastname>Pouzet</lastname>
+        </person>
+      </participants>
+      <p>Working together with industrial partners in the context of the ASSUME
+project, we have been working to treat a large-scale and complete case study
+of an industrial application.
+This has involved studying the original sources and adapting the Heptagon
+Lustre compiler.
+Three main extensions have been developed this year: a mechanism to
+calculate and exploit module interdependencies; an extension to the type
+system to allow operator overloading via ad hoc polymorphism; and
+modifications to the parser to accept the provided source code.
+We have also worked on a means to generate dependency graphs from the
+provided nonfunctional specifications.</p>
+      <p>Our current work centers on understanding how to formalize the peculiarities
+of this class of application and the target architecture in our framework,
+and on generating Lustre code from the non-functional specifications.
+The ultimate aim is to generate correct multi-processor task-parallel
+real-time code for an embedded target and to integrate with both the
+Heptagon and Vélus compilers.</p>
+      <p>In collaboration (this year) with Dumitru Potop-Butucaru (Inria, AOSTE
+team), Keryan Didier (Inria, AOSTE team), Jean Souyris (Airbus), and Adrien
+Gauffriau (Airbus).
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid78">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid79" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <p>Technology Transfer Project, partly funded by the TETRACOM grant and
+by Kalray.
+</p>
+    </subsection>
+    <subsection id="uid80" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <p>Polly Labs initiative. Funded by ARM for 4 years with complementary
+support from Xilinx, in cooperation with ETH Zürich and Qualcomm.
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid81">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid82" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid83" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p>ANR WMC project (program “jeunes chercheuses, jeunes chercheurs”),
+2012–2016, 200 Keuros. F. Zappa Nardelli is the main investigator.</p>
+        <p>ANR Boole project (program “action blanche”), 2009-2014.</p>
+        <p>ANR CAFEIN, 2013-2015. Marc Pouzet.</p>
+      </subsection>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Investissements d'avenir</bodyTitle>
+        <p>Sys2Soft contract (Briques Génériques du Logiciel
+Embarqué). Partenaire principal: Dassault-Systèmes, etc. Inria
+contacts are Benoit Caillaud (HYCOMES, Rennes) and Marc Pouzet
+(PARKAS, Paris).</p>
+        <p>ManycoreLabs contract (Briques Génériques du Logiciel
+Embarqué). Partenaire principal: Kalray. Inria contacts are Albert
+Cohen (PARKAS, Paris), Alain Darte (COMPSYS, Lyon), Fabrice Rastello
+(CORSE, Grenoble).</p>
+      </subsection>
+      <subsection id="uid85" level="2">
+        <bodyTitle>Others</bodyTitle>
+        <p>Marc Pouzet is scientific advisor for the Esterel-Technologies/ANSYS company.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid86" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid87" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid88" level="3">
+          <bodyTitle>Eurolab-4-HPC</bodyTitle>
+          <sanspuceslist>
+            <li id="uid89">
+              <p noindent="true">Title: EuroLab-4-HPC: Foundations of a European Research Center of Excellence in High Performance Computing Systems</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Programm: H2020</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">Duration: September 2015 - September 2017</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">Coordinator: CHALMERS TEKNISKA HOEGSKOLA AB</p>
+            </li>
+            <li id="uid93">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid94">
+                  <p noindent="true">Barcelona Supercomputing Center - Centro Nacional de Supercomputacion (Spain)</p>
+                </li>
+                <li id="uid95">
+                  <p noindent="true">Chalmers Tekniska Hoegskola (Sweden)</p>
+                </li>
+                <li id="uid96">
+                  <p noindent="true">Ecole Polytechnique Federale de Lausanne (Switzerland)</p>
+                </li>
+                <li id="uid97">
+                  <p noindent="true">Eidgenoessische Technische Hochschule Zuerich (Switzerland)</p>
+                </li>
+                <li id="uid98">
+                  <p noindent="true">Foundation for Research and Technology Hellas (Greece)</p>
+                </li>
+                <li id="uid99">
+                  <p noindent="true">Universitaet Stuttgart (Germany)</p>
+                </li>
+                <li id="uid100">
+                  <p noindent="true">Rheinisch-Westfaelische Technische Hochschule Aachen (Germany)</p>
+                </li>
+                <li id="uid101">
+                  <p noindent="true">Technion - Israel Institute of Technology (Israel)</p>
+                </li>
+                <li id="uid102">
+                  <p noindent="true">Universitaet Augsburg (Germany)</p>
+                </li>
+                <li id="uid103">
+                  <p noindent="true">The University of Edinburgh (United Kingdom)</p>
+                </li>
+                <li id="uid104">
+                  <p noindent="true">Universiteit Gent (Belgium)</p>
+                </li>
+                <li id="uid105">
+                  <p noindent="true">The University of Manchester (United Kingdom)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid106">
+              <p noindent="true">Inria contact: Albert Cohen</p>
+            </li>
+            <li id="uid107">
+              <p noindent="true">Europe has built momentum in becoming a leader in large parts of the HPC ecosystem. It has brought together technical and business stakeholders from application developers via system software to exascale systems. Despite such gains, excellence in high performance computing systems is often fragmented and opportunities for synergy missed. To compete internationally, Europe must bring together the best research groups to tackle the longterm challenges for HPC. These typically cut across layers, e.g., performance, energy efficiency and dependability, so excellence in research must target all the layers in the system stack. The EuroLab-4-HPC project's bold overall goal is to build connected and sustainable leadership in high-performance computing systems by bringing together the different and leading performance orientated communities in Europe, working across all layers of the system stack and, at the same time, fuelling new industries in HPC.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+        <subsection id="uid108" level="3">
+          <bodyTitle>TETRACOM</bodyTitle>
+          <sanspuceslist>
+            <li id="uid109">
+              <p noindent="true">Title: Technology Transfer in Computing Systems</p>
+            </li>
+            <li id="uid110">
+              <p noindent="true">Programm: FP7</p>
+            </li>
+            <li id="uid111">
+              <p noindent="true">Duration: September 2013 - August 2016</p>
+            </li>
+            <li id="uid112">
+              <p noindent="true">Coordinator: RHEINISCH-WESTFAELISCHE TECHNISCHE HOCHSCHULE AACHEN</p>
+            </li>
+            <li id="uid113">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid114">
+                  <p noindent="true">Imperial College of Science, Technology and Medicine (United Kingdom)</p>
+                </li>
+                <li id="uid115">
+                  <p noindent="true">Rheinisch-Westfaelische Technische Hochschule Aachen (Germany)</p>
+                </li>
+                <li id="uid116">
+                  <p noindent="true">Technische Universiteit Delft (Netherlands)</p>
+                </li>
+                <li id="uid117">
+                  <p noindent="true">Tty-Saatio (Finland)</p>
+                </li>
+                <li id="uid118">
+                  <p noindent="true">Universita di Pisa (Italy)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid119">
+              <p noindent="true">Inria contact: Albert Cohen</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">The mission of the TETRACOM Coordination Action is to boost European academia-to-industry technology transfer (TT) in all domains of Computing Systems. While many other European and national initiatives focus on training of entrepreneurs and support for start-up companies, the key differentiator of TETRACOM is a novel instrument called Technology Transfer Project (TTP). TTPs help to lower the barrier for researchers to make the first steps towards commercialisation of their research results. TTPs are designed to provide incentives for TT at small to medium scale via partial funding of dedicated, well-defined, and short term academia-industry collaborations that bring concrete R&amp;D results into industrial use. This will be implemented via competitive Expressions-of-Interest (EoI) calls for TTPs, whose coordination, prioritization, evaluation, and management are the major actions of TETRACOM. It is expected to fund up to 50 TTPs. The TTP activities will be complemented by Technology Transfer Infrastructures (TTIs) that provide training, service, and dissemination actions. These are designed to encourage a larger fraction of the R&amp;D community to engage in TTPs, possibly even for the first time. Altogether, TETRACOM is conceived as the major pilot project of its kind in the area of Computing Systems, acting as a TT catalyst for the mutual benefit of academia and industry. The projects primary success metrics are the number and value of coordinated TTPs as well as the amount of newly introduced European TT actors. It is expected to acquire around more than 20 new contractors over the project duration. TETRACOM complements and actually precedes the use of existing financial instruments such as venture capital or business angels based funding.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid121" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <sanspuceslist>
+          <li id="uid122">
+            <p noindent="true">Program: ITEA 3</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Project acronym: ASSUME</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Project title: Affordable Safe &amp; Secure Mobility Evolution</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">Duration: Sep 2015–Aug 2018</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">Coordinator: Udo Gleich</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">Other partners:
+AbsInt Angewandte Informatik GmbH,
+Airbus,
+Arcelik,
+Articus Systems AB,
+BTC Embedded Systems AG,
+Berner &amp; Mattner Systemtechnik GmbH,
+Daimler AG,
+Eindhoven University of Technology,
+Ericsson,
+ANSYS,
+FindOut Technologies AB,</p>
+            <p>Ford Otosan,
+Forschungszentrum Informatik (FZI),
+Havelsan,
+KTH (Royal Institute of Technology),
+Kalray SA,
+Karlsruhe Institute of Technology (KIT),
+Kiel University,
+Koc University,
+KoçSistem,
+Model Engineering Solutions GmbH,
+Mälardalen University,
+NXP Semiconductors,
+OFFIS,
+Recore Systems BV,
+Robert Bosch GmbH,
+Safran Aircraft Engines SAS,
+Safran Electronics &amp; Defense,
+Scania,
+TNO,
+Thales,
+UNIT Information Technologies R&amp;D Ltd.,
+University Pierre et Marie Curie,
+University of Technology in Munich,
+University of Twente,
+VDL Bus &amp; Coach bv,
+Verum Software Tools BV,
+École normale supérieure.</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">Abstract:
+Future mobility solutions will increasingly rely on smart components that
+continuously monitor the environment and assume more and more responsibility
+for a convenient, safe and reliable operation. Currently the single most
+important roadblock for this market is the ability to come up with an
+affordable, safe multi-core development methodology that allows industry to
+deliver trustworthy new functions at competitive prices. ASSUME will provide
+a seamless engineering methodology, which addresses this roadblock on the
+constructive and analytic side.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid129" level="2">
+        <bodyTitle>Collaborations with Major European Organizations</bodyTitle>
+        <p>Albert Cohen is an external member of the ARTEMIS-IA Working
+Group. Collaborating on the writing of the association's Strategic
+Research Agenda (SRA), and the ECSEL JU Multi-Annual Research and
+Innovation Agenda (MASRIA).</p>
+        <p>
+          <ref xlink:href="https://artemis-ia.eu" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>artemis-ia.<allowbreak/>eu</ref>
+        </p>
+      </subsection>
+    </subsection>
+    <subsection id="uid130" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid131" level="2">
+        <bodyTitle>
+          <ref xlink:href="http://polyflow.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">POLYFLOW </ref>
+        </bodyTitle>
+        <sanspuceslist>
+          <li id="uid132">
+            <p noindent="true">Title: Polyhedral Compilation for Data-Flow Programming Languages</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+            <sanspuceslist>
+              <li id="uid134">
+                <p noindent="true">IISc Bangalore (India)
+- Department of Computer Science and Automation (CSA) - Uday Kumar Reddy Bondhugula</p>
+              </li>
+            </sanspuceslist>
+          </li>
+          <li id="uid135">
+            <p noindent="true">Start year: 2016</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">See also: <ref xlink:href="http://polyflow.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>polyflow.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">The objective of the associate team is to foster collaborations on fundamental and applied research. It also supports training sessions, exchange of undergraduate and master students, and highlighting opportunities in the partners' research, education and economic environments.</p>
+            <p>Polyhedral techniques for program transformation are now used in several proprietary and open source compilers. However, most of the research on polyhedral compilation has focused on imperative languages, where computation is specified in terms of computational statements within nested loops and control structures. Graphical data-flow languages, where there is no notion of statements or a schedule specifying their relative execution order, have so far not been studied using a powerful transformation or optimization approach. These languages are extremely popular in the system analysis, modeling and design of embedded reactive control applications. They also underline the construction of domain-specific languages and compiler intermediate representations. The execution semantics of data-flow languages impose a different set of challenges for compilation and optimization. We are studying techniques enabling the extraction of a polyhedral representation from data-flow programs, to transform them with the goal of generating memory-efficient and high-performance code for modern architectures.</p>
+            <p>The research conducted in PolyFlow covers both fundamental and applied aspects. The partners also emphasize the development of solid research tools. The associate team will facilitate their dissemination as free software and their exploitation through industrial collaborations.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid138" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid139" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>Pr. Peter Sewell, Computer Laboratory, University of Cambridge, UK. Regular visits and scientific collaboration.</p>
+          <p>Pr. Jan Vitek, College of Computer &amp; Information Science Northeastern University, USA. Regular visits and scientific collaboration.</p>
+          <p>Prof. Uday Bondhugula, CSA department, Indian Institute of
+Science, India. See POLYFLOW associate team for details.</p>
+          <p>Prof. Ramakrishna Updadrasta, IIT Hyderabad, India,
+collaboration visits including internships.</p>
+          <p>Prof. P. Sadayappan, CS department, Ohio State University, USA.
+Joint publications, frequent visits, occasionally for several weeks.</p>
+          <p>Prof. M. Sheeran, Computer Science and Engineering Department,
+Chalmers University of Technology, Sweden.
+Regular visits. Continuing exchanges on languages and compilation
+for synchronous and hybrid systems.</p>
+          <p>Prof. C. Tinelli, CS department, University of IOWA, USA.
+Regular visits. Continuing exchanges on the verification of
+synchronous languages and programs.</p>
+          <p>Prof. R. von Hanxleden, Director at the Department of Computer
+Science, Head of the Real-Time and Embedded Systems Group, Kiel
+University, Germany. Regular visits and scientific collaboration.</p>
+          <p>Prof. M. Mendler, Head of the Informatics Theory Group, Bamberg
+University, Germany. Regular visits and scientific collaboration.</p>
+          <p>Dr. Sven Verdoolaege, CS department, K. U. Leuven, Belgium.
+Joint steering of the Polly Labs initiative and contractual
+cooperation in this context.</p>
+          <p>Dr. Tobias Grosser in the group of Prof. Torsten Hoeffler,
+ETH Zürich. Joint steering of the Polly Labs initiative. See
+Polly Labs for details.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid140" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid141" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <subsection id="uid142" level="3">
+          <bodyTitle>Internships</bodyTitle>
+          <p>Prasanth Chatarasi, PhD student from Rice University.</p>
+          <p>Keyur Joshi, undergraduate student from IIT Hyderabad.</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid143" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <subsection id="uid144" level="3">
+          <bodyTitle>Research Stays Abroad</bodyTitle>
+          <p>Guillaume Baudart spent three months working at the IBM Thomas J. Watson
+Research Centre.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid145">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid146" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid147" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid148" level="3">
+          <bodyTitle>General Chair, Scientific Chair</bodyTitle>
+          <simplelist>
+            <li id="uid149">
+              <p noindent="true">Albert Cohen is the General Chair of PLDI 2017</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid150" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid151">
+              <p noindent="true">Timothy Bourke was a member of the PC of EMSOFT 2016.</p>
+            </li>
+            <li id="uid152">
+              <p noindent="true">Francesco Zappa Nardelli was a member of the PC of POPL 2017.</p>
+            </li>
+            <li id="uid153">
+              <p noindent="true">Francesco Zappa Nardelli will be a member of the PC of ECOOP 2017.</p>
+            </li>
+            <li id="uid154">
+              <p noindent="true">Albert Cohen was a PC member of ASPLOS, PACT, PPoPP, CGO, PLDI.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid155" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid156">
+              <p noindent="true">Timothy Bourke was a reviewer for FM 2016 (Int. Symposium on Formal
+Methods).</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid157" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid158" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid159">
+              <p noindent="true">Albert Cohen is an Associate Editor of ACM TACO.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid160" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid161">
+              <p noindent="true">Timothy Bourke was a reviewer for IEEE Embedded Systems Letters, ACM
+Transactions on Embedded Computing Systems, and IEEE Transactions on
+Software Engineering.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid162" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid163">
+            <p noindent="true">April, T. Bourke presented “Towards the verified compilation of
+Lustre” in the Gallium seminar series in Paris, France.</p>
+          </li>
+          <li id="uid164">
+            <p noindent="true">December, T. Bourke presented “Verifying a Lustre Compiler (Part 1)”
+at the SYNCHRON workshop in Bamberg, Germany.</p>
+          </li>
+          <li id="uid165">
+            <p noindent="true">November, F. Zappa Nardelli presented “Shared Memory Concurrency and Compiler Optimisations” at IMDEA, Madrid, Spain.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid166" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid167" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid168">
+            <p noindent="true">Master: F. Zappa Nardelli: “A Programmer’s introduction
+to Computer Architectures and Operating Systems" (M1), 45h,
+École Polytechnique, France</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">Master: A. Cohen &amp; F. Zappa Nardelli, “Semantics, languages and algorithms for multicore programming", Lecture, 9h+12h, M2, MPRI: Ecole normale supeérieure and Université Paris Diderot, France</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">Licence: F. Zappa Nardelli: “Conception et analyse d'algorithmes" (L3), PCs, 32h, École Polytechnique, France</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">Master : M. Pouzet &amp; T. Bourke: “Synchronous Systems”
+(M2), Lectures and TDs, MPRI, France</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">Master: T. Bourke participated in reviewing the M1 internships
+of students at the ENS, France.</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Licence : M. Pouzet &amp; T. Bourke: “Operating Systems” (L3),
+Lectures and TDs, ENS, France.</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">Licence : T. Bourke, “Digital Systems” (L3), Lectures and TDs,
+ENS, France</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Marc Pouzet is Director of Studies for the CS department, at ENS.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid176" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid177">
+            <p noindent="true">PhD in progress : Ulyssse Beaugnon, 2nd year, supervised by A. Cohen and M. Pouzet.</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">PhD in progress : Chandan Reddy, 2nd year, supervised by A. Cohen.</p>
+          </li>
+          <li id="uid179">
+            <p noindent="true">PhD in progress : Jie Zhao, 2nd year, supervised by A. Cohen.</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">PhD in progress : Guillaume Baudart, 3rd year, supervised by T. Bourke and M. Pouzet. This thesis will be defended in March.</p>
+          </li>
+          <li id="uid181">
+            <p noindent="true">PhD in progress : Lélio Brun, 1st year, supervised by T. Bourke
+and M. Pouzet.</p>
+          </li>
+          <li id="uid182">
+            <p noindent="true">PhD in progress : Robin Morisset, 3rd year, supervised by F. Zappa Nardelli. This thesis will be defended in April 2017.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid183" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <sanspuceslist>
+          <li id="uid184">
+            <p noindent="true">Francesco Zappa Nardelli was an external reviewer of the PhD thesis of
+Carl Leonardsson, Uppsala University, Sweden.</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">Francesco Zappa Nardelli was a jury member of the PhD thesis of
+Nhat Minh Lê, ENS, Paris, France.</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">Timothy Bourke was an external reviewer of the masters thesis of
+Shruti Saini, The University of the South Pacific.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="parkas-2016-bid9" type="article" rend="year" n="cite:acharya:hal-01425546">
+      <identifiant type="hal" value="hal-01425546"/>
+      <analytic>
+        <title level="a">Polyhedral Auto-Transformation almost without ILP</title>
+        <author>
+          <persName>
+            <foreName>Aravind</foreName>
+            <surname>Acharya</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00032">
+        <idno type="issn">0164-0925</idno>
+        <title level="j">ACM Transactions on Programming Languages and Systems (TOPLAS)</title>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01425546" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425546</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid28" type="article" rend="year" n="cite:baudart:hal-01408224">
+      <identifiant type="doi" value="10.1145/2932189"/>
+      <identifiant type="hal" value="hal-01408224"/>
+      <analytic>
+        <title level="a">Loosely Time-Triggered Architectures</title>
+        <author>
+          <persName key="parkas-2014-idp135424">
+            <foreName>Guillaume</foreName>
+            <surname>Baudart</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00023">
+        <idno type="issn">1539-9087</idno>
+        <title level="j">ACM Transactions on Embedded Computing Systems (TECS)</title>
+        <imprint>
+          <biblScope type="volume">15</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408224" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408224</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Article 71</note>
+    </biblStruct>
+    
+    <biblStruct subtype="nonparu-n" id="parkas-2016-bid7" type="article" rend="year" n="cite:bhaskaracharya:hal-01257223">
+      <identifiant type="hal" value="hal-01257223"/>
+      <analytic>
+        <title level="a">Automatic Storage Optimization for Arrays</title>
+        <author>
+          <persName>
+            <foreName>Somashekaracharya G.</foreName>
+            <surname>Bhaskaracharya</surname>
+            <initial>S. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00032">
+        <idno type="issn">0164-0925</idno>
+        <title level="j">ACM Transactions on Programming Languages and Systems (TOPLAS)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257223" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257223</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Original submission, candidate for presentation at PLDI 2016</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid10" type="article" rend="year" n="cite:bhaskaracharya:hal-01425564">
+      <identifiant type="doi" value="10.1145/2845078"/>
+      <identifiant type="hal" value="hal-01425564"/>
+      <analytic>
+        <title level="a">Automatic Storage Optimization for Arrays</title>
+        <author>
+          <persName>
+            <foreName>Somashekaracharya G</foreName>
+            <surname>Bhaskaracharya</surname>
+            <initial>S. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00032">
+        <idno type="issn">0164-0925</idno>
+        <title level="j">ACM Transactions on Programming Languages and Systems (TOPLAS)</title>
+        <imprint>
+          <biblScope type="volume">38</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1 - 23</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01425564" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425564</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid8" type="article" rend="year" n="cite:bondhugula:hal-01257226">
+      <identifiant type="hal" value="hal-01257226"/>
+      <analytic>
+        <title level="a">The Pluto+ Algorithm: A Practical Approach for Parallelization and Locality Optimization of Affine Loop Nests</title>
+        <author>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Aravind</foreName>
+            <surname>Acharya</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00032">
+        <idno type="issn">0164-0925</idno>
+        <title level="j">ACM Transactions on Programming Languages and Systems (TOPLAS)</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257226" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257226</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid27" type="article" rend="year" n="cite:bourke:hal-01408217">
+      <identifiant type="doi" value="10.1007/s10817-015-9358-9"/>
+      <identifiant type="hal" value="hal-01408217"/>
+      <analytic>
+        <title level="a">Mechanizing a Process Algebra for Network Protocols</title>
+        <author>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName>
+            <foreName>Robert J</foreName>
+            <surname>Van Glabbeek</surname>
+            <initial>R. J.</initial>
+          </persName>
+          <persName>
+            <foreName>Peter</foreName>
+            <surname>Höfner</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01057">
+        <idno type="issn">0168-7433</idno>
+        <title level="j">Journal of Automated Reasoning</title>
+        <imprint>
+          <biblScope type="volume">56</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">309-341</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01408217" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408217</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid23" type="article" rend="year" n="cite:llopard:hal-01425140">
+      <identifiant type="doi" value="10.1145/0000000.0000000"/>
+      <identifiant type="hal" value="hal-01425140"/>
+      <analytic>
+        <title level="a">A From a Formalized Parallel Action Language to its Efficient Code Generation</title>
+        <author>
+          <persName key="parkas-2015-idp84160">
+            <foreName>Ivan</foreName>
+            <surname>Llopard</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Christian</foreName>
+            <surname>Fabre</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00023">
+        <idno type="issn">1539-9087</idno>
+        <title level="j">ACM Transactions on Embedded Computing Systems (TECS)</title>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01425140" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425140</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid3" type="incollection" rend="year" n="cite:pop:hal-01257229">
+      <identifiant type="hal" value="hal-01257229"/>
+      <analytic>
+        <title level="a">SSA-based Compiler Design</title>
+        <author>
+          <persName>
+            <foreName>Sebastian</foreName>
+            <surname>Pop</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName key="gcg-2014-idm29256">
+            <foreName>Fabrice</foreName>
+            <surname>Rastello</surname>
+            <initial>F.</initial>
+          </persName>
+        </editor>
+        <title level="m">SSA-based Compiler Design</title>
+        <imprint>
+          <biblScope type="volume">Loop tree and induction variables</biblScope>
+          <publisher>
+            <orgName>springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257229" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257229</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">ISBN 978-1-4419-6201-0</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid6" type="inproceedings" rend="year" n="cite:baudart:hal-01408208">
+      <identifiant type="hal" value="hal-01408208"/>
+      <analytic>
+        <title level="a">Soundness of the Quasi-Synchronous Abstraction</title>
+        <author>
+          <persName key="parkas-2014-idp135424">
+            <foreName>Guillaume</foreName>
+            <surname>Baudart</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Formal Methods in Computer-Aided Design (FMCAD)</title>
+        <loc>Mountain View, CA, United States</loc>
+        <title level="s">Proceedings of the 16th International Conference on Formal Methods in Computer-Aided Design</title>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">9-16</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01408208" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408208</ref>
+        </imprint>
+        <meeting id="cid281706">
+          <title>International Conference on Formal Methods in Computer-Aided Design</title>
+          <num>2013</num>
+          <abbr type="sigle">FMCAD</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid5" type="inproceedings" rend="year" n="cite:bhaskaracharya:hal-01257228">
+      <identifiant type="hal" value="hal-01257228"/>
+      <analytic>
+        <title level="a">SMO: An Integrated Approach To Intra-Array and Inter-Array Storage Optimization</title>
+        <author>
+          <persName>
+            <foreName>Somashekaracharya G.</foreName>
+            <surname>Bhaskaracharya</surname>
+            <initial>S. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Symp. on Principles of Programming Languages (POPL)</title>
+        <loc>St Petersburg, FL, United States</loc>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257228" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257228</ref>
+        </imprint>
+        <meeting id="cid22344">
+          <title>ACM SIGPLAN SIGACT Symposium on Principles of Programming Languages</title>
+          <num>43</num>
+          <abbr type="sigle">POPL</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid21" type="inproceedings" rend="year" n="cite:bhaskaracharya:hal-01425888">
+      <identifiant type="doi" value="10.1145/2837614.2837636"/>
+      <identifiant type="hal" value="hal-01425888"/>
+      <analytic>
+        <title level="a">SMO: An Integrated Approach to Intra-array and Inter-array Storage Optimization</title>
+        <author>
+          <persName>
+            <foreName>Somashekaracharya G</foreName>
+            <surname>Bhaskaracharya</surname>
+            <initial>S. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Uday</foreName>
+            <surname>Bondhugula</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">POPL 2016 - ACM Symposium on Principles of Programming Languages</title>
+        <loc>Saint Petersburg, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">526-538</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01425888" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425888</ref>
+        </imprint>
+        <meeting id="cid22344">
+          <title>ACM SIGPLAN SIGACT Symposium on Principles of Programming Languages</title>
+          <num>43</num>
+          <abbr type="sigle">POPL</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid1" type="inproceedings" rend="year" n="cite:bourke:hal-01403830">
+      <identifiant type="hal" value="hal-01403830"/>
+      <analytic>
+        <title level="a">Vérification de la génération modulaire du code impératif pour Lustre</title>
+        <author>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="gallium-2014-idp75592">
+            <foreName>Pierre-Evariste</foreName>
+            <surname>Dagand</surname>
+            <initial>P.-E.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Lionel</foreName>
+            <surname>Rieg</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">JFLA 2017 - Vingt-huitième Journées Francophones des Langages Applicatifs</title>
+        <loc>Gourettes, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01403830" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01403830</ref>
+        </imprint>
+        <meeting id="cid344980">
+          <title>Journées Francophones des Langages Applicatifs</title>
+          <num>28</num>
+          <abbr type="sigle">JFLA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid20" type="inproceedings" rend="year" n="cite:cohen:hal-01251845">
+      <identifiant type="hal" value="hal-01251845"/>
+      <analytic>
+        <title level="a">Static Analysis of OpenStream Programs</title>
+        <author>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="compsys-2014-idp62032">
+            <foreName>Alain</foreName>
+            <surname>Darte</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="compsys-2014-idp65992">
+            <foreName>Paul</foreName>
+            <surname>Feautrier</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6th International Workshop on Polyhedral Compilation Techniques (IMPACT'16), held with HIPEAC'16</title>
+        <loc>Prague, Czech Republic</loc>
+        <title level="s">Proceedings of the IMPACT series</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Michelle Strout and Tomofumi Yuki</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01251845" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01251845</ref>
+        </imprint>
+        <meeting id="cid596150">
+          <title>International Workshop on Polyhedral Compilation Techniques</title>
+          <num>6</num>
+          <abbr type="sigle">IMPACT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid14" type="inproceedings" rend="year" n="cite:cohen:hal-01259157">
+      <identifiant type="hal" value="hal-01259157"/>
+      <analytic>
+        <title level="a">Hard Real Time and Mixed Time Criticality on Off-The-Shelf Embedded Multi-Cores</title>
+        <author>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Valentin</foreName>
+            <surname>Perrelle</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Dumitru</foreName>
+            <surname>Potop-Butucaru</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Elie</foreName>
+            <surname>Soubiran</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="parkas-2014-idp120128">
+            <foreName>Zhen</foreName>
+            <surname>Zhang</surname>
+            <initial>Z.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">8th European Congress on Embedded Real Time Software and Systems (ERTS 2016)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01259157" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01259157</ref>
+        </imprint>
+        <meeting id="cid68744">
+          <title>European Congress on Embedded Real Time Software</title>
+          <num>8</num>
+          <abbr type="sigle">ERTS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid22" type="inproceedings" rend="year" n="cite:cohen:hal-01425887">
+      <identifiant type="hal" value="hal-01425887"/>
+      <analytic>
+        <title level="a">Hard Real Time and Mixed Time Criticality on Off-The-Shelf Embedded Multi-Cores</title>
+        <author>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Valentin</foreName>
+            <surname>Perrelle</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Dumitru</foreName>
+            <surname>Potop-Butucaru</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Elie</foreName>
+            <surname>Soubiran</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="parkas-2014-idp120128">
+            <foreName>Zhen</foreName>
+            <surname>Zhang</surname>
+            <initial>Z.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Embedded and Real-Time Software and Systems (ERTS2)</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01425887" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425887</ref>
+        </imprint>
+        <meeting id="cid68744">
+          <title>European Congress on Embedded Real Time Software</title>
+          <num>8</num>
+          <abbr type="sigle">ERTS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid18" type="inproceedings" rend="year" n="cite:do:hal-01425902">
+      <identifiant type="hal" value="hal-01425902"/>
+      <analytic>
+        <title level="a">Transaction Parameterized Dataflow: A Model for Context-Dependent Streaming Applications</title>
+        <author>
+          <persName>
+            <foreName>Xuan Khanh</foreName>
+            <surname>Do</surname>
+            <initial>X. K.</initial>
+          </persName>
+          <persName>
+            <foreName>Stephane</foreName>
+            <surname>Louise</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE)</title>
+        <loc>Dresden, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01425902" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425902</ref>
+        </imprint>
+        <meeting id="cid58552">
+          <title>Design, Automation, and Test in Europe</title>
+          <num>18</num>
+          <abbr type="sigle">DATE</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid16" type="inproceedings" rend="year" n="cite:drebes:hal-01343686">
+      <identifiant type="hal" value="hal-01343686"/>
+      <analytic>
+        <title level="a">Language-Centric Performance Analysis of OpenMP Programs with Aftermath</title>
+        <author>
+          <persName key="parkas-2014-idp139160">
+            <foreName>Andi</foreName>
+            <surname>Drebes</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2015-idp69144">
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Bréjon</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoniu</foreName>
+            <surname>Pop</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Heydemann</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Workshop on OpenMP</title>
+        <loc>Nara, Japan</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.upmc.fr/hal-01343686" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01343686</ref>
+        </imprint>
+        <meeting id="cid330908">
+          <title>International Workshop on OpenMP</title>
+          <num>2016</num>
+          <abbr type="sigle">IWOMP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid19" type="inproceedings" rend="year" n="cite:drebes:hal-01425903">
+      <identifiant type="doi" value="10.1007/978-3-319-45550-1_17"/>
+      <identifiant type="hal" value="hal-01425903"/>
+      <analytic>
+        <title level="a">Language-Centric Performance Analysis of OpenMP Programs with Aftermath</title>
+        <author>
+          <persName key="parkas-2014-idp139160">
+            <foreName>Andi</foreName>
+            <surname>Drebes</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="parkas-2015-idp69144">
+            <foreName>Jean-Baptiste</foreName>
+            <surname>Bréjon</surname>
+            <initial>J.-B.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoniu</foreName>
+            <surname>Pop</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Heydemann</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Workshop on OpenMP (IWOMP)</title>
+        <loc>Nara, Japan</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">237 - 250</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01425903" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425903</ref>
+        </imprint>
+        <meeting id="cid330908">
+          <title>International Workshop on OpenMP</title>
+          <num>5</num>
+          <abbr type="sigle">IWOMP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid17" type="inproceedings" rend="year" n="cite:drebes:hal-01425892">
+      <identifiant type="doi" value="10.1109/ISPASS.2016.7482102"/>
+      <identifiant type="hal" value="hal-01425892"/>
+      <analytic>
+        <title level="a">Interactive visualization of cross-layer performance anomalies in dynamic task-parallel applications and systems</title>
+        <author>
+          <persName key="parkas-2014-idp139160">
+            <foreName>Andi</foreName>
+            <surname>Drebes</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoniu</foreName>
+            <surname>Pop</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Heydemann</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)</title>
+        <loc>Uppsala, Sweden</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">274 - 283</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01425892" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01425892</ref>
+        </imprint>
+        <meeting id="cid317510">
+          <title>International Symposium on Performance Analysis of Systems and Software</title>
+          <num>2011</num>
+          <abbr type="sigle">ISPASS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid11" type="inproceedings" rend="year" n="cite:drebes:hal-01365718">
+      <identifiant type="doi" value="10.1145/2967938.2967946"/>
+      <identifiant type="hal" value="hal-01365718"/>
+      <analytic>
+        <title level="a">Scalable Task Parallelism for NUMA: A Uniform Abstractionfor Coordinated Scheduling and Memory Management</title>
+        <author>
+          <persName key="parkas-2014-idp139160">
+            <foreName>Andi</foreName>
+            <surname>Drebes</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoniu</foreName>
+            <surname>Pop</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Heydemann</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Drach</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">PACT : International Conference on Parallel Architectures and Compilation</title>
+        <loc>Haifa, Israel</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM New York, NY, USA</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">125-137</biblScope>
+          <ref xlink:href="http://hal.upmc.fr/hal-01365718" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01365718</ref>
+        </imprint>
+        <meeting id="cid294666">
+          <title>International Conference on Parallel Architectures and Compilation Techniques</title>
+          <num>23</num>
+          <abbr type="sigle">PACT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid13" type="inproceedings" rend="year" n="cite:gindraud:hal-01412919">
+      <identifiant type="hal" value="hal-01412919"/>
+      <analytic>
+        <title level="a">A bounded memory allocator for software-defined global address spaces</title>
+        <author>
+          <persName key="gcg-2014-idp69008">
+            <foreName>François</foreName>
+            <surname>Gindraud</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="gcg-2014-idm29256">
+            <foreName>Fabrice</foreName>
+            <surname>Rastello</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="moais-2014-idp87760">
+            <foreName>François</foreName>
+            <surname>Broquedis</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ISMM 2016 - 2016 ACM SIGPLAN International Symposium on Memory Management</title>
+        <loc>Santa Barbara, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01412919" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01412919</ref>
+        </imprint>
+        <meeting id="cid624964">
+          <title>International Symposium on Memory Management</title>
+          <num>2016</num>
+          <abbr type="sigle">ISMM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid24" type="inproceedings" rend="year" n="cite:hong:hal-01335346">
+      <identifiant type="hal" value="hal-01335346"/>
+      <analytic>
+        <title level="a">Effective padding of multidimensional arrays to avoid cache conflict misses</title>
+        <author>
+          <persName>
+            <foreName>Changwan</foreName>
+            <surname>Hong</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Wenlei</foreName>
+            <surname>Bao</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Sriram</foreName>
+            <surname>Krishnamoorthy</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Louis-Noël</foreName>
+            <surname>Pouchet</surname>
+            <initial>L.-N.</initial>
+          </persName>
+          <persName key="gcg-2014-idm29256">
+            <foreName>Fabrice</foreName>
+            <surname>Rastello</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>J.</foreName>
+            <surname>Ramanujam</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Sadayappan</foreName>
+            <surname>Ponnuswany</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">PLDI 2016: Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation</title>
+        <loc>Santa Barbara, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01335346" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01335346</ref>
+        </imprint>
+        <meeting id="cid24912">
+          <title>ACM Symposium on Programming Languages Design and Implementation</title>
+          <num>37</num>
+          <abbr type="sigle">PLDI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid2" type="inproceedings" rend="year" n="cite:morisset:hal-01423612">
+      <identifiant type="hal" value="hal-01423612"/>
+      <analytic>
+        <title level="a">Partially Redundant Fence Elimination for x86, ARM and Power processors</title>
+        <author>
+          <persName key="parkas-2014-idp146600">
+            <foreName>Robin</foreName>
+            <surname>Morisset</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="parkas-2014-idp109368">
+            <foreName>Francesco</foreName>
+            <surname>Zappa Nardelli</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Compiler Construction (CC)</title>
+        <loc>Austin, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01423612" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01423612</ref>
+        </imprint>
+        <meeting id="cid114893">
+          <title>International Conference on Compiler Construction</title>
+          <num>24</num>
+          <abbr type="sigle">CC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid4" type="inproceedings" rend="year" n="cite:verdoolaege:hal-01257224">
+      <identifiant type="hal" value="hal-01257224"/>
+      <analytic>
+        <title level="a">Live Range Reordering</title>
+        <author>
+          <persName key="parkas-2014-idp118856">
+            <foreName>Sven</foreName>
+            <surname>Verdoolaege</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">6þ Workshop on Polyhedral Compilation Techniques (IMPACT, associated with HiPEAC)</title>
+        <loc>Prag, Czech Republic</loc>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257224" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257224</ref>
+        </imprint>
+        <meeting id="cid596150">
+          <title>International Workshop on Polyhedral Compilation Techniques</title>
+          <num>6</num>
+          <abbr type="sigle">IMPACT</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid26" type="techreport" rend="year" n="cite:barthou:hal-01433302">
+      <identifiant type="hal" value="hal-01433302"/>
+      <monogr>
+        <title level="m">Automated Code Generation for Lattice QCD Simulation</title>
+        <author>
+          <persName key="runtime-2014-idp85888">
+            <foreName>Denis</foreName>
+            <surname>Barthou</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="runtime-2014-idp122608">
+            <foreName>Gilbert</foreName>
+            <surname>Grosdidier</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="postale-2014-idp108200">
+            <foreName>Konstantin</foreName>
+            <surname>Petrov</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="parkas-2014-idp122672">
+            <foreName>Michael</foreName>
+            <surname>Kruse</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="postale-2014-idp101520">
+            <foreName>Christine</foreName>
+            <surname>Eisenbeis</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Pène</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Brand-Foissac</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Tadonki</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Romain</foreName>
+            <surname>Dolbeau</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="institution">University of Bordeaux, University of Paris Sud, Inria, University of Paris Sud, Mines ParisTech, CAPS Entreprise</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal-mines-paristech.archives-ouvertes.fr/hal-01433302" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-mines-paristech.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01433302</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid25" type="techreport" rend="year" n="cite:benveniste:hal-01343967">
+      <identifiant type="hal" value="hal-01343967"/>
+      <monogr>
+        <title level="m">Structural Analysis of Multi-Mode DAE Systems</title>
+        <author>
+          <persName key="hycomes-2014-idm8984">
+            <foreName>Albert</foreName>
+            <surname>Benveniste</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="hycomes-2014-idm10408">
+            <foreName>Benoît</foreName>
+            <surname>Caillaud</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Hilding</foreName>
+            <surname>Elmqvist</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Otter</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8933</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01343967" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01343967</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid15" type="techreport" rend="year" n="cite:cohen:hal-01184408">
+      <identifiant type="hal" value="hal-01184408"/>
+      <monogr>
+        <title level="m">Static Analysis of OpenStream Programs</title>
+        <author>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="compsys-2014-idp62032">
+            <foreName>Alain</foreName>
+            <surname>Darte</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="compsys-2014-idp65992">
+            <foreName>Paul</foreName>
+            <surname>Feautrier</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8764</biblScope>
+          <publisher>
+            <orgName type="institution">CNRS ; Inria ; ENS Lyon</orgName>
+          </publisher>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">26</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01184408" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01184408</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Corresponding publication at IMPACT'16 (<ref xlink:href="http://impact.gforge.inria.fr/impact2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>impact.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>impact2016</ref>)</note>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid0" type="misc" rend="year" n="cite:bourke:hal-01408230">
+      <identifiant type="hal" value="hal-01408230"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">Sundials/ML: interfacing with numerical solvers</title>
+        <author>
+          <persName key="parkas-2014-idp14504">
+            <foreName>Timothy</foreName>
+            <surname>Bourke</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="parkas-2014-idp112080">
+            <foreName>Jun</foreName>
+            <surname>Inoue</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="parkas-2014-idp13232">
+            <foreName>Marc</foreName>
+            <surname>Pouzet</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408230" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408230</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">ACM Workshop on ML</note>
+    </biblStruct>
+    
+    <biblStruct id="parkas-2016-bid12" type="misc" rend="year" n="cite:drebes:hal-01365746">
+      <identifiant type="doi" value="10.1145/2851141.2851193"/>
+      <identifiant type="hal" value="hal-01365746"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">NUMA-aware scheduling and memory allocation for data-flow task-parallel applications</title>
+        <author>
+          <persName key="parkas-2014-idp139160">
+            <foreName>Andi</foreName>
+            <surname>Drebes</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoniu</foreName>
+            <surname>Pop</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Karine</foreName>
+            <surname>Heydemann</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>Nathalie</foreName>
+            <surname>Drach</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="parkas-2014-idp15768">
+            <foreName>Albert</foreName>
+            <surname>Cohen</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>ACM New York, NY, USA</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">44:1-44:2</biblScope>
+          <ref xlink:href="http://hal.upmc.fr/hal-01365746" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>upmc.<allowbreak/>fr/<allowbreak/>hal-01365746</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+  </biblio>
+</raweb>

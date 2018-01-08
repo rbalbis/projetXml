@@ -1,0 +1,3326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="mutant" isproject="true">
+    <shortname>MUTANT</shortname>
+    <projectName>Synchronous Realtime Processing and Programming of Music Signals</projectName>
+    <theme-de-recherche>Embedded and Real-time Systems</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://repmus.ircam.fr/MuTant</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Sciences et technologies de la musique et du son</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Institut de Recherche et Coordination Acoustique/Musique (IRCAM)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Pierre et Marie Curie (Paris 6)</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2012 January 01, updated into Project-Team: 2013 January 01, end of the Project-Team: 2016 December 31</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.8. - Synchronous languages</term>
+      <term>2.1.10. - Domain-specific languages</term>
+      <term>2.3. - Embedded and cyber-physical systems</term>
+      <term>2.4. - Verification, reliability, certification</term>
+      <term>3.3.2. - Data mining</term>
+      <term>3.4. - Machine learning and statistics</term>
+      <term>5.1.1. - Engineering of interactive systems</term>
+      <term>5.7. - Audio modeling and processing</term>
+      <term>5.7.2. - Music</term>
+      <term>7.4. - Logic in Computer Science</term>
+      <term>8.3. - Signal analysis</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>9.2. - Art</term>
+      <term>9.2.1. - Music, sound</term>
+    </keywordsSecteurs>
+    <UR name="Paris"/>
+  </identification>
+  <team id="uid1">
+    <person key="mutant-2014-idp100976">
+      <firstname>Arshia</firstname>
+      <lastname>Cont</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Team leader until March 2016, IRCAM</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="mutant-2014-idp102456">
+      <firstname>Jean-Louis</firstname>
+      <lastname>Giavitto</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>CNRS, Senior Researcher (Team Leader from April 2016)</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="mutant-2014-idp103904">
+      <firstname>Florent</firstname>
+      <lastname>Jacquemard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="mutant-2014-idp114072">
+      <firstname>Julia</firstname>
+      <lastname>Blondeau</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="mutant-2014-idp110360">
+      <firstname>Philippe</firstname>
+      <lastname>Cuvillier</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris VI</moreinfo>
+    </person>
+    <person key="mutant-2016-idp159296">
+      <firstname>Pierre</firstname>
+      <lastname>Donat-Bouillud</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris VI</moreinfo>
+    </person>
+    <person key="mutant-2014-idp112824">
+      <firstname>Clément</firstname>
+      <lastname>Poncelet</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris VI</moreinfo>
+    </person>
+    <person key="mutant-2015-idp92136">
+      <firstname>Maxime</firstname>
+      <lastname>Sirbu</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Univ. Paris VI</moreinfo>
+    </person>
+    <person key="mutant-2015-idp93384">
+      <firstname>Adrien</firstname>
+      <lastname>Ycart</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Ircam, September 2015 until June 2016</moreinfo>
+    </person>
+    <person key="rits-2014-idp92064">
+      <firstname>Chantal</firstname>
+      <lastname>Chazelas</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="lifeware-2014-idp73408">
+      <firstname>Virginie</firstname>
+      <lastname>Collette</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="gallium-2014-idp88312">
+      <firstname>Cindy</firstname>
+      <lastname>Crossouard</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="mutant-2016-idp176544">
+      <firstname>Émile</firstname>
+      <lastname>Enguehard</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>ENS Paris, Internship, Apr 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="mutant-2016-idp179040">
+      <firstname>Florent</firstname>
+      <lastname>Mercier</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Internship, from Apr 2016 until Sep 2016</moreinfo>
+    </person>
+    <person key="mutant-2016-idp181536">
+      <firstname>Samuel</firstname>
+      <lastname>Wiseman</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Paris</research-centre>
+      <moreinfo>Inria, Internship, from Jun 2016 until Jul 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The research conducted in <i>MuTant</i> is devoted both to leveraging capabilities of
+musical interactions between humans and computers,
+and to the development of tools to foster
+the authoring of interaction and time in computer music.
+Our research program belongs to the field of <i>Interactive music systems</i>
+for computer music composition and performance introduced in mid-1980s at
+<ref xlink:href="http://www.ircam.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Ircam</ref>.
+Within this paradigm, the computer is brought into the workflow of musical creation
+as an <i>intelligent performer</i> <ref xlink:href="#mutant-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and equipped with a <i>listening machine</i> <ref xlink:href="#mutant-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> capable of
+analyzing, coordinating and anticipating its own and other musicians' actions
+within a musically coherent and synchronous context.
+Figure <ref xlink:href="#uid4" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> illustrates this paradigm.</p>
+      <p>The use of Interactive Music Systems have become universal ever since
+and their practice has not ceased to nourish multidisciplinary research.
+From a research perspective, an interactive music systems deals with two
+problems:
+<i>Real-time Machine Listening</i> <ref xlink:href="#mutant-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and <i>Synchronous and Timed Real-time Programming</i>
+<ref xlink:href="#mutant-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> in <i>Computer Music</i>.
+The strong coupling and union (as opposed to an intersection) of the two
+field has become a necessity in music practices to provide temporal
+scenarios describing real-time interactions between computer
+environments and human musicians (in forms of programs or augmented
+music scores), and employ them in real-time on stage with a high degree
+of musical autonomy and competence, whilst ensuring the major issues of
+fault-tolerance and time-correctness.</p>
+      <p>Whereas each field has generated subsequent literature, few attempts
+have been made to address the global problem by putting the two domains
+in direct interaction.</p>
+      <object id="uid4">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/intro1.png" type="float" width="227.62204pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>General scheme of Interactive Music Systems</caption>
+      </object>
+      <p><i>MuTant</i>'s research program has developed new <i>Real-time Machine Listening</i>
+mechanisms (see Section <ref xlink:href="#uid6" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), new reactive and strongly timed real-time software architectures
+(see Section <ref xlink:href="#uid10" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>), as well as contributions to the field of
+verification and test on dynamic setups and work-flows such as those
+observed in Music (see Section <ref xlink:href="#uid15" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The major incarnation of our research is the award winning <i>Antescofo</i> language and real-time system,
+deployed since our inception in major international festivals
+with more than 100 known repertoire pieces regularly played throughout the world.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid5">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Machine Listening</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp100976">
+          <firstname>Arshia</firstname>
+          <lastname>Cont</lastname>
+        </person>
+        <person key="mutant-2014-idp110360">
+          <firstname>Philippe</firstname>
+          <lastname>Cuvillier</lastname>
+        </person>
+        <person key="mutant-2014-idp103904">
+          <firstname>Florent</firstname>
+          <lastname>Jacquemard</lastname>
+        </person>
+        <person key="mutant-2015-idp92136">
+          <firstname>Maxime</firstname>
+          <lastname>Sirbu</lastname>
+        </person>
+        <person key="mutant-2015-idp93384">
+          <firstname>Adrien</firstname>
+          <lastname>Ycart</lastname>
+        </person>
+      </participants>
+      <p>When human listeners are confronted with musical sounds, they rapidly and automatically find their way in the music. Even musically untrained listeners have an exceptional ability to make rapid judgments about music from short examples, such as determining music style, performer, beating, and specific events such as instruments or pitches. Making computer systems capable of similar capabilities requires advances in both music cognition, and analysis and retrieval systems employing signal processing and machine learning.</p>
+      <p>Machine listening in our context refers to the capacity of our computers to understand “non-speech sound” by analyzing the content of music and audio signals and combining advanced signal processing and machine learning. The major focus of MuTant has been on Real-time Machine listening algorithms spanning <i>Real-time Recognition Systems</i> (such as event detection) and also <i>Information Retrieval</i> (such as structure discovery and qualitative parameter estimation). Our major achievement lies in our unique Real-time Score Following (aka Audio-to-Score Alignment) system that are featured in the Antescofo system (cf. Section <ref xlink:href="#uid19" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We also contributed to the field of On-line Music Structure Discovery in Audio Processing, and lately to the problem of off-line rhythmic quantization on Symbolic Data.</p>
+      <subsection id="uid7" level="2">
+        <bodyTitle>Real-time Audio-to-Score Alignment.</bodyTitle>
+        <p>This is a continuation of prior work of team-founder <ref xlink:href="#mutant-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+which proved the utility of strongly-timed probabilistic models in form of Semi-Markov Hidden States.
+Our most important theoretical contribution is reported in <ref xlink:href="#mutant-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+that introduced Time-coherency criteria for probabilistic models and led to general robustness of the Antescofo listening machine,
+and allowed its deployment for all music instruments and all setups around the world.
+We further studied the integration of other recognition algorithms in the algorithm in form of <i>Information Fusion</i> and for singing voice based on Lyric data in <ref xlink:href="#mutant-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Collaboration with our japanese counterparts led to extensions of our model to the symbolic domain reported in <ref xlink:href="#mutant-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Collaboration with the SIERRA team created a joint research momentum for fostering such applications to weakly-supervised discriminative models reported in <ref xlink:href="#mutant-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Our Real-time Audio-to-Score alignment is a major component of the Antescofo software described
+in Section <ref xlink:href="#uid19" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid8" level="2">
+        <bodyTitle>Online Methods for Audio Segmentation and Clustering.</bodyTitle>
+        <p>To extend our listening approach to general sound,
+we envisioned dropping the prior information provided by music scores and replacing it by the inherent structure in general audio signals.
+Early attempts by the team leader employed <ref xlink:href="#mutant-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+Methods of Information Geometry, an attempt to join Information Theory, Differential Geometry and Signal Processing.
+We were among the first teams in the world advocating the use of such approaches for audio signal processing
+and we participated in the growth of the community. A major break-through of this approach is reported in <ref xlink:href="#mutant-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and the PhD Thesis <ref xlink:href="#mutant-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> that outline a general real-time change detection mechanism.
+Automatic structure discovery was further pursued in a MS thesis project in 2013 <ref xlink:href="#mutant-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+By that time we realized that Information Manifolds do not necessarily provide the invariance needed
+for automatic structure discovery of audio signals, especially for natural sounds.
+Following this report, we pursued an alternative approach in 2014 and in collaboration with the Inria SIERRA Team <ref xlink:href="#mutant-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+The result of this joint work was published in IEEE ICASSP 2015 and won the best student paper award <ref xlink:href="#mutant-2016-bid15" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+We are currently studying massive applications of this approach to natural sounds
+and in robotics applications in the framework of Maxime Sirbu's PhD project.</p>
+      </subsection>
+      <subsection id="uid9" level="2">
+        <bodyTitle>Symbolic Music Information Retrieval and Rhythm Transcription.</bodyTitle>
+        <p>Rhythmic data are commonly represented by tree structures
+(rhythms trees)
+due to the theoretical proximity of such structures
+with the proportional representation of time values in traditional musical notation.
+We are studying the application to rhythm notation of techniques and tools for symbolic processing of tree structures,
+in particular tree automata and term rewriting.</p>
+        <p>Our main contribution in that context is the development of a new framework
+for rhythm transcription <ref xlink:href="#mutant-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+<ref xlink:href="#mutant-2016-bid18" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid19" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+addressing
+the problem of converting a sequence of timestamped notes, <i>e.g.</i> a file in MIDI format,
+into a score in traditional music notation.
+This problem is crucial in the context assisted music composition environments and music score editors.
+It arises immediately as insoluble unequivocally:
+in order to fit the musical context,
+the system has to balance constraints of precision and readability of the generated scores.
+Our approach is based on algorithms for the exploration and lazy enumeration of large sets of weighted trees (tree series), representing possible solutions to a problem of transcription.
+A side problem concerns the equivalent notations of the same rhythm, for which we have developed
+a term rewrite approach,
+based on a new equational theory of rhythm notation
+<ref xlink:href="#mutant-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid22" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid10" level="1">
+      <bodyTitle>Synchronous and realtime programming for computer music</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp114072">
+          <firstname>Julia</firstname>
+          <lastname>Blondeau</lastname>
+        </person>
+        <person key="mutant-2014-idp100976">
+          <firstname>Arshia</firstname>
+          <lastname>Cont</lastname>
+        </person>
+        <person key="mutant-2014-idp102456">
+          <firstname>Jean-Louis</firstname>
+          <lastname>Giavitto</lastname>
+        </person>
+      </participants>
+      <p>The research presented here aims at the development of a programming
+model dedicated to authoring of time and interaction for the
+next generation of interactive music systems. Study, formalization and
+implementation of such programming paradigm, strongly coupled to
+recognition systems discussed in the previous section, constitutes the second
+objective of the MuTant project.</p>
+      <p>The tangible result of this research is the development of the
+Antescofo system (cf. Section <ref xlink:href="#uid19" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) for the design and implementation of musical scenarios in which the human and
+computer actions are in constant real-time interaction.
+Through such development, Antescofo has already made itself into the community;
+it serves as the backbone of
+temporal organization of more than 100 performances since 2012 and
+used both for preexisting pieces and new creations by music ensembles
+such as Berliner Philharmoniker, Los Angeles Philharmonic, Ensemble
+Intercontemporain or Orchestre de Paris to name a few.</p>
+      <p>Compared to programmable sequencers or interactive music systems (like
+Max or PureData) the Antescofo DSL offers a rich notion of time
+reference and provides explicit time frame for the environment with a
+comprehensive list of musical synchronization strategies and proposes and predictable mechanisms for controlling time at
+various timescales (temporal determinism) and across concurrent code
+modules (time-mediated concurrency).</p>
+      <subsection id="uid11" level="2">
+        <bodyTitle>Multiple Times.</bodyTitle>
+        <p>Audio and music often involve the presence and cooperation of multiple
+notions of <i>time</i>: an ideal time authored by the composer in a
+score and also a performance time produced jointly by the performers and
+the real-time electronics; where instant and duration are expressed both
+in physical time (milliseconds), in relative time (relative to an
+unknown dynamic tempo) or through logical events and relations (“at the
+peak of intensity”, “at the end of the musical phrase”, “twice
+faster”).</p>
+        <p>Antescofo is the first languages that addresses this variety of temporal
+notions, relying on the synchronous approach for the handling of atomic
+and logical events and an anticipative notion of tempo for the handling
+of relative duration  <ref xlink:href="#mutant-2016-bid23" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid24" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+A first partial model of time at work in Antescofo
+(single time, static activities) has been formalized relying
+on parametric timed automata  <ref xlink:href="#mutant-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and constitutes the reference semantics for tests (cf. section <ref xlink:href="#uid15" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+A denotational semantics of the complete language (multiple times and dynamic
+constructions including anticipative synchronization strategies) has
+been published in  <ref xlink:href="#mutant-2016-bid26" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid12" level="2">
+        <bodyTitle>Human-Computer Synchronizations.</bodyTitle>
+        <p>Antescofo introduces the notion of <i>temporal scope</i> to formalize
+relationships between temporal information specified in the score
+and their realization during a performance  <ref xlink:href="#mutant-2016-bid27" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A
+temporal scope is attached to a sequence of actions, can be inherited or
+dynamically changed as a result of a computation. A synchronization
+strategy is part of a temporal scope definition. They use the
+performer's position information and its tempo estimation from the
+listening module, to drive the passing of time in a sequence of atomic
+and durative actions.</p>
+        <p>Synchronization strategies have been systematically studied to evaluate
+their musical relevance in collaboration with Orchestre de Paris and
+composer Marco Stroppa. Anticipative strategies enable handling of
+uncertainties inherent in musical event occurrence, exhibiting a smooth
+musical rendering whilst preserving articulation points and target
+events  <ref xlink:href="#mutant-2016-bid28" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid13" level="2">
+        <bodyTitle>Temporal Organization.</bodyTitle>
+        <p>Several constructions dedicated to the expression of the temporal
+organization of musical entities and their control have enriched the
+language from the start of the project. These construction have been
+motivated by composer's research residences in our team: representation of open
+scores (J. Freeman); anticipative synchronization strategies
+(C. Trapani); adaptive sampling of continuous curve in relative time for
+the dynamic control of sound synthesis (J.-M. Fernandez); musical
+gesture (J. Blondeau); first class processes, actors and continuation
+combinators for the development of libraries of reusable parametric
+temporal behaviors (M. Stroppa, Y. Maresz); <i>etc.</i></p>
+        <p>The reaction to a logical event is a unique feature in the computer
+music system community  <ref xlink:href="#mutant-2016-bid29" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It extend the well
+known <tt>when</tt> operator in synchronous languages with process
+creation. Elaborating on this low-level mechanism, <i>temporal
+patterns</i>  <ref xlink:href="#mutant-2016-bid30" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> enable expression of
+complex temporal constraints mixing instant and duration. The problem
+of online matching where the event are presented in real time and the
+matching is computed incrementally as well, has received a recent
+attention from the model-checking community, but with less constrained
+causal constraints.</p>
+      </subsection>
+      <subsection id="uid14" level="2">
+        <bodyTitle>Visualization and Monitoring of Event-driven and Time-driven Computations.</bodyTitle>
+        <p>The authoring of complex temporal organization can be greatly improved
+through adapted visual interfaces, and has led to the development of
+<i>AscoGraph</i>, a dedicated user interface to Antescofo. Ascograph is
+used both for edition and monitoring interface of the system during
+performances  <ref xlink:href="#mutant-2016-bid31" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+This project was held from end 2012 to end 2014 thanks to Inria ADT and ANR support.</p>
+        <p>An information visualisation perspective has been taken for the design
+of timeline-based representation of action items, looking for
+information coherence and clarity, facility of seeking and navigation,
+hierarchical distinction and explicit
+linking  <ref xlink:href="#mutant-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> while minimizing
+the information overload for the presentation of the nested structure of
+complex concurrent activities  <ref xlink:href="#mutant-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Semantics, Verification and Test of Mixed Scores</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp102456">
+          <firstname>Jean-Louis</firstname>
+          <lastname>Giavitto</lastname>
+        </person>
+        <person key="mutant-2014-idp103904">
+          <firstname>Florent</firstname>
+          <lastname>Jacquemard</lastname>
+        </person>
+        <person key="mutant-2014-idp112824">
+          <firstname>Clément</firstname>
+          <lastname>Poncelet</lastname>
+        </person>
+      </participants>
+      <p>We address the questions
+of <i>functional reliability</i> and
+<i>temporal predictability</i>
+in score-based interactive music systems such as Antescofo.
+On the one hand, checking these properties is difficult for these systems
+involving an amount of human interactions
+as well as timing constraints (for audio computations)
+beyond those of many other real-time applications such as embedded control.
+On the other hand, although they are expected to behave properly during public concerts,
+these systems are not safety critical,
+and therefore a complete formal certification is not strictly necessary in our case.</p>
+      <p>Our objective in this context is to
+provide techniques and tools to assist both programmers of scores
+(<i>i.e.</i> composers) and the developers of the system itself.
+<ref xlink:href="#mutant-2016-bid34" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid35" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+It should be outlined that the former are generally not experts
+in real-time programming, and we aim at giving them a clear view of what will be the outcome of
+the score that they are writing, and what are the limits of
+what is playable by the system.
+To help the development of Antescofo, we have built a framework
+for automated timed conformance testing.
+<ref xlink:href="#mutant-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid38" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid39" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid40" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In both cases, it is important to be able to predict statically
+the behavior of the system in response to every possible musician input.
+This cannot be done manually and requires
+first a formal definition of the semantics of scores, and
+second using advanced symbolic state exploration techniques (model checking)  <ref xlink:href="#mutant-2016-bid25" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </fondements>
+  <highlights id="uid16">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>
+        <big>
+          <b>Startup Creation</b>
+        </big>
+      </p>
+      <p>Arshia Cont with José Echeveste and Philippe Cuvillier (former PhD students) are
+creating a Startup around Antescofo to bring the product to greater
+public starting March 2016 <ref xlink:href="http://antescofo.com" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>antescofo.<allowbreak/>com</ref>.
+The project is hosted by the French Incubator AgoraNov.</p>
+      <p>It was awarded the “Emergence Award” in 2015
+that help emerging new technology companies to study the
+project, and
+an i-LAB prize in 2016, supported by the French Ministry of Culture and Bpifrance,
+and it has been a finalist of the Midemlab 2016.</p>
+    </subsection>
+  </highlights>
+  <logiciels id="uid18">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Antescofo</bodyTitle>
+      <p>Anticipatory Score Following and Real-time Language</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description.</span>
+Antescofo is a modular polyphonic Score Following system as well as a Synchronous Programming language for musical composition.
+The first module allows for automatic recognition of music score position and tempo from a realtime audio Stream coming from performer(s), making it possible to synchronize an instrumental performance with computer realized elements.
+The synchronous language (DSL) within Antescofo allows flexible writing of time and interaction in computer music.</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Participants: Arshia Cont, Jean-Louis Giavitto, Florent Jacquemard and José Echeveste</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Contact: Arshia Cont</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">URL: <ref xlink:href="http://forumnet.ircam.fr/product/antescofo/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>forumnet.<allowbreak/>ircam.<allowbreak/>fr/<allowbreak/>product/<allowbreak/>antescofo/</ref></p>
+        </li>
+      </simplelist>
+      <object id="uid23">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/Antescofov09-1024x781.png" type="float" width="227.62204pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Antescofo and AscoGraph Screenshots</caption>
+      </object>
+      <p>The design of the Antescofo DSL clearly benefits of a strong and
+continuous involvement in the production of world-class composer pieces
+and their continuous recreation throughout the world. These
+interactions motivate new developments, challenge the state of the art
+and in return, opens new creative dimensions for composers and
+musicians. The maturity of the system is assessed by the generalization
+of its use in a large proportion of Ircam new productions, and its use
+outside Ircam all around the world (Brasil, Chile, Cuba, Italy, China,
+US, etc.). Antescofo enjoys an active community of 150 active users:
+<ref xlink:href="http://forumnet.ircam.fr/user-groups/antescofo/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>forumnet.<allowbreak/>ircam.<allowbreak/>fr/<allowbreak/>user-groups/<allowbreak/>antescofo/</ref></p>
+    </subsection>
+    <subsection id="uid24" level="1">
+      <bodyTitle>OMRQ</bodyTitle>
+      <p>Library for rhythm transcription integrated in the assisted composition environment OpenMusic.</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description.</span>
+Rhythm transcription is the conversion of sequence of timed events into the structured representations of conventional Western music notation. Available as a graphical component of OpenMusisc, the library OMRQ privileges user interactions in order to search for an appropriate balance between different criteria, in particular the precision of the transcription and the readability of the musical scores produced.</p>
+      <p>This system follows a uniform approach, using hierarchical representations of timing notations in the form of rhythm trees, and efficient parsing algorithms for the lazy enumeration of solutions of transcription.</p>
+      <object id="uid25">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/quant.png" type="float" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Screenshot of the Open Music Rhythm Quantization library</caption>
+      </object>
+      <p>Its implementation is carried out via a dedicated interface allowing interactive exploration of the solutions space, their visualization and local editing, with particular attention to the processing of grace notes and rests.</p>
+      <simplelist>
+        <li id="uid26">
+          <p noindent="true">Participants: Florent Jacquemard and Adrien Ycart</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">Contact: Florent Jacquemard</p>
+        </li>
+        <li id="uid28">
+          <p noindent="true">URL: <ref xlink:href="http://repmus.ircam.fr/cao/rq" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>repmus.<allowbreak/>ircam.<allowbreak/>fr/<allowbreak/>cao/<allowbreak/>rq</ref>, <ref xlink:href="https://bil.inria.fr/fr/software/view/2904/tab" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>bil.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>fr/<allowbreak/>software/<allowbreak/>view/<allowbreak/>2904/<allowbreak/>tab</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid29" level="1">
+      <bodyTitle>Antescofo Timed Test Platform</bodyTitle>
+      <p>Timed testing plateform for Antescofo.</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description.</span>
+The frequent use of Antescofo in live and public performances with human musicians
+implies strong requirements of temporal reliability and robustness to unforeseen errors in input.
+To address these requirements and help the development of the system and authoring of pieces by users,
+we are developing a platform for the automation of testing the behavior of Antescofo on a given score,
+with of focus on timed behavior.
+It is based on state of the art techniques and tools
+for <i>model-based testing</i> of embedded systems <ref xlink:href="#mutant-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+and makes it possible to automate the following main tasks:</p>
+      <orderedlist>
+        <li id="uid30">
+          <p noindent="true">
+offline and on-the-fly generation of relevant input data for testing
+(i.e. fake performances of musicians, including timing values),
+with the sake of exhaustiveness,</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">
+computation of the corresponding expected output, according to
+a formal specification of the expected behavior of the system on a given mixed score,</p>
+        </li>
+        <li id="uid32">
+          <p noindent="true">
+black-box execution of the input test data on the System Under Test,</p>
+        </li>
+        <li id="uid33">
+          <p noindent="true">
+comparison of expected and real output and production of a test verdict.</p>
+        </li>
+      </orderedlist>
+      <p>The input and output data are timed traces (sequences of discrete events together with inter-event durations).
+Our method is based on formal models (specifications) in an ad hoc medium-level intermediate representation (IR).
+We have developed a compiler for producing automatically such IR models from Antescofo high level mixed scores.</p>
+      <p>Then, in the offline approach,
+the IR is passed, after conversion to Timed Automata, to the model-checker Uppaal,
+to which is delegated the above task (1), following coverage criteria,
+and the task (2), by simulation.
+In the online approach, tasks (1) and (2) are realized during the execution of the IR by a Virtual Machine developed on purpose.
+Moreover, we have implemented several tools for Tasks (3) and (4),
+corresponding to different boundaries for the implementation under test (black box):
+e.g. the interpreter of Antescofo's synchronous language alone, or with tempo detection, or the whole system.</p>
+      <simplelist>
+        <li id="uid34">
+          <p noindent="true">Participants: Clément Poncelet, Florent Jacquemard, Pierre Donat-Bouillud</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">Contact: Clément Poncelet</p>
+        </li>
+      </simplelist>
+      <object id="uid36">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/test-offline.png" type="inline" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+            <td>
+              <ressource xlink:href="IMG/test-online.png" type="inline" width="213.5pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Offline and Online workflows for Antescofo Model Based Testing</caption>
+      </object>
+      <p>These implementations have been conducted as a part of Clément Poncelet's PhD Thesis.
+</p>
+    </subsection>
+    <subsection id="uid37" level="1">
+      <bodyTitle>Ascograph</bodyTitle>
+      <p>The Antescofo graphical score editor.</p>
+      <p noindent="true"><span class="smallcap" align="left">Functional Description.</span>
+AscoGraph, released in 2013, provides a autonomous Integrated Development Environment (IDE) for the authoring of Antescofo scores.
+Antescofo listening machine, when going forward in the score during recognition, uses the message passing paradigm to perform tasks
+such as automatic accompaniment, spatialization, etc.
+The Antescofo score is a text file containing notes (chord, notes, trills, ...) to follow,
+synchronization strategies on how to trigger actions, and electronic actions (the reactive language).</p>
+      <p>This editor shares the same score parsing routines with Antescofo core,
+so the validity of the score is checked on saving while editing in AscoGraph,
+with proper parsing errors handling.</p>
+      <object id="uid38">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/ascograph_mainshot.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Screenshot of <i>Ascograph</i>, the Antescofo graphical score editor</caption>
+      </object>
+      <p>Graphically, the application is divided in two parts (Figure <ref xlink:href="#uid38" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+On the left side, a graphical representation of the score, using a timeline with tracks view.
+On the right side, a text editor with syntax coloring of the score is displayed. Both views can be edited and are synchronized on saving. Special objects such as "curves", are graphically editable: they are used to provide high-level variable automation facilities like breakpoints functions (BPF) with more than 30 interpolations possible types between points, graphically editable.</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid39">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid40" level="1">
+      <bodyTitle>Embedding Audio Processing</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp102456">
+          <firstname>Jean-Louis</firstname>
+          <lastname>Giavitto</lastname>
+        </person>
+        <person key="mutant-2016-idp159296">
+          <firstname>Pierre</firstname>
+          <lastname>Donat-Bouillud</lastname>
+        </person>
+      </participants>
+      <p noindent="true">Audio processing has been integrated in the Antescofo
+language. This experimental extension aims at providing
+sample-accurate control and dynamic audio graphs directly in
+Antescofo. Currently, FAUST (through a native embedding of the
+in-core compiler) and a few specific signal processors (notably
+FFT) can be defined. The tight integration enable specification of
+multiple-timed signal processing in conjunction with control
+programs.
+One example of this integration is the use of
+symbolic curve specification to specify variations of control parameters
+at sample rate, a task whose correctness in real-time is not at the scope of competing systems.
+Our approach has proven to provide such mechanisms at a lower computational cost; for example a factor of
+two in the <i>remaking</i> of Boulez' piece <i>Antheme 2</i> compared
+to the original version with the audio effects managed in Max. We will
+further pursue such optimizations while extending sample accuracy, by
+developing a type-system to preserve block computations in case of
+preemptive audio processing  <ref xlink:href="#mutant-2016-bid42" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>The reduced footprint enable the embedding of an <i>Antescofo</i> engine
+with internal audio processing on Raspberry PI and UDOO nano-computers
+(early results are reported in <ref xlink:href="#mutant-2016-bid43" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+</p>
+    </subsection>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Representation of Rhythm and Quantization</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp103904">
+          <firstname>Florent</firstname>
+          <lastname>Jacquemard</lastname>
+        </person>
+        <person key="mutant-2015-idp93384">
+          <firstname>Adrien</firstname>
+          <lastname>Ycart</lastname>
+        </person>
+        <person key="mutant-2016-idp159296">
+          <firstname>Pierre</firstname>
+          <lastname>Donat-Bouillud</lastname>
+        </person>
+      </participants>
+      <p>Rhythmic data are commonly represented by tree structures (rhythms trees) in assisted music composition environments,
+such as OpenMusic, due to the theoretical proximity of such structures with traditional musical notation.
+We are studying the application in this context of techniques and tools for processing tree structures,
+which were originally used in natural language processing.
+We are particularly interested in two well established formalisms with solid theoretical foundations:
+weighted automata for trees and dags and term rewriting.</p>
+      <p>Our main contribution in that context is the development of a new framework for rhythm transcription,
+the problem of the generation, from a sequence of timestamped notes, <i>e.g.</i> a file in MIDI format,
+of a score in traditional music notation) – see Section <ref xlink:href="#uid24" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+This problem arises immediately as insoluble unequivocally: we shall calibrate the system to fit the musical context,
+balancing constraints of precision, or of simplicity / readability of the generated scores.
+In collaboration with Jean Bresson (Ircam)
+and Slawek Staworko (LINKS), we are developing
+an approach based on algorithms for the enumeration of large sets of weighted trees (tree series),
+representing possible solutions to a problem of transcription.
+The implementation work is performed by Adrien Ycart, under a research engineer contract with Ircam.
+This work has been presented in <ref xlink:href="#mutant-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Moreover, in collaboration with Prof. Masahiko Sakai (Nagoya University), we are working
+on symbolic processing of music notation, based on the above models.
+We proposed a structural theory (equational system on rhythm trees)
+defining equivalence on rhythm notations
+<ref xlink:href="#mutant-2016-bid20" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid21" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and use this approach, for instance, to generate, by transformation,
+different possible notations of the same rhythm,
+with the ability to select either alternative notation
+in accordance with certain constraints,
+<i>e.g.</i> in the context of transcription.</p>
+      <p>Related results on the property of confluence of term rewriting systems were presented
+in <ref xlink:href="#mutant-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> (invited talk), and
+other work on data tree processing, in collaboration with Luc Segoufin and Jeremie Dimino,
+have published in <ref xlink:href="#mutant-2016-bid45" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid42" level="1">
+      <bodyTitle>Model-based Testing an Interactive Music System</bodyTitle>
+      <participants>
+        <person key="mutant-2014-idp112824">
+          <firstname>Clément</firstname>
+          <lastname>Poncelet</lastname>
+        </person>
+        <person key="mutant-2014-idp103904">
+          <firstname>Florent</firstname>
+          <lastname>Jacquemard</lastname>
+        </person>
+        <person key="mutant-2016-idp159296">
+          <firstname>Pierre</firstname>
+          <lastname>Donat-Bouillud</lastname>
+        </person>
+      </participants>
+      <p>We have been pursuing in 2016 our applications of model-based timed testing techniques
+to the interactive music system Antescofo,
+in the context of the Phd of Clément Poncelet
+and in relation with the developments presented in Section <ref xlink:href="#uid29" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>Several formal methods have been developed for automatic conformance testing of critical embedded software,
+with the execution of a real implementation under test (IUT, or black-box) in a testing framework,
+where carefully selected inputs are sent to the IUT and then the outputs are observed and analyzed.
+In conformance model-based testing (MBT),
+the input and corresponding expected outputs are generated according to formal models of the IUT and the environment.
+The case of IMS presents important originalities compared to other applications of MBT to realtime systems.
+On the one hand, the time model of IMS comprises several time units, including the wall clock time, measured in seconds,
+and the time of music scores, measured in number of beats relatively to a tempo.
+This situation raises several new problems for the generation of test suites and their execution.
+On the other hand,
+we can reasonably assume that a given mixed score of Antescofo specifies completely the expected timed behavior of the IMS,
+and compile automatically the given score into a formal model of the IUT’s expected behavior,
+using an intermediate representation.
+This give a fully automatic test method,
+which is in contrast with other approaches which generally require experts to write the specification manually.</p>
+      <p>We have developed online and offline approaches to MBT for Antescofo.
+The offline approach relies on tools of the Uppaal suite  <ref xlink:href="#mutant-2016-bid46" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid41" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+using a translation of our models into timed automata.
+The online approach is based on a virtual machine executing the models of score in Intermediate Representation (IR).</p>
+      <p>To this respect, the transformation of Antescofo's mixed scores (in DSL) into IR,
+described in Section <ref xlink:href="#uid29" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+can be seen as the premise of a compiled approach for Antescofo.</p>
+      <p>These results have been published this year
+in the Journal of New Music Research <ref xlink:href="#mutant-2016-bid36" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>,
+the journal Science of Computer Programming <ref xlink:href="#mutant-2016-bid37" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and in the PhD of Clément Poncelet, defended in November 2016.</p>
+    </subsection>
+  </resultats>
+  <partenariat id="uid43">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid45" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <p>Mutant was the PI of the ANR INEDIT project, ended in october 2015. The
+INEDIT project aims to provide a scientific view of the interoperability
+between common tools for music and audio productions, in order to open
+new creative dimensions coupling <i>authoring of time</i> and
+<i>authoring of interaction</i>.</p>
+        <p>Mutant participates also actively in the
+<ref xlink:href="http://repmus.ircam.fr/efficace/home" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Efficace ANR Project</ref>. This
+project explores the relations between computation, time and
+interactions in computer-aided music composition, using OpenMusic and
+other technologies developed at IRCAM and at CNMAT (UC Berkeley).</p>
+        <p>The MuTant team is also an active member of the <ref xlink:href="http://www.agence-nationale-recherche.fr/?Project=ANR-14-CE25-0020" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ANR CHRONOS Network</ref> by Gérard Berry, Collège de France).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid47" level="2">
+        <bodyTitle>Collaborations in European Programs, Except FP7 &amp; H2020</bodyTitle>
+        <sanspuceslist>
+          <li id="uid48">
+            <p noindent="true">Program: PHC Amadeus (France-Austria)</p>
+          </li>
+          <li id="uid49">
+            <p noindent="true">Project acronym: LETITBE</p>
+          </li>
+          <li id="uid50">
+            <p noindent="true">Project title: Logical Execution Time for Interactive And Composition Assistance Music Systems</p>
+          </li>
+          <li id="uid51">
+            <p noindent="true">Duration: 01/2015 - 01/2017</p>
+          </li>
+          <li id="uid52">
+            <p noindent="true">Coordinator: Florent Jacquemard, Christoph Kirsch</p>
+          </li>
+          <li id="uid53">
+            <p noindent="true">Other partners: Department of Computer Sciences University of Salzburg, Austria</p>
+          </li>
+          <li id="uid54">
+            <p noindent="true">Abstract: The objective of the LETITBE project is to contribute to the development
+of computer music systems supporting advanced temporal structure in music and advanced dynamics in interactivity.
+For this purpose we are proposing to re-design and re-engineer computer music systems (from IRCAM at Paris)
+using advanced notions of time and their software counterparts developed for safety-critical embedded systems (from University of Salzburg).
+In particular, we are applying the so-called logical execution time paradigm as well as its accompanying time safety analysis,
+real-time code generation, and portable code execution to computer music systems.
+Timing in music is obviously very important.
+Advanced treatment of time in safety-critical embedded systems has helped address extremely challenging problems such as predictability
+and portability of real-time code.
+We believe similar progress can be made in computer music systems potentially enabling new application areas.
+The objective of the project is ideally suited for a collaboration of partners with complementary expertise
+in computer music and real-time systems.</p>
+          </li>
+        </sanspuceslist>
+        <p>This year, Pierre Donat-Bouillud has spent 5 months in the University of Salzburg and
+one month in the University of California Berkeley, in the context of the LETITBE project,
+before starting his PhD in Mutant.
+Several other student exchanges and scientists visits between Salzburg and Paris
+have been funded this year by the LETITBE projetc</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid55" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid56" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid57" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <simplelist>
+            <li id="uid58">
+              <p noindent="true">We are collaborating with Slawek Staworko (LINKS and Algomus, Lille – on leave at U. Edinburgh in 2016),
+and the Algomus group at Lille, in the context of our projects on rhythm transcription described at
+Sections <ref xlink:href="#uid24" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and <ref xlink:href="#uid41" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+This collaboration led this year to the following publications: <ref xlink:href="#mutant-2016-bid16" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid17" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">We are pursuing a long term collaboration with Masahiko Sakai (U. Nagoya) on term rewriting techniques
+and applications
+(in particular applications related to rhythm notation) <ref xlink:href="#mutant-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid47" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">MuTant team collaborates with <i>Bucharest Polytechnic University</i>, in the framework of Grig Burloiu's PhD Thesis on <i>AscoGraph</i> UIX design which has resulted in a the new design of AscoGraph (see <ref xlink:href="#uid37" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+and publications <ref xlink:href="#mutant-2016-bid48" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid33" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#mutant-2016-bid32" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">MuTant team collaborated with researchers at National Institute of Informatics of Tokyo on real-time Symbolic Alignment
+of music data  <ref xlink:href="#mutant-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid62">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid63" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid65" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Jean-Louis Giavitto has participated in the program committee of the
+42st International Computer Music Conference (ICMC),
+the 10th IEEE International Conference on Self-Adaptive and Self-Organizing Systems (SASO 2016),
+the Digital Entertainment Technologies and Arts(DETA) of GECCO-2016,
+the 15th International Conference on the Synthesis and Simulation of Living Systems (ALIFE XV) and
+the 2nd International Conference on Technologies for Music Notation and Representation (TENOR 2016).</p>
+          <p>Florent Jacquemard has been involved in the Program Committees of
+the 2d International Conference on Technologies for Music Notation and Representation (TENOR 2016),
+the 8th International Symposium on Symbolic Computation in Software (SCSS 2017),
+the National Conference <i>Journées d'Informatique Musicale</i> (JIM 2016),
+and the special issue of the journal Information and Computation
+for the 10th International Conference on Language and Automata Theory and Applications (LATA 2016).</p>
+        </subsection>
+        <subsection id="uid66" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Jean-Louis Giavitto is associate redactor (former redactor-in-chief)
+of TSI (Technique et Science Informatiques) published by Lavoisier.
+He has coorganized with Antoine Spicher (Univ. Paris Est), Stefan Dulman (Univ. Twente)
+and Mirko Viroli (Univ. of Milano) a special issue of
+<i>The Knowledge Engineering Review</i> on Spatial Computing published in november 2016.</p>
+        </subsection>
+        <subsection id="uid67" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>The members of the team contributed as reviewers for the journal Information and Computation,
+IEEE Transactions on Multimedia,
+IEEE Transactions on Audio and Speech Signal Processing,
+ACM Transactions on Intelligent Systems,
+Theoretical Computer Science,
+IEEE ICASSP, ICMC, SMC, Formal Methods, LATA and more...</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid68" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Jean-Louis Giavitto was invited to the seminar @SystemX at Saclay.</p>
+        <p>Florent Jacquemard gave an invited talk at the
+5th International Workshop on Confluence (IWC 2016),
+hosted by Innsbruck University Center at Obergurgl, Austria <ref xlink:href="#mutant-2016-bid44" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      </subsection>
+      <subsection id="uid69" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <p>Jean-Louis Giavitto was a member of the Prix de thèse du GDR GPL as well
+as a member of the Faust Award 2016 (the Faust Open-Source Software
+Competition is intended to promote innovative high-quality free audio
+software developed with the Faust programming language, as well as
+development tools build around the Faust compiler itself).</p>
+      </subsection>
+      <subsection id="uid70" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Jean-Louis Giavitto is in scientific board of the GDR GPL
+(Genie de la programmation et du logiciel).
+He is also a reviewer for FET projects for the UC.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid71" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid72" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid73">
+            <p noindent="true">PhD defended: José Echeveste, <i>Accorder le temps de la machine et celui du musicien</i>,
+started in October 2011, supervisor: Arshia Cont and Jean-Louis Giavitto.</p>
+          </li>
+          <li id="uid74">
+            <p noindent="true">PhD defended (November 2016):
+Clément Poncelet,
+Formal methods for analyzing human-machine interaction in complex timed scenario.
+Started in October 2013, supervisor: Florent Jacquemard.</p>
+          </li>
+          <li id="uid75">
+            <p noindent="true">PhD defended (December 2016):
+Philippe Cuvillier,
+Probabilistic Decoding of strongly-timed events in realtime,
+supervisor: Arshia Cont.</p>
+          </li>
+          <li id="uid76">
+            <p noindent="true">PhD in progress:
+Julia Blondeau,
+<i>Espaces compositionnels et temps multiples : de la relation forme/matériauq (thèse en art)</i>,
+supervisor: Jean-Louis Giavitto,
+co-director Dominique Pradelle (Philosophy, Sorbonne),
+started October 2015.</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">PhD in progress:
+Maxim Sirbu,
+Online Interaction via Machine Listening.
+Supervisors: Arshia Cont (MuTant) and Mathieu Lagrange (IrCyNN),
+started October 2015.</p>
+          </li>
+          <li id="uid78">
+            <p noindent="true">PhD in progress:
+Pierre Donat-Bouillud,
+Modeling, analysis and execution of cyber-temporal systems.
+Supervisor: Florent Jacquemard, co-director: Jean-Louis Giavitto,
+started October 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid79" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Jean-Louis Giavitto was Chairman of the jury of Clément Poncelet.
+He was reviewer of the PhD thesis of Jaime Arias (University of
+Bordeaux, Sémantique Formelle et Vérification Automatique de Scénarios
+Hiérarchiques Multimédia avec des Choix Interactifs), and examiner of
+the PhD of Mattia Bergomi (Università di Milano and UPMC, Dynamical and
+Topological Tools for (Modern) Music Analysis).</p>
+        <p>Florent Jacquemard was
+reviewer of the PhD thesis of
+Etienne Dubourg (University of Bordeaux, Contributions to the theory of tile languages).
+He is reviewer of the PhD thesis of Nicolas Guiomard-Kagan
+(Université de Picardie Jules Verne,
+<i>Traitement de la polyphonie pour l’analyse informatique de partitions musicales</i>).
+He has been examiner of the PhD of
+Emil-Mircea Andriescu (UPMC, MiMove,
+Dynamic Data Adaptation for the Synthesis and Deployment of Protocol Mediators)
+and examiner of the PhD of Carles Creus López
+(UPC Barcelona, Tree Automata with Constraints and Tree Homomorphisms).</p>
+      </subsection>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="mutant-2016-bid4" type="article" rend="refer" n="refercite:cont09a">
+      <analytic>
+        <title level="a">A coupled duration-focused architecture for realtime music to score alignment</title>
+        <author>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+        <imprint>
+          <biblScope type="volume">32</biblScope>
+          <biblScope type="number">6</biblScope>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">974-987</biblScope>
+          <ref xlink:href="http://articles.ircam.fr/textes/Cont09a/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>articles.<allowbreak/>ircam.<allowbreak/>fr/<allowbreak/>textes/<allowbreak/>Cont09a/</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid10" type="article" rend="refer" n="refercite:cont11a">
+      <analytic>
+        <title level="a">On the Information Geometry of Audio Streams with Applications to Similarity Computing</title>
+        <author>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Shlomo</foreName>
+            <surname>Dubnov</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Gérard</foreName>
+            <surname>Assayag</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">IEEE Transactions on Audio, Speech and Language Processing</title>
+        <imprint>
+          <biblScope type="volume">19</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2011</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid60" type="inproceedings" rend="refer" n="refercite:cont:hal-00718854">
+      <identifiant type="hal" value="hal-00718854"/>
+      <analytic>
+        <title level="a">Correct Automatic Accompaniment Despite Machine Listening or Human Errors in Antescofo</title>
+        <author>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">ICMC 2012 - International Computer Music Conference</title>
+        <loc>Ljubljana, Slovenia</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IRZU - the Institute for Sonic Arts Research</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2012</year>
+          </dateStruct>
+          <ref xlink:href="http://hal.inria.fr/hal-00718854" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00718854</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid63" type="inproceedings" rend="refer" n="refercite:donatbouillud:hal-01349524">
+      <identifiant type="hal" value="hal-01349524"/>
+      <analytic>
+        <title level="a">Embedding native audio-processing in a score following system with quasi sample accuracy</title>
+        <author>
+          <persName key="mutant-2016-idp159296">
+            <foreName>Pierre</foreName>
+            <surname>Donat-Bouillud</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Schmidt</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Yann</foreName>
+            <surname>Orlarey</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC 2016 - 42th International Computer Music Conference</title>
+        <loc>Utrecht, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349524" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349524</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid57" type="article" rend="refer" n="refercite:echeveste:hal-00854719">
+      <identifiant type="doi" value="10.1007/s10626-013-0166-2"/>
+      <identifiant type="hal" value="hal-00854719"/>
+      <analytic>
+        <title level="a">Operational semantics of a domain specific language for real time musician-computer interaction</title>
+        <author>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Discrete Event Dynamic Systems</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">343-383</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00854719" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00854719</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid61" type="inproceedings" rend="refer" n="refercite:fanchon:hal-00829821">
+      <identifiant type="hal" value="hal-00829821"/>
+      <analytic>
+        <title level="a">Formal Timing Analysis Of Mixed Music Scores</title>
+        <author>
+          <persName>
+            <foreName>Léa</foreName>
+            <surname>Fanchon</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2013 ICMC - International Computer Music Conference</title>
+        <loc>Perth, Australia</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00829821" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00829821</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid58" type="article" rend="refer" n="refercite:jacquemard:hal-01274035">
+      <identifiant type="hal" value="hal-01274035"/>
+      <analytic>
+        <title level="a">An Automatic Test Framework for Interactive Music Systems</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clément</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of New Music Research</title>
+        <imprint>
+          <biblScope type="volume">45</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">18</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01274035" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01274035</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid59" type="article" rend="refer" n="refercite:poncelet:hal-01314969">
+      <identifiant type="hal" value="hal-01314969"/>
+      <analytic>
+        <title level="a">Model-Based Testing for Building Reliable Realtime Interactive Music Systems</title>
+        <author>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clément</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Science of Computer Programming</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01314969" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01314969</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Journal: Science of Computer Programming special issue for ACM SAC (SVT) 2015</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid62" type="inproceedings" rend="refer" n="refercite:ponceletsanchez:hal-01021617">
+      <identifiant type="hal" value="hal-01021617"/>
+      <analytic>
+        <title level="a">Test Methods for Score-Based Interactive Music Systems</title>
+        <author>
+          <persName>
+            <foreName>Clément</foreName>
+            <surname>Poncelet Sanchez</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC SMC 2014</title>
+        <loc>Athen, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01021617" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01021617</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid64" type="inproceedings" rend="refer" n="refercite:ycart:hal-01315689">
+      <identifiant type="hal" value="hal-01315689"/>
+      <analytic>
+        <title level="a">A Supervised Approach for Rhythm Transcription Based on Tree Series Enumeration</title>
+        <author>
+          <persName key="mutant-2015-idp93384">
+            <foreName>Adrien</foreName>
+            <surname>Ycart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Bresson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="links-2014-idp106776">
+            <foreName>Slawomir</foreName>
+            <surname>Staworko</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Computer Music Conference (ICMC)</title>
+        <loc>Utrecht, Netherlands</loc>
+        <title level="s">Proceedings of the 42nd International Computer Music Conference (ICMC)</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01315689" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01315689</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid56" type="phdthesis" rend="year" n="cite:cuvillier:tel-01448687">
+      <identifiant type="hal" value="tel-01448687"/>
+      <monogr>
+        <title level="m">On temporal coherency of probabilistic models for audio-to-score alignment</title>
+        <author>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">UPMC - Paris 6 Sorbonne Universités</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01448687" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01448687</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid55" type="phdthesis" rend="year" n="cite:ponceletsanchez:tel-01443327">
+      <identifiant type="hal" value="tel-01443327"/>
+      <monogr>
+        <title level="m">Model-Based Testing Real-Time and Interactive Music Systems</title>
+        <author>
+          <persName>
+            <foreName>Clément</foreName>
+            <surname>Poncelet Sanchez</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">EDITE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/tel-01443327" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01443327</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid48" type="article" rend="year" n="cite:burloiu:hal-01390502">
+      <identifiant type="doi" value="10.1080/09298215.2016.1245345"/>
+      <identifiant type="hal" value="hal-01390502"/>
+      <analytic>
+        <title level="a">A visual framework for dynamic mixed music notation</title>
+        <author>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Burloiu</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clement</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02163">
+        <idno type="issn">0929-8215</idno>
+        <title level="j">Journal of New Music Research</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01390502" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01390502</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid50" type="incollection" rend="year" n="cite:giavitto:hal-01377659">
+      <identifiant type="hal" value="hal-01377659"/>
+      <analytic>
+        <title level="a">A Topological Approach of Musical Relationships</title>
+        <author>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Spicher</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Jordan B. L.</foreName>
+            <surname>Smith</surname>
+            <initial>J. B. L.</initial>
+          </persName>
+          <persName>
+            <foreName>Elaine</foreName>
+            <surname>Chew</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Gérard</foreName>
+            <surname>Assayag</surname>
+            <initial>G.</initial>
+          </persName>
+        </editor>
+        <title level="m">Mathemusical Conversations - Mathematics and Computation in Music Performance and Composition</title>
+        <imprint>
+          <biblScope type="volume">Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore</biblScope>
+          <biblScope type="number">32</biblScope>
+          <publisher>
+            <orgName>World Scientific</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">283–298</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377659" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377659</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid36" type="article" rend="year" n="cite:jacquemard:hal-01274035">
+      <identifiant type="hal" value="hal-01274035"/>
+      <analytic>
+        <title level="a">An Automatic Test Framework for Interactive Music Systems</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clément</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02163">
+        <idno type="issn">0929-8215</idno>
+        <title level="j">Journal of New Music Research</title>
+        <imprint>
+          <biblScope type="volume">45</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">18</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01274035" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01274035</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid53" type="article" rend="year" n="cite:jacquemard:hal-01426626">
+      <identifiant type="doi" value="10.1016/j.jcss.2016.10.006"/>
+      <identifiant type="hal" value="hal-01426626"/>
+      <analytic>
+        <title level="a">One-variable context-free hedge automata</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="cassis-2014-idp68440">
+            <foreName>Michael</foreName>
+            <surname>Rusinowitch</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01107">
+        <idno type="issn">0022-0000</idno>
+        <title level="j">Journal of Computer and System Sciences</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426626" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426626</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid45" type="article" rend="year" n="cite:jacquemard:hal-00769249">
+      <identifiant type="hal" value="hal-00769249"/>
+      <analytic>
+        <title level="a">FO2(&lt;,+1, ) on data trees, data tree automata and branching vector addition systems</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="dahu-2014-idm28048">
+            <foreName>Luc</foreName>
+            <surname>Segoufin</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Jérémie</foreName>
+            <surname>Dimino</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01362">
+        <idno type="issn">1860-5974</idno>
+        <title level="j">Logical Methods in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00769249" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00769249</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid49" type="article" rend="year" n="cite:pascalie:hal-01354757">
+      <identifiant type="doi" value="10.1021/acssynbio.5b00246"/>
+      <identifiant type="hal" value="hal-01354757"/>
+      <analytic>
+        <title level="a">Developmental Design of Synthetic Bacterial Architectures by Morphogenetic Engineering</title>
+        <author>
+          <persName>
+            <foreName>Jonathan</foreName>
+            <surname>Pascalie</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Martin</foreName>
+            <surname>Potier</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Taras</foreName>
+            <surname>Kowaliw</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier</foreName>
+            <surname>Michel</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Spicher</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>René</foreName>
+            <surname>Doursat</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02756">
+        <idno type="issn">2161-5063</idno>
+        <title level="j">ACS Synthetic Biology</title>
+        <imprint>
+          <biblScope type="volume">5</biblScope>
+          <biblScope type="number">8</biblScope>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">842-861</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01354757" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01354757</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid37" type="article" rend="year" n="cite:poncelet:hal-01314969">
+      <identifiant type="hal" value="hal-01314969"/>
+      <analytic>
+        <title level="a">Model-Based Testing for Building Reliable Realtime Interactive Music Systems</title>
+        <author>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clement</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01754">
+        <idno type="issn">0167-6423</idno>
+        <title level="j">Science of Computer Programming</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01314969" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01314969</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Journal: Science of Computer Programming special issue: SAC SVT 2015</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid43" type="article" rend="year" n="cite:schmidtgubbins:hal-01257524">
+      <identifiant type="hal" value="hal-01257524"/>
+      <analytic>
+        <title level="a">First steps toward embedding real-time audio computing in Antescofo</title>
+        <author>
+          <persName>
+            <foreName>Nicolás</foreName>
+            <surname>Schmidt Gubbins</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="no" x-international-audience="no" id="rid02937">
+        <idno type="issn">I-notfound</idno>
+        <title level="j">Journal de Investigación de Pregado (Investigación, Interdisciplina, Innovación)</title>
+        <imprint>
+          <biblScope type="volume">6</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01257524" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01257524</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid54" type="incollection" rend="year" n="cite:spicher:hal-01377667">
+      <identifiant type="doi" value="10.1007/978-3-319-33924-5"/>
+      <identifiant type="hal" value="hal-01377667"/>
+      <analytic>
+        <title level="a">Interaction-based Programming in MGS</title>
+        <author>
+          <persName>
+            <foreName>Antoine</foreName>
+            <surname>Spicher</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>Adamatzky</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">Advances in Unconventional Computing - Volume 1: Theory</title>
+        <title level="s">Series: Emergence, Complexity and Computation</title>
+        <imprint>
+          <biblScope type="volume">22</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">305-342</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01377667" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01377667</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid51" type="inproceedings" rend="year" n="cite:donatbouillud:hal-01349524">
+      <identifiant type="hal" value="hal-01349524"/>
+      <analytic>
+        <title level="a">Embedding native audio-processing in a score following system with quasi sample accuracy</title>
+        <author>
+          <persName key="mutant-2016-idp159296">
+            <foreName>Pierre</foreName>
+            <surname>Donat-Bouillud</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Schmidt</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Yann</foreName>
+            <surname>Orlarey</surname>
+            <initial>Y.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC 2016 - 42th International Computer Music Conference</title>
+        <loc>Utrecht, Netherlands</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01349524" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01349524</ref>
+        </imprint>
+        <meeting id="cid117037">
+          <title>International Conference on Computer Music</title>
+          <num>42</num>
+          <abbr type="sigle">ICMC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid44" type="inproceedings" rend="year" n="cite:jacquemard:hal-01367535">
+      <identifiant type="hal" value="hal-01367535"/>
+      <analytic>
+        <title level="a">Some results on confluence: decision and what to do without</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">5th International Workshop on Confluence</title>
+        <loc>Obergurgl, Austria</loc>
+        <title level="s">Proceedings of the 5th International Workshop on Confluence</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Beniamino Accattoli, Ashish Tiwari </orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01367535" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01367535</ref>
+        </imprint>
+        <meeting id="cid624785">
+          <title>International Workshop on Confluence</title>
+          <num>5</num>
+          <abbr type="sigle">IWC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid52" type="inproceedings" rend="year" n="cite:lajugie:hal-01251018">
+      <identifiant type="hal" value="hal-01251018"/>
+      <analytic>
+        <title level="a">A weakly-supervised discriminative model for audio-to-score alignment</title>
+        <author>
+          <persName key="sierra-2014-idp92792">
+            <foreName>Rémi</foreName>
+            <surname>Lajugie</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sierra-2014-idm29296">
+            <foreName>Francis</foreName>
+            <surname>Bach</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <loc>Shanghai, China</loc>
+        <title level="s">Proceedings of the 41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01251018" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01251018</ref>
+        </imprint>
+        <meeting id="cid80145">
+          <title>IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+          <num>41</num>
+          <abbr type="sigle">ICASSP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid16" type="inproceedings" rend="year" n="cite:ycart:hal-01298806">
+      <identifiant type="hal" value="hal-01298806"/>
+      <analytic>
+        <title level="a">An interactive approach to rhythm transcription in OpenMusic</title>
+        <author>
+          <persName key="mutant-2015-idp93384">
+            <foreName>Adrien</foreName>
+            <surname>Ycart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Bresson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="links-2014-idp106776">
+            <foreName>Sławek</foreName>
+            <surname>Staworko</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Journées d'Informatique Musicale 2016</title>
+        <loc>Albi, France</loc>
+        <title level="s">Journées d'Informatique Musicale 2016</title>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">AFIM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01298806" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01298806</ref>
+        </imprint>
+        <meeting id="cid347989">
+          <title>Journées d'Informatique Musicale</title>
+          <num>2016</num>
+          <abbr type="sigle">JIM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid17" type="inproceedings" rend="year" n="cite:ycart:hal-01315689">
+      <identifiant type="hal" value="hal-01315689"/>
+      <analytic>
+        <title level="a">A Supervised Approach for Rhythm Transcription Based on Tree Series Enumeration</title>
+        <author>
+          <persName key="mutant-2015-idp93384">
+            <foreName>Adrien</foreName>
+            <surname>Ycart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Bresson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="links-2014-idp106776">
+            <foreName>Slawomir</foreName>
+            <surname>Staworko</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Computer Music Conference (ICMC)</title>
+        <loc>Utrecht, Netherlands</loc>
+        <title level="s">Proceedings of the 42nd International Computer Music Conference (ICMC)</title>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01315689" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01315689</ref>
+        </imprint>
+        <meeting id="cid117037">
+          <title>International Conference on Computer Music</title>
+          <num>42</num>
+          <abbr type="sigle">ICMC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid47" type="unpublished" rend="year" n="cite:jacquemard:hal-01403982">
+      <identifiant type="hal" value="hal-01403982"/>
+      <monogr>
+        <title level="m">Generating equivalent rhythmic notations based on rhythm tree languages</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="mutant-2015-idp93384">
+            <foreName>Adrien</foreName>
+            <surname>Ycart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Masahiko</foreName>
+            <surname>Sakai</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01403982" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01403982</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid3" type="book" rend="foot" n="footcite:Paradigms09">
+      <monogr>
+        <title level="m">New Computational Paradigms for Computer Music</title>
+        <title level="s">Sciences de la musique</title>
+        <editor role="editor">
+          <persName>
+            <foreName>Gérard</foreName>
+            <surname>Assayag</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew</foreName>
+            <surname>Gerzso</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <publisher>
+            <orgName>Editions Delatour</orgName>
+          </publisher>
+          <dateStruct>
+            <month>6</month>
+            <year>2009</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid15" type="inproceedings" rend="foot" n="footcite:bietti:hal-01115826">
+      <identifiant type="hal" value="hal-01115826"/>
+      <analytic>
+        <title level="a">An online EM algorithm in hidden (semi-)Markov models for audio segmentation and clustering</title>
+        <author>
+          <persName key="thoth-2016-idp173904">
+            <foreName>Alberto</foreName>
+            <surname>Bietti</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="sierra-2014-idm29296">
+            <foreName>Francis</foreName>
+            <surname>Bach</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICASSP 2015 - 40th IEEE International Conference on Acoustics, Speech and Signal Processing</title>
+        <loc>Brisbane, Australia</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01115826" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01115826</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid14" type="mastersthesis" rend="foot" n="footcite:bietti:hal-01064672">
+      <identifiant type="hal" value="hal-01064672"/>
+      <monogr x-international-audience="yes">
+        <title level="m">Online learning for audio clustering and segmentation</title>
+        <author>
+          <persName key="thoth-2016-idp173904">
+            <foreName>Alberto</foreName>
+            <surname>Bietti</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">ENS Cachan</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01064672" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01064672</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid19" type="inproceedings" rend="foot" n="footcite:bresson:hal-01142022">
+      <identifiant type="hal" value="hal-01142022"/>
+      <analytic>
+        <title level="a">Projet EFFICACE : Développements et perspectives en composition assistée par ordinateur</title>
+        <author>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Bresson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Dimitri</foreName>
+            <surname>Bouche</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="in-situ-2014-idp91904">
+            <foreName>Jérémie</foreName>
+            <surname>Garcia</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Thibaut</foreName>
+            <surname>Carpentier</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>John</foreName>
+            <surname>MacCallum</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Diemo</foreName>
+            <surname>Schwarz</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Journées d'Informatique Musicale</title>
+        <loc>Montréal, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01142022" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01142022</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid33" type="inproceedings" rend="foot" n="footcite:burloiu:hal-01135727">
+      <identifiant type="hal" value="hal-01135727"/>
+      <analytic>
+        <title level="a">Non-overlapping, Time-coherent Visualisation of Action Commands in the AscoGraph Interactive Music User Interface</title>
+        <author>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Burloiu</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">First International Conference on Technologies for Music Notation and Representation</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01135727" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01135727</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid32" type="inproceedings" rend="foot" n="footcite:burloiu:hal-01155618">
+      <identifiant type="hal" value="hal-01155618"/>
+      <analytic>
+        <title level="a">Visualizing Timed, Hierarchical Code Structures in AscoGraph</title>
+        <author>
+          <persName>
+            <foreName>Grigore</foreName>
+            <surname>Burloiu</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Conference on Information Visualisation</title>
+        <loc>Barcelona, Spain</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">University of Barcelona</orgName>
+          </publisher>
+          <dateStruct>
+            <month>July</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01155618" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01155618</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid31" type="inproceedings" rend="foot" n="footcite:coffy:hal-01024865">
+      <identifiant type="hal" value="hal-01024865"/>
+      <analytic>
+        <title level="a">AscoGraph: A User Interface for Sequencing and Score Following for Interactive Music</title>
+        <author>
+          <persName key="mutant-2014-idp105344">
+            <foreName>Thomas</foreName>
+            <surname>Coffy</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC 2014 - 40th International Computer Music Conference</title>
+        <loc>Athens, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01024865" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01024865</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid23" type="inproceedings" rend="foot" n="footcite:cont:hal-00997842">
+      <identifiant type="hal" value="hal-00997842"/>
+      <analytic>
+        <title level="a">The Cyber-Physical System Approach for Automatic Music Accompaniment in Antescofo</title>
+        <author>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Acoustical Society Of America</title>
+        <loc>Providence, Rhode Island, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00997842" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00997842</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Best Paper Award for Students and Young Presenters</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid27" type="inproceedings" rend="foot" n="footcite:cont:hal-00718854">
+      <identifiant type="hal" value="hal-00718854"/>
+      <analytic>
+        <title level="a">Correct Automatic Accompaniment Despite Machine Listening or Human Errors in Antescofo</title>
+        <author>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC 2012 - International Computer Music Conference</title>
+        <loc>Ljubljana, Slovenia</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">IRZU - the Institute for Sonic Arts Research</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2012</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00718854" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00718854</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid5" type="inproceedings" rend="foot" n="footcite:cuvillier:hal-01058366">
+      <identifiant type="hal" value="hal-01058366"/>
+      <analytic>
+        <title level="a">Coherent Time Modeling of semi-Markov Models with Application to Real-Time Audio-to-Score Alignment</title>
+        <author>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Jan</foreName>
+            <surname>Larsen</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Kevin</foreName>
+            <surname>Guelton</surname>
+            <initial>K.</initial>
+          </persName>
+        </editor>
+        <title level="m">MLSP 2014 - IEEE International Workshop on Machine Learning for Signal Processing (2014)</title>
+        <loc>Reims, France</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">Mboup, Mamadou</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01058366" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01058366</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid6" type="inproceedings" rend="foot" n="footcite:cuvillier:hal-01080235">
+      <identifiant type="hal" value="hal-01080235"/>
+      <analytic>
+        <title level="a">Time-coherency of Bayesian priors on transient semi-Markov chains for audio-to-score alignment</title>
+        <author>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">MaxEnt 2014</title>
+        <loc>Amboise, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">SEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01080235" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01080235</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid11" type="article" rend="foot" n="footcite:dessein:hal-00793999">
+      <identifiant type="doi" value="10.1109/LSP.2013.2247039"/>
+      <identifiant type="hal" value="hal-00793999"/>
+      <analytic>
+        <title level="a">An information-geometric approach to real-time audio segmentation</title>
+        <author>
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Dessein</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">IEEE Signal Processing Letters</title>
+        <imprint>
+          <biblScope type="volume">20</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>April</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">331-334</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00793999" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00793999</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid12" type="phdthesis" rend="foot" n="footcite:dessein:tel-00768524">
+      <identifiant type="hal" value="tel-00768524"/>
+      <monogr>
+        <title level="m">Computational Methods of Information Geometry with Real-Time Applications in Audio Signal Processing</title>
+        <author>
+          <persName>
+            <foreName>Arnaud</foreName>
+            <surname>Dessein</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Pierre et Marie Curie - Paris VI</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2012</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-00768524" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-00768524</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid42" type="mastersthesis" rend="foot" n="footcite:donatbouillud:hal-01168098">
+      <identifiant type="hal" value="hal-01168098"/>
+      <monogr x-international-audience="yes">
+        <title level="m">Multimedia scheduling for interactive multimedia systems</title>
+        <author>
+          <persName key="mutant-2016-idp159296">
+            <foreName>Pierre</foreName>
+            <surname>Donat-Bouillud</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">ENS Rennes ; Universite Rennes 1</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">47</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01168098" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01168098</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid20" type="inproceedings" rend="foot" n="footcite:donatbouillud:hal-01105418">
+      <identifiant type="hal" value="hal-01105418"/>
+      <analytic>
+        <title level="a">Towards an Equational Theory of Rhythm Notation</title>
+        <author>
+          <persName key="mutant-2016-idp159296">
+            <foreName>Pierre</foreName>
+            <surname>Donat-Bouillud</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Masahiko</foreName>
+            <surname>Sakai</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Music Encoding Conference 2015</title>
+        <loc>Florence, Italy</loc>
+        <imprint>
+          <dateStruct>
+            <month>May</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01105418" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01105418</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid25" type="article" rend="foot" n="footcite:echeveste:hal-00854719">
+      <identifiant type="doi" value="10.1007/s10626-013-0166-2"/>
+      <identifiant type="hal" value="hal-00854719"/>
+      <analytic>
+        <title level="a">Operational semantics of a domain specific language for real time musician-computer interaction</title>
+        <author>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Discrete Event Dynamic Systems</title>
+        <imprint>
+          <biblScope type="volume">23</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <biblScope type="pages">343-383</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00854719" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00854719</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid26" type="phdthesis" rend="foot" n="footcite:echeveste:tel-01196248">
+      <identifiant type="hal" value="tel-01196248"/>
+      <monogr>
+        <title level="m">A programming language for Computer-Human Musical Interaction</title>
+        <author>
+          <persName key="mutant-2014-idp111592">
+            <foreName>Jose-Manuel</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.-M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Pierre et Marie Curie - Paris VI</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01196248" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01196248</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid24" type="techreport" rend="foot" n="footcite:echeveste:hal-00917469">
+      <identifiant type="hal" value="hal-00917469"/>
+      <monogr>
+        <title level="m">A Dynamic Timed-Language for Computer-Human Musical Interaction</title>
+        <author>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8422</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00917469" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00917469</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid35" type="mastersthesis" rend="foot" n="footcite:lea:hal-00762004">
+      <identifiant type="hal" value="hal-00762004"/>
+      <monogr x-international-audience="yes/no">
+        <title level="m">Temporal Analysis of Mixed Intrumental/Electronic Music Scores</title>
+        <author>
+          <persName>
+            <foreName>Léa</foreName>
+            <surname>Fanchon</surname>
+            <initial>L.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Ecole Centrale Paris</orgName>
+          </publisher>
+          <dateStruct>
+            <month>November</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">51</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00762004" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00762004</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid34" type="inproceedings" rend="foot" n="footcite:fanchon:hal-00829821">
+      <identifiant type="hal" value="hal-00829821"/>
+      <analytic>
+        <title level="a">Formal Timing Analysis Of Mixed Music Scores</title>
+        <author>
+          <persName>
+            <foreName>Léa</foreName>
+            <surname>Fanchon</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">2013 ICMC - International Computer Music Conference</title>
+        <loc>Perth, Australia</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00829821" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00829821</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid30" subtype="nonparu-p" type="inproceedings" rend="foot" n="footcite:giavitto:hal-01054667">
+      <identifiant type="doi" value="10.1145/2643135.2643158"/>
+      <identifiant type="hal" value="hal-01054667"/>
+      <analytic>
+        <title level="a">Real-Time Matching of Antescofo Temporal Patterns</title>
+        <author>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">PPDP 2014 - 16th International Symposium on Principles and Practice of Declarative Programming</title>
+        <loc>Canterbury, United Kingdom</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01054667" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01054667</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid7" type="inproceedings" rend="foot" n="footcite:gong:hal-01164550">
+      <identifiant type="hal" value="hal-01164550"/>
+      <analytic>
+        <title level="a">Real-Time Audio-to-Score Alignment of Singing Voice Based on Melody and Lyric Information</title>
+        <author>
+          <persName>
+            <foreName>Rong</foreName>
+            <surname>Gong</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Obin</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Interspeech</title>
+        <loc>Dresde, Germany</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01164550" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01164550</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid41" type="incollection" rend="foot" n="footcite:Hessel08UppaalTest">
+      <analytic>
+        <title level="a">Testing real-time systems using UPPAAL</title>
+        <author>
+          <persName>
+            <foreName>Anders</foreName>
+            <surname>Hessel</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tamis-2016-idp129520">
+            <foreName>Kim G.</foreName>
+            <surname>Larsen</surname>
+            <initial>K. G.</initial>
+          </persName>
+          <persName>
+            <foreName>Marius</foreName>
+            <surname>Mikucionis</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Brian</foreName>
+            <surname>Nielsen</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Paul</foreName>
+            <surname>Pettersson</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Arne</foreName>
+            <surname>Skou</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <editor role="editor">
+          <persName>
+            <foreName>Robert M.</foreName>
+            <surname>Hierons</surname>
+            <initial>R. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Jonathan P.</foreName>
+            <surname>Bowen</surname>
+            <initial>J. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark</foreName>
+            <surname>Harman</surname>
+            <initial>M.</initial>
+          </persName>
+        </editor>
+        <title level="m">Formal methods and testing</title>
+        <loc>Berlin, Heidelberg</loc>
+        <imprint>
+          <publisher>
+            <orgName>Springer-Verlag</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">77–117</biblScope>
+          <ref xlink:href="http://dl.acm.org/citation.cfm?id=1806209.1806212" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dl.<allowbreak/>acm.<allowbreak/>org/<allowbreak/>citation.<allowbreak/>cfm?id=1806209.<allowbreak/>1806212</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid21" type="inproceedings" rend="foot" n="footcite:jacquemard:hal-01138642">
+      <identifiant type="hal" value="hal-01138642"/>
+      <analytic>
+        <title level="a">A Structural Theory of Rhythm Notation based on Tree Representations and Term Rewriting</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="mutant-2016-idp159296">
+            <foreName>Pierre</foreName>
+            <surname>Donat-Bouillud</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean</foreName>
+            <surname>Bresson</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>David Meredith</foreName>
+            <surname>Tom Collins</surname>
+            <initial>D. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Anja</foreName>
+            <surname>Volk</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">Mathematics and Computation in Music: 5th International Conference, MCM 2015</title>
+        <loc>London, United Kingdom</loc>
+        <title level="s">Lecture Notes in Artificial Intelligence</title>
+        <imprint>
+          <biblScope type="volume">9110</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <publisher>
+            <orgName type="organisation">Oscar Bandtlow and Elaine Chew</orgName>
+          </publisher>
+          <dateStruct>
+            <month>June</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01138642" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01138642</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid22" type="inproceedings" rend="foot" n="footcite:jacquemard:hal-01149319">
+      <identifiant type="hal" value="hal-01149319"/>
+      <analytic>
+        <title level="a">Term Rewriting with Prefix Context Constraints and Bottom-Up Strategies</title>
+        <author>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Yoshiharu</foreName>
+            <surname>Kojima</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Masahiko</foreName>
+            <surname>Sakai</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName key="marelle-2014-idp84232">
+            <foreName>Amy P.</foreName>
+            <surname>Felty</surname>
+            <initial>A. P.</initial>
+          </persName>
+          <persName>
+            <foreName>Aart</foreName>
+            <surname>Middeldorp</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">25th International Conference on Automated Deduction (CADE'15)</title>
+        <loc>Berlin, Germany</loc>
+        <title level="s">LNCS</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01149319" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01149319</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid46" type="inproceedings" rend="foot" n="footcite:Krichen04">
+      <analytic>
+        <title level="a">Black-box conformance testing for real-time systems</title>
+        <author>
+          <persName>
+            <foreName>Moez</foreName>
+            <surname>Krichen</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Stavros</foreName>
+            <surname>Tripakis</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">In 11th International SPIN Workshop on Model Checking of Software (SPIN'04), volume 2989 of LNCS</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">109–126</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid9" type="inproceedings" rend="foot" n="footcite:lajugie:hal-01251018">
+      <identifiant type="hal" value="hal-01251018"/>
+      <analytic>
+        <title level="a">A weakly-supervised discriminative model for audio-to-score alignment</title>
+        <author>
+          <persName key="sierra-2014-idp92792">
+            <foreName>Rémi</foreName>
+            <surname>Lajugie</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="willow-2014-idp114800">
+            <foreName>Piotr</foreName>
+            <surname>Bojanowski</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="sierra-2014-idm27832">
+            <foreName>Sylvain</foreName>
+            <surname>Arlot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="sierra-2014-idm29296">
+            <foreName>Francis</foreName>
+            <surname>Bach</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <loc>Shanghai, China</loc>
+        <title level="s">Proceedings of the 41st International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01251018" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01251018</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid13" type="mastersthesis" rend="foot" n="footcite:lostanlen:hal-00849736">
+      <identifiant type="hal" value="hal-00849736"/>
+      <monogr x-international-audience="no">
+        <title level="m">Decouverte automatique de structures musicales en temps reel par la geometrie de l'information</title>
+        <author>
+          <persName>
+            <foreName>Vincent</foreName>
+            <surname>Lostanlen</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">ATIAM, University of Paris 6 (UPMC)</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-00849736" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00849736</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid8" type="inproceedings" rend="foot" n="footcite:nakamura:hal-01183820">
+      <identifiant type="hal" value="hal-01183820"/>
+      <analytic>
+        <title level="a">Autoregressive hidden semi-Markov model of symbolic music performance for score following</title>
+        <author>
+          <persName>
+            <foreName>Eita</foreName>
+            <surname>Nakamura</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="mutant-2014-idp110360">
+            <foreName>Philippe</foreName>
+            <surname>Cuvillier</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="mutant-2014-idp100976">
+            <foreName>Arshia</foreName>
+            <surname>Cont</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Nobutaka</foreName>
+            <surname>Ono</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Shigeki</foreName>
+            <surname>Sagayama</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">16th International Society for Music Information Retrieval Conference (ISMIR)</title>
+        <loc>Malaga, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>October</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01183820" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01183820</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid29" type="inproceedings" rend="foot" n="footcite:nika:hal-01053834">
+      <identifiant type="hal" value="hal-01053834"/>
+      <analytic>
+        <title level="a">Planning Human-Computer Improvisation</title>
+        <author>
+          <persName>
+            <foreName>Jérôme</foreName>
+            <surname>Nika</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Marc</foreName>
+            <surname>Chemillier</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="mutant-2014-idp102456">
+            <foreName>Jean-Louis</foreName>
+            <surname>Giavitto</surname>
+            <initial>J.-L.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Computer Music Conference</title>
+        <loc>Athens, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">330</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01053834" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01053834</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid38" type="inproceedings" rend="foot" n="footcite:poncelet:hal-01097345">
+      <identifiant type="doi" value="10.1145/2695664.2695804"/>
+      <identifiant type="hal" value="hal-01097345"/>
+      <analytic>
+        <title level="a">Model Based Testing of an Interactive Music System</title>
+        <author>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clément</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Proceedings of the 30th ACM/SIGAPP Symposium On Applied Computing (ACM SAC)</title>
+        <loc>Salamanca, Spain</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01097345" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01097345</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid40" type="misc" rend="foot" n="footcite:poncelet:hal-01133592">
+      <identifiant type="hal" value="hal-01133592"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Génération de tests de conformité pour un système musical interactif temps-réel</title>
+        <author>
+          <persName key="mutant-2014-idp112824">
+            <foreName>Clément</foreName>
+            <surname>Poncelet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2013</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01133592" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01133592</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">MSR'13</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid39" type="inproceedings" rend="foot" n="footcite:ponceletsanchez:hal-01021617">
+      <identifiant type="hal" value="hal-01021617"/>
+      <analytic>
+        <title level="a">Test Methods for Score-Based Interactive Music Systems</title>
+        <author>
+          <persName>
+            <foreName>Clément</foreName>
+            <surname>Poncelet Sanchez</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp103904">
+            <foreName>Florent</foreName>
+            <surname>Jacquemard</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ICMC SMC 2014</title>
+        <loc>Athen, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01021617" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01021617</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid2" type="book" rend="foot" n="footcite:Rowe92">
+      <monogr>
+        <title level="m">Interactive music systems: machine listening and composing</title>
+        <author>
+          <persName>
+            <foreName>Robert</foreName>
+            <surname>Rowe</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>MIT Press<address><addrLine>Cambridge, MA, USA</addrLine></address></orgName>
+          </publisher>
+          <dateStruct>
+            <year>1992</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid1" type="phdthesis" rend="foot" n="footcite:scheirer2000phd">
+      <monogr>
+        <title level="m">Music listening systems</title>
+        <author>
+          <persName>
+            <foreName>Eric D.</foreName>
+            <surname>Scheirer</surname>
+            <initial>E. D.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">MIT Media Lab</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2000</year>
+          </dateStruct>
+          <ref xlink:href="http://web.media.mit.edu/~tristan/Classes/MAS.945/Papers/Technical/Scheirer_Thesis.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>web.<allowbreak/>media.<allowbreak/>mit.<allowbreak/>edu/<allowbreak/>~tristan/<allowbreak/>Classes/<allowbreak/>MAS.<allowbreak/>945/<allowbreak/>Papers/<allowbreak/>Technical/<allowbreak/>Scheirer_Thesis.<allowbreak/>pdf</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Ph. D. Thesis</note>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid28" type="inproceedings" rend="foot" n="footcite:trapani:hal-01053836">
+      <identifiant type="hal" value="hal-01053836"/>
+      <analytic>
+        <title level="a">Real Time Tempo Canons with Antescofo</title>
+        <author>
+          <persName>
+            <foreName>Christopher</foreName>
+            <surname>Trapani</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="mutant-2014-idp111592">
+            <foreName>José</foreName>
+            <surname>Echeveste</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International Computer Music Conference</title>
+        <loc>Athens, Greece</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">207</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01053836" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01053836</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid0" type="inproceedings" rend="foot" n="footcite:Ver84">
+      <analytic>
+        <title level="a">The Synthetic Performer in the Context of Live Performance</title>
+        <author>
+          <persName>
+            <foreName>Barry</foreName>
+            <surname>Vercoe</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proceedings of the ICMC</title>
+        <imprint>
+          <dateStruct>
+            <year>1984</year>
+          </dateStruct>
+          <biblScope type="pages">199–200</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="mutant-2016-bid18" type="mastersthesis" rend="foot" n="footcite:ycart:hal-01202257">
+      <identifiant type="hal" value="hal-01202257"/>
+      <monogr x-international-audience="yes">
+        <title level="m">Quantification rythmique dans OpenMusic</title>
+        <author>
+          <persName key="mutant-2015-idp93384">
+            <foreName>Adrien</foreName>
+            <surname>Ycart</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">UPMC</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">51</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01202257" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01202257</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Masters thesis</note>
+    </biblStruct>
+  </biblio>
+</raweb>

@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="ayin" isproject="true">
+    <shortname>AYIN</shortname>
+    <projectName>Models of spatio-temporal structure for high-resolution image processing</projectName>
+    <theme-de-recherche>Vision, perception and multimedia interpretation</theme-de-recherche>
+    <domaine-de-recherche>Perception, Cognition and Interaction</domaine-de-recherche>
+    <urlTeam>https://team.inria.fr/ayin/</urlTeam>
+    <header_dates_team>Creation of the Team: 2012 January 01, end of the Team: 2016 June 30</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>3.4.1. - Supervised learning</term>
+      <term>3.4.2. - Unsupervised learning</term>
+      <term>3.4.4. - Optimization and learning</term>
+      <term>3.4.5. - Bayesian methods</term>
+      <term>3.4.7. - Kernel methods</term>
+      <term>5.3. - Image processing and analysis</term>
+      <term>5.3.2. - Sparse modeling and image representation</term>
+      <term>5.3.3. - Pattern recognition</term>
+      <term>5.4. - Computer vision</term>
+      <term>5.4.1. - Object recognition</term>
+      <term>5.4.4. - 3D and spatio-temporal reconstruction</term>
+      <term>5.4.5. - Object tracking and motion analysis</term>
+      <term>5.9.2. - Estimation, modeling</term>
+      <term>5.9.3. - Reconstruction, enhancement</term>
+      <term>5.9.4. - Signal processing over graphs</term>
+      <term>5.9.6. - Optimization tools</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.2.3. - Probabilistic methods</term>
+      <term>6.2.4. - Statistical methods</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.3.1. - Inverse problems</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>2.6. - Biological and medical imaging</term>
+      <term>3.1. - Sustainable development</term>
+      <term>3.3. - Geosciences</term>
+      <term>3.4. - Risks</term>
+      <term>3.5. - Agronomy</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Sophia"/>
+  </identification>
+  <team id="uid1">
+    <person key="ayin-2014-idp59640">
+      <firstname>Josiane</firstname>
+      <lastname>Zerubia</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Team leader, Inria, Research Scientist</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="ayin-2014-idp66352">
+      <firstname>Ihsen</firstname>
+      <lastname>Hedhli</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>cosupervised with the University of Genoa, granted by the Italian government, until April 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The AYIN team is devoted to the modeling of spatio-temporal structures, for
+use in the analysis of high-resolution image data, with particular
+application to images arising in remote sensing, broadly interpreted, and
+skin care.</p>
+      <p>The latest and upcoming generations of imaging sensors, for example, in
+remote sensing (Pleiades, EnMAP, Sentinel) and medicine (Philips, Christie
+Medical), result in large volumes of heterogeneous data with high spatial,
+spectral, and temporal resolution. High resolution imagery (this may refer to
+spatial, spectral, or temporal resolutions) is a rich source of information
+about the imaged scene, information that is unavailable in lower resolution
+data. In particular, spatial and spatio-temporal structures abound, and
+frequently constitute the information of greatest interest in practice. As a
+result, such imagery is vital to advances in a range of applications (urban
+monitoring, precision agriculture, skin disease diagnosis, <i>etc</i>.). The
+high resolution and high volume of the imagery presents new challenges,
+however, that must be overcome if the potential of the data is to be
+realized. Extracting the available information requires the development of
+new modeling techniques adapted to the nature and profusion of structures,
+and the design of corresponding algorithms, which must in turn be implemented
+in a time- and space-efficient way if the techniques are to be made
+operational.</p>
+      <p>The overall scientific objective of the AYIN team is precisely to advance the
+state of theory and practice in this area by the development of such modeling
+techniques and the design of such algorithms. We make use of a variety of
+methodologies in order to achieve this goal, taking a broadly Bayesian point
+of view. This point of view suggests dividing the modeling task into two
+parts: modeling of the scene, <i>i.e. </i>describing the scenes to be expected in any
+given application; and modeling of the image, <i>i.e. </i>describing the images to be
+expected from any given scene. AYIN focuses on spatio-temporal and
+spectral structure, leading to the modeling of geometrical properties on the
+one hand, and large, coherent structures in images and image sequences on the
+other. The new models also require new algorithms, for dealing with the
+nuisance parameters they contain, and for extracting the desired information.
+This forms a third major component of AYIN's research. The models and
+algorithms are developed in parallel with their application to information
+extraction from very high resolution images, in particular data arising in
+remote sensing and skin care.</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Geometric and shape modeling</bodyTitle>
+      <p>One of the grand challenges of computer vision and image processing is the
+expression and use of prior geometric information via the construction of
+appropriate models. For very high resolution imagery, this problem becomes
+critically important, as the increasing resolution of the data results in the
+appearance of a great deal of complex geometric structure hitherto invisible.
+AYIN studies various approaches to the construction of models of geometry and
+shape.</p>
+      <subsection id="idp115216" level="2">
+        <bodyTitle>Stochastic geometry</bodyTitle>
+        <p>One of the most promising approaches to the inclusion of this type of
+information is stochastic geometry, which is an important research direction
+in the AYIN team. Instead of defining probabilities for different types of
+image, probabilities are defined for configurations of an indeterminate
+number of interacting, parameterized objects located in the image. Such
+probability distributions are called `marked point processes'. New models are
+being developed both for remote sensing applications, and for skin care
+problems, such as wrinkle and acne detection.</p>
+      </subsection>
+      <subsection id="idp116816" level="2">
+        <bodyTitle>Contours, phase fields, and MRFs with long-range interactions</bodyTitle>
+        <p>An alternative approach to shape modeling starts with generic `regions' in
+the image, and adds constraints in order to model specific shapes and
+objects. AYIN investigates contour, phase field, and binary field
+representations of regions, incorporating shape information via
+highly-structured long-range interactions that constrain the set of
+high-probability regions to those with specific geometric properties. This
+class of models can represent infinite-dimensional families of shapes and
+families with unbounded topology, as well as families consisting of an
+arbitrary number of object instances, at no extra computational cost. Key
+sub-problems include the development of models of more complex shapes and
+shape configurations; the development of models in more than two spatial
+dimensions; and understanding the equivalences between models in different
+representations and approaches.</p>
+      </subsection>
+      <subsection id="idp119632" level="2">
+        <bodyTitle>Shapes in time</bodyTitle>
+        <p>AYIN is concerned with spectral and spatio-temporal structures. To deal with
+the latter, the above scene modeling approaches are extended into the time
+dimension, either by modeling time dependence directly, or, in the
+field-based approaches, by modeling spacetime structures, or, in the
+stochastic geometry approach, by including the time <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>t</mi></math></formula> in the mark. An
+example is a spatio-temporal graph-cut-based method that introduces directed
+infinite links connecting pixels in successive image frames in order to
+impose constraints on shape change.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid6" level="1">
+      <bodyTitle>Image modeling</bodyTitle>
+      <p>The key issue that arises in modeling the high-resolution image data
+generated in AYIN's applications, is how to include large-scale spatial,
+temporal, and spectral dependencies. AYIN investigates approaches to the
+construction of image models including such dependencies. A central question
+in the use of such models is how to deal with the large data volumes arising
+both from the large size of the images involved, and the existence of large
+image collections. Fortunately, high dimensionality typically implies data
+redundancy, and so AYIN investigates methods for reducing the dimensionality
+of the data and describing the spatial, temporal, and spectral dependencies
+in ways that allow efficient data processing.</p>
+      <subsection id="idp3804160" level="2">
+        <bodyTitle>Markov random fields with long-range and higher-order interactions</bodyTitle>
+        <p>One way to achieve large-scale dependencies is via explicit long-range
+interactions. MRFs with long-range interactions are also used in AYIN to
+model geometric spatial and temporal structure, and the techniques and
+algorithms developed there will also be applied to image modeling. In
+modeling image structures, however, other important properties, such as
+control of the relative phase of Fourier components, and spontaneous symmetry
+breaking, may also be required. These properties can only be achieved by
+higher-order interactions. These require specific techniques and algorithms,
+which are developed in parallel with the models.</p>
+      </subsection>
+      <subsection id="idp3805840" level="2">
+        <bodyTitle>Hierarchical models</bodyTitle>
+        <p>Another way to achieve long-range dependencies is via shorter range
+interactions in a hierarchical structure. AYIN works on the development of
+models defined as a set of hierarchical image partitions represented by a
+binary forest structure. Key sub-problems include the development of
+multi-feature models of image regions as an ensemble of spectral, texture,
+geometrical, and classification features, where we search to optimize the
+ratio between discrimination capacity of the feature space and dimensionality
+of this space; and the development of similarity criteria between image
+regions, which would compute distances between regions in the designed
+feature space and would be data-driven and scale-independent. One way to
+proceed in the latter case consists in developing a composite kernel method,
+which would seek to project multi-feature data into a new space, where
+regions from different thematic categories become linearly or almost linearly
+separable. This involves developing kernel functions as a combination of
+basis kernels, and estimating kernel-based support vector machine parameters.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid7" level="1">
+      <bodyTitle>Algorithms</bodyTitle>
+      <p>Computational techniques are necessary in order to extract the information of
+interest from the models. In addition, most models contain `nuisance
+parameters', including the structure of the models themselves, that must be
+dealt with in some way. AYIN is interested in adapting and developing methods
+for solving these problems in cases where existing methods are inadequate.</p>
+      <subsection id="idp3810064" level="2">
+        <bodyTitle>Nuisance parameters and parameter estimation</bodyTitle>
+        <p>In order to render the models operational, it is crucial to find some way to
+deal with nuisance parameters. In a Bayesian framework, the parameters must
+be integrated or marginalized out. Unfortunately, this is usually very difficult.
+Fortunately, Laplace's method often provides a good approximation, in many
+cases being equivalent to classical maximum likelihood parameter estimation.
+Even these problems are not easy to solve, however, when dealing with
+complex, structured models. This is particularly true when it is necessary to
+estimate simultaneously both the information of interest and the parameters.
+AYIN is developing a number of different methods for dealing with nuisance
+parameters, corresponding to the diversity of modeling approaches.</p>
+      </subsection>
+      <subsection id="idp3811856" level="2">
+        <bodyTitle>Information extraction</bodyTitle>
+        <p>Extracting the information of interest from any model involves making
+estimates based on various criteria, for example MAP, MPM, or MMSE. Computing
+these estimates often requires the solution of hard optimization problems.
+The complexity of many of the models to be developed within AYIN means that
+off-the-shelf algorithms and current techniques are often not capable of
+solving these problems. AYIN develops a diversity of algorithmic approaches
+adapted to the particular models developed.</p>
+      </subsection>
+    </subsection>
+  </fondements>
+  <highlights id="uid8">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid9" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <simplelist>
+        <li id="uid10">
+          <p noindent="true">Josiane Zerubia is IEEE Signal Processing Society Distinguished
+Lecturer for 2016 and 2017, see
+(<ref xlink:href="http://signalprocessingsociety.org/newsletter/2015/11/sps-announces-2016-class-of-distinguished-lecturers/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>signalprocessingsociety.<allowbreak/>org/<allowbreak/>newsletter/<allowbreak/>2015/<allowbreak/>11/<allowbreak/>sps-announces-2016-class-of-distinguished-lecturers/</ref>)</p>
+        </li>
+        <li id="uid11">
+          <p noindent="true">Josiane Zerubia received the Excellency Prize of UCA (Université Cote
+d'Azur) for her outstanding research work in December 2016.</p>
+        </li>
+        <li id="uid12">
+          <p noindent="true">Nazre Batool who was an Inria post-doc in AYIN till May 2015 received
+the IEEE R8 Women in Engineering Clementina Saduwa 2016 award, see
+(<ref xlink:href="http://www.femmesetsciences.fr/actualites/nazre-batool-prix-clementina-saduwa-2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>femmesetsciences.<allowbreak/>fr/<allowbreak/>actualites/<allowbreak/>nazre-batool-prix-clementina-saduwa-2016/</ref>)</p>
+        </li>
+        <li id="uid13">
+          <p noindent="true">Josiane Zerubia, in collaboration with Gabriele Moser from University
+of Genoa (Italy), edited a book of more than 400 pages on mathematical
+models for remotely sensed image processing <ref xlink:href="#ayin-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> which was submitted to Springer Verlag in December 2016 and will be published early 2017. They also contributed to two chapters of this book.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </highlights>
+  <logiciels id="uid14">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid15" level="1">
+      <bodyTitle>Consulting for Industry</bodyTitle>
+      <p>Josiane Zerubia is a scientific consultant for the Galderma company (<ref xlink:href="http://www.galderma.com/AboutGalderma/Worldwide-presence/R-D-Locations" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>galderma.<allowbreak/>com/<allowbreak/>AboutGalderma/<allowbreak/>Worldwide-presence/<allowbreak/>R-D-Locations</ref>)</p>
+    </subsection>
+  </logiciels>
+  <resultats id="uid16">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid17" level="1">
+      <bodyTitle>Fusion of multitemporal and multiresolution remote sensing data and application to natural disasters</bodyTitle>
+      <participants>
+        <person key="ayin-2014-idp66352">
+          <firstname>Ihsen</firstname>
+          <lastname>Hedhli</lastname>
+        </person>
+        <person key="ayin-2014-idp59640">
+          <firstname>Josiane</firstname>
+          <lastname>Zerubia</lastname>
+          <moreinfo>contact</moreinfo>
+        </person>
+      </participants>
+      <moreinfo>
+        <p>This work was carried out in collaboration with Prof. Gabriele Moser and Prof. Sebastiano Serpico from DITEN departement (<ref xlink:href="http://www.dibe.unige.it/index.php?lang=en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>dibe.<allowbreak/>unige.<allowbreak/>it/<allowbreak/>index.<allowbreak/>php?lang=en</ref>), University of Genoa, Italy.</p>
+      </moreinfo>
+      <p>In this work we address the problem of constructing statistical models of images using Hierarchical Hidden Markov modeling techniques for high resolution remotely sensed image classification of urban areas. The main difficulty is to develop a classifier that jointly utilizes the benefits of multi-band and multi-resolution input data while maintaining a good trade-off between accuracy and computation time. In this framework, Markov random field (MRF) models are widely used in classification problems since they provide a convenient and consistent way of integrating contextual information into the classification scheme. Furthermore, MRF models defined according to hierarchical structures exhibit good methodological and application-oriented properties including causality, thanks to the use of appropriate graphs such as a quadtree structure  <ref xlink:href="#ayin-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The input satellite images are inserted in a hierarchical structure on the basis of their spatial resolution. This approach is aimed at both exploiting multi-scale information, which is known to play a crucial role in high-resolution image analysis, and supporting contextual information at each scale. However, hierarchical MRFs on quad-trees rely on a causality concept captured by the factorization of the prior distribution in terms of causal transition probabilities <ref xlink:href="#ayin-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In practice, this structure tends to generate "blocky" effects in the final classification map. Due to this disadvantage, a new hierarchical MRF based on a Symmetric Markov Mesh Random Field (SMMRF) is proposed in this work, to overcome these limitations from both mathematical and practical points of view, and to establish a causal and symmetrical model. This can be accomplished by scanning the lattice at each level of the hierarchical model based on the visiting scheme shown in Fig <ref xlink:href="#uid18" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Then, for each scale of the quad-tree, the causal SMMRF is integrated into the hierarchical structure. Accordingly, each node <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>s</mi></math></formula> at each scale level of the quad-tree, except at the root, is linked to one parent (in the upper level) and three neighbors (in the same level). For each pixel at the root level, there is no parent and only the neighbors remain. The shapes of the neighborhoods of the pixels at the top and left borders of each lattice, at each scale level of the pyramid, are obviously adapted to the image borders <ref xlink:href="#ayin-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid18">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">a<ressource xlink:href="IMG/MMRF_graph2.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="">b<ressource xlink:href="IMG/SMMRF.png" type="inline" width="192.1487pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+          </tr>
+          <caption/>
+        </table>
+        <caption>(a) Hybrid structure that combines a spatial grid using an SMMRF and a hierarchical MRF via a quad-tree. (b) Regular rectangular lattice <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>S</mi></math></formula> of size <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>m</mi></math></formula> x <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>n</mi></math></formula>: the "past" of site <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>s</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow></msub></math></formula> is the gray area, arrow lines show raster scan.</caption>
+      </object>
+      <p>We applied the developed hierarchical classification approach to a multi-resolution dataset that consists of a panchromatic and a multi-spectral Pléiades images acquired over Port-au-Prince (Haiti). Experimental results with HR satellite imagery of a very high-resolution urban scene suggest that the method allows to effectively incorporate spatial information in the hierarchical classification process and provides higher accuracies than previous techniques. Indeed, it is confirmed experimentally (see Fig. <ref xlink:href="#uid21" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) that MMRFs and their lattice models are corner-dependent, and that the proposed approach is effective in circumventing this drawback by using a Symmetric Markov Mesh Random Field. The proposed method, in the application to a challenging urban area classification problem, is able to combine the computational and modeling benefits of hierarchical and symmetric mesh MRF models, while preventing their individual artifacts.</p>
+      <object id="uid21">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">a<ressource xlink:href="IMG/contex11.png" type="inline" width="85.3987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">b<ressource xlink:href="IMG/contex12.png" type="inline" width="85.3987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">c<ressource xlink:href="IMG/contex13.png" type="inline" width="85.3987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">d<ressource xlink:href="IMG/contex14.png" type="inline" width="85.3987pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+          </tr>
+          <caption/>
+        </table>
+        <caption>classification maps of optical (Pléiades) image (a) using the original Laferté method (b), the previous method in  <ref xlink:href="#ayin-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> (c) and the new proposed method (d).</caption>
+      </object>
+    </subsection>
+    <subsection id="uid26" level="1">
+      <bodyTitle>Multitemporal change detection on image sequences with a False Discovery Rate approach</bodyTitle>
+      <participants>
+        <person key="ayin-2014-idp59640">
+          <firstname>Josiane</firstname>
+          <lastname>Zerubia</lastname>
+          <moreinfo>contact</moreinfo>
+        </person>
+      </participants>
+      <moreinfo>
+        <p>This work was carried out in collaboration with Dr. Vladimir Krylov, Prof. Gabriele Moser and Prof. Sebastiano Serpico from DITEN departement (<ref xlink:href="http://www.dibe.unige.it/index.php?lang=en" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>dibe.<allowbreak/>unige.<allowbreak/>it/<allowbreak/>index.<allowbreak/>php?lang=en</ref>), University of Genoa, Italy.</p>
+      </moreinfo>
+      <p>Multitemporal change detection on image sequences is one of the fundamental image processing problems and multiple detection, monitoring and tracking applications rely on its accurate and timely performance.
+To address this problem we develop an approach that gives a unified statistical thresholding procedure to perform change detection based on statistical features that have a known distribution under the no-change hypothesis. The proposed False Discovery Rate (FDR) formulation is based on the control of the proportion of false alarms among all detections <ref xlink:href="#ayin-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. This efficient technique for large scale hypotheses testing allows to use the wide range of statistical tests developed in the state-of-the-art by adjusting to the dependence structure present in the images and the patch-based samples. The developed approach involves only a few parameters and is highly parallelizable. We propose several rank-based statistical features that report accurate experimental results and the corresponding detectors positively compare with benchmark techniques in three different applications. Further features can be easily constructed to elaborate application-specific change detectors.</p>
+      <object id="uid27">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">Ground truth<ressource xlink:href="IMG/krylov_sgt.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">Image 1<ressource xlink:href="IMG/krylov_sss1.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">Image 2<ressource xlink:href="IMG/krylov_sss2.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">Image 3<ressource xlink:href="IMG/krylov_sss3.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+          </tr>
+          <tr style="">
+            <td style="text-align:center;" halign="center">Levene FDR on images 2 and 3<ressource xlink:href="IMG/krylov_spair23.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">combined pairwise Levene FDR<ressource xlink:href="IMG/krylov_spairF.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center"><formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>-values of omnibus FDR          <ressource xlink:href="IMG/krylov_somniP.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+            <td style="text-align:center;" halign="center">omnibus Levene FDR          <ressource xlink:href="IMG/krylov_somniF.jpg" type="inline" width="85.35826pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/></td>
+          </tr>
+          <caption/>
+        </table>
+        <caption>Semi-synthetic 3-image SAR sequence based on COSMO-SkyMed (©ASI) images of Haiti in 2011: (a) ground truth and (b)-(d) images, results of (e), (f) pairwise and (g), (h) omnibus Levene FDR-detection.</caption>
+      </object>
+      <p>In Fig. <ref xlink:href="#uid27" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> we demonstrate a typical result of the FDR-based change detector on a semi-synthetic 3-image synthetic aperture radar sequence based on COSMO-SkyMed (©ASI) images of Haiti (April, May and August 2011). In this experiments the Levene multisample statistic with a 9-by-9 local window is employed. A comparison of the omnibus test (formulating the hypothesis for all three images simultaneously) with pairwise tests, demonstrates that the latter are more sensitive to changes. This sensitivity can be a disadvantage as is the case with the detection noise in (e) and (f). The omnibus test on the other hand did not suffer from the same mistake due to a generally higher level of tolerance to pairwise fluctuations. Hence, from the SAR-change detection point of view, the results reported by omnibus version of Levene-statistic are considered more adequate.
+</p>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Solving inverse problems related to FUV image processing for ICON mission</bodyTitle>
+      <participants>
+        <person key="ayin-2014-idp59640">
+          <firstname>Josiane</firstname>
+          <lastname>Zerubia</lastname>
+          <moreinfo>contact</moreinfo>
+        </person>
+      </participants>
+      <moreinfo>
+        <p>This work has been conducted in collaboration with Prof. Farzad Kamalabadi, Dr. Jianqi Qin and Dr. Mark Butala from Coordinated Science Laboratory (CSL, <ref xlink:href="http://www.csl.illinois.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>csl.<allowbreak/>illinois.<allowbreak/>edu/</ref>) at University of Illinois at Urbana Champaign (UIUC, <ref xlink:href="http://illinois.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>illinois.<allowbreak/>edu/</ref>)</p>
+      </moreinfo>
+      <p>ICON (Ionospheric Connection Explorer) is a satellite which is part of
+the NASA Explorer missions (see <ref xlink:href="http://icon.ssl.berkeley.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icon.<allowbreak/>ssl.<allowbreak/>berkeley.<allowbreak/>edu/</ref>) and is
+planned to be launched in 2017 (see Fig. <ref xlink:href="#uid37" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The main goal of ICON is to study the
+area where terrestrial weather meets space weather in order to
+understand the behavior of our planet's upper atmosphere, including what
+causes disruptions in this region, such as those that can significantly
+affect radio transmissions.</p>
+      <p>There will be 4 instruments on board. One of them is the FUV: Far
+UltraViolet spectrographic imager. Prof Kamalabadi is responsible to
+process the FUV data from this instrument. During Josiane Zerubia's stay at CSL, UIUC, she worked with Prof. Farzad Kamalabadi team on defining a proper energy function using
+Bayesian theory (i.e. defining a data term + various priors for
+regularizing the solution) in order to be able to take into account the
+geometry of the information and also to deal with optical transmission
+function. This inverse problem is highly non linear. We will continue in
+the future to work on the problem of the error estimation (or bound
+derivation) as far as the estimation of distribution parameters is
+concerned.</p>
+      <object id="uid37">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">
+              <ressource xlink:href="IMG/JZ.jpg" type="inline" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+          <caption/>
+        </table>
+        <caption>Ionospheric Connection Explorer satellite ©NASA.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid38" level="1">
+      <bodyTitle>Hyperspectral Image Processing for Detection and Grading of Skin Erythema</bodyTitle>
+      <participants>
+        <person key="ayin-2014-idp59640">
+          <firstname>Josiane</firstname>
+          <lastname>Zerubia</lastname>
+          <moreinfo>contact</moreinfo>
+        </person>
+      </participants>
+      <moreinfo>
+        <p>This work was carried out in collaboration with Ali Madooei (Simon Fraser University (<ref xlink:href="https://www.sfu.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>sfu.<allowbreak/>ca/</ref>), Canada), Ramy Abdlaty (McMaster University (<ref xlink:href="https://www.mcmaster.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>mcmaster.<allowbreak/>ca/</ref>), Canada), Lilian Doerwald-Munoz (Hamilton Health Sciences - General Hospital (<ref xlink:href="http://www.hamiltonhealthsciences.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>hamiltonhealthsciences.<allowbreak/>ca/</ref>), Canada), Joseph Hayward (Hamilton Health Sciences - General Hospital, Canada), Mark Drew (Simon Fraser University, Canada) and Qiyin Fang (McMaster University, Canada).</p>
+      </moreinfo>
+      <p>This study focused on detection and grading of skin erythema using hyperspectral image processing. The ultimate objective is to build a system for monitoring radiation response in individuals using hyperspectral imaging technology and image processing. The present project was to investigate the possibility of monitoring the degree of skin erythema. To this aim, we proposed an image processing pipeline and conducted controlled experiments to demonstrate the efficacy of the proposed approach for (1) reproducing clinical assessments, and (2) outperforming RGB imaging data (see Fig. <ref xlink:href="#uid39" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). We combined the problem of erythema detection and grading into a multi-class classification problem where each pixel is classified as one of the four erythema classes or a non-erythema class. We used a weighted LDA (linear discriminant analysis) classifier to deal with noisy labels. Moreover, we devised pre-processing steps to deal with noisy measurements. We evaluate the system against the clinical assessment of an experienced clinician. We also compare the performance to that of using digital photography (instead of hyperspectral images) <ref xlink:href="#ayin-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The results from this preliminary study are encouraging and indicate that hyperspectral image data contain relevant information, and indeed outperform imaging photography.
+In future, we want to extend the technique to further detect other skin responses to radiation (such as dry/moist desquamation, skin necrosis, etc.) and also to experiment with real patients undergoing radiotherapy.</p>
+      <object id="uid39">
+        <table rend="inline">
+          <tr style="">
+            <td style="text-align:center;" halign="center">
+              <ressource xlink:href="IMG/ali.png" type="inline" width="341.6013pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+          <caption/>
+        </table>
+        <caption>A schematic representation of hyperspectral vs. RGB image data. The image shows artificially induced erythema
+over the inside of the forearm of a volunteer.</caption>
+      </object>
+    </subsection>
+  </resultats>
+  <partenariat id="uid40">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <simplelist>
+        <li id="uid42">
+          <p noindent="true">Josiane Zerubia has been in contact with Dr. Sandrine Mathieu, image processing quality expert
+at Thales Alenia Space in Cannes (<ref xlink:href="https://www.thalesgroup.com/en/worldwide/space" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>thalesgroup.<allowbreak/>com/<allowbreak/>en/<allowbreak/>worldwide/<allowbreak/>space</ref>) to discuss
+AYIN's research in remote sensing.</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">Josiane Zerubia is part of the FAULTS-R-GEMS project funded by Academy 3 of Idex UCA-Jedi (<ref xlink:href="http://univ-cotedazur.fr/english/idex-uca-jedi/academies-of-excellence" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>univ-cotedazur.<allowbreak/>fr/<allowbreak/>english/<allowbreak/>idex-uca-jedi/<allowbreak/>academies-of-excellence</ref>), PI: Isabelle Manighetti of Geoazur (OCA, CNRS, UCA), in collaboration with Yuliya Tarabalka from TITANE Inria team, as well as members of UCA, Institut de Physique du Globe in Paris, Geoscience in Montpellier, ETH Zurich, CalTech, Arizona State University and UNAVCO consortium in the USA.</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid45" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <simplelist>
+          <li id="uid46">
+            <p noindent="true">Josiane Zerubia has a strong collaboration with University of Genoa, Italy, for more than 20
+years <ref xlink:href="#ayin-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+          </li>
+          <li id="uid47">
+            <p noindent="true">Another collaboration in Canada with Mc Master University, Hamilton, started in 2012 <ref xlink:href="#ayin-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, and has been extended to Juravinski Cancer Center (<ref xlink:href="http://www.jcc.hhsc.ca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>jcc.<allowbreak/>hhsc.<allowbreak/>ca/</ref>) in Hamilton and Simon Fraser University.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid49" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <subsection id="uid50" level="3">
+          <bodyTitle>Research Stays Abroad</bodyTitle>
+          <p>Josiane Zerubia was invited to spend 2 months, from late August to late October, at the Coordinated Science Laboratory (CSL, <ref xlink:href="http://www.csl.illinois.edu/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>csl.<allowbreak/>illinois.<allowbreak/>edu/</ref>) of the University of Illinois at Urbana Champaign (UIUC) to work with Prof. Farzad Kamalabadi (<ref xlink:href="https://www.ece.illinois.edu/directory/profile/farzadk" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>www.<allowbreak/>ece.<allowbreak/>illinois.<allowbreak/>edu/<allowbreak/>directory/<allowbreak/>profile/<allowbreak/>farzadk</ref>) and his team on FUV image processing for ICON NASA mission.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid51">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid52" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid53" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid54" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid55">
+              <p noindent="true">Josiane Zerubia in collaboration with Farzad Kamalabadi from UIUC
+organized a special session at the Symposium URSI-France (<ref xlink:href="http://ursi-france.telecom-paristech.fr/evenements/journees-scientifiques/2017.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>ursi-france.<allowbreak/>telecom-paristech.<allowbreak/>fr/<allowbreak/>evenements/<allowbreak/>journees-scientifiques/<allowbreak/>2017.<allowbreak/>html</ref>)
+in Sophia Antipolis (February 2017).</p>
+            </li>
+            <li id="uid56">
+              <p noindent="true">Josiane Zerubia is part of the organizing committee and will be co-Chair of the EARTHVISION workshop at CVPR'17 (<ref xlink:href="http://cvpr2017.thecvf.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cvpr2017.<allowbreak/>thecvf.<allowbreak/>com/</ref>) in Hawaii, USA, in
+July 2017.</p>
+            </li>
+            <li id="uid57">
+              <p noindent="true">Josiane Zerubia is part of the organizing committee of the 50th GRETSI
+conference (<ref xlink:href="http://gretsi.fr/colloque2017/2016/10/bienvenue-au-gretsi-2017/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>gretsi.<allowbreak/>fr/<allowbreak/>colloque2017/<allowbreak/>2016/<allowbreak/>10/<allowbreak/>bienvenue-au-gretsi-2017/</ref>) which will take place in Juan-les-Pins, in September 2017.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid58" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid59" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <simplelist>
+            <li id="uid60">
+              <p noindent="true">Josiane Zerubia was part of the conference program committee of
+SYNASC'16 (<ref xlink:href="http://synasc.ro/2016/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>synasc.<allowbreak/>ro/<allowbreak/>2016/</ref>) in Timisoara, Romania, in September 2016.</p>
+            </li>
+            <li id="uid61">
+              <p noindent="true">Josiane Zerubia was part of the conference program committee of ISPRS/SPIE Remote Sensing'16 (<ref xlink:href="http://spie.org/Documents/ConferencesExhibitions/ERS-ESD16-Final-lr.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>spie.<allowbreak/>org/<allowbreak/>Documents/<allowbreak/>ConferencesExhibitions/<allowbreak/>ERS-ESD16-Final-lr.<allowbreak/>pdf</ref>)
+in Edinburgh, UK, in September 2016.</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid62" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <simplelist>
+            <li id="uid63">
+              <p noindent="true">Josiane Zerubia was a reviewer for the conferences IEEE ICASSP'16, IEEE ICIP'16, ISPRS-SPIE Remote Sensing'16, ECCV'16, IEEE CVPR'16, IAPR ICPR'16, IEEE EMBC'16, IEEE-EURASIP EUSIPCO'16 and SYNASC'16.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid64" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid65" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid66">
+              <p noindent="true">Josiane Zerubia is an Associate Editor of the collection "Foundation and Trends in Signal Processing" (<ref xlink:href="http://www.nowpublishers.com/SIG" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>nowpublishers.<allowbreak/>com/<allowbreak/>SIG</ref>).</p>
+            </li>
+            <li id="uid67">
+              <p noindent="true">Josiane Zerubia is a member of the Editorial Board of the "Revue Française de Photogrammétrie et
+de Télédétection of SFPT" (<ref xlink:href="http://www.sfpt.fr/rfpt/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sfpt.<allowbreak/>fr/<allowbreak/>rfpt/</ref>).</p>
+            </li>
+            <li id="uid68">
+              <p noindent="true">Josiane Zerubia is an Associate Editor of the electronic journal Earthzine (<ref xlink:href="http://www.earthzine.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>earthzine.<allowbreak/>org/</ref>).</p>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid69" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <simplelist>
+            <li id="uid70">
+              <p noindent="true">Ihsen Hedhli was a reviewer for IEEE TGRS, TGRL and TIP journals and Elsevier Pattern Recognition Letters.</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid71" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid72">
+            <p noindent="true">As IEEE SPS Distinguished Lecturer, Josiane Zerubia gave in 2016 ten
+invited talks: at DITEN Dept., University of Genoa, Italy, at the Faculty
+of Mathematics and Computer Science from the West University of
+Timisoara, Romania, at the Faculty of Electronics, Telecommunications &amp;
+IT and the Faculty of Medical Engineering, University Politehnica of
+Bucharest, Romania, at the Georgia Tech Research Institute in Atlanta,
+USA, at the SenSIP Center, School of Electrical, Computer &amp; Energy
+Engineering, Arizona State University, Tempe, USA, at both the Sine
+Seminars and the Remote Sensing Seminars, within the Coordinated Science Laboratory,
+University of Illinois at Urbana Champaign, USA, at the Signal
+and Communications laboratory in the Dept. of Engineering, University of
+Cambridge, UK, at the Faculty of Engineering, University of Bristol, UK,
+and finally a plenary talk at the international symposium ISIVC2016 in
+Tunis, organized by Sup'Com (see
+<ref xlink:href="http://www.supcom.mincom.tn/Fr/Fr/Fr/actualites-de-l-ecole_7_280_D875#.WG0L9jU5ReR" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>supcom.<allowbreak/>mincom.<allowbreak/>tn/<allowbreak/>Fr/<allowbreak/>Fr/<allowbreak/>Fr/<allowbreak/>actualites-de-l-ecole_7_280_D875#.<allowbreak/>WG0L9jU5ReR</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid73" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <simplelist>
+          <li id="uid74">
+            <p noindent="true">Josiane Zerubia is IEEE Fellow
+(<ref xlink:href="http://www.ieee.org/membership_services/membership/fellows/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>ieee.<allowbreak/>org/<allowbreak/>membership_services/<allowbreak/>membership/<allowbreak/>fellows/<allowbreak/>index.<allowbreak/>html</ref>)
+since 2003 and IEEE SPS Distinguished Lecturer since 2016
+(<ref xlink:href="http://signalprocessingsociety.org/newsletter/2015/11/sps-announces-2016-class-of-distinguished-lecturers/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>signalprocessingsociety.<allowbreak/>org/<allowbreak/>newsletter/<allowbreak/>2015/<allowbreak/>11/<allowbreak/>sps-announces-2016-class-of-distinguished-lecturers/</ref>).</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid75" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <simplelist>
+          <li id="uid76">
+            <p noindent="true">Josiane Zerubia was a reviewer for the Israeli Ministry of Science, Technology and Space (<ref xlink:href="http://most.gov.il/english/Pages/default.aspx" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>most.<allowbreak/>gov.<allowbreak/>il/<allowbreak/>english/<allowbreak/>Pages/<allowbreak/>default.<allowbreak/>aspx</ref>)</p>
+          </li>
+          <li id="uid77">
+            <p noindent="true">Josiane Zerubia is part of the Scientific Council of Academy 3 of UCA-Jedi (<ref xlink:href="http://univ-cotedazur.fr/english/idex-uca-jedi/academies-of-excellence" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>univ-cotedazur.<allowbreak/>fr/<allowbreak/>english/<allowbreak/>idex-uca-jedi/<allowbreak/>academies-of-excellence</ref>) dedicated to "Space, Environment, Risks and Resilience".</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid78" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <simplelist>
+          <li id="uid79">
+            <p noindent="true">Josiane Zerubia is part of the Board of Directors of the French Photogrammetry and Remote Sensing
+Society (<ref xlink:href="http://www.sfpt.fr/sfpt/bureau/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>sfpt.<allowbreak/>fr/<allowbreak/>sfpt/<allowbreak/>bureau/</ref>).</p>
+          </li>
+          <li id="uid80">
+            <p noindent="true">Josiane Zerubia is a member of the Inria-SAM Center Committee since 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid81" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid82" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <simplelist>
+          <li id="uid83">
+            <p noindent="true">Masters: Josiane Zerubia, Advanced Techniques in Signal and Image Processing, 30h eq. TD (20h
+of lectures), ISAE/SUPAERO, France. Josiane Zerubia is also director of this course (total: 30h
+of lectures and 10h of TD). This course was given to third-year students at ISAE/SUPAERO and
+was also validated by the M2 of Applied Mathematics at the University Toulouse III Paul Sabatier,
+France.</p>
+          </li>
+          <li id="uid84">
+            <p noindent="true">Masters: Josiane Zerubia, Deconvolution and Denoising in Confocal Microscopy, 18h eq. TD (12h
+of lectures), M2 BCC, Université de Nice Sophia-Antipolis, France. Josiane Zerubia is also director
+of this course (total: 24h of lectures).</p>
+          </li>
+          <li id="uid85">
+            <p noindent="true">Summer School (PhD and Post-doc level): Josiane Zerubia gave a presentation at the Summer School SSMIA'16 in Budapest, Romania.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid86" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid87">
+            <p noindent="true">PhD (defended with best honors): Ihsen Hedhli, Change detection methods for multisensor and multiresolution
+remote sensing images for applications to environmental disaster management, University of Genoa
+and Université Nice Sophia Antipolis, started in January 2013, defended in March 2016, Gabriele Moser and Josiane Zerubia.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid88" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <simplelist>
+          <li id="uid89">
+            <p noindent="true">Josiane Zerubia was a member of a PhD defense committee at University of Genoa,
+in Italy, in March 2016.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid90" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid91">
+          <p noindent="true">Josiane Zerubia presented Inria and Inria-SAM to Masters, PhDs and
+Post-docs of the following foreign universities during 2016:
+University of Genoa, West University of Timisoara, Georgia Tech, Arizona
+State University, University of Illinois at Urbana Champaign, University
+of Cambridge, University of Bristol.</p>
+        </li>
+        <li id="uid92">
+          <p noindent="true">Josiane Zerubia was interviewed in August with two other French women
+scientists working in remote sensing by a journalist for Earthzine (webzine
+supported by IEEE and NASA) see
+<ref xlink:href="https://earthzine.org/2016/10/13/the-three-musketeers-making-an-impact-in-french-remote-sensing-and-breaking-down-gender-barriers/ " location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>earthzine.<allowbreak/>org/<allowbreak/>2016/<allowbreak/>10/<allowbreak/>13/<allowbreak/>the-three-musketeers-making-an-impact-in-french-remote-sensing-and-breaking-down-gender-barriers/<allowbreak/>
+</ref></p>
+        </li>
+        <li id="uid93">
+          <p noindent="true">In September, Josiane Zerubia actively participated to a debate about
+Women in Signal Processing at the IEEE International Conference ICIP'16
+(<ref xlink:href="http://2016.ieeeicip.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>2016.<allowbreak/>ieeeicip.<allowbreak/>org/</ref>) in Phoenix, USA</p>
+        </li>
+        <li id="uid94">
+          <p noindent="true">Josiane Zerubia, with Gabriele Moser and Sebastiano Serpico from
+University of Genoa, wrote in December an article about natural disaster monitoring for ERCIM News, see
+<ref xlink:href="http://ercim-news.ercim.eu/en108/special/natural-disaster-monitoring-multi-source-image-analysis-with-hierarchical-markov-models" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>ercim-news.<allowbreak/>ercim.<allowbreak/>eu/<allowbreak/>en108/<allowbreak/>special/<allowbreak/>natural-disaster-monitoring-multi-source-image-analysis-with-hierarchical-markov-models</ref>.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="ayin-2016-bid0" type="book" rend="year" n="cite:moser:hal-01419170">
+      <identifiant type="hal" value="hal-01419170"/>
+      <monogr x-scientific-popularization="no" x-international-audience="yes">
+        <title level="m">Mathematical Models for Remote Sensing Image Processing: Models and Methods for the Analysis of 2D Satellite and Aerial Images</title>
+        <author>
+          <persName key="ayin-2014-idp78984">
+            <foreName>Gabriele</foreName>
+            <surname>Moser</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419170" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419170</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid1" type="phdthesis" rend="year" n="cite:hedhli:tel-01333880">
+      <identifiant type="hal" value="tel-01333880"/>
+      <monogr>
+        <title level="m">Hierarchical joint classification models for multi-resolution, multi-temporal and multi-sensor remote sensing images. Application to natural disasters</title>
+        <author>
+          <persName key="ayin-2014-idp66352">
+            <foreName>Ihsen</foreName>
+            <surname>Hedhli</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Nice Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01333880" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>tel.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>tel-01333880</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid11" type="incollection" rend="year" n="cite:batool:hal-01318198">
+      <identifiant type="doi" value="10.1007/978-3-319-25958-1_11"/>
+      <identifiant type="hal" value="hal-01318198"/>
+      <analytic>
+        <title level="a">Modeling of Facial Wrinkles for Applications in Computer Vision</title>
+        <author>
+          <persName key="ayin-2014-idp70080">
+            <foreName>Nazre</foreName>
+            <surname>Batool</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Rama</foreName>
+            <surname>Chellappa</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Michal</foreName>
+            <surname>Kawulok</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Emre M.</foreName>
+            <surname>Celebi</surname>
+            <initial>E. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Smolka</foreName>
+            <surname>Bogdan</surname>
+            <initial>S.</initial>
+          </persName>
+        </editor>
+        <title level="m">Advances in Face Detection and Facial Image Analysis</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">299-332</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01318198" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01318198</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid2" type="article" rend="year" n="cite:hedhli:hal-01308039">
+      <identifiant type="hal" value="hal-01308039"/>
+      <analytic>
+        <title level="a">A New Cascade Model for the Hierarchical Joint Classification of Multitemporal and Multiresolution Remote Sensing Data </title>
+        <author>
+          <persName key="ayin-2014-idp66352">
+            <foreName>Ihsen</foreName>
+            <surname>Hedhli</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="ayin-2014-idp78984">
+            <foreName>Gabriele</foreName>
+            <surname>Moser</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastiano B.</foreName>
+            <surname>Serpico</surname>
+            <initial>S. B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00727">
+        <idno type="issn">0196-2892</idno>
+        <title level="j">IEEE Transactions on Geoscience and Remote Sensing</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">11</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">6333 - 6348</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01308039" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01308039</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid4" type="article" rend="year" n="cite:krylov:hal-01347028">
+      <identifiant type="doi" value="10.1109/TIP.2016.2593340"/>
+      <identifiant type="hal" value="hal-01347028"/>
+      <analytic>
+        <title level="a">False Discovery Rate Approach to Unsupervised Image Change Detection</title>
+        <author>
+          <persName key="ayin-2014-idp76456">
+            <foreName>Vladimir A.</foreName>
+            <surname>Krylov</surname>
+            <initial>V. A.</initial>
+          </persName>
+          <persName key="ayin-2014-idp78984">
+            <foreName>Gabriele</foreName>
+            <surname>Moser</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastiano B.</foreName>
+            <surname>Serpico</surname>
+            <initial>S. B.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00728">
+        <idno type="issn">1057-7149</idno>
+        <title level="j">IEEE Transactions on Image Processing</title>
+        <imprint>
+          <biblScope type="volume">25</biblScope>
+          <biblScope type="number">10</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">4704-4718</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01347028" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01347028</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid9" type="article" rend="year" n="cite:li:hal-01217654">
+      <identifiant type="hal" value="hal-01217654"/>
+      <analytic>
+        <title level="a">Unsupervised Learning of Generalized Gamma Mixture Model with Application in Statistical Modeling of High-Resolution SAR Images</title>
+        <author>
+          <persName>
+            <foreName>Heng-Chao</foreName>
+            <surname>Li</surname>
+            <initial>H.-C.</initial>
+          </persName>
+          <persName key="ayin-2014-idp76456">
+            <foreName>Vladimir A.</foreName>
+            <surname>Krylov</surname>
+            <initial>V. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ping-Zhi</foreName>
+            <surname>Fan</surname>
+            <initial>P.-Z.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>William J.</foreName>
+            <surname>Emery</surname>
+            <initial>W. J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00727">
+        <idno type="issn">0196-2892</idno>
+        <title level="j">IEEE Transactions on Geoscience and Remote Sensing</title>
+        <imprint>
+          <biblScope type="volume">54</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2153-2170</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01217654" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01217654</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid8" type="inproceedings" rend="year" n="cite:batool:hal-01419385">
+      <identifiant type="hal" value="hal-01419385"/>
+      <analytic>
+        <title level="a">Detection and Spatial Analysis of Hepatic Steatosis in Histopathology Images using Sparse Linear Models</title>
+        <author>
+          <persName key="ayin-2014-idp70080">
+            <foreName>Nazre</foreName>
+            <surname>Batool</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IPTA 2016 - Sixth International Conference on Image Processing Theory, Tools and Applications</title>
+        <loc>Oulu, Finland</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01419385" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01419385</ref>
+        </imprint>
+        <meeting id="cid625399">
+          <title>International Conference on Image Processing Theory, Tools and Applications</title>
+          <num>6</num>
+          <abbr type="sigle">IPTA</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid10" type="inproceedings" rend="year" n="cite:craciun:hal-01319757">
+      <identifiant type="hal" value="hal-01319757"/>
+      <analytic>
+        <title level="a">Stochastic Geometry for Multiple Object Tracking in Fluorescence Microscopy</title>
+        <author>
+          <persName key="ayin-2014-idp65096">
+            <foreName>Paula</foreName>
+            <surname>Craciun</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Image Processing (ICIP)</title>
+        <loc>Phoenix, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01319757" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01319757</ref>
+        </imprint>
+        <meeting id="cid83858">
+          <title>IEEE International Conference on Image Processing</title>
+          <num>16</num>
+          <abbr type="sigle">ICIP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid7" type="inproceedings" rend="year" n="cite:hedhli:hal-01316611">
+      <identifiant type="hal" value="hal-01316611"/>
+      <analytic>
+        <title level="a">Contextual Multi-Scale Image Classification on Quadtree</title>
+        <author>
+          <persName key="ayin-2014-idp66352">
+            <foreName>Ihsen</foreName>
+            <surname>Hedhli</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="ayin-2014-idp78984">
+            <foreName>Gabriele</foreName>
+            <surname>Moser</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastiano B.</foreName>
+            <surname>Serpico</surname>
+            <initial>S. B.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE International Conference on Image Processing (ICIP)</title>
+        <loc>Phoenix, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01316611" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01316611</ref>
+        </imprint>
+        <meeting id="cid83858">
+          <title>IEEE International Conference on Image Processing</title>
+          <num>16</num>
+          <abbr type="sigle">ICIP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid3" type="inproceedings" rend="year" n="cite:hedhli:hal-01415568">
+      <identifiant type="hal" value="hal-01415568"/>
+      <analytic>
+        <title level="a">Multi-resolution Classification of Urban Areas Using Hierarchical Symmetric Markov Mesh Models</title>
+        <author>
+          <persName key="ayin-2014-idp66352">
+            <foreName>Ihsen</foreName>
+            <surname>Hedhli</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="ayin-2014-idp78984">
+            <foreName>Gabriele</foreName>
+            <surname>Moser</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Sebastiano B</foreName>
+            <surname>Serpico</surname>
+            <initial>S. B.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">IEEE GRS/ISPRS Joint Urban Remote Sensing Event (JURSE)</title>
+        <loc>Dubai, United Arab Emirates</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01415568" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01415568</ref>
+        </imprint>
+        <meeting id="cid625203">
+          <title>Joint Urban Remote Sensing Event</title>
+          <num>2017</num>
+          <abbr type="sigle">JURSE</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid5" type="inproceedings" rend="year" n="cite:madooei:hal-01408854">
+      <identifiant type="hal" value="hal-01408854"/>
+      <analytic>
+        <title level="a">Hyperspectral Image Processing for Detection and Grading of Skin Erythema</title>
+        <author>
+          <persName key="ayin-2015-idp69752">
+            <foreName>Ali</foreName>
+            <surname>Madooei</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Ramy Mohammed</foreName>
+            <surname>Abdlaty</surname>
+            <initial>R. M.</initial>
+          </persName>
+          <persName>
+            <foreName>Lilian S</foreName>
+            <surname>Doerwald-Munoz</surname>
+            <initial>L. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Joseph S</foreName>
+            <surname>Hayward</surname>
+            <initial>J. S.</initial>
+          </persName>
+          <persName>
+            <foreName>Mark S</foreName>
+            <surname>Drew</surname>
+            <initial>M. S.</initial>
+          </persName>
+          <persName key="ayin-2014-idp72608">
+            <foreName>Qiyin</foreName>
+            <surname>Fang</surname>
+            <initial>Q.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">SPIE Medical Imaging</title>
+        <loc>Orlando, Florida, United States</loc>
+        <imprint>
+          <dateStruct>
+            <month>February</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01408854" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01408854</ref>
+        </imprint>
+        <meeting id="cid316477">
+          <title>SPIE International Symposium on Medical Imaging</title>
+          <num>2007</num>
+          <abbr type="sigle">SPIE MI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="ayin-2016-bid6" type="unpublished" rend="year" n="cite:jeong:hal-01414864">
+      <identifiant type="hal" value="hal-01414864"/>
+      <monogr>
+        <title level="m">Progressive Tree-like Curvilinear Structure Reconstruction with Structured Ranking Learning and Graph Algorithm</title>
+        <author>
+          <persName key="ayin-2014-idp67600">
+            <foreName>Seong-Gyun</foreName>
+            <surname>Jeong</surname>
+            <initial>S.-G.</initial>
+          </persName>
+          <persName key="ayin-2014-idp63848">
+            <foreName>Yuliya</foreName>
+            <surname>Tarabalka</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName key="coati-2014-idp68264">
+            <foreName>Nicolas</foreName>
+            <surname>Nisse</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="ayin-2014-idp59640">
+            <foreName>Josiane</foreName>
+            <surname>Zerubia</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01414864" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01414864</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+  </biblio>
+</raweb>

@@ -1,0 +1,2606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="castor" isproject="true">
+    <shortname>CASTOR</shortname>
+    <projectName>Control, Analysis and Simulations for TOkamak Research</projectName>
+    <theme-de-recherche>Earth, Environmental and Energy Sciences</theme-de-recherche>
+    <domaine-de-recherche>Digital Health, Biology and Earth</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/castor/</urlTeam>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire Jean-Alexandre Dieudonné (JAD)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>CNRS</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Nice - Sophia Antipolis</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Team: 2012 July 01, updated into Project-Team: 2014 July 01</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>6. - Modeling, simulation and control</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>6.1.1. - Continuous Modeling (PDE, ODE)</term>
+      <term>6.1.4. - Multiscale modeling</term>
+      <term>6.1.5. - Multiphysics modeling</term>
+      <term>6.2. - Scientific Computing, Numerical Analysis &amp; Optimization</term>
+      <term>6.2.1. - Numerical analysis of PDE and ODE</term>
+      <term>6.2.6. - Optimization</term>
+      <term>6.2.7. - High performance computing</term>
+      <term>6.2.8. - Computational geometry and meshes</term>
+      <term>6.3. - Computation-data interaction</term>
+      <term>6.3.1. - Inverse problems</term>
+      <term>6.3.2. - Data assimilation</term>
+      <term>6.3.4. - Model reduction</term>
+      <term>6.4. - Automatic control</term>
+      <term>6.4.1. - Deterministic control</term>
+      <term>6.4.4. - Stability and Stabilization</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4. - Energy</term>
+      <term>4.2.2. - Fusion</term>
+    </keywordsSecteurs>
+    <UR name="Sophia"/>
+  </identification>
+  <team id="uid1">
+    <person key="castor-2014-idm27504">
+      <firstname>Jacques</firstname>
+      <lastname>Blum</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Team leader, Univ. Nice, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2014-idm26248">
+      <firstname>Hervé</firstname>
+      <lastname>Guillard</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2014-idm24776">
+      <firstname>Holger</firstname>
+      <lastname>Heumann</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Starting Research position</moreinfo>
+    </person>
+    <person key="castor-2014-idp67168">
+      <firstname>Sebastian</firstname>
+      <lastname>Minjeaud</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Researcher</moreinfo>
+    </person>
+    <person key="castor-2014-idp68408">
+      <firstname>Richard</firstname>
+      <lastname>Pasquetti</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2014-idp69848">
+      <firstname>Boniface</firstname>
+      <lastname>Nkonga</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2015-idp114064">
+      <firstname>Francesca</firstname>
+      <lastname>Rapetti</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Associate Professor, until Aug 2016</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2014-idp71096">
+      <firstname>Afeintou</firstname>
+      <lastname>Sangam</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Associate Professor</moreinfo>
+    </person>
+    <person key="castor-2014-idp72352">
+      <firstname>Blaise</firstname>
+      <lastname>Faugeras</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2015-idp116768">
+      <firstname>Ayoub</firstname>
+      <lastname>Iaagoubi</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="gamma3-2014-idp88712">
+      <firstname>Alexis</firstname>
+      <lastname>Loyer</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="castor-2014-idp82280">
+      <firstname>Elise</firstname>
+      <lastname>Estibals</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="castor-2014-idp81064">
+      <firstname>Jose</firstname>
+      <lastname>Costa</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>CNRS</moreinfo>
+    </person>
+    <person key="castor-2014-idp73584">
+      <firstname>Montserrat</firstname>
+      <lastname>Argente</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+    <person key="castor-2014-idp76104">
+      <firstname>Didier</firstname>
+      <lastname>Auroux</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Faculty Member</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="castor-2014-idp77352">
+      <firstname>Cédric</firstname>
+      <lastname>Boulbe</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, Associate Professor</moreinfo>
+    </person>
+    <person key="castor-2016-idp152224">
+      <firstname>Minh Duy</firstname>
+      <lastname>Truong</lastname>
+      <categoryPro>AutreCategorie</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Inria, Internship, from Apr 2016 until Aug 2016</moreinfo>
+    </person>
+    <person key="castor-2016-idp154720">
+      <firstname>Song</firstname>
+      <lastname>Xiao</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Sophia</research-centre>
+      <moreinfo>Univ. Nice, from Oct. 2016</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Presentation</bodyTitle>
+      <p>In order to fulfill the increasing demand,
+alternative energy sources have to be developed. Indeed, the
+current rate of fossil fuel usage and its serious adverse
+environmental impacts (pollution, greenhouse gas emissions, ...) lead
+to an energy crisis accompanied by potentially disastrous
+global climate changes.</p>
+      <p noindent="true">Controlled fusion power is one of the most promising
+alternatives to the use of fossil resources, potentially
+with a unlimited source of fuel. France with the ITER
+(<ref xlink:href="http://www.iter.org/default.aspx" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>iter.<allowbreak/>org/<allowbreak/>default.<allowbreak/>aspx</ref>) and
+Laser Megajoule (<ref xlink:href="http://www-lmj.cea.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www-lmj.<allowbreak/>cea.<allowbreak/>fr/</ref>) facilities is strongly involved in the
+development of these two parallel approaches to master
+fusion that are magnetic and inertial confinement.
+Although the principles of fusion
+reaction are well understood from nearly sixty years, (the design of
+tokamak dates back from studies done in the '50 by Igor Tamm
+and Andreï Sakharov in the former Soviet Union), the route
+to an industrial reactor is still long and the application
+of controlled fusion for energy production
+is beyond our present knowledge of related physical
+processes. In magnetic confinement,
+beside technological constraints involving for
+instance the design of plasma-facing component, one of the main
+difficulties in the building of a controlled fusion reactor
+is the poor confinement time reached so far.
+This confinement time is actually governed by turbulent
+transport that therefore determines the performance of
+fusion plasmas. The prediction of the level of turbulent
+transport in large machines such as ITER is therefore of
+paramount importance for the success of the researches on
+controlled magnetic fusion.</p>
+      <p noindent="true">The other route for fusion plasma is inertial
+confinement. In this latter case,
+large scale hydrodynamical instabilities prevent a
+sufficiently large energy deposit and
+lower the return of the target. Therefore, for both
+magnetic and inertial confinement technologies, the success of the projects
+is deeply linked to the theoretical understanding of plasma
+turbulence and flow instabilities as well as to mathematical and
+numerical improvements enabling the development of
+predictive simulation tools.</p>
+      <p noindent="true"><span class="smallcap" align="left">Castor </span>gathers the activities in numerical simulation
+of fusion plasmas with the activities in control and optimisation done in the laboratory
+Jean-Alexandre Dieudonné of the University of Nice.
+The main objective of the <span class="smallcap" align="left">Castor </span>team is to contribute
+to the development of innovative numerical tools to improve
+the computer simulations of complex turbulent or unstable flows in plasma physics and to develop
+methods allowing the real-time control of these flows or the optimisation of scenarios of plasma discharges in tokamaks.
+<span class="smallcap" align="left">Castor </span>is a common project between Inria (<ref xlink:href="http://www.inria.fr/centre/sophia" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>centre/<allowbreak/>sophia</ref>) and the
+University of Nice Sophia-Antipolis and CNRS through the laboratory
+Jean-Alexandre Dieudonné, UMR UNS-CNRS 7351, (<ref xlink:href="http://math.unice.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>math.<allowbreak/>unice.<allowbreak/>fr</ref>).</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Plasma Physics</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm27504">
+          <firstname>Jacques</firstname>
+          <lastname>Blum</lastname>
+        </person>
+        <person key="castor-2014-idp77352">
+          <firstname>Cédric</firstname>
+          <lastname>Boulbe</lastname>
+        </person>
+        <person key="castor-2014-idp72352">
+          <firstname>Blaise</firstname>
+          <lastname>Faugeras</lastname>
+        </person>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+        <person key="castor-2014-idp67168">
+          <firstname>Sebastian</firstname>
+          <lastname>Minjeaud</lastname>
+        </person>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+        <person key="castor-2014-idp68408">
+          <firstname>Richard</firstname>
+          <lastname>Pasquetti</lastname>
+        </person>
+        <person key="castor-2014-idp71096">
+          <firstname>Afeintou</firstname>
+          <lastname>Sangam</lastname>
+        </person>
+      </participants>
+      <p>The main reseach topics are:</p>
+      <orderedlist>
+        <li id="uid6">
+          <p noindent="true">Modelling and analysis</p>
+          <simplelist>
+            <li id="uid7">
+              <p noindent="true">Fluid closure in plasma</p>
+            </li>
+            <li id="uid8">
+              <p noindent="true">Turbulence</p>
+            </li>
+            <li id="uid9">
+              <p noindent="true">Plasma anisotropy type instabilities</p>
+            </li>
+            <li id="uid10">
+              <p noindent="true">Free boundary equilibrium (FBE)</p>
+            </li>
+            <li id="uid11">
+              <p noindent="true">Coupling FBE – Transport</p>
+            </li>
+          </simplelist>
+        </li>
+        <li id="uid12">
+          <p noindent="true">Numerical methods and simulations</p>
+          <simplelist>
+            <li id="uid13">
+              <p noindent="true">High order methods</p>
+            </li>
+            <li id="uid14">
+              <p noindent="true">Curvilinear coordinate systems</p>
+            </li>
+            <li id="uid15">
+              <p noindent="true">Equilibrium simulation</p>
+            </li>
+            <li id="uid16">
+              <p noindent="true">Pressure correction scheme</p>
+            </li>
+            <li id="uid17">
+              <p noindent="true">Anisotropy</p>
+            </li>
+            <li id="uid18">
+              <p noindent="true">Solving methods and parallelism</p>
+            </li>
+          </simplelist>
+        </li>
+        <li id="uid19">
+          <p noindent="true">Identification and control</p>
+          <simplelist>
+            <li id="uid20">
+              <p noindent="true">Inverse problem: Equilibrium reconstruction</p>
+            </li>
+            <li id="uid21">
+              <p noindent="true">Open loop control</p>
+            </li>
+          </simplelist>
+        </li>
+        <li id="uid22">
+          <p noindent="true">Applications</p>
+          <simplelist>
+            <li id="uid23">
+              <p noindent="true">MHD instabilities : Edge-Localized Modes (ELMs)</p>
+            </li>
+            <li id="uid24">
+              <p noindent="true">Edge plasma turbulence</p>
+            </li>
+            <li id="uid25">
+              <p noindent="true">Optimization of scenarii</p>
+            </li>
+          </simplelist>
+        </li>
+      </orderedlist>
+    </subsection>
+  </fondements>
+  <logiciels id="uid26">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid27" level="1">
+      <bodyTitle>Equinox</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>EQUINOX is a code dedicated to the numerical reconstruction of the equilibrium of the plasma in a Tokamak. The problem solved consists in the identification of the plasma current density, a non-linear source in the 2D Grad-Shafranov equation which governs the axisymmetric equilibrium of a plasma in a Tokamak. The experimental measurements that enable this identification are the magnetics on the vacuum vessel, but also polarimetric and interferometric measures on several chords, as well as motional Stark effect measurements. The reconstruction can be obtained in real-time and the numerical method implemented involves a finite element method, a fixed-point algorithm and a least-square optimization procedure. A deposit with APP (Agence pour la protection des programmes) has been done in 2016.</p>
+      <simplelist>
+        <li id="uid28">
+          <p noindent="true">Participants: Jacques Blum, Cedric Boulbe and Blaise Faugeras</p>
+        </li>
+        <li id="uid29">
+          <p noindent="true">Contact: Blaise Faugeras</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid30" level="1">
+      <bodyTitle>VacTH</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>VacTH implements a method based on the use of toroidal harmonics and on a modelization of the poloidal field coils and divertor coils for the 2D interpolation and extrapolation of discrete magnetic measurements in a tokamak. The method is generic and can be used to provide the Cauchy boundary conditions needed as input by a fixed domain equilibrium reconstruction code like EQUINOX. It can also be used to extrapolate the magnetic measurements in order to compute the plasma boundary itself. VacTH is foreseen to be used in the real-time plasma control loop on the WEST tokamak.</p>
+      <simplelist>
+        <li id="uid31">
+          <p noindent="true">Contact: Blaise Faugeras</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>CEDRES++</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>In Tokamaks, at the slow resistive diffusion time scale, the magnetic configuration in the plasma can be described by the MHD equilibrium equations inside the plasma and the Maxwell equations outside. Moreover, the magnetic field is often supposed not to depend on the azimutal angle.</p>
+      <p>Under this assumption of axisymmetric configuration, the equilibrium in the whole space reduces to solving a 2D problem in which the magnetic field in the plasma is described by the well known Grad Shafranov equation. The unknown of this problem is the poloidal magnetic flux. The <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>P</mi><mn>1</mn></msub></math></formula> finite element code CEDRES++ solves this free boundary equilibrium problem in direct and inverse mode and in static and evolutive formulations. The direct problem consists in the computation of the magnetic configuration and of the plasma boundary, given a plasma current density profile and the total current in each poloidal field coils (PF coils) for the static case and the voltages applied to PF supplies in the evolutive one. The aim of the inverse problem is to find currents in the PF coils in order to best fit a given plasma shape. The code is one of the free boundary codes avalaible in the european Eurofusion - WPCD (WorkPackage Code Development for integrated modelling) platform.</p>
+      <simplelist>
+        <li id="uid33">
+          <p noindent="true">Participants: Cedric Boulbe, Jacques Blum, Blaise Faugeras and Holger Heumann</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">Partners: CEA - CNRS - Université de Nice Sophia Antipolis (UNS)</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">Contact: Cédric Boulbe</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>FEEQS.M</bodyTitle>
+      <p>Finite Element Equilibrium Solver in MATLAB</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>FEEQS.M (Finite Element Equilibrium Solver in Matlab) is a MATLAB implementation of the numerical methods in [Heumann2015] to solve equilibrium problems for toroidal plasmas. Direct and inverse problems for both the static and transient formulations of plasma equilibrium can be solved. FEEQS.M exploits MATLAB‘s evolved sparse matrix methods and uses heavily the vectorization programming paradigm, which results in running times comparable to C/C++ implementations. FEEQS.M complements the production code CEDRES++ in being considered as fast prototyping test bed for computational methods for equilibrium problems. This includes aspects of numerics such as improved robustness of the Newton iterations or optimization algorithms for inverse problems (see <ref xlink:href="#castor-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>). The recent developments include:</p>
+      <simplelist>
+        <li id="uid37">
+          <p noindent="true">the comparison of FEM-BEM coupling (with B. Faugeras),</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">overlapping mesh methods for free-boundary equilibrium,</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">direct and inverse modes for simulations and optimal control approach to breakdown (with Eric Nardon, CEA Cadarache)</p>
+        </li>
+      </simplelist>
+      <simplelist>
+        <li id="uid40">
+          <p noindent="true">Participant: Holger Heumann</p>
+        </li>
+        <li id="uid41">
+          <p noindent="true">Contact: Holger Heumann</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">URL: <ref xlink:href="https://scm.gforge.inria.fr/svn/holgerheumann/Matlab/FEEQS.M" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>scm.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>svn/<allowbreak/>holgerheumann/<allowbreak/>Matlab/<allowbreak/>FEEQS.<allowbreak/>M</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid43" level="1">
+      <bodyTitle>Fluidbox</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>FluidBox is a software dedicated to the simulation of inert or reactive flows. It is also able to simulate multiphase, multi-material and MDH flows. There exist 2D and 3D dimensional versions. The 2D version is used to test new ideas that are later implemented in 3D. Two classes of schemes are available : a classical finite volume scheme and the more recent residual distribution schemes. Several low Mach number preconditioning are also implemented. The code has been parallelized with and without domain overlapping.</p>
+      <simplelist>
+        <li id="uid44">
+          <p noindent="true">Participants: Remi Abgrall, Boniface Nkonga, Michael Papin and Mario Ricchiuto</p>
+        </li>
+        <li id="uid45">
+          <p noindent="true">Contact: Boniface Nkonga</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid46" level="1">
+      <bodyTitle>Jorek-Django</bodyTitle>
+      <p>
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Jorek-Django is a new version of the JOREK software, for MHD modelling of plasma dynamic in tokamaks geometries. The numerical approximation is derived in the context of finite elements where 3D basic functions are tensor products of 2D basis functions in the poloidal plane by 1D basis functions in the toroidal direction. More specifically, Jorek uses curved bicubic isoparametric elements in 2D and a spectral decomposition (sine, cosine) in the toroidal axis. Continuity of derivatives and mesh alignment to equilibrium surface fluxes are enforced. Resulting linear systems are solved by the PASTIX software developed at Inria-Bordeaux.</p>
+      <simplelist>
+        <li id="uid47">
+          <p noindent="true">Participants: Boniface Nkonga, Hervé Guillard, Emmanuel Franck, Ayoub Iaagoubi, Ahmed Ratnani</p>
+        </li>
+        <li id="uid48">
+          <p noindent="true">Contact: Hervé Guillard</p>
+        </li>
+        <li id="uid49">
+          <p noindent="true">URL: <ref xlink:href="https://gforge.inria.fr/projects/jorek/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>projects/<allowbreak/>jorek/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid50" level="1">
+      <bodyTitle>FBGKI</bodyTitle>
+      <p>Full Braginskii</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The Full Braginskii solver considers the equations proposed by Braginskii (1965), in order to describe the plasma turbulent transport in the edge part of tokamaks. These equations rely on a two fluid (ion - electron) description of the plasma and on the electroneutrality and electrostatic assumptions. One has then a set of 10 coupled non-linear and strongly anisotropic PDEs. FBGKI makes use in space of high order methods: Fourier in the toroidal periodic direction and spectral elements in the poloidal plane. The integration in time is based on a Strang splitting and Runge-Kutta schemes, with implicit treatment of the Lorentz terms (DIRK scheme). The spectral vanishing viscosity (SVV) technique is implemented for stabilization. Static condensation is used to reduce the computational cost. In its sequential version, a matrix free solver is used to compute the potential. The parallel version of the code is under development.</p>
+      <simplelist>
+        <li id="uid51">
+          <p noindent="true">Contact: Sebastian Minjeaud</p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>PlaTo</bodyTitle>
+      <p>A platform for Tokamak simulation</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>PlaTo (A platform for Tokamak simulation) is a suite of data and software dedicated to the
+geometry and physics of Tokamaks.
+Plato offers interfaces for reading and handling distributed unstructured meshes,
+numerical templates for parallel discretizations, interfaces for distributed matrices and
+linear and non-linear equation solvers.
+Plato provides meshes and solutions corresponding to equilibrium solutions that can be used
+as initial data for more complex computations as well as tools for visualization
+using Visit or Paraview. Plato is no more developed and is in the process of being merged with
+Jorek-Django</p>
+      <simplelist>
+        <li id="uid53">
+          <p noindent="true">Participants: Boniface Nkonga, Hervé Guillard, Giorgio Giorgiani, Afeintou Sangam
+and Elise Estibals</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">Contact: Hervé Guillard</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid55">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Mathematical theory of reduced MHD models</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+      </participants>
+      <p>In the modelling of strongly magnetized plasma, one of the fundamental model used is the
+magnetohydrodynamic (MHD) model. However, in practice, many theoretical and numerical works in this field
+use specific
+approximations of this model known as <i>reduced</i> MHD models. These models assume that in the presence
+of a strong magnetic field, the main dynamic reduces to incompressible motion in the plane perpendicular
+to the plasma and to the propagation of Alfvén waves in the magnetic field direction.
+In the framework of the slab approximation
+for large aspect ratio tokamaks (<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>R</mi><mo>/</mo><mi>a</mi><mo>&gt;</mo><mo>&gt;</mo><mn>1</mn></mrow></math></formula> where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>R</mi></math></formula> and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>a</mi></math></formula> are respectively the major and minor radius of the
+machine) we have studied the validity of this assumption using techniques coming from the asymptotic theory
+of hyperbolic equations with a large parameter.
+In particular, we have proved that
+the solutions of the full MHD system converge in a weak sense to the solutions of an appropriate
+reduced model even in the presence of ill-prepared initial data.</p>
+      <p noindent="true"/>
+    </subsection>
+    <subsection id="uid57" level="1">
+      <bodyTitle>Behavior of upwind finite volume scheme for Low Mach number flows</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+      </participants>
+      <p>We have performed a review of
+different modifications proposed to enable compressible flow
+solvers to compute accurately flows near the incompressible limit. The reasons of the failure
+of upwind solvers to obtain accurate solutions in the low Mach number regime have been explained and
+different corrections proposed in the literature have been reviewed and discussed. Numerical
+experiments to illustrate the behavior of the different methods have been done and presented.
+This work will be published in 2017 as a contribution for the “Handbook of numerical analysis”
+collection.
+</p>
+    </subsection>
+    <subsection id="uid58" level="1">
+      <bodyTitle> Finite volume approximations for fusion plasma</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="castor-2014-idp71096">
+          <firstname>Afeintou</firstname>
+          <lastname>Sangam</lastname>
+        </person>
+        <person key="castor-2014-idp82280">
+          <firstname>Elise</firstname>
+          <lastname>Estibals</lastname>
+        </person>
+      </participants>
+      <p>The MHD model used for plasma studies in tokamak is very often based on the magnetic
+vector potential form of the equations where the vector potential satisfies
+<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>∇</mi><mo>×</mo><mi>𝐀</mi><mo>=</mo><mi>𝐁</mi></mrow></math></formula> with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝐁</mi></math></formula> the
+magnetic field and only a
+small number of numerical models uses the conservative formulation based on <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝐁</mi></math></formula>.
+One of the shortcomings of this latter formulation is the necessity to enforce numerically the
+divergence free constraint on the magnetic field that can be difficult to achieve
+and/or computationally costly. Another difficulty is that the equilibrium solution of the MHD
+equation given by the Grad-Shafranov equation is not an exact solution of the discrete equation.</p>
+      <p noindent="true">We have begun to investigate the use of the <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>𝐁</mi></math></formula> formulation for tokamak studies.
+The divergence
+free constraint is taken into account by a projection at each time step on a rotated gradient
+field. This step ensures a strict respect of the divergence free constraint while being extremely
+cheap since the scalar field is simply advected by the flow. The numerical experiments performed
+show that this method is efficient for the study of discontinuous MHD flows. For plasma fusion flows, the
+method experiences presently some difficulties to compute steady equilibrium flows.
+</p>
+    </subsection>
+    <subsection id="uid59" level="1">
+      <bodyTitle>Bi-temperature Euler equations</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="castor-2014-idp71096">
+          <firstname>Afeintou</firstname>
+          <lastname>Sangam</lastname>
+        </person>
+        <person key="castor-2014-idp82280">
+          <firstname>Elise</firstname>
+          <lastname>Estibals</lastname>
+        </person>
+      </participants>
+      <p>A particular class of extended MHD models uses a description of the plasma where the ionic and electronic
+temperatures are different while velocities and densities are common to the two species. This
+preliminary work has examined the construction of finite volume numerical schemes for two-temperature models
+in the context of the Euler equations. The finite volume scheme uses the assumption that the electronic entropy is
+constant across the shocks to define the weak solutions of the system and the numerical fluxes are obtained
+with a relaxation scheme. Numerical simulations of several test-cases involving strong shocks show that
+this numerical strategy is efficient even in the presence of strong temperature differences between ions and
+electrons.
+</p>
+    </subsection>
+    <subsection id="uid60" level="1">
+      <bodyTitle>Domain segmentation using the Reeb Graph</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Adrien</firstname>
+          <lastname>Loseille (gamma3 Inria-Saclay)</lastname>
+        </person>
+        <person key="gamma3-2014-idp88712">
+          <firstname>Alexis</firstname>
+          <lastname>Loyer</lastname>
+        </person>
+      </participants>
+      <p>The generation of block structured meshes is a difficult task that is not easily automated and very
+often ask for manual intervention and specific expertise. We show in this work that if the required
+mesh is constrained to be aligned on the contour lines of a Morse function, then the mesh generation
+process can be done in a fully automatic way and reduces to only two basic meshing operations. This
+technique can be useful for a large number of potential applications. It is here studied for the
+construction of flux surface aligned meshes in the framework of the EoCoE project.
+</p>
+    </subsection>
+    <subsection id="uid61" level="1">
+      <bodyTitle>Equilibrium reconstruction</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp72352">
+          <firstname>Blaise</firstname>
+          <lastname>Faugeras</lastname>
+        </person>
+        <person key="castor-2014-idm27504">
+          <firstname>Jacques</firstname>
+          <lastname>Blum</lastname>
+        </person>
+        <person key="castor-2014-idp77352">
+          <firstname>Cédric</firstname>
+          <lastname>Boulbe</lastname>
+        </person>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+      </participants>
+      <p>Within the framework of the European Integrated Tokamak Modelling WPCD project
+we have been involved in a benchmark study between the equilibrium reconstruction codes
+EQUINOX, EQUAL and CLISTE on AUG (Asdex Upgrade) equilibriums. This work has been presented at the 2016 EPS conference.</p>
+      <p>The benchmark study leads us to include new functionalities to EQUINOX such as the possibility
+to use a radially variable regularization
+and the computation of error bars on the reconstructed profiles.</p>
+      <p noindent="true">In order to be used on the WEST tokamak, EQUINOX has been adapted
+to the ITER standard "IMAS" using IDS as data type.</p>
+      <p noindent="true">A numerical method for equilibrium reconstruction using magnetic measurements as well as polarimetry
+measurements with their Stokes vector representation has been developped in order to take into account the so-called
+Cotton-Mouton effect. The algorithm is based on optimal control of a coupled partial
+and ordinary differential equations system. The method is being tested on an ITER test case.
+</p>
+    </subsection>
+    <subsection id="uid62" level="1">
+      <bodyTitle>FEB-BEM numerical methods for equilibrium computation</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp72352">
+          <firstname>Blaise</firstname>
+          <lastname>Faugeras</lastname>
+        </person>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+      </participants>
+      <p>A code which treats the quasi-static free-boundary equilibrium problem needs to solve nonlinear elliptic or parabolic problems with nonlinear source terms representing the current density profile vanishing outside the unknown free boundary of the plasma. The computational challenges in the design of such a code are: a problem setting in an unbounded domain with a nonlinearity due to the current density profile in the unknown plasma domain and the nonlinear magnetic permeability if the machine has ferromagnetic structures.
+In this project we focused on how the simulation on the unbounded domain can be reduced to computations on an interior bounded domain thanks to analytical Green’s functions. The numerical solution on the interior domain is coupled through boundary conditions to the Green’s function representation of the solution in the unbounded exterior domain. This approach is today fairly standard in many other application areas such as electromagnetics or elasticity and falls into the framework of the boundary element method (BEM). Most authors in the fusion literature deal with this question using the same method from von Hagenow and Lackner whereas the coupling can be conceived in different ways. In this project we implemented 3 different schemes in order to assess their performance. One of them, the classical Johnson-Nédélec FEM-BEM coupling (JNC) has never been tested before in a fusion equilibrium code.</p>
+    </subsection>
+    <subsection id="uid63" level="1">
+      <bodyTitle>A finite element method with overlapping meshes for free-boundary toroidal
+plasma equilibria in realistic geometry</bodyTitle>
+      <participants>
+        <person key="castor-2015-idp114064">
+          <firstname>Francesca</firstname>
+          <lastname>Rapetti</lastname>
+        </person>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+      </participants>
+      <p>Existing finite element implementations for the computation of free-boundary
+axisymmetric plasma equilibria approximate the unknown poloidal flux function
+by standard lowest order continuous finite elements with discontinuous gradients.
+The location of critical points of the poloidal flux, that are of paramount
+importance in tokamak engineering, is constrained to nodes of the mesh, which
+leads to undesired jumps in transient problems. Moreover, recent numerical
+results for the self-consistent coupling of equilibrium with resistive diffusion and
+transport suggest the necessity of higher regularity when approximating the
+flux map.</p>
+      <p>In <ref xlink:href="#castor-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we have proposed a mortar element method that employs two
+overlapping meshes. One mesh with Cartesian quadrilaterals covers the vacuum
+domain and one mesh with triangles discretizes the region outside the vacuum
+domain. The two meshes overlap in a narrow region around the vacuum domain.
+This approach gives the flexibility to achieve easily and at low cost higher order
+regularity for the approximation of the flux function in the domain covered by
+the plasma, while preserving accurate meshing of the geometric details exterior
+to the vacuum. The continuity of the numerical solution in the region of overlap
+is weakly enforced by a mortar-like projection.
+We have shown that the numerical calculation of free boundary plasma equilibria
+highly benefits from approximating the poloidal flux through some higher regular
+FE functions in the interior of the limiter.</p>
+      <p>In <ref xlink:href="#castor-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, we have rather analysed
+the precision of the proposed approach, by varying the discretization parameters.
+We thus compute the approximation error between the computed and the synthetic
+solution of a model problem for the same method adopted in [1], by changing, for
+example, the local polynomial degree in the subdomains, the size of the overlap
+between the meshes, the local size of the mesh elements. Indeed, FE methods on
+composite meshes are widely used in practice, but their theoretical foundation is
+fairly limited in the literature. Therefore, we have reported in [2] some experimental
+convergence
+results for different discretization schemes involving composite meshes.
+</p>
+    </subsection>
+    <subsection id="uid64" level="1">
+      <bodyTitle>Circuit Equations</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+      </participants>
+      <p>We derived a new formulation to combine the circuit equations due to the poloidal field coil system with
+free boundary equilibrium calculations. The previous formulations based on a least squares formulation
+ developed for and implemented in CEDRES++, was suffering from numerical instabilities.
+The new formulation was implemented in FEEQS.M and successfully validated.</p>
+    </subsection>
+    <subsection id="uid65" level="1">
+      <bodyTitle>Optimization of tokamak breakdown scenarios</bodyTitle>
+      <participants>
+        <person key="castor-2014-idm24776">
+          <firstname>Holger</firstname>
+          <lastname>Heumann</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Eric</firstname>
+          <lastname>Nardon</lastname>
+        </person>
+      </participants>
+      <p>The standard method to initiate a plasma in a tokamak is to realize a so called Townsend avalanche by applying a high enough toroidal electric field (i.e. loop voltage) by means of a fast variation of the current in the poloidal field coils (in particular the central solenoid). For the avalanche to take place, the electrons need to be able to travel along the field lines over a long enough distance, so that they can gain an energy significantly larger than the ionization energy of the atoms. An empirical criterion for a successful breakdown is thus <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>E</mi><msub><mi>L</mi><mi>c</mi></msub><mo>&gt;</mo><mn>70</mn><mi>V</mi></mrow></math></formula>, where <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>E</mi></math></formula> is the toroidal electric field and <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msub><mi>L</mi><mi>c</mi></msub></math></formula> the connection length of the field lines. Hence, it is highly desirable to create a configuration in which the field length is as large as possible, or equivalently, in which the poloidal component of the field is as small as possible. We reformulated this task as a constrained optimization problem and used an implementation in FEEQS.M to find in an automated fashion such optimal configurations.
+Publication is in preparation.
+</p>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>High order <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>C</mi><mn>0</mn></msup></math></formula>-continuous Galerkin schemes for high order PDEs</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp67168">
+          <firstname>Sebastian</firstname>
+          <lastname>Minjeaud</lastname>
+        </person>
+        <person key="castor-2014-idp68408">
+          <firstname>Richard</firstname>
+          <lastname>Pasquetti</lastname>
+        </person>
+      </participants>
+      <p>We show that it is possible to develop reliable and effective schemes, in terms of accuracy, computational efficiency, simplicity of
+implementation and, if required, conservation of linear or quadratic invariants, for high order partial differential equation
+on the basis of a (only) <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><msup><mi>H</mi><mn>1</mn></msup></math></formula>-conformal Galerkin approximation, namely the Spectral Element Method.
+We address the Korteweg-de Vries equation but
+the proposed approach is <i>a priori</i> easily extensible to
+other partial differential equations and to multidimensional problems.
+</p>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>A MUSCL–scheme on staggered grids with kinetic–like fluxes for the barotropic Euler system</bodyTitle>
+      <participants>
+        <person key="PASUSERID">
+          <firstname>Julia</firstname>
+          <lastname>Llobell</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Thierry</firstname>
+          <lastname>Goudon</lastname>
+        </person>
+        <person key="castor-2014-idp67168">
+          <firstname>Sebastian</firstname>
+          <lastname>Minjeaud</lastname>
+        </person>
+      </participants>
+      <p>We set up a MUSCL version of the scheme introduced in <ref xlink:href="#castor-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for solving the barotropic Euler equations.
+The scheme works on staggered grids, with numerical densities and velocities stored at dual locations,
+while the numerical fluxes are derived in the spirit of kinetic schemes.
+We have identified stability conditions for the second order method
+and have shown the ability of the scheme to capture the structure of complex flows with 2D simulations on MAC grids.
+</p>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>Stabilized SEM approximation of the 2D Saint-Venant system</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp68408">
+          <firstname>Richard</firstname>
+          <lastname>Pasquetti</lastname>
+        </person>
+      </participants>
+      <p>Following a study restricted to one space dimension, R. Pasquetti has developped a stabilized Spectral Element approximation of the two-dimensional Saint-Venant system. This stabilized SEM model uses the entropy viscosity method (EVM), that is a non linear viscous stabilization with viscosity proportional to the entropy production and bounded from above by a first order viscosity. We have especially focused on problems involving dry-wet transitions and proposed an elaborated variant of the EVM that allows to support the presence of dry zones. The algorithm has been tested against benchmarks problems, involving planar oscillations and axisymmetric oscillations in a paraboloid, for which exact solutions are known. The method was also checked successfully for flows combining dry-wet transitions and shocks.
+Part of this study was carried out in the National Center for Theoretical Science (Taipei, Taiwan). The work was presented at the ICOSAHOM 2016 congress (Rio, June 2016, see <ref xlink:href="#castor-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+</p>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>Isoparametric mappings</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp68408">
+          <firstname>Richard</firstname>
+          <lastname>Pasquetti</lastname>
+        </person>
+      </participants>
+      <p>R. Pasquetti has carried out a numerical study to compare different isoparametric mappings for the approximation of non polygonal domains with
+high order triangular finite elements.
+For elliptic problems and Fekete-Gauss spectral elements, it turns out that isoparametric mappings based on PDEs (Laplace, linear elasticity) yield better
+results than those based on transfinite mappings. The results are summarized in a JCP Note (see <ref xlink:href="#castor-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+</p>
+    </subsection>
+    <subsection id="uid70" level="1">
+      <bodyTitle>Full MHD numerical modelling with <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>C</mi><mn>1</mn></mrow></math></formula> finite element. </bodyTitle>
+      <participants>
+        <person key="castor-2014-idp81064">
+          <firstname>José</firstname>
+          <lastname>Costa</lastname>
+        </person>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+      </participants>
+      <p>Many theoretical and numerical works in the field of tokamak modelling
+use specific
+approximations of the MHD model known as <i>reduced</i> MHD models.
+This is in particular the case of the Jorek software.
+The main objective of this work is therefore to extend the capability of this software to solve
+the full MHD equations while using the same finite element numerical method.
+This requires to design new stabilization strategies as well as appropriate projections
+of the momentum equation. This has been done during the thesis of José Costa <ref xlink:href="#castor-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+This work allowed a detailed study of the resistive internal kink instability as well as some
+preliminary results on X-point plasmas.
+</p>
+    </subsection>
+    <subsection id="uid71" level="1">
+      <bodyTitle>2D Triangular Powell-Sabin Finite Elements</bodyTitle>
+      <participants>
+        <person key="PASUSERID">
+          <firstname>Giorgio</firstname>
+          <lastname>Giorgiani</lastname>
+        </person>
+        <person key="castor-2014-idm26248">
+          <firstname>Hervé</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+      </participants>
+      <p>In order to avoid some mesh singularities when using quadrangular meshes for complex
+geometries and flux surfaces shapes, the use of triangular elements is a possible option
+that we are studying in view of its application to MHD modelling.
+It is not so easy to derive smooth finite element on triangle with reduced number
+of degree of freedom (ddl). The Bell reduced-quintic finite elements we have
+considered in the previous years have too much unknowns (6 per vertex).
+Powell-Sabin splines are piece-wise quadratic polynomials with a global C1-continuity and
+3 unknowns per vertex, they have a local support, they form a convex partition of unity,
+they are stable, and they have a geometrically intuitive interpretation involving control
+triangles. In the previous years, we have developed the geometrical tools necessary to the
+construction of the Powell-Sabin splines and we are now beginning the study of the
+applicability of Powell-Sabin finite element for the numerical solution of PDE.
+We have used the Powell-Sabin starting from elliptic partial differential equations
+(including Grad-shafranov). We have applied these tools to solve
+hyperbolic 2D Euler equations with
+VMS stabilization. These results have been published in <ref xlink:href="#castor-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and
+<ref xlink:href="#castor-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+</p>
+    </subsection>
+    <subsection id="uid72" level="1">
+      <bodyTitle>Massive gaz Injection</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+      </participants>
+      <p>The massive injection of impurity gas into a plasma has been proved to reduce forces and localized thermal loads caused by disruptions in tokamaks. This mitigation system is routinely used on JET to shut down plasmas with a locked mode. The DMV's injectors of JET have been modelled with all the 3D details (see Figure <ref xlink:href="#uid73" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, <ref xlink:href="#uid74" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#uid75" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) . We have performed many 3D simulations and the predicted flight times are in accordance with experimental measurements. Moreover, the computations give also a clear domain for the application of 1D approximations and scaling.</p>
+      <object id="uid73">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/visit0045.png" type="float" width="256.0748pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>DMV resevoir of the JET Tokamak</caption>
+      </object>
+      <object id="uid74">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/visit0186.png" type="float" width="256.0748pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Reservoir, tube and plasma front of the Injection system of JET.</caption>
+      </object>
+      <object id="uid75">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/MeshT.png" type="float" width="256.0748pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3D Mesh of tetrahedral elements.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid76" level="1">
+      <bodyTitle>A Multidimensional Analogue of the HLLI Riemann Solver for Conservative Hyperbolic Systems</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Dinshaw</firstname>
+          <lastname>Balsara</lastname>
+        </person>
+      </participants>
+      <p>Just as the quality of a one-dimensional approximate Riemann solver is improved by the inclusion of internal sub-structure, the quality of a multidimensional Riemann solver is also similarly improved. Such multidimensional Riemann problems arise when multiple states come together at the vertex of a mesh. The interaction of the resulting one-dimensional Riemann problems gives rise to a strongly-interacting state. We wish to endow this strongly-interacting state with physically-motivated sub-structure. The fastest way of endowing such sub-structure consists of making a multidimensional extension of the HLLI Riemann solver for hyperbolic conservation laws. Presenting such a multidimensional analogue of the HLLI Riemann solver with linear sub-structure for use on structured meshes is the goal of this work. The multidimensional MuSIC Riemann solver documented here is universal in the sense that it can be applied to any hyperbolic conservation law.</p>
+      <p noindent="true">The multidimensional Riemann solver is made to be consistent with constraints that emerge naturally from the Galerkin projection of the self-similar states within the wave model. When the full eigenstructure in both directions is used in the present Riemann solver, it becomes a complete Riemann solver in a multidimensional sense. I.e., all the intermediate waves are represented in the multidimensional wave model. The work also presents, for the very first time, an important analysis of the dissipation characteristics of multidimensional Riemann solvers. The present Riemann solver results in the most efficient implementation of a multidimensional Riemann solver with sub-structure. Because it preserves stationary linearly degenerate waves, it might also help with well-balancing. Implementation-related details are presented in pointwise fashion for the one-dimensional HLLI Riemann solver as well as the multidimensional MuSIC Riemann solver.</p>
+      <p noindent="true">Several stringent test problems drawn from hydrodynamics, MHD and relativistic MHD are presented to show that the method works very well on structured meshes. Our results demonstrate the versatility of our method.
+</p>
+    </subsection>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Modelling of plasma instabilities</bodyTitle>
+      <participants>
+        <person key="PASUSERID">
+          <firstname>Feng</firstname>
+          <lastname>Liu</lastname>
+        </person>
+        <person key="castor-2014-idp69848">
+          <firstname>Boniface</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Guido</firstname>
+          <lastname>Huijsmans</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Alberto</firstname>
+          <lastname>Loarte</lastname>
+        </person>
+      </participants>
+      <p>Non-linear simulations of MHD modes from 0 to 20 which include kink-peeling modes (KPM) and ballooning modes with different plasma equilibrium by varying both pedestal pressure and edge current have been studied further. The simulations indicated that sufficient high edge current is essential requirements for plasma saturate to edge harmonic oscillation (EHO), meanwhile the pedestal pressure is the key parameter for plasma saturating to ballooning mode. The influence of RMP (Resonant Magnetic Perturbations) on QH-mode (Quiescent High Confinement mode) has been re-evaluated by using the correct coil currents. Large number ergodic islands caused by RMP stabilize toroidal harmonics n=1, 2, 3, 4 modes in the edge of QH-mode plasma. ITER baseline scenario Q=10 plasma has been analyzed with respect to the access to a possible QH-mode regime. KPM is obtained at the edge plasma of ITER plasma for n=1 and n=1-5 modes (see Fig. <ref xlink:href="#uid78" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+      <object id="uid78">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/MHD.png" type="float" width="256.0748pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>3-D density structure at the separatrix and resistive wall potential of a n=1 saturated kink mode in ITER Q=10 scenario.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid79" level="1">
+      <bodyTitle>Amoss : Comparison with experimental results and unreduced model on flat plane</bodyTitle>
+      <participants>
+        <person key="castor-2014-idp69848">
+          <firstname>B.</firstname>
+          <lastname>Nkonga</lastname>
+        </person>
+        <person key="castor-2014-idm26248">
+          <firstname>H.</firstname>
+          <lastname>Guillard</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>S.</firstname>
+          <lastname>Gavrilyuck</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Y-C.</firstname>
+          <lastname>Tai</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>F.</firstname>
+          <lastname>Yang</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>K.m.</firstname>
+          <lastname>Shyue</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>C-Y</firstname>
+          <lastname>Kuo</lastname>
+        </person>
+      </participants>
+      <p>The purpose of this work was the numerical study of the roll-waves that develop from a uniform unstable flow down an inclined rectangular channel. In particular, the formation of the roll-waves is studied by two different approaches. In the first approach, the roll-waves were produced in a long channel where a wave maker perturbed the free surface only at the channel inlet. The average discharge was fixed. In the second approach, the roll-waves were produced in a “periodic box” with a uniform flow velocity. The average depth of a perturbed free surface was the same as in the long channel. Formally, the “periodic box” and a long channel correspond to two different physical situations. However, the stationary profile formed for long time in these cases is the same. This allows us to use the “periodic box” as a simpler mathematical tool to study the asymptotic behavior of roll waves. In particular, the “periodic box” does not require a big space domain resolution. Several interesting phenomena were observed. First, it was proven that there exists Lmax such that any single roll wave of length <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mi>L</mi><mo>&gt;</mo><msub><mi>L</mi><mo movablelimits="true" form="prefix">max</mo></msub></mrow></math></formula> not stable. This can help to generalize the analytical results obtained by Liapidevskii (modulational stability study) and Baker et al. (the linear stability study) for the SV equations, to the case of the generalized models. The minimal length of periodic box for which a single roll wave is stable, was not observed. Second, a coarsening phenomenon was observed. When the inlet perturbation has two different frequencies, it produces the waves of the different wavelengths. The waves begin to interact. The short waves transfer their energy to the long waves, and finally we obtain the train of roll waves of a larger wavelength. A strong non-stationary modulation of the wave amplitude was observed. The formation of periodic roll wave train was shown for both long a channel and a “periodic box” for two sets of experimental parameters. In both cases, the free surface profile for the generalized models was found in a very good agreement with the experimental results. Finally, for a 2D simplified “Toy Model” we show that steady numerical solution corresponding to experimental data does not depend of transverse perturbations.</p>
+    </subsection>
+  </resultats>
+  <partenariat id="uid80">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid81" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid82" level="2">
+        <bodyTitle>ANR</bodyTitle>
+        <simplelist>
+          <li id="uid83">
+            <p noindent="true">ANEMOS : ANR-11-MONU-002</p>
+            <p>ANEMOS : Advanced Numeric for Elms : Models and Optimized Strategies associates JAD Laboratory/Inria (Nice, Manager),
+IRFM-CEA (Cadarache), Maison de la Simulation (Saclay) and Inria EPI Bacchus (Bordeaux).
+Final report, oral talk and poster to the "Journées des Rencontres Numériques de l'ANR" (16-17 nov. 2016), <ref xlink:href="http://www.rencontres-numerique-anr.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>rencontres-numerique-anr.<allowbreak/>fr/</ref>.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid84" level="2">
+        <bodyTitle>Inria Project Lab: FRATRES (Fusion Reactors Research and Simulation)</bodyTitle>
+        <simplelist>
+          <li id="uid85">
+            <p noindent="true">Participants : Inria project-teams : CASTOR, IPSO, TONUS,</p>
+          </li>
+          <li id="uid86">
+            <p noindent="true">Partners : IRFM-CEA, Max Planck Institute-IPP Garching, LJLL-Jussieu, IMT-Toulouse</p>
+          </li>
+        </simplelist>
+        <p>Controlled nuclear fusion can be considered as an example of grand challenge in many fields of computational sciences from physical modelling, mathematical and numerical analysis to algorithmics and software development and several Inria teams and their partners are developing mathematical and numerical tools in these areas.</p>
+        <p noindent="true">Since january 2015, H. Guillard is coordinating the Inria Project Lab FRATRES (https://team.inria.fr/ipl-fratres/) to organize these developments on a collaborative basis in order to overcome the current limitations of today numerical methodologies. The ambition is to prepare the next generation of numerical modelling methodologies able to use in an optimal way the processing capabilities of modern massively parallel architectures.
+This objective requires close collaboration between a) applied mathematicians and physicists that develop and study mathematical models of PDE; b) numerical analysts developing approximation schemes; c) specialists of algorithmic proposing solvers and libraries using the many levels of parallelism offered by the modern architecture and d) computer scientists. This Inria Project Lab will contribute in close connection with National and European initiatives devoted to nuclear Fusion to the improvement and design of numerical simulation technologies applied to plasma physics and in particular to the ITER project for magnetic confinement fusion.</p>
+        <p>Contact : Hervé Guillard</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid87" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid88" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <subsection id="uid89" level="3">
+          <bodyTitle>EuroFusion Consortium</bodyTitle>
+          <p>CASTOR participates to the following EuroFusion consortium projects :</p>
+          <simplelist>
+            <li id="uid90">
+              <p noindent="true">CfP-WP14-ER-01/Swiss Confederation-01. École Polytechnique Fédérale de Lausanne (PI: Paolo Ricci)
+“Synergetic numerical-experimental approach to fundamental
+aspects of turbulent transport in the tokamak edge”</p>
+            </li>
+            <li id="uid91">
+              <p noindent="true">CfP-WP14-ER-01/CEA-01. CEA (PI: Matthias Hoelzl IPP)
+“JOREK, BOUT++ non-linear MHD modelling of MHD instabilities and
+their control in existing tokamaks and ITER”</p>
+            </li>
+            <li id="uid92">
+              <p noindent="true">EUROfusion WPCD (Working Package Code Development)</p>
+              <simplelist>
+                <li id="uid93">
+                  <p noindent="true">ACT1: Extended equilibrium and stability chain (participation)</p>
+                </li>
+                <li id="uid94">
+                  <p noindent="true">ACT2: Free boundary equilibrium and control (participation and coordination)</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid95" level="3">
+          <bodyTitle>EoCoE</bodyTitle>
+          <p>The team also participates in the EoCoE European project.
+Grant Agreement number: 676629 — EoCoE — H2020-EINFRA-2014-2015/H2020-EINFRA-2015-1.</p>
+          <sanspuceslist>
+            <li id="uid96">
+              <p noindent="true">Title: Energy oriented Centre of Excellence for computer applications</p>
+            </li>
+            <li id="uid97">
+              <p noindent="true">Programm: H2020</p>
+            </li>
+            <li id="uid98">
+              <p noindent="true">Duration: October 2015 - October 2018</p>
+            </li>
+            <li id="uid99">
+              <p noindent="true">Coordinator: CEA</p>
+            </li>
+            <li id="uid100">
+              <p noindent="true">Partners:</p>
+              <sanspuceslist>
+                <li id="uid101">
+                  <p noindent="true">Barcelona Supercomputing Center - Centro Nacional de Supercomputacion (Spain)</p>
+                </li>
+                <li id="uid102">
+                  <p noindent="true">Commissariat à l'Energie Atomique et Aux Energies Alternatives (France)</p>
+                </li>
+                <li id="uid103">
+                  <p noindent="true">Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique (France)</p>
+                </li>
+                <li id="uid104">
+                  <p noindent="true">Consiglio Nazionale Delle Ricerche (Italy)</p>
+                </li>
+                <li id="uid105">
+                  <p noindent="true">The Cyprus Institute (Cyprus)</p>
+                </li>
+                <li id="uid106">
+                  <p noindent="true">Agenzia Nazionale Per le Nuove Tecnologie, l'energia E Lo Sviluppo Economico Sostenibile (Italy)</p>
+                </li>
+                <li id="uid107">
+                  <p noindent="true">Fraunhofer Gesellschaft Zur Forderung Der Angewandten Forschung Ev (Germany)</p>
+                </li>
+                <li id="uid108">
+                  <p noindent="true">Instytut Chemii Bioorganicznej Polskiej Akademii Nauk (Poland)</p>
+                </li>
+                <li id="uid109">
+                  <p noindent="true">Forschungszentrum Julich (Germany)</p>
+                </li>
+                <li id="uid110">
+                  <p noindent="true">Max Planck Gesellschaft Zur Foerderung Der Wissenschaften E.V. (Germany)</p>
+                </li>
+                <li id="uid111">
+                  <p noindent="true">University of Bath (United Kingdom)</p>
+                </li>
+                <li id="uid112">
+                  <p noindent="true">Universite Libre de Bruxelles (Belgium)</p>
+                </li>
+                <li id="uid113">
+                  <p noindent="true">Universita Degli Studi di Trento (Italy)</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid114">
+              <p noindent="true">Inria contact: Michel Kern</p>
+            </li>
+            <li id="uid115">
+              <p noindent="true">The aim of the present proposal is to establish an Energy Oriented Centre of Excellence for computing applications. EoCoE (pronounce “Echo”) will use the prodigious potential offered by the ever-growing computing infrastructure to foster and accelerate the European transition to a reliable and low carbon energy supply. To achieve this goal, we believe that the present revolution in hardware technology calls for a similar paradigm change in the way application codes are designed. EoCoE will assist the energy transition via targeted support to four renewable energy pillars: Meteo, Materials, Water and Fusion, each with a heavy reliance on numerical modelling. These four pillars will be anchored within a strong transversal multidisciplinary basis providing high-end expertise in applied mathematics and HPC. EoCoE is structured around a central Franco-German hub coordinating a pan-European network, gathering a total of 8 countries and 23 teams. Its partners are strongly engaged in both the HPC
+and energy fields; a prerequisite for the long-term sustainability of EoCoE and also ensuring that it is deeply integrated in the overall European strategy for HPC. The primary goal of EoCoE is to create a new, long lasting and sustainable community around computational energy science. At the same time, EoCoE is committed to deliver high-impact results within the first three years. It will resolve current bottlenecks in application codes, leading to new modelling capabilities and scientific advances among the four user communities; it will develop cutting-edge mathematical and numerical methods, and tools to foster the usage of Exascale computing. Dedicated services for laboratories and industries will be established to leverage this expertise and to foster an ecosystem around HPC for energy. EoCoE will give birth to new collaborations and working methods and will encourage widely spread best practices.</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid116" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid117" level="2">
+        <bodyTitle>Inria Associate Teams Not Involved in an Inria International Labs</bodyTitle>
+        <subsection id="uid118" level="3">
+          <bodyTitle>AMOSS</bodyTitle>
+          <sanspuceslist>
+            <li id="uid119">
+              <p noindent="true">Title: Advanced modelling on Shear Shallow Flows for Curved Topography : water and granular flows.</p>
+            </li>
+            <li id="uid120">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid121">
+                  <p noindent="true">NCKU (Taiwan) - Yih-Chin Tai</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid122">
+              <p noindent="true">Start year: 2014</p>
+            </li>
+            <li id="uid123">
+              <p noindent="true">Our objective here is to generalize the promising modelling strategy proposed by S. Gavrilyuk (2012-2013) to genuinely 3D shear flows and also take into account the curvature effects related to topography. Special care will be exercised to ensure that the numerical methodology can take full advantage of massively parallel computational platforms and serve as a practical engineering tool. Cross validations will be achieved by experiments and numerical simulations with applications to landslides.</p>
+            </li>
+            <li id="uid124">
+              <p noindent="true">Closing workshop of the associated team, 7-10 nov. 2016 - Tainan (Taïwan)</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+      <subsection id="uid125" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid126" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>The team collaborates with TUC (Technical University of Crete, Prof. Argyris Delis) on
+the subject of shallow water models. Part of this collaboration is common with the works done in the
+framework of the AMOSS associate team.</p>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid127">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid128" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid129" level="2">
+        <bodyTitle>Scientific Events Organisation</bodyTitle>
+        <subsection id="uid130" level="3">
+          <bodyTitle>Member of the Organizing Committees</bodyTitle>
+          <simplelist>
+            <li id="uid131">
+              <p noindent="true">D. Auroux, C. Boulbe and L. Busé (Aromath - Inria) have organized a SEME (Semaine d'Etudes Maths-Entreprises) under the initiative of AMIES.</p>
+              <simplelist>
+                <li id="uid132">
+                  <p noindent="true">Project proposed by Option Way, Optis, Thales Alenia Space, Wever, Exact Cure</p>
+                </li>
+                <li id="uid133">
+                  <p noindent="true">25-29 Juanary 2016, Campus Sophia Tech (Inria, Univ. Nice Sophia Antipolis)</p>
+                </li>
+                <li id="uid134">
+                  <p noindent="true">
+                    <ref xlink:href="http://math.unice.fr/~auroux/SEME/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>math.<allowbreak/>unice.<allowbreak/>fr/<allowbreak/>~auroux/<allowbreak/>SEME/</ref>
+                  </p>
+                </li>
+              </simplelist>
+            </li>
+            <li id="uid135">
+              <p noindent="true">From April 12th to 15th 2016, CASTOR (Boniface Nkonga, Hervé Guillard, Afeintou Sangam) has organized in Sophia Antipolis, the annual user meeting of the Jorek code that has gathered 25 plasma specialists
+around the development of this code dedicated to MHD studies in Tokamaks.</p>
+            </li>
+            <li id="uid136">
+              <p noindent="true">Minisymposium: Numerical Methods for Magnetohydrodynamics/Méthodes numériques pour les équations de la magnétohydrodynamique,
+CANUM 2016, 43e Congrès National d'Analyse Numérique,
+Obernai, France, May 09-13, 2016.</p>
+              <p>The simulation of electrical conducting fluids relies on numerical methods from computational fluid dynamics and computational electrodynamics. As the underlying magnetohydrodynamic (MHD) models are non-standard coupled systems of non-linear partial differential equations, the main ingredients of numerical solution methods such as preconditioners, iteration schemes and stability require special attention. Moreover, in many applications such as plasmas, where we have no unique canonical MHD formulation in terms of PDEs, the development of numerical methods goes hand in hand with modelling: the models depend on the time and length scales of interest, but particular variations can avoid pitfalls in the numerical simulation.</p>
+              <p>In this minisymposium we gathered talks from different application areas. Contributions included numerical analysis and computational methods for both established MHD models as well as specialized models for applications in plasma physics:</p>
+              <simplelist>
+                <li id="uid137">
+                  <p noindent="true">José Costa, CASTOR, Inria, SAM: High order stabilized finite element method for MHD and Reduced-MHD plasma modelling</p>
+                </li>
+                <li id="uid138">
+                  <p noindent="true">Emmanuel Franck, Inria NANCY GRAND EST: Analyse des préconditionneurs physiques pour les équations d'Euler et de la MHD linéarisée</p>
+                </li>
+                <li id="uid139">
+                  <p noindent="true">Céline Caldini-Queiros, MPI Garching: Couplage de modèles MHD et cinétiques dans des géométries complexes</p>
+                </li>
+                <li id="uid140">
+                  <p noindent="true">Tahar Boulmezaoud, Université de Versailles: Equilibres magnétohydrostatiques et champs force-free</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid141" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid142" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <simplelist>
+            <li id="uid143">
+              <p noindent="true">C. Boulbe is layout editor of the free journal SMAI-Journal of Computational Mathematics.</p>
+            </li>
+            <li id="uid144">
+              <p noindent="true">J. Blum is member of</p>
+              <simplelist>
+                <li id="uid145">
+                  <p noindent="true">the editorial board of the Journal of Scientific Computing (JSC),</p>
+                </li>
+                <li id="uid146">
+                  <p noindent="true">the scientific commitee of the collection "Mathématiques et Statistiques" of the ISTE publications,</p>
+                </li>
+                <li id="uid147">
+                  <p noindent="true">editor in chief of the ISTE Open Science journal: "Mathématiques appliquées et stochastiques".</p>
+                </li>
+              </simplelist>
+            </li>
+          </simplelist>
+        </subsection>
+        <subsection id="uid148" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>H. Guillard is reviewer for several journals including</p>
+          <simplelist>
+            <li id="uid149">
+              <p noindent="true">Journal of computational physics</p>
+            </li>
+            <li id="uid150">
+              <p noindent="true">Computers and Fluids</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+      <subsection id="uid151" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <simplelist>
+          <li id="uid152">
+            <p noindent="true">J. Blum, The use of optimal control theory for equilibrium identification and
+optimization of plasma scenarios, Swiss Plasma Center, EPFL, Switzerland, November 28, 2016</p>
+          </li>
+          <li id="uid153">
+            <p noindent="true">H.Heumann, Control methods for the optimization of plasma scenarios in a tokamak.
+Oberseminar Scientific Computing, University Würzburg,
+Würzburg, Germany, November 14, 2016</p>
+          </li>
+          <li id="uid154">
+            <p noindent="true">H.Heumann, Numerical methods for tokamak plasma equilibrium evolution at the resistive
+diffusion timescale,
+Zurich Colloquium in Applied and Computational Mathematics, ETH Zurich,
+Zurich, Switzerland, March 16, 2016</p>
+          </li>
+          <li id="uid155">
+            <p noindent="true">H.Heumann, Free-Boundary Axisymmetric Plasma Equilibria: Computational Methods and
+Applications ,
+Theory Group Seminar, Princeton Plasma Physcis Laboratory,
+Princeton, USA, March 3, 2016</p>
+          </li>
+          <li id="uid156">
+            <p noindent="true">H.Heumann, Quasi-static Free-Boundary Equilibrium of Toroidal Plasma: Computational
+Methods and Applications,
+Magneto-fluid dynamics seminar, Courant Institut, New York University,
+New York, USA, February 23, 2016</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid157" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <simplelist>
+          <li id="uid158">
+            <p noindent="true">J. Blum is:</p>
+            <simplelist>
+              <li id="uid159">
+                <p noindent="true">a member of the scientific committee of Academy 1 of UCA-IDEX JEDI: «Networks, Information and Digital society»,</p>
+              </li>
+              <li id="uid160">
+                <p noindent="true">member of the "bureau" and the director committee of the Fédération FR-FCM (Fédération de Recherche
+Fusion par Confinement Magnétique - ITER).</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid161">
+            <p noindent="true">H. Guillard is coordinator of the topic "Turbulence and transport of edge plasma" within the
+Fédération FR-FCM</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">C. Boulbe is task coordinator of the ACT2: Free boundary equilibrium and Control within the Eurofusion WPCD workpackage.</p>
+          </li>
+          <li id="uid163">
+            <p noindent="true">B. Nkonga is chairman of the GAMNI ("Groupe pour l’Avancement des Méthodes Numériques de l’Ingénieur"), group of the SMAI.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid164" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid165" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid166">
+            <p noindent="true">Ecole d'ingénieur: D. Auroux, Optimisation, 66h, M1, Polytech Nice, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid167">
+            <p noindent="true">Ecole d'ingénieur: D. Auroux, Méthodes numériques, 36h, M2, Polytech Nice Sophia, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid168">
+            <p noindent="true">Ecole d'ingenieur: D. Auroux, Projet, 35h, L3, Polytech Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid169">
+            <p noindent="true">Master: B. Faugeras, Optimisation, 18h, M1, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">Master: J. Blum, Optimisation et contrôle, 20h, M2, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">Master: J. Blum, Optimisation, 18h, M1, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">Ecole d'ingénieur: J. Blum, Commande Optimale, 37.5h, M2, Polytech Nice Sophia, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">Ecole d'ingénieur: C. Boulbe, Analyse Numérique, 71.5h, L3, Polytech Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">Ecole d'ingenieur: C. Boulbe, Méthodes numériques - EDP, 66h, M1, Polytech Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid175">
+            <p noindent="true">Ecole d'ingenieur: C. Boulbe, Projet, 35h, L3, Polytech Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid176">
+            <p noindent="true">Licence: S. Minjeaud, module Eléments de calcul différentiel, 18 h, L3, Université de Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid177">
+            <p noindent="true">Master: S. Minjeaud, module Méthodes numériques en EDP, 36 h, M1, Université de Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid178">
+            <p noindent="true">Master: S. Minjeaud, module Analyse et simulations numériques pour les EDP, 20 h, M2, Université de Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid179">
+            <p noindent="true">Master: S. Minjeaud, module Simulations numériques des problèmes d'évolution, 20 h, M2, Université de Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid180">
+            <p noindent="true">Master: S. Minjeaud, Méthodes numériques en EDP, 18 h, M1, Université de Nice Sophia Antipolis, France.</p>
+          </li>
+          <li id="uid181">
+            <p noindent="true">Master: B. Nkonga, Analyse Numérique, 40h, M1, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid182">
+            <p noindent="true">Ecole d'ingénieur/Master: B. Nkonga, Méthode des éléments finis, 24h, M2, Polytech Nice Sophia, France</p>
+          </li>
+          <li id="uid183">
+            <p noindent="true">Ecole d'ingénieur/Master: B. Nkonga, Eléments finis mixtes, 24h, M2, Polytech Nice Sophia, France</p>
+          </li>
+          <li id="uid184">
+            <p noindent="true">Ecole d'ingénieur/Master: B. Nkonga, Scilab, 28h, L3, Polytech Nice Sophia, France</p>
+          </li>
+          <li id="uid185">
+            <p noindent="true">Licence: A. Sangam, Analyse, 40h, L1, Université Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid186">
+            <p noindent="true">Licence: A. Sangam, Modélisation, 10h, L1, Université Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid187">
+            <p noindent="true">Licence: A. Sangam, Analyse, 50h, L2, Université Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid188">
+            <p noindent="true">Licence: A. Sangam, Méthodes Numériques et Formelles, 40h, L2, Université Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid189">
+            <p noindent="true">Licence: A. Sangam, Mathématiques Appliquées, 50h, L3, Université de Nice Sophia Antipolis, France</p>
+          </li>
+          <li id="uid190">
+            <p noindent="true">Master: A. Sangam, Introduction to Finite Elements, 25h, M1, Université Nice Sophia Antipolis, France</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid191" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <simplelist>
+          <li id="uid192">
+            <p noindent="true">PhD in progress: E. Estibals, “MHD réduite: Modélisation et Simulation
+numérique utilisant des éléments finis stabilisés d'ordre élevé sur un maillage
+courbe non-structuré. Application à l'injection de glaçons et de masse dans
+ITER”, 15th october 2013, Hervé Guillard, Afeintou Sangam.</p>
+          </li>
+          <li id="uid193">
+            <p noindent="true">PhD in progress : X. Song, “Model based control oriented scenario construction in Tokamak”, october 2016, Blaise Faugeras, Holger Heumann.</p>
+          </li>
+          <li id="uid194">
+            <p noindent="true">PhD in progress : J. Llobell, “Schémas numériques sur grilles décalées pour la dynamique des gaz”, October 1st 2015, T. Goudon, S. Minjeaud.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid195" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>R. Pasquetti was in the following juries:</p>
+        <simplelist>
+          <li id="uid196">
+            <p noindent="true">HdR : Pascal Henri Biwole, Université Côte d'Azur,</p>
+          </li>
+          <li id="uid197">
+            <p noindent="true">PhD : Benjamin Gaume, Université d’Evry Val-d’Essonne.</p>
+          </li>
+        </simplelist>
+        <p>B. Nkonga was referee in the following juries:</p>
+        <simplelist>
+          <li id="uid198">
+            <p noindent="true">HdR: Jérôme Breil, Université de Bordeaux,</p>
+          </li>
+          <li id="uid199">
+            <p noindent="true">PhD: Quentin Viville, Université de Bordeaux,</p>
+          </li>
+          <li id="uid200">
+            <p noindent="true">PhD: Sara Pavan, Université Paris-Est.</p>
+          </li>
+        </simplelist>
+        <p>H. Guillard was in the PhD jury thesis of</p>
+        <simplelist>
+          <li id="uid201">
+            <p noindent="true">PhD: José Costa, Université Côte d'Azur.</p>
+          </li>
+          <li id="uid202">
+            <p noindent="true">PhD:: Léo Nouveau, Université de Bordeaux.</p>
+          </li>
+        </simplelist>
+        <p>J. Blum was in the PhD jury thesis of</p>
+        <simplelist>
+          <li id="uid203">
+            <p noindent="true">PhD: Vladimir Groza, Université Côte d'Azur,</p>
+          </li>
+          <li id="uid204">
+            <p noindent="true">PhD: Bienvenu Youmbi, Université Côte d'Azur,</p>
+          </li>
+          <li id="uid205">
+            <p noindent="true">PhD: Michel Massaro, Université de Strasbourg.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+    <subsection id="uid206" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <p>J. Blum has been invited to a dinner-conference organized by the Rotary Club of Grenoble Sud.</p>
+      <p noindent="true">Title of the talk: "L'énergie de demain, ITER un soleil miniature?"
+</p>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="castor-2016-bid23" type="article" rend="refer" n="refercite:blum:hal-00419608">
+      <identifiant type="hal" value="hal-00419608"/>
+      <analytic>
+        <title level="a">Reconstruction of the equilibrium of the plasma in a Tokamak and identification of the current density profile in real time</title>
+        <author>
+          <persName key="castor-2014-idm27504">
+            <foreName>Jacques</foreName>
+            <surname>Blum</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp77352">
+            <foreName>Cédric</foreName>
+            <surname>Boulbe</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="castor-2014-idp72352">
+            <foreName>Blaise</foreName>
+            <surname>Faugeras</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">960-980</biblScope>
+          <ref xlink:href="http://hal.archives-ouvertes.fr/hal-00419608" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-00419608</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid24" type="article" rend="refer" n="refercite:ACL.B.Faugeras.14.2">
+      <analytic>
+        <title level="a">2D interpolation and extrapolation of discrete magnetic measurements with toroidal harmonics for equilibrium reconstruction in a Tokamak</title>
+        <author>
+          <persName key="castor-2014-idp72352">
+            <foreName>B.</foreName>
+            <surname>Faugeras</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="castor-2014-idm27504">
+            <foreName>J.</foreName>
+            <surname>Blum</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp77352">
+            <foreName>C.</foreName>
+            <surname>Boulbe</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="pareo-2014-idm27176">
+            <foreName>P.</foreName>
+            <surname>Moreau</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Nardon</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Plasma Phys. Control Fusion</title>
+        <imprint>
+          <biblScope type="volume">56</biblScope>
+          <dateStruct>
+            <year>2014</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid25" type="book" rend="refer" n="refercite:guillard:hal-00870451">
+      <identifiant type="hal" value="hal-00870451"/>
+      <monogr>
+        <title level="m">Special Issue: Computational Plasma Physics of the journal of Computational Physics</title>
+        <title level="s">3</title>
+        <author>
+          <persName key="castor-2014-idm26248">
+            <foreName>Herve</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Barry</foreName>
+            <surname>Koren</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Ebert</foreName>
+            <surname>Ute</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Gombosi</foreName>
+            <surname>Tamas</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Keppens</foreName>
+            <surname>Rony</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName>
+            <foreName>K.</foreName>
+            <surname>Dana</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <editor role="editor">
+          <persName>
+            <foreName>Barry</foreName>
+            <surname>Koren</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Ute</foreName>
+            <surname>Ebert</surname>
+            <initial>U.</initial>
+          </persName>
+          <persName>
+            <foreName>Tamas</foreName>
+            <surname>Gombosi</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="castor-2014-idm26248">
+            <foreName>Herve</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Rony</foreName>
+            <surname>Keppens</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Dana</foreName>
+            <surname>Knoll</surname>
+            <initial>D.</initial>
+          </persName>
+        </editor>
+        <imprint>
+          <biblScope type="volume">231</biblScope>
+          <publisher>
+            <orgName>Elsevier</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">717-1080</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-00870451" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00870451</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid0" type="article" rend="refer" n="refercite:heumann:hal-01088772">
+      <identifiant type="doi" value="10.1017/S0022377814001251"/>
+      <identifiant type="hal" value="hal-01088772"/>
+      <analytic>
+        <title level="a">Quasi-static Free-Boundary Equilibrium of Toroidal Plasma with CEDRES++: Computational Methods and Applications</title>
+        <author>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2014-idm27504">
+            <foreName>Jacques</foreName>
+            <surname>Blum</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp77352">
+            <foreName>Cedric</foreName>
+            <surname>Boulbe</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="castor-2014-idp72352">
+            <foreName>Blaise</foreName>
+            <surname>Faugeras</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Gael</foreName>
+            <surname>Selig</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>P.</foreName>
+            <surname>Hertout</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Eric</foreName>
+            <surname>Nardon</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Marc</foreName>
+            <surname>Ané</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Sylvain</foreName>
+            <surname>Brémond</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Virginie</foreName>
+            <surname>Grandgirard</surname>
+            <initial>V.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">Journal of Plasma Physics</title>
+        <imprint>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">35</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01088772" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01088772</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid26" type="article" rend="refer" n="refercite:vides:hal-01103529">
+      <identifiant type="doi" value="10.1016/j.jcp.2014.10.013"/>
+      <identifiant type="hal" value="hal-01103529"/>
+      <analytic>
+        <title level="a">A Simple Two-Dimensional Extension of the HLL Riemann Solver for Hyperbolic Systems of Conservation Laws</title>
+        <author>
+          <persName key="castor-2014-idp83496">
+            <foreName>Jeaniffer</foreName>
+            <surname>Vides</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Edouard</foreName>
+            <surname>Audit</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">280</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">643-675</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01103529" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01103529</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid6" type="phdthesis" rend="year" n="cite:tarcisiocosta:tel-01419260">
+      <identifiant type="hal" value="tel-01419260"/>
+      <monogr>
+        <title level="m">Variational Multi-Scale stabilized Finite Elements for the magnetohydrodynamic models of fusion plasmas</title>
+        <author>
+          <persName>
+            <foreName>J</foreName>
+            <surname>Tarcisio-Costa</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université Nice Sophia Antipolis [UNS]</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01419260" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01419260</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid19" type="article" rend="year" n="cite:balsara:hal-01254231">
+      <identifiant type="doi" value="10.1016/j.jcp.2015.10.013"/>
+      <identifiant type="hal" value="hal-01254231"/>
+      <analytic>
+        <title level="a">A two-dimensional Riemann solver with self-similar sub-structure – Alternative formulation based on least squares projection</title>
+        <author>
+          <persName>
+            <foreName>Dinshaw S.</foreName>
+            <surname>Balsara</surname>
+            <initial>D. S.</initial>
+          </persName>
+          <persName key="castor-2014-idp83496">
+            <foreName>Jeaniffer</foreName>
+            <surname>Vides</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Katharine</foreName>
+            <surname>Gurski</surname>
+            <initial>K.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Michael</foreName>
+            <surname>Dumbser</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Sudip</foreName>
+            <surname>Garain</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Edouard</foreName>
+            <surname>Audit</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">304</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01254231" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01254231</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid10" type="article" rend="year" n="cite:blommaert:hal-01389641">
+      <identifiant type="doi" value="10.1002/ctpp.201610031"/>
+      <identifiant type="hal" value="hal-01389641"/>
+      <analytic>
+        <title level="a">Magnetic Field Models and their Application in Optimal Magnetic Divertor Design</title>
+        <author>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Blommaert</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Martine</foreName>
+            <surname>Baelmans</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Yannick</foreName>
+            <surname>Marandet</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Hugo</foreName>
+            <surname>Bufferand</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>N. R.</foreName>
+            <surname>Gauger</surname>
+            <initial>N. R.</initial>
+          </persName>
+          <persName>
+            <foreName>D.</foreName>
+            <surname>Reiter</surname>
+            <initial>D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02050">
+        <idno type="issn">0863-1042</idno>
+        <title level="j">Contributions to Plasma Physics</title>
+        <imprint>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01389641" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01389641</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid14" type="article" rend="year" n="cite:blommaert:hal-01389537">
+      <identifiant type="doi" value="10.1051/proc/201653004"/>
+      <identifiant type="hal" value="hal-01389537"/>
+      <analytic>
+        <title level="a">Towards automated magnetic divertor design for optimal heat exhaust</title>
+        <author>
+          <persName>
+            <foreName>Maarten</foreName>
+            <surname>Blommaert</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Martine</foreName>
+            <surname>Baelmans</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas R</foreName>
+            <surname>Gauger</surname>
+            <initial>N. R.</initial>
+          </persName>
+          <persName>
+            <foreName>Detlev R</foreName>
+            <surname>Reiter</surname>
+            <initial>D. R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02803">
+        <idno type="issn">2267-3059</idno>
+        <title level="j">ESAIM: Proceedings and Surveys</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">49-63</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01389537" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01389537</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid12" type="article" rend="year" n="cite:faugeras:hal-01227686">
+      <identifiant type="hal" value="hal-01227686"/>
+      <analytic>
+        <title level="a">Tokamak plasma boundary reconstruction using toroidal harmonics and an optimal control method</title>
+        <author>
+          <persName key="castor-2014-idp72352">
+            <foreName>Blaise</foreName>
+            <surname>Faugeras</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid02968">
+        <idno type="issn">1536-1055</idno>
+        <title level="j">Fusion Science and Technology</title>
+        <imprint>
+          <biblScope type="volume">69</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">495-504</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01227686" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01227686</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid7" type="article" rend="year" n="cite:giorgiani:hal-01377903">
+      <identifiant type="doi" value="10.1051/proc/201653005"/>
+      <identifiant type="hal" value="hal-01377903"/>
+      <analytic>
+        <title level="a">A Powell-Sabin finite element scheme for partial differential equations </title>
+        <author>
+          <persName key="castor-2014-idp78616">
+            <foreName>G</foreName>
+            <surname>Giorgiani</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="castor-2014-idm26248">
+            <foreName>Hervé</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00494">
+        <idno type="issn">1270-900X</idno>
+        <title level="j">ESAIM: Proceedings</title>
+        <imprint>
+          <biblScope type="volume">53</biblScope>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">64-76</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01377903" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377903</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid9" type="article" rend="year" n="cite:goudon:hal-01270341">
+      <identifiant type="hal" value="hal-01270341"/>
+      <analytic>
+        <title level="a">Multifluid flows: a kinetic approach</title>
+        <author>
+          <persName key="coffee-2014-idm28536">
+            <foreName>Thierry</foreName>
+            <surname>Goudon</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="castor-2014-idp67168">
+            <foreName>Sebastian</foreName>
+            <surname>Minjeaud</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="coffee-2014-idm27104">
+            <foreName>Florent</foreName>
+            <surname>Berthelin</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01260">
+        <idno type="issn">0885-7474</idno>
+        <title level="j">Journal of Scientific Computing</title>
+        <imprint>
+          <biblScope type="volume">66</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">792–824</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01270341" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01270341</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid20" type="article" rend="year" n="cite:heumann:hal-01248140">
+      <identifiant type="doi" value="10.3934/dcdss.2016.9.185"/>
+      <identifiant type="hal" value="hal-01248140"/>
+      <analytic>
+        <title level="a">Stabilized Galerkin for transient advection of differential forms</title>
+        <author>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Ralf</foreName>
+            <surname>Hiptmair</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Cecilia</foreName>
+            <surname>Pagliantini</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00476">
+        <idno type="issn">1937-1632</idno>
+        <title level="j">Discrete and Continuous Dynamical Systems - Series S</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">185 - 214</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01248140" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01248140</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid15" type="article" rend="year" n="cite:minjeaud:hal-01328772">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.05.056"/>
+      <identifiant type="hal" value="hal-01328772"/>
+      <analytic>
+        <title level="a">Fourier-spectral element approximation of the two fluid ion-electron Braginskii system with application to tokamak edge plasma in divertor configuration</title>
+        <author>
+          <persName key="castor-2014-idp67168">
+            <foreName>Sebastian</foreName>
+            <surname>Minjeaud</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="castor-2014-idp68408">
+            <foreName>Richard</foreName>
+            <surname>Pasquetti</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">321</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">492-511</biblScope>
+          <ref xlink:href="https://hal-unice.archives-ouvertes.fr/hal-01328772" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-unice.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01328772</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid5" type="article" rend="year" n="cite:pasquetti:hal-01307076">
+      <identifiant type="doi" value="10.1016/j.jcp.2016.04.038"/>
+      <identifiant type="hal" value="hal-01307076"/>
+      <analytic>
+        <title level="a">Comparison of some isoparametric mappings for curved triangular spectral elements</title>
+        <author>
+          <persName key="castor-2014-idp68408">
+            <foreName>Richard</foreName>
+            <surname>Pasquetti</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid01098">
+        <idno type="issn">0021-9991</idno>
+        <title level="j">Journal of Computational Physics</title>
+        <imprint>
+          <biblScope type="volume">316</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">573–577</biblScope>
+          <ref xlink:href="https://hal-unice.archives-ouvertes.fr/hal-01307076" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-unice.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01307076</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid11" type="inproceedings" rend="year" n="cite:coelho:hal-01413081">
+      <identifiant type="hal" value="hal-01413081"/>
+      <analytic>
+        <title level="a">Integrated equilibrium reconstruction and MHD stability analysis of tokamak plasmas in the EU-IM platform</title>
+        <author>
+          <persName>
+            <foreName>Rui</foreName>
+            <surname>Coelho</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="castor-2014-idp72352">
+            <foreName>Blaise</foreName>
+            <surname>Faugeras</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>E.</foreName>
+            <surname>Giovanozzi</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName>
+            <foreName>Patrick</foreName>
+            <surname>Mc Carthy</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Wolfgang</foreName>
+            <surname>Zwingmann</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName>
+            <foreName>E. P.</foreName>
+            <surname>Suchkov</surname>
+            <initial>E. P.</initial>
+          </persName>
+          <persName>
+            <foreName>F.S.</foreName>
+            <surname>Zaitsev</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>M.</foreName>
+            <surname>Dunne</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Ivan</foreName>
+            <surname>Lupelli</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>N.</foreName>
+            <surname>Hawkes</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>G.</foreName>
+            <surname>Szepesi</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">43rd EPS conference on plasma physics</title>
+        <loc>Leuven, Belgium</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01413081" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01413081</ref>
+        </imprint>
+        <meeting id="cid61106">
+          <title>EPS Plasma Physics Conference</title>
+          <num>43</num>
+          <abbr type="sigle">EPS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid16" type="inproceedings" rend="year" n="cite:estibals:hal-01397086">
+      <identifiant type="hal" value="hal-01397086"/>
+      <analytic>
+        <title level="a">Finite Volume for Fusion Simulations</title>
+        <author>
+          <persName>
+            <foreName>Elise</foreName>
+            <surname>ESTIBALS</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="castor-2014-idm26248">
+            <foreName>Hervé</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2014-idp71096">
+            <foreName>Afeintou</foreName>
+            <surname>Sangam</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Jorek Meeting 2016</title>
+        <loc>Sophia Antipolis, France</loc>
+        <imprint>
+          <publisher>
+            <orgName type="organisation">Matthias Hoelzl</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01397086" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397086</ref>
+        </imprint>
+        <meeting id="cid625400">
+          <title>Jorek Meeting</title>
+          <num>2016</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid8" type="inproceedings" rend="year" n="cite:giorgiani:hal-01377909">
+      <identifiant type="hal" value="hal-01377909"/>
+      <analytic>
+        <title level="a">Shock capturing computations with stabilized Powell-Sabin elements</title>
+        <author>
+          <persName key="castor-2014-idp78616">
+            <foreName>Giorgio</foreName>
+            <surname>Giorgiani</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="castor-2014-idm26248">
+            <foreName>Hervé</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">ECCOMAS Congress 2016 VII European Congress on Computational Methods in Applied Sciences and Engineering</title>
+        <loc>Crete, Greece</loc>
+        <imprint>
+          <biblScope type="volume">Eccomas 2016 Proceedings</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">16</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01377909" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377909</ref>
+        </imprint>
+        <meeting id="cid68639">
+          <title>European Congress on Computational Methods in Applied Sciences and Engineering</title>
+          <num>2016</num>
+          <abbr type="sigle">ECCOMAS</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid2" type="inproceedings" rend="year" n="cite:heumann:hal-01397386">
+      <identifiant type="hal" value="hal-01397386"/>
+      <analytic>
+        <title level="a">FEMs on composite meshes for plasma equilibrium simulations in tokamaks</title>
+        <author>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2015-idp114064">
+            <foreName>Francesca</foreName>
+            <surname>Rapetti</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="castor-2016-idp152224">
+            <foreName>Minh Duy</foreName>
+            <surname>Truong</surname>
+            <initial>M. D.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">19th European Conference on Mathematics for Industry - ECMI 2016</title>
+        <loc>Santiago-de-Compostela , Spain</loc>
+        <title level="s">Mathematics in Industry</title>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01397386" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01397386</ref>
+        </imprint>
+        <meeting id="cid67329">
+          <title>European Conference on Mathematics for Industry</title>
+          <num>19</num>
+          <abbr type="sigle">ECMI</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid4" type="inproceedings" rend="year" n="cite:pasquetti:hal-01361347">
+      <identifiant type="hal" value="hal-01361347"/>
+      <analytic>
+        <title level="a">Viscous stabilizations for high order approximations of Saint-Venant and Boussinesq flows</title>
+        <author>
+          <persName key="castor-2014-idp68408">
+            <foreName>Richard</foreName>
+            <surname>Pasquetti</surname>
+            <initial>R.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="yes" x-editorial-board="yes">
+        <title level="m">ICOSAHOM 2016</title>
+        <loc>Rio de Janeiro, Brazil</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal-unice.archives-ouvertes.fr/hal-01361347" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal-unice.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01361347</ref>
+        </imprint>
+        <meeting id="cid301492">
+          <title>International Conference on Spectral and High Order Methods</title>
+          <num>2016</num>
+          <abbr type="sigle">ICOSAHOM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid21" type="inproceedings" rend="year" n="cite:tarcisiocosta:hal-01426950">
+      <identifiant type="hal" value="hal-01426950"/>
+      <analytic>
+        <title level="a">High order stabilized finite element method for MHD plasma modeling</title>
+        <author>
+          <persName>
+            <foreName>J</foreName>
+            <surname>Tarcisio-Costa</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">International COnference on Spectral And High Order Methods ICOSAHOM 2016</title>
+        <loc>Rio de Janeiro, Brazil</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426950" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426950</ref>
+        </imprint>
+        <meeting id="cid301492">
+          <title>International Conference on Spectral and High Order Methods</title>
+          <num>2016</num>
+          <abbr type="sigle">ICOSAHOM</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid13" type="techreport" rend="year" n="cite:heumann:hal-01354031">
+      <identifiant type="hal" value="hal-01354031"/>
+      <monogr>
+        <title level="m">A High Order Method for Contour Integrals with an Application to Plasma Modeling in Nuclear Fusion</title>
+        <author>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>Lukas</foreName>
+            <surname>Drescher</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Kersten</foreName>
+            <surname>Schmidt</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8948</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis - Méditerranée ; CASTOR</orgName>
+          </publisher>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01354031" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01354031</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid1" type="techreport" rend="year" n="cite:heumann:hal-01322816">
+      <identifiant type="hal" value="hal-01322816"/>
+      <monogr>
+        <title level="m">A finite element method with overlapping meshes for free-boundary axisymmetric plasma equilibria in realistic geometries</title>
+        <author>
+          <persName key="castor-2014-idm24776">
+            <foreName>Holger</foreName>
+            <surname>Heumann</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2015-idp114064">
+            <foreName>Francesca</foreName>
+            <surname>Rapetti</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8916</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01322816" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01322816</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid22" type="techreport" rend="year" n="cite:nkonga:hal-01294788">
+      <identifiant type="hal" value="hal-01294788"/>
+      <monogr>
+        <title level="m">VMS Finite Element for MHD and Reduced-MHD in Tokamak Plasmas</title>
+        <author>
+          <persName key="castor-2014-idp69848">
+            <foreName>B</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>J</foreName>
+            <surname>Tarcisio-Costa</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="castor-2014-idp83496">
+            <foreName>Jeaniffer</foreName>
+            <surname>Vides</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">8892</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Sophia Antipolis ; Université de Nice-Sophia Antipolis</orgName>
+          </publisher>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01294788" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01294788</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid18" type="unpublished" rend="year" n="cite:balsara:hal-01426759">
+      <identifiant type="hal" value="hal-01426759"/>
+      <monogr>
+        <title level="m">Multidimensional Riemann Problem with Self-Similar Internal Structure – Part III– A Multidimensional Analogue of the HLLI Riemann Solver for Conservative Hyperbolic Systems</title>
+        <author>
+          <persName>
+            <foreName>Dinshaw S</foreName>
+            <surname>Balsara</surname>
+            <initial>D. S.</initial>
+          </persName>
+          <persName key="castor-2014-idp69848">
+            <foreName>Boniface</foreName>
+            <surname>Nkonga</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01426759" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01426759</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid17" type="misc" rend="year" n="cite:estibals:hal-01397100">
+      <identifiant type="hal" value="hal-01397100"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="no" x-invited-conference="no">
+        <title level="m">Finite Volume Approximation of MHD Equations with Euler Potential</title>
+        <author>
+          <persName>
+            <foreName>Elise</foreName>
+            <surname>ESTIBALS</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="castor-2014-idm26248">
+            <foreName>Herve</foreName>
+            <surname>Guillard</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName key="castor-2014-idp71096">
+            <foreName>Afeintou</foreName>
+            <surname>Sangam</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01397100" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01397100</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">XVII Spanich-French School, Jacques Louis Lions about Numerical Simulations in Physics and Mechanics</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="castor-2016-bid3" type="article" rend="foot" n="footcite:goudon:hal-01270338">
+      <identifiant type="hal" value="hal-01270338"/>
+      <analytic>
+        <title level="a">Kinetic schemes on staggered grids for barotropic Euler models: entropy-stability analysis</title>
+        <author>
+          <persName key="coffee-2014-idm28536">
+            <foreName>Thierry</foreName>
+            <surname>Goudon</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="coffee-2014-idm27104">
+            <foreName>Florent</foreName>
+            <surname>Berthelin</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="castor-2014-idp67168">
+            <foreName>Sebastian</foreName>
+            <surname>Minjeaud</surname>
+            <initial>S.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Mathematics of Computation</title>
+        <imprint>
+          <biblScope type="volume">84</biblScope>
+          <dateStruct>
+            <year>2015</year>
+          </dateStruct>
+          <biblScope type="pages">pp. 2221–2262</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01270338" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01270338</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

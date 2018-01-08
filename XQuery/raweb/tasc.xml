@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="tasc" isproject="true">
+    <shortname>TASC</shortname>
+    <projectName>Theory, Algorithms and Systems for Constraints</projectName>
+    <theme-de-recherche>Architecture, Languages and Compilation</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <structure_exterieure type="Labs">
+      <libelle>Laboratoire d'Informatique de Nantes Atlantique (LINA)</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Ecole des Mines de Nantes</libelle>
+    </structure_exterieure>
+    <structure_exterieure type="Organism">
+      <libelle>Université Nantes</libelle>
+    </structure_exterieure>
+    <header_dates_team>Creation of the Project-Team: 2011 January 01, end of the Project-Team: 2016 December 31</header_dates_team>
+    <LeTypeProjet>Project-Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>2.1.5. - Constraint programming</term>
+      <term>3.2.1. - Knowledge bases</term>
+      <term>3.2.3. - Inference</term>
+      <term>6.1. - Mathematical Modeling</term>
+      <term>7.2. - Discrete mathematics, combinatorics</term>
+      <term>8.2. - Machine learning</term>
+      <term>8.6. - Decision support</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4.1. - Fossile energy production (oil, gas)</term>
+      <term>4.3. - Renewable energy production</term>
+      <term>8.3. - Urbanism and urban planning</term>
+    </keywordsSecteurs>
+    <UR name="Rennes"/>
+  </identification>
+  <team id="uid1">
+    <person key="tasc-2014-idp62176">
+      <firstname>Nicolas</firstname>
+      <lastname>Beldiceanu</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Team leader, EMN, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="tasc-2014-idp75872">
+      <firstname>Mohamed Amine</firstname>
+      <lastname>Balafrej</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN, Associate Professor, until Sep 2016</moreinfo>
+    </person>
+    <person key="tasc-2014-idp63640">
+      <firstname>Frédéric</firstname>
+      <lastname>Benhamou</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes, Professor</moreinfo>
+    </person>
+    <person key="tasc-2014-idp68992">
+      <firstname>Xavier</firstname>
+      <lastname>Lorca</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="tasc-2014-idp70432">
+      <firstname>Eric</firstname>
+      <lastname>Monfroy</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="tasc-2014-idp71920">
+      <firstname>Thierry</firstname>
+      <lastname>Petit</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN, Associate Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="tasc-2014-idp73360">
+      <firstname>Florian</firstname>
+      <lastname>Richoux</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes, Associate Professor</moreinfo>
+    </person>
+    <person key="tasc-2016-idp124768">
+      <firstname>Gilles</firstname>
+      <lastname>Simonin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN, Associate Professor, from Sep 2016</moreinfo>
+    </person>
+    <person key="tasc-2014-idp74616">
+      <firstname>Charlotte</firstname>
+      <lastname>Truchet</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes, Associate Professor</moreinfo>
+    </person>
+    <person key="tasc-2014-idp77120">
+      <firstname>Charles</firstname>
+      <lastname>Prud'Homme</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>ARMINES</moreinfo>
+    </person>
+    <person key="tasc-2015-idp76648">
+      <firstname>Ekaterina</firstname>
+      <lastname>Arafailova</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>ARMINES</moreinfo>
+    </person>
+    <person key="tasc-2014-idp80832">
+      <firstname>Anicet</firstname>
+      <lastname>Bart</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes</moreinfo>
+    </person>
+    <person key="tasc-2014-idp85744">
+      <firstname>Gilles</firstname>
+      <lastname>Madi Wamba</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN</moreinfo>
+    </person>
+    <person key="tasc-2014-idp86968">
+      <firstname>Alejandro</firstname>
+      <lastname>Reyes Amaro</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Univ. Nantes, until Sep 2016</moreinfo>
+    </person>
+    <person key="tasc-2014-idp88192">
+      <firstname>Ignacio</firstname>
+      <lastname>Salas Donoso</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>EMN, until Apr 2016</moreinfo>
+    </person>
+    <person key="tasc-2015-idm27096">
+      <firstname>Abbas</firstname>
+      <lastname>El Dor</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>ARMINES</moreinfo>
+    </person>
+    <person key="tasc-2014-idp78352">
+      <firstname>Anne Claire</firstname>
+      <lastname>Binetruy</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Rennes</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Objectives of the team</bodyTitle>
+      <subsection id="uid4" level="2">
+        <bodyTitle>Origin and Current Situation</bodyTitle>
+        <p>Constraint programming emerges in the eighties and develops at <b>the intersection of Artificial Intelligence and Operations Research</b>, of Computer Science and Mathematics. Multidisciplinary by nature it keeps on using knowledge from various topics such as discrete mathematics, theoretical computer science (graph theory, combinatorics, algorithmic, complexity), functional analysis and optimization, IT and software engineering. Constraint programming was identified in 1996 by the ACM as a <i>strategic topic for Computer Science</i>.
+The turn of the century has seen the development of optimization technology in the industry (with notably Ilog, IBM, Dash and more recently Microsoft, Google and Dynadec) and the corresponding scientific field, at the border of Constraint Programming, Mathematical Programming, Local Search and Numerical Analysis.
+Optimisation technology is now assisting public sector, companies and people to some extent for making decisions that use resources better
+and match specific requirements in an increasingly complex world. Indeed, computer aided decision and optimization is becoming one of the
+cornerstones for providing assistance to all kinds of human activities.</p>
+        <p>Today, with the preeminence of optimization technology in most industrial sectors, we argue that quick and ad hoc solutions, often used today, cannot support the long-term development of optimization technology and its broad diffusion. We also argue that there should be a much more direct link between mathematical results and their systematic reuse in the main fields of optimization technology.</p>
+      </subsection>
+      <subsection id="uid5" level="2">
+        <bodyTitle>General Challenges</bodyTitle>
+        <p>In spite of its importance, computer aided decision and optimization suffers from a number of fundamental weaknesses that prevent from
+taking advantage of its full potential and hinder its progress and its capacity to deal with more and more complex situations. This can be
+mostly blamed on the diversity of actors, which are:</p>
+        <simplelist>
+          <li id="uid6">
+            <p noindent="true">Spread out in distinct scientific communities, each with its own focus:</p>
+            <simplelist>
+              <li id="uid7">
+                <p noindent="true">On the one hand, computer science for providing languages, modelling tools and libraries. While focusing on providing flexible and
+powerful programming paradigm that can be easily deployed and maintained on modern architectures, it does not address the central
+question of how to come up in a systematic way with efficient methods for optimization and decision problems.</p>
+              </li>
+              <li id="uid8">
+                <p noindent="true">On the other hand, applied mathematics for the theory part. The focus is to come up with powerful abstractions that allow
+understanding the structure of a class of problems, independently of its practical and systematic uses in modern software
+components.</p>
+              </li>
+            </simplelist>
+          </li>
+          <li id="uid9">
+            <p noindent="true">Spread out in distinct technological communities, each independently pushing its own solving paradigm like constraint programming,
+linear and integer programming, continuous optimization, constraint-based local search (e.g., <ref xlink:href="http://dynadec.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">COMET</ref>).
+To some extent, most of these techniques exploit in different ways the same mathematical results,
+that are manually adapted to fit the main way to proceed of a given technology.</p>
+          </li>
+        </simplelist>
+        <p>Thus, a first challenge encountered by constraint programming is the design of computer systems implementing <b>in a transparent way</b>
+effective solving techniques.</p>
+        <simplelist>
+          <li id="uid10">
+            <p noindent="true">Ideally, the user must be able to <b>describe his problem in a high level modelling language</b> without being concerned with the underlying solving mechanisms used. Such systems must also be independent both from any computer programming language and from any resolution engine.</p>
+          </li>
+          <li id="uid11">
+            <p noindent="true">In order to assists user, systems must also offer <b>digital knowledge base in problem solving</b> that make available state of the art models and heuristics
+for large set of well identified problems.</p>
+          </li>
+          <li id="uid12">
+            <p noindent="true">Lastly, the user must have the ability to interpret the returned solutions, in particular within the context of <b>over constrained problems where it is necessary to partly relax some constraints</b>, and that in the most realistic possible way.</p>
+          </li>
+        </simplelist>
+        <p>A second challenge resides in the <b>speed of resolution especially in the context of large-scale data</b>. One has to adapt techniques such as generic consistency algorithms, graph algorithms, mathematical programming, meta-heuristics and to integrate them within the framework of constraint programming. This integration generates new questions such as the design of incremental algorithms, the automatic decomposition or the automatic reformulation of problems.</p>
+        <p>Finally a third challenge deals with the use of constraint programming in the context of <b>complex industrial problems</b>, especially
+when both discrete and continuous aspects are present. Complexity has multiple causes such as:</p>
+        <simplelist>
+          <li id="uid13">
+            <p noindent="true">the combination of temporal and spatial aspects, of continuous and discrete aspects,</p>
+          </li>
+          <li id="uid14">
+            <p noindent="true">the dynamic character of some phenomena inducing a modification of the constraints and data during time,</p>
+          </li>
+          <li id="uid15">
+            <p noindent="true">the difficulty of expressing some physical constraints, e.g. load balancing and temporal stability,</p>
+          </li>
+          <li id="uid16">
+            <p noindent="true">the necessary decomposition of large problems inducing significant solution performance losses.</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </presentation>
+  <fondements id="uid17">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid18" level="1">
+      <bodyTitle>Overview</bodyTitle>
+      <p>Basic research is guided by the challenges raised before: to classify and enrich the models, to automate reformulation and resolution, to dissociate declarative and procedural knowledge, to come up with theories and tools that can handle problems involving both continuous
+and discrete variables, to develop modelling tools and to come up with solving tools that scale well. On the one hand, <b>classification aspects</b> of this research are integrated within a knowledge base about combinatorial problem solving:
+the global constraint catalog (see <ref xlink:href="http://sofdem.github.io/gccat/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sofdem.<allowbreak/>github.<allowbreak/>io/<allowbreak/>gccat/</ref>).
+On the other hand, <b>solving aspects</b> are capitalized within the constraint solving system <ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref>.
+Lastly, within the framework of its activities of valorisation, teaching and of partnership research, the team uses constraint programming for solving various concrete problems. The challenge is, on one side to increase the visibility of the constraints in the others disciplines of computer science, and on the other side to contribute to a broader diffusion of the constraint programming in the industry.
+</p>
+    </subsection>
+    <subsection id="uid19" level="1">
+      <bodyTitle>Fundamental Research Topics</bodyTitle>
+      <p>This part presents the research topics investigated by the project:</p>
+      <simplelist>
+        <li id="uid20">
+          <p noindent="true">Global Constraints Classification, Reformulation and Filtering,</p>
+        </li>
+        <li id="uid21">
+          <p noindent="true">Convergence between Discrete and Continuous,</p>
+        </li>
+        <li id="uid22">
+          <p noindent="true">Dynamic, Interactive and over Constrained Problems,</p>
+        </li>
+        <li id="uid23">
+          <p noindent="true">Solvers.</p>
+        </li>
+      </simplelist>
+      <p>These research topics are in fact not independent. The work of the team thus frequently relates transverse aspects such as explained global constraints, Benders decomposition and explanations, flexible and dynamic constraints, linear models and relaxations of constraints.</p>
+      <subsection id="idp3898640" level="2">
+        <bodyTitle>Constraints Classification, Reformulation and Filtering</bodyTitle>
+        <p>In this context our research is focused (a) first on identifying recurring combinatorial structures that can be used for modelling a large variety
+of optimization problems, and (b) exploit these combinatorial structures in order to
+come up with efficient algorithms in the different fields of optimization technology. The key idea for achieving point (b) is that many filtering
+algorithms both in the context of Constraint Programming, Mathematical Programming and Local Search can be interpreted as the
+maintenance of invariants on specific domains (e.g., graph, geometry).
+The systematic classification of <ref xlink:href="http://sofdem.github.io/gccat/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">global constraints</ref> and of their relaxation brings a synthetic view of the field. It establishes links between the
+properties of the concepts used to describe constraints and the properties of the constraints themselves. Together with <ref xlink:href="http://www.sics.se/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">SICS</ref>, the team
+develops and maintains <i>a catalog of global constraints</i>, which describes the semantics of more than 431 constraints, and proposes
+a unified mathematical model for expressing them. This model is based on graphs, automata and logic formulae and allows to derive filtering methods and automatic reformulation for each constraint in a unified way (see <ref xlink:href="http://www.emn.fr/x-info/sdemasse/gccat/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>emn.<allowbreak/>fr/<allowbreak/>x-info/<allowbreak/>sdemasse/<allowbreak/>gccat/<allowbreak/>index.<allowbreak/>html</ref>).
+We consider hybrid methods (i.e., methods that involve more than one optimization technology such as constraint programming, mathematical programming or local search), to draw benefit from the respective advantages of the combined approaches.
+More fundamentally, the study of hybrid methods makes it possible to compare and connect strategies of resolution specific to each
+approach for then conceiving new strategies.
+Beside the works on classical, complete resolution techniques, we also investigate local search techniques from a mathematical point of view. These partly random algorithms have been proven very efficient in practice, although we have little theoretical knowledge on their behaviour, which often makes them problem-specific. Our research in that area is focused on a probabilistic model of local search techniques, from which we want to derive quantified information on their behaviour, in order to use this information directly when designing the algorithms and exploit their performances better.
+We also consider algorithms that maintain local and global consistencies, for more specific models. Having in mind the trade off between genericity and effectiveness, the effort is put on the efficiency of the algorithms with guarantee on the produced levels of filtering. This effort results in adapting existing techniques of resolution such as graph algorithms. For this purpose we identify necessary conditions of feasibility that can be evaluated by efficient incremental algorithms. Genericity is not neglected in these approaches: on the one hand the constraints we focus on are applicable in many contexts (for example, graph partitioning constraints can be used both in logistics and in phylogeny); on the other hand, this work led to study the portability of such constraints and their independence with specific solvers. This research orientation gathers various work such as strong local consistencies, graph partitioning constraints, geometrical constraints, and optimization and soft constraints. Within the perspective to deal with complex industrial problems, we currently develop meta constraints
+(e.g. <ref xlink:href="http://www.emn.fr/z-info/sdemasse/gccat/Cgeost.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><i>geost</i></ref>) handling all together the issues of large-scale problems, dynamic constraints, combination of spatial and temporal dimensions, expression of business rules described with first order logic.</p>
+      </subsection>
+      <subsection id="idp3914528" level="2">
+        <bodyTitle>Convergence between Discrete and Continuous</bodyTitle>
+        <p>Many industrial problems mix continuous and discrete aspects that respectively correspond
+to physical (e.g., the position, the speed of an object) and logical (e.g., the identifier, the nature of an object) elements.
+Typical examples of problems are for instance:</p>
+        <simplelist>
+          <li id="uid24">
+            <p noindent="true"><i>Geometrical placement problems</i> where one has to place in space a set of objects subject to various geometrical constraints
+(i.e., non-overlapping, distance). In this context, even if the positions of the objects are continuous, the structure of optimal configurations
+has a discrete nature.</p>
+          </li>
+          <li id="uid25">
+            <p noindent="true"><i>Trajectory and mission planning problems</i> where one has to plan and synchronize the moves of several teams in order to
+achieve some common goal (i.e., fire fighting, coordination of search in the context of rescue missions, surveillance missions of restricted
+or large areas).</p>
+          </li>
+          <li id="uid26">
+            <p noindent="true"><i>Localization problems in mobile robotic</i> where a robot has to plan alone (only with its own sensors) its trajectory.
+This kind of problematic occurs in situations where the GPS cannot be used (e.g., under water or Mars exploration) or
+when it is not precise enough (e.g., indoor surveillance, observation of contaminated sites).</p>
+          </li>
+        </simplelist>
+        <p>Beside numerical constraints that mix continuous and integer variables we also have global constraints that involve both type of variables.
+They typically correspond to graph problems (i.e., graph colouring, domination in a graph) where a graph is dynamically constructed
+with respect to geometrical and-or temporal constraints.
+In this context, the key challenge is avoiding decomposing the problem in a discrete and continuous parts as it is traditionally the case.
+As an illustrative example consider <i>the wireless network deployment problem</i>. On the one hand, the continuous part consists of finding
+out where to place a set of antenna subject to various geometrical constraints. On the other hand, by building an interference
+graph from the positions of the antenna, the discrete part consists of allocating frequencies to antenna in order to avoid interference.
+In the context of convergence between discrete and continuous variables, our goals are:</p>
+        <simplelist>
+          <li id="uid27">
+            <p noindent="true">First to identify and compare typical class of techniques that are used in the context of continuous and discrete solvers.</p>
+          </li>
+          <li id="uid28">
+            <p noindent="true">To see how one can unify and/or generalize these techniques in order to handle in an integrated way continuous and discrete
+constraints within the same framework.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="idp3927120" level="2">
+        <bodyTitle>Dynamic, Interactive and over Constrained Problems</bodyTitle>
+        <p>Some industrial applications are defined by a set of constraints which may change over time,
+for instance due to an interaction with the user. Many other industrial applications are over-constrained,
+that is, they are defined by set of constraints which are more or less important and cannot be all satisfied at the same time.
+Generic, dedicated and explanation-based techniques can be used to deal efficiently with such applications.
+Especially, these applications rely on the notion of <i>soft constraints</i> that are allowed to be (partially) violated.
+The generic concept that captures a wide variety of soft constraints is the violation measure, which is coupled with specific resolution techniques.
+Lastly, soft constraints allow to combine the expressive power of global constraints with local search frameworks.</p>
+      </subsection>
+      <subsection id="idp3929360" level="2">
+        <bodyTitle>Solvers</bodyTitle>
+        <simplelist>
+          <li id="uid29">
+            <p noindent="true"><i>Discrete solver</i>
+Our theoretical work is systematically validated by concrete experimentations. We have in particular for that purpose the <ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> constraint platform. The team develops and maintains <ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> initially with the assistance of the laboratory e-lab of Bouygues (G. Rochart), the company Amadeus (F. Laburthe), and others researchers such as
+<ref xlink:href="http://narendra.jussien.free.fr/njussien/Bienvenue.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">N. Jussien</ref> and
+<ref xlink:href="http://www.g-scop.inpg.fr/index.php?option=com_comprofiler&amp;task=userProfile&amp;user=1412&amp;Itemid=18" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">H. Cambazard</ref> (<ref xlink:href="http://4c.ucc.ie/web/index.jsp" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">4C</ref>, <ref xlink:href="http://www.grenoble-inp.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">INP Grenoble</ref>). Since 2008 the main developments are done by <ref xlink:href="http://www.emn.fr/z-info/ppc/membres_en.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Charles Prud'homme</ref> and <ref xlink:href="http://www.emn.fr/z-info/xlorca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Xavier Lorca</ref>.
+The functionalities of <ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> are gradually extended with the outcomes of our works: design of constraints, analysis and visualization of explanations, etc. The open source <ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> library is downloaded on average 450 times each month since 2006.
+<ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> is developed in line with the research direction of the team, in an open-minded scientific spirit.
+Contrarily to other solvers where the efficiency often relies on problem-specific algorithms,
+<ref xlink:href="http://www.choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref> aims at providing the users both with reusable techniques
+(based on an up-to-date implementation of the <ref xlink:href="http://sofdem.github.io/gccat/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">global constraint catalogue</ref>)
+and with a variety of tools to ease the use of these techniques
+(clear separation between model and resolution,
+event-based solver,
+management of the over-constrained problems, explanations, etc.).</p>
+          </li>
+          <li id="uid30">
+            <p noindent="true"><i>Discrete continuous</i>
+We use discrete convexity to describe filtering for families of constraints:
+We introduce a propagator for pairs of Sum constraints, where the expressions in the sums respect a form of convexity. This propagator is parametric and can be instantiated for various concrete pairs, including Deviation, Spread, and the conjunction of Linear≤ and Among. We show that despite its generality, our propagator is competitive in theory and practice with state-of-the-art propagators.</p>
+          </li>
+          <li id="uid31">
+            <p noindent="true"><i>Constraint programming and verification</i>
+Constraint Programming has already had several applications to verification problems.
+It also has many common ideas with Abstract Interpretation, a theory of approximation of the semantics of programs.
+In both cases, we are interested in a particular set (solutions in CP, program traces in semantics),
+which is hard or impossible to compute,
+and this set is replaced by an over-approximation (consistent domains / abstract domains).
+Previous works (internship of Julie Laniau, PhD of <ref xlink:href="https://www.linkedin.com/pub/marie-pelleau/16/980/b3a" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Marie Pelleau</ref>, collaboration with the Abstract Interpretation team at the ENS and <ref xlink:href="http://www.di.ens.fr/~mine/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Antoine Miné</ref> in particular) have exhibited some of these links, and identified some situations
+where the two fields, Abstract Interpretation and Constraint Programming, can complement each other.
+It is the case in real-time stream processing languages, where Abstract Interpretation techniques may not be precise enough when analyzing loops.
+With the PhD of <ref xlink:href="http://www.univ-nantes.fr/bart-a" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Anicet Bart</ref>, we are currently working on using CP techniques to find loop invariants for the <ref xlink:href="http://faust.grame.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Faust language</ref>, a functional sound processing language.</p>
+          </li>
+        </simplelist>
+        <p>This work around the design and the development of solvers thus forms the fourth direction of basic research of the project.
+</p>
+      </subsection>
+    </subsection>
+  </fondements>
+  <domaine id="uid32">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid33" level="1">
+      <bodyTitle>Introduction</bodyTitle>
+      <p>Constraint programming deals with the resolution of decision problems by means of rational, logical and computational techniques.
+Above all, constraint programming is founded on a clear distinction between, on the one hand the description of the constraints
+intervening in a problem, and on the other hand the techniques used for the resolution. The ability of constraint programming
+to handle in a flexible way heterogeneous constraints has raised the commercial interest for this paradigm in the early nighties.
+Among his fields of predilection, one finds traditional applications such as computer aided decision-making, scheduling,
+planning, placement, logistics or finance, as well as applications such as electronic circuits design (simulation, checking and test),
+DNA sequencing and phylogeny in biology, configuration of manufacturing products or web sites, formal verification of code.
+</p>
+    </subsection>
+    <subsection id="uid34" level="1">
+      <bodyTitle>Panorama</bodyTitle>
+      <p>In 2015 the <ref xlink:href="http://www.inria.fr/en/teams/tasc" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">TASC</ref> team was involved in the following application domains:</p>
+      <simplelist>
+        <li id="uid35">
+          <p noindent="true"><i>Replanning</i> in industrial timetabling problems in a Labcom
+project with <ref xlink:href="http://www.eurodecision.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Eurodécision</ref> (see Figure <ref xlink:href="#uid108" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).</p>
+        </li>
+        <li id="uid36">
+          <p noindent="true"><i>Planning and replanning</i> in Data Centres taking into account
+energy consumption in the EPOC (Energy Proportional and Opportunistic Computing system) project.</p>
+        </li>
+        <li id="uid37">
+          <p noindent="true"><i>Packing complex shapes</i> in the context of a warehouse (NetWMS2 project).</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Building decision support system for <i>resilient city development planning wrt climat change</i>
+(<ref xlink:href="https://www.graceful-project.eu/project-overview/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">GRACeFUL</ref> project).</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true"><i>Optimizing electricity production</i> in the Gaspard Monge call program for Optimisation and Operation Research in the context of electricity production.
+In 2015 we were focussing on the systematic reformulation of time-series constraints for MIP solvers.
+This was done in order to integrate time-series constraints in existing integer linear programming models for electricity production.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </domaine>
+  <highlights id="uid40">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid41" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <subsection id="uid42" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <p>Award at the <ref xlink:href="http://www.minizinc.org/challenge2016/challenge.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">MiniZinc Challenge 2016 solver competition</ref> in the Fixed category (Bronze).
+The aim of the challenge is to start to compare various constraint solving technology on the same problems sets. The focus is on finite domain propagation solvers. An auxiliary aim is to build up a library of interesting problem models, which can be used to compare solvers and solving technologies.</p>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid43">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid44" level="1">
+      <bodyTitle>AIUR</bodyTitle>
+      <p>(Artificial Intelligence Using Randomness</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The main idea is to be unpredictable by making some stochastic choices. The AI starts a game with a "mood" randomly picked up among 5 moods, dictating some behaviors (aggressive, fast expand, macro-game, ...). In addition, some other choices (productions, timing attacks, early aggressions, ...) are also taken under random conditions.</p>
+      <p>Learning is an essential part of AIUR . For this, it uses persistent I/O files system to record which moods are efficient against a given opponent, in order to modify the probability distribution for the mood selection. The current system allows both on-line and off-line learning.</p>
+      <simplelist>
+        <li id="uid45">
+          <p noindent="true">Contact: Florian Richoux</p>
+        </li>
+        <li id="uid46">
+          <p noindent="true">URL: <ref xlink:href="https://github.com/AIUR-group/AIUR" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>github.<allowbreak/>com/<allowbreak/>AIUR-group/<allowbreak/>AIUR</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid47" level="1">
+      <bodyTitle>CHOCO</bodyTitle>
+      <p><span class="smallcap" align="left">Keywords:</span> Constraint Programming - Scheduling - Optimisation - Operational research - Financial analysis - Planning</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Scientific Description</span>
+      </p>
+      <p>or second consecutive year, CHOCO has participated at the MiniZinc Challenge , an annual competition of constraint programming solvers. In concurrency with 16 other solvers, CHOCO has won three bronze medals in three out of four categories (Free search, Parallel search and Open class). Five versions have been released all year long, the last one (v3.3.0, Dec. 17th) has the particularity to be promoted on Maven Central Repository. The major modifications were related to a simplification of the API but also improvement of the overall solver.</p>
+      <p>Within the context of the PhD thesis of Charles Prud'homme, a domain specific language that allows prototyping propagation engines was integrated within CHOCO, A paper appears at Constraints.</p>
+      <p>Within the context of the PhD thesis of Charles Prud'homme, a generic strategy based on explanations for large neighborhood search was designed and integrated within CHOCO. A corresponding paper appears at Constraints.</p>
+      <p>Within the context of the PhD thesis of Jean-Guillaume Fages, a documented package for graph variables was designed and integrated within CHOCO .</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>CHOCO is a Java discrete constraints library for describing hard combinatorial problems in the form of Constraint Satisfaction Problems and solving them with Constraint Programming techniques.
+Choco can be used to solve a broad range of real combinatorial problems. It is easy to use and offers excellent performance. This technique enables non-specialists to tackle strategic or operational problems, for instance, problems related to planning, scheduling, logistics, financial analysis and bio-informatics.</p>
+      <simplelist>
+        <li id="uid48">
+          <p noindent="true">Participants: Charles Prud'homme, Nicolas Beldiceanu, Jean-Guillaume Fages, Xavier Lorca, Thierry Petit and Rémi Douence</p>
+        </li>
+        <li id="uid49">
+          <p noindent="true">Partner: Ecole des Mines de Nantes</p>
+        </li>
+        <li id="uid50">
+          <p noindent="true">Contact: Julien Prud'homme</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">URL: <ref xlink:href="http://www.choco-solver.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>choco-solver.<allowbreak/>org/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>GCCat</bodyTitle>
+      <p>Global Constraint Catalog</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Constraint Programming - Graph - Global constraint</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The global constraint catalog presents and classifies global constraints and describes different aspects with meta data.</p>
+      <simplelist>
+        <li id="uid53">
+          <p noindent="true">Participants: Nicolas Beldiceanu and Sophie Demassey</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">Contact: Nicolas Beldiceanu</p>
+        </li>
+        <li id="uid55">
+          <p noindent="true">URL: <ref xlink:href="http://sofdem.github.io/gccat/gccat/index.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>sofdem.<allowbreak/>github.<allowbreak/>io/<allowbreak/>gccat/<allowbreak/>gccat/<allowbreak/>index.<allowbreak/>html</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>GCCat on time series</bodyTitle>
+      <p>Global Constraint Catalog, Volume II, time-series constraints</p>
+      <p noindent="true"><span class="smallcap" align="left">Keywords:</span> Constraint Programming - Sequence - Transducer - Global constraint</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>The second volume of the Global Constraint Catalogue is devoted to time-series constraints.
+Within the context of Constraint Programming, time-series constraints go back to the work of Goldin and Kanellakis.
+This volume contains 626 constraints, which are explicitly described in terms of automata with accumulators.
+Checkers and propagators for all these constraints were synthesised from 22 transducers.</p>
+      <p>As in the first volume, the global constraints described in this second volume are not
+only accessible to humans, who can read the catalogue when searching
+for some information. It is also available to machines, which can
+read and interpret it. This is why there also exists an electronic
+version of this catalogue where one can get, for all time-series
+constraints, a complete description in terms of meta-data
+used in the first volume. In fact, unlike the first volume,
+<i>all the meta-data</i> of the electronic version as well as
+<i>all text and figures</i> of this second volume were automatically generated.
+While this second volume is by no means supposed to contain all possible time-series
+constraints, it contributes in the context of time-series constraints
+to the <i>systematic reconstruction</i> of the Global Constraint Catalogue that we have
+previously advocated.
+This reconstruction is based on the following methodology:</p>
+      <simplelist>
+        <li id="uid57">
+          <p noindent="true">First reuse, adapt or come up with abstractions, which allow to concisely represent
+structures and properties of time series as abstract combinatorial objects.
+In our context these abstractions essentially correspond to:</p>
+          <orderedlist>
+            <li id="uid58">
+              <p noindent="true">Transducers where letters of the output alphabet are interpreted as semantic letters indicating
+how to recognise pattern occurrences.</p>
+            </li>
+            <li id="uid59">
+              <p noindent="true">Transducers glue matrices expressing the relationship between the prefix, the suffix and the full sequence
+passed to a transducer.</p>
+            </li>
+            <li id="uid60">
+              <p noindent="true">Properties associated to regular expressions corresponding to fragments of the input language of our transducers.</p>
+            </li>
+          </orderedlist>
+        </li>
+        <li id="uid61">
+          <p noindent="true">Second, create from these abstract combinatorial objects a data base of concrete combinatorial objects.</p>
+        </li>
+        <li id="uid62">
+          <p noindent="true">Third, synthesise concrete code for various technologies, languages, tasks from this data base of
+concrete combinatorial objects.
+In this context, correctness and efficiency of the synthesised code are essentially side product of:</p>
+          <simplelist>
+            <li id="uid63">
+              <p noindent="true">The correctness of the formulae of our data base which is itself based on the wellformedness of our abstractions.</p>
+            </li>
+            <li id="uid64">
+              <p noindent="true">The generality behind our abstract combinatorial objects.</p>
+            </li>
+          </simplelist>
+        </li>
+      </simplelist>
+      <p noindent="true">The time-series catalogue is done in the following way:</p>
+      <simplelist>
+        <li id="uid65">
+          <p noindent="true">All time-series constraints are now defined in a <i>compositional way</i>
+from a few basic constituents, i.e., patterns, features, aggregators,
+and predicates, which completely define the meaning of a constraint, where
+patterns are defined using regular expressions.</p>
+        </li>
+        <li id="uid66">
+          <p noindent="true">Constraint names are now constructed in a systematic way as the <i>concatenation</i>
+of pattern name, feature name, and aggregation or predicate name.</p>
+        </li>
+        <li id="uid67">
+          <p noindent="true">Given a pattern <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>,
+checkers and constraints are now <i>systematically synthesised</i> from a transducer that,
+given an input sequence over the input alphabet <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mrow><mo>{</mo><mo>&lt;</mo><mo>,</mo><mo>=</mo><mo>,</mo><mo>&gt;</mo><mo>}</mo></mrow></math></formula>, compares two adjacent values of a time-series and
+determines an output sequence over a output semantic alphabet describing how to recognise
+the occurrences of <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>.</p>
+        </li>
+        <li id="uid68">
+          <p noindent="true">For each time-series constraint associated with a pattern <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula>,
+the generation of an automaton with accumulators is completely driven by the transducer associated
+with pattern <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>p</mi></math></formula> as well as by <i>decoration tables</i> describing for each semantic letter
+of the output alphabet of the transducers how to generate accumulator updates.
+Code optimisation is ensured by using decoration tables that depend on properties of the pattern,
+of the feature, and of the aggregator associated with the time-series constraint.</p>
+        </li>
+        <li id="uid69">
+          <p noindent="true">Lower and upper bounds of characteristics of time-series that appear in the restriction slot
+of a time-series constraint are synthesised from a <i>few parameterised formulae</i> that
+only depend on a restricted set of characteristics of the regular expression associated
+with the pattern.</p>
+        </li>
+        <li id="uid70">
+          <p noindent="true">Parametrised glue matrices are provided for each transducer that corresponds to
+reversible time-series constraints.
+A concrete glue matrix is given for each reversible time-series constraint.</p>
+        </li>
+        <li id="uid71">
+          <p noindent="true">Linear invariants are systematically obtained by applying the Farkas Lemma
+to the automata with accumulators that were synthesised. They consist of
+<i>linear constraints typically linking consecutive accumulator values</i>,
+e.g., see the legend of the second automaton of the
+constraints,
+which are generated even with
+non-linear accumulator updates.
+Missing linear invariants will be completed later on.</p>
+        </li>
+        <li id="uid72">
+          <p noindent="true">Last but not least, time-series constraints were used for generating time-series verifying a conjunction
+of constraints both in the context of
+Constraint Programming and
+in the context of Linear Programming.</p>
+        </li>
+        <li id="uid73">
+          <p noindent="true">In the context of sequential pattern mining, time-series constraint checkers can be used
+to identify and extract patterns from fixed sequences.
+While the time-series catalogue may need to be extended in order to capture more patterns,
+having a possibly large set of fixed time-series constraints is a natural safeguard to prevent overfitting
+when dealing with few sequences, at a price of not finding patterns that are not covered by the catalogue.</p>
+        </li>
+        <li id="uid74">
+          <p noindent="true">Finally, both SICStus and MiniZinc code are synthesised.
+The later allows using time series constraints on many plate forms
+such as Choco, Gecode, ORtools, Cplex or Gurobi and is available
+Electronic Constraint Catalogue.</p>
+        </li>
+      </simplelist>
+      <simplelist>
+        <li id="uid75">
+          <p noindent="true">Participants: Ekaterina Arafailova, Nicolas Beldiceanu, Rémi Douence, Mats Carlsson, Pierre Flener, Maria Andreina Francisco Rodriguez, Justin Pearson, Helmut Simonis</p>
+        </li>
+        <li id="uid76">
+          <p noindent="true">Contact: Nicolas Beldiceanu</p>
+        </li>
+        <li id="uid77">
+          <p noindent="true">URL: <ref xlink:href="https://arxiv.org/abs/1609.08925" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>arxiv.<allowbreak/>org/<allowbreak/>abs/<allowbreak/>1609.<allowbreak/>08925</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid78" level="1">
+      <bodyTitle>GHOST</bodyTitle>
+      <p>General meta-Heuristic Optimization Solving Tool</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>GHOST is a template C++ library designed for StarCraft:BroodWartm. GHOST implements a meta-heuristic solver aiming to solve any kind of combinatorial and optimization RTS-related problems represented by a csp /cop. The solver handles dedicated geometric and assignment constraints in a way that is compatible with very strong real time requirements.</p>
+      <simplelist>
+        <li id="uid79">
+          <p noindent="true">Contact: Florian Richoux</p>
+        </li>
+        <li id="uid80">
+          <p noindent="true">URL: <ref xlink:href="http://github.com/richoux/GHOST" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>github.<allowbreak/>com/<allowbreak/>richoux/<allowbreak/>GHOST</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid81" level="1">
+      <bodyTitle>TorchCraft</bodyTitle>
+      <p>Machine learning framework for games</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>TorchCraft is a library that enables deep learning research on Real-Time Strategy (RTS) games such as StarCraft: Brood War, by making it easier to control these games from a machine learning framework, here Torch. This white paper argues for using RTS games as a benchmark for AI research, and describes the design and components of TorchCraft.</p>
+      <simplelist>
+        <li id="uid82">
+          <p noindent="true">Participants: Gabriel Synnaeve, Nantas Nardelli, Alex Auvolat, Soumith Chintala, Timothée Lacroix, Zeming Lin, Florian Richoux, Nicolas Usunier</p>
+        </li>
+        <li id="uid83">
+          <p noindent="true">Contact: Florian Richoux</p>
+        </li>
+        <li id="uid84">
+          <p noindent="true">URL: <ref xlink:href="https://arxiv.org/abs/1611.00625" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>arxiv.<allowbreak/>org/<allowbreak/>abs/<allowbreak/>1611.<allowbreak/>00625</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid85">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid86" level="1">
+      <bodyTitle>Discrete Convexity</bodyTitle>
+      <p>We introduce a propagator for pairs of Sum constraints, where the expressions in the sums respect a form of convexity. This propagator is parametric and can be instantiated for various concrete pairs, including Deviation, Spread, and the conjunction of Linear(<formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mo>≤</mo></math></formula>) and Among. We show that despite its generality, our propagator (see Figure <ref xlink:href="#uid87" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) is competitive in theory and practice with state-of-the-art propagators.
+(see <ref xlink:href="http://www.sciencedirect.com/science/article/pii/S0004370216300972" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">AI journal paper</ref>).</p>
+      <object id="uid87">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/convex.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Illustration of the filtering wrt <formula type="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" overflow="scroll"><mi>h</mi></math></formula> function</caption>
+      </object>
+    </subsection>
+    <subsection id="uid88" level="1">
+      <bodyTitle>Transducers</bodyTitle>
+      <p>We describe a large family of constraints for structural time series by means of function composition. These constraints are on aggregations of features of patterns that occur in a time series, such as the number of its peaks, or the range of its steepest ascent. The patterns and features are usually linked to physical properties of the time series generator, which are important to capture in a constraint model of the system, i.e. a conjunction of constraints that produces similar time series. We formalise the patterns using finite transducers, whose output alphabet corresponds to semantic values that precisely describe the steps for identifying the occurrences of a pattern. Based on that description, we automatically synthesise automata with accumulators, as well as constraint checkers. The description scheme not only unifies the structure of the existing 30 time-series constraints in the Global Constraint Catalogue, but also leads to over 600 new constraints, with more than 100,000 lines of synthesised code.
+(see <ref xlink:href="http://dblp.uni-trier.de/db/journals/constraints/constraints21.html#BeldiceanuCDS16" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Constraint journal paper</ref>)</p>
+      <object id="uid89">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/transducer.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Transducer for the peak pattern and its execution on a sequence</caption>
+      </object>
+    </subsection>
+    <subsection id="uid90" level="1">
+      <bodyTitle>Compositional Glue Matrix and Bound for Time-Series Constraints</bodyTitle>
+      <p>Integer time series are often subject to constraints on the aggregation of the integer features of all occurrences of some pattern within the series. For example, the number of inflexions may be constrained, or the sum of the peak maxima, or the minimum of the peak widths. It is currently unknown how to maintain domain consistency efficiently on such constraints. We propose parametric ways of systematically deriving glue constraints (see Figures <ref xlink:href="#uid91" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> and <ref xlink:href="#uid92" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for the parametric and concrete glue constraints), which are a particular kind of implied constraints, as well as aggregation bounds (see Figure <ref xlink:href="#uid93" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) that can be added to the decomposition of time-series constraints. We evaluate the beneficial propagation impact of the derived implied constraints and bounds, both alone and together. (see <ref xlink:href="http://link.springer.com/chapter/10.1007%2F978-3-319-44953-1_2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CP conference paper</ref>)
+ </p>
+      <object id="uid91">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/pglue.jpg" type="float" width="227.62204pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Parametrised glue matrix for the peak pattern expressed in term of parametrised functions depending on the states pairs between the prefix and the suffix of a sequence</caption>
+      </object>
+      <object id="uid92">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/cglue.jpg" type="float" width="170.71652pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Concrete glue matrix for the number peak constraint expressed in term of concrete functions depending on the states pairs between the prefix and the suffix of a sequence</caption>
+      </object>
+      <object id="uid93">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/zbound.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Upper bound on the number of zigzag depending on the domain range being equal to 2 or greater than or equal to 3</caption>
+      </object>
+    </subsection>
+    <subsection id="uid94" level="1">
+      <bodyTitle>Reformulation of time-series constraint in MIP</bodyTitle>
+      <p>A checker for a constraint on a variable sequence can often be compactly specified by an automaton, possibly with accumulators, that consumes the sequence of values taken by the variables; such an automaton can also be used to decompose its specified constraint into a conjunction of logical constraints. The inference achieved by this decomposition in a CP solver can be boosted by automatically generated implied constraints on the accumulators, provided the latter are updated in the automaton transitions by linear expressions. Automata with non-linear accumulator updates can be automatically synthesised for a large family of time-series constraints. In this paper, we describe and evaluate extensions to those techniques. First, we improve the automaton synthesis to generate automata with fewer accumulators. Second, we decompose a constraint specified by an automaton with accumulators into a conjunction of linear inequalities, for use by a MIP solver. Third, we generalise the implied constraint generation to cover the entire family of time-series constraints. The newly synthesised automata for time-series constraints outperform the old ones, for both the CP and MIP decompositions, and the generated implied constraints boost the inference, again for both the CP and MIP decompositions. We evaluate CP and MIP solvers on a prototypical application modelled using time-series constraints. (see <ref xlink:href="http://link.springer.com/chapter/10.1007%2F978-3-319-33954-2_2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CPAIOR conference paper</ref>)
+</p>
+    </subsection>
+    <subsection id="uid95" level="1">
+      <bodyTitle>Scheduling Constraint for Video Summarisation</bodyTitle>
+      <p>Given a sequence of tasks T subject to precedence constraints between adjacent tasks, and given a set of fixed intervals I, the TaskIntersection (T,I,o,inter) constraint restricts the overall intersection of the tasks of T
+with the fixed intervals of I to be greater than or equal or less than or equal to a given limit inter.
+We provide a bound(Z)-consistent cost filtering algorithm wrt the starts and the ends of the tasks for the TaskIntersection constraint and evaluate the constraint on the video summarisation problem. (see <ref xlink:href="http://link.springer.com/chapter/10.1007%2F978-3-319-33954-2_18" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CPAIOR conference paper</ref>)
+</p>
+    </subsection>
+    <subsection id="uid96" level="1">
+      <bodyTitle>A Model Seeker for Learning Constraints Models from Positive Samples</bodyTitle>
+      <p>We describe a system which generates finite domain constraint models from positive example solutions (e.g. see Figure <ref xlink:href="#uid97" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> giving a season schedule of the Bundesliga), for highly structured problems. The system is based on the global constraint catalog, providing the library of constraints that can be used in modeling, and the Constraint Seeker tool, which finds a ranked list of matching constraints given one or more sample call patterns (e.g. see Figure <ref xlink:href="#uid98" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> giving the model learned for the input data of Figure <ref xlink:href="#uid97" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>).
+We have tested the modeler with 230 examples, ranging from 4 to 6,500 variables, using between 1 and 7,000 samples. These examples come from a variety of domains, including puzzles, sports-scheduling, packing and placement, and design theory. When comparing against manually specified canonical models for the examples, we achieve a hit rate of 50 percent, processing the complete benchmark set in less than one hour on a laptop. Surprisingly, in many cases the system finds usable candidate lists even when working with a single, positive example. (see <ref xlink:href="http://dblp.uni-trier.de/db/series/lncs/lncs10101.html#BeldiceanuS16" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Book chapter of Data Mining and Constraint Programming</ref>)</p>
+      <object id="uid97">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/bundesliga_data.jpg" type="float" width="312.9803pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Input data corresponding to a flat sample (a sequence of integer values) giving a one year season schedule of the Bundesliga</caption>
+      </object>
+      <object id="uid98">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/bundesliga_model.jpg" type="float" width="312.9803pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Model, i.e. conjunction of global constraints, learned from the single flat sample</caption>
+      </object>
+    </subsection>
+    <subsection id="uid99" level="1">
+      <bodyTitle>Global Constraint Catalog Volume II: Time-Series Constraints</bodyTitle>
+      <p>First this report presents a restricted set of 22 finite transducers used to synthesise structural time-series constraints described by means of a multi-layered function composition scheme. Second it provides the corresponding synthesised catalogue of structural time-series constraints where each of the 626 constraints is explicitly described in terms of automata with accumulators, see Figure <ref xlink:href="#uid100" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for the syntesised automaton of the sum surf peak constraint. (<ref xlink:href="https://arxiv.org/abs/1609.08925" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">arXiv 1609.08925</ref>)</p>
+      <object id="uid100">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/sum_surf_peak.jpg" type="float" width="312.9803pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Synthesised automaton with accumulator of the sum surf peak constraint obtained from the transducer of the peak pattern</caption>
+      </object>
+    </subsection>
+    <subsection id="uid101" level="1">
+      <bodyTitle>Probabilistic Model for Binary CSP</bodyTitle>
+      <p>This work introduces a probabilistic-based model for binary CSP that provides a fine grained analysis of its internal structure. Assuming that a domain modification could occur in the CSP, it shows how to express, in a predictive way, the probability that a domain value becomes inconsistent, then it express the expectation of the number of arc-inconsistent values in each domain of the constraint network. Thus, it express the expectation of the number of arc-inconsistent values for the whole constraint network. Next, it provides bounds for each of these three probabilistic indicators. Finally, a polytime algorithm, which propagates the probabilistic information, is presented. (see <ref xlink:href="https://arxiv.org/abs/1606.03894" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">arXiv 1606.03894</ref> or <ref xlink:href="#tasc-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+</p>
+    </subsection>
+    <subsection id="uid102" level="1">
+      <bodyTitle>Estimating parallel runtimes for randomized algorithms in constraint solving</bodyTitle>
+      <p>We present a detailed analysis of the scalability and parallelisation of Local Search algorithms for constraint-based and SAT (Boolean satisfiability) solvers. We propose a framework to estimate the parallel performance of a given algorithm by analyzing the runtime behavior of its sequential version. Indeed, by approximating the runtime distribution of the sequential process with statistical methods, the runtime behavior of the parallel process can be predicted by a model based on order statistics. We apply this approach to study the parallel performance of a constraint-based Local Search solver (Adaptive Search), two SAT Local Search solvers (namely Sparrow and CCASAT), and a propagation-based constraint solver (Gecode, with a random labeling heuristic). We compare the performance predicted by our model to actual parallel implementations of those methods using up to 384 processes. We show that the model is accurate and predicts performance close to the empirical data. Moreover, as we study different types of problems, we observe that the experimented solvers exhibit different behaviors and that their runtime distributions can be approximated by two types of distributions: exponential (shifted and non-shifted) and lognormal. Our results show that the proposed framework estimates the runtime of the parallel algorithm with an average discrepancy of 21 percent w.r.t. the empirical data across all the experiments with the maximum allowed number of processors for each technique. (see <ref xlink:href="http://link.springer.com/journal/10732" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Journal of Heuristics</ref>)
+</p>
+    </subsection>
+    <subsection id="uid103" level="1">
+      <bodyTitle>ghost: A Combinatorial Optimization Framework for Real-Time Problems</bodyTitle>
+      <p>We presents GHOST, a combinatorial optimization framework that a real-time strategy (RTS) AI developer can use to model and solve any problem encoded as a constraint satisfaction/optimization problem (CSP/COP). We show a way to model three different problems as a CSP/COP, using instances from the RTS game StarCraft as test beds. Each problem belongs to a specific level of abstraction (the target selection as reactive control problem, the wall-in as a tactics problem, and the build order planning as a strategy problem). In our experiments, GHOST shows good results computed within some tens of milliseconds. We also show that GHOST outperforms state-of-the-art constraint solvers, matching them on the resources allocation problem, a common combinatorial optimization problem. (see <ref xlink:href="http://dblp.uni-trier.de/db/journals/tciaig/tciaig8.html#RichouxUB16" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IEEE Transactions on Computational Intelligence and AI in games journal</ref>)
+</p>
+    </subsection>
+    <subsection id="uid104" level="1">
+      <bodyTitle>TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games</bodyTitle>
+      <p>We present TorchCraft, a library that enables deep learning research on Real-Time Strategy (RTS) games such as StarCraft: Brood War, by making it easier to control these games from a machine learning framework, here Torch. This white paper argues for using RTS games as a benchmark for AI research, and describes the design and components of TorchCraft. (see <ref xlink:href="https://arxiv.org/abs/1611.00625" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">arXiv 1611.00625</ref>)
+</p>
+    </subsection>
+    <subsection id="uid105" level="1">
+      <bodyTitle>POSL: A Parallel-Oriented metaheuristic-based Solver Language</bodyTitle>
+      <p>For a couple of years, all processors in modern machines are multi-core. Massively parallel architectures, so far reserved for super-computers, become now available to a broad public through hardware like the Xeon Phi or GPU cards. This architecture strategy has been commonly adopted by processor manufacturers, al- lowing them to stick with Moore’s law. However, this new architecture implies new ways to design and implement algorithms to exploit its full potential. This is in particular true for constraint-based solvers dealing with combinatorial optimiza- tion problems. Here we propose a Parallel-Oriented Solver Language (POSL, pro- nounced ”puzzle”), a new framework to build interconnected meta-heuristic based solvers working in parallel. The novelty of this approach lies in looking at solver as a set of components with specific goals, written in a parallel-oriented language based on operators. A major feature in POSL is the possibility to share not only information, but also behaviors, allowing solver modifications during runtime. Our framework has been designed to easily build constraint-based solvers and reduce the developing effort in the context of parallel architecture. POSL’s main advan- tage is to allow solver designers to quickly test different heuristics and parallel com- munication strategies to solve combinatorial optimization problems, usually time- consuming and very complex technically, requiring a lot of engineering.
+</p>
+    </subsection>
+    <subsection id="uid106" level="1">
+      <bodyTitle>Towards Automated Strategies in Satisfiability Modulo Theory</bodyTitle>
+      <p>SMT solvers include many heuristic components in order to ease the theorem proving process for different logics and problems. Handling these heuristics is a non-trivial task requiring specific knowledge of many theories that even a SMT solver developer may be unaware of. This is the first barrier to break in order to allow end-users to control heuristics aspects of any SMT solver and to successfully build a strategy for their own purposes. We present a first attempt for generating an automatic selection of heuristics in order to improve SMT solver efficiency and to allow end-users to take better advantage of solvers when unknown problems are faced. Evidence of improvement is shown and the basis for future works with evolutionary and/or learning-based algorithms are raised (see <ref xlink:href="http://link.springer.com/chapter/10.1007%2F978-3-319-30668-1_15" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Genetic Programming conference paper</ref>).
+</p>
+    </subsection>
+    <subsection id="uid107" level="1">
+      <bodyTitle>Using CP for the Urban Transit Crew Rescheduling Problem</bodyTitle>
+      <p>Scheduling urban and trans-urban transportation is an important issue for industrial societies. The Urban Transit Crew Scheduling Problem is one of the most important optimization problem related to this issue. It mainly relies on scheduling bus drivers workday respecting both collective agreements (see Figure <ref xlink:href="#uid108" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> for an example of regulation rule) and the bus schedule needs. If this problem has been intensively studied from a tactical point of view, its operational aspect has been neglected while the problem becomes more and more complex and more and more prone to disruptions. In this way, this paper presents how the constraint programming technologies are able to recover the tactical plans at the operational level in order to efficiently help in answering regulation needs after disruptions (see <ref xlink:href="http://link.springer.com/chapter/10.1007%2F978-3-319-44953-1_40" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CP conference paper</ref>).</p>
+      <object id="uid108">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/shift.jpg" type="float" width="341.43306pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Illustration of typical regulation rule in the Labcom project;
+Shift 2 of an employee is composed of tasks 2, 3, and 4.
+It is between shifts 1 and 3 of the same employee. A break of
+duration 4 is scheduled between task 1 of shift 1 and
+task 2 of shift 2, because the gap between these tasks is at
+least a break of 4. Similarly, a break of duration 7 is
+scheduled after task 4 of shift 2 and task 5 of shift 3.
+No other breaks can be scheduled between the tasks of shift 2
+because of the minimum break duration. The span of
+shift 2 is 22 and does not exceed 27: it is
+composed of tasks 2, 3, and 4, as well as of the two gaps
+between these tasks.</caption>
+      </object>
+    </subsection>
+    <subsection id="uid109" level="1">
+      <bodyTitle>Traveling salesman and the tree: the importance of search in CP</bodyTitle>
+      <p>The traveling salesman problem (TSP) is a challenging optimization problem for CP and OR that has many industrial applications. Its generalization to the degree constrained minimum spanning tree problem (DCMSTP) is being intensively studied by the OR community. In particular, classical solution techniques for the TSP are being progressively generalized to the DCMSTP. Recent work on cost-based relaxations has improved CP models for the TSP. However, CP search strategies have not yet been widely investigated for these problems. The contributions of this paper are twofold. We first introduce a natural generalization of the weighted cycle constraint (WCC) to the DCMSTP. We then provide an extensive empirical evaluation of various search strategies. In particular, we show that significant improvement can be achieved via our graph interpretation of the state-of-the-art Last Conflict heuristic. (see <ref xlink:href="http://link.springer.com/article/10.1007%2Fs10601-014-9178-2" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Constraints journal</ref>)
+</p>
+    </subsection>
+    <subsection id="uid110" level="1">
+      <bodyTitle>Event Selection Rules to Compute Explanations</bodyTitle>
+      <p>Explanations have been introduced in the previous century. Their interest in reducing the search space is no longer questioned. Yet, their efficient implementation into CSP solver is still a challenge. In this paper, we introduce ESeR, an Event Selection Rules algorithm that filters events generated during propagation. This dynamic selection enables an efficient computation of explanations for intelligent backtracking algorithms. We show the effectiveness of our approach on the instances of the last three MiniZinc challenges. (see <ref xlink:href="https://arxiv.org/abs/1608.08015" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">arXiv 1608.08015</ref> or <ref xlink:href="#tasc-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>)
+</p>
+    </subsection>
+    <subsection id="uid111" level="1">
+      <bodyTitle>Towards energy-proportional Clouds partially powered by renewable energy</bodyTitle>
+      <p>With the emergence of the Future Internet and the dawning of new
+IT models such as cloud computing, the usage of data centers (DC), and consequently their power consumption, increase dramatically. Besides the ecological
+impact, the energy consumption is a predominant criterion for DC providers
+since it determines the daily cost of their infrastructure. As a consequence,
+power management becomes one of the main challenges for DC infrastructures and more generally
+for large-scale-distributed systems. In this paper, we
+present the EpoCloud prototype, from hardware to middleware layers. This
+prototype aims at optimizing the energy consumption of mono-site Cloud DCs
+connected to the regular electrical grid and to renewable-energy sources
+(see <ref xlink:href="https://hal.inria.fr/hal-01340318" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Journal of Computing</ref>).
+</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid112">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid113" level="1">
+      <bodyTitle>Bilateral Contracts with Industry</bodyTitle>
+      <subsection id="uid114" level="2">
+        <bodyTitle>Labcom TransOp</bodyTitle>
+        <participants>
+          <person key="tasc-2014-idp77120">
+            <firstname>Charles</firstname>
+            <lastname>Prud'Homme</lastname>
+          </person>
+          <person key="tasc-2014-idp68992">
+            <firstname>Xavier</firstname>
+            <lastname>Lorca</lastname>
+          </person>
+        </participants>
+        <sanspuceslist>
+          <li id="uid115">
+            <p noindent="true">Title: TransOp.</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Duration: 2014-2016.</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Type: <b>ongoing project</b>.</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Others partners: <ref xlink:href="http://www.eurodecision.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Eurodécision</ref>.</p>
+          </li>
+        </sanspuceslist>
+        <p>The goal of the project is to handle robustness
+in the context of industrial timetabling problems with constraint programming using
+<ref xlink:href="http://choco-solver.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CHOCO</ref>. The project is managed by
+<ref xlink:href="http://www.emn.fr/z-info/xlorca/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Xavier Lorca</ref>.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid119" level="1">
+      <bodyTitle>Bilateral Grants with Industry</bodyTitle>
+      <subsection id="uid120" level="2">
+        <bodyTitle>Gaspard Monge</bodyTitle>
+        <participants>
+          <person key="tasc-2014-idp62176">
+            <firstname>Nicolas</firstname>
+            <lastname>Beldiceanu</lastname>
+          </person>
+          <person key="PASUSERID">
+            <firstname>Helmut</firstname>
+            <lastname>Simonis</lastname>
+          </person>
+        </participants>
+        <sanspuceslist>
+          <li id="uid121">
+            <p noindent="true">Title: Gaspard Monge 3.</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Duration: 2016.</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Type: <b>ongoing project</b>.</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Others partners: EDF.</p>
+          </li>
+        </sanspuceslist>
+        <p>Within the context of the
+Gaspard Monge call program for Optimisation and Operation Research,
+we work with <ref xlink:href="http://france.edf.com/france-45634.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">EDF</ref>
+on the research initiative on <i>Optimization and Energy</i>.
+The goal of the project (continuation of last years projects) is
+to provide a systematic reformulation of time-series constraints in term of
+linear constraints that can be used in a MIP solver.
+</p>
+      </subsection>
+    </subsection>
+  </contrats>
+  <partenariat id="uid125">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid126" level="1">
+      <bodyTitle>Regional Initiatives</bodyTitle>
+      <subsection id="uid127" level="2">
+        <bodyTitle>EPOC</bodyTitle>
+        <p>With the emergence of the Future Internet and the dawning of new IT models such as cloud computing, the usage of data centers (DC), and consequently their power consumption, increase dramatically. Besides the ecological impact, the energy consumption is a predominant criteria for DC providers since it determines the daily cost of their infrastructure. As a consequence, power management becomes one of the main challenges for DC infrastructures and more generally for large-scale distributed systems. In this paper, the EPOC project which focuses on optimising the energy consumption of mono-site DCs connected to the regular electrical grid and to renewable energy sources.</p>
+      </subsection>
+      <subsection id="uid128" level="2">
+        <bodyTitle>SmartCat</bodyTitle>
+        <participants>
+          <person key="tasc-2014-idp70432">
+            <firstname>Eric</firstname>
+            <lastname>Monfroy</lastname>
+          </person>
+          <person key="tasc-2014-idp74616">
+            <firstname>Charlotte</firstname>
+            <lastname>Truchet</lastname>
+          </person>
+        </participants>
+        <sanspuceslist>
+          <li id="uid129">
+            <p noindent="true">Title: Online optimization for chemical reactions.</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">Others partners: <ref xlink:href="http://www.sciences.univ-nantes.fr/CEISAM/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CEISAM</ref>.</p>
+          </li>
+        </sanspuceslist>
+        <p>The SmartCat project, started in 2015 on regional fundings, aims at developing an intelligent automatised tool for online chemistry.
+Contrarily to the traditional batch chemistry, where reactants are mixed in a glass,
+online chemistry consists in having a flow of reactants in a tube,
+possibly passing through ovens are pressure control mechanisms.
+This way, the reaction happens continuously and it can produce much more products within a system of reasonable size.
+SmartCat integrates a controller for which intelligent tools need to be developed.
+These tools will analyse the product of the reaction and adapt the conditions
+(stoechiometry, pressure, temperature, catalysis) in order to optimise the yield.
+TASC contributes to this project by developing these methods, based on local search techniques.</p>
+      </subsection>
+      <subsection id="uid131" level="2">
+        <bodyTitle>Atlanstic 1</bodyTitle>
+        <participants>
+          <person key="tasc-2014-idp73360">
+            <firstname>Florian</firstname>
+            <lastname>Richoux</lastname>
+          </person>
+          <p>.</p>
+        </participants>
+        <sanspuceslist>
+          <li id="uid132">
+            <p noindent="true">Title: Atlanstic project about deep learning for games.</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">Duration: 2016.</p>
+          </li>
+        </sanspuceslist>
+        <p>Topic: deep learning for games.</p>
+      </subsection>
+      <subsection id="uid134" level="2">
+        <bodyTitle>Atlanstic 2</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Charles</firstname>
+            <lastname>Prud Homme</lastname>
+          </person>
+          <p>.</p>
+        </participants>
+        <sanspuceslist>
+          <li id="uid135">
+            <p noindent="true">Title: CoMe4ACloud.</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">Duration: 2016.</p>
+          </li>
+        </sanspuceslist>
+        <p>Topic: CoMe4ACloud is an Atlanstic2020 funded project whose objective is to provide an end-to-end solution for autonomic Cloud services.
+To that end, we rely on techniques of Constraint Programming so as a decision-making tool and Model-driven Engineering
+to ease the automatic generation of the so-called autonomic managers as well as their communication with the managed system
+(see <ref xlink:href="https://come4acloud.github.io/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Constraints and Model Engineering for Autonomic Clouds</ref>).
+The project is led by ASCOLA research team and involves also AtlanModels and TASC.
+</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid137" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <subsection id="uid138" level="2">
+        <bodyTitle>ANR NetWMS2</bodyTitle>
+        <participants>
+          <person key="PASUSERID">
+            <firstname>Gilles</firstname>
+            <lastname>Chabert</lastname>
+          </person>
+          <person key="tasc-2014-idp88192">
+            <firstname>Ignacio</firstname>
+            <lastname>Salas Donoso</lastname>
+          </person>
+          <person key="tasc-2014-idp62176">
+            <firstname>Nicolas</firstname>
+            <lastname>Beldiceanu</lastname>
+          </person>
+        </participants>
+        <sanspuceslist>
+          <li id="uid139">
+            <p noindent="true">Title: Networked Warehouse Management Systems 2: packing with complex shapes.</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">Duration: 2011-2014.</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">Type: cosinus research program.</p>
+          </li>
+          <li id="uid142">
+            <p noindent="true">Budget: 189909 Euros.</p>
+          </li>
+          <li id="uid143">
+            <p noindent="true">Others partners: <ref xlink:href="http://www.klsoptim.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">KLS Optim</ref> and <ref xlink:href="http://www.inria.fr/en/teams/contraintes" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">CONTRAINTES</ref> (Inria Rocquencourt).</p>
+          </li>
+        </sanspuceslist>
+        <p>This project builds on the former European FP6 <ref xlink:href="http://www.ercim.eu/activity/projects/netwms.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Net-WMS</ref>
+Strep project that has shown that constraint-based
+optimisation techniques can considerably improve industrial practice for box packing problems,
+while identifying hard instances that cannot be solved optimally, especially in industrial 3D packing problems
+with rotations, the needs for dealing with more complex shapes (e.g. wheels, silencers) involving continuous
+values. This project aims at generalizing the geometric kernel <ref xlink:href="http://www.emn.fr/z-info/sdemasse/gccat/Cgeost.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><i>geost</i></ref>
+for handling non-overlapping constraints
+for complex two and three dimensional curved shapes as well as domain specific heuristics.
+This will be done within the continuous solver <ref xlink:href="http://www.emn.fr/z-info/ibex/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">IBEX</ref>, where discrete variables will be added
+for handling polymorphism (i.e., the fact that an object can take one shape out of a finite set of given shapes).
+A filtering algorithm has been devised in the case of objects described by nonlinear inequalities and is now under testing with the Ibex library. This work has been presented in a workshop on interval methods &amp; geometry in
+<ref xlink:href="http://www.ensta-bretagne.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">ENSTA Bretagne</ref>.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid144" level="1">
+      <bodyTitle>European Initiatives</bodyTitle>
+      <subsection id="uid145" level="2">
+        <bodyTitle>FP7 &amp; H2020 Projects</bodyTitle>
+        <p>Within the context of the <ref xlink:href="https://ec.europa.eu/programmes/horizon2020/en/news/first-future-and-emerging-technologies-fet-proactive-projects-under-horizon-2020-framework" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">First Future and Emerging Technologies (FET) Proactive projects under Horizon 2020 Framework Programme</ref> the <ref xlink:href="https://www.graceful-project.eu/project-overview/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">GRACeFUL</ref> project started this year.
+From an application point of view the project develops scalable rapid assessment tools for collective policy making in global systems,
+and test these on climate-resilient urban design. From a technical point of view it provides domain specific languages that are embedded
+in functional programming and constraint programming languages. Within the project TASC is responsible for the constraint part.
+To interact with policy makers it uses some qualitative network model
+(see Figure <ref xlink:href="#uid146" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>) embedded with constraint programming models that also capture dependancy between potential actions as well as costs.</p>
+        <object id="uid146">
+          <table>
+            <tr>
+              <td>
+                <ressource xlink:href="IMG/graceful.jpg" type="float" width="483.69684pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+              </td>
+            </tr>
+          </table>
+          <caption>Illustration of some qualitative network capturing causality in the context of flooding prevention</caption>
+        </object>
+      </subsection>
+    </subsection>
+    <subsection id="uid147" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid148" level="2">
+        <bodyTitle>Inria Associate Teams Not Involved in an Inria International Labs</bodyTitle>
+        <subsection id="uid149" level="3">
+          <bodyTitle>
+            <ref xlink:href="http://www.normalesup.org/~truchet/TASCMELB.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">TASCMELB </ref>
+          </bodyTitle>
+          <sanspuceslist>
+            <li id="uid150">
+              <p noindent="true">Title: Synergy between Filtering and Explanations for Scheduling and Placement Constraints</p>
+            </li>
+            <li id="uid151">
+              <p noindent="true">International Partner (Institution - Laboratory - Researcher):</p>
+              <sanspuceslist>
+                <li id="uid152">
+                  <p noindent="true">NICTA (Australia)
+- Optimisation Research Group (Optimisation) - Pascal van Hentenryck</p>
+                </li>
+              </sanspuceslist>
+            </li>
+            <li id="uid153">
+              <p noindent="true">Start year: 2014</p>
+            </li>
+            <li id="uid154">
+              <p noindent="true">See also: <ref xlink:href="http://www.normalesup.org/~truchet/TASCMELB.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>normalesup.<allowbreak/>org/<allowbreak/>~truchet/<allowbreak/>TASCMELB.<allowbreak/>html</ref></p>
+            </li>
+            <li id="uid155">
+              <p noindent="true">In the context of Constraint Programming and SAT the project addresses the synergy between filtering (removing values from variables) and explanations (explaining why values were removed in term of clauses) in order to handle in a more efficient way correlated resource scheduling and placement constraints. It combines the strong point of Constraint Programming, namely removing value that leads to infeasibility, with the strong point of SAT, namely taking advantage from past failure in order to quickly identify infeasible sub-problems.
+In 2016 we got the following the following new result
+<i>using rewriting for synthesising filtering algorithm for the Allen constraint</i>:
+For all 8192 combinations of Allen's 13 relations between one task with origin oi and fixed length li and another task with origin oj and fixed length lj, we give a formula evaluating to a set of integers which are infeasible for a task origin for the given combination. Such forbidden regions are useful e.g. in a range-consistency maintaining propagator for an Allen constraint in finite domain constraint programming.
+No visit to Melbourne was done this year because of VISA problem. Consequently we also did remotly (i.e. from Nantes) the following result: the availability of the time-series constraints of the time-series constraint catalog available in the MiniZinc modelling language (and consequently made them accessible to solvers like Choco or Cplex).</p>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid156" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid157" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <simplelist>
+          <li id="uid158">
+            <p noindent="true">A visit regarding time-series constraints of
+<ref xlink:href="https://www.researchgate.net/profile/Maria_Andreina_Francisco_Rodriguez" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Andreina Francisco Rodriguez</ref>
+<ref xlink:href="https://www.insight-centre.org/users/helmut-simonis" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Helmut Simonis</ref>,
+<ref xlink:href="http://user.it.uu.se/~pierref/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Pierre Flener</ref> and
+<ref xlink:href="http://user.it.uu.se/~justin/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Justin Pearson</ref>
+in Nantes in May.</p>
+          </li>
+          <li id="uid159">
+            <p noindent="true">A visit regarding time-series constraints of
+<ref xlink:href="https://www.insight-centre.org/users/helmut-simonis" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Helmut Simonis</ref>,
+in July in May.</p>
+          </li>
+        </simplelist>
+      </subsection>
+      <subsection id="uid160" level="2">
+        <bodyTitle>Visits to International Teams</bodyTitle>
+        <simplelist>
+          <li id="uid161">
+            <p noindent="true">Two visits of E. Arafailova regarding time-series constraints
+in Cork (March 2016) and in Uppsala (April 2016)</p>
+          </li>
+          <li id="uid162">
+            <p noindent="true">Three visits of N. Beldiceanu regarding time-series constraint
+in Cork (June 2016) and in Uppsala (February 2016, August 2016)</p>
+          </li>
+        </simplelist>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid163">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid164" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid165" level="2">
+        <bodyTitle>Leadership within the Scientific Community</bodyTitle>
+        <p>Charlotte Truchet was elected in the ACP committee.</p>
+      </subsection>
+      <subsection id="uid166" level="2">
+        <bodyTitle>Research Administration</bodyTitle>
+        <p>Preparation by the whole team of the two evaluations that respectively toke place
+in January 2016 (hceres evaluation) and in March 2016 (inria evaluation).</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid167" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid168" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid169">
+            <p noindent="true">PhD: <ref xlink:href="https://www.lina.univ-nantes.fr/?_Ignacio-SALAS_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Ignacio Salas Donoso</ref>,
+Packing curved objects with interval methods,
+Started in May 2013, PhD defense April 5 2016 with committee Luc Jaulin, Gilles Trombettoni, François Fages,
+see <ref xlink:href="https://tel.archives-ouvertes.fr/tel-01331876/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">PhD thesis</ref>,
+<ref xlink:href="http://www.emn.fr/z-info/gchabe08/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Gilles Chabert</ref> and <ref xlink:href="http://www.emn.fr/z-info/ppc/membres_en.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Nicolas Beldiceanu</ref>.</p>
+          </li>
+          <li id="uid170">
+            <p noindent="true">PhD in progress : <ref xlink:href="https://www.lina.univ-nantes.fr/?_Gilles-MADI-WAMBA_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Gilles Madi Wamba</ref>,
+Mixing constraint programming and behavioural models to manage energy consumption in data centre,
+October 2014,
+<ref xlink:href="http://www.emn.fr/z-info/ppc/membres_en.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Nicolas Beldiceanu</ref> and <ref xlink:href="http://www.irccyn.ec-nantes.fr/~lime/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Didier Lime</ref>.</p>
+          </li>
+          <li id="uid171">
+            <p noindent="true">PhD in progress : <ref xlink:href="https://www.lina.univ-nantes.fr/?_Alejandro-REYES-AMARO_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Alejandro Reyes Amaro</ref>,
+Toward autonomous parallel algorithms for constraint-based problems,
+October 2014,
+<ref xlink:href="https://www.lina.univ-nantes.fr/?_Eric-MONFROY_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Eric Monfroy</ref> and <ref xlink:href="http://www.richoux.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Florian Richoux</ref>.</p>
+          </li>
+          <li id="uid172">
+            <p noindent="true">PhD in progress : <ref xlink:href="https://www.lina.univ-nantes.fr/?_Anicet-BART_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Anicet Bart</ref>,
+Solving mixed constraints, application to the management of mobile sensors,
+October 2014,
+<ref xlink:href="https://www.lina.univ-nantes.fr/?_Eric-MONFROY_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Eric Monfroy</ref> and <ref xlink:href="http://www.lina.univ-nantes.fr/?_Charlotte-TRUCHET_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Charlotte Truchet</ref>.</p>
+          </li>
+          <li id="uid173">
+            <p noindent="true">PhD in progress : <ref xlink:href="https://www.lina.univ-nantes.fr/?_Ekatherina-ARAFAILOVA_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Ekaterina Arafailova</ref>,
+Functional constraints,
+September 2015,
+<ref xlink:href="http://www.emn.fr/z-info/ppc/membres_en.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Nicolas Beldiceanu</ref> and <ref xlink:href="http://www.emn.fr/z-info/douence/Home.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Rémi Douence</ref>.</p>
+          </li>
+          <li id="uid174">
+            <p noindent="true">PhD in progress : <ref xlink:href="http://www.univ-angers.fr/fr/recherche/unites-et-structures-de-recherche/pole-math-stic/leria.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Nicolas Galvez</ref>,
+Hybrid Algorithms for Search Based Software Engineering,
+December 2014,
+<ref xlink:href="https://www.lina.univ-nantes.fr/?_Eric-MONFROY_.html" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Eric Monfroy</ref> with
+<ref xlink:href="http://www.info.univ-angers.fr/pub/saubion/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Frédéric Saubion</ref> from Angers University and
+<ref xlink:href="https://www.inf.utfsm.cl/~ccastro/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">C. Castro</ref> from UTFSM Valparaiso, Chili.</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+    </subsection>
+    <subsection id="uid175" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <simplelist>
+        <li id="uid176">
+          <p noindent="true">Maintenance of the global constraint catalogue.</p>
+        </li>
+        <li id="uid177">
+          <p noindent="true">Illustrations of the volume II of the global constraint catalogue: 2000 figures.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="tasc-2016-bid8" type="article" rend="year" n="cite:aggoun:hal-01378471">
+      <identifiant type="hal" value="hal-01378471"/>
+      <analytic>
+        <title level="a">Packing with Complex Shapes</title>
+        <author>
+          <persName>
+            <foreName>Abderrahmane</foreName>
+            <surname>Aggoun</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="tasc-2014-idp64944">
+            <foreName>Gilles</foreName>
+            <surname>Chabert</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="lifeware-2014-idm29408">
+            <foreName>François</foreName>
+            <surname>Fages</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="yes" x-editorial-board="yes" x-international-audience="yes" id="rid00490">
+        <idno type="issn">0926-4981</idno>
+        <title level="j">ERCIM News</title>
+        <imprint>
+          <biblScope type="number">105</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">32</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01378471" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01378471</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid17" type="article" rend="year" n="cite:beldiceanu:hal-01370322">
+      <identifiant type="doi" value="10.1007/s10601-015-9200-3"/>
+      <identifiant type="hal" value="hal-01370322"/>
+      <analytic>
+        <title level="a">Using finite transducers for describing and synthesising structural time-series constraints</title>
+        <author>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Mats</foreName>
+            <surname>Carlsson</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="ascola-2014-idp69088">
+            <foreName>Rémi</foreName>
+            <surname>Douence</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Simonis</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00438">
+        <idno type="issn">1383-7133</idno>
+        <title level="j">Constraints</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01370322" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01370322</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid11" type="article" rend="year" n="cite:beldiceanu:hal-01340318">
+      <identifiant type="doi" value="10.1007/s00607-016-0503-z"/>
+      <identifiant type="hal" value="hal-01340318"/>
+      <analytic>
+        <title level="a">Towards energy-proportional Clouds partially powered by renewable energy</title>
+        <author>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Bárbara</foreName>
+            <surname>Dumas Feris</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName>
+            <foreName>Philippe</foreName>
+            <surname>Gravey</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="ascola-2014-idp99328">
+            <foreName>Sabbir</foreName>
+            <surname>Hasan</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Claude</foreName>
+            <surname>Jard</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="ascola-2014-idp71592">
+            <foreName>Thomas</foreName>
+            <surname>Ledoux</surname>
+            <initial>T.</initial>
+          </persName>
+          <persName key="myriads-2014-idp130304">
+            <foreName>Yunbo</foreName>
+            <surname>Li</surname>
+            <initial>Y.</initial>
+          </persName>
+          <persName>
+            <foreName>Didier</foreName>
+            <surname>Lime</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Gilles</foreName>
+            <surname>Madi-Wamba</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="ascola-2014-idp72840">
+            <foreName>Jean-Marc</foreName>
+            <surname>Menaud</surname>
+            <initial>J.-M.</initial>
+          </persName>
+          <persName>
+            <foreName>Pascal</foreName>
+            <surname>Morel</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Michel</foreName>
+            <surname>Morvan</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Marie-Laure</foreName>
+            <surname>MOULINARD</surname>
+            <initial>M.-L.</initial>
+          </persName>
+          <persName key="myriads-2014-idp65360">
+            <foreName>Anne-Cécile</foreName>
+            <surname>Orgerie</surname>
+            <initial>A.-C.</initial>
+          </persName>
+          <persName key="myriads-2014-idp70544">
+            <foreName>Jean-Louis</foreName>
+            <surname>Pazat</surname>
+            <initial>J.-L.</initial>
+          </persName>
+          <persName>
+            <foreName>Olivier H.</foreName>
+            <surname>Roux</surname>
+            <initial>O. H.</initial>
+          </persName>
+          <persName>
+            <foreName>Ammar</foreName>
+            <surname>Sharaiha</surname>
+            <initial>A.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00427">
+        <idno type="issn">0010-485X</idno>
+        <title level="j">Computing</title>
+        <imprint>
+          <biblScope type="volume">99</biblScope>
+          <biblScope type="number">1</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <biblScope type="pages">20</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01340318" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01340318</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid12" type="incollection" rend="year" n="cite:beldiceanu:hal-01436062">
+      <identifiant type="doi" value="10.1007/978-3-319-50137-6_4"/>
+      <identifiant type="hal" value="hal-01436062"/>
+      <analytic>
+        <title level="a">ModelSeeker: Extracting Global Constraint Models from Positive Examples</title>
+        <author>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Simonis</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Data Mining and Constraint Programming</title>
+        <title level="s">Data Mining and Constraint Programming</title>
+        <imprint>
+          <biblScope type="volume">10101</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">77-95</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436062" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436062</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid14" type="incollection" rend="year" n="cite:churchill:hal-01436110">
+      <identifiant type="doi" value="10.1007/978-3-319-08234-9_18-1"/>
+      <identifiant type="hal" value="hal-01436110"/>
+      <analytic>
+        <title level="a"> StarCraft Bots and Competitions</title>
+        <author>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Churchill</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Mike</foreName>
+            <surname>Preuss</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Gabriel</foreName>
+            <surname>Synnaeve</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Alberto</foreName>
+            <surname>Uriarte</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Santiago</foreName>
+            <surname>Ontañón</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Michal</foreName>
+            <surname>Certicky</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <editor role="editor">
+          <persName>
+            <foreName>Newton</foreName>
+            <surname>Lee</surname>
+            <initial>N.</initial>
+          </persName>
+        </editor>
+        <title level="m">Encyclopedia of Computer Graphics and Games</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer International Publishing</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">1-18</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436110" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436110</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid16" type="article" rend="year" n="cite:fages:hal-01436214">
+      <identifiant type="doi" value="10.1007/s10601-014-9178-2"/>
+      <identifiant type="hal" value="hal-01436214"/>
+      <analytic>
+        <title level="a">The salesman and the tree: the importance of search in CP</title>
+        <author>
+          <persName key="tasc-2014-idp84504">
+            <foreName>Jean-Guillaume</foreName>
+            <surname>Fages</surname>
+            <initial>J.-G.</initial>
+          </persName>
+          <persName key="tasc-2014-idp68992">
+            <foreName>Xavier</foreName>
+            <surname>Lorca</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Louis-Martin</foreName>
+            <surname>Rousseau</surname>
+            <initial>L.-M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00438">
+        <idno type="issn">1383-7133</idno>
+        <title level="j">Constraints</title>
+        <imprint>
+          <biblScope type="volume">21</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">145 - 162</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436214" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436214</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid18" type="article" rend="year" n="cite:monette:hal-01374714">
+      <identifiant type="doi" value="10.1016/j.artint.2016.08.006"/>
+      <identifiant type="hal" value="hal-01374714"/>
+      <analytic>
+        <title level="a">A Parametric Propagator for Pairs of Sum Constraints with a Discrete Convexity Property</title>
+        <author>
+          <persName>
+            <foreName>Jean-Noël</foreName>
+            <surname>Monette</surname>
+            <initial>J.-N.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Flener</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>Justin</foreName>
+            <surname>Pearson</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00189">
+        <idno type="issn">0004-3702</idno>
+        <title level="j">Artificial Intelligence</title>
+        <imprint>
+          <biblScope type="volume">241</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">170 - 190</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01374714" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01374714</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid19" type="incollection" rend="year" n="cite:reyesamaro:hal-01436119">
+      <identifiant type="hal" value="hal-01436119"/>
+      <analytic>
+        <title level="a"> POSL: A Parallel-Oriented metaheuristic-based Solver Language</title>
+        <author>
+          <persName key="tasc-2014-idp86968">
+            <foreName>Alejandro</foreName>
+            <surname>Reyes Amaro</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp70432">
+            <foreName>Eric</foreName>
+            <surname>Monfroy</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Springer Recent Developments of Metaheuristics</title>
+        <imprint>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436119" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436119</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid15" type="article" rend="year" n="cite:richoux:hal-01436124">
+      <identifiant type="doi" value="10.1109/TCIAIG.2016.2573199"/>
+      <identifiant type="hal" value="hal-01436124"/>
+      <analytic>
+        <title level="a"> GHOST: A Combinatorial Optimization Framework for Real-Time Problems</title>
+        <author>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Alberto</foreName>
+            <surname>Uriarte</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-François</foreName>
+            <surname>Baffier</surname>
+            <initial>J.-F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00718">
+        <idno type="issn">1943-068X</idno>
+        <title level="j">IEEE Transactions on Computational Intelligence and AI in games</title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">377-388</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436124" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436124</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid10" type="inproceedings" rend="year" n="cite:arafailova:hal-01355262">
+      <identifiant type="doi" value="10.1007/978-3-319-33954-2"/>
+      <identifiant type="hal" value="hal-01355262"/>
+      <analytic>
+        <title level="a">Time-Series Constraints: Improvements and Application in CP and MIP Contexts</title>
+        <author>
+          <persName key="tasc-2015-idp76648">
+            <foreName>Ekaterina</foreName>
+            <surname>Arafailova</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName key="ascola-2014-idp69088">
+            <foreName>Rémi</foreName>
+            <surname>Douence</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Flener</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>María Andreína</foreName>
+            <surname>Francisco Rodríguez</surname>
+            <initial>M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Justin</foreName>
+            <surname>Pearson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Simonis</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName>Claude-Guy</foreName>
+            <surname>Quimper</surname>
+            <initial>C.-G.</initial>
+          </persName>
+        </editor>
+        <title level="m">CPAIOR 2016 - 13th International Conference on Integration of Artificial Intelligence and Operations Research Techniques in Constraint Programming</title>
+        <loc>Banff, Canada</loc>
+        <title level="s">Lecture Notes in Computer Science</title>
+        <imprint>
+          <biblScope type="volume">9676</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">18-34</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01355262" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01355262</ref>
+        </imprint>
+        <meeting id="cid287355">
+          <title>International Conference on Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems</title>
+          <num>13</num>
+          <abbr type="sigle">CPAIOR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid3" type="inproceedings" rend="year" n="cite:bart:hal-01234179">
+      <identifiant type="hal" value="hal-01234179"/>
+      <analytic>
+        <title level="a">Contraintes sur des flux appliquées a la vérification de programmes audio</title>
+        <author>
+          <persName key="tasc-2014-idp80832">
+            <foreName>Anicet</foreName>
+            <surname>Bart</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp74616">
+            <foreName>Charlotte</foreName>
+            <surname>Truchet</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="tasc-2014-idp70432">
+            <foreName>Eric</foreName>
+            <surname>Monfroy</surname>
+            <initial>E.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Onzièmes Journées Francophones de Programmation par Contraintes</title>
+        <loc>Bordeaux, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01234179" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01234179</ref>
+        </imprint>
+        <meeting id="cid344762">
+          <title>Journées Francophones de Programmation par Contraintes</title>
+          <num>11</num>
+          <abbr type="sigle">JFPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid5" type="inproceedings" rend="year" n="cite:lorca:hal-01436288">
+      <identifiant type="doi" value="10.1007/978-3-319-44953-1_40"/>
+      <identifiant type="hal" value="hal-01436288"/>
+      <analytic>
+        <title level="a">Using Constraint Programming for the Urban Transit Crew Rescheduling Problem</title>
+        <author>
+          <persName key="tasc-2014-idp68992">
+            <foreName>Xavier</foreName>
+            <surname>Lorca</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName>
+            <foreName>Charles</foreName>
+            <surname>Prud 'homme</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName>
+            <foreName>Aurélien</foreName>
+            <surname>Questel</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Rottembourg</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Principles and Practice of Constraint Programming</title>
+        <loc>Toulouse, France</loc>
+        <imprint>
+          <biblScope type="volume">9892</biblScope>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">636 - 649</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436288" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436288</ref>
+        </imprint>
+        <meeting id="cid297305">
+          <title>International Conference on Principles and Practice of Constraint Programming</title>
+          <num>20</num>
+          <abbr type="sigle">CP</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid6" type="inproceedings" rend="year" n="cite:madiwamba:hal-01436044">
+      <identifiant type="doi" value="10.1007/978-3-319-33954-2_18"/>
+      <identifiant type="hal" value="hal-01436044"/>
+      <analytic>
+        <title level="a">The TaskIntersection Constraint</title>
+        <author>
+          <persName key="tasc-2014-idp85744">
+            <foreName>Gilles</foreName>
+            <surname>Madi Wamba</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="no" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Integration of AI and OR techniques in constraint programming</title>
+        <loc>Banff, Canada</loc>
+        <title level="s">Integration of AI and OR techniques in constraint programming</title>
+        <imprint>
+          <biblScope type="volume">9676</biblScope>
+          <publisher>
+            <orgName>Springer</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">246-261</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436044" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436044</ref>
+        </imprint>
+        <meeting id="cid287355">
+          <title>International Conference on Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems</title>
+          <num>13</num>
+          <abbr type="sigle">CPAIOR</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid13" type="inproceedings" rend="year" n="cite:reyesamaro:hal-01436130">
+      <identifiant type="hal" value="hal-01436130"/>
+      <analytic>
+        <title level="a">Étude de stratégies parallèles de coopération avec POSL</title>
+        <author>
+          <persName key="tasc-2014-idp86968">
+            <foreName>Alejandro</foreName>
+            <surname>Reyes Amaro</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp70432">
+            <foreName>Eric</foreName>
+            <surname>Monfroy</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Douzièmes Journées Francophones de Programmation par Contraintes (JFPC)</title>
+        <loc>Montpellier, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>June</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436130" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436130</ref>
+        </imprint>
+        <meeting id="cid344762">
+          <title>Journées Francophones de Programmation par Contraintes</title>
+          <num>11</num>
+          <abbr type="sigle">JFPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid7" type="misc" rend="year" n="cite:arafailova:hal-01370317">
+      <identifiant type="doi" value="10.1007/978-3-319-44953-1_2"/>
+      <identifiant type="hal" value="hal-01370317"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Systematic Derivation of Bounds and Glue Constraints for Time-Series Constraints</title>
+        <author>
+          <persName key="tasc-2015-idp76648">
+            <foreName>Ekaterina</foreName>
+            <surname>Arafailova</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Mats</foreName>
+            <surname>Carlsson</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Flener</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>María Andreína</foreName>
+            <surname>Francisco Rodríguez</surname>
+            <initial>M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Justin</foreName>
+            <surname>Pearson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Simonis</surname>
+            <initial>H.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01370317" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01370317</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">slides corresponding to this paper</note>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid9" type="misc" rend="year" n="cite:douence:hal-01374721">
+      <identifiant type="hal" value="hal-01374721"/>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Global Constraint Catalog, Volume II, Time-Series Constraints</title>
+        <author>
+          <persName key="ascola-2014-idp69088">
+            <foreName>Rémi</foreName>
+            <surname>Douence</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName>
+            <foreName>Pierre</foreName>
+            <surname>Flener</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName>
+            <foreName>María Andreína Francisco</foreName>
+            <surname>Rodríguez</surname>
+            <initial>M. A. F.</initial>
+          </persName>
+          <persName>
+            <foreName>Justin</foreName>
+            <surname>Pearson</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Helmut</foreName>
+            <surname>Simonis</surname>
+            <initial>H.</initial>
+          </persName>
+          <persName>
+            <foreName>María Andreína</foreName>
+            <surname>Francisco Rodríguez</surname>
+            <initial>M. A.</initial>
+          </persName>
+          <persName>
+            <foreName>Mats</foreName>
+            <surname>Carlsson</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="tasc-2014-idp62176">
+            <foreName>Nicolas</foreName>
+            <surname>Beldiceanu</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">2709</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01374721" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01374721</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">Synthesized catalogue (text, figures, code) of time-series constraints</note>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid2" type="unpublished" rend="year" n="cite:reyesamaro:hal-01345775">
+      <identifiant type="hal" value="hal-01345775"/>
+      <monogr>
+        <title level="m">Suplementary document for Studying parallel communication strategies with POSL</title>
+        <author>
+          <persName>
+            <foreName>Alejandro</foreName>
+            <surname>Reyes-Amaro</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp70432">
+            <foreName>Eric</foreName>
+            <surname>Monfroy</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01345775" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01345775</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid4" type="unpublished" rend="year" n="cite:synnaeve:hal-01436134">
+      <identifiant type="hal" value="hal-01436134"/>
+      <monogr>
+        <title level="m">TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games</title>
+        <author>
+          <persName>
+            <foreName>Gabriel</foreName>
+            <surname>Synnaeve</surname>
+            <initial>G.</initial>
+          </persName>
+          <persName>
+            <foreName>Nardelli</foreName>
+            <surname>Nantas</surname>
+            <initial>N.</initial>
+          </persName>
+          <persName>
+            <foreName>Auvolat</foreName>
+            <surname>Alex</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Soumith</foreName>
+            <surname>Chintala</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName>
+            <foreName>Lacroix</foreName>
+            <surname>Timothée</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName>
+            <foreName>Lin</foreName>
+            <surname>Zeming</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="tasc-2014-idp73360">
+            <foreName>Florian</foreName>
+            <surname>Richoux</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName>
+            <foreName>Nicolas</foreName>
+            <surname>Usunier</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>January</month>
+            <year>2017</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01436134" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01436134</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid0" type="article" rend="foot" n="footcite:DBLP:journals/corr/BalafrejLT16">
+      <analytic>
+        <title level="a">A Probabilistic-Based Model for Binary CSP</title>
+        <author>
+          <persName>
+            <foreName>Amine</foreName>
+            <surname>Balafrej</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="tasc-2014-idp68992">
+            <foreName>Xavier</foreName>
+            <surname>Lorca</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="tasc-2014-idp74616">
+            <foreName>Charlotte</foreName>
+            <surname>Truchet</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">CoRR</title>
+        <imprint>
+          <biblScope type="volume">abs/1606.03894</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="http://arxiv.org/abs/1606.03894" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>arxiv.<allowbreak/>org/<allowbreak/>abs/<allowbreak/>1606.<allowbreak/>03894</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="tasc-2016-bid1" type="article" rend="foot" n="footcite:DBLP:journals/corr/PrudhommeLJ16">
+      <analytic>
+        <title level="a">Event Selection Rules to Compute Explanations</title>
+        <author>
+          <persName>
+            <foreName>Charles</foreName>
+            <surname>Prud'homme</surname>
+            <initial>C.</initial>
+          </persName>
+          <persName key="tasc-2014-idp68992">
+            <foreName>Xavier</foreName>
+            <surname>Lorca</surname>
+            <initial>X.</initial>
+          </persName>
+          <persName key="tasc-2014-idp67488">
+            <foreName>Narendra</foreName>
+            <surname>Jussien</surname>
+            <initial>N.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">CoRR</title>
+        <imprint>
+          <biblScope type="volume">abs/1608.08015</biblScope>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="http://arxiv.org/abs/1608.08015" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>arxiv.<allowbreak/>org/<allowbreak/>abs/<allowbreak/>1608.<allowbreak/>08015</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>

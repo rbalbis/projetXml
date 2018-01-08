@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raweb xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" year="2016">
+  <identification id="camus" isproject="true">
+    <shortname>CAMUS</shortname>
+    <projectName>Compilation pour les Architectures MUlti-cœurS</projectName>
+    <theme-de-recherche>Architecture, Languages and Compilation</theme-de-recherche>
+    <domaine-de-recherche>Algorithmics, Programming, Software and Architecture</domaine-de-recherche>
+    <urlTeam>http://team.inria.fr/camus/</urlTeam>
+    <header_dates_team>Creation of the Team: 2009 July 01</header_dates_team>
+    <LeTypeProjet>Team</LeTypeProjet>
+    <keywordsSdN>
+      <term>1.1.1. - Multicore</term>
+      <term>1.1.4. - High performance computing</term>
+      <term>2.1.1. - Semantics of programming languages</term>
+      <term>2.1.6. - Concurrent programming</term>
+      <term>2.2.1. - Static analysis</term>
+      <term>2.2.3. - Run-time systems</term>
+      <term>2.2.4. - Parallel architectures</term>
+      <term>2.2.5. - GPGPU, FPGA, etc.</term>
+      <term>2.2.6. - Adaptive compilation</term>
+    </keywordsSdN>
+    <keywordsSecteurs>
+      <term>4.5.1. - Green computing</term>
+      <term>6.1.1. - Software engineering</term>
+      <term>6.6. - Embedded systems</term>
+    </keywordsSecteurs>
+    <DescriptionTeam>Inria teams are typically groups of researchers working on the definition of a common project, and objectives, with the goal to arrive at the creation of a project-team. Such project-teams may include other partners (universities or research institutions).</DescriptionTeam>
+    <UR name="Nancy"/>
+  </identification>
+  <team id="uid1">
+    <person key="camus-2014-idm29072">
+      <firstname>Philippe</firstname>
+      <lastname>Clauss</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Team leader, Univ. Strasbourg, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="toccata-2014-idp68328">
+      <firstname>Arthur</firstname>
+      <lastname>Charguéraud</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Researcher, since Oct 2016</moreinfo>
+    </person>
+    <person key="algorille-2014-idp13160">
+      <firstname>Jens</firstname>
+      <lastname>Gustedt</lastname>
+      <categoryPro>Chercheur</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, Senior Researcher</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="camus-2014-idm27640">
+      <firstname>Cédric</firstname>
+      <lastname>Bastoul</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="alf-2014-idp68616">
+      <firstname>Alain</firstname>
+      <lastname>Ketterlin</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Assistant Professor</moreinfo>
+    </person>
+    <person key="camus-2014-idp65704">
+      <firstname>Vincent</firstname>
+      <lastname>Loechner</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Assistant Professor</moreinfo>
+    </person>
+    <person key="camus-2014-idp66968">
+      <firstname>Nicolas</firstname>
+      <lastname>Magaud</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Assistant Professor</moreinfo>
+    </person>
+    <person key="camus-2014-idp68232">
+      <firstname>Julien</firstname>
+      <lastname>Narboux</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Assistant Professor</moreinfo>
+    </person>
+    <person key="camus-2014-idp69496">
+      <firstname>Éric</firstname>
+      <lastname>Violard</lastname>
+      <categoryPro>Enseignant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, Assistant Professor</moreinfo>
+      <hdr>oui</hdr>
+    </person>
+    <person key="camus-2015-idp109392">
+      <firstname>Artiom</firstname>
+      <lastname>Baloian</lastname>
+      <categoryPro>Technique</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, until Oct 2016</moreinfo>
+    </person>
+    <person key="camus-2014-idp70952">
+      <firstname>Yann</firstname>
+      <lastname>Barsamian</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg</moreinfo>
+    </person>
+    <person key="camus-2014-idp78456">
+      <firstname>Luis Esteban</firstname>
+      <lastname>Campostrini</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, until Jun 2016</moreinfo>
+    </person>
+    <person key="camus-2016-idp138752">
+      <firstname>Paul</firstname>
+      <lastname>Godard</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Caldera, from Sep 2016</moreinfo>
+    </person>
+    <person key="camus-2014-idp74720">
+      <firstname>Juan Manuel</firstname>
+      <lastname>Martinez Caamaño</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, until Oct 2016</moreinfo>
+    </person>
+    <person key="camus-2016-idp143648">
+      <firstname>Julien</firstname>
+      <lastname>Pagès</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, from Oct 2016</moreinfo>
+    </person>
+    <person key="camus-2016-idp146128">
+      <firstname>Harenome</firstname>
+      <lastname>Ranaivoarivony-Razanajato</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, from Oct 2016</moreinfo>
+    </person>
+    <person key="algorille-2014-idp131864">
+      <firstname>Mariem</firstname>
+      <lastname>Saied</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria &amp; Univ. Strasbourg</moreinfo>
+    </person>
+    <person key="camus-2015-idp118016">
+      <firstname>Daniel</firstname>
+      <lastname>Salas</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>INSERM</moreinfo>
+    </person>
+    <person key="camus-2016-idp153504">
+      <firstname>Maxime</firstname>
+      <lastname>Schmitt</lastname>
+      <categoryPro>PhD</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Univ. Strasbourg, from Sep 2016</moreinfo>
+    </person>
+    <person key="socrate-2014-idp142616">
+      <firstname>Manuel</firstname>
+      <lastname>Selva</lastname>
+      <categoryPro>PostDoc</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria, from Sep 2016</moreinfo>
+    </person>
+    <person key="carte-2014-idp102104">
+      <firstname>Véronique</firstname>
+      <lastname>Constant</lastname>
+      <categoryPro>Assistant</categoryPro>
+      <research-centre>Nancy</research-centre>
+      <moreinfo>Inria</moreinfo>
+    </person>
+  </team>
+  <presentation id="uid2">
+    <bodyTitle>Overall Objectives</bodyTitle>
+    <subsection id="uid3" level="1">
+      <bodyTitle>Overall Objectives</bodyTitle>
+      <p>The CAMUS team is focusing on developing, adapting and extending automatic parallelizing and optimizing techniques, as well as proof and certification methods, for the efficient use of current and future multicore processors.</p>
+      <p>The team's research activities are organized into five main issues that are closely related to reach the following objectives: performance, correction and productivity. These issues are: static parallelization and optimization of programs (where all statically detected parallelisms are expressed as well as all “hypothetical” parallelisms which would be eventually taken advantage of at runtime), profiling and execution behavior modeling (where expressive representation models of the program execution behavior will be used as engines for dynamic parallelizing processes), dynamic parallelization and optimization of programs (such transformation processes running inside a virtual machine), and finally program transformations proof (where the correction of many static and dynamic program transformations has to be ensured).</p>
+    </subsection>
+  </presentation>
+  <fondements id="uid4">
+    <bodyTitle>Research Program</bodyTitle>
+    <subsection id="uid5" level="1">
+      <bodyTitle>Research Directions</bodyTitle>
+      <p>The various objectives we are expecting to reach are directly related to the search of adequacy between the sofware and the new multicore processors evolution. They also correspond to the main research directions suggested by Hall, Padua and Pingali in <ref xlink:href="#camus-2016-bid0" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Performance, correction and productivity must be the users' perceived effects. They will be the consequences of research works dealing with the following issues:</p>
+      <simplelist>
+        <li id="uid6">
+          <p noindent="true">Issue 1: Static Parallelization and Optimization</p>
+        </li>
+        <li id="uid7">
+          <p noindent="true">Issue 2: Profiling and Execution Behavior Modeling</p>
+        </li>
+        <li id="uid8">
+          <p noindent="true">Issue 3: Dynamic Program Parallelization and Optimization, Virtual Machine</p>
+        </li>
+        <li id="uid9">
+          <p noindent="true">Issue 4: Proof of Program Transformations for Multicores</p>
+        </li>
+      </simplelist>
+      <p>Efficient and correct applications development for multicore processors needs stepping in every application development phase, from the initial conception to the final run.</p>
+      <p>Upstream, all potential parallelism of the application has to be exhibited. Here static analysis and transformation approaches (issue 1) must be processed, resulting in a <i>multi-parallel</i> intermediate code advising the running virtual machine about all the parallelism that can be taken advantage of. However the compiler does not have much knowledge about the execution environment. It obviously knows the instruction set, it can be aware of the number of available cores, but it does not know the effective available resources at any time during the execution (memory, number of free cores, etc.).</p>
+      <p>That is the reason why a “virtual machine” mechanism will have to adapt the application to the resources (issue 3). Moreover the compiler will be able to take advantage only of a part of the parallelism induced by the application. Indeed some program information (variables values, accessed memory adresses, etc.) being available only at runtime, another part of the available parallelism will have to be generated on-the-fly during the execution, here also, thanks to a dynamic mechanism.</p>
+      <p>This on-the-fly parallelism extraction will be performed using speculative behavior models (issue 2), such models allowing to generate speculative parallel code (issue 3). Between our behavior modeling objectives, we can add the behavior monitoring, or profiling, of a program version. Indeed current and future architectures complexity avoids assuming an optimal behavior regarding a given program version. A monitoring process will allow to select on-the-fly the best parallelization.</p>
+      <p>These different parallelizing steps are schematized on figure <ref xlink:href="#uid10" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <object id="uid10">
+        <table>
+          <tr>
+            <td>
+              <ressource xlink:href="IMG/figure_anglais.png" type="float" height="142.26378pt" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" media="WEB"/>
+            </td>
+          </tr>
+        </table>
+        <caption>Automatic parallelizing steps for multicore architectures</caption>
+      </object>
+      <p>Our project lies on the conception of a production chain for efficient execution of an application on a multicore architecture. Each link of this chain has to be formally verified in order to ensure correction as well as efficiency. More precisely, it has to be ensured that the compiler produces a correct intermediate code, and that the virtual machine actually performs the parallel execution semantically equivalent to the source code: every transformation applied to the application, either statically by the compiler or dynamically by the virtual machine, must preserve the initial semantics. They must be proved formally (issue 4).</p>
+      <p>In the following, those different issues are detailed while forming our global and long term vision of what has to be done.</p>
+    </subsection>
+    <subsection id="uid11" level="1">
+      <bodyTitle>Static Parallelization and Optimization</bodyTitle>
+      <participants>
+        <person key="camus-2014-idp65704">
+          <firstname>Vincent</firstname>
+          <lastname>Loechner</lastname>
+        </person>
+        <person key="camus-2014-idm29072">
+          <firstname>Philippe</firstname>
+          <lastname>Clauss</lastname>
+        </person>
+        <person key="camus-2014-idp69496">
+          <firstname>Éric</firstname>
+          <lastname>Violard</lastname>
+        </person>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+        <person key="toccata-2014-idp68328">
+          <firstname>Arthur</firstname>
+          <lastname>Charguéraud</lastname>
+        </person>
+      </participants>
+      <p>Static optimizations, from source code at compile time, benefit from two decades of research in automatic parallelization: many works address the parallelization of loop nests accessing multi-dimensional arrays, and these works are now mature enough to generate efficient parallel code <ref xlink:href="#camus-2016-bid1" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+Low-level optimizations, in the assembly code generated by the compiler, have also been extensively dealt for single-core and require few adaptations to support multicore architectures.
+Concerning multicore specific parallelization, we propose to explore two research directions to take full advantage of these architectures: adapting parallelization to multicore architecture and expressing many potential parallelisms.</p>
+    </subsection>
+    <subsection id="uid12" level="1">
+      <bodyTitle>Profiling and Execution Behavior Modeling</bodyTitle>
+      <participants>
+        <person key="alf-2014-idp68616">
+          <firstname>Alain</firstname>
+          <lastname>Ketterlin</lastname>
+        </person>
+        <person key="camus-2014-idm29072">
+          <firstname>Philippe</firstname>
+          <lastname>Clauss</lastname>
+        </person>
+        <person key="socrate-2014-idp142616">
+          <firstname>Manuel</firstname>
+          <lastname>Selva</lastname>
+        </person>
+      </participants>
+      <p>The increasing complexity of programs and hardware architectures
+makes it ever harder to characterize beforehand a given program's
+run time behavior. The sophistication of current compilers and the
+variety of transformations they are able to apply cannot hide their
+intrinsic limitations. As new abstractions like transactional
+memories appear, the dynamic behavior of a program strongly
+conditions its observed performance. All these reasons explain why
+empirical studies of sequential and parallel program
+executions have been considered increasingly relevant. Such studies
+aim at characterizing various facets of one or several program runs,
+<i>e.g.</i>, memory behavior, execution phases, etc. In some cases, such
+studies characterize more the compiler than the program itself.
+These works are of tremendous importance to highlight all aspects
+that escape static analysis, even though their results may have a
+narrow scope, due to the possible incompleteness of their input data
+sets.</p>
+    </subsection>
+    <subsection id="uid13" level="1">
+      <bodyTitle>Dynamic Parallelization and Optimization, Virtual Machine</bodyTitle>
+      <participants>
+        <person key="socrate-2014-idp142616">
+          <firstname>Manuel</firstname>
+          <lastname>Selva</lastname>
+        </person>
+        <person key="camus-2014-idp74720">
+          <firstname>Juan Manuel</firstname>
+          <lastname>Martinez Caamaño</lastname>
+        </person>
+        <person key="camus-2014-idp78456">
+          <firstname>Luis Esteban</firstname>
+          <lastname>Campostrini</lastname>
+        </person>
+        <person key="camus-2015-idp109392">
+          <firstname>Artiom</firstname>
+          <lastname>Baloian</lastname>
+        </person>
+        <person key="algorille-2014-idp131864">
+          <firstname>Mariem</firstname>
+          <lastname>Saied</lastname>
+        </person>
+        <person key="camus-2015-idp118016">
+          <firstname>Daniel</firstname>
+          <lastname>Salas</lastname>
+        </person>
+        <person key="camus-2014-idm29072">
+          <firstname>Philippe</firstname>
+          <lastname>Clauss</lastname>
+        </person>
+        <person key="algorille-2014-idp13160">
+          <firstname>Jens</firstname>
+          <lastname>Gustedt</lastname>
+        </person>
+        <person key="camus-2014-idp65704">
+          <firstname>Vincent</firstname>
+          <lastname>Loechner</lastname>
+        </person>
+        <person key="alf-2014-idp68616">
+          <firstname>Alain</firstname>
+          <lastname>Ketterlin</lastname>
+        </person>
+      </participants>
+      <p>This link in the programming chain has become essential with the advent of the new multicore architectures. Still being considered as secondary with mono-core architectures, dynamic analysis and optimization are now one of the keys for controling those new mechanisms complexity. From now on, performed instructions are not only dedicated to the application functionalities, but also to its control and its transformation, and so in its own interest. Behaving like a computer virus, such a process should rather be qualified as a “vitamin”. It perfectly knows the current characteristics of the execution environment and owns some qualitative information thanks to a behavior modeling process (issue 2). It appends a significant part of optimizing ability compared to a static compiler, while observing live resources availability evolution.</p>
+    </subsection>
+    <subsection id="uid14" level="1">
+      <bodyTitle>Proof of Program Transformations for Multicores</bodyTitle>
+      <participants>
+        <person key="camus-2014-idp69496">
+          <firstname>Éric</firstname>
+          <lastname>Violard</lastname>
+        </person>
+        <person key="alf-2014-idp68616">
+          <firstname>Alain</firstname>
+          <lastname>Ketterlin</lastname>
+        </person>
+        <person key="camus-2014-idp68232">
+          <firstname>Julien</firstname>
+          <lastname>Narboux</lastname>
+        </person>
+        <person key="camus-2014-idp66968">
+          <firstname>Nicolas</firstname>
+          <lastname>Magaud</lastname>
+        </person>
+        <person key="toccata-2014-idp68328">
+          <firstname>Arthur</firstname>
+          <lastname>Charguéraud</lastname>
+        </person>
+      </participants>
+      <p>Our main objective consists in certifying the critical modules of our
+optimization tools (the compiler and the virtual machine). First we will prove
+the main loop transformation algorithms which constitute the core of our system.</p>
+      <p>The optimization process can be separated into two stages: the transformations
+consisting in optimizing the sequential code and in exhibiting parallelism, and
+those consisting in optimizing the parallel code itself.
+The first category of optimizations can be proved within a sequential semantics.
+For the other optimizations, we need to work within a concurrent semantics.
+We expect the first stage of optimizations to produce data-race free code. For the
+second stage of optimizations, we will first assume that the input code is
+data-race free.
+We will prove those transformations using Appel's concurrent separation
+logic  <ref xlink:href="#camus-2016-bid2" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Proving transformations involving program which are not
+data-race free will constitute a longer term research goal.</p>
+    </subsection>
+  </fondements>
+  <domaine id="uid15">
+    <bodyTitle>Application Domains</bodyTitle>
+    <subsection id="uid16" level="1">
+      <bodyTitle>Application Domains</bodyTitle>
+      <p>Performance being our main objective, our developments' target applications are characterized by intensive computation phases. Such applications are numerous in the domains of scientific computations, optimization, data mining and multimedia.</p>
+      <p>Applications involving intensive computations are necessarily high energy consumers. However this consumption can be significantly reduced thanks to optimization and parallelization. Although this issue is not our prior objective, we can expect some positive effects for the following reasons:</p>
+      <simplelist>
+        <li id="uid17">
+          <p noindent="true">Program parallelization tries to distribute the workload equally among the cores. Thus an equivalent performance, or even a better performance, to a sequential higher frequency execution on one single core, can be obtained.</p>
+        </li>
+        <li id="uid18">
+          <p noindent="true">Memory and memory accesses are high energy consumers. Lowering the memory consumption, lowering the number of memory accesses and maximizing the number of accesses in the low levels of the memory hierarchy (registers, cache memories) have a positive consequence on execution speed, but also on energy consumption.</p>
+        </li>
+      </simplelist>
+    </subsection>
+  </domaine>
+  <highlights id="uid19">
+    <bodyTitle>Highlights of the Year</bodyTitle>
+    <subsection id="uid20" level="1">
+      <bodyTitle>Highlights of the Year</bodyTitle>
+      <p>Arthur Charguéraud, Inria Research Scientist, has joined the team in October 2016.</p>
+      <p>The first release of the speculative polyhedral loop parallelizer <i>Apollo</i> <footnote id="uid21" id-text="1"><ref xlink:href="http://apollo.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>apollo.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref></footnote> has been published under the BSD 3-Clause Open Source License.</p>
+      <subsection id="uid22" level="2">
+        <bodyTitle>Awards</bodyTitle>
+        <best>
+          <ref xlink:href="#camus-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+        </best>
+      </subsection>
+    </subsection>
+  </highlights>
+  <logiciels id="uid23">
+    <bodyTitle>New Software and Platforms</bodyTitle>
+    <subsection id="uid24" level="1">
+      <bodyTitle>Apollo</bodyTitle>
+      <p>Automatic speculative POLyhedral Loop Optimizer</p>
+      <p noindent="true"><span class="smallcap" align="left">Keyword:</span> Automatic parallelization</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Apollo is dedicated to automatic, dynamic and speculative parallelization of loop nests that cannot be handled efficiently at compile-time. It is composed of a static part consisting of specific passes in the LLVM compiler suite, plus a modified Clang frontend, and a dynamic part consisting of a runtime system. It can apply on-the-fly any kind of polyhedral transformations, including tiling, and can handle nonlinear loops, as while-loops referencing memory through pointers and indirections.</p>
+      <simplelist>
+        <li id="uid25">
+          <p noindent="true">Participants: Manuel Selva, Juan Manuel Martinez Caamaño, Artiom Baloian, and Philippe Clauss</p>
+        </li>
+        <li id="uid26">
+          <p noindent="true">Contact: Philippe Clauss</p>
+        </li>
+        <li id="uid27">
+          <p noindent="true">URL: <ref xlink:href="http://apollo.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>apollo.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid28" level="1">
+      <bodyTitle>CLooG</bodyTitle>
+      <p>Code Generator in the Polyhedral Model</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>CLooG is a free software and library to generate code (or an abstract syntax tree of a code) for scanning Z-polyhedra. That is, it finds a code (<i>e.g.</i> in C, FORTRAN...) that reaches each integral point of one or more parameterized polyhedra. CLooG has been originally written to solve the code generation problem for optimizing compilers based on the polyhedral model. Nevertheless it is used now in various area <i>e.g.</i> to build control automata for high-level synthesis or to find the best polynomial approximation of a function. CLooG may help in any situation where scanning polyhedra matters. While the user has full control on generated code quality, CLooG is designed to avoid control overhead and to produce a very effective code. CLooG is widely used (including by GCC and LLVM compilers), disseminated (it is installed by default by the main Linux distributions) and considered as the state of the art in polyhedral code generation.</p>
+      <simplelist>
+        <li id="uid29">
+          <p noindent="true">Participant: Cédric Bastoul</p>
+        </li>
+        <li id="uid30">
+          <p noindent="true">Contact: Cédric Bastoul</p>
+        </li>
+        <li id="uid31">
+          <p noindent="true">URL: <ref xlink:href="http://www.cloog.org" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>cloog.<allowbreak/>org</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid32" level="1">
+      <bodyTitle>Clan</bodyTitle>
+      <p>A Polyhedral Representation Extraction Tool for C-Based High Level Languages</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Clan is a free software and library which translates some particular parts of high level programs written in C, C++, C# or Java into a polyhedral representation called OpenScop. This representation may be manipulated by other tools to, <i>e.g.</i>, achieve complex analyses or program restructurations (for optimization, parallelization or any other kind of manipulation). It has been created to avoid tedious and error-prone input file writing for polyhedral tools (such as CLooG, LeTSeE, Candl etc.). Using Clan, the user has to deal with source codes based on C grammar only (as C, C++, C# or Java). Clan is notably the frontend of the two major high-level compilers Pluto and PoCC.</p>
+      <simplelist>
+        <li id="uid33">
+          <p noindent="true">Participants: Cédric Bastoul</p>
+        </li>
+        <li id="uid34">
+          <p noindent="true">Contact: Cédric Bastoul</p>
+        </li>
+        <li id="uid35">
+          <p noindent="true">URL: <ref xlink:href="http://icps.u-strasbg.fr/people/bastoul/public_html/development/clan/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icps.<allowbreak/>u-strasbg.<allowbreak/>fr/<allowbreak/>people/<allowbreak/>bastoul/<allowbreak/>public_html/<allowbreak/>development/<allowbreak/>clan/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid36" level="1">
+      <bodyTitle>Clay</bodyTitle>
+      <p>Chunky Loop Alteration wizardrY</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>Clay is a free software and library devoted to semi-automatic optimization using the polyhedral model. It can input a high-level program or its polyhedral representation and transform it according to a transformation script. Classic loop transformations primitives are provided. Clay is able to check for the legality of the complete sequence of transformation and to suggest corrections to the user if the original semantics is not preserved.</p>
+      <simplelist>
+        <li id="uid37">
+          <p noindent="true">Participant: Cédric Bastoul</p>
+        </li>
+        <li id="uid38">
+          <p noindent="true">Contact: Cédric Bastoul</p>
+        </li>
+        <li id="uid39">
+          <p noindent="true">URL: <ref xlink:href="http://icps.u-strasbg.fr/people/bastoul/public_html/development/clay/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icps.<allowbreak/>u-strasbg.<allowbreak/>fr/<allowbreak/>people/<allowbreak/>bastoul/<allowbreak/>public_html/<allowbreak/>development/<allowbreak/>clay/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid40" level="1">
+      <bodyTitle>IBB</bodyTitle>
+      <p>Iterate-But-Better</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>IBB is a source-to-source xfor compiler which automatically translates any C source code containing xfor-loops into an equivalent source code where xfor-loops have been transformed into equivalent for-loops.</p>
+      <simplelist>
+        <li id="uid41">
+          <p noindent="true">Participants: Philippe Clauss and Cédric Bastoul</p>
+        </li>
+        <li id="uid42">
+          <p noindent="true">Contact: Philippe Clauss</p>
+        </li>
+        <li id="uid43">
+          <p noindent="true">URL: <ref xlink:href="http://xfor.gforge.inria.fr" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>xfor.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid44" level="1">
+      <bodyTitle>OpenScop</bodyTitle>
+      <p>A Specification and a Library for Data Exchange in Polyhedral Compilation Tools</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>OpenScop is an open specification that defines a file format and a set of data structures to represent a static control part (SCoP for short), i.e., a program part that can be represented in the polyhedral model. The goal of OpenScop is to provide a common interface to the different polyhedral compilation tools in order to simplify their interaction. To help the tool developers to adopt this specification, OpenScop comes with an example library (under 3-clause BSD license) that provides an implementation of the most important functionalities necessary to work with OpenScop.</p>
+      <simplelist>
+        <li id="uid45">
+          <p noindent="true">Participant: Cédric Bastoul</p>
+        </li>
+        <li id="uid46">
+          <p noindent="true">Contact: Cédric Bastoul</p>
+        </li>
+        <li id="uid47">
+          <p noindent="true">URL: <ref xlink:href="http://icps.u-strasbg.fr/people/bastoul/public_html/development/openscop/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icps.<allowbreak/>u-strasbg.<allowbreak/>fr/<allowbreak/>people/<allowbreak/>bastoul/<allowbreak/>public_html/<allowbreak/>development/<allowbreak/>openscop/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid48" level="1">
+      <bodyTitle>PolyLib</bodyTitle>
+      <p>The Polyhedral Library</p>
+      <p noindent="true">
+        <span class="smallcap" align="left">Functional Description</span>
+      </p>
+      <p>PolyLib is a C library of polyhedral functions, that can manipulate unions of rational polyhedra of any dimension. It was the first to provide an implementation of the computation of parametric vertices of a parametric polyhedron, and the computation of an Ehrhart polynomial (expressing the number of integer points contained in a parametric polytope) based on an interpolation method. Vincent Loechner is the maintainer of this software.</p>
+      <simplelist>
+        <li id="uid49">
+          <p noindent="true">Participant: Vincent Loechner</p>
+        </li>
+        <li id="uid50">
+          <p noindent="true">Contact: Vincent Loechner</p>
+        </li>
+        <li id="uid51">
+          <p noindent="true">URL: <ref xlink:href="http://icps.u-strasbg.fr/PolyLib/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>icps.<allowbreak/>u-strasbg.<allowbreak/>fr/<allowbreak/>PolyLib/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid52" level="1">
+      <bodyTitle>ORWL and P99</bodyTitle>
+      <p>ORWL is a reference implementation of the Ordered Read-Write Lock tools as
+described in <ref xlink:href="#camus-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. The macro definitions
+and tools for programming in C99 that have been implemented for ORWL have been
+separated out into a toolbox called P99. ORWL is intended to become
+opensource, once it will be in a publishable state. P99 is available under a
+QPL at
+<ref xlink:href="http://p99.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>p99.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>.</p>
+      <simplelist>
+        <li id="uid53">
+          <p noindent="true">Participants: Jens Gustedt, Mariem Saied, Daniel
+Salas</p>
+        </li>
+        <li id="uid54">
+          <p noindent="true">Contact: Jens Gustedt</p>
+        </li>
+        <li id="uid55">
+          <p noindent="true"><ref xlink:href="http://p99.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>p99.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>, <ref xlink:href="http://orwl.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>orwl.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+    <subsection id="uid56" level="1">
+      <bodyTitle>Stdatomic and Musl</bodyTitle>
+      <p>We implement the library side of the C11 atomic interface. It needs
+compiler support for the individual atomic operations and provides
+library support for the cases where no low-level atomic instruction
+is available and a lock must be taken.</p>
+      <simplelist>
+        <li id="uid57">
+          <p noindent="true">This implementation builds entirely on the ABIs of the gcc
+compiler for atomics.</p>
+        </li>
+        <li id="uid58">
+          <p noindent="true">It provide all function interfaces that the gcc ABIs and the C
+standard need.</p>
+        </li>
+        <li id="uid59">
+          <p noindent="true">For compilers that don't offer the direct language support for
+atomics it provides a syntactically reduced but fully functional
+approach to atomic operations.</p>
+        </li>
+        <li id="uid60">
+          <p noindent="true">At the core of the library is a new and very efficient
+futex-based lock algorithm that is implemented for the Linux
+operating system.</p>
+        </li>
+      </simplelist>
+      <p>A description of the new lock algorithm has been given
+in <ref xlink:href="#camus-2016-bid5" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. A short version of it has been
+presented at SAC'16.</p>
+      <p>The primary target of this library is an integration into
+<ref xlink:href="http://www.musl-libc.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">musl</ref> to which we
+also contribute. It is a
+re-implementation of the C library as it is described by the C and
+POSIX standards. It is <i>lightweight</i>, <i>fast</i>,
+<i>simple</i>, <i>free</i>, and strives to be correct in the sense
+of standards-conformance and safety. Musl is production quality code
+that is mainly used in the area of embedded device. It gains more
+market share also in other area, <i>e.g.</i> there are now Linux
+distributions that are based on musl instead of Gnu LibC.</p>
+      <simplelist>
+        <li id="uid61">
+          <p noindent="true">Participant: Jens Gustedt</p>
+        </li>
+        <li id="uid62">
+          <p noindent="true">Contact: Jens Gustedt</p>
+        </li>
+        <li id="uid63">
+          <p noindent="true"><ref xlink:href="http://stdatomic.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>stdatomic.<allowbreak/>gforge.<allowbreak/>inria.<allowbreak/>fr/</ref>, <ref xlink:href="http://www.musl-libc.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>musl-libc.<allowbreak/>org/</ref></p>
+        </li>
+      </simplelist>
+    </subsection>
+  </logiciels>
+  <resultats id="uid64">
+    <bodyTitle>New Results</bodyTitle>
+    <subsection id="uid65" level="1">
+      <bodyTitle>Formal Proofs about
+<i>Happens-before</i> in Explicitly Parallel Polyhedral Programs</bodyTitle>
+      <participants>
+        <person key="camus-2014-idp69496">
+          <firstname>Éric</firstname>
+          <lastname>Violard</lastname>
+        </person>
+        <person key="alf-2014-idp68616">
+          <firstname>Alain</firstname>
+          <lastname>Ketterlin</lastname>
+        </person>
+      </participants>
+      <p>Automatic parallelization has traditionally focused on sequential
+programs, but the widespread availability of explicitly parallel
+programming languages (such as OpenMP, Cilk, X10, and others) has
+led researchers to consider also the optimization and
+re-parallelization of parallel source programs.
+Most of these languages have constructions for parallel loops and
+parallel sections, with the accompanying synchronization primitives.
+The X10 language is especially interesting in this respect, because
+it provides simple and powerful constructions. Essentially,
+parallelism is expressed with the help of the <tt>async</tt>
+construct, whose body is to be executed in a parallel “activity”,
+and the <tt>finish</tt> construct, which acts as a container for
+activities (and sub-activities) and waits for their completion.
+These constructions are complemented with “clocks”, which are
+essentially synchronization barriers. Clocks can be used freely, in
+an unstructured manner, but are best associated with <tt>finish</tt>
+constructs, where they provide an intuitive and flexible phasing
+mechanism. In this case, activities spawned with <tt>async</tt> can
+either inherit or hide the clock provided by the nearest enclosing
+<tt>finish</tt>.</p>
+      <p>We are focusing on polyhedral programs, where all control is based
+on loops whose bounds are affine combinations of the enclosing loop
+counters and constant parameters. There is a large body of work on
+optimizing and parallelizing such programs, but most of them focus
+on sequential loop nests. Introducing X10's parallel constructions
+defines the class of <i>explicitly parallel polyhedral programs</i>,
+which is the focus of our work.
+Many polyhedral analyses and optimization techniques rely on the
+notion of lexicographic order, which is the order of execution of
+the statements in the source program. For instance, a
+data-dependence is defined to be an ordered pair of instruction
+instances that use or define the same data element, such that the
+first executes <i>before</i> the second. The lexicographic order is
+a purely syntactic characteristic that can be extracted from the
+source program.
+When the source program is explicitly parallel, the execution order
+becomes partial, because two distinct instruction instances can be
+part of concurrent activities. In this case the ordering is called
+the <i>Happens-before</i> relation.
+Paul Feautrier and Tomofumi Yuki have provided the first definition
+of <i>Happens-before</i> for explicitly parallel polyhedral
+programs, which covers the case of X10 programs using
+<tt>finish</tt> and <tt>async</tt> but without any clock involved.
+Being purely syntactic, their definition opens the way to the
+optimization of parallel X10 <tt>finish</tt>-<tt>async</tt>
+polyhedral programs.
+The use of clocks, however, introduces a major difficulty. Since
+clocks define phases of the program, one would like to use the
+“phase-number” of each instruction instance as an additional
+dimension, and include this dimension in further analysis.
+Phase-numbers have analytic forms (for the class of polyhedral
+programs), but they belong to the class of Ehrhart's
+quasi-polynomials, i.e., they are outside the polyhedral (affine)
+model.</p>
+      <p>We have formalized the class of programs under consideration, as
+well as all notions pertaining to the definition of the
+<i>Happens-before</i> relation, in Coq, a proof assistant developed
+at Inria.
+The formalization includes minimal structures to represent
+explicitly parallel polyhedral programs, including <tt>finish</tt>
+and <tt>async</tt>, loops, and simple statements.
+The definition of the <i>Happens-before</i> relation is that of an
+inductive predicate, parametrized by the computation of
+phase-numbers, which is left unspecified.
+To make the connection between the (static) <i>Happens-before</i>
+relation and the (dynamic) position of instruction instances in
+program traces, we use a single axiom. To reinforce our confidence
+in this arbitrary component, we also provide a second set of axioms,
+which we prove is equivalent to the first.
+The proof is based on an operational semantics, providing the
+relation between programs and their executions traces.
+We then prove that when <i>Happens-before</i> holds between two
+(static) instruction instances, then any trace of the program sees
+the corresponding dynamic instances ordered. We also prove the
+converse, which makes the definition of <i>Happens-before</i> sound
+and complete.</p>
+      <p>The Coq source files are kept in an Inria-forge project. Since this
+is our first effort in formal proofs, it currently amounts to about
+ten thousands lines of Coq source code.
+It is not yet clear whether we will publish the proof by itself, or
+publish an informal version of it as part of our colleagues' work on
+the use of <i>Happens-before</i>.
+In any case, our short-term plan is to extend the formalization and
+accompanying theorems and proofs to the case of mixed-programs,
+where some activities ignore the clock in scope.
+</p>
+    </subsection>
+    <subsection id="uid66" level="1">
+      <bodyTitle>Loop Nests and Integer Polyhedra</bodyTitle>
+      <participants>
+        <person key="alf-2014-idp68616">
+          <firstname>Alain</firstname>
+          <lastname>Ketterlin</lastname>
+        </person>
+      </participants>
+      <p>The polyhedral model has been found adequate to model a large number
+of program analyses and transformations. It has now been used for
+decades in automatic parallelization, locality optimization,
+high-level code synthesis, and other applications. Thanks to the
+availability of high-quality software tools, the polyhedral model is
+now widely used.
+However, we feel that some of its most fundamental operations need
+more thorough attention, and possibly new theoretical developments.
+Even though the translation of loop nests into polyhedra (or unions
+thereof) obviously use integers only, many algorithms still use an
+underlying rational (or real) domain. For instance, Fourier-Motzkin
+variable elimination is defined on rational domains, and its modern
+incarnation (the Omega test), uses convoluted and costly techniques
+to compensate for the mishandling of integer variables. When used
+for projection (for instance during code generation, i.e., turning
+polyhedra into loop nests), these defects lead to sub-optimal
+results, with programs including more control than necessary.
+Overall, we feel that current techniques are inadequate to capture
+the precise behavior of integer variables.</p>
+      <p>We have started investigating new representations for inequalities
+over integer variables, using a notation called “periodic
+numbers”. This notation was invented by Eugène Ehrhart in his
+classical results on the number of integer points inside integer
+polyhedra, and rediscovered and generalized by Philippe Clauss in
+his work on the use of counting for locality optimization and
+automatic parallelization.
+Periodic numbers capture all sorts of integer-specific behaviors:
+for instance, they are especially suitable to represent the
+seemingly chaotic structure of discrete line intersections, or the
+modular intersections of parallel hyper-planes.
+Periodic numbers also have algebraic properties that make them easy
+to manipulate and combine. We have defined a generalization of
+affine expressions where the constant term becomes a periodic
+number: it turns out that this family of expressions has interesting
+stability properties, that make them especially suitable for
+variable elimination.
+We have shown that most problems of Fourier-Motzkin variable
+elimination are related to the “looseness” of affine inequalities
+over integer variables, and that periodic numbers can correct this
+defect. The result is a new representation of inequalities, that
+makes reasoning with inequalities sound and complete.</p>
+      <p>An immediate application of our new representation is deciding
+whether a given integer polyhedron contains an integer point (or:
+whether a given set of affine constraints on integer variables is
+feasible).
+We have developed a straightforward version of Fourier-Motzkin
+elimination that is always exact. An interesting aspect of this work
+is that the algorithm is only a slight generalization of the
+original Fourier-Motzkin elimination, to cover the cases where
+inequalities have periodic components.
+We have also extended the basic algorithm to produce arbitrary
+projections of integer polyhedra. This improves over the Omega
+elimination strategy in that we are able to produce a provably
+disjoint union. These interesting properties derive directly from
+the use of periodic numbers.</p>
+      <p>Periodic numbers, and periodic linear inequalities, also have
+applications more directly related to the compilation of affine loop
+nests. For instance, we have developed a fully-general unswitching
+transformation. Unswitching a loop containing a conditional amounts
+to split the loop into one or more new loops such that the
+conditional has a constant truth value in all loop fragments, and
+can therefore be removed. The transformation is general in that the
+resulting program contains only affine loops and periodic linear
+conditionals.
+This means that the process can be repeated until obtaining a final
+version of the loop nest that is completely free of conditionals. We
+expect this “code generation” strategy, though naive, to remove
+enough “divergence” to increase existing and enable new
+applications of vectorization, leading to more efficient code. On
+the theory side, producing a conditional-free code scanning an
+arbitrary union of polyhedra has also direct consequences on various
+polyhedral operations: for instance, computing extrema becomes a
+trivial task, and linear optimization also falls under this
+umbrella. We hope to be able to explore these tracks in the near
+future.</p>
+      <p>We have developed software making use (and illustrating) our
+theoretical developments. We expect to share this software with
+select colleagues very soon, so as to be able to assess the scope of
+our techniques. Publication of these results is expected in the next
+year, time permitting.
+We also expect to extend our current software base to provide a
+range of integer polyhedra operations (images and pre-images,
+projection, and linear optimization, mostly).
+Finally, our middle-term goal is to investigate a formal modeling of
+the integer polyhedra operations. All algorithms have been kept as
+simple as possible, favoring elaborate abstractions over complex
+processing, with the goal of being able to formally specify the
+fundamental operations.
+</p>
+    </subsection>
+    <subsection id="uid67" level="1">
+      <bodyTitle>Splitting Polyhedra to Generate More
+Efficient Code</bodyTitle>
+      <participants>
+        <person key="camus-2016-idp146128">
+          <firstname>Harenome</firstname>
+          <lastname>Ranaivoarivony-Razanajato</lastname>
+        </person>
+        <person key="camus-2014-idp65704">
+          <firstname>Vincent</firstname>
+          <lastname>Loechner</lastname>
+        </person>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+      </participants>
+      <p>Code generation in the polyhedral model takes as input a union of
+Z-polyhedra and produces a code scanning all of them. Modern
+code generation tools are heavily relying on polyhedral operations to
+perform this task. However, these operations are typically provided by
+general-purpose polyhedral libraries that are not specifically designed to
+address the code generation problem. In particular, (unions of) polyhedra may
+be represented in various mathematically equivalent ways which may have
+different properties with respect to code generation.
+We investigated this problem and tried to find the
+best representation of polyhedra to generate an efficient code.</p>
+      <p>We demonstrated that this problem has
+been largely under-estimated, showing significant control overhead deviations
+when using different representations of the same polyhedra.
+Second, we proposed an improvement to the main algorithm of the
+state-of-the-art code generation tool CLooG.
+It generates code with less tests in the inner
+loops, and aims at reducing control overhead and at simplifying
+vectorization for the compiler, at the cost of a larger code size. It is based
+on a smart splitting of the union of polyhedra while recursing on the
+dimensions.</p>
+      <p>We implemented our algorithm in CLooG/PolyLib, and compared the performance and
+size of the generated code to the CLooG/isl version. Our results show
+that there can be important performance differences between the
+generated versions. In some cases, our new technique may significantly improve
+the quality of the generated code, but in some other cases, it may not be
+adequate compared to the existing solution.
+Finding other alternatives and chosing the best one remain open problems
+to be investigated in the future.</p>
+    </subsection>
+    <subsection id="uid68" level="1">
+      <bodyTitle>Code-Bones for Fast and Flexible Runtime Code Generation</bodyTitle>
+      <participants>
+        <person key="camus-2014-idp74720">
+          <firstname>Juan Manuel</firstname>
+          <lastname>Martinez Caamaño</lastname>
+        </person>
+        <person key="camus-2015-idp109392">
+          <firstname>Artiom</firstname>
+          <lastname>Baloian</lastname>
+        </person>
+        <person key="camus-2014-idm29072">
+          <firstname>Philippe</firstname>
+          <lastname>Clauss</lastname>
+        </person>
+      </participants>
+      <p>We have developed a new runtime code generation technique for speculative loop optimization
+and parallelization. The main benefit of this technique, compared to previous approaches, is to enable advanced optimizing loop transformations at runtime with an acceptable time overhead. The loop transformations that may be applied are those handled by the polyhedral model.
+The proposed code generation strategy is based on the generation of <i>code-bones</i> at
+compile-time, which are parametrized code snippets either dedicated to
+speculation management or to computations of the original target program.
+These code bones are then instantiated and assembled at runtime to
+constitute the speculatively-optimized code, as soon as an optimizing
+polyhedral transformation has been determined. Their granularity
+threshold is sufficient to apply any polyhedral transformation, while
+still enabling fast runtime code generation. This approach has been
+implemented in the speculative loop parallelizing framework Apollo, and published at the conference Euro-Par 2016 where it has been selected as best paper <ref xlink:href="#camus-2016-bid3" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. An extended journal version is currently under review. This is also the main contribution of Juan Manuel Martinez Caamaño's PhD thesis which was defended in September 2016 <ref xlink:href="#camus-2016-bid6" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.
+</p>
+    </subsection>
+    <subsection id="uid69" level="1">
+      <bodyTitle>Automatic Collapsing of Non-Rectangular Loops</bodyTitle>
+      <participants>
+        <person key="camus-2014-idm29072">
+          <firstname>Philippe</firstname>
+          <lastname>Clauss</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Ervin</firstname>
+          <lastname>Altıntaş</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Matthieu</firstname>
+          <lastname>Kuhn</lastname>
+        </person>
+      </participants>
+      <p>Loop collapsing is a well-known loop transformation which combines some loops that are perfectly nested into one single loop. It allows to take advantage of the whole amount of parallelism exhibited by the collapsed loops, and provides a perfect load balancing of iterations among the parallel threads.</p>
+      <p>However, in the current implementations of this loop optimization, as the ones of the OpenMP language, automatic loop collapsing is limited to loops with constant loop bounds that define rectangular iteration spaces, although load imbalance is a particularly crucial issue with non-rectangular loops. The OpenMP language addresses load balance mostly through dynamic runtime scheduling of the parallel threads. Nevertheless, this runtime schedule introduces some unavoidable execution-time overhead, while preventing to exploit the entire parallelism of all the parallel loops.</p>
+      <p>We propose a technique to automatically collapse any perfectly nested loops defining non-rectangular iteration spaces, whose bounds are linear functions of the loop iterators. Such spaces may be triangular, tetrahedral, trapezoidal, rhomboidal or parallelepiped. Our solution is based on original mathematical results addressing the inversion of a multi-variate polynomial that defines a ranking of the integer points contained in a convex polyhedron.</p>
+      <p>We show on a set of non-rectangular loop nests that our technique allows to generate parallel OpenMP codes that outperform the original parallel loop nests, parallelized either by using options “static” or “dynamic” of the OpenMP-schedule clause. A conference paper presenting these results, co-authored by Philippe Clauss, Ervin Altıntaş (Master student) and Matthieu Kuhn (Inria Bordeaux Sud-Ouest, team HIEPACS), is currently under review.
+</p>
+    </subsection>
+    <subsection id="uid70" level="1">
+      <bodyTitle>Efficient Data Structures for a PIC Code on SIMD Architectures</bodyTitle>
+      <participants>
+        <person key="camus-2014-idp70952">
+          <firstname>Yann</firstname>
+          <lastname>Barsamian</lastname>
+        </person>
+        <person key="camus-2014-idp69496">
+          <firstname>Éric</firstname>
+          <lastname>Violard</lastname>
+        </person>
+      </participants>
+      <p>In collaboration with Sever Adrian Hirstoaga (mathematician researcher, member of Inria team TONUS), we have developed an efficient particle simulation code.
+The domain of application is plasma physics, the Particle-In-Cell code simulating 2d2v Vlasov-Poisson equation on Cartesian grid with periodic boundary conditions for Landau damping test-case.
+We first analyzed different strategies for improving its performance on single core and then we used a standard approach for parallelizing it on many cores using hybrid OpenMP/MPI implementation. The optimization of the sequential code is mainly based on (i) a structure of arrays for the particles, (ii) an efficient data structure for the electric field and the charge density, and (iii) an appropriate code for automatic vectorization of the charge accumulation and of the positions’ update. The parallelization of the loops over the particles is performed in a simple way (without domain decomposition) by means of both distributed and share memory paradigms. Satisfactory strong and weak scaling up to 8,192 cores on GENCI’s supercomputer Curie are obtained, bounded as expected by the overhead of MPI communications. A conference paper presenting this work is currently under review.</p>
+    </subsection>
+    <subsection id="uid71" level="1">
+      <bodyTitle>Interactive Code Restructuring</bodyTitle>
+      <participants>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Oleksandr</firstname>
+          <lastname>Zinenko</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Stéphane</firstname>
+          <lastname>Huot</lastname>
+        </person>
+      </participants>
+      <p>This work falls within the exploration and development of semi-automatic programs optimization techniques. It consists in designing and evaluating new visualization and interaction techniques for code restructuring, by defining and taking advantage of visual representations of the underlying mathematical model. The main goal is to assist programmers during program optimization tasks in a safe and efficient way, even if they neither have expertise into code restructuring nor knowledge of the underlying theories. This project is an important step for the efficient use and wider acceptance of semi-automatic optimization techniques, which are still tedious to use and incomprehensible for most programmers. More generally, this research is also investigating new presentation and manipulation techniques for code, algorithms and programs, which could lead to many practical applications: collaboration, tracking and verification of changes, visual search in large amount of code, teaching, etc.</p>
+      <p>This is a new research direction opened by CAMUS which strengthens the team's static parallelization and optimization issue. It is a joint work with two Inria teams specialized in interaction: EX-SITU at Inria Saclay (contact: Oleksandr Zinenko) and MJOLNIR at Inria Lille (contact: Stéphane Huot).</p>
+      <p>In 2016, we released the first version of our interactive tool, <i>Clint</i>, that maps direct manipulation of the visual representation to polyhedral program transformations with real-time semantics preservation feedback (<ref xlink:href="https://ozinenko.com/clint" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>ozinenko.<allowbreak/>com/<allowbreak/>clint</ref>). Oleksandr Zinenko also defended his thesis on the research and development on interactive code restructuring.
+</p>
+    </subsection>
+    <subsection id="uid72" level="1">
+      <bodyTitle>Automatic Generation of Adaptive Simulation Codes</bodyTitle>
+      <participants>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+        <person key="camus-2016-idp153504">
+          <firstname>Maxime</firstname>
+          <lastname>Schmitt</lastname>
+        </person>
+      </participants>
+      <p>Compiler automatic optimization and parallelization techniques are well suited for some classes of simulation or signal processing applications, however they usually don't take into account neither domain-specific knowledge nor the possibility to change or to remove some computations to achieve “good enough” results. Quite differently, production simulation and signal processing codes have adaptive capabilities: they are designed to compute precise results only where it matters if the complete problem is not tractable or if the computation time must be short. In this research, we design a new way to provide adaptive capabilities to compute-intensive codes automatically, inspired by Adaptive Mesh Refinement a classical numerical analysis technique to achieve precise computation only in pertinent areas. It relies on domain-specific knowledge provided through special pragmas by the programmer in the input code and on polyhedral compilation techniques, to continuously regenerate at runtime a code that performs heavy computations only where it matters at every moment. A case study on a fluid simulation application shows that our strategy enables dramatic computation savings in the optimized portion of the application while maintaining good precision, with a minimal effort from the programmer.</p>
+      <p>This research direction started in 2015 and complements our other efforts on dynamic optimization. In 2016, we started a collaboration on this topic with Inria Nancy - Grand Est team TONUS, specialized on applied mathematics (contact: Philippe Helluy), to bring models and techniques from this field to compilers. This collaboration received the support from the excellence laboratory (LabEx) IRMIA through the funding of the thesis of Maxime Schmitt on this topic. A first paper on this new research direction has just been accepted to IMPACT 2017.
+</p>
+    </subsection>
+    <subsection id="uid73" level="1">
+      <bodyTitle>Polyhedral Compiler White-Boxing</bodyTitle>
+      <participants>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Lénaïc</firstname>
+          <lastname>Bagnères</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Oleksandr</firstname>
+          <lastname>Zinenko</lastname>
+        </person>
+        <person key="PASUSERID">
+          <firstname>Stéphane</firstname>
+          <lastname>Huot</lastname>
+        </person>
+      </participants>
+      <p>While compilers offer a fair trade-off between productivity and executable performance in single-threaded execution, their optimizations remain fragile when addressing compute-intensive code for parallel architectures with deep memory hierarchies. Moreover, these optimizations operate as black boxes, impenetrable for the user, leaving them with no alternative to time-consuming and error-prone manual optimization in cases where an imprecise cost model or a weak analysis resulted in a bad optimization decision. To address this issue, we researched and designed a technique allowing to automatically translate an arbitrary polyhedral optimization, used internally by loop-level optimization frameworks of several modern compilers, into a sequence of comprehensible syntactic transformations as long as this optimization focuses on scheduling loop iterations. With our approach, we open the black box of the polyhedral frameworks enabling users to examine, refine, replay and even design complex optimizations semi-automatically in partnership with the compiler.</p>
+      <p>This research started in 2014 and we published our first solution in 2016. It has been conducted as a joint work between teams in compiler technologies (CAMUS and Inria Saclay's POSTALE team) and teams in interaction (EX-SITU at Inria Saclay and MJOLNIR at Inria Lille). The first paper on this has been accepted and presented in one of the top conferences on optimization techniques: CGO 2016 <ref xlink:href="#camus-2016-bid7" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. It is also discussed in Lénaïc Bagnèse and Oleksandr Zinenko theses. In 2016 we finally release the tool implementing this research (<ref xlink:href="https://periscop.github.io/chlore" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>periscop.<allowbreak/>github.<allowbreak/>io/<allowbreak/>chlore</ref>).
+</p>
+    </subsection>
+    <subsection id="uid74" level="1">
+      <bodyTitle>Mapping Deviation</bodyTitle>
+      <participants>
+        <person key="camus-2014-idm27640">
+          <firstname>Cédric</firstname>
+          <lastname>Bastoul</lastname>
+        </person>
+      </participants>
+      <p>Compilers can provide a major help by automating the optimization and parallelization work. However they are very fragile black-boxes. A compiler may take a bad optimization decision because of imprecise heuristics or may turn off an optimization because of imprecise analyses, without providing much control or feedback to the end user. To address this issue, we researched and introduced mapping deviation, a new compiler technique that aims at providing a useful feedback on the semantics of a given program restructuring. Starting from a transformation intuition a user or a compiler wants to apply, our algorithm studies its correctness and can suggest changes or conditions to make it possible rather than being limited to the classical go/no-go answer. This algorithm builds on state-of-the-art polyhedral representation of programs and provides a high flexibility. We present two example applications of this technique: improving semi-automatic optimization tools for programmers and automatically designing runtime tests to check the correctness of a transformation for compilers.</p>
+      <p>This is a mid-term research on the mathematical ground of polyhedral compilation, started back to 2012. We found a solution and published it in 2016 in one of the main conferences in compilation: Compiler Construction <ref xlink:href="#camus-2016-bid8" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. We plan to release the tool that implements this research during the coming year.
+</p>
+    </subsection>
+    <subsection id="uid75" level="1">
+      <bodyTitle>Combining Locking and Data Management Interfaces</bodyTitle>
+      <participants>
+        <person key="algorille-2014-idp13160">
+          <firstname>Jens</firstname>
+          <lastname>Gustedt</lastname>
+        </person>
+        <person key="algorille-2014-idp131864">
+          <firstname>Mariem</firstname>
+          <lastname>Saied</lastname>
+        </person>
+        <person key="camus-2015-idp118016">
+          <firstname>Daniel</firstname>
+          <lastname>Salas</lastname>
+        </person>
+      </participants>
+      <p>Handling data consistency in parallel and distributed settings is a challenging
+task, in particular if we want to allow for an easy to handle asynchronism
+between tasks. Our publication <ref xlink:href="#camus-2016-bid4" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/> shows
+how to produce deadlock-free iterative programs that implement strong
+overlapping between communication, IO and computation.</p>
+      <p>An implementation (ORWL) of our ideas of combining control and data
+management in C has been undertaken, see <ref xlink:href="#uid52" location="intern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. In previous
+work it has demonstrated its efficiency for a large variety of
+platforms. In 2016, work on the ORWL model and library has gained
+vigor with the thesis of Mariem Saied (Inria &amp; University of
+Strasbourg) and Daniel Salas (INSERM). We also now collaborate on that
+subject with the TADAAM project team from Inria Bordeaux, where a
+postdoc has been hired through Inria funding.</p>
+      <p>In 2016, a new domain specific language (DSL) has been completed that
+largely eases the implementation of applications with ORWL. In its
+first version it provides an interface for stencil codes, but
+extensions towards other types of applications are on their way. The approach allows to describe stencil codes
+quickly and efficient and leads to substantial speedups,
+see <ref xlink:href="#camus-2016-bid9" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In addition, the framework has successfully been applied to
+encapsulate imaging applications that use certain pipeline patterns to
+describe dependencies between computational tasks,
+see <ref xlink:href="#camus-2016-bid10" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>. Generally we have been able to use
+the knowledge of the communication structure of ORWL programs to map
+tasks to cores and thereby achieve interesting performance gains on
+multicore architectures, see <ref xlink:href="#camus-2016-bid11" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+      <p>In another work we have successfully applied ORWL to process Large
+Histopathology Images, see <ref xlink:href="#camus-2016-bid12" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>.</p>
+    </subsection>
+  </resultats>
+  <contrats id="uid76">
+    <bodyTitle>Bilateral Contracts and Grants with Industry</bodyTitle>
+    <subsection id="uid77" level="1">
+      <bodyTitle>Caldera</bodyTitle>
+      <p>Vincent Loechner and Cédric Bastoul are involved in a collaboration with the French company Caldera (<ref xlink:href="http://www.caldera.com" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>www.<allowbreak/>caldera.<allowbreak/>com</ref>), specialized in software development for wide image processing. The goal of this collaboration is the development of parallel and scalable image processing pipeline for industrial printing. The project started in September 2016 and involves a contract established between the ICube laboratory and the Caldera company. This contract includes the funding of the industrial thesis (CIFRE) of Paul Godard (started in September 2016) on the topic of the collaboration, under the supervision of Vincent Loechner and Cédric Bastoul.</p>
+    </subsection>
+    <subsection id="uid78" level="1">
+      <bodyTitle>NANO 2017/PSAIC</bodyTitle>
+      <p>The CAMUS team is taking part of the NANO 2017 national research program and its sub-project PSAIC
+(Performance and Size Auto-tuning thru Iterative Compilation) with the company STMicroelectronics, starting
+January 2015. Since the release of our automatic speculative parallelization framework Apollo, we have been working on an extension making Apollo usable as a advanced program profiling tool. We are also currently working in extending advanced loop optimization techniques to nonlinear loops using a linear virtual data layout remapping.
+</p>
+    </subsection>
+  </contrats>
+  <partenariat id="uid79">
+    <bodyTitle>Partnerships and Cooperations</bodyTitle>
+    <subsection id="uid80" level="1">
+      <bodyTitle>National Initiatives</bodyTitle>
+      <p>Philippe Clauss, Alain Ketterlin, Cédric Bastoul and Vincent Loechner are involved in the Inria Project Lab entitled “Large scale multicore virtualization for performance scaling and portability” and regrouping several french researchers in compilers, parallel computing and program optimization <footnote id="uid81" id-text="2"><ref xlink:href="https://team.inria.fr/multicore" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>team.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>multicore</ref></footnote>. The project started officially in January 2013. In this context and since January 2013, Philippe Clauss is co-advising with Erven Rohou of the Inria team PACAP, Nabil Hallou's PhD thesis focusing on dynamic optimization of binary code.
+</p>
+    </subsection>
+    <subsection id="uid82" level="1">
+      <bodyTitle>International Initiatives</bodyTitle>
+      <subsection id="uid83" level="2">
+        <bodyTitle>Inria International Partners</bodyTitle>
+        <subsection id="uid84" level="3">
+          <bodyTitle>Informal International Partners</bodyTitle>
+          <p>The CAMUS team maintains regular contacts with the following entities:</p>
+          <simplelist>
+            <li id="uid85">
+              <p noindent="true">Reservoir Labs, New York, NY, USA</p>
+            </li>
+            <li id="uid86">
+              <p noindent="true">University of Batna, Algeria</p>
+            </li>
+            <li id="uid87">
+              <p noindent="true">Ohio State University, Colombus, USA</p>
+            </li>
+            <li id="uid88">
+              <p noindent="true">Louisiana State University, Baton Rouge, USA</p>
+            </li>
+            <li id="uid89">
+              <p noindent="true">Colorado State University, Fort Collins, USA</p>
+            </li>
+            <li id="uid90">
+              <p noindent="true">Indian Institute of Science (IIIS) Bangalore, India</p>
+            </li>
+          </simplelist>
+        </subsection>
+      </subsection>
+    </subsection>
+    <subsection id="uid91" level="1">
+      <bodyTitle>International Research Visitors</bodyTitle>
+      <subsection id="uid92" level="2">
+        <bodyTitle>Visits of International Scientists</bodyTitle>
+        <subsection id="uid93" level="3">
+          <bodyTitle>Researchers</bodyTitle>
+          <sanspuceslist>
+            <li id="uid94">
+              <p noindent="true">Rachid Seghir</p>
+              <sanspuceslist>
+                <li id="uid95">
+                  <p noindent="true">Date: April 30 - May 14</p>
+                </li>
+                <li id="uid96">
+                  <p noindent="true">Institution: University of Batna, Algeria</p>
+                </li>
+              </sanspuceslist>
+            </li>
+          </sanspuceslist>
+        </subsection>
+      </subsection>
+    </subsection>
+  </partenariat>
+  <diffusion id="uid97">
+    <bodyTitle>Dissemination</bodyTitle>
+    <subsection id="uid98" level="1">
+      <bodyTitle>Promoting Scientific Activities</bodyTitle>
+      <subsection id="uid99" level="2">
+        <bodyTitle>Scientific Events Selection</bodyTitle>
+        <subsection id="uid100" level="3">
+          <bodyTitle>Member of the Conference Program Committees</bodyTitle>
+          <p>Cédric Bastoul has been part of the program committee of IMPACT 2016 (International Workshop on Polyhedral Compilation Techniques), held in conjunction with the international conference HiPEAC 2016.</p>
+          <p>Philippe Clauss and Cédric Bastoul have been part of the program committee of IMPACT 2017 (International Workshop on Polyhedral Compilation Techniques), held in conjunction with the international conference HiPEAC 2017.</p>
+          <p>Alain Ketterlin has been part of the program committee of CGO 2016
+(International Symposium on Code Generation and Optimization,
+<ref xlink:href="http://cgo.org/cgo2016" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>cgo.<allowbreak/>org/<allowbreak/>cgo2016</ref>).</p>
+          <p>Cédric Bastoul and Vincent Loechner have been part of the program committee of both HIP3ES 2016 and HIP3ES 2017 (International Workshop on High Performance Energy Efficient Embedded Systems), held in conjunction with the international conference HiPEAC 2016 (resp. HiPEAC 2017).</p>
+          <p>Cédric Bastoul has been part of the program committee of PARMA+DITAM 2016 and PARMA+DITAM 2017 (Workshop on Parallel Programming and Run-Time Management Techniques for Many-core Architectures + Workshop on Design Tools and Architerctures for Multicore Embedded Computing Platforms), held in conjunction with HiPEAC 2016 (resp. HiPEAC 2017).</p>
+          <p>Cédric Bastoul has been part of the program committee of the international conference on Compiler Construction 2017 (CC'2017).</p>
+        </subsection>
+        <subsection id="uid101" level="3">
+          <bodyTitle>Reviewer</bodyTitle>
+          <p>Philippe Clauss has been reviewer for the following conferences and workshops: IMPACT 2017 (International Workshop on Polyhedral Compilation Techniques), CC 2017 (International Conference on Compiler Construction).</p>
+          <p>Cédric Bastoul has been reviewer for the following international conferences and workshops: CC 2017 (International Conference on Compiler Construction), PARMA 2016 and 2017 (International Workshop on Parallel Programming and Run-Time Management Techniques for Many-core Architectures), IMPACT 2016 and 2017 (International Workshop on Polyhedral Compilation Techniques), HIP3ES 2016 and 2017 (International Workshop on High Performance Energy Efficient Embedded Systems).</p>
+          <p>Vincent Loechner has been reviewer for CC 2017 (International Conference on Compiler Construction), HIP3ES 2016 and 2017 (International Workshop on High Performance Energy Efficient Embedded Systems).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid102" level="2">
+        <bodyTitle>Journal</bodyTitle>
+        <subsection id="uid103" level="3">
+          <bodyTitle>Member of the Editorial Boards</bodyTitle>
+          <p>Since October 2001, J. Gustedt is Editor-in-Chief of the journal
+<i>Discrete Mathematics and Theoretical Computer Science</i>
+(<ref xlink:href="http://www.dmtcs.org/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">DMTCS</ref>).</p>
+        </subsection>
+        <subsection id="uid104" level="3">
+          <bodyTitle>Reviewer - Reviewing Activities</bodyTitle>
+          <p>Philippe Clauss has been reviewer for the following journals: ACM TACO (Transactions on Architecture and Code Optimization), Parallel Computing.</p>
+          <p>Cédric Bastoul has been reviewer for the <i>ACM Transactions on Parallel Computing International Journal</i> (TOPC).</p>
+          <p>Jens Gustedt has been reviewer for Theory of Computing Systems.</p>
+          <p>Vincent Loechner has been reviewer for <i>Computer Communications</i> (Elsevier).</p>
+        </subsection>
+      </subsection>
+      <subsection id="uid105" level="2">
+        <bodyTitle>Invited Talks</bodyTitle>
+        <p>Philippe Clauss has been invited to present the framework Apollo at the Parallel Programming Laboratory of the University of Darmstadt, Germany, October the 28th.</p>
+        <p>Philippe Clauss has presented the framework Apollo at the COSI research group of the Colorado State University, Fort Collins, USA, July the 1st.</p>
+      </subsection>
+      <subsection id="uid106" level="2">
+        <bodyTitle>Scientific Expertise</bodyTitle>
+        <p>Cédric Bastoul as been an expert for the French research ministry and the French finance ministry for the research tax credit programme.</p>
+        <p>Jens Gustedt served as expert
+for project evaluation for the Belgian FNRS, and as evaluator of
+the FEMTO-ST Lab, Besançon, for the French HCERES.</p>
+      </subsection>
+      <subsection id="uid107" level="2">
+        <bodyTitle>Standardization</bodyTitle>
+        <p>Since Nov. 2014, Jens Gustedt is a member of the ISO working group
+SC22-WG14 for the standardization of the C programming
+language. He participates actively in the
+<ref xlink:href="http://www.open-std.org/jtc1/sc22/wg14/www/docs/summary.htm" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">defect
+report</ref>
+processing, the planning of future versions of the standard, and
+publishes an ongoing document to track inconsistencies and
+improvements of the C threads interface.</p>
+        <p>This work on the C programming language also gave rise to the
+proposal of a language extension, <ref xlink:href="http://cmod.gforge.inria.fr/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Modular
+C</ref>. It has been used for the
+implementation of an efficient toolbox for <i>higher order
+automatic differenciation</i>, <tt>arbogast</tt>,
+see <ref xlink:href="#camus-2016-bid13" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>
+and <ref xlink:href="#camus-2016-bid14" location="biblio" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"/>, which has been presented at
+the quadrennial conference of the domain, AD2016.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid108" level="1">
+      <bodyTitle>Teaching - Supervision - Juries</bodyTitle>
+      <subsection id="uid109" level="2">
+        <bodyTitle>Teaching</bodyTitle>
+        <sanspuceslist>
+          <li id="uid110">
+            <p noindent="true">Licence : Philippe Clauss, Architecture des ordinateurs, 45h, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid111">
+            <p noindent="true">Licence : Philippe Clauss, Systèmes d'exploitation, 40h, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid112">
+            <p noindent="true">Master : Philippe Clauss, Compilation, 78h, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid113">
+            <p noindent="true">Master : Philippe Clauss, Système et programmation temps-réel, 25h, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid114">
+            <p noindent="true">Master : Philippe Clauss, Compilation avancée, 30h, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid115">
+            <p noindent="true">Licence : Éric Violard,
+Programmation Fonctionnelle (licence informatique), 64h eq. TD, L2,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid116">
+            <p noindent="true">Licence : Éric Violard,
+Architecture des Ordinateurs (licence informatique), 54h eq. TD, L2,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid117">
+            <p noindent="true">Licence : Éric Violard,
+Logique et Programmation Logique (licence informatique), 34h eq. TD, L2,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid118">
+            <p noindent="true">Licence : Éric Violard,
+Algorithmique et Structures de Données (licence mathématique), 39h eq. TD, L3,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid119">
+            <p noindent="true">Licence : Éric Violard,
+Modèles de Calcul (licence informatique), 29h eq. TD, L1,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid120">
+            <p noindent="true">Licence : Vincent Loechner, Systèmes d'exploitation, 51h, L2, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid121">
+            <p noindent="true">Master : Vincent Loechner, parallélisme, 14h, M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid122">
+            <p noindent="true">Master : Vincent Loechner, calcul parallèle, 32h, M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid123">
+            <p noindent="true">Master : Vincent Loechner, langages interprétés, 37h, M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid124">
+            <p noindent="true">Master : Vincent Loechner, OS embarqués, 31h, M2, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid125">
+            <p noindent="true">Telecom Physique Strasbourg : Vincent Loechner, calcul parallèle, 20h, M2, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid126">
+            <p noindent="true">Licence : Alain Ketterlin, Systèmes d'exploitation, 20h,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid127">
+            <p noindent="true">Licence : Alain Ketterlin, Systèmes Concurrents, 24h,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid128">
+            <p noindent="true">Licence : Alain Ketterlin, Réseaux et protocoles, 42h,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid129">
+            <p noindent="true">Master : Alain Ketterlin, Compilation, 26h,
+Université de Strasbourg, France</p>
+          </li>
+          <li id="uid130">
+            <p noindent="true">Licence : Cédric Bastoul, Architecture, 68h, L1 (IUT), Université de Strasbourg, France</p>
+          </li>
+          <li id="uid131">
+            <p noindent="true">Licence : Cédric Bastoul, Operating Systems, 16h, L2, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid132">
+            <p noindent="true">Licence : Cédric Bastoul, Concurrent Systems, 19h, L3, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid133">
+            <p noindent="true">Master : Cédric Bastoul, Compiler Design, 48h, M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid134">
+            <p noindent="true">Master : Cédric Bastoul, Parallelism, 16h, M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid135">
+            <p noindent="true">Master : Cédric Bastoul, Introduction to Research, 7h, L3+M1, Université de Strasbourg, France</p>
+          </li>
+          <li id="uid136">
+            <p noindent="true">2nd year engineering school: Jens Gustedt, programmation avancée, 20h, ENSIIE Strasbourg, France</p>
+          </li>
+          <li id="uid137">
+            <p noindent="true">Licence : Jens Gustedt, systèmes concurrents, 20h, Université de Strasbourg, France</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid138" level="2">
+        <bodyTitle>Supervision</bodyTitle>
+        <sanspuceslist>
+          <li id="uid139">
+            <p noindent="true">PhD: Tomasz Buchert, Madynes team, <i>Orchestration of
+experiments on distributed systems</i>, since Oct 2011,
+defended on Jan 6 2016, Jens Gustedt &amp; Lucas Nussbaum.</p>
+          </li>
+          <li id="uid140">
+            <p noindent="true">PhD: Juan Manuel Martinez Caamaño, <i>Fast and Flexible Compilation Techniques for Effective Speculative Polyhedral
+Parallelization</i>, September 29th 2016, Philippe Clauss and Philippe Helluy
+(IRMA lab., University of Strasbourg)</p>
+          </li>
+          <li id="uid141">
+            <p noindent="true">PhD: Michel Massaro, <i>Méthodes numériques pour les plasmas sur architectures multicœurs</i>,
+December 16th 2016, Philippe Helluy and Vincent Loechner</p>
+          </li>
+          <li id="uid142">
+            <p noindent="true">PhD: Lénaïc Bagnères, Adaptation automatique et semi-automatique des optimisations de programmes, September 30<sup>th</sup>, Christine Eisenbeis and Cédric Bastoul</p>
+          </li>
+          <li id="uid143">
+            <p noindent="true">PhD: Olexander Zinenko, Interactive Program Restructuring, November 25<sup>th</sup> 2016, Stéphane Huot and Cédric Bastoul</p>
+          </li>
+          <li id="uid144">
+            <p noindent="true">PhD in progress: Yann Barsamian, <i>Optimization and parallelization of particle and semi-Lagrangian methods for multi species plasma simulations</i>, since Oct 2014, Éric Violard</p>
+          </li>
+          <li id="uid145">
+            <p noindent="true">PhD in progress: Mariem Saied, <i>Ordered Read-Write
+Locks for Multicores and Accelerators</i>, since Nov 2013, Jens
+Gustedt &amp; Gilles Muller.</p>
+          </li>
+          <li id="uid146">
+            <p noindent="true">PhD in progress: Daniel Salas, <i>Integration of the ORWL
+model into parallel applications for medical research</i>, since Mar 2015, Jens
+Gustedt &amp; Isabelle Perseil.</p>
+          </li>
+          <li id="uid147">
+            <p noindent="true">PhD in progress: Nabil Hallou, <i>Dynamic binary optimizations</i>, since January 2013, Erven Rohou (PACAP
+team) and Philippe Clauss</p>
+          </li>
+          <li id="uid148">
+            <p noindent="true">PhD in progress: Harenome Ranaivoarivony-Razanajato, <i>Hierarchical Optimization and Parallelization</i>, September 2016, Vincent Loechner and Philippe Clauss</p>
+          </li>
+          <li id="uid149">
+            <p noindent="true">PhD in progress: Maxime Schmitt, <i>Automatic Generation of Adaptive Codes</i>, September 2016, Cédric Bastoul and Philippe Helluy</p>
+          </li>
+          <li id="uid150">
+            <p noindent="true">PhD in progress: Paul Godard, <i>Parallelization and Scalability of an Image Processing Pipeline for Professional Printing</i>, September 2016, Vincent Loechner and Cédric Bastoul</p>
+          </li>
+        </sanspuceslist>
+      </subsection>
+      <subsection id="uid151" level="2">
+        <bodyTitle>Juries</bodyTitle>
+        <p>Philippe Clauss participated to the following PhD committees in 2016:</p>
+        <table rend="inline">
+          <tr style="border-top-style:solid;border-top-width:1px;border-bottom-style:solid; border-bottom-width:1px;" top-border="true" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">
+              <b>Date</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Candidate</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Place</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Role</b>
+            </td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">Jun. 30</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Guillaume Iooss</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Colorado State Univ., USA</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">Oct. 28</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Zhen Li</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Univ. Darmstadt, Germany</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">Sept. 29</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Juan Manuel Martinez Caamaño</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Univ. Strasbourg</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Advisor</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">Dec. 14</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Julien Pagès</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Univ. Montpellier</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <caption/>
+        </table>
+        <p>Cédric Bastoul participated to the following PhD committees in 2016:</p>
+        <table rend="inline">
+          <tr style="border-top-style:solid;border-top-width:1px;border-bottom-style:solid; border-bottom-width:1px;" top-border="true" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">
+              <b>Date</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Candidate</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Place</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Role</b>
+            </td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">June 22</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Abdul Memon</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Paris-Saclay University</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">September 30</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Lénaïc Bagnères</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Paris-Saclay University</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Advisor</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">November 18</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Albert Saa</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Universitat Autònoma de Barcelona</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">November 25</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Oleksandr Zinenko</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Paris-Saclay University</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Advisor</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">November 30</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Pierre Guillou</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Paris Sciences et Lettres Research University</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Reviewer</td>
+          </tr>
+          <caption/>
+        </table>
+        <p>Vincent Loechner participated to the following PhD committees in 2016:</p>
+        <table rend="inline">
+          <tr style="border-top-style:solid;border-top-width:1px;border-bottom-style:solid; border-bottom-width:1px;" top-border="true" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">
+              <b>Date</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Candidate</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Place</b>
+            </td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">
+              <b>Role</b>
+            </td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">May 10</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Arjun Suresh</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Univ. Rennes 1</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Examiner</td>
+          </tr>
+          <tr style="border-bottom-style:solid; border-bottom-width:1px;" bottom-border="true">
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;border-left-style:solid;border-left-width:1px;" right-border="true" left-border="true" halign="left">December 16</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Michel Massaro</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Univ. Strasbourg</td>
+            <td style="text-align:left;border-right-style:solid;border-right-width:1px;" right-border="true" halign="left">Co-advisor</td>
+          </tr>
+          <caption/>
+        </table>
+        <p>Vincent Loechner was the president of the recruiting jury (<i>comité de sélection</i>) for an assistant professor position at the Department of Mathematics and Computer Science of the University of Strasbourg, during Spring 2016.</p>
+      </subsection>
+    </subsection>
+    <subsection id="uid152" level="1">
+      <bodyTitle>Popularization</bodyTitle>
+      <sanspuceslist>
+        <li id="uid153">
+          <p noindent="true">Jens Gustedt is regularly blogging about efficient programming, in
+particular about the <ref xlink:href="http://gustedt.wordpress.com/" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">C programming
+language</ref>. He also is an active
+member of the <ref xlink:href="http://stackoverflow.com/questions/tagged/c" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">stackoverflow
+community</ref> a
+technical Q&amp;A site for programming and related subjects.
+A first complete online version of his book
+<ref xlink:href="http://icube-icps.unistra.fr/index.php/File:ModernC.pdf" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><i>Modern
+C</i></ref>, to
+appear in 2017, has been accessed more than 10000 times on a single day.</p>
+        </li>
+      </sanspuceslist>
+    </subsection>
+  </diffusion>
+  <biblio id="bibliography" html="bibliography" numero="10" titre="Bibliography">
+    
+    <biblStruct id="camus-2016-bid4" type="article" rend="refer" n="refercite:clauss:inria-00330024">
+      <identifiant type="doi" value="10.1016/j.jpdc.2009.09.002"/>
+      <identifiant type="hal" value="inria-00330024"/>
+      <analytic>
+        <title level="a">Iterative Computations with Ordered Read-Write Locks</title>
+        <author>
+          <persName>
+            <foreName>Pierre-Nicolas</foreName>
+            <surname>Clauss</surname>
+            <initial>P.-N.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Journal of Parallel and Distributed Computing</title>
+        <imprint>
+          <biblScope type="volume">70</biblScope>
+          <biblScope type="number">5</biblScope>
+          <dateStruct>
+            <year>2010</year>
+          </dateStruct>
+          <biblScope type="pages">496­-504</biblScope>
+          <ref xlink:href="https://hal.inria.fr/inria-00330024" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00330024</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid5" type="techreport" rend="refer" n="refercite:gustedt:hal-01236734">
+      <identifiant type="hal" value="hal-01236734"/>
+      <monogr>
+        <title level="m">Futex based locks for C11's generic atomics</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8818</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Nancy</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2015</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01236734" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01236734</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid20" type="article" rend="refer" n="refercite:jimborean:hal-01003744">
+      <identifiant type="hal" value="hal-01003744"/>
+      <analytic>
+        <title level="a">Dynamic and Speculative Polyhedral Parallelization Using Compiler-Generated Skeletons</title>
+        <author>
+          <persName>
+            <foreName>Alexandra</foreName>
+            <surname>Jimborean</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+          <persName key="camus-2014-idp72192">
+            <foreName>Jean-François</foreName>
+            <surname>Dollinger</surname>
+            <initial>J.-F.</initial>
+          </persName>
+          <persName key="camus-2014-idp65704">
+            <foreName>Vincent</foreName>
+            <surname>Loechner</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Martinez</foreName>
+            <surname>Juan Manuel</surname>
+            <initial>M.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">International Journal of Parallel Programming</title>
+        <imprint>
+          <biblScope type="volume">42</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2014</year>
+          </dateStruct>
+          <biblScope type="pages">529-545</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01003744" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01003744</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid21" type="inproceedings" rend="refer" n="refercite:ketterlin:2010:inria-00504597:1">
+      <identifiant type="doi" value="10.1145/1356058.1356071"/>
+      <analytic>
+        <title level="a">Prediction and trace compression of data access addresses through nested loop recognition</title>
+        <author>
+          <persName key="alf-2014-idp68616">
+            <foreName>Alain</foreName>
+            <surname>Ketterlin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes" x-editorial-board="yes">
+        <title level="m">6th annual IEEE/ACM international symposium on Code generation and optimization</title>
+        <loc>Boston, USA</loc>
+        <imprint>
+          <publisher>
+            <orgName>ACM</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">94-103</biblScope>
+          <ref xlink:href="http://dx.doi.org/10.1145/1356058.1356071" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>dx.<allowbreak/>doi.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>1356058.<allowbreak/>1356071</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid24" type="inproceedings" rend="refer" n="refercite:micro-2012">
+      <analytic>
+        <title level="a">Profiling Data-Dependence to Assist Parallelization: Framework, Scope, and Optimization</title>
+        <author>
+          <persName key="alf-2014-idp68616">
+            <foreName>Alain</foreName>
+            <surname>Ketterlin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-international-audience="yes" x-proceedings="yes">
+        <title level="m">MICRO-45 – Proceedings of the 2012 IEEE/ACM 45th International Symposium on Microarchitecture</title>
+        <loc>Vancouver, Canada</loc>
+        <imprint>
+          <dateStruct>
+            <month>December</month>
+            <year>2012</year>
+          </dateStruct>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid22" type="article" rend="refer" n="refercite:pradelle:hal-00664370">
+      <identifiant type="doi" value="10.1145/2086696.2086718"/>
+      <identifiant type="hal" value="hal-00664370"/>
+      <analytic>
+        <title level="a">Polyhedral parallelization of binary code</title>
+        <author>
+          <persName>
+            <foreName>Benoit</foreName>
+            <surname>Pradelle</surname>
+            <initial>B.</initial>
+          </persName>
+          <persName key="alf-2014-idp68616">
+            <foreName>Alain</foreName>
+            <surname>Ketterlin</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">ACM Transactions on Architecture and Code Optimization</title>
+        <imprint>
+          <biblScope type="volume">8</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">39:1–39:21</biblScope>
+          <ref xlink:href="http://hal.inria.fr/hal-00664370" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-00664370</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid23" type="article" rend="refer" n="refercite:seghir:inria-00582388">
+      <identifiant type="doi" value="10.1145/2207222.2207224"/>
+      <identifiant type="hal" value="inria-00582388"/>
+      <analytic>
+        <title level="a">Integer Affine Transformations of Parametric Z-polytopes and Applications to Loop Nest Optimization</title>
+        <author>
+          <persName>
+            <foreName>Rachid</foreName>
+            <surname>Seghir</surname>
+            <initial>R.</initial>
+          </persName>
+          <persName key="camus-2014-idp65704">
+            <foreName>Vincent</foreName>
+            <surname>Loechner</surname>
+            <initial>V.</initial>
+          </persName>
+          <persName>
+            <foreName>Benoît</foreName>
+            <surname>Meister</surname>
+            <initial>B.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-editorial-board="yes" x-international-audience="yes">
+        <title level="j">ACM Transactions on Architecture and Code Optimization</title>
+        <imprint>
+          <biblScope type="volume">9</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <month>June</month>
+            <year>2012</year>
+          </dateStruct>
+          <biblScope type="pages">8.1-8.27</biblScope>
+          <ref xlink:href="http://hal.inria.fr/inria-00582388" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00582388</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid6" type="phdthesis" rend="year" n="cite:martinezcaamano:tel-01377758">
+      <identifiant type="hal" value="tel-01377758"/>
+      <monogr>
+        <title level="m">Fast and Flexible Compilation Techniques for Effective Speculative Polyhedral Parallelization</title>
+        <author>
+          <persName key="camus-2014-idp74720">
+            <foreName>Juan Manuel</foreName>
+            <surname>Martinez Caamaño</surname>
+            <initial>J. M.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <publisher>
+            <orgName type="school">Université de Strasbourg</orgName>
+          </publisher>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/tel-01377758" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>tel-01377758</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Theses</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid18" type="incollection" rend="year" n="cite:leilahernane:hal-01308989">
+      <identifiant type="hal" value="hal-01308989"/>
+      <analytic>
+        <title level="a">Transparent distributed data management in large scale distributed systems</title>
+        <author>
+          <persName>
+            <foreName>Soumeya</foreName>
+            <surname>Leila Hernane</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no">
+        <title level="m">Pervasive Computing</title>
+        <imprint>
+          <publisher>
+            <orgName>Academic Press</orgName>
+          </publisher>
+          <dateStruct>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">153-194</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01308989" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01308989</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid15" type="article" rend="year" n="cite:sukumaranrajam:hal-01244464">
+      <identifiant type="doi" value="10.1145/2838734"/>
+      <identifiant type="hal" value="hal-01244464"/>
+      <analytic>
+        <title level="a">The Polyhedral Model of Nonlinear Loops</title>
+        <author>
+          <persName key="camus-2014-idp75984">
+            <foreName>Aravind</foreName>
+            <surname>Sukumaran-Rajam</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" id="rid00016">
+        <idno type="issn">1544-3566</idno>
+        <title level="j">ACM Transactions on Architecture and Code Optimization</title>
+        <imprint>
+          <biblScope type="volume">12</biblScope>
+          <biblScope type="number">4</biblScope>
+          <dateStruct>
+            <month>January</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01244464" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01244464</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid7" type="inproceedings" rend="year" n="cite:bagneres:hal-01253322">
+      <identifiant type="hal" value="hal-01253322"/>
+      <analytic>
+        <title level="a">Opening Polyhedral Compiler's Black Box</title>
+        <author>
+          <persName key="postale-2014-idp110728">
+            <foreName>Lénaïc</foreName>
+            <surname>Bagnères</surname>
+            <initial>L.</initial>
+          </persName>
+          <persName key="in-situ-2014-idp89448">
+            <foreName>Oleksandr</foreName>
+            <surname>Zinenko</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="mint-2014-idm5896">
+            <foreName>Stéphane</foreName>
+            <surname>Huot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="camus-2014-idm27640">
+            <foreName>Cédric</foreName>
+            <surname>Bastoul</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CGO 2016 - 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization</title>
+        <loc>Barcelona, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01253322" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01253322</ref>
+        </imprint>
+        <meeting id="cid312438">
+          <title>International Symposium on Code Generation and Optimization</title>
+          <num>2016</num>
+          <abbr type="sigle">CGO</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid8" type="inproceedings" rend="year" n="cite:bastoul:hal-01271998">
+      <identifiant type="hal" value="hal-01271998"/>
+      <analytic>
+        <title level="a">Mapping Deviation: A Technique to Adapt or to Guard Loop Transformation Intuitions for Legality</title>
+        <author>
+          <persName key="camus-2014-idm27640">
+            <foreName>Cédric</foreName>
+            <surname>Bastoul</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">CC'2016 25th International Conference on Compiler Construction</title>
+        <loc>Barcelone, Spain</loc>
+        <imprint>
+          <dateStruct>
+            <month>March</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01271998" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01271998</ref>
+        </imprint>
+        <meeting id="cid114893">
+          <title>International Conference on Compiler Construction</title>
+          <num>25</num>
+          <abbr type="sigle">CC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid16" type="inproceedings" rend="year" n="cite:gustedt:hal-01304108">
+      <identifiant type="doi" value="10.1145/2851613.2851956"/>
+      <identifiant type="hal" value="hal-01304108"/>
+      <analytic>
+        <title level="a">Futex based locks for C11's generic atomics (extended abstract)</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">The 31st Annual ACM Symposium on Applied Computing</title>
+        <loc>Pisa, Italy</loc>
+        <imprint>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01304108" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01304108</ref>
+        </imprint>
+        <meeting id="cid23923">
+          <title>ACM Symposium on Applied Computing</title>
+          <num>31</num>
+          <abbr type="sigle">SAC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid10" subtype="nonparu-n" type="inproceedings" rend="year" n="cite:mansouri:hal-01325850">
+      <identifiant type="hal" value="hal-01325850"/>
+      <analytic>
+        <title level="a">Le modèle de programmation ORWL pour la parallélisation d'une application de suivi vidéo HD sur architecture multi-coeurs</title>
+        <author>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="no" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">Conférence d'informatique en Parallélisme, Architecture et Système (COMPAS)</title>
+        <loc>Lorient, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>July</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01325850" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01325850</ref>
+        </imprint>
+        <meeting id="cid623688">
+          <title>Conférence d'informatique en Parallélisme, Architecture et Système</title>
+          <num>2014</num>
+          <abbr type="sigle">ComPAS</abbr>
+        </meeting>
+      </monogr>
+      <note type="bnote">accepted for publication in Compas'16</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid3" type="inproceedings" rend="best" n="cite:martinezcaamano:hal-01377656">
+      <identifiant type="doi" value="10.1007/978-3-319-43659-3_17"/>
+      <identifiant type="hal" value="hal-01377656"/>
+      <analytic>
+        <title level="a">Code Bones: Fast and Flexible Code Generation for Dynamic and Speculative Polyhedral Optimization</title>
+        <author>
+          <persName key="camus-2014-idp74720">
+            <foreName>Juan Manuel</foreName>
+            <surname>Martinez Caamaño</surname>
+            <initial>J. M.</initial>
+          </persName>
+          <persName key="camus-2014-idp82320">
+            <foreName>Willy</foreName>
+            <surname>Wolff</surname>
+            <initial>W.</initial>
+          </persName>
+          <persName key="camus-2014-idm29072">
+            <foreName>Philippe</foreName>
+            <surname>Clauss</surname>
+            <initial>P.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName>
+            <foreName/>
+            <surname>Springer-Verlag</surname>
+            <initial/>
+          </persName>
+        </editor>
+        <title level="m">Euro-Par 2016</title>
+        <loc>Grenoble, France</loc>
+        <title level="s">Proceedings of the 22nd International Conference Euro-Par 2016: Parallel Processing</title>
+        <imprint>
+          <biblScope type="volume">9833</biblScope>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">12</biblScope>
+          <ref xlink:href="https://hal.inria.fr/hal-01377656" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01377656</ref>
+        </imprint>
+        <meeting id="cid306382">
+          <title>International Euro-Par Conference on Parallel Processing</title>
+          <num>22</num>
+          <abbr type="sigle">Euro-Par</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid9" type="inproceedings" rend="year" n="cite:saied:hal-01337093">
+      <identifiant type="hal" value="hal-01337093"/>
+      <analytic>
+        <title level="a">Automatic Code Generation for Iterative Multi-dimensional Stencil Computations</title>
+        <author>
+          <persName key="algorille-2014-idp131864">
+            <foreName>Mariem</foreName>
+            <surname>Saied</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="whisper-2014-idm28256">
+            <foreName>Gilles</foreName>
+            <surname>Muller</surname>
+            <initial>G.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <editor role="editor">
+          <persName key="roma-2014-idp68776">
+            <foreName>Anne</foreName>
+            <surname>Benoît</surname>
+            <initial>A.</initial>
+          </persName>
+        </editor>
+        <title level="m">High Performance Computing, Data, and Analitics</title>
+        <loc>Hydarabat, India</loc>
+        <imprint>
+          <publisher>
+            <orgName>IEEE</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01337093" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01337093</ref>
+        </imprint>
+        <meeting id="cid283870">
+          <title>International Conference on High Performance Computing</title>
+          <num>23</num>
+          <abbr type="sigle">HIPC</abbr>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid12" type="inproceedings" rend="year" n="cite:salas:hal-01325648">
+      <identifiant type="hal" value="hal-01325648"/>
+      <analytic>
+        <title level="a">Resource-Centered Distributed Processing of Large Histopathology Images</title>
+        <author>
+          <persName key="camus-2015-idp118016">
+            <foreName>Daniel</foreName>
+            <surname>Salas</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName>
+            <foreName>Daniel</foreName>
+            <surname>Racoceanu</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Isabelle</foreName>
+            <surname>PERSEIL</surname>
+            <initial>I.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr x-scientific-popularization="no" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no" x-editorial-board="yes">
+        <title level="m">19th IEEE International Conference on Computational Science and Engineering</title>
+        <loc>Paris, France</loc>
+        <imprint>
+          <dateStruct>
+            <month>August</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01325648" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01325648</ref>
+        </imprint>
+        <meeting id="cid82113">
+          <title>IEEE International Conference on Computational Science and Engineering</title>
+          <num>19</num>
+          <abbr type="sigle"/>
+        </meeting>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid13" type="techreport" rend="year" n="cite:charpentier:hal-01313355">
+      <identifiant type="hal" value="hal-01313355"/>
+      <monogr>
+        <title level="m">Arbogast – Origine d'un outil de dérivation automatique</title>
+        <author>
+          <persName>
+            <foreName>Isabelle</foreName>
+            <surname>Charpentier</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName>
+            <foreName>Jean-Pierre</foreName>
+            <surname>Friedelmeyer</surname>
+            <initial>J.-P.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8911</biblScope>
+          <publisher>
+            <orgName type="institution">Inria</orgName>
+          </publisher>
+          <dateStruct>
+            <month>May</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01313355" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01313355</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid14" type="techreport" rend="year" n="cite:charpentier:hal-01307750">
+      <identifiant type="hal" value="hal-01307750"/>
+      <monogr>
+        <title level="m">Arbogast Higher order AD for special functions with Modular C</title>
+        <author>
+          <persName>
+            <foreName>Isabelle</foreName>
+            <surname>Charpentier</surname>
+            <initial>I.</initial>
+          </persName>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">8907</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Nancy - Grand Est (Villers-lès-Nancy, France)</orgName>
+          </publisher>
+          <dateStruct>
+            <month>April</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01307750" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01307750</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid11" type="techreport" rend="year" n="cite:gustedt:hal-01409101">
+      <identifiant type="hal" value="hal-01409101"/>
+      <monogr>
+        <title level="m">Fully-abstracted affinity optimization for task-based models</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <biblScope type="number">RR-8993</biblScope>
+          <publisher>
+            <orgName type="institution">Inria Nancy</orgName>
+          </publisher>
+          <dateStruct>
+            <month>December</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01409101" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01409101</ref>
+        </imprint>
+      </monogr>
+      <note type="typdoc">Research Report</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid17" type="misc" rend="year" n="cite:gustedt:hal-01416284">
+      <identifiant type="doi" value="10.1109/CLUSTER.2016.87"/>
+      <identifiant type="hal" value="hal-01416284"/>
+      <monogr x-scientific-popularization="no" x-editorial-board="yes" x-international-audience="yes" x-proceedings="yes" x-invited-conference="no">
+        <title level="m">Optimizing Locality by Topology-aware Placement for a Task Based Programming Model</title>
+        <author>
+          <persName key="algorille-2014-idp13160">
+            <foreName>Jens</foreName>
+            <surname>Gustedt</surname>
+            <initial>J.</initial>
+          </persName>
+          <persName key="runtime-2014-idp84448">
+            <foreName>Emmanuel</foreName>
+            <surname>Jeannot</surname>
+            <initial>E.</initial>
+          </persName>
+          <persName key="tadaam-2015-idp79688">
+            <foreName>Farouk</foreName>
+            <surname>Mansouri</surname>
+            <initial>F.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>September</month>
+            <year>2016</year>
+          </dateStruct>
+          <biblScope type="pages">164 - 165</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/hal-01416284" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>hal-01416284</ref>
+        </imprint>
+      </monogr>
+      <note type="howpublished">IEEE Cluster 2016 Conference</note>
+      <note type="bnote">Poster</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid19" type="unpublished" rend="year" n="cite:zinenko:hal-01406294">
+      <identifiant type="hal" value="hal-01406294"/>
+      <monogr>
+        <title level="m">Interactive Program Restructuring</title>
+        <author>
+          <persName key="in-situ-2014-idp89448">
+            <foreName>Oleksandr</foreName>
+            <surname>Zinenko</surname>
+            <initial>O.</initial>
+          </persName>
+          <persName key="mint-2014-idm5896">
+            <foreName>Stéphane</foreName>
+            <surname>Huot</surname>
+            <initial>S.</initial>
+          </persName>
+          <persName key="camus-2014-idm27640">
+            <foreName>Cédric</foreName>
+            <surname>Bastoul</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+        <imprint>
+          <dateStruct>
+            <month>November</month>
+            <year>2016</year>
+          </dateStruct>
+          <ref xlink:href="https://hal.inria.fr/hal-01406294" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>hal-01406294</ref>
+        </imprint>
+      </monogr>
+      <note type="bnote">working paper or preprint</note>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid1" type="inproceedings" rend="foot" n="footcite:Bas04">
+      <identifiant type="hal" value="ccsd-00017260"/>
+      <analytic>
+        <title level="a">Code Generation in the Polyhedral Model Is Easier Than You Think</title>
+        <author>
+          <persName key="camus-2014-idm27640">
+            <foreName>Cédric</foreName>
+            <surname>Bastoul</surname>
+            <initial>C.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">PACT'13 IEEE International Conference on Parallel Architecture and Compilation Techniques</title>
+        <loc>Juan-les-Pins, France</loc>
+        <imprint>
+          <dateStruct>
+            <year>2004</year>
+          </dateStruct>
+          <biblScope type="pages">7–16</biblScope>
+          <ref xlink:href="https://hal.archives-ouvertes.fr/ccsd-00017260" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://<allowbreak/>hal.<allowbreak/>archives-ouvertes.<allowbreak/>fr/<allowbreak/>ccsd-00017260</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid0" type="article" rend="foot" n="footcite:HPP09">
+      <identifiant type="doi" value="10.1145/1461928.1461946"/>
+      <analytic>
+        <title level="a">Compiler research: the next 50 years</title>
+        <author>
+          <persName>
+            <foreName>Mary</foreName>
+            <surname>Hall</surname>
+            <initial>M.</initial>
+          </persName>
+          <persName>
+            <foreName>David</foreName>
+            <surname>Padua</surname>
+            <initial>D.</initial>
+          </persName>
+          <persName>
+            <foreName>Keshav</foreName>
+            <surname>Pingali</surname>
+            <initial>K.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Commun. ACM</title>
+        <imprint>
+          <biblScope type="volume">52</biblScope>
+          <biblScope type="number">2</biblScope>
+          <dateStruct>
+            <year>2009</year>
+          </dateStruct>
+          <biblScope type="pages">60–67</biblScope>
+          <ref xlink:href="http://doi.acm.org/10.1145/1461928.1461946" location="extern" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://<allowbreak/>doi.<allowbreak/>acm.<allowbreak/>org/<allowbreak/>10.<allowbreak/>1145/<allowbreak/>1461928.<allowbreak/>1461946</ref>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    
+    <biblStruct id="camus-2016-bid2" type="inproceedings" rend="foot" n="footcite:HoborAN08">
+      <analytic>
+        <title level="a">Oracle Semantics for Concurrent Separation Logic</title>
+        <author>
+          <persName>
+            <foreName>Aquinas</foreName>
+            <surname>Hobor</surname>
+            <initial>A.</initial>
+          </persName>
+          <persName>
+            <foreName>Andrew W.</foreName>
+            <surname>Appel</surname>
+            <initial>A. W.</initial>
+          </persName>
+          <persName>
+            <foreName>Francesco Zappa</foreName>
+            <surname>Nardelli</surname>
+            <initial>F. Z.</initial>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">ESOP</title>
+        <imprint>
+          <dateStruct>
+            <year>2008</year>
+          </dateStruct>
+          <biblScope type="pages">353-367</biblScope>
+        </imprint>
+      </monogr>
+    </biblStruct>
+  </biblio>
+</raweb>
