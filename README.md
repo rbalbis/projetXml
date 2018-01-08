@@ -2,9 +2,9 @@
 
 Equipes : Balbis Robin, Dien Maxime, Sappa Valentin, Zaborowski William
 
-#Lancer le projet xml
+# Lancer le projet xml
 
-##Configurer la base de donnée
+## Configurer la base de donnée
 
 1. Installer exist-db 
 
@@ -22,12 +22,11 @@ Equipes : Balbis Robin, Dien Maxime, Sappa Valentin, Zaborowski William
 
 
 
-##Lancer le serveur Java
+## Lancer le serveur Java
 
 Pour lancer le serveur jetty et l'application web il faut lancer le projet avec les goals maven suivant : generate-sources install jetty:run 
 
 Les services REST proposés par l'application sont les suivant :
-
  * listCr qui renvoie les informations sur tous les centres de recherches du flux de données (http://localhost:8080/xml.rest/cr/listcr)
  * GetCr qui permet de renvoyer toutes les projets d'un centre de recherche (http://localhost:8080/xml.rest/cr/getCr-CR0008i)
  * TeamParCentre qui indique le nombre d'equipe dans chaque centres de recherches (http://localhost:8080/xml.rest/sr/teamParCentre)
@@ -36,4 +35,3 @@ Les services REST proposés par l'application sont les suivant :
 
  TODO : service de recherche de membre et de projets
 
- 
