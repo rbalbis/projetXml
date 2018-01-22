@@ -18,9 +18,9 @@ class DataTest {
   {
     return DataTest.doRequest("http://localhost:8080/xml.rest/sr/teamParCentre");}
 
- // ne pas utiliser !! 
+ // http://localhost:8080/xml.rest/sr/getProject-abs
  static getProject(sigleProject){
-    return DataTest.doRequest("http://localhost:8080/xml.rest/sr/getProject-"+sigleProject);
+   return DataTest.doRequest("http://localhost:8080/xml.rest/xquery/getProject-"+sigleProject);
   }
  
 
