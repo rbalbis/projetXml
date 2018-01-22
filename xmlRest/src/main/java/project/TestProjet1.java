@@ -34,7 +34,7 @@ public class TestProjet1 {
 	public String getXml(@PathParam("projet") String projet) {
 			try {
 				
-				HttpURLConnection conn = GetRequest.request("http://localhost:8088/exist/rest/afficheCount.xq?proj=ACACIA");
+				HttpURLConnection conn = GetRequest.request("http://localhost:8080/exist/rest/afficheCount.xq?proj=ACACIA");
 				HUCManager huc = new HUCManager(conn);
 				String res = huc.getMessage();
 				System.out.println(res);

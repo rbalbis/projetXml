@@ -29,13 +29,7 @@
         <script src="utils/FillSelectBox.js"></script>
 
     </head>
-    <body onload="getJsonFromURL('http://localhost:8080/xml.rest/cr/listcr', function(err, data) {
-      if (err !== null) {
-        alert('Something went wrong: ' + err);
-      } else {
-        alert('Your query count: ' + data.query.count);
-      }
-    } )";>
+    <body>
 
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -69,18 +63,22 @@
             <h4>Nombre de projets par centre</h4>
             <table class="table" id="projetsCr">
             </table>
-            <br>
             <div class="form-group">
-                <label id="titleProjects"><h3></h3></label>
-                <select class="form-control" style="display:none;" id="projects" onchange="generateTableProject('titleProjByCR', 'tableProjByCR',/* en vrai c'est projectsCR[value]' */ projectsCR[value])";> 
+                <label id="titleProjects"></label>
+                <select class="form-control" style="display:none;" id="projects" onchange="generateTableProject('titleProjByCR', 'tableProjByCR', projectsCR[value])";> 
                     <option disabled selected value> -- Aucun centre selectionnée -- </option>
                 </select>
             </div>
 
-            <br>
             <h4 id="titleProjByCR"></h4>
             <table id="tableProjByCR" class="table">  
             </table>
+
+            <div class="form-group">
+                <label for="searchProjects">Rechercher un/des projets par sigles ou mots clés :</label>
+                <input class="form-control" id="searchProjects" placeholder="SRxxxxxx OU Alchimie, Robotique ....">
+                <button onclick="generateSelectBoxAllProjetsBySearch('titleProjects', 'projects', document.getElementById('searchProjects').value)";>Rechercher</button>
+            </div>
         </div>
 
         <script>
@@ -97,14 +95,11 @@
             /* Recupération des centres de recherches*/
             var CRs = DataTest.getCR();
             console.log(CRs);
-
-            /* Récupération des projets pour un CR : ici test pour CR008I */
-            var projectsCR = DataTest.getAllProjectsForCR("CR008I");
-            console.log(projectsCR);
+            var projectsCR;
 
             /*Récupération d'un projet : ici le projet ABS */
-            var projectABS = DataTest.getProject("ABS")
-            console.log(projectABS);
+           // var projectABS = DataTest.getProject("ABS")
+           // console.log(projectABS);
 
             /* Rempli la map leaflet avec les data des centres de recherche */
             fillMap("cr", CRs);
@@ -116,11 +111,13 @@
             /*Fonction qui permet de mettre à jour la page en fonction des elements selectionnées*/
             function linkSiid(siid)
             {
+                document.getElementById('titleProjByCR').innerHTML = "";
+                document.getElementById('tableProjByCR').innerHTML = "";
+                projectsCR = DataTest.getAllProjectsForCR(siid);
                 $("#cr").val(siid);
                 generateTableRespoCR("responsableTab", "titreResponsableTab", CRs[siid]);
-                generateSelectBoxAllProjetsByCR("titleProjects", "projects", projectsCR , siid);
+                generateSelectBoxAllProjetsByCR("titleProjects", "projects", projectsCR, siid);
             }
-            console.log(projectsCR["ABS"]);
             </script>    
     </body>
 </html>

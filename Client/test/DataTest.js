@@ -26,7 +26,8 @@ class DataTest {
 
   //http://localhost:8080/xml.rest/cr/getCr-CR0008i
   static getAllProjectsForCR(siid)
-  {return DataTest.doRequest("http://localhost:8080/xml.rest/sr/getProjectFromCr-"+siid);
+  {
+    return DataTest.doRequest("http://localhost:8080/xml.rest/sr/getProjectFromCr-"+siid);
   }
 
   //http://localhost:8080/xml.rest/xquery/getMembers-andrea/tettamanzi
