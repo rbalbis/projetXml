@@ -32,6 +32,7 @@ Les services REST proposés par l'application sont les suivant :
  * TeamParCentre qui indique le nombre d'equipe dans chaque centres de recherches (http://localhost:8080/xml.rest/sr/teamParCentre)
  * projectsName qui permet de lister tous les projets du raweb (http://localhost:8080/xml.rest/xquery/projectName)
  * GetMembers qui liste tous les membres qui travaillent sur des projets dans le raweb (http://localhost:8080/xml.rest/xquery/getMembers)
-
- TODO : service de recherche de membre et de projets
+ * GetProject qui permet d'obtenir toutes les informations d'un projet inria (http://localhost:8080/xml.rest/xquery/getProject-ABS)
+ * GetMember(prenom,nom) qui permet de retrouver les informations sur un membre de l'inria (http://localhost:8080/xml.rest/xquery/getMembers-{prenom}/{nom})
+ 
 
