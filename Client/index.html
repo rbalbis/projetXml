@@ -15,11 +15,14 @@
         <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
         <script src="assets/leaflet/leaflet.js"></script>
 
+        <!-- SVG.JS -->
+        <script type="assets/svgjs/svg.min.js"></script>
+
         <!-- Style personnalisé -->
         <link rel="stylesheet" href="assets/css/style.css" />
 
-        <!-- DataTest -->
-        <script src="test/DataTest.js"></script>
+        <!-- Data -->
+        <script src="data/Data.js"></script>
 
         <!-- Utilitaire  -->
         <script src="utils/Json.js"></script>
@@ -68,6 +71,7 @@
                 <select class="form-control" style="display:none;" id="projects" onchange="generateTableProject('titleProjByCR', 'tableProjByCR', projectsCR[value])";> 
                     <option disabled selected value> -- Aucun centre selectionnée -- </option>
                 </select>
+                <div id="drawing"></div>
             </div>
 
             <h4 id="titleProjByCR"></h4>
