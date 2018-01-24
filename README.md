@@ -12,9 +12,9 @@ Equipes : Balbis Robin, Dien Maxime, Sappa Valentin, Zaborowski William
 ![ChangementPortSystemConfiguration](https://preview.ibb.co/dC1MEw/Screen_Shot_2018_01_07_at_13_11_31.png)
 
 3. Ajouter les fonctions dans la base de donnée ainsi que le dossier raweb :
-    * Accedez au dashboard d'exist-ds : http://localhost:8088/exist/apps/dashboard/index.html
+    * Accedez au dashboard d'exist-db : http://localhost:8088/exist/apps/dashboard/index.html
     * Cliquez sur l'icone "collections"
-    * Un menu s'affiche vous demandant de rentrer des identifiants, rentrez l'identifiant suivant : username : admin et laissez le mot de passe vide
+    * Un menu s'affiche vous demandant de rentrer des identifiants, rentrez l'identifiant : "admin" et laissez le mot de passe vide
     * Cliquez sur l'icone "upload ressources" 
     * Selectionnez tous les fichiers et dossiers qui se trouvent dans le dossier xquery du projet
 
