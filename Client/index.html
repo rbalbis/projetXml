@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
 
         <!-- Data -->
-        <script src="data/Data.js"></script>
+        <script src="test/DataTest.js"></script>
 
         <!-- Utilitaire  -->
         <script src="utils/Json.js"></script>
@@ -30,7 +30,23 @@
         <script src="utils/FillTable.js"></script>
         <script src="utils/Map.js"></script>
         <script src="utils/FillSelectBox.js"></script>
+        <script src="utils/charts.js"></script>
 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   
+   <script type="text/javascript">
+
+var result = "";
+
+      google.charts.load('current', {'packages':['corechart']});
+
+      google.charts.setOnLoadCallback(drawChart);
+
+        function allReady() {
+            var e = document.getElementById('chart_div');
+            e.inn = e.getElementsByTagName('svg')[0].parentNode.innerHTML;  
+      }
+      </script>
     </head>
     <body>
 
@@ -64,6 +80,7 @@
             <br>
             <h2>Statistiques</h2>
             <h4>Nombre de projets par centre</h4>
+            <div id="chart_div"></div>
             <table class="table" id="projetsCr">
             </table>
             <div class="form-group">
