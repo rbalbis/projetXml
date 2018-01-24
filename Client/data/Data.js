@@ -18,10 +18,10 @@ class DataTest {
   {
     return DataTest.doRequest("http://localhost:8080/xml.rest/sr/teamParCentre");}
 
- // ne pas utiliser !! 
- static getProject(sigleProject){
-    return DataTest.doRequest("http://localhost:8080/xml.rest/sr/getProject-"+sigleProject);
-  }
+    //http://localhost:8080/xml.rest/xquery/getProject-abs
+    static getProject(sigleProject){
+      return DataTest.doRequest("http://localhost:8080/xml.rest/xquery/getProject-"+sigleProject);
+     }
  
 
   //http://localhost:8080/xml.rest/cr/getCr-CR0008i
