@@ -97,7 +97,7 @@ var result = "";
 
             <div class="form-group">
                 <label for="searchProjects">Rechercher un/des projets par sigles ou mots clés :</label>
-                <input class="form-control" id="searchProjects" placeholder="SRxxxxxx OU Alchimie, Robotique ....">
+                <input class="form-control" id="searchProjects" placeholder="ABS, XXX, XXX....">
                 <button onclick="generateSelectBoxAllProjetsBySearch('titleProjects', 'projects', document.getElementById('searchProjects').value)";>Rechercher</button>
             </div>
         </div>
@@ -137,7 +137,7 @@ var result = "";
                 projectsCR = DataTest.getAllProjectsForCR(siid);
                 $("#cr").val(siid);
                 generateTableRespoCR("responsableTab", "titreResponsableTab", CRs[siid]);
-                generateSelectBoxAllProjetsByCR("titleProjects", "projects", projectsCR, siid);
+                generateSelectBoxAllProjetsByCR("titleProjects", "projects", projectsCR, CRs[siid].libelle);
             }
             </script>    
     </body>

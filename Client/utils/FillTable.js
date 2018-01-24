@@ -180,3 +180,45 @@ function addRowTbody(tbody, nameRow, dataRow)
     td.innerHTML = dataRow;
     tr.appendChild(td);
 }
+
+function generateTableFromSearch(idTitleTable, idTable, dataProject)
+{
+    dataProject = dataProject["raweb"];
+	/* Récupère et vide le tableau */  
+    var table = document.getElementById(idTable);
+    table.innerHTML = "";
+
+    //Maj du titre du tableau
+    document.getElementById(idTitleTable).innerHTML = "Projet ";
+
+    /* Génération du tbody du tableau */
+    var tBody = document.createElement("tbody");
+    table.appendChild(tBody);
+
+    //Libelle
+    addRowTbody(tBody,"Nom Projet",dataProject.identification.id + " "+ dataProject.identification.projectName);
+    addRowTbody(tBody, "HightLight", dataProject.highlights.subsection.p);
+    addRowTbody(tBody,"Fondement",dataProject.fondements.bodyTitle);
+    addRowTbody(tBody,"Membres Team",dataProject.team.person.length);
+
+
+    //Type structure
+   /* addRowTbody(tBody, "Type structure", dataProject.xxxx);
+
+    //Domaine
+    addRowTbody(tBody, "Domaine", dataProject.xxx + "<br> classification : " + dataProject.domaine[0].classification + "<br> siid : " + dataProject.domaine[0].siid );
+
+    //Date fermeture
+    addRowTbody(tBody, "Date fermeture", dataProject.dateFermeture);
+    
+    //Theme
+    addRowTbody(tBody, "Theme", dataProject.theme[0].value);
+
+    //Resume
+    addRowTbody(tBody, "Résume", dataProject.resume[0].value);
+
+    //Url
+    addRowTbody(tBody, "URL", "<a href="+dataProject.urlTeam[1].value+">" +dataProject.urlTeam[1].value+ "</a>");
+*/
+    return table;
+}

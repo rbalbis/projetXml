@@ -1,7 +1,7 @@
-function generateSelectBoxAllProjetsByCR(titleSelectBox, idSelectBoxProjs, dataProjets, siid)
+function generateSelectBoxAllProjetsByCR(titleSelectBox, idSelectBoxProjs, dataProjets, libelle)
 {
 	var title = document.getElementById(titleSelectBox);
-	title.innerHTML = "Les projets pour le centre de recherche : " + siid;
+	title.innerHTML = "Les projets pour le centre de recherche : " + libelle;
 	/* Ajout dans la combobox des projets */
 	var selectBox = document.getElementById(idSelectBoxProjs);
 	selectBox.style.display='';
@@ -19,20 +19,22 @@ function generateSelectBoxAllProjetsByCR(titleSelectBox, idSelectBoxProjs, dataP
 function generateSelectBoxAllProjetsBySearch(titleSelectBox, idSelectBoxProjs, inputValue)
 {
 	var project = DataTest.getProject(inputValue);
-	var title = document.getElementById(titleSelectBox);
-	title.innerHTML = "Les projets pour la recherche : " + inputValue;
-	/* Ajout dans la combobox des projets */
-	var selectBox = document.getElementById(idSelectBoxProjs);
-	selectBox.style.display='';
-	selectBox.innerHTML = "<option disabled value> -- Selectionnez un projet -- </option>";
-	
-	for(var i in project)
-	{
-		var option = document.createElement("option selected");
-		option.text = dataProjets[i].sigle + " || " + dataProjets[i].libellefr + "  " ;
-        option.value = dataProjets[i].sigle;
-        selectBox.add(option);
-	} 
-
-	generateTableProject('titleProjByCR', 'tableProjByCR', project);       
+	console.log(project["raweb"]);
+	if (project["raweb"]) {
+		var title = document.getElementById(titleSelectBox);
+		title.innerHTML = "Les projets pour la recherche : " + inputValue;
+		/* Ajout dans la combobox des projets */
+		var selectBox = document.getElementById(idSelectBoxProjs);
+		selectBox.style.display='';
+		
+		generateTableFromSearch('titleProjByCR', 'tableProjByCR', project);   
+	}else{
+		
+		var title = document.getElementById(titleSelectBox);
+		title.innerHTML = "Aucun projet trouvé pour la recherche : ";
+		
+		document.getElementById(idSelectBoxProjs).innerHTML = "";
+		document.getElementById("tableProjByCR").innerHTML = "";
+		document.getElementById("titleProjByCR").innerHTML = "";
+	}     
 }

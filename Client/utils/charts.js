@@ -19,12 +19,10 @@ function makeTab(){
         
         
         var lib = DataTest.getSpeCR(Object.keys(dataNbProjByCR)[i]).libelle;
-        console.log(lib);
         var newCell = [lib];
         newCell.push(dataNbProjByCR[Object.keys(dataNbProjByCR)[i]]);
         tab.push(newCell);
    
     }
-    console.log(tab);
    return tab;
 }
